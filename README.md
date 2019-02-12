@@ -9,7 +9,8 @@ build > html中是生成的html文件，主页是index.html
 
 source > locale/cn/LC_MESSAGES 包含了用于本地化rST的所有po文件。需要使用po编辑器打开（如poedit）。
 
-**非常重要**
+# **非常重要**
+
 翻译*.po文件时，不要改动rST的标记，常见的标记如下：
 * ``` :ref:`引用名称` ```
   注意，是\` （数字1左边的飘号），而不是单引号，更不是汉语中的单引号。
