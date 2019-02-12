@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="cn" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="cn" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>DCS Specific Functions &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Acronyms and Abbreviations" href="accr.html" />
+    <link rel="prev" title="Emergency Procedures" href="emergency.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> DCS: F-14 “雄猫” 中文飞行手册
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                协作预览 0.1.5
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">内容：</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱总览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general.html">General Design and Systems Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="weapons.html">Weapons and Weapons Employment Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="procedures.html">Procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">Emergency Procedures</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">DCS Specific Functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#jester">Jester</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#functionality">Functionality</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#iceman">Iceman</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#assisted-startup">Assisted Startup</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hb-dcs-f-14-specific-configuration-options">HB DCS F-14 Specific Configuration Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dcs-mission-editor-functions-specific-to-the-hb-dcs-f-14">DCS Mission Editor Functions Specific to the HB DCS F-14</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#heatblur-dcs-f-14-specific-options-in-the-mission-editor">Heatblur DCS F-14 Specific Options in the Mission Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#f-14-waypoints-in-the-mission-editor">F-14 Waypoints in the Mission Editor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accr.html">Acronyms and Abbreviations</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DCS: F-14 “雄猫” 中文飞行手册</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>DCS Specific Functions</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/dcs.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dcs-specific-functions">
+<h1>DCS Specific Functions<a class="headerlink" href="#dcs-specific-functions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="jester">
+<h2>Jester<a class="headerlink" href="#jester" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/jester.png" class="align-center" src="_images/jester.png" />
+<p>The Jester AI aims to be a functional AI radar intercept officer, RIO, for the Heatblur DCS F-14B, enabling a multicrew experience in a single player (per aircraft) environment.</p>
+<p>He is fully integrated into the rear cockpit controlling nearly all back seat systems with a focus on systems not controllable from the pilot seat.
+He is also modelled to take into account the limitations of a real human meaning that, amongst other things, his current headposition, visual spotting range and what his hands are doing are modelled fully.
+When controlling the systems at the RIO seat he performs all actions that a human RIO would have to do.</p>
+<p>To order/control Jester a command wheel is used for quick access, this wheel is dynamic depending on current mode selected and also depending on current situation.
+Feedback to the pilot from Jester is via the ICS using a library of recorded audio, simulating the experience of having a RIO actually talking to you and apart from acknowledging orders he will also communicate pertinent information to the pilot depending on situation.</p>
+<p>Finally, in a multiplayer environment a RIO joining a Tomcat in flight will find all controls at the rear seat in the position where Jester left them and if the human RIO disconnects Jester will resume control of the systems in the configuration the human player left them.</p>
+<div class="section" id="functionality">
+<h3>Functionality<a class="headerlink" href="#functionality" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/menu.png" src="_images/menu.png" />
+<p>The Jester menu is by default brought up using <strong>A</strong> and selection of a menu item (1 to 8) are done using <strong>CTRL + 1</strong> to <strong>8</strong>. These keycommands can be changed or set to a controller using the Jester category under F-14 Pilot in the DCS keybinds.
+The keycommands for the menu petals are designed in a way as to enable them to be mapped to an eight way hat on a game controller.
+In addition it's possible to use the viewing angle in the cockpit to select a petal while holding the Jester menu keybind for more than 0.5 seconds. This can be enabled or disabled in the F-14B options.</p>
+<p>Pictured above is the main Jester menu which contains all the different available contextual menus. The first press of the Jester menu command normally brings up one of the contextual menus depending on which mode and situation the aircraft is in.
+Air to air mode while airborne as an example lands the user directly into the <strong>BEYOND VISUAL RANGE - RADAR</strong> menu while airborne and in air to ground mode brings up the <strong>AIR TO GROUND - WEAPONS</strong> menu.
+In addition the take-off and landing modes have their own contextual menus only available when in those modes.</p>
+<p>After pressing the Jester menu command and landing in the relavant contextual menu another press of the same command then brings up the main Jester menu enabling selection of a different contextual menu than the automatic one.</p>
+<p>The normal sequence pressing the Jester menu command (defaulting to <strong>A</strong>) is thus, <strong>Menu OFF</strong> -&gt; <strong>Contextual menu depending on mode and situation</strong> -&gt; <strong>Main Menu</strong> -&gt; <strong>Menu OFF</strong>.</p>
+<p>From these menus it is then possible to control the various systems at the RIO seat.
+Depending on previous commands options in the different contextual menus might change and some systems use the petals of the menu as inputs/keypads to set frequencies and other numbers in those systems.</p>
+<p>As an example it is possible to tell Jester to set a waypoint in the navigational systems like this but it will require a lot of consecutive keypresses, as a shortcut it is in this case also possible have him enter a waypoint from a map marker set in the F10 view.
+To help with selecting a marker in this case the menu will show the user time since created and the name entered for the marker.</p>
+<p>In the case of a system needing to select a specific symbol, like choosing a target on the TID to lock in STT, the menu will allow the pilot to tell Jester to either lock the closest target, closest hostile target and so on.
+In addition it is also possible to specify a specific symbol/track to look using an azimuth/range system.</p>
+<p>Lastly, Jester is also able to read out the startup checklist helping the pilot to coldstart the F-14 in the assisted startup detailed further down.</p>
+</div>
+<div class="section" id="iceman">
+<h3>Iceman<a class="headerlink" href="#iceman" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/pilot.png" src="_images/pilot.png" />
+<p>In addition to Jester, or rather, as a subset of the Jester AI, the Heatblur DCS F-14B also has Iceman, a basic autopilot/AI.
+This is intended for use in singleplayer where a player might jump between the front and back seats to control both positions and enables a basic autopilot controllable from the back seat using the same methodology as the Jester controls from the front seat.</p>
+<p>The basic functionality is that when the player switches to the RIO seat, Iceman takes control and on the current heading and altitude. The, now Iceman, menu then allows the player to set heading, altitude and speed. Heading and altitude can be set relative a target or as absolutes not referencing an external target.</p>
+</div>
+<div class="section" id="assisted-startup">
+<h3>Assisted Startup<a class="headerlink" href="#assisted-startup" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/startup.png" src="_images/startup.png" />
+<p>For aircraft cold start, Jester can either perform his checklist like a real RIO would, or he can also help the pilot with an assisted startup in which he reads the pilot's checklist to him while starting.</p>
+<p>To access the normal, unassisted startup, select startup, Jester will then go through his checklist. He will at times ask the pilot if he has completed certain checks or ask for specific tests, this is answered via the Jester menu using the options appearing there.
+As an example he will start by asking for a comms check which is answered via the Jester menu. Note that after engine startup and EMERG GEN Master test he will ask for what INS alignment to go for, select this via the Jester menu as well.</p>
+<p>To access the assisted startup select assisted start on the Jester menu. Jester will now read out the checklist to the pilot and highlight the relevant indicators and switches during startup. Use the Jester menu to tell Jester when a check/step is complete.</p>
+<img alt="_images/highlight.png" src="_images/highlight.png" />
+</div>
+</div>
+<div class="section" id="hb-dcs-f-14-specific-configuration-options">
+<h2>HB DCS F-14 Specific Configuration Options<a class="headerlink" href="#hb-dcs-f-14-specific-configuration-options" title="Permalink to this headline">¶</a></h2>
+<p>The Heatblur F-14 in DCS has a set off options available affecting only the F-14.
+These are located under <strong>OPTIONS</strong> -&gt; <strong>SPECIAL</strong> -&gt; <strong>F-14B</strong> on the main DCS menu.</p>
+<p>The available options are:</p>
+<table border="1" class="docutils align-center">
+<colgroup>
+<col width="38%" />
+<col width="62%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Control</th>
+<th class="head">Function</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Radio Menu and PTT Behavior</td>
+<td>Sets up how the radio PTT buttons affect the DCS radio menu, useful if PTTs are used for SRS.</td>
+</tr>
+<tr class="row-odd"><td><strong>Jester AI Options:</strong></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Use Head Movement in Order to Select Items in Jester Menu</td>
+<td>Enable use of head movement with VR or Track-IR to select Jester Menu items.</td>
+</tr>
+<tr class="row-odd"><td>Boring Jester</td>
+<td>Disables Jester embellishments and jokes.</td>
+</tr>
+<tr class="row-even"><td>Switch PD-STT to P-STT lock when going WVR</td>
+<td>Jester will automatically switch to P-STT within ACM ranges.</td>
+</tr>
+<tr class="row-odd"><td>Jester Menu Camera</td>
+<td>Enables or disables live Jester view on the Jester Menu Radial.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="dcs-mission-editor-functions-specific-to-the-hb-dcs-f-14">
+<span id="meset"></span><h2>DCS Mission Editor Functions Specific to the HB DCS F-14<a class="headerlink" href="#dcs-mission-editor-functions-specific-to-the-hb-dcs-f-14" title="Permalink to this headline">¶</a></h2>
+<p>The F-14 has special options and waypoints available in the DCS Mission Editor.</p>
+<p>Aircraft specific options are set up under the Additional Properties for Aircraft page available when setting up an aircraft group containing F-14s.</p>
+<p>The waypoints, apart from waypoint 1-3 and Home Base are set up using the Navigation Target Points page also available when configuring an aircraft group containing F-14s.</p>
+<div class="section" id="heatblur-dcs-f-14-specific-options-in-the-mission-editor">
+<h3>Heatblur DCS F-14 Specific Options in the Mission Editor<a class="headerlink" href="#heatblur-dcs-f-14-specific-options-in-the-mission-editor" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils align-center">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Option</th>
+<th class="head">Sets</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>M-61 Burst Mode</td>
+<td>Sets M-61 maximum burst length, manual lets cannon fire until empty.</td>
+</tr>
+<tr class="row-odd"><td>AN/ALE-39 Loadout</td>
+<td>Sets AN/ALE-39 countermeasure launcher loadout.</td>
+</tr>
+<tr class="row-even"><td>Fill LAU-138 With Chaff</td>
+<td>Sets whether LAU-138s are empty or loaded with chaff on aircraft spawn.</td>
+</tr>
+<tr class="row-odd"><td>INS Reference Alignment Stored</td>
+<td>Sets whether a Reference Alignment is prestored for the INS on aircraft spawn.</td>
+</tr>
+<tr class="row-even"><td>TACAN Channel Presel (0 = Auto)</td>
+<td>Sets preselected TACAN channel on aircraft spawn. 0 sets closest station on spawn.</td>
+</tr>
+<tr class="row-odd"><td>TACAN Band</td>
+<td>Sets preselected TACAN band on aircraft spawn. X or Y.</td>
+</tr>
+<tr class="row-even"><td>ILS Channel Presel</td>
+<td>Sets preselected ICLS channel on aircraft spawn.</td>
+</tr>
+<tr class="row-odd"><td>KY-28 Encryption Key</td>
+<td>Sets what encryption key is loaded into the KY-28 on aircraft spawn.</td>
+</tr>
+<tr class="row-even"><td>Laser Code 1st-4th Digit</td>
+<td>Sets preset laser code for loaded laser guided munitions on aircraft spawn.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="f-14-waypoints-in-the-mission-editor">
+<h3>F-14 Waypoints in the Mission Editor<a class="headerlink" href="#f-14-waypoints-in-the-mission-editor" title="Permalink to this headline">¶</a></h3>
+<p>As the F-14's navigational system only has three numbered waypoints, most other waypoints are set using Navigation Target Points.</p>
+<p>Waypoint 1 through 3 are set from their respective waypoints in the mission editor.</p>
+<p>Home Base is set to the landing waypoint.</p>
+<p>The rest are set by creating and naming Navigation Target Points as per below list.</p>
+<table border="1" class="docutils align-center">
+<colgroup>
+<col width="53%" />
+<col width="47%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Waypoint</th>
+<th class="head">Set by waypoint with name</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Fix Point</td>
+<td>FP</td>
+</tr>
+<tr class="row-odd"><td>Initial Point</td>
+<td>IP</td>
+</tr>
+<tr class="row-even"><td>Surface Target</td>
+<td>ST</td>
+</tr>
+<tr class="row-odd"><td>Defended Point</td>
+<td>DP</td>
+</tr>
+<tr class="row-even"><td>Hostile Area</td>
+<td>HA</td>
+</tr>
+<tr class="row-odd"><td>Datalink Waypoint 1 Through 3</td>
+<td>DLWP1, DLWP2 and DLWP3</td>
+</tr>
+<tr class="row-even"><td>Datalink Surface Target</td>
+<td>DLST</td>
+</tr>
+<tr class="row-odd"><td>Datalink Fixed Point</td>
+<td>DLFP</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="accr.html" class="btn btn-neutral float-right" title="Acronyms and Abbreviations" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="emergency.html" class="btn btn-neutral" title="Emergency Procedures" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Heatblur Simulations.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

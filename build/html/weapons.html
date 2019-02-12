@@ -1,0 +1,1169 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="cn" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="cn" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Weapons and Weapons Employment Overview &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Procedures" href="procedures.html" />
+    <link rel="prev" title="General Design and Systems Overview" href="general.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> DCS: F-14 “雄猫” 中文飞行手册
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                协作预览 0.1.5
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">内容：</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱总览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general.html">General Design and Systems Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Weapons and Weapons Employment Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#m-61-vulcan-six-barreled-gatling-cannon">M-61 Vulcan Six-Barreled Gatling Cannon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#air-to-air-weapons">Air-to-Air Weapons</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hud-symbology-for-air-to-air-missiles">HUD Symbology for Air-to-Air Missiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#aim-7-sparrow">AIM-7 Sparrow</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#missile-preparation">Missile Preparation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#launch-modes">Launch Modes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#aim-9-sidewinder">AIM-9 Sidewinder</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Missile Preparation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#seeker-head-modes">Seeker Head Modes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#missile-operation">Missile Operation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#aim-54-phoenix">AIM-54 Phoenix</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Missile Preparation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Launch Modes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Missile Operation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#air-to-ground-weapons">Air-to-Ground Weapons</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-settings">Air-to-Ground Weapon Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-delivery">Air-to-Ground Weapon Delivery</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#computer-target">Computer Target</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#computer-initial-point">Computer Initial Point</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#computer-pilot">Computer Pilot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#manual">Manual</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#mk-81-82-83-and-84-gp-bombs">Mk-81, 82, 83 and 84 GP Bombs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gbu-10-12-16-and-24">GBU-10, 12, 16 and 24</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mk-20-rockeye">Mk-20 Rockeye</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zuni-rockets">Zuni Rockets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bdu-33-practice-bombs">BDU-33 Practice Bombs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#special-munitions">Special Munitions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adm-141-tald">ADM-141 TALD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#luu-2-parachute-flare">LUU-2 Parachute Flare</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lau-138-chaff-adapter">LAU-138 Chaff Adapter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#smokewinder">Smokewinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tacts-pods">TACTS Pods</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">Pods and Tanks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fpu-1-fuel-tank">FPU-1 Fuel Tank</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lantirn">LANTIRN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cnu-188-external-baggage-container">CNU-188 External Baggage Container</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#f-14b-loadout-diagram">F-14B Loadout Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="procedures.html">Procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">Emergency Procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS Specific Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accr.html">Acronyms and Abbreviations</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DCS: F-14 “雄猫” 中文飞行手册</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Weapons and Weapons Employment Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/weapons.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="weapons-and-weapons-employment-overview">
+<span id="weaponsemploy"></span><h1>Weapons and Weapons Employment Overview<a class="headerlink" href="#weapons-and-weapons-employment-overview" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="m-61-vulcan-six-barreled-gatling-cannon">
+<h2>M-61 Vulcan Six-Barreled Gatling Cannon<a class="headerlink" href="#m-61-vulcan-six-barreled-gatling-cannon" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id5">
+<img alt="_images/m61.jpg" src="_images/m61.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographers Mate Airman Kristopher Wilson. (041129-N-5345W-034)</span></p>
+</div>
+<p>The M-61 Vulcan is a six-barreled hydraulically driven 20 mm automatic cannon capable of firing over 6 000 rpm (rounds per minute).</p>
+<p>The F-14 carries the gun internally mounted beneath the cockpit with the muzzle being located on the lower left side of the fuselage.
+650 20 mm rounds are carried in the ammunition drum for the gun and retains the spent cases after the rounds have been fired.</p>
+<p>The gun itself is mounted to be elevated slightly more than 3° from the ADL to provide built-in lead for dog-fight situations.</p>
+<p>To fire the gun no input is needed from the WCS, the gun can be fired manually by the trigger on the pilot stick when selected by the weapons selector on the same stick,
+provided master arm is on.</p>
+<p>Selection of the gun is indicated on the bottom of the hud by a capital G with remaining hundreds of rounds indicated below.</p>
+<img alt="_images/rounds.png" src="_images/rounds.png" />
+<p>Apart from the indication on the HUD the rounds remaining indicator on the pilot right vertical panel also shows remaining rounds.
+The indicator counts down from 650 but can manually be reset by rotating the knob below the indicator to the desired quantity.</p>
+<a class="reference internal image-reference" href="_images/rate.png"><img alt="_images/rate.png" class="align-left" src="_images/rate.png" style="width: 125.46000000000001px; height: 117.64000000000001px;" /></a>
+<p>The gun is capable of a 4 000 rpm or 6 000 rpm mode. The lower rate normally used for air-to-ground engagement and the higher rate for air-to-air engagement.
+The gun rate is selected by the GUN RATE switch on the ACM which also indicates selected mode, the mode normally being set automatically for respective type of engagement.</p>
+<p>The WCS can however provide symbology on the HUD to increase gun accuracy.
+For both air-to-air and air-to-ground modes the gun has two sights available. For air-to-air it's the manual sight and the RTGS (real-time gun sight).</p>
+<p><strong>Manual Air-to-Air Sight</strong></p>
+<img alt="_images/gunhudmanual.png" src="_images/gunhudmanual.png" />
+<p>In manual the HUD displays the ADL, the armament legend and the manual pipper. This mode is accessed by depressing and releasing the CAGE/SEAM pushbutton on the left throttle when in the air-to-air mode with the gun selected.
+In this mode the pilot has to manually aim the gun using the manual pipper as reference to hit the target. Real target range and needed deflection needs to be estimated by the pilot.</p>
+<p>The manual piper is adjustable to enable selection of desired lead. The GUN ELEV panel on the pilot right vertical panel sets the lead, normally this should be set to 53 milliradians to place the manual pipper on the gun sight line.</p>
+<img alt="_images/gunelevation1.png" src="_images/gunelevation1.png" />
+<p><strong>Real-Time Gunsight (RTGS)</strong></p>
+<img alt="_images/gunhudrtgsnotarget.png" src="_images/gunhudrtgsnotarget.png" />
+<p>The real-time gunsight mode is the standard gun mode when in the air-to-air mode with the gun selected.</p>
+<p>In RTGS the WCS computes the bullet trajectory and displays the location the bullets will pass through at 1 000 and 2 000 feet if no target data is available from the WCS.
+The diamond representing bullet location at 1 000 feet and the pipper representing the bullet location at 2 000 feet.</p>
+<img alt="_images/gunhudrtgs.png" src="_images/gunhudrtgs.png" />
+<p>If target data is available from the WCS (target tracked in an STT mode) the pipper instead shows bullet location at the target's current range out to 4 000 feet and the diamond show radar line of sight to the target (target location).
+This means that when having a target track the pilot should fly the aircraft to place the pipper over the target to hit it.</p>
+<p>In addition to computing the solution to put bullets at the targets location the RTGS sight is also able to show a hit indication.
+When the bullets fired are computed to be at the target's location the diamond switches from target indication to indicating bullet position at target range.
+This is also indicated by the diamond blinking.</p>
+<p>Using this it's possible to see where the target would have needed to be to be hit by the fired bullets.
+If the gun engagement was executed successfully this means that the diamond should still be on top of the target, blinking, indicating that the bullets passed through the target's location.</p>
+<p><strong>Manual Air-to-Ground Sight</strong></p>
+<a class="reference internal image-reference" href="_images/attkmode.png"><img alt="_images/attkmode.png" class="align-right" src="_images/attkmode.png" style="width: 290.0px; height: 259.5px;" /></a>
+<p>The manual air-to-ground sight works and looks the same way as the manual air-to-air sight except that it's set by the RIO using the ATTK MODE selector on the armament control panel that's located on the RIO left vertical panel.
+Selecting MAN on that selector enables the same HUD symbology as in the manual air-to-air sight upon selection of the air-to-ground mode,
+the only additional HUD symbology being the display of the radar altitude on the right side of the HUD.
+The gun deflection should instead be set according to a pre-calculated setting depending on airspeed, target range and dive angle.</p>
+<p><strong>Computer/Pilot Mode</strong></p>
+<img alt="_images/guncomputerpilot.png" src="_images/guncomputerpilot.png" />
+<p>Computer/pilot mode is used to have the WCS continuously compute a weapon impact point for, among other air-to-ground weapons, the gun.
+It is set by the RIO on the ATTK MODE selector, as for manual air-to-ground sight, by selecting CMPTR-PLT.</p>
+<p>In this mode the AN/AWG-9 radar is slaved to the weapon impact point for accurate range measurements and enable the HUD display of that same impact point.</p>
+<p>The HUD uses the pipper to indicate real-time weapon impact point and the diamond to indicate out of range. When the diamond dissappears, the gun is in range to engage a target under the pipper.
+The pull up cue moves vertically on the HUD and when it's at or above the weapon impact point (pipper) it indicates that an immediate pull up is required to avoid striking the ground and that the target is too close to engage safely.</p>
+<p>The right side of the HUD displays the barometric altitude scale.</p>
+<p><strong>Mixed Gun Mode</strong></p>
+<a class="reference internal image-reference" href="_images/gunmixed.png"><img alt="_images/gunmixed.png" class="align-left" src="_images/gunmixed.png" style="width: 205.0px; height: 176.5px;" /></a>
+<p>The gun can also be used at the same time as another air-to-ground munition is selected by setting the A/G GUN switch on the armament panel (on the RIO left vertical panel) to MIXED.
+This enables the trigger to fire the gun but no HUD symbology is available for the gun as it's being used to display release data for the selected munition.
+In this mode the pilot needs to estimate the gun impact point manually with the ADL as the only reference on the HUD.</p>
+</div>
+<div class="section" id="air-to-air-weapons">
+<h2>Air-to-Air Weapons<a class="headerlink" href="#air-to-air-weapons" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="hud-symbology-for-air-to-air-missiles">
+<h3>HUD Symbology for Air-to-Air Missiles<a class="headerlink" href="#hud-symbology-for-air-to-air-missiles" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/a2ahud.png" src="_images/a2ahud.png" />
+<p>The above image shows the HUD with Phoenixes selected while in air-to-air display mode.</p>
+<p>As standard the HUD shows the <strong>Closure Rate</strong> on the left side in hundreths of knots, from -200 to +1,000 knots.
+Current closure rate as displayed by a <strong>&lt;</strong>.</p>
+<p>Additionally it displays the <strong>Target Range Scale</strong> on the right side, showing target range at the displayed scale, 10 NM in this case as display at the upper end.
+The target range scale shows the current target range with a <strong>&gt;</strong> and selected weapon max and minimum ranges as indicated by the dashes (<strong>-</strong>).</p>
+<p>The <strong>Movable Reticle</strong> (called pipper for air to ground and gun employment) and the <strong>Target Designator</strong> can show different things depending on current situation.</p>
+<p>The <strong>Movable Reticle</strong> shows current TCS line of sight if it exists at the same time as a radar STT lock except for when AIM-9s are selected.
+In the AIM-9 case it instead shows current AIM-9 seeker head line of sight.</p>
+<p>The <strong>Target Designator</strong> diamond shows current radar STT line of sight if present and if not it instead shows the current TCS line of sight.</p>
+<p>So effectually the TCS line of sight can be shown either by the movable reticle or the target designator depending on if a radar STT is also present
+and if a radar STT is present with AIM-9 selected it's not shown at all.</p>
+</div>
+<div class="section" id="aim-7-sparrow">
+<h3>AIM-7 Sparrow<a class="headerlink" href="#aim-7-sparrow" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id6">
+<img alt="_images/aim-7.jpg" src="_images/aim-7.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 3rd Class Joshua Karsten. (041108-N-8704K-008)</span></p>
+</div>
+<p>The AIM-7 Sparrow air-to-air missile is a supersonic boost-glide missile capable of engaging both aircraft and missiles in all weather conditions.
+AIM-7 Sparrow missile is a medium range air-to-air missile with a max range of at least 16 NM (30 km) for the AIM-7E and at least 38 NM (70 km) for the AIM-7F and AIM-7M.
+The all weather capability comes from the missile being radar guided, more exactly SARH (semi-active radar homing).
+This means that the seeker of the Sparrow relies on the AN/AWG-9 painting the targets for it and following the radar emissions being reflected off the target.</p>
+<p>The F-14 can carry the AIM-7E, AIM-7F and AIM-7M on four dedicated recesses on the aircraft fuselage and one each on the glove pylons.</p>
+<p>Apart from the various improvements to the missile range, seeker and warhead, the major difference between the different versions is that the AIM-7E is only capable of being guided via continous-wave (CW) illumination
+while the AIM-7F and AIM-7M can also be guided via pulse doppler illumination in addition to CW.</p>
+<div class="section" id="missile-preparation">
+<h4>Missile Preparation<a class="headerlink" href="#missile-preparation" title="Permalink to this headline">¶</a></h4>
+<a class="reference internal image-reference" href="_images/mslprep.png"><img alt="_images/mslprep.png" class="align-right" src="_images/mslprep.png" style="width: 173.4px; height: 174.6px;" /></a>
+<p>Before launch the AIM-7 missiles need to be prepared by selection of the MSL PREP-ON pushbutton on the pilot ACM panel.
+This commands the WCS to start missile preparation for the AIM-7 and AIM-54.</p>
+<p>In the case of the AIM-7 the WCS applies electrical power to the missile to pre-heat the electronics and gyros.
+It also injects CW radar video from the radar to the missiles via an emitter on the aft end of the rail to a receiver at the aft end of the missile.
+This video is used to tune the AIM-7 missile to the selected CW frequency on the RIO DDD panel.
+When the individual missiles are tuned and ready the corresponding missile status windows turns white to indicate a ready missile.</p>
+</div>
+<div class="section" id="launch-modes">
+<h4>Launch Modes<a class="headerlink" href="#launch-modes" title="Permalink to this headline">¶</a></h4>
+<p>The two available launch modes for the AIM-7 on the F-14 is the normal mode and the boresight mode.
+To select the AIM-7 for launch the pilot selects the SP/PH (sparrow/phoenix) position on the stick weapon selector.
+It is not possible to select which sparrow to be launched, this is done automatically by the WCS.</p>
+<p>Depression of the weapon selector switches from SP to PH and vice versa.
+If a STT target is available the WCS will automatically use the normal mode for launch unless BRSIT (boresight) is selected on the MSL MODE (missile mode) switch on the ACM panel.
+In all other cases the boresight mode will be used.</p>
+<div class="section" id="normal-mode">
+<h5>Normal Mode<a class="headerlink" href="#normal-mode" title="Permalink to this headline">¶</a></h5>
+<a class="reference internal image-reference" href="_images/msloptionsp.png"><img alt="_images/msloptionsp.png" class="align-left" src="_images/msloptionsp.png" style="width: 185.5px; height: 161.35px;" /></a>
+<p>As the normal mode is used to engage a target tracked in STT the WCS is capable of using both CW and pulse doppler for guidance.
+When using CW in the normal mode the AN/AWG-9 radar uses a dedicated CW antenna to spotlight the tracked target more directly than via the flood antenna.
+While CW is the normal guidance mode for all AIM-7 variants it is possible to select the pulse doppler guidance mode instead when using the AIM-7F and AIM-7M missiles.</p>
+<p>This is done on the RIO's armament panel with the MSL OPTIONS switch by setting it to SP DP (sparrow doppler).
+When selected this causes the WCS to guide the sparrow missiles using pulse doppler illumination instead.</p>
+<p>Regardless of guidance mode the WCS calculates the missile LAR (launch acceptance region) and displays the missile launch ranges on the VDI and TID.
+The HUD shows the target diamond and current target range, Rmin and Rmax, while the VDI, DDD and TID displays the attack guidance symbology as well as the above mentioned missile LAR indications.</p>
+</div>
+<div class="section" id="boresight-mode">
+<h5>Boresight Mode<a class="headerlink" href="#boresight-mode" title="Permalink to this headline">¶</a></h5>
+<p>The boresight mode uses the CW flood antenna on the AN/AWG-9 radar and will cause the missile to track the strongest target return within the flood area.
+In addition to when launched in boresight mode the radar will also switch to flood mode when a target is lost, either before launch or after launch, enabling the pilot to try and save the shot by keeping the target within the flood area.</p>
+<img alt="_images/cwflood.png" src="_images/cwflood.png" />
+</div>
+</div>
+</div>
+<div class="section" id="aim-9-sidewinder">
+<h3>AIM-9 Sidewinder<a class="headerlink" href="#aim-9-sidewinder" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id7">
+<img alt="_images/aim-9.jpg" src="_images/aim-9.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate Airman Kristopher Wilson. (050112-N-5345W-066)</span></p>
+</div>
+<p>The AIM-9 Sidewinder is a short range air-to-air missile.
+It uses an infrared seeker locking on to a targets IR signature making it capable of tracking a target both during daytime and at night.</p>
+<p>The F-14 Tomcat is capable of carrying all navy versions of the AIM-9 Sidewinder from the AIM-9D up to the AIM-9M.
+The Heatblur F-14B Tomcat is currently modelled as carrying the AIM-9L and AIM-9M.</p>
+<p>The F-14 is capable of carrying the AIM-9 on stations 1A &amp; B and 8A &amp; B.
+Stations 1 &amp; 8 are the glove pylons which both can carry two AIM-9s for a total of 4.
+Station 1A &amp; 8A are dedicated to carry only the AIM-9 and are normally used when only carrying two to allow station 1B &amp; 8B to carry other munitions.</p>
+<div class="section" id="id1">
+<h4>Missile Preparation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<a class="reference internal image-reference" href="_images/swcool.png"><img alt="_images/swcool.png" class="align-left" src="_images/swcool.png" style="width: 117.9px; height: 118.35000000000001px;" /></a>
+<p>The cooling of the AIM-9 seeker head needs to be enabled before launch.
+This is done by pressing the SW COOL switch on the pilot ACM panel or by selecting the ACM mode on the same panel.
+This commands cooling of the missiles seeker head, the missile will immediately show ready but full seeker head performance will take at least 60 seconds.</p>
+</div>
+<div class="section" id="seeker-head-modes">
+<h4>Seeker Head Modes<a class="headerlink" href="#seeker-head-modes" title="Permalink to this headline">¶</a></h4>
+<p>The AIM-9G introduced a seeker head capable of the Sidewinder expanded acquisition mode (SEAM) and all later Sidewinders carried by the F-14 are also capable of that mode.
+The SEAM allows the missile seeker head to be uncaged to track a target within the seeker limits (40° from ADL) allowing the pilot to lead the target, improving missile performance.
+It also allows for the WCS on the F-14 to slave the seeker to a tracked target within 20° from ADL, allowing for off boresight acquisition.</p>
+<img alt="_images/double-D.png" src="_images/double-D.png" />
+<p>The AIM-9 on the F-14 can still use the old boresight mode where the seeker head remains slaved to ADL (2.5° field of view) but normally SEAM is used to scan the seeker about either ADL or a tracked target.
+This seeker scan is along a back-to-back double-D scan pattern, basically a scan cone about 6° wide covered in around 3 seconds. (Pictured above.)
+Like in all Sidewinders target detection is indicated by an aural tone. That growling tone is present while scanning but increases in intensity while the seeker is looking at an IR-source.</p>
+</div>
+<div class="section" id="missile-operation">
+<h4>Missile Operation<a class="headerlink" href="#missile-operation" title="Permalink to this headline">¶</a></h4>
+<p>The AIM-9 Sidewinder is selected for launch with the weapon selector on the pilot stick.
+The weapon selector can be used to cycle which AIM-9 that is selected for launch by depressing it, indicating on the ACM panel which missile is selected by a checkerboard indication in the corresponding status window.
+When using the AIM-9 the HUD uses the diamond to indicate a tracked target and the pipper (crosshair) to indicate current seeker head position.
+If a WCS track with range is available the HUD also displays range to target and Rmin and Rmax.
+The VDI, DDD and TID displays the attack guidance symbology if a WCS track is present.</p>
+<p>The basic missile boresight mode without SEAM (no scan) is commanded by depressing the BRSIT (boresight) switch on the pilot ACM panel while not having the ACM mode active.
+In this mode the pilot puts the target at ADL and fires when the aural tone is present.</p>
+<p>If the BRSIT switch is not used or the ACM mode is active the AIM-9 will use the SEAM and set the missile to use the double-D scan pattern.
+If a WCS target is present the seeker head will scan around the radar or TCS line of sight, otherwise the missile will scan around the ADL.</p>
+<a class="reference internal image-reference" href="_images/seamlock.png"><img alt="_images/seamlock.png" class="align-right" src="_images/seamlock.png" style="width: 139.0px; height: 149.5px;" /></a>
+<p>To enable lock-on to a target in SEAM the pilot depresses the CAGE/SEAM pushbutton on the left throttle.
+This illuminates the SEAM LOCK light on the ACM panel and uncages the seeker for 4.5 seconds and allows it to track a target present in the seeker field of view.
+If no IR sources is found the missile is again caged and the SEAM LOCK light is deactivated.</p>
+<p>If lock-on is successful the aural tone will remain and the SEAM LOCK light stays illuminated allowing the pilot to launch the missile by pressing the stick trigger.
+After launch the next AIM-9 will automatically be selected.</p>
+</div>
+</div>
+<div class="section" id="aim-54-phoenix">
+<h3>AIM-54 Phoenix<a class="headerlink" href="#aim-54-phoenix" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id8">
+<img alt="_images/aim-54.jpg" src="_images/aim-54.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 2nd Class Felix Garza Jr. (030320-N-4142G-013)</span></p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Depicted missile has yet to have the forward fins attached.</td>
+</tr>
+</tbody>
+</table>
+<p>The AIM-54 Phoenix is a long range air-to-air missile which was originally designed to be used with the F-111B fleet air defence fighter which never materialised.
+When the F-111B project was scrapped the AIM-54 and the corresponding AN/AWG-9 WCS eventually found its way to the F-14 instead.</p>
+<p>The F-14 is capable of carrying up to 6 AIM-54 missiles, four on rails on the fuselage and one each on the glove pylons.
+Because of the missile cooling system used the two front phoenix pylons must always be mounted meaning that the rear fuselage pylons can't be used if the front ones aren't present.
+The glove pylons contain their own cooling systems.</p>
+<p>The missile is capable of engagement both against a single target in STT and multiple targets using track-while-search (TWS).</p>
+<p>The AIM-54 is available in two different versions, the AIM-54A and the AIM-54C.
+The Heatblur Simulations F-14B Tomcat is modelled with both versions as well as modelling the AIM-54A with both mk47 and mk60 rocket motors.
+The two motors on the AIM-54A differing in effective range and the AIM-54C differing from the AIM-54A by having a digital seeker instead of an analog one, increasing its performance.</p>
+<p>The AIM-54 has a range of at least 60 NM against a fighter sized target at high altitudes in pulse doppler STT.
+When using TWS for engagement against multiple targets this drops to about 50 NM.
+It has a greater range against large targets and vice versa against smaller targets.</p>
+<p>If launched in active mode the range drops to about 10 NM for a fighter sized target, varying slightly with target size.
+Notable though that the missile will revert to SARH mode if no target is detected if selected for active launch in a SARH mode.</p>
+<div class="section" id="id2">
+<h4>Missile Preparation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<p>The AIM-54 missile preparation is started with selection of the MSL PREP switch on the pilot ACM panel or by activation of the ACM.
+This enables power and cooling to the missile and also starts the built in tests in the missile (BIT).</p>
+<p>As with the AIM-7 the AIM-54 is tuned before launch using a transmitter on the rear end of the missile rail, transmitting to the rear receiver of the missile.
+The whole missile preparation cycle is completed after around 2 minutes at which time the AIM-54 missiles are indicated ready in the corresponding missile status windows on the pilot ACM.</p>
+</div>
+<div class="section" id="id3">
+<h4>Launch Modes<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<p>The seeker head used in the AIM-54 is capable of both semi-active radar homing (SARH) and active radar homing (ARH).</p>
+<p>Normally the launch to eject (LTE) cycle of the missile is 3 seconds meaning time from trigger depression to missile ejection.
+The exception is the ACM active mode where the LTE is shortened to 1 second if within 10° from ADL.</p>
+<div class="section" id="tws-sarh-arh">
+<h5>TWS SARH/ARH<a class="headerlink" href="#tws-sarh-arh" title="Permalink to this headline">¶</a></h5>
+<p>In TWS the AN/AWG-9 is capable of supporting the launch of up to 6 AIM-54 missiles against 6 different targets concurrently.
+In the first stage of the AIM-54 engagement, the missile is guided semi-actively by the AN/AWG-9 radar using both guidance commands transmitted via the radar and radar energy reflected off the target.
+Then when the missile is within range of its seeker's ARH mode the AN/AWG-9 commands the missile to switch to ARH.</p>
+<p>Absence of this command via the AN/AWG-9 radar means that the missile won't switch to the ARH mode meaning that the AIM-54 isn't fire and forget and must be guided at least until it goes active.
+The AN/AWG-9, however, continues to transmit guidance commands to the missile as a fallback in case the missile can't acquire the target autonomously.
+This means that the AIM-54 isn't a &quot;fire and forget&quot; missile per se but it can be considered autonomous after transfer to ARH, though this transition isn't indicated in the system so the crew has to keep track of this manually.</p>
+</div>
+<div class="section" id="pd-stt-sarh">
+<h5>PD STT SARH<a class="headerlink" href="#pd-stt-sarh" title="Permalink to this headline">¶</a></h5>
+<p>In pulse doppler STT the AIM-54 uses SARH all the way to the target receiving guidance commands at a greater rate than in TWS and also continous spotlighting of the target because of the STT mode being used.
+This increases the effective range of the AIM-54 seeker slightly.</p>
+</div>
+<div class="section" id="active-radar-homing-arh">
+<h5>Active-Radar Homing (ARH)<a class="headerlink" href="#active-radar-homing-arh" title="Permalink to this headline">¶</a></h5>
+<a class="reference internal image-reference" href="_images/msloptionph.png"><img alt="_images/msloptionph.png" class="align-left" src="_images/msloptionph.png" style="width: 239.85px; height: 203.4px;" /></a>
+<p>The AIM-54 can also be commanded to go active directly after launch in both TWS and pulse doppler STT modes by setting the MSL OPTIONS switch to PH ACT before launch.
+This tells the WCS to immediately command the AIM-54 to go active in the first guidance command after launch.
+If launched at a target within 6 NM if in the targets rear hemisphere or 10 NM miles if in its forward hemisphere the WCS will also automatically command this mode instead of a SARH mode.</p>
+<p>If the target is not detected actively by the seeker it will still fall back to SARH until the seeker can acquire on its own like in the two SARH modes.</p>
+</div>
+<div class="section" id="acm-active">
+<h5>ACM Active<a class="headerlink" href="#acm-active" title="Permalink to this headline">¶</a></h5>
+<p>The last mode is ACM active in which the missile is commanded active before launch making this the only mode where the missile is truly fire and forget.
+The AIM-54 missile receives the active message before launch from the WCS in addition to a command prepositioning the seeker-head to have it look at the current WCS track if available.</p>
+<p>ACM active is commanded when BRSIT (boresight) is selected on the pilot ACM panel, when having the ACM active without a WCS track and when using a non pulse doppler radar mode or TCS track.
+When using boresight or ACM without a track the missile will launch along the ADL locking onto the first target seen while launching at a non pulse doppler radar track the seeker head will be prepositioned onto that track.</p>
+</div>
+<div class="section" id="ecm-mode">
+<h5>ECM Mode<a class="headerlink" href="#ecm-mode" title="Permalink to this headline">¶</a></h5>
+<p>In all of the guidance modes the seeker head automatically switches to a passive ECM follow if jammed, angle-tracking the target until it can again track the target using SARH or ARH.
+This is done without crew action and is not indicated to the operator.</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h4>Missile Operation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>The AIM-54 missile is selected with the weapon selector on the pilot stick by selecting the SP/PH (sparrow/phoenix) position and then depressing the selector to switch from SP to PH.
+It is possible to switch back to SP by again depressing the weapon selector.</p>
+<p>When used in boresight or ACM without a WCS track the HUD will not indicate any symbology apart from the ADL which is used to aim the missile.</p>
+<p>When selected with a WCS track in STT the HUD will display the Target Designator and if a TCS track exists, the Movable Reticle overlaying the target, the former indicating WCS track and the latter TCS line of sight.
+The range scale on the right side of the HUD indicates range to target and Rmin and Rmax, while the VDI, DDD and TID displays the attack guidance symbology.</p>
+<div class="section" id="tws">
+<span id="twsattk"></span><h5>TWS<a class="headerlink" href="#tws" title="Permalink to this headline">¶</a></h5>
+<p>When using the AIM-54 with TWS the WCS automatically prioritises the tracked targets, giving them a firing order number indicating missile launch order.
+As the first target is launched at the first tracks number is removed and the other tracks numbers are decreased by one.</p>
+<p>To continue to engage track 2 through 6 the pilot thus depresses the trigger once for each target, waits until the missile is clear and then depresses the trigger again for the next missile and so on until the desired number of missiles are away.</p>
+<p>After missile launch the prioritisation numbers on the right side of the targeted tracks are replaced with the TTI or Time to Impact number, showing calculated time until missile hits the target.
+Additionally when the AN/AWG-9 have sent the active command to the missile the TTI numbers blink, indicating that the missile targeting the track has been commanded to active mode.</p>
+<p>The targets currently under missile attack brightens until estimated time to target plus 15 seconds has elapsed and when at 15 seconds past estimated time to last target the break-away cross is also displayed on the VDI, DDD and TID.</p>
+<p>For more info regarding the applicable TID symbology see <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID Symbology</span></a>.</p>
+<img alt="_images/TWS.png" src="_images/TWS.png" />
+<p>It is possible to force the WCS to include a target by setting it to mandatory attack using the CAP and also to exclude a target by setting it to do not attack on the same panel.
+In addition it is possible to command the WCS to set a track as priority 1 in the firing order by hooking it and pressing NEXT LAUNCH on the RIO armament panel.</p>
+<p>If not already in TWS AUTO the WCS automatically switches to this mode thus assuming control over the AN/AWG-9 radar to keep the engaged targets illuminated.
+In addition to the track numbering the TID also displays a steering centroid indicating the center weight of the TWS scan pattern.</p>
+<p>The HUD and VDI displays a steering cue guiding the pilot towards optimal target illumination and also displays range and Rmin and Rmax to target number 1.
+The TID displays the complete attack symbology with target prioritisation numbers and individual optimum launch ranges, for more info see <a class="reference internal" href="general.html#tws"><span class="std std-ref">Track While Scan (TWS)</span></a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="air-to-ground-weapons">
+<h2>Air-to-Ground Weapons<a class="headerlink" href="#air-to-ground-weapons" title="Permalink to this headline">¶</a></h2>
+<p>Despite being primarily designed as an air superioty fighter and an interceptor the F-14 was from the very start cleared and tested to carry all of the modern American general purpose bombs (GP) of the Mk-80 series.
+In addition it was also cleared to carry the Mk-20 Rockeye cluster bomb and the 5&quot; Zuni folding-fin aircraft rocket (FFAR).</p>
+<p>As the F-14's combat role changed to include the precision ground attack mission it was also cleared to carry several of the guided bomb unit (GBU) versions of the Mk-80 series bombs, more specifically, some of the laser guided versions.</p>
+<div class="section" id="air-to-ground-weapon-settings">
+<h3>Air-to-Ground Weapon Settings<a class="headerlink" href="#air-to-ground-weapon-settings" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/armamentpanel1.png" src="_images/armamentpanel1.png" />
+<p>The air-to-ground weapon delivery is set up by the RIO on his armament panel on the left vertical panel of the RIO cockpit.</p>
+<p>The type of munition for delivery is set up by the wheel on the top of the panel, turning it to the correct munition.
+This configures the WCS with the correct parameters for the selected munition.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The Mk-81, 82 and 83 have both a L and a H option being for low-drag and high-drag versions respectively.</td>
+</tr>
+</tbody>
+</table>
+<p>Under DLVY MODE (delivery mode) it is possible to set STP/RPL (step/ripple) and SGL/PRS (single/pairs).
+The possible combinations are:</p>
+<ul class="simple">
+<li>STP and SGL - Releases one store with each depression of the bomb relase button on the pilot stick.</li>
+<li>STP and PRS - As with STP and SGL but each depression of the bomb release button on the pilot stick releases a pair of stores. Only works for paired stations, 1 with 8, 3 with 6 and 4 with 5.</li>
+<li>RPL and SGL - Used with all attack modes, each depression of the bomb release button on the pilot stick releases set amount of stores set by the QTY (quantity) wheels with the interval set by the INTERVAL wheels (in milliseconds).</li>
+<li>RPL and PRS - As RPL and SGL but each release pulse releases a pair of stores, QTY still sets total amount of stores to be released.</li>
+</ul>
+<p>The MECH FUSE switch sets which mechanical fuse to arm on the stores. NOSE arms the nose fuse, SAFE inhibits arming of the fuses and NOSE/TAIL arms both fuses.</p>
+<p>The ELEC FUSE selector knob sets the electrical fuse of the store to be released:</p>
+<ul class="simple">
+<li>SAFE - Inhibits electrical bomb fusing.</li>
+<li>VT - Sets air-burst mode at preset burst heigh for compatible stores.</li>
+<li>INST - Sets instantaneous burst mode.</li>
+<li>DLY 1 - Sets preset time delay 1.</li>
+<li>DLY 2 - Sets preset time delay 2.</li>
+</ul>
+<p>The INTERVAL and QTY (quantity) wheels set the release interval (in milliseconds) and quantity of stores to be released, compatible with the delivery modes as seen above under DLVY MODE.</p>
+<p>Lastly, the 6 STA SEL (station select) switches set which pylons to use for store delivery. (Also used for selection of what stores to jettison.)
+To select a pylon for store delivery, set the corresponding switch to SEL. Stations 1 and 8 should be set to B for selection, SW was used to jettison AIM-9 Sidewinders but is now inoperable.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">All F-14 bombs in DCS are assumed to have both types of fuzes so need both the mechanical and electrical fuze set. GBUs, Mk-20s and Mk-81 to 84s need the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="air-to-ground-weapon-delivery">
+<h3>Air-to-Ground Weapon Delivery<a class="headerlink" href="#air-to-ground-weapon-delivery" title="Permalink to this headline">¶</a></h3>
+<p>Air-to-ground delivery is initiated by pilot selection of the A/G mode on the display control panel.
+After tape read-in (about 30 seconds) the WCS initiates the Air-to-ground mode and enables relevant symbology on the displays.</p>
+<p>The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon.
+All other options are set by the RIO in the back seat.</p>
+<p>The available attack modes in the F-14B are set by the ATTK MODE selector in the pilot pit and are:</p>
+<ul class="simple">
+<li>CMPTR TGT - Computer target, a semi-automatic computer guided mode similar to a CCRP mode in newer aircraft.</li>
+<li>CMPTR IP - Computer initial point, an extended CMPTR TGT mode using a known initial point (IP) as reference for store delivery. Mostly used in situations where the actual target is expected to be hard to locate visually and is located closely to an easily identifiable reference point/landmark.</li>
+<li>CMPTR PLT - Computer pilot, a manual computer and pilot guided mode using the WCS for store impact point indication on HUD. Similar to a CCIP mode in newer aircraft.</li>
+<li>MAN - Manual, manual backup mode in which the HUD displays a pipper (crosshair) on the HUD at the deflection set by the pilot. Used in case of a systems failure prehibiting the other modes.</li>
+<li>D/L BOMB - Data-link bomb, an automatic mode in which the pilot is steered via data-link cues for remotely controlled store delivery. (Not implemented in DCS at this point in time.)</li>
+</ul>
+<div class="section" id="computer-target">
+<h4>Computer Target<a class="headerlink" href="#computer-target" title="Permalink to this headline">¶</a></h4>
+<img alt="_images/cmptrtgt.png" src="_images/cmptrtgt.png" />
+<p>The computer target mode allows the pilot to designate a target onto which the WCS then guides the pilot towards store release.
+This mode is usable for all air-to-ground stores, including rockets.</p>
+<p>When selected the HUD displays the diamond as target designator and the bomb fall line (BFL) through the velocity vector and store impact point pipper (crosshair).</p>
+<p>To designate a target the pilot steers the aircraft in azimuth to place the target along the BFL.
+Then UP/DN on the target designate switch on the left wall of the pilot cockpit is used to slew the target designator along the BFL until it overlays the target.
+At that point the target is designated by pressing the target designate switch to DES.</p>
+<p>After designation the target designation diamond becomes stabilized to the designated position on the ground and the AN/AWG-9 is slewed to it for range measurements.
+The BFL now remains overlaying the designated target while the store impact point pipper and aircraft velocity vector continues to follow aircraft movements.
+In addition the HUD now displays the upper and lower solution cues on the BFL.</p>
+<p>The pilot should now fly the velocity vector and store impact point over the BFL until the solution cues reaches them.
+The lower solution cue indicates imminent store release when passing the velocity vector and the pilot should by now be holding the bomb release button depressed to authorize WCS store release.
+When the upper solution cue reaches the velocity vector the WCS automatically releases set stores on the condition that the bomb release buttons is depressed.</p>
+<p>The pull up cue (bracket on the HUD) moves upwards on the HUD towards the velocity vector with decreasing altitude. When it reaches the velocity vector it indicates that the aircraft is below safe altitude for store release.</p>
+</div>
+<div class="section" id="computer-initial-point">
+<span id="cip"></span><h4>Computer Initial Point<a class="headerlink" href="#computer-initial-point" title="Permalink to this headline">¶</a></h4>
+<p>Functionally identical to the Computer target mode except that a preset initial point (IP) is designated instead of the actual target.
+The IP is preset before takeoff using data-link or manually by the RIO using the CAP.</p>
+<p>The IP waypoint should be a terrain feature expected to be visually identifiable by the pilot even if the target is not.</p>
+<p>To set the CAP the RIO designates the location of the IP waypoint as per the other waypoints in the system. (See CAP heading under AN/AWG-9 in the General design and systems overview section or the Navigation systems heading in the same section)</p>
+<p>The message (function) IP TO TGT on the CAP under the TAC DATA category is then used with the prefixes ALT, RNG and BRG to readout and set the following datapoints:
+*   ALT - Sets altitude difference of the target relative the IP waypoint.
+*   RNG - Sets range to target from the IP waypoint.
+*   BRG - Sets the bearing to the target from the IP waypoint.</p>
+<p>When the pilot designate the IP visually on the HUD the WCS recalculates the target location using the data set under the IP TO TGT function on the CAP, moves the target diamond to that location and instead displays guidance towards the real target location.</p>
+<p>All other functions of this mode are identical to the Computer target mode.</p>
+</div>
+<div class="section" id="computer-pilot">
+<h4>Computer Pilot<a class="headerlink" href="#computer-pilot" title="Permalink to this headline">¶</a></h4>
+<img alt="_images/cmptrpilot.png" src="_images/cmptrpilot.png" />
+<p>The computer pilot mode uses the WCS to continually calculate and display an impact point for the configured store on the HUD.</p>
+<p>When selected the HUD displays the current store impact point in real-time using the pipper (crosshair).
+The target designation diamond is used when the WCS is configured for rockets and overlays the pipper to indicate that the configured store is out of range when displayed.
+As in the Computer target and IP modes the pull-up cue is used to indicate aircraft below safe store release altitude when at or above the velocity vector.</p>
+<p>To correctly engage the desired target the pilot flies the impact point pipper on the HUD over the target and then depresses the bomb release button.</p>
+<p>When using rockets the pilot should wait until the diamond dissappears, indicating that the selected store is within range and then use the control stick trigger to fire the rockets.</p>
+</div>
+<div class="section" id="manual">
+<h4>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h4>
+<img alt="_images/man.png" src="_images/man.png" />
+<p>The manual Air-to-ground mode is used as a back-up when the other modes are unavailable.</p>
+<p>By principle it works the same as the Computer pilot mode in that the pilot should fly the pipper on the HUD over the desired target.
+The pipper is in this mode not updated by the WCS however but instead set at a deflection from the ADL according to desired engagement speed, dive-angle and release altitude.</p>
+<p>This is set using the elevation lead panel on the pilot right side vertical panel using weapon engagement tables or by pilot estimation.</p>
+</div>
+</div>
+<div class="section" id="mk-81-82-83-and-84-gp-bombs">
+<h3>Mk-81, 82, 83 and 84 GP Bombs<a class="headerlink" href="#mk-81-82-83-and-84-gp-bombs" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id9">
+<img alt="_images/dumb.jpg" src="_images/dumb.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030321-N-0382O-506)</span></p>
+</div>
+<p>The Mk-80 series bombs are the standard general purpose bombs used by the US Navy and allies and where first dropped in combat during the Vietnam war.
+The Mk-82 also has the capability to mount a retardation system using either folding fins or an inflated ballute to brake the bomb after release allowing them to be dropped at lower altitudes as the dropping aircraft has more time to move away from them.
+Those versions are called the Mk-82 Snake Eye (fins) and Mk-82AIR (ballute) in DCS.</p>
+<p>The F-14B is capable of carrying all the various bombs in the Mk-80s series, 81 through to 84.
+While the ground attack mission never really materialised for the F-14 in the navy it was tested for and cleared to deliver these weapons from the start.</p>
+<p>The F-14 uses the Phoenix rails (stations 3-6) and the glove pylons' lower stations to mount the bombs.
+The rails themselves can carry all four variants while the 81 to 83 can also be mounted on substations along the sides of the phoenix rails as well as on TERs on the glove pylons.</p>
+<p>All of the Mk-80 bombs has nose fuzes only and should be dropped with the nose (N) fuze setting on the mechanical fuze switch on the RIO armament panel.
+The Mk-82AIR and Snake Eye variants use the tail fuze wire to enable bomb retardation meaning that the nose/tail (N/T) mechanical fuze option should be used if retardation is needed.</p>
+<p>The total amount of the different bombs carried depends on weapon weight and weapon clearance between the rails, the actual number varies from 18 for the 81s and 82s to just 4 for the 84s as those can only be mounted on the rails themselves.
+For more info see the F-14 loadout diagrams.</p>
+</div>
+<div class="section" id="gbu-10-12-16-and-24">
+<h3>GBU-10, 12, 16 and 24<a class="headerlink" href="#gbu-10-12-16-and-24" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id10">
+<img alt="_images/gbu.jpg" src="_images/gbu.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate Airman Milosz Reterski. (040105-N-9742R-001)</span></p>
+</div>
+<p>The GBU (guided bomb unit) are bombs from the Mk-80s series with an attached seeker unit and fin (control) unit converting them into guided precision bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14B, laser guided bombs to be more precise.</p>
+<p>When the F-14B gained the ability to mount and use the LANTIRN pod it was also cleared to carry some of the GBU variants of the Mk-80 series bombs.
+It can either deliver them onto designation from a self-carried LANTIRN pod or onto a laser designation from another aircraft or ground source.</p>
+<p>The GBUs carried are mounted on the Phoenix rails themselves on stations 3-6 as the additional size of a GBU compared to a normal Mk-80 series bomb makes it impossible to use the substations on the rails for those.
+Each station is capable of carrying one GBU up to the size of the GBU-10. As for the GBU-24 they need to be carried one each on the front and back rails and on opposite sides of the aircraft as the GBU-24 is larger than the GBU-10.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">GBU laser codes are set as per <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">DCS Mission Editor Functions Specific to the HB DCS F-14</span></a> or via the kneeboard.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="mk-20-rockeye">
+<h3>Mk-20 Rockeye<a class="headerlink" href="#mk-20-rockeye" title="Permalink to this headline">¶</a></h3>
+<p>The Mk-20 Rockeye is a conventional free fall bomb like the Mk-80 series bombs but instead of a conventional charge it carries anti-tank submunitions.
+The Rockeye contains 247 of these anti-tank submunitions which are released at a set height using a radar altimeter,
+the design being that the submunitions are dispersed over a large area for greater effect.</p>
+<p>The fuze height itself is set by the ground crew as they're loaded and can't be changed by the pilot.
+To arm the Rockeye correctly the mechanical fuse should be set to nose (N).</p>
+<p>The F-14B can carry up to 10 Mk-20 Rockeyes using the Phoenix rails and substations as well as TERs on the glove pylons.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Additional fuse settings (FMU-140 fuse) pending additional weapon code implementation.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="zuni-rockets">
+<h3>Zuni Rockets<a class="headerlink" href="#zuni-rockets" title="Permalink to this headline">¶</a></h3>
+<p>The Zuni 5-inch folding-fin aircraft rocket (FFAR) was developed to replace the high velocity aircraft rocket (HVAR) of world war 2 vintage.
+As part of its design it's modular and capable of using different warheads as well as different fuzes.</p>
+<p>The Zuni rockets are carried in LAU-10 pods, each carrying 4 rockets. The pods can fire in either salvo mode or ripple mode, salvo launching one rocket and ripple all.</p>
+<p>The F-14B Tomcat can carry LAU-10 rocket pods on stations 1B, 3, 6 and 8B using TERs, each TER holding up to two pods except on of either 3 or 6 which must only carry one as not to clash with a pod on the adjacent station.
+The TERs are used to gain separation from the station for safe rocket firing and the reason for not being able to use three pods on the TERs are that on the glove pylons the inner TER station would conflict with the main landing gear
+and on stations 3 and 6 with the fuselage.</p>
+<p>The Zuni rockets are set up for launch by the RIO on the armament panel as with bombs, the delivery mode (DLVY MODE) switches being used to configure how many pods to activate at a time.</p>
+</div>
+<div class="section" id="bdu-33-practice-bombs">
+<h3>BDU-33 Practice Bombs<a class="headerlink" href="#bdu-33-practice-bombs" title="Permalink to this headline">¶</a></h3>
+<p>The BDU-33 practice bomb is a training round used to simulate a Mk-82 general purpose bomb for training purposes.
+They can be carried three to a TER on each of station 3, 4, 5 and 6 on the F-14B Tomcat.</p>
+<p>They are set up for release as with the real general purpose bombs.</p>
+</div>
+</div>
+<div class="section" id="special-munitions">
+<h2>Special Munitions<a class="headerlink" href="#special-munitions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="adm-141-tald">
+<h3>ADM-141 TALD<a class="headerlink" href="#adm-141-tald" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id11">
+<img alt="_images/tald.jpg" src="_images/tald.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 3rd Class Mark J. Rebilas. (041018-N-6213R-021)</span></p>
+</div>
+<p>The ADM-141 tactical air-launched decoy (TALD) is a gliding decoy simulating real aircraft using active and passive means.
+There are several versions of the TALD, examples being a version equipped to launch chaff and another version using a Luneberg lens to increase its cross-section to simulate a larger aircraft.</p>
+<p>All versions are pre-programmed before take-off and are unpowered gliding through the air on fold-out wings.</p>
+<p>The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage.</p>
+</div>
+<div class="section" id="luu-2-parachute-flare">
+<h3>LUU-2 Parachute Flare<a class="headerlink" href="#luu-2-parachute-flare" title="Permalink to this headline">¶</a></h3>
+<p>The LUU-2 parachute flare is an air-launched flare suspended by a parachute used to illuminate the ground during night-time.</p>
+<p>The F-14B can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers in order not to conflict with the fuselage.</p>
+<p>The LUU-2 parachute flare is launched and set up in the same way as a general purpose bomb.</p>
+</div>
+<div class="section" id="lau-138-chaff-adapter">
+<h3>LAU-138 Chaff Adapter<a class="headerlink" href="#lau-138-chaff-adapter" title="Permalink to this headline">¶</a></h3>
+<p>The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in Sweden to enhance a combat aircraft's capability to carry chaff countermeasures.
+The chaff launcher is unusual in that it doesn't use pyrotechnics to fire the chaff packages but instead uses a mechanical action.</p>
+<p>While each adapter can carry up to 160 chaff packages each package is not equal to a standard chaff bundle meaning that a set of two launchers launches four packages in total for each chaff release impulse.
+Even though ejecting 4 packages at each impulse this still means that a set of two LAU-138, carrying in total 320 packages, still can release chaff 80 times, greatly increasing the carried amount of chaff on the aircraft.</p>
+<p>The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14B to carry additional chaff without impacting the ability to carry other weapons.
+While technically capable of carrying the LAU-138 on both A &amp; B stations on the glove pylons, in practice it was impossible to access the cooling bottle for an AIM-9 carried on the B station meaning that operationally only the A stations were loaded with LAU-138 adapters.</p>
+<p>For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter.</p>
+</div>
+<div class="section" id="smokewinder">
+<h3>Smokewinder<a class="headerlink" href="#smokewinder" title="Permalink to this headline">¶</a></h3>
+<p>The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 missile to the aircraft interface.</p>
+<p>To enable and disable a Smokewinder, select AIM-9 for launch using boresight (BRSIT) and select the corresponding weapon station using the weapon selector on the pilot stick.
+When set up thusly and with master arm on, each pull of the trigger enables or disable the Smokewinder discharging smoke.</p>
+</div>
+<div class="section" id="tacts-pods">
+<h3>TACTS Pods<a class="headerlink" href="#tacts-pods" title="Permalink to this headline">¶</a></h3>
+<p>The TACTS pod is an analysis pod used during training missions, it is carried on LAU-7 rails instead of AIM-9s, normally on station 1A and 8A.
+They are normally carried as a pair of two, one on each side.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In DCS their functionality is purely cosmetic.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="pods-and-tanks">
+<h2>Pods and Tanks<a class="headerlink" href="#pods-and-tanks" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="fpu-1-fuel-tank">
+<h3>FPU-1 Fuel Tank<a class="headerlink" href="#fpu-1-fuel-tank" title="Permalink to this headline">¶</a></h3>
+<p>The FPU-1 fuel tank is carried by the F-14B Tomcat on stations 2 and 7 on each engine nacelle.
+They each carry up to 2 000 pounds of fuel and can be jettisoned in the same way as other stores using the normal procedures.</p>
+</div>
+<div class="section" id="lantirn">
+<h3>LANTIRN<a class="headerlink" href="#lantirn" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id12">
+<img alt="_images/lantirn.jpg" src="_images/lantirn.jpg" />
+<p class="caption"><span class="caption-text">U.S. Navy photo by Photographers Mate Airman Jason Frost. (030122-N-9403F-002)</span></p>
+</div>
+<p>The LANTIRN was adapted for use on the F-14 Tomcats during the 1990s as the F-14's role started to gravitate towards including the precision strike role.</p>
+<p>The version carried on the Heatblur DCS F-14B Tomcat represents the earliest integrations of the LANTIRN, the pod being carried only on station 8B and
+hardwired to the control panel in the RIO cockpit and to the video input on the TID/VDI.</p>
+<p>For more information regarding the use of the LANTIRN pod, see the section about it under the General design and systems overview chapter.</p>
+</div>
+<div class="section" id="cnu-188-external-baggage-container">
+<h3>CNU-188 External Baggage Container<a class="headerlink" href="#cnu-188-external-baggage-container" title="Permalink to this headline">¶</a></h3>
+<p>The CNU-188 external baggage container is a converted fuel tank used to carry equipment and supplies during aircraft transfer.
+One such container can be carried by a F-14B on either station 4 or 5, maximum load carried being 350 pounds.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Pending implementation in DCS.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="f-14b-loadout-diagram">
+<h2>F-14B Loadout Diagram<a class="headerlink" href="#f-14b-loadout-diagram" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/F14.png" src="_images/F14.png" />
+<table border="1" class="docutils align-center">
+<colgroup>
+<col width="47%" />
+<col width="5%" />
+<col width="5%" />
+<col width="4%" />
+<col width="4%" />
+<col width="4%" />
+<col width="4%" />
+<col width="4%" />
+<col width="4%" />
+<col width="5%" />
+<col width="5%" />
+<col width="9%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">WeaponStation</th>
+<th class="head">1A</th>
+<th class="head">1B</th>
+<th class="head">2</th>
+<th class="head">3</th>
+<th class="head">4</th>
+<th class="head">5</th>
+<th class="head">6</th>
+<th class="head">7</th>
+<th class="head">8B</th>
+<th class="head">8A</th>
+<th class="head">Total</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>AIM-9</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>AIM-7</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>6</td>
+</tr>
+<tr class="row-even"><td>AIM-54</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>6</td>
+</tr>
+<tr class="row-odd"><td>Mk-81</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>18</td>
+</tr>
+<tr class="row-even"><td>Mk-82</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>18</td>
+</tr>
+<tr class="row-odd"><td>Mk-82AIR</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>18</td>
+</tr>
+<tr class="row-even"><td>Mk-82 Snake Eye</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>18</td>
+</tr>
+<tr class="row-odd"><td>Mk-83</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>10</td>
+</tr>
+<tr class="row-even"><td>Mk-84</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>Mk-20</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>10</td>
+</tr>
+<tr class="row-even"><td>GBU-10</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>GBU-12</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>4</td>
+</tr>
+<tr class="row-even"><td>GBU-16</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>GBU-24</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>2</td>
+</tr>
+<tr class="row-even"><td>BDU-33</td>
+<td>&#160;</td>
+<td>3</td>
+<td>&#160;</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>&#160;</td>
+<td>3</td>
+<td>&#160;</td>
+<td>18</td>
+</tr>
+<tr class="row-odd"><td>LAU-10 (ZUNI)</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>2</td>
+<td>&#160;</td>
+<td>7(28)</td>
+</tr>
+<tr class="row-even"><td>ADM-141A TALD</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>SUU-25 F/A Flare Dispenser</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>2</td>
+<td>2</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>4(16)</td>
+</tr>
+<tr class="row-even"><td>LAU-138 Chaff Adapter</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="row-odd"><td>Smokewinder</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>4</td>
+</tr>
+<tr class="row-even"><td>TACTS</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="row-odd"><td>LANTIRN</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>1</td>
+</tr>
+<tr class="row-even"><td>FPU-1 Fuel Tank</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>2</td>
+</tr>
+<tr class="row-odd"><td>CNU-188 External Baggage Container</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="procedures.html" class="btn btn-neutral float-right" title="Procedures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="general.html" class="btn btn-neutral" title="General Design and Systems Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Heatblur Simulations.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

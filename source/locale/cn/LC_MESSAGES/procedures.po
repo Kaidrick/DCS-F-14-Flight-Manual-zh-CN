@@ -1,0 +1,1806 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heatblur Simulations.
+# This file is distributed under the same license as the DCS: F-14 Tomcat
+# Flight Manul zh-CN package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 15:27+0800\n"
+"PO-Revision-Date: 2019-02-12 15:35+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+
+#: ../../source/procedures.rst:2
+msgid "Procedures"
+msgstr ""
+
+#: ../../source/procedures.rst:5
+msgid "Checklists - Pilot"
+msgstr ""
+
+#: ../../source/procedures.rst:8 ../../source/procedures.rst:478
+msgid "Interior Inspection"
+msgstr ""
+
+#: ../../source/procedures.rst:11 ../../source/procedures.rst:481
+msgid "OXYGEN - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Turn OXYGEN switch ON, check for airflow in mask."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Turn OXYGEN switch OFF, check for no airflow."
+msgstr ""
+
+#: ../../source/procedures.rst:14
+msgid "VENT AIRFLOW thumbwheel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:14
+msgid "Set thumbwheel to desired cockpit ventilation airflow."
+msgstr ""
+
+#: ../../source/procedures.rst:17
+msgid "Tone VOLUME controls - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:19
+msgid "Tacan function selector - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:21
+msgid "Channel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:22
+msgid "Mode switch - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:23
+msgid "VOL knob - Counterclockwise."
+msgstr ""
+
+#: ../../source/procedures.rst:26 ../../source/procedures.rst:491
+msgid "ICS panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:28
+msgid "VOL knob - As desired."
+msgstr ""
+
+#: ../../source/procedures.rst:29 ../../source/procedures.rst:494
+msgid "Amplifier - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:30 ../../source/procedures.rst:495
+msgid "Function selector - COLD MIC."
+msgstr ""
+
+#: ../../source/procedures.rst:33
+msgid "STAB AUG switches - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:35
+msgid "UHF function selector - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:37
+msgid "Wing-sweep switch - MAN."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "**CAUTION**"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Wings may move if wing control system fails"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "with electrical and/or hydraulic power on."
+msgstr ""
+
+#: ../../source/procedures.rst:41
+msgid "Left and right throttles - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:43
+msgid "Speed brake switch - RET."
+msgstr ""
+
+#: ../../source/procedures.rst:45
+msgid "Exterior lights master switch - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:45
+msgid "Set in accordance to standard procedures for current situation."
+msgstr ""
+
+#: ../../source/procedures.rst:48
+msgid "FLAP handle - Corresponding."
+msgstr ""
+
+#: ../../source/procedures.rst:48
+msgid "Set to current flap position."
+msgstr ""
+
+#: ../../source/procedures.rst:50
+msgid "ASYM LIMITER switch - ON (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:52
+msgid "L and R ENG MODE SELECT switches - PRI."
+msgstr ""
+
+#: ../../source/procedures.rst:54
+msgid "BACKUP IGNITION switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:56
+msgid "THROTTLE TEMP switch - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:58
+msgid "THROTTLE MODE switch - BOOST."
+msgstr ""
+
+#: ../../source/procedures.rst:60
+msgid "L and R INLET RAMPS switches - AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:62 ../../source/procedures.rst:423
+#: ../../source/procedures.rst:449
+msgid "ANTI SKID SPOILER BK switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:64
+msgid "FUEL panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:66
+msgid "WING/EXT TRANS switch - AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:67
+msgid "REFUEL PROBE switch - RET."
+msgstr ""
+
+#: ../../source/procedures.rst:68
+msgid "DUMP switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:69
+msgid "FEED switch - NORM (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:72
+msgid "LDG GEAR handle - DN."
+msgstr ""
+
+#: ../../source/procedures.rst:74
+msgid "NOSE STRUT switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:76
+msgid "Parking brake - Pull."
+msgstr ""
+
+#: ../../source/procedures.rst:78
+msgid "Radar altimeter - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:80
+msgid "Altimeter - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:80
+msgid "Set current elevation."
+msgstr ""
+
+#: ../../source/procedures.rst:82
+msgid "Left and right FUEL SHUT OFF handles - In."
+msgstr ""
+
+#: ../../source/procedures.rst:84 ../../source/procedures.rst:215
+msgid "ACM panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:86
+msgid "ACM switch - OFF (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:87
+msgid "MASTER ARM switch - OFF (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:90
+msgid "Weapon select - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:92
+msgid "HUD and VDI filters - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:94 ../../source/procedures.rst:523
+msgid "Standby attitude gyro - Caged."
+msgstr ""
+
+#: ../../source/procedures.rst:96
+msgid "G-meter - Reset."
+msgstr ""
+
+#: ../../source/procedures.rst:98
+msgid "Clock - Wind and Set."
+msgstr ""
+
+#: ../../source/procedures.rst:100
+msgid "Fuel Bingo - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:102
+msgid "Circuit breakers - Checked."
+msgstr ""
+
+#: ../../source/procedures.rst:104
+msgid "Brake accumulator pressure - Check in Green."
+msgstr ""
+
+#: ../../source/procedures.rst:106
+msgid "HYD HAND PUMP - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:106
+msgid "Check that pumping builds pressure on brake pressure gauge."
+msgstr ""
+
+#: ../../source/procedures.rst:109
+msgid "HOOK handle - Corresponding."
+msgstr ""
+
+#: ../../source/procedures.rst:109
+msgid "Set to current hook position."
+msgstr ""
+
+#: ../../source/procedures.rst:111
+msgid "DISPLAYS panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:113
+msgid "MODE pushbutton - T.O."
+msgstr ""
+
+#: ../../source/procedures.rst:114
+msgid "HUD DECLUTTER switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:115
+msgid "HUD AWL switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:116
+msgid "VDI MODE switch - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:117
+msgid "VDI AWL switch - ACL."
+msgstr ""
+
+#: ../../source/procedures.rst:118
+msgid "HSD MODE switch - NAV."
+msgstr ""
+
+#: ../../source/procedures.rst:119
+msgid "STEER CMD pushbutton - DEST."
+msgstr ""
+
+#: ../../source/procedures.rst:120
+msgid "DISPLAYS POWER switches - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:123
+msgid "ELEV LEAD knob - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:125
+msgid "INBD and OUTBD spoiler switches - NORM (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:127
+msgid "L and R generator switches - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:129
+msgid "EMERG generator switch - NORM (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:131
+msgid "Air-condition controls - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:133
+msgid "TEMP mode selector switch - AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:134
+msgid "TEMP thumbwheel control - As desired (5-7 equals medium setting)."
+msgstr ""
+
+#: ../../source/procedures.rst:136
+msgid "CABIN PRESS switch - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:137
+msgid "AIR SOURCE pushbutton - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:140
+msgid "WSHLD AIR switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:142
+msgid "ANTI-ICE switch - AUTO/OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:144
+msgid "COMPASS panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:146
+msgid "Mode selector knob - SLAVED."
+msgstr ""
+
+#: ../../source/procedures.rst:147
+msgid "Hemisphere N-S switch - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:148
+msgid "LAT knob - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:151
+msgid "ARA-63 panel - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:153
+msgid "CHANNEL selector - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:154
+msgid "POWER switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:157
+msgid "MASTER LIGHT panel controls - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:159 ../../source/procedures.rst:208
+msgid "MASTER TEST switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:161
+msgid "EMERG FLT HYD switch - AUTO (guard down)."
+msgstr ""
+
+#: ../../source/procedures.rst:163
+msgid "HYD TRANSFER PUMP switch - SHUT OFF (guard up)."
+msgstr ""
+
+#: ../../source/procedures.rst:165
+msgid "CANOPY air diffuser lever - CABIN AIR."
+msgstr ""
+
+#: ../../source/procedures.rst:167
+msgid "VIDEO CONTROL switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:171 ../../source/procedures.rst:569
+msgid "Prestart"
+msgstr ""
+
+#: ../../source/procedures.rst:174
+msgid ""
+"Order plane captain to connect and apply starter air and apply external "
+"power."
+msgstr ""
+
+#: ../../source/procedures.rst:174
+msgid "Wait for confirmation."
+msgstr ""
+
+#: ../../source/procedures.rst:177
+msgid "If wings are not in OV SWP:"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "WING SWEEP DRIVE NO. 1 and WG SWP DRIVE NO 2/MANUV FLAP cb's (LE1, LE2)"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "- Pull."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Emergency WINGSWEEP handle"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "- Extend and match captain bars with wing position tape."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Wings will move to emergency handle position regardless of"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "wing-sweep circuit-breaker (cb) position."
+msgstr ""
+
+#: ../../source/procedures.rst:186 ../../source/procedures.rst:576
+msgid "ICS - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:188
+msgid "Landing gear indicator and transition light - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:188
+msgid "Check gear position indication down and transition light off."
+msgstr ""
+
+#: ../../source/procedures.rst:191
+msgid "MASTER TEST switch - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "LTS - Check that all warning, caution and advisory lights illuminate."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "FIRE DET/EXT - Check that L and R FIRE and GO light illuminate."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "INST - Check for following responses on instruments after 5 secs:"
+msgstr ""
+
+#: ../../source/procedures.rst:199
+msgid "RPM - 96%."
+msgstr ""
+
+#: ../../source/procedures.rst:200
+msgid "EGT - 960 °C."
+msgstr ""
+
+#: ../../source/procedures.rst:201
+msgid "FF - 10500 Pph."
+msgstr ""
+
+#: ../../source/procedures.rst:202
+msgid "AOA - 18±5."
+msgstr ""
+
+#: ../../source/procedures.rst:203
+msgid "Wing sweep - 45°±2.5°."
+msgstr ""
+
+#: ../../source/procedures.rst:204
+msgid "FUEL QTY - 2000±200 Pounds."
+msgstr ""
+
+#: ../../source/procedures.rst:205
+msgid "Oxygen quantity - 2 Liters."
+msgstr ""
+
+#: ../../source/procedures.rst:206
+msgid "L and R FUEL FLOW lights - Illuminated."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Coordinate with RIO."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Set brightness of the ACM panel and indexer lights during test."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "The DATA LINK switch must be on to check DDI lights."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Makes L STALL and R STALL warning lights flash."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Verify RIO FUEL QTY."
+msgstr ""
+
+#: ../../source/procedures.rst:211 ../../source/procedures.rst:589
+msgid "Ejection seats - Armed."
+msgstr ""
+
+#: ../../source/procedures.rst:211
+msgid "Verify RIO seats armed."
+msgstr ""
+
+#: ../../source/procedures.rst:213 ../../source/procedures.rst:591
+msgid "CANOPY handle - Close."
+msgstr ""
+
+#: ../../source/procedures.rst:217
+msgid "Gun rate - Set and check rounds remaining."
+msgstr ""
+
+#: ../../source/procedures.rst:218
+msgid "SW COOL - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:219
+msgid "MSL PREP - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:220
+msgid "MSL MODE - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:221
+msgid "Station loading status windows - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:221
+msgid "Verify consistency with loaded armaments."
+msgstr ""
+
+#: ../../source/procedures.rst:224
+msgid "EMERG STORES JETT pushbutton light - Out."
+msgstr ""
+
+#: ../../source/procedures.rst:226
+msgid "LADDER light - Out."
+msgstr ""
+
+#: ../../source/procedures.rst:226
+msgid "Order plane captain to stow boarding ladder and steps."
+msgstr ""
+
+#: ../../source/procedures.rst:228
+msgid "Inform RIO - Ready to start."
+msgstr ""
+
+#: ../../source/procedures.rst:232 ../../source/procedures.rst:598
+msgid "Engine Start"
+msgstr ""
+
+#: ../../source/procedures.rst:235
+msgid "Check AIR SOURCE switch is set to OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:237
+msgid "Set HYD TRANSFER PUMP switch to OFF. (Guard up)"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "EMERG FLT HYD switch to LOW,"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check for ON flag in EMER FLT LOW hydraulic pressure window."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Verify control over horizontal"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "and rudder control surfaces on surface position indicator."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "EMERG FLT HYD switch to HIGH,"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check for ON flag in EMER FLT HI hydraulic pressure window."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Should have a higher deflection rate than LOW."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "EMERG FLT HYD switch to AUTO(LOW),"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check for OFF flags in both EMER FLT LOW and HI."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "ENG CRANK switch to R (Right engine)."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check for oil and hydraulic pressure at roughly 20% RPM."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check START/VALVE caution light indication."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Switch is held in position automatically by solenoid"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "until engine is at roughly 50% RPM."
+msgstr ""
+
+#: ../../source/procedures.rst:258
+msgid "Right throttle to IDLE at 20% RPM."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Will automatically actuate ignition system and fuel flow."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Light off (EGT temperature rise) should occur within 5-15 secs."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "EGT temperature should peak around 40-50% and not exceed 890 °C"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "which constitutes a hot start."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check ENG CRANK switch returns to OFF around 50% rpm"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "and START/VALVE caution light turns off."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "If ENG CRANK stays at R manually set it to off before 60% rpm."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "If START/VALVE caution light is still on, disconnect starter air."
+msgstr ""
+
+#: ../../source/procedures.rst:266
+msgid "Check R GEN caution light turns off."
+msgstr ""
+
+#: ../../source/procedures.rst:266
+msgid "At around 59% rpm."
+msgstr ""
+
+#: ../../source/procedures.rst:268
+msgid "Check R FUEL PRESS caution light turns off."
+msgstr ""
+
+#: ../../source/procedures.rst:268
+msgid "Before idle rpm."
+msgstr ""
+
+#: ../../source/procedures.rst:270
+msgid "Check engine idle instrument readings."
+msgstr ""
+
+#: ../../source/procedures.rst:272
+msgid "RPM - 62 to 78%."
+msgstr ""
+
+#: ../../source/procedures.rst:273
+msgid "EGT - 500 °C (nominal)."
+msgstr ""
+
+#: ../../source/procedures.rst:274
+msgid "FF - 950 to 1400 Pph (nominal)."
+msgstr ""
+
+#: ../../source/procedures.rst:275
+msgid "NOZ position - 100%."
+msgstr ""
+
+#: ../../source/procedures.rst:276
+msgid "OIL - 25 to 35 psi (nominal, 15 minimum)."
+msgstr ""
+
+#: ../../source/procedures.rst:277
+msgid "FLT HYD PRESS - 3000 psi."
+msgstr ""
+
+#: ../../source/procedures.rst:280
+msgid "Order plane captain to disconnect external electrical power."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "ENG CRANK switch to L (Left engine)."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"When combined hydraulic pressure reaches 3000 psi switch ENG CRANK back to "
+"OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:0 ../../source/procedures.rst:299
+msgid "HYD TRANSFER PUMP switch to NORMAL."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "If it does not pressurize combined side within 10 secs,"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "immediately set HYD TRANSFER PUMP switch to SHUTOFF."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Will operate from flight side to maintain"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "combined side at between 2400-2600 psi."
+msgstr ""
+
+#: ../../source/procedures.rst:291
+msgid "HYD TRANSFER PUMP switch to SHUTOFF."
+msgstr ""
+
+#: ../../source/procedures.rst:293
+msgid "Repeat steps 6 to 11 for left engine."
+msgstr ""
+
+#: ../../source/procedures.rst:295
+msgid "Order plane captain to disconnect starter air."
+msgstr ""
+
+#: ../../source/procedures.rst:297
+msgid "Cycle AIR SOURCE switch to L ENG, R ENG, then set it to BOTH ENG."
+msgstr ""
+
+#: ../../source/procedures.rst:297
+msgid "Verify cockpit airflow at all positions."
+msgstr ""
+
+#: ../../source/procedures.rst:304 ../../source/procedures.rst:604
+msgid "Poststart"
+msgstr ""
+
+#: ../../source/procedures.rst:307 ../../source/procedures.rst:331
+msgid "STAB AUG switches - All ON."
+msgstr ""
+
+#: ../../source/procedures.rst:309
+msgid "MASTER TEST switch - EMERG GEN."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"NO GO light should illuminate for about 1 sec before GO light illuminates."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "When disconnecting AHRS light might illuminate momentarily."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Advise RIO test complete."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "VMCU operation - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"Following disengagement of MASTER TEST - EMERG GEN the following lights "
+"should illuminate for just under 2 secs:"
+msgstr ""
+
+#: ../../source/procedures.rst:319
+msgid "PITCH STAB 1 and 2."
+msgstr ""
+
+#: ../../source/procedures.rst:320
+msgid "ROLL STAB 1 and 2."
+msgstr ""
+
+#: ../../source/procedures.rst:321
+msgid "YAW STAB OP and OUT."
+msgstr ""
+
+#: ../../source/procedures.rst:322
+msgid "SPOILERS."
+msgstr ""
+
+#: ../../source/procedures.rst:323
+msgid "HZ TAIL AUTH."
+msgstr ""
+
+#: ../../source/procedures.rst:324
+msgid "RUDDER AUTH."
+msgstr ""
+
+#: ../../source/procedures.rst:325
+msgid "AUTO PILOT."
+msgstr ""
+
+#: ../../source/procedures.rst:326
+msgid "MACH TRIM."
+msgstr ""
+
+#: ../../source/procedures.rst:317
+msgid ""
+"RUDDER AUTH light will not go out until reset by MASTER RESET pushbutton and "
+"PITCH and ROLL STAB AUG switches will have turned OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:329
+msgid "Advise RIO that test and check is complete."
+msgstr ""
+
+#: ../../source/procedures.rst:333
+msgid "AFTC - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "L ENG MODE SELECT switch - SEC."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "L ENG MODE SELECT switch - PRI."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "R ENG MODE SELECT switch - SEC."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "R ENG MODE SELECT switch - PRI."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "L ENG SEC light illuminates, left NOZ indicator points below zero."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "L ENG SEC light goes out, NOZ indicator to 100%."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "R ENG SEC light illuminates, right NOZ indicator points below zero."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "R ENG SEC lights goes out, NOZ indicator to 100%."
+msgstr ""
+
+#: ../../source/procedures.rst:344
+msgid "Emergency WING SWEEP handle - 0V SW."
+msgstr ""
+
+#: ../../source/procedures.rst:346
+msgid ""
+"If wings are not in oversweep, move the wing-sweep emergency handle to 68° "
+"in raised position."
+msgstr ""
+
+#: ../../source/procedures.rst:348
+msgid ""
+"Then raise handle to full extension and hold until HZ TAIL AUTH caution "
+"light goes out and OVER flag appears on wing-sweep indicator."
+msgstr ""
+
+#: ../../source/procedures.rst:350
+msgid "Move handle to full aft OV SW and stow."
+msgstr ""
+
+#: ../../source/procedures.rst:352
+msgid "Wing-sweep mode switch - AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:354
+msgid "WING SWEEP DRIVE NO.1 and WG SW DR NO. 2/MANUV FLAP cb (LE1, LE2) - In."
+msgstr ""
+
+#: ../../source/procedures.rst:356 ../../source/procedures.rst:389
+msgid "WING/EXT TRANS switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:358 ../../source/procedures.rst:373
+#: ../../source/procedures.rst:395 ../../source/procedures.rst:441
+msgid "MASTER RESET pushbutton - Depress."
+msgstr ""
+
+#: ../../source/procedures.rst:360
+msgid "COMM/NAV/GEAR/DISPLAYS - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:362
+msgid "UHF function selector - TR+G or BOTH."
+msgstr ""
+
+#: ../../source/procedures.rst:363 ../../source/procedures.rst:630
+msgid "TACAN function selector - T/R."
+msgstr ""
+
+#: ../../source/procedures.rst:364
+msgid "ARA-63 POWER switch - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:365
+msgid "DISPLAYS control switches - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:366
+msgid "RADAR ALTITUDE - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:369
+msgid "Trim - Set 000."
+msgstr ""
+
+#: ../../source/procedures.rst:371 ../../source/procedures.rst:737
+msgid "Standby attitude gyro - Erect."
+msgstr ""
+
+#: ../../source/procedures.rst:371
+msgid "Do this at least two minutes before take-off."
+msgstr ""
+
+#: ../../source/procedures.rst:375
+msgid "MASTER TEST switch - OBC."
+msgstr ""
+
+#: ../../source/procedures.rst:375
+msgid "Coordinate with RIO and plane captain."
+msgstr ""
+
+#: ../../source/procedures.rst:377
+msgid "Autopilot - Engage."
+msgstr ""
+
+#: ../../source/procedures.rst:377
+msgid "As part of above test."
+msgstr ""
+
+#: ../../source/procedures.rst:379
+msgid "Speed brake switch - EXT, then RET."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "First test partial extension and retraction, then full."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"Check for fluctuations in stabilizer to verify integrated trim operation."
+msgstr ""
+
+#: ../../source/procedures.rst:383
+msgid "REFUEL PROBE switch - All EXT, then RET."
+msgstr ""
+
+#: ../../source/procedures.rst:383
+msgid "Check normal function and that transition light illuminates normally."
+msgstr ""
+
+#: ../../source/procedures.rst:385
+msgid "WSHLD AIR switch - Cycle."
+msgstr ""
+
+#: ../../source/procedures.rst:387
+msgid "OBC - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:387
+msgid "If engaged, verify that autopilot disengages."
+msgstr ""
+
+#: ../../source/procedures.rst:391
+msgid "Trim - Checked and Set 000."
+msgstr ""
+
+#: ../../source/procedures.rst:393
+msgid "**FOR CV OPERATIONS OMIT STEPS 24 - 42.**"
+msgstr ""
+
+#: ../../source/procedures.rst:397
+msgid "Emergency WING SWEEP handle - 20°."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "**CAUTION - WING MOVEMENT**"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "After moving handle to 20° (full forward), engage spider detent."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Stow handle and guard."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "HZ TAIL AUTH light will illuminate momentarily coming out of OVSW."
+msgstr ""
+
+#: ../../source/procedures.rst:405
+msgid "External lights - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:405
+msgid "According to situation."
+msgstr ""
+
+#: ../../source/procedures.rst:407
+msgid "Flaps and slats - DN."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check for full deflection and operation of outboard spoiler module."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Also check for 3° trailing edge up of stabilizer."
+msgstr ""
+
+#: ../../source/procedures.rst:411
+msgid "Flight controls - Cycle."
+msgstr ""
+
+#: ../../source/procedures.rst:411
+msgid ""
+"Verify full range of motion on control surfaces and normal speed and "
+"operation of said surfaces."
+msgstr ""
+
+#: ../../source/procedures.rst:413
+msgid "DLC - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:413
+msgid "Verify horizontal tail shift with DLC input."
+msgstr ""
+
+#: ../../source/procedures.rst:415
+msgid "ANTI SKID SPOILER BK. switch - SPOILER BK."
+msgstr ""
+
+#: ../../source/procedures.rst:417
+msgid "MASTER TEST switch - STICK SW."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "SPOILER light illuminates and all spoilers fall down."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"GO light should illuminate with 1 inch of movement of stick in each "
+"direction."
+msgstr ""
+
+#: ../../source/procedures.rst:421
+msgid "Spoilers and throttles - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:425
+msgid "Flaps and slats - UP."
+msgstr ""
+
+#: ../../source/procedures.rst:427
+msgid "Maneuver flaps - DN."
+msgstr ""
+
+#: ../../source/procedures.rst:429
+msgid "WING SWEEP MODE switch - MAN 50."
+msgstr ""
+
+#: ../../source/procedures.rst:429
+msgid "If sweep does not stop at 50° immediately select AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:431
+msgid "Maneuver flaps - Crack Up."
+msgstr ""
+
+#: ../../source/procedures.rst:433
+msgid "WING SWEEP MODE switch - BOMB."
+msgstr ""
+
+#: ../../source/procedures.rst:433
+msgid "Check maneuver flap retraction."
+msgstr ""
+
+#: ../../source/procedures.rst:435
+msgid "Emergency WING SWEEP handle - 68°."
+msgstr ""
+
+#: ../../source/procedures.rst:437
+msgid "Emergency WING SWEEP handle - OV SW."
+msgstr ""
+
+#: ../../source/procedures.rst:439
+msgid "WING SWEEP MODE switch - AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:443
+msgid "**CHECKLIST FOR CV RESUMES**"
+msgstr ""
+
+#: ../../source/procedures.rst:445
+msgid "ANTI SKID SPOILER BK switch - BOTH."
+msgstr ""
+
+#: ../../source/procedures.rst:447
+msgid "ANTI SKID - BIT."
+msgstr ""
+
+#: ../../source/procedures.rst:447
+msgid "Ensure coarse gyro alignment complete before releasing parking brake."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Radar altimeter - BIT."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"Depress SET knob, display should show 100 feet and indicator green light "
+"illuminates."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"Release and indicator should show 0 feet, warning tone should sound in both "
+"cockpits and ALT LOW illuminates correspondingly."
+msgstr ""
+
+#: ../../source/procedures.rst:458
+msgid "Displays - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:460
+msgid "Tacan - BIT."
+msgstr ""
+
+#: ../../source/procedures.rst:462
+msgid "ARA-63 - BIT."
+msgstr ""
+
+#: ../../source/procedures.rst:464
+msgid "HUD-VIDEO - BIT."
+msgstr ""
+
+#: ../../source/procedures.rst:466
+msgid "Altimeter - SET/RESET MODE."
+msgstr ""
+
+#: ../../source/procedures.rst:468
+msgid "Compass - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:468
+msgid "Check IMU heading on HUD, VDI, HSD and BDHI."
+msgstr ""
+
+#: ../../source/procedures.rst:470
+msgid "Flight instruments - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:475
+msgid "Checklists - RIO"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Turn OXYGEN switch ON and check for airflow."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Turn OXYGEN switch OFF and check that airflow ceases."
+msgstr ""
+
+#: ../../source/procedures.rst:485
+msgid "VENT AIRFLOW thumbwheel - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:487
+msgid "SYS TEST - SYS PWR ground check panel - Closed."
+msgstr ""
+
+#: ../../source/procedures.rst:489
+msgid "KY-28 or KY-58 - P/OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:493
+msgid "VOL knob - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:498
+msgid "TACAN function selector - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:500
+msgid "U/VHF MODE selector - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:502
+msgid "LIQ COOLING switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:504
+msgid "EJECT CMD lever - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:504
+msgid "According to squadron policy."
+msgstr ""
+
+#: ../../source/procedures.rst:506
+msgid "ARMAMENT control panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:508
+msgid "WPN type thumbwheel - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:509
+msgid "ATTK MODE knob - MAN."
+msgstr ""
+
+#: ../../source/procedures.rst:510
+msgid "DLVY MODE switch - STP."
+msgstr ""
+
+#: ../../source/procedures.rst:511
+msgid "DLVY MODE switch - SGL."
+msgstr ""
+
+#: ../../source/procedures.rst:512
+msgid "ELECT FUZE knob - Safe."
+msgstr ""
+
+#: ../../source/procedures.rst:513
+msgid "A/G GUN switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:514
+msgid "MECH FUZE switch - Safe."
+msgstr ""
+
+#: ../../source/procedures.rst:515
+msgid "SEL JETT switch - Safe."
+msgstr ""
+
+#: ../../source/procedures.rst:516
+msgid "JETT OPTIONS switch - MER TER."
+msgstr ""
+
+#: ../../source/procedures.rst:517
+msgid "INTERVAL - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:518
+msgid "QTY - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:519
+msgid "Station select switches 1 to 8 - Safe."
+msgstr ""
+
+#: ../../source/procedures.rst:520
+msgid "MSL OPTIONS switch - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:521
+msgid "MSL SPD GATE knob - NOSE QTR."
+msgstr ""
+
+#: ../../source/procedures.rst:525
+msgid "NAV MODE knob - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:527
+msgid "Clock - Set and Wind."
+msgstr ""
+
+#: ../../source/procedures.rst:529
+msgid "WCS switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:531
+msgid "IR/TV power switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:533
+msgid "RECORD switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:535
+msgid "RADAR WARNING RCVR PWR switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:537
+msgid "DECM selector knob - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:539
+msgid "AN/ALE-39 PWR/MODE switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:541
+msgid "DATA LINK ON-OFF-AUX ON switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:543
+msgid "APX-76 - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:545
+msgid "INTERIOR LIGHTS panel - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:547
+msgid "IFF MASTER knob - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:549
+msgid "MODE 4 switch - Out."
+msgstr ""
+
+#: ../../source/procedures.rst:551
+msgid "IFF ANT and TEST panel - SET."
+msgstr ""
+
+#: ../../source/procedures.rst:553
+msgid "IFF ANT switch - Off (center)."
+msgstr ""
+
+#: ../../source/procedures.rst:554
+msgid "IND LT-DDI BIT switch - Off (center)."
+msgstr ""
+
+#: ../../source/procedures.rst:555
+msgid "GND CLG switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:558
+msgid "RADAR BEACON switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:560
+msgid "RADAR BEACON MODE switch - Single or Double."
+msgstr ""
+
+#: ../../source/procedures.rst:562
+msgid "POWER SYS TEST switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:564
+msgid "DATA/ADF switch - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:572
+msgid "Verify that external power and air is connected."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"Starting WCS and or displays without external air can cause damage to those "
+"systems as external air is used for cooling when no on-board air is "
+"available."
+msgstr ""
+
+#: ../../source/procedures.rst:576
+msgid "Verify two-way communication between crewmembers and adjust volume."
+msgstr ""
+
+#: ../../source/procedures.rst:578
+msgid "DL, TACAN and U/VHF - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:578
+msgid "Set in accordance with mission parameters."
+msgstr ""
+
+#: ../../source/procedures.rst:580
+msgid "Fuel quantity - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:582
+msgid "Lights - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:582
+msgid "Adjust console and instrument lighting if required."
+msgstr ""
+
+#: ../../source/procedures.rst:584
+msgid "LTS test - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:586
+msgid ""
+"Check that all caution and advisory lights, ECM lights and DDI lights "
+"illuminate."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "This is done when pilot selects LTS test on MASTER TEST switch."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid ""
+"*NOTE* When pilot selects INST test, RIO fuel counter should decrease to "
+"2000 pounds and MASTER CAUTION, FUEL LOW and OXY LOW lights should "
+"illuminate."
+msgstr ""
+
+#: ../../source/procedures.rst:589
+msgid "Visually check that pilot locking tab is depressed."
+msgstr ""
+
+#: ../../source/procedures.rst:591
+msgid "Verify that pilot is ready to close canopy."
+msgstr ""
+
+#: ../../source/procedures.rst:593
+msgid "Acknowledge - Ready to start."
+msgstr ""
+
+#: ../../source/procedures.rst:593
+msgid "Inform pilot, ready to start."
+msgstr ""
+
+#: ../../source/procedures.rst:600
+msgid ""
+"The RIO monitors pilot procedures and plane captain signals to ensure "
+"maximum safety during engine start sequence."
+msgstr ""
+
+#: ../../source/procedures.rst:606
+msgid "*Note*"
+msgstr ""
+
+#: ../../source/procedures.rst:608
+msgid ""
+"The RIO must ensure that the EMERG GEN check is completed before commencing "
+"poststart checklist."
+msgstr ""
+
+#: ../../source/procedures.rst:609
+msgid ""
+"The ECS (Environmental Control System) should run for at least 3 minutes "
+"before avionics and AWG-9 power-up."
+msgstr ""
+
+#: ../../source/procedures.rst:612
+msgid "WCS switch - STBY."
+msgstr ""
+
+#: ../../source/procedures.rst:612
+msgid "Verify that AWG-9 COND light illuminates."
+msgstr ""
+
+#: ../../source/procedures.rst:614
+msgid "LIQ COOLING switch - AWG-9 or AWG-9/AIM-54."
+msgstr ""
+
+#: ../../source/procedures.rst:614
+msgid ""
+"Select AWG-9/AIM-54 if AIM-54 is loaded. Verify that AWG-9 COND light goes "
+"off and that AUTO BIT 2 is running (on TID)."
+msgstr ""
+
+#: ../../source/procedures.rst:618
+msgid "IR/TV power switch - STBY/IR/TV."
+msgstr ""
+
+#: ../../source/procedures.rst:620
+msgid "CATEGORY knob - NAV."
+msgstr ""
+
+#: ../../source/procedures.rst:622
+msgid "NAV MODE switch - Align."
+msgstr ""
+
+#: ../../source/procedures.rst:624
+msgid "Communications - ON and Set."
+msgstr ""
+
+#: ../../source/procedures.rst:626
+msgid "U/VHF MODE selector - T/R G."
+msgstr ""
+
+#: ../../source/procedures.rst:627
+msgid "DATA LINK switch - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:632
+msgid "RADAR WARNING RCVR panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:634
+msgid "Display type switch - NORM."
+msgstr ""
+
+#: ../../source/procedures.rst:635
+msgid "PWR switch - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:636
+msgid "TEST switch - SPL."
+msgstr ""
+
+#: ../../source/procedures.rst:637
+msgid "MODE button - LMT."
+msgstr ""
+
+#: ../../source/procedures.rst:640
+msgid "DECM knob - STBY."
+msgstr ""
+
+#: ../../source/procedures.rst:642
+msgid "When STBY light goes off, select hold 3 SEC, then ACT for OBC."
+msgstr ""
+
+#: ../../source/procedures.rst:646
+msgid "IFF MASTER knob - STBY."
+msgstr ""
+
+#: ../../source/procedures.rst:648
+msgid "Set CODE knob - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:649
+msgid "IFF panel - Test."
+msgstr ""
+
+#: ../../source/procedures.rst:651
+msgid "MC switch - OUT."
+msgstr ""
+
+#: ../../source/procedures.rst:652
+msgid "M1, M2 and M3 - Test."
+msgstr ""
+
+#: ../../source/procedures.rst:653
+msgid "MC - Test."
+msgstr ""
+
+#: ../../source/procedures.rst:654
+msgid "IFF ANT switch - AUTO."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Select NORM and observe that TEST light"
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "illuminates."
+msgstr ""
+
+#: ../../source/procedures.rst:657
+msgid "AUTO BIT 2 - Verify Complete."
+msgstr ""
+
+#: ../../source/procedures.rst:657
+msgid "On TID."
+msgstr ""
+
+#: ../../source/procedures.rst:659
+msgid ""
+"CAP - Enter own aircraft latitude, longitude and field or ship elevation."
+msgstr ""
+
+#: ../../source/procedures.rst:662
+msgid "Altimeter - Reset."
+msgstr ""
+
+#: ../../source/procedures.rst:664
+msgid "Computer address panel - Enter desired data."
+msgstr ""
+
+#: ../../source/procedures.rst:664
+msgid "WP, FP, etc, according to mission."
+msgstr ""
+
+#: ../../source/procedures.rst:666
+msgid "DDD - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:668
+msgid "TID controls - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:670
+msgid "CONTRAST - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:671
+msgid "BRIGHT control - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:672
+msgid "CLSN - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:673
+msgid "RID/DSBL - OFF. !!!!!!"
+msgstr ""
+
+#: ../../source/procedures.rst:674
+msgid "ALT NUM - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:675
+msgid "SYM ELEM - ON."
+msgstr ""
+
+#: ../../source/procedures.rst:676
+msgid "DATA LINK - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:677
+msgid "JAM strobe - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:678
+msgid "NON ATTK - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:679
+msgid "LAUNCH ZONE - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:680
+msgid "VEL VECTOR - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:681
+msgid "RANGE scale - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:684
+msgid "Multiple display indicator - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:686
+msgid "TEST button - Depress and Check."
+msgstr ""
+
+#: ../../source/procedures.rst:687
+msgid "BRIGHTNESS - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:690
+msgid "DATA/ADF switch - BOTH."
+msgstr ""
+
+#: ../../source/procedures.rst:692
+msgid "Hand control panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:694
+msgid "Light test - Depress and Check."
+msgstr ""
+
+#: ../../source/procedures.rst:695
+msgid "El Vernier - Set 0° elevation on radar."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "All AWG-9 lights should illuminate."
+msgstr ""
+
+#: ../../source/procedures.rst:698
+msgid "AN/ALE-39 - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:700
+msgid "BURST switch - 3."
+msgstr ""
+
+#: ../../source/procedures.rst:701
+msgid "BURST INTERVAL - 0.1."
+msgstr ""
+
+#: ../../source/procedures.rst:702
+msgid "SALVO - 2."
+msgstr ""
+
+#: ../../source/procedures.rst:703
+msgid "SALVO INTERVAL - 0.4."
+msgstr ""
+
+#: ../../source/procedures.rst:706
+msgid "CANOPY DEFOG-CABIN AIR lever - CABIN AIR."
+msgstr ""
+
+#: ../../source/procedures.rst:708
+msgid "D/L reply - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:710
+msgid "AAI control panel - Set."
+msgstr ""
+
+#: ../../source/procedures.rst:712
+msgid "TEST/CHAL CC switch - Test."
+msgstr ""
+
+#: ../../source/procedures.rst:0
+msgid "Check DDD display."
+msgstr ""
+
+#: ../../source/procedures.rst:715
+msgid "Indicator lights - Test."
+msgstr ""
+
+#: ../../source/procedures.rst:717
+msgid "DDI BIT - Test."
+msgstr ""
+
+#: ../../source/procedures.rst:719
+msgid "After alignment complete:"
+msgstr ""
+
+#: ../../source/procedures.rst:721
+msgid "NAV mode - INS."
+msgstr ""
+
+#: ../../source/procedures.rst:722
+msgid "Program restart - Depress."
+msgstr ""
+
+#: ../../source/procedures.rst:723
+msgid "STBY/READY lights - OFF."
+msgstr ""
+
+#: ../../source/procedures.rst:724
+msgid "TID NAV mode - INS."
+msgstr ""
+
+#: ../../source/procedures.rst:727
+msgid "DEST data - Verify."
+msgstr ""
+
+#: ../../source/procedures.rst:729
+msgid "BRG/DIST to destination - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:731
+msgid "OWN A/C groundspeed - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:733
+msgid "MAG VAR - Check."
+msgstr ""
+
+#: ../../source/procedures.rst:735
+msgid "KY-28/KY-58 - As required."
+msgstr ""
+
+#: ../../source/procedures.rst:739
+msgid "Notify pilot - Ready to taxi."
+msgstr ""
