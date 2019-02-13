@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Heatblur Simulations.
-# This file is distributed under the same license as the DCS: F-14 Tomcat Flight Manul zh-CN package.
+# This file is distributed under the same license as the DCS: F-14 “雄猫” 中文飞行手册 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 15:27+0800\n"
+"POT-Creation-Date: 2019-02-13 19:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,12 +78,43 @@ msgstr ""
 msgid "Meaning"
 msgstr ""
 
+#: ../../source/accr.rst:8
+#: ../../source/accr.rst:53
+#: ../../source/accr.rst:70
+#: ../../source/accr.rst:107
+#: ../../source/accr.rst:136
+#: ../../source/accr.rst:163
+#: ../../source/accr.rst:188
+#: ../../source/accr.rst:209
+#: ../../source/accr.rst:234
+#: ../../source/accr.rst:271
+#: ../../source/accr.rst:282
+#: ../../source/accr.rst:293
+#: ../../source/accr.rst:314
+#: ../../source/accr.rst:353
+#: ../../source/accr.rst:374
+#: ../../source/accr.rst:383
+#: ../../source/accr.rst:422
+#: ../../source/accr.rst:439
+#: ../../source/accr.rst:466
+#: ../../source/accr.rst:503
+#: ../../source/accr.rst:544
+#: ../../source/accr.rst:555
+#: ../../source/accr.rst:584
+#: ../../source/accr.rst:601
+msgid "Translation"
+msgstr ""
+
 #: ../../source/accr.rst:10
 msgid "ACL"
 msgstr ""
 
 #: ../../source/accr.rst:10
 msgid "Automatic Carrier Landing"
+msgstr ""
+
+#: ../../source/accr.rst:10
+msgid "__Automatic Carrier Landing"
 msgstr ""
 
 #: ../../source/accr.rst:12
@@ -94,6 +125,10 @@ msgstr ""
 msgid "Automatic Carrier Landing System"
 msgstr ""
 
+#: ../../source/accr.rst:12
+msgid "__Automatic Carrier Landing System"
+msgstr ""
+
 #: ../../source/accr.rst:14
 msgid "ACM"
 msgstr ""
@@ -102,12 +137,20 @@ msgstr ""
 msgid "Air Combat Maneuver"
 msgstr ""
 
+#: ../../source/accr.rst:14
+msgid "__Air Combat Maneuver"
+msgstr ""
+
 #: ../../source/accr.rst:16
 msgid "ACQ"
 msgstr ""
 
 #: ../../source/accr.rst:16
-msgid "Aquisition"
+msgid "Acquisition"
+msgstr ""
+
+#: ../../source/accr.rst:16
+msgid "__Acquisition"
 msgstr ""
 
 #: ../../source/accr.rst:18
@@ -118,12 +161,20 @@ msgstr ""
 msgid "Automatic Direction Finder"
 msgstr ""
 
+#: ../../source/accr.rst:18
+msgid "__Automatic Direction Finder"
+msgstr ""
+
 #: ../../source/accr.rst:20
 msgid "ADI"
 msgstr ""
 
 #: ../../source/accr.rst:20
 msgid "Attitude Director Indicator"
+msgstr ""
+
+#: ../../source/accr.rst:20
+msgid "__Attitude Director Indicator"
 msgstr ""
 
 #: ../../source/accr.rst:22
@@ -134,12 +185,20 @@ msgstr ""
 msgid "Armament Datum Line"
 msgstr ""
 
+#: ../../source/accr.rst:22
+msgid "__Armament Datum Line"
+msgstr ""
+
 #: ../../source/accr.rst:24
 msgid "AFCS"
 msgstr ""
 
 #: ../../source/accr.rst:24
 msgid "Automatic Flight Control System"
+msgstr ""
+
+#: ../../source/accr.rst:24
+msgid "__Automatic Flight Control System"
 msgstr ""
 
 #: ../../source/accr.rst:26
@@ -150,12 +209,20 @@ msgstr ""
 msgid "Augmenter Fan Temperature Control"
 msgstr ""
 
+#: ../../source/accr.rst:26
+msgid "__Augmenter Fan Temperature Control"
+msgstr ""
+
 #: ../../source/accr.rst:28
 msgid "AHRS"
 msgstr ""
 
 #: ../../source/accr.rst:28
 msgid "Attitude Heading Reference System"
+msgstr ""
+
+#: ../../source/accr.rst:28
+msgid "__Attitude Heading Reference System"
 msgstr ""
 
 #: ../../source/accr.rst:30
@@ -166,12 +233,20 @@ msgstr ""
 msgid "Air Inlet Control System"
 msgstr ""
 
+#: ../../source/accr.rst:30
+msgid "__Air Inlet Control System"
+msgstr ""
+
 #: ../../source/accr.rst:32
 msgid "AOA"
 msgstr ""
 
 #: ../../source/accr.rst:32
 msgid "Angle of Attack"
+msgstr ""
+
+#: ../../source/accr.rst:32
+msgid "__Angle of Attack"
 msgstr ""
 
 #: ../../source/accr.rst:34
@@ -182,12 +257,20 @@ msgstr ""
 msgid "Approach Power Compensator"
 msgstr ""
 
+#: ../../source/accr.rst:34
+msgid "__Approach Power Compensator"
+msgstr ""
+
 #: ../../source/accr.rst:36
 msgid "ASH"
 msgstr ""
 
 #: ../../source/accr.rst:36
 msgid "Automatic Stored Heading"
+msgstr ""
+
+#: ../../source/accr.rst:36
+msgid "__Automatic Stored Heading"
 msgstr ""
 
 #: ../../source/accr.rst:38
@@ -198,12 +281,20 @@ msgstr ""
 msgid "Active Transfer Command"
 msgstr ""
 
+#: ../../source/accr.rst:38
+msgid "__Active Transfer Command"
+msgstr ""
+
 #: ../../source/accr.rst:40
 msgid "ATLS"
 msgstr ""
 
 #: ../../source/accr.rst:40
 msgid "Automatic Thrust Limiting System"
+msgstr ""
+
+#: ../../source/accr.rst:40
+msgid "__Automatic Thrust Limiting System"
 msgstr ""
 
 #: ../../source/accr.rst:42
@@ -214,6 +305,10 @@ msgstr ""
 msgid "Attack"
 msgstr ""
 
+#: ../../source/accr.rst:42
+msgid "__Attack"
+msgstr ""
+
 #: ../../source/accr.rst:44
 msgid "AVTR"
 msgstr ""
@@ -222,12 +317,20 @@ msgstr ""
 msgid "Airborne Video Tape Recorder"
 msgstr ""
 
+#: ../../source/accr.rst:44
+msgid "__Airborne Video Tape Recorder"
+msgstr ""
+
 #: ../../source/accr.rst:46
 msgid "AWL"
 msgstr ""
 
 #: ../../source/accr.rst:46
 msgid "All-Weather Landing"
+msgstr ""
+
+#: ../../source/accr.rst:46
+msgid "__All-Weather Landing"
 msgstr ""
 
 #: ../../source/accr.rst:50
@@ -242,12 +345,20 @@ msgstr ""
 msgid "Bullet at Target Range"
 msgstr ""
 
+#: ../../source/accr.rst:55
+msgid "__Bullet at Target Range"
+msgstr ""
+
 #: ../../source/accr.rst:57
 msgid "BDHI"
 msgstr ""
 
 #: ../../source/accr.rst:57
 msgid "Bearing-Distance-Heading Indicator"
+msgstr ""
+
+#: ../../source/accr.rst:57
+msgid "__Bearing-Distance-Heading Indicator"
 msgstr ""
 
 #: ../../source/accr.rst:59
@@ -258,6 +369,10 @@ msgstr ""
 msgid "Built-in Test"
 msgstr ""
 
+#: ../../source/accr.rst:59
+msgid "__Built-in Test"
+msgstr ""
+
 #: ../../source/accr.rst:61
 msgid "BRST"
 msgstr ""
@@ -266,12 +381,20 @@ msgstr ""
 msgid "Boresight"
 msgstr ""
 
+#: ../../source/accr.rst:61
+msgid "__Boresight"
+msgstr ""
+
 #: ../../source/accr.rst:63
 msgid "BRU"
 msgstr ""
 
 #: ../../source/accr.rst:63
 msgid "Bomb Rack Unit"
+msgstr ""
+
+#: ../../source/accr.rst:63
+msgid "__Bomb Rack Unit"
 msgstr ""
 
 #: ../../source/accr.rst:67
@@ -286,12 +409,20 @@ msgstr ""
 msgid "Central Air Data Computer"
 msgstr ""
 
+#: ../../source/accr.rst:72
+msgid "__Central Air Data Computer"
+msgstr ""
+
 #: ../../source/accr.rst:74
 msgid "CAINS"
 msgstr ""
 
 #: ../../source/accr.rst:74
 msgid "Carrier Aircraft Inertial Navigation System"
+msgstr ""
+
+#: ../../source/accr.rst:74
+msgid "__Carrier Aircraft Inertial Navigation System"
 msgstr ""
 
 #: ../../source/accr.rst:76
@@ -302,12 +433,20 @@ msgstr ""
 msgid "Can't Comply"
 msgstr ""
 
+#: ../../source/accr.rst:76
+msgid "__Can't Comply"
+msgstr ""
+
 #: ../../source/accr.rst:78
 msgid "CAP"
 msgstr ""
 
 #: ../../source/accr.rst:78
 msgid "Computer Address Panel"
+msgstr ""
+
+#: ../../source/accr.rst:78
+msgid "__Computer Address Panel"
 msgstr ""
 
 #: ../../source/accr.rst:80
@@ -318,12 +457,20 @@ msgstr ""
 msgid "Continuously Computed Impact Point"
 msgstr ""
 
+#: ../../source/accr.rst:80
+msgid "__Continuously Computed Impact Point"
+msgstr ""
+
 #: ../../source/accr.rst:82
 msgid "CICU"
 msgstr ""
 
 #: ../../source/accr.rst:82
 msgid "Computer Integrated Converter Unit"
+msgstr ""
+
+#: ../../source/accr.rst:82
+msgid "__Computer Integrated Converter Unit"
 msgstr ""
 
 #: ../../source/accr.rst:84
@@ -334,12 +481,20 @@ msgstr ""
 msgid "Collision"
 msgstr ""
 
+#: ../../source/accr.rst:84
+msgid "__Collision"
+msgstr ""
+
 #: ../../source/accr.rst:86
 msgid "CM"
 msgstr ""
 
 #: ../../source/accr.rst:86
 msgid "Continuous Monitor"
+msgstr ""
+
+#: ../../source/accr.rst:86
+msgid "__Continuous Monitor"
 msgstr ""
 
 #: ../../source/accr.rst:88
@@ -350,12 +505,20 @@ msgstr ""
 msgid "Course"
 msgstr ""
 
+#: ../../source/accr.rst:88
+msgid "__Course"
+msgstr ""
+
 #: ../../source/accr.rst:90
 msgid "CRT"
 msgstr ""
 
 #: ../../source/accr.rst:90
 msgid "Cathode Ray Tube"
+msgstr ""
+
+#: ../../source/accr.rst:90
+msgid "__Cathode Ray Tube"
 msgstr ""
 
 #: ../../source/accr.rst:92
@@ -366,12 +529,20 @@ msgstr ""
 msgid "Continuous Semi-Active"
 msgstr ""
 
+#: ../../source/accr.rst:92
+msgid "__Continuous Semi-Active"
+msgstr ""
+
 #: ../../source/accr.rst:94
 msgid "CSDC"
 msgstr ""
 
 #: ../../source/accr.rst:94
 msgid "Computer Signal Data Converter"
+msgstr ""
+
+#: ../../source/accr.rst:94
+msgid "__Computer Signal Data Converter"
 msgstr ""
 
 #: ../../source/accr.rst:96
@@ -382,6 +553,10 @@ msgstr ""
 msgid "Cockpit Television Sensor"
 msgstr ""
 
+#: ../../source/accr.rst:96
+msgid "__Cockpit Television Sensor"
+msgstr ""
+
 #: ../../source/accr.rst:98
 msgid "CV"
 msgstr ""
@@ -390,12 +565,20 @@ msgstr ""
 msgid "Aircraft Carrier"
 msgstr ""
 
+#: ../../source/accr.rst:98
+msgid "__Aircraft Carrier"
+msgstr ""
+
 #: ../../source/accr.rst:100
 msgid "CW"
 msgstr ""
 
 #: ../../source/accr.rst:100
 msgid "Continuous-Wave"
+msgstr ""
+
+#: ../../source/accr.rst:100
+msgid "__Continuous-Wave"
 msgstr ""
 
 #: ../../source/accr.rst:104
@@ -410,12 +593,20 @@ msgstr ""
 msgid "Detail Data Display"
 msgstr ""
 
+#: ../../source/accr.rst:109
+msgid "__Detail Data Display"
+msgstr ""
+
 #: ../../source/accr.rst:111
 msgid "DDI"
 msgstr ""
 
 #: ../../source/accr.rst:111
 msgid "Digital Data Indicator"
+msgstr ""
+
+#: ../../source/accr.rst:111
+msgid "__Digital Data Indicator"
 msgstr ""
 
 #: ../../source/accr.rst:113
@@ -426,12 +617,20 @@ msgstr ""
 msgid "Defensive Electronic Countermeasures"
 msgstr ""
 
+#: ../../source/accr.rst:113
+msgid "__Defensive Electronic Countermeasures"
+msgstr ""
+
 #: ../../source/accr.rst:115
 msgid "DEF PT"
 msgstr ""
 
 #: ../../source/accr.rst:115
 msgid "Defended Point"
+msgstr ""
+
+#: ../../source/accr.rst:115
+msgid "__Defended Point"
 msgstr ""
 
 #: ../../source/accr.rst:117
@@ -442,12 +641,20 @@ msgstr ""
 msgid "Designate"
 msgstr ""
 
+#: ../../source/accr.rst:117
+msgid "__Designate"
+msgstr ""
+
 #: ../../source/accr.rst:119
 msgid "DEST"
 msgstr ""
 
 #: ../../source/accr.rst:119
 msgid "Destination"
+msgstr ""
+
+#: ../../source/accr.rst:119
+msgid "__Destination"
 msgstr ""
 
 #: ../../source/accr.rst:121
@@ -458,12 +665,20 @@ msgstr ""
 msgid "Direction Finder"
 msgstr ""
 
+#: ../../source/accr.rst:121
+msgid "__Direction Finder"
+msgstr ""
+
 #: ../../source/accr.rst:123
 msgid "D/L"
 msgstr ""
 
 #: ../../source/accr.rst:123
 msgid "Data Link"
+msgstr ""
+
+#: ../../source/accr.rst:123
+msgid "__Data Link"
 msgstr ""
 
 #: ../../source/accr.rst:125
@@ -474,6 +689,10 @@ msgstr ""
 msgid "Direct Lift Control"
 msgstr ""
 
+#: ../../source/accr.rst:125
+msgid "__Direct Lift Control"
+msgstr ""
+
 #: ../../source/accr.rst:127
 msgid "DME"
 msgstr ""
@@ -482,12 +701,20 @@ msgstr ""
 msgid "Distance Measuring Equipment"
 msgstr ""
 
+#: ../../source/accr.rst:127
+msgid "__Distance Measuring Equipment"
+msgstr ""
+
 #: ../../source/accr.rst:129
 msgid "DPLR"
 msgstr ""
 
 #: ../../source/accr.rst:129
 msgid "Doppler"
+msgstr ""
+
+#: ../../source/accr.rst:129
+msgid "__Doppler"
 msgstr ""
 
 #: ../../source/accr.rst:133
@@ -502,12 +729,20 @@ msgstr ""
 msgid "Expanded Chaff Adapter"
 msgstr ""
 
+#: ../../source/accr.rst:138
+msgid "__Expanded Chaff Adapter"
+msgstr ""
+
 #: ../../source/accr.rst:140
 msgid "ECM"
 msgstr ""
 
 #: ../../source/accr.rst:140
 msgid "Electronic Countermeasures"
+msgstr ""
+
+#: ../../source/accr.rst:140
+msgid "__Electronic Countermeasures"
 msgstr ""
 
 #: ../../source/accr.rst:142
@@ -518,12 +753,20 @@ msgstr ""
 msgid "Electronic Counter-Countermeasures"
 msgstr ""
 
+#: ../../source/accr.rst:142
+msgid "__Electronic Counter-Countermeasures"
+msgstr ""
+
 #: ../../source/accr.rst:144
 msgid "ECMD"
 msgstr ""
 
 #: ../../source/accr.rst:144
 msgid "Electronic Countermeasures Display"
+msgstr ""
+
+#: ../../source/accr.rst:144
+msgid "__Electronic Countermeasures Display"
 msgstr ""
 
 #: ../../source/accr.rst:146
@@ -534,12 +777,20 @@ msgstr ""
 msgid "Environmental Control System"
 msgstr ""
 
+#: ../../source/accr.rst:146
+msgid "__Environmental Control System"
+msgstr ""
+
 #: ../../source/accr.rst:148
 msgid "EGT"
 msgstr ""
 
 #: ../../source/accr.rst:148
 msgid "Exhaust Gas Temperature"
+msgstr ""
+
+#: ../../source/accr.rst:148
+msgid "__Exhaust Gas Temperature"
 msgstr ""
 
 #: ../../source/accr.rst:150
@@ -550,12 +801,20 @@ msgstr ""
 msgid "Electronic Instrument Group"
 msgstr ""
 
+#: ../../source/accr.rst:150
+msgid "__Electronic Instrument Group"
+msgstr ""
+
 #: ../../source/accr.rst:152
 msgid "ETA"
 msgstr ""
 
 #: ../../source/accr.rst:152
 msgid "Estimated Time of Arrival"
+msgstr ""
+
+#: ../../source/accr.rst:152
+msgid "__Estimated Time of Arrival"
 msgstr ""
 
 #: ../../source/accr.rst:154
@@ -566,12 +825,20 @@ msgstr ""
 msgid "Expand"
 msgstr ""
 
+#: ../../source/accr.rst:154
+msgid "__Expand"
+msgstr ""
+
 #: ../../source/accr.rst:156
 msgid "FAR"
 msgstr ""
 
 #: ../../source/accr.rst:156
 msgid "False Alarm Rate"
+msgstr ""
+
+#: ../../source/accr.rst:156
+msgid "__False Alarm Rate"
 msgstr ""
 
 #: ../../source/accr.rst:160
@@ -586,12 +853,20 @@ msgstr ""
 msgid "Field Carrier Landing Practice"
 msgstr ""
 
+#: ../../source/accr.rst:165
+msgid "__Field Carrier Landing Practice"
+msgstr ""
+
 #: ../../source/accr.rst:167
 msgid "FEMS"
 msgstr ""
 
 #: ../../source/accr.rst:167
 msgid "Fatigue Engine Monitoring System"
+msgstr ""
+
+#: ../../source/accr.rst:167
+msgid "__Fatigue Engine Monitoring System"
 msgstr ""
 
 #: ../../source/accr.rst:169
@@ -602,12 +877,20 @@ msgstr ""
 msgid "Fuel Flow"
 msgstr ""
 
+#: ../../source/accr.rst:169
+msgid "__Fuel Flow"
+msgstr ""
+
 #: ../../source/accr.rst:171
 msgid "FLOLS"
 msgstr ""
 
 #: ../../source/accr.rst:171
 msgid "Fresnel Lens Optical Landing System"
+msgstr ""
+
+#: ../../source/accr.rst:171
+msgid "__Fresnel Lens Optical Landing System"
 msgstr ""
 
 #: ../../source/accr.rst:173
@@ -618,12 +901,20 @@ msgstr ""
 msgid "Frequency Ranging"
 msgstr ""
 
+#: ../../source/accr.rst:173
+msgid "__Frequency Ranging"
+msgstr ""
+
 #: ../../source/accr.rst:175
 msgid "FOV"
 msgstr ""
 
 #: ../../source/accr.rst:175
 msgid "Field of View"
+msgstr ""
+
+#: ../../source/accr.rst:175
+msgid "__Field of View"
 msgstr ""
 
 #: ../../source/accr.rst:177
@@ -634,6 +925,10 @@ msgstr ""
 msgid "Fuselage Reference Line"
 msgstr ""
 
+#: ../../source/accr.rst:177
+msgid "__Fuselage Reference Line"
+msgstr ""
+
 #: ../../source/accr.rst:179
 msgid "FSK"
 msgstr ""
@@ -642,12 +937,20 @@ msgstr ""
 msgid "Frequency-Shift-Keyed"
 msgstr ""
 
+#: ../../source/accr.rst:179
+msgid "__Frequency-Shift-Keyed"
+msgstr ""
+
 #: ../../source/accr.rst:181
 msgid "FWD"
 msgstr ""
 
 #: ../../source/accr.rst:181
 msgid "Forward"
+msgstr ""
+
+#: ../../source/accr.rst:181
+msgid "__Forward"
 msgstr ""
 
 #: ../../source/accr.rst:185
@@ -662,12 +965,20 @@ msgstr ""
 msgid "Gimbal Angle Crosshair"
 msgstr ""
 
+#: ../../source/accr.rst:190
+msgid "__Gimbal Angle Crosshair"
+msgstr ""
+
 #: ../../source/accr.rst:192
 msgid "GCI"
 msgstr ""
 
 #: ../../source/accr.rst:192
 msgid "Ground Controlled Intercept"
+msgstr ""
+
+#: ../../source/accr.rst:192
+msgid "__Ground Controlled Intercept"
 msgstr ""
 
 #: ../../source/accr.rst:194
@@ -678,12 +989,20 @@ msgstr ""
 msgid "Gun Control System"
 msgstr ""
 
+#: ../../source/accr.rst:194
+msgid "__Gun Control System"
+msgstr ""
+
 #: ../../source/accr.rst:196
 msgid "GM"
 msgstr ""
 
 #: ../../source/accr.rst:196
 msgid "Ground Map"
+msgstr ""
+
+#: ../../source/accr.rst:196
+msgid "__Ground Map"
 msgstr ""
 
 #: ../../source/accr.rst:198
@@ -694,6 +1013,10 @@ msgstr ""
 msgid "Global Positioning System"
 msgstr ""
 
+#: ../../source/accr.rst:198
+msgid "__Global Positioning System"
+msgstr ""
+
 #: ../../source/accr.rst:200
 msgid "GSS"
 msgstr ""
@@ -702,12 +1025,20 @@ msgstr ""
 msgid "Gun Scoring System"
 msgstr ""
 
+#: ../../source/accr.rst:200
+msgid "__Gun Scoring System"
+msgstr ""
+
 #: ../../source/accr.rst:202
 msgid "GT"
 msgstr ""
 
 #: ../../source/accr.rst:202
 msgid "Ground Track"
+msgstr ""
+
+#: ../../source/accr.rst:202
+msgid "__Ground Track"
 msgstr ""
 
 #: ../../source/accr.rst:206
@@ -722,12 +1053,20 @@ msgstr ""
 msgid "Homebase"
 msgstr ""
 
+#: ../../source/accr.rst:211
+msgid "__Homebase"
+msgstr ""
+
 #: ../../source/accr.rst:213
 msgid "HCU"
 msgstr ""
 
 #: ../../source/accr.rst:213
 msgid "Hand Control Unit"
+msgstr ""
+
+#: ../../source/accr.rst:213
+msgid "__Hand Control Unit"
 msgstr ""
 
 #: ../../source/accr.rst:215
@@ -738,12 +1077,20 @@ msgstr ""
 msgid "Heading"
 msgstr ""
 
+#: ../../source/accr.rst:215
+msgid "__Heading"
+msgstr ""
+
 #: ../../source/accr.rst:217
 msgid "HOJ"
 msgstr ""
 
 #: ../../source/accr.rst:217
 msgid "Home-on-Jam"
+msgstr ""
+
+#: ../../source/accr.rst:217
+msgid "__Home-on-Jam"
 msgstr ""
 
 #: ../../source/accr.rst:219
@@ -754,12 +1101,20 @@ msgstr ""
 msgid "Hostile"
 msgstr ""
 
+#: ../../source/accr.rst:219
+msgid "__Hostile"
+msgstr ""
+
 #: ../../source/accr.rst:221
 msgid "HPRF"
 msgstr ""
 
 #: ../../source/accr.rst:221
 msgid "High Pulse Repetition Frequency"
+msgstr ""
+
+#: ../../source/accr.rst:221
+msgid "__High Pulse Repetition Frequency"
 msgstr ""
 
 #: ../../source/accr.rst:223
@@ -770,6 +1125,10 @@ msgstr ""
 msgid "Horizontal Situation Display"
 msgstr ""
 
+#: ../../source/accr.rst:223
+msgid "__Horizontal Situation Display"
+msgstr ""
+
 #: ../../source/accr.rst:225
 msgid "HSI"
 msgstr ""
@@ -778,12 +1137,20 @@ msgstr ""
 msgid "Horizontal Situation Indicator"
 msgstr ""
 
+#: ../../source/accr.rst:225
+msgid "__Horizontal Situation Indicator"
+msgstr ""
+
 #: ../../source/accr.rst:227
 msgid "HUD"
 msgstr ""
 
 #: ../../source/accr.rst:227
 msgid "Heads-up Display"
+msgstr ""
+
+#: ../../source/accr.rst:227
+msgid "__Heads-up Display"
 msgstr ""
 
 #: ../../source/accr.rst:231
@@ -798,12 +1165,20 @@ msgstr ""
 msgid "Indicated Airspeed"
 msgstr ""
 
+#: ../../source/accr.rst:236
+msgid "__Indicated Airspeed"
+msgstr ""
+
 #: ../../source/accr.rst:238
 msgid "ICLS"
 msgstr ""
 
 #: ../../source/accr.rst:238
 msgid "Instrument Carrier Landing System"
+msgstr ""
+
+#: ../../source/accr.rst:238
+msgid "__Instrument Carrier Landing System"
 msgstr ""
 
 #: ../../source/accr.rst:240
@@ -814,12 +1189,20 @@ msgstr ""
 msgid "Intercommunications"
 msgstr ""
 
+#: ../../source/accr.rst:240
+msgid "__Intercommunications"
+msgstr ""
+
 #: ../../source/accr.rst:242
 msgid "IFF"
 msgstr ""
 
 #: ../../source/accr.rst:242
 msgid "Identification Friend or Foe"
+msgstr ""
+
+#: ../../source/accr.rst:242
+msgid "__Identification Friend or Foe"
 msgstr ""
 
 #: ../../source/accr.rst:244
@@ -830,12 +1213,20 @@ msgstr ""
 msgid "Instrument Flight Rules"
 msgstr ""
 
+#: ../../source/accr.rst:244
+msgid "__Instrument Flight Rules"
+msgstr ""
+
 #: ../../source/accr.rst:246
 msgid "IFT"
 msgstr ""
 
 #: ../../source/accr.rst:246
 msgid "In-Flight Training"
+msgstr ""
+
+#: ../../source/accr.rst:246
+msgid "__In-Flight Training"
 msgstr ""
 
 #: ../../source/accr.rst:248
@@ -846,12 +1237,20 @@ msgstr ""
 msgid "Instrument Landing System (ICLS)"
 msgstr ""
 
+#: ../../source/accr.rst:248
+msgid "__Instrument Landing System (ICLS)"
+msgstr ""
+
 #: ../../source/accr.rst:250
 msgid "IMN"
 msgstr ""
 
 #: ../../source/accr.rst:250
 msgid "Indicated Mach Number"
+msgstr ""
+
+#: ../../source/accr.rst:250
+msgid "__Indicated Mach Number"
 msgstr ""
 
 #: ../../source/accr.rst:252
@@ -862,12 +1261,20 @@ msgstr ""
 msgid "Intertial Measurement Unit"
 msgstr ""
 
+#: ../../source/accr.rst:252
+msgid "__Intertial Measurement Unit"
+msgstr ""
+
 #: ../../source/accr.rst:254
 msgid "INS"
 msgstr ""
 
 #: ../../source/accr.rst:254
 msgid "Intertial Navigation System"
+msgstr ""
+
+#: ../../source/accr.rst:254
+msgid "__Intertial Navigation System"
 msgstr ""
 
 #: ../../source/accr.rst:256
@@ -878,12 +1285,20 @@ msgstr ""
 msgid "Initial Point"
 msgstr ""
 
+#: ../../source/accr.rst:256
+msgid "__Initial Point"
+msgstr ""
+
 #: ../../source/accr.rst:258
 msgid "IR"
 msgstr ""
 
 #: ../../source/accr.rst:258
 msgid "Infrared"
+msgstr ""
+
+#: ../../source/accr.rst:258
+msgid "__Infrared"
 msgstr ""
 
 #: ../../source/accr.rst:260
@@ -894,6 +1309,10 @@ msgstr ""
 msgid "IR Angle Tracking"
 msgstr ""
 
+#: ../../source/accr.rst:260
+msgid "__IR Angle Tracking"
+msgstr ""
+
 #: ../../source/accr.rst:262
 msgid "ITER"
 msgstr ""
@@ -902,12 +1321,20 @@ msgstr ""
 msgid "Improved Triple Ejector Rack"
 msgstr ""
 
+#: ../../source/accr.rst:262
+msgid "__Improved Triple Ejector Rack"
+msgstr ""
+
 #: ../../source/accr.rst:264
 msgid "ITS"
 msgstr ""
 
 #: ../../source/accr.rst:264
 msgid "Integrated Trim System"
+msgstr ""
+
+#: ../../source/accr.rst:264
+msgid "__Integrated Trim System"
 msgstr ""
 
 #: ../../source/accr.rst:268
@@ -922,12 +1349,20 @@ msgstr ""
 msgid "Jamming"
 msgstr ""
 
+#: ../../source/accr.rst:273
+msgid "__Jamming"
+msgstr ""
+
 #: ../../source/accr.rst:275
 msgid "JAT"
 msgstr ""
 
 #: ../../source/accr.rst:275
 msgid "Jam Angle Track"
+msgstr ""
+
+#: ../../source/accr.rst:275
+msgid "__Jam Angle Track"
 msgstr ""
 
 #: ../../source/accr.rst:279
@@ -942,12 +1377,20 @@ msgstr ""
 msgid "Knots Calibrated Airspeed"
 msgstr ""
 
+#: ../../source/accr.rst:284
+msgid "__Knots Calibrated Airspeed"
+msgstr ""
+
 #: ../../source/accr.rst:286
 msgid "KTS"
 msgstr ""
 
 #: ../../source/accr.rst:286
 msgid "Knots"
+msgstr ""
+
+#: ../../source/accr.rst:286
+msgid "__Knots"
 msgstr ""
 
 #: ../../source/accr.rst:290
@@ -962,12 +1405,20 @@ msgstr ""
 msgid "Launch Acceptable Region"
 msgstr ""
 
+#: ../../source/accr.rst:295
+msgid "__Launch Acceptable Region"
+msgstr ""
+
 #: ../../source/accr.rst:297
 msgid "LCD"
 msgstr ""
 
 #: ../../source/accr.rst:297
 msgid "Liquid Crystal Display"
+msgstr ""
+
+#: ../../source/accr.rst:297
+msgid "__Liquid Crystal Display"
 msgstr ""
 
 #: ../../source/accr.rst:299
@@ -978,12 +1429,20 @@ msgstr ""
 msgid "Lead Computing Optical Sight"
 msgstr ""
 
+#: ../../source/accr.rst:299
+msgid "__Lead Computing Optical Sight"
+msgstr ""
+
 #: ../../source/accr.rst:301
 msgid "LOS"
 msgstr ""
 
 #: ../../source/accr.rst:301
 msgid "Line of Sight"
+msgstr ""
+
+#: ../../source/accr.rst:301
+msgid "__Line of Sight"
 msgstr ""
 
 #: ../../source/accr.rst:303
@@ -994,6 +1453,10 @@ msgstr ""
 msgid "Low Pulse Repetition Frequency"
 msgstr ""
 
+#: ../../source/accr.rst:303
+msgid "__Low Pulse Repetition Frequency"
+msgstr ""
+
 #: ../../source/accr.rst:305
 msgid "LSO"
 msgstr ""
@@ -1002,12 +1465,20 @@ msgstr ""
 msgid "Landing Signal Officer or \"Paddles\""
 msgstr ""
 
+#: ../../source/accr.rst:305
+msgid "__Landing Signal Officer or \"Paddles\""
+msgstr ""
+
 #: ../../source/accr.rst:307
 msgid "LTE"
 msgstr ""
 
 #: ../../source/accr.rst:307
 msgid "Launch-to-Eject"
+msgstr ""
+
+#: ../../source/accr.rst:307
+msgid "__Launch-to-Eject"
 msgstr ""
 
 #: ../../source/accr.rst:311
@@ -1019,12 +1490,20 @@ msgstr ""
 msgid "Mach"
 msgstr ""
 
+#: ../../source/accr.rst:316
+msgid "__Mach"
+msgstr ""
+
 #: ../../source/accr.rst:318
 msgid "MA"
 msgstr ""
 
 #: ../../source/accr.rst:318
 msgid "Missile Alert"
+msgstr ""
+
+#: ../../source/accr.rst:318
+msgid "__Missile Alert"
 msgstr ""
 
 #: ../../source/accr.rst:320
@@ -1035,12 +1514,20 @@ msgstr ""
 msgid "Magnetic Azimuth Detector"
 msgstr ""
 
+#: ../../source/accr.rst:320
+msgid "__Magnetic Azimuth Detector"
+msgstr ""
+
 #: ../../source/accr.rst:322
 msgid "MAG VAR"
 msgstr ""
 
 #: ../../source/accr.rst:322
 msgid "Magnetic Variation"
+msgstr ""
+
+#: ../../source/accr.rst:322
+msgid "__Magnetic Variation"
 msgstr ""
 
 #: ../../source/accr.rst:324
@@ -1051,12 +1538,20 @@ msgstr ""
 msgid "Manual"
 msgstr ""
 
+#: ../../source/accr.rst:324
+msgid "__Manual"
+msgstr ""
+
 #: ../../source/accr.rst:326
 msgid "MAND"
 msgstr ""
 
 #: ../../source/accr.rst:326
 msgid "Mandatory"
+msgstr ""
+
+#: ../../source/accr.rst:326
+msgid "__Mandatory"
 msgstr ""
 
 #: ../../source/accr.rst:328
@@ -1067,12 +1562,20 @@ msgstr ""
 msgid "Multipurpose Display Indicator Group"
 msgstr ""
 
+#: ../../source/accr.rst:328
+msgid "__Multipurpose Display Indicator Group"
+msgstr ""
+
 #: ../../source/accr.rst:330
 msgid "MEC"
 msgstr ""
 
 #: ../../source/accr.rst:330
 msgid "Main Engine Control"
+msgstr ""
+
+#: ../../source/accr.rst:330
+msgid "__Main Engine Control"
 msgstr ""
 
 #: ../../source/accr.rst:332
@@ -1083,12 +1586,20 @@ msgstr ""
 msgid "Military"
 msgstr ""
 
+#: ../../source/accr.rst:332
+msgid "__Military"
+msgstr ""
+
 #: ../../source/accr.rst:334
 msgid "ML"
 msgstr ""
 
 #: ../../source/accr.rst:334
 msgid "Missile Launch"
+msgstr ""
+
+#: ../../source/accr.rst:334
+msgid "__Missile Launch"
 msgstr ""
 
 #: ../../source/accr.rst:336
@@ -1099,12 +1610,20 @@ msgstr ""
 msgid "Mainlobe Clutter"
 msgstr ""
 
+#: ../../source/accr.rst:336
+msgid "__Mainlobe Clutter"
+msgstr ""
+
 #: ../../source/accr.rst:338
 msgid "MLG"
 msgstr ""
 
 #: ../../source/accr.rst:338
 msgid "Main Landing Gear"
+msgstr ""
+
+#: ../../source/accr.rst:338
+msgid "__Main Landing Gear"
 msgstr ""
 
 #: ../../source/accr.rst:340
@@ -1115,12 +1634,20 @@ msgstr ""
 msgid "Missile on Aircraft Test"
 msgstr ""
 
+#: ../../source/accr.rst:340
+msgid "__Missile on Aircraft Test"
+msgstr ""
+
 #: ../../source/accr.rst:342
 msgid "MMGS"
 msgstr ""
 
 #: ../../source/accr.rst:342
 msgid "Multiple Mode Gun Sight"
+msgstr ""
+
+#: ../../source/accr.rst:342
+msgid "__Multiple Mode Gun Sight"
 msgstr ""
 
 #: ../../source/accr.rst:344
@@ -1131,12 +1658,20 @@ msgstr ""
 msgid "Manual Rapid Lockon"
 msgstr ""
 
+#: ../../source/accr.rst:344
+msgid "__Manual Rapid Lockon"
+msgstr ""
+
 #: ../../source/accr.rst:346
 msgid "MSL"
 msgstr ""
 
 #: ../../source/accr.rst:346
 msgid "Mean Sea Level"
+msgstr ""
+
+#: ../../source/accr.rst:346
+msgid "__Mean Sea Level"
 msgstr ""
 
 #: ../../source/accr.rst:350
@@ -1151,12 +1686,20 @@ msgstr ""
 msgid "Navigation Command and Control Grid"
 msgstr ""
 
+#: ../../source/accr.rst:355
+msgid "__Navigation Command and Control Grid"
+msgstr ""
+
 #: ../../source/accr.rst:357
 msgid "NBR"
 msgstr ""
 
 #: ../../source/accr.rst:357
 msgid "Number"
+msgstr ""
+
+#: ../../source/accr.rst:357
+msgid "__Number"
 msgstr ""
 
 #: ../../source/accr.rst:359
@@ -1167,12 +1710,20 @@ msgstr ""
 msgid "Naval Flight Officer"
 msgstr ""
 
+#: ../../source/accr.rst:359
+msgid "__Naval Flight Officer"
+msgstr ""
+
 #: ../../source/accr.rst:361
 msgid "NFOV"
 msgstr ""
 
 #: ../../source/accr.rst:361
 msgid "Narrow Field of View"
+msgstr ""
+
+#: ../../source/accr.rst:361
+msgid "__Narrow Field of View"
 msgstr ""
 
 #: ../../source/accr.rst:363
@@ -1183,6 +1734,10 @@ msgstr ""
 msgid "Nautical Miles"
 msgstr ""
 
+#: ../../source/accr.rst:363
+msgid "__Nautical Miles"
+msgstr ""
+
 #: ../../source/accr.rst:365
 msgid "NOZ"
 msgstr ""
@@ -1191,12 +1746,20 @@ msgstr ""
 msgid "Nozzle"
 msgstr ""
 
+#: ../../source/accr.rst:365
+msgid "__Nozzle"
+msgstr ""
+
 #: ../../source/accr.rst:367
 msgid "NTDS"
 msgstr ""
 
 #: ../../source/accr.rst:367
 msgid "Naval Tactical Data System"
+msgstr ""
+
+#: ../../source/accr.rst:367
+msgid "__Naval Tactical Data System"
 msgstr ""
 
 #: ../../source/accr.rst:371
@@ -1211,6 +1774,10 @@ msgstr ""
 msgid "On-Board Check"
 msgstr ""
 
+#: ../../source/accr.rst:376
+msgid "__On-Board Check"
+msgstr ""
+
 #: ../../source/accr.rst:380
 msgid "P"
 msgstr ""
@@ -1223,12 +1790,20 @@ msgstr ""
 msgid "See LSO"
 msgstr ""
 
+#: ../../source/accr.rst:385
+msgid "__See LSO"
+msgstr ""
+
 #: ../../source/accr.rst:387
 msgid "PAL"
 msgstr ""
 
 #: ../../source/accr.rst:387
 msgid "Pilot Automatic Lockon"
+msgstr ""
+
+#: ../../source/accr.rst:387
+msgid "__Pilot Automatic Lockon"
 msgstr ""
 
 #: ../../source/accr.rst:389
@@ -1239,12 +1814,20 @@ msgstr ""
 msgid "Precision Course Direction"
 msgstr ""
 
+#: ../../source/accr.rst:389
+msgid "__Precision Course Direction"
+msgstr ""
+
 #: ../../source/accr.rst:391
 msgid "PD"
 msgstr ""
 
 #: ../../source/accr.rst:391
 msgid "Pulse Doppler"
+msgstr ""
+
+#: ../../source/accr.rst:391
+msgid "__Pulse Doppler"
 msgstr ""
 
 #: ../../source/accr.rst:393
@@ -1255,12 +1838,20 @@ msgstr ""
 msgid "Pilot Display Control Panel"
 msgstr ""
 
+#: ../../source/accr.rst:393
+msgid "__Pilot Display Control Panel"
+msgstr ""
+
 #: ../../source/accr.rst:395
 msgid "PDRSL"
 msgstr ""
 
 #: ../../source/accr.rst:395
 msgid "Pulse Doppler Radar Slaved"
+msgstr ""
+
+#: ../../source/accr.rst:395
+msgid "__Pulse Doppler Radar Slaved"
 msgstr ""
 
 #: ../../source/accr.rst:397
@@ -1271,12 +1862,20 @@ msgstr ""
 msgid "Pulse Doppler Search"
 msgstr ""
 
+#: ../../source/accr.rst:397
+msgid "__Pulse Doppler Search"
+msgstr ""
+
 #: ../../source/accr.rst:399
 msgid "PDSTT"
 msgstr ""
 
 #: ../../source/accr.rst:399
 msgid "Pulse Doppler Single Target Track"
+msgstr ""
+
+#: ../../source/accr.rst:399
+msgid "__Pulse Doppler Single Target Track"
 msgstr ""
 
 #: ../../source/accr.rst:401
@@ -1287,12 +1886,20 @@ msgstr ""
 msgid "AIM-54 Phoenix Missile"
 msgstr ""
 
+#: ../../source/accr.rst:401
+msgid "__AIM-54 Phoenix Missile"
+msgstr ""
+
 #: ../../source/accr.rst:403
 msgid "PLM"
 msgstr ""
 
 #: ../../source/accr.rst:403
 msgid "Pilot Lockon Mode"
+msgstr ""
+
+#: ../../source/accr.rst:403
+msgid "__Pilot Lockon Mode"
 msgstr ""
 
 #: ../../source/accr.rst:405
@@ -1303,12 +1910,20 @@ msgstr ""
 msgid "Pulse Repetition Frequency"
 msgstr ""
 
+#: ../../source/accr.rst:405
+msgid "__Pulse Repetition Frequency"
+msgstr ""
+
 #: ../../source/accr.rst:407
 msgid "PRI"
 msgstr ""
 
 #: ../../source/accr.rst:407
 msgid "Primary"
+msgstr ""
+
+#: ../../source/accr.rst:407
+msgid "__Primary"
 msgstr ""
 
 #: ../../source/accr.rst:409
@@ -1319,12 +1934,20 @@ msgstr ""
 msgid "Pulse Radar Slaved"
 msgstr ""
 
+#: ../../source/accr.rst:409
+msgid "__Pulse Radar Slaved"
+msgstr ""
+
 #: ../../source/accr.rst:411
 msgid "PS"
 msgstr ""
 
 #: ../../source/accr.rst:411
 msgid "Pulse Search"
+msgstr ""
+
+#: ../../source/accr.rst:411
+msgid "__Pulse Search"
 msgstr ""
 
 #: ../../source/accr.rst:413
@@ -1335,12 +1958,20 @@ msgstr ""
 msgid "Pulse Single Target Track"
 msgstr ""
 
+#: ../../source/accr.rst:413
+msgid "__Pulse Single Target Track"
+msgstr ""
+
 #: ../../source/accr.rst:415
 msgid "PT"
 msgstr ""
 
 #: ../../source/accr.rst:415
 msgid "Point"
+msgstr ""
+
+#: ../../source/accr.rst:415
+msgid "__Point"
 msgstr ""
 
 #: ../../source/accr.rst:419
@@ -1355,12 +1986,20 @@ msgstr ""
 msgid "Cue-to-ADL"
 msgstr ""
 
+#: ../../source/accr.rst:424
+msgid "__Cue-to-ADL"
+msgstr ""
+
 #: ../../source/accr.rst:426
 msgid "QDES"
 msgstr ""
 
 #: ../../source/accr.rst:426
 msgid "Cue-to-Designate"
+msgstr ""
+
+#: ../../source/accr.rst:426
+msgid "__Cue-to-Designate"
 msgstr ""
 
 #: ../../source/accr.rst:428
@@ -1371,6 +2010,10 @@ msgstr ""
 msgid "Cue-to-HUD"
 msgstr ""
 
+#: ../../source/accr.rst:428
+msgid "__Cue-to-HUD"
+msgstr ""
+
 #: ../../source/accr.rst:430
 msgid "QSNO"
 msgstr ""
@@ -1379,12 +2022,20 @@ msgstr ""
 msgid "Cue-to-snowplow"
 msgstr ""
 
+#: ../../source/accr.rst:430
+msgid "__Cue-to-snowplow"
+msgstr ""
+
 #: ../../source/accr.rst:432
 msgid "QWP"
 msgstr ""
 
 #: ../../source/accr.rst:432
 msgid "Cue-to-waypoint"
+msgstr ""
+
+#: ../../source/accr.rst:432
+msgid "__Cue-to-waypoint"
 msgstr ""
 
 #: ../../source/accr.rst:436
@@ -1399,12 +2050,20 @@ msgstr ""
 msgid "Radar Angle Crosshair"
 msgstr ""
 
+#: ../../source/accr.rst:441
+msgid "__Radar Angle Crosshair"
+msgstr ""
+
 #: ../../source/accr.rst:443
 msgid "RDR"
 msgstr ""
 
 #: ../../source/accr.rst:443
 msgid "Radar"
+msgstr ""
+
+#: ../../source/accr.rst:443
+msgid "__Radar"
 msgstr ""
 
 #: ../../source/accr.rst:445
@@ -1415,12 +2074,20 @@ msgstr ""
 msgid "Radar on Target"
 msgstr ""
 
+#: ../../source/accr.rst:445
+msgid "__Radar on Target"
+msgstr ""
+
 #: ../../source/accr.rst:447
 msgid "RECON"
 msgstr ""
 
 #: ../../source/accr.rst:447
 msgid "Reconnaissance"
+msgstr ""
+
+#: ../../source/accr.rst:447
+msgid "__Reconnaissance"
 msgstr ""
 
 #: ../../source/accr.rst:449
@@ -1431,12 +2098,20 @@ msgstr ""
 msgid "Radar Intercept Officer"
 msgstr ""
 
+#: ../../source/accr.rst:449
+msgid "__Radar Intercept Officer"
+msgstr ""
+
 #: ../../source/accr.rst:451
 msgid "RNG"
 msgstr ""
 
 #: ../../source/accr.rst:451
 msgid "Range"
+msgstr ""
+
+#: ../../source/accr.rst:451
+msgid "__Range"
 msgstr ""
 
 #: ../../source/accr.rst:453
@@ -1447,12 +2122,20 @@ msgstr ""
 msgid "Range Rate"
 msgstr ""
 
+#: ../../source/accr.rst:453
+msgid "__Range Rate"
+msgstr ""
+
 #: ../../source/accr.rst:455
 msgid "ROT"
 msgstr ""
 
 #: ../../source/accr.rst:455
 msgid "Range on Target"
+msgstr ""
+
+#: ../../source/accr.rst:455
+msgid "__Range on Target"
 msgstr ""
 
 #: ../../source/accr.rst:457
@@ -1463,12 +2146,20 @@ msgstr ""
 msgid "Real-Time Gun Sight"
 msgstr ""
 
+#: ../../source/accr.rst:457
+msgid "__Real-Time Gun Sight"
+msgstr ""
+
 #: ../../source/accr.rst:459
 msgid "RWS"
 msgstr ""
 
 #: ../../source/accr.rst:459
 msgid "Range While Search"
+msgstr ""
+
+#: ../../source/accr.rst:459
+msgid "__Range While Search"
 msgstr ""
 
 #: ../../source/accr.rst:463
@@ -1483,12 +2174,20 @@ msgstr ""
 msgid "Surface to Air Missile"
 msgstr ""
 
+#: ../../source/accr.rst:468
+msgid "__Surface to Air Missile"
+msgstr ""
+
 #: ../../source/accr.rst:470
 msgid "SAS"
 msgstr ""
 
 #: ../../source/accr.rst:470
 msgid "Stability Augmentation System"
+msgstr ""
+
+#: ../../source/accr.rst:470
+msgid "__Stability Augmentation System"
 msgstr ""
 
 #: ../../source/accr.rst:472
@@ -1499,12 +2198,20 @@ msgstr ""
 msgid "Simultaneous Alignment and Test"
 msgstr ""
 
+#: ../../source/accr.rst:472
+msgid "__Simultaneous Alignment and Test"
+msgstr ""
+
 #: ../../source/accr.rst:474
 msgid "SCP"
 msgstr ""
 
 #: ../../source/accr.rst:474
 msgid "Sensor Control Panel"
+msgstr ""
+
+#: ../../source/accr.rst:474
+msgid "__Sensor Control Panel"
 msgstr ""
 
 #: ../../source/accr.rst:476
@@ -1515,12 +2222,20 @@ msgstr ""
 msgid "Sample Data/Active"
 msgstr ""
 
+#: ../../source/accr.rst:476
+msgid "__Sample Data/Active"
+msgstr ""
+
 #: ../../source/accr.rst:478
 msgid "SEAM"
 msgstr ""
 
 #: ../../source/accr.rst:478
 msgid "Sidewinder Expanded Acquisition Mode"
+msgstr ""
+
+#: ../../source/accr.rst:478
+msgid "__Sidewinder Expanded Acquisition Mode"
 msgstr ""
 
 #: ../../source/accr.rst:480
@@ -1531,12 +2246,20 @@ msgstr ""
 msgid "Ship Inertial Navigation System"
 msgstr ""
 
+#: ../../source/accr.rst:480
+msgid "__Ship Inertial Navigation System"
+msgstr ""
+
 #: ../../source/accr.rst:482
 msgid "SP"
 msgstr ""
 
 #: ../../source/accr.rst:482
 msgid "AIM-7 Sparrow Missile"
+msgstr ""
+
+#: ../../source/accr.rst:482
+msgid "__AIM-7 Sparrow Missile"
 msgstr ""
 
 #: ../../source/accr.rst:484
@@ -1547,12 +2270,20 @@ msgstr ""
 msgid "Surface Target"
 msgstr ""
 
+#: ../../source/accr.rst:484
+msgid "__Surface Target"
+msgstr ""
+
 #: ../../source/accr.rst:486
 msgid "STAB"
 msgstr ""
 
 #: ../../source/accr.rst:486
 msgid "Stabilization"
+msgstr ""
+
+#: ../../source/accr.rst:486
+msgid "__Stabilization"
 msgstr ""
 
 #: ../../source/accr.rst:488
@@ -1563,12 +2294,20 @@ msgstr ""
 msgid "Stability Augmentation"
 msgstr ""
 
+#: ../../source/accr.rst:488
+msgid "__Stability Augmentation"
+msgstr ""
+
 #: ../../source/accr.rst:490
 msgid "STBY"
 msgstr ""
 
 #: ../../source/accr.rst:490
 msgid "Standby"
+msgstr ""
+
+#: ../../source/accr.rst:490
+msgid "__Standby"
 msgstr ""
 
 #: ../../source/accr.rst:492
@@ -1579,6 +2318,10 @@ msgstr ""
 msgid "Sensitivity Time Control"
 msgstr ""
 
+#: ../../source/accr.rst:492
+msgid "__Sensitivity Time Control"
+msgstr ""
+
 #: ../../source/accr.rst:494
 msgid "STT"
 msgstr ""
@@ -1587,12 +2330,20 @@ msgstr ""
 msgid "Single Target Track"
 msgstr ""
 
+#: ../../source/accr.rst:494
+msgid "__Single Target Track"
+msgstr ""
+
 #: ../../source/accr.rst:496
 msgid "SW"
 msgstr ""
 
 #: ../../source/accr.rst:496
 msgid "AIM-9 Sidewinder Missile"
+msgstr ""
+
+#: ../../source/accr.rst:496
+msgid "__AIM-9 Sidewinder Missile"
 msgstr ""
 
 #: ../../source/accr.rst:500
@@ -1607,12 +2358,20 @@ msgstr ""
 msgid "Tactical Air Navigation"
 msgstr ""
 
+#: ../../source/accr.rst:505
+msgid "__Tactical Air Navigation"
+msgstr ""
+
 #: ../../source/accr.rst:507
 msgid "TARPS"
 msgstr ""
 
 #: ../../source/accr.rst:507
 msgid "Tactical Air Reconnaissance Pod System"
+msgstr ""
+
+#: ../../source/accr.rst:507
+msgid "__Tactical Air Reconnaissance Pod System"
 msgstr ""
 
 #: ../../source/accr.rst:509
@@ -1623,12 +2382,20 @@ msgstr ""
 msgid "True Airspeed"
 msgstr ""
 
+#: ../../source/accr.rst:509
+msgid "__True Airspeed"
+msgstr ""
+
 #: ../../source/accr.rst:511
 msgid "TCS"
 msgstr ""
 
 #: ../../source/accr.rst:511
 msgid "Television Camera Set"
+msgstr ""
+
+#: ../../source/accr.rst:511
+msgid "__Television Camera Set"
 msgstr ""
 
 #: ../../source/accr.rst:513
@@ -1639,12 +2406,20 @@ msgstr ""
 msgid "Tactical Data System"
 msgstr ""
 
+#: ../../source/accr.rst:513
+msgid "__Tactical Data System"
+msgstr ""
+
 #: ../../source/accr.rst:515
 msgid "TER"
 msgstr ""
 
 #: ../../source/accr.rst:515
 msgid "Triple Ejector Rack"
+msgstr ""
+
+#: ../../source/accr.rst:515
+msgid "__Triple Ejector Rack"
 msgstr ""
 
 #: ../../source/accr.rst:517
@@ -1655,12 +2430,20 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
+#: ../../source/accr.rst:517
+msgid "__Target"
+msgstr ""
+
 #: ../../source/accr.rst:519
 msgid "THRLD"
 msgstr ""
 
 #: ../../source/accr.rst:519
 msgid "Threshold"
+msgstr ""
+
+#: ../../source/accr.rst:519
+msgid "__Threshold"
 msgstr ""
 
 #: ../../source/accr.rst:521
@@ -1671,12 +2454,20 @@ msgstr ""
 msgid "Tactical Information Display"
 msgstr ""
 
+#: ../../source/accr.rst:521
+msgid "__Tactical Information Display"
+msgstr ""
+
 #: ../../source/accr.rst:523
 msgid "TIT"
 msgstr ""
 
 #: ../../source/accr.rst:523
 msgid "Turbine Inlet Temperature"
+msgstr ""
+
+#: ../../source/accr.rst:523
+msgid "__Turbine Inlet Temperature"
 msgstr ""
 
 #: ../../source/accr.rst:525
@@ -1687,12 +2478,20 @@ msgstr ""
 msgid "Time-to-Go"
 msgstr ""
 
+#: ../../source/accr.rst:525
+msgid "__Time-to-Go"
+msgstr ""
+
 #: ../../source/accr.rst:527
 msgid "TUIR"
 msgstr ""
 
 #: ../../source/accr.rst:527
 msgid "Time Until in Range"
+msgstr ""
+
+#: ../../source/accr.rst:527
+msgid "__Time Until in Range"
 msgstr ""
 
 #: ../../source/accr.rst:529
@@ -1703,12 +2502,20 @@ msgstr ""
 msgid "Time Until Maximum Range"
 msgstr ""
 
+#: ../../source/accr.rst:529
+msgid "__Time Until Maximum Range"
+msgstr ""
+
 #: ../../source/accr.rst:531
 msgid "TUOR"
 msgstr ""
 
 #: ../../source/accr.rst:531
 msgid "Time Until Optimum Range"
+msgstr ""
+
+#: ../../source/accr.rst:531
+msgid "__Time Until Optimum Range"
 msgstr ""
 
 #: ../../source/accr.rst:533
@@ -1719,6 +2526,10 @@ msgstr ""
 msgid "Track While Scan"
 msgstr ""
 
+#: ../../source/accr.rst:533
+msgid "__Track While Scan"
+msgstr ""
+
 #: ../../source/accr.rst:535
 msgid "TWSA"
 msgstr ""
@@ -1727,12 +2538,20 @@ msgstr ""
 msgid "Track While Scan Automatic"
 msgstr ""
 
+#: ../../source/accr.rst:535
+msgid "__Track While Scan Automatic"
+msgstr ""
+
 #: ../../source/accr.rst:537
 msgid "TWSM"
 msgstr ""
 
 #: ../../source/accr.rst:537
 msgid "Track While Scan Manual"
+msgstr ""
+
+#: ../../source/accr.rst:537
+msgid "__Track While Scan Manual"
 msgstr ""
 
 #: ../../source/accr.rst:541
@@ -1747,12 +2566,20 @@ msgstr ""
 msgid "Ultra High Frequency"
 msgstr ""
 
+#: ../../source/accr.rst:546
+msgid "__Ultra High Frequency"
+msgstr ""
+
 #: ../../source/accr.rst:548
 msgid "UTC"
 msgstr ""
 
 #: ../../source/accr.rst:548
 msgid "Coordinated Universal Time"
+msgstr ""
+
+#: ../../source/accr.rst:548
+msgid "__Coordinated Universal Time"
 msgstr ""
 
 #: ../../source/accr.rst:552
@@ -1767,12 +2594,20 @@ msgstr ""
 msgid "Closing Velocity Rate"
 msgstr ""
 
+#: ../../source/accr.rst:557
+msgid "__Closing Velocity Rate"
+msgstr ""
+
 #: ../../source/accr.rst:559
 msgid "vC"
 msgstr ""
 
 #: ../../source/accr.rst:559
 msgid "Computed MAG VAR"
+msgstr ""
+
+#: ../../source/accr.rst:559
+msgid "__Computed MAG VAR"
 msgstr ""
 
 #: ../../source/accr.rst:561
@@ -1783,12 +2618,20 @@ msgstr ""
 msgid "Vertical Display Indicator"
 msgstr ""
 
+#: ../../source/accr.rst:561
+msgid "__Vertical Display Indicator"
+msgstr ""
+
 #: ../../source/accr.rst:563
 msgid "VDIG"
 msgstr ""
 
 #: ../../source/accr.rst:563
 msgid "Vertical Display Indicator Group (HUD & VDI)"
+msgstr ""
+
+#: ../../source/accr.rst:563
+msgid "__Vertical Display Indicator Group (HUD & VDI)"
 msgstr ""
 
 #: ../../source/accr.rst:565
@@ -1799,12 +2642,20 @@ msgstr ""
 msgid "Vector"
 msgstr ""
 
+#: ../../source/accr.rst:565
+msgid "__Vector"
+msgstr ""
+
 #: ../../source/accr.rst:567
 msgid "VFR"
 msgstr ""
 
 #: ../../source/accr.rst:567
 msgid "Visual Flight Rules"
+msgstr ""
+
+#: ../../source/accr.rst:567
+msgid "__Visual Flight Rules"
 msgstr ""
 
 #: ../../source/accr.rst:569
@@ -1815,12 +2666,20 @@ msgstr ""
 msgid "Visual Identification"
 msgstr ""
 
+#: ../../source/accr.rst:569
+msgid "__Visual Identification"
+msgstr ""
+
 #: ../../source/accr.rst:571
 msgid "vM"
 msgstr ""
 
 #: ../../source/accr.rst:571
 msgid "Manual MAG VAR"
+msgstr ""
+
+#: ../../source/accr.rst:571
+msgid "__Manual MAG VAR"
 msgstr ""
 
 #: ../../source/accr.rst:573
@@ -1831,6 +2690,10 @@ msgstr ""
 msgid "Voltage Monitor Control Unit"
 msgstr ""
 
+#: ../../source/accr.rst:573
+msgid "__Voltage Monitor Control Unit"
+msgstr ""
+
 #: ../../source/accr.rst:575
 msgid "VSL"
 msgstr ""
@@ -1839,12 +2702,20 @@ msgstr ""
 msgid "Vertical Scan Lockon"
 msgstr ""
 
+#: ../../source/accr.rst:575
+msgid "__Vertical Scan Lockon"
+msgstr ""
+
 #: ../../source/accr.rst:577
 msgid "VTR"
 msgstr ""
 
 #: ../../source/accr.rst:577
 msgid "Video Tape Recorder"
+msgstr ""
+
+#: ../../source/accr.rst:577
+msgid "__Video Tape Recorder"
 msgstr ""
 
 #: ../../source/accr.rst:581
@@ -1859,12 +2730,20 @@ msgstr ""
 msgid "Weapon Control System"
 msgstr ""
 
+#: ../../source/accr.rst:586
+msgid "__Weapon Control System"
+msgstr ""
+
 #: ../../source/accr.rst:588
 msgid "WFOV"
 msgstr ""
 
 #: ../../source/accr.rst:588
 msgid "Wide Field of View"
+msgstr ""
+
+#: ../../source/accr.rst:588
+msgid "__Wide Field of View"
 msgstr ""
 
 #: ../../source/accr.rst:590
@@ -1875,6 +2754,10 @@ msgstr ""
 msgid "Will Comply"
 msgstr ""
 
+#: ../../source/accr.rst:590
+msgid "__Will Comply"
+msgstr ""
+
 #: ../../source/accr.rst:592
 msgid "WOD"
 msgstr ""
@@ -1883,12 +2766,20 @@ msgstr ""
 msgid "Wind over the Deck"
 msgstr ""
 
+#: ../../source/accr.rst:592
+msgid "__Wind over the Deck"
+msgstr ""
+
 #: ../../source/accr.rst:594
 msgid "WOW"
 msgstr ""
 
 #: ../../source/accr.rst:594
 msgid "Weight on/off Wheels"
+msgstr ""
+
+#: ../../source/accr.rst:594
+msgid "__Weight on/off Wheels"
 msgstr ""
 
 #: ../../source/accr.rst:598
@@ -1901,5 +2792,9 @@ msgstr ""
 
 #: ../../source/accr.rst:603
 msgid "Geographic Reference Point for NAV GRID"
+msgstr ""
+
+#: ../../source/accr.rst:603
+msgid "__Geographic Reference Point for NAV GRID"
 msgstr ""
 

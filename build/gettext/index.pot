@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Heatblur Simulations.
-# This file is distributed under the same license as the DCS: F-14 Tomcat Flight Manul zh-CN package.
+# This file is distributed under the same license as the DCS: F-14 “雄猫” 中文飞行手册 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 15:27+0800\n"
+"POT-Creation-Date: 2019-02-13 17:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,107 @@ msgstr ""
 msgid "Heatblur DCS F-14 Tomcat"
 msgstr ""
 
-#: ../../source/index.rst:7
+#: ../../source/index.rst:4
+msgid "DCS: F-14 中文飞行手册 网页版 本地化"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid "已完成部分："
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "简介（intro.po） --> 红白"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "施工中："
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "procedures.po / 进度 83% emergency.po  --> 煎蛋 dcs.po  --> 午饭"
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid "参与人员："
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "红白 √"
+msgstr ""
+
+#: ../../source/index.rst:22
+msgid "吃瓜 √"
+msgstr ""
+
+#: ../../source/index.rst:24
+msgid "zero √"
+msgstr ""
+
+#: ../../source/index.rst:26
+msgid "北欧 √"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "午饭 √"
+msgstr ""
+
+#: ../../source/index.rst:30
+msgid "学姐 √"
+msgstr ""
+
+#: ../../source/index.rst:32
+msgid "煎蛋 √"
+msgstr ""
+
+#: ../../source/index.rst:34
+msgid "汉魂~威龙 √"
+msgstr ""
+
+#: ../../source/index.rst:36
+msgid "丫滑"
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid "分工：  粗略每人50条"
+msgstr ""
+
+#: ../../source/index.rst:42
+msgid "开头到 ACM switch - OFF (guard down)."
+msgstr ""
+
+#: ../../source/index.rst:44
+msgid "If wings are not in OV SWP: 结束"
+msgstr ""
+
+#: ../../source/index.rst:46
+msgid "EMERG FLT HYD switch to AUTO(LOW),"
+msgstr ""
+
+#: ../../source/index.rst:48
+msgid "YAW STAB OP and OUT."
+msgstr ""
+
+#: ../../source/index.rst:50
+msgid "After moving handle to 20° (full forward), engage spider detent."
+msgstr ""
+
+#: ../../source/index.rst:52
+msgid "U/VHF MODE selector - OFF."
+msgstr ""
+
+#: ../../source/index.rst:54
+msgid "This is done when pilot selects LTS test on MASTER TEST switch."
+msgstr ""
+
+#: ../../source/index.rst:56
+msgid "DATA LINK - As required."
+msgstr ""
+
+#: ../../source/index.rst:58
+msgid "到结尾"
+msgstr ""
+
+#: ../../source/index.rst:66
 msgid "Contents:"
 msgstr ""
 

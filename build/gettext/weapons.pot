@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, Heatblur Simulations.
-# This file is distributed under the same license as the DCS: F-14 Tomcat Flight Manul zh-CN package.
+# This file is distributed under the same license as the DCS: F-14 “雄猫” 中文飞行手册 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 15:27+0800\n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
