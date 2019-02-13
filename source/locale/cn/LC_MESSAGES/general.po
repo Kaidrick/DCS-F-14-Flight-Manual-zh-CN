@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 15:30+0800\n"
-"PO-Revision-Date: 2019-02-12 15:33+0800\n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-13 22:49+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/general.rst:2
 msgid "General Design and Systems Overview"
-msgstr ""
+msgstr "总体设计和系统总览"
 
 #: ../../source/general.rst:5
 msgid "Engines and Throttle Controls"
-msgstr ""
+msgstr "发动机和油门控制"
 
 #: ../../source/general.rst:7
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../source/general.rst:27
 msgid "Throttle Controls"
-msgstr ""
+msgstr "油门控制"
 
 #: ../../source/general.rst:31
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../source/general.rst:60
 msgid "Engine and Throttle Control Switches and Indicators"
-msgstr ""
+msgstr "发动机和油门控制开关以及指示器"
 
 #: ../../source/general.rst:64
 msgid ""
@@ -223,7 +223,7 @@ msgstr ""
 
 #: ../../source/general.rst:91
 msgid "Engine Instrument Group (EIG), Related Indicators and Caution Lights"
-msgstr ""
+msgstr "发动机仪表组（EIG）及相关指示器和注意灯"
 
 #: ../../source/general.rst:95
 msgid ""
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../../source/general.rst:0
 msgid "Note"
-msgstr ""
+msgstr "注意"
 
 #: ../../source/general.rst:97
 msgid "Pictured above are the TF30 engine indicators, F110 EIG coming soon."
@@ -348,7 +348,7 @@ msgstr ""
 
 #: ../../source/general.rst:131
 msgid "Fuel System"
-msgstr ""
+msgstr "燃油系统"
 
 #: ../../source/general.rst:135
 msgid ""
@@ -375,15 +375,15 @@ msgstr ""
 
 #: ../../source/general.rst:145
 msgid "Tank group"
-msgstr ""
+msgstr "油箱群组"
 
 #: ../../source/general.rst:145
 msgid "Pounds"
-msgstr ""
+msgstr "磅"
 
 #: ../../source/general.rst:147
 msgid "Forward Fuselage"
-msgstr ""
+msgstr "前部油箱"
 
 #: ../../source/general.rst:147
 msgid "4,700"
@@ -391,7 +391,7 @@ msgstr ""
 
 #: ../../source/general.rst:149
 msgid "Aft Fuselage"
-msgstr ""
+msgstr "后部油箱"
 
 #: ../../source/general.rst:149
 msgid "4,400"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../source/general.rst:151
 msgid "Right Feed Group"
-msgstr ""
+msgstr "右供油油箱"
 
 #: ../../source/general.rst:151
 msgid "1,600"
@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../source/general.rst:153
 msgid "Left Feed Group"
-msgstr ""
+msgstr "左供油油箱"
 
 #: ../../source/general.rst:153
 msgid "1,500"
@@ -415,7 +415,7 @@ msgstr ""
 
 #: ../../source/general.rst:155
 msgid "Internal Wings"
-msgstr ""
+msgstr "机翼内油箱"
 
 #: ../../source/general.rst:155
 msgid "4,000"
@@ -423,7 +423,7 @@ msgstr ""
 
 #: ../../source/general.rst:157
 msgid "External Tanks"
-msgstr ""
+msgstr "外部油箱"
 
 #: ../../source/general.rst:157
 msgid "3,600"
@@ -431,7 +431,7 @@ msgstr ""
 
 #: ../../source/general.rst:162
 msgid "Fuel Quantity Indicators and Controls"
-msgstr ""
+msgstr "燃油量指示器和控制"
 
 #: ../../source/general.rst:166
 msgid ""
@@ -530,7 +530,7 @@ msgstr ""
 
 #: ../../source/general.rst:202
 msgid "In-Flight Refueling"
-msgstr ""
+msgstr "空中加油"
 
 #: ../../source/general.rst:204
 msgid ""
@@ -647,7 +647,7 @@ msgstr ""
 
 #: ../../source/general.rst:260
 msgid "Electrical Power System"
-msgstr ""
+msgstr "电力系统"
 
 #: ../../source/general.rst:262
 msgid ""
@@ -674,7 +674,7 @@ msgstr ""
 
 #: ../../source/general.rst:272
 msgid "Emergency Power"
-msgstr ""
+msgstr "应急动力"
 
 #: ../../source/general.rst:274
 msgid ""
@@ -687,7 +687,7 @@ msgstr ""
 #: ../../source/general.rst:279 ../../source/general.rst:348
 #: ../../source/general.rst:451
 msgid "Controls and Indicators"
-msgstr ""
+msgstr "控制和指示器"
 
 #: ../../source/general.rst:283
 msgid ""
@@ -742,7 +742,7 @@ msgstr ""
 
 #: ../../source/general.rst:307
 msgid "Circuit Breakers"
-msgstr ""
+msgstr "断路器"
 
 #: ../../source/general.rst:309
 msgid ""
@@ -760,7 +760,7 @@ msgstr ""
 
 #: ../../source/general.rst:317
 msgid "Hydraulic System"
-msgstr ""
+msgstr "液压系统"
 
 #: ../../source/general.rst:319
 msgid ""
@@ -880,7 +880,7 @@ msgstr ""
 
 #: ../../source/general.rst:378
 msgid "Wing-Sweep System"
-msgstr ""
+msgstr "机翼后掠系统"
 
 #: ../../source/general.rst:382
 msgid ""
@@ -924,7 +924,7 @@ msgstr ""
 
 #: ../../source/general.rst:402
 msgid "Emergency Mode"
-msgstr ""
+msgstr "应急模式"
 
 #: ../../source/general.rst:404
 msgid ""
@@ -1014,7 +1014,7 @@ msgstr ""
 
 #: ../../source/general.rst:434
 msgid "Oversweep"
-msgstr ""
+msgstr "机翼停放后掠"
 
 #: ../../source/general.rst:436
 msgid ""
@@ -1183,7 +1183,7 @@ msgstr ""
 
 #: ../../source/general.rst:509
 msgid "Flight Control System"
-msgstr ""
+msgstr "飞行控制系统"
 
 #: ../../source/general.rst:511
 msgid ""
@@ -1225,7 +1225,7 @@ msgstr ""
 
 #: ../../source/general.rst:531
 msgid "Trim"
-msgstr ""
+msgstr "配平"
 
 #: ../../source/general.rst:533
 msgid ""
@@ -1277,7 +1277,7 @@ msgstr ""
 
 #: ../../source/general.rst:554
 msgid "Autopilot"
-msgstr ""
+msgstr "自动驾驶"
 
 #: ../../source/general.rst:556
 msgid ""
@@ -1371,7 +1371,7 @@ msgstr ""
 
 #: ../../source/general.rst:590
 msgid "Spoilers"
-msgstr ""
+msgstr "扰流板"
 
 #: ../../source/general.rst:592
 msgid ""
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #: ../../source/general.rst:607
 msgid "DLC Direct Lift Control"
-msgstr ""
+msgstr "直接升力控制（DLC）"
 
 #: ../../source/general.rst:609
 msgid ""
@@ -1440,7 +1440,7 @@ msgstr ""
 
 #: ../../source/general.rst:622
 msgid "Flaps and Slats"
-msgstr ""
+msgstr "襟翼和缝翼"
 
 #: ../../source/general.rst:624
 msgid "The flaps and slats on the F-14 Tomcat can be used in two modes."
@@ -1501,7 +1501,7 @@ msgstr ""
 
 #: ../../source/general.rst:649
 msgid "Speedbrakes"
-msgstr ""
+msgstr "减速板"
 
 #: ../../source/general.rst:651
 msgid ""
@@ -1536,7 +1536,7 @@ msgstr ""
 
 #: ../../source/general.rst:665
 msgid "Landing Gear System"
-msgstr ""
+msgstr "起落架系统"
 
 #: ../../source/general.rst:667
 msgid ""
@@ -1557,7 +1557,7 @@ msgstr ""
 
 #: ../../source/general.rst:676
 msgid "Nosewheel Steering"
-msgstr ""
+msgstr "前轮转向"
 
 #: ../../source/general.rst:678
 msgid ""
@@ -1584,7 +1584,7 @@ msgstr ""
 
 #: ../../source/general.rst:689
 msgid "Wheelbrakes"
-msgstr ""
+msgstr "机轮刹车"
 
 #: ../../source/general.rst:691
 msgid ""
@@ -1624,7 +1624,7 @@ msgstr ""
 
 #: ../../source/general.rst:708
 msgid "Antiskid"
-msgstr ""
+msgstr "防滑"
 
 #: ../../source/general.rst:710
 msgid ""
@@ -1794,7 +1794,7 @@ msgstr ""
 
 #: ../../source/general.rst:780
 msgid "ECS Environmental Control System"
-msgstr ""
+msgstr "环境控制系统（ECS）"
 
 #: ../../source/general.rst:782
 msgid ""
@@ -2003,7 +2003,7 @@ msgstr ""
 
 #: ../../source/general.rst:867
 msgid "Oxygen System"
-msgstr ""
+msgstr "供氧系统"
 
 #: ../../source/general.rst:869
 msgid ""
@@ -2041,7 +2041,7 @@ msgstr ""
 
 #: ../../source/general.rst:884
 msgid "Flight Instruments"
-msgstr ""
+msgstr "飞行仪表"
 
 #: ../../source/general.rst:886
 msgid "Apart from the VDIG (HUD and VDI) the F-14 is equipped with:"
@@ -2065,7 +2065,7 @@ msgstr ""
 
 #: ../../source/general.rst:892
 msgid "a turn and slip indicator (on the :ref:`ACMpanel`)"
-msgstr ""
+msgstr "一个转弯侧滑指示器（在 :ref:`ACMpanel` 上）"
 
 #: ../../source/general.rst:893
 msgid "an :ref:`acc`"
@@ -2100,7 +2100,7 @@ msgstr ""
 
 #: ../../source/general.rst:905
 msgid "Canopy"
-msgstr ""
+msgstr "驾驶舱盖"
 
 #: ../../source/general.rst:907
 msgid ""
@@ -2121,7 +2121,7 @@ msgstr ""
 
 #: ../../source/general.rst:916
 msgid "Ejection System"
-msgstr ""
+msgstr "弹射系统"
 
 #: ../../source/general.rst:918
 msgid ""
@@ -2174,7 +2174,7 @@ msgstr ""
 
 #: ../../source/general.rst:938
 msgid "Lighting System"
-msgstr ""
+msgstr "灯光系统"
 
 #: ../../source/general.rst:940
 msgid ""
@@ -2197,7 +2197,7 @@ msgstr ""
 
 #: ../../source/general.rst:948
 msgid "Internal Lighting"
-msgstr ""
+msgstr "机内灯光"
 
 #: ../../source/general.rst:950
 msgid ""
@@ -2234,7 +2234,7 @@ msgstr ""
 
 #: ../../source/general.rst:962
 msgid "External Lighting"
-msgstr ""
+msgstr "机外灯光"
 
 #: ../../source/general.rst:964
 msgid ""
@@ -2298,7 +2298,7 @@ msgstr ""
 
 #: ../../source/general.rst:986
 msgid "Jettison System"
-msgstr ""
+msgstr "抛离系统"
 
 #: ../../source/general.rst:988
 msgid ""
@@ -2308,7 +2308,7 @@ msgstr ""
 
 #: ../../source/general.rst:991
 msgid "**Emergency Jettison**"
-msgstr ""
+msgstr "**紧急抛离**"
 
 #: ../../source/general.rst:993
 msgid ""
@@ -2385,7 +2385,7 @@ msgstr ""
 
 #: ../../source/general.rst:1027
 msgid "CADC Central Air Data Computer"
-msgstr ""
+msgstr "中央大气数据计算机（CADC）"
 
 #: ../../source/general.rst:1029
 msgid ""
@@ -2398,7 +2398,7 @@ msgstr ""
 
 #: ../../source/general.rst:1034
 msgid "AN/AWG-9 Weapon Control System (WCS)"
-msgstr ""
+msgstr "AN/AWG-9 武器控制系统（WCS）"
 
 #: ../../source/general.rst:1036
 msgid ""
@@ -2409,7 +2409,7 @@ msgstr ""
 
 #: ../../source/general.rst:1040
 msgid "Detail Data Display (DDD) and Panel"
-msgstr ""
+msgstr "详细数据显示器（DDD）及控制板"
 
 #: ../../source/general.rst:1043
 msgid ""
@@ -2725,15 +2725,15 @@ msgstr ""
 
 #: ../../source/general.rst:1169
 msgid "**Detail Data Display**"
-msgstr ""
+msgstr "**详细数据显示器**"
 
 #: ../../source/general.rst:1172 ../../source/general.rst:1689
 msgid "Pulse"
-msgstr ""
+msgstr "脉冲"
 
 #: ../../source/general.rst:1176
 msgid "Pulse-Doppler"
-msgstr ""
+msgstr "脉冲多普勒"
 
 #: ../../source/general.rst:1182
 msgid ""
@@ -5057,7 +5057,7 @@ msgstr ""
 
 #: ../../source/general.rst:1989
 msgid "AN/APX-72 IFF Interrogator"
-msgstr ""
+msgstr "AN/APX-72 IFF 询问器"
 
 #: ../../source/general.rst:1991
 msgid ""
@@ -5100,7 +5100,7 @@ msgstr ""
 
 #: ../../source/general.rst:2009
 msgid "Television Camera Set (TCS)"
-msgstr ""
+msgstr "电视摄像套件（TCS）"
 
 #: ../../source/general.rst:2013
 msgid ""
@@ -5137,7 +5137,7 @@ msgstr ""
 
 #: ../../source/general.rst:2028
 msgid "TCS Controls and Symbology"
-msgstr ""
+msgstr "TCS 控制和标识"
 
 #: ../../source/general.rst:2030
 msgid ""
@@ -5262,7 +5262,7 @@ msgstr ""
 
 #: ../../source/general.rst:2091
 msgid "Symbology"
-msgstr ""
+msgstr "标识"
 
 #: ../../source/general.rst:2095
 msgid ""
@@ -5387,7 +5387,7 @@ msgstr ""
 
 #: ../../source/general.rst:2147 ../../source/general.rst:2778
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../source/general.rst:2149
 msgid ""
@@ -5425,7 +5425,7 @@ msgstr ""
 
 #: ../../source/general.rst:2163 ../../source/general.rst:4040
 msgid "Controls"
-msgstr ""
+msgstr "控制"
 
 #: ../../source/general.rst:2166
 msgid ""
@@ -5509,7 +5509,7 @@ msgstr ""
 
 #: ../../source/general.rst:2192 ../../source/general.rst:2704
 msgid "Displays"
-msgstr ""
+msgstr "显示"
 
 #: ../../source/general.rst:2195
 msgid ""
@@ -5567,7 +5567,7 @@ msgstr ""
 
 #: ../../source/general.rst:2215
 msgid "Warning Lights"
-msgstr ""
+msgstr "警告灯"
 
 #: ../../source/general.rst:2220
 msgid ""
@@ -5670,7 +5670,7 @@ msgstr ""
 
 #: ../../source/general.rst:2263
 msgid "Threat symbol"
-msgstr ""
+msgstr "威胁标识"
 
 #: ../../source/general.rst:2263
 msgid "Platform/Sensor"
@@ -5714,7 +5714,7 @@ msgstr ""
 
 #: ../../source/general.rst:2273
 msgid "DDG-168 Guangzhou"
-msgstr ""
+msgstr "DDG-168 广州"
 
 #: ../../source/general.rst:2275
 msgid "HP"
@@ -5730,7 +5730,7 @@ msgstr ""
 
 #: ../../source/general.rst:2277
 msgid "DDG-171 Haikou"
-msgstr ""
+msgstr "DDG-171 海口"
 
 #: ../../source/general.rst:2279
 msgid "KK"
@@ -5810,7 +5810,7 @@ msgstr ""
 
 #: ../../source/general.rst:2297
 msgid "FFG-538 Yantai"
-msgstr ""
+msgstr "FFG-538 烟台"
 
 #: ../../source/general.rst:2299
 msgid "Aircraft"
@@ -6746,11 +6746,11 @@ msgstr ""
 
 #: ../../source/general.rst:2604
 msgid "Navigation"
-msgstr ""
+msgstr "导航"
 
 #: ../../source/general.rst:2607
 msgid "Navigation System"
-msgstr ""
+msgstr "导航系统"
 
 #: ../../source/general.rst:2609
 msgid ""
@@ -6822,7 +6822,7 @@ msgstr ""
 
 #: ../../source/general.rst:2636
 msgid "WCS Computer"
-msgstr ""
+msgstr "WCS 计算机"
 
 #: ../../source/general.rst:2638
 msgid ""
@@ -6951,15 +6951,15 @@ msgstr ""
 
 #: ../../source/general.rst:2690
 msgid "Current latitude and longitude"
-msgstr ""
+msgstr "当前经纬度"
 
 #: ../../source/general.rst:2691
 msgid "Attitude"
-msgstr ""
+msgstr "姿态"
 
 #: ../../source/general.rst:2692
 msgid "Heading true and magnetic"
-msgstr ""
+msgstr "真航向和磁航向"
 
 #: ../../source/general.rst:2693
 msgid "Own ground speed and ground track"
@@ -10099,11 +10099,11 @@ msgstr ""
 
 #: ../../source/general.rst:3932
 msgid "Communications Systems"
-msgstr ""
+msgstr "通讯系统"
 
 #: ../../source/general.rst:3935
 msgid "Antennas"
-msgstr ""
+msgstr "天线"
 
 #: ../../source/general.rst:3937
 msgid ""

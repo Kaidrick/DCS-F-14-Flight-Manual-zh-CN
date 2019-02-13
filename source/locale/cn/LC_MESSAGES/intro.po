@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-12 23:27+0800\n"
+"PO-Revision-Date: 2019-02-13 21:13+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -102,6 +102,8 @@ msgid ""
 "for the F-14A and were eventually replaced by the General Electrics F110-400 "
 "engines in the F-14A+ (later F-14B)."
 msgstr ""
+"对于F-14A，TF30发动机通常被视为稳定和动力都难以让人满意的发动机，其最终被"
+"F-14A+中的通用电气F110-400发动机（后来的F-14B）所取代。"
 
 #: ../../source/intro.rst:35
 msgid ""
@@ -109,6 +111,8 @@ msgid ""
 "replaced with the TCS (Television Camera Set) in the chinpod allowing for "
 "greater than visual range identifications of radar tracked targets."
 msgstr ""
+"早期F-14A的IRST系统很快被发现表现不佳, 取而代之的是 TCS(电视摄像组件)吊舱, 它"
+"可以随动于雷达跟踪目标并进行远距离的目视识别。"
 
 #: ../../source/intro.rst:37
 msgid ""
@@ -117,6 +121,8 @@ msgid ""
 "new INS system, a digital flight control system (DFCS) and an RWR system "
 "amongst others."
 msgstr ""
+"F-14A和F-14B在其服役期间都得到了持续的升级，包括新的可编程驾驶舱显示器（PTID"
+"和PMDIG），以及新的INS系统、数字飞行控制系统（DFCS）和RWR系统等。"
 
 #: ../../source/intro.rst:39
 msgid ""
@@ -124,6 +130,8 @@ msgid ""
 "portfolio, enabled by the TARPS system, allowing the Tomcat to gather "
 "photographic reconaissance material."
 msgstr ""
+"最终，TARPS（战术空中侦察吊舱）系统的装备使F-14获得了收集影像资料进行战术侦查"
+"任务的能力。"
 
 #: ../../source/intro.rst:43
 msgid "Ground Attack"
@@ -131,7 +139,7 @@ msgstr "对地攻击"
 
 #: ../../source/intro.rst:47
 msgid "Photo by LCDR Dave Parsons. (DN-SC-93-01299)"
-msgstr ""
+msgstr "照片由美国海军少校 Dave Parsons拍摄 （DN-SC-93-01299）"
 
 #: ../../source/intro.rst:49
 msgid ""
@@ -139,6 +147,8 @@ msgid ""
 "lessened and with the advent of operations like operation Desert Storm, the "
 "ground attack role was resurrected."
 msgstr ""
+"在20世纪90年代，当美国海军舰队面对的空中威胁逐渐减少，随着沙漠风暴等行动的实"
+"施，对地攻击的重要性开始显现出来。"
 
 #: ../../source/intro.rst:51
 msgid ""
@@ -146,6 +156,8 @@ msgid ""
 "implemented in the F-14 from the beginning but ruled out by the Navy as cost "
 "and risk ineffective given the F-14's role as a Fleet Air Defence fighter."
 msgstr ""
+"从一开始，F-14就具备了携带和投放空对地弹药的能力，但是因为F-14当时的主要任务"
+"为舰队防空，海军将使用F-14进行对地攻击视为高成本且高风险的行为。"
 
 #: ../../source/intro.rst:53
 msgid ""
@@ -154,22 +166,27 @@ msgid ""
 "designate laser guided bombs for his own aircraft and others. Later on the "
 "ability to carry and deliver gps-guided JDAMs was also added."
 msgstr ""
+"随着任务的变化，一些F-14A和F-14B开始挂载LANTIRN吊舱，这可以让RIO给自己的飞机"
+"或其他飞机提供目标指示和制导激光炸弹。之后，F-14还增加了携带和投放GPS制导的"
+"JDAM的能力。"
 
 #: ../../source/intro.rst:56
 msgid ""
 "Most of the LANTIRN equipped aircraft were the ones upgraded with the "
 "programmable TID or (PTID) allowing for greater integration of the LANTIRN."
 msgstr ""
+"大部分装备LANTIRN吊舱的F-14都已经升级了新的可编程TID（或PTID），可以实现对"
+"LANTIRN吊舱更好的集成。"
 
 #: ../../source/intro.rst:60
 msgid "F-14D"
-msgstr ""
+msgstr "F-14D"
 
 #: ../../source/intro.rst:62
 msgid ""
 "In the 1990's the ultimate F-14 version was beginning to see service, the "
 "F-14D."
-msgstr ""
+msgstr "在20世纪90年代，F-14的终极型号F-14D开始服役。"
 
 #: ../../source/intro.rst:64
 msgid ""
@@ -177,6 +194,8 @@ msgid ""
 "to using the digital flight control system, which was eventually retrofitted "
 "into operational F-14As and F-14Bs as well."
 msgstr ""
+"除了使用数字飞行控制系统（DFCS）外，F-14D的发动机和F-14B一样使用了GE "
+"F110-400，该系统之后也被装备到了F-14A与F-14B上。"
 
 #: ../../source/intro.rst:66
 msgid ""
@@ -184,6 +203,8 @@ msgid ""
 "AWG-9, the AN/APG-71, as well as a whole suite of upgraded avionics along "
 "with a new chinpod combining the TCS with a new, improved IRST system."
 msgstr ""
+"此外，F-14D 安装了AWG-9 的改进型号雷达AN/APG-71，以及一整套升级的航电系统。原"
+"本的TCS吊舱也升级成了一个融合了改进版IRST系统与TCS功能的新吊舱。"
 
 #: ../../source/intro.rst:70
 msgid "End of Service"
@@ -196,12 +217,14 @@ msgid ""
 "airframes. Additionally the Tomcat's primary role, the Fleet Air Defence "
 "role, seemingly disappeared with the end of the Cold War."
 msgstr ""
+"随着维护成本增加以及机体老情况使得海军不得不开始退役F-14雄猫。 此外，随着冷战"
+"的结束，雄猫的主要任务 - 舰队防空也变得不那么重要。。"
 
 #: ../../source/intro.rst:75
 msgid ""
 "The Tomcat was finally retired in a ceremony on the 22nd of September 2006 "
 "at NAS Oceana."
-msgstr ""
+msgstr "2006年9月22日最后一架雄猫在欧希安纳海军航空站举行了退役仪式。"
 
 #: ../../source/intro.rst:79
 msgid "Iran"
@@ -217,6 +240,9 @@ msgid ""
 "Force, later the Islamic Republic of Iran Air Force, for which the Shah of "
 "Iran, Mohammad Reza Pahlavi acquired 80 Tomcats."
 msgstr ""
+"F-14雄猫唯一的其他国家购买者是伊朗皇家空军，后来的伊朗伊斯兰共和国空军。伊朗"
+"国王穆罕默德·礼萨·巴列维曾经采购了80架雄猫（实际到达伊朗的是79架，1架留在美国"
+"测试）。"
 
 #: ../../source/intro.rst:87
 msgid ""
@@ -226,6 +252,9 @@ msgid ""
 "lost access to new spare parts and missiles, apart from black market "
 "sources, greatly increasing the difficulty of maintaining the aircraft."
 msgstr ""
+"巴列维王朝的垮台和伊朗伊斯兰共和国的崛起意味着一个反美国家可以使用其最先进的"
+"战斗机之一。 美国召回在伊朗的格鲁曼技术人员停止了雄猫备件的供应，伊朗的F-14除"
+"了黑市来源外无法获得新的备件和导弹，这大大增加了维护飞机的难度。"
 
 #: ../../source/intro.rst:90
 msgid ""
@@ -234,6 +263,8 @@ msgid ""
 "far as to claim that Iraqi pilots at times left the contested air space to "
 "avoid facing the AN/AWG-9 - AIM-54 combo."
 msgstr ""
+"伊朗在两伊战争期间使用了F-14雄猫，并且声称取得了大量的空对空胜利，一些消息来"
+"源甚至称伊拉克飞行员有时会避开有争议的空域 ，以免面对AN / AWG-9与AIM-54组合。"
 
 #: ../../source/intro.rst:93
 msgid ""
@@ -243,12 +274,16 @@ msgid ""
 "a portion of their fleet flying. In addition rumours exist mentioning black "
 "market sources as well as indigenous production of some parts."
 msgstr ""
+"到目前为止，只有伊朗空军拥有在役的F-14，目前还不清楚伊朗人是怎样获得飞机配件"
+"的，有推测认为他们通过拆除已经无法使用的飞机获得配件来维持其他飞机的飞行。此"
+"外还有传言称他们通过黑市以及自产获得一些配件。"
 
 #: ../../source/intro.rst:97
 msgid ""
 "The Iranian operated Tomcats are of the earlier F-14A revisions, using the "
 "TF30 engines and lacking a TCS or IRST system."
 msgstr ""
+"伊朗使用的雄猫是早期F-14A的改进版，使用TF30发动机，没有装备TCS或者IRST系统。"
 
 #: ../../source/intro.rst:101
 msgid "AIM-54 Phoenix"
@@ -256,13 +291,13 @@ msgstr "AIM-54 “不死鸟”"
 
 #: ../../source/intro.rst:105
 msgid "U.S. Navy photo by Capt. Dana Potts. (020924-N-1955P-001)"
-msgstr ""
+msgstr "照片由美国海军上尉Dana Potts拍摄 （020924-N-1955P-001)"
 
 #: ../../source/intro.rst:107
 msgid ""
 "The AIM-54 long-range air-to-air missile was born from the same TFX program "
 "as that which eventually led to the F-14 Tomcat."
-msgstr ""
+msgstr "AIM-54远程空对空导弹诞生于最终演化成F-14的TFX计划。"
 
 #: ../../source/intro.rst:109
 msgid ""
@@ -271,6 +306,8 @@ msgid ""
 "hostile cruise missiles. That's not to say that the AIM-54 Phoenix was a "
 "slouch at engaging other smaller targets as well."
 msgstr ""
+"它最初是为F-111B设计的，然后作为一种远程导弹被F-14采用。除了敌方巡航导弹外，"
+"它还能够远距离攻击敌方轰炸机。当然，它还能够打击其他较小的空中目标。"
 
 #: ../../source/intro.rst:112
 msgid ""
@@ -279,6 +316,8 @@ msgid ""
 "first by the AN/AWG-9 radar in the launching aircraft and then its own "
 "active radar seeker independently."
 msgstr ""
+"AIM-54导弹的突出特点是它们的远程能力，以及它们能够同时发射和跟踪多达6个目标，"
+"首先由发射飞机上的AN/AWG-9雷达制导，然后由它自己的主动雷达导引头独立制导。"
 
 #: ../../source/intro.rst:114
 msgid ""
@@ -289,6 +328,9 @@ msgid ""
 "newer version of the mk47 producing less smoke, making the missile hard to "
 "spot visually."
 msgstr ""
+"最初的AIM-54不死鸟是安装mk47火箭发动机的AIM-54A。 该发动机后来升级为了mk60火"
+"箭发动机，增加了导弹的射程。 最终AIM-54本身也进行了升级，AIM-54C对导引头进行"
+"了升级并且使用了产生更少烟雾的升级版的mk47，这可以让导弹更不容易被目视发现。"
 
 #: ../../source/intro.rst:118
 msgid ""
@@ -297,6 +339,9 @@ msgid ""
 "rocket motors failed with the third also missing its target as it turned "
 "tail and ran."
 msgstr ""
+"美国海军在实战中只发射了三枚AIM-54导弹，三枚都在伊拉克上空发射。导弹都没有击"
+"中预定目标，其中两枚导弹是因为火箭发动机失灵，第三枚导弹在目标掉头逃跑后未能"
+"击中目标。"
 
 #: ../../source/intro.rst:121
 msgid ""
@@ -305,6 +350,9 @@ msgid ""
 "MiG-21s, MiG-23s, MiG-25s, Mirage F-1s, Super Etendards and even some anti-"
 "ship cruise missiles."
 msgstr ""
+"虽然在西半球没有人知道确切情况，但伊朗声称使用AIM-54对伊拉克米格-21，米"
+"格-23，米格-25，幻影F-1，超军旗等飞机获得了至少78次空对空的胜利。 甚至还有一"
+"些反舰巡航导弹。"
 
 #: ../../source/intro.rst:125
 msgid "General Specifications"
@@ -316,7 +364,7 @@ msgstr "技术资料"
 
 #: ../../source/intro.rst:131
 msgid "F-14B"
-msgstr ""
+msgstr "F-14B"
 
 #: ../../source/intro.rst:134
 msgid "Wingspan (Fully Extended)"
@@ -396,7 +444,7 @@ msgstr "翼载"
 
 #: ../../source/intro.rst:152
 msgid "94 lb/ft² (458.9 kg/m²)"
-msgstr ""
+msgstr "94磅/平方英尺（458.9千克/平方米）"
 
 #: ../../source/intro.rst:154
 msgid "Maximum Speed"
@@ -404,7 +452,7 @@ msgstr "极速"
 
 #: ../../source/intro.rst:154
 msgid "1,544 mph (~2,500 km/h) Mach 2.38"
-msgstr ""
+msgstr "1,544英里/小时（~2,500千米/小时）"
 
 #: ../../source/intro.rst:157
 msgid "Ceiling"
@@ -412,7 +460,7 @@ msgstr "升限"
 
 #: ../../source/intro.rst:157
 msgid "53,000'+ (~16,200 meters)"
-msgstr ""
+msgstr "53,000+英尺（~16,200米）"
 
 #: ../../source/intro.rst:159
 msgid "Range"
@@ -420,4 +468,4 @@ msgstr "航程"
 
 #: ../../source/intro.rst:159
 msgid "2,050 nm (~3800 km)"
-msgstr ""
+msgstr "2,050海里（~3800千米）"

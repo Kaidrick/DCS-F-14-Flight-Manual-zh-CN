@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Weapons and Weapons Employment Overview &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
+  <title>武器和武器使用总览 &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
   
 
   
@@ -30,7 +30,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="程序" href="procedures.html" />
-    <link rel="prev" title="General Design and Systems Overview" href="general.html" /> 
+    <link rel="prev" title="总体设计和系统总览" href="general.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 0.1.5
+                协作预览 0.2.0 | Feb. 13th, 2019
               </div>
             
           
@@ -87,23 +87,23 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱总览</a></li>
-<li class="toctree-l1"><a class="reference internal" href="general.html">General Design and Systems Overview</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Weapons and Weapons Employment Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#m-61-vulcan-six-barreled-gatling-cannon">M-61 Vulcan Six-Barreled Gatling Cannon</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#air-to-air-weapons">Air-to-Air Weapons</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#hud-symbology-for-air-to-air-missiles">HUD Symbology for Air-to-Air Missiles</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#aim-7-sparrow">AIM-7 Sparrow</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="general.html">总体设计和系统总览</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">武器和武器使用总览</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#m-61-vulcan-six-barreled-gatling-cannon">M-61“火神”六管加特林航炮</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#air-to-air-weapons">空对空武器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hud-symbology-for-air-to-air-missiles">空对空导弹的 HUD 标识</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#aim-7-sparrow">AIM-7 “麻雀”导弹</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#missile-preparation">Missile Preparation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#launch-modes">Launch Modes</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#aim-9-sidewinder">AIM-9 Sidewinder</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#aim-9-sidewinder">AIM-9“响尾蛇”导弹</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id1">Missile Preparation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#seeker-head-modes">Seeker Head Modes</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#missile-operation">Missile Operation</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#aim-54-phoenix">AIM-54 Phoenix</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#aim-54-phoenix">AIM-54“不死鸟”导弹</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id2">Missile Preparation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#id3">Launch Modes</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#id4">Missile Operation</a></li>
@@ -111,9 +111,9 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#air-to-ground-weapons">Air-to-Ground Weapons</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-settings">Air-to-Ground Weapon Settings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-delivery">Air-to-Ground Weapon Delivery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#air-to-ground-weapons">空对地武器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-settings">空对地武器设定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-delivery">空对地武器投放</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#computer-target">Computer Target</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#computer-initial-point">Computer Initial Point</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#computer-pilot">Computer Pilot</a></li>
@@ -121,33 +121,33 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#mk-81-82-83-and-84-gp-bombs">Mk-81, 82, 83 and 84 GP Bombs</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gbu-10-12-16-and-24">GBU-10, 12, 16 and 24</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mk-20-rockeye">Mk-20 Rockeye</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#zuni-rockets">Zuni Rockets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gbu-10-12-16-and-24">GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mk-20-rockeye">Mk-20“石眼”炸弹</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zuni-rockets">“祖尼”火箭弹</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bdu-33-practice-bombs">BDU-33 Practice Bombs</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#special-munitions">Special Munitions</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#adm-141-tald">ADM-141 TALD</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#luu-2-parachute-flare">LUU-2 Parachute Flare</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#lau-138-chaff-adapter">LAU-138 Chaff Adapter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#smokewinder">Smokewinder</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tacts-pods">TACTS Pods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#special-munitions">特种弹药</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adm-141-tald">ADM-141 TALD（战术空射诱饵）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#luu-2-parachute-flare">LUU-2 降落伞照明弹</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lau-138-chaff-adapter">LAU-138 箔条扩容器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#smokewinder">烟雾吊舱</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tacts-pods">TACTS 吊舱</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">Pods and Tanks</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#fpu-1-fuel-tank">FPU-1 Fuel Tank</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">吊舱和油箱</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fpu-1-fuel-tank">FPU-1 油箱</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#lantirn">LANTIRN</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#cnu-188-external-baggage-container">CNU-188 External Baggage Container</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cnu-188-external-baggage-container">CNU-188 外部行李舱</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#f-14b-loadout-diagram">F-14B Loadout Diagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#f-14b-loadout-diagram">F-14B 挂载示意图</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="procedures.html">程序</a></li>
-<li class="toctree-l1"><a class="reference internal" href="emergency.html">Emergency Procedures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS Specific Functions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="accr.html">Acronyms and Abbreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 </ul>
 
             
@@ -193,7 +193,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Weapons and Weapons Employment Overview</li>
+      <li>武器和武器使用总览</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -213,9 +213,9 @@
            <div itemprop="articleBody">
             
   <div class="section" id="weapons-and-weapons-employment-overview">
-<span id="weaponsemploy"></span><h1>Weapons and Weapons Employment Overview<a class="headerlink" href="#weapons-and-weapons-employment-overview" title="Permalink to this headline">¶</a></h1>
+<span id="weaponsemploy"></span><h1>武器和武器使用总览<a class="headerlink" href="#weapons-and-weapons-employment-overview" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="m-61-vulcan-six-barreled-gatling-cannon">
-<h2>M-61 Vulcan Six-Barreled Gatling Cannon<a class="headerlink" href="#m-61-vulcan-six-barreled-gatling-cannon" title="Permalink to this headline">¶</a></h2>
+<h2>M-61“火神”六管加特林航炮<a class="headerlink" href="#m-61-vulcan-six-barreled-gatling-cannon" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center" id="id5">
 <img alt="_images/m61.jpg" src="_images/m61.jpg" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographers Mate Airman Kristopher Wilson. (041129-N-5345W-034)</span></p>
@@ -275,9 +275,9 @@ This enables the trigger to fire the gun but no HUD symbology is available for t
 In this mode the pilot needs to estimate the gun impact point manually with the ADL as the only reference on the HUD.</p>
 </div>
 <div class="section" id="air-to-air-weapons">
-<h2>Air-to-Air Weapons<a class="headerlink" href="#air-to-air-weapons" title="Permalink to this headline">¶</a></h2>
+<h2>空对空武器<a class="headerlink" href="#air-to-air-weapons" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="hud-symbology-for-air-to-air-missiles">
-<h3>HUD Symbology for Air-to-Air Missiles<a class="headerlink" href="#hud-symbology-for-air-to-air-missiles" title="Permalink to this headline">¶</a></h3>
+<h3>空对空导弹的 HUD 标识<a class="headerlink" href="#hud-symbology-for-air-to-air-missiles" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/a2ahud.png" src="_images/a2ahud.png" />
 <p>The above image shows the HUD with Phoenixes selected while in air-to-air display mode.</p>
 <p>As standard the HUD shows the <strong>Closure Rate</strong> on the left side in hundreths of knots, from -200 to +1,000 knots.
@@ -292,7 +292,7 @@ In the AIM-9 case it instead shows current AIM-9 seeker head line of sight.</p>
 and if a radar STT is present with AIM-9 selected it's not shown at all.</p>
 </div>
 <div class="section" id="aim-7-sparrow">
-<h3>AIM-7 Sparrow<a class="headerlink" href="#aim-7-sparrow" title="Permalink to this headline">¶</a></h3>
+<h3>AIM-7 “麻雀”导弹<a class="headerlink" href="#aim-7-sparrow" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id6">
 <img alt="_images/aim-7.jpg" src="_images/aim-7.jpg" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 3rd Class Joshua Karsten. (041108-N-8704K-008)</span></p>
@@ -342,7 +342,7 @@ In addition to when launched in boresight mode the radar will also switch to flo
 </div>
 </div>
 <div class="section" id="aim-9-sidewinder">
-<h3>AIM-9 Sidewinder<a class="headerlink" href="#aim-9-sidewinder" title="Permalink to this headline">¶</a></h3>
+<h3>AIM-9“响尾蛇”导弹<a class="headerlink" href="#aim-9-sidewinder" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id7">
 <img alt="_images/aim-9.jpg" src="_images/aim-9.jpg" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate Airman Kristopher Wilson. (050112-N-5345W-066)</span></p>
@@ -391,7 +391,7 @@ After launch the next AIM-9 will automatically be selected.</p>
 </div>
 </div>
 <div class="section" id="aim-54-phoenix">
-<h3>AIM-54 Phoenix<a class="headerlink" href="#aim-54-phoenix" title="Permalink to this headline">¶</a></h3>
+<h3>AIM-54“不死鸟”导弹<a class="headerlink" href="#aim-54-phoenix" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id8">
 <img alt="_images/aim-54.jpg" src="_images/aim-54.jpg" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 2nd Class Felix Garza Jr. (030320-N-4142G-013)</span></p>
@@ -400,7 +400,7 @@ After launch the next AIM-9 will automatically be selected.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Depicted missile has yet to have the forward fins attached.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Depicted missile has yet to have the forward fins attached.</td>
 </tr>
 </tbody>
 </table>
@@ -493,12 +493,12 @@ The TID displays the complete attack symbology with target prioritisation number
 </div>
 </div>
 <div class="section" id="air-to-ground-weapons">
-<h2>Air-to-Ground Weapons<a class="headerlink" href="#air-to-ground-weapons" title="Permalink to this headline">¶</a></h2>
+<h2>空对地武器<a class="headerlink" href="#air-to-ground-weapons" title="Permalink to this headline">¶</a></h2>
 <p>Despite being primarily designed as an air superioty fighter and an interceptor the F-14 was from the very start cleared and tested to carry all of the modern American general purpose bombs (GP) of the Mk-80 series.
 In addition it was also cleared to carry the Mk-20 Rockeye cluster bomb and the 5&quot; Zuni folding-fin aircraft rocket (FFAR).</p>
 <p>As the F-14's combat role changed to include the precision ground attack mission it was also cleared to carry several of the guided bomb unit (GBU) versions of the Mk-80 series bombs, more specifically, some of the laser guided versions.</p>
 <div class="section" id="air-to-ground-weapon-settings">
-<h3>Air-to-Ground Weapon Settings<a class="headerlink" href="#air-to-ground-weapon-settings" title="Permalink to this headline">¶</a></h3>
+<h3>空对地武器设定<a class="headerlink" href="#air-to-ground-weapon-settings" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/armamentpanel1.png" src="_images/armamentpanel1.png" />
 <p>The air-to-ground weapon delivery is set up by the RIO on his armament panel on the left vertical panel of the RIO cockpit.</p>
 <p>The type of munition for delivery is set up by the wheel on the top of the panel, turning it to the correct munition.
@@ -507,7 +507,7 @@ This configures the WCS with the correct parameters for the selected munition.</
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The Mk-81, 82 and 83 have both a L and a H option being for low-drag and high-drag versions respectively.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The Mk-81, 82 and 83 have both a L and a H option being for low-drag and high-drag versions respectively.</td>
 </tr>
 </tbody>
 </table>
@@ -535,13 +535,13 @@ To select a pylon for store delivery, set the corresponding switch to SEL. Stati
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">All F-14 bombs in DCS are assumed to have both types of fuzes so need both the mechanical and electrical fuze set. GBUs, Mk-20s and Mk-81 to 84s need the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">All F-14 bombs in DCS are assumed to have both types of fuzes so need both the mechanical and electrical fuze set. GBUs, Mk-20s and Mk-81 to 84s need the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="air-to-ground-weapon-delivery">
-<h3>Air-to-Ground Weapon Delivery<a class="headerlink" href="#air-to-ground-weapon-delivery" title="Permalink to this headline">¶</a></h3>
+<h3>空对地武器投放<a class="headerlink" href="#air-to-ground-weapon-delivery" title="Permalink to this headline">¶</a></h3>
 <p>Air-to-ground delivery is initiated by pilot selection of the A/G mode on the display control panel.
 After tape read-in (about 30 seconds) the WCS initiates the Air-to-ground mode and enables relevant symbology on the displays.</p>
 <p>The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon.
@@ -622,7 +622,7 @@ The Mk-82AIR and Snake Eye variants use the tail fuze wire to enable bomb retard
 For more info see the F-14 loadout diagrams.</p>
 </div>
 <div class="section" id="gbu-10-12-16-and-24">
-<h3>GBU-10, 12, 16 and 24<a class="headerlink" href="#gbu-10-12-16-and-24" title="Permalink to this headline">¶</a></h3>
+<h3>GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹<a class="headerlink" href="#gbu-10-12-16-and-24" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id10">
 <img alt="_images/gbu.jpg" src="_images/gbu.jpg" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate Airman Milosz Reterski. (040105-N-9742R-001)</span></p>
@@ -636,13 +636,13 @@ Each station is capable of carrying one GBU up to the size of the GBU-10. As for
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">GBU laser codes are set as per <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">DCS Mission Editor Functions Specific to the HB DCS F-14</span></a> or via the kneeboard.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">GBU laser codes are set as per <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 的任务编辑器功能</span></a> or via the kneeboard.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="mk-20-rockeye">
-<h3>Mk-20 Rockeye<a class="headerlink" href="#mk-20-rockeye" title="Permalink to this headline">¶</a></h3>
+<h3>Mk-20“石眼”炸弹<a class="headerlink" href="#mk-20-rockeye" title="Permalink to this headline">¶</a></h3>
 <p>The Mk-20 Rockeye is a conventional free fall bomb like the Mk-80 series bombs but instead of a conventional charge it carries anti-tank submunitions.
 The Rockeye contains 247 of these anti-tank submunitions which are released at a set height using a radar altimeter,
 the design being that the submunitions are dispersed over a large area for greater effect.</p>
@@ -653,13 +653,13 @@ To arm the Rockeye correctly the mechanical fuse should be set to nose (N).</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Additional fuse settings (FMU-140 fuse) pending additional weapon code implementation.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Additional fuse settings (FMU-140 fuse) pending additional weapon code implementation.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="zuni-rockets">
-<h3>Zuni Rockets<a class="headerlink" href="#zuni-rockets" title="Permalink to this headline">¶</a></h3>
+<h3>“祖尼”火箭弹<a class="headerlink" href="#zuni-rockets" title="Permalink to this headline">¶</a></h3>
 <p>The Zuni 5-inch folding-fin aircraft rocket (FFAR) was developed to replace the high velocity aircraft rocket (HVAR) of world war 2 vintage.
 As part of its design it's modular and capable of using different warheads as well as different fuzes.</p>
 <p>The Zuni rockets are carried in LAU-10 pods, each carrying 4 rockets. The pods can fire in either salvo mode or ripple mode, salvo launching one rocket and ripple all.</p>
@@ -676,9 +676,9 @@ They can be carried three to a TER on each of station 3, 4, 5 and 6 on the F-14B
 </div>
 </div>
 <div class="section" id="special-munitions">
-<h2>Special Munitions<a class="headerlink" href="#special-munitions" title="Permalink to this headline">¶</a></h2>
+<h2>特种弹药<a class="headerlink" href="#special-munitions" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="adm-141-tald">
-<h3>ADM-141 TALD<a class="headerlink" href="#adm-141-tald" title="Permalink to this headline">¶</a></h3>
+<h3>ADM-141 TALD（战术空射诱饵）<a class="headerlink" href="#adm-141-tald" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id11">
 <img alt="_images/tald.jpg" src="_images/tald.jpg" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 3rd Class Mark J. Rebilas. (041018-N-6213R-021)</span></p>
@@ -689,13 +689,13 @@ There are several versions of the TALD, examples being a version equipped to lau
 <p>The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage.</p>
 </div>
 <div class="section" id="luu-2-parachute-flare">
-<h3>LUU-2 Parachute Flare<a class="headerlink" href="#luu-2-parachute-flare" title="Permalink to this headline">¶</a></h3>
+<h3>LUU-2 降落伞照明弹<a class="headerlink" href="#luu-2-parachute-flare" title="Permalink to this headline">¶</a></h3>
 <p>The LUU-2 parachute flare is an air-launched flare suspended by a parachute used to illuminate the ground during night-time.</p>
 <p>The F-14B can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers in order not to conflict with the fuselage.</p>
 <p>The LUU-2 parachute flare is launched and set up in the same way as a general purpose bomb.</p>
 </div>
 <div class="section" id="lau-138-chaff-adapter">
-<h3>LAU-138 Chaff Adapter<a class="headerlink" href="#lau-138-chaff-adapter" title="Permalink to this headline">¶</a></h3>
+<h3>LAU-138 箔条扩容器<a class="headerlink" href="#lau-138-chaff-adapter" title="Permalink to this headline">¶</a></h3>
 <p>The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in Sweden to enhance a combat aircraft's capability to carry chaff countermeasures.
 The chaff launcher is unusual in that it doesn't use pyrotechnics to fire the chaff packages but instead uses a mechanical action.</p>
 <p>While each adapter can carry up to 160 chaff packages each package is not equal to a standard chaff bundle meaning that a set of two launchers launches four packages in total for each chaff release impulse.
@@ -705,29 +705,29 @@ While technically capable of carrying the LAU-138 on both A &amp; B stations on 
 <p>For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter.</p>
 </div>
 <div class="section" id="smokewinder">
-<h3>Smokewinder<a class="headerlink" href="#smokewinder" title="Permalink to this headline">¶</a></h3>
+<h3>烟雾吊舱<a class="headerlink" href="#smokewinder" title="Permalink to this headline">¶</a></h3>
 <p>The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 missile to the aircraft interface.</p>
 <p>To enable and disable a Smokewinder, select AIM-9 for launch using boresight (BRSIT) and select the corresponding weapon station using the weapon selector on the pilot stick.
 When set up thusly and with master arm on, each pull of the trigger enables or disable the Smokewinder discharging smoke.</p>
 </div>
 <div class="section" id="tacts-pods">
-<h3>TACTS Pods<a class="headerlink" href="#tacts-pods" title="Permalink to this headline">¶</a></h3>
+<h3>TACTS 吊舱<a class="headerlink" href="#tacts-pods" title="Permalink to this headline">¶</a></h3>
 <p>The TACTS pod is an analysis pod used during training missions, it is carried on LAU-7 rails instead of AIM-9s, normally on station 1A and 8A.
 They are normally carried as a pair of two, one on each side.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In DCS their functionality is purely cosmetic.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS their functionality is purely cosmetic.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="section" id="pods-and-tanks">
-<h2>Pods and Tanks<a class="headerlink" href="#pods-and-tanks" title="Permalink to this headline">¶</a></h2>
+<h2>吊舱和油箱<a class="headerlink" href="#pods-and-tanks" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="fpu-1-fuel-tank">
-<h3>FPU-1 Fuel Tank<a class="headerlink" href="#fpu-1-fuel-tank" title="Permalink to this headline">¶</a></h3>
+<h3>FPU-1 油箱<a class="headerlink" href="#fpu-1-fuel-tank" title="Permalink to this headline">¶</a></h3>
 <p>The FPU-1 fuel tank is carried by the F-14B Tomcat on stations 2 and 7 on each engine nacelle.
 They each carry up to 2 000 pounds of fuel and can be jettisoned in the same way as other stores using the normal procedures.</p>
 </div>
@@ -743,21 +743,21 @@ hardwired to the control panel in the RIO cockpit and to the video input on the 
 <p>For more information regarding the use of the LANTIRN pod, see the section about it under the General design and systems overview chapter.</p>
 </div>
 <div class="section" id="cnu-188-external-baggage-container">
-<h3>CNU-188 External Baggage Container<a class="headerlink" href="#cnu-188-external-baggage-container" title="Permalink to this headline">¶</a></h3>
+<h3>CNU-188 外部行李舱<a class="headerlink" href="#cnu-188-external-baggage-container" title="Permalink to this headline">¶</a></h3>
 <p>The CNU-188 external baggage container is a converted fuel tank used to carry equipment and supplies during aircraft transfer.
 One such container can be carried by a F-14B on either station 4 or 5, maximum load carried being 350 pounds.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Pending implementation in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Pending implementation in DCS.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="section" id="f-14b-loadout-diagram">
-<h2>F-14B Loadout Diagram<a class="headerlink" href="#f-14b-loadout-diagram" title="Permalink to this headline">¶</a></h2>
+<h2>F-14B 挂载示意图<a class="headerlink" href="#f-14b-loadout-diagram" title="Permalink to this headline">¶</a></h2>
 <img alt="_images/F14.png" src="_images/F14.png" />
 <table border="1" class="docutils align-center">
 <colgroup>
@@ -775,7 +775,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
 <col width="9%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">WeaponStation</th>
+<tr class="row-odd"><th class="head">武器 挂架</th>
 <th class="head">1A</th>
 <th class="head">1B</th>
 <th class="head">2</th>
@@ -1024,7 +1024,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
 <td>&#160;</td>
 <td>4(16)</td>
 </tr>
-<tr class="row-even"><td>LAU-138 Chaff Adapter</td>
+<tr class="row-even"><td>LAU-138 箔条扩容器</td>
 <td>1</td>
 <td>&#160;</td>
 <td>&#160;</td>
@@ -1037,7 +1037,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
 <td>1</td>
 <td>2</td>
 </tr>
-<tr class="row-odd"><td>Smokewinder</td>
+<tr class="row-odd"><td>烟雾吊舱</td>
 <td>1</td>
 <td>1</td>
 <td>&#160;</td>
@@ -1076,7 +1076,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
 <td>&#160;</td>
 <td>1</td>
 </tr>
-<tr class="row-even"><td>FPU-1 Fuel Tank</td>
+<tr class="row-even"><td>FPU-1 油箱</td>
 <td>&#160;</td>
 <td>&#160;</td>
 <td>1</td>
@@ -1089,7 +1089,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
 <td>&#160;</td>
 <td>2</td>
 </tr>
-<tr class="row-odd"><td>CNU-188 External Baggage Container</td>
+<tr class="row-odd"><td>CNU-188 外部行李舱</td>
 <td>&#160;</td>
 <td>&#160;</td>
 <td>&#160;</td>
@@ -1118,7 +1118,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
         <a href="procedures.html" class="btn btn-neutral float-right" title="程序" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="general.html" class="btn btn-neutral" title="General Design and Systems Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="general.html" class="btn btn-neutral" title="总体设计和系统总览" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

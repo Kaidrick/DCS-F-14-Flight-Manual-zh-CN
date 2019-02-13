@@ -22,7 +22,7 @@ copyright = '2019, Heatblur Simulations.'
 author = ''
 
 # The short X.Y version
-version = '协作预览 0.1.5'
+version = '协作预览 0.2.0 | Feb. 13th, 2019'
 # The full version, including alpha/beta/rc tags
 release = 'alpha'
 

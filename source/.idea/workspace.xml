@@ -39,21 +39,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1769733994">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="rst" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ReST" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="rst" value="8122" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ReST" value="8122" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cockpit.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/general.rst">
+        <entry file="file://$PROJECT_DIR$/accr.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -61,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hydraulic hand pump</find>
       <find>throttle control</find>
       <find>throttlecontrol</find>
       <find>throttlequa</find>
@@ -91,6 +113,7 @@
       <find>eject command</find>
       <find>canopy jett</find>
       <find>interior light</find>
+      <find>check</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,6 +125,7 @@
         <option value="$PROJECT_DIR$/cockpit_overview.rst" />
         <option value="$PROJECT_DIR$/cockpit.rst" />
         <option value="$PROJECT_DIR$/general.rst" />
+        <option value="$PROJECT_DIR$/accr.rst" />
       </list>
     </option>
   </component>
@@ -111,7 +135,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1151" />
     <option name="y" value="76" />
     <option name="width" value="2185" />
@@ -172,7 +196,7 @@
     <frame x="1151" y="76" width="2185" height="1349" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14292431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14433475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,13 +235,16 @@
     <entry file="file://$PROJECT_DIR$/procedures.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.rst">
+    <entry file="file://$PROJECT_DIR$/general.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cockpit.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/general.rst">
+    <entry file="file://$PROJECT_DIR$/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accr.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>

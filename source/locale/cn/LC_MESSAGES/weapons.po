@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 15:27+0800\n"
-"PO-Revision-Date: 2019-02-12 15:35+0800\n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-13 22:58+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/weapons.rst:4
 msgid "Weapons and Weapons Employment Overview"
-msgstr ""
+msgstr "武器和武器使用总览"
 
 #: ../../source/weapons.rst:7
 msgid "M-61 Vulcan Six-Barreled Gatling Cannon"
-msgstr ""
+msgstr "M-61“火神”六管加特林航炮"
 
 #: ../../source/weapons.rst:10
 msgid ""
@@ -225,11 +225,11 @@ msgstr ""
 
 #: ../../source/weapons.rst:112
 msgid "Air-to-Air Weapons"
-msgstr ""
+msgstr "空对空武器"
 
 #: ../../source/weapons.rst:115
 msgid "HUD Symbology for Air-to-Air Missiles"
-msgstr ""
+msgstr "空对空导弹的 HUD 标识"
 
 #: ../../source/weapons.rst:119
 msgid ""
@@ -282,7 +282,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:139
 msgid "AIM-7 Sparrow"
-msgstr ""
+msgstr "AIM-7 “麻雀”导弹"
 
 #: ../../source/weapons.rst:142
 msgid ""
@@ -408,7 +408,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:211
 msgid "AIM-9 Sidewinder"
-msgstr ""
+msgstr "AIM-9“响尾蛇”导弹"
 
 #: ../../source/weapons.rst:214
 msgid ""
@@ -526,7 +526,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:281
 msgid "AIM-54 Phoenix"
-msgstr ""
+msgstr "AIM-54“不死鸟”导弹"
 
 #: ../../source/weapons.rst:284
 msgid ""
@@ -536,7 +536,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:0
 msgid "Note"
-msgstr ""
+msgstr "注意"
 
 #: ../../source/weapons.rst:286
 msgid "Depicted missile has yet to have the forward fins attached."
@@ -810,7 +810,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:421
 msgid "Air-to-Ground Weapons"
-msgstr ""
+msgstr "空对地武器"
 
 #: ../../source/weapons.rst:423
 msgid ""
@@ -831,7 +831,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:430
 msgid "Air-to-Ground Weapon Settings"
-msgstr ""
+msgstr "空对地武器设定"
 
 #: ../../source/weapons.rst:434
 msgid ""
@@ -944,7 +944,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:467
 msgid "Air-to-Ground Weapon Delivery"
-msgstr ""
+msgstr "空对地武器投放"
 
 #: ../../source/weapons.rst:469
 msgid ""
@@ -1219,7 +1219,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:581
 msgid "GBU-10, 12, 16 and 24"
-msgstr ""
+msgstr "GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹"
 
 #: ../../source/weapons.rst:584
 msgid ""
@@ -1259,7 +1259,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:598
 msgid "Mk-20 Rockeye"
-msgstr ""
+msgstr "Mk-20“石眼”炸弹"
 
 #: ../../source/weapons.rst:600
 msgid ""
@@ -1291,7 +1291,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:613
 msgid "Zuni Rockets"
-msgstr ""
+msgstr "“祖尼”火箭弹"
 
 #: ../../source/weapons.rst:615
 msgid ""
@@ -1343,11 +1343,11 @@ msgstr ""
 
 #: ../../source/weapons.rst:637
 msgid "Special Munitions"
-msgstr ""
+msgstr "特种弹药"
 
 #: ../../source/weapons.rst:640
 msgid "ADM-141 TALD"
-msgstr ""
+msgstr "ADM-141 TALD（战术空射诱饵）"
 
 #: ../../source/weapons.rst:643
 msgid ""
@@ -1378,7 +1378,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:654
 msgid "LUU-2 Parachute Flare"
-msgstr ""
+msgstr "LUU-2 降落伞照明弹"
 
 #: ../../source/weapons.rst:656
 msgid ""
@@ -1401,7 +1401,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:664 ../../source/weapons.rst:772
 msgid "LAU-138 Chaff Adapter"
-msgstr ""
+msgstr "LAU-138 箔条扩容器"
 
 #: ../../source/weapons.rst:666
 msgid ""
@@ -1439,7 +1439,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:679 ../../source/weapons.rst:774
 msgid "Smokewinder"
-msgstr ""
+msgstr "烟雾吊舱"
 
 #: ../../source/weapons.rst:681
 msgid ""
@@ -1457,7 +1457,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:688
 msgid "TACTS Pods"
-msgstr ""
+msgstr "TACTS 吊舱"
 
 #: ../../source/weapons.rst:690
 msgid ""
@@ -1472,11 +1472,11 @@ msgstr ""
 
 #: ../../source/weapons.rst:697
 msgid "Pods and Tanks"
-msgstr ""
+msgstr "吊舱和油箱"
 
 #: ../../source/weapons.rst:700 ../../source/weapons.rst:780
 msgid "FPU-1 Fuel Tank"
-msgstr ""
+msgstr "FPU-1 油箱"
 
 #: ../../source/weapons.rst:702
 msgid ""
@@ -1517,7 +1517,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:721 ../../source/weapons.rst:782
 msgid "CNU-188 External Baggage Container"
-msgstr ""
+msgstr "CNU-188 外部行李舱"
 
 #: ../../source/weapons.rst:723
 msgid ""
@@ -1533,11 +1533,11 @@ msgstr ""
 
 #: ../../source/weapons.rst:730
 msgid "F-14B Loadout Diagram"
-msgstr ""
+msgstr "F-14B 挂载示意图"
 
 #: ../../source/weapons.rst:734
 msgid "Weapon\\Station"
-msgstr ""
+msgstr "武器 \\ 挂架"
 
 #: ../../source/weapons.rst:734
 msgid "1A"

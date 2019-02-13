@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>General Design and Systems Overview &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
+  <title>总体设计和系统总览 &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
   
 
   
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Weapons and Weapons Employment Overview" href="weapons.html" />
+    <link rel="next" title="武器和武器使用总览" href="weapons.html" />
     <link rel="prev" title="驾驶舱总览" href="cockpit.html" /> 
 
   
@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 0.1.5
+                协作预览 0.2.0 | Feb. 13th, 2019
               </div>
             
           
@@ -87,18 +87,18 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱总览</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">General Design and Systems Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#engines-and-throttle-controls">Engines and Throttle Controls</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#throttle-controls">Throttle Controls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#engine-and-throttle-control-switches-and-indicators">Engine and Throttle Control Switches and Indicators</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#engine-instrument-group-eig-related-indicators-and-caution-lights">Engine Instrument Group (EIG), Related Indicators and Caution Lights</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">总体设计和系统总览</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#engines-and-throttle-controls">发动机和油门控制</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#throttle-controls">油门控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#engine-and-throttle-control-switches-and-indicators">发动机和油门控制开关以及指示器</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#engine-instrument-group-eig-related-indicators-and-caution-lights">发动机仪表组（EIG）及相关指示器和注意灯</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#fuel-system">Fuel System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#fuel-quantity-indicators-and-controls">Fuel Quantity Indicators and Controls</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#in-flight-refueling">In-Flight Refueling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fuel-system">燃油系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fuel-quantity-indicators-and-controls">燃油量指示器和控制</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#in-flight-refueling">空中加油</a></li>
 </ul>
 </li>
 </ul>
@@ -109,45 +109,45 @@
 <li class="toctree-l3"><a class="reference internal" href="#fire-detection-and-suppression-system-test">Fire Detection and Suppression System Test</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#electrical-power-system">Electrical Power System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#emergency-power">Emergency Power</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">Controls and Indicators</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#circuit-breakers">Circuit Breakers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#electrical-power-system">电力系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#emergency-power">应急动力</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">控制和指示器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#circuit-breakers">断路器</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#hydraulic-system">Hydraulic System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Controls and Indicators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hydraulic-system">液压系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">控制和指示器</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#wing-sweep-system">Wing-Sweep System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#emergency-mode">Emergency Mode</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#oversweep">Oversweep</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wing-sweep-system">机翼后掠系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#emergency-mode">应急模式</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#oversweep">机翼停放后掠</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Controls and Indicators</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">控制和指示器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#wing-sweep-system-test">Wing-Sweep System Test</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#flight-control-system">Flight Control System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#trim">Trim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#flight-control-system">飞行控制系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#trim">配平</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#afcs-automatic-flight-control-system">AFCS Automatic Flight Control System</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#autopilot">Autopilot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#autopilot">自动驾驶</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#spoilers">Spoilers</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#dlc-direct-lift-control">DLC Direct Lift Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#spoilers">扰流板</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#dlc-direct-lift-control">直接升力控制（DLC）</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#flaps-and-slats">Flaps and Slats</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#speedbrakes">Speedbrakes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flaps-and-slats">襟翼和缝翼</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#speedbrakes">减速板</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#landing-gear-system">Landing Gear System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#nosewheel-steering">Nosewheel Steering</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#wheelbrakes">Wheelbrakes</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#antiskid">Antiskid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#landing-gear-system">起落架系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#nosewheel-steering">前轮转向</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wheelbrakes">机轮刹车</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#antiskid">防滑</a></li>
 </ul>
 </li>
 </ul>
@@ -157,26 +157,26 @@
 <li class="toctree-l3"><a class="reference internal" href="#arresting-gear">Arresting Gear</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#ecs-environmental-control-system">ECS Environmental Control System</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ecs-environmental-control-system">环境控制系统（ECS）</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#air-source-and-cockpit-air-controls">Air Source and Cockpit Air Controls</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#windshield-anti-ice-and-defogging">Windshield Anti-Ice and Defogging</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-awg-9-and-aim-54-cooling">AN/AWG-9 and AIM-54 Cooling</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#external-ecs-air-supply">External ECS Air Supply</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#oxygen-system">Oxygen System</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#flight-instruments">Flight Instruments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#canopy">Canopy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ejection-system">Ejection System</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#lighting-system">Lighting System</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#internal-lighting">Internal Lighting</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#external-lighting">External Lighting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#oxygen-system">供氧系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#flight-instruments">飞行仪表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#canopy">驾驶舱盖</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ejection-system">弹射系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lighting-system">灯光系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#internal-lighting">机内灯光</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#external-lighting">机外灯光</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#jettison-system">Jettison System</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#cadc-central-air-data-computer">CADC Central Air Data Computer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#an-awg-9-weapon-control-system-wcs">AN/AWG-9 Weapon Control System (WCS)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#detail-data-display-ddd-and-panel">Detail Data Display (DDD) and Panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jettison-system">抛离系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cadc-central-air-data-computer">中央大气数据计算机（CADC）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#an-awg-9-weapon-control-system-wcs">AN/AWG-9 武器控制系统（WCS）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#detail-data-display-ddd-and-panel">详细数据显示器（DDD）及控制板</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#tactical-information-display-tid-and-associated-controls">Tactical Information Display (TID) and Associated Controls</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#tid-data-readouts">TID Data Readouts</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#tid-symbology">TID Symbology</a></li>
@@ -197,13 +197,13 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#an-apx-72-iff-interrogator">AN/APX-72 IFF Interrogator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#television-camera-set-tcs">Television Camera Set (TCS)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#tcs-controls-and-symbology">TCS Controls and Symbology</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#an-apx-72-iff-interrogator">AN/APX-72 IFF 询问器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#television-camera-set-tcs">电视摄像套件（TCS）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tcs-controls-and-symbology">TCS 控制和标识</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id3">Sensor Control Panel</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#ddd">DDD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#hcu-tid">HCU/TID</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symbology">Symbology</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symbology">标识</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#tcs-operation">TCS Operation</a></li>
@@ -211,10 +211,10 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#lantirn">LANTIRN</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#an-alr-67-rwr">AN/ALR-67 RWR</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#description">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#controls">Controls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#displays">Displays</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#warning-lights">Warning Lights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#description">描述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controls">控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#displays">显示</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#warning-lights">警告灯</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#threat-indication-alert-tones">Threat Indication Alert Tones</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bit">BIT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#threat-symbology">Threat Symbology</a></li>
@@ -234,12 +234,12 @@
 <li class="toctree-l3"><a class="reference internal" href="#an-alq-126-controls-and-indicators">AN/ALQ-126 Controls and Indicators</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#navigation">Navigation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#navigation-system">Navigation System</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#wcs-computer">WCS Computer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#navigation">导航</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#navigation-system">导航系统</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#wcs-computer">WCS 计算机</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#imu-platform-alignment">IMU Platform Alignment</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#navigation-computations">Navigation Computations</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id5">Displays</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">显示</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#inertial-navigation-system-ins">Inertial Navigation System (INS)</a><ul>
@@ -296,8 +296,8 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#communications-systems">Communications Systems</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#antennas">Antennas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#communications-systems">通讯系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#antennas">天线</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#ics-intercommunications-system">ICS - Intercommunications System</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#audio-warning-signals">Audio Warning Signals</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#pilot-volume-tacan-command-panel">Pilot Volume/TACAN Command Panel</a></li>
@@ -324,11 +324,11 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="weapons.html">Weapons and Weapons Employment Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="weapons.html">武器和武器使用总览</a></li>
 <li class="toctree-l1"><a class="reference internal" href="procedures.html">程序</a></li>
-<li class="toctree-l1"><a class="reference internal" href="emergency.html">Emergency Procedures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS Specific Functions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="accr.html">Acronyms and Abbreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 </ul>
 
             
@@ -374,7 +374,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>General Design and Systems Overview</li>
+      <li>总体设计和系统总览</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -394,9 +394,9 @@
            <div itemprop="articleBody">
             
   <div class="section" id="general-design-and-systems-overview">
-<h1>General Design and Systems Overview<a class="headerlink" href="#general-design-and-systems-overview" title="Permalink to this headline">¶</a></h1>
+<h1>总体设计和系统总览<a class="headerlink" href="#general-design-and-systems-overview" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="engines-and-throttle-controls">
-<h2>Engines and Throttle Controls<a class="headerlink" href="#engines-and-throttle-controls" title="Permalink to this headline">¶</a></h2>
+<h2>发动机和油门控制<a class="headerlink" href="#engines-and-throttle-controls" title="Permalink to this headline">¶</a></h2>
 <p>The two F110-GE-400 afterburning turbo-fans powering the F-14B are controlled by the AFTC (Augmenter Fan Temperature Control unit).
 The AFTC is akin to an early version of a FADEC (Full Authority Digital Engine Control) used on newer turbine engines.</p>
 <p>The AFTC controls both the engine itself as well as the variable exhaust nozzles controlling the engine exhaust gases.
@@ -409,7 +409,7 @@ The normal mode, AFTC, is the primary mode (PRI) and called as such while the fa
 The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be selected manually.
 Of note is that in secondary mode the engine nozzles are fully closed and disabled in addition to the afterburners being disabled with a corresponding loss of engine performance.</p>
 <div class="section" id="throttle-controls">
-<span id="throttlecontrols"></span><h3>Throttle Controls<a class="headerlink" href="#throttle-controls" title="Permalink to this headline">¶</a></h3>
+<span id="throttlecontrols"></span><h3>油门控制<a class="headerlink" href="#throttle-controls" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/throttles-schem1.png" src="_images/throttles-schem1.png" />
 <p>The throttles in the F-14 have detents preventing unintentional engine start and shutdown and unintentional selection of afterburner.
 In addition the throttles also controls several different systems depending on throttle position as shown in the diagram above.
@@ -430,7 +430,7 @@ The system is enabled by weight on either main landing gear and is disabled by s
 <p>Finally, and implemented on the F110-GE-400, is the asymmetric limiter, preventing asymmetric afterburner engagement if only one afterburner lights by keeping that afterburner at minimum afterburner thrust until the other afterburner also lights.</p>
 </div>
 <div class="section" id="engine-and-throttle-control-switches-and-indicators">
-<h3>Engine and Throttle Control Switches and Indicators<a class="headerlink" href="#engine-and-throttle-control-switches-and-indicators" title="Permalink to this headline">¶</a></h3>
+<h3>发动机和油门控制开关以及指示器<a class="headerlink" href="#engine-and-throttle-control-switches-and-indicators" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/asym1.png" src="_images/asym1.png" />
 <p>The <strong>ASYM LIMITER</strong> (<strong>1</strong>) on the ASYM limiter/engine mode select panel enables or disables the asymmetric afterburner thrust limiter. Default position is <strong>ON</strong> and the switch has a guard cover keeping it in that position.</p>
 <p>The other switches on that same panel are the <strong>ENG</strong> (engine) <strong>MODE SELECT</strong> switches (<strong>2</strong>), setting the left (<strong>L ENG</strong>) and right (<strong>R ENG</strong>) to <strong>PRI</strong>, primary or <strong>SEC</strong>, secondary modes respectively.</p>
@@ -447,14 +447,14 @@ At 50% rpm the crank switch automatically returns to off/center position. If thi
 <p>The <strong>ENG/PROBE ANTI-ICE</strong> (<strong>2</strong>) switch on the external environmental control panel enables the engine anti-ice and intake ramp anti-ice mode in addition to the various probe heaters.
 The <strong>ORIDE</strong> position enables the system, the <strong>AUTO</strong> position enables the system if icing is detected and the <strong>OFF</strong> position disable it.</p>
 <div class="section" id="engine-instrument-group-eig-related-indicators-and-caution-lights">
-<h4>Engine Instrument Group (EIG), Related Indicators and Caution Lights<a class="headerlink" href="#engine-instrument-group-eig-related-indicators-and-caution-lights" title="Permalink to this headline">¶</a></h4>
+<h4>发动机仪表组（EIG）及相关指示器和注意灯<a class="headerlink" href="#engine-instrument-group-eig-related-indicators-and-caution-lights" title="Permalink to this headline">¶</a></h4>
 <img alt="_images/instrument-group1.png" src="_images/instrument-group1.png" />
 <p>The <strong>ENGINE INSTRUMENT GROUP</strong> displays engine <strong>RPM</strong>, <strong>EGT</strong> (exhaust gas temperature) and <strong>FF</strong> (fuel flow) to the pilot to allow for engine monitoring.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Pictured above are the TF30 engine indicators, F110 EIG coming soon.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Pictured above are the TF30 engine indicators, F110 EIG coming soon.</td>
 </tr>
 </tbody>
 </table>
@@ -485,7 +485,7 @@ This is also combined with an audio warning, a modulated tone at 320 Hz.</p>
 </div>
 </div>
 <div class="section" id="fuel-system">
-<h2>Fuel System<a class="headerlink" href="#fuel-system" title="Permalink to this headline">¶</a></h2>
+<h2>燃油系统<a class="headerlink" href="#fuel-system" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center" id="id6">
 <img alt="_images/tanks.png" src="_images/tanks.png" />
 <p class="caption"><span class="caption-text">1 - Refueling Probe, 2 - Ground refueling Port (Right Side) , 3 - Forward Fuselage Tank, 4 - Left External Drop Tank, 5 - Left Box Beam Tank, 6 - Left Wing Tank, 7 - Vent Tank, 8 - Fuel Dump Mast,
@@ -501,33 +501,33 @@ This fact needs to be kept in mind when reading the fuel gauges.</p>
 <col width="31%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">Tank group</th>
-<th class="head">Pounds</th>
+<tr class="row-odd"><th class="head">油箱群组</th>
+<th class="head">磅</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>Forward Fuselage</td>
+<tr class="row-even"><td>前部油箱</td>
 <td>4,700</td>
 </tr>
-<tr class="row-odd"><td>Aft Fuselage</td>
+<tr class="row-odd"><td>后部油箱</td>
 <td>4,400</td>
 </tr>
-<tr class="row-even"><td>Right Feed Group</td>
+<tr class="row-even"><td>右供油油箱</td>
 <td>1,600</td>
 </tr>
-<tr class="row-odd"><td>Left Feed Group</td>
+<tr class="row-odd"><td>左供油油箱</td>
 <td>1,500</td>
 </tr>
-<tr class="row-even"><td>Internal Wings</td>
+<tr class="row-even"><td>机翼内油箱</td>
 <td>4,000</td>
 </tr>
-<tr class="row-odd"><td>External Tanks</td>
+<tr class="row-odd"><td>外部油箱</td>
 <td>3,600</td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="fuel-quantity-indicators-and-controls">
-<h3>Fuel Quantity Indicators and Controls<a class="headerlink" href="#fuel-quantity-indicators-and-controls" title="Permalink to this headline">¶</a></h3>
+<h3>燃油量指示器和控制<a class="headerlink" href="#fuel-quantity-indicators-and-controls" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/fuelquantity1.png" src="_images/fuelquantity1.png" />
 <p>The fuel quantity indicator on the pilot right knee panel displays internal and external fuel carried.</p>
 <p>The uppermost indicator (<strong>1</strong>) displays currently set <strong>BINGO</strong> fuel level, this quantity is set by rotating the knob (<strong>5</strong>) to desired amount.
@@ -553,12 +553,12 @@ If there's weight on the wheels or the speed brake is not fully retracted the fu
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Even though technically possible to engage the afterburners after a fuel dump is in progress, this is not allowed due to the possibility of igniting the dumped fuel.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Even though technically possible to engage the afterburners after a fuel dump is in progress, this is not allowed due to the possibility of igniting the dumped fuel.</td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="in-flight-refueling">
-<h4>In-Flight Refueling<a class="headerlink" href="#in-flight-refueling" title="Permalink to this headline">¶</a></h4>
+<h4>空中加油<a class="headerlink" href="#in-flight-refueling" title="Permalink to this headline">¶</a></h4>
 <p>The above panel also contains the control for the in-flight refueling system.</p>
 <p>The <strong>REFUEL PROBE</strong> (<strong>6</strong>) switch controls the extension of the refueling probe as well as setting up the fuel system to recieve fuel.
 The two extended positions (<strong>EXTD</strong>) are <strong>ALL</strong>, enabling refueling of all tanks, including wings and external tanks and <strong>FUS</strong>, allowing refuel of only the fuselage tanks.
@@ -568,7 +568,7 @@ When selecting the <strong>ALL</strong> position the fuel feed from the wings an
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Selecting <strong>EXTD ALL</strong> resets the <strong>WING/EXT TRANS</strong> switch to <strong>AUTO</strong>.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Selecting <strong>EXTD ALL</strong> resets the <strong>WING/EXT TRANS</strong> switch to <strong>AUTO</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -618,19 +618,19 @@ If the <strong>NO GO</strong> or no lights illuminate there's a problem in eithe
 </div>
 </div>
 <div class="section" id="electrical-power-system">
-<h2>Electrical Power System<a class="headerlink" href="#electrical-power-system" title="Permalink to this headline">¶</a></h2>
+<h2>电力系统<a class="headerlink" href="#electrical-power-system" title="Permalink to this headline">¶</a></h2>
 <p>All main electrical power in the F-14 is generated from the two engine driven AC generators.
 The generators connected to the gearboxes on the engines are each capable of generating enough power to individually drive all aircraft systems.</p>
 <p>As for DC power generation the F-14 has two transformer-rectifiers supplying 28 V DC, and again each one is individually capable of driving all aircraft DC appliances.</p>
 <p>The F-14 has an external power receptacle for AC power just aft of the nosegear, capable of driving aircraft AC and DC (through the transformer-rectifiers).
 External power is automatically disconnected from the aircraft power system when one of the interal generators come online.</p>
 <div class="section" id="emergency-power">
-<h3>Emergency Power<a class="headerlink" href="#emergency-power" title="Permalink to this headline">¶</a></h3>
+<h3>应急动力<a class="headerlink" href="#emergency-power" title="Permalink to this headline">¶</a></h3>
 <p>The F-14 has an emergency generator driven by the combined hydraulic system generating a limited supply of AC and DC power.
 If the system loses main power the emergency generator takes over supply of flight critical systems within 1 second.</p>
 </div>
 <div class="section" id="controls-and-indicators">
-<h3>Controls and Indicators<a class="headerlink" href="#controls-and-indicators" title="Permalink to this headline">¶</a></h3>
+<h3>控制和指示器<a class="headerlink" href="#controls-and-indicators" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/generator1.png" src="_images/generator1.png" />
 <p>The controls for the electrical systems are located on the master generator control panel.</p>
 <p>The <strong>MASTER GEN</strong> (<strong>1</strong>) switches control connection of the main generators to the electrical buses.
@@ -650,7 +650,7 @@ Either because of a fault or because the engine driving the generator not runnin
 Completion of the test is indicated by the <strong>GO</strong> light illuminating. In case of a fault the <strong>NO GO</strong> light illuminates.</p>
 </div>
 <div class="section" id="circuit-breakers">
-<h3>Circuit Breakers<a class="headerlink" href="#circuit-breakers" title="Permalink to this headline">¶</a></h3>
+<h3>断路器<a class="headerlink" href="#circuit-breakers" title="Permalink to this headline">¶</a></h3>
 <p>The circuit breakers in the F-14 are located on the pilot's right and left knee panels and behind the RIO's seat on his left and right sides.
 The breakers protect aircraft systems from overcurrent by popping out and isolating the system drawing too much current.
 This is indicated by a white line becoming visible on the breaker as it pops out. The breaker can be reset by pushing it in and it can also be pulled out manually.</p>
@@ -658,7 +658,7 @@ This is indicated by a white line becoming visible on the breaker as it pops out
 </div>
 </div>
 <div class="section" id="hydraulic-system">
-<h2>Hydraulic System<a class="headerlink" href="#hydraulic-system" title="Permalink to this headline">¶</a></h2>
+<h2>液压系统<a class="headerlink" href="#hydraulic-system" title="Permalink to this headline">¶</a></h2>
 <p>The F-14 has two separate hydraulic systems, the flight hydraulic system and the combined hydraulic system.</p>
 <p>Both systems are driven by hydraulic pumps connected to each engine, the flight hydraulic system from the right engine and the combined hydraulic system from the left engine.
 Both systems are pressurised to around 3,000 psi when operating normally.</p>
@@ -680,7 +680,7 @@ The control surfaces will have a reduced deflection rate if driven by this pump,
 <p>There is also a hand driven hydraulic pump that can be used to pressurize the refueling probe and wheel brake accumulator if there's otherwise no pressure in the combined system.
 This is mainly for unpowered ground operation but can be used as a backup in the air.</p>
 <div class="section" id="id1">
-<h3>Controls and Indicators<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h3>控制和指示器<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/hydraulic1.png" src="_images/hydraulic1.png" />
 <p>The <strong>HYD PRESS</strong>, hydraulic pressure indicator, contains two gauges indicating <strong>COMB</strong>, combined, and <strong>FLT</strong>, flight system hydraulic pressure in thousands of psi.
 The scales have markings for the nominal 3,000 psi pressure when the pumps are operating normally.</p>
@@ -701,7 +701,7 @@ It turns off when both systems are again above 2,400 psi.</p>
 </div>
 </div>
 <div class="section" id="wing-sweep-system">
-<h2>Wing-Sweep System<a class="headerlink" href="#wing-sweep-system" title="Permalink to this headline">¶</a></h2>
+<h2>机翼后掠系统<a class="headerlink" href="#wing-sweep-system" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center" id="id7">
 <img alt="_images/sweepschedule.png" src="_images/sweepschedule.png" />
 <p class="caption"><span class="caption-text">Wing-sweep schedule as function of Mach number and related flap interlocks.</span></p>
@@ -717,7 +717,7 @@ wings to 55° or further aft depending on the program. Simply put, the CADC wing
 All this is done electrically via two independent channels (for redundancy) to the wing-sweep actuators.</p>
 <p>Currently commanded wing position, CADC program wing position and actual wing position can be seen on the wing-sweep indicator next to the ACM panel.</p>
 <div class="section" id="emergency-mode">
-<span id="wingsweepemerg"></span><h3>Emergency Mode<a class="headerlink" href="#emergency-mode" title="Permalink to this headline">¶</a></h3>
+<span id="wingsweepemerg"></span><h3>应急模式<a class="headerlink" href="#emergency-mode" title="Permalink to this headline">¶</a></h3>
 <p>While the normal mode controls the wing-sweep electrically, to supplement this it's also possible to control the wing-sweep mechanically via the emergency mode.
 This is done via the emergency wing-sweep handle on the right side of the throttle.
 That handle is connected mechanically to the hydraulic valves in the wing-sweep system, providing a physical back-up control.</p>
@@ -757,7 +757,7 @@ Then the handle can be forced out of the spider-detent normally connecting it to
 The <strong>MASTER RESET</strong> button on the fuel management panel should then be depressed and the wing-sweep system set to the same position as the handle.
 The servo will then drive to the commanded position and re-engage the handle to the spider detent, resuming normal operation.</p>
 <div class="section" id="oversweep">
-<h4>Oversweep<a class="headerlink" href="#oversweep" title="Permalink to this headline">¶</a></h4>
+<h4>机翼停放后掠<a class="headerlink" href="#oversweep" title="Permalink to this headline">¶</a></h4>
 <p>The emergency wing-sweep handle is also used to select the oversweep position of the wings.
 The oversweep is only used while on the ground to reduce the wing span to make it easier to spot the aircraft on the carrier deck.
 As the wing will sweep over the stabilizers on the tail the horizontal tail authority system is enabled to prevent the wings and stabilizers from damaging each other by restricting movement of the stabilizer.</p>
@@ -770,7 +770,7 @@ When the wings have physically exited the oversweep the caution light and the <s
 </div>
 </div>
 <div class="section" id="id2">
-<h3>Controls and Indicators<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<h3>控制和指示器<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p>The controls for the wing-sweep system are on the right throttle (electrical) and to the right of the right throttle (mechanical).
 See the <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">Throttle</span></a> and the <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">Throttle Quadrant</span></a>.</p>
 <p>The wing-sweep hat on the right throttle is normally set to <strong>AUTO</strong> enabling CADC control of the wings, this is the upper position.
@@ -804,7 +804,7 @@ The <strong>WING SWEEP</strong> and <strong>FLAP</strong> light will illuminate 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The <strong>WING SWEEP</strong> advisory light will illuminate after 3 seconds into test, turn off and then illuminate again at 8 seconds.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The <strong>WING SWEEP</strong> advisory light will illuminate after 3 seconds into test, turn off and then illuminate again at 8 seconds.</td>
 </tr>
 </tbody>
 </table>
@@ -814,7 +814,7 @@ The <strong>MASTER TEST</strong> switch can now be set to <strong>OFF</strong> a
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The <strong>RUDDER AUTH</strong> and/or <strong>MACH TRIM</strong> lights might illuminate and the control stick might move. This can be ignored.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The <strong>RUDDER AUTH</strong> and/or <strong>MACH TRIM</strong> lights might illuminate and the control stick might move. This can be ignored.</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Note 2:</th><td class="field-body">The WG SWP test on the Master Test panel is not implemented yet.</td>
 </tr>
@@ -824,7 +824,7 @@ The <strong>MASTER TEST</strong> switch can now be set to <strong>OFF</strong> a
 </div>
 </div>
 <div class="section" id="flight-control-system">
-<span id="fcs"></span><h2>Flight Control System<a class="headerlink" href="#flight-control-system" title="Permalink to this headline">¶</a></h2>
+<span id="fcs"></span><h2>飞行控制系统<a class="headerlink" href="#flight-control-system" title="Permalink to this headline">¶</a></h2>
 <p>The flight control system on the F-14 Tomcat is driven by the two main hydraulic circuits, powered by pumps connected to each engine.</p>
 <p>For longitudinal (pitch) control both tail stabilizers are deflected in unison, acting in the same way as traditional elevators.</p>
 <p>Lateral (roll) control is produced by both the tail stabilizers and the spoilers working in unison.
@@ -835,7 +835,7 @@ To produce roll the stabilizers are deflected opposite each other to act as aile
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Above 15 units AOA the rudders should be used for lateral (roll) control due to the different airflow along the aircraft control surfaces.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Above 15 units AOA the rudders should be used for lateral (roll) control due to the different airflow along the aircraft control surfaces.</td>
 </tr>
 </tbody>
 </table>
@@ -843,7 +843,7 @@ To produce roll the stabilizers are deflected opposite each other to act as aile
 <div class="line"><br /></div>
 </div>
 <div class="section" id="trim">
-<h3>Trim<a class="headerlink" href="#trim" title="Permalink to this headline">¶</a></h3>
+<h3>配平<a class="headerlink" href="#trim" title="Permalink to this headline">¶</a></h3>
 <p>Longitudinal and lateral trim is accomplished via the trim hat on the <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">Control Stick</span></a>. This changes the stick neutral position, thus trimming the aircraft.
 Rudder trim is accomplished via the <strong>RUDDER TRIM</strong> switch on the <a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">Inlet Ramps/Throttle Control Panel</span></a>, changing the neutral rudder position.</p>
 <p>The Mach Trim and ITS (Integrated Trim System) automatically trims to compensate for changes in longitudinal trim.
@@ -858,7 +858,7 @@ The yaw switch is purely mechanical.</p>
 <p>Roll SAS should not be used for situations involving flight at AOA above 15 units and should therefore be set to off for combat maneuvers.</p>
 <p>If the autopilot emergency disengage paddle on the control stick is held down the pitch and roll channels will be set to off.</p>
 <div class="section" id="autopilot">
-<h4>Autopilot<a class="headerlink" href="#autopilot" title="Permalink to this headline">¶</a></h4>
+<h4>自动驾驶<a class="headerlink" href="#autopilot" title="Permalink to this headline">¶</a></h4>
 <p>Apart from stability augmentation the AFCS is also used to provide autopilot functionality.
 To use the autopilot all three stabilisation channels must be enabled.</p>
 <p>The controls for the autopilot system are situated on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS Control Panel</span></a>.</p>
@@ -876,15 +876,15 @@ The <strong>A/P REF</strong> warning light will then turn off and the ground tra
 To enable the ACL, set the VEC/PCD switch to <strong>ACL</strong> which will cause the <strong>A/P REF</strong> warning light to illuminate.
 When intercepting the ACL glideslope and with the <strong>ACL READY</strong> and <strong>A/P CPLR</strong> warning lights illuminated on the VDI, depress the nosewheel steering button on the control stick.
 This engages the ACL and lets the data link control the aircraft. The <strong>A/P REF</strong> warning light will turn off.</p>
-<p>The ACL can be used in conjunction with the APC (see <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">Throttle Controls</span></a>) for a fully automatic landing.
+<p>The ACL can be used in conjunction with the APC (see <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制</span></a>) for a fully automatic landing.
 The ACL can be disengaged via the <strong>PLM</strong> button on the right throttle and the APC via the <strong>CAGE/SEAM</strong> button on the left throttle.</p>
 <p>All the autopilot modes can be overriden by enough force on the control stick or by depression of the autopilot emergency disengagement paddle, automatically resetting all autopilot switches to off.</p>
 </div>
 </div>
 <div class="section" id="spoilers">
-<h3>Spoilers<a class="headerlink" href="#spoilers" title="Permalink to this headline">¶</a></h3>
-<p>The spoilers located on the upper surfaces of the wings are used to control roll as detailed above under <a class="reference internal" href="#fcs"><span class="std std-ref">Flight Control System</span></a>,
-for braking on the ground as part of the <a class="reference internal" href="#askid"><span class="std std-ref">Antiskid</span></a> system and as a part of the DLC system (see next header).</p>
+<h3>扰流板<a class="headerlink" href="#spoilers" title="Permalink to this headline">¶</a></h3>
+<p>The spoilers located on the upper surfaces of the wings are used to control roll as detailed above under <a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a>,
+for braking on the ground as part of the <a class="reference internal" href="#askid"><span class="std std-ref">防滑</span></a> system and as a part of the DLC system (see next header).</p>
 <p>The spoilers are only used forwards of 62° wing-sweep as further aft these conflict with the fuselage.</p>
 <p>In case of a spoiler malfunction the spoiler symmetry protection logic disables all of the spoilers in the same section as the failed spoiler, either inboard or outboard spoilers.
 If this occurs the <strong>SPOILERS</strong> caution light on the <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> illuminates.</p>
@@ -892,7 +892,7 @@ If this occurs the <strong>SPOILERS</strong> caution light on the <a class="refe
 <strong>ORIDE</strong> and then depressing the <strong>MASTER RESET</strong> button on the <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">Fuel Management Panel</span></a>.</p>
 <p>Spoiler position can be seen on the <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a>.</p>
 <div class="section" id="dlc-direct-lift-control">
-<h4>DLC Direct Lift Control<a class="headerlink" href="#dlc-direct-lift-control" title="Permalink to this headline">¶</a></h4>
+<h4>直接升力控制（DLC）<a class="headerlink" href="#dlc-direct-lift-control" title="Permalink to this headline">¶</a></h4>
 <p>The DLC or Direct Lift Control is used to control vertical glideslope position without pitch control inputs or engine throttle commands.
 The DLC uses the two inboard spoiler sections in conjunction with small corrections on the tail stabilizers to control lift.</p>
 <p>The DLC is engaged by depression of the DLC switch on the control stick with flaps and gear down.
@@ -903,7 +903,7 @@ Rotation of the thumbwheel aft retracts the spoilers towards the flush position,
 </div>
 </div>
 <div class="section" id="flaps-and-slats">
-<h3>Flaps and Slats<a class="headerlink" href="#flaps-and-slats" title="Permalink to this headline">¶</a></h3>
+<h3>襟翼和缝翼<a class="headerlink" href="#flaps-and-slats" title="Permalink to this headline">¶</a></h3>
 <p>The flaps and slats on the F-14 Tomcat can be used in two modes.</p>
 <p>The normal flap and slat extension is controlled using the <strong>FLAP</strong> handle on the <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">Throttle Quadrant</span></a>.
 The flaps can be set to anywhere between retracted and fully extended where the flaps will extend to 35° and the slats to 17°.
@@ -921,7 +921,7 @@ The slats are not inhibited by wing-sweep.</p>
 The <strong>REDUCE SPEED</strong> warning light on the left side of the <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">Vertical Display Indicator (VDI)</span></a> indicates flaps not retracted above 225 knots indicated airspeed.</p>
 </div>
 <div class="section" id="speedbrakes">
-<h3>Speedbrakes<a class="headerlink" href="#speedbrakes" title="Permalink to this headline">¶</a></h3>
+<h3>减速板<a class="headerlink" href="#speedbrakes" title="Permalink to this headline">¶</a></h3>
 <p>The speedbrakes on the F-14 Tomcat consists of three sections on the tail located between the engines and these are powered by the combined hydrualic system.</p>
 <p>The speedbrake controls are located on the right <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">Throttle</span></a> and can be set to desired position depending on how long the switch is held to the extend position.
 Retraction always fully retracts the speedbrakes.</p>
@@ -932,14 +932,14 @@ additionally selection of <strong>MIL</strong> power or above automatically retr
 </div>
 </div>
 <div class="section" id="landing-gear-system">
-<h2>Landing Gear System<a class="headerlink" href="#landing-gear-system" title="Permalink to this headline">¶</a></h2>
+<h2>起落架系统<a class="headerlink" href="#landing-gear-system" title="Permalink to this headline">¶</a></h2>
 <p>The F-14 Tomcat has a tricycle landing gear designed to be fully retractable as well as hardened enough to withstand the rigours of carrier traps.
 The landing gear extension and retraction is powered by the combined hydraulic system as well as having an emergency extension system.
 The emergency extension system has a nitrogen bottle that can be used to power a one-shot emergency extension.
 With the emergency system triggered, the system needs to be reset by technicians on the ground to allow further normal retraction.</p>
 <p>For additional information on controls and indicators see <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">Landing Gear Control Panel</span></a> for controls and <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">Wheels-Flaps Position Indicator</span></a> for the indicators.</p>
 <div class="section" id="nosewheel-steering">
-<h3>Nosewheel Steering<a class="headerlink" href="#nosewheel-steering" title="Permalink to this headline">¶</a></h3>
+<h3>前轮转向<a class="headerlink" href="#nosewheel-steering" title="Permalink to this headline">¶</a></h3>
 <p>The nosewheel steering system on the F-14 can be activated with weight on wheels by depression of the nosewheel steering button on the <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">Control Stick</span></a>.
 The activation of this system is indicated via the <strong>NWS ENGA</strong> caution light on the left side of the HUD, see <a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">Wheels Warning/Brakes Warnings/ACLS/AP Caution/NWS Engage Caution/Auto Throttle Caution Lights</span></a>.</p>
 <p>Disengagement of this system occurs automatically with weight off wheels (take-off), electrical supply failure or lowering of the launch bar.
@@ -948,7 +948,7 @@ It's also possible to deactivate the system by depression of the nosewheel steer
 It's capable of a deflection of up to 70° meaning that it will turn tightly enough that the inner wheel will in fact move backwards.</p>
 </div>
 <div class="section" id="wheelbrakes">
-<h3>Wheelbrakes<a class="headerlink" href="#wheelbrakes" title="Permalink to this headline">¶</a></h3>
+<h3>机轮刹车<a class="headerlink" href="#wheelbrakes" title="Permalink to this headline">¶</a></h3>
 <p>The wheelbrakes can be applied either via the rudder pedals by pressing on the upper part of them, rotating them forwards.
 The other application is via the parking brake handle located on the <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">Landing Gear Control Panel</span></a> panel.</p>
 <p>The rudder pedals can be used to apply the brakes gradually while the parking brakes are either on or off.</p>
@@ -958,7 +958,7 @@ The <a class="reference internal" href="cockpit.html#brakepressind"><span class=
 These accumulators can be recharged via the <a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">Hydraulic Hand Pump</span></a>.</p>
 <p>The <strong>BRAKES</strong> warning light on the left side of the HUD indicates either parking brake applied, antiskid system fail or that the brakes are operating in the emergency mode (only when the pedals are depressed).</p>
 <div class="section" id="antiskid">
-<span id="askid"></span><h4>Antiskid<a class="headerlink" href="#antiskid" title="Permalink to this headline">¶</a></h4>
+<span id="askid"></span><h4>防滑<a class="headerlink" href="#antiskid" title="Permalink to this headline">¶</a></h4>
 <p>The antiskid system modulates the wheelbrakes to prevent skidding while on the ground.
 When armed in the air the system prevents braking until both main wheels are on the ground and the wheels have spun up.
 Also the system is not operational below 15 knots.</p>
@@ -967,7 +967,7 @@ Also the system is not operational below 15 knots.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The antiskid should be disabled during taxi as below 15 knots the system may disturb normal braking even though the antiskid feature not being operational at those speeds.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The antiskid should be disabled during taxi as below 15 knots the system may disturb normal braking even though the antiskid feature not being operational at those speeds.</td>
 </tr>
 </tbody>
 </table>
@@ -990,7 +990,7 @@ When compressed this also releases the lock on the launch bar which can then be 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In DCS the launch bar is automatically lowered with nosegear kneel.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS the launch bar is automatically lowered with nosegear kneel.</td>
 </tr>
 </tbody>
 </table>
@@ -1000,7 +1000,7 @@ The holdback bar is currently not modelled in DCS.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Deselection of nosewheel steering should be done before final movement onto the shuttle and hookup to avoid missalignment.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Deselection of nosewheel steering should be done before final movement onto the shuttle and hookup to avoid missalignment.</td>
 </tr>
 </tbody>
 </table>
@@ -1029,14 +1029,14 @@ This releases the mechanical uplock and drain the hydraulic pressure keeping the
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Hook position also affects the AoA indexer and approach lights, making them flash with gear down if hook is not also down. This feature can be disabled using the <strong>HOOK BYPASS</strong> switch on the <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a>.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Hook position also affects the AoA indexer and approach lights, making them flash with gear down if hook is not also down. This feature can be disabled using the <strong>HOOK BYPASS</strong> switch on the <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a>.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="section" id="ecs-environmental-control-system">
-<h2>ECS Environmental Control System<a class="headerlink" href="#ecs-environmental-control-system" title="Permalink to this headline">¶</a></h2>
+<h2>环境控制系统（ECS）<a class="headerlink" href="#ecs-environmental-control-system" title="Permalink to this headline">¶</a></h2>
 <p>The ECS or environmental control system controls and supplies temperature- and pressure-regulated air to cockpit systems and cooling for electronic equipment and weapons.</p>
 <p>The air used is sourced from the engines, one or both, or if needed from the emergency ram air door on the fuselage inboard of the right glove.</p>
 <p>Systems using ECS air in the cockpit are cockpit pressurization and canopy seals, anti-g suit inflation, aircrew suit ventilation, seat cushion ventilation and windshield anti-ice and defogging.</p>
@@ -1059,7 +1059,7 @@ This is as in this mode that air is mixed directly with hot bleed air from the e
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Selection of <strong>RAM</strong> or <strong>OFF</strong> inhibits gun firing.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Selection of <strong>RAM</strong> or <strong>OFF</strong> inhibits gun firing.</td>
 </tr>
 </tbody>
 </table>
@@ -1099,7 +1099,7 @@ This is controlled by the <strong>GND CLG</strong> switch on the <a class="refer
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Any setting on the <strong>GND CLG</strong> other than <strong>OFF</strong> should not be used when the engines are running.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Any setting on the <strong>GND CLG</strong> other than <strong>OFF</strong> should not be used when the engines are running.</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Note2:</th><td class="field-body">For the Heatblur F-14B in DCS the external ECS air supply is connected via the same command as the engine starter air.</td>
 </tr>
@@ -1108,7 +1108,7 @@ This is controlled by the <strong>GND CLG</strong> switch on the <a class="refer
 </div>
 </div>
 <div class="section" id="oxygen-system">
-<h2>Oxygen System<a class="headerlink" href="#oxygen-system" title="Permalink to this headline">¶</a></h2>
+<h2>供氧系统<a class="headerlink" href="#oxygen-system" title="Permalink to this headline">¶</a></h2>
 <p>The F-14 carries one or two 10-liter liquid oxygen bottles providing oxygen to the crew when needed.</p>
 <p>The oxygen supply is controlled on the pilot <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> and RIO <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> respectively.
 Both panels contain an <strong>OXYGEN</strong> switch that sets oxygen supply to <strong>ON</strong> or <strong>OFF</strong>.</p>
@@ -1119,14 +1119,14 @@ The indicator is electrically driven and if it receives no power an <strong>OFF<
 <p>During the <strong>INST</strong> test on the <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a> the liquid oxygen meter shows 2 liters and the <strong>OXY LOW</strong> caution light illuminates.</p>
 </div>
 <div class="section" id="flight-instruments">
-<h2>Flight Instruments<a class="headerlink" href="#flight-instruments" title="Permalink to this headline">¶</a></h2>
+<h2>飞行仪表<a class="headerlink" href="#flight-instruments" title="Permalink to this headline">¶</a></h2>
 <p>Apart from the VDIG (HUD and VDI) the F-14 is equipped with:</p>
 <ul class="simple">
 <li>two <a class="reference internal" href="cockpit.html#stbyattind"><span class="std std-ref">Standby Attitude Indicator</span></a> (and <a class="reference internal" href="cockpit.html#rstbyattind"><span class="std std-ref">Standby Attitude Indicator</span></a>)</li>
 <li>two <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">Airspeed Mach Indicator</span></a> (and <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">Airspeed Mach Indicator</span></a>)</li>
 <li>two <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">Servopneumatic Altimeter</span></a> (and <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">Servopneumatic Altimeter</span></a>)</li>
 <li>a <a class="reference internal" href="cockpit.html#vertvelind"><span class="std std-ref">Vertical Velocity Indicator</span></a></li>
-<li>a turn and slip indicator (on the <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">Air Combat Maneuver Panel</span></a>)</li>
+<li>一个转弯侧滑指示器（在 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">Air Combat Maneuver Panel</span></a> 上）</li>
 <li>an <a class="reference internal" href="cockpit.html#acc"><span class="std std-ref">Accelerometer</span></a></li>
 <li>a <a class="reference internal" href="cockpit.html#pstbycomp"><span class="std std-ref">Standby Compass</span></a></li>
 <li>and two mechanical clocks (<a class="reference internal" href="cockpit.html#pclock"><span class="std std-ref">Clock</span></a> and <a class="reference internal" href="cockpit.html#rclock"><span class="std std-ref">Clock</span></a>).</li>
@@ -1136,14 +1136,14 @@ The indicator is electrically driven and if it receives no power an <strong>OFF<
 <p>For more info on the instruments see their respective cockpit panel descriptions linked above.</p>
 </div>
 <div class="section" id="canopy">
-<h2>Canopy<a class="headerlink" href="#canopy" title="Permalink to this headline">¶</a></h2>
+<h2>驾驶舱盖<a class="headerlink" href="#canopy" title="Permalink to this headline">¶</a></h2>
 <p>The rear-hinged F-14 canopy is operated hydraulically and pneumatically.
 Controls are present in both pilot and RIO cockpits.</p>
 <p>See <a class="reference internal" href="cockpit.html#pcanopylever"><span class="std std-ref">舱盖控制手柄</span></a> or <a class="reference internal" href="cockpit.html#rcanopylever"><span class="std std-ref">舱盖控制手柄</span></a> for the controls.</p>
 <p>The <strong>CANOPY</strong> caution light on both the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> and the rio <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">Caution-Advisory Panel</span></a> illuminates if the canopy is not in the down and locked, secured position.</p>
 </div>
 <div class="section" id="ejection-system">
-<h2>Ejection System<a class="headerlink" href="#ejection-system" title="Permalink to this headline">¶</a></h2>
+<h2>弹射系统<a class="headerlink" href="#ejection-system" title="Permalink to this headline">¶</a></h2>
 <p>The F-14 Tomcat is equipped with dual Martin-Baker GRU-7A rocket-assisted ejection seats, one for the pilot, one for the RIO.
 The ejection system is a zero/zero system, capable of successfully ejecting the crewmembers at zero airspeed, stationary, on the ground.</p>
 <p>As the F-14 is a two seat aircraft it has additional controls apart from the ejection handles and arming systems, namely the ejection command lever.
@@ -1158,12 +1158,12 @@ If the canopy inhibited ejection after ejection initiation, jettisoning the cano
 If ejection is needed during a flat spin, it's also recommended to manually jettison the canopy and allow it to clear before initiating the ejection sequence as the canopy might need longer to clear during a flat spin.</p>
 </div>
 <div class="section" id="lighting-system">
-<h2>Lighting System<a class="headerlink" href="#lighting-system" title="Permalink to this headline">¶</a></h2>
+<h2>灯光系统<a class="headerlink" href="#lighting-system" title="Permalink to this headline">¶</a></h2>
 <p>The F-14 Tomcat lighting system consists of the internal and the external lights.</p>
 <p>The internal lights are the red instrument panel and console lights, red and white floodlights and a moveable utility light at both crew stations.</p>
 <p>The external lights are the position lights, the anticollision lights, the formation lights, the taxi light, the approach lights and the refueling probe light.</p>
 <div class="section" id="internal-lighting">
-<h3>Internal Lighting<a class="headerlink" href="#internal-lighting" title="Permalink to this headline">¶</a></h3>
+<h3>机内灯光<a class="headerlink" href="#internal-lighting" title="Permalink to this headline">¶</a></h3>
 <p>The red instrument panel and console lights are the normally used lights during nighttime, they back-light all instruments and controls allowing their use while impacting night vision minimally.</p>
 <p>The floodlights allow for additional lighting of the cockpit panels but care should be taken to avoid affecting night vision.</p>
 <p>The utility lights are movable and can be used to illuminate a specific spot and as a map or reading light.</p>
@@ -1172,13 +1172,13 @@ If ejection is needed during a flat spin, it's also recommended to manually jett
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The utility light function is not modelled in DCS but the flashlight function, default keybind Left Alt + L, which moves with the cursor can be used, providing a similar function.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The utility light function is not modelled in DCS but the flashlight function, default keybind Left Alt + L, which moves with the cursor can be used, providing a similar function.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="external-lighting">
-<h3>External Lighting<a class="headerlink" href="#external-lighting" title="Permalink to this headline">¶</a></h3>
+<h3>机外灯光<a class="headerlink" href="#external-lighting" title="Permalink to this headline">¶</a></h3>
 <p>The position lights on the F-14 are located on the left wing tip (red), right wing tip (green), top aft of left vertical stabilizer (white) and upper and lower lights on the wing gloves on each side (red on left glove and green on right).
 The glove lights are additional lights supplementing the wing tip lights. When the wings are swept forward of 25° the wing tip lights are active and when aft of 25° the glove lights are active instead.</p>
 <p>With the gear down, wings forward of 25° and the position lights in steady mode both the glove and wingtip position lights are lit.
@@ -1194,9 +1194,9 @@ They are located on the aircraft nose (behind the radome), the wing tips, on the
 </div>
 </div>
 <div class="section" id="jettison-system">
-<h2>Jettison System<a class="headerlink" href="#jettison-system" title="Permalink to this headline">¶</a></h2>
+<h2>抛离系统<a class="headerlink" href="#jettison-system" title="Permalink to this headline">¶</a></h2>
 <p>The Jettison system has four modes of operation: emergency, ACM, selective and auxiliary.</p>
-<p><strong>Emergency Jettison</strong></p>
+<p><strong>紧急抛离</strong></p>
 <p>The emergency jettison is selected via the <strong>EMERG STORES JETT</strong> on the <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">Landing Gear Control Panel</span></a>.
 Selection causes the <strong>EMERG JETT</strong> caution light to illuminate on the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a>.</p>
 <p>The emergency jettison requires only no weight on wheels indicated (no master arm) and ejects all stores except for Sidewinders.</p>
@@ -1217,21 +1217,21 @@ This means that the aircraft needs to fly straight and level as the stores are n
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">No jettison mode can jettison ITERs or stores loaded on those, they need to be dropped like normal, with or without the fuzes armed.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">No jettison mode can jettison ITERs or stores loaded on those, they need to be dropped like normal, with or without the fuzes armed.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="cadc-central-air-data-computer">
-<h2>CADC Central Air Data Computer<a class="headerlink" href="#cadc-central-air-data-computer" title="Permalink to this headline">¶</a></h2>
+<h2>中央大气数据计算机（CADC）<a class="headerlink" href="#cadc-central-air-data-computer" title="Permalink to this headline">¶</a></h2>
 <p>The Central Air Data Computer or CADC is the computer acting as the spider in the web for most aircraft flight sensors and relaying this information to all systems needing them.
 In addition it also controls the wing-sweep via the wing-sweep schedule and also controls the flaps and slats as they are limited by that same schedule.</p>
 </div>
 <div class="section" id="an-awg-9-weapon-control-system-wcs">
-<h2>AN/AWG-9 Weapon Control System (WCS)<a class="headerlink" href="#an-awg-9-weapon-control-system-wcs" title="Permalink to this headline">¶</a></h2>
+<h2>AN/AWG-9 武器控制系统（WCS）<a class="headerlink" href="#an-awg-9-weapon-control-system-wcs" title="Permalink to this headline">¶</a></h2>
 <p>The AN/AWG-9 weapons control system (WCS) is an integrated system containing the F-14's main sensors and computer providing detection, tracking and engagement of targets in the air-to-air and air-to-ground roles.</p>
 <div class="section" id="detail-data-display-ddd-and-panel">
-<h3>Detail Data Display (DDD) and Panel<a class="headerlink" href="#detail-data-display-ddd-and-panel" title="Permalink to this headline">¶</a></h3>
+<h3>详细数据显示器（DDD）及控制板<a class="headerlink" href="#detail-data-display-ddd-and-panel" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/dddpanel.png" src="_images/dddpanel.png" />
 <p>The DDD is the main control panel and display for the radar part of the AN/AWG-9 system. It contains all the controls for the radar except the scan volume and stabilization controls which are on the sensor control panel.</p>
 <p><strong>TGTS, MLC, AGC and PARAMP Switches</strong></p>
@@ -1244,7 +1244,7 @@ In addition it also controls the wing-sweep via the wing-sweep schedule and also
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">AGC and PARAMP switches currently not implemented.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">AGC and PARAMP switches currently not implemented.</td>
 </tr>
 </tbody>
 </table>
@@ -1273,7 +1273,7 @@ The WCS reads the missile channel for the AIM-7 as the missiles are prepared as 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Non-functional in DCS currently.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Non-functional in DCS currently.</td>
 </tr>
 </tbody>
 </table>
@@ -1327,25 +1327,25 @@ The <strong>ACM THRLD</strong> sets the threshold for what to regard as a target
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">JAM/JET and ACM THRLD not currently implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">JAM/JET and ACM THRLD not currently implemented in DCS.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Detail Data Display</strong></p>
+<p><strong>详细数据显示器</strong></p>
 <table border="1" class="docutils align-center">
 <colgroup>
 <col width="52%" />
 <col width="48%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td colspan="2">Pulse</td>
+<tr class="row-odd"><td colspan="2">脉冲</td>
 </tr>
 <tr class="row-even"><td><img alt="_images/PSEARCH.png" class="first last" src="_images/PSEARCH.png" />
 </td>
 <td><img alt="_images/PSTT.png" class="first last" src="_images/PSTT.png" />
 </td>
 </tr>
-<tr class="row-odd"><td colspan="2">Pulse-Doppler</td>
+<tr class="row-odd"><td colspan="2">脉冲多普勒</td>
 </tr>
 <tr class="row-even"><td><img alt="_images/PDSEARCH.png" class="first last" src="_images/PDSEARCH.png" />
 </td>
@@ -1366,7 +1366,7 @@ For information about the attack symbology see the VDIG section.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">AGC TRACE not yet implemented.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">AGC TRACE not yet implemented.</td>
 </tr>
 </tbody>
 </table>
@@ -1815,7 +1815,7 @@ The dot disappears when you are closer than Rmax to the target (i.e. time-until-
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Some of these symbols pertain to functions not yet implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Some of these symbols pertain to functions not yet implemented in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -1945,7 +1945,7 @@ To select another prefix for data readout without reselecting the message functi
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Attempted selection of another prefix without first using the CLEAR key will be read by the computer as an attempt to enter a digit into the buffer instead of prefix selection.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Attempted selection of another prefix without first using the CLEAR key will be read by the computer as an attempt to enter a digit into the buffer instead of prefix selection.</td>
 </tr>
 </tbody>
 </table>
@@ -2001,7 +2001,7 @@ Below is a table listing function, weapons capability, expected range and target
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td rowspan="2">Pulse</td>
+<tr class="row-even"><td rowspan="2">脉冲</td>
 <td>Pulse Search</td>
 <td>Medium range search and detection, secondary air-to-ground.</td>
 <td>Boresight missiles.</td>
@@ -2038,7 +2038,7 @@ Below is a table listing function, weapons capability, expected range and target
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Detection-range approximation for a 5m²-target.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Detection-range approximation for a 5m²-target.</td>
 </tr>
 </tbody>
 </table>
@@ -2154,7 +2154,7 @@ This is the reason for the mainlobe clutter trace presenting a curve on the DDD 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Position 4 has the target in a flanking or &quot;notching&quot; position making it dissappear inside the MLC filter or MLC ground return. In a look up situation with the MLC filter disabled the target would still be visible.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Position 4 has the target in a flanking or &quot;notching&quot; position making it dissappear inside the MLC filter or MLC ground return. In a look up situation with the MLC filter disabled the target would still be visible.</td>
 </tr>
 </tbody>
 </table>
@@ -2284,7 +2284,7 @@ If the transition fails the radar reverts to the respective search mode of the c
 </div>
 </div>
 <div class="section" id="an-apx-72-iff-interrogator">
-<h2>AN/APX-72 IFF Interrogator<a class="headerlink" href="#an-apx-72-iff-interrogator" title="Permalink to this headline">¶</a></h2>
+<h2>AN/APX-72 IFF 询问器<a class="headerlink" href="#an-apx-72-iff-interrogator" title="Permalink to this headline">¶</a></h2>
 <p>The AN/APX-72 IFF (Identification Friend or Foe) interrogator is integrated into the AN/AWG-9 operation.
 Then interrogator antenna itself is located on the AN/AWG-9 antenna gimbal platform.</p>
 <p>An IFF system works by sending out an interrogation pulse and then listening for returns from cooperating transponders.
@@ -2298,7 +2298,7 @@ A friendly target will be indicated with two bars, one above and one below the n
 Additionally, if the STT target is hooked on the TID the DDD will switch from normal range display to a ±10 NM display to enable display of multiple returns in case of closely grouped targets.</p>
 </div>
 <div class="section" id="television-camera-set-tcs">
-<h2>Television Camera Set (TCS)<a class="headerlink" href="#television-camera-set-tcs" title="Permalink to this headline">¶</a></h2>
+<h2>电视摄像套件（TCS）<a class="headerlink" href="#television-camera-set-tcs" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center" id="id10">
 <img alt="_images/tcs.png" src="_images/tcs.png" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030418-N-0382O-591)</span></p>
@@ -2312,7 +2312,7 @@ The gimbal limits are +/- 15° except upwards which is limited to +11° and the 
 <p>The TCS is controlled by the RIO using the sensor control panel, DDD, TID and the HCU. Video from the sensor can be displayed on the TID and the VDI in the front seat.
 Also, the video can be recorded using the airborne video tape recorder for later review. (Not currently implemented in DCS.)</p>
 <div class="section" id="tcs-controls-and-symbology">
-<h3>TCS Controls and Symbology<a class="headerlink" href="#tcs-controls-and-symbology" title="Permalink to this headline">¶</a></h3>
+<h3>TCS 控制和标识<a class="headerlink" href="#tcs-controls-and-symbology" title="Permalink to this headline">¶</a></h3>
 <p>The controls for the TCS are located in the RIO cockpit at the sensor control panel, the DDD and the HCU/TID. The pilot display control panel contains a switch allowing display of TCS video on the VDI.</p>
 <div class="section" id="id3">
 <h4>Sensor Control Panel<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
@@ -2352,7 +2352,7 @@ There is also no need to select the STBY position first, setting the switch to I
 <p>Finally the <strong>CONTRAST</strong> and <strong>BRIGHTNESS</strong> knobs on the upper part of the TID can be used to control the TCS video shown on the TID.</p>
 </div>
 <div class="section" id="symbology">
-<h4>Symbology<a class="headerlink" href="#symbology" title="Permalink to this headline">¶</a></h4>
+<h4>标识<a class="headerlink" href="#symbology" title="Permalink to this headline">¶</a></h4>
 <img alt="_images/symbology.png" src="_images/symbology.png" />
 <p>On the TID in non TV mode a TCS track is indicated by a 1.5&quot; strobe at TCS LOS azimuth with a hollow circle at the end.</p>
 <p>The symbology on the video feed from the TCS has indicators for the FOV and two crosshairs indicating TCS LOS relative own aircraft, <strong>GACH</strong>, and AN/AWG-9 radar LOS relative TCS LOS, <strong>RACH</strong>.
@@ -2393,7 +2393,7 @@ The manual mode will also slave to radar LOS but will not lock on, instead just 
 <div class="section" id="an-alr-67-rwr">
 <h2>AN/ALR-67 RWR<a class="headerlink" href="#an-alr-67-rwr" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="description">
-<h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<h3>描述<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
 <p>The AN/ALR-67 radar warning receiver (RWR) is designed to inform and alert the F-14B crew about radar emitters in their general area.
 It's also designed to help the crew defend themselves from hostile threats by indicate radar tracking and engagement by radar guided weapons.</p>
 <p>The AN/ALR-67 was integrated into the F-14B Tomcat as part of the A+/B programme and at first as a standalone system.
@@ -2404,7 +2404,7 @@ It can also trigger preprogrammed countermeasure programs set up in the AN/ALE-3
 Connected to these antennas is a narrowband superheterodyne receiver analysing the received signals and indicating emitters and threats to both pilot and RIO using two displays, one at each seat and by audio signals played to the ICS of both crewmen.</p>
 </div>
 <div class="section" id="controls">
-<h3>Controls<a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h3>
+<h3>控制<a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/control1.png" src="_images/control1.png" />
 <p>The AN/ALR-67 RWR is controlled by a control panel on the RIO right side horizontal panel.</p>
 <p>The PWR (power) switch control power to the RWR and should be set to ON to operate the system.</p>
@@ -2421,7 +2421,7 @@ The limit mode is indicated by an L in the status ring  on the display and limit
 <p>FRIEND - Friendly is indicated by an F in the status ring on the display and allows for the same prioritization as in normal but also displays known friendly emitters.</p>
 </div>
 <div class="section" id="displays">
-<h3>Displays<a class="headerlink" href="#displays" title="Permalink to this headline">¶</a></h3>
+<h3>显示<a class="headerlink" href="#displays" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/display.png" src="_images/display.png" />
 <p>The RWR display is identical at both positions in the cockpit and uses three bands (circles) on the display to indicate the threat level of the displayed threat symbols.</p>
 <p>The outermost, critical band displays threat symbols belonging to emitters representing an imminent threat to own aircraft, either a locked on tracking radar or a radar detected to be actively engaging own aircraft.
@@ -2437,13 +2437,13 @@ and the lower half indicating either the use of the offset display mode by indic
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The ordering of the three threat bands has changed at least once since the introduction of the AN/ALR-67, as the modelled F-14B represents one of the earlier versions we've chosen the present order.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The ordering of the three threat bands has changed at least once since the introduction of the AN/ALR-67, as the modelled F-14B represents one of the earlier versions we've chosen the present order.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="warning-lights">
-<h3>Warning Lights<a class="headerlink" href="#warning-lights" title="Permalink to this headline">¶</a></h3>
+<h3>警告灯<a class="headerlink" href="#warning-lights" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils align-center">
 <colgroup>
 <col width="51%" />
@@ -2491,7 +2491,7 @@ This capability is either because of that the launching aircraft is capable of l
 <col width="20%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">Threat symbol</th>
+<tr class="row-odd"><th class="head">威胁标识</th>
 <th class="head">Platform/Sensor</th>
 <th class="head">Causes special tone</th>
 </tr>
@@ -2512,7 +2512,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>GZ</td>
-<td>DDG-168 Guangzhou</td>
+<td>DDG-168 广州</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>HP</td>
@@ -2520,7 +2520,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>HU</td>
-<td>DDG-171 Haikou</td>
+<td>DDG-171 海口</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>KK</td>
@@ -2560,7 +2560,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>YI</td>
-<td>FFG-538 Yantai</td>
+<td>FFG-538 烟台</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td colspan="3">Aircraft</td>
@@ -2817,7 +2817,7 @@ This capability is either because of that the launching aircraft is capable of l
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Aircraft only flown by own faction in a mission are automatically set as friendly and shown only when setting the DISPLAY TYPE selector to FRIEND.
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Aircraft only flown by own faction in a mission are automatically set as friendly and shown only when setting the DISPLAY TYPE selector to FRIEND.
 N are shown only in UNK and T only in FRIEND.</td>
 </tr>
 </tbody>
@@ -2842,7 +2842,7 @@ In addition the AN/ALR-67 can also initiate the chaff ejection program if set up
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In DCS the F-14B countermeasure loadout is set in the Mission Editor, see <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">DCS Mission Editor Functions Specific to the HB DCS F-14</span></a> or controlled through the radio menu under ground crew.
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS the F-14B countermeasure loadout is set in the Mission Editor, see <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 的任务编辑器功能</span></a> or controlled through the radio menu under ground crew.
 The default setting in the mission editor is bypassed. To see the real loadout check the kneeboard.</td>
 </tr>
 </tbody>
@@ -2876,7 +2876,7 @@ The panel is located on the right horizontal console of the RIO cockpit.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Jammer cartridges not currently implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Jammer cartridges not currently implemented in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -2891,7 +2891,7 @@ The panel is located on the right horizontal console of the RIO cockpit.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Incorrectly setting type of cartridge loaded can result in the launch of the wrong type of cartridge.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Incorrectly setting type of cartridge loaded can result in the launch of the wrong type of cartridge.</td>
 </tr>
 </tbody>
 </table>
@@ -2921,7 +2921,7 @@ If the switch is set a position <strong>other than PILOT</strong> the DLC button
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">All countermeasure cartridge ejection is inhibited while the weight on wheels sensor is active, preventing countermeasure ejection while on the ground.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">All countermeasure cartridge ejection is inhibited while the weight on wheels sensor is active, preventing countermeasure ejection while on the ground.</td>
 </tr>
 </tbody>
 </table>
@@ -2975,16 +2975,16 @@ In addition there are two indication lights co-located with the RWR threat indic
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In DCS jamming is always done with noise jamming, turning on as a threat is detected.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS jamming is always done with noise jamming, turning on as a threat is detected.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="section" id="navigation">
-<span id="id4"></span><h2>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h2>
+<span id="id4"></span><h2>导航<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="navigation-system">
-<h3>Navigation System<a class="headerlink" href="#navigation-system" title="Permalink to this headline">¶</a></h3>
+<h3>导航系统<a class="headerlink" href="#navigation-system" title="Permalink to this headline">¶</a></h3>
 <p>The F-14’s primary navigation system is is a multi-unit Carrier Aircraft Inertial Navigation System (CAINS) designated as AN/ASN-92.
 An INS system measures and integrates sensed inertia forces (acceleration) and rotational velocities to calculate aircraft position and linear velocity.
 A good navigation system can precisely guide an aircraft on a route to a mission objective hundred or thousand miles-long, and then back to the home base, safely and reliably.
@@ -3004,7 +3004,7 @@ These are only a few examples, and the INS data is used whenever aircraft positi
 <p>Thus the inertial navigation system (INS) integrates with the AWG-9 computer (WCS computer) and the CSDC, the computer signal data converter.
 Other related equipment includes the attitude and heading reference system, central air data computer, radar altimeter, instrument landing system, and TACAN.</p>
 <div class="section" id="wcs-computer">
-<h4>WCS Computer<a class="headerlink" href="#wcs-computer" title="Permalink to this headline">¶</a></h4>
+<h4>WCS 计算机<a class="headerlink" href="#wcs-computer" title="Permalink to this headline">¶</a></h4>
 <p>The WCS or weapon control system computer and CSDC use several alignment routines stored on a magnetic tape to perform the necessary computations to align the INS.</p>
 <p>These stored alignment routines in the WCS computer are called SMAL single mode alignment program. When alignment is initiated, the routines are loaded in the computer’s destructive readout memory from magnetic tape.</p>
 <p>This process is called “tape read-in” and is represented by an M on the TID. During the alignment of the IMU platform, the WCS communicates with the CSDC to address specific CSDC navigation routines.</p>
@@ -3041,9 +3041,9 @@ The CSDC sends the WCS navigation data parameters (TAS from the CADC, latitude a
 The WCS uses stored and input navigation data (based on the current navigation mode) to perform the required navigational computations.
 The WCS also performs additional computations so that the crew is provided with:</p>
 <ul class="simple">
-<li>Current latitude and longitude</li>
-<li>Attitude</li>
-<li>Heading true and magnetic</li>
+<li>当前经纬度</li>
+<li>姿态</li>
+<li>真航向和磁航向</li>
 <li>Own ground speed and ground track</li>
 <li>Ability to store and display three waypoints, a fixed point (FP), an initial point (IP), a surface target (ST), a home base (HB), a defended point and a hostile area</li>
 <li>Range, bearing, command course, command heading and time-to-go to a selected destination point</li>
@@ -3055,7 +3055,7 @@ The WCS also performs additional computations so that the crew is provided with:
 </ul>
 </div>
 <div class="section" id="id5">
-<h4>Displays<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<h4>显示<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
 <p>Navigation information is displayed on the TID, HSD, multiple display indicator (MDI), HUD, and VDI, depending on the mode selected by the pilot and RIO.
 If an IMU or navigation computer failure occurs, two backup modes are available: IMU airmass (IMU/AM) or AHRS airmass (AHRS/AM).</p>
 </div>
@@ -3106,7 +3106,7 @@ The NAV COMP advisory light indicates that the INS is operating in a degraded mo
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>When an IMU quantizer failure occurs in the INS mode, the system will automatically select the IMU/ AM mode and the STBY/READY and NAV COMP lights will illuminate. The RIO should move the NAV MODE switch from the INS to IMU/AM. The STBY/READY lights go out - but the NAV COMP light will remain illuminated.</li>
 <li>With a NAV COMP light and a CSI ACRO displayed on the TID, there is no auto-switch to a backup attitude source for the HUD or the VDI nor is the RIO able to manually switch to any backup mode.</li>
 </ul>
@@ -3129,7 +3129,7 @@ With an AHRS light computed magnetic variation (vC) should be verified and updat
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Standby light</th>
 <th class="head">Ready light</th>
-<th class="head">Description</th>
+<th class="head">描述</th>
 </tr>
 </thead>
 <tbody valign="top">
@@ -3220,7 +3220,7 @@ The stored heading mode is used for rapid alignment, by using a previous alignme
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The parking brake must be on during initialization of any alignment. When the parking brake is released during coarse alignment, the STBY and READY lights flash and the align program will reinitialize.
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The parking brake must be on during initialization of any alignment. When the parking brake is released during coarse alignment, the STBY and READY lights flash and the align program will reinitialize.
 If the parking brake is released during fine alignment, a suspend align discrete is sent to the CSDC, the STBY or READY light blinks, and the time into alignment clock on the TID stops.</td>
 </tr>
 </tbody>
@@ -3239,7 +3239,7 @@ or it will trigger the observable error (O) and alignment will have to be reinit
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If fine align has not been achieved, entry of the own aircraft’s latitude will restart the alignment. On completion of the alignment program read-in, the alignment display appears on the TID (see image above).</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If fine align has not been achieved, entry of the own aircraft’s latitude will restart the alignment. On completion of the alignment program read-in, the alignment display appears on the TID (see image above).</td>
 </tr>
 </tbody>
 </table>
@@ -3263,7 +3263,7 @@ The S also appears if incoming SINS data is not valid, in which case the alignme
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>The CSDC and IMU outputs as well as data inputs are constantly monitored and if either an excessive value in the X or Y acceleration is sensed, or a bad value from wrong lat or long data input, a 0 (bad observable) is posted on the TID and the alignment stalls (ceases to continue).</li>
 <li>The IMU may be preheated by selecting IMU/AM on the TID NAV MODE switch when operating on ground or aircraft power. This energizes the IMU and navigation power supply, which turns on the IMU heater prior to start of a ground or carrier alignment. The IMU should not be preheated for longer than 5 minutes.</li>
 </ul>
@@ -3285,7 +3285,7 @@ This can be rather minimal in some cases, but, when it is further left in alignm
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If alignment is suspended and the aircraft is taxied over a distance greater than 4000 feet, the quality of the alignment becomes unknown to a point where it might be unreliable. Alignment reinitialization is advised.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If alignment is suspended and the aircraft is taxied over a distance greater than 4000 feet, the quality of the alignment becomes unknown to a point where it might be unreliable. Alignment reinitialization is advised.</td>
 </tr>
 </tbody>
 </table>
@@ -3295,7 +3295,7 @@ The clock will stop counting if that is the case. If alignment continues, the cl
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The alignment display will not go past the coarse align tick until the IMU temperature has reached 165°. When this temperature is reached, the T symbol will disappear. The temperature interlock is bypassed when performing a stored heading alignment. The IMU should be preheated for a stored heading alignment, as it usually completes in under 2 minutes, which could result in a bad alignment.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The alignment display will not go past the coarse align tick until the IMU temperature has reached 165°. When this temperature is reached, the T symbol will disappear. The temperature interlock is bypassed when performing a stored heading alignment. The IMU should be preheated for a stored heading alignment, as it usually completes in under 2 minutes, which could result in a bad alignment.</td>
 </tr>
 </tbody>
 </table>
@@ -3304,7 +3304,7 @@ The clock will stop counting if that is the case. If alignment continues, the cl
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>When the NAV MODE switch is set to INS, the CSDC is in navigation mode and the READY light goes out.</li>
 <li>After selecting the INS navigation mode, the AWG-9 align program continues for approximately three align data cycles (18 seconds) before entering INS. This also applies if the aircraft takes off before INS is selected.</li>
 </ul>
@@ -3347,7 +3347,7 @@ Inertial inputs including the ship’s longitude, latitude, north and east veloc
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>If CVA or CAT ALIGN is selected prior to selecting OBC BIT, data link OBC testing is inhibited. (Not implemented yet)</li>
 <li>The fine alignment complete tick mark indicates completion of fine align and whether alignment data is SINS or handset. When good SINS data is not received during a filter cycle, the fine alignment complete tick mark jumps to the left approximately 0.75 inch. The jump indicates the SINS data is intermittent, and handset alignment data is required.</li>
 </ul>
@@ -3360,7 +3360,7 @@ Inertial inputs including the ship’s longitude, latitude, north and east veloc
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If SINS data link is lost during taxi, a flashing HS will appear on the TID. This will disappear when data link is reacquired; however, because of align timing requirements it may remain flashing up to 8 seconds after data link is reacquired. If the HS flashing does not stop 8 seconds after resetting the parking brake, SINS data is lost but the alignment can continue by entering carrier speed and true heading into the own aircraft file and completing the align in handset mode. If datalink is reacquired during this period, the HS will disappear from the TID and a normal datalink CVA align will continue.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If SINS data link is lost during taxi, a flashing HS will appear on the TID. This will disappear when data link is reacquired; however, because of align timing requirements it may remain flashing up to 8 seconds after data link is reacquired. If the HS flashing does not stop 8 seconds after resetting the parking brake, SINS data is lost but the alignment can continue by entering carrier speed and true heading into the own aircraft file and completing the align in handset mode. If datalink is reacquired during this period, the HS will disappear from the TID and a normal datalink CVA align will continue.</td>
 </tr>
 </tbody>
 </table>
@@ -3369,7 +3369,7 @@ Inertial inputs including the ship’s longitude, latitude, north and east veloc
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>Do not switch to INS while the ship is in a turn, even if fine align has been completed. This will degrade the alignment quality significantly. If you wait until the ship’s turn is complete, alignment quality will not be affected. Handset alignment is not affected.</li>
 <li>If during a CVA alignment the CAINS/WAYPT-TAC switch is unlatched to TAC by power transient, or data link signal is lost, the INS will revert to a handset alignment (HS).</li>
 </ul>
@@ -3387,7 +3387,7 @@ As cable and RF data link alignment are virtually the same, it has not been impl
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The SINS-cable is currently not implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The SINS-cable is currently not implemented in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -3415,7 +3415,7 @@ If data link is regained, the HS acronym will disappear and normal CVA align via
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If HS is not flashing, valid SINS data has already been entered. If it is flashing, SINS data has to be entered manually.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If HS is not flashing, valid SINS data has already been entered. If it is flashing, SINS data has to be entered manually.</td>
 </tr>
 </tbody>
 </table>
@@ -3425,7 +3425,7 @@ Once this data has been entered HS will stop flashing and the alignment will pro
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The carrier needs to maintain a constant speed and heading during alignment for this method to be successful. Remember that handset alignment quality will always be inferior to a normal CVA ALIGN fine alignment quality.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The carrier needs to maintain a constant speed and heading during alignment for this method to be successful. Remember that handset alignment quality will always be inferior to a normal CVA ALIGN fine alignment quality.</td>
 </tr>
 </tbody>
 </table>
@@ -3457,7 +3457,7 @@ The ASH acronym will disappear. Pressing the STORED HDG ALIGN a second time will
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">STBY/READY lights should be monitored for simultaneous illumination. If simultaneous illumination appears after 42 to 45 seconds, a failure has caused the alignment to reinitiate and may result in an erroneous alignment. The RIO must turn NAV MODE switch to OFF for 1 second, then restart the alignment following normal ground or carrier alignment procedures.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">STBY/READY lights should be monitored for simultaneous illumination. If simultaneous illumination appears after 42 to 45 seconds, a failure has caused the alignment to reinitiate and may result in an erroneous alignment. The RIO must turn NAV MODE switch to OFF for 1 second, then restart the alignment following normal ground or carrier alignment procedures.</td>
 </tr>
 </tbody>
 </table>
@@ -3480,7 +3480,7 @@ This can be achieved by an automatic transfer from homebase entry into own-aircr
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Depressing OWN A/C hooks own aircraft. If longitude and latitude is entered with the NAV MODE switch set to OFF, own aircraft must be hooked when the NAV MODE switch is set from OFF to GND ALIGN again. Be aware that whatever has been hooked (OWN AC or HB) will provide the data that is entered when NAV MODE is set from OFF to GND ALIGN.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Depressing OWN A/C hooks own aircraft. If longitude and latitude is entered with the NAV MODE switch set to OFF, own aircraft must be hooked when the NAV MODE switch is set from OFF to GND ALIGN again. Be aware that whatever has been hooked (OWN AC or HB) will provide the data that is entered when NAV MODE is set from OFF to GND ALIGN.</td>
 </tr>
 </tbody>
 </table>
@@ -3502,7 +3502,7 @@ NAV MODE - OFF.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Unstable current or temporary loss of power will cause the CAINS to be deselected and will be indicated by a flashing HS acronym. A reference alignment cannot be done through a handset alignment, even if continued to fine align complete. For a successful reference alignment the aircraft must not move and the parking brake must not be cycled after the reference heading has been stored. For a valid reference alignment, it isn’t necessary to switch NAV MODE to INS, instead it can be switched directly to OFF from either CVA or GND ALIGN.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Unstable current or temporary loss of power will cause the CAINS to be deselected and will be indicated by a flashing HS acronym. A reference alignment cannot be done through a handset alignment, even if continued to fine align complete. For a successful reference alignment the aircraft must not move and the parking brake must not be cycled after the reference heading has been stored. For a valid reference alignment, it isn’t necessary to switch NAV MODE to INS, instead it can be switched directly to OFF from either CVA or GND ALIGN.</td>
 </tr>
 </tbody>
 </table>
@@ -3639,7 +3639,7 @@ however the NAV COMP and IMU indicator are only present on the RIO cockpit cauti
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">For detailed information on CAP operation, refer to <a class="reference internal" href="#cap"><span class="std std-ref">Computer Address Panel (CAP)</span></a>.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">For detailed information on CAP operation, refer to <a class="reference internal" href="#cap"><span class="std std-ref">Computer Address Panel (CAP)</span></a>.</td>
 </tr>
 </tbody>
 </table>
@@ -3724,7 +3724,7 @@ The multiple display indicator data readout of WIND direction is always displaye
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In the INS mode, wind is calculated and updated constinously. The manual entry of wind is ignored by the wind calculations even though the system accepts the entry.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In the INS mode, wind is calculated and updated constinously. The manual entry of wind is ignored by the wind calculations even though the system accepts the entry.</td>
 </tr>
 </tbody>
 </table>
@@ -3766,7 +3766,7 @@ If they differ by a certain value, the acronym MV will alternate with the IN or 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">When operating in SLAVED or COMP mode near a magnetic disturbance, such as aboard a carrier, the MV acronym should be expected to appear.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">When operating in SLAVED or COMP mode near a magnetic disturbance, such as aboard a carrier, the MV acronym should be expected to appear.</td>
 </tr>
 </tbody>
 </table>
@@ -3937,7 +3937,7 @@ The RIO should also perform periodic checks of own aircraft system altitude and 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">To clear previous hooked DDD cursor position, go to half action and then release prior to initiating full action for new position hook.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">To clear previous hooked DDD cursor position, go to half action and then release prior to initiating full action for new position hook.</td>
 </tr>
 </tbody>
 </table>
@@ -3963,7 +3963,7 @@ The delta is then entered in the same manner as with a radar fix.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">During a TACAN FIX, the MAG VAR must be the same as the TACAN station magnetic variation, or the update will be in error. Given a TACAN station with a range of 100 nm from ownship, a 1°MAG VAR error introduces a 1.74nm error into the ownship’s TACAN update.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">During a TACAN FIX, the MAG VAR must be the same as the TACAN station magnetic variation, or the update will be in error. Given a TACAN station with a range of 100 nm from ownship, a 1°MAG VAR error introduces a 1.74nm error into the ownship’s TACAN update.</td>
 </tr>
 </tbody>
 </table>
@@ -4006,7 +4006,7 @@ To update the nav system on an aircraft that is not close, first obtain a radar 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">By updating to the selected aircraft’s INS, its calibration/drift can potentially introduce a larger error into your own INS. Both aircraft will share the same error though.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">By updating to the selected aircraft’s INS, its calibration/drift can potentially introduce a larger error into your own INS. Both aircraft will share the same error though.</td>
 </tr>
 </tbody>
 </table>
@@ -4019,7 +4019,7 @@ Once displayed on the TID, latitude, longitude, range, bearing, and steering dat
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Do not use the position SURF TGT to update the navigation computer. The surface target position symbol is repositioned with respect to own aircraft instead of own aircraft being updated in reference to the surface target.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Do not use the position SURF TGT to update the navigation computer. The surface target position symbol is repositioned with respect to own aircraft instead of own aircraft being updated in reference to the surface target.</td>
 </tr>
 </tbody>
 </table>
@@ -4049,7 +4049,7 @@ Additionally the autopilot gets its heading reference from the AHRS.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The only analog cockpit display for magnetic heading is the BDHI. The HUD, VDI, TID, HSD, and multiple display indicator are digital and receive their inputs from the AHRS through the CSDC. Thus. in case of a CSDC failure, the only magnetic heading is displayed on the BDHI.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The only analog cockpit display for magnetic heading is the BDHI. The HUD, VDI, TID, HSD, and multiple display indicator are digital and receive their inputs from the AHRS through the CSDC. Thus. in case of a CSDC failure, the only magnetic heading is displayed on the BDHI.</td>
 </tr>
 </tbody>
 </table>
@@ -4060,7 +4060,7 @@ The directional gyro smoothens the flux valve heading signal in the SLAVED mode 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>In the INS nav mode IMU true heading is used and must be converted to magnetic heading by adding or subtracting the magnetic variation to have a backup magnetic value, if needed. Under normal operation, AHRS magnetic heading is used for all displays.</li>
 <li>The AHRS is unlimited in roll, but limited to 82° in pitch. If the pitch attitudes exceeds ±82, it will precess. A gradual precession in roll, pitch, and heading can also be expected in sustained turns at slow rates (less than 6° per minute). Large roll and pitch precession errors can be corrected by flying straight and level, without accelerating, and pressing and holding the HDG set button on the compass controller panel. Pressing and holding this button corrects precession errors at a rate of 12° per minute minimum. The HDG set button should be held for a least 3 minutes. Before repeating the 3-minute cycle, it should be released for at least 1 minute.</li>
 </ul>
@@ -4077,7 +4077,7 @@ When DG or SLAVED modes are inoperable, the COMP mode can be used for emergencie
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If both the IMU and the AHRS fail, pitch and roll attitude indications from the HUD, TID, and DDD will be removed, and the IMU and AHRS advisory lights illuminate. Select COMP mode on the compass controller panel to possibly restore valid magnetic heading information to the HUD, VDI, and HSD, the AHRS advisory lights will go off. Disregard the invalid pitch and roll attitude information that will be restored to the HUD and VDI.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If both the IMU and the AHRS fail, pitch and roll attitude indications from the HUD, TID, and DDD will be removed, and the IMU and AHRS advisory lights illuminate. Select COMP mode on the compass controller panel to possibly restore valid magnetic heading information to the HUD, VDI, and HSD, the AHRS advisory lights will go off. Disregard the invalid pitch and roll attitude information that will be restored to the HUD and VDI.</td>
 </tr>
 </tbody>
 </table>
@@ -4144,7 +4144,7 @@ To start a 22-second interruptive self-test, use the momentary button (BIT switc
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">A BIT performed on TACAN stations within 2 nm can give an invalid indication. If a TCN acronym or NO-GO response is observed while tuned to a local station, along with normal TACAN azimuth and range, the acronym and/or the NO-GO should be disregarded.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">A BIT performed on TACAN stations within 2 nm can give an invalid indication. If a TCN acronym or NO-GO response is observed while tuned to a local station, along with normal TACAN azimuth and range, the acronym and/or the NO-GO should be disregarded.</td>
 </tr>
 </tbody>
 </table>
@@ -4192,7 +4192,7 @@ When the aircraft is below this altitude, the red low-altitude warning light on 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If radar altitude is unreliable, only the OFF flag is present.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If radar altitude is unreliable, only the OFF flag is present.</td>
 </tr>
 </tbody>
 </table>
@@ -4251,7 +4251,7 @@ The time-to-go assumes the aircraft is flown at its present groundspeed along th
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If INS fails, the RIO should verify MAG VAR calculated and WIND data and update via manual entries as required.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If INS fails, the RIO should verify MAG VAR calculated and WIND data and update via manual entries as required.</td>
 </tr>
 </tbody>
 </table>
@@ -4272,7 +4272,7 @@ If the IMU is level (i.e., alignment past coarse align completed), the entry int
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If an alignment past coarse exists with no NAV COMP failure and the RIO switches to IMU/AM, the READY light will flash, indicating that if the switch is not returned to INS within 5 seconds the INS mode cannot be re-entered without completing a new alignment.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If an alignment past coarse exists with no NAV COMP failure and the RIO switches to IMU/AM, the READY light will flash, indicating that if the switch is not returned to INS within 5 seconds the INS mode cannot be re-entered without completing a new alignment.</td>
 </tr>
 </tbody>
 </table>
@@ -4284,7 +4284,7 @@ The IMU heading is equally referenced to the last computed INS heading or to man
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">After entering the IMU/AM mode, check wind and MAG VAR values. If MV is in error, enter own-aircraft true heading. If winds are in error, update.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">After entering the IMU/AM mode, check wind and MAG VAR values. If MV is in error, enter own-aircraft true heading. If winds are in error, update.</td>
 </tr>
 </tbody>
 </table>
@@ -4310,7 +4310,7 @@ An IMU failure is indicated by the STBY and READY status lights and the IMU advi
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Although the navigation mode automatically switches to AHRS when the IMU fails, the STBY and READY lights will remain on until the RIO selects AHRS/AM on the NAV MODE switch.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Although the navigation mode automatically switches to AHRS when the IMU fails, the STBY and READY lights will remain on until the RIO selects AHRS/AM on the NAV MODE switch.</td>
 </tr>
 </tbody>
 </table>
@@ -4330,7 +4330,7 @@ as long as the WCS computer receives heading from the AHRS and airspeed from the
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If takeoff is performed in the AHRS/AM mode, MAG VAR and WIND must be manually inserted via CAP for proper navigation computations.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If takeoff is performed in the AHRS/AM mode, MAG VAR and WIND must be manually inserted via CAP for proper navigation computations.</td>
 </tr>
 </tbody>
 </table>
@@ -4361,7 +4361,7 @@ These five flight modes are arranged as five vertical, mutually exclusive button
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">ACM cover open selection overrides all modes, except the T.O. and LDG modes.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">ACM cover open selection overrides all modes, except the T.O. and LDG modes.</td>
 </tr>
 </tbody>
 </table>
@@ -4387,7 +4387,7 @@ A typical choice would be to select ICLS (SPN-41 /ARA-63) for the HUD and for D/
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The STEERING indicator drum on the navigation control and data readout panel provides a readout for the RIO to inform him of what steering submode the pilot bas chosen.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The STEERING indicator drum on the navigation control and data readout panel provides a readout for the RIO to inform him of what steering submode the pilot bas chosen.</td>
 </tr>
 </tbody>
 </table>
@@ -4422,7 +4422,7 @@ While it is physically possible to press the AWL/PCD steering button on the disp
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Should the AWL/PCD submode be selected while in CRUISE, it will inhibit the display of other steering cues.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Should the AWL/PCD submode be selected while in CRUISE, it will inhibit the display of other steering cues.</td>
 </tr>
 </tbody>
 </table>
@@ -4436,7 +4436,7 @@ The RIO can change latitude/longitude of the destination by hooking the point on
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body"><ul class="first last simple">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
 <li>Destination steering to the defended point is provided by the RIO selecting MAN with the TID DEST switch. This option is not available in TARPS.</li>
 <li>In the destination steering submode, the destination selected by the RIO and the NAV MODE in use will be alternately displayed on the bottom center of the HSD.</li>
 </ul>
@@ -4469,7 +4469,7 @@ as well as 5° pitch increments on the VDI.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In all landing submodes, a VDIG breakaway symbol can be displayed upon receipt of a D/L waveoff message.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In all landing submodes, a VDIG breakaway symbol can be displayed upon receipt of a D/L waveoff message.</td>
 </tr>
 </tbody>
 </table>
@@ -4503,9 +4503,9 @@ With valid ACL data available, the AFCS may be engaged by selecting ACL on the V
 </div>
 </div>
 <div class="section" id="communications-systems">
-<h2>Communications Systems<a class="headerlink" href="#communications-systems" title="Permalink to this headline">¶</a></h2>
+<h2>通讯系统<a class="headerlink" href="#communications-systems" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="antennas">
-<h3>Antennas<a class="headerlink" href="#antennas" title="Permalink to this headline">¶</a></h3>
+<h3>天线<a class="headerlink" href="#antennas" title="Permalink to this headline">¶</a></h3>
 <p>Four VHF/UHF/L-band dual-blade antennas provide omnidirectional coverage for VHF/UHF voice, UHF data link, TACAN, and identification friend or foe/selective identification feature transponder (APX-72) operation.
 Tacan and VHF/UHF 2 voice communications use one set of antennas; UHF 1 voice communications, the data link and IFF transponder, another set of antennas.
 Refer to general arrangement illustration for antenna locations. The IFF interrogator (APX-76) antenna is an integral part of the AWG-9 WCS antenna.</p>
@@ -4523,7 +4523,7 @@ In the LWR (lower) position, only the lower antenna is used to receive and trans
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">In real life it is often necessary to select LWR to improve ground station reception. However due to the limitations of DCS, antenna switching is not modeled and thus not functional.
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In real life it is often necessary to select LWR to improve ground station reception. However due to the limitations of DCS, antenna switching is not modeled and thus not functional.
 The use of antennas is automated and/or neglected for the player. All radios and radio functions work through proper keying.</td>
 </tr>
 </tbody>
@@ -4540,7 +4540,7 @@ If one amplifier fails, it may be bypassed by selecting either the B/U (backup) 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">If two amplifiers fail at the same station, intercommunication is impossible.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If two amplifiers fail at the same station, intercommunication is impossible.</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Note2:</th><td class="field-body">By selecting EMER on respective ICS control panel and using the other crewmember's amplifier you can listen in on audio normally only available at that station (like SW-tone or ALQ-126 PRF) but you lose ability to control the volume of the audio you listen to.</td>
 </tr>
@@ -4643,7 +4643,7 @@ command panel. Note that BOTH is not functional in DCS.</td>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The two RIO footpedals have axis bindings in DCS to allow sim rudder pedals to trigger these functions.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The two RIO footpedals have axis bindings in DCS to allow sim rudder pedals to trigger these functions.</td>
 </tr>
 </tbody>
 </table>
@@ -4666,7 +4666,7 @@ Approximately 1 minute of warmup is required in order to achieve normal operatin
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Tone</th>
 <th class="head">Position</th>
-<th class="head">Controls</th>
+<th class="head">控制</th>
 <th class="head">Function</th>
 <th class="head">Characteristics</th>
 </tr>
@@ -4772,7 +4772,7 @@ Approximately 1 minute of warmup is required in order to achieve normal operatin
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">BOTH is not functional in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">BOTH is not functional in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -4783,7 +4783,7 @@ In addition, the DATA LINK panel provides lower or upper antenna selection for U
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Antenna Switching is not functional in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Antenna Switching is not functional in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -4795,7 +4795,7 @@ The KY MODE switch is operative only when the KY-58 is installed.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The Heatblur F-14B version uses the KY-28 only.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The Heatblur F-14B version uses the KY-28 only.</td>
 </tr>
 </tbody>
 </table>
@@ -4839,7 +4839,7 @@ The KY MODE switch is operative only when the KY-58 is installed.</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">Non-functional in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Non-functional in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -4981,7 +4981,7 @@ Forward deflection of the switch increases the numeric reading, and aft deflecti
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">UHF communication interference with the D/L may cause the TILT light to illuminate and the autopilot ACL or VEC/PCD mode to disengage. Data link interference with the UHF radios may cause audible chirping at the D/L message reply rate. Note: Although antenna switching is not implemented in DCS, it is still recommended to use a frequency separation greater than 55 MHz, and if necessary along with turning UHF 1 or V/UHF 2 radio OFF to avoid mutual interference between UHF communications.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">UHF communication interference with the D/L may cause the TILT light to illuminate and the autopilot ACL or VEC/PCD mode to disengage. Data link interference with the UHF radios may cause audible chirping at the D/L message reply rate. Note: Although antenna switching is not implemented in DCS, it is still recommended to use a frequency separation greater than 55 MHz, and if necessary along with turning UHF 1 or V/UHF 2 radio OFF to avoid mutual interference between UHF communications.</td>
 </tr>
 <tr class="field-even field"><th class="field-name">Note2:</th><td class="field-body">Transmissions on both UHF 1 and V/UHF 2 radios, while operating on the same frequency, may result in a squeal. This feedback is a normal condition caused by RF interaction between the two radios operating on the same frequency in close proximity to each other.</td>
 </tr>
@@ -4996,7 +4996,7 @@ The ARC-182 control panel is located on the RIO left console. Frequency range ex
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Note:</th><td class="field-body">The “Have Quick” anti-jam function is not implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The “Have Quick” anti-jam function is not implemented in DCS.</td>
 </tr>
 </tbody>
 </table>
@@ -5420,7 +5420,7 @@ The CAP also allows the RIO to update own aircraft INS position to another aircr
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="weapons.html" class="btn btn-neutral float-right" title="Weapons and Weapons Employment Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="weapons.html" class="btn btn-neutral float-right" title="武器和武器使用总览" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="cockpit.html" class="btn btn-neutral" title="驾驶舱总览" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
