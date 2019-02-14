@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-02-13 21:11+0800\n"
+"PO-Revision-Date: 2019-02-14 13:31+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -71,7 +71,7 @@ msgstr "全称"
 #: ../../source/accr.rst:555 ../../source/accr.rst:584
 #: ../../source/accr.rst:601
 msgid "Translation"
-msgstr "意义"
+msgstr "翻译"
 
 #: ../../source/accr.rst:10
 msgid "ACL"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../source/accr.rst:36
 msgid "__Automatic Stored Heading"
-msgstr ""
+msgstr "自动储存航向"
 
 #: ../../source/accr.rst:38
 msgid "ATC"
@@ -249,6 +249,7 @@ msgstr ""
 msgid "Active Transfer Command"
 msgstr ""
 
+# no reference?
 #: ../../source/accr.rst:38
 msgid "__Active Transfer Command"
 msgstr ""
@@ -439,9 +440,8 @@ msgstr ""
 
 # what even is this thingy???
 #: ../../source/accr.rst:82
-#, fuzzy
 msgid "__Computer Integrated Converter Unit"
-msgstr "计算机整合转换器单元"
+msgstr "计算机综合转换器单元"
 
 #: ../../source/accr.rst:84
 msgid "CLSN"
@@ -605,9 +605,8 @@ msgid "Defended Point"
 msgstr ""
 
 #: ../../source/accr.rst:115
-#, fuzzy
 msgid "__Defended Point"
-msgstr "防守点"
+msgstr "防御点"
 
 #: ../../source/accr.rst:117
 msgid "DES"
@@ -619,7 +618,7 @@ msgstr ""
 
 #: ../../source/accr.rst:117
 msgid "__Designate"
-msgstr ""
+msgstr "指定"
 
 #: ../../source/accr.rst:119
 msgid "DEST"
@@ -707,7 +706,7 @@ msgstr ""
 
 #: ../../source/accr.rst:138
 msgid "__Expanded Chaff Adapter"
-msgstr ""
+msgstr "箔条扩容器"
 
 #: ../../source/accr.rst:140
 msgid "ECM"
@@ -803,7 +802,7 @@ msgstr ""
 
 #: ../../source/accr.rst:154
 msgid "__Expand"
-msgstr ""
+msgstr "扩充"
 
 #: ../../source/accr.rst:156
 msgid "FAR"
@@ -867,7 +866,7 @@ msgstr ""
 
 #: ../../source/accr.rst:171
 msgid "__Fresnel Lens Optical Landing System"
-msgstr ""
+msgstr "菲涅耳透镜光学助降系统"
 
 #: ../../source/accr.rst:173
 msgid "FMR"
@@ -877,6 +876,7 @@ msgstr ""
 msgid "Frequency Ranging"
 msgstr ""
 
+# reference?
 #: ../../source/accr.rst:173
 msgid "__Frequency Ranging"
 msgstr ""
@@ -903,7 +903,7 @@ msgstr ""
 
 #: ../../source/accr.rst:177
 msgid "__Fuselage Reference Line"
-msgstr ""
+msgstr "机身基准线"
 
 #: ../../source/accr.rst:179
 msgid "FSK"
@@ -913,6 +913,7 @@ msgstr ""
 msgid "Frequency-Shift-Keyed"
 msgstr ""
 
+# 频移-keyed? what?
 #: ../../source/accr.rst:179
 msgid "__Frequency-Shift-Keyed"
 msgstr ""
@@ -927,7 +928,7 @@ msgstr ""
 
 #: ../../source/accr.rst:181
 msgid "__Forward"
-msgstr ""
+msgstr "向前"
 
 #: ../../source/accr.rst:185
 msgid "G"
@@ -977,6 +978,7 @@ msgstr ""
 msgid "Ground Map"
 msgstr ""
 
+# no reference
 #: ../../source/accr.rst:196
 msgid "__Ground Map"
 msgstr ""
@@ -1015,7 +1017,7 @@ msgstr ""
 
 #: ../../source/accr.rst:202
 msgid "__Ground Track"
-msgstr ""
+msgstr "地面轨迹"
 
 #: ../../source/accr.rst:206
 msgid "H"
@@ -1299,7 +1301,7 @@ msgstr ""
 
 #: ../../source/accr.rst:262
 msgid "__Improved Triple Ejector Rack"
-msgstr ""
+msgstr "改良型三联装挂架"
 
 #: ../../source/accr.rst:264
 msgid "ITS"
@@ -1383,7 +1385,7 @@ msgstr ""
 
 #: ../../source/accr.rst:295
 msgid "__Launch Acceptable Region"
-msgstr ""
+msgstr "发射允许区间"
 
 #: ../../source/accr.rst:297
 msgid "LCD"
@@ -1419,7 +1421,7 @@ msgstr ""
 
 #: ../../source/accr.rst:301
 msgid "__Line of Sight"
-msgstr ""
+msgstr "视线"
 
 #: ../../source/accr.rst:303
 msgid "LPRF"
@@ -1431,7 +1433,7 @@ msgstr ""
 
 #: ../../source/accr.rst:303
 msgid "__Low Pulse Repetition Frequency"
-msgstr ""
+msgstr "低脉冲重复频率"
 
 #: ../../source/accr.rst:305
 msgid "LSO"
@@ -1453,6 +1455,7 @@ msgstr ""
 msgid "Launch-to-Eject"
 msgstr ""
 
+# reference?
 #: ../../source/accr.rst:307
 msgid "__Launch-to-Eject"
 msgstr ""
@@ -1491,7 +1494,7 @@ msgstr ""
 
 #: ../../source/accr.rst:320
 msgid "__Magnetic Azimuth Detector"
-msgstr ""
+msgstr "磁方位角探测器"
 
 #: ../../source/accr.rst:322
 msgid "MAG VAR"
@@ -1503,7 +1506,7 @@ msgstr ""
 
 #: ../../source/accr.rst:322
 msgid "__Magnetic Variation"
-msgstr "磁偏角"
+msgstr "磁差"
 
 #: ../../source/accr.rst:324
 msgid "MAN"
@@ -1549,6 +1552,7 @@ msgstr ""
 msgid "Main Engine Control"
 msgstr ""
 
+# reference?
 #: ../../source/accr.rst:330
 msgid "__Main Engine Control"
 msgstr ""
@@ -1791,9 +1795,11 @@ msgstr ""
 msgid "Precision Course Direction"
 msgstr ""
 
+# ref?
 #: ../../source/accr.rst:389
+#, fuzzy
 msgid "__Precision Course Direction"
-msgstr ""
+msgstr "精确航线方向"
 
 #: ../../source/accr.rst:391
 msgid "PD"
@@ -1815,9 +1821,10 @@ msgstr ""
 msgid "Pilot Display Control Panel"
 msgstr ""
 
+# need ref
 #: ../../source/accr.rst:393
 msgid "__Pilot Display Control Panel"
-msgstr ""
+msgstr "飞行员显示控制面板"
 
 #: ../../source/accr.rst:395
 msgid "PDRSL"
@@ -1829,7 +1836,7 @@ msgstr ""
 
 #: ../../source/accr.rst:395
 msgid "__Pulse Doppler Radar Slaved"
-msgstr ""
+msgstr "脉冲多普勒雷达受役"
 
 #: ../../source/accr.rst:397
 msgid "PDS"
@@ -1841,7 +1848,7 @@ msgstr ""
 
 #: ../../source/accr.rst:397
 msgid "__Pulse Doppler Search"
-msgstr ""
+msgstr "脉冲多普勒搜索"
 
 #: ../../source/accr.rst:399
 msgid "PDSTT"
@@ -1853,7 +1860,7 @@ msgstr ""
 
 #: ../../source/accr.rst:399
 msgid "__Pulse Doppler Single Target Track"
-msgstr ""
+msgstr "脉冲多普勒单目标跟踪"
 
 #: ../../source/accr.rst:401
 msgid "PH"
@@ -1875,9 +1882,11 @@ msgstr ""
 msgid "Pilot Lockon Mode"
 msgstr ""
 
+# ref?
+# pilot seat? rio seat?
 #: ../../source/accr.rst:403
 msgid "__Pilot Lockon Mode"
-msgstr ""
+msgstr "飞行员锁定模式"
 
 #: ../../source/accr.rst:405
 msgid "PRF"
@@ -1889,7 +1898,7 @@ msgstr ""
 
 #: ../../source/accr.rst:405
 msgid "__Pulse Repetition Frequency"
-msgstr ""
+msgstr "脉冲重复频率"
 
 #: ../../source/accr.rst:407
 msgid "PRI"
@@ -1913,7 +1922,7 @@ msgstr ""
 
 #: ../../source/accr.rst:409
 msgid "__Pulse Radar Slaved"
-msgstr ""
+msgstr "脉冲雷达受役"
 
 #: ../../source/accr.rst:411
 msgid "PS"
@@ -1959,6 +1968,7 @@ msgstr ""
 msgid "QADL"
 msgstr ""
 
+# ref???
 #: ../../source/accr.rst:424
 msgid "Cue-to-ADL"
 msgstr ""
@@ -2099,10 +2109,10 @@ msgstr ""
 msgid "Range Rate"
 msgstr ""
 
+# ref?
 #: ../../source/accr.rst:453
-#, fuzzy
 msgid "__Range Rate"
-msgstr "接近率"
+msgstr ""
 
 #: ../../source/accr.rst:455
 msgid "ROT"
@@ -2126,7 +2136,7 @@ msgstr ""
 
 #: ../../source/accr.rst:457
 msgid "__Real-Time Gun Sight"
-msgstr ""
+msgstr "实时瞄准具"
 
 #: ../../source/accr.rst:459
 msgid "RWS"
@@ -2138,7 +2148,7 @@ msgstr ""
 
 #: ../../source/accr.rst:459
 msgid "__Range While Search"
-msgstr ""
+msgstr "边搜索边测距"
 
 #: ../../source/accr.rst:463
 msgid "S"
@@ -2178,7 +2188,7 @@ msgstr ""
 
 #: ../../source/accr.rst:472
 msgid "__Simultaneous Alignment and Test"
-msgstr ""
+msgstr "同时校准和测试"
 
 #: ../../source/accr.rst:474
 msgid "SCP"
@@ -2190,7 +2200,7 @@ msgstr ""
 
 #: ../../source/accr.rst:474
 msgid "__Sensor Control Panel"
-msgstr ""
+msgstr "传感器控制面板"
 
 #: ../../source/accr.rst:476
 msgid "SD/A"
@@ -2214,7 +2224,7 @@ msgstr ""
 
 #: ../../source/accr.rst:478
 msgid "__Sidewinder Expanded Acquisition Mode"
-msgstr ""
+msgstr "“响尾蛇”扩展搜索模式"
 
 #: ../../source/accr.rst:480
 msgid "SINS"
@@ -2238,7 +2248,7 @@ msgstr ""
 
 #: ../../source/accr.rst:482
 msgid "__AIM-7 Sparrow Missile"
-msgstr ""
+msgstr "AIM-7“麻雀”导弹"
 
 #: ../../source/accr.rst:484
 msgid "ST"
@@ -2262,7 +2272,7 @@ msgstr ""
 
 #: ../../source/accr.rst:486
 msgid "__Stabilization"
-msgstr ""
+msgstr "稳定"
 
 #: ../../source/accr.rst:488
 msgid "STAB AUG"
@@ -2298,7 +2308,7 @@ msgstr ""
 
 #: ../../source/accr.rst:492
 msgid "__Sensitivity Time Control"
-msgstr ""
+msgstr "灵敏度时间控制"
 
 #: ../../source/accr.rst:494
 msgid "STT"
@@ -2398,7 +2408,7 @@ msgstr ""
 
 #: ../../source/accr.rst:515
 msgid "__Triple Ejector Rack"
-msgstr ""
+msgstr "三联装挂架"
 
 #: ../../source/accr.rst:517
 msgid "TGT"
@@ -2458,7 +2468,7 @@ msgstr ""
 
 #: ../../source/accr.rst:525
 msgid "__Time-to-Go"
-msgstr ""
+msgstr "剩余时间"
 
 #: ../../source/accr.rst:527
 msgid "TUIR"
@@ -2470,7 +2480,7 @@ msgstr ""
 
 #: ../../source/accr.rst:527
 msgid "__Time Until in Range"
-msgstr ""
+msgstr "进入射程时间"
 
 #: ../../source/accr.rst:529
 msgid "TUMR"
@@ -2482,7 +2492,7 @@ msgstr ""
 
 #: ../../source/accr.rst:529
 msgid "__Time Until Maximum Range"
-msgstr ""
+msgstr "进入最大射程时间"
 
 #: ../../source/accr.rst:531
 msgid "TUOR"
@@ -2494,7 +2504,7 @@ msgstr ""
 
 #: ../../source/accr.rst:531
 msgid "__Time Until Optimum Range"
-msgstr ""
+msgstr "进入最优射程时间"
 
 #: ../../source/accr.rst:533
 msgid "TWS"
@@ -2506,7 +2516,7 @@ msgstr ""
 
 #: ../../source/accr.rst:533
 msgid "__Track While Scan"
-msgstr "边扫描边跟踪能力"
+msgstr "边搜索边跟踪"
 
 #: ../../source/accr.rst:535
 msgid "TWSA"
@@ -2586,7 +2596,7 @@ msgstr ""
 
 #: ../../source/accr.rst:559
 msgid "__Computed MAG VAR"
-msgstr "计算磁偏角"
+msgstr "计算磁差"
 
 #: ../../source/accr.rst:561
 msgid "VDI"
@@ -2620,6 +2630,7 @@ msgstr ""
 msgid "Vector"
 msgstr ""
 
+# ref?
 #: ../../source/accr.rst:565
 msgid "__Vector"
 msgstr ""
@@ -2670,7 +2681,7 @@ msgstr ""
 
 #: ../../source/accr.rst:573
 msgid "__Voltage Monitor Control Unit"
-msgstr ""
+msgstr "电压监控单元"
 
 #: ../../source/accr.rst:575
 msgid "VSL"
@@ -2682,7 +2693,7 @@ msgstr ""
 
 #: ../../source/accr.rst:575
 msgid "__Vertical Scan Lockon"
-msgstr ""
+msgstr "垂直扫描锁定"
 
 #: ../../source/accr.rst:577
 msgid "VTR"
@@ -2722,7 +2733,7 @@ msgstr ""
 
 #: ../../source/accr.rst:588
 msgid "__Wide Field of View"
-msgstr ""
+msgstr "宽视场"
 
 #: ../../source/accr.rst:590
 msgid "WILCO"
@@ -2734,7 +2745,7 @@ msgstr ""
 
 #: ../../source/accr.rst:590
 msgid "__Will Comply"
-msgstr ""
+msgstr "可以执行"
 
 #: ../../source/accr.rst:592
 msgid "WOD"

@@ -42,6 +42,7 @@
     <session id="1769733994">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -194,7 +195,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1151" y="76" width="2185" height="1349" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14433475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

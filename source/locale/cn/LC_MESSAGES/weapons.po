@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-13 22:58+0800\n"
+"PO-Revision-Date: 2019-02-14 23:57+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:4
 msgid "Weapons and Weapons Employment Overview"
-msgstr "武器和武器使用总览"
+msgstr "武器系统和武器使用总览"
 
 #: ../../source/weapons.rst:7
 msgid "M-61 Vulcan Six-Barreled Gatling Cannon"
@@ -32,13 +32,13 @@ msgstr "M-61“火神”六管加特林航炮"
 msgid ""
 "U.S. Navy photo by Photographers Mate Airman Kristopher Wilson. (041129-"
 "N-5345W-034)"
-msgstr ""
+msgstr "由美国海军摄影师 Kristopher Wilson 拍摄（041129-N-5345W-034）"
 
 #: ../../source/weapons.rst:12
 msgid ""
 "The M-61 Vulcan is a six-barreled hydraulically driven 20 mm automatic "
 "cannon capable of firing over 6 000 rpm (rounds per minute)."
-msgstr ""
+msgstr "M-61火神炮是一种六管液压驱动的20毫米机炮，能以每分钟6000发的速度射击。"
 
 #: ../../source/weapons.rst:14
 msgid ""
@@ -47,12 +47,14 @@ msgid ""
 "rounds are carried in the ammunition drum for the gun and retains the spent "
 "cases after the rounds have been fired."
 msgstr ""
+"该机炮安装在F-14驾驶舱的下方，炮口位于机身的左下角。机炮的圆柱形弹药箱内携带"
+"了650发20毫米炮弹，并且会保留机炮发射后留下的弹壳。"
 
 #: ../../source/weapons.rst:17
 msgid ""
 "The gun itself is mounted to be elevated slightly more than 3° from the ADL "
 "to provide built-in lead for dog-fight situations."
-msgstr ""
+msgstr "机炮的安装角比武器基准线（ADL）高大概3度，这样更利于狗斗时的前置射击。"
 
 #: ../../source/weapons.rst:19
 msgid ""
@@ -60,12 +62,14 @@ msgid ""
 "manually by the trigger on the pilot stick when selected by the weapons "
 "selector on the same stick, provided master arm is on."
 msgstr ""
+"如果要使用机炮射击，不需要从WCS（武器控制系统）选择，只要打开主军械开关，飞行"
+"员可以直接在操作杆上选择使用机炮。"
 
 #: ../../source/weapons.rst:22
 msgid ""
 "Selection of the gun is indicated on the bottom of the hud by a capital G "
 "with remaining hundreds of rounds indicated below."
-msgstr ""
+msgstr "选择使用机炮后，HUD底部会出现一个G标志，剩余弹药量入下图所示。"
 
 #: ../../source/weapons.rst:26
 msgid ""
@@ -74,6 +78,9 @@ msgid ""
 "down from 650 but can manually be reset by rotating the knob below the "
 "indicator to the desired quantity."
 msgstr ""
+"除了HUD上的指示外，飞行员右侧垂直面板上的弹药剩余指示器也显示了剩余弹药数量。"
+"指示器从650开始往下计数，并且可以通过旋转指示器下方的旋钮到所需数量来手动复"
+"位。"
 
 #: ../../source/weapons.rst:33
 msgid ""
@@ -83,6 +90,9 @@ msgid ""
 "also indicates selected mode, the mode normally being set automatically for "
 "respective type of engagement."
 msgstr ""
+"机炮拥有每分钟4000发和每分钟6000发两种射击模式。低射速模式通常用于对地攻击，"
+"高射速模式用于对空攻击。机炮射速可以通过机炮射速开关切换，当选择ACM模式时自动"
+"设置为高射速模式。"
 
 #: ../../source/weapons.rst:36
 msgid ""
@@ -91,10 +101,13 @@ msgid ""
 "available. For air-to-air it's the manual sight and the RTGS (real-time gun "
 "sight)."
 msgstr ""
+"WCS（武器控制系统）可以在HUD上显示瞄准准星以提高机炮的射击精度。对于空对空和"
+"空对地模式，机炮有两种准星可以使用。在对空作战中，分为手动空对空航炮准星和"
+"RTGS（实时瞄准具）。"
 
 #: ../../source/weapons.rst:40
 msgid "**Manual Air-to-Air Sight**"
-msgstr ""
+msgstr "**手动空对空航炮准星**"
 
 #: ../../source/weapons.rst:44
 msgid ""
@@ -105,6 +118,9 @@ msgid ""
 "manual pipper as reference to hit the target. Real target range and needed "
 "deflection needs to be estimated by the pilot."
 msgstr ""
+"在手动模式下，HUD上显示了ADL（武器基准线），武器符号，以及手动准星。在空对空"
+"模式选择机炮后，按下左侧油门上的CAGE/SEAM 按钮来进入此模式。该模式下飞行员需"
+"要用手动准星来瞄准，并且需要自己估算提前量。"
 
 #: ../../source/weapons.rst:47
 msgid ""
@@ -113,16 +129,18 @@ msgid ""
 "should be set to 53 milliradians to place the manual pipper on the gun sight "
 "line."
 msgstr ""
+"手动准星角度是可以微调的，可以通过机炮ELEV面板上的旋钮让飞行员自己调节，正常"
+"情况下，一般设置为53毫弧度，以便让手动准星与机炮瞄准线保持一致。"
 
 #: ../../source/weapons.rst:52
 msgid "**Real-Time Gunsight (RTGS)**"
-msgstr ""
+msgstr "**实时航炮准星**"
 
 #: ../../source/weapons.rst:56
 msgid ""
 "The real-time gunsight mode is the standard gun mode when in the air-to-air "
 "mode with the gun selected."
-msgstr ""
+msgstr "实时航炮准星模式是机炮在空对空模式下的标准射击模式。"
 
 #: ../../source/weapons.rst:58
 msgid ""
@@ -131,6 +149,9 @@ msgid ""
 "available from the WCS. The diamond representing bullet location at 1 000 "
 "feet and the pipper representing the bullet location at 2 000 feet."
 msgstr ""
+"在RTGS（实时航炮准星）模式中，如果没有来自WCS（武器控制系统）的目标数据，WCS"
+"会计算子弹的轨迹并显示炮弹在距离你1000和2000英尺处通过的位置。菱形标志代表"
+"1000英尺处炮弹通过的位置，而准星代表2000英尺处炮弹通过的位置。"
 
 #: ../../source/weapons.rst:63
 msgid ""
@@ -140,6 +161,9 @@ msgid ""
 "location). This means that when having a target track the pilot should fly "
 "the aircraft to place the pipper over the target to hit it."
 msgstr ""
+"如果目标数据可以从WCS获得（目标在STT模式下被跟踪），则准星显示当前4000英尺范"
+"围内的子弹位置，菱形标志显示目标的雷达视线（目标位置）。 这意味着飞行员需要将"
+"准星对准目标来击落它。"
 
 #: ../../source/weapons.rst:66
 msgid ""
@@ -149,6 +173,8 @@ msgid ""
 "indication to indicating bullet position at target range. This is also "
 "indicated by the diamond blinking."
 msgstr ""
+"除了计算目标位置并提供指示外，RTGS准星还能够显示命中指示。当计算出发射的炮弹"
+"击中目标位置时，菱形标志将闪烁并从目标指示切换到指示目标范围内的炮弹位置。"
 
 #: ../../source/weapons.rst:70
 msgid ""
@@ -157,10 +183,12 @@ msgid ""
 "this means that the diamond should still be on top of the target, blinking, "
 "indicating that the bullets passed through the target's location."
 msgstr ""
+"利用这个功能，我们就可以知道目标是否被击中。如果成功击中目标，菱形标志就会在"
+"目标上方闪烁，表明炮弹弹穿过了目标的位置。"
 
 #: ../../source/weapons.rst:73
 msgid "**Manual Air-to-Ground Sight**"
-msgstr ""
+msgstr "**手动空对地航炮准星**"
 
 #: ../../source/weapons.rst:79
 msgid ""
@@ -174,10 +202,15 @@ msgid ""
 "instead be set according to a pre-calculated setting depending on airspeed, "
 "target range and dive angle."
 msgstr ""
+"手动空对地航炮准星除了是通过RIO左垂直控制台武器面板上的ATTK MODE选择器设置以"
+"外与手动空对空航炮准星并无差别。选择此选择器的MAN可在空对地模式中启用与空对空"
+"准星一样的HUD符号，唯一不同的HUD符号是在HUD右侧增加的雷达高度显示。机炮的提前"
+"量应通过依据空速，目标范围和俯冲角度预先计算的参数进行设置。"
 
+# context: controlled by WCS computer or manually controlled by pilot (option set by RIO)
 #: ../../source/weapons.rst:85
 msgid "**Computer/Pilot Mode**"
-msgstr ""
+msgstr "**计算机/飞行员模式**"
 
 #: ../../source/weapons.rst:89
 msgid ""
@@ -186,6 +219,9 @@ msgid ""
 "the RIO on the ATTK MODE selector, as for manual air-to-ground sight, by "
 "selecting CMPTR-PLT."
 msgstr ""
+"计算机/飞行员模式用于使武器控制系统持续计算武器撞击点，除其他空对地武器外，也"
+"用于计算航炮。它就像手动空对地航炮准星一样，由RIO通过选择ATTK MODE选择器的"
+"CMPTR-PLT设置。"
 
 #: ../../source/weapons.rst:92
 msgid ""
@@ -193,6 +229,7 @@ msgid ""
 "accurate range measurements and enable the HUD display of that same impact "
 "point."
 msgstr ""
+"在此模式下AN/AWG-9雷达用于武器碰撞点的精确测距以及在HUD上显示该碰撞点。"
 
 #: ../../source/weapons.rst:94
 msgid ""
@@ -206,11 +243,11 @@ msgstr ""
 
 #: ../../source/weapons.rst:97
 msgid "The right side of the HUD displays the barometric altitude scale."
-msgstr ""
+msgstr "HUD右侧显示气压高度标尺"
 
 #: ../../source/weapons.rst:100
 msgid "**Mixed Gun Mode**"
-msgstr ""
+msgstr "**航炮混合模式**"
 
 #: ../../source/weapons.rst:106
 msgid ""
@@ -222,6 +259,10 @@ msgid ""
 "estimate the gun impact point manually with the ADL as the only reference on "
 "the HUD."
 msgstr ""
+"通过将武器面板上的A/G GUN开关（在RIO左侧垂直面板上）设置为MIXED，航炮可以在另"
+"一个空对地弹药被选择时同时被使用。 这使得扳机能够发射航炮，但是没有HUD符号可"
+"用于航炮，因为它被用于显示所选弹药的投放数据。 在此模式下飞行员需要通过HUD上"
+"唯一的参考武器基准线手动估算航炮碰撞点。"
 
 #: ../../source/weapons.rst:112
 msgid "Air-to-Air Weapons"
@@ -235,7 +276,7 @@ msgstr "空对空导弹的 HUD 标识"
 msgid ""
 "The above image shows the HUD with Phoenixes selected while in air-to-air "
 "display mode."
-msgstr ""
+msgstr "上图展示了在空对空显示模式下选择了Phoenixes的HUD。"
 
 #: ../../source/weapons.rst:121
 msgid ""
@@ -243,6 +284,8 @@ msgid ""
 "of knots, from -200 to +1,000 knots. Current closure rate as displayed by a "
 "**<**."
 msgstr ""
+"作为标准，HUD在左侧以百节为单位显示 **接近率** ，从-200到+1000节，当前接近率"
+"通过 **<** 显示"
 
 #: ../../source/weapons.rst:124
 msgid ""
@@ -252,6 +295,9 @@ msgid ""
 "a **>** and selected weapon max and minimum ranges as indicated by the "
 "dashes (**-**)."
 msgstr ""
+"此外在HUD右侧显示有 **目标距离标尺** ，通过显示的标尺提示目标距离，这种情况下"
+"显示的最大距离为10海里。目标距离标尺通过 **>** 显示当前目标距离并通过破折号 "
+"（**-**）提示被选中武器的最大、最小射程。"
 
 #: ../../source/weapons.rst:127
 msgid ""
@@ -259,6 +305,8 @@ msgid ""
 "and the **Target Designator** can show different things depending on current "
 "situation."
 msgstr ""
+"The **Movable Reticle** （被称为十字准星用于空对地和机炮的使用）和 **目标指示"
+"器** 可以根据当前情况显示不同的东西。"
 
 #: ../../source/weapons.rst:129
 msgid ""
@@ -301,12 +349,17 @@ msgid ""
 "the seeker of the Sparrow relies on the AN/AWG-9 painting the targets for it "
 "and following the radar emissions being reflected off the target."
 msgstr ""
+"AIM-7麻雀空对空导弹是一种超音速助推 - 滑翔导弹，能够在各种天气条件下与飞机和"
+"导弹交战。AIM-7麻雀是一种中距空对空导弹，其中AIM-7E最大射程至少为16海里（30千"
+"米），AIM-7F和AIM-7M最大射程至少为38海里（70千米）。它的全天候能力来自于导弹"
+"由雷达制导，更确切地说是半主动雷达制导。这意味着麻雀的引导头通过AN/AWG-9照射"
+"目标并跟踪目标的雷达辐射反射。"
 
 #: ../../source/weapons.rst:149
 msgid ""
 "The F-14 can carry the AIM-7E, AIM-7F and AIM-7M on four dedicated recesses "
 "on the aircraft fuselage and one each on the glove pylons."
-msgstr ""
+msgstr "F-14可以在机身上的四个专用槽和翼套挂架上挂载AIM-7E，AIM-7F和AIM-7M。"
 
 #: ../../source/weapons.rst:151
 msgid ""
@@ -316,11 +369,14 @@ msgid ""
 "while the AIM-7F and AIM-7M can also be guided via pulse doppler "
 "illumination in addition to CW."
 msgstr ""
+"除了导弹射程，导引头和弹头的各种改进之外，不同版本之间的主要区别在于AIM-7E仅"
+"能通过连续波照射制导而AIM-7F和AIM-7M除了连续波之外还可以通过脉冲多普勒照射引"
+"导。"
 
 #: ../../source/weapons.rst:156 ../../source/weapons.rst:228
 #: ../../source/weapons.rst:310
 msgid "Missile Preparation"
-msgstr ""
+msgstr "导弹发射准备"
 
 #: ../../source/weapons.rst:162
 msgid ""
@@ -328,6 +384,8 @@ msgid ""
 "PREP-ON pushbutton on the pilot ACM panel. This commands the WCS to start "
 "missile preparation for the AIM-7 and AIM-54."
 msgstr ""
+"在发射前AIM-7导弹需要通过在前座飞行员ACM面板上选择MSL PREP-ON按钮来进行准备。"
+"这个指令将使武器控制系统开始准备AIM-7和AIM-54导弹。"
 
 #: ../../source/weapons.rst:165
 msgid ""
@@ -339,10 +397,14 @@ msgid ""
 "individual missiles are tuned and ready the corresponding missile status "
 "windows turns white to indicate a ready missile."
 msgstr ""
+"如果是AIM-7，武器控制系统将向导弹提供电力用以预热电子设备和陀螺仪。它还通过轨"
+"道后端的发射器将雷达的连续波雷达视频注入导弹后端的接收器。此视频用于将AIM-7导"
+"弹调整到RIO在DDD面板选定的连续波频率上。当个别导弹调整并准备完毕时，对应的导"
+"弹状态窗口将变成白色以标明一枚准备完毕的导弹。"
 
 #: ../../source/weapons.rst:172 ../../source/weapons.rst:320
 msgid "Launch Modes"
-msgstr ""
+msgstr "发射模式"
 
 #: ../../source/weapons.rst:174
 msgid ""
@@ -352,6 +414,9 @@ msgid ""
 "possible to select which sparrow to be launched, this is done automatically "
 "by the WCS."
 msgstr ""
+"在F-14上AIM-7有正常模式和瞄准线模式两种可用的发射模式。飞行员通过选择控制杆武"
+"器选择器上的SP/PH（麻雀/凤凰）位置去选择并发射AIM-7。没有办法去选择具体发射哪"
+"一枚麻雀，这是由武器控制系统自动完成的。"
 
 #: ../../source/weapons.rst:178
 msgid ""
@@ -360,10 +425,13 @@ msgid ""
 "launch unless BRSIT (boresight) is selected on the MSL MODE (missile mode) "
 "switch on the ACM panel. In all other cases the boresight mode will be used."
 msgstr ""
+"按压武器选择器从SP切换到PH，反之亦然。如果STT目标可用，除非在ACM面板上的MSL "
+"MODE（导弹模式）开关上选择BRSIT（瞄准线），否则武器控制系统将自动使用常规模式"
+"进行发射。在所有其他情况下，将使用瞄准线模式。"
 
 #: ../../source/weapons.rst:184
 msgid "Normal Mode"
-msgstr ""
+msgstr "普通模式"
 
 #: ../../source/weapons.rst:190
 msgid ""
@@ -375,6 +443,10 @@ msgid ""
 "pulse doppler guidance mode instead when using the AIM-7F and AIM-7M "
 "missiles."
 msgstr ""
+"由于正常模式使用单目标跟踪与被跟踪的目标交战，因此武器控制系统可以使用连续波"
+"或脉冲多普勒进行制导。在正常模式下使用连续波时，AN/AWG-9雷达使用专用连续波天"
+"线能比泛指模式更直接的聚焦照射被跟踪的目标。虽然连续波是所有AIM-7型号的正常制"
+"导模式，但在使用AIM-7F和AIM-7M导弹时，可以选择脉冲多普勒制导模式。"
 
 #: ../../source/weapons.rst:194
 msgid ""
@@ -382,6 +454,8 @@ msgid ""
 "setting it to SP DP (sparrow doppler). When selected this causes the WCS to "
 "guide the sparrow missiles using pulse doppler illumination instead."
 msgstr ""
+"这是在RIO的武器面板上通过将MSL OPTIONS开关设置到SP DP（麻雀 多普勒）来完成"
+"的。选择此选项后, 武器控制系统将使用脉冲多普勒照射引导麻雀导弹。"
 
 #: ../../source/weapons.rst:197
 msgid ""
@@ -391,10 +465,14 @@ msgid ""
 "Rmax, while the VDI, DDD and TID displays the attack guidance symbology as "
 "well as the above mentioned missile LAR indications."
 msgstr ""
+"无论制导模式如何，武器控制系统都会计算导弹LAR（发射允许区间），并在垂直显示指"
+"示器和战术信息显示器上显示导弹发射射程。HUD显示目标菱形和当前目标距离，Rmin"
+"和 Rmax，而垂直显示指示器、详细数据显示器和战术信息显示器显示攻击制导符号系统"
+"以及上述导弹LAR指示。"
 
 #: ../../source/weapons.rst:202
 msgid "Boresight Mode"
-msgstr ""
+msgstr "瞄准线模式"
 
 #: ../../source/weapons.rst:204
 msgid ""
@@ -405,6 +483,10 @@ msgid ""
 "launch, enabling the pilot to try and save the shot by keeping the target "
 "within the flood area."
 msgstr ""
+"瞄准线模式使用AN/AWG-9雷达上的连续波泛指天线, 将使导弹跟踪泛指区内反射最强的"
+"目标。除了在瞄准线模式下发射时，无论是在发射之前还是在发射之后，雷达将在目标"
+"丢失时切换到泛指模式，使飞行员能够通过将目标保持在泛指区域来尝试并挽救此次射"
+"击。"
 
 #: ../../source/weapons.rst:211
 msgid "AIM-9 Sidewinder"
@@ -414,7 +496,7 @@ msgstr "AIM-9“响尾蛇”导弹"
 msgid ""
 "U.S. Navy photo by Photographer's Mate Airman Kristopher Wilson. (050112-"
 "N-5345W-066)"
-msgstr ""
+msgstr "由美国海军摄影师 Kristopher Wilson 拍摄（050112-N-5345W-066）"
 
 #: ../../source/weapons.rst:216
 msgid ""
@@ -422,6 +504,8 @@ msgid ""
 "infrared seeker locking on to a targets IR signature making it capable of "
 "tracking a target both during daytime and at night."
 msgstr ""
+"AIM-9“响尾蛇”导弹是一种近距离空对空导弹。它使用红外引导头来锁定目标的红外信"
+"号，使其无论白天还是夜晚都能跟踪目标。"
 
 #: ../../source/weapons.rst:219
 msgid ""
@@ -429,6 +513,8 @@ msgid ""
 "Sidewinder from the AIM-9D up to the AIM-9M. The Heatblur F-14B Tomcat is "
 "currently modelled as carrying the AIM-9L and AIM-9M."
 msgstr ""
+"F-14“雄猫”可以携带从AIM-9D到AIM-M的所有海军版的AIM-9“响尾蛇”导弹。Heatblur "
+"F-14B“熊猫”目前可以携带AIM-9L和AIM-9M。"
 
 #: ../../source/weapons.rst:222
 msgid ""
@@ -438,6 +524,9 @@ msgid ""
 "normally used when only carrying two to allow station 1B & 8B to carry other "
 "munitions."
 msgstr ""
+"F-14能在挂架1A和B以及8A和B携带AIM-9。其中挂架1和8为翼套挂架，每个可携带两枚"
+"AIM-9，总计四枚。挂架1A和8A是专用于仅携带AIM-9的挂架，并且通常仅携带两枚以允"
+"许挂架1B和8B携带其他弹药。"
 
 #: ../../source/weapons.rst:234
 msgid ""
@@ -447,10 +536,13 @@ msgid ""
 "missiles seeker head, the missile will immediately show ready but full "
 "seeker head performance will take at least 60 seconds."
 msgstr ""
+"在AIM-9发射前需要启用引导头冷却。按下飞行员ACM面板的SW COOL开关或在相同面板选"
+"择ACM模式即可完成冷却操作。此指令会冷却导弹引导头，导弹会立刻显示就绪但要使引"
+"导头发挥全部性能至少需要60秒。"
 
 #: ../../source/weapons.rst:240
 msgid "Seeker Head Modes"
-msgstr ""
+msgstr "引导头模式"
 
 #: ../../source/weapons.rst:242
 msgid ""
@@ -462,6 +554,10 @@ msgid ""
 "for the WCS on the F-14 to slave the seeker to a tracked target within 20° "
 "from ADL, allowing for off boresight acquisition."
 msgstr ""
+"AIM-9G加入了能够进行响尾蛇扩展采集模式（SEAM）的引导头，后来所有由F-14携带的"
+"响尾蛇都能使用此模式。SEAM允许导弹头解锁并在范围（离ADL 40°’）内追踪目标，并"
+"允许飞行员引导目标，提升导弹的性能。它还允许F-14上的WCS驱动引导头在离ADL 20°"
+"的范围内跟踪目标，从而实现偏离瞄准线索敌。"
 
 #: ../../source/weapons.rst:248
 msgid ""
@@ -474,10 +570,15 @@ msgid ""
 "present while scanning but increases in intensity while the seeker is "
 "looking at an IR-source."
 msgstr ""
+"F-14上的AIM-9依然可以使用旧的瞄准线模式，此时引导头保持隶属于ADL（2.5°视场）"
+"但通常SEAM用来在ADL扫描引导头或跟踪目标。引导头沿着两个背对背的D字进行扫描，"
+"基本上是一个大约6°宽的扫描锥，能在约3秒内覆盖整个扫描区。（如上图所示）与所有"
+"的响尾蛇一样，目标检测由音调表示。扫描时会有蜂鸣，当引导头头正在观察红外光源"
+"时，强度会增加。"
 
 #: ../../source/weapons.rst:254 ../../source/weapons.rst:379
 msgid "Missile Operation"
-msgstr ""
+msgstr "导弹操作"
 
 #: ../../source/weapons.rst:256
 msgid ""
@@ -491,6 +592,11 @@ msgid ""
 "and Rmin and Rmax. The VDI, DDD and TID displays the attack guidance "
 "symbology if a WCS track is present."
 msgstr ""
+"通过飞行员操纵杆的武器选择开关来选择AIM-9“响尾蛇”导弹。按下武器选择开关可以循"
+"环选择用来发射的AIM-9，ACM面板相应状态窗口的棋盘指示器会指示被选择的导弹。当"
+"使用AIM-9时，HUD使用菱形指示被跟踪目标和准星（十字准线）指示当前导引头位置。"
+"如果有带距离的WCS轨道可用，则HUD还显示目标距离，最小距离和最大距离。如果有WCS"
+"轨道，则VDI，DDD和TID显示攻击制导符。"
 
 #: ../../source/weapons.rst:262
 msgid ""
@@ -499,6 +605,9 @@ msgid ""
 "having the ACM mode active. In this mode the pilot puts the target at ADL "
 "and fires when the aural tone is present."
 msgstr ""
+"不带SEAM（无扫描）的基础导弹瞄准线模式由未激活ACM模式时按下飞行员ACM面板的"
+"BRSIT（瞄准线）开关来控制。在此模式中飞行员把目标放在ADL，当有声音提示时开"
+"火。"
 
 #: ../../source/weapons.rst:265
 msgid ""
@@ -507,6 +616,8 @@ msgid ""
 "target is present the seeker head will scan around the radar or TCS line of "
 "sight, otherwise the missile will scan around the ADL."
 msgstr ""
+"如果未使用BRSIT开关或ACM模式处于激活状态，AIM-9将使用SEAM并进行双D扫描。如果"
+"存在WCS目标，则引导头扫描雷达或TCS视线周围，否则导弹将扫描ADL周围。"
 
 #: ../../source/weapons.rst:272
 msgid ""
@@ -516,6 +627,9 @@ msgid ""
 "target present in the seeker field of view. If no IR sources is found the "
 "missile is again caged and the SEAM LOCK light is deactivated."
 msgstr ""
+"在SEAM模式下锁定目标需要飞行员按下左侧油门的CAGE/SEAM。这会点亮ACM面板的SEAM "
+"LOCK灯并将引导头解锁4.5秒，并允许它跟踪引导头视野内的目标。如果没找到红外信号"
+"源，则导弹会再次锁住，并且SEAM LOCK灯熄灭。"
 
 #: ../../source/weapons.rst:276
 msgid ""
@@ -523,6 +637,8 @@ msgid ""
 "stays illuminated allowing the pilot to launch the missile by pressing the "
 "stick trigger. After launch the next AIM-9 will automatically be selected."
 msgstr ""
+"如果成功锁定，则音效降保持不变，SEAM LOCK灯保持点亮，允许飞行员按下操纵杆扳机"
+"来发射导弹。发射后会自动选择下一枚AIM-9。"
 
 #: ../../source/weapons.rst:281
 msgid "AIM-54 Phoenix"
@@ -532,7 +648,7 @@ msgstr "AIM-54“不死鸟”导弹"
 msgid ""
 "U.S. Navy photo by Photographer's Mate 2nd Class Felix Garza Jr. (030320-"
 "N-4142G-013)"
-msgstr ""
+msgstr "由美国海军摄影师 Felix Garza Jr. 拍摄（030320-N-4142G-013）"
 
 #: ../../source/weapons.rst:0
 msgid "Note"
@@ -540,7 +656,7 @@ msgstr "注意"
 
 #: ../../source/weapons.rst:286
 msgid "Depicted missile has yet to have the forward fins attached."
-msgstr ""
+msgstr "照片中的导弹还未装上前部弹翼。"
 
 #: ../../source/weapons.rst:288
 msgid ""
@@ -549,7 +665,11 @@ msgid ""
 "materialised. When the F-111B project was scrapped the AIM-54 and the "
 "corresponding AN/AWG-9 WCS eventually found its way to the F-14 instead."
 msgstr ""
+"AIM-54“不死鸟”导弹是一种长程空空导弹，它本来是为流产的 F-111B 舰队防空战斗机"
+"计划而设计的。F-111B 计划以失败告终，使得 F-111B 的 AIM-54 导弹与配套的AN/"
+"AWG-9 WCS 最终被用于装备 F-14。"
 
+# wing glove?
 #: ../../source/weapons.rst:291
 msgid ""
 "The F-14 is capable of carrying up to 6 AIM-54 missiles, four on rails on "
@@ -558,12 +678,17 @@ msgid ""
 "meaning that the rear fuselage pylons can't be used if the front ones aren't "
 "present. The glove pylons contain their own cooling systems."
 msgstr ""
+"F-14 能够携带6枚 AIM-54 导弹，其中四枚挂在翼套挂架上。由于导弹冷却系统的设计"
+"原因，两个机身前部挂架必须总是挂弹，这意味着如果前部挂架不挂载导弹，机身后部"
+"挂架便无法使用。而翼套挂架内置了单独的冷却系统。"
 
 #: ../../source/weapons.rst:295
 msgid ""
 "The missile is capable of engagement both against a single target in STT and "
 "multiple targets using track-while-search (TWS)."
 msgstr ""
+"“不死鸟”导弹具有支持 STT（单目标跟踪）攻击单个目标和 TWS（边搜索边跟踪）攻击"
+"多个目标的能力。"
 
 #: ../../source/weapons.rst:297
 msgid ""
@@ -574,6 +699,11 @@ msgid ""
 "AIM-54C differing from the AIM-54A by having a digital seeker instead of an "
 "analog one, increasing its performance."
 msgstr ""
+"AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄"
+"猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 "
+"火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 "
+"AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号引导头，而不是模拟信号引"
+"导头，从而提升了性能。"
 
 #: ../../source/weapons.rst:301
 msgid ""
@@ -582,6 +712,9 @@ msgid ""
 "multiple targets this drops to about 50 NM. It has a greater range against "
 "large targets and vice versa against smaller targets."
 msgstr ""
+"使用 PD STT（脉冲多普勒单目标跟踪，见后文）模式攻击战斗机尺寸的目标时，"
+"AIM-54 的射程至少有60海里。而使用 TWS 攻击多目标时，射程降低到约50海里。攻击"
+"大型目标时，有效射程会增加，反之，攻击小型目标时，有效射程会缩短。"
 
 #: ../../source/weapons.rst:305
 msgid ""
@@ -590,6 +723,9 @@ msgid ""
 "missile will revert to SARH mode if no target is detected if selected for "
 "active launch in a SARH mode."
 msgstr ""
+"如果使用主动雷达发射，根据目标尺寸，射程也稍有差异，攻击战斗机尺寸的目标射程"
+"会降低至10海里。需要注意的是，如果配置时选择在 SARH 模式下使用主动雷达发射，"
+"但导弹未能探测到目标时，导弹会返回 SARH 模式。"
 
 #: ../../source/weapons.rst:312
 msgid ""
@@ -598,6 +734,8 @@ msgid ""
 "power and cooling to the missile and also starts the built in tests in the "
 "missile (BIT)."
 msgstr ""
+"AIM-54 导弹发射的准备过程是由激活 ACM，或选择飞行员 ACM 面板上的 MSL PREP 开"
+"关开始的。这将接通导弹的电源和冷却系统，同时也会启动导弹的自检程序（BIT）。"
 
 #: ../../source/weapons.rst:315
 msgid ""
@@ -607,12 +745,17 @@ msgid ""
 "minutes at which time the AIM-54 missiles are indicated ready in the "
 "corresponding missile status windows on the pilot ACM."
 msgstr ""
+"与 AIM-7 一样，在发射 AIM-54 前，需要通过装在挂架导轨末端的发射机向导弹尾部的"
+"接收器发送导弹调试数据。整个导弹发射准备周期大约需要2分钟来完成，完成后飞行"
+"员 ACM 面板上对应的挂载状态窗口会显示 AIM-54 发射准备完毕。"
 
 #: ../../source/weapons.rst:322
 msgid ""
 "The seeker head used in the AIM-54 is capable of both semi-active radar "
 "homing (SARH) and active radar homing (ARH)."
 msgstr ""
+"AIM-54 的引导头能够使用半主动雷达制导（SARH）和主动雷达制导（ARH）来跟踪目"
+"标。"
 
 #: ../../source/weapons.rst:324
 msgid ""
@@ -620,7 +763,14 @@ msgid ""
 "time from trigger depression to missile ejection. The exception is the ACM "
 "active mode where the LTE is shortened to 1 second if within 10° from ADL."
 msgstr ""
+"通常来说，导弹的发射至离轨（LTE），也就是从按下扳机开始，直到导弹离开导轨所需"
+"的时间，是3秒钟。但 ACM 主动模式下发射则是个例外，如果目标与武器基准线（ADL）"
+"的偏差在10度内，LTE会缩短至1秒。"
 
+# ARH - Active radar guidance
+# SARH - Semi-active radar guidance
+# 半主动雷达制导
+# 主动雷达制导
 #: ../../source/weapons.rst:329
 msgid "TWS SARH/ARH"
 msgstr ""
@@ -634,6 +784,10 @@ msgid ""
 "reflected off the target. Then when the missile is within range of its "
 "seeker's ARH mode the AN/AWG-9 commands the missile to switch to ARH."
 msgstr ""
+"在 TWS 模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 "
+"AIM-54 追踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达回波"
+"来进行半主动制导。当目标进入导弹引导头 ARH 模式的启动距离后，AN/AWG-9 会命令"
+"导弹切换至主动雷达制导。"
 
 #: ../../source/weapons.rst:335
 msgid ""
@@ -647,6 +801,10 @@ msgid ""
 "the system so the crew has to keep track of this manually."
 msgstr ""
 
+# PD STT SARH
+# 脉冲多普勒单目标 半主动制导
+# Pulse Doppler Single Target Track
+# 脉冲多普勒单目标跟踪
 #: ../../source/weapons.rst:341
 msgid "PD STT SARH"
 msgstr ""
@@ -661,7 +819,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:348
 msgid "Active-Radar Homing (ARH)"
-msgstr ""
+msgstr "主动雷达制导（ARH）"
 
 #: ../../source/weapons.rst:354
 msgid ""
@@ -682,7 +840,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:362
 msgid "ACM Active"
-msgstr ""
+msgstr "ACM 主动制导"
 
 #: ../../source/weapons.rst:364
 msgid ""
@@ -705,7 +863,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:372
 msgid "ECM Mode"
-msgstr ""
+msgstr "ECM 模式"
 
 #: ../../source/weapons.rst:374
 msgid ""
@@ -739,6 +897,8 @@ msgid ""
 "symbology."
 msgstr ""
 
+# Track While Scan
+# 注意翻译成汉语的语序：边搜索边跟踪
 #: ../../source/weapons.rst:393
 msgid "TWS"
 msgstr ""
@@ -780,7 +940,7 @@ msgstr ""
 #: ../../source/weapons.rst:405
 msgid ""
 "For more info regarding the applicable TID symbology see :ref:`TIDSYMB`."
-msgstr ""
+msgstr "TID 标识信息详见 :ref:`TIDSYMB` 。"
 
 #: ../../source/weapons.rst:410
 msgid ""
@@ -1004,7 +1164,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:485
 msgid "Computer Target"
-msgstr ""
+msgstr "计算机目标"
 
 #: ../../source/weapons.rst:488
 msgid ""
@@ -1107,8 +1267,10 @@ msgstr ""
 
 #: ../../source/weapons.rst:531
 msgid "Computer Pilot"
-msgstr ""
+msgstr "计算机引导"
 
+# pilot此处作引导、领航的意思，并非指飞行员
+# 但根据HUD显示的诸元投弹的动作还是由飞行员完成，不要混淆了
 #: ../../source/weapons.rst:534
 msgid ""
 "The computer pilot mode uses the WCS to continually calculate and display an "
@@ -1140,7 +1302,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:546
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 #: ../../source/weapons.rst:549
 msgid ""
@@ -1165,7 +1327,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:558
 msgid "Mk-81, 82, 83 and 84 GP Bombs"
-msgstr ""
+msgstr "Mk-81、Mk-82、Mk-83 和 Mk-84 通用航空炸弹"
 
 #: ../../source/weapons.rst:561
 msgid ""
@@ -1328,7 +1490,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:628
 msgid "BDU-33 Practice Bombs"
-msgstr ""
+msgstr "BDU-33 训练弹"
 
 #: ../../source/weapons.rst:630
 msgid ""
@@ -1517,7 +1679,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:721 ../../source/weapons.rst:782
 msgid "CNU-188 External Baggage Container"
-msgstr "CNU-188 外部行李舱"
+msgstr "CNU-188 外挂行李舱"
 
 #: ../../source/weapons.rst:723
 msgid ""
@@ -1595,7 +1757,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:734
 msgid "Total"
-msgstr ""
+msgstr "最大挂载量"
 
 #: ../../source/weapons.rst:736
 msgid "AIM-9"
@@ -1641,7 +1803,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:748
 msgid "Mk-82 Snake Eye"
-msgstr ""
+msgstr "Mk-82“蛇眼”"
 
 #: ../../source/weapons.rst:750
 msgid "Mk-83"
@@ -1681,7 +1843,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:766
 msgid "LAU-10 (ZUNI)"
-msgstr ""
+msgstr "LAU-10（祖尼）"
 
 #: ../../source/weapons.rst:766
 msgid "7(28)"
@@ -1693,7 +1855,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:770
 msgid "SUU-25 F/A Flare Dispenser"
-msgstr ""
+msgstr "SUU-25 F/A 干扰弹布撒器"
 
 #: ../../source/weapons.rst:770
 msgid "4(16)"
@@ -1701,4 +1863,4 @@ msgstr ""
 
 #: ../../source/weapons.rst:776
 msgid "TACTS"
-msgstr ""
+msgstr "TACTS 吊舱"
