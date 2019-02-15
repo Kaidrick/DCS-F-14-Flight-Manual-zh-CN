@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-14 23:57+0800\n"
+"PO-Revision-Date: 2019-02-15 18:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -240,6 +240,10 @@ msgid ""
 "(pipper) it indicates that an immediate pull up is required to avoid "
 "striking the ground and that the target is too close to engage safely."
 msgstr ""
+"HUD使用十字准星指示实时武器碰撞点，用菱形提示超出射程。当菱形消失时，位于十字"
+"准星下的目标正处于航炮射程内。拉起提示在HUD上垂直移动，当它位于或高于武器撞击"
+"点 (十字准星) 时, 表示需要立即拉起飞机以免避免撞击地面或目标距离太近，无法保"
+"证安全投弹。"
 
 #: ../../source/weapons.rst:97
 msgid "The right side of the HUD displays the barometric altitude scale."
@@ -678,9 +682,9 @@ msgid ""
 "meaning that the rear fuselage pylons can't be used if the front ones aren't "
 "present. The glove pylons contain their own cooling systems."
 msgstr ""
-"F-14 能够携带6枚 AIM-54 导弹，其中四枚挂在翼套挂架上。由于导弹冷却系统的设计"
-"原因，两个机身前部挂架必须总是挂弹，这意味着如果前部挂架不挂载导弹，机身后部"
-"挂架便无法使用。而翼套挂架内置了单独的冷却系统。"
+"F-14 能够携带6枚 AIM-54 导弹，左右翼套挂架上各搭载一枚，其余四枚搭载于机身挂"
+"架上。由于导弹冷却系统的设计原因，两个机身前部挂架必须总是挂弹，这意味着如果"
+"前部挂架不挂载导弹，机身后部挂架便无法使用。而翼套挂架内置了单独的冷却系统。"
 
 #: ../../source/weapons.rst:295
 msgid ""
@@ -773,7 +777,7 @@ msgstr ""
 # 主动雷达制导
 #: ../../source/weapons.rst:329
 msgid "TWS SARH/ARH"
-msgstr ""
+msgstr "TWS SARH/ARH"
 
 #: ../../source/weapons.rst:331
 msgid ""
@@ -784,10 +788,10 @@ msgid ""
 "reflected off the target. Then when the missile is within range of its "
 "seeker's ARH mode the AN/AWG-9 commands the missile to switch to ARH."
 msgstr ""
-"在 TWS 模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 "
-"AIM-54 追踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达回波"
-"来进行半主动制导。当目标进入导弹引导头 ARH 模式的启动距离后，AN/AWG-9 会命令"
-"导弹切换至主动雷达制导。"
+"在 TWS（Track While Scan，边搜索边跟踪）模式下，AN/AWG-9 可以支持同时对6个不"
+"同目标发射6枚 AIM-54 导弹。在 AIM-54 追踪的第一阶段，导弹接收由 AN/AWG-9 雷达"
+"发射的引导指令和目标的雷达回波来进行半主动制导。当目标进入导弹引导头 ARH 模式"
+"的启动距离后，AN/AWG-9 会命令导弹切换至主动雷达制导。"
 
 #: ../../source/weapons.rst:335
 msgid ""
@@ -800,6 +804,11 @@ msgid ""
 "autonomous after transfer to ARH, though this transition isn't indicated in "
 "the system so the crew has to keep track of this manually."
 msgstr ""
+"如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式，所以 AIM-54 也就"
+"无法发射后不管，而且它必须受制导，直到导弹雷达开机。然而，作为备用措施，AN/"
+"AWG-9会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并"
+"非发射后不管，但可以认为导弹进入ARH模式后能够自主攻击目标，然而驾驶舱系统中并"
+"不会明确指示模式转换行为，因此机组必须手动监视导弹的状态。"
 
 # PD STT SARH
 # 脉冲多普勒单目标 半主动制导
@@ -816,6 +825,10 @@ msgid ""
 "spotlighting of the target because of the STT mode being used. This "
 "increases the effective range of the AIM-54 seeker slightly."
 msgstr ""
+"在 PD STT（脉冲多普勒 单目标跟踪）模式下，AIM-54 全程使用 SARH（半主动雷达制"
+"导）模式，相比 TWS 模式，导弹以会更高的频率接收雷达制导指令，同时由于使用单目"
+"标跟踪，目标会受到持续聚焦照射。使用 PD STT 可以少许增加 AIM-54 引导头的有效"
+"搜索距离。"
 
 #: ../../source/weapons.rst:348
 msgid "Active-Radar Homing (ARH)"
@@ -831,17 +844,25 @@ msgid ""
 "forward hemisphere the WCS will also automatically command this mode instead "
 "of a SARH mode."
 msgstr ""
+"无论是在 TWS 还是在脉冲多普勒 STT 模式下，AIM-54 可以在发射后立刻接收指令开"
+"机，这是通过发射导弹前，将 MSL OPTIONS 开关拨至 PH ACT 位置实现的。这会让 "
+"WCS 在导弹发射后传输的第一条指令中立刻命令 AIM-54 进入主动雷达制导。如果从目"
+"标后半球6海里内，或目标前半球10海里内发射导弹，WCS（武器控制系统）会自动发送"
+"这条指令，而不再使用 SARH 模式。"
 
 #: ../../source/weapons.rst:358
 msgid ""
 "If the target is not detected actively by the seeker it will still fall back "
 "to SARH until the seeker can acquire on its own like in the two SARH modes."
 msgstr ""
+"与另外两种 SARH 模式下一样，如果导弹引导头未能主动探测到目标，导弹会返回 "
+"SARH 模式，直到引导头主动截获目标。"
 
 #: ../../source/weapons.rst:362
 msgid "ACM Active"
 msgstr "ACM 主动制导"
 
+# WCS track 指WCS正跟踪的目标？指pre-calc导弹飞行的track（轨迹）？
 #: ../../source/weapons.rst:364
 msgid ""
 "The last mode is ACM active in which the missile is commanded active before "
@@ -850,7 +871,16 @@ msgid ""
 "addition to a command prepositioning the seeker-head to have it look at the "
 "current WCS track if available."
 msgstr ""
+"AIM-54 的最后一种工作模式是 ACM 主动模式，在这个模式下，导弹在发射前就已经接"
+"收指令开机，因此导弹在该模式下可以真正发射后不管。AIM-54 导弹除了在发射前接收"
+"开机指令外，还会从 WCS 额外接收一条预对准引导头的指令，将引导头指向当前可用"
+"的 WCS 跟踪目标。"
 
+# ACM模式指ACM面板左上角的红色保护盖，提起保护盖时，WCS进入ACM模式
+# -------------------
+# ACM Active指AIM-54的ACM主动模式
+# -------------------
+# 文中进入ACM模式和导弹接收ACM Active指令是两个概念
 #: ../../source/weapons.rst:367
 msgid ""
 "ACM active is commanded when BRSIT (boresight) is selected on the pilot ACM "
@@ -860,11 +890,17 @@ msgid ""
 "seen while launching at a non pulse doppler radar track the seeker head will "
 "be prepositioned onto that track."
 msgstr ""
+"在飞行员 ACM 面板上按下 MSL MODE 开关选择 BRSIT（瞄准线），或是在无 WCS 跟踪"
+"目标时进入 ACM 模式，或使用非脉冲多普勒雷达或 TCS 跟踪模式时，导弹便会进入 "
+"ACM 主动模式。在没有跟踪目标的情况下使用瞄准线模式或 ACM 主动模式时，导弹会沿"
+"着 ADL（武器基准线）发射，并锁定它探测到的第一个目标，但如果使用非多普勒雷达"
+"跟踪目标，发射前引导头会提前对准跟踪目标。"
 
 #: ../../source/weapons.rst:372
 msgid "ECM Mode"
 msgstr "ECM 模式"
 
+# angle-tracking?
 #: ../../source/weapons.rst:374
 msgid ""
 "In all of the guidance modes the seeker head automatically switches to a "
@@ -872,6 +908,9 @@ msgid ""
 "track the target using SARH or ARH. This is done without crew action and is "
 "not indicated to the operator."
 msgstr ""
+"在所有引导模式中，如果受到干扰，引导头会自动切入被动 ECM 跟随模式，通过干扰源"
+"方位角来跟踪目标，直到引导头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自"
+"动完成的，不需要机组操作，操作员也不会收到提示。"
 
 #: ../../source/weapons.rst:381
 msgid ""
@@ -880,12 +919,16 @@ msgid ""
 "selector to switch from SP to PH. It is possible to switch back to SP by "
 "again depressing the weapon selector."
 msgstr ""
+"在飞行员驾驶杆上选择 SPH/PH（麻雀/不死鸟）开关的位置，然后按下选择开关来从 "
+"SP 切换至 PH 来选择 AIM-54 导弹。再次按下武器选择开关可以重新选择 SP。"
 
 #: ../../source/weapons.rst:384
 msgid ""
 "When used in boresight or ACM without a WCS track the HUD will not indicate "
 "any symbology apart from the ADL which is used to aim the missile."
 msgstr ""
+"在瞄准线模式下，或者在 ACM 模式且 WCS 无跟踪目标的情况下发射 AIM-54 时，除了"
+"用于瞄准导弹的 ADL 线外，HUD上不会显示任何标识。"
 
 #: ../../source/weapons.rst:386
 msgid ""
@@ -896,6 +939,10 @@ msgid ""
 "Rmin and Rmax, while the VDI, DDD and TID displays the attack guidance "
 "symbology."
 msgstr ""
+"在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示指定目标，如果 TCS 也有跟踪目"
+"标，目标上会显示十字准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。"
+"HUD 右侧的距离标尺上显示了目标当前距离、Rmin（最小射程）和 Rmax（最大射程），"
+"而 VDI、DDI 和 TID 上则显示了攻击引导标识。"
 
 # Track While Scan
 # 注意翻译成汉语的语序：边搜索边跟踪
@@ -910,6 +957,9 @@ msgid ""
 "As the first target is launched at the first tracks number is removed and "
 "the other tracks numbers are decreased by one."
 msgstr ""
+"在 TWS 模式下使用 AIM-54时，WCS 会自动分配跟踪目标的优先级，给每个目标指定一"
+"个发射序号，表示导弹的发射顺序。向第一个目标发射导弹后，目标上的发射序号会消"
+"失，所有其他目标的发射序号分别减少 1。"
 
 #: ../../source/weapons.rst:398
 msgid ""
@@ -918,6 +968,8 @@ msgid ""
 "the trigger again for the next missile and so on until the desired number of "
 "missiles are away."
 msgstr ""
+"依次对每个目标按下一次扳机来继续攻击跟踪目标 2 至 6，等前一枚导弹离轨后再按下"
+"扳机，直到希望发射的导弹全部发射完毕。"
 
 #: ../../source/weapons.rst:400
 msgid ""
@@ -928,6 +980,9 @@ msgid ""
 "indicating that the missile targeting the track has been commanded to active "
 "mode."
 msgstr ""
+"导弹发射后，跟踪目标右侧的发射优先级数字会被替换为 TTI，也就是预计命中时间，"
+"这是计算出的导弹命中目标所需时间。此外，当 AN/AWG-9 向导弹发送开机指令时，"
+"TTI 数字会闪烁，表示跟踪目标的导弹已经接收主动模式开机指令。"
 
 #: ../../source/weapons.rst:403
 msgid ""
@@ -936,6 +991,8 @@ msgid ""
 "time to last target the break-away cross is also displayed on the VDI, DDD "
 "and TID."
 msgstr ""
+"正被导弹攻击的目标会保持高亮，直到预计命中时间 + 15秒，经过预计命中时间 + 15"
+"秒后，VDI、DDD和TID上会显示脱离“X”标识。"
 
 #: ../../source/weapons.rst:405
 msgid ""
@@ -950,6 +1007,10 @@ msgid ""
 "WCS to set a track as priority 1 in the firing order by hooking it and "
 "pressing NEXT LAUNCH on the RIO armament panel."
 msgstr ""
+"通过 CAP 面板设置可以让 WCS 强制在发射序列中包括一个目标，还可以让 WCS 强制排"
+"除某个目标，不对其发射导弹，也是在 CAP 面板上设置。此外，勾选一个目标并按下 "
+"RIO 武器面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先"
+"级目标。"
 
 #: ../../source/weapons.rst:413
 msgid ""
@@ -958,6 +1019,9 @@ msgid ""
 "illuminated. In addition to the track numbering the TID also displays a "
 "steering centroid indicating the center weight of the TWS scan pattern."
 msgstr ""
+"如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷"
+"达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示 TWS 扫描范围的中心"
+"点。"
 
 #: ../../source/weapons.rst:416
 msgid ""
@@ -967,6 +1031,10 @@ msgid ""
 "prioritisation numbers and individual optimum launch ranges, for more info "
 "see :ref:`TWS`."
 msgstr ""
+"HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目"
+"标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、Rmin 和 Rmax。TID 上显示"
+"了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 :ref:"
+"`TWS`。"
 
 #: ../../source/weapons.rst:421
 msgid "Air-to-Ground Weapons"

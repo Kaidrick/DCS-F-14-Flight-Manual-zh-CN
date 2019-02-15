@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>武器系统和武器使用总览 &mdash; DCS: F-14 “雄猫” 中文飞行手册 alpha documentation</title>
+  <title>武器系统和武器使用总览 &mdash; DCS: F-14 “雄猫” 中文飞行手册 nightly documentation</title>
   
 
   
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="程序" href="procedures.html" />
+    <link rel="next" title="流程" href="procedures.html" />
     <link rel="prev" title="总体设计和系统总览" href="general.html" /> 
 
   
@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 0.2.0 | Feb. 13th, 2019
+                协作预览 0.2.1 | Feb. 15th, 2019
               </div>
             
           
@@ -144,7 +144,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#f-14b-loadout-diagram">F-14B 挂载示意图</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="procedures.html">程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="procedures.html">流程</a></li>
 <li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急程序</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
@@ -250,8 +250,7 @@
 <img alt="_images/guncomputerpilot.png" src="_images/guncomputerpilot.png" />
 <p>计算机/飞行员模式用于使武器控制系统持续计算武器撞击点，除其他空对地武器外，也用于计算航炮。它就像手动空对地航炮准星一样，由RIO通过选择ATTK MODE选择器的CMPTR-PLT设置。</p>
 <p>在此模式下AN/AWG-9雷达用于武器碰撞点的精确测距以及在HUD上显示该碰撞点。</p>
-<p>The HUD uses the pipper to indicate real-time weapon impact point and the diamond to indicate out of range. When the diamond dissappears, the gun is in range to engage a target under the pipper.
-The pull up cue moves vertically on the HUD and when it's at or above the weapon impact point (pipper) it indicates that an immediate pull up is required to avoid striking the ground and that the target is too close to engage safely.</p>
+<p>HUD使用十字准星指示实时武器碰撞点，用菱形提示超出射程。当菱形消失时，位于十字准星下的目标正处于航炮射程内。拉起提示在HUD上垂直移动，当它位于或高于武器撞击点 (十字准星) 时, 表示需要立即拉起飞机以免避免撞击地面或目标距离太近，无法保证安全投弹。</p>
 <p>HUD右侧显示气压高度标尺</p>
 <p><strong>航炮混合模式</strong></p>
 <a class="reference internal image-reference" href="_images/gunmixed.png"><img alt="_images/gunmixed.png" class="align-left" src="_images/gunmixed.png" style="width: 205.0px; height: 176.5px;" /></a>
@@ -350,7 +349,7 @@ and if a radar STT is present with AIM-9 selected it's not shown at all.</p>
 </tbody>
 </table>
 <p>AIM-54“不死鸟”导弹是一种长程空空导弹，它本来是为流产的 F-111B 舰队防空战斗机计划而设计的。F-111B 计划以失败告终，使得 F-111B 的 AIM-54 导弹与配套的AN/AWG-9 WCS 最终被用于装备 F-14。</p>
-<p>F-14 能够携带6枚 AIM-54 导弹，其中四枚挂在翼套挂架上。由于导弹冷却系统的设计原因，两个机身前部挂架必须总是挂弹，这意味着如果前部挂架不挂载导弹，机身后部挂架便无法使用。而翼套挂架内置了单独的冷却系统。</p>
+<p>F-14 能够携带6枚 AIM-54 导弹，左右翼套挂架上各搭载一枚，其余四枚搭载于机身挂架上。由于导弹冷却系统的设计原因，两个机身前部挂架必须总是挂弹，这意味着如果前部挂架不挂载导弹，机身后部挂架便无法使用。而翼套挂架内置了单独的冷却系统。</p>
 <p>“不死鸟”导弹具有支持 STT（单目标跟踪）攻击单个目标和 TWS（边搜索边跟踪）攻击多个目标的能力。</p>
 <p>AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号引导头，而不是模拟信号引导头，从而提升了性能。</p>
 <p>使用 PD STT（脉冲多普勒单目标跟踪，见后文）模式攻击战斗机尺寸的目标时，AIM-54 的射程至少有60海里。而使用 TWS 攻击多目标时，射程降低到约50海里。攻击大型目标时，有效射程会增加，反之，攻击小型目标时，有效射程会缩短。</p>
@@ -366,60 +365,45 @@ and if a radar STT is present with AIM-9 selected it's not shown at all.</p>
 <p>通常来说，导弹的发射至离轨（LTE），也就是从按下扳机开始，直到导弹离开导轨所需的时间，是3秒钟。但 ACM 主动模式下发射则是个例外，如果目标与武器基准线（ADL）的偏差在10度内，LTE会缩短至1秒。</p>
 <div class="section" id="tws-sarh-arh">
 <h5>TWS SARH/ARH<a class="headerlink" href="#tws-sarh-arh" title="Permalink to this headline">¶</a></h5>
-<p>在 TWS 模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 AIM-54 追踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达回波来进行半主动制导。当目标进入导弹引导头 ARH 模式的启动距离后，AN/AWG-9 会命令导弹切换至主动雷达制导。</p>
-<p>Absence of this command via the AN/AWG-9 radar means that the missile won't switch to the ARH mode meaning that the AIM-54 isn't fire and forget and must be guided at least until it goes active.
-The AN/AWG-9, however, continues to transmit guidance commands to the missile as a fallback in case the missile can't acquire the target autonomously.
-This means that the AIM-54 isn't a &quot;fire and forget&quot; missile per se but it can be considered autonomous after transfer to ARH, though this transition isn't indicated in the system so the crew has to keep track of this manually.</p>
+<p>在 TWS（Track While Scan，边搜索边跟踪）模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 AIM-54 追踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达回波来进行半主动制导。当目标进入导弹引导头 ARH 模式的启动距离后，AN/AWG-9 会命令导弹切换至主动雷达制导。</p>
+<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式，所以 AIM-54 也就无法发射后不管，而且它必须受制导，直到导弹雷达开机。然而，作为备用措施，AN/AWG-9会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并非发射后不管，但可以认为导弹进入ARH模式后能够自主攻击目标，然而驾驶舱系统中并不会明确指示模式转换行为，因此机组必须手动监视导弹的状态。</p>
 </div>
 <div class="section" id="pd-stt-sarh">
 <h5>PD STT SARH<a class="headerlink" href="#pd-stt-sarh" title="Permalink to this headline">¶</a></h5>
-<p>In pulse doppler STT the AIM-54 uses SARH all the way to the target receiving guidance commands at a greater rate than in TWS and also continous spotlighting of the target because of the STT mode being used.
-This increases the effective range of the AIM-54 seeker slightly.</p>
+<p>在 PD STT（脉冲多普勒 单目标跟踪）模式下，AIM-54 全程使用 SARH（半主动雷达制导）模式，相比 TWS 模式，导弹以会更高的频率接收雷达制导指令，同时由于使用单目标跟踪，目标会受到持续聚焦照射。使用 PD STT 可以少许增加 AIM-54 引导头的有效搜索距离。</p>
 </div>
 <div class="section" id="active-radar-homing-arh">
 <h5>主动雷达制导（ARH）<a class="headerlink" href="#active-radar-homing-arh" title="Permalink to this headline">¶</a></h5>
 <a class="reference internal image-reference" href="_images/msloptionph.png"><img alt="_images/msloptionph.png" class="align-left" src="_images/msloptionph.png" style="width: 239.85px; height: 203.4px;" /></a>
-<p>The AIM-54 can also be commanded to go active directly after launch in both TWS and pulse doppler STT modes by setting the MSL OPTIONS switch to PH ACT before launch.
-This tells the WCS to immediately command the AIM-54 to go active in the first guidance command after launch.
-If launched at a target within 6 NM if in the targets rear hemisphere or 10 NM miles if in its forward hemisphere the WCS will also automatically command this mode instead of a SARH mode.</p>
-<p>If the target is not detected actively by the seeker it will still fall back to SARH until the seeker can acquire on its own like in the two SARH modes.</p>
+<p>无论是在 TWS 还是在脉冲多普勒 STT 模式下，AIM-54 可以在发射后立刻接收指令开机，这是通过发射导弹前，将 MSL OPTIONS 开关拨至 PH ACT 位置实现的。这会让 WCS 在导弹发射后传输的第一条指令中立刻命令 AIM-54 进入主动雷达制导。如果从目标后半球6海里内，或目标前半球10海里内发射导弹，WCS（武器控制系统）会自动发送这条指令，而不再使用 SARH 模式。</p>
+<p>与另外两种 SARH 模式下一样，如果导弹引导头未能主动探测到目标，导弹会返回 SARH 模式，直到引导头主动截获目标。</p>
 </div>
 <div class="section" id="acm-active">
 <h5>ACM 主动制导<a class="headerlink" href="#acm-active" title="Permalink to this headline">¶</a></h5>
-<p>The last mode is ACM active in which the missile is commanded active before launch making this the only mode where the missile is truly fire and forget.
-The AIM-54 missile receives the active message before launch from the WCS in addition to a command prepositioning the seeker-head to have it look at the current WCS track if available.</p>
-<p>ACM active is commanded when BRSIT (boresight) is selected on the pilot ACM panel, when having the ACM active without a WCS track and when using a non pulse doppler radar mode or TCS track.
-When using boresight or ACM without a track the missile will launch along the ADL locking onto the first target seen while launching at a non pulse doppler radar track the seeker head will be prepositioned onto that track.</p>
+<p>AIM-54 的最后一种工作模式是 ACM 主动模式，在这个模式下，导弹在发射前就已经接收指令开机，因此导弹在该模式下可以真正发射后不管。AIM-54 导弹除了在发射前接收开机指令外，还会从 WCS 额外接收一条预对准引导头的指令，将引导头指向当前可用的 WCS 跟踪目标。</p>
+<p>在飞行员 ACM 面板上按下 MSL MODE 开关选择 BRSIT（瞄准线），或是在无 WCS 跟踪目标时进入 ACM 模式，或使用非脉冲多普勒雷达或 TCS 跟踪模式时，导弹便会进入 ACM 主动模式。在没有跟踪目标的情况下使用瞄准线模式或 ACM 主动模式时，导弹会沿着 ADL（武器基准线）发射，并锁定它探测到的第一个目标，但如果使用非多普勒雷达跟踪目标，发射前引导头会提前对准跟踪目标。</p>
 </div>
 <div class="section" id="ecm-mode">
 <h5>ECM 模式<a class="headerlink" href="#ecm-mode" title="Permalink to this headline">¶</a></h5>
-<p>In all of the guidance modes the seeker head automatically switches to a passive ECM follow if jammed, angle-tracking the target until it can again track the target using SARH or ARH.
-This is done without crew action and is not indicated to the operator.</p>
+<p>在所有引导模式中，如果受到干扰，引导头会自动切入被动 ECM 跟随模式，通过干扰源方位角来跟踪目标，直到引导头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自动完成的，不需要机组操作，操作员也不会收到提示。</p>
 </div>
 </div>
 <div class="section" id="id4">
 <h4>导弹操作<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
-<p>The AIM-54 missile is selected with the weapon selector on the pilot stick by selecting the SP/PH (sparrow/phoenix) position and then depressing the selector to switch from SP to PH.
-It is possible to switch back to SP by again depressing the weapon selector.</p>
-<p>When used in boresight or ACM without a WCS track the HUD will not indicate any symbology apart from the ADL which is used to aim the missile.</p>
-<p>When selected with a WCS track in STT the HUD will display the Target Designator and if a TCS track exists, the Movable Reticle overlaying the target, the former indicating WCS track and the latter TCS line of sight.
-The range scale on the right side of the HUD indicates range to target and Rmin and Rmax, while the VDI, DDD and TID displays the attack guidance symbology.</p>
+<p>在飞行员驾驶杆上选择 SPH/PH（麻雀/不死鸟）开关的位置，然后按下选择开关来从 SP 切换至 PH 来选择 AIM-54 导弹。再次按下武器选择开关可以重新选择 SP。</p>
+<p>在瞄准线模式下，或者在 ACM 模式且 WCS 无跟踪目标的情况下发射 AIM-54 时，除了用于瞄准导弹的 ADL 线外，HUD上不会显示任何标识。</p>
+<p>在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示指定目标，如果 TCS 也有跟踪目标，目标上会显示十字准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。HUD 右侧的距离标尺上显示了目标当前距离、Rmin（最小射程）和 Rmax（最大射程），而 VDI、DDI 和 TID 上则显示了攻击引导标识。</p>
 <div class="section" id="tws">
 <span id="twsattk"></span><h5>TWS<a class="headerlink" href="#tws" title="Permalink to this headline">¶</a></h5>
-<p>When using the AIM-54 with TWS the WCS automatically prioritises the tracked targets, giving them a firing order number indicating missile launch order.
-As the first target is launched at the first tracks number is removed and the other tracks numbers are decreased by one.</p>
-<p>To continue to engage track 2 through 6 the pilot thus depresses the trigger once for each target, waits until the missile is clear and then depresses the trigger again for the next missile and so on until the desired number of missiles are away.</p>
-<p>After missile launch the prioritisation numbers on the right side of the targeted tracks are replaced with the TTI or Time to Impact number, showing calculated time until missile hits the target.
-Additionally when the AN/AWG-9 have sent the active command to the missile the TTI numbers blink, indicating that the missile targeting the track has been commanded to active mode.</p>
-<p>The targets currently under missile attack brightens until estimated time to target plus 15 seconds has elapsed and when at 15 seconds past estimated time to last target the break-away cross is also displayed on the VDI, DDD and TID.</p>
+<p>在 TWS 模式下使用 AIM-54时，WCS 会自动分配跟踪目标的优先级，给每个目标指定一个发射序号，表示导弹的发射顺序。向第一个目标发射导弹后，目标上的发射序号会消失，所有其他目标的发射序号分别减少 1。</p>
+<p>依次对每个目标按下一次扳机来继续攻击跟踪目标 2 至 6，等前一枚导弹离轨后再按下扳机，直到希望发射的导弹全部发射完毕。</p>
+<p>导弹发射后，跟踪目标右侧的发射优先级数字会被替换为 TTI，也就是预计命中时间，这是计算出的导弹命中目标所需时间。此外，当 AN/AWG-9 向导弹发送开机指令时，TTI 数字会闪烁，表示跟踪目标的导弹已经接收主动模式开机指令。</p>
+<p>正被导弹攻击的目标会保持高亮，直到预计命中时间 + 15秒，经过预计命中时间 + 15秒后，VDI、DDD和TID上会显示脱离“X”标识。</p>
 <p>TID 标识信息详见 <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID Symbology</span></a> 。</p>
 <img alt="_images/TWS.png" src="_images/TWS.png" />
-<p>It is possible to force the WCS to include a target by setting it to mandatory attack using the CAP and also to exclude a target by setting it to do not attack on the same panel.
-In addition it is possible to command the WCS to set a track as priority 1 in the firing order by hooking it and pressing NEXT LAUNCH on the RIO armament panel.</p>
-<p>If not already in TWS AUTO the WCS automatically switches to this mode thus assuming control over the AN/AWG-9 radar to keep the engaged targets illuminated.
-In addition to the track numbering the TID also displays a steering centroid indicating the center weight of the TWS scan pattern.</p>
-<p>The HUD and VDI displays a steering cue guiding the pilot towards optimal target illumination and also displays range and Rmin and Rmax to target number 1.
-The TID displays the complete attack symbology with target prioritisation numbers and individual optimum launch ranges, for more info see <a class="reference internal" href="general.html#tws"><span class="std std-ref">Track While Scan (TWS)</span></a>.</p>
+<p>通过 CAP 面板设置可以让 WCS 强制在发射序列中包括一个目标，还可以让 WCS 强制排除某个目标，不对其发射导弹，也是在 CAP 面板上设置。此外，勾选一个目标并按下 RIO 武器面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先级目标。</p>
+<p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示 TWS 扫描范围的中心点。</p>
+<p>HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、Rmin 和 Rmax。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">Track While Scan (TWS)</span></a>。</p>
 </div>
 </div>
 </div>
@@ -568,7 +552,7 @@ Each station is capable of carrying one GBU up to the size of the GBU-10. As for
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">GBU laser codes are set as per <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 的任务编辑器功能</span></a> or via the kneeboard.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">GBU laser codes are set as per <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> or via the kneeboard.</td>
 </tr>
 </tbody>
 </table>
@@ -1047,7 +1031,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="procedures.html" class="btn btn-neutral float-right" title="程序" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="procedures.html" class="btn btn-neutral float-right" title="流程" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="general.html" class="btn btn-neutral" title="总体设计和系统总览" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

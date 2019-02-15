@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-13 22:29+0800\n"
+"PO-Revision-Date: 2019-02-15 13:36+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -20,9 +20,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
 
+# 狐：procedure暂译为流程。下文所有check均暂译为确认而非检查
 #: ../../source/procedures.rst:2
 msgid "Procedures"
-msgstr "程序"
+msgstr "流程"
 
 #: ../../source/procedures.rst:5
 msgid "Checklists - Pilot"
@@ -55,7 +56,7 @@ msgstr "VENT AIRFLOW 拨轮 - 调定"
 # Oxygen-Vent Airflow Control Panel
 #: ../../source/procedures.rst:14
 msgid "Set thumbwheel to desired cockpit ventilation airflow."
-msgstr "通过拨轮按需设置驾驶舱通风气流"
+msgstr "通过拨轮按需设置座舱通风气流"
 
 # Volume/TACAN Command Panel
 #: ../../source/procedures.rst:17
@@ -65,7 +66,7 @@ msgstr "音调 VOLUME 控制旋钮 - 调定"
 # TACAN Control Panel
 #: ../../source/procedures.rst:19
 msgid "Tacan function selector - OFF."
-msgstr "TACAN功能旋钮 - OFF"
+msgstr "TACAN 功能旋钮 - OFF"
 
 # TACAN Control Panel
 #: ../../source/procedures.rst:21
@@ -75,22 +76,22 @@ msgstr "频道 - 调定"
 # TACAN panel, choose X or Y
 #: ../../source/procedures.rst:22
 msgid "Mode switch - Set."
-msgstr "TACAN模式开关 - 调定"
+msgstr "TACAN 模式开关 - 调定"
 
 # TACAN Control Panel, #5
 #: ../../source/procedures.rst:23
 msgid "VOL knob - Counterclockwise."
-msgstr "VOL旋钮 - 逆时针旋转"
+msgstr "VOL 旋钮 - 逆时针旋转"
 
 # ICS Control Panel
 #: ../../source/procedures.rst:26 ../../source/procedures.rst:491
 msgid "ICS panel - Set."
-msgstr "ICS面板 - 调定"
+msgstr "ICS 面板 - 调定"
 
 # ICS Control Panel
 #: ../../source/procedures.rst:28
 msgid "VOL knob - As desired."
-msgstr "VOL旋钮 - 按需"
+msgstr "VOL 旋钮 - 按需"
 
 # ICS Control Panel
 #: ../../source/procedures.rst:29 ../../source/procedures.rst:494
@@ -100,16 +101,16 @@ msgstr "放大器 - NORM"
 # ICS Control Panel
 #: ../../source/procedures.rst:30 ../../source/procedures.rst:495
 msgid "Function selector - COLD MIC."
-msgstr "ICS开关 - COLD MIC"
+msgstr "ICS 开关 - COLD MIC"
 
 # AFCS Control Panel
 #: ../../source/procedures.rst:33
 msgid "STAB AUG switches - OFF."
-msgstr "STAB AUG开关 - OFF"
+msgstr "STAB AUG 开关 - OFF"
 
 #: ../../source/procedures.rst:35
 msgid "UHF function selector - OFF."
-msgstr "UHF功能选择开关 - OFF"
+msgstr "UHF 功能选择开关 - OFF"
 
 # the switch on throttle?
 #: ../../source/procedures.rst:37
@@ -122,7 +123,7 @@ msgstr "**注意**"
 
 #: ../../source/procedures.rst:0
 msgid "Wings may move if wing control system fails"
-msgstr "如果机翼控制系统在接通电源和或液压的情况下发生故障"
+msgstr "如果机翼控制系统在接通电源和/或液压的情况下发生故障"
 
 #: ../../source/procedures.rst:0
 msgid "with electrical and/or hydraulic power on."
@@ -142,11 +143,11 @@ msgstr "外部灯光总开关 - 调定"
 
 #: ../../source/procedures.rst:45
 msgid "Set in accordance to standard procedures for current situation."
-msgstr "根据当前情况的标准程序进行设置"
+msgstr "根据当前情况的标准流程进行设置"
 
 #: ../../source/procedures.rst:48
 msgid "FLAP handle - Corresponding."
-msgstr "FLAP手柄 - 对应位置"
+msgstr "FLAP 手柄 - 相应位置"
 
 #: ../../source/procedures.rst:48
 msgid "Set to current flap position."
@@ -154,32 +155,32 @@ msgstr "设置为当前襟翼位置"
 
 #: ../../source/procedures.rst:50
 msgid "ASYM LIMITER switch - ON (guard down)."
-msgstr "ASYM LIMITER开关 - ON（保护盖关闭）"
+msgstr "ASYM LIMITER 开关 - ON（保护盖关闭）"
 
 #: ../../source/procedures.rst:52
 msgid "L and R ENG MODE SELECT switches - PRI."
-msgstr "L和R ENG MODE SELECT开关 - PRI"
+msgstr "L 和 R ENG MODE SELECT 开关 - PRI"
 
 #: ../../source/procedures.rst:54
 msgid "BACKUP IGNITION switch - OFF."
-msgstr "BACKUP IGNITION开关 - OFF"
+msgstr "BACKUP IGNITION 开关 - OFF"
 
 #: ../../source/procedures.rst:56
 msgid "THROTTLE TEMP switch - NORM."
-msgstr "THROTTLE TEMP开关 - NORM"
+msgstr "THROTTLE TEMP 开关 - NORM"
 
 #: ../../source/procedures.rst:58
 msgid "THROTTLE MODE switch - BOOST."
-msgstr "THROTTLE MODE开关 - BOOST"
+msgstr "THROTTLE MODE 开关 - BOOST"
 
 #: ../../source/procedures.rst:60
 msgid "L and R INLET RAMPS switches - AUTO."
-msgstr "L和R INLET RAMPS开关 - AUTO"
+msgstr "L 和 R INLET RAMPS 开关 - AUTO"
 
 #: ../../source/procedures.rst:62 ../../source/procedures.rst:423
 #: ../../source/procedures.rst:449
 msgid "ANTI SKID SPOILER BK switch - OFF."
-msgstr "ANTI SKID SPOILER BK开关 - OFF"
+msgstr "ANTI SKID SPOILER BK 开关 - OFF"
 
 # Fuel Management Panel
 #: ../../source/procedures.rst:64
@@ -188,20 +189,20 @@ msgstr "燃油管理面板 - 调定"
 
 #: ../../source/procedures.rst:66
 msgid "WING/EXT TRANS switch - AUTO."
-msgstr "WING/EXT TRANS开关 - AUTO"
+msgstr "WING/EXT TRANS 开关 - AUTO"
 
 # 加油探头开关
 #: ../../source/procedures.rst:67
 msgid "REFUEL PROBE switch - RET."
-msgstr "REFUEL PROBE开关 - RET"
+msgstr "REFUEL PROBE 开关 - RET"
 
 #: ../../source/procedures.rst:68
 msgid "DUMP switch - OFF."
-msgstr "DUMP开关 - OFF"
+msgstr "DUMP 开关 - OFF"
 
 #: ../../source/procedures.rst:69
 msgid "FEED switch - NORM (guard down)."
-msgstr "FEED供油选择开关 - NORM（保护盖关闭）"
+msgstr "FEED 供油选择开关 - NORM（保护盖关闭）"
 
 #: ../../source/procedures.rst:72
 msgid "LDG GEAR handle - DN."
@@ -209,7 +210,7 @@ msgstr "起落架手柄 - DN"
 
 #: ../../source/procedures.rst:74
 msgid "NOSE STRUT switch - OFF."
-msgstr "NOSE STRUT开关 - OFF"
+msgstr "NOSE STRUT 开关 - OFF"
 
 #: ../../source/procedures.rst:76
 msgid "Parking brake - Pull."
@@ -227,22 +228,22 @@ msgstr "高度表 - 调定"
 msgid "Set current elevation."
 msgstr "设置当前海拔高度"
 
+# wording
 #: ../../source/procedures.rst:82
-#, fuzzy
 msgid "Left and right FUEL SHUT OFF handles - In."
-msgstr "左右FUEL SHUT OFF手柄 - 推入"
+msgstr "左右 FUEL SHUT OFF 手柄 - 处于推入位置"
 
 #: ../../source/procedures.rst:84 ../../source/procedures.rst:215
 msgid "ACM panel - Set."
-msgstr "ACM面板 - 调定"
+msgstr "ACM 面板 - 调定"
 
 #: ../../source/procedures.rst:86
 msgid "ACM switch - OFF (guard down)."
-msgstr "ACM开关 - OFF（保护盖关闭）"
+msgstr "ACM 开关 - OFF（保护盖关闭）"
 
 #: ../../source/procedures.rst:87
 msgid "MASTER ARM switch - OFF (guard down)."
-msgstr "MASTER ARM开关 - OFF（保护盖关闭）"
+msgstr "MASTER ARM 开关 - OFF（保护盖关闭）"
 
 #: ../../source/procedures.rst:90
 msgid "Weapon select - OFF."
@@ -250,7 +251,7 @@ msgstr "武器选择 - OFF"
 
 #: ../../source/procedures.rst:92
 msgid "HUD and VDI filters - As required."
-msgstr "HUD和VDI过滤器 - 按需"
+msgstr "HUD 和 VDI 过滤器 - 按需"
 
 #: ../../source/procedures.rst:94 ../../source/procedures.rst:523
 msgid "Standby attitude gyro - Caged."
@@ -262,11 +263,11 @@ msgstr "加速度计 - 重置"
 
 #: ../../source/procedures.rst:98
 msgid "Clock - Wind and Set."
-msgstr "时钟 - 上发条并调定"
+msgstr "时钟 - 上紧并调定时间"
 
 #: ../../source/procedures.rst:100
 msgid "Fuel Bingo - Set."
-msgstr "BINGO油量 - 调定"
+msgstr "BINGO 油量 - 调定"
 
 #: ../../source/procedures.rst:102
 msgid "Circuit breakers - Checked."
@@ -286,7 +287,7 @@ msgstr "检查操纵泵是否增加刹车压强表读数"
 
 #: ../../source/procedures.rst:109
 msgid "HOOK handle - Corresponding."
-msgstr "HOOK手柄 - 对应位置"
+msgstr "HOOK 手柄 - 对应位置"
 
 #: ../../source/procedures.rst:109
 msgid "Set to current hook position."
@@ -298,31 +299,31 @@ msgstr "显示控制面板 - 调定"
 
 #: ../../source/procedures.rst:113
 msgid "MODE pushbutton - T.O."
-msgstr "MODE按钮 - T.O."
+msgstr "MODE 按钮 - T.O."
 
 #: ../../source/procedures.rst:114
 msgid "HUD DECLUTTER switch - OFF."
-msgstr "HUD DECLUTTER开关 - OFF"
+msgstr "HUD DECLUTTER 开关 - OFF"
 
 #: ../../source/procedures.rst:115
 msgid "HUD AWL switch - OFF."
-msgstr "HUD AWL开关 - OFF"
+msgstr "HUD AWL 开关 - OFF"
 
 #: ../../source/procedures.rst:116
 msgid "VDI MODE switch - NORM."
-msgstr "VDI MODE开关 - NORM"
+msgstr "VDI MODE 开关 - NORM"
 
 #: ../../source/procedures.rst:117
 msgid "VDI AWL switch - ACL."
-msgstr "VDI AWL开关 - ACL"
+msgstr "VDI AWL 开关 - ACL"
 
 #: ../../source/procedures.rst:118
 msgid "HSD MODE switch - NAV."
-msgstr "HSD MODE开关 - NAV"
+msgstr "HSD MODE 开关 - NAV"
 
 #: ../../source/procedures.rst:119
 msgid "STEER CMD pushbutton - DEST."
-msgstr "STEER CMD按钮 - DEST"
+msgstr "STEER CMD 按钮 - DEST"
 
 #: ../../source/procedures.rst:120
 msgid "DISPLAYS POWER switches - OFF."
@@ -330,19 +331,19 @@ msgstr "显示器电源开关 - OFF"
 
 #: ../../source/procedures.rst:123
 msgid "ELEV LEAD knob - Set."
-msgstr "航炮FLEV LEAD旋钮 - 调定"
+msgstr "ELEV LEAD 旋钮 - 调定"
 
 #: ../../source/procedures.rst:125
 msgid "INBD and OUTBD spoiler switches - NORM (guard down)."
-msgstr "扰流板故障超控 INBD / OUTBD开关 - NORM（保护盖关闭）"
+msgstr "扰流板超控 INBD / OUTBD 开关 - NORM（保护盖关闭）"
 
 #: ../../source/procedures.rst:127
 msgid "L and R generator switches - NORM."
-msgstr "MASTER GEN面板 L和R开关 - NORM"
+msgstr "MASTER GEN 面板 L 和 R 开关 - NORM"
 
 #: ../../source/procedures.rst:129
 msgid "EMERG generator switch - NORM (guard down)."
-msgstr "EMERG开关 - NORM（保护盖关闭）"
+msgstr "EMERG 开关 - NORM（保护盖关闭）"
 
 #: ../../source/procedures.rst:131
 msgid "Air-condition controls - Set."
@@ -350,7 +351,7 @@ msgstr "空调控制 - 调定"
 
 #: ../../source/procedures.rst:133
 msgid "TEMP mode selector switch - AUTO."
-msgstr "TEMP模式选择开关 - AUTO"
+msgstr "TEMP 模式选择开关 - AUTO"
 
 #: ../../source/procedures.rst:134
 msgid "TEMP thumbwheel control - As desired (5-7 equals medium setting)."
@@ -358,19 +359,19 @@ msgstr "温度指轮控制 - 按需（5-7为中档）"
 
 #: ../../source/procedures.rst:136
 msgid "CABIN PRESS switch - NORM."
-msgstr "CABIN PRESS开关 - NORM"
+msgstr "CABIN PRESS 开关 - NORM"
 
 #: ../../source/procedures.rst:137
 msgid "AIR SOURCE pushbutton - OFF."
-msgstr "AIR SOURCE按钮 - OFF"
+msgstr "AIR SOURCE 按钮 - OFF"
 
 #: ../../source/procedures.rst:140
 msgid "WSHLD AIR switch - OFF."
-msgstr "WSHLD AIR开关 - OFF"
+msgstr "WSHLD AIR 开关 - OFF"
 
 #: ../../source/procedures.rst:142
 msgid "ANTI-ICE switch - AUTO/OFF."
-msgstr "ANTI-ICE开关 - AUTO/OFF"
+msgstr "ANTI-ICE 开关 - AUTO/OFF"
 
 #: ../../source/procedures.rst:144
 msgid "COMPASS panel - Set."
@@ -382,39 +383,39 @@ msgstr "罗盘模式旋钮 - SLAVED"
 
 #: ../../source/procedures.rst:147
 msgid "Hemisphere N-S switch - Set."
-msgstr "南北半球N-S开关 - 调定"
+msgstr "南北半球 N-S 开关 - 调定"
 
 #: ../../source/procedures.rst:148
 msgid "LAT knob - Set."
-msgstr "LAT旋钮 - 调定"
+msgstr "LAT 旋钮 - 调定"
 
 #: ../../source/procedures.rst:151
 msgid "ARA-63 panel - OFF."
-msgstr "ARA-63面板 - OFF"
+msgstr "ARA-63 面板 - OFF"
 
 #: ../../source/procedures.rst:153
 msgid "CHANNEL selector - Set."
-msgstr "CHANNEL选择器 - 调定"
+msgstr "CHANNEL 选择器 - 调定"
 
 #: ../../source/procedures.rst:154
 msgid "POWER switch - OFF."
-msgstr "POWER开关 - OFF"
+msgstr "POWER 开关 - OFF"
 
 #: ../../source/procedures.rst:157
 msgid "MASTER LIGHT panel controls - As required."
-msgstr "主灯光控制面板 - 按需"
+msgstr "MASTER LIGHT 控制面板 - 按需"
 
 #: ../../source/procedures.rst:159 ../../source/procedures.rst:208
 msgid "MASTER TEST switch - OFF."
-msgstr "MASTER TEST开关 - OFF"
+msgstr "MASTER TEST 开关 - OFF"
 
 #: ../../source/procedures.rst:161
 msgid "EMERG FLT HYD switch - AUTO (guard down)."
-msgstr "EMERG FLT HYD开关 - AUTO（保护盖关闭）"
+msgstr "EMERG FLT HYD 开关 - AUTO（保护盖关闭）"
 
 #: ../../source/procedures.rst:163
 msgid "HYD TRANSFER PUMP switch - SHUT OFF (guard up)."
-msgstr "HYD TRANSFER PUMP开关 - SHUT OFF（保护盖开启）"
+msgstr "HYD TRANSFER PUMP 开关 - SHUT OFF（保护盖开启）"
 
 #: ../../source/procedures.rst:165
 msgid "CANOPY air diffuser lever - CABIN AIR."
@@ -422,19 +423,20 @@ msgstr "舱盖通风手柄 - CABIN AIR"
 
 #: ../../source/procedures.rst:167
 msgid "VIDEO CONTROL switch - OFF."
-msgstr "VIDEO CONTROL开关 - OFF"
+msgstr "VIDEO CONTROL 开关 - OFF"
 
 #: ../../source/procedures.rst:171 ../../source/procedures.rst:569
 msgid "Prestart"
 msgstr "启动前"
 
 # plane captain?
+# 狐：此处及下文所有plane captain暂译为地勤
+# TODO: Check translation here when ED implements deck crews
 #: ../../source/procedures.rst:174
-#, fuzzy
 msgid ""
 "Order plane captain to connect and apply starter air and apply external "
 "power."
-msgstr "命令机长连接并使用启动气源和外部电源"
+msgstr "命令地勤连接并使用启动气源和外部电源"
 
 #: ../../source/procedures.rst:174
 msgid "Wait for confirmation."
@@ -446,36 +448,48 @@ msgstr "如果机翼不在停放后掠（OV SWP）状态："
 
 #: ../../source/procedures.rst:0
 msgid "WING SWEEP DRIVE NO. 1 and WG SWP DRIVE NO 2/MANUV FLAP cb's (LE1, LE2)"
-msgstr "WING SWEEP DRIVE NO.1和WG SWP DRIVE NO.2/MANUV FLAP断路器(LE1, LE2)"
+msgstr ""
+"WING SWEEP DRIVE NO.1 和 WG SWP DRIVE NO.2/MANUV FLAP 断路器（LE1, LE2）"
 
 #: ../../source/procedures.rst:0
 msgid "- Pull."
-msgstr "- 抽出"
+msgstr "\\- 抽出"
 
+# 狐：此处及下文所有Emergency WINGSWEEP handle均统一暂译为紧急机翼后掠手柄
 #: ../../source/procedures.rst:0
 msgid "Emergency WINGSWEEP handle"
-msgstr "应急机翼后掠手柄"
+msgstr "紧急机翼后掠手柄"
 
+# position tape 位置带？
+# need more info
+# ----------------------
+# plane captain uses sticks/bars to indicates the actual position of the wing. and the pilot use the wing-sweep command handle to change commanded position displayed on this Wing-Sweep Indicator, which is a vertical tape
+# -----------------------
+# Wing-Sweep Indicator:
+# Indicator detailing status of the wing-sweep system.
+# Leftmost indicator pointer shows wing-sweep program position which is also the max forward angle at present airspeed and altitude.
+# Middle tape shows commanded wing-sweep position.
+# Rightmost tape shows actual wing-sweep position.
+# The five indicator windows shows current operating mode.
 #: ../../source/procedures.rst:0
-#, fuzzy
 msgid "- Extend and match captain bars with wing position tape."
-msgstr "- 根据机翼位置带展开并与机长的杆匹配"
+msgstr "\\- 展开位，使机翼后掠指示器位置匹配和地勤标杆指示位置"
 
 #: ../../source/procedures.rst:0
 msgid "Wings will move to emergency handle position regardless of"
-msgstr "机翼总是会无视机翼后掠断路器状态"
+msgstr "机翼会无视后掠断路器的状态"
 
 #: ../../source/procedures.rst:0
 msgid "wing-sweep circuit-breaker (cb) position."
-msgstr "移至应急手柄位"
+msgstr "移动到紧急手柄指示的位置"
 
 #: ../../source/procedures.rst:186 ../../source/procedures.rst:576
 msgid "ICS - Check."
-msgstr "ICS - 检查"
+msgstr "ICS - 确认"
 
 #: ../../source/procedures.rst:188
 msgid "Landing gear indicator and transition light - Check."
-msgstr "起落架指示器和位置转换指示灯 - 检查"
+msgstr "起落架指示器和位置转换指示灯 - 确认"
 
 #: ../../source/procedures.rst:188
 msgid "Check gear position indication down and transition light off."
@@ -483,15 +497,15 @@ msgstr "检查起落架位置指示在放下位并且位置转换指示灯熄灭
 
 #: ../../source/procedures.rst:191
 msgid "MASTER TEST switch - Check."
-msgstr "MASTER TEST开关 - 检查"
+msgstr "MASTER TEST 开关 - 确认"
 
 #: ../../source/procedures.rst:0
 msgid "LTS - Check that all warning, caution and advisory lights illuminate."
-msgstr "LTS - 检查所有告警，注意和提示灯亮"
+msgstr "LTS - 确认所有告警灯、注意灯和提示灯亮起"
 
 #: ../../source/procedures.rst:0
 msgid "FIRE DET/EXT - Check that L and R FIRE and GO light illuminate."
-msgstr "FIRE DET/EXT - 确认左右FIRE和GO灯亮"
+msgstr "FIRE DET/EXT - 确认左右 FIRE 和 GO 灯亮起"
 
 #: ../../source/procedures.rst:0
 msgid "INST - Check for following responses on instruments after 5 secs:"
@@ -527,27 +541,27 @@ msgstr "氧气量 - 2升"
 
 #: ../../source/procedures.rst:206
 msgid "L and R FUEL FLOW lights - Illuminated."
-msgstr "左右FUEL FLOW灯 - 亮"
+msgstr "左右 FUEL FLOW 灯 - 亮"
 
 #: ../../source/procedures.rst:0
 msgid "Coordinate with RIO."
-msgstr "与RIO协作"
+msgstr "与RIO协同"
 
 #: ../../source/procedures.rst:0
 msgid "Set brightness of the ACM panel and indexer lights during test."
-msgstr "在测试时调定ACM面板和索引灯的亮度"
+msgstr "在测试时调定 ACM 面板和索引灯的亮度"
 
 #: ../../source/procedures.rst:0
 msgid "The DATA LINK switch must be on to check DDI lights."
-msgstr "开启DATA LINK开关以检查DDI灯"
+msgstr "DATA LINK 开关必须开启以确认 DDI 灯光"
 
 #: ../../source/procedures.rst:0
 msgid "Makes L STALL and R STALL warning lights flash."
-msgstr "使L STALL和R STALL灯闪烁"
+msgstr "使 L STALL 和 R STALL 灯闪烁"
 
 #: ../../source/procedures.rst:0
 msgid "Verify RIO FUEL QTY."
-msgstr "确认RIO燃油表读数"
+msgstr "确认 RIO 燃油表读数"
 
 #: ../../source/procedures.rst:211 ../../source/procedures.rst:589
 msgid "Ejection seats - Armed."
@@ -555,7 +569,7 @@ msgstr "弹射座椅 - 解除保险"
 
 #: ../../source/procedures.rst:211
 msgid "Verify RIO seats armed."
-msgstr "确认RIO座椅解除保险"
+msgstr "确认 RIO 座椅解除保险"
 
 #: ../../source/procedures.rst:213 ../../source/procedures.rst:591
 msgid "CANOPY handle - Close."
@@ -567,11 +581,11 @@ msgstr "机炮射速 - 调定并检查剩余弹药量"
 
 #: ../../source/procedures.rst:218
 msgid "SW COOL - OFF."
-msgstr "SW COOL开关 - OFF"
+msgstr "SW COOL 开关 - OFF"
 
 #: ../../source/procedures.rst:219
 msgid "MSL PREP - OFF."
-msgstr "MSL PREP开关 - OFF"
+msgstr "MSL PREP 开关 - OFF"
 
 #: ../../source/procedures.rst:220
 msgid "MSL MODE - NORM."
@@ -588,21 +602,20 @@ msgstr "确认挂载武器的一致性"
 # 应急挂载抛离按钮灯 - 熄灭
 #: ../../source/procedures.rst:224
 msgid "EMERG STORES JETT pushbutton light - Out."
-msgstr "EMERG STORES JETT按钮灯 - 灭"
+msgstr "EMERG STORES JETT 按钮灯 - 熄灭"
 
 #: ../../source/procedures.rst:226
 msgid "LADDER light - Out."
-msgstr "LADDER警告灯 - 灭"
+msgstr "LADDER 警告灯 - 熄灭"
 
 # plane captain is a ground crew position
 #: ../../source/procedures.rst:226
-#, fuzzy
 msgid "Order plane captain to stow boarding ladder and steps."
-msgstr "命令飞机机长登上登机梯和台阶"
+msgstr "命令地勤收起登机梯和脚踏板"
 
 #: ../../source/procedures.rst:228
 msgid "Inform RIO - Ready to start."
-msgstr "通知RIO - 准备启动"
+msgstr "通知 RIO - 准备启动"
 
 #: ../../source/procedures.rst:232 ../../source/procedures.rst:598
 msgid "Engine Start"
@@ -610,49 +623,49 @@ msgstr "发动机启动"
 
 #: ../../source/procedures.rst:235
 msgid "Check AIR SOURCE switch is set to OFF."
-msgstr "检查AIR SOURCE开关位于OFF档"
+msgstr "确认 AIR SOURCE 开关位于 OFF 档"
 
 # 液压传动泵开关拨到OFF（升起保护盖）
 #: ../../source/procedures.rst:237
 msgid "Set HYD TRANSFER PUMP switch to OFF. (Guard up)"
-msgstr "HYD TRANSFER PUMP开关拨到OFF（升起保护盖）"
+msgstr "HYD TRANSFER PUMP 开关拨到 OFF（升起保护盖）"
 
 # 应急飞控液压开关拨到低，
 #: ../../source/procedures.rst:0
 msgid "EMERG FLT HYD switch to LOW,"
-msgstr "EMERG FLT HYD开关拨到LOW，"
+msgstr "EMERG FLT HYD 开关拨到LOW，"
 
 #: ../../source/procedures.rst:0
 msgid "Check for ON flag in EMER FLT LOW hydraulic pressure window."
-msgstr "检查EMER FLT LOW液压窗口中的ON标志"
+msgstr "检查 EMER FLT LOW 液压窗口中的 ON 标志"
 
 #: ../../source/procedures.rst:0
 msgid "Verify control over horizontal"
-msgstr "确认水平方向的控制"
+msgstr "通过控制面位置指示器"
 
 #: ../../source/procedures.rst:0
 msgid "and rudder control surfaces on surface position indicator."
-msgstr "和控制面指示器上的方向舵控制面"
+msgstr "确认水平和方向舵控制面响应正常"
 
 #: ../../source/procedures.rst:0
 msgid "EMERG FLT HYD switch to HIGH,"
-msgstr "EMERG FLT HYD开关拨到HIGH，"
+msgstr "EMERG FLT HYD 开关拨到 HIGH，"
 
 #: ../../source/procedures.rst:0
 msgid "Check for ON flag in EMER FLT HI hydraulic pressure window."
-msgstr "检查EMER FLT HI液压窗口中的ON标志"
+msgstr "检查 EMER FLT HI 液压窗口中的 ON 标志"
 
 #: ../../source/procedures.rst:0
 msgid "Should have a higher deflection rate than LOW."
-msgstr "液压表读数指针应该具有比LOW档位更高的偏转率"
+msgstr "液压表读数指针偏转率应该比 LOW 档位更高"
 
 #: ../../source/procedures.rst:0
 msgid "EMERG FLT HYD switch to AUTO(LOW),"
-msgstr "EMERG FLT HYD开关拨到AUTO(LOW)，"
+msgstr "EMERG FLT HYD 开关拨到 AUTO (LOW)，"
 
 #: ../../source/procedures.rst:0
 msgid "Check for OFF flags in both EMER FLT LOW and HI."
-msgstr "检查 EMER FLT LOW 和 HI 窗口中的 OFF 标志"
+msgstr "确认 EMER FLT LOW 和 HI 窗口中的 OFF 标志"
 
 #: ../../source/procedures.rst:0
 msgid "ENG CRANK switch to R (Right engine)."
@@ -680,23 +693,23 @@ msgstr "当转速达到20%后，将右侧油门推至怠速位置"
 
 #: ../../source/procedures.rst:0
 msgid "Will automatically actuate ignition system and fuel flow."
-msgstr "这将自动启动点火系统并注油"
+msgstr "点火和注油系统将自动启动"
 
 #: ../../source/procedures.rst:0
 msgid "Light off (EGT temperature rise) should occur within 5-15 secs."
-msgstr ""
+msgstr "5-15秒内指示灯将熄灭（EGT 温度上升）"
 
 #: ../../source/procedures.rst:0
 msgid "EGT temperature should peak around 40-50% and not exceed 890 °C"
-msgstr "EGT 温度在转速40%-50%时达到峰值，且不超过890°C"
+msgstr "EGT 温度应在转速40%-50%时达到峰值且不超过890°C"
 
 #: ../../source/procedures.rst:0
 msgid "which constitutes a hot start."
-msgstr "否则会构成热启动"
+msgstr "否则为热启动"
 
 #: ../../source/procedures.rst:0
 msgid "Check ENG CRANK switch returns to OFF around 50% rpm"
-msgstr "发动机转速约50%时，检查 ENG CRANK 开关退回 OFF 档位"
+msgstr "发动机转速约50%时，确认 ENG CRANK 开关退回 OFF 档位"
 
 #: ../../source/procedures.rst:0
 msgid "and START/VALVE caution light turns off."
@@ -712,7 +725,7 @@ msgstr "如果 START/VALVE 注意灯仍亮起，切断启动器供气"
 
 #: ../../source/procedures.rst:266
 msgid "Check R GEN caution light turns off."
-msgstr "检查 R GEN 注意灯熄灭"
+msgstr "确认 R GEN 注意灯熄灭"
 
 #: ../../source/procedures.rst:266
 msgid "At around 59% rpm."
@@ -720,7 +733,7 @@ msgstr "发动机转速约59%时"
 
 #: ../../source/procedures.rst:268
 msgid "Check R FUEL PRESS caution light turns off."
-msgstr "检查 R FUEL PRESS 提示灯熄灭"
+msgstr "确认 R FUEL PRESS 提示灯熄灭"
 
 #: ../../source/procedures.rst:268
 msgid "Before idle rpm."
@@ -728,7 +741,7 @@ msgstr "发动机转速进入怠速区间前"
 
 #: ../../source/procedures.rst:270
 msgid "Check engine idle instrument readings."
-msgstr "检查发动机怠速状态下仪表读数"
+msgstr "确认发动机怠速状态下仪表读数"
 
 #: ../../source/procedures.rst:272
 msgid "RPM - 62 to 78%."
@@ -757,37 +770,44 @@ msgstr "FLT HYD PRESS - 3000 psi"
 # plane captain
 #: ../../source/procedures.rst:280
 msgid "Order plane captain to disconnect external electrical power."
-msgstr ""
+msgstr "命令地勤切断外部电源供应"
 
 #: ../../source/procedures.rst:0
 msgid "ENG CRANK switch to L (Left engine)."
-msgstr "ENG CRANK 开关拨至 L （左发动机）"
+msgstr "ENG CRANK 开关拨至 L（左发动机）"
 
 #: ../../source/procedures.rst:0
 msgid ""
 "When combined hydraulic pressure reaches 3000 psi switch ENG CRANK back to "
 "OFF."
-msgstr "当左右发液压压强达到3000 psi后，将 ENG CRANK 拨至 OFF 档位"
+msgstr "当左右发液压压强达到3000 psi 后，将 ENG CRANK 拨至 OFF 档位"
 
 #: ../../source/procedures.rst:0 ../../source/procedures.rst:299
 msgid "HYD TRANSFER PUMP switch to NORMAL."
 msgstr "HYD TRANSFER PUMP 拨至 NORMAL"
 
+# 狐：此处combined side是否为上文combined hydraulic pressure的“双发”含义？
+# --------------------------------------
+# The F-14 has two separate hydraulic systems, the flight hydraulic system and the combined hydraulic system
+# Both systems are driven by hydraulic pumps connected to each engine, the flight hydraulic system from the right engine and the combined hydraulic system from the left engine. Both systems are pressurised to around 3,000 psi when operating normally.
 #: ../../source/procedures.rst:0
 msgid "If it does not pressurize combined side within 10 secs,"
-msgstr ""
+msgstr "若10秒内综合液压系统没有加压"
 
 #: ../../source/procedures.rst:0
 msgid "immediately set HYD TRANSFER PUMP switch to SHUTOFF."
 msgstr "立刻将 HYD TRANSFER PUMP 开关拨至 SHUTOFF"
 
+# 狐：对应上文combined side，flight side暂译为飞控液压
+# need more info for hyd sys on f-14
+# flight side and the other side is what side?
 #: ../../source/procedures.rst:0
 msgid "Will operate from flight side to maintain"
-msgstr ""
+msgstr "飞行液压系统将会通过液压转移泵"
 
 #: ../../source/procedures.rst:0
 msgid "combined side at between 2400-2600 psi."
-msgstr ""
+msgstr "来维持综合液压系统的压强在2400-2600 psi 的区间内"
 
 #: ../../source/procedures.rst:291
 msgid "HYD TRANSFER PUMP switch to SHUTOFF."
@@ -800,11 +820,11 @@ msgstr "左发动机启动流程应重复上述步骤中的6至11"
 # plane captain
 #: ../../source/procedures.rst:295
 msgid "Order plane captain to disconnect starter air."
-msgstr ""
+msgstr "命令地勤切断启动器供气"
 
 #: ../../source/procedures.rst:297
 msgid "Cycle AIR SOURCE switch to L ENG, R ENG, then set it to BOTH ENG."
-msgstr "循环切换 AIR SOURCE 开关至 L ENG 和 R ENG，然后将其拨至 BOTH ENG"
+msgstr "依次切换 AIR SOURCE 开关至 L ENG 和 R ENG，然后将其拨至 BOTH ENG"
 
 #: ../../source/procedures.rst:297
 msgid "Verify cockpit airflow at all positions."
@@ -838,14 +858,15 @@ msgstr "告知 RIO 测试完成"
 # Voltage Monitor Control Unit
 #: ../../source/procedures.rst:0
 msgid "VMCU operation - Check."
-msgstr "VMCU 工作状态 - 检查"
+msgstr "VMCU 工作状态 - 确认"
 
 #: ../../source/procedures.rst:0
 msgid ""
 "Following disengagement of MASTER TEST - EMERG GEN the following lights "
 "should illuminate for just under 2 secs:"
 msgstr ""
-"转动 MASTER TEST 旋钮到 非 EMERG GEN 档位的位置上，下列灯光应亮起不超过2秒："
+"随着 MASTER TEST 旋钮从 EMERG GEN 档位上旋到其他位置，以下灯光应亮起不超过2"
+"秒："
 
 #: ../../source/procedures.rst:319
 msgid "PITCH STAB 1 and 2."
@@ -857,7 +878,7 @@ msgstr "ROLL STAB 1 和 ROLL STAB 2"
 
 #: ../../source/procedures.rst:321
 msgid "YAW STAB OP and OUT."
-msgstr "YAW STAB OP和YAW STAB OUT"
+msgstr "YAW STAB OP 和 YAW STAB OUT"
 
 #: ../../source/procedures.rst:322
 msgid "SPOILERS."
@@ -880,17 +901,16 @@ msgid "MACH TRIM."
 msgstr "MACH TRIM"
 
 #: ../../source/procedures.rst:317
-#, fuzzy
 msgid ""
 "RUDDER AUTH light will not go out until reset by MASTER RESET pushbutton and "
 "PITCH and ROLL STAB AUG switches will have turned OFF."
 msgstr ""
-"RUDDER AUTH灯会保持亮起，直到按下MASTER RESET按钮重置，且PITCH和ROLL STAB AUG"
-"关闭"
+"RUDDER AUTH 灯会保持亮起直到按下 MASTER RESET 按钮重置，而 PITCH 和 ROLL "
+"STAB AUG 应已关闭"
 
 #: ../../source/procedures.rst:329
 msgid "Advise RIO that test and check is complete."
-msgstr "告知RIO测试和检查完毕"
+msgstr "告知 RIO 测试和检查完毕"
 
 #: ../../source/procedures.rst:333
 msgid "AFTC - Check."
@@ -898,58 +918,60 @@ msgstr "AFTC - 检查"
 
 #: ../../source/procedures.rst:0
 msgid "L ENG MODE SELECT switch - SEC."
-msgstr "L ENG MODE SELECT开关 - SEC"
+msgstr "L ENG MODE SELECT 开关 - SEC"
 
 #: ../../source/procedures.rst:0
 msgid "L ENG MODE SELECT switch - PRI."
-msgstr "L ENG MODE SELECT开关 PRI"
+msgstr "L ENG MODE SELECT 开关 PRI"
 
 #: ../../source/procedures.rst:0
 msgid "R ENG MODE SELECT switch - SEC."
-msgstr "R ENG MODE SELECT开关 - SEC"
+msgstr "R ENG MODE SELECT 开关 - SEC"
 
 #: ../../source/procedures.rst:0
 msgid "R ENG MODE SELECT switch - PRI."
-msgstr "R ENG MODE SELECT开关 - PRI"
+msgstr "R ENG MODE SELECT 开关 - PRI"
 
 #: ../../source/procedures.rst:0
 msgid "L ENG SEC light illuminates, left NOZ indicator points below zero."
-msgstr "L ENG SEC灯亮，左NOZ表读数指向零以下"
+msgstr "L ENG SEC 灯亮，左 NOZ 表读数指向零以下"
 
 #: ../../source/procedures.rst:0
 msgid "L ENG SEC light goes out, NOZ indicator to 100%."
-msgstr "L ENG SEC灯灭，NOZ表读数100%"
+msgstr "L ENG SEC 灯灭，NOZ 表读数100%"
 
 #: ../../source/procedures.rst:0
 msgid "R ENG SEC light illuminates, right NOZ indicator points below zero."
-msgstr "R ENG SEC灯亮，右NOZ表读数指向零以下"
+msgstr "R ENG SEC 灯亮，右 NOZ 表读数指向零以下"
 
 #: ../../source/procedures.rst:0
 msgid "R ENG SEC lights goes out, NOZ indicator to 100%."
-msgstr "R ENG SEC灯灭，NOZ表读数100%"
+msgstr "R ENG SEC 灯灭，NOZ 表读数100%"
 
 #: ../../source/procedures.rst:344
 msgid "Emergency WING SWEEP handle - 0V SW."
-msgstr "应急机翼后掠手柄 - OV SW"
+msgstr "紧急机翼后掠手柄 - OV SW"
 
 #: ../../source/procedures.rst:346
 msgid ""
 "If wings are not in oversweep, move the wing-sweep emergency handle to 68° "
 "in raised position."
-msgstr "如果机翼不处于停放后掠状态，将应急机翼后掠手柄移至68°收起位置"
+msgstr "如果机翼不处于停放后掠状态，将紧急机翼后掠手柄移至68°收起位置"
 
 #: ../../source/procedures.rst:348
 msgid ""
 "Then raise handle to full extension and hold until HZ TAIL AUTH caution "
 "light goes out and OVER flag appears on wing-sweep indicator."
 msgstr ""
-"然后升起手柄至完全伸展位置并握住，直到HZ TAIL AUTH注意灯写灭且机翼后掠指示器"
-"出现OVER旗标"
+"然后将手柄提至完全伸展位置并保持，直到 HZ TAIL AUTH 注意灯熄灭且机翼后掠指示"
+"器出现 OVER 旗标"
 
 #: ../../source/procedures.rst:350
 msgid "Move handle to full aft OV SW and stow."
-msgstr "手柄拉向最后至OV SW位置并收起"
+msgstr "手柄拉向最后至 OV SW 位置并收起"
 
+# 狐：原文：“机翼后掠模式开关”
+# * 开关在油门杆上，无label标识，翻译？不翻译？
 #: ../../source/procedures.rst:352
 msgid "Wing-sweep mode switch - AUTO."
 msgstr "机翼后掠模式开关 - AUTO"
@@ -957,7 +979,7 @@ msgstr "机翼后掠模式开关 - AUTO"
 #: ../../source/procedures.rst:354
 msgid "WING SWEEP DRIVE NO.1 and WG SW DR NO. 2/MANUV FLAP cb (LE1, LE2) - In."
 msgstr ""
-"WING SWEEP DRIVE NO.1和WG SW DR NO. 2/MANUV FLAP断路器（LE1、LE2） - 按下"
+"WING SWEEP DRIVE NO.1 和 WG SW DR NO. 2/MANUV FLAP 断路器（LE1、LE2） - 按下"
 
 #: ../../source/procedures.rst:356 ../../source/procedures.rst:389
 msgid "WING/EXT TRANS switch - OFF."
@@ -974,19 +996,19 @@ msgstr "无线电/导航/起落架/显示器 - ON"
 
 #: ../../source/procedures.rst:362
 msgid "UHF function selector - TR+G or BOTH."
-msgstr "UHF功能拨钮 - TR+G或BOTH"
+msgstr "UHF 功能拨钮 - TR+G 或 BOTH"
 
 #: ../../source/procedures.rst:363 ../../source/procedures.rst:630
 msgid "TACAN function selector - T/R."
-msgstr "TACAN功能拨钮 - T/R"
+msgstr "TACAN 功能拨钮 - T/R"
 
 #: ../../source/procedures.rst:364
 msgid "ARA-63 POWER switch - ON."
-msgstr "ARA-63 POWER开关 - ON"
+msgstr "ARA-63 POWER 开关 - ON"
 
 #: ../../source/procedures.rst:365
 msgid "DISPLAYS control switches - ON."
-msgstr "所有显示器控制开关 - ON"
+msgstr "DISPLAYS 控制开关 - ON"
 
 #: ../../source/procedures.rst:366
 msgid "RADAR ALTITUDE - ON."
@@ -1006,11 +1028,11 @@ msgstr "至少在起飞两分钟前完成这步操作"
 
 #: ../../source/procedures.rst:375
 msgid "MASTER TEST switch - OBC."
-msgstr "MASTER TEST开关 - OBC"
+msgstr "MASTER TEST 开关 - OBC"
 
 #: ../../source/procedures.rst:375
 msgid "Coordinate with RIO and plane captain."
-msgstr "与RIO和地勤协同操作"
+msgstr "与 RIO 和地勤协作"
 
 #: ../../source/procedures.rst:377
 msgid "Autopilot - Engage."
@@ -1022,24 +1044,25 @@ msgstr "作为上述测试的一部分"
 
 #: ../../source/procedures.rst:379
 msgid "Speed brake switch - EXT, then RET."
-msgstr "减速板开关 - EXT，然后RET"
+msgstr "减速板开关 - EXT，然后 RET"
 
 #: ../../source/procedures.rst:0
 msgid "First test partial extension and retraction, then full."
-msgstr "首先测试减速板部分伸展和收起，然后测试完全展开和收起"
+msgstr "首先测试减速板部分展开和收起，然后测试完全展开和收起"
 
+# to verify (that) intergrated trim operation (is working)? needs more work
 #: ../../source/procedures.rst:0
 msgid ""
 "Check for fluctuations in stabilizer to verify integrated trim operation."
-msgstr ""
+msgstr "确认安定面晃动以确认综合配平工作正常"
 
 #: ../../source/procedures.rst:383
 msgid "REFUEL PROBE switch - All EXT, then RET."
-msgstr "REFUEL PROBE开关 - EXT档位至完全伸出，然后RET直至收起"
+msgstr "REFUEL PROBE 开关 - EXT 档位至完全伸出，然后选择 RET 档位"
 
 #: ../../source/procedures.rst:383
 msgid "Check normal function and that transition light illuminates normally."
-msgstr "检查受油管功能正常，且受油管伸缩指示灯正常亮起"
+msgstr "确认受油管功能正常，且受油管伸缩指示灯正常亮起"
 
 #: ../../source/procedures.rst:385
 msgid "WSHLD AIR switch - Cycle."
@@ -1051,7 +1074,7 @@ msgstr "OBC - OFF"
 
 #: ../../source/procedures.rst:387
 msgid "If engaged, verify that autopilot disengages."
-msgstr "如果OBC开启，确认自动驾驶解除"
+msgstr "如果 OBC 开启，确认自动驾驶解除"
 
 #: ../../source/procedures.rst:391
 msgid "Trim - Checked and Set 000."
@@ -1063,15 +1086,20 @@ msgstr "**舰上作业略过步骤24至42**"
 
 #: ../../source/procedures.rst:397
 msgid "Emergency WING SWEEP handle - 20°."
-msgstr "应急机翼后掠手柄 - 20°"
+msgstr "紧急机翼后掠手柄 - 20°"
 
 #: ../../source/procedures.rst:0
 msgid "**CAUTION - WING MOVEMENT**"
-msgstr "**注意 - 机翼伸展**"
+msgstr "**注意 - 机翼作动**"
 
+# 狐：spider detent暂译为蜘蛛棘爪，需核实
+# -----------------------------------
+# 首先，右边这个塑料保护盖可以向后打开。开盖后，黄色的手柄可以向上抽出（来增加杠杆长度，使得控制更精细）。在保护状态下，黄色的手柄由油门内的随动机构控制，根据机翼的位置来移动；如果向上抽出手柄，并施加30磅力，就会解除随动，进入紧急手动控制。
+# 将手柄推回，然后按下燃油管理面板上的MASTER RESET，就会重新激活随动和自动控制
 #: ../../source/procedures.rst:0
+#, fuzzy
 msgid "After moving handle to 20° (full forward), engage spider detent."
-msgstr ""
+msgstr "将手柄移动至20°（最前）后，启动蜘蛛棘爪"
 
 #: ../../source/procedures.rst:0
 msgid "Stow handle and guard."
@@ -1079,15 +1107,15 @@ msgstr "收起手柄并合上保护盖"
 
 #: ../../source/procedures.rst:0
 msgid "HZ TAIL AUTH light will illuminate momentarily coming out of OVSW."
-msgstr "HZ TAIL AUTH（平尾控制权）灯将在退出OVSW（停放后掠）状态时点亮"
+msgstr "HZ TAIL AUTH 灯将在退出 OV SW 状态时短暂亮起"
 
 #: ../../source/procedures.rst:405
 msgid "External lights - Check."
-msgstr "外部灯光 - 检查"
+msgstr "外部灯光 - 确认"
 
 #: ../../source/procedures.rst:405
 msgid "According to situation."
-msgstr "按需"
+msgstr "根据需要"
 
 #: ../../source/procedures.rst:407
 msgid "Flaps and slats - DN."
@@ -1095,11 +1123,11 @@ msgstr "襟翼和缝翼 - DN"
 
 #: ../../source/procedures.rst:0
 msgid "Check for full deflection and operation of outboard spoiler module."
-msgstr "检查外侧扰流板是否全偏转以及正常作动"
+msgstr "确认外侧扰流板是否全偏转以及正常作动"
 
 #: ../../source/procedures.rst:0
 msgid "Also check for 3° trailing edge up of stabilizer."
-msgstr "同时检查水平尾翼，后缘3°向上"
+msgstr "同时确认水平尾翼后缘是否向上抬起3°"
 
 #: ../../source/procedures.rst:411
 msgid "Flight controls - Cycle."
@@ -1113,30 +1141,30 @@ msgstr "确认上述控制面可在完整行程内偏转，且偏转速率正常
 
 #: ../../source/procedures.rst:413
 msgid "DLC - Check."
-msgstr "DLC（直接增升控制）- 检查"
+msgstr "DLC - 检查"
 
 #: ../../source/procedures.rst:413
 msgid "Verify horizontal tail shift with DLC input."
-msgstr "确认在DLC输入下的水平尾翼作动"
+msgstr "确认 DLC 输入时水平尾翼是否作动"
 
 # ANTI SKID SPOILER BK.（防滑/扰流板制动）开关 - SPOILER BK.
 #: ../../source/procedures.rst:415
 msgid "ANTI SKID SPOILER BK. switch - SPOILER BK."
-msgstr "ANTI SKID SPOILER BK开关 - SPOILER BK"
+msgstr "ANTI SKID SPOILER BK 开关 - SPOILER BK"
 
 #: ../../source/procedures.rst:417
 msgid "MASTER TEST switch - STICK SW."
-msgstr "MASTER TEST开关 - STICK SW."
+msgstr "MASTER TEST 开关 - STICK SW"
 
 #: ../../source/procedures.rst:0
 msgid "SPOILER light illuminates and all spoilers fall down."
-msgstr "SPOILER灯亮，且所有扰流板放下"
+msgstr "SPOILER 灯亮，且所有扰流板放下"
 
 #: ../../source/procedures.rst:0
 msgid ""
 "GO light should illuminate with 1 inch of movement of stick in each "
 "direction."
-msgstr "操纵杆向各个方向上移动1英寸时，GO灯应亮起"
+msgstr "操纵杆向各方向移动1英寸时，GO 灯应亮起"
 
 #: ../../source/procedures.rst:421
 msgid "Spoilers and throttles - Check."
@@ -1150,9 +1178,11 @@ msgstr "襟翼和缝翼 - UP"
 msgid "Maneuver flaps - DN."
 msgstr "机动襟翼 - DN"
 
+# 狐：原文：油门机翼后掠模式开关 - MAN 50
+# on throttle stick
 #: ../../source/procedures.rst:429
 msgid "WING SWEEP MODE switch - MAN 50."
-msgstr "油门机翼后掠模式开关 - MAN 50"
+msgstr "机翼后掠模式开关 - MAN 50"
 
 #: ../../source/procedures.rst:429
 msgid "If sweep does not stop at 50° immediately select AUTO."
@@ -1160,25 +1190,24 @@ msgstr "若机翼后掠未在50°时停止，立即选择AUTO"
 
 # what??
 #: ../../source/procedures.rst:431
-#, fuzzy
 msgid "Maneuver flaps - Crack Up."
-msgstr "机动襟翼 - 裂开"
+msgstr "机动襟翼 - 张开"
 
 #: ../../source/procedures.rst:433
 msgid "WING SWEEP MODE switch - BOMB."
-msgstr "油门机翼后掠模式开关 - BOMB"
+msgstr "机翼后掠模式开关 - BOMB"
 
 #: ../../source/procedures.rst:433
 msgid "Check maneuver flap retraction."
-msgstr "检查机动襟翼是否收起"
+msgstr "确认机动襟翼是否收起"
 
 #: ../../source/procedures.rst:435
 msgid "Emergency WING SWEEP handle - 68°."
-msgstr "应急机翼后掠手柄 - 68°"
+msgstr "紧急机翼后掠手柄 - 68°"
 
 #: ../../source/procedures.rst:437
 msgid "Emergency WING SWEEP handle - OV SW."
-msgstr "应急机翼后掠手柄 - OV SW"
+msgstr "紧急机翼后掠手柄 - OV SW"
 
 #: ../../source/procedures.rst:439
 msgid "WING SWEEP MODE switch - AUTO."
@@ -1191,17 +1220,16 @@ msgstr "**继续舰上作业检查单内容**"
 # ANTI SKID SPOILER BK（防滑/扰流板制动）开关 - BOTH
 #: ../../source/procedures.rst:445
 msgid "ANTI SKID SPOILER BK switch - BOTH."
-msgstr "ANTI SKID SPOILER BK开关 - BOTH"
+msgstr "ANTI SKID SPOILER BK 开关 - BOTH"
 
 #: ../../source/procedures.rst:447
 msgid "ANTI SKID - BIT."
-msgstr "ANTI SKID开关 - BIT"
+msgstr "ANTI SKID 开关 - BIT"
 
 # coarse, fine 精细校准？粗略校准？
 #: ../../source/procedures.rst:447
-#, fuzzy
 msgid "Ensure coarse gyro alignment complete before releasing parking brake."
-msgstr "解除停放刹车前，确保陀螺粗略校准完成"
+msgstr "解除停放刹车前，确保陀螺仪粗校准完成"
 
 #: ../../source/procedures.rst:0
 msgid "Radar altimeter - BIT."
@@ -1211,48 +1239,47 @@ msgstr "无线电高度计 - BIT"
 msgid ""
 "Depress SET knob, display should show 100 feet and indicator green light "
 "illuminates."
-msgstr "按下SET旋钮，应显示100英尺读数并亮绿灯"
+msgstr "按下 SET 旋钮，应显示100英尺读数并亮绿灯"
 
 #: ../../source/procedures.rst:0
 msgid ""
 "Release and indicator should show 0 feet, warning tone should sound in both "
 "cockpits and ALT LOW illuminates correspondingly."
 msgstr ""
-"松开旋钮后读数应显示0英尺，警告音应在前后驾驶舱内响起，并且ALT LOW灯相应点亮"
+"松开旋钮后读数应显示0英尺，警告音应在前后驾驶舱内响起，且 ALT LOW 灯点亮"
 
 #: ../../source/procedures.rst:458
 msgid "Displays - Check."
-msgstr "显示 - 检查"
+msgstr "显示器 - 检查"
 
 #: ../../source/procedures.rst:460
 msgid "Tacan - BIT."
-msgstr "TACAN控制面板 - BIT按钮按下"
+msgstr "TACAN 控制面板 - BIT 按钮按下"
 
 #: ../../source/procedures.rst:462
 msgid "ARA-63 - BIT."
-msgstr "ARA-63控制面板 - BIT按钮按下"
+msgstr "ARA-63 控制面板 - BIT 按钮按下"
 
 # HUD-Video Control Panel --> does not have a BIT button or switch position?
 #: ../../source/procedures.rst:464
-#, fuzzy
 msgid "HUD-VIDEO - BIT."
-msgstr "HUD-VIDEO - BIT（自检）"
+msgstr "HUD-VIDEO - BIT"
 
 #: ../../source/procedures.rst:466
 msgid "Altimeter - SET/RESET MODE."
-msgstr "气压高度表 - SET/RESET模式"
+msgstr "气压高度表 - SET/RESET 模式"
 
 #: ../../source/procedures.rst:468
 msgid "Compass - Check."
-msgstr "罗盘 - 检查"
+msgstr "罗盘 - 确认"
 
 #: ../../source/procedures.rst:468
 msgid "Check IMU heading on HUD, VDI, HSD and BDHI."
-msgstr "检查HUD、VDI、HSD和BDHI上的IMU航向"
+msgstr "检查HUD、VDI、HSD 和 BDHI 上的 IMU 航向"
 
 #: ../../source/procedures.rst:470
 msgid "Flight instruments - Check."
-msgstr "飞行仪表 - 检查"
+msgstr "飞行仪表 - 确认"
 
 #: ../../source/procedures.rst:475
 msgid "Checklists - RIO"
@@ -1260,28 +1287,29 @@ msgstr "检查单 - RIO"
 
 #: ../../source/procedures.rst:0
 msgid "Turn OXYGEN switch ON and check for airflow."
-msgstr "将OXYGEN开关拨至ON并检查气流"
+msgstr "将 OXYGEN 开关拨至 ON 并确认气流流出"
 
 #: ../../source/procedures.rst:0
 msgid "Turn OXYGEN switch OFF and check that airflow ceases."
-msgstr "将OXYGEN开关拨至OFF并检查气流消失"
+msgstr "将 OXYGEN 开关拨至 OFF 并确认气流消失"
 
 #: ../../source/procedures.rst:485
 msgid "VENT AIRFLOW thumbwheel - OFF."
 msgstr "VENT AIRFLOW 拨轮 - OFF"
 
+# where is this panel?
 #: ../../source/procedures.rst:487
 #, fuzzy
 msgid "SYS TEST - SYS PWR ground check panel - Closed."
-msgstr "SYS TEST - SYS PWR地面检查面板 - 关"
+msgstr "SYS TEST - SYS PWR 地面检查面板 - 关"
 
 #: ../../source/procedures.rst:489
 msgid "KY-28 or KY-58 - P/OFF."
-msgstr "KY-28或KY-58电源模式开关 - P/OFF"
+msgstr "KY-28 或 KY-58 电源模式开关 - P/OFF"
 
 #: ../../source/procedures.rst:493
 msgid "VOL knob - Set."
-msgstr "VOL旋钮 - 调定"
+msgstr "VOL 旋钮 - 调定"
 
 #: ../../source/procedures.rst:498
 msgid "TACAN function selector - OFF."
@@ -1369,7 +1397,7 @@ msgstr "NAV MODE旋钮 - OFF"
 
 #: ../../source/procedures.rst:527
 msgid "Clock - Set and Wind."
-msgstr "时钟 - 上紧发条并调定时间"
+msgstr "时钟 - 上紧并调定时间"
 
 #: ../../source/procedures.rst:529
 msgid "WCS switch - OFF."
@@ -1428,11 +1456,11 @@ msgstr "IFF ANT 开关 - OFF（中置）"
 
 #: ../../source/procedures.rst:554
 msgid "IND LT-DDI BIT switch - Off (center)."
-msgstr "IND LT-DDI BIT开关 - OFF（中置）"
+msgstr "IND LT-DDI BIT 开关 - OFF（中置）"
 
 #: ../../source/procedures.rst:555
 msgid "GND CLG switch - OFF."
-msgstr "GND CLG开关 - OFF"
+msgstr "GND CLG 开关 - OFF"
 
 #: ../../source/procedures.rst:558
 msgid "RADAR BEACON switch - OFF."
@@ -1443,6 +1471,7 @@ msgid "RADAR BEACON MODE switch - Single or Double."
 msgstr "RADAR BEACON MODE 开关 - SINGLE 或 DOUBLE"
 
 # where is this switch?
+# ID: 296
 #: ../../source/procedures.rst:562
 #, fuzzy
 msgid "POWER SYS TEST switch - OFF."
@@ -1463,11 +1492,11 @@ msgid ""
 "systems as external air is used for cooling when no on-board air is "
 "available."
 msgstr ""
-"机内引气不可用，且无外部空气提供冷却的情况下启动WCS或显示器会导致系统损坏"
+"机内引气不可用，且无外部空气提供冷却的情况下启动 WCS 或显示器会导致系统损坏"
 
 #: ../../source/procedures.rst:576
 msgid "Verify two-way communication between crewmembers and adjust volume."
-msgstr "核实机组成员之间建立双向通信并调整音量"
+msgstr "确认机组成员之间建立双向通信并调整音量"
 
 #: ../../source/procedures.rst:578
 msgid "DL, TACAN and U/VHF - Set."
@@ -1497,20 +1526,21 @@ msgstr "LTS 测试 - 确认"
 msgid ""
 "Check that all caution and advisory lights, ECM lights and DDI lights "
 "illuminate."
-msgstr "检查所有警告和指示灯，ECM指示灯和DDI指示灯是否亮起"
+msgstr "检查所有警告和指示灯、ECM 指示灯和 DDI 指示灯是否亮起"
 
 #: ../../source/procedures.rst:0
 msgid "This is done when pilot selects LTS test on MASTER TEST switch."
-msgstr "由飞行员选择主测试开关上的LTS档位进行测试"
+msgstr "由飞行员选择 MASTER TEST 开关的 LTS 档位进行测试"
 
+# these are actual cockpit lights with text label on the side or on the light
 #: ../../source/procedures.rst:0
 msgid ""
 "*NOTE* When pilot selects INST test, RIO fuel counter should decrease to "
 "2000 pounds and MASTER CAUTION, FUEL LOW and OXY LOW lights should "
 "illuminate."
 msgstr ""
-"*注意* 当飞行员选择INST测试时，RIO燃油计数器应减少到2000磅，且主警告灯、低燃"
-"油量告警灯以及低氧浓度告警灯应亮起"
+"*注意* 当飞行员选择 INST 测试时，RIO 燃油计数器读数应减少至2000磅，且 MASTER "
+"CAUTION、FUEL LOW 和 OXY LOW 告警灯应亮起"
 
 #: ../../source/procedures.rst:589
 msgid "Visually check that pilot locking tab is depressed."
@@ -1530,12 +1560,10 @@ msgstr "通知飞行员，准备启动"
 
 # plane caption?
 #: ../../source/procedures.rst:600
-#, fuzzy
 msgid ""
 "The RIO monitors pilot procedures and plane captain signals to ensure "
 "maximum safety during engine start sequence."
-msgstr ""
-"RIO监视飞行员试车程序，同时注意地面控制信号以确保发动机启动程序中的作业安全"
+msgstr "RIO监视飞行员启动流程，同时注意地勤信号以确保发动机启动作业安全"
 
 #: ../../source/procedures.rst:606
 msgid "*Note*"
@@ -1545,13 +1573,13 @@ msgstr "*注意*"
 msgid ""
 "The RIO must ensure that the EMERG GEN check is completed before commencing "
 "poststart checklist."
-msgstr "RIO必须确保在进入启动程序检查单之前完成EMERG GEN检查"
+msgstr "RIO 必须在开始“启动后检查单”前完成 EMERG GEN 检查"
 
 #: ../../source/procedures.rst:609
 msgid ""
 "The ECS (Environmental Control System) should run for at least 3 minutes "
 "before avionics and AWG-9 power-up."
-msgstr "在航电设备和AWG-9通电之前，ECS（机电环境控制系统）应该运行至少三分钟"
+msgstr "在航电设备和 AWG-9 通电之前，ECS（环境控制系统）应该运行至少3分钟"
 
 #: ../../source/procedures.rst:612
 msgid "WCS switch - STBY."
@@ -1559,19 +1587,19 @@ msgstr "WCS 选择开关 - STBY"
 
 #: ../../source/procedures.rst:612
 msgid "Verify that AWG-9 COND light illuminates."
-msgstr "确认AWG-9 COND 灯亮"
+msgstr "确认 AWG-9 COND 灯亮"
 
 #: ../../source/procedures.rst:614
 msgid "LIQ COOLING switch - AWG-9 or AWG-9/AIM-54."
-msgstr "LIQ COOLING开关 - AWG-9 或 AWG-9/AIM-54"
+msgstr "LIQ COOLING 开关 - AWG-9 或 AWG-9/AIM-54"
 
 #: ../../source/procedures.rst:614
 msgid ""
 "Select AWG-9/AIM-54 if AIM-54 is loaded. Verify that AWG-9 COND light goes "
 "off and that AUTO BIT 2 is running (on TID)."
 msgstr ""
-"如果挂载AIM-54空对空导弹则选择AWG-9/AIM-54。确认AWG-9 COND 灯熄灭，且 AUTO "
-"BIT 2 正在运行（显示在TID上）"
+"如果挂载 AIM-54 空对空导弹则选择A WG-9/AIM-54。确认 AWG-9 COND 灯熄灭，且 "
+"AUTO BIT 2 正在运行（显示在TID上）"
 
 #: ../../source/procedures.rst:618
 msgid "IR/TV power switch - STBY/IR/TV."
@@ -1579,11 +1607,11 @@ msgstr "IR / TV 电源开关 - STBY/IR/TV"
 
 #: ../../source/procedures.rst:620
 msgid "CATEGORY knob - NAV."
-msgstr "CATEGORY选择钮 - NAV "
+msgstr "CATEGORY 选择钮 - NAV "
 
 #: ../../source/procedures.rst:622
 msgid "NAV MODE switch - Align."
-msgstr "航行模式选择开关 - ALIGN"
+msgstr "NAV MODE 开关 - ALIGN"
 
 #: ../../source/procedures.rst:624
 msgid "Communications - ON and Set."
@@ -1595,11 +1623,11 @@ msgstr "U/VHF 模式选择器 - T/R G"
 
 #: ../../source/procedures.rst:627
 msgid "DATA LINK switch - ON."
-msgstr "DATA LINK开关 - ON"
+msgstr "DATA LINK 开关 - ON"
 
 #: ../../source/procedures.rst:632
 msgid "RADAR WARNING RCVR panel - Set."
-msgstr "RADAR WARNING RCVR面板 - 调定"
+msgstr "RADAR WARNING RCVR 面板 - 调定"
 
 # Radar Warning Receiver Panel
 #: ../../source/procedures.rst:634
@@ -1608,15 +1636,15 @@ msgstr "DISPLAY TYPE 选择开关 - NORM"
 
 #: ../../source/procedures.rst:635
 msgid "PWR switch - ON."
-msgstr "RWR开关 - ON"
+msgstr "RWR 开关 - ON"
 
 #: ../../source/procedures.rst:636
 msgid "TEST switch - SPL."
-msgstr "TEST开关 - SPL"
+msgstr "TEST 开关 - SPL"
 
 #: ../../source/procedures.rst:637
 msgid "MODE button - LMT."
-msgstr "MODE开关 - LMT"
+msgstr "MODE 开关 - LMT"
 
 #: ../../source/procedures.rst:640
 msgid "DECM knob - STBY."
@@ -1624,19 +1652,17 @@ msgstr "DECM 电源/模式开关 - STBY"
 
 # OBC - On board checkout, starts OBC.
 #: ../../source/procedures.rst:642
-#, fuzzy
 msgid "When STBY light goes off, select hold 3 SEC, then ACT for OBC."
-msgstr "当STBY指示灯熄灭时，选择HOLD 3 SEC（保持3秒）档位，然后选择ACT"
+msgstr "当 STBY 指示灯熄灭时，选择 HOLD 3 SEC（保持3秒）档位，然后选择 ACT"
 
 #: ../../source/procedures.rst:646
 msgid "IFF MASTER knob - STBY."
-msgstr "IFF MASTER 主控制钮 - STBY"
+msgstr "IFF MASTER 旋钮 - STBY"
 
 # what CODE knob?
 #: ../../source/procedures.rst:648
-#, fuzzy
 msgid "Set CODE knob - As required."
-msgstr "调定CODE 按钮 - 按需"
+msgstr "调定 CODE 旋钮 - 按需"
 
 #: ../../source/procedures.rst:649
 msgid "IFF panel - Test."
@@ -1660,7 +1686,7 @@ msgstr "IFF ANT 开关 - AUTO"
 
 #: ../../source/procedures.rst:0
 msgid "Select NORM and observe that TEST light"
-msgstr "选择NORM并且观察TEST灯"
+msgstr "选择 NORM 并且观察 TEST 灯"
 
 #: ../../source/procedures.rst:0
 msgid "illuminates."
@@ -1689,7 +1715,7 @@ msgstr "计算机位址面板 - 按需输入数据"
 
 #: ../../source/procedures.rst:664
 msgid "WP, FP, etc, according to mission."
-msgstr "例如 WP FP等，根据任务需求 "
+msgstr "例如 WP FP 等，根据任务需求 "
 
 #: ../../source/procedures.rst:666
 msgid "DDD - Set."
@@ -1710,7 +1736,6 @@ msgstr "BRIGHT 旋钮 - 调定"
 # Tactical Information Display (TID)
 # CLSN
 #: ../../source/procedures.rst:672
-#, fuzzy
 msgid "CLSN - OFF."
 msgstr "CLSN 按钮 - OFF"
 
@@ -1768,14 +1793,16 @@ msgid "DATA/ADF switch - BOTH."
 msgstr "DATA/ADF 开关 - BOTH"
 
 # Hand Control Unit (HCU) ?
+# The stick combined with the panel base below it together is called HCU?
+# 手控单元？<-- somewhat vague
 #: ../../source/procedures.rst:692
 #, fuzzy
 msgid "Hand control panel - Set."
-msgstr "手控面板-设置"
+msgstr "手控面板 - 调定"
 
 #: ../../source/procedures.rst:694
 msgid "Light test - Depress and Check."
-msgstr "点亮测试-按下检测"
+msgstr "点亮测试 - 按下检测"
 
 #: ../../source/procedures.rst:695
 msgid "El Vernier - Set 0° elevation on radar."
@@ -1783,7 +1810,7 @@ msgstr "ELEV 拨轮 - 在雷达上调定0°"
 
 #: ../../source/procedures.rst:0
 msgid "All AWG-9 lights should illuminate."
-msgstr "所有AWG-9雷达灯光应该亮起"
+msgstr "所有 AWG-9 雷达指示灯应该亮起"
 
 #: ../../source/procedures.rst:698
 msgid "AN/ALE-39 - Set."
@@ -1811,17 +1838,21 @@ msgstr "S-QRY - 2"
 msgid "SALVO INTERVAL - 0.4."
 msgstr "S-INTV - 0.4"
 
+# 狐：原文：舱盖除雾/驾驶舱通风手柄
+# Canopy Defog/Cabin Air Lever
+# This level does have a label on each of its position; leave it as it is
 #: ../../source/procedures.rst:706
 msgid "CANOPY DEFOG-CABIN AIR lever - CABIN AIR."
-msgstr "驾驶舱除雾/通风手柄 - CABIN AIR"
+msgstr "CANOPY DEFOG / CABIN AIR 手柄 - CABIN AIR"
 
+# 狐：原文：数据链应答
 #: ../../source/procedures.rst:708
 msgid "D/L reply - As required."
-msgstr "数据链应答 - 按需"
+msgstr "D/L 应答 - 按需"
 
 #: ../../source/procedures.rst:710
 msgid "AAI control panel - Set."
-msgstr "AAI控制面板-设置"
+msgstr "AAI 控制面板-设置"
 
 #: ../../source/procedures.rst:712
 msgid "TEST/CHAL CC switch - Test."
@@ -1861,7 +1892,7 @@ msgstr "TID NAV 模式 - INS"
 
 #: ../../source/procedures.rst:727
 msgid "DEST data - Verify."
-msgstr "DEST数据 - 核实"
+msgstr "DEST 数据 - 核实"
 
 #: ../../source/procedures.rst:729
 msgid "BRG/DIST to destination - Check."

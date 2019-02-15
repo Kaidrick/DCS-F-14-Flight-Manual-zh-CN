@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 15:27+0800\n"
-"PO-Revision-Date: 2019-02-13 21:25+0800\n"
+"PO-Revision-Date: 2019-02-15 21:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -47,11 +47,11 @@ msgid ""
 "controlling the systems at the RIO seat he performs all actions that a human "
 "RIO would have to do."
 msgstr ""
-"Jester 被完全集成进了后驾驶舱，他需要控制将近所有的后舱系统并且聚焦于前座飞行"
-"员在其座位上所无法完成的操作，同样，他还被建模以考虑到一名真正的 RIO 的局限"
-"性，这意味着，除了这些以外，他目前的头部位置，目视所及之范围以及他的手在作什"
-"么，都被完全建模以做考量。当在 RIO 座位上控制这些系统时他将执行所有真人 RIO "
-"所需要执行的操作。"
+"Jester 被完全集成进了后座驾驶舱，他需要控制后座驾驶舱内几乎所有的系统，特别是"
+"那些前座飞行员无法完成的操作，同样，我们为 Jester 构建模型时，还考虑了到一名"
+"真正人类 RIO 的局限性，也就是说，除了各种各样的限制因素外，RIO 当前头部位置，"
+"目视搜索范围以及他的手在操作什么——Jester AI 的人类行为模型充分考虑到了这些因"
+"素。Jester AI 能够像人类一样坐在 RIO 座位上控制所有系统，执行各种各样的操作。"
 
 #: ../../source/dcs.rst:17
 msgid ""
@@ -62,10 +62,10 @@ msgid ""
 "talking to you and apart from acknowledging orders he will also communicate "
 "pertinent information to the pilot depending on situation."
 msgstr ""
-"要命令/控制 Jester ，通过一个命令盘菜单即可实现快速操作。该命令盘菜单中的内容"
-"会根据当前模式选择和目前的状况进行动态的调整。Jester 的反馈会调用录音库中的语"
-"句并通过内话系统传递给玩家，以模拟出与实际 RIO 交流的体验，并且，除了确认指令"
-"以外，Jester 还会根据当前的情况向飞行员传达相关信息。"
+"玩家可以通过一个环形选单快速访问并选择 Jester 的命令/控制。该选单中的内容会根"
+"据当前所处的模式和目前的状况进行动态的调整。Jester 的反馈会调用语音库中的语句"
+"并通过内话系统传递给玩家，以此模拟 RIO 交流的真实体验，而且，除了确认指令外，"
+"Jester 还会根据当前的情况向飞行员传达相关信息。"
 
 #: ../../source/dcs.rst:20
 msgid ""
@@ -75,8 +75,8 @@ msgid ""
 "in the configuration the human player left them."
 msgstr ""
 "最后，在多人游戏中，加入其他玩家的 RIO 会发现加入时所有的控制（例如：开关的位"
-"置等）都处在 Jester 离开前所留下的位置上，同理，若玩家 RIO 离开，Jester也会按"
-"照玩家所留下的设置来接手玩家的工作。"
+"置等）都处在 Jester 离开前操作的位置上，同理，若玩家 RIO 离开，Jester也会按照"
+"玩家所留下的设置来接手 RIO 的工作。"
 
 #: ../../source/dcs.rst:24
 msgid "Functionality"
@@ -93,13 +93,12 @@ msgid ""
 "petal while holding the Jester menu keybind for more than 0.5 seconds. This "
 "can be enabled or disabled in the F-14B options."
 msgstr ""
-"在默认设置下，Jester 菜单需要按下 **A** 来调出，选择其中的项目（1到8）则是通"
-"过 **CTRL + 1** 到 **8** 实现的。这些按键命令可以被修改或是设置到控制器上。您"
-"可以在 DCS 按键设置中选择 F-14 飞行员分类并在 Jester 子条目下找到上述按键设"
-"定。按花瓣方式设置的菜单子条目使得它们可以被轻松设定在游戏控制器的八向苦力帽"
-"上。此外，您可以通过调整驾驶舱视角的方式选择命令盘中的一个选项并通过按住 "
-"Jester 菜单按键超过0.5秒来进行选择。这个选项可以在 F-14B 的专用设置中启用或停"
-"用。"
+"在默认设置下，按下 **A** 来调出Jester 菜单，通过 **CTRL + 1** 到 **8** 选择其"
+"中的项目（1到8）。这些按键命令可以被更改或是设置到控制器上。玩家可以在 DCS 按"
+"键设置中选择 F-14 飞行员分类并在 Jester 子条目下找到上述按键设定。按花瓣装的"
+"菜单子选项使得它们可以被轻松设定对应游戏控制器的八向苦力帽位置。此外，玩家可"
+"以通过按住 Jester 菜单按键超过 0.5 秒，然后通过转动驾驶舱视角的方式来选择环形"
+"选单中的某个选项。这个功能可以在 F-14B 的专用设置中启用或禁用。"
 
 #: ../../source/dcs.rst:32
 msgid ""
@@ -112,11 +111,11 @@ msgid ""
 "menu. In addition the take-off and landing modes have their own contextual "
 "menus only available when in those modes."
 msgstr ""
-"上图便是 Jester 主菜单。菜单中包含了所有可用的不同子菜单。选择 Jester 菜单的"
-"第一个选项通常会进入到下一个子菜单中，子菜单的内容会由飞机目前的模式和状态所"
-"决定。举例，在空中选择空对空模式会将玩家直接引导至 **超视距 - 雷达** 菜单，而"
-"在空中选择空对地模式则会进入 **空对地 - 武器** 页面。除此之外，起飞和着陆模式"
-"也有只在这些模式启用时才启用的子菜单。"
+"上图是 Jester 主菜单。菜单中包含了所有可用的不同子菜单。选择 Jester 菜单的第"
+"一个选项通常会进入到下一个子菜单中，子菜单的内容会由飞机目前的模式和状态所决"
+"定。例如，在空中选择空对空模式时，玩家直接被引导至 **超视距 - 雷达** 菜单，而"
+"在空中选择空对地模式时，则会进入 **空对地 - 武器** 页面。此外，起飞和着陆模式"
+"也有各自对应的、且只能在这些模式下启用的子菜单。"
 
 #: ../../source/dcs.rst:36
 msgid ""
@@ -125,8 +124,9 @@ msgid ""
 "Jester menu enabling selection of a different contextual menu than the "
 "automatic one."
 msgstr ""
-"在按下 Jester 菜单按键并进入相关子菜单页面后再一次按下同样的按键后将显示 "
-"Jester 主菜单，以选择与自动选择的子菜单所不同的另一个子菜单。"
+"按下 Jester 菜单按键并进入与当前模式相关子菜单页面后，再一次按下同样的按键后"
+"将返回 Jester 主菜单，如此一来便可选择根据模式自动关联的子菜单以外的其他菜单"
+"选项。"
 
 #: ../../source/dcs.rst:38
 msgid ""
@@ -134,8 +134,8 @@ msgid ""
 "is thus, **Menu OFF** -> **Contextual menu depending on mode and situation** "
 "-> **Main Menu** -> **Menu OFF**."
 msgstr ""
-"连续按下 Jester 菜单按键后的正常显示序列是这样： **菜单关闭** -> **依据模式和"
-"情况决定的子菜单** -> **主菜单** -> **菜单关闭**。"
+"连续按下 Jester 菜单按键（默认按键 **A**）后的正常显示序列是： **菜单关闭** -"
+"> **依据模式和情况关联的子菜单** -> **主菜单** -> **菜单关闭**。"
 
 #: ../../source/dcs.rst:40
 msgid ""
@@ -145,8 +145,8 @@ msgid ""
 "keypads to set frequencies and other numbers in those systems."
 msgstr ""
 "通过这些菜单便使得从前座控制后舱的诸多系统成为了可能。不同子菜单的内容可能会"
-"根据之前的指令而发生变化，并且某些系统使用命令盘中的选项作为输入键盘以在对应"
-"系统中设置频率或是其他数字。"
+"根据之前的指令而发生变化，并且某些系统使用环形选单中的选项作为输入/数字键盘在"
+"对应系统中设置频率或是其他数值。"
 
 #: ../../source/dcs.rst:43
 msgid ""
@@ -157,13 +157,12 @@ msgid ""
 "marker in this case the menu will show the user time since created and the "
 "name entered for the marker."
 msgstr ""
-"举例，我们可以通过用这样的方式和 Jester 沟通让他向导航系统中输入一个航路点坐"
+"例如，我们可以通过用这样的方式和 Jester 沟通让他向导航系统中输入一个航路点坐"
 "标。但是这需要大量连续而繁琐的按键。在这种情况下，作为捷径，我们可以让 "
-"Jester 从 F10 地图中设置的地图标记中输入一个导航点。在这种情况下，为了帮助选"
-"择标记，菜单将显示自创建标记时经过的时间以及标记点的名称。"
+"Jester 从 F10 地图中设置的地图标记中输入一个导航点。在这种情况下，为了帮助玩"
+"家选择标记，菜单将显示自标记创建后经过的时间以及标记点的名称。"
 
 #: ../../source/dcs.rst:46
-#, fuzzy
 msgid ""
 "In the case of a system needing to select a specific symbol, like choosing a "
 "target on the TID to lock in STT, the menu will allow the pilot to tell "
@@ -171,17 +170,17 @@ msgid ""
 "In addition it is also possible to specify a specific symbol/track to look "
 "using an azimuth/range system."
 msgstr ""
-"对于需要选择指定符号的系统，例如用 STT 锁定 TID 上的一个目标，菜单将允许飞行"
-"员告诉 Jester 锁定最近的目标或是最近的敌方目标等。除此之外，还可以用方位角系"
-"统指定特定的符号/轨迹以查看。"
+"如果某个系统中需要选择一个特定符号，例如，用 STT 锁定 TID 上的一个目标，飞行"
+"员可以通过菜单命令 Jester 锁定距离最近的目标或是距离最近的敌方目标等。除此之"
+"外，还可以用方位角/距离系统向 Jester 指定特定的符号/跟踪目标。"
 
 #: ../../source/dcs.rst:49
 msgid ""
 "Lastly, Jester is also able to read out the startup checklist helping the "
 "pilot to coldstart the F-14 in the assisted startup detailed further down."
 msgstr ""
-"最后， Jester 同样能够帮你读出启动检查单来帮助飞行员在冷仓启动过程中进一步熟"
-"悉 F-14 的启动过程。"
+"最后， Jester 同样能够帮你读出启动检查单，帮助飞行员在冷启动，下文中详细介绍"
+"了这个协助启动功能。"
 
 #: ../../source/dcs.rst:53
 msgid "Iceman"
@@ -196,9 +195,9 @@ msgid ""
 "back seat using the same methodology as the Jester controls from the front "
 "seat."
 msgstr ""
-"除了 Jester ，或者说，作为 Jester AI 的一部分， Heatblur DCS F-14B 同样有 "
-"Iceman ，一个基础的的自动驾驶仪/AI ，这适用于单人模式，当玩家在前后座之间跳转"
-"以同时控制两个驾驶舱内的系统时，这个基本的自动驾驶仪就会激活，并使用与控制 "
+"除了 Jester ，或者说，作为 Jester AI 的一部分， Heatblur DCS F-14B 同样实现"
+"了 Iceman ，一个基础的自动驾驶仪/AI 。这适用于单人模式，当玩家在前后座之间跳"
+"转以同时控制两个驾驶舱内的系统时，这个基本的自动驾驶仪就会激活，并使用与控制 "
 "Jester 相同的控制方法。"
 
 #: ../../source/dcs.rst:60
@@ -209,9 +208,10 @@ msgid ""
 "Heading and altitude can be set relative a target or as absolutes not "
 "referencing an external target."
 msgstr ""
-"基本原理是，当玩家切换到后舱 RIO 的座位时， Iceman 将接管控制来保持当前的航向"
-"和高度。菜单——现在是 Iceman 菜单了——允许玩家设置航向、高度和速度。航向和高度"
-"可以相对目标设定，也可以设定为不依照任何外部参考的绝对值。"
+"我们所说的基础功能是指，当玩家切换到后舱 RIO 的座位时， Iceman 将获取控制权，"
+"保持飞机当前的航向和高度。通过菜单——现在是 Iceman 菜单了——玩家可以设置航向、"
+"高度和速度。航向和高度可以相对某个目标进行设定，也可以设定为不参考任何外部目"
+"标的绝对值。"
 
 #: ../../source/dcs.rst:64
 msgid "Assisted Startup"
@@ -223,8 +223,8 @@ msgid ""
 "RIO would, or he can also help the pilot with an assisted startup in which "
 "he reads the pilot's checklist to him while starting."
 msgstr ""
-"对于冷启动， Jester 可以像一名真正的 RIO 一样执行他的检查单，也可以帮助飞行员"
-"进行协助启动。在协助启动中， Jester 会向你朗读飞行员的检查单。"
+"冷启动飞机时， Jester 可以像一名真正的 RIO 一样执行他的检查单，也可以帮助飞行"
+"员进行协助启动。在协助启动中， Jester 会向你朗读飞行员的检查单。"
 
 #: ../../source/dcs.rst:70
 msgid ""
@@ -236,11 +236,11 @@ msgid ""
 "after engine startup and EMERG GEN Master test he will ask for what INS "
 "alignment to go for, select this via the Jester menu as well."
 msgstr ""
-"如需执行正常的，无协助的启动，选择启动， Jester 将执行他的检查单。他有时候会"
+"如需执行常规的，无协助的启动，选择启动， Jester 将执行他的检查单。他有时候会"
 "询问飞行员是否完成了某些检查或是要求进行具体的测试，这可以通过 Jester 菜单中"
-"的选项来回复。举例，他会首先要求进行通讯检查，这便需要用到 Jester 菜单了。请"
-"注意，在完成引擎启动和 EMERG GEN Master 测试之后他将会询问使用何种 INS 校准，"
-"这同样也是通过 Jester 菜单来选择的。"
+"的选项来回复。举例，他会首先要求进行通讯检查，这便需要用到 Jester 菜单了。注"
+"意，在完成发哦那估计启动和 EMERG GEN Master 测试之后他将会询问使用何种方式校"
+"准 INS，这同样也是通过 Jester 菜单来选择的。"
 
 #: ../../source/dcs.rst:73
 msgid ""
@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../../source/dcs.rst:79
 msgid "HB DCS F-14 Specific Configuration Options"
-msgstr "DCS F-14 专用设置"
+msgstr "DCS F-14 专用设置选项"
 
 #: ../../source/dcs.rst:81
 msgid ""
@@ -263,8 +263,8 @@ msgid ""
 "F-14. These are located under **OPTIONS** -> **SPECIAL** -> **F-14B** on the "
 "main DCS menu."
 msgstr ""
-"Heatblur DCS F-14 将拥有仅影响 F-14 的设置选项，这些选项位于 DCS 主菜单下的 "
-"**选项** -> **专用设置** -> **F-14B** 页面。"
+"Heatblur DCS F-14 将拥有仅影响 F-14 的专用设置和选项，这些选项位于 DCS 主菜单"
+"下的 **选项** -> **专用设置** -> **F-14B** 页面。"
 
 #: ../../source/dcs.rst:84
 msgid "The available options are:"
@@ -301,7 +301,7 @@ msgstr "使用头部移动进行 Jester 菜单选择"
 #: ../../source/dcs.rst:93
 msgid ""
 "Enable use of head movement with VR or Track-IR to select Jester Menu items."
-msgstr "允许用头部移动选择 Jester 菜单中的条目（需要 VR 或 Track-IR）"
+msgstr "允许使用 VR 或 Track-IR 控制用头部移动选择 Jester 菜单中的条目"
 
 #: ../../source/dcs.rst:95
 msgid "Boring Jester"
@@ -329,7 +329,7 @@ msgstr "在 Jester 菜单上启用或禁用 Jester 镜头。"
 
 #: ../../source/dcs.rst:106
 msgid "DCS Mission Editor Functions Specific to the HB DCS F-14"
-msgstr "Heatblur DCS F-14 的任务编辑器功能"
+msgstr "Heatblur DCS F-14 任务编辑器相关功能"
 
 #: ../../source/dcs.rst:108
 msgid ""
@@ -351,8 +351,8 @@ msgid ""
 "Navigation Target Points page also available when configuring an aircraft "
 "group containing F-14s."
 msgstr ""
-"除了航路点1到3和基地之外，航路点还使用导航目标点页面进行设置。该页面在设置包"
-"含 F-14 的群组时仍然可用。"
+"除去航路点 1 到 3 和基地，其余的航路点可以通过导航目标点页面进行设置。该页面"
+"在设置包含 F-14 的群组时可用。"
 
 #: ../../source/dcs.rst:116
 msgid "Heatblur DCS F-14 Specific Options in the Mission Editor"
@@ -398,7 +398,7 @@ msgstr "INS 参考校准已存储"
 msgid ""
 "Sets whether a Reference Alignment is prestored for the INS on aircraft "
 "spawn."
-msgstr "设定在飞机重生时是否在 INS 系统中预先存有参考校准信息。"
+msgstr "设定在飞机重生时 INS 系统中是否预先存有参考校准信息。"
 
 #: ../../source/dcs.rst:129
 msgid "TACAN Channel Presel (0 = Auto)"
@@ -408,7 +408,7 @@ msgstr "塔康频道预选（0 = 自动）"
 msgid ""
 "Sets preselected TACAN channel on aircraft spawn. 0 sets closest station on "
 "spawn."
-msgstr "设定飞机重生时预先选择好的塔康频道。0将设置为重生时最近的基站。"
+msgstr "设定飞机重生时预先选择好的塔康频道。0 将设置为重生时最近的基站。"
 
 #: ../../source/dcs.rst:131
 msgid "TACAN Band"
@@ -424,7 +424,7 @@ msgstr "ILS 面板预选"
 
 #: ../../source/dcs.rst:133
 msgid "Sets preselected ICLS channel on aircraft spawn."
-msgstr "设定飞机重生时预先选择好的ICLS频道。"
+msgstr "设定飞机重生时预设的 ICLS 频道。"
 
 #: ../../source/dcs.rst:135
 msgid "KY-28 Encryption Key"
@@ -459,11 +459,11 @@ msgstr ""
 msgid ""
 "Waypoint 1 through 3 are set from their respective waypoints in the mission "
 "editor."
-msgstr "任务编辑器中航路点1到3是在各自所对应的航路点设置中所设置的。"
+msgstr "航路点 1 到 3 各自对应了任务编辑器中的航路点 1 到 3。"
 
 #: ../../source/dcs.rst:148
 msgid "Home Base is set to the landing waypoint."
-msgstr "Home Base则设置为着陆航路点。"
+msgstr "通过设置一个着陆航路点来设置 Home Base。"
 
 #: ../../source/dcs.rst:150
 msgid ""
@@ -521,11 +521,11 @@ msgstr ""
 
 #: ../../source/dcs.rst:165
 msgid "Datalink Waypoint 1 Through 3"
-msgstr "数据链路点 1 到 3"
+msgstr "数据链航路点 1 到 3"
 
 #: ../../source/dcs.rst:165
 msgid "DLWP1, DLWP2 and DLWP3"
-msgstr "DLWP1, DLWP2 及 DLWP3"
+msgstr "DLWP1、 DLWP2 和 DLWP3"
 
 #: ../../source/dcs.rst:167
 msgid "Datalink Surface Target"
