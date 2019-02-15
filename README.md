@@ -58,10 +58,10 @@ source > locale/cn/LC_MESSAGES 包含了用于本地化rST的所有po文件。�
   
     比如：
     
-      > - Pull
+       - Pull
       
     在po文件中的翻译应为：
     
-      > \- 抽出
+       \- 抽出
       
     为什么：“-”属于Sphinx中定义的syntax，所以需要添加“\”表示转义，“\-”转义符号表示“-”
