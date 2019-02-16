@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 0.2.1 | Feb. 15th, 2019
+                协作预览 | Feb. 16th, 2019
               </div>
             
           
@@ -115,7 +115,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-settings">空对地武器设定</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#air-to-ground-weapon-delivery">空对地武器投放</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#computer-target">计算机目标</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#computer-initial-point">Computer Initial Point</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#computer-initial-point">计算机初始点</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#computer-pilot">计算机引导</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#manual">手动</a></li>
 </ul>
@@ -137,7 +137,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">吊舱和油箱</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#fpu-1-fuel-tank">FPU-1 油箱</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#lantirn">LANTIRN</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lantirn">LANTIRN吊舱</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cnu-188-external-baggage-container">CNU-188 外挂行李舱</a></li>
 </ul>
 </li>
@@ -145,7 +145,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="procedures.html">流程</a></li>
-<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急流程</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 </ul>
@@ -410,112 +410,97 @@ and if a radar STT is present with AIM-9 selected it's not shown at all.</p>
 </div>
 <div class="section" id="air-to-ground-weapons">
 <h2>空对地武器<a class="headerlink" href="#air-to-ground-weapons" title="Permalink to this headline">¶</a></h2>
-<p>Despite being primarily designed as an air superioty fighter and an interceptor the F-14 was from the very start cleared and tested to carry all of the modern American general purpose bombs (GP) of the Mk-80 series.
-In addition it was also cleared to carry the Mk-20 Rockeye cluster bomb and the 5&quot; Zuni folding-fin aircraft rocket (FFAR).</p>
-<p>As the F-14's combat role changed to include the precision ground attack mission it was also cleared to carry several of the guided bomb unit (GBU) versions of the Mk-80 series bombs, more specifically, some of the laser guided versions.</p>
+<p>尽管格鲁曼公司主要将F14设计为一款空优型拦截战斗机，但它从一开始就非常明确地引入并测试了挂载美国现役Mk-80系列通用航空炸弹的功能。此外，它还可以挂载Mk-20石眼空对地集束炸弹以及五英寸直径折翼式航空火箭弹（FFAR）。</p>
+<p>随着F14所担负的作战任务改变为对地精确打击任务，其也随之具备了挂载数个Mk-80系列制导炸弹的能力，如果说得更具体些的话，这些制导炸弹通常都是激光制导版本。</p>
 <div class="section" id="air-to-ground-weapon-settings">
 <h3>空对地武器设定<a class="headerlink" href="#air-to-ground-weapon-settings" title="Permalink to this headline">¶</a></h3>
 <img alt="_images/armamentpanel1.png" src="_images/armamentpanel1.png" />
-<p>The air-to-ground weapon delivery is set up by the RIO on his armament panel on the left vertical panel of the RIO cockpit.</p>
-<p>The type of munition for delivery is set up by the wheel on the top of the panel, turning it to the correct munition.
-This configures the WCS with the correct parameters for the selected munition.</p>
+<p>空对地武器的投放的设定是通过RIO设置其位于后座座舱左垂直面板的武器面板界面而达成的。</p>
+<p>投放的弹药类型主要由面板顶部的转轮来设置，这将为武器控制系统（WCS）所选的弹药类型配置的正确参数。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The Mk-81, 82 and 83 have both a L and a H option being for low-drag and high-drag versions respectively.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Mk81，Mk82以及Mk83都有 L 和 H 的选项以分别对应航弹的低阻版本和高阻版本。</td>
 </tr>
 </tbody>
 </table>
-<p>Under DLVY MODE (delivery mode) it is possible to set STP/RPL (step/ripple) and SGL/PRS (single/pairs).
-The possible combinations are:</p>
+<p>在DLVY MODE（投送模式）下，可以设置STP / RPL（连续投放/波次投放）和SGL / PRS（单/双） 。可能的组合是：</p>
 <ul class="simple">
-<li>STP and SGL - Releases one store with each depression of the bomb relase button on the pilot stick.</li>
-<li>STP and PRS - As with STP and SGL but each depression of the bomb release button on the pilot stick releases a pair of stores. Only works for paired stations, 1 with 8, 3 with 6 and 4 with 5.</li>
-<li>RPL and SGL - Used with all attack modes, each depression of the bomb release button on the pilot stick releases set amount of stores set by the QTY (quantity) wheels with the interval set by the INTERVAL wheels (in milliseconds).</li>
-<li>RPL and PRS - As RPL and SGL but each release pulse releases a pair of stores, QTY still sets total amount of stores to be released.</li>
+<li>STP和SGL  - 每次按下操纵杆上的炸弹释放按钮即可投放一个炸弹。</li>
+<li>STP和PRS -就像STP和SGL一样，但是每按下操纵杆上的炸弹释放按钮，就会投放出一对炸弹。只适用于配对的挂架，挂架1对应挂架8,挂架3对应挂架6,挂架4对应挂架5。</li>
+<li>RPL和SGL -用于所有攻击模式，操纵杆上的炸弹释放按钮的每一下触发，其炸弹投放数量由数量轮设置，炸弹投放间隔由间隔轮设置(毫秒)。</li>
+<li>RPL和PRS -作为RPL和SGL，但是每个投送信号脉冲会投送一对炸弹，QTY仍然设置成要投送之炸弹的挂载总数。</li>
 </ul>
-<p>The MECH FUSE switch sets which mechanical fuse to arm on the stores. NOSE arms the nose fuse, SAFE inhibits arming of the fuses and NOSE/TAIL arms both fuses.</p>
-<p>The ELEC FUSE selector knob sets the electrical fuse of the store to be released:</p>
+<p>（Needs Works）</p>
+<p>电子引信选择钮设定要投放的挂载的电子引信类型</p>
 <ul class="simple">
-<li>SAFE - Inhibits electrical bomb fusing.</li>
-<li>VT - Sets air-burst mode at preset burst heigh for compatible stores.</li>
-<li>INST - Sets instantaneous burst mode.</li>
-<li>DLY 1 - Sets preset time delay 1.</li>
-<li>DLY 2 - Sets preset time delay 2.</li>
+<li>SAFE - 阻止炸弹的电子引信熔断</li>
+<li>VT - 给挂载设置空爆模式的预设空爆高度</li>
+<li>INST - 设定瞬爆模式</li>
+<li>DLY 1 - 设定预设的延迟时间 1</li>
+<li>DLY 2 - 设定预设的延迟时间 2</li>
 </ul>
-<p>The INTERVAL and QTY (quantity) wheels set the release interval (in milliseconds) and quantity of stores to be released, compatible with the delivery modes as seen above under DLVY MODE.</p>
-<p>Lastly, the 6 STA SEL (station select) switches set which pylons to use for store delivery. (Also used for selection of what stores to jettison.)
-To select a pylon for store delivery, set the corresponding switch to SEL. Stations 1 and 8 should be set to B for selection, SW was used to jettison AIM-9 Sidewinders but is now inoperable.</p>
+<p>INTERVAL和QTY (数量)转轮设置了投放间隔(毫秒)和要投放的挂载数量，与DLVY MODE投放模式兼容。</p>
+<p>最后，6 STA SEL（挂架选择）开关设置哪些挂架用于挂载投放。（也用于选择要丢弃的挂载。）要选择用于挂载投放的挂架，请将相应的开关设置为SEL。挂架1和挂架8应设置为 B 以供选择，SW按钮用于丢弃Aim-9响尾蛇导弹，但现在暂时无法使用。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">All F-14 bombs in DCS are assumed to have both types of fuzes so need both the mechanical and electrical fuze set. GBUs, Mk-20s and Mk-81 to 84s need the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中，F-14的炸弹都被设定成具有两种引信，所以需要将机械引信和电子引信都设置一遍。GBU系列，Mk-20系列以及Mk81-84系列需要将机械引信设置到 N 或者 N/T ，而Mk-82高阻弹和Mk-82 蛇眼 精确制导炸弹可以在 N 模式自由下落，并且由 N/T进行延迟。（这个结尾N/T进行延迟应该不对 麻烦校对思索一下了Orz）</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="air-to-ground-weapon-delivery">
 <h3>空对地武器投放<a class="headerlink" href="#air-to-ground-weapon-delivery" title="Permalink to this headline">¶</a></h3>
-<p>Air-to-ground delivery is initiated by pilot selection of the A/G mode on the display control panel.
-After tape read-in (about 30 seconds) the WCS initiates the Air-to-ground mode and enables relevant symbology on the displays.</p>
-<p>The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon.
-All other options are set by the RIO in the back seat.</p>
-<p>The available attack modes in the F-14B are set by the ATTK MODE selector in the pilot pit and are:</p>
+<p>飞行员在显示控制面板上选择了A/G模式后就开始进入空对地投放模式。在磁带数据读入后（大30秒）武器控制系统开始进入空对地模式并且在显示器上显示相关的符号。</p>
+<p>除非飞行员已经选择了另一种武器，否则投放武器将会被自动选择到当前所挂载的军械（ORD on the HUD）。所有的副选项都会被后座的RIO设定。</p>
+<p>可用的攻击模式是由位于飞行员座舱内的ATTK MODE选择器设定的，它们分别是：</p>
 <ul class="simple">
-<li>CMPTR TGT - Computer target, a semi-automatic computer guided mode similar to a CCRP mode in newer aircraft.</li>
-<li>CMPTR IP - Computer initial point, an extended CMPTR TGT mode using a known initial point (IP) as reference for store delivery. Mostly used in situations where the actual target is expected to be hard to locate visually and is located closely to an easily identifiable reference point/landmark.</li>
-<li>CMPTR PLT - Computer pilot, a manual computer and pilot guided mode using the WCS for store impact point indication on HUD. Similar to a CCIP mode in newer aircraft.</li>
-<li>MAN - Manual, manual backup mode in which the HUD displays a pipper (crosshair) on the HUD at the deflection set by the pilot. Used in case of a systems failure prehibiting the other modes.</li>
-<li>D/L BOMB - Data-link bomb, an automatic mode in which the pilot is steered via data-link cues for remotely controlled store delivery. (Not implemented in DCS at this point in time.)</li>
+<li>CMPTR TGT - 计算机目标，一种半自动计算机引导模式，类似于新型战机中的CCRP模式。</li>
+<li>CMPTR IP - 计算机初始点是CMPTR TGT模式的扩展模式，它使用一个已知的起始点作为挂载投放参考点。通常用于预期目标难以被目视定位但其附近有易于识别的参考点/地标的情况。</li>
+<li>CMPTR PLT - 计算机飞行员，使用挂载的武器控制系统在HUD上指示出冲击点的手动计算机&amp;飞行员导引模式。类似于新型战机中的CCIP模式</li>
+<li>MAN - 手动模式，手动备份模式，在这种模式下，HUD在HUD上以飞行员设置的偏转显示一个中心光点(十字准线)。用于系统出现故障时，预先启动其他模式。</li>
+<li>D/L BOMB - 数据链炸弹，一种自动模式，在这种模式下，驾驶员通过数据链路的提示来操纵，以便进行远程控制下的挂载投放。（此时在DCS中还不能使用）</li>
 </ul>
 <div class="section" id="computer-target">
 <h4>计算机目标<a class="headerlink" href="#computer-target" title="Permalink to this headline">¶</a></h4>
 <img alt="_images/cmptrtgt.png" src="_images/cmptrtgt.png" />
-<p>The computer target mode allows the pilot to designate a target onto which the WCS then guides the pilot towards store release.
-This mode is usable for all air-to-ground stores, including rockets.</p>
-<p>When selected the HUD displays the diamond as target designator and the bomb fall line (BFL) through the velocity vector and store impact point pipper (crosshair).</p>
+<p>计算机目标模式允许飞行员指定目标，之后WCS引导飞行员飞向挂载投放点。 此模式适用于所有空对地挂载，包括火箭弹。</p>
+<p>当选择计算机目标模式时，HUD通过速度矢量符和挂载落点准心（十字准线）显示菱形目标指示符和炸弹落线（BFL）。</p>
 <p>To designate a target the pilot steers the aircraft in azimuth to place the target along the BFL.
 Then UP/DN on the target designate switch on the left wall of the pilot cockpit is used to slew the target designator along the BFL until it overlays the target.
 At that point the target is designated by pressing the target designate switch to DES.</p>
-<p>After designation the target designation diamond becomes stabilized to the designated position on the ground and the AN/AWG-9 is slewed to it for range measurements.
-The BFL now remains overlaying the designated target while the store impact point pipper and aircraft velocity vector continues to follow aircraft movements.
-In addition the HUD now displays the upper and lower solution cues on the BFL.</p>
+<p>指定后，目标指定菱形稳定在地面上的指定位置，并且AN / AWG-9会转向它以进行距离测量。 BFL会持续覆盖指定的目标，而挂载落点准心和飞机速度矢量跟随飞机的移动而移动。 此外，HUD现在在BFL上显示高低投放标识。</p>
 <p>The pilot should now fly the velocity vector and store impact point over the BFL until the solution cues reaches them.
 The lower solution cue indicates imminent store release when passing the velocity vector and the pilot should by now be holding the bomb release button depressed to authorize WCS store release.
 When the upper solution cue reaches the velocity vector the WCS automatically releases set stores on the condition that the bomb release buttons is depressed.</p>
 <p>The pull up cue (bracket on the HUD) moves upwards on the HUD towards the velocity vector with decreasing altitude. When it reaches the velocity vector it indicates that the aircraft is below safe altitude for store release.</p>
 </div>
 <div class="section" id="computer-initial-point">
-<span id="cip"></span><h4>Computer Initial Point<a class="headerlink" href="#computer-initial-point" title="Permalink to this headline">¶</a></h4>
-<p>Functionally identical to the Computer target mode except that a preset initial point (IP) is designated instead of the actual target.
-The IP is preset before takeoff using data-link or manually by the RIO using the CAP.</p>
-<p>The IP waypoint should be a terrain feature expected to be visually identifiable by the pilot even if the target is not.</p>
-<p>To set the CAP the RIO designates the location of the IP waypoint as per the other waypoints in the system. (See CAP heading under AN/AWG-9 in the General design and systems overview section or the Navigation systems heading in the same section)</p>
-<p>The message (function) IP TO TGT on the CAP under the TAC DATA category is then used with the prefixes ALT, RNG and BRG to readout and set the following datapoints:
-*   ALT - Sets altitude difference of the target relative the IP waypoint.
-*   RNG - Sets range to target from the IP waypoint.
-*   BRG - Sets the bearing to the target from the IP waypoint.</p>
-<p>When the pilot designate the IP visually on the HUD the WCS recalculates the target location using the data set under the IP TO TGT function on the CAP, moves the target diamond to that location and instead displays guidance towards the real target location.</p>
-<p>All other functions of this mode are identical to the Computer target mode.</p>
+<span id="cip"></span><h4>计算机初始点<a class="headerlink" href="#computer-initial-point" title="Permalink to this headline">¶</a></h4>
+<p>功能上与计算机目标模式相同，只是预设了初始点（IP）而不是实际目标。可以使用数据链接在起飞前预设IP，或使用CAP由RIO手动预设IP。</p>
+<p>IP航路点应该是飞行员可以在用眼睛识别的地形特征，即使目标不是。</p>
+<p>为了设置CAP，RIO根据系统中的其他路点指定IP路点的位置。 （参见“一般设计和系统概述”部分的AN / AWG-9下的CAP部分或同一部分的导航系统部分）</p>
+<p>TAC DATA类别下CAP的消息（功能）IP TO TGT之后会与前缀ALT，RNG和BRG一起使用以读取和设置以下数据点： * ALT - 设置目标相对于IP路点的高度差。 * RNG - 从IP航路点设置目标范围。 * BRG - 从IP航点设置轴承到目标。</p>
+<p>当飞行员目视确认指定了目标，而且在HUD上选择目标后，WCS会使用CAP上IP TO TGT功能的数据集重新计算目标位置，WCS给飞行员的指示就会移动到实际标选的目标上，而不是之前用于进近的IP点上。</p>
+<p>此模式的所有其他功能与计算机目标模式相同。</p>
 </div>
 <div class="section" id="computer-pilot">
 <h4>计算机引导<a class="headerlink" href="#computer-pilot" title="Permalink to this headline">¶</a></h4>
 <img alt="_images/cmptrpilot.png" src="_images/cmptrpilot.png" />
-<p>The computer pilot mode uses the WCS to continually calculate and display an impact point for the configured store on the HUD.</p>
-<p>When selected the HUD displays the current store impact point in real-time using the pipper (crosshair).
-The target designation diamond is used when the WCS is configured for rockets and overlays the pipper to indicate that the configured store is out of range when displayed.
-As in the Computer target and IP modes the pull-up cue is used to indicate aircraft below safe store release altitude when at or above the velocity vector.</p>
-<p>To correctly engage the desired target the pilot flies the impact point pipper on the HUD over the target and then depresses the bomb release button.</p>
-<p>When using rockets the pilot should wait until the diamond dissappears, indicating that the selected store is within range and then use the control stick trigger to fire the rockets.</p>
+<p>计算机引导模式使用WCS连续计算并显示HUD上配置挂载的落点。</p>
+<p>选择计算机引导模式后，HUD使用准心（十字准线）实时显示当前的挂载落点。 当WCS配置为火箭弹时，如果没打到火箭弹的射程，会有一个菱形覆盖在准心上，表示不在当前武器的射程内。 与计算机目标和IP模式一样，
+当飞机的高度低于？？？。</p>
+<p>为了攻击目标，飞行员应用准心瞄准目标，然后按下炸弹释放按钮。</p>
+<p>当使用火箭弹时，飞行员应该等到菱形消失，即在所选火箭弹的射程内，使用扳机发射火箭弹。</p>
 </div>
 <div class="section" id="manual">
 <h4>手动<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h4>
 <img alt="_images/man.png" src="_images/man.png" />
-<p>The manual Air-to-ground mode is used as a back-up when the other modes are unavailable.</p>
-<p>By principle it works the same as the Computer pilot mode in that the pilot should fly the pipper on the HUD over the desired target.
-The pipper is in this mode not updated by the WCS however but instead set at a deflection from the ADL according to desired engagement speed, dive-angle and release altitude.</p>
+<p>当其他模式不可用时，手动空对地模式用作备用。</p>
+<p>原则上它与计算机引导模式的工作原理相同，因为飞行员应当用准心瞄准目标。在这个模式下WCS不会更新准心，但会根据所需的接近速度，俯冲角度和释放高度为ADL（武器基准线）设置偏转。</p>
 <p>This is set using the elevation lead panel on the pilot right side vertical panel using weapon engagement tables or by pilot estimation.</p>
 </div>
 </div>
@@ -597,44 +582,38 @@ They can be carried three to a TER on each of station 3, 4, 5 and 6 on the F-14B
 <h3>ADM-141 TALD（战术空射诱饵）<a class="headerlink" href="#adm-141-tald" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id11">
 <img alt="_images/tald.jpg" src="_images/tald.jpg" />
-<p class="caption"><span class="caption-text">U.S. Navy photo by Photographer's Mate 3rd Class Mark J. Rebilas. (041018-N-6213R-021)</span></p>
+<p class="caption"><span class="caption-text">由摄影师 Mate 3rd Class Mark J. Rebilas 拍摄的美国海军照片。(041018-N-6213R-021)</span></p>
 </div>
-<p>The ADM-141 tactical air-launched decoy (TALD) is a gliding decoy simulating real aircraft using active and passive means.
-There are several versions of the TALD, examples being a version equipped to launch chaff and another version using a Luneberg lens to increase its cross-section to simulate a larger aircraft.</p>
-<p>All versions are pre-programmed before take-off and are unpowered gliding through the air on fold-out wings.</p>
-<p>The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage.</p>
+<p>ADM-141战术空射诱饵（TALD）是一种利用主动和被动手段模拟真实飞机的滑翔诱饵。TALD有好几个版本，例如有一个版本发射箔条，另一个版本使用龙勃透镜来增大RCS，用来模拟一架更大的飞机。</p>
+<p>所有的版本在起飞前都是预编程的，并且利用折叠机翼向外展开来实现无动力滑行。</p>
+<p>F-14B最多可携带4枚 ADM-141 战术空射诱饵，从3号挂点到6号挂点各一枚，每个挂点都使用三联装挂架来和飞机机身分开。</p>
 </div>
 <div class="section" id="luu-2-parachute-flare">
 <h3>LUU-2 降落伞照明弹<a class="headerlink" href="#luu-2-parachute-flare" title="Permalink to this headline">¶</a></h3>
-<p>The LUU-2 parachute flare is an air-launched flare suspended by a parachute used to illuminate the ground during night-time.</p>
-<p>The F-14B can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers in order not to conflict with the fuselage.</p>
-<p>The LUU-2 parachute flare is launched and set up in the same way as a general purpose bomb.</p>
+<p>LUU-2 降落伞照明弹由空中发射，用降落伞延缓降落，在夜间照亮地面。</p>
+<p>F-14B可以携带多达16个 LUU-2 照明弹，在4号和5号挂点上通过三联装挂架挂载最多4个 SUU-25 照明弹布撒器，每个三联装挂架最多能携带2个布撒器，这是为了避免和机身冲突。</p>
+<p>LUU-2 降落伞照明弹和通用炸弹一样发射和设置。</p>
 </div>
 <div class="section" id="lau-138-chaff-adapter">
 <h3>LAU-138 箔条扩容器<a class="headerlink" href="#lau-138-chaff-adapter" title="Permalink to this headline">¶</a></h3>
-<p>The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in Sweden to enhance a combat aircraft's capability to carry chaff countermeasures.
-The chaff launcher is unusual in that it doesn't use pyrotechnics to fire the chaff packages but instead uses a mechanical action.</p>
-<p>While each adapter can carry up to 160 chaff packages each package is not equal to a standard chaff bundle meaning that a set of two launchers launches four packages in total for each chaff release impulse.
-Even though ejecting 4 packages at each impulse this still means that a set of two LAU-138, carrying in total 320 packages, still can release chaff 80 times, greatly increasing the carried amount of chaff on the aircraft.</p>
-<p>The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14B to carry additional chaff without impacting the ability to carry other weapons.
-While technically capable of carrying the LAU-138 on both A &amp; B stations on the glove pylons, in practice it was impossible to access the cooling bottle for an AIM-9 carried on the B station meaning that operationally only the A stations were loaded with LAU-138 adapters.</p>
-<p>For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter.</p>
+<p>LAU-138 箔条扩容器 (或者称为BOL rail)由瑞典的Celcius Tech设计，用来增强作战飞机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于它不是使用火药来发射的，而是通过机械动作。</p>
+<p>虽然每个扩容器可以携带多达 160包箔条，但是每个包不是一个标准的箔条包，意思是每个箔条释放周期中对2个扩容器的设置会总共发射4包箔条。即使每次释放4包，这也意味着对2个LAU-138的设置，总共携带320包，仍然能够释放80次，极大地增加了飞机携载箔条的数量。</p>
+<p>扩容器本身替代了正常的 LAU-7“响尾蛇”发射滑轨，使得F-14B在不影响携载其他武器的能力下携载更多的箔条。虽然在技术上A和B挂点上的翼套挂架都能挂载 LAU-138，在现实中B挂点不可能连接到 AIM-9 的冷却瓶，意味着只有A挂点挂载 LAU-138 箔条扩容器。</p>
+<p>更多关于LAU-138 箔条扩容器的信息，请在总体设计和系统预览章节下的AN/ALE-29 和39部分获取。</p>
 </div>
 <div class="section" id="smokewinder">
 <h3>烟雾吊舱<a class="headerlink" href="#smokewinder" title="Permalink to this headline">¶</a></h3>
-<p>The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 missile to the aircraft interface.</p>
-<p>To enable and disable a Smokewinder, select AIM-9 for launch using boresight (BRSIT) and select the corresponding weapon station using the weapon selector on the pilot stick.
-When set up thusly and with master arm on, each pull of the trigger enables or disable the Smokewinder discharging smoke.</p>
+<p>拉烟吊舱在航展上使用，使用时类似 AIM-9 与飞机交互的方式。</p>
+<p>为了激活或者断开拉烟吊舱，使用瞄准线模式并选择 AIM-9 等待发射，然后通过飞行员驾驶杆上的武器选择按钮选择相应的武器挂点。设置完成和主军械打开后，每次扣动扳机会激活或者断开拉烟。</p>
 </div>
 <div class="section" id="tacts-pods">
 <h3>TACTS 吊舱<a class="headerlink" href="#tacts-pods" title="Permalink to this headline">¶</a></h3>
-<p>The TACTS pod is an analysis pod used during training missions, it is carried on LAU-7 rails instead of AIM-9s, normally on station 1A and 8A.
-They are normally carried as a pair of two, one on each side.</p>
+<p>TACTS 吊舱在训练任务中用作分析，它在 LAU-7 滑轨而不是在 AIM-9 系列导弹上面携载，通常在 1A 和 8A 挂点上。它们通常成对携带，每侧一个。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS their functionality is purely cosmetic.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中它们的作用纯粹是装点门面。</td>
 </tr>
 </tbody>
 </table>
@@ -644,29 +623,26 @@ They are normally carried as a pair of two, one on each side.</p>
 <h2>吊舱和油箱<a class="headerlink" href="#pods-and-tanks" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="fpu-1-fuel-tank">
 <h3>FPU-1 油箱<a class="headerlink" href="#fpu-1-fuel-tank" title="Permalink to this headline">¶</a></h3>
-<p>The FPU-1 fuel tank is carried by the F-14B Tomcat on stations 2 and 7 on each engine nacelle.
-They each carry up to 2 000 pounds of fuel and can be jettisoned in the same way as other stores using the normal procedures.</p>
+<p>FPU-1 油箱由F-14B“雄猫”携载于发动机舱下的2号和7号挂点。每个油箱能携带多达2 000磅燃油，可使用正常程序像其他挂载一样抛弃。</p>
 </div>
 <div class="section" id="lantirn">
-<h3>LANTIRN<a class="headerlink" href="#lantirn" title="Permalink to this headline">¶</a></h3>
+<h3>LANTIRN吊舱<a class="headerlink" href="#lantirn" title="Permalink to this headline">¶</a></h3>
 <div class="figure align-center" id="id12">
 <img alt="_images/lantirn.jpg" src="_images/lantirn.jpg" />
-<p class="caption"><span class="caption-text">U.S. Navy photo by Photographers Mate Airman Jason Frost. (030122-N-9403F-002)</span></p>
+<p class="caption"><span class="caption-text">由摄影师 Mate Airman Jason Frost 拍摄的美国海军照片。(030122-N-9403F-002)</span></p>
 </div>
-<p>The LANTIRN was adapted for use on the F-14 Tomcats during the 1990s as the F-14's role started to gravitate towards including the precision strike role.</p>
-<p>The version carried on the Heatblur DCS F-14B Tomcat represents the earliest integrations of the LANTIRN, the pod being carried only on station 8B and
-hardwired to the control panel in the RIO cockpit and to the video input on the TID/VDI.</p>
-<p>For more information regarding the use of the LANTIRN pod, see the section about it under the General design and systems overview chapter.</p>
+<p>LANTIRN 吊舱在20世纪90年代适配给 F-14“雄猫”，因为 F-14 的角色开始向精确对地攻击倾斜。</p>
+<p>Heatblur DCS F-14B “雄猫”上的版本代表最早的集成化的 LANTIRN 吊舱，只能挂载在8B挂点上，与RIO驾驶舱上的控制面板通过电路连接，视频输出到TID/VDI。</p>
+<p>更多关于 LANTIRN 吊舱的信息，请在总体设计和系统预览章节中获取。</p>
 </div>
 <div class="section" id="cnu-188-external-baggage-container">
 <h3>CNU-188 外挂行李舱<a class="headerlink" href="#cnu-188-external-baggage-container" title="Permalink to this headline">¶</a></h3>
-<p>The CNU-188 external baggage container is a converted fuel tank used to carry equipment and supplies during aircraft transfer.
-One such container can be carried by a F-14B on either station 4 or 5, maximum load carried being 350 pounds.</p>
+<p>CNU-188 外挂行李吊舱由副油箱改装而来，用来在转场时携带设备和补给。F-14B 的4号或者5号挂点各自可以挂载一个，最大载荷为350磅。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Pending implementation in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中等待完成。</td>
 </tr>
 </tbody>
 </table>
@@ -979,7 +955,7 @@ One such container can be carried by a F-14B on either station 4 or 5, maximum l
 <td>1</td>
 <td>2</td>
 </tr>
-<tr class="row-odd"><td>LANTIRN</td>
+<tr class="row-odd"><td>LANTIRN吊舱</td>
 <td>&#160;</td>
 <td>&#160;</td>
 <td>&#160;</td>

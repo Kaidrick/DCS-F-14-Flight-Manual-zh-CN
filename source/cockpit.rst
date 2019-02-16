@@ -418,7 +418,7 @@ For more information see :ref:`wingsweepemerg`.
 Hydraulic Hand Pump
 -------------------
 
-The hydraulic hand pump is located inboards of the throttle quadrant, near the pilot’s left leg. It is used to manually add hydraulic pressure for brake operation (with gear handle in the down position) or for refuelling probe operation in case of a failure in the hydraulic system.
+The hydraulic hand pump is located inboards of the throttle quadrant, near the pilot’s left leg. It is used to manually add hydraulic pressure for brake operation (with gear handle in the down position) or for refueling probe operation in case of a failure in the hydraulic system.
 
 
 .. _lvc:
@@ -455,29 +455,29 @@ Control panel for various fuel related systems, CADC master reset and the anti s
 |                                        | |                                                                                                                                    |
 |                                        | | OFF - Turns off fuel feed from the wing and external tanks.                                                                        |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 4. Refuelling probe indicator light    | Transition light lit when refuelling probe is not in extended or retracted position.                                                 |
+| 4. Refueling probe indicator light     | Transition light illuminated when refueling probe is not in extended or retracted position.                                          |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | 5. DUMP switch                         | OFF/DUMP switch. Allows fuel dump when speed brakes are retracted, afterburner off and weight off wheels.                            |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 6. REFUEL PROBE switch                 | | Selection switch toggling operation of refuelling probe.                                                                           |
+| 6. REFUEL PROBE switch                 | | Selection switch toggling operation of refueling probe.                                                                            |
 |                                        | |                                                                                                                                    |
-|                                        | | ALL EXTD - All extended, extends refuelling probe and allows refuelling of all tanks. Also resets WING/EXT TRANS switch to AUTO.   |
+|                                        | | ALL EXTD - All extended, extends refueling probe and allows refueling of all tanks. Also resets WING/EXT TRANS switch to AUTO.     |
 |                                        | |                                                                                                                                    |
-|                                        | | FUS EXTD - Fuselage extended, extends refuelling probe and allows refuelling of only fuselage tanks.                               |
+|                                        | | FUS EXTD - Fuselage extended, extends refueling probe and allows refueling of only fuselage tanks.                                 |
 |                                        | |                                                                                                                                    |
-|                                        | | RET - Retracted, retracts refuelling probe.                                                                                        |
+|                                        | | RET - Retracted, retracts refueling probe.                                                                                         |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | 7. ANTI SKID SPOILER BK switch         | | Selection switch determining operation anti-skid and spoiler brake systems.                                                        |
 |                                        | |                                                                                                                                    |
-|                                        | | BOTH - Engages both anti-skid and spoiler brake function with weight on wheels.                                                    |
+|                                        | | BOTH - Enables both anti-skid and spoiler brake function with weight on wheels.                                                    |
 |                                        | |                                                                                                                                    |
 |                                        | | OFF - Turns off both systems.                                                                                                      |
 |                                        | |                                                                                                                                    |
 |                                        | | SPOILER BK - Spoiler brake, enables spoiler brake function with weight on wheels.                                                  |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 8. MASTER RESET button                 | Resets CADC failure detection system, resetting associated fault displays.                                                           |
+| 8. MASTER RESET button                 | Resets CADC failure detection system and associated fault displays.                                                                  |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 9. Control surface position indicator  | Displays control surface positions, see below.                                                                                       |
+| 9. Control surface position indicator  | Displays control surface positions. See below.                                                                                       |
 +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -531,7 +531,7 @@ Control panel for the main landing gear and emergency stores jettison.
 |                                    | |                                                                                                                                                                            |
 |                                    | | For emergency extension in DOWN position, push handle in, turn clockwise and pull out. This releases a compressed nitrogen charge for emergency extension.                 |
 +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. DOWN LOCK ORIDE                 | Indicates weight on wheels when moved down by solenoid. Can be lifted up to override.                                                                                        |
+| 2. DOWN LOCK ORIDE                 | Indicates weight on wheels when moved down by solenoid. Can be lifted up to override. Non-functional in DCS.                                                                 |
 +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 3. HYD ISOL                        | | Switch isolating landing gear, nosewheel steering and wheel brakes from the combined hydraulic system. Is automatically moved to T.O./LDG by LDG GEAR in DOWN position.    |
 |                                    | |                                                                                                                                                                            |
@@ -724,11 +724,11 @@ Indicated airspeed and Mach number display.
 +=====================================+===================================================================================================================+
 | 1. Airspeed dial                    | Shows indicated airspeed on three scales, two for indicated airspeed and one moving for Mach number.              |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| 2. Indicated airspeed scale (outer) | Used to indicate indicated airspeed up to 200 knots.                                                              |
+| 2. Indicated airspeed scale (outer) | Readout for indicated airspeed up to 200 knots.                                                                   |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| 3. Indicated airspeed scale (inner) | Used to indicate indicated airspeed from 200 knots to 850 knots. Covered by airspeed dial until relevant.         |
+| 3. Indicated airspeed scale (inner) | Readout for indicated airspeed from 200 knots to 850 knots. Covered by airspeed dial until relevant.              |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| 4. Mach number scale                | Moving scale used to indicate Mach number. Moved to show correct Mach number relative indicated airspeed.         |
+| 4. Mach number scale                | Readout for Mach number. Moved to show correct Mach number relative indicated airspeed.                           |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 | 5. Indicated airspeed index pointer | Can be set to desired indicated airspeed.                                                                         |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
@@ -755,7 +755,7 @@ Left Engine Fuel Shutoff Handle
 -------------------------------
 .. image:: /images/cockpit/detail/pilot/leftengineshutoff.png
 
-Pulled out to shut off fuel to the left engine in case of emergency. Press in to re-enable fuel-flow to the engine. Should not be used to secure the engine.
+Pull to shut off fuel to the left engine in case of emergency. Push in to re-enable fuel-flow to the engine. Should not be used to secure the engine.
 
 Left engine fire extinguishing button is located behind the handle, accessable when the handle is pulled out.
 
@@ -766,7 +766,7 @@ Angle-of-Attack Indicator
 -------------------------
 .. image:: /images/cockpit/detail/pilot/aoa.png
 
-Tape showing angle of attack (AOA) on a scale of 0 to 30 units. (Equivalent to -10° to +40° rotation of the AoA probe.)
+Tape indicating angle of attack (AOA) on a scale of 0 to 30 units. (Equivalent to -10° to +40° rotation of the AoA probe.)
 
 The indicator has markers on the right for climb (5), cruise (8.5), and stall (29), and a reference bar for on-speed approach (15). 
 
@@ -786,9 +786,9 @@ Contains three lights showing angle-of-attack (AOA) relative on-speed AOA.
 
 Green being too slow, amber being on-speed AOA and red being too fast.
 
-If the HOOK BY-PASS switch is in CARRIER the lights will flash if the landing gear is down and hook is up.
+If the HOOK BY-PASS switch is set to CARRIER the lights will flash if the arresting hook is up while the landing gear is down.
 
-These lights are also repeated on the approach lights on the nosewheel strut, allowing the LSO to see aircraft AOA during carrier landings.
+These lights are repeated on the approach lights on the nosewheel strut, allowing the LSO to see aircraft AOA during carrier landings.
 
 
 .. _wheelswarn:
@@ -802,7 +802,7 @@ HUD left side indicators.
 +-------------------+----------------------------------------------------------------------------------------------------------------------------+
 | Indicator         | Function                                                                                                                   |
 +===================+============================================================================================================================+
-| WHEELS            | Warning light flashing with landing gear not down and locked, flaps below 10° and either throttle below 85%.               |
+| WHEELS            | Warning light flashes with landing gear not down and locked, flaps below 10° and either throttle below 85%.                |
 +-------------------+----------------------------------------------------------------------------------------------------------------------------+
 | BRAKES            | Warning light indicating antiskid or brake failure. Also lights when parking brake is set.                                 |
 +-------------------+----------------------------------------------------------------------------------------------------------------------------+
@@ -825,9 +825,9 @@ Heads-Up Display
 ----------------
 .. image:: /images/cockpit/detail/pilot/hud.png
 
-Projects flight and weapons data onto the forward section of the canopy/windscreen. Night mode available on the control next to the VDI.
+Projects flight and weapons data onto the forward section of the canopy/windscreen. Night mode can be selected using the control on the right side of the VDI.
 
-Also has two engine stall warning lights (L STALL & R STALL) mounted on the left and right sides respectively. They indicate the presence of an engine stall condition in their respective engine.
+Has two engine stall warning lights (L STALL & R STALL) mounted on the left and right sides respectively. They indicate the presence of an engine stall condition in their respective engine.
 
 :Note: For more information see relevant chapters under :ref:`navigation` and :ref:`weaponsemploy`.
 
@@ -1130,7 +1130,7 @@ Right Engine Fuel Shutoff Handle
 --------------------------------
 .. image:: /images/cockpit/detail/pilot/rightengineshutoff.png
 
-Pulled out to shut off fuel to the right engine in case of emergency. Press in to re-enable fuel-flow to the engine. Should not be used to secure the engine.
+Pull to shut off fuel to the right engine in case of emergency. Push in to re-enable fuel-flow to the engine. Should not be used to secure the engine.
 
 Right engine fire extinguishing button is located behind the handle, accessable when the handle is pulled out.
 
@@ -1795,8 +1795,8 @@ Hydraulic Transfer Pump Switch
 Panel containing the control for the hydraulic transfer pump which equalizes pressure between the combined and flight hydraulic systems in case of a failure in one of them.
 
 The HYD TRANSFER PUMP switch has two positions, SHUTOFF and NORMAL (guarded position).
-The NORMAL position (also the standard setting) will make the hydraulic transfer pump try to pressurize a failed hydraulic system from the other when it drops below 2,100 psi.
-The SHUTOFF position (which can be accessed by lifting the guard) is used when the transfer pump can't supply enough pressure to the failed system making the operational system also fail. This setting turns of the transfer pump.
+The NORMAL position (also the standard setting) will have the hydraulic transfer pump pressurize a failed hydraulic system from the other, functioning system, when it drops below 2,100 psi.
+The SHUTOFF position (which can be accessed by lifting the guard) is used to turn off the transfer pump in case it can't supply enough pressure to the failed system as that would risk disabling the still operational system.
 
 
 .. _hudvidctrlpanel:
@@ -2018,6 +2018,62 @@ KY-28 Control Panel
 +------------------------+-------------------------------------------------+
 | 3. Radio select switch | Switch selecting which radio to use with KY-28. |
 +------------------------+-------------------------------------------------+
+
+
+.. _dlctrlpanel:
+
+Data Link Control Panel
+-----------------------
+.. image:: /images/cockpit/detail/rio/datalink.png
+
+Control panel for the data link.
+
++-----------------------------+--------------------------------------------------------------------+
+| Control                     | Function                                                           |
++=============================+====================================================================+
+| 1. Transmission mode switch | | Sets data link tranmission mode.                                 |
+|                             | |                                                                  |
+|                             | | TEST - Starts system test.                                       |
+|                             | |                                                                  |
+|                             | | NORM - Normal operational mode.                                  |
+|                             | |                                                                  |
+|                             | | A/J - Anti-jam mode.                                             |
++-----------------------------+--------------------------------------------------------------------+
+| 2. Frequency select wheels  | Thumbwheels used to set data link frequency.                       |
++-----------------------------+--------------------------------------------------------------------+
+| 3. Data link power switch   | Enables power to data link, also used to set AUX (auxiliary) mode. |
++-----------------------------+--------------------------------------------------------------------+
+
+
+.. _radbeac:
+
+Radar Beacon Control Panel
+--------------------------
+.. image:: /images/cockpit/detail/rio/beacon.png
+
+Panel controlling AN/APN-154 radar beacon.
+
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Control/Indicator   | Function                                                                                                                                                                                                                                                                     |
++=====================+==============================================================================================================================================================================================================================================================================+
+| 1. MODE selector    | | Selector switch controlling beacon mode of operation.                                                                                                                                                                                                                      |
+|                     | |                                                                                                                                                                                                                                                                            |
+|                     | | SINGLE - Enables beacon response to single pulse codes.                                                                                                                                                                                                                    |
+|                     | |                                                                                                                                                                                                                                                                            |
+|                     | | DOUBLE - Enables beacon response to set double pulse code.                                                                                                                                                                                                                 |
+|                     | |                                                                                                                                                                                                                                                                            |
+|                     | | ACLS - Enables augmentor operation for ACLS. Required for CATCC radar lockon for ACLS.                                                                                                                                                                                     |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2. ACLS TEST button | Button with green light used to indicate operation or test. When pressed with MODE in ACLS illumination indicates a successful test. The light also flashes when detecting an AN/SPN-42 radar sweeping past and illuminates when that radar has locked on for ACLS guidance. |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3. PWR switch       | | Switch controlling beacon power.                                                                                                                                                                                                                                           |
+|                     | |                                                                                                                                                                                                                                                                            |
+|                     | | PWR - Enables beacon and all replies depending on MODE selector.                                                                                                                                                                                                           |
+|                     | |                                                                                                                                                                                                                                                                            |
+|                     | | STBY - Used to warmup system, also enables ACLS replies if the MODE selector is set to ACLS.                                                                                                                                                                               |
+|                     | |                                                                                                                                                                                                                                                                            |
+|                     | | OFF - Beacon off.                                                                                                                                                                                                                                                          |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _liqcool:
@@ -2414,7 +2470,7 @@ Tactical information display and corresponding and navigational controls.
 +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Control/Indicator          | Function                                                                                                                                                                                                                                     |
 +============================+==============================================================================================================================================================================================================================================+
-| 1. INS status indicator    | Indicator light showing status of the INS during alignment. STBY indicates power applied but not aligned. READY indicates minumum launch criteria for AIM-54. Both lights turn of when INS mode is selected. Can otherwise indicate faults.  |
+| 1. INS status indicator    | Indicator light showing status of the INS during alignment. STBY indicates power applied but not aligned. READY indicates minumum launch criteria for AIM-54. Both lights turn off when INS mode is selected. Can otherwise indicate faults. |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 2. CONTRAST knob           | Control knob that controls contrast of TCS video.                                                                                                                                                                                            |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2872,31 +2928,6 @@ Control panel for the DECM jammer (AN/ALQ-126).
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _dlctrlpanel:
-
-Data Link Control Panel
------------------------
-.. image:: /images/cockpit/detail/rio/datalink.png
-
-Control panel for the data link.
-
-+-----------------------------+--------------------------------------------------------------------+
-| Control                     | Function                                                           |
-+=============================+====================================================================+
-| 1. Transmission mode switch | | Sets data link tranmission mode.                                 |
-|                             | |                                                                  |
-|                             | | TEST - Starts system test.                                       |
-|                             | |                                                                  |
-|                             | | NORM - Normal operational mode.                                  |
-|                             | |                                                                  |
-|                             | | A/J - Anti-jam mode.                                             |
-+-----------------------------+--------------------------------------------------------------------+
-| 2. Frequency select wheels  | Thumbwheels used to set data link frequency.                       |
-+-----------------------------+--------------------------------------------------------------------+
-| 3. Data link power switch   | Enables power to data link, also used to set AUX (auxiliary) mode. |
-+-----------------------------+--------------------------------------------------------------------+
-
-
 .. _dlrepant:
 
 Data Link Reply and Antenna Control Panel
@@ -2988,6 +3019,7 @@ AN/APX-76 interrogator control panel.
 +-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 :Note: Due to DCS limitations in regards to IFF the AA1 control panel is currently non-functional.
+
 
 .. _ale39prog:
 
@@ -3092,7 +3124,7 @@ Control panel for the AN/APX-72 transponder.
 |                              | |                                                                                                                          |
 |                              | | AUDIO - Enables audio monitoring of mode 4 interrogation and REPLY light monitoring of mode 4 replies.                   |
 |                              | |                                                                                                                          |
-|                              | | ► - Disables audio and light monitoring of mode 4.                                                                       |
+|                              | | OUT - Disables audio and light monitoring of mode 4.                                                                     |
 |                              | |                                                                                                                          |
 |                              | | LIGHT - Enables REPLY light monitoring of mode 4 replies.                                                                |
 +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
@@ -3112,7 +3144,7 @@ Control panel for the AN/APX-72 transponder.
 +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 | 6. MASTER selector           | | Selector switch controlling AN/APX-72 mode of operation.                                                                 |
 |                              | |                                                                                                                          |
-|                              | | OFF - Turns of power to the AN/APX-72.                                                                                   |
+|                              | | OFF - Disables power to the AN/APX-72.                                                                                   |
 |                              | |                                                                                                                          |
 |                              | | STBY - Standby, enables standby for immediate operation upon selection of other operational mode.                        |
 |                              | |                                                                                                                          |
@@ -3175,37 +3207,6 @@ Panel containing controls for IFF antenna, tests and ground cooling.
 |                          | |                                                                                                                                     |
 |                          | | AWG-9/AIM-54 - Uses the external air to cool AWG-9 and AIM-54 coolant with better performance but disables external air to cabin.   |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-
-
-.. _radbeac:
-
-Radar Beacon Control Panel
---------------------------
-.. image:: /images/cockpit/detail/rio/beacon.png
-
-Panel controlling AN/APN-154 radar beacon.
-
-+---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator   | Function                                                                                                                                                                                                                                                                     |
-+=====================+==============================================================================================================================================================================================================================================================================+
-| 1. MODE selector    | | Selector switch controlling beacon mode of operation.                                                                                                                                                                                                                      |
-|                     | |                                                                                                                                                                                                                                                                            |
-|                     | | SINGLE - Enables beacon response to single pulse codes.                                                                                                                                                                                                                    |
-|                     | |                                                                                                                                                                                                                                                                            |
-|                     | | DOUBLE - Enables beacon response to set double pulse code.                                                                                                                                                                                                                 |
-|                     | |                                                                                                                                                                                                                                                                            |
-|                     | | ACLS - Enables augmentor operation for ACLS. Required for CATCC radar lockon for ACLS.                                                                                                                                                                                     |
-+---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. ACLS TEST button | Button with green light used to indicate operation or test. When pressed with MODE in ACLS illumination indicates a successful test. The light also flashes when detecting an AN/SPN-42 radar sweeping past and illuminates when that radar has locked on for ACLS guidance. |
-+---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. PWR switch       | | Switch controlling beacon power.                                                                                                                                                                                                                                           |
-|                     | |                                                                                                                                                                                                                                                                            |
-|                     | | PWR - Enables beacon and all replies depending on MODE selector.                                                                                                                                                                                                           |
-|                     | |                                                                                                                                                                                                                                                                            |
-|                     | | STBY - Used to warmup system, also enables ACLS replies if the MODE selector is set to ACLS.                                                                                                                                                                               |
-|                     | |                                                                                                                                                                                                                                                                            |
-|                     | | OFF - Beacon off.                                                                                                                                                                                                                                                          |
-+---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _elecpowsystest:

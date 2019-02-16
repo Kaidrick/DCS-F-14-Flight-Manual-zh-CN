@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 0.2.1 | Feb. 15th, 2019
+                协作预览 | Feb. 16th, 2019
               </div>
             
           
@@ -326,7 +326,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="weapons.html">武器系统和武器使用总览</a></li>
 <li class="toctree-l1"><a class="reference internal" href="procedures.html">流程</a></li>
-<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急流程</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 </ul>
@@ -852,7 +852,7 @@ The Mach Trim system compensates for transonic and supersonic trim changes and t
 <div class="section" id="afcs-automatic-flight-control-system">
 <h3>AFCS Automatic Flight Control System<a class="headerlink" href="#afcs-automatic-flight-control-system" title="Permalink to this headline">¶</a></h3>
 <p>The AFCS or Automatic Flight Control System provides additional aircraft stability (SAS or Stability Augmentation System) via automatic control surface commands generated from AFCS sensors.
-The AFCS is controlled by switches on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS Control Panel</span></a> and pitch, roll and yaw can each be set individually.</p>
+The AFCS is controlled by switches on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">自动飞控系统控制面板</span></a> and pitch, roll and yaw can each be set individually.</p>
 <p>The pitch and roll switches are springloaded to off but normally held to on by solenoids meaning that if the system is turned off or inoperable the switches return to off.
 The yaw switch is purely mechanical.</p>
 <p>Roll SAS should not be used for situations involving flight at AOA above 15 units and should therefore be set to off for combat maneuvers.</p>
@@ -861,7 +861,7 @@ The yaw switch is purely mechanical.</p>
 <h4>自动驾驶<a class="headerlink" href="#autopilot" title="Permalink to this headline">¶</a></h4>
 <p>Apart from stability augmentation the AFCS is also used to provide autopilot functionality.
 To use the autopilot all three stabilisation channels must be enabled.</p>
-<p>The controls for the autopilot system are situated on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS Control Panel</span></a>.</p>
+<p>The controls for the autopilot system are situated on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">自动飞控系统控制面板</span></a>.</p>
 <p>Autopilot modes available are attitude hold, heading hold, ground track, altitude hold, vector/pcd (precision course direction) and acl (automatic carrier landing).</p>
 <p>By setting the autopilot <strong>ENGAGE</strong> switch to on the attitude hold is engaged, maintaining current aircraft attitude.
 Limited to within 30° pitch and 60° roll angles and the aircraft will be automatically moved within this range.
@@ -1066,7 +1066,7 @@ This is as in this mode that air is mixed directly with hot bleed air from the e
 <p>Current cabin air pressure altitude can be seen on the <a class="reference internal" href="cockpit.html#cabpressalt"><span class="std std-ref">Cabin Pressure Altimeter</span></a> in front of the pilot control stick.</p>
 <p>The <strong>CABIN PRESS</strong> caution light is present on the RIO <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">Caution-Advisory Panel</span></a>, indicating less than 5 psi absolute pressure or above 27,000 feet cockpit pressure.
 On the same panel is also the <strong>COOLING AIR</strong> advisory light which indicates overheat in the electronics cooling system, indicative of a failure in the ECS which might damage the electronics.</p>
-<p>The anti-g suit pressurisation can be tested via the <a class="reference internal" href="cockpit.html#gvalve"><span class="std std-ref">G-阀门按钮</span></a> for the pilot and <a class="reference internal" href="cockpit.html#rgvalve"><span class="std std-ref">G-Valve Button</span></a> for the RIO.
+<p>The anti-g suit pressurisation can be tested via the <a class="reference internal" href="cockpit.html#gvalve"><span class="std std-ref">飞行服抗压充气检测按钮</span></a> for the pilot and <a class="reference internal" href="cockpit.html#rgvalve"><span class="std std-ref">G-Valve Button</span></a> for the RIO.
 The airflow through the suit, or seats if no suits are worn, are controlled by the <strong>VENT AIRFLOW</strong> thumbwheel on the pilot <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> and RIO <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> respectively.</p>
 </div>
 <div class="section" id="windshield-anti-ice-and-defogging">
@@ -1630,7 +1630,7 @@ If the symbol moves outside of TID presentation a line is drawn from the center 
 <tr class="row-odd"><td>IP</td>
 <td><img alt="_images/21.png" class="first last" src="_images/21.png" />
 </td>
-<td>Waypoint used for air-to-ground engagement, see <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">Computer Initial Point</span></a>.</td>
+<td>Waypoint used for air-to-ground engagement, see <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机初始点</span></a>.</td>
 </tr>
 <tr class="row-even"><td>&#160;</td>
 <td colspan="2"><strong>Data Link Reference Points</strong></td>
@@ -4113,7 +4113,7 @@ Note that the TACAN can take up to 2 minutes to warm up, when turned on for the 
 <p>Both pilot and RIO share Identical TACAN control panels on the left consoles.
 Individual TACAN CMD buttons on both the pilot and RIO left consoles provide transfer of TACAN control between pilot and RIO.
 Control of TACAN is indicated by a flip-flop indicator in each cockpit showing PLT (pilot) or RIO. Either crewman may adjust the audio level of the identification signal.
-For TACAN panel description see <a class="reference internal" href="cockpit.html#tacancontrol"><span class="std std-ref">TACAN控制面板</span></a>.</p>
+For TACAN panel description see <a class="reference internal" href="cockpit.html#tacancontrol"><span class="std std-ref">TACAN 控制面板</span></a>.</p>
 </div>
 <div class="section" id="tacan-displays">
 <h4>TACAN Displays<a class="headerlink" href="#tacan-displays" title="Permalink to this headline">¶</a></h4>

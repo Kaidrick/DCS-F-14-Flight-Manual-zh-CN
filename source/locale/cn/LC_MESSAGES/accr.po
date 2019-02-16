@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-02-15 13:41+0800\n"
+"PO-Revision-Date: 2019-02-16 12:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2188,7 +2188,7 @@ msgstr ""
 
 #: ../../source/accr.rst:472
 msgid "__Simultaneous Alignment and Test"
-msgstr "同时校准和测试"
+msgstr "同时对准和测试"
 
 #: ../../source/accr.rst:474
 msgid "SCP"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-13 21:12+0800\n"
+"PO-Revision-Date: 2019-02-16 23:07+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,18 +22,22 @@ msgstr ""
 
 #: ../../source/emergency.rst:2
 msgid "Emergency Procedures"
-msgstr "紧急程序"
+msgstr "紧急流程"
 
 #: ../../source/emergency.rst:5
 msgid "Engine Airstart"
-msgstr "航空发动机 空中启动"
+msgstr "发动机空中启动"
 
 #: ../../source/emergency.rst:7
 msgid ""
 "The F110-GE-400 engines can be airstarted one by one or both at the same "
 "time."
-msgstr "F110-GE-400涡扇发动机可以在空中被单发先后启动或双发同时启动"
+msgstr "两台 F110-GE-400 发动机可以依次或同时进行空中启动"
 
+# 狐：Spool-down即Run-down，即发动机叶片在发动机停车后还在自行旋转的状态。Spool-down time是发动机关闭到叶片完全停止转动所需的时间。基于以上概念，我将Spooldown翻译为“脱机自转”，以区别“停转”这样完全停止的状态。希望指正。
+# 另外，AFTC主要和次要模式，根据第七行，我括号内增加了PRI和SEC
+# -----
+# TODO: check spooldown wording
 #: ../../source/emergency.rst:9
 msgid ""
 "The three possible restart types are: spooldown, cross-bleed or windmill and "
@@ -41,23 +45,23 @@ msgid ""
 "this should be the primary engine mode but if the AFTC has already chosen "
 "the secondary mode that should be used for the first attempt."
 msgstr ""
-"三个可能的重启类型有：发动机停转，交叉引气启动，风车启动（泛指外部气流驱动下"
-"使涡扇转子转动），这三种启动模式全都应该在选定了AFTC引擎模式之后才可进行尝"
-"试。一般情况下，这是主要的引擎模式，但是如果AFTC模式已经被选择至次要模式，那"
-"么这个AFTC次要模式应该被首先用于初次重启流程。"
+"三种可能的重启类型包括：脱机自转重启、交叉引气重启、风车重启。这三种重启应在"
+"选定的 AFTC 发动机模式下进行。一般情况下应该选定 AFTC 主要（PRI）模式，但是如"
+"果 AFTC 已经选定次要模式则次要（SEC）模式应当用于首次重启尝试。"
 
 #: ../../source/emergency.rst:14
 msgid "Spooldown Airstart"
-msgstr "航空发动机发动机停转 空中启动"
+msgstr "脱机自转空中启动"
 
+# 发动机出现显著的转速损失之前
 #: ../../source/emergency.rst:16
 msgid ""
 "The spooldown airstart can be attemped immediately after engine loss before "
 "significant spooldown has occured. This is the fastest way to restart an "
 "engine."
 msgstr ""
-"在发动机失速之后，应该在严重的发动机停转情况出现之前迅速调整 这是重启一台发动"
-"机最快捷的方法"
+"发动机停机之后，应在发动机转速显著降低之前尝试脱机自转重启。这是重启发动机最"
+"快的方法。"
 
 #: ../../source/emergency.rst:19
 msgid ""
@@ -65,13 +69,13 @@ msgid ""
 "increase and up to 90 seconds to reach commanded RPM. If the engine mode "
 "selected by the AFTC was PRI, a renewed attempt may be made in SEC."
 msgstr ""
-"根据发动机的工作特性，至少需要10秒才能观察到RPM（发动机转速）的增加，而发动机"
-"转速到达指定转数值至少需要90秒。如果AFTC引擎模式被选至PRI，那么将会在短时间内"
-"生成一个更新的尝试"
+"根据发动机当时的转速，可能需要多达10秒的时间才能观察到转速的增加，而转速达到"
+"指定转速可能需要多达90秒。如果 AFTC 发动机模式选定为 PRI ，可以选定 SEC 后再"
+"进行一次尝试。"
 
 #: ../../source/emergency.rst:24
 msgid "Spooldown Airstart Checklist"
-msgstr "发动机停转时的空中重启检查单"
+msgstr "脱机自转空中启动检查单"
 
 #: ../../source/emergency.rst:27 ../../source/emergency.rst:31
 #: ../../source/emergency.rst:37 ../../source/emergency.rst:97
@@ -81,11 +85,11 @@ msgstr "油门"
 
 #: ../../source/emergency.rst:27 ../../source/emergency.rst:97
 msgid "**IDLE** or above"
-msgstr "**IDLE** 或者超过怠速位"
+msgstr "**IDLE** 或以上"
 
 #: ../../source/emergency.rst:29 ../../source/emergency.rst:101
 msgid "If no relight occurs:"
-msgstr "如果没有重新点燃"
+msgstr "如果没有重新点火"
 
 #: ../../source/emergency.rst:31 ../../source/emergency.rst:68
 #: ../../source/emergency.rst:74 ../../source/emergency.rst:103
@@ -94,7 +98,7 @@ msgstr "**OFF** 然后 **IDLE**"
 
 #: ../../source/emergency.rst:33 ../../source/emergency.rst:105
 msgid "If still no relight:"
-msgstr "如果仍然没有重新点燃"
+msgstr "如果仍未重新点火"
 
 #: ../../source/emergency.rst:35 ../../source/emergency.rst:41
 #: ../../source/emergency.rst:80 ../../source/emergency.rst:107
@@ -113,16 +117,16 @@ msgstr "如果选择模式后没有启动，**OFF** 然后 **IDLE**"
 
 #: ../../source/emergency.rst:39
 msgid "After successful airstart in **SEC**:"
-msgstr "成功进入空中启动程序的一秒后 （in **SEC**） "
+msgstr "**SEC** 模式下重新启动后："
 
 #: ../../source/emergency.rst:41 ../../source/emergency.rst:80
 #: ../../source/emergency.rst:115
 msgid "**PRI** if possible"
-msgstr "**PRI** 如果可行的话"
+msgstr "可能的话调定 **PRI**"
 
 #: ../../source/emergency.rst:45
 msgid "Cross-Bleed Airstart"
-msgstr "交叉引气启动"
+msgstr "交叉引气空中启动"
 
 #: ../../source/emergency.rst:47
 msgid ""
@@ -130,17 +134,22 @@ msgid ""
 "spooldown airstart was not successfull or the engine is already at or near "
 "windmill rpm."
 msgstr ""
-"当发动机停转空中启动没有成功，或者发动机已经进入风车转速/濒临风车转速时，可以"
-"试图使用交叉引气启动法进行空中启动"
+"当仍有一台发动机正常工作，脱机自转重启失败或者发动机已经/即将进入风车状态时，"
+"可以尝试使用交叉引气进行重启"
 
 #: ../../source/emergency.rst:51
 msgid "Cross-Bleed Airstart Checklist"
-msgstr "交叉引气空中启动法 检查单 "
+msgstr "交叉引气空中启动检查单 "
 
+# 故障的发动机油门
+# ---
+# 强调油门？强调发动机？
+# > 油门
+# > 发动机油门
 #: ../../source/emergency.rst:54 ../../source/emergency.rst:64
 #: ../../source/emergency.rst:68 ../../source/emergency.rst:74
 msgid "Non-running engine throttle"
-msgstr "先不要移动发动机油门"
+msgstr "故障发动机的油门"
 
 #: ../../source/emergency.rst:54 ../../source/emergency.rst:78
 #: ../../source/emergency.rst:113
@@ -153,11 +162,12 @@ msgstr "**FUEL SHUT OFF** 把手"
 
 #: ../../source/emergency.rst:56
 msgid "Check handle in in position"
-msgstr "检查手柄的位置"
+msgstr "确认手柄位置"
 
+# 正常的发动机油门
 #: ../../source/emergency.rst:58
 msgid "Running engine throttle"
-msgstr "移动发动机油门"
+msgstr "正常发动机的油门"
 
 #: ../../source/emergency.rst:58
 msgid "Minimum 80% RPM"
@@ -178,7 +188,7 @@ msgstr "**ENG CRANK** 开关"
 
 #: ../../source/emergency.rst:62
 msgid "Set to non-running engine"
-msgstr "调定到未运转的发动机"
+msgstr "调定到故障发动机"
 
 #: ../../source/emergency.rst:64
 msgid "**IDLE** immediately after **ENG CRANK** on"
@@ -206,7 +216,7 @@ msgstr "**BACK UP** 点火开关"
 
 #: ../../source/emergency.rst:85
 msgid "Windmill Airstart"
-msgstr "风车启动"
+msgstr "风车空中启动"
 
 #: ../../source/emergency.rst:87
 msgid ""
@@ -214,13 +224,12 @@ msgid ""
 "using wind speed. Required airspeed is at or above 450 knots indicated "
 "airspeed and should only be attempted if airspeed and altitude allows it."
 msgstr ""
-"风车启动法是将飞机在一定空速下具备的风速导入涡扇发动机涡轮后，通过流体运动使"
-"之转动的启动方法。所需的空速至少是450节，并且只有在空速与高度都允许的情况下才"
-"可尝试。"
+"风车空中启动利用飞机运动产生的风带动发动机涡轮转动而重启发动机。风车空中启动"
+"至少需要450节以上的空速且仅可在高度和速度条件允许的情况下尝试。"
 
 #: ../../source/emergency.rst:92
 msgid "Windmill Airstart Checklist"
-msgstr "风车启动法 检查单"
+msgstr "风车空中启动检查单"
 
 #: ../../source/emergency.rst:95
 msgid "Airspeed"
@@ -228,7 +237,7 @@ msgstr "空速"
 
 #: ../../source/emergency.rst:95
 msgid "At or above 450 KIAS"
-msgstr "指示空速等于或高于450节"
+msgstr "示空速至少450节以上"
 
 #: ../../source/emergency.rst:111
 msgid "After successful airstart:"
