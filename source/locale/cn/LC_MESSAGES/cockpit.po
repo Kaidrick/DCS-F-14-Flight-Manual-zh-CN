@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 17:32+0800\n"
-"PO-Revision-Date: 2019-02-16 22:57+0800\n"
+"PO-Revision-Date: 2019-02-18 11:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -191,11 +191,11 @@ msgstr "左侧控制台"
 
 #: ../../source/cockpit.rst:81
 msgid "G-valve Button"
-msgstr "飞行服抗压充气检测按钮"
+msgstr "飞行服抗荷充气检测按钮"
 
 #: ../../source/cockpit.rst:84 ../../source/cockpit.rst:1873
 msgid "Pressed to test inflation of g-suit."
-msgstr "按下来测试飞行服抗压充气。"
+msgstr "按下按钮来测试飞行服抗荷充气。"
 
 #: ../../source/cockpit.rst:90 ../../source/cockpit.rst:1879
 msgid "Oxygen-Vent Airflow Control Panel"
@@ -205,7 +205,7 @@ msgstr "供氧-通风控制面板"
 msgid ""
 "Controls ventilation airflow to pressure suit or seat cushions and oxygen to "
 "pilot mask."
-msgstr "控制抗压服或坐垫增压和飞行员面罩供氧。"
+msgstr "控制抗荷服或坐垫增压和飞行员面罩供氧。"
 
 #: ../../source/cockpit.rst:96 ../../source/cockpit.rst:170
 #: ../../source/cockpit.rst:202 ../../source/cockpit.rst:284
@@ -263,17 +263,17 @@ msgstr "功能"
 
 #: ../../source/cockpit.rst:98 ../../source/cockpit.rst:1887
 msgid "VENT AIRFLOW dial"
-msgstr "VENT AIRFLOW 拨盘"
+msgstr "通风气流调节拨盘"
 
 #: ../../source/cockpit.rst:98 ../../source/cockpit.rst:1887
 msgid ""
 "Used to control airflow through the pressure suit or seat cushions if no "
 "pressure suit is worn."
-msgstr "用于控制抗压服气流进出，未连接抗压服时则控制坐垫气流。"
+msgstr "用于控制抗荷服气流进出，未连接抗荷服时则控制坐垫气流。"
 
 #: ../../source/cockpit.rst:100 ../../source/cockpit.rst:1889
 msgid "OXYGEN switch"
-msgstr "OXYGEN 开关"
+msgstr "供氧开关"
 
 #: ../../source/cockpit.rst:100 ../../source/cockpit.rst:1889
 msgid "Switch with ON/OFF positions. Controls oxygen flow to the mask."
@@ -365,11 +365,11 @@ msgid ""
 "Outer dial selects first two digits and inner dial selects last digit for "
 "TACAN channel selection."
 msgstr ""
-"使用外侧拨盘选择 TACAN 频道的前两位数字，使用内测拨盘选择最后一位数字。"
+"使用外侧拨盘选择 TACAN 频道的前两位数字，使用内侧拨盘选择最后一位数字。"
 
 #: ../../source/cockpit.rst:139 ../../source/cockpit.rst:1915
 msgid "GO & NO-GO lights"
-msgstr "GO & NO-GO 灯光"
+msgstr "通过/未通过指示灯"
 
 #: ../../source/cockpit.rst:139 ../../source/cockpit.rst:1915
 msgid "Lights indicating result of TACAN BIT."
@@ -378,16 +378,17 @@ msgstr "灯光指示 TACAN 是否通过自检。"
 #: ../../source/cockpit.rst:141 ../../source/cockpit.rst:1503
 #: ../../source/cockpit.rst:1917
 msgid "BIT button"
-msgstr "BIT 按钮"
+msgstr "自检按钮"
 
 #: ../../source/cockpit.rst:141 ../../source/cockpit.rst:1917
 msgid "Button initiating TACAN BIT."
 msgstr "按下按钮开始 TACAN 自检。"
 
+# choose a set of switches, INVERSE mode or X & Y mode; inverse mode not functional though
 #: ../../source/cockpit.rst:143 ../../source/cockpit.rst:1919
 #: ../../source/cockpit.rst:3157
 msgid "MODE switches"
-msgstr "MODE 开关"
+msgstr "模式选择开关"
 
 #: ../../source/cockpit.rst:143 ../../source/cockpit.rst:1919
 msgid ""
@@ -400,7 +401,7 @@ msgstr "切换 TACAN 工作模式，选择 X 或 Y 频道。INVERSE 模式无功
 #: ../../source/cockpit.rst:1984 ../../source/cockpit.rst:2099
 #: ../../source/cockpit.rst:2803
 msgid "VOL knob"
-msgstr "VOL 旋钮"
+msgstr "音量旋钮"
 
 #: ../../source/cockpit.rst:145
 msgid "Volume control knob for TACAN audio to the pilot."
@@ -408,7 +409,7 @@ msgstr "控制飞行员 TACAN 音频音量"
 
 #: ../../source/cockpit.rst:147 ../../source/cockpit.rst:1923
 msgid "Mode knob"
-msgstr "模式旋钮"
+msgstr "模式选择旋钮"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects TACAN mode."
@@ -424,7 +425,7 @@ msgstr "REC - 仅接收"
 
 #: ../../source/cockpit.rst:0
 msgid "T/R - Transmit and receive, enables range readout."
-msgstr "T/R - 传输并接收，该模式下 TACAN 可以测距。"
+msgstr "T/R - 传输并接收，该模式下 TACAN 可以测距"
 
 #: ../../source/cockpit.rst:0
 msgid "A/A - Air to air TACAN mode."
@@ -461,7 +462,7 @@ msgstr "B/U - 备用放大器"
 
 #: ../../source/cockpit.rst:0
 msgid "NORM - Normal amplifier."
-msgstr "NORM - 常规放大器"
+msgstr "NORM - 正常放大器"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -470,7 +471,7 @@ msgid ""
 "Sidewinder tone and engine stall/overtemperature warnings."
 msgstr ""
 "EMER - 应急放大器。这个档位会使用 RIO 的放大器和他的音量设定。启用时将无法监"
-"听只有常规放大器中飞行员才能听见的“响尾蛇”导弹音调和发动机失速 / 超温警告音"
+"听只有常规放大器中飞行员才能听见的 “响尾蛇” 导弹音调和发动机失速 / 超温警告音"
 "频。"
 
 #: ../../source/cockpit.rst:183 ../../source/cockpit.rst:2109
@@ -496,7 +497,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "COLD MIC - Allows talking to the RIO only while the PTT is pressed."
-msgstr "COLD MIC - RIO 需按下 PTT 才能通话。"
+msgstr "COLD MIC - RIO 需按下 PTT 才能通话"
 
 #: ../../source/cockpit.rst:196
 msgid "AFCS Control Panel"
@@ -554,11 +555,11 @@ msgstr "OFF - 功能关闭"
 #: ../../source/cockpit.rst:0
 msgid ""
 "ACL - Automatic carrier landing mode. Engaged by NWS button on pilot stick."
-msgstr "ACL - 自动航降模式。通过飞行员驾驶杆上的 NWS 按钮激活。"
+msgstr "ACL - 自动航降模式，通过飞行员驾驶杆上的 NWS 按钮激活"
 
 #: ../../source/cockpit.rst:218
 msgid "ALT switch"
-msgstr "ALT 开关"
+msgstr "高度保持开关"
 
 #: ../../source/cockpit.rst:218
 msgid ""
@@ -567,7 +568,7 @@ msgstr "ON/OFF 开关，用于启用高度保持。通过飞行员驾驶杆上�
 
 #: ../../source/cockpit.rst:220
 msgid "HDG switch"
-msgstr "HDG 开关"
+msgstr "航向保持开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects HDG hold mode."
@@ -635,67 +636,72 @@ msgstr ""
 
 #: ../../source/cockpit.rst:252 ../../source/cockpit.rst:1990
 msgid "FREQ/(CHAN) display"
-msgstr ""
+msgstr "频率 /（频道）显示"
 
 #: ../../source/cockpit.rst:252 ../../source/cockpit.rst:1990
 msgid "Readout display showing selected frequency or channel."
-msgstr ""
+msgstr "显示当前选中的频率或频道。"
 
 #: ../../source/cockpit.rst:254
 msgid "READ button"
 msgstr ""
 
+# toggle display
+# what display? display of selected channel what?
+# what is the display of selected channel? on / off? number display?
 #: ../../source/cockpit.rst:254
+#, fuzzy
 msgid "Button toggling display of selected channel while held."
-msgstr ""
+msgstr "按住按钮切换选中频道的显示"
 
 #: ../../source/cockpit.rst:256 ../../source/cockpit.rst:1994
 msgid "BRT knob"
-msgstr ""
+msgstr "亮度旋钮"
 
 #: ../../source/cockpit.rst:256 ../../source/cockpit.rst:1994
 msgid "Knob controlling display brightness."
-msgstr ""
+msgstr "控制显示屏的亮度。"
 
 #: ../../source/cockpit.rst:258
 msgid "LOAD button"
 msgstr ""
 
+# 在选定的频道中载入选定频率？
 #: ../../source/cockpit.rst:258
 msgid "Button toggling load of set frequency to set channel."
 msgstr ""
 
 #: ../../source/cockpit.rst:260
 msgid "Function selector knob"
-msgstr ""
+msgstr "功能选择旋钮"
 
 #: ../../source/cockpit.rst:0
 msgid "Selector knob selecting radio function."
-msgstr ""
+msgstr "用于选择无线电功能。"
 
 #: ../../source/cockpit.rst:0
 msgid "ADF, BOTH, MAIN or OFF."
-msgstr ""
+msgstr "四个档位分别是 ADF、BOTH、MAIN 和 OFF。"
 
 #: ../../source/cockpit.rst:264 ../../source/cockpit.rst:2000
 msgid "CHAN SEL knob"
-msgstr ""
+msgstr "频道选择旋钮"
 
 #: ../../source/cockpit.rst:264
 msgid "Selects preset channel to use."
-msgstr ""
+msgstr "选择预设的频道。"
 
 #: ../../source/cockpit.rst:266
 msgid "Preset channels chart"
-msgstr ""
+msgstr "预设频道表"
 
 #: ../../source/cockpit.rst:266
 msgid "Chart used to record frequencies or use for preset channels."
-msgstr ""
+msgstr "用这张表来记录频率或预设频道的作用。"
 
 #: ../../source/cockpit.rst:268
 msgid "Mode selector knob"
-msgstr ""
+msgstr "模式选择旋钮"
 
 #: ../../source/cockpit.rst:268
 msgid "Knob selecting radio frequency select mode."
@@ -705,51 +711,55 @@ msgstr ""
 msgid "TONE button"
 msgstr ""
 
+# 歧义
+# 传输当前频道的TONE？
+# 在当前频道上传输一个TONE？make no sense
 #: ../../source/cockpit.rst:270
 msgid "Transmits a TONE on current frequency."
 msgstr ""
 
 #: ../../source/cockpit.rst:273
 msgid "ADF nonfunctional in AN/ARC-159, use V/UHF 2 instead."
-msgstr ""
+msgstr "AN/ARC-159 中的 ADF 无功能，改为使用 V/UHF 2中的 ADF。"
 
 #: ../../source/cockpit.rst:278
 msgid "ASYM Limiter/Engine Mode Select"
-msgstr ""
+msgstr "不对称推力限制器 / 发动机模式选择"
 
 #: ../../source/cockpit.rst:281
 msgid ""
 "Control panel for the asymmetric thrust limiter system and the control mode "
 "of each engine."
-msgstr ""
+msgstr "这个面板用于控制不对称推力限制系统和发动机控制模式。"
 
 #: ../../source/cockpit.rst:286
 msgid "ASYM LIMITER switch"
-msgstr ""
+msgstr "不对称推力限制器开关"
 
 #: ../../source/cockpit.rst:286
 msgid "ON/OFF switch enabling afterburner thrust asymmetry limiter."
-msgstr ""
+msgstr "ON/OFF - 不对称加力推力限制器的开关。"
 
 #: ../../source/cockpit.rst:288
 msgid "ENG MODE SELECT switches"
-msgstr ""
+msgstr "发动机模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switches selecting engine mode for their respective engine."
-msgstr ""
+msgstr "选择左右发动机各自的控制模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "PRI - Primary engine control mode."
-msgstr ""
+msgstr "PRI - 主要控制模式"
 
+# more like backup? need more ref
 #: ../../source/cockpit.rst:0
 msgid "SEC - Secondary engine control mode."
-msgstr ""
+msgstr "SEC - 次要控制模式"
 
 #: ../../source/cockpit.rst:299
 msgid "Target Designate Switch"
-msgstr ""
+msgstr "目标指定开关"
 
 #: ../../source/cockpit.rst:302
 msgid ""
@@ -761,109 +771,114 @@ msgstr ""
 
 #: ../../source/cockpit.rst:310
 msgid "Inlet Ramps/Throttle Control Panel"
-msgstr ""
+msgstr "进气道板 / 油门控制面板"
 
 #: ../../source/cockpit.rst:313
 msgid ""
 "Control panel for various engine systems, throttle settings and rudder trim."
-msgstr ""
+msgstr "这个面板用于控制多个发动机系统、油门设置以及方向舵配平。"
 
 #: ../../source/cockpit.rst:318
 msgid "THROTTLE MODE"
-msgstr ""
+msgstr "油门模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch selecting throttle operation mode."
-msgstr ""
+msgstr "用于选择油门工作模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "AUTO - Automatic."
-msgstr ""
+msgstr "AUTO - 自动模式"
 
+# need reference
+# what does the BOOST do?
 #: ../../source/cockpit.rst:0
 msgid "BOOST - Boosted."
-msgstr ""
+msgstr "BOOST - 增强模式"
 
 #: ../../source/cockpit.rst:0
 msgid "MAN - Manual."
-msgstr ""
+msgstr "MAN - 手动模式"
 
 #: ../../source/cockpit.rst:326
 msgid "THROTTLE TEMP"
-msgstr ""
+msgstr "油门温控开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch selecting throttle computer gain."
-msgstr ""
+msgstr "用于选择油门计算机增益。"
 
+# need more ref
+# see natops
 #: ../../source/cockpit.rst:0
 msgid "HOT - Hot."
-msgstr ""
+msgstr "HOT - 增大标准油门计算机增益"
 
 #: ../../source/cockpit.rst:0
 msgid "NORM - Normal."
-msgstr ""
+msgstr "NORM - 标准油门计算机增益"
 
 #: ../../source/cockpit.rst:0
 msgid "COLD - Cold."
-msgstr ""
+msgstr "COLD - 减小标准油门计算机增益"
 
 #: ../../source/cockpit.rst:334
 msgid "INLET RAMPS"
-msgstr ""
+msgstr "进气道板控制开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switches selecting operational modes for respective engine inlet ramps."
-msgstr ""
+msgstr "用于选择左右发动机各自的进气道板工作模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "STOW - Stowed."
-msgstr ""
+msgstr "STOW - 收起"
 
 #: ../../source/cockpit.rst:0
 msgid "AUTO - Automatic mode."
-msgstr ""
+msgstr "ATUO - 自动模式"
 
+# wording
 #: ../../source/cockpit.rst:340
 msgid "ENG CRANK"
-msgstr ""
+msgstr "发动机启动开关"
 
 #: ../../source/cockpit.rst:340
 msgid "Selector switch selecting engine crank for either left or right engine."
-msgstr ""
+msgstr "用于选择启动左发动机或右发动机。"
 
 #: ../../source/cockpit.rst:342
 msgid "BACK UP IGNITION"
-msgstr ""
+msgstr "备用点火开关"
 
 #: ../../source/cockpit.rst:342
 msgid "Switch toggling engine backup ignition ON or OFF."
-msgstr ""
+msgstr "用于开启或关闭备用点火。"
 
 #: ../../source/cockpit.rst:344
 msgid "RUDDER TRIM"
-msgstr ""
+msgstr "方向舵配平开关"
 
 #: ../../source/cockpit.rst:344
 msgid "Switch adjusting rudder trim."
-msgstr ""
+msgstr "用于调整方向舵配平"
 
 #: ../../source/cockpit.rst:351
 msgid "Throttle"
-msgstr ""
+msgstr "油门"
 
 #: ../../source/cockpit.rst:354
 msgid ""
 "The throttle grips contains various flight controls and HOTAS functions."
-msgstr ""
+msgstr "油门握把上包括了各种飞行控制和 HOTAS（手不离杆）功能。"
 
 #: ../../source/cockpit.rst:359
 msgid "Speed brake switch"
-msgstr ""
+msgstr "减速板开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch controlling extension of the speed brake."
-msgstr ""
+msgstr "用于控制减速板伸展和收起。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -878,7 +893,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:365
 msgid "Wing-sweep switch"
-msgstr ""
+msgstr "机翼后掠控制开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -926,7 +941,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:379
 msgid "Exterior light switch"
-msgstr ""
+msgstr "外部灯光开关"
 
 #: ../../source/cockpit.rst:379
 msgid ""
@@ -963,7 +978,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:396
 msgid "Throttle Quadrant"
-msgstr ""
+msgstr "油门弧座"
 
 #: ../../source/cockpit.rst:403
 msgid ""
@@ -1018,7 +1033,7 @@ msgstr "左侧垂直控制台"
 
 #: ../../source/cockpit.rst:432
 msgid "Fuel Management Panel"
-msgstr ""
+msgstr "燃油管理面板"
 
 #: ../../source/cockpit.rst:435
 msgid ""
@@ -1179,7 +1194,7 @@ msgstr ""
 #: ../../source/cockpit.rst:2697 ../../source/cockpit.rst:2731
 #: ../../source/cockpit.rst:2816
 msgid "Indicator"
-msgstr ""
+msgstr "指示器"
 
 #: ../../source/cockpit.rst:495
 msgid "SPOILER"
@@ -1428,7 +1443,7 @@ msgstr "左膝仪表板"
 
 #: ../../source/cockpit.rst:620
 msgid "Hydraulic Pressure Indicator"
-msgstr ""
+msgstr "液压压强指示器"
 
 #: ../../source/cockpit.rst:623
 msgid ""
@@ -1440,7 +1455,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:631
 msgid "Oil Pressure Indicator"
-msgstr ""
+msgstr "机油压强指示器"
 
 #: ../../source/cockpit.rst:634
 msgid ""
@@ -1450,7 +1465,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:640
 msgid "Exhaust Nozzle Position Indicator"
-msgstr ""
+msgstr "发动机喷口位置指示器"
 
 #: ../../source/cockpit.rst:643
 msgid ""
@@ -1477,7 +1492,7 @@ msgstr "左仪表板"
 
 #: ../../source/cockpit.rst:665
 msgid "Radar Altimeter"
-msgstr ""
+msgstr "雷达高度表"
 
 #: ../../source/cockpit.rst:668
 msgid "Control and indicator for the radar altimeter."
@@ -1538,9 +1553,12 @@ msgstr ""
 msgid "Radio override does not disable low-altitude warning tone."
 msgstr ""
 
+# Servopneumatic
+# 气动伺服？
 #: ../../source/cockpit.rst:692 ../../source/cockpit.rst:2270
+#, fuzzy
 msgid "Servopneumatic Altimeter"
-msgstr ""
+msgstr "气压高度表"
 
 #: ../../source/cockpit.rst:695 ../../source/cockpit.rst:2273
 msgid "Control and indicator for the servopneumatic altimeter."
@@ -1548,7 +1566,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:700 ../../source/cockpit.rst:2278
 msgid "Altimeter readout"
-msgstr ""
+msgstr "高度表读数"
 
 #: ../../source/cockpit.rst:700
 msgid ""
@@ -1820,7 +1838,7 @@ msgstr "中央仪表板"
 
 #: ../../source/cockpit.rst:825
 msgid "Heads-Up Display"
-msgstr ""
+msgstr "平视显示器"
 
 #: ../../source/cockpit.rst:828
 msgid ""
@@ -1844,7 +1862,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:838
 msgid "Cockpit Television Sensor (CTVS)"
-msgstr ""
+msgstr "驾驶舱电视传感器"
 
 #: ../../source/cockpit.rst:841
 msgid ""
@@ -1854,11 +1872,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:843
 msgid "Not implemented in DCS."
-msgstr ""
+msgstr "DCS 中未实装。"
 
 #: ../../source/cockpit.rst:849
 msgid "Air Combat Maneuver Panel"
-msgstr ""
+msgstr "空战格斗面板"
 
 #: ../../source/cockpit.rst:852
 msgid "Main pilot armament control panel."
@@ -1866,7 +1884,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:857
 msgid "ACM switch/cover"
-msgstr ""
+msgstr "ACM 开关 / 保护盖"
 
 #: ../../source/cockpit.rst:857
 msgid ""
@@ -2332,9 +2350,11 @@ msgid ""
 "the TID repeat :ref:`TID`."
 msgstr ""
 
+# wording
 #: ../../source/cockpit.rst:1006
+#, fuzzy
 msgid "Cabin Pressure Altimeter"
-msgstr ""
+msgstr "座舱压力高度表"
 
 #: ../../source/cockpit.rst:1009
 msgid "Displays cabin pressure in 1,000 foot increments from 0 to 50,000 feet."
@@ -2342,7 +2362,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1015
 msgid "Emergency Brake Pressure Indicator"
-msgstr ""
+msgstr "应急刹车压强表"
 
 #: ../../source/cockpit.rst:1018
 msgid ""
@@ -2367,7 +2387,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1028
 msgid "Control Stick"
-msgstr ""
+msgstr "驾驶杆"
 
 #: ../../source/cockpit.rst:1031
 msgid ""
@@ -2535,11 +2555,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1099
 msgid "Standby Compass"
-msgstr ""
+msgstr "备用罗盘"
 
 #: ../../source/cockpit.rst:1102
 msgid "Conventional standby compass."
-msgstr ""
+msgstr "常规备用罗盘。"
 
 #: ../../source/cockpit.rst:1108 ../../source/cockpit.rst:2586
 msgid "Right Instrument Panel"
@@ -2547,7 +2567,7 @@ msgstr "右仪表板"
 
 #: ../../source/cockpit.rst:1113
 msgid "Wing-Sweep Indicator"
-msgstr ""
+msgstr "机翼后掠指示器"
 
 #: ../../source/cockpit.rst:1116
 msgid "Indicator detailing status of the wing-sweep system."
@@ -2589,7 +2609,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1141 ../../source/cockpit.rst:2324
 msgid "Standby Attitude Indicator"
-msgstr ""
+msgstr "备用气压高度表"
 
 #: ../../source/cockpit.rst:1144 ../../source/cockpit.rst:2327
 msgid "Standalone standby attitude indicator."
@@ -2650,7 +2670,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1181 ../../source/cockpit.rst:2691
 msgid "Bearing Distance Heading Indicator (BDHI)"
-msgstr ""
+msgstr "方位距离航向指示器（BDHI）"
 
 #: ../../source/cockpit.rst:1184 ../../source/cockpit.rst:2694
 msgid "Display indicating azimuth and bearing information."
@@ -2692,7 +2712,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1203 ../../source/cockpit.rst:2604
 msgid "ALR-67 Indicator"
-msgstr ""
+msgstr "ALR-67 指示器"
 
 #: ../../source/cockpit.rst:1206 ../../source/cockpit.rst:2607
 msgid ""
@@ -2814,7 +2834,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1252 ../../source/cockpit.rst:2713
 msgid "Canopy Jettison Handle"
-msgstr ""
+msgstr "驾驶舱盖抛离手柄"
 
 #: ../../source/cockpit.rst:1255
 msgid "Used to jettison canopy manually."
@@ -2834,7 +2854,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1274
 msgid "BINGO readout"
-msgstr ""
+msgstr "BINGO 油量读数"
 
 #: ../../source/cockpit.rst:1274
 msgid "Shows currently set BINGO fuel quantity."
@@ -2894,7 +2914,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1298 ../../source/cockpit.rst:2591
 msgid "Clock"
-msgstr ""
+msgstr "时钟"
 
 #: ../../source/cockpit.rst:1301 ../../source/cockpit.rst:2594
 msgid "Mechanical wind up clock."
@@ -2918,7 +2938,7 @@ msgstr "右垂直控制台"
 
 #: ../../source/cockpit.rst:1316
 msgid "Arresting Hook Panel"
-msgstr ""
+msgstr "阻拦钩面板"
 
 #: ../../source/cockpit.rst:1319
 msgid "Panel controlling arrestor hook."
@@ -2973,7 +2993,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1341
 msgid "Displays Control Panel"
-msgstr ""
+msgstr "显示器控制面板"
 
 #: ../../source/cockpit.rst:1344
 msgid "Control panel for front cockpit displays."
@@ -3115,10 +3135,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/cockpit.rst:1399
-#, fuzzy
-#| msgid "MODE switches"
 msgid "POWER switches"
-msgstr "MODE开关"
+msgstr ""
 
 #: ../../source/cockpit.rst:1399
 msgid "Power switches for VDI, HUD and HSD/ECMD."
@@ -3140,7 +3158,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1410
 msgid "Elevation Lead Panel"
-msgstr ""
+msgstr "航炮提前量设置面板"
 
 #: ../../source/cockpit.rst:1413
 msgid ""
@@ -3152,9 +3170,10 @@ msgstr ""
 msgid "Right Side Console"
 msgstr "右侧控制台"
 
+# 超控？越控？
 #: ../../source/cockpit.rst:1424
 msgid "Spoiler Failure Override"
-msgstr ""
+msgstr "扰流板故障越控"
 
 #: ../../source/cockpit.rst:1427
 msgid ""
@@ -3995,9 +4014,13 @@ msgid ""
 "each variation in airspeed and altitude."
 msgstr ""
 
+# wording
+# ---
+# 主测试面板？
 #: ../../source/cockpit.rst:1716
+#, fuzzy
 msgid "Master Test Panel"
-msgstr ""
+msgstr "测试主控面板"
 
 #: ../../source/cockpit.rst:1719
 msgid ""
@@ -4218,7 +4241,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1828 ../../source/cockpit.rst:3226
 msgid "Canopy Defog/Cabin Air Lever"
-msgstr ""
+msgstr "驾驶舱盖除雾 / 座舱通风气流调节拉杆"
 
 #: ../../source/cockpit.rst:1831 ../../source/cockpit.rst:3229
 msgid ""
@@ -4231,7 +4254,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1838 ../../source/cockpit.rst:3236
 msgid "Canopy Control Handle"
-msgstr "舱盖控制手柄"
+msgstr "驾驶舱盖控制手柄"
 
 #: ../../source/cockpit.rst:1841
 msgid ""
@@ -4273,7 +4296,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1854 ../../source/cockpit.rst:3252
 msgid "Opens the canopy."
-msgstr ""
+msgstr "开启驾驶舱盖"
 
 #: ../../source/cockpit.rst:1856 ../../source/cockpit.rst:3254
 msgid "AUX OPEN"
@@ -4285,7 +4308,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1860
 msgid "F-14B RIO Cockpit"
-msgstr ""
+msgstr "F-14B 雷达拦截官驾驶舱"
 
 #: ../../source/cockpit.rst:1870
 msgid "G-Valve Button"
@@ -5407,7 +5430,7 @@ msgstr "中央控制台"
 
 #: ../../source/cockpit.rst:2465
 msgid "Tactical Information Display (TID)"
-msgstr ""
+msgstr "战术信息显示器（TID）"
 
 #: ../../source/cockpit.rst:2468
 msgid ""
@@ -5416,7 +5439,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2473
 msgid "INS status indicator"
-msgstr ""
+msgstr "惯导（INS）状态指示器"
 
 #: ../../source/cockpit.rst:2473
 msgid ""
@@ -5711,11 +5734,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2563
 msgid "Left and Right Footwells"
-msgstr "左右脚踏"
+msgstr "左右脚部空间"
 
 #: ../../source/cockpit.rst:2568
 msgid "ICS Foot Button"
-msgstr ""
+msgstr "ICS 脚踏开关"
 
 #: ../../source/cockpit.rst:2571
 msgid "RIO left footrest containing ICS PTT for COLD MIC intercommunication."
@@ -5723,7 +5746,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2577
 msgid "Mic Foot Button"
-msgstr ""
+msgstr "麦克风脚踏开关"
 
 #: ../../source/cockpit.rst:2580
 msgid ""
@@ -5754,13 +5777,13 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2662
 msgid "Threat Advisory and Master Caution Lights"
-msgstr ""
+msgstr "威胁提示灯和主注意灯"
 
 #: ../../source/cockpit.rst:2665
 msgid ""
 "Master caution light and various ECM and IFF related advisory and warning "
 "lights."
-msgstr ""
+msgstr "主注意（Master Caution）灯以及各种 ECM 和 IFF 相关提示 / 警告灯。"
 
 #: ../../source/cockpit.rst:2670
 msgid ""
@@ -5840,7 +5863,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2727
 msgid "Caution-Advisory Panel"
-msgstr ""
+msgstr "注意-提示面板"
 
 #: ../../source/cockpit.rst:2733
 msgid "C&D HOT"
@@ -5969,7 +5992,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2771
 msgid "Electronic Countermeasures Display (ECMD)"
-msgstr ""
+msgstr "电子对抗显示器（ECMD）"
 
 #: ../../source/cockpit.rst:2774
 msgid ""
@@ -5990,11 +6013,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2789
 msgid "Radar Warning Receiver Panel"
-msgstr ""
+msgstr "雷达警告接收器面板"
 
 #: ../../source/cockpit.rst:2795
 msgid "Switch controlling power to the ALR-67."
-msgstr ""
+msgstr "用于控制 ALR-67的电源"
 
 #: ../../source/cockpit.rst:2797
 msgid "DISPLAY TYPE selector"
@@ -6032,7 +6055,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2810
 msgid "Digital Data Indicator (DDI)"
-msgstr ""
+msgstr "数字数据显示面板（DDI）"
 
 #: ../../source/cockpit.rst:2813
 msgid ""
@@ -6361,11 +6384,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2903
 msgid "DECM Control Panel"
-msgstr ""
+msgstr "防御性电子对抗（DECM）控制面板"
 
 #: ../../source/cockpit.rst:2906
 msgid "Control panel for the DECM jammer (AN/ALQ-126)."
-msgstr ""
+msgstr "这个面板用于控制防御性电子对抗干扰发射机（AN/ALQ-126）。"
 
 #: ../../source/cockpit.rst:2911
 msgid "STANDBY light"
@@ -6428,7 +6451,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2934
 msgid "Data Link Reply and Antenna Control Panel"
-msgstr ""
+msgstr "数据链应答和天线控制面板"
 
 #: ../../source/cockpit.rst:2937
 msgid "Panel used to control data link alignment, reply and antenna."
@@ -6479,7 +6502,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2959
 msgid "AN/ALE-39 Control Panel"
-msgstr ""
+msgstr "AN/ALE-39 控制面板"
 
 #: ../../source/cockpit.rst:2965
 msgid "Inventory counters"
@@ -6583,7 +6606,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3001
 msgid "AN/APX-76 interrogator control panel."
-msgstr ""
+msgstr "AN/APX-76 询问器控制面板"
 
 #: ../../source/cockpit.rst:3006
 msgid "TEST-CHAL CC switch"
@@ -6755,7 +6778,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3074
 msgid "Interior Light Control Panel"
-msgstr ""
+msgstr "座舱灯光控制面板"
 
 #: ../../source/cockpit.rst:3077
 msgid "Panel controlling lights in RIO cockpit."
@@ -6780,11 +6803,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3113
 msgid "IFF Transponder Control Panel"
-msgstr ""
+msgstr "敌我识别（IFF）应答机控制面板"
 
 #: ../../source/cockpit.rst:3116
 msgid "Control panel for the AN/APX-72 transponder."
-msgstr ""
+msgstr "用于控制 AN/APX-72 应答机。"
 
 #: ../../source/cockpit.rst:3121
 msgid "MODE 4 switch"
@@ -6971,7 +6994,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3190
 msgid "IFF Antenna Control/Test Panel"
-msgstr ""
+msgstr "敌我识别（IFF）天线控制 / 测试面板"
 
 #: ../../source/cockpit.rst:3193
 msgid "Panel containing controls for IFF antenna, tests and ground cooling."
@@ -7023,7 +7046,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3215
 msgid "Electrical Power System Test Panel"
-msgstr ""
+msgstr "电力系统测试面板"
 
 #: ../../source/cockpit.rst:3218
 msgid "Panel used by groundcrew to test aircraft electrical systems."
@@ -7031,7 +7054,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3220
 msgid "Non-functional in DCS."
-msgstr ""
+msgstr "DCS 中无功能。"
 
 #: ../../source/cockpit.rst:3239
 msgid ""

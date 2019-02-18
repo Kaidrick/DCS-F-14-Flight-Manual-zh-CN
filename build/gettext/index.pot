@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.1.5\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.2.1 | Feb. 15th, 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 17:04+0800\n"
+"POT-Creation-Date: 2019-02-16 17:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,99 +28,296 @@ msgstr ""
 msgid "已完成部分："
 msgstr ""
 
-#: ../../source/index.rst:10
-msgid "简介（intro.po） --> 红白"
+#: ../../source/index.rst:11
+#: ../../source/index.rst:23
+#: ../../source/index.rst:62
+msgid "章节"
 msgstr ""
 
+#: ../../source/index.rst:11
+#: ../../source/index.rst:23
+#: ../../source/index.rst:62
+msgid "文件"
+msgstr ""
+
+#: ../../source/index.rst:11
+#: ../../source/index.rst:23
+#: ../../source/index.rst:32
+msgid "翻译"
+msgstr ""
+
+#: ../../source/index.rst:11
+#: ../../source/index.rst:47
+msgid "校对"
+msgstr ""
+
+#: ../../source/index.rst:11
+#: ../../source/index.rst:32
+msgid "完成"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid "简介"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid "intro.po"
+msgstr ""
+
+#: ../../source/index.rst:13
+#: ../../source/index.rst:34
+msgid "红白"
+msgstr ""
+
+#: ../../source/index.rst:13
+#: ../../source/index.rst:14
 #: ../../source/index.rst:16
-msgid "施工中："
+msgid "狐狸"
+msgstr ""
+
+#: ../../source/index.rst:13
+#: ../../source/index.rst:14
+#: ../../source/index.rst:15
+#: ../../source/index.rst:16
+#: ../../source/index.rst:34
+#: ../../source/index.rst:35
+#: ../../source/index.rst:36
+#: ../../source/index.rst:37
+#: ../../source/index.rst:38
+#: ../../source/index.rst:41
+msgid "√"
 msgstr ""
 
 #: ../../source/index.rst:14
-msgid "procedures.po / 进度 83% emergency.po  --> 煎蛋 dcs.po  --> 午饭"
+msgid "流程"
 msgstr ""
 
-#: ../../source/index.rst:18
-msgid "参与人员："
+#: ../../source/index.rst:14
+msgid "procedures.po"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "红白、吃瓜、zero、北欧、学姐、煎蛋、威龙、丫滑"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid "DCS特定功能"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid "dcs.po"
+msgstr ""
+
+#: ../../source/index.rst:15
+#: ../../source/index.rst:50
+msgid "午饭"
+msgstr ""
+
+#: ../../source/index.rst:15
+#: ../../source/index.rst:25
+#: ../../source/index.rst:37
+#: ../../source/index.rst:49
+msgid "北欧"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "紧急程序"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "emergency.po"
+msgstr ""
+
+#: ../../source/index.rst:16
+#: ../../source/index.rst:38
+msgid "煎蛋"
 msgstr ""
 
 #: ../../source/index.rst:20
-msgid "红白 √"
+msgid "施工中："
 msgstr ""
 
-#: ../../source/index.rst:22
-msgid "吃瓜 √"
+#: ../../source/index.rst:23
+msgid "进度"
 msgstr ""
 
-#: ../../source/index.rst:24
-msgid "zero √"
+#: ../../source/index.rst:23
+#: ../../source/index.rst:32
+#: ../../source/index.rst:47
+#: ../../source/index.rst:62
+msgid "注释"
 msgstr ""
 
-#: ../../source/index.rst:26
-msgid "北欧 √"
+#: ../../source/index.rst:25
+msgid "缩写和简称"
 msgstr ""
 
-#: ../../source/index.rst:28
-msgid "午饭 √"
+#: ../../source/index.rst:25
+msgid "accr.po"
 msgstr ""
 
-#: ../../source/index.rst:30
-msgid "学姐 √"
+#: ../../source/index.rst:25
+msgid "81%"
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid "需统一用词"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "武器章节翻译分工："
 msgstr ""
 
 #: ../../source/index.rst:32
-msgid "煎蛋 √"
+#: ../../source/index.rst:47
+msgid "词条ID"
 msgstr ""
 
 #: ../../source/index.rst:34
-msgid "汉魂~威龙 √"
+msgid "1 - 20"
+msgstr ""
+
+#: ../../source/index.rst:34
+msgid "开头到 Manual Air-to-Ground Sight 之前"
+msgstr ""
+
+#: ../../source/index.rst:35
+msgid "21 - 55"
+msgstr ""
+
+#: ../../source/index.rst:35
+msgid "吃瓜"
+msgstr ""
+
+#: ../../source/index.rst:35
+msgid "Manual Air-to-Ground Sight 直到 AIM-9之前"
 msgstr ""
 
 #: ../../source/index.rst:36
+msgid "56 - 70"
+msgstr ""
+
+#: ../../source/index.rst:36
+msgid "zero"
+msgstr ""
+
+#: ../../source/index.rst:36
+msgid "AIM-9部分"
+msgstr ""
+
+#: ../../source/index.rst:37
+msgid "71 - 109"
+msgstr ""
+
+#: ../../source/index.rst:37
+msgid "AIM-54部分"
+msgstr ""
+
+#: ../../source/index.rst:38
+msgid "110 - 140"
+msgstr ""
+
+#: ../../source/index.rst:38
+msgid "Air-to-Ground Weapons 到 Computer Target 之前"
+msgstr ""
+
+#: ../../source/index.rst:39
+msgid "141 - 163"
+msgstr ""
+
+#: ../../source/index.rst:39
 msgid "丫滑"
 msgstr ""
 
-#: ../../source/index.rst:40
-msgid "分工：  粗略每人50条"
+#: ../../source/index.rst:39
+msgid "Computer Target 到 Mk-81, 82, 83 and 84 GP Bombs 之前"
 msgstr ""
 
-#: ../../source/index.rst:42
-msgid "开头到 ACM switch - OFF (guard down)."
+#: ../../source/index.rst:40
+msgid "164 - 189"
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid "学姐"
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid "通用航空炸弹到特种弹药之前"
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid "190 - 221"
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid "威龙"
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid "特种弹药和剩余部分"
 msgstr ""
 
 #: ../../source/index.rst:44
-msgid "If wings are not in OV SWP: 结束"
+msgid "武器章节粗校对分工："
 msgstr ""
 
-#: ../../source/index.rst:46
-msgid "EMERG FLT HYD switch to AUTO(LOW),"
+#: ../../source/index.rst:49
+msgid "1 - 109"
 msgstr ""
 
-#: ../../source/index.rst:48
-msgid "YAW STAB OP and OUT."
+#: ../../source/index.rst:49
+msgid "开头到 AIM-54部分"
 msgstr ""
 
 #: ../../source/index.rst:50
-msgid "After moving handle to 20° (full forward), engage spider detent."
+msgid "110 - 221"
 msgstr ""
 
-#: ../../source/index.rst:52
-msgid "U/VHF MODE selector - OFF."
+#: ../../source/index.rst:50
+msgid "Air-to-Ground Weapons到结束 包括最后一张表格"
 msgstr ""
 
-#: ../../source/index.rst:54
-msgid "This is done when pilot selects LTS test on MASTER TEST switch."
+#: ../../source/index.rst:53
+msgid "武器章节精细校对："
 msgstr ""
 
-#: ../../source/index.rst:56
-msgid "DATA LINK - As required."
+#: ../../source/index.rst:55
+msgid "狐狸 - TBA"
 msgstr ""
 
-#: ../../source/index.rst:58
-msgid "到结尾"
+#: ../../source/index.rst:59
+msgid "计划："
 msgstr ""
 
-#: ../../source/index.rst:66
+#: ../../source/index.rst:64
+msgid "驾驶舱总览"
+msgstr ""
+
+#: ../../source/index.rst:64
+msgid "cockpit.po"
+msgstr ""
+
+#: ../../source/index.rst:64
+msgid "章节内小标题翻译 --> 分发"
+msgstr ""
+
+#: ../../source/index.rst:65
+msgid "设计和系统"
+msgstr ""
+
+#: ../../source/index.rst:65
+msgid "general.po"
+msgstr ""
+
+#: ../../source/index.rst:65
+msgid "TBD"
+msgstr ""
+
+#: ../../source/index.rst:68
+msgid "校对： TBD"
+msgstr ""
+
+#: ../../source/index.rst:77
 msgid "Contents:"
 msgstr ""
 

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.1.5\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.2.1 | Feb. 15th, 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"POT-Creation-Date: 2019-02-16 17:32+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,14 +225,14 @@ msgstr ""
 #: ../../source/cockpit.rst:1846
 #: ../../source/cockpit.rst:1885
 #: ../../source/cockpit.rst:2013
-#: ../../source/cockpit.rst:2041
-#: ../../source/cockpit.rst:2313
-#: ../../source/cockpit.rst:2737
-#: ../../source/cockpit.rst:2884
-#: ../../source/cockpit.rst:2909
-#: ../../source/cockpit.rst:3048
-#: ../../source/cockpit.rst:3164
-#: ../../source/cockpit.rst:3243
+#: ../../source/cockpit.rst:2032
+#: ../../source/cockpit.rst:2097
+#: ../../source/cockpit.rst:2369
+#: ../../source/cockpit.rst:2793
+#: ../../source/cockpit.rst:2940
+#: ../../source/cockpit.rst:3080
+#: ../../source/cockpit.rst:3196
+#: ../../source/cockpit.rst:3244
 msgid "Control"
 msgstr ""
 
@@ -279,34 +279,34 @@ msgstr ""
 #: ../../source/cockpit.rst:1946
 #: ../../source/cockpit.rst:1982
 #: ../../source/cockpit.rst:2013
-#: ../../source/cockpit.rst:2041
-#: ../../source/cockpit.rst:2081
-#: ../../source/cockpit.rst:2122
-#: ../../source/cockpit.rst:2158
-#: ../../source/cockpit.rst:2220
-#: ../../source/cockpit.rst:2245
-#: ../../source/cockpit.rst:2289
-#: ../../source/cockpit.rst:2313
-#: ../../source/cockpit.rst:2334
-#: ../../source/cockpit.rst:2415
-#: ../../source/cockpit.rst:2468
-#: ../../source/cockpit.rst:2554
-#: ../../source/cockpit.rst:2612
-#: ../../source/cockpit.rst:2641
-#: ../../source/cockpit.rst:2675
-#: ../../source/cockpit.rst:2737
-#: ../../source/cockpit.rst:2760
-#: ../../source/cockpit.rst:2853
-#: ../../source/cockpit.rst:2884
+#: ../../source/cockpit.rst:2032
+#: ../../source/cockpit.rst:2057
+#: ../../source/cockpit.rst:2097
+#: ../../source/cockpit.rst:2137
+#: ../../source/cockpit.rst:2178
+#: ../../source/cockpit.rst:2214
+#: ../../source/cockpit.rst:2276
+#: ../../source/cockpit.rst:2301
+#: ../../source/cockpit.rst:2345
+#: ../../source/cockpit.rst:2369
+#: ../../source/cockpit.rst:2390
+#: ../../source/cockpit.rst:2471
+#: ../../source/cockpit.rst:2524
+#: ../../source/cockpit.rst:2610
+#: ../../source/cockpit.rst:2668
+#: ../../source/cockpit.rst:2697
+#: ../../source/cockpit.rst:2731
+#: ../../source/cockpit.rst:2793
+#: ../../source/cockpit.rst:2816
 #: ../../source/cockpit.rst:2909
-#: ../../source/cockpit.rst:2932
-#: ../../source/cockpit.rst:2973
-#: ../../source/cockpit.rst:3001
-#: ../../source/cockpit.rst:3048
-#: ../../source/cockpit.rst:3087
-#: ../../source/cockpit.rst:3164
-#: ../../source/cockpit.rst:3189
-#: ../../source/cockpit.rst:3243
+#: ../../source/cockpit.rst:2940
+#: ../../source/cockpit.rst:2963
+#: ../../source/cockpit.rst:3004
+#: ../../source/cockpit.rst:3033
+#: ../../source/cockpit.rst:3080
+#: ../../source/cockpit.rst:3119
+#: ../../source/cockpit.rst:3196
+#: ../../source/cockpit.rst:3244
 msgid "Function"
 msgstr ""
 
@@ -361,22 +361,22 @@ msgstr ""
 #: ../../source/cockpit.rst:1911
 #: ../../source/cockpit.rst:1946
 #: ../../source/cockpit.rst:1982
-#: ../../source/cockpit.rst:2081
-#: ../../source/cockpit.rst:2122
-#: ../../source/cockpit.rst:2158
-#: ../../source/cockpit.rst:2220
-#: ../../source/cockpit.rst:2245
-#: ../../source/cockpit.rst:2289
-#: ../../source/cockpit.rst:2334
-#: ../../source/cockpit.rst:2415
-#: ../../source/cockpit.rst:2468
-#: ../../source/cockpit.rst:2554
-#: ../../source/cockpit.rst:2853
-#: ../../source/cockpit.rst:2932
-#: ../../source/cockpit.rst:2973
-#: ../../source/cockpit.rst:3001
-#: ../../source/cockpit.rst:3087
-#: ../../source/cockpit.rst:3189
+#: ../../source/cockpit.rst:2057
+#: ../../source/cockpit.rst:2137
+#: ../../source/cockpit.rst:2178
+#: ../../source/cockpit.rst:2214
+#: ../../source/cockpit.rst:2276
+#: ../../source/cockpit.rst:2301
+#: ../../source/cockpit.rst:2345
+#: ../../source/cockpit.rst:2390
+#: ../../source/cockpit.rst:2471
+#: ../../source/cockpit.rst:2524
+#: ../../source/cockpit.rst:2610
+#: ../../source/cockpit.rst:2909
+#: ../../source/cockpit.rst:2963
+#: ../../source/cockpit.rst:3004
+#: ../../source/cockpit.rst:3033
+#: ../../source/cockpit.rst:3119
 msgid "Control/Indicator"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:143
 #: ../../source/cockpit.rst:1919
-#: ../../source/cockpit.rst:3125
+#: ../../source/cockpit.rst:3157
 msgid "MODE switches"
 msgstr ""
 
@@ -470,8 +470,8 @@ msgstr ""
 #: ../../source/cockpit.rst:246
 #: ../../source/cockpit.rst:1921
 #: ../../source/cockpit.rst:1984
-#: ../../source/cockpit.rst:2043
-#: ../../source/cockpit.rst:2747
+#: ../../source/cockpit.rst:2099
+#: ../../source/cockpit.rst:2803
 msgid "VOL knob"
 msgstr ""
 
@@ -515,12 +515,12 @@ msgid "BCN - Beacon TACAN mode. (Non functional)"
 msgstr ""
 
 #: ../../source/cockpit.rst:164
-#: ../../source/cockpit.rst:2035
+#: ../../source/cockpit.rst:2091
 msgid "ICS Control Panel"
 msgstr ""
 
 #: ../../source/cockpit.rst:167
-#: ../../source/cockpit.rst:2038
+#: ../../source/cockpit.rst:2094
 msgid "Control panel for ICS."
 msgstr ""
 
@@ -529,7 +529,7 @@ msgid "Volume control knob for intercommunication audio from the RIO to the pilo
 msgstr ""
 
 #: ../../source/cockpit.rst:174
-#: ../../source/cockpit.rst:2045
+#: ../../source/cockpit.rst:2101
 msgid "Amplifier selection knob"
 msgstr ""
 
@@ -552,7 +552,7 @@ msgid "EMER - Emergency amplifier. Uses RIO's amplifier and his volume settings.
 msgstr ""
 
 #: ../../source/cockpit.rst:183
-#: ../../source/cockpit.rst:2053
+#: ../../source/cockpit.rst:2109
 msgid "ICS switch"
 msgstr ""
 
@@ -1057,11 +1057,11 @@ msgid "Hydraulic Hand Pump"
 msgstr ""
 
 #: ../../source/cockpit.rst:421
-msgid "The hydraulic hand pump is located inboards of the throttle quadrant, near the pilot’s left leg. It is used to manually add hydraulic pressure for brake operation (with gear handle in the down position) or for refuelling probe operation in case of a failure in the hydraulic system."
+msgid "The hydraulic hand pump is located inboards of the throttle quadrant, near the pilot’s left leg. It is used to manually add hydraulic pressure for brake operation (with gear handle in the down position) or for refueling probe operation in case of a failure in the hydraulic system."
 msgstr ""
 
 #: ../../source/cockpit.rst:427
-#: ../../source/cockpit.rst:2147
+#: ../../source/cockpit.rst:2203
 msgid "Left Vertical Console"
 msgstr ""
 
@@ -1122,11 +1122,11 @@ msgid "OFF - Turns off fuel feed from the wing and external tanks."
 msgstr ""
 
 #: ../../source/cockpit.rst:458
-msgid "Refuelling probe indicator light"
+msgid "Refueling probe indicator light"
 msgstr ""
 
 #: ../../source/cockpit.rst:458
-msgid "Transition light lit when refuelling probe is not in extended or retracted position."
+msgid "Transition light illuminated when refueling probe is not in extended or retracted position."
 msgstr ""
 
 #: ../../source/cockpit.rst:460
@@ -1142,19 +1142,19 @@ msgid "REFUEL PROBE switch"
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "Selection switch toggling operation of refuelling probe."
+msgid "Selection switch toggling operation of refueling probe."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "ALL EXTD - All extended, extends refuelling probe and allows refuelling of all tanks. Also resets WING/EXT TRANS switch to AUTO."
+msgid "ALL EXTD - All extended, extends refueling probe and allows refueling of all tanks. Also resets WING/EXT TRANS switch to AUTO."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "FUS EXTD - Fuselage extended, extends refuelling probe and allows refuelling of only fuselage tanks."
+msgid "FUS EXTD - Fuselage extended, extends refueling probe and allows refueling of only fuselage tanks."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "RET - Retracted, retracts refuelling probe."
+msgid "RET - Retracted, retracts refueling probe."
 msgstr ""
 
 #: ../../source/cockpit.rst:470
@@ -1166,7 +1166,7 @@ msgid "Selection switch determining operation anti-skid and spoiler brake system
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "BOTH - Engages both anti-skid and spoiler brake function with weight on wheels."
+msgid "BOTH - Enables both anti-skid and spoiler brake function with weight on wheels."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
@@ -1182,7 +1182,7 @@ msgid "MASTER RESET button"
 msgstr ""
 
 #: ../../source/cockpit.rst:478
-msgid "Resets CADC failure detection system, resetting associated fault displays."
+msgid "Resets CADC failure detection system and associated fault displays."
 msgstr ""
 
 #: ../../source/cockpit.rst:480
@@ -1190,7 +1190,7 @@ msgid "Control surface position indicator"
 msgstr ""
 
 #: ../../source/cockpit.rst:480
-msgid "Displays control surface positions, see below."
+msgid "Displays control surface positions. See below."
 msgstr ""
 
 #: ../../source/cockpit.rst:487
@@ -1206,10 +1206,10 @@ msgstr ""
 #: ../../source/cockpit.rst:948
 #: ../../source/cockpit.rst:1187
 #: ../../source/cockpit.rst:1520
-#: ../../source/cockpit.rst:2612
-#: ../../source/cockpit.rst:2641
-#: ../../source/cockpit.rst:2675
-#: ../../source/cockpit.rst:2760
+#: ../../source/cockpit.rst:2668
+#: ../../source/cockpit.rst:2697
+#: ../../source/cockpit.rst:2731
+#: ../../source/cockpit.rst:2816
 msgid "Indicator"
 msgstr ""
 
@@ -1282,7 +1282,7 @@ msgid "DOWN LOCK ORIDE"
 msgstr ""
 
 #: ../../source/cockpit.rst:534
-msgid "Indicates weight on wheels when moved down by solenoid. Can be lifted up to override."
+msgid "Indicates weight on wheels when moved down by solenoid. Can be lifted up to override. Non-functional in DCS."
 msgstr ""
 
 #: ../../source/cockpit.rst:536
@@ -1466,7 +1466,7 @@ msgid "Image shows TF-30 engine instruments, F110 EIG coming soon."
 msgstr ""
 
 #: ../../source/cockpit.rst:660
-#: ../../source/cockpit.rst:2209
+#: ../../source/cockpit.rst:2265
 msgid "Left Instrument Panel"
 msgstr ""
 
@@ -1527,17 +1527,17 @@ msgid "Radio override does not disable low-altitude warning tone."
 msgstr ""
 
 #: ../../source/cockpit.rst:692
-#: ../../source/cockpit.rst:2214
+#: ../../source/cockpit.rst:2270
 msgid "Servopneumatic Altimeter"
 msgstr ""
 
 #: ../../source/cockpit.rst:695
-#: ../../source/cockpit.rst:2217
+#: ../../source/cockpit.rst:2273
 msgid "Control and indicator for the servopneumatic altimeter."
 msgstr ""
 
 #: ../../source/cockpit.rst:700
-#: ../../source/cockpit.rst:2222
+#: ../../source/cockpit.rst:2278
 msgid "Altimeter readout"
 msgstr ""
 
@@ -1546,12 +1546,12 @@ msgid "Displays altitude digitally on three drums showing 10 000, 1 000 and 100 
 msgstr ""
 
 #: ../../source/cockpit.rst:702
-#: ../../source/cockpit.rst:2224
+#: ../../source/cockpit.rst:2280
 msgid "Baroset knob"
 msgstr ""
 
 #: ../../source/cockpit.rst:702
-#: ../../source/cockpit.rst:2224
+#: ../../source/cockpit.rst:2280
 msgid "Sets local pressure in inches of mercury (in.Hg). Only used locally on the altimeter readout, all other digital indicators (via CADC) uses a set 29.92 in.Hg value."
 msgstr ""
 
@@ -1560,88 +1560,85 @@ msgid "Local barometric pressure"
 msgstr ""
 
 #: ../../source/cockpit.rst:704
-#: ../../source/cockpit.rst:2226
+#: ../../source/cockpit.rst:2282
 msgid "Indicates barometric pressure setting, also called the Kollsman Window."
 msgstr ""
 
 #: ../../source/cockpit.rst:706
 #: ../../source/cockpit.rst:1472
-#: ../../source/cockpit.rst:2228
+#: ../../source/cockpit.rst:2284
 msgid "Mode switch"
 msgstr ""
 
 #: ../../source/cockpit.rst:706
-#: ../../source/cockpit.rst:2228
+#: ../../source/cockpit.rst:2284
 msgid "Three-position switch, springloaded to return from RESET. If power and altitude data from CADC is present, switch can be held in RESET for 3 seconds to allow normal (servoed) mode of operation. If set to STBY or power or CADC data is absent for more than 3 seconds system switches to backup (pressure) mode."
 msgstr ""
 
 #: ../../source/cockpit.rst:708
-#: ../../source/cockpit.rst:2230
+#: ../../source/cockpit.rst:2286
 msgid "STBY flag"
 msgstr ""
 
 #: ../../source/cockpit.rst:708
-#: ../../source/cockpit.rst:2230
+#: ../../source/cockpit.rst:2286
 msgid "Red flag reading STBY that appears if system is in backup (stand-by) mode."
 msgstr ""
 
 #: ../../source/cockpit.rst:711
-#: ../../source/cockpit.rst:2233
+#: ../../source/cockpit.rst:2289
 msgid "At high speeds and below 10,000 feet, due to pressure changes, errors in readout up to as much as 1,200 feet when transonic and up to as much as 4,000 feet when supersonic can occur."
 msgstr ""
 
 #: ../../source/cockpit.rst:717
-#: ../../source/cockpit.rst:2239
+#: ../../source/cockpit.rst:2295
 msgid "Airspeed Mach Indicator"
 msgstr ""
 
 #: ../../source/cockpit.rst:720
-#: ../../source/cockpit.rst:2242
+#: ../../source/cockpit.rst:2298
 msgid "Indicated airspeed and Mach number display."
 msgstr ""
 
 #: ../../source/cockpit.rst:725
-#: ../../source/cockpit.rst:2247
+#: ../../source/cockpit.rst:2303
 msgid "Airspeed dial"
 msgstr ""
 
 #: ../../source/cockpit.rst:725
-#: ../../source/cockpit.rst:2247
+#: ../../source/cockpit.rst:2303
 msgid "Shows indicated airspeed on three scales, two for indicated airspeed and one moving for Mach number."
 msgstr ""
 
 #: ../../source/cockpit.rst:727
-#: ../../source/cockpit.rst:2249
+#: ../../source/cockpit.rst:2305
 msgid "Indicated airspeed scale (outer)"
 msgstr ""
 
 #: ../../source/cockpit.rst:727
-#: ../../source/cockpit.rst:2249
-msgid "Used to indicate indicated airspeed up to 200 knots."
+msgid "Readout for indicated airspeed up to 200 knots."
 msgstr ""
 
 #: ../../source/cockpit.rst:729
-#: ../../source/cockpit.rst:2251
+#: ../../source/cockpit.rst:2307
 msgid "Indicated airspeed scale (inner)"
 msgstr ""
 
 #: ../../source/cockpit.rst:729
-#: ../../source/cockpit.rst:2251
-msgid "Used to indicate indicated airspeed from 200 knots to 850 knots. Covered by airspeed dial until relevant."
+msgid "Readout for indicated airspeed from 200 knots to 850 knots. Covered by airspeed dial until relevant."
 msgstr ""
 
 #: ../../source/cockpit.rst:731
-#: ../../source/cockpit.rst:2253
+#: ../../source/cockpit.rst:2309
 msgid "Mach number scale"
 msgstr ""
 
 #: ../../source/cockpit.rst:731
-#: ../../source/cockpit.rst:2253
-msgid "Moving scale used to indicate Mach number. Moved to show correct Mach number relative indicated airspeed."
+msgid "Readout for Mach number. Moved to show correct Mach number relative indicated airspeed."
 msgstr ""
 
 #: ../../source/cockpit.rst:733
-#: ../../source/cockpit.rst:2255
+#: ../../source/cockpit.rst:2311
 msgid "Indicated airspeed index pointer"
 msgstr ""
 
@@ -1650,7 +1647,7 @@ msgid "Can be set to desired indicated airspeed."
 msgstr ""
 
 #: ../../source/cockpit.rst:735
-#: ../../source/cockpit.rst:2257
+#: ../../source/cockpit.rst:2313
 msgid "Mach number index pointer"
 msgstr ""
 
@@ -1659,22 +1656,22 @@ msgid "Can be set to desired Mach number. Not visible in image."
 msgstr ""
 
 #: ../../source/cockpit.rst:737
-#: ../../source/cockpit.rst:2259
+#: ../../source/cockpit.rst:2315
 msgid "Safe Mach number index pointer"
 msgstr ""
 
 #: ../../source/cockpit.rst:737
-#: ../../source/cockpit.rst:2259
+#: ../../source/cockpit.rst:2315
 msgid "Shows safe Mach number calculated by the CADC. Not visible in image."
 msgstr ""
 
 #: ../../source/cockpit.rst:739
-#: ../../source/cockpit.rst:2261
+#: ../../source/cockpit.rst:2317
 msgid "Index knob"
 msgstr ""
 
 #: ../../source/cockpit.rst:739
-#: ../../source/cockpit.rst:2261
+#: ../../source/cockpit.rst:2317
 msgid "Knob with a pull-out and push-in position. One sets indexer for indicated airspeed and the other for Mach number."
 msgstr ""
 
@@ -1691,7 +1688,7 @@ msgid "Left Engine Fuel Shutoff Handle"
 msgstr ""
 
 #: ../../source/cockpit.rst:758
-msgid "Pulled out to shut off fuel to the left engine in case of emergency. Press in to re-enable fuel-flow to the engine. Should not be used to secure the engine."
+msgid "Pull to shut off fuel to the left engine in case of emergency. Push in to re-enable fuel-flow to the engine. Should not be used to secure the engine."
 msgstr ""
 
 #: ../../source/cockpit.rst:760
@@ -1703,7 +1700,7 @@ msgid "Angle-of-Attack Indicator"
 msgstr ""
 
 #: ../../source/cockpit.rst:769
-msgid "Tape showing angle of attack (AOA) on a scale of 0 to 30 units. (Equivalent to -10° to +40° rotation of the AoA probe.)"
+msgid "Tape indicating angle of attack (AOA) on a scale of 0 to 30 units. (Equivalent to -10° to +40° rotation of the AoA probe.)"
 msgstr ""
 
 #: ../../source/cockpit.rst:771
@@ -1727,11 +1724,11 @@ msgid "Green being too slow, amber being on-speed AOA and red being too fast."
 msgstr ""
 
 #: ../../source/cockpit.rst:789
-msgid "If the HOOK BY-PASS switch is in CARRIER the lights will flash if the landing gear is down and hook is up."
+msgid "If the HOOK BY-PASS switch is set to CARRIER the lights will flash if the arresting hook is up while the landing gear is down."
 msgstr ""
 
 #: ../../source/cockpit.rst:791
-msgid "These lights are also repeated on the approach lights on the nosewheel strut, allowing the LSO to see aircraft AOA during carrier landings."
+msgid "These lights are repeated on the approach lights on the nosewheel strut, allowing the LSO to see aircraft AOA during carrier landings."
 msgstr ""
 
 #: ../../source/cockpit.rst:797
@@ -1747,7 +1744,7 @@ msgid "WHEELS"
 msgstr ""
 
 #: ../../source/cockpit.rst:805
-msgid "Warning light flashing with landing gear not down and locked, flaps below 10° and either throttle below 85%."
+msgid "Warning light flashes with landing gear not down and locked, flaps below 10° and either throttle below 85%."
 msgstr ""
 
 #: ../../source/cockpit.rst:807
@@ -1783,7 +1780,7 @@ msgid "Caution light indicating disengagement of the automatic throttle control 
 msgstr ""
 
 #: ../../source/cockpit.rst:820
-#: ../../source/cockpit.rst:2302
+#: ../../source/cockpit.rst:2358
 msgid "Center Panel"
 msgstr ""
 
@@ -1792,11 +1789,11 @@ msgid "Heads-Up Display"
 msgstr ""
 
 #: ../../source/cockpit.rst:828
-msgid "Projects flight and weapons data onto the forward section of the canopy/windscreen. Night mode available on the control next to the VDI."
+msgid "Projects flight and weapons data onto the forward section of the canopy/windscreen. Night mode can be selected using the control on the right side of the VDI."
 msgstr ""
 
 #: ../../source/cockpit.rst:830
-msgid "Also has two engine stall warning lights (L STALL & R STALL) mounted on the left and right sides respectively. They indicate the presence of an engine stall condition in their respective engine."
+msgid "Has two engine stall warning lights (L STALL & R STALL) mounted on the left and right sides respectively. They indicate the presence of an engine stall condition in their respective engine."
 msgstr ""
 
 #: ../../source/cockpit.rst:832
@@ -1961,7 +1958,7 @@ msgid "CHECKERBOARD - Weapon is selected and ready for launch. On the ground ind
 msgstr ""
 
 #: ../../source/cockpit.rst:901
-#: ../../source/cockpit.rst:2614
+#: ../../source/cockpit.rst:2670
 msgid "MASTER CAUTION light and button"
 msgstr ""
 
@@ -2070,7 +2067,7 @@ msgid "Data link warning and caution lights situated at the VDI panel."
 msgstr ""
 
 #: ../../source/cockpit.rst:950
-#: ../../source/cockpit.rst:2812
+#: ../../source/cockpit.rst:2868
 msgid "ADJ A/C"
 msgstr ""
 
@@ -2095,7 +2092,7 @@ msgid "Warning light indicating CATCC has aquired aircraft and is transmitting g
 msgstr ""
 
 #: ../../source/cockpit.rst:956
-#: ../../source/cockpit.rst:2808
+#: ../../source/cockpit.rst:2864
 msgid "A/P CPLR"
 msgstr ""
 
@@ -2120,7 +2117,7 @@ msgid "Warning light indicating that carrier motion is added to data link info a
 msgstr ""
 
 #: ../../source/cockpit.rst:962
-#: ../../source/cockpit.rst:2816
+#: ../../source/cockpit.rst:2872
 msgid "TILT"
 msgstr ""
 
@@ -2129,7 +2126,7 @@ msgid "Warning light indicating no data link command received for the last 2 sec
 msgstr ""
 
 #: ../../source/cockpit.rst:964
-#: ../../source/cockpit.rst:2814
+#: ../../source/cockpit.rst:2870
 msgid "VOICE"
 msgstr ""
 
@@ -2403,7 +2400,7 @@ msgid "Conventional standby compass."
 msgstr ""
 
 #: ../../source/cockpit.rst:1108
-#: ../../source/cockpit.rst:2530
+#: ../../source/cockpit.rst:2586
 msgid "Right Instrument Panel"
 msgstr ""
 
@@ -2436,7 +2433,7 @@ msgid "Right Engine Fuel Shutoff Handle"
 msgstr ""
 
 #: ../../source/cockpit.rst:1133
-msgid "Pulled out to shut off fuel to the right engine in case of emergency. Press in to re-enable fuel-flow to the engine. Should not be used to secure the engine."
+msgid "Pull to shut off fuel to the right engine in case of emergency. Push in to re-enable fuel-flow to the engine. Should not be used to secure the engine."
 msgstr ""
 
 #: ../../source/cockpit.rst:1135
@@ -2444,22 +2441,22 @@ msgid "Right engine fire extinguishing button is located behind the handle, acce
 msgstr ""
 
 #: ../../source/cockpit.rst:1141
-#: ../../source/cockpit.rst:2268
+#: ../../source/cockpit.rst:2324
 msgid "Standby Attitude Indicator"
 msgstr ""
 
 #: ../../source/cockpit.rst:1144
-#: ../../source/cockpit.rst:2271
+#: ../../source/cockpit.rst:2327
 msgid "Standalone standby attitude indicator."
 msgstr ""
 
 #: ../../source/cockpit.rst:1146
-#: ../../source/cockpit.rst:2273
+#: ../../source/cockpit.rst:2329
 msgid "An OFF flag is visible on the left side when caged or when unpowered."
 msgstr ""
 
 #: ../../source/cockpit.rst:1148
-#: ../../source/cockpit.rst:2275
+#: ../../source/cockpit.rst:2331
 msgid "The knob below and to the right of the indicator cages/uncages the indicator and allows trim to correct pitch. In pulled out position the indicator is caged. When pushed in uncages the indicator and allows pitch trim by turning the knob."
 msgstr ""
 
@@ -2504,67 +2501,67 @@ msgid "BRT - Controls display brightness."
 msgstr ""
 
 #: ../../source/cockpit.rst:1181
-#: ../../source/cockpit.rst:2635
+#: ../../source/cockpit.rst:2691
 msgid "Bearing Distance Heading Indicator (BDHI)"
 msgstr ""
 
 #: ../../source/cockpit.rst:1184
-#: ../../source/cockpit.rst:2638
+#: ../../source/cockpit.rst:2694
 msgid "Display indicating azimuth and bearing information."
 msgstr ""
 
 #: ../../source/cockpit.rst:1189
-#: ../../source/cockpit.rst:2643
+#: ../../source/cockpit.rst:2699
 msgid "No. 2 bearing pointer"
 msgstr ""
 
 #: ../../source/cockpit.rst:1189
-#: ../../source/cockpit.rst:2643
+#: ../../source/cockpit.rst:2699
 msgid "Indicates magnetic course to tuned TACAN station."
 msgstr ""
 
 #: ../../source/cockpit.rst:1191
-#: ../../source/cockpit.rst:2645
+#: ../../source/cockpit.rst:2701
 msgid "Compass rose"
 msgstr ""
 
 #: ../../source/cockpit.rst:1191
-#: ../../source/cockpit.rst:2645
+#: ../../source/cockpit.rst:2701
 msgid "Shows current aircraft magnetic heading."
 msgstr ""
 
 #: ../../source/cockpit.rst:1193
-#: ../../source/cockpit.rst:2647
+#: ../../source/cockpit.rst:2703
 msgid "No. 1 bearing pointer"
 msgstr ""
 
 #: ../../source/cockpit.rst:1193
-#: ../../source/cockpit.rst:2647
+#: ../../source/cockpit.rst:2703
 msgid "Indicates bearing to tuned UHF/ADF station."
 msgstr ""
 
 #: ../../source/cockpit.rst:1195
-#: ../../source/cockpit.rst:2649
+#: ../../source/cockpit.rst:2705
 msgid "Distance counter"
 msgstr ""
 
 #: ../../source/cockpit.rst:1195
-#: ../../source/cockpit.rst:2649
+#: ../../source/cockpit.rst:2705
 msgid "Indicates slant range to tuned TACAN station in nautical miles. (Not visible in this image.)"
 msgstr ""
 
 #: ../../source/cockpit.rst:1203
-#: ../../source/cockpit.rst:2548
+#: ../../source/cockpit.rst:2604
 msgid "ALR-67 Indicator"
 msgstr ""
 
 #: ../../source/cockpit.rst:1206
-#: ../../source/cockpit.rst:2551
+#: ../../source/cockpit.rst:2607
 msgid "Indicator showing emitters detected by the ALR-67 RWR (radar warning receiver) set."
 msgstr ""
 
 #: ../../source/cockpit.rst:1211
-#: ../../source/cockpit.rst:2556
+#: ../../source/cockpit.rst:2612
 msgid "System status circle, area I"
 msgstr ""
 
@@ -2599,7 +2596,7 @@ msgid "F - Friendly emitters shown in addition to other threats."
 msgstr ""
 
 #: ../../source/cockpit.rst:1223
-#: ../../source/cockpit.rst:2568
+#: ../../source/cockpit.rst:2624
 msgid "System status circle, area II"
 msgstr ""
 
@@ -2619,7 +2616,7 @@ msgid "L - Limited mode selected, display shows only 6 highest prioritized threa
 msgstr ""
 
 #: ../../source/cockpit.rst:1229
-#: ../../source/cockpit.rst:2574
+#: ../../source/cockpit.rst:2630
 msgid "System status circle, area III"
 msgstr ""
 
@@ -2649,7 +2646,7 @@ msgid "O - Offset display selected. Threats will be separated to allow readout o
 msgstr ""
 
 #: ../../source/cockpit.rst:1239
-#: ../../source/cockpit.rst:2584
+#: ../../source/cockpit.rst:2640
 msgid "Non-lethal band"
 msgstr ""
 
@@ -2658,7 +2655,7 @@ msgid "Displays emitters not a direct threat to own aircraft, either because dee
 msgstr ""
 
 #: ../../source/cockpit.rst:1241
-#: ../../source/cockpit.rst:2586
+#: ../../source/cockpit.rst:2642
 msgid "Lethal band"
 msgstr ""
 
@@ -2667,27 +2664,27 @@ msgid "Displays threats that are deemed within range and capable of engaging own
 msgstr ""
 
 #: ../../source/cockpit.rst:1243
-#: ../../source/cockpit.rst:2588
+#: ../../source/cockpit.rst:2644
 msgid "Critical band"
 msgstr ""
 
 #: ../../source/cockpit.rst:1243
-#: ../../source/cockpit.rst:2588
+#: ../../source/cockpit.rst:2644
 msgid "Displays direct threats to own aircraft. Systems capable of engaging own aircraft and showing current intent of doing so."
 msgstr ""
 
 #: ../../source/cockpit.rst:1245
-#: ../../source/cockpit.rst:2590
+#: ../../source/cockpit.rst:2646
 msgid "INT knob"
 msgstr ""
 
 #: ../../source/cockpit.rst:1245
-#: ../../source/cockpit.rst:2590
+#: ../../source/cockpit.rst:2646
 msgid "Intensity/brightness knob. Controls the brightness of the display."
 msgstr ""
 
 #: ../../source/cockpit.rst:1252
-#: ../../source/cockpit.rst:2657
+#: ../../source/cockpit.rst:2713
 msgid "Canopy Jettison Handle"
 msgstr ""
 
@@ -2696,7 +2693,7 @@ msgid "Used to jettison canopy manually."
 msgstr ""
 
 #: ../../source/cockpit.rst:1261
-#: ../../source/cockpit.rst:2666
+#: ../../source/cockpit.rst:2722
 msgid "Right Knee Panel"
 msgstr ""
 
@@ -2757,27 +2754,27 @@ msgid "Instrument showing current aircraft g-load (acceleration along aircraft v
 msgstr ""
 
 #: ../../source/cockpit.rst:1298
-#: ../../source/cockpit.rst:2535
+#: ../../source/cockpit.rst:2591
 msgid "Clock"
 msgstr ""
 
 #: ../../source/cockpit.rst:1301
-#: ../../source/cockpit.rst:2538
+#: ../../source/cockpit.rst:2594
 msgid "Mechanical wind up clock."
 msgstr ""
 
 #: ../../source/cockpit.rst:1303
-#: ../../source/cockpit.rst:2540
+#: ../../source/cockpit.rst:2596
 msgid "The knob on the lower left corner is used to wind up the clock by turning it clockwise and pulled out and turned to set the hour and minute hands."
 msgstr ""
 
 #: ../../source/cockpit.rst:1305
-#: ../../source/cockpit.rst:2542
+#: ../../source/cockpit.rst:2598
 msgid "The control on the upper right corner is used to start, stop and reset a 1-hour elapsed time counter."
 msgstr ""
 
 #: ../../source/cockpit.rst:1311
-#: ../../source/cockpit.rst:2710
+#: ../../source/cockpit.rst:2766
 msgid "Right Vertical Console"
 msgstr ""
 
@@ -2984,7 +2981,7 @@ msgid "Used to set gun elevation lead in mils for the manual A/A and A/G gun mod
 msgstr ""
 
 #: ../../source/cockpit.rst:1419
-#: ../../source/cockpit.rst:2728
+#: ../../source/cockpit.rst:2784
 msgid "Right Side Console"
 msgstr ""
 
@@ -3309,7 +3306,7 @@ msgid "Caution lights indicating respective engine generator is inoperative."
 msgstr ""
 
 #: ../../source/cockpit.rst:1562
-#: ../../source/cockpit.rst:2685
+#: ../../source/cockpit.rst:2741
 msgid "CANOPY"
 msgstr ""
 
@@ -3426,7 +3423,7 @@ msgid "Advisory light indicating failure in trim system or computer failure."
 msgstr ""
 
 #: ../../source/cockpit.rst:1594
-#: ../../source/cockpit.rst:2703
+#: ../../source/cockpit.rst:2759
 msgid "AHRS"
 msgstr ""
 
@@ -3567,17 +3564,17 @@ msgid "Switch controlling taxi lights."
 msgstr ""
 
 #: ../../source/cockpit.rst:1656
-#: ../../source/cockpit.rst:3050
+#: ../../source/cockpit.rst:3082
 msgid "INSTRUMENT thumbwheel"
 msgstr ""
 
 #: ../../source/cockpit.rst:1656
-#: ../../source/cockpit.rst:3050
+#: ../../source/cockpit.rst:3082
 msgid "Thumbwheel controlling instrument panel lights, 0 equals off, 1-14 sets the lights to an increasingly bright setting."
 msgstr ""
 
 #: ../../source/cockpit.rst:1658
-#: ../../source/cockpit.rst:3052
+#: ../../source/cockpit.rst:3084
 msgid "WHITE FLOOD switch"
 msgstr ""
 
@@ -3586,17 +3583,17 @@ msgid "Switch enabling white flood lights in the pilot cockpit. DIM and BRT sett
 msgstr ""
 
 #: ../../source/cockpit.rst:1660
-#: ../../source/cockpit.rst:3054
+#: ../../source/cockpit.rst:3086
 msgid "CONSOLE thumbwheel"
 msgstr ""
 
 #: ../../source/cockpit.rst:1660
-#: ../../source/cockpit.rst:3054
+#: ../../source/cockpit.rst:3086
 msgid "Thumbwheel controlling console lights and red floodlights. 0 turns off both console and red floodlights, 1-14 sets the console lights to an increasingly bright setting."
 msgstr ""
 
 #: ../../source/cockpit.rst:1662
-#: ../../source/cockpit.rst:3056
+#: ../../source/cockpit.rst:3088
 msgid "RED FLOOD switch"
 msgstr ""
 
@@ -3853,7 +3850,7 @@ msgid "Panel containing the control for the hydraulic transfer pump which equali
 msgstr ""
 
 #: ../../source/cockpit.rst:1797
-msgid "The HYD TRANSFER PUMP switch has two positions, SHUTOFF and NORMAL (guarded position). The NORMAL position (also the standard setting) will make the hydraulic transfer pump try to pressurize a failed hydraulic system from the other when it drops below 2,100 psi. The SHUTOFF position (which can be accessed by lifting the guard) is used when the transfer pump can't supply enough pressure to the failed system making the operational system also fail. This setting turns of the transfer pump."
+msgid "The HYD TRANSFER PUMP switch has two positions, SHUTOFF and NORMAL (guarded position). The NORMAL position (also the standard setting) will have the hydraulic transfer pump pressurize a failed hydraulic system from the other, functioning system, when it drops below 2,100 psi. The SHUTOFF position (which can be accessed by lifting the guard) is used to turn off the transfer pump in case it can't supply enough pressure to the failed system as that would risk disabling the still operational system."
 msgstr ""
 
 #: ../../source/cockpit.rst:1805
@@ -3893,17 +3890,17 @@ msgid "VTR - Video tape recorder."
 msgstr ""
 
 #: ../../source/cockpit.rst:1828
-#: ../../source/cockpit.rst:3225
+#: ../../source/cockpit.rst:3226
 msgid "Canopy Defog/Cabin Air Lever"
 msgstr ""
 
 #: ../../source/cockpit.rst:1831
-#: ../../source/cockpit.rst:3228
+#: ../../source/cockpit.rst:3229
 msgid "The canopy air diffuser lever controls the flow of cabin air. The normal position, CABIN AIR, directs 70% of the conditioned air through the cockpit air diffusers and 30% through the canopy air diffusers. The CANOPY DEFOG position directs all air flow through the canopy air diffusers for canopy defog."
 msgstr ""
 
 #: ../../source/cockpit.rst:1838
-#: ../../source/cockpit.rst:3235
+#: ../../source/cockpit.rst:3236
 msgid "Canopy Control Handle"
 msgstr ""
 
@@ -3912,52 +3909,52 @@ msgid "The canopy control handle controls canopy operation and is located on the
 msgstr ""
 
 #: ../../source/cockpit.rst:1848
-#: ../../source/cockpit.rst:3245
+#: ../../source/cockpit.rst:3246
 msgid "BOOST"
 msgstr ""
 
 #: ../../source/cockpit.rst:1848
-#: ../../source/cockpit.rst:3245
+#: ../../source/cockpit.rst:3246
 msgid "Closes the canopy using boost, used during cold weather or with a strong headwind."
 msgstr ""
 
 #: ../../source/cockpit.rst:1850
-#: ../../source/cockpit.rst:3247
+#: ../../source/cockpit.rst:3248
 msgid "CLOSE"
 msgstr ""
 
 #: ../../source/cockpit.rst:1850
-#: ../../source/cockpit.rst:3247
+#: ../../source/cockpit.rst:3248
 msgid "Closes the canopy, default position during flight."
 msgstr ""
 
 #: ../../source/cockpit.rst:1852
-#: ../../source/cockpit.rst:3249
+#: ../../source/cockpit.rst:3250
 msgid "HOLD"
 msgstr ""
 
 #: ../../source/cockpit.rst:1852
-#: ../../source/cockpit.rst:3249
+#: ../../source/cockpit.rst:3250
 msgid "Holds canopy at current position for any position other than closed."
 msgstr ""
 
 #: ../../source/cockpit.rst:1854
-#: ../../source/cockpit.rst:3251
+#: ../../source/cockpit.rst:3252
 msgid "OPEN"
 msgstr ""
 
 #: ../../source/cockpit.rst:1854
-#: ../../source/cockpit.rst:3251
+#: ../../source/cockpit.rst:3252
 msgid "Opens the canopy."
 msgstr ""
 
 #: ../../source/cockpit.rst:1856
-#: ../../source/cockpit.rst:3253
+#: ../../source/cockpit.rst:3254
 msgid "AUX OPEN"
 msgstr ""
 
 #: ../../source/cockpit.rst:1856
-#: ../../source/cockpit.rst:3253
+#: ../../source/cockpit.rst:3254
 msgid "Allows manual opening of the canopy if system pressure is too low."
 msgstr ""
 
@@ -4074,7 +4071,7 @@ msgid "Selector switch selecting modulation in use. Operational in the 225.000 t
 msgstr ""
 
 #: ../../source/cockpit.rst:1996
-#: ../../source/cockpit.rst:2103
+#: ../../source/cockpit.rst:2159
 msgid "MODE knob"
 msgstr ""
 
@@ -4127,14 +4124,115 @@ msgid "Switch selecting which radio to use with KY-28."
 msgstr ""
 
 #: ../../source/cockpit.rst:2026
-msgid "Liquid Cooling Control Panel"
+msgid "Data Link Control Panel"
 msgstr ""
 
 #: ../../source/cockpit.rst:2029
+msgid "Control panel for the data link."
+msgstr ""
+
+#: ../../source/cockpit.rst:2034
+msgid "Transmission mode switch"
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "Sets data link tranmission mode."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "TEST - Starts system test."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "NORM - Normal operational mode."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "A/J - Anti-jam mode."
+msgstr ""
+
+#: ../../source/cockpit.rst:2042
+msgid "Frequency select wheels"
+msgstr ""
+
+#: ../../source/cockpit.rst:2042
+msgid "Thumbwheels used to set data link frequency."
+msgstr ""
+
+#: ../../source/cockpit.rst:2044
+msgid "Data link power switch"
+msgstr ""
+
+#: ../../source/cockpit.rst:2044
+msgid "Enables power to data link, also used to set AUX (auxiliary) mode."
+msgstr ""
+
+#: ../../source/cockpit.rst:2051
+msgid "Radar Beacon Control Panel"
+msgstr ""
+
+#: ../../source/cockpit.rst:2054
+msgid "Panel controlling AN/APN-154 radar beacon."
+msgstr ""
+
+#: ../../source/cockpit.rst:2059
+msgid "MODE selector"
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "Selector switch controlling beacon mode of operation."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "SINGLE - Enables beacon response to single pulse codes."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "DOUBLE - Enables beacon response to set double pulse code."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "ACLS - Enables augmentor operation for ACLS. Required for CATCC radar lockon for ACLS."
+msgstr ""
+
+#: ../../source/cockpit.rst:2067
+msgid "ACLS TEST button"
+msgstr ""
+
+#: ../../source/cockpit.rst:2067
+msgid "Button with green light used to indicate operation or test. When pressed with MODE in ACLS illumination indicates a successful test. The light also flashes when detecting an AN/SPN-42 radar sweeping past and illuminates when that radar has locked on for ACLS guidance."
+msgstr ""
+
+#: ../../source/cockpit.rst:2069
+#: ../../source/cockpit.rst:2795
+msgid "PWR switch"
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "Switch controlling beacon power."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "PWR - Enables beacon and all replies depending on MODE selector."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "STBY - Used to warmup system, also enables ACLS replies if the MODE selector is set to ACLS."
+msgstr ""
+
+#: ../../source/cockpit.rst:0
+msgid "OFF - Beacon off."
+msgstr ""
+
+#: ../../source/cockpit.rst:2082
+msgid "Liquid Cooling Control Panel"
+msgstr ""
+
+#: ../../source/cockpit.rst:2085
 msgid "LIQ COOLING switch controlling the liquid cooling system for the AWG-9 and AIM-54. The AWG-9 circuit can be enabled independently of the AIM-54. This switch need to be enabled for the respective system before AWG-9 operation or AIM-54 missile preparation."
 msgstr ""
 
-#: ../../source/cockpit.rst:2043
+#: ../../source/cockpit.rst:2099
 msgid "Volume control knob for intercommunication audio from the pilot to the RIO."
 msgstr ""
 
@@ -4154,507 +4252,519 @@ msgstr ""
 msgid "COLD MIC - Allows talking to the pilot only while the PTT is pressed."
 msgstr ""
 
-#: ../../source/cockpit.rst:2066
+#: ../../source/cockpit.rst:2122
 msgid "Eject Command Lever"
 msgstr ""
 
-#: ../../source/cockpit.rst:2069
+#: ../../source/cockpit.rst:2125
 msgid "A pilot initiated ejection will always eject both crew members. The EJECT CMD lever controls what happens when the RIO ejects: In PILOT mode (lever forward), only the RIO will be ejected. In MCO mode, both pilot and RIO initiated ejection will eject both crew members"
 msgstr ""
 
-#: ../../source/cockpit.rst:2075
+#: ../../source/cockpit.rst:2131
 msgid "Sensor Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2078
+#: ../../source/cockpit.rst:2134
 msgid "Control panel for AWG-9 scan settings, the TCS and the airborne video tape recorder."
 msgstr ""
 
-#: ../../source/cockpit.rst:2083
+#: ../../source/cockpit.rst:2139
 msgid "STAB switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2083
+#: ../../source/cockpit.rst:2139
 msgid "Selector switch controlling ground stabilization of the radar."
 msgstr ""
 
-#: ../../source/cockpit.rst:2085
+#: ../../source/cockpit.rst:2141
 msgid "AZ CTR knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2085
+#: ../../source/cockpit.rst:2141
 msgid "Azimuth control knob selecting center of azimuth scan area."
 msgstr ""
 
-#: ../../source/cockpit.rst:2087
+#: ../../source/cockpit.rst:2143
 msgid "EL CTR knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2087
+#: ../../source/cockpit.rst:2143
 msgid "Elevation control knob selecting center of elevation scan area."
 msgstr ""
 
-#: ../../source/cockpit.rst:2089
+#: ../../source/cockpit.rst:2145
 msgid "VSL switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2089
+#: ../../source/cockpit.rst:2145
 msgid "Selector switch springloaded to center which enables VSL. VSL HI or LO can be selected."
 msgstr ""
 
-#: ../../source/cockpit.rst:2091
+#: ../../source/cockpit.rst:2147
 msgid "AZ SCAN knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2091
+#: ../../source/cockpit.rst:2147
 msgid "Azimuth scan knob selecing azimuth scan volume."
 msgstr ""
 
-#: ../../source/cockpit.rst:2093
+#: ../../source/cockpit.rst:2149
 msgid "EL BARS knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2093
+#: ../../source/cockpit.rst:2149
 msgid "Elevation bar knob selecting amount of bars to scan in elevation."
 msgstr ""
 
-#: ../../source/cockpit.rst:2095
+#: ../../source/cockpit.rst:2151
 msgid "TCS TRIM knobs"
 msgstr ""
 
-#: ../../source/cockpit.rst:2095
+#: ../../source/cockpit.rst:2151
 msgid "Trim knobs used to calibrate TCS video in azimuth and elevation."
 msgstr ""
 
-#: ../../source/cockpit.rst:2097
+#: ../../source/cockpit.rst:2153
 msgid "SLAVE switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2097
+#: ../../source/cockpit.rst:2153
 msgid "Selector switch selecting which sensor is slaved to the other."
 msgstr ""
 
-#: ../../source/cockpit.rst:2099
+#: ../../source/cockpit.rst:2155
 msgid "ACQ switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2099
+#: ../../source/cockpit.rst:2155
 msgid "Selector switch selecting acquisition mode for the TCS. AUTO, MAN or AUTO SRCH."
 msgstr ""
 
-#: ../../source/cockpit.rst:2101
+#: ../../source/cockpit.rst:2157
 msgid "FOV switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2101
+#: ../../source/cockpit.rst:2157
 msgid "Selector switch selecting field of view for the TCS, WIDE or NAR (narrow)."
 msgstr ""
 
-#: ../../source/cockpit.rst:2103
+#: ../../source/cockpit.rst:2159
 msgid "Knob controlling what the AVTR records."
 msgstr ""
 
-#: ../../source/cockpit.rst:2105
+#: ../../source/cockpit.rst:2161
 msgid "MIN REMAIN display"
 msgstr ""
 
-#: ../../source/cockpit.rst:2105
+#: ../../source/cockpit.rst:2161
 msgid "Counter showing minutes remaining for the AVTR."
 msgstr ""
 
-#: ../../source/cockpit.rst:2107
+#: ../../source/cockpit.rst:2163
 msgid "RECORD switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2107
+#: ../../source/cockpit.rst:2163
 msgid "Selector switch controlling the AVTR. OFF/STBY/ON."
 msgstr ""
 
-#: ../../source/cockpit.rst:2109
+#: ../../source/cockpit.rst:2165
 msgid "Indicator lights"
 msgstr ""
 
-#: ../../source/cockpit.rst:2109
+#: ../../source/cockpit.rst:2165
 msgid "Lights indicating AVTR operation. STBY, EOT (end of tape) and REC."
 msgstr ""
 
-#: ../../source/cockpit.rst:2116
+#: ../../source/cockpit.rst:2172
 msgid "Computer Address Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2119
+#: ../../source/cockpit.rst:2175
 msgid "The CAP is used to enter data into the WCS. The MESSAGE indicator drum and buttons works similarly to the buttons on MFDs on newer aircraft."
 msgstr ""
 
-#: ../../source/cockpit.rst:2124
+#: ../../source/cockpit.rst:2180
 msgid "CLEAR button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2124
+#: ../../source/cockpit.rst:2180
 msgid "Button clearing current TID buffer without inserting entered data."
 msgstr ""
 
-#: ../../source/cockpit.rst:2126
+#: ../../source/cockpit.rst:2182
 msgid "ENTER button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2126
+#: ../../source/cockpit.rst:2182
 msgid "Button inserting current data from TID buffer into the WCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2128
+#: ../../source/cockpit.rst:2184
 msgid "Prefix & Numerical buttons"
 msgstr ""
 
-#: ../../source/cockpit.rst:2128
+#: ../../source/cockpit.rst:2184
 msgid "Numerical buttons with additional prefix selection functionality."
 msgstr ""
 
-#: ../../source/cockpit.rst:2130
+#: ../../source/cockpit.rst:2186
 msgid "MESSAGE button switches"
 msgstr ""
 
-#: ../../source/cockpit.rst:2130
+#: ../../source/cockpit.rst:2186
 msgid "Buttons used to select functions from the MESSAGE drum."
 msgstr ""
 
-#: ../../source/cockpit.rst:2132
+#: ../../source/cockpit.rst:2188
 msgid "MESSAGE indicator drum"
 msgstr ""
 
-#: ../../source/cockpit.rst:2132
+#: ../../source/cockpit.rst:2188
 msgid "Indicator drum used to indicate currently available MESSAGE functionality."
 msgstr ""
 
-#: ../../source/cockpit.rst:2134
+#: ../../source/cockpit.rst:2190
 msgid "PRGM RESTRT button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2134
+#: ../../source/cockpit.rst:2190
 msgid "Button used to restart the program running in the WCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2136
+#: ../../source/cockpit.rst:2192
 msgid "CATEGORY knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2136
+#: ../../source/cockpit.rst:2192
 msgid "Selector knob selecting current category in use on the MESSAGE indicator drum."
 msgstr ""
 
-#: ../../source/cockpit.rst:2138
+#: ../../source/cockpit.rst:2194
 msgid "TNG (NBR)"
 msgstr ""
 
-#: ../../source/cockpit.rst:2138
+#: ../../source/cockpit.rst:2194
 msgid "Non-functional."
 msgstr ""
 
-#: ../../source/cockpit.rst:2141
+#: ../../source/cockpit.rst:2197
 msgid "All of the buttons have indicator lights indicating operation depending on function."
 msgstr ""
 
-#: ../../source/cockpit.rst:2152
+#: ../../source/cockpit.rst:2208
 msgid "Armament Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2155
+#: ../../source/cockpit.rst:2211
 msgid "Main armament control panel in the RIO cockpit."
 msgstr ""
 
-#: ../../source/cockpit.rst:2160
+#: ../../source/cockpit.rst:2216
 msgid "WPN TYPE selector"
 msgstr ""
 
-#: ../../source/cockpit.rst:2160
+#: ../../source/cockpit.rst:2216
 msgid "Selector wheel selecting type of weapon used for WCS A/G calculation."
 msgstr ""
 
-#: ../../source/cockpit.rst:2162
+#: ../../source/cockpit.rst:2218
 msgid "ATTK MODE knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2162
+#: ../../source/cockpit.rst:2218
 msgid "Knob selecting which A/G attack mode to use."
 msgstr ""
 
-#: ../../source/cockpit.rst:2164
+#: ../../source/cockpit.rst:2220
 msgid "ELEC FUSE knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2164
+#: ../../source/cockpit.rst:2220
 msgid "Knob selecting electric fuze setting for A/G ordnance."
 msgstr ""
 
-#: ../../source/cockpit.rst:2166
+#: ../../source/cockpit.rst:2222
 msgid "A/G GUN switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2166
+#: ../../source/cockpit.rst:2222
 msgid "Selector switch controlling gun mode in A/G master mode. MIXED enables gun in addition to selected A/G ordnance."
 msgstr ""
 
-#: ../../source/cockpit.rst:2168
+#: ../../source/cockpit.rst:2224
 msgid "QTY selectors"
 msgstr ""
 
-#: ../../source/cockpit.rst:2168
+#: ../../source/cockpit.rst:2224
 msgid "Selector wheels controlling quantity of A/G ordnance (including rockets) to be released."
 msgstr ""
 
-#: ../../source/cockpit.rst:2170
+#: ../../source/cockpit.rst:2226
 msgid "INTERVAL selectors"
 msgstr ""
 
-#: ../../source/cockpit.rst:2170
+#: ../../source/cockpit.rst:2226
 msgid "Selector wheels controlling interval between weapons release in ripple delivery mode in milliseconds."
 msgstr ""
 
-#: ../../source/cockpit.rst:2172
+#: ../../source/cockpit.rst:2228
 msgid "Station 6 select switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2172
+#: ../../source/cockpit.rst:2228
 msgid "Switch used to select station 6 for jettison or weapons A/G delivery."
 msgstr ""
 
-#: ../../source/cockpit.rst:2174
+#: ../../source/cockpit.rst:2230
 msgid "A/A LAUNCH button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2174
+#: ../../source/cockpit.rst:2230
 msgid "Button used for RIO launch of AIM-7 or AIM-54, hot trigger is indicated by button illumination."
 msgstr ""
 
-#: ../../source/cockpit.rst:2176
+#: ../../source/cockpit.rst:2232
 msgid "MSL SPD GATE knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2176
+#: ../../source/cockpit.rst:2232
 msgid "Knob controlling position of missile speed gate."
 msgstr ""
 
-#: ../../source/cockpit.rst:2178
+#: ../../source/cockpit.rst:2234
 msgid "Station 8 select switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2178
+#: ../../source/cockpit.rst:2234
 msgid "Switch used to select station 8 for jettison or weapons A/G delivery. B selects the lower pylon for release or jettison, the SW option is non-functional."
 msgstr ""
 
-#: ../../source/cockpit.rst:2180
+#: ../../source/cockpit.rst:2236
 msgid "MSL OPTIONS switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2180
+#: ../../source/cockpit.rst:2236
 msgid "Selector switch used to activate AIM-7 pulse doppler mode or AIM-54 active launch mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2182
+#: ../../source/cockpit.rst:2238
 msgid "Station 5 select switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2182
+#: ../../source/cockpit.rst:2238
 msgid "Switch used to select station 5 for jettison or weapons A/G delivery."
 msgstr ""
 
-#: ../../source/cockpit.rst:2184
+#: ../../source/cockpit.rst:2240
 msgid "NEXT LAUNCH button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2184
+#: ../../source/cockpit.rst:2240
 msgid "Button used by RIO to select a hooked target as the next target to launch at in TWS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2186
+#: ../../source/cockpit.rst:2242
 msgid "Station 4 select switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2186
+#: ../../source/cockpit.rst:2242
 msgid "Switch used to select station 4 for jettison or weapons A/G delivery."
 msgstr ""
 
-#: ../../source/cockpit.rst:2188
+#: ../../source/cockpit.rst:2244
 msgid "Station 1 select switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2188
+#: ../../source/cockpit.rst:2244
 msgid "Switch used to select station 1 for jettison or weapons A/G delivery. B selects the lower pylon for release or jettison, the SW option is non-functional."
 msgstr ""
 
-#: ../../source/cockpit.rst:2190
+#: ../../source/cockpit.rst:2246
 msgid "TANK JETT station 7 switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2190
+#: ../../source/cockpit.rst:2246
 msgid "Switch selecting station 7 for tank jettison."
 msgstr ""
 
-#: ../../source/cockpit.rst:2192
+#: ../../source/cockpit.rst:2248
 msgid "TANK JETT station 2 switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2192
+#: ../../source/cockpit.rst:2248
 msgid "Switch selecting station 2 for tank jettison."
 msgstr ""
 
-#: ../../source/cockpit.rst:2194
+#: ../../source/cockpit.rst:2250
 msgid "Station 3 select switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2194
+#: ../../source/cockpit.rst:2250
 msgid "Switch used to select station 3 for jettison or weapons A/G delivery."
 msgstr ""
 
-#: ../../source/cockpit.rst:2196
+#: ../../source/cockpit.rst:2252
 msgid "JETT OPTIONS switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2196
+#: ../../source/cockpit.rst:2252
 msgid "Switch selecting whether to jettison only WPNS (weapons) or MER/TER (weapon racks) in addition to weapons. Non-functional in modelled F-14B."
 msgstr ""
 
-#: ../../source/cockpit.rst:2198
+#: ../../source/cockpit.rst:2254
 msgid "SEL JETT switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2198
+#: ../../source/cockpit.rst:2254
 msgid "Selector switch used to jettison selected stations in normal (JETT) mode or AUX (backup) mode. The AUX position is guarded."
 msgstr ""
 
-#: ../../source/cockpit.rst:2200
+#: ../../source/cockpit.rst:2256
 msgid "MECH FUSE switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2200
+#: ../../source/cockpit.rst:2256
 msgid "Selector switch used to enable and set which mechanical fuse to use for A/G ordnance."
 msgstr ""
 
-#: ../../source/cockpit.rst:2202
+#: ../../source/cockpit.rst:2258
 msgid "DLVY MODE switches"
 msgstr ""
 
-#: ../../source/cockpit.rst:2202
+#: ../../source/cockpit.rst:2258
 msgid "Two selector switches used to select A/G delivery mode. One switch controls whether to release in singles or pairs and the other sets whether to release once or multiple times according to settings."
 msgstr ""
 
-#: ../../source/cockpit.rst:2222
+#: ../../source/cockpit.rst:2278
 msgid "Displays altitude digitally on three drums showing 10,000, 1,000 and 100 of feet respectively. It also displays altitude on a pointer on a circular scale indicating 100's of feet."
 msgstr ""
 
-#: ../../source/cockpit.rst:2226
+#: ../../source/cockpit.rst:2282
 msgid "Local Barometric Pressure"
 msgstr ""
 
-#: ../../source/cockpit.rst:2255
-msgid "Can bet set to desired indicated airspeed."
-msgstr ""
-
-#: ../../source/cockpit.rst:2257
-msgid "Can bet set to desired Mach number. Not visible in image."
-msgstr ""
-
-#: ../../source/cockpit.rst:2283
-msgid "UHF Remote Indicator"
-msgstr ""
-
-#: ../../source/cockpit.rst:2286
-msgid "Remote indicator displaying set frequency or channel on UHF 1 (AN/ARC-159)."
-msgstr ""
-
-#: ../../source/cockpit.rst:2291
-msgid "UHF 1 remote channel/frequency indicator"
+#: ../../source/cockpit.rst:2305
+msgid "Used to indicate indicated airspeed up to 200 knots."
 msgstr ""
 
 #: ../../source/cockpit.rst:2307
+msgid "Used to indicate indicated airspeed from 200 knots to 850 knots. Covered by airspeed dial until relevant."
+msgstr ""
+
+#: ../../source/cockpit.rst:2309
+msgid "Moving scale used to indicate Mach number. Moved to show correct Mach number relative indicated airspeed."
+msgstr ""
+
+#: ../../source/cockpit.rst:2311
+msgid "Can bet set to desired indicated airspeed."
+msgstr ""
+
+#: ../../source/cockpit.rst:2313
+msgid "Can bet set to desired Mach number. Not visible in image."
+msgstr ""
+
+#: ../../source/cockpit.rst:2339
+msgid "UHF Remote Indicator"
+msgstr ""
+
+#: ../../source/cockpit.rst:2342
+msgid "Remote indicator displaying set frequency or channel on UHF 1 (AN/ARC-159)."
+msgstr ""
+
+#: ../../source/cockpit.rst:2347
+msgid "UHF 1 remote channel/frequency indicator"
+msgstr ""
+
+#: ../../source/cockpit.rst:2363
 msgid "Chaff/Flare Dispense Switches"
 msgstr ""
 
-#: ../../source/cockpit.rst:2310
+#: ../../source/cockpit.rst:2366
 msgid "Two switch hats on the center RIO hand hold used to initiate release of countermeasures. The switches are mirrored in regards to functionality."
 msgstr ""
 
-#: ../../source/cockpit.rst:2315
+#: ../../source/cockpit.rst:2371
 msgid "Up"
 msgstr ""
 
-#: ../../source/cockpit.rst:2315
+#: ../../source/cockpit.rst:2371
 msgid "Initiates a single chaff release."
 msgstr ""
 
-#: ../../source/cockpit.rst:2317
+#: ../../source/cockpit.rst:2373
 msgid "Down"
 msgstr ""
 
-#: ../../source/cockpit.rst:2317
+#: ../../source/cockpit.rst:2373
 msgid "Initiates set chaff release program."
 msgstr ""
 
-#: ../../source/cockpit.rst:2319
+#: ../../source/cockpit.rst:2375
 msgid "Inboard"
 msgstr ""
 
-#: ../../source/cockpit.rst:2319
+#: ../../source/cockpit.rst:2375
 msgid "Initiates set jammer release program."
 msgstr ""
 
-#: ../../source/cockpit.rst:2321
+#: ../../source/cockpit.rst:2377
 msgid "Outboard"
 msgstr ""
 
-#: ../../source/cockpit.rst:2321
+#: ../../source/cockpit.rst:2377
 msgid "Initiates set flare release program."
 msgstr ""
 
-#: ../../source/cockpit.rst:2328
+#: ../../source/cockpit.rst:2384
 msgid "Detail Data Display Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2331
+#: ../../source/cockpit.rst:2387
 msgid "Main radar control panel."
 msgstr ""
 
-#: ../../source/cockpit.rst:2336
+#: ../../source/cockpit.rst:2392
 msgid "TGTS switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2336
+#: ../../source/cockpit.rst:2392
 msgid "Switch selecting target size for missile launch zones and WCS track calculations."
 msgstr ""
 
-#: ../../source/cockpit.rst:2338
+#: ../../source/cockpit.rst:2394
 msgid "MLC switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2338
+#: ../../source/cockpit.rst:2394
 msgid "Switch selecting MLC mode of operation."
 msgstr ""
 
-#: ../../source/cockpit.rst:2340
+#: ../../source/cockpit.rst:2396
 msgid "AGC switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2340
+#: ../../source/cockpit.rst:2396
 msgid "Switch controlling AGC speed. Currently non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2342
+#: ../../source/cockpit.rst:2398
 msgid "PARAMP switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2342
+#: ../../source/cockpit.rst:2398
 msgid "Switch controlling the parametric amplification. Currently non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2344
+#: ../../source/cockpit.rst:2400
 msgid "PULSE VIDEO knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2344
+#: ../../source/cockpit.rst:2400
 msgid "Knob controlling video strength of pulse video on the DDD. No effect on pulse doppler video."
 msgstr ""
 
-#: ../../source/cockpit.rst:2346
+#: ../../source/cockpit.rst:2402
 msgid "Radar track indicator lights"
 msgstr ""
 
@@ -4678,237 +4788,237 @@ msgstr ""
 msgid "IROT - Indication of TCS angle tracking, called IROT as this was originally used for the IRST in the early -A."
 msgstr ""
 
-#: ../../source/cockpit.rst:2356
+#: ../../source/cockpit.rst:2412
 msgid "RANGE display"
 msgstr ""
 
-#: ../../source/cockpit.rst:2356
+#: ../../source/cockpit.rst:2412
 msgid "Rotary drum indicator displaying currently selected radar range. Can also be blank if no range scale is used on the DDD."
 msgstr ""
 
-#: ../../source/cockpit.rst:2358
+#: ../../source/cockpit.rst:2414
 msgid "RANGE buttons"
 msgstr ""
 
-#: ../../source/cockpit.rst:2358
+#: ../../source/cockpit.rst:2414
 msgid "Buttons used to select radar range."
 msgstr ""
 
-#: ../../source/cockpit.rst:2360
-#: ../../source/cockpit.rst:2423
+#: ../../source/cockpit.rst:2416
+#: ../../source/cockpit.rst:2479
 msgid "BRIGHT knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2360
+#: ../../source/cockpit.rst:2416
 msgid "Knob used to control the brightness of the DDD by means of a polarized filter in front of the DDD."
 msgstr ""
 
-#: ../../source/cockpit.rst:2362
+#: ../../source/cockpit.rst:2418
 msgid "IR AUDIO THRLD knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2362
+#: ../../source/cockpit.rst:2418
 msgid "Knob used to control IR AUDIO threshold, non-functional with TCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2364
+#: ../../source/cockpit.rst:2420
 msgid "IR AUDIO VOL knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2364
+#: ../../source/cockpit.rst:2420
 msgid "Knob used to control IR AUDIO volume, non-functional with TCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2366
+#: ../../source/cockpit.rst:2422
 msgid "IR GAIN knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2366
+#: ../../source/cockpit.rst:2422
 msgid "Knob used to control IR GAIN, non-functional with TCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2368
+#: ../../source/cockpit.rst:2424
 msgid "XMTR CHAN wheel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2368
+#: ../../source/cockpit.rst:2424
 msgid "12-position wheel used to control AWG-9 operating frequency. Currently non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2370
+#: ../../source/cockpit.rst:2426
 msgid "MSL CHAN wheel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2370
+#: ../../source/cockpit.rst:2426
 msgid "6-position wheel used to control missile channel used by AIM-7 or AIM-54. Currently non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2372
-#: ../../source/cockpit.rst:2431
+#: ../../source/cockpit.rst:2428
+#: ../../source/cockpit.rst:2487
 msgid "DISPLAY buttons"
 msgstr ""
 
-#: ../../source/cockpit.rst:2372
+#: ../../source/cockpit.rst:2428
 msgid "Buttons used to control what to display on the DDD. IR button non-functional with TCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2374
+#: ../../source/cockpit.rst:2430
 msgid "WCS MODE buttons"
 msgstr ""
 
-#: ../../source/cockpit.rst:2374
+#: ../../source/cockpit.rst:2430
 msgid "Buttons used to select the current AWG-9 operating mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2376
+#: ../../source/cockpit.rst:2432
 msgid "WCS MODE display"
 msgstr ""
 
-#: ../../source/cockpit.rst:2376
+#: ../../source/cockpit.rst:2432
 msgid "Rotary drum indicator displaying current WCS mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2378
+#: ../../source/cockpit.rst:2434
 msgid "Vc switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2378
+#: ../../source/cockpit.rst:2434
 msgid "Switch used to select different closing velocity scales on the DDD in PD modes."
 msgstr ""
 
-#: ../../source/cockpit.rst:2380
+#: ../../source/cockpit.rst:2436
 msgid "ERASE knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2380
+#: ../../source/cockpit.rst:2436
 msgid "Knob used to control the intensity of the ERASE beam on the DDD, controlling how quick the image on the DDD fades."
 msgstr ""
 
-#: ../../source/cockpit.rst:2382
+#: ../../source/cockpit.rst:2438
 msgid "PULSE GAIN knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2382
+#: ../../source/cockpit.rst:2438
 msgid "Knob used to control the gain of the AWG-9 in pulse mode, normally left in detent unless needed because of clutter or jamming."
 msgstr ""
 
-#: ../../source/cockpit.rst:2384
+#: ../../source/cockpit.rst:2440
 msgid "ASPECT switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2384
+#: ../../source/cockpit.rst:2440
 msgid "Switch used to control the rate region covered by the doppler filters in pulse doppler modes and if to use edge or centroid tracking in pulse mode. These settings correspond to expected target aspect."
 msgstr ""
 
-#: ../../source/cockpit.rst:2386
+#: ../../source/cockpit.rst:2442
 msgid "EL indicator"
 msgstr ""
 
-#: ../../source/cockpit.rst:2386
+#: ../../source/cockpit.rst:2442
 msgid "Meter with indicator needles indicating sensor elevation. Left indicator shows current actual radar antenna elevation. The right indicates commanded radar elevation while RDR is selected on HCU and TCS elevation while IR/TV is selected."
 msgstr ""
 
-#: ../../source/cockpit.rst:2389
+#: ../../source/cockpit.rst:2445
 msgid "CCM MODES buttons"
 msgstr ""
 
-#: ../../source/cockpit.rst:2389
+#: ../../source/cockpit.rst:2445
 msgid "Buttons used to set AWG-9 functionality countering jamming targets. Currently non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2391
+#: ../../source/cockpit.rst:2447
 msgid "JAM/JET knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2391
+#: ../../source/cockpit.rst:2447
 msgid "Control knob used to set the threshold at which a radar return is considered a jamming target. Currently non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2393
+#: ../../source/cockpit.rst:2449
 msgid "ACM THRLD knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2393
+#: ../../source/cockpit.rst:2449
 msgid "Control knob used to control radar sensitivity level at close ranges. Usually set automatically with the knob in the detent position."
 msgstr ""
 
-#: ../../source/cockpit.rst:2395
+#: ../../source/cockpit.rst:2451
 msgid "PD THRLD knobs"
 msgstr ""
 
-#: ../../source/cockpit.rst:2395
+#: ../../source/cockpit.rst:2451
 msgid "Control knobs used to set pulse doppler video threshold in the CLEAR (upper half of DDD) region and in the CLUTTER (lower half of the DDD) region."
 msgstr ""
 
-#: ../../source/cockpit.rst:2397
+#: ../../source/cockpit.rst:2453
 msgid "DDD radar display"
 msgstr ""
 
-#: ../../source/cockpit.rst:2397
+#: ../../source/cockpit.rst:2453
 msgid "Main AWG-9 radar display."
 msgstr ""
 
-#: ../../source/cockpit.rst:2404
+#: ../../source/cockpit.rst:2460
 msgid "Center Console"
 msgstr ""
 
-#: ../../source/cockpit.rst:2409
+#: ../../source/cockpit.rst:2465
 msgid "Tactical Information Display (TID)"
 msgstr ""
 
-#: ../../source/cockpit.rst:2412
+#: ../../source/cockpit.rst:2468
 msgid "Tactical information display and corresponding and navigational controls."
 msgstr ""
 
-#: ../../source/cockpit.rst:2417
+#: ../../source/cockpit.rst:2473
 msgid "INS status indicator"
 msgstr ""
 
-#: ../../source/cockpit.rst:2417
-msgid "Indicator light showing status of the INS during alignment. STBY indicates power applied but not aligned. READY indicates minumum launch criteria for AIM-54. Both lights turn of when INS mode is selected. Can otherwise indicate faults."
+#: ../../source/cockpit.rst:2473
+msgid "Indicator light showing status of the INS during alignment. STBY indicates power applied but not aligned. READY indicates minumum launch criteria for AIM-54. Both lights turn off when INS mode is selected. Can otherwise indicate faults."
 msgstr ""
 
-#: ../../source/cockpit.rst:2419
+#: ../../source/cockpit.rst:2475
 msgid "CONTRAST knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2419
+#: ../../source/cockpit.rst:2475
 msgid "Control knob that controls contrast of TCS video."
 msgstr ""
 
-#: ../../source/cockpit.rst:2421
+#: ../../source/cockpit.rst:2477
 msgid "DATA READOUT drum"
 msgstr ""
 
-#: ../../source/cockpit.rst:2421
+#: ../../source/cockpit.rst:2477
 msgid "Readout drum indicating the source of the data displayed on the TID readouts. Might be blank for sources not having its own text on the drum."
 msgstr ""
 
-#: ../../source/cockpit.rst:2423
+#: ../../source/cockpit.rst:2479
 msgid "Control knob controlling TID brightness."
 msgstr ""
 
-#: ../../source/cockpit.rst:2425
+#: ../../source/cockpit.rst:2481
 msgid "STEERING indicator drum"
 msgstr ""
 
-#: ../../source/cockpit.rst:2425
+#: ../../source/cockpit.rst:2481
 msgid "Readout drum indicating current steering information being displayed to the pilot."
 msgstr ""
 
-#: ../../source/cockpit.rst:2427
+#: ../../source/cockpit.rst:2483
 msgid "DEST selector"
 msgstr ""
 
-#: ../../source/cockpit.rst:2427
+#: ../../source/cockpit.rst:2483
 msgid "Selector knob controlling what destination to use for the navigation destination mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2429
+#: ../../source/cockpit.rst:2485
 msgid "CLSN button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2429
+#: ../../source/cockpit.rst:2485
 msgid "Button with indication used to select collision steering towards tracked target or TWS centroid."
 msgstr ""
 
@@ -4948,135 +5058,135 @@ msgstr ""
 msgid "LAUNCH ZONE - Toggles display of missile launch zones on tracks. Replaces velocity vectors if applicable. Automatically activated by WCS 60 seconds prior to maximum missile launch range."
 msgstr ""
 
-#: ../../source/cockpit.rst:2449
+#: ../../source/cockpit.rst:2505
 msgid "RANGE selector"
 msgstr ""
 
-#: ../../source/cockpit.rst:2449
+#: ../../source/cockpit.rst:2505
 msgid "Selector switch selecting current scale of the TID. Corresponds to the distance the diameter represents."
 msgstr ""
 
-#: ../../source/cockpit.rst:2451
+#: ../../source/cockpit.rst:2507
 msgid "TID MODE selector"
 msgstr ""
 
-#: ../../source/cockpit.rst:2451
+#: ../../source/cockpit.rst:2507
 msgid "Selector switch controlling current TID presentation."
 msgstr ""
 
-#: ../../source/cockpit.rst:2453
+#: ../../source/cockpit.rst:2509
 msgid "TRACK HOLD button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2453
+#: ../../source/cockpit.rst:2509
 msgid "Button extending the amount of time before a track is dropped after last radar observation to two minutes. Normal time is 14 seconds."
 msgstr ""
 
-#: ../../source/cockpit.rst:2455
+#: ../../source/cockpit.rst:2511
 msgid "NAV MODE selector"
 msgstr ""
 
-#: ../../source/cockpit.rst:2455
+#: ../../source/cockpit.rst:2511
 msgid "Selector switch controlling navigation reference systems. Controls which system is in use and also alignment of the INS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2462
+#: ../../source/cockpit.rst:2518
 msgid "Hand Control Unit (HCU)"
 msgstr ""
 
-#: ../../source/cockpit.rst:2465
+#: ../../source/cockpit.rst:2521
 msgid "Main radar and TCS control stick."
 msgstr ""
 
-#: ../../source/cockpit.rst:2470
+#: ../../source/cockpit.rst:2526
 msgid "IR/TV switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2470
+#: ../../source/cockpit.rst:2526
 msgid "Switch controlling TCS power. Enables selection of OFF/STBY and ON."
 msgstr ""
 
-#: ../../source/cockpit.rst:2472
+#: ../../source/cockpit.rst:2528
 msgid "IR/TV overtemp indicator"
 msgstr ""
 
-#: ../../source/cockpit.rst:2472
+#: ../../source/cockpit.rst:2528
 msgid "Light indicating the presence of an overtemperature condition in the TCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2474
+#: ../../source/cockpit.rst:2530
 msgid "LIGHT TEST button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2474
+#: ../../source/cockpit.rst:2530
 msgid "Button allowing test of all AWG-9 lights."
 msgstr ""
 
-#: ../../source/cockpit.rst:2476
+#: ../../source/cockpit.rst:2532
 msgid "PWR RESET indicator"
 msgstr ""
 
-#: ../../source/cockpit.rst:2476
+#: ../../source/cockpit.rst:2532
 msgid "Light indicating one or more inoperative secondary power supplies."
 msgstr ""
 
-#: ../../source/cockpit.rst:2478
+#: ../../source/cockpit.rst:2534
 msgid "PWR RESET button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2478
+#: ../../source/cockpit.rst:2534
 msgid "Button allowing reset of inoperative secondary power supplies. If the condition triggering the inoperational state remains the affected supplies will remain inoperational."
 msgstr ""
 
-#: ../../source/cockpit.rst:2480
+#: ../../source/cockpit.rst:2536
 msgid "WCS indicator"
 msgstr ""
 
-#: ../../source/cockpit.rst:2480
+#: ../../source/cockpit.rst:2536
 msgid "Light indicating selection of STBY or XMT with the radar not yet timed out or selection of XMT with radar transmission remaining off."
 msgstr ""
 
-#: ../../source/cockpit.rst:2482
+#: ../../source/cockpit.rst:2538
 msgid "WCS switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2482
+#: ../../source/cockpit.rst:2538
 msgid "Switch controlling WCS power (computer and radar). STBY turns on power to the WCS and begins radar warmup without transmission. XMT enables radar transmission if radar is ready. Display warmup time is 30 seconds, radar warmup is 3 minutes."
 msgstr ""
 
-#: ../../source/cockpit.rst:2484
+#: ../../source/cockpit.rst:2540
 msgid "MRL button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2484
+#: ../../source/cockpit.rst:2540
 msgid "Button selecting manual rapid lockon mode. Overrides all operational modes except PLM and VSL."
 msgstr ""
 
-#: ../../source/cockpit.rst:2486
+#: ../../source/cockpit.rst:2542
 msgid "OFFSET button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2486
+#: ../../source/cockpit.rst:2542
 msgid "Button used to offset TID to hooked location on the display."
 msgstr ""
 
-#: ../../source/cockpit.rst:2488
+#: ../../source/cockpit.rst:2544
 msgid "ELEV thumbwheel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2488
+#: ../../source/cockpit.rst:2544
 msgid "Thumbwheel used to fine-tune elevation of radar antenna for STT lockon acquisition."
 msgstr ""
 
-#: ../../source/cockpit.rst:2490
+#: ../../source/cockpit.rst:2546
 msgid "HCU trigger"
 msgstr ""
 
-#: ../../source/cockpit.rst:2490
+#: ../../source/cockpit.rst:2546
 msgid "Used to select and trigger different functions in the WCS depending on current mode and hcu function. First detent is HALF ACTION, second detent is FULL ACTION. Examples of use are target acquisition and symbol hook."
 msgstr ""
 
-#: ../../source/cockpit.rst:2492
+#: ../../source/cockpit.rst:2548
 msgid "Hand control function buttons"
 msgstr ""
 
@@ -5100,605 +5210,600 @@ msgstr ""
 msgid "TID CURSOR - Selects control of TID cursor used to hook (select) symbols on the TID."
 msgstr ""
 
-#: ../../source/cockpit.rst:2507
+#: ../../source/cockpit.rst:2563
 msgid "Left and Right Footwells"
 msgstr ""
 
-#: ../../source/cockpit.rst:2512
+#: ../../source/cockpit.rst:2568
 msgid "ICS Foot Button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2515
+#: ../../source/cockpit.rst:2571
 msgid "RIO left footrest containing ICS PTT for COLD MIC intercommunication."
 msgstr ""
 
-#: ../../source/cockpit.rst:2521
+#: ../../source/cockpit.rst:2577
 msgid "Mic Foot Button"
 msgstr ""
 
-#: ../../source/cockpit.rst:2524
+#: ../../source/cockpit.rst:2580
 msgid "RIO right footrest containing PTT for transmission on UHF 1, V/UHF 2 or both depending on ICS setting."
 msgstr ""
 
-#: ../../source/cockpit.rst:2584
+#: ../../source/cockpit.rst:2640
 msgid "Displays emitters not a direct threat to own aircraft, either because deemed out of range or lacking weaponry to do so."
 msgstr ""
 
-#: ../../source/cockpit.rst:2586
+#: ../../source/cockpit.rst:2642
 msgid "Displays threats that are deemed withing range and capable of engaging own aircraft but not currently doing so."
 msgstr ""
 
-#: ../../source/cockpit.rst:2597
+#: ../../source/cockpit.rst:2653
 msgid "Fuel Quantity Totalizer"
 msgstr ""
 
-#: ../../source/cockpit.rst:2600
+#: ../../source/cockpit.rst:2656
 msgid "Total fuel quantity readout, shows total fuel quantity in all aircraft tanks."
 msgstr ""
 
-#: ../../source/cockpit.rst:2606
+#: ../../source/cockpit.rst:2662
 msgid "Threat Advisory and Master Caution Lights"
 msgstr ""
 
-#: ../../source/cockpit.rst:2609
+#: ../../source/cockpit.rst:2665
 msgid "Master caution light and various ECM and IFF related advisory and warning lights."
 msgstr ""
 
-#: ../../source/cockpit.rst:2614
+#: ../../source/cockpit.rst:2670
 msgid "Flashes to indicate status change on the RIO caution/advisory panel. Press to reset and turn of light until next event."
 msgstr ""
 
-#: ../../source/cockpit.rst:2616
+#: ../../source/cockpit.rst:2672
 msgid "IFF"
 msgstr ""
 
-#: ../../source/cockpit.rst:2616
+#: ../../source/cockpit.rst:2672
 msgid "Advisory light indicating received mode 4 interrogation without own system generating reply."
 msgstr ""
 
-#: ../../source/cockpit.rst:2618
+#: ../../source/cockpit.rst:2674
 msgid "RCV"
 msgstr ""
 
-#: ../../source/cockpit.rst:2618
+#: ../../source/cockpit.rst:2674
 msgid "Advisory light indicating ALQ-126 is receiving a threat identification signal."
 msgstr ""
 
-#: ../../source/cockpit.rst:2620
+#: ../../source/cockpit.rst:2676
 msgid "XMIT"
 msgstr ""
 
-#: ../../source/cockpit.rst:2620
+#: ../../source/cockpit.rst:2676
 msgid "Advisory light indicating ALQ-126 is transmitting."
 msgstr ""
 
-#: ../../source/cockpit.rst:2622
+#: ../../source/cockpit.rst:2678
 msgid "SAM"
 msgstr ""
 
-#: ../../source/cockpit.rst:2622
+#: ../../source/cockpit.rst:2678
 msgid "Warning light, steady illumination when detecting lockon from a SAM tracking radar. Flashes when missile launch is detected."
 msgstr ""
 
-#: ../../source/cockpit.rst:2624
+#: ../../source/cockpit.rst:2680
 msgid "AAA"
 msgstr ""
 
-#: ../../source/cockpit.rst:2624
+#: ../../source/cockpit.rst:2680
 msgid "Warning light, steady illumination when detecting lockon from a AAA tracking radar. Flashes when AAA engagement is detected."
 msgstr ""
 
-#: ../../source/cockpit.rst:2626
+#: ../../source/cockpit.rst:2682
 msgid "CW"
 msgstr ""
 
-#: ../../source/cockpit.rst:2626
+#: ../../source/cockpit.rst:2682
 msgid "Warning light indicating detection of a continuous wave emitter."
 msgstr ""
 
-#: ../../source/cockpit.rst:2628
+#: ../../source/cockpit.rst:2684
 msgid "AI"
 msgstr ""
 
-#: ../../source/cockpit.rst:2628
+#: ../../source/cockpit.rst:2684
 msgid "Warning light, steady illumination when detecting lockon from an airborne interceptor radar."
 msgstr ""
 
-#: ../../source/cockpit.rst:2660
+#: ../../source/cockpit.rst:2716
 msgid "Handle used to manually jettison canopy."
 msgstr ""
 
-#: ../../source/cockpit.rst:2671
+#: ../../source/cockpit.rst:2727
 msgid "Caution-Advisory Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2677
+#: ../../source/cockpit.rst:2733
 msgid "C&D HOT"
 msgstr ""
 
-#: ../../source/cockpit.rst:2677
+#: ../../source/cockpit.rst:2733
 msgid "Caution light indicating overheat in RIO controls and displays."
 msgstr ""
 
-#: ../../source/cockpit.rst:2679
+#: ../../source/cockpit.rst:2735
 msgid "CABIN PRESS"
 msgstr ""
 
-#: ../../source/cockpit.rst:2679
+#: ../../source/cockpit.rst:2735
 msgid "Caution light indicating cabin pressure is too low."
 msgstr ""
 
-#: ../../source/cockpit.rst:2681
+#: ../../source/cockpit.rst:2737
 msgid "FUEL LOW"
 msgstr ""
 
-#: ../../source/cockpit.rst:2681
+#: ../../source/cockpit.rst:2737
 msgid "Caution light indicating fuel below 1,000 pounds in either aft and left or forward and right fuel feed groups."
 msgstr ""
 
-#: ../../source/cockpit.rst:2683
+#: ../../source/cockpit.rst:2739
 msgid "OXY LOW"
 msgstr ""
 
-#: ../../source/cockpit.rst:2683
+#: ../../source/cockpit.rst:2739
 msgid "Caution light indicating oxygen quantity is below 2 liters or pressure too low."
 msgstr ""
 
-#: ../../source/cockpit.rst:2685
+#: ../../source/cockpit.rst:2741
 msgid "Caution light indicating canopy not down and locked."
 msgstr ""
 
-#: ../../source/cockpit.rst:2687
+#: ../../source/cockpit.rst:2743
 msgid "FUSE HV"
 msgstr ""
 
-#: ../../source/cockpit.rst:2687
+#: ../../source/cockpit.rst:2743
 msgid "Caution light indicating AWW-4 electric fuse inoperative."
 msgstr ""
 
-#: ../../source/cockpit.rst:2689
+#: ../../source/cockpit.rst:2745
 msgid "RDR ENABLED"
 msgstr ""
 
-#: ../../source/cockpit.rst:2689
+#: ../../source/cockpit.rst:2745
 msgid "Caution light indicating that radar operation with weight on wheels is possible."
 msgstr ""
 
-#: ../../source/cockpit.rst:2691
+#: ../../source/cockpit.rst:2747
 msgid "COOLING AIR"
 msgstr ""
 
-#: ../../source/cockpit.rst:2691
+#: ../../source/cockpit.rst:2747
 msgid "Advisory light indicating overtemperature condition in the electronic forced air cooling system."
 msgstr ""
 
-#: ../../source/cockpit.rst:2693
+#: ../../source/cockpit.rst:2749
 msgid "MSL COND"
 msgstr ""
 
-#: ../../source/cockpit.rst:2693
+#: ../../source/cockpit.rst:2749
 msgid "Advisory light indicating overtemperature or underpressure in missile coolant flow, either of which shuts down the missile coolant pump. Can also indicate that the LIQ COOLING switch is not in the AWG-9/AIM-54 position with the WCS in STBY or ON when the Phoenix fairings are installed."
 msgstr ""
 
-#: ../../source/cockpit.rst:2695
+#: ../../source/cockpit.rst:2751
 msgid "AWG-9 COND"
 msgstr ""
 
-#: ../../source/cockpit.rst:2695
+#: ../../source/cockpit.rst:2751
 msgid "Advisory light indicating overheat or overpressure in the AWG-9 coolant flow or that the overtemperature switch has shut down the coolant pump."
 msgstr ""
 
-#: ../../source/cockpit.rst:2697
+#: ../../source/cockpit.rst:2753
 msgid "NAV COMP"
 msgstr ""
 
-#: ../../source/cockpit.rst:2697
+#: ../../source/cockpit.rst:2753
 msgid "Advisory light indicating failure in the INS or CSDC with the NAV MODE switch in INS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2699
+#: ../../source/cockpit.rst:2755
 msgid "FILM LOW"
 msgstr ""
 
-#: ../../source/cockpit.rst:2699
+#: ../../source/cockpit.rst:2755
 msgid "Advisory light indicating low remaining quantity of mission recorder film."
 msgstr ""
 
-#: ../../source/cockpit.rst:2701
+#: ../../source/cockpit.rst:2757
 msgid "IMU"
 msgstr ""
 
-#: ../../source/cockpit.rst:2701
+#: ../../source/cockpit.rst:2757
 msgid "Advisory light indicating a failure in the inertial measuring unit or that the navigation system is in AHRS/AM mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2703
+#: ../../source/cockpit.rst:2759
 msgid "Advisory light indicating that the attitude or heading information from the AHRS is unreliable."
 msgstr ""
 
-#: ../../source/cockpit.rst:2715
+#: ../../source/cockpit.rst:2771
 msgid "Electronic Countermeasures Display (ECMD)"
 msgstr ""
 
-#: ../../source/cockpit.rst:2718
+#: ../../source/cockpit.rst:2774
 msgid "Display used for navigational information. Has a brightness control knob, test button and a BIT indicator showing status of display (solid black when operational, showing white flags when indicating a fail condition)."
 msgstr ""
 
-#: ../../source/cockpit.rst:2720
+#: ../../source/cockpit.rst:2776
 msgid "Called ECMD as the F-14A and later PMDIG F-14B used this display for RWR presentation as well."
 msgstr ""
 
-#: ../../source/cockpit.rst:2722
+#: ../../source/cockpit.rst:2778
 msgid "For more information see relevant chapters under :ref:`navigation`."
 msgstr ""
 
-#: ../../source/cockpit.rst:2733
+#: ../../source/cockpit.rst:2789
 msgid "Radar Warning Receiver Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2739
-#: ../../source/cockpit.rst:3201
-msgid "PWR switch"
-msgstr ""
-
-#: ../../source/cockpit.rst:2739
+#: ../../source/cockpit.rst:2795
 msgid "Switch controlling power to the ALR-67."
 msgstr ""
 
-#: ../../source/cockpit.rst:2741
+#: ../../source/cockpit.rst:2797
 msgid "DISPLAY TYPE selector"
 msgstr ""
 
-#: ../../source/cockpit.rst:2741
+#: ../../source/cockpit.rst:2797
 msgid "Selector switch controlling what type of threats to prioritize and display."
 msgstr ""
 
-#: ../../source/cockpit.rst:2743
-#: ../../source/cockpit.rst:2915
+#: ../../source/cockpit.rst:2799
+#: ../../source/cockpit.rst:2946
 msgid "MODE switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2743
+#: ../../source/cockpit.rst:2799
 msgid "Switch springloaded to center (OFF) position. Can be held to OFST (offset) and LMT (limit) position to enable respective function while held."
 msgstr ""
 
-#: ../../source/cockpit.rst:2745
+#: ../../source/cockpit.rst:2801
 msgid "TEST switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2745
+#: ../../source/cockpit.rst:2801
 msgid "Switch springloaded to center. Momentary selection of BIT indicates BIT in ALR-67. Selection of SPL (special) while BIT page 1 is displayed shows the special BIT status page while held and then for 3 seconds when released."
 msgstr ""
 
-#: ../../source/cockpit.rst:2747
+#: ../../source/cockpit.rst:2803
 msgid "Volume knob controlling ALR-67 audio to RIO."
 msgstr ""
 
-#: ../../source/cockpit.rst:2754
+#: ../../source/cockpit.rst:2810
 msgid "Digital Data Indicator (DDI)"
 msgstr ""
 
-#: ../../source/cockpit.rst:2757
+#: ../../source/cockpit.rst:2813
 msgid "Digital data indicator used to display commands received via the data link."
 msgstr ""
 
-#: ../../source/cockpit.rst:2762
+#: ../../source/cockpit.rst:2818
 msgid "AFT VEC"
 msgstr ""
 
-#: ../../source/cockpit.rst:2762
+#: ../../source/cockpit.rst:2818
 msgid "Aircraft is being vectored to approach target from the rear hemisphere."
 msgstr ""
 
-#: ../../source/cockpit.rst:2764
+#: ../../source/cockpit.rst:2820
 msgid "COL VEC"
 msgstr ""
 
-#: ../../source/cockpit.rst:2764
+#: ../../source/cockpit.rst:2820
 msgid "Aircraft is being vectored on a collision course to target."
 msgstr ""
 
-#: ../../source/cockpit.rst:2766
+#: ../../source/cockpit.rst:2822
 msgid "NO MSG"
 msgstr ""
 
-#: ../../source/cockpit.rst:2766
+#: ../../source/cockpit.rst:2822
 msgid "No message at this time, indicates presence of data link communication while not receiving a command."
 msgstr ""
 
-#: ../../source/cockpit.rst:2768
+#: ../../source/cockpit.rst:2824
 msgid "TO WAY PT"
 msgstr ""
 
-#: ../../source/cockpit.rst:2768
+#: ../../source/cockpit.rst:2824
 msgid "Proceed to the point being indicated by target information."
 msgstr ""
 
-#: ../../source/cockpit.rst:2770
+#: ../../source/cockpit.rst:2826
 msgid "HANDOVER"
 msgstr ""
 
-#: ../../source/cockpit.rst:2770
+#: ../../source/cockpit.rst:2826
 msgid "TDS is handing own aircraft over to another control center."
 msgstr ""
 
-#: ../../source/cockpit.rst:2772
+#: ../../source/cockpit.rst:2828
 msgid "ORBIT"
 msgstr ""
 
-#: ../../source/cockpit.rst:2772
+#: ../../source/cockpit.rst:2828
 msgid "Assume orbit at present position maintaining maximum endurance."
 msgstr ""
 
-#: ../../source/cockpit.rst:2774
+#: ../../source/cockpit.rst:2830
 msgid "CHALNGE"
 msgstr ""
 
-#: ../../source/cockpit.rst:2774
+#: ../../source/cockpit.rst:2830
 msgid "Intercept and visually identify target."
 msgstr ""
 
-#: ../../source/cockpit.rst:2776
+#: ../../source/cockpit.rst:2832
 msgid "ARM 1"
 msgstr ""
 
-#: ../../source/cockpit.rst:2776
+#: ../../source/cockpit.rst:2832
 msgid "Intercept and destroy indicated hostile target using AIM-54."
 msgstr ""
 
-#: ../../source/cockpit.rst:2778
+#: ../../source/cockpit.rst:2834
 msgid "ARM 2"
 msgstr ""
 
-#: ../../source/cockpit.rst:2778
+#: ../../source/cockpit.rst:2834
 msgid "Intercept and destroy indicated hostile target using AIM-7."
 msgstr ""
 
-#: ../../source/cockpit.rst:2780
+#: ../../source/cockpit.rst:2836
 msgid "ARM 3"
 msgstr ""
 
-#: ../../source/cockpit.rst:2780
+#: ../../source/cockpit.rst:2836
 msgid "Intercept and destroy indicated hostile target using AIM-9."
 msgstr ""
 
-#: ../../source/cockpit.rst:2782
+#: ../../source/cockpit.rst:2838
 msgid "NOT CMD"
 msgstr ""
 
-#: ../../source/cockpit.rst:2782
+#: ../../source/cockpit.rst:2838
 msgid "Ignore currently received heading, speed and altitude. Also means valid command BIT not yet available."
 msgstr ""
 
-#: ../../source/cockpit.rst:2784
+#: ../../source/cockpit.rst:2840
 msgid "FRE LAN"
 msgstr ""
 
-#: ../../source/cockpit.rst:2784
+#: ../../source/cockpit.rst:2840
 msgid "Free to attack most suitable target."
 msgstr ""
 
-#: ../../source/cockpit.rst:2786
+#: ../../source/cockpit.rst:2842
 msgid "DIS'GAGE"
 msgstr ""
 
-#: ../../source/cockpit.rst:2786
+#: ../../source/cockpit.rst:2842
 msgid "Cease fire."
 msgstr ""
 
-#: ../../source/cockpit.rst:2788
+#: ../../source/cockpit.rst:2844
 msgid "ABORT"
 msgstr ""
 
-#: ../../source/cockpit.rst:2788
+#: ../../source/cockpit.rst:2844
 msgid "Abort action."
 msgstr ""
 
-#: ../../source/cockpit.rst:2790
+#: ../../source/cockpit.rst:2846
 msgid "BEAC ON"
 msgstr ""
 
-#: ../../source/cockpit.rst:2790
+#: ../../source/cockpit.rst:2846
 msgid "Enable APN-154 tracking beacon."
 msgstr ""
 
-#: ../../source/cockpit.rst:2792
+#: ../../source/cockpit.rst:2848
 msgid "BEAC DUB"
 msgstr ""
 
-#: ../../source/cockpit.rst:2792
+#: ../../source/cockpit.rst:2848
 msgid "Set APN-154 to double-pulse mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2794
+#: ../../source/cockpit.rst:2850
 msgid "DROP"
 msgstr ""
 
-#: ../../source/cockpit.rst:2794
+#: ../../source/cockpit.rst:2850
 msgid "Command to release weapon in data link A/G attack, manually or automatically if in data link attack mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:2796
+#: ../../source/cockpit.rst:2852
 msgid "BEAC OFF"
 msgstr ""
 
-#: ../../source/cockpit.rst:2796
+#: ../../source/cockpit.rst:2852
 msgid "Turn off APN-154 tracking beacon."
 msgstr ""
 
-#: ../../source/cockpit.rst:2798
+#: ../../source/cockpit.rst:2854
 msgid "RET BASE"
 msgstr ""
 
-#: ../../source/cockpit.rst:2798
+#: ../../source/cockpit.rst:2854
 msgid "Return to indicated home base."
 msgstr ""
 
-#: ../../source/cockpit.rst:2800
+#: ../../source/cockpit.rst:2856
 msgid "WAVE OFF"
 msgstr ""
 
-#: ../../source/cockpit.rst:2800
+#: ../../source/cockpit.rst:2856
 msgid "Wave off, automatic AFCS disengagement."
 msgstr ""
 
-#: ../../source/cockpit.rst:2802
+#: ../../source/cockpit.rst:2858
 msgid "LAND CHECK"
 msgstr ""
 
-#: ../../source/cockpit.rst:2802
+#: ../../source/cockpit.rst:2858
 msgid "CATCC has data link channel available for AFCS, complete landing check list."
 msgstr ""
 
-#: ../../source/cockpit.rst:2804
+#: ../../source/cockpit.rst:2860
 msgid "ACL BEAC"
 msgstr ""
 
-#: ../../source/cockpit.rst:2804
+#: ../../source/cockpit.rst:2860
 msgid "Directed by carrier to enable APN-154 beacon."
 msgstr ""
 
-#: ../../source/cockpit.rst:2806
+#: ../../source/cockpit.rst:2862
 msgid "ACL RDY"
 msgstr ""
 
-#: ../../source/cockpit.rst:2806
+#: ../../source/cockpit.rst:2862
 msgid "ACL has locked onto aircraft APN-154 beacon and is transmitting zero pitch and bank signals. Glideslope information is now available to pilot."
 msgstr ""
 
-#: ../../source/cockpit.rst:2808
+#: ../../source/cockpit.rst:2864
 msgid "ACL is ready to take control of aircraft for ACL approach, autopilot should be engaged."
 msgstr ""
 
-#: ../../source/cockpit.rst:2810
+#: ../../source/cockpit.rst:2866
 msgid "10 SEC"
 msgstr ""
 
-#: ../../source/cockpit.rst:2810
+#: ../../source/cockpit.rst:2866
 msgid "Indicates 10 seconds to next action or waypoint. In ACL indicates that ships motion is taken into account for ACL."
 msgstr ""
 
-#: ../../source/cockpit.rst:2812
+#: ../../source/cockpit.rst:2868
 msgid "Indication from control station of another aircraft near own aircraft."
 msgstr ""
 
-#: ../../source/cockpit.rst:2814
+#: ../../source/cockpit.rst:2870
 msgid "Indicates ACL not available, switch to voice procedures."
 msgstr ""
 
-#: ../../source/cockpit.rst:2816
+#: ../../source/cockpit.rst:2872
 msgid "Indicates no data link message received in last 10 seconds. In ACL indicates no messages in last 2 seconds, will disengage AFCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2818
+#: ../../source/cockpit.rst:2874
 msgid "CMD CHG"
 msgstr ""
 
-#: ../../source/cockpit.rst:2818
+#: ../../source/cockpit.rst:2874
 msgid "Indicates imminent or recently changed command instructions."
 msgstr ""
 
-#: ../../source/cockpit.rst:2820
+#: ../../source/cockpit.rst:2876
 msgid "ALT CHG"
 msgstr ""
 
-#: ../../source/cockpit.rst:2820
+#: ../../source/cockpit.rst:2876
 msgid "Indicates imminent or recently changed altitude command."
 msgstr ""
 
-#: ../../source/cockpit.rst:2822
+#: ../../source/cockpit.rst:2878
 msgid "MON ALT"
 msgstr ""
 
-#: ../../source/cockpit.rst:2822
+#: ../../source/cockpit.rst:2878
 msgid "Message indicating altitude command not being followed with enough precision."
 msgstr ""
 
-#: ../../source/cockpit.rst:2824
+#: ../../source/cockpit.rst:2880
 msgid "MANUAL"
 msgstr ""
 
-#: ../../source/cockpit.rst:2824
+#: ../../source/cockpit.rst:2880
 msgid "Indicates autopilot should not be engaged."
 msgstr ""
 
-#: ../../source/cockpit.rst:2826
+#: ../../source/cockpit.rst:2882
 msgid "SPD CHG"
 msgstr ""
 
-#: ../../source/cockpit.rst:2826
+#: ../../source/cockpit.rst:2882
 msgid "Indicates imminent or recently changed speed command."
 msgstr ""
 
-#: ../../source/cockpit.rst:2828
+#: ../../source/cockpit.rst:2884
 msgid "MON SPD"
 msgstr ""
 
-#: ../../source/cockpit.rst:2828
+#: ../../source/cockpit.rst:2884
 msgid "Message indicating speed command not being followed with enough precision."
 msgstr ""
 
-#: ../../source/cockpit.rst:2830
+#: ../../source/cockpit.rst:2886
 msgid "CMD CTRL"
 msgstr ""
 
-#: ../../source/cockpit.rst:2830
+#: ../../source/cockpit.rst:2886
 msgid "Indicates aircraft under data link control for landing."
 msgstr ""
 
-#: ../../source/cockpit.rst:2832
+#: ../../source/cockpit.rst:2888
 msgid "CHG CHN"
 msgstr ""
 
-#: ../../source/cockpit.rst:2832
+#: ../../source/cockpit.rst:2888
 msgid "Command to change data link channel."
 msgstr ""
 
-#: ../../source/cockpit.rst:2834
+#: ../../source/cockpit.rst:2890
 msgid "HDG CHN"
 msgstr ""
 
-#: ../../source/cockpit.rst:2834
+#: ../../source/cockpit.rst:2890
 msgid "Indicates imminent or recently changed heading command."
 msgstr ""
 
-#: ../../source/cockpit.rst:2836
+#: ../../source/cockpit.rst:2892
 msgid "CANC RPY"
 msgstr ""
 
-#: ../../source/cockpit.rst:2836
+#: ../../source/cockpit.rst:2892
 msgid "TDS has cancelled reply messages."
 msgstr ""
 
-#: ../../source/cockpit.rst:2838
+#: ../../source/cockpit.rst:2894
 msgid "FWD VEC"
 msgstr ""
 
-#: ../../source/cockpit.rst:2838
+#: ../../source/cockpit.rst:2894
 msgid "Aircraft is being vectored to approach target from the front hemisphere."
 msgstr ""
 
-#: ../../source/cockpit.rst:2841
+#: ../../source/cockpit.rst:2897
 msgid "The majority of the DDI lights depend on data link reply messages not currently modelled in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:2847
+#: ../../source/cockpit.rst:2903
 msgid "DECM Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2850
+#: ../../source/cockpit.rst:2906
 msgid "Control panel for the DECM jammer (AN/ALQ-126)."
 msgstr ""
 
-#: ../../source/cockpit.rst:2855
+#: ../../source/cockpit.rst:2911
 msgid "STANDBY light"
 msgstr ""
 
-#: ../../source/cockpit.rst:2855
+#: ../../source/cockpit.rst:2911
 msgid "Orange light indicating warmup when system is placed in STBY. Goes out after complete warmup. Indication during test or operation indicates a fault has occured."
 msgstr ""
 
-#: ../../source/cockpit.rst:2857
+#: ../../source/cockpit.rst:2913
 msgid "DECM selector"
 msgstr ""
 
@@ -5730,79 +5835,35 @@ msgstr ""
 msgid "RPT - Repeat, enables AN/ALQ-126 to use programmed responses to received threat signals."
 msgstr ""
 
-#: ../../source/cockpit.rst:2871
+#: ../../source/cockpit.rst:2927
 msgid "AUDIO knob"
 msgstr ""
 
-#: ../../source/cockpit.rst:2871
+#: ../../source/cockpit.rst:2927
 msgid "Volume knob, sets audio volume from AN/ALQ-126 to RIO headset."
 msgstr ""
 
-#: ../../source/cockpit.rst:2878
-msgid "Data Link Control Panel"
-msgstr ""
-
-#: ../../source/cockpit.rst:2881
-msgid "Control panel for the data link."
-msgstr ""
-
-#: ../../source/cockpit.rst:2886
-msgid "Transmission mode switch"
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "Sets data link tranmission mode."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "TEST - Starts system test."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "NORM - Normal operational mode."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "A/J - Anti-jam mode."
-msgstr ""
-
-#: ../../source/cockpit.rst:2894
-msgid "Frequency select wheels"
-msgstr ""
-
-#: ../../source/cockpit.rst:2894
-msgid "Thumbwheels used to set data link frequency."
-msgstr ""
-
-#: ../../source/cockpit.rst:2896
-msgid "Data link power switch"
-msgstr ""
-
-#: ../../source/cockpit.rst:2896
-msgid "Enables power to data link, also used to set AUX (auxiliary) mode."
-msgstr ""
-
-#: ../../source/cockpit.rst:2903
+#: ../../source/cockpit.rst:2934
 msgid "Data Link Reply and Antenna Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2906
+#: ../../source/cockpit.rst:2937
 msgid "Panel used to control data link alignment, reply and antenna."
 msgstr ""
 
-#: ../../source/cockpit.rst:2911
+#: ../../source/cockpit.rst:2942
 msgid "ANTENNA switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2911
+#: ../../source/cockpit.rst:2942
 msgid "Switch selecting antenna in use for UHF 1 and data link."
 msgstr ""
 
-#: ../../source/cockpit.rst:2913
+#: ../../source/cockpit.rst:2944
 msgid "REPLY switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2913
+#: ../../source/cockpit.rst:2944
 msgid "Used to transmit data link reply, transmits in NORM (normal), disabled in CANC (cancelled)."
 msgstr ""
 
@@ -5818,27 +5879,27 @@ msgstr ""
 msgid "TAC - Enables manual selection of frequencies, stops data link alignment."
 msgstr ""
 
-#: ../../source/cockpit.rst:2921
+#: ../../source/cockpit.rst:2952
 msgid "ADRESS thumbwheel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2921
+#: ../../source/cockpit.rst:2952
 msgid "Sets what data link address own aircraft uses. (Sets two least significant digits, others set by groundcrew.)"
 msgstr ""
 
-#: ../../source/cockpit.rst:2928
+#: ../../source/cockpit.rst:2959
 msgid "AN/ALE-39 Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2934
+#: ../../source/cockpit.rst:2965
 msgid "Inventory counters"
 msgstr ""
 
-#: ../../source/cockpit.rst:2934
+#: ../../source/cockpit.rst:2965
 msgid "Analog counters used to indicate remaining quantities of loaded countermeasures. Are manually set by pushing in and rotating the knob below each counter."
 msgstr ""
 
-#: ../../source/cockpit.rst:2936
+#: ../../source/cockpit.rst:2967
 msgid "PWR/MODE switch"
 msgstr ""
 
@@ -5858,15 +5919,15 @@ msgstr ""
 msgid "OFF - Disables AN/ALE-39."
 msgstr ""
 
-#: ../../source/cockpit.rst:2944
+#: ../../source/cockpit.rst:2975
 msgid "SALVO FLARES switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2944
+#: ../../source/cockpit.rst:2975
 msgid "Enables parallel rapid firing of all flares while held in ON. Switch needs to be lifted to move to ON position."
 msgstr ""
 
-#: ../../source/cockpit.rst:2946
+#: ../../source/cockpit.rst:2977
 msgid "FLARE MODE switch"
 msgstr ""
 
@@ -5886,7 +5947,7 @@ msgstr ""
 msgid "PILOT - Enables the pilot to manually release flares with the pilot stick DLC button, the other positions releases chaff with DLC button depression."
 msgstr ""
 
-#: ../../source/cockpit.rst:2954
+#: ../../source/cockpit.rst:2985
 msgid "Countermeasure release switches"
 msgstr ""
 
@@ -5906,15 +5967,15 @@ msgstr ""
 msgid "SGL - Single, momentary actuation releases a single countermeasure."
 msgstr ""
 
-#: ../../source/cockpit.rst:2967
+#: ../../source/cockpit.rst:2998
 msgid "AA1 Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:2970
+#: ../../source/cockpit.rst:3001
 msgid "AN/APX-76 interrogator control panel."
 msgstr ""
 
-#: ../../source/cockpit.rst:2975
+#: ../../source/cockpit.rst:3006
 msgid "TEST-CHAL CC switch"
 msgstr ""
 
@@ -5930,51 +5991,51 @@ msgstr ""
 msgid "CHAL CC - Momentary actuation, starts a 10 second interrogation cycle only showing returns with correct mode and code on DDD."
 msgstr ""
 
-#: ../../source/cockpit.rst:2981
+#: ../../source/cockpit.rst:3012
 msgid "M4 ALARM OVERRIDE switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:2981
+#: ../../source/cockpit.rst:3012
 msgid "Switch disabling the mode 4 tone alarm in the RIO headset."
 msgstr ""
 
-#: ../../source/cockpit.rst:2983
+#: ../../source/cockpit.rst:3014
 msgid "FAULT light"
 msgstr ""
 
-#: ../../source/cockpit.rst:2983
+#: ../../source/cockpit.rst:3014
 msgid "Light indicating fault in AN/APX-76."
 msgstr ""
 
-#: ../../source/cockpit.rst:2985
+#: ../../source/cockpit.rst:3016
 msgid "CHAL light"
 msgstr ""
 
-#: ../../source/cockpit.rst:2985
+#: ../../source/cockpit.rst:3016
 msgid "Light indicating active interrogation in progress."
 msgstr ""
 
-#: ../../source/cockpit.rst:2987
+#: ../../source/cockpit.rst:3018
 msgid "CODE selector thumbwheels"
 msgstr ""
 
-#: ../../source/cockpit.rst:2987
+#: ../../source/cockpit.rst:3018
 msgid "Thumbwheels controlling mode and code used for interrogation. First wheel sets mode, last four sets code."
 msgstr ""
 
-#: ../../source/cockpit.rst:2990
+#: ../../source/cockpit.rst:3021
 msgid "Due to DCS limitations in regards to IFF the AA1 control panel is currently non-functional."
 msgstr ""
 
-#: ../../source/cockpit.rst:2995
+#: ../../source/cockpit.rst:3027
 msgid "AN/ALE-39 Programmer"
 msgstr ""
 
-#: ../../source/cockpit.rst:2998
+#: ../../source/cockpit.rst:3030
 msgid "Programming panel used to program current countermeasure inventory into AN/ALE-39."
 msgstr ""
 
-#: ../../source/cockpit.rst:3003
+#: ../../source/cockpit.rst:3035
 msgid "JAMR thumbwheels"
 msgstr ""
 
@@ -5990,7 +6051,7 @@ msgstr ""
 msgid "INTV - Interval, sets interval in seconds between jammer releases in program."
 msgstr ""
 
-#: ../../source/cockpit.rst:3009
+#: ../../source/cockpit.rst:3041
 msgid "CHAFF thumbwheels"
 msgstr ""
 
@@ -6014,7 +6075,7 @@ msgstr ""
 msgid "S-INTV - Interval, selects interval between salvoes in a program."
 msgstr ""
 
-#: ../../source/cockpit.rst:3019
+#: ../../source/cockpit.rst:3051
 msgid "FLARE thumbwheels"
 msgstr ""
 
@@ -6030,7 +6091,7 @@ msgstr ""
 msgid "INTV - Interval, sets interval between flare releases in a program."
 msgstr ""
 
-#: ../../source/cockpit.rst:3025
+#: ../../source/cockpit.rst:3057
 msgid "LOAD control thumbwheels"
 msgstr ""
 
@@ -6054,51 +6115,51 @@ msgstr ""
 msgid "R20 - Sets loaded countermeasure in Right 20 subsection."
 msgstr ""
 
-#: ../../source/cockpit.rst:3035
+#: ../../source/cockpit.rst:3067
 msgid "RESET switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:3035
+#: ../../source/cockpit.rst:3067
 msgid "Switch loading programmed settings into AN/ALE-39 and resetting sequencer switches to their starting positions."
 msgstr ""
 
-#: ../../source/cockpit.rst:3042
+#: ../../source/cockpit.rst:3074
 msgid "Interior Light Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:3045
+#: ../../source/cockpit.rst:3077
 msgid "Panel controlling lights in RIO cockpit."
 msgstr ""
 
-#: ../../source/cockpit.rst:3052
+#: ../../source/cockpit.rst:3084
 msgid "Switch enabling white flood lights in the RIO cockpit. DIM and BRT (bright) settings available, switch locked to OFF unless pulled out."
 msgstr ""
 
-#: ../../source/cockpit.rst:3069
+#: ../../source/cockpit.rst:3101
 msgid "Data/ADF Switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:3072
+#: ../../source/cockpit.rst:3104
 msgid "Switch controlling display of data and ADF on the HSD and ECMD. BOTH enables display of the ADF bug and navigation data block. DATA enables display of only the navigation data block. OFF disables display of either."
 msgstr ""
 
-#: ../../source/cockpit.rst:3081
+#: ../../source/cockpit.rst:3113
 msgid "IFF Transponder Control Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:3084
+#: ../../source/cockpit.rst:3116
 msgid "Control panel for the AN/APX-72 transponder."
 msgstr ""
 
-#: ../../source/cockpit.rst:3089
+#: ../../source/cockpit.rst:3121
 msgid "MODE 4 switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:3089
+#: ../../source/cockpit.rst:3121
 msgid "Switch enabling mode 4."
 msgstr ""
 
-#: ../../source/cockpit.rst:3091
+#: ../../source/cockpit.rst:3123
 msgid "MODE 4 AUDIO/LIGHT switch"
 msgstr ""
 
@@ -6111,14 +6172,14 @@ msgid "AUDIO - Enables audio monitoring of mode 4 interrogation and REPLY light 
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "► - Disables audio and light monitoring of mode 4."
+msgid "OUT - Disables audio and light monitoring of mode 4."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "LIGHT - Enables REPLY light monitoring of mode 4 replies."
 msgstr ""
 
-#: ../../source/cockpit.rst:3099
+#: ../../source/cockpit.rst:3131
 msgid "MODE 4 CODE selector"
 msgstr ""
 
@@ -6142,23 +6203,23 @@ msgstr ""
 msgid "HOLD - Non-functional."
 msgstr ""
 
-#: ../../source/cockpit.rst:3109
+#: ../../source/cockpit.rst:3141
 msgid "MODE 4 REPLY light"
 msgstr ""
 
-#: ../../source/cockpit.rst:3109
+#: ../../source/cockpit.rst:3141
 msgid "Light indicating when a mode 4 reply is generated and transmitted. Can be pushed to test the light."
 msgstr ""
 
-#: ../../source/cockpit.rst:3111
+#: ../../source/cockpit.rst:3143
 msgid "TEST light"
 msgstr ""
 
-#: ../../source/cockpit.rst:3111
+#: ../../source/cockpit.rst:3143
 msgid "Light indicating correct test when respective test switch is used. The light itself can be tested by pushing it."
 msgstr ""
 
-#: ../../source/cockpit.rst:3113
+#: ../../source/cockpit.rst:3145
 msgid "MASTER selector"
 msgstr ""
 
@@ -6167,7 +6228,7 @@ msgid "Selector switch controlling AN/APX-72 mode of operation."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
-msgid "OFF - Turns of power to the AN/APX-72."
+msgid "OFF - Disables power to the AN/APX-72."
 msgstr ""
 
 #: ../../source/cockpit.rst:0
@@ -6202,7 +6263,7 @@ msgstr ""
 msgid "OUT - Disables respective IFF mode."
 msgstr ""
 
-#: ../../source/cockpit.rst:3133
+#: ../../source/cockpit.rst:3165
 msgid "RAD TEST-OUT-MOON switch"
 msgstr ""
 
@@ -6222,7 +6283,7 @@ msgstr ""
 msgid "MON - Monitor mode 1, 2, 3 and C by illuminating the test light when replies are generated and transmitted."
 msgstr ""
 
-#: ../../source/cockpit.rst:3141
+#: ../../source/cockpit.rst:3173
 msgid "IDENT-OUT-MIC switch"
 msgstr ""
 
@@ -6242,43 +6303,43 @@ msgstr ""
 msgid "MIC - Transfers IDENT control to crewmember UHF PTT, enabling IDENT reply as per IDENT each time the PTT is keyed."
 msgstr ""
 
-#: ../../source/cockpit.rst:3149
+#: ../../source/cockpit.rst:3181
 msgid "CODE thumbwheels"
 msgstr ""
 
-#: ../../source/cockpit.rst:3149
+#: ../../source/cockpit.rst:3181
 msgid "Six thumbwheels selecting code in use for mode 1 and 3."
 msgstr ""
 
-#: ../../source/cockpit.rst:3152
+#: ../../source/cockpit.rst:3184
 msgid "Transponder functionality not currently modelled in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:3158
+#: ../../source/cockpit.rst:3190
 msgid "IFF Antenna Control/Test Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:3161
+#: ../../source/cockpit.rst:3193
 msgid "Panel containing controls for IFF antenna, tests and ground cooling."
 msgstr ""
 
-#: ../../source/cockpit.rst:3166
+#: ../../source/cockpit.rst:3198
 msgid "IFF ANT switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:3166
+#: ../../source/cockpit.rst:3198
 msgid "Switch allowing control of which antenna the IFF transponder uses. Possible to select AUTO (automatic) or LWR (lower)."
 msgstr ""
 
-#: ../../source/cockpit.rst:3168
+#: ../../source/cockpit.rst:3200
 msgid "IND LT/DDI BIT switch"
 msgstr ""
 
-#: ../../source/cockpit.rst:3168
+#: ../../source/cockpit.rst:3200
 msgid "Test switch allowing manual DDI BIT and test of RIO indicator lights."
 msgstr ""
 
-#: ../../source/cockpit.rst:3170
+#: ../../source/cockpit.rst:3202
 msgid "GND CLG switch"
 msgstr ""
 
@@ -6298,71 +6359,19 @@ msgstr ""
 msgid "AWG-9/AIM-54 - Uses the external air to cool AWG-9 and AIM-54 coolant with better performance but disables external air to cabin."
 msgstr ""
 
-#: ../../source/cockpit.rst:3183
-msgid "Radar Beacon Control Panel"
-msgstr ""
-
-#: ../../source/cockpit.rst:3186
-msgid "Panel controlling AN/APN-154 radar beacon."
-msgstr ""
-
-#: ../../source/cockpit.rst:3191
-msgid "MODE selector"
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "Selector switch controlling beacon mode of operation."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "SINGLE - Enables beacon response to single pulse codes."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "DOUBLE - Enables beacon response to set double pulse code."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "ACLS - Enables augmentor operation for ACLS. Required for CATCC radar lockon for ACLS."
-msgstr ""
-
-#: ../../source/cockpit.rst:3199
-msgid "ACLS TEST button"
-msgstr ""
-
-#: ../../source/cockpit.rst:3199
-msgid "Button with green light used to indicate operation or test. When pressed with MODE in ACLS illumination indicates a successful test. The light also flashes when detecting an AN/SPN-42 radar sweeping past and illuminates when that radar has locked on for ACLS guidance."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "Switch controlling beacon power."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "PWR - Enables beacon and all replies depending on MODE selector."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "STBY - Used to warmup system, also enables ACLS replies if the MODE selector is set to ACLS."
-msgstr ""
-
-#: ../../source/cockpit.rst:0
-msgid "OFF - Beacon off."
-msgstr ""
-
-#: ../../source/cockpit.rst:3214
+#: ../../source/cockpit.rst:3215
 msgid "Electrical Power System Test Panel"
 msgstr ""
 
-#: ../../source/cockpit.rst:3217
+#: ../../source/cockpit.rst:3218
 msgid "Panel used by groundcrew to test aircraft electrical systems."
 msgstr ""
 
-#: ../../source/cockpit.rst:3219
+#: ../../source/cockpit.rst:3220
 msgid "Non-functional in DCS."
 msgstr ""
 
-#: ../../source/cockpit.rst:3238
+#: ../../source/cockpit.rst:3239
 msgid "The canopy control handle controls canopy operation and is located on the right cockpit wall. The handle is mounted downwards beneath the box containing the handle mechanism and the handle position texts. The canopy control handle is duplicated in the pilot cockpit."
 msgstr ""
 

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-02-16 12:37+0800\n"
+"PO-Revision-Date: 2019-02-17 15:07+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -250,6 +250,8 @@ msgid "Active Transfer Command"
 msgstr ""
 
 # no reference?
+# ---
+# cant find any reference, maybe it's the WCS command that makes aim-54 radar active?
 #: ../../source/accr.rst:38
 msgid "__Active Transfer Command"
 msgstr ""
@@ -454,8 +456,9 @@ msgid "Collision"
 msgstr ""
 
 #: ../../source/accr.rst:84
+#, fuzzy
 msgid "__Collision"
-msgstr ""
+msgstr "相交"
 
 #: ../../source/accr.rst:86
 msgid "CM"
@@ -830,7 +833,7 @@ msgstr ""
 
 #: ../../source/accr.rst:165
 msgid "__Field Carrier Landing Practice"
-msgstr "路基着舰练习"
+msgstr "陆基航降练习"
 
 #: ../../source/accr.rst:167
 msgid "FEMS"
@@ -876,10 +879,10 @@ msgstr ""
 msgid "Frequency Ranging"
 msgstr ""
 
-# reference?
+# frequency modulation ranging
 #: ../../source/accr.rst:173
 msgid "__Frequency Ranging"
-msgstr ""
+msgstr "调频测距"
 
 #: ../../source/accr.rst:175
 msgid "FOV"
@@ -913,10 +916,12 @@ msgstr ""
 msgid "Frequency-Shift-Keyed"
 msgstr ""
 
-# 频移-keyed? what?
+# ref?
+# -------
+# frequency-shift keying, see wiki
 #: ../../source/accr.rst:179
 msgid "__Frequency-Shift-Keyed"
-msgstr ""
+msgstr "频率偏移调制"
 
 #: ../../source/accr.rst:181
 msgid "FWD"
@@ -942,6 +947,7 @@ msgstr ""
 msgid "Gimbal Angle Crosshair"
 msgstr ""
 
+# ref?
 #: ../../source/accr.rst:190
 msgid "__Gimbal Angle Crosshair"
 msgstr ""
@@ -978,10 +984,12 @@ msgstr ""
 msgid "Ground Map"
 msgstr ""
 
-# no reference
+# the references in NATOPS are as follows:
+# 1. Ground Mapping
+# 2. Ground Map in Page 20-31, Section 20.5.1 Radar Update.
 #: ../../source/accr.rst:196
 msgid "__Ground Map"
-msgstr ""
+msgstr "地形测绘"
 
 #: ../../source/accr.rst:198
 msgid "GPS"
@@ -1003,6 +1011,7 @@ msgstr ""
 msgid "Gun Scoring System"
 msgstr ""
 
+# NATOPS page 52 has this entry of GSS, but no where in it says anything about this scoring system. Maybe it is used in training simulation or WCS traning mode or something?
 #: ../../source/accr.rst:200
 msgid "__Gun Scoring System"
 msgstr ""
@@ -1029,11 +1038,11 @@ msgstr ""
 
 #: ../../source/accr.rst:211
 msgid "Homebase"
-msgstr "基地"
+msgstr ""
 
 #: ../../source/accr.rst:211
 msgid "__Homebase"
-msgstr ""
+msgstr "基地"
 
 #: ../../source/accr.rst:213
 msgid "HCU"
@@ -1067,9 +1076,10 @@ msgstr ""
 msgid "Home-on-Jam"
 msgstr ""
 
+# 见DCS F-15C中文手册
 #: ../../source/accr.rst:217
 msgid "__Home-on-Jam"
-msgstr ""
+msgstr "干扰导引"
 
 #: ../../source/accr.rst:219
 msgid "HOST"
@@ -1169,7 +1179,7 @@ msgstr ""
 
 #: ../../source/accr.rst:240
 msgid "__Intercommunications"
-msgstr "对讲系统"
+msgstr "机内对讲系统"
 
 #: ../../source/accr.rst:242
 msgid "IFF"
@@ -1287,9 +1297,10 @@ msgstr ""
 msgid "IR Angle Tracking"
 msgstr ""
 
+# can't find any reference
 #: ../../source/accr.rst:260
 msgid "__IR Angle Tracking"
-msgstr ""
+msgstr "红外方位角跟踪"
 
 #: ../../source/accr.rst:262
 msgid "ITER"
@@ -1341,7 +1352,7 @@ msgstr ""
 
 #: ../../source/accr.rst:275
 msgid "__Jam Angle Track"
-msgstr ""
+msgstr "干扰源方位角跟踪"
 
 #: ../../source/accr.rst:279
 msgid "K"
@@ -1407,9 +1418,10 @@ msgstr ""
 msgid "Lead Computing Optical Sight"
 msgstr ""
 
+# wording
 #: ../../source/accr.rst:299
 msgid "__Lead Computing Optical Sight"
-msgstr ""
+msgstr "提前量计算光学瞄准具"
 
 #: ../../source/accr.rst:301
 msgid "LOS"
@@ -1553,9 +1565,11 @@ msgid "Main Engine Control"
 msgstr ""
 
 # reference?
+# --
+# NATOPS Figure 2-16. Engine Fuel System
 #: ../../source/accr.rst:330
 msgid "__Main Engine Control"
-msgstr ""
+msgstr "发动机主控"
 
 #: ../../source/accr.rst:332
 msgid "MIL"
@@ -1613,9 +1627,10 @@ msgstr ""
 msgid "Missile on Aircraft Test"
 msgstr ""
 
+# A part of WCS BIT confidence test, initiated by RIO in air or on the ground
 #: ../../source/accr.rst:340
 msgid "__Missile on Aircraft Test"
-msgstr ""
+msgstr "机载导弹测试"
 
 #: ../../source/accr.rst:342
 msgid "MMGS"
@@ -1666,7 +1681,6 @@ msgid "Navigation Command and Control Grid"
 msgstr ""
 
 #: ../../source/accr.rst:355
-#, fuzzy
 msgid "__Navigation Command and Control Grid"
 msgstr "导航指令和控制格栅"
 
@@ -1755,9 +1769,8 @@ msgid "On-Board Check"
 msgstr ""
 
 #: ../../source/accr.rst:376
-#, fuzzy
 msgid "__On-Board Check"
-msgstr "机载检查"
+msgstr "机上检查"
 
 #: ../../source/accr.rst:380
 msgid "P"
@@ -1785,7 +1798,7 @@ msgstr ""
 
 #: ../../source/accr.rst:387
 msgid "__Pilot Automatic Lockon"
-msgstr ""
+msgstr "飞行员自动锁定"
 
 #: ../../source/accr.rst:389
 msgid "PCD"
@@ -1796,8 +1809,9 @@ msgid "Precision Course Direction"
 msgstr ""
 
 # ref?
+# 2.23.4.6 Data Link Vector — Precision Course
+# Direction.
 #: ../../source/accr.rst:389
-#, fuzzy
 msgid "__Precision Course Direction"
 msgstr "精确航线方向"
 
@@ -1975,7 +1989,7 @@ msgstr ""
 
 #: ../../source/accr.rst:424
 msgid "__Cue-to-ADL"
-msgstr ""
+msgstr "标识移动至武器基准线"
 
 #: ../../source/accr.rst:426
 msgid "QDES"
@@ -1987,7 +2001,7 @@ msgstr ""
 
 #: ../../source/accr.rst:426
 msgid "__Cue-to-Designate"
-msgstr ""
+msgstr "标识移至目标指定"
 
 #: ../../source/accr.rst:428
 msgid "QHUD"
@@ -1999,7 +2013,7 @@ msgstr ""
 
 #: ../../source/accr.rst:428
 msgid "__Cue-to-HUD"
-msgstr ""
+msgstr "标识移至平视显示器"
 
 #: ../../source/accr.rst:430
 msgid "QSNO"
@@ -2011,7 +2025,7 @@ msgstr ""
 
 #: ../../source/accr.rst:430
 msgid "__Cue-to-snowplow"
-msgstr ""
+msgstr "标识移至雷达雪犁"
 
 #: ../../source/accr.rst:432
 msgid "QWP"
@@ -2023,7 +2037,7 @@ msgstr ""
 
 #: ../../source/accr.rst:432
 msgid "__Cue-to-waypoint"
-msgstr ""
+msgstr "标识移至航路点"
 
 #: ../../source/accr.rst:436
 msgid "R"
@@ -2039,7 +2053,7 @@ msgstr ""
 
 #: ../../source/accr.rst:441
 msgid "__Radar Angle Crosshair"
-msgstr ""
+msgstr "雷达方位角准星"
 
 #: ../../source/accr.rst:443
 msgid "RDR"
@@ -2061,9 +2075,10 @@ msgstr ""
 msgid "Radar on Target"
 msgstr ""
 
+# 41.10.5.5 Pulse Doppler Single-Target Track
 #: ../../source/accr.rst:445
 msgid "__Radar on Target"
-msgstr ""
+msgstr "雷达跟踪目标"
 
 #: ../../source/accr.rst:447
 msgid "RECON"
@@ -2110,9 +2125,12 @@ msgid "Range Rate"
 msgstr ""
 
 # ref?
+# No ref in NATOPS
+# --
+# range rate is also called Doppler or radial velocity. It is the velocity along a line extending from the radar to the target.
 #: ../../source/accr.rst:453
 msgid "__Range Rate"
-msgstr ""
+msgstr "视向速率"
 
 #: ../../source/accr.rst:455
 msgid "ROT"
@@ -2210,6 +2228,7 @@ msgstr ""
 msgid "Sample Data/Active"
 msgstr ""
 
+# no ref in NATOPS
 #: ../../source/accr.rst:476
 msgid "__Sample Data/Active"
 msgstr ""
@@ -2631,6 +2650,8 @@ msgid "Vector"
 msgstr ""
 
 # ref?
+# --
+# basically means heading altitude and speed
 #: ../../source/accr.rst:565
 msgid "__Vector"
 msgstr ""
@@ -2669,7 +2690,7 @@ msgstr ""
 
 #: ../../source/accr.rst:571
 msgid "__Manual MAG VAR"
-msgstr ""
+msgstr "人工录入磁差"
 
 #: ../../source/accr.rst:573
 msgid "VMCU"
@@ -2785,4 +2806,4 @@ msgstr ""
 
 #: ../../source/accr.rst:603
 msgid "__Geographic Reference Point for NAV GRID"
-msgstr ""
+msgstr "导航指令和控制格栅中的地理参考点"
