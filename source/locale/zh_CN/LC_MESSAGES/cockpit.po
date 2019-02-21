@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 17:32+0800\n"
-"PO-Revision-Date: 2019-02-18 11:18+0800\n"
+"PO-Revision-Date: 2019-02-21 10:27+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -630,9 +630,10 @@ msgstr "ON / OFF - 开启或关闭静噪"
 msgid "Frequency select switches"
 msgstr "频率选择开关"
 
+# (these four switches are ) toggle switches (that is used to) select(ing) set frequency
 #: ../../source/cockpit.rst:250 ../../source/cockpit.rst:1988
 msgid "Toggle switches selecting set frequency."
-msgstr ""
+msgstr "按下开关来选择设定频率"
 
 #: ../../source/cockpit.rst:252 ../../source/cockpit.rst:1990
 msgid "FREQ/(CHAN) display"
@@ -646,9 +647,10 @@ msgstr "显示当前选中的频率或频道。"
 msgid "READ button"
 msgstr ""
 
-# toggle display
-# what display? display of selected channel what?
-# what is the display of selected channel? on / off? number display?
+# Four frequency tuning switches are used to tune transceiver when the mode
+# switches (spring return) selector switch is set to MANUAL. The left switch controls the hundreds and tens digits, the second switch controls units, the third
+# switch controls tenths, and the right switch controls hundredths and thousandths. Forward deflection of the switch increases the numeric reading, and
+# aft deflecting decreases the numeric reading.
 #: ../../source/cockpit.rst:254
 #, fuzzy
 msgid "Button toggling display of selected channel while held."
@@ -794,7 +796,7 @@ msgstr "AUTO - 自动模式"
 # what does the BOOST do?
 #: ../../source/cockpit.rst:0
 msgid "BOOST - Boosted."
-msgstr "BOOST - 增强模式"
+msgstr "BOOST - 助力模式"
 
 #: ../../source/cockpit.rst:0
 msgid "MAN - Manual."
@@ -3158,7 +3160,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1410
 msgid "Elevation Lead Panel"
-msgstr "航炮提前量设置面板"
+msgstr "准星提前量设置面板"
 
 #: ../../source/cockpit.rst:1413
 msgid ""

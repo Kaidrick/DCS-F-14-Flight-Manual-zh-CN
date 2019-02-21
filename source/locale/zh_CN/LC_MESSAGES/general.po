@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-13 22:49+0800\n"
+"PO-Revision-Date: 2019-02-19 14:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -556,11 +556,11 @@ msgstr ""
 
 #: ../../source/general.rst:215
 msgid "Fire Detection and Suppression System"
-msgstr ""
+msgstr "火灾报警和灭火系统"
 
 #: ../../source/general.rst:218
 msgid "Fire Detection System"
-msgstr ""
+msgstr "火灾报警系统"
 
 #: ../../source/general.rst:220
 msgid ""
@@ -587,7 +587,7 @@ msgstr ""
 
 #: ../../source/general.rst:229
 msgid "Fire Suppression System"
-msgstr ""
+msgstr "灭火系统"
 
 #: ../../source/general.rst:235
 msgid ""
@@ -633,7 +633,7 @@ msgstr ""
 
 #: ../../source/general.rst:252
 msgid "Fire Detection and Suppression System Test"
-msgstr ""
+msgstr "火灾报警和灭火系统测试"
 
 #: ../../source/general.rst:254
 msgid ""
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: ../../source/general.rst:486
 msgid "Wing-Sweep System Test"
-msgstr ""
+msgstr "机翼后掠系统测试"
 
 #: ../../source/general.rst:488
 msgid ""
@@ -1245,7 +1245,7 @@ msgstr ""
 
 #: ../../source/general.rst:541
 msgid "AFCS Automatic Flight Control System"
-msgstr ""
+msgstr "AFCS 自动飞行控制系统"
 
 #: ../../source/general.rst:543
 msgid ""
@@ -1658,11 +1658,11 @@ msgstr ""
 
 #: ../../source/general.rst:723
 msgid "Catapult Launch and Arresting Gear"
-msgstr ""
+msgstr "弹射和阻拦装置"
 
 #: ../../source/general.rst:726
 msgid "Nosegear Catapult System"
-msgstr ""
+msgstr "前轮弹射系统"
 
 #: ../../source/general.rst:728
 msgid ""
@@ -1744,7 +1744,7 @@ msgstr ""
 
 #: ../../source/general.rst:760
 msgid "Arresting Gear"
-msgstr ""
+msgstr "阻拦装置"
 
 #: ../../source/general.rst:762
 msgid ""
@@ -1825,7 +1825,7 @@ msgstr ""
 
 #: ../../source/general.rst:792
 msgid "Air Source and Cockpit Air Controls"
-msgstr ""
+msgstr "气源和座舱引气控制"
 
 #: ../../source/general.rst:794
 msgid ""
@@ -1902,7 +1902,7 @@ msgstr ""
 
 #: ../../source/general.rst:824
 msgid "Windshield Anti-Ice and Defogging"
-msgstr ""
+msgstr "风挡除冰和除雾"
 
 #: ../../source/general.rst:826
 msgid ""
@@ -1935,7 +1935,7 @@ msgstr ""
 
 #: ../../source/general.rst:838
 msgid "AN/AWG-9 and AIM-54 Cooling"
-msgstr ""
+msgstr "AN/AWG-9 和 AIM-54 冷却"
 
 #: ../../source/general.rst:840
 msgid ""
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: ../../source/general.rst:851
 msgid "External ECS Air Supply"
-msgstr ""
+msgstr "外部 ECS 供气"
 
 #: ../../source/general.rst:853
 msgid ""
@@ -4163,7 +4163,7 @@ msgstr ""
 
 #: ../../source/general.rst:1638 ../../source/general.rst:2034
 msgid "Sensor Control Panel"
-msgstr ""
+msgstr "传感器控制面板"
 
 #: ../../source/general.rst:1641
 msgid ""
@@ -5312,7 +5312,7 @@ msgstr ""
 
 #: ../../source/general.rst:2113
 msgid "TCS Operation"
-msgstr ""
+msgstr "TCS 操作"
 
 #: ../../source/general.rst:2115
 msgid ""
@@ -5383,7 +5383,7 @@ msgstr ""
 
 #: ../../source/general.rst:2144
 msgid "AN/ALR-67 RWR"
-msgstr ""
+msgstr "AN/ALR-67 雷达警告接收系统（RWR）"
 
 #: ../../source/general.rst:2147 ../../source/general.rst:2778
 msgid "Description"
@@ -5589,7 +5589,7 @@ msgstr ""
 
 #: ../../source/general.rst:2229
 msgid "Threat Indication Alert Tones"
-msgstr ""
+msgstr "威胁提示警告音"
 
 #: ../../source/general.rst:2231
 msgid ""
@@ -5660,7 +5660,7 @@ msgstr ""
 
 #: ../../source/general.rst:2258
 msgid "Threat Symbology"
-msgstr ""
+msgstr "威胁标识"
 
 #: ../../source/general.rst:2260
 msgid ""
@@ -5670,7 +5670,7 @@ msgstr ""
 
 #: ../../source/general.rst:2263
 msgid "Threat symbol"
-msgstr "威胁标识"
+msgstr "威胁标识符号"
 
 #: ../../source/general.rst:2263
 msgid "Platform/Sensor"
@@ -6297,7 +6297,7 @@ msgstr ""
 
 #: ../../source/general.rst:2433
 msgid "AN/ALE-39 Countermeasures Dispensing Set"
-msgstr ""
+msgstr "AN/ALE-39 电子对抗布撒套件"
 
 #: ../../source/general.rst:2435
 msgid ""
@@ -6338,7 +6338,7 @@ msgstr ""
 
 #: ../../source/general.rst:2451
 msgid "Controls and Operation"
-msgstr ""
+msgstr "控制和操作"
 
 #: ../../source/general.rst:2453
 msgid ""
@@ -6350,7 +6350,7 @@ msgstr ""
 
 #: ../../source/general.rst:2457
 msgid "Programmer"
-msgstr ""
+msgstr "编程面板"
 
 #: ../../source/general.rst:2461
 msgid ""
@@ -6497,7 +6497,7 @@ msgstr ""
 
 #: ../../source/general.rst:2498
 msgid "Control Panel"
-msgstr ""
+msgstr "控制面板"
 
 #: ../../source/general.rst:2502
 msgid ""
@@ -6571,7 +6571,7 @@ msgstr ""
 
 #: ../../source/general.rst:2529
 msgid "RIO Hand Hold Switches"
-msgstr ""
+msgstr "RIO 握把控制开关"
 
 #: ../../source/general.rst:2533
 msgid ""
@@ -6662,7 +6662,7 @@ msgstr ""
 
 #: ../../source/general.rst:2571
 msgid "AN/ALQ-126 Controls and Indicators"
-msgstr ""
+msgstr "AN/ALQ-126 控制和指示器"
 
 #: ../../source/general.rst:2575
 msgid ""
@@ -10161,7 +10161,7 @@ msgstr ""
 
 #: ../../source/general.rst:3959
 msgid "ICS - Intercommunications System"
-msgstr ""
+msgstr "ICS - 机内对讲系统"
 
 #: ../../source/general.rst:3962
 msgid ""
@@ -10309,7 +10309,7 @@ msgstr ""
 
 #: ../../source/general.rst:4029
 msgid "Audio Warning Signals"
-msgstr ""
+msgstr "音频警告信号"
 
 #: ../../source/general.rst:4031
 msgid ""
@@ -10465,7 +10465,7 @@ msgstr ""
 
 #: ../../source/general.rst:4078
 msgid "Pilot Volume/TACAN Command Panel"
-msgstr ""
+msgstr "飞行员音量 / TACAN 指令面板"
 
 #: ../../source/general.rst:4082
 msgid ""
@@ -10508,7 +10508,7 @@ msgstr ""
 
 #: ../../source/general.rst:4108
 msgid "RIO Communication/TACAN Command Panel"
-msgstr ""
+msgstr "RIO 通讯 / TACAN 指令面板"
 
 #: ../../source/general.rst:4110
 msgid ""
@@ -10605,7 +10605,7 @@ msgstr ""
 
 #: ../../source/general.rst:4168
 msgid "AN/ARC-159 (UHF 1) Radio"
-msgstr ""
+msgstr "AN/ARC-159 (UHF 1) 电台"
 
 #: ../../source/general.rst:4170
 msgid ""
@@ -10948,7 +10948,7 @@ msgstr ""
 
 #: ../../source/general.rst:4338
 msgid "Loading (saving) Preset Channel(s) on UHF 1 and V/UHF 2"
-msgstr ""
+msgstr "在 UHF 1 和 V/UHF 2 中读取（保存）预设频道"
 
 #: ../../source/general.rst:4340
 msgid "MODE selection- T/R or T/R&G."
@@ -10986,7 +10986,7 @@ msgstr ""
 
 #: ../../source/general.rst:4358
 msgid "AN/ARC-182 BIT (Built-in Test)"
-msgstr ""
+msgstr "AN/ARC-182 BIT（自检）"
 
 #: ../../source/general.rst:4360
 msgid ""
@@ -11130,9 +11130,10 @@ msgstr ""
 msgid "Module 3 bad"
 msgstr ""
 
+# 分离显示器？
 #: ../../source/general.rst:4398
 msgid "AN/ARC-159 and AN/ARC-182 Remote Displays"
-msgstr ""
+msgstr "AN/ARC-159 和 AN/ARC-182 远程显示器"
 
 #: ../../source/general.rst:4400
 msgid ""
@@ -11174,7 +11175,7 @@ msgstr ""
 
 #: ../../source/general.rst:4430
 msgid "AN/ARA-50 UHF Automatic Direction Finder"
-msgstr ""
+msgstr "AN/ARA-50 UHF 自动测向仪"
 
 #: ../../source/general.rst:4432
 msgid ""
@@ -11196,7 +11197,7 @@ msgstr ""
 
 #: ../../source/general.rst:4441
 msgid "TSEC/KY-28 Voice Security Equipment"
-msgstr ""
+msgstr "TSEC/KY-28 语音安全设备"
 
 #: ../../source/general.rst:4443
 msgid ""
@@ -11270,7 +11271,7 @@ msgstr ""
 
 #: ../../source/general.rst:4474
 msgid "KY-28 Operation"
-msgstr ""
+msgstr "KY-28 操作"
 
 #: ../../source/general.rst:4477
 msgid "Prelaunch"
@@ -11377,7 +11378,7 @@ msgstr ""
 
 #: ../../source/general.rst:4521
 msgid "Link 4A & C Data Link"
-msgstr ""
+msgstr "Link 4A 和 4C 数据链"
 
 #: ../../source/general.rst:4523
 msgid ""
