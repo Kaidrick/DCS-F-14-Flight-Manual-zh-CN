@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 | Feb. 18th, 2019
+                协作预览 | Feb. 22nd, 2019
               </div>
             
           
@@ -106,22 +106,22 @@
 <li class="toctree-l4"><a class="reference internal" href="#inlet-ramps-throttle-control-panel">进气道板 / 油门控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#throttle">油门</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#throttle-quadrant">油门弧座</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#hydraulic-hand-pump">Hydraulic Hand Pump</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hydraulic-hand-pump">手动液压泵</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#left-vertical-console">左侧垂直控制台</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#fuel-management-panel">燃油管理面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#control-surface-position-indicator">控制面位置指示器</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#launch-bar-abort-panel">Launch Bar Abort Panel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#landing-gear-control-panel">Landing Gear Control Panel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#wheels-flaps-position-indicator">Wheels-Flaps Position Indicator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#launch-bar-abort-panel">弹射牵引杆中止面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#landing-gear-control-panel">起落架控制面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wheels-flaps-position-indicator">机轮-襟翼位置指示器</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#left-knee-panel">左膝仪表板</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#hydraulic-pressure-indicator">液压压强指示器</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#oil-pressure-indicator">机油压强指示器</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#exhaust-nozzle-position-indicator">发动机喷口位置指示器</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#electronic-instrument-group">Electronic Instrument Group</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#electronic-instrument-group">电子仪表组</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#left-instrument-panel">左仪表板</a><ul>
@@ -728,7 +728,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">所有开关皆为弹簧开关，由螺线管保持在选定档位上，满足解除条件时，开关会自动弹回 OFF 位置。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">所有开关皆为弹簧开关，由电磁铁保持在选定档位上，满足解除条件时，开关会自动弹回 OFF 位置。</td>
 </tr>
 </tbody>
 </table>
@@ -773,10 +773,10 @@
 <td>显示当前选中的频率或频道。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li>READ button</li>
+<li>读取开关</li>
 </ol>
 </td>
-<td>Button toggling display of selected channel while held.</td>
+<td>按住开关时，频率（频道）显示器将显示预设频道的频率。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
 <li>亮度旋钮</li>
@@ -785,10 +785,10 @@
 <td>控制显示屏的亮度。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>LOAD button</li>
+<li>加载按钮</li>
 </ol>
 </td>
-<td>Button toggling load of set frequency to set channel.</td>
+<td>按下按钮来加载预设频道的显示频率。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
 <li>功能选择旋钮</li>
@@ -817,13 +817,13 @@
 <li>模式选择旋钮</li>
 </ol>
 </td>
-<td>Knob selecting radio frequency select mode.</td>
+<td>这个旋钮用于设置无线电频率选择模式。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="12">
-<li>TONE button</li>
+<li>TONE 按钮</li>
 </ol>
 </td>
-<td>Transmits a TONE on current frequency.</td>
+<td>按住按钮会在当前无线电频率上发送一个频率为1,020赫兹的单音。</td>
 </tr>
 </tbody>
 </table>
@@ -876,9 +876,7 @@
 <div class="section" id="target-designate-switch">
 <span id="tds"></span><h4>目标指定开关<a class="headerlink" href="#target-designate-switch" title="永久链接至标题">¶</a></h4>
 <img alt="_images/target.png" src="_images/target.png" />
-<p>Used to designate ground targets on the HUD and to control pilot ACM radar modes except PLM.
-In air-to-ground mode UP and DOWN moves the designator and DES (designate) selects/designates.
-In all other cases UP and DOWN selects VSL HI and VSL LO ACM-modes respectively and DES selects PAL.</p>
+<p>用于在 HUD 上指定地面目标和控制雷达 ACM 模式，但 PLM（飞行员锁定模式）例外。在空对地模式中，向上或向下拨动开关来移动 HUD 上的目标指定符，按下开关来指定（DES）/选择。在其他模式下，向上或向下拨动开关分别选择 ACM 模式 VSL HI（垂直扫描锁定高目标） 和 VSL LO（垂直扫描锁定低目标），按下开关会选择 PAL（飞行员自动锁定）。</p>
 </div>
 <div class="section" id="inlet-ramps-throttle-control-panel">
 <span id="inletrampsthrottle"></span><h4>进气道板 / 油门控制面板<a class="headerlink" href="#inlet-ramps-throttle-control-panel" title="永久链接至标题">¶</a></h4>
@@ -981,9 +979,9 @@ In all other cases UP and DOWN selects VSL HI and VSL LO ACM-modes respectively 
 <td><div class="first last line-block">
 <div class="line">用于控制减速板伸展和收起。</div>
 <div class="line"><br /></div>
-<div class="line">EXT - Momentary position returning to center when released. Incrementally extends speed brake while held. Speed brake remains in position it’s at when released.</div>
+<div class="line">EXT - 松开开关后，开关从该位置回中。将开关拨至并保持在 EXT 档位会逐渐展开减速板。开关回中时，减速板仍保持在当前位置。</div>
 <div class="line"><br /></div>
-<div class="line">RET - Toggle position retracting speed brake.</div>
+<div class="line">RET - 将开关拨至该位置来收起减速板。</div>
 </div>
 </td>
 </tr>
@@ -992,50 +990,50 @@ In all other cases UP and DOWN selects VSL HI and VSL LO ACM-modes respectively 
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Switch controlling wing-sweep function. Manual mode only allows positions aft of CADC set position.</div>
+<div class="line">这个开关用于控制机翼后掠功能。手动模式下选择的后掠位置只能比 CADC 设置的位置靠后。</div>
 <div class="line"><br /></div>
-<div class="line">AUTO - Wing-sweep automatically set by CADC.</div>
+<div class="line">AUTO - 机翼后掠位置由 CADC（中央大气数据计算机） 自动设置。</div>
 <div class="line"><br /></div>
-<div class="line">FWD - Sweeps wings forward manually.</div>
+<div class="line">FWD - 手动设置机翼后掠位置向前。</div>
 <div class="line"><br /></div>
-<div class="line">AFT - Sweeps wings aft manually.</div>
+<div class="line">AFT - 手动设置机翼后掠位置向后。</div>
 <div class="line"><br /></div>
-<div class="line">BOMB - Sets wing-sweep to 55° if forwards of that. When the CADC position is aft of 55° it will follow that setting instead.</div>
+<div class="line">BOMB - 如果机翼后掠角度小于55°，则将机翼后掠至55°位置。如果 CADC 设置的后掠位置超过55°，则将后掠位置调整至 CADC 设定的角度。</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>PLM按钮</li>
+<li>PLM 按钮</li>
 </ol>
 </td>
-<td>Button used to command pilot lockon mode of AWG-9. Also used to disengage autopilot while in ACL.</td>
+<td>用于选择 AWG-9 的飞行员锁定模式。也用于在 ACL（自动航降）过程中解除自动驾驶。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>CAGE/SEAM button</li>
+<li>CAGE/SEAM 按钮</li>
 </ol>
 </td>
-<td>Button used to command CAGE/SEAM to AIM-9 initiating lockon. Also used to disengage APC when in use.</td>
+<td>用于控制 AIM-9 导弹 CAGE（引导头解锁）/ SEAM（“响尾蛇”扩展搜索模式）以启用 AIM-9 引导头锁定。如果启用了 APC（进近推力补偿器），也用于解除 APC。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
 <li>外部灯光开关</li>
 </ol>
 </td>
-<td>Switch used to control exterior lights. OFF disable all exterior lights and increases approach light intensity. ON enables all exterior lights and dims approach lights.</td>
+<td>用于控制机外灯光。OFF 档位会关闭所有外部灯光，并增加进近灯亮度。ON 档位会开启所有外部灯光，并减小进近灯亮度。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
-<li>ICS按键通话开关</li>
+<li>ICS 按键通话开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Switch allowing pilot to key one or both radios and intercommunication to RIO.</div>
+<div class="line">通过这个开关，飞行员可以在单频道或双频道 V/UHF 下通讯，或与 RIO 对讲。</div>
 <div class="line"><br /></div>
-<div class="line">ICS - Keys intercommunication to RIO.</div>
+<div class="line">ICS - 与 RIO 通话</div>
 <div class="line"><br /></div>
-<div class="line">BOTH - Keys both UHF 1 and V/UHF 2 for transmission.</div>
+<div class="line">BOTH - 同时在 UHF 1 和 V/UHF 2 频率下通话</div>
 <div class="line"><br /></div>
-<div class="line">UHF1 - Keys UHF 1 for transmission.</div>
+<div class="line">UHF1 - 在 UHF 1 频率下通话</div>
 <div class="line"><br /></div>
-<div class="line">UHF2 - Keys V/UHF 2 for transmission.</div>
+<div class="line">UHF2 - 在 V/UHF 2 频率下通话</div>
 </div>
 </td>
 </tr>
@@ -1057,18 +1055,14 @@ In all other cases UP and DOWN selects VSL HI and VSL LO ACM-modes respectively 
 </tr>
 </tbody>
 </table>
-<p>The main throttle quadrant contains the two main-engine throttle controls, the flap lever and manual wing-sweep handle in addition to the HOTAS controls on the throttles themselves.
-The throttles have detents in the OFF, IDLE and MIL positions.</p>
-<p>Moving the throttles to the IDLE position from OFF arms the ignition and disengages the fuel cutoff.
-The sideways movements of the throttles are not spring loaded, this is so the pilot can have the throttle resting at MIL power for catapult launches and prevents accidental spool down of the engines.
-A friction lever for selection of desired throttle movement friction is located on the left side of the throttle quadrant, beneath the flap lever.</p>
-<p>The flap lever has a stepless range of motion between up and down and has two emergency positions, one emergency up and one emergency down. Both emergency positions have detents, the lever needs to be moved outboards to continue movement into these positions. Emergency up forces the flaps up, overriding the normal flap logic. Emergency down is non-functional.</p>
-<p>The manual/emergency wing-sweep handle is protected by a guard and is normally pushed in and stowed. The handle-top is extended for manual operation.
-For more information see <a class="reference internal" href="general.html#wingsweepemerg"><span class="std std-ref">应急模式</span></a>.</p>
+<p>油门弧座主要组成部分包括：两个发动机油门控制握把、襟翼控制杆和应急机翼后掠手柄，以及油门握把上的 HOTAS 系统。</p>
+<p>将油门从 OFF 位置推到 IDLE 位置会激活点火器并关闭发动机断油装置。油门握把内并未安装弹簧机构，横向推动油门时，握把不会被弹回原位，因此飞行员弹射起飞时可以将油门握把置于 MIL（军用推力）档，而不用担心油门位置意外变动，从而导致发动机转速降低。</p>
+<p>襟翼控制杆的无级行程的最前段和最后段分别有两个应急档位，一个是应急收起，一个是应急放下。两个应急档位都有卡位，襟翼控制杆移动至卡位处时，需向外推动才能继续移动至这两个应急档位。应急收起档位会强行收起襟翼，越控正常襟翼控制逻辑。应急放下档位无功能。</p>
+<p>手动/应急机翼后掠手柄上方有一个保护盖，且手柄通常处于推入并收起的状态。握住手柄顶部，抽出手柄来进行手动机翼后掠控制。请查阅 <a class="reference internal" href="general.html#wingsweepemerg"><span class="std std-ref">应急模式</span></a> 来获得更多相关信息。</p>
 </div>
 <div class="section" id="hydraulic-hand-pump">
-<span id="hydhandpump"></span><h4>Hydraulic Hand Pump<a class="headerlink" href="#hydraulic-hand-pump" title="永久链接至标题">¶</a></h4>
-<p>The hydraulic hand pump is located inboards of the throttle quadrant, near the pilot’s left leg. It is used to manually add hydraulic pressure for brake operation (with gear handle in the down position) or for refueling probe operation in case of a failure in the hydraulic system.</p>
+<span id="hydhandpump"></span><h4>手动液压泵<a class="headerlink" href="#hydraulic-hand-pump" title="永久链接至标题">¶</a></h4>
+<p>手动液压泵位于油门弧座的内侧，靠近飞行员左腿的位置。通过手动液压泵向液压系统增压来进行制动操作（当起落架手柄处于向下位置时），或在液压系统故障时，通过它操作加油探头。</p>
 </div>
 </div>
 <div class="section" id="left-vertical-console">
@@ -1076,7 +1070,7 @@ For more information see <a class="reference internal" href="general.html#wingsw
 <div class="section" id="fuel-management-panel">
 <span id="fuelmgmtpanel"></span><h4>燃油管理面板<a class="headerlink" href="#fuel-management-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/fuel.png" src="_images/fuel.png" />
-<p>Control panel for various fuel related systems, CADC master reset and the anti skid system.</p>
+<p>这个面板用于控制诸多燃油相关系统、CADC 重置和防滑系统。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="23%" />
@@ -1089,94 +1083,94 @@ For more information see <a class="reference internal" href="general.html#wingsw
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td><ol class="first last arabic simple">
-<li>QTY SEL switch</li>
+<li>燃油量选择开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Switch selecting what the fuel quantity tapes on the fuel quantity display shows. Springloaded to FEED.</div>
+<div class="line">这个滑动弹簧开关用于选择燃油量显示器上显示哪个油箱的油量。松开开关后，开关会弹回 FEED（供油油箱）档位。</div>
 <div class="line"><br /></div>
-<div class="line">FEED - Shows respective feed and fuselage tank fuel quantity.</div>
+<div class="line">FEED - 显示供油油箱和机身油箱中的燃油量。</div>
 <div class="line"><br /></div>
-<div class="line">WING - Shows respective wing tank fuel quantity.</div>
+<div class="line">WING - 显示各个机翼油箱中的燃油量</div>
 <div class="line"><br /></div>
-<div class="line">EXT - Shows respective external fuel tank quantity.</div>
+<div class="line">EXT - 显示外部油箱中的燃油量。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>FEED开关</li>
+<li>供油开关</li>
 </ol>
 </td>
-<td>Switch selecting fuel feed to the engines. Guard locks the switch to NORM until lifted.</td>
+<td>用于选择为发动机供油的油箱。保护盖关闭时，开关被锁定在 NORM 档位。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>WING/EXT TRANS switch</li>
+<li>机翼/外部油箱转移开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Switch selecting operation of the wing and external tanks.</div>
+<div class="line">用于控制机油和外部油箱燃油转移。</div>
 <div class="line"><br /></div>
-<div class="line">ORIDE - Override.</div>
+<div class="line">ORIDE - 越控</div>
 <div class="line"><br /></div>
-<div class="line">AUTO - Normal position.</div>
+<div class="line">AUTO - 正常（自动燃油转移）</div>
 <div class="line"><br /></div>
-<div class="line">OFF - Turns off fuel feed from the wing and external tanks.</div>
+<div class="line">OFF - 停止机翼和外部油箱中的燃油转移</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>Refueling probe indicator light</li>
+<li>受油管指示灯</li>
 </ol>
 </td>
-<td>Transition light illuminated when refueling probe is not in extended or retracted position.</td>
+<td>受油管不处于完全伸出或完全收起位置时，受油管提示灯便会亮起。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li>DUMP开关</li>
+<li>放油开关</li>
 </ol>
 </td>
-<td>OFF/DUMP switch. Allows fuel dump when speed brakes are retracted, afterburner off and weight off wheels.</td>
+<td>放油开启/关闭开关。减速板收起，机轮不承重且加力燃烧关闭时进行放油操作。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
 <li>受油管开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Selection switch toggling operation of refueling probe.</div>
+<div class="line">用于控制受油管</div>
 <div class="line"><br /></div>
-<div class="line">ALL EXTD - All extended, extends refueling probe and allows refueling of all tanks. Also resets WING/EXT TRANS switch to AUTO.</div>
+<div class="line">ALL EXTD - 受油管移动至完全伸出位置，允许对所有（ALL）油箱加油。同时也会将机翼/外部油箱转移开关（WING/EXT TRANS）重置回 AUTO 档位。</div>
 <div class="line"><br /></div>
-<div class="line">FUS EXTD - Fuselage extended, extends refueling probe and allows refueling of only fuselage tanks.</div>
+<div class="line">FUS EXTD - 受油管移动至完全伸出位置，只允许对机身（FUS）箱加油</div>
 <div class="line"><br /></div>
-<div class="line">RET - Retracted, retracts refueling probe.</div>
+<div class="line">RET - 收起受油管</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>ANTI SKID SPOILER BK switch</li>
+<li>防滑合扰流板制动控制开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Selection switch determining operation anti-skid and spoiler brake systems.</div>
+<div class="line">用于控制防滑系统和扰流板制动系统。</div>
 <div class="line"><br /></div>
-<div class="line">BOTH - Enables both anti-skid and spoiler brake function with weight on wheels.</div>
+<div class="line">BOTH - 机轮承重时，启用防滑系统和扰流板制动系统</div>
 <div class="line"><br /></div>
-<div class="line">OFF - Turns off both systems.</div>
+<div class="line">OFF - 关闭防滑系统和扰流板制动系统</div>
 <div class="line"><br /></div>
-<div class="line">SPOILER BK - Spoiler brake, enables spoiler brake function with weight on wheels.</div>
+<div class="line">SPOILER BK - 扰流板制动，机轮承重时，启用扰流板制动功能。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
-<li>主警报重置按钮</li>
+<li>主重置按钮</li>
 </ol>
 </td>
-<td>Resets CADC failure detection system and associated fault displays.</td>
+<td>重置 CADC 故障检测系统和相关的故障显示。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="9">
-<li>Control surface position indicator</li>
+<li>控制面位置指示器</li>
 </ol>
 </td>
-<td>Displays control surface positions. See below.</td>
+<td>显示控制面位置。详见下文。</td>
 </tr>
 </tbody>
 </table>
@@ -1184,7 +1178,7 @@ For more information see <a class="reference internal" href="general.html#wingsw
 <div class="section" id="control-surface-position-indicator">
 <span id="controlsurface"></span><h4>控制面位置指示器<a class="headerlink" href="#control-surface-position-indicator" title="永久链接至标题">¶</a></h4>
 <img alt="_images/control.png" src="_images/control.png" />
-<p>Indicator for indication of control surface positions.</p>
+<p>控制面位置指示器是用于指示各个飞行操纵面位置的仪表。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="11%" />
@@ -1197,45 +1191,44 @@ For more information see <a class="reference internal" href="general.html#wingsw
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td><ol class="first last arabic simple">
-<li>SPOILER</li>
+<li>扰流板</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Spoiler position indicators.</div>
+<div class="line">扰流板位置指示器</div>
 <div class="line"><br /></div>
-<div class="line">DN - Down, flush with wings.</div>
+<div class="line">DN - 扰流板收起，与机翼齐平。</div>
 <div class="line"><br /></div>
-<div class="line">Up-arrow - Extended above wing.</div>
+<div class="line">向上箭头 - 扰流板展开</div>
 <div class="line"><br /></div>
-<div class="line">Down-arrow - Drooped below wing surface.</div>
+<div class="line">向下箭头 - 扰流板放下至机翼表面下方。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>RUDDER</li>
+<li>方向舵</li>
 </ol>
 </td>
-<td>Rudder position indicators, shows position of left and right rudders, each marked L or R.</td>
+<td>方向舵位置指示器，标注的“L”和“R”分别指示了左方向舵和右方向舵的位置。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>HORIZ TAIL</li>
+<li>水平尾翼</li>
 </ol>
 </td>
-<td>Horizontal stabilizer position indicators, shows position of left and right stabilizer surfaces, marked L or R respectively.</td>
+<td>水平尾翼位置指示器，标注的“L”和“R”分别显示了左水平尾翼和右水平尾翼的位置。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="launch-bar-abort-panel">
-<span id="launchbarabort"></span><h4>Launch Bar Abort Panel<a class="headerlink" href="#launch-bar-abort-panel" title="永久链接至标题">¶</a></h4>
+<span id="launchbarabort"></span><h4>弹射牵引杆中止面板<a class="headerlink" href="#launch-bar-abort-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/launch-abort.png" src="_images/launch-abort.png" />
-<p>LAUNCH BAR – Selection switch – When held in ABORT lifts the launch bar for launch abortion. Spring-loaded to NORM (Normal) which is the standard position.
-Not currently used in DCS.</p>
+<p>弹射牵引杆选择开关，将弹簧开关保持在 ABORT 档位时，弹射牵引杆升起，终止弹射。松开开关后，开关弹回 NORM （正常）档位，这也是弹射牵引杆选择开关的标准位置。目前，这个开关在 DCS 中没有实际作用。</p>
 </div>
 <div class="section" id="landing-gear-control-panel">
-<span id="gearcontrol"></span><h4>Landing Gear Control Panel<a class="headerlink" href="#landing-gear-control-panel" title="永久链接至标题">¶</a></h4>
+<span id="gearcontrol"></span><h4>起落架控制面板<a class="headerlink" href="#landing-gear-control-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/gear.png" src="_images/gear.png" />
-<p>Control panel for the main landing gear and emergency stores jettison.</p>
+<p>这个面板用于控制主起落架和应急挂载抛离。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="17%" />
@@ -1248,84 +1241,84 @@ Not currently used in DCS.</p>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td><ol class="first last arabic simple">
-<li>LDG GEAR</li>
+<li>起落架控制手柄</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Landing gear handle. Selects gear UP or DOWN.</div>
+<div class="line">起落架控制手柄。用于选择起落架的 UP（收起）或 DOWN（放下）位置。</div>
 <div class="line"><br /></div>
-<div class="line">For emergency extension in DOWN position, push handle in, turn clockwise and pull out. This releases a compressed nitrogen charge for emergency extension.</div>
+<div class="line">应急放下起落架时，将手柄置于向下位置，并将手柄推入，顺时针旋转手柄顶端然后抽出。这会释放储存的压缩氮气，使起落架紧急放下。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>DOWN LOCK ORIDE</li>
+<li>起落架放下锁定越控</li>
 </ol>
 </td>
-<td>Indicates weight on wheels when moved down by solenoid. Can be lifted up to override. Non-functional in DCS.</td>
+<td>被电磁铁移动至向下位置时指示机轮承重。可以升起至向上位置来越控（起落架手柄锁定在放下位置）。DCS 中无功能。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>HYD ISOL</li>
+<li>起落架液压隔离开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Switch isolating landing gear, nosewheel steering and wheel brakes from the combined hydraulic system. Is automatically moved to T.O./LDG by LDG GEAR in DOWN position.</div>
+<div class="line">用于将起落架、前轮转向和机轮刹车的液压控制隔离出联合液压系统。起落架手柄处于放下位置时，隔离开关由起落架手柄自动移动至 T.O. / LDG 档位。</div>
 <div class="line"><br /></div>
-<div class="line">FLT - In flight operation, isolates systems listed above.</div>
+<div class="line">FLT - 空中飞行时，隔离上述系统中的液压控制。</div>
 <div class="line"><br /></div>
-<div class="line">T.O./LDG - Take-off/landing, connects systems listed above, allowing them to operate.</div>
+<div class="line">T.O. / LDG - 起飞/降落，接通上述系统的液压控制，允许它们正常工作。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>Transition light</li>
+<li>起落架转移指示灯</li>
 </ol>
 </td>
-<td>Illuminates to indicate landing gear position not corresponding to current LDG GEAR handle position.</td>
+<td>起落架当前位置与起落架控制手柄位置不符时，指示灯会亮起。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li>Wheels-flaps position indicator</li>
+<li>机轮-襟翼位置指示器</li>
 </ol>
 </td>
-<td>See below.</td>
+<td>详见下文。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
-<li>EMERG STORES button</li>
+<li>应急挂载抛离按钮</li>
 </ol>
 </td>
-<td>Emergency stores jettison. Illuminates to indicate activation when pressed.</td>
+<td>应急挂载抛离。按下时会亮起，表示激活应急抛离。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>NOSE STRUT switch</li>
+<li>前轮支柱开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Switch selecting nosewheel strut retraction.</div>
+<div class="line">这个弹簧开关用于控制前起落架支柱伸缩。</div>
 <div class="line"><br /></div>
-<div class="line">EXTD - Extend, extends nosewheel strut and raises and locks launch bar.</div>
+<div class="line">EXTD - 伸展前起落架支柱，升起并锁定弹射牵引杆。</div>
 <div class="line"><br /></div>
-<div class="line">OFF - Turns off nosewheel strut movement, springloaded to this position.</div>
+<div class="line">OFF - 关闭前起落架支柱运动，松开开关时，开关弹回该位置。</div>
 <div class="line"><br /></div>
-<div class="line">KNEEL - Releases pressure from nosewheel strut to retract it, kneeling aircraft. Also unlocks launch bar.</div>
+<div class="line">KNEEL - 释放前起落架支柱系统中的压强并收缩，降低机头的高度，同时解锁弹射牵引杆。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
-<li>BRAKE-PULL handle</li>
+<li>制动-抽出手柄</li>
 </ol>
 </td>
-<td>Parking brake, pull out to apply parking brake, push in to release.</td>
+<td>停放刹车，抽出手柄来启动停放刹车，推入手柄释放机轮刹车。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="9">
-<li>EJECT CMD indicator</li>
+<li>弹射指令指示器</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Indicates ejection system mode for the back seat.</div>
+<div class="line">指示后座驾驶舱的弹射系统的模式。</div>
 <div class="line"><br /></div>
-<div class="line">PILOT - Pilot ejects both crewmembers, RIO only himself.</div>
+<div class="line">PILOT - 飞行员弹射时弹射所有机组乘员，RIO 弹射时只弹射自己</div>
 <div class="line"><br /></div>
-<div class="line">MCO - Each position ejects both crewmen.</div>
+<div class="line">MCO - 飞行员或 RIO 弹射时，另一名机组乘员也会被弹射。</div>
 </div>
 </td>
 </tr>
@@ -1333,7 +1326,7 @@ Not currently used in DCS.</p>
 </table>
 </div>
 <div class="section" id="wheels-flaps-position-indicator">
-<span id="wheelsflapsind"></span><h4>Wheels-Flaps Position Indicator<a class="headerlink" href="#wheels-flaps-position-indicator" title="永久链接至标题">¶</a></h4>
+<span id="wheelsflapsind"></span><h4>机轮-襟翼位置指示器<a class="headerlink" href="#wheels-flaps-position-indicator" title="永久链接至标题">¶</a></h4>
 <img alt="_images/wheels-flaps.png" src="_images/wheels-flaps.png" />
 <table border="1" class="docutils">
 <colgroup>
@@ -1341,52 +1334,51 @@ Not currently used in DCS.</p>
 <col width="65%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td colspan="2">Indicates position of flaps and slats, speed brakes and the landing gear. The slats are indicated as follows:</td>
+<tr class="row-odd"><td colspan="2">指示襟翼和前缘缝翼、减速板和起落架的位置。前缘缝翼的位置指示标识如下：</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="_images/off.png"><img alt="_images/off.png" src="_images/off.png" style="width: 25.0px; height: 25.0px;" /></a>
 </td>
-<td>Power off or maneuver slats extended.</td>
+<td>电源切断，或前缘机动缝翼张开</td>
 </tr>
 <tr class="row-odd"><td><a class="first last reference internal image-reference" href="_images/slats-ext.png"><img alt="_images/slats-ext.png" src="_images/slats-ext.png" style="width: 25.0px; height: 25.0px;" /></a>
 </td>
-<td>Slats extended.</td>
+<td>前缘缝翼张开</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="_images/slats-ret.png"><img alt="_images/slats-ret.png" src="_images/slats-ret.png" style="width: 25.0px; height: 25.0px;" /></a>
 </td>
-<td>Slats retracted.</td>
+<td>前缘缝翼收起</td>
 </tr>
-<tr class="row-odd"><td colspan="2">Flap Position is displayed by an indicator moving between UP and DOWN. The first marked section of the indicator indicates maneuver flap-range.
-The landing gear is indicated as follows:</td>
+<tr class="row-odd"><td colspan="2">在 UP 和 DN 之间移动的指针指示了襟翼的位置。带白色标记的区域指示了机动襟翼的移动范围。起落架位置的指示标识如下：</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="_images/off.png"><img alt="_images/off.png" src="_images/off.png" style="width: 25.0px; height: 25.0px;" /></a>
 </td>
-<td>Power off or unsafe gear.</td>
+<td>电源关闭，或起落架故障（不安全）</td>
 </tr>
 <tr class="row-odd"><td><a class="first last reference internal image-reference" href="_images/gear-down.png"><img alt="_images/gear-down.png" src="_images/gear-down.png" style="width: 25.0px; height: 25.0px;" /></a>
 </td>
-<td>Gear down.</td>
+<td>起落架放下</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="_images/gear-up.png"><img alt="_images/gear-up.png" src="_images/gear-up.png" style="width: 25.0px; height: 21.8px;" /></a>
 </td>
-<td>Gear retracted and doors closed.</td>
+<td>起落架收起，起落架舱门关闭</td>
 </tr>
-<tr class="row-odd"><td colspan="2">Speed brakes are indicated as follows:</td>
+<tr class="row-odd"><td colspan="2">减速板位置的指示标识如下：</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="_images/off.png"><img alt="_images/off.png" src="_images/off.png" style="width: 25.0px; height: 25.0px;" /></a>
 </td>
-<td>Speed brake system power off.</td>
+<td>减速板系统电源断开</td>
 </tr>
 <tr class="row-odd"><td><a class="first last reference internal image-reference" href="_images/brake-partial.png"><img alt="_images/brake-partial.png" src="_images/brake-partial.png" style="width: 25.0px; height: 21.25px;" /></a>
 </td>
-<td>Speed brake partial extension, not in motion.</td>
+<td>减速板部分张开，保持位置</td>
 </tr>
 <tr class="row-even"><td><a class="first last reference internal image-reference" href="_images/brake-out.png"><img alt="_images/brake-out.png" src="_images/brake-out.png" style="width: 25.0px; height: 28.200000000000003px;" /></a>
 </td>
-<td>Speed brake fully extended.</td>
+<td>减速板完全张开</td>
 </tr>
 <tr class="row-odd"><td><a class="first last reference internal image-reference" href="_images/brake-in.png"><img alt="_images/brake-in.png" src="_images/brake-in.png" style="width: 25.0px; height: 21.8px;" /></a>
 </td>
-<td>Speed brake retracted.</td>
+<td>减速板收起</td>
 </tr>
 </tbody>
 </table>
@@ -1397,29 +1389,27 @@ The landing gear is indicated as follows:</td>
 <div class="section" id="hydraulic-pressure-indicator">
 <span id="hydpressind"></span><h4>液压压强指示器<a class="headerlink" href="#hydraulic-pressure-indicator" title="永久链接至标题">¶</a></h4>
 <img alt="_images/hydraulic.png" src="_images/hydraulic.png" />
-<p>Shows hydraulic pressure of the combined and flight hydraulic systems.
-SPOIL (Spoiler) ON/OFF-flag indicates pressurization of outboard spoiler module.
-EMER FLT HI ON/OFF-flags indicates backup flight hydraulic system pressures when HI or LOW is selected respectively.</p>
+<p>显示联合液压系统和飞行液压系统的压强。SPOIL（扰流板）ON/OFF 警示旗指示外侧扰流板模块加压。选中 EMER FLT（应急飞行液压）HI 或 LOW 时，EMER FLT 标识下方的 HI 和 LOW 对应的 ON/OFF 警示旗分别指示备用飞行液压系统是否启用。</p>
 </div>
 <div class="section" id="oil-pressure-indicator">
 <span id="oilpressind"></span><h4>机油压强指示器<a class="headerlink" href="#oil-pressure-indicator" title="永久链接至标题">¶</a></h4>
 <img alt="_images/oil.png" src="_images/oil.png" />
-<p>Displays oil pressure for each engine. Range is 0 - 100 psi, normal range is 25 - 65 psi, varying with engine rpm.</p>
+<p>显示每个发动机的油压。显示范围是 0 到 100 psi，正常范围是 25 至 65 psi，随发动机转速而变化。</p>
 </div>
 <div class="section" id="exhaust-nozzle-position-indicator">
 <span id="exnozzind"></span><h4>发动机喷口位置指示器<a class="headerlink" href="#exhaust-nozzle-position-indicator" title="永久链接至标题">¶</a></h4>
 <img alt="_images/exhaust.png" src="_images/exhaust.png" />
-<p>Displays position of engine nozzles. Range 0 – 5 with 5 being fully open.</p>
+<p>显示发动机喷口的位置。显示范围是 0 到 5，指针指向 5 则表示喷口完全张开。</p>
 </div>
 <div class="section" id="electronic-instrument-group">
-<span id="eig"></span><h4>Electronic Instrument Group<a class="headerlink" href="#electronic-instrument-group" title="永久链接至标题">¶</a></h4>
+<span id="eig"></span><h4>电子仪表组<a class="headerlink" href="#electronic-instrument-group" title="永久链接至标题">¶</a></h4>
 <img alt="_images/instrument-group.png" src="_images/instrument-group.png" />
-<p>Displays engine RPM (High-pressure compressor rotor speed (N2)), EGT (Exhaust Gas Temperature) and FF (Fuel Flow) for respective engine.</p>
+<p>显示每个发动机的 RPM（高压压缩机转子转速，也就是N2）、EGT（发动机排气温度）和 FF（燃油流量）。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Image shows TF-30 engine instruments, F110 EIG coming soon.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">图中展示的是 TF-30 发动机的仪表组，F110 发动机的 EIG 即将实装。</td>
 </tr>
 </tbody>
 </table>

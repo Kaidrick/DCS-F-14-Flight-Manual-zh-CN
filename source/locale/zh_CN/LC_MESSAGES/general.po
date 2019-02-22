@@ -6,10 +6,12 @@
 #
 msgid ""
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-19 14:51+0800\n"
+"PO-Revision-Date: 2019-02-22 10:13+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,6 +21,21 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-21 20:33+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: ../../source/general.rst:2
 msgid "General Design and Systems Overview"
@@ -11141,37 +11158,39 @@ msgid ""
 "frequency of the radios. The pilot has remote displays for both UHF 1 and V/"
 "UHF 2 and the RIO only for UHF 1."
 msgstr ""
+"飞行员和 RIO 都拥有显示当前无线电频率或频道的的远程显示器。飞行员的显示器能够"
+"显示 UHF 1 及 V/UHF 2，而 RIO 的则只能显示 UHF 1。"
 
 #: ../../source/general.rst:4410
 msgid "UHF 1 Remote Channel/Frequency Indicator (Pilot)"
-msgstr ""
+msgstr "UHF 1 远程频道/频率指示器（飞行员）"
 
 #: ../../source/general.rst:0
 msgid "Displays a readout of the frequency or channel set for the UHF 1 radio."
-msgstr ""
+msgstr "用于显示 UHF 1 无线电的频率或所选频道。"
 
 #: ../../source/general.rst:0
 msgid ""
 "TEST - Initiates test for the indicator, no fault resulting in 888.888 "
 "readout."
-msgstr ""
+msgstr "TEST - 启动显示器的测试，若无错误则显示888.888。"
 
 #: ../../source/general.rst:0
 msgid "BRT - Controls display brightness."
-msgstr ""
+msgstr "BRT - 控制显示亮度。"
 
 #: ../../source/general.rst:4416
 msgid "V/UHF 2 Remote Channel/Frequency Indicator (Pilot)"
-msgstr ""
+msgstr "V/UHF 2 远程频道/频率指示器（飞行员）"
 
 #: ../../source/general.rst:0
 msgid ""
 "Displays a readout of the frequency or channel set for the V/UHF 2 radio."
-msgstr ""
+msgstr "用于显示 V/UHF 2 无线电的频率或所选频道。"
 
 #: ../../source/general.rst:4422
 msgid "UHF 1 Remote Channel/Frequency Indicator (RIO)"
-msgstr ""
+msgstr "UHF 1 远程频道/频率指示器（RIO）"
 
 #: ../../source/general.rst:4430
 msgid "AN/ARA-50 UHF Automatic Direction Finder"
@@ -11185,6 +11204,9 @@ msgid ""
 "manually set frequency in the 108 to 399.975 MHz range. The system has a "
 "line-of-sight range, varying with altitude."
 msgstr ""
+"UHF 自动寻向仪基于 ARC-182 无线电工作。ADF 能提供与地面基站或其他飞机的相对方"
+"位。它可以在30个预设频道中的任意一个或者是在108到399.975 MHz 范围内的任何手动"
+"设定频率上接收信号。该系统有信号接收范围，随高度而变化。"
 
 #: ../../source/general.rst:4436
 msgid ""
@@ -11194,6 +11216,9 @@ msgid ""
 "BDHI (No. 1 needle), pilot HSD, and RIO multiple display indicator. The ADF "
 "signal is interrupted during voice UHF transmissions."
 msgstr ""
+"该系统有五分钟的预热时间，在预热期间应忽略故障指示。系统使用 AS-909/ARA-48 自"
+"动寻向仪天线。飞机与基站的相对方位将在飞行员/RIO BDHI（指针 1），飞行员 HSD，"
+"以及 RIO MDI上显示。在 UHF 语音传输时，ADF 信号将中断。"
 
 #: ../../source/general.rst:4441
 msgid "TSEC/KY-28 Voice Security Equipment"
@@ -11206,6 +11231,9 @@ msgid ""
 "The KY-28 control panel on the RIO left side console is the only cockpit "
 "control for operating the KY-28 in either cipher or plain-language modes."
 msgstr ""
+"该安全系统已集成进 VHF/UHF 2 和 UHF 1 通讯系统中并与两系统协同工作以在敌对环"
+"境中提供安全的语音通讯。RIO 驾驶舱左侧控制台的 KY-28 控制面板是控制 KY-28 以"
+"明文或密文通讯的唯一的驾驶舱内控制。"
 
 #: ../../source/general.rst:4446
 msgid ""
@@ -11215,30 +11243,36 @@ msgid ""
 "attain secure operation. The receiving station must be properly equipped to "
 "receive transmissions in the proper cipher mode."
 msgstr ""
+"KY-28 有两种基本的使用模式：明文（P）或密文（C）。在正常的 UHF 通讯条件下使用"
+"明文模式。当需要加密语音传输时则使用密文模式。无线电设备电源必须位于 ON 以实"
+"现加密操作，接收机也应配备正确的设备以便在适当的密文通讯模式下接收无线电传"
+"输。"
 
 #: ../../source/general.rst:4455
 msgid "ZEROIZE switch"
-msgstr ""
+msgstr "ZEROIZE 开关"
 
 #: ../../source/general.rst:0
 msgid ""
 "By lifting the guard the preloaded codes are erased and must be loaded on "
 "the ground before cipher mode can be used again."
 msgstr ""
+"掀起保护盖后可以擦除预加载的加密代码，而加密代码的重新加载则必须由地勤执行，"
+"否则将无法再次使用加密通讯。"
 
 #: ../../source/general.rst:0
 msgid "In DCS this is done via the ground crew communications menu."
-msgstr ""
+msgstr "在 DCS 中该步骤可以通过地勤通讯菜单完成。"
 
 #: ../../source/general.rst:4459
 msgid "Power-mode switch"
-msgstr ""
+msgstr "电源/模式开关"
 
 #: ../../source/general.rst:0
 msgid ""
 "P/OFF - UHF radio is used as a plain-language transceiver. Removes power "
 "from the system."
-msgstr ""
+msgstr "P/OFF - UHF 无线电作为明文收发机使用。系统未通电。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -11246,28 +11280,32 @@ msgid ""
 "codes. Also applies power to the system. To preload codes the system must be "
 "in this mode and power be applied."
 msgstr ""
+"C - 此模式下使用预加载代码进行加密通讯。系统此时接通电源。若需预加载加密代码"
+"系统须处于此模式并通电。"
 
 #: ../../source/general.rst:0
 msgid "DELAY - Provides a time-delay between ptt and actual transmission."
-msgstr ""
+msgstr "DELAY - 在送话和实际发送信息之间提供时间延迟。"
 
 #: ../../source/general.rst:4465
 msgid "Radio-select switch"
-msgstr ""
+msgstr "无线电选择开关"
 
 #: ../../source/general.rst:0
 msgid ""
 "RELAY - Re-transmits information acting as a relay for other stations, "
 "increasing their range. (Not functional in DCS)"
 msgstr ""
+"RELAY - 为其他基站进行信息的再传输以延长其信号收发距离，即中继。（DCS中未模"
+"拟）"
 
 #: ../../source/general.rst:0
 msgid "RAD-2 - Selects V/UHF 2 for secure voice."
-msgstr ""
+msgstr "RAD-2 - 加密 V/UHF 2 无线电通话。"
 
 #: ../../source/general.rst:0
 msgid "RAD-1 - Selects UHF 1 for secure voice."
-msgstr ""
+msgstr "RAD-1 - 加密 UHF 1 无线电通话。"
 
 #: ../../source/general.rst:4474
 msgid "KY-28 Operation"
@@ -11275,7 +11313,7 @@ msgstr "KY-28 操作"
 
 #: ../../source/general.rst:4477
 msgid "Prelaunch"
-msgstr ""
+msgstr "起飞前"
 
 #: ../../source/general.rst:4479
 msgid ""
@@ -11284,18 +11322,20 @@ msgid ""
 "is done through the ground crew communication menu in the DCS communications "
 "menu."
 msgstr ""
+"确认正确的代码已由具备使用语音安全设备之资格的人员输入。在 DCS 游戏中并与 "
+"SRS 协同时该操作通过 DCS 游戏内通讯菜单中的地勤通讯菜单来完成。"
 
 #: ../../source/general.rst:4481
 msgid "VHF/UHF radios - ON."
-msgstr ""
+msgstr "VHF/UHF 无线电 - ON。"
 
 #: ../../source/general.rst:4483
 msgid "Power mode switch - C."
-msgstr ""
+msgstr "电源/模式开关 - C。"
 
 #: ../../source/general.rst:4485
 msgid "Radio selector - RAD-1 or RAD-2."
-msgstr ""
+msgstr "无线电选择开关 - RAD-1 或 RAD-2。"
 
 #: ../../source/general.rst:4487
 msgid ""
@@ -11303,6 +11343,8 @@ msgid ""
 "radio communications on the plain-voice radio with a suitable remote station "
 "and request an equipment check. (In DCS another player is needed)"
 msgstr ""
+"若需对设备进行地面测试，请与另一台无线电在普通语音频率上建立双向明文无线电通"
+"信并要求通讯检查。在 DCS 中这需要另外一位玩家。"
 
 #: ../../source/general.rst:4489
 msgid ""
@@ -11310,6 +11352,8 @@ msgid ""
 "steady, unbroken tone in the headset followed by a double-pitched broken "
 "tone."
 msgstr ""
+"在两分钟的预热期之后在选择加密的无线电中通过耳机收听一段稳定、不间断的音调，"
+"随后是双音调的间断音效。"
 
 #: ../../source/general.rst:4491
 msgid ""
@@ -11317,6 +11361,8 @@ msgid ""
 "2 seconds, and release. Double-pitched broken tone will cease and no sound "
 "will be heard."
 msgstr ""
+"按下选择传输的无线电的送话开关并保持按下约两秒，然后松开。双音调断音将会停"
+"止，且之后将不会播放声音。"
 
 #: ../../source/general.rst:4493
 msgid ""
@@ -11324,32 +11370,36 @@ msgid ""
 "seconds. When this tone is heard, the equipment is ready to cipher "
 "transmission."
 msgstr ""
+"再次按下无线电通话按钮并保持按下。在大约0.5至1秒后将会听到一声蜂鸣声。当听到"
+"此声音后，设备已完成自检并准备好进行加密语音传输。"
 
 #: ../../source/general.rst:4495
 msgid ""
 "After beep tone is heard, establish two-way cipher radio communications with "
 "a cooperating ground station and check for readability and signal strength."
 msgstr ""
+"听到蜂鸣声后，和之前配合的无线电台建立双向加密无线电通讯并检查加密语音传输的"
+"信号强度和清晰度。"
 
 #: ../../source/general.rst:4497
 msgid ""
 "Set power mode and radio selector switches in accordance with the tactical "
 "situation."
-msgstr ""
+msgstr "根据战术情形自行设定电源模式及无线电选择开关。"
 
 #: ../../source/general.rst:4499
 msgid ""
 "Note: The above procedures may be used to perform an in-flight check of the "
 "equipment."
-msgstr ""
+msgstr "注：上述步骤同样可用于设备的空中检查。"
 
 #: ../../source/general.rst:4503
 msgid "Postlaunch"
-msgstr ""
+msgstr "起飞后"
 
 #: ../../source/general.rst:4505
 msgid "The speech security equipment shall be operated as briefed."
-msgstr ""
+msgstr "语音安全设备应按照简报所要求操作。"
 
 #: ../../source/general.rst:4507
 msgid ""
@@ -11357,28 +11407,34 @@ msgid ""
 "possible. The code can only be reset (or changed) through the ground crew "
 "communications menu after landing."
 msgstr ""
+"注：若在飞行中按下了 ZEROIZE 开关，则无法进行加密语音通信。加密代码只能在降落"
+"后通过地勤通讯菜单进行重置或更改。"
 
 #: ../../source/general.rst:4511
 msgid "After Landing"
-msgstr ""
+msgstr "降落后"
 
 #: ../../source/general.rst:4513
 msgid "ZEROIZE switch - ZEROIZE (as briefed)."
-msgstr ""
+msgstr "ZEROIZE 开关 - ZEROIZE（按简报要求）。"
 
 #: ../../source/general.rst:4515
 msgid "Power switch - OFF."
-msgstr ""
+msgstr "电源开关 - OFF。"
 
 #: ../../source/general.rst:4517
 msgid ""
 "Note: If ZEROIZE has been pressed and the POWER MODE switch is in C, both "
 "crewmembers will be warned by a continuing beeping sound."
 msgstr ""
+"注：若POWER MODE开关位于C位置时按下ZEROIZE开关，则飞行员和RIO均将听到连续的蜂"
+"鸣音警告。"
 
+# #-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
+# A和C我翻译成了工作模式了
 #: ../../source/general.rst:4521
 msgid "Link 4A & C Data Link"
-msgstr "Link 4A 和 4C 数据链"
+msgstr "Link 4A 和 Link 4C 数据链"
 
 #: ../../source/general.rst:4523
 msgid ""
@@ -11388,6 +11444,9 @@ msgid ""
 "which allows a surface ship or airborne AWACS to control the aircraft and "
 "also Link 4C, unique to the F-14, which is a fighter to fighter data link."
 msgstr ""
+"F-14 雄猫配备了Link 4数据链路系统，可以传输和接收目标航迹，航点信息和转向命"
+"令。 Link 4有两个版本，第一个是Link 4A，它允许水面舰艇或空基AWACS指挥飞机，还"
+"有 Link 4C，它是F-14所独有的，战斗机对战斗机的数据链路。"
 
 #: ../../source/general.rst:4526
 msgid ""
@@ -11397,12 +11456,17 @@ msgid ""
 "control commands. Additionally, it's also used for the carrier automatic "
 "landing system (ACLS)."
 msgstr ""
+"Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路"
+"网络。 然后，数据源（或者说，数据源的操作员）将为F-14提供目标航迹，航路点和控"
+"制命令。 此外，它还用于自动航降系统（ACLS）。"
 
 #: ../../source/general.rst:4530
 msgid ""
 "Link 4C on the other hand allows up to four F-14 Tomcats to interconnect and "
 "share target tracks to coordinate their engagements."
 msgstr ""
+"而Link 4C 则允许最多四架 F-14 雄猫战斗机建立互联的数据网络并共享目标轨迹以协"
+"同作战。"
 
 #: ../../source/general.rst:4532
 msgid ""
@@ -11410,6 +11474,8 @@ msgid ""
 "transmitter and receiver are used for both A and C links. The Link 4 system "
 "itself, operates using the UHF radio band at 5,000 bits per second."
 msgstr ""
+"由于A和C模式使用的是同一个信号收发机，系统不允许F-14同时使用这两种模式。而"
+"Link 4系统本身工作在UHF频段，以每秒5000比特的速率进行信号传输。"
 
 #: ../../source/general.rst:4535
 msgid ""
@@ -11417,16 +11483,19 @@ msgid ""
 "Reply and Antenna Control Panel. Received control signals are displayed on "
 "the pilot VDI indicators (:ref:`VDI`) and the RIO DDI panel (:ref:`ddi`)."
 msgstr ""
+"控制Link 4数据链系统使用数据链控制面板以及数据链应答和天线控制面板。接收到的"
+"控制信号将在飞行员VDI显示器（:ref:`VDI`）以及RIO DDI面板（:ref:`ddi`）上显"
+"示。"
 
 #: ../../source/general.rst:4540
 msgid "Link 4 Controls"
-msgstr ""
+msgstr "Link 4 控制"
 
 #: ../../source/general.rst:4544
 msgid ""
 "The Data Link Control Panel contains the main Link 4 system power switches "
 "and the frequency selection wheels."
-msgstr ""
+msgstr "数据链控制面板上包括了主要的 Link 4 系统的电源以及频率选择轮。"
 
 #: ../../source/general.rst:4546
 msgid ""
@@ -11434,6 +11503,8 @@ msgid ""
 "the anti-jam (**A-J**) function, this control is currently non-functional in "
 "DCS and should be set to **NORMAL**."
 msgstr ""
+"第一个开关（**1**）控制Link 4的自检，并同时激活Link 4的反干扰功能（**A-"
+"J**），当前在DCS中该功能不可用，故该开关应被置于 **NORMAL** 位。"
 
 #: ../../source/general.rst:4548
 msgid ""
@@ -11441,6 +11512,8 @@ msgid ""
 "note that the first digit (3) is set and displayed as a fixed number before "
 "the first wheel. The allowable frequency range is 300.0 MHz to 324.9 MHz."
 msgstr ""
+"频率拨轮（**2**）用来设定所使用的数据链频率，需要注意的是，第一个拨轮前的第一"
+"位数字（3）已被设置并无法更改，故系统所允许的频率范围是 300MHz 至 324.9MHz。"
 
 #: ../../source/general.rst:4550
 msgid ""
@@ -11448,6 +11521,9 @@ msgid ""
 "**ON** turns on and enables the Link 4A data link, **OFF** disables the "
 "system and **AUX** enables the Link 4C data link."
 msgstr ""
+"第三个开关（**3**）控制 Link 4 的电源以及工作模式。**ON** 将给系统通电并启动 "
+"Link 4A 数据链工作模式，**OFF** 将关闭系统电源，而 **AUX** 将启动 Link 4C 数"
+"据链工作模式。"
 
 #: ../../source/general.rst:4554
 msgid ""
@@ -11455,6 +11531,8 @@ msgid ""
 "to use, own aircraft data link address, whether to transmit and which mode "
 "the Link 4A is used in."
 msgstr ""
+"数据链路应答和天线控制面板用于选择使用什么天线，本机数据链路地址，是否发送以"
+"及Link 4A的使用模式。"
 
 #: ../../source/general.rst:4556
 msgid ""
@@ -11462,6 +11540,9 @@ msgid ""
 "antenna. As these are the same antennas that the UHF 1 (AN/ARC-159) uses it "
 "automatically sets that radio to the other antenna."
 msgstr ""
+"**ANTENNA** 开关（**1**）控制数据链使用上部或下部天线。由于这些天线和UHF "
+"1（AN/ARC-159）无线电所使用的天线相同，故选择下部天线则UHF无线电便自动使用上"
+"部天线，反之同理。"
 
 #: ../../source/general.rst:4558
 msgid ""
@@ -11469,7 +11550,10 @@ msgid ""
 "messages. **NORM** allows for normal operation while **CANC** turns off the "
 "transmitter and sets the data link to receive only."
 msgstr ""
+"**REPLY** 开关（**2**）设置本机是否会回复数据链信息。**NORM** 为正常操作，而 "
+"**CANC** 将关闭发射器并将数据链设置为仅接收。"
 
+# 备用手台模式？？？？？
 #: ../../source/general.rst:4560
 msgid ""
 "The **MODE** switch (**3**) controls whether the Link 4A operates in the "
@@ -11483,6 +11567,14 @@ msgid ""
 "handset mode. If the aircraft takes off with the switch in the CAINS/WAYPT "
 "position the weight on wheels sensor will also release it to TAC."
 msgstr ""
+"**MODE** 开关（ **3** ）控制 Link 4A 是以正常 **TAC** （战术）模式运行还是以 "
+"**CAINS / WAYPT** （Carrier Aircraft Inertial Navigation System / Waypoint，"
+"舰载机惯性导航/航路点）模式运行。TAC 模式是正常的空中运行模式，而 CAINS/"
+"WAYPT 模式则于航母上使用以接收来自航母INS系统的计划航路点。该开关由电磁铁定位"
+"且电磁铁失电后会自动跳回至 TAC 位置，数据链接收信号丢失或数据链系统断电均会使"
+"电磁铁失电并让开关跳回至 TAC 位，从而迫使正在进行的INS校准进入备用手台模式。"
+"若飞机起飞时开关仍位于 CAINS/WAYPT 位，机轮承重传感器也会迫使开关跳回至 TAC "
+"位。"
 
 #: ../../source/general.rst:4565
 msgid ""
@@ -11490,16 +11582,18 @@ msgid ""
 "numbers) of the aircraft data link address, the rest has to be set by the "
 "ground crew."
 msgstr ""
+"两个地址拨轮用于设置飞机数据链地址的最低有效位（两个最低数字），而其余部分必"
+"须由地勤人员设置。"
 
 #: ../../source/general.rst:4569
 msgid "Link 4 in DCS"
-msgstr ""
+msgstr "DCS 中的 Link 4"
 
 #: ../../source/general.rst:4571
 msgid ""
 "The Link 4 implementation in the Heatblur DCS F-14 implements both the Link "
 "4A and C versions."
-msgstr ""
+msgstr "Heatblur DCS F-14 的 Link 4 模拟了 Link 4A 及 Link 4C 两种工作模式。"
 
 #: ../../source/general.rst:4573
 msgid ""
@@ -11511,6 +11605,11 @@ msgid ""
 "that frequency is set with jumpers on the actual equipment by the ground "
 "crew."
 msgstr ""
+"若要使用Link 4A，数据链电源必须打开并设置为Link 4A模式（ON），且频率须调谐到"
+"所需主机的正确数据链路频率，该频率可于膝板上查得。 在地面上设置为CAINS / "
+"WAYPT模式后，数据链路将加载于任务编辑器中所预先设置好的航点，若在航空母舰上则"
+"将允许进行 INS 的 CVA 对齐。使用 CAINS/WAYPT 不需要设置频率，因为地勤人员在实"
+"际设备上使用跳线设置该频率。"
 
 #: ../../source/general.rst:4577
 msgid ""
@@ -11519,6 +11618,8 @@ msgid ""
 "automatic carrier landings with the data link set to use the carrier as a "
 "host."
 msgstr ""
+"当设置为TAC时数据链系统将从TDS中接收八个目标轨迹以及它们的优先级。Link 4A 还"
+"支持通过将航母设置为数据链主机进而实现自动着舰的功能。"
 
 #: ../../source/general.rst:4580
 msgid ""
@@ -11529,7 +11630,12 @@ msgid ""
 "same for a flight automatically the link can only be used within the same "
 "flight currently."
 msgstr ""
+"若要使用Link 4C，数据链设置应为Link 4C（即AUX），并调整到由数据链各参与飞机之"
+"间所商定的频率。一个数据链小队最多可以有四架飞机参加，所有四架飞机都应该设置"
+"不同的本机地址。由于地勤人员将自动为飞机群组设置最重要的两位，因此该链路目前"
+"仅在同一飞机群组内使用。"
 
+# 有点问题
 #: ../../source/general.rst:4583
 msgid ""
 "In Link 4C the participating aircraft shares up to 4 target tracks, selected "
@@ -11537,3 +11643,6 @@ msgid ""
 "allows the RIO to update own aircraft INS position to another aircraft on "
 "the link to correlate track transmissions."
 msgstr ""
+"在 Link 4C 中，参与的飞机共享最多4个目标轨迹和自己的飞机位置，由 RIO 使用 "
+"CAP 选择。 CAP 还允许 RIO 将本机INS位置更新到链路上的另一架飞机以关联轨迹的传"
+"输。"

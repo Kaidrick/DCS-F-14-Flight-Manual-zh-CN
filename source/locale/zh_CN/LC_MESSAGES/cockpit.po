@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 17:32+0800\n"
-"PO-Revision-Date: 2019-02-21 10:27+0800\n"
+"PO-Revision-Date: 2019-02-22 22:39+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -603,7 +603,7 @@ msgid ""
 "All switches are springloaded to OFF position but held in position with "
 "solenoid to enable automatic disengagement when applicable."
 msgstr ""
-"所有开关皆为弹簧开关，由螺线管保持在选定档位上，满足解除条件时，开关会自动弹"
+"所有开关皆为弹簧开关，由电磁铁保持在选定档位上，满足解除条件时，开关会自动弹"
 "回 OFF 位置。"
 
 #: ../../source/cockpit.rst:238
@@ -631,6 +631,11 @@ msgid "Frequency select switches"
 msgstr "频率选择开关"
 
 # (these four switches are ) toggle switches (that is used to) select(ing) set frequency
+# ----
+# Four frequency tuning switches are used to tune transceiver when the mode
+# switches (spring return) selector switch is set to MANUAL. The left switch controls the hundreds and tens digits, the second switch controls units, the third
+# switch controls tenths, and the right switch controls hundredths and thousandths. Forward deflection of the switch increases the numeric reading, and
+# aft deflecting decreases the numeric reading.
 #: ../../source/cockpit.rst:250 ../../source/cockpit.rst:1988
 msgid "Toggle switches selecting set frequency."
 msgstr "按下开关来选择设定频率"
@@ -643,18 +648,17 @@ msgstr "频率 /（频道）显示"
 msgid "Readout display showing selected frequency or channel."
 msgstr "显示当前选中的频率或频道。"
 
+# This is anything but a button. It's a toggle switch.
+# ----
+# Deflection of the switch causes the frequency display to read the preset channel frequency
 #: ../../source/cockpit.rst:254
 msgid "READ button"
-msgstr ""
+msgstr "读取开关"
 
-# Four frequency tuning switches are used to tune transceiver when the mode
-# switches (spring return) selector switch is set to MANUAL. The left switch controls the hundreds and tens digits, the second switch controls units, the third
-# switch controls tenths, and the right switch controls hundredths and thousandths. Forward deflection of the switch increases the numeric reading, and
-# aft deflecting decreases the numeric reading.
+# Deflection of the switch causes the frequency display to read the preset channel frequency
 #: ../../source/cockpit.rst:254
-#, fuzzy
 msgid "Button toggling display of selected channel while held."
-msgstr "按住按钮切换选中频道的显示"
+msgstr "按住开关时，频率（频道）显示器将显示预设频道的频率。"
 
 #: ../../source/cockpit.rst:256 ../../source/cockpit.rst:1994
 msgid "BRT knob"
@@ -664,14 +668,15 @@ msgstr "亮度旋钮"
 msgid "Knob controlling display brightness."
 msgstr "控制显示屏的亮度。"
 
+# Depressing pushbutton loads the display frequency of the preset channel.
 #: ../../source/cockpit.rst:258
 msgid "LOAD button"
-msgstr ""
+msgstr "加载按钮"
 
 # 在选定的频道中载入选定频率？
 #: ../../source/cockpit.rst:258
 msgid "Button toggling load of set frequency to set channel."
-msgstr ""
+msgstr "按下按钮来加载预设频道的显示频率。"
 
 #: ../../source/cockpit.rst:260
 msgid "Function selector knob"
@@ -705,20 +710,24 @@ msgstr "用这张表来记录频率或预设频道的作用。"
 msgid "Mode selector knob"
 msgstr "模式选择旋钮"
 
+# radio frequency select mode?
 #: ../../source/cockpit.rst:268
 msgid "Knob selecting radio frequency select mode."
-msgstr ""
+msgstr "这个旋钮用于设置无线电频率选择模式。"
 
 #: ../../source/cockpit.rst:270
 msgid "TONE button"
-msgstr ""
+msgstr "TONE 按钮"
 
 # 歧义
 # 传输当前频道的TONE？
 # 在当前频道上传输一个TONE？make no sense
+# ---
+# Depressing pushbutton causes a steady tone (1,020 Hz) to be transmitted on
+# the frequency or channel selected.
 #: ../../source/cockpit.rst:270
 msgid "Transmits a TONE on current frequency."
-msgstr ""
+msgstr "按住按钮会在当前无线电频率上发送一个频率为1,020赫兹的单音。"
 
 #: ../../source/cockpit.rst:273
 msgid "ADF nonfunctional in AN/ARC-159, use V/UHF 2 instead."
@@ -770,6 +779,11 @@ msgid ""
 "DES (designate) selects/designates. In all other cases UP and DOWN selects "
 "VSL HI and VSL LO ACM-modes respectively and DES selects PAL."
 msgstr ""
+"用于在 HUD 上指定地面目标和控制雷达 ACM 模式，但 PLM（飞行员锁定模式）例外。"
+"在空对地模式中，向上或向下拨动开关来移动 HUD 上的目标指定符，按下开关来指定"
+"（DES）/选择。在其他模式下，向上或向下拨动开关分别选择 ACM 模式 VSL HI（垂直"
+"扫描锁定高目标） 和 VSL LO（垂直扫描锁定低目标），按下开关会选择 PAL（飞行员"
+"自动锁定）。"
 
 #: ../../source/cockpit.rst:310
 msgid "Inlet Ramps/Throttle Control Panel"
@@ -888,10 +902,12 @@ msgid ""
 "extends speed brake while held. Speed brake remains in position it's at when "
 "released."
 msgstr ""
+"EXT - 松开开关后，开关从该位置回中。将开关拨至并保持在 EXT 档位会逐渐展开减速"
+"板。开关回中时，减速板仍保持在当前位置。"
 
 #: ../../source/cockpit.rst:0
 msgid "RET - Toggle position retracting speed brake."
-msgstr ""
+msgstr "RET - 将开关拨至该位置来收起减速板。"
 
 #: ../../source/cockpit.rst:365
 msgid "Wing-sweep switch"
@@ -902,82 +918,97 @@ msgid ""
 "Switch controlling wing-sweep function. Manual mode only allows positions "
 "aft of CADC set position."
 msgstr ""
+"这个开关用于控制机翼后掠功能。手动模式下选择的后掠位置只能比 CADC 设置的位置"
+"靠后。"
 
 #: ../../source/cockpit.rst:0
 msgid "AUTO - Wing-sweep automatically set by CADC."
-msgstr ""
+msgstr "AUTO - 机翼后掠位置由 CADC（中央大气数据计算机） 自动设置。"
 
 #: ../../source/cockpit.rst:0
 msgid "FWD - Sweeps wings forward manually."
-msgstr ""
+msgstr "FWD - 手动设置机翼后掠位置向前。"
 
 #: ../../source/cockpit.rst:0
 msgid "AFT - Sweeps wings aft manually."
-msgstr ""
+msgstr "AFT - 手动设置机翼后掠位置向后。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "BOMB - Sets wing-sweep to 55° if forwards of that. When the CADC position is "
 "aft of 55° it will follow that setting instead."
 msgstr ""
+"BOMB - 如果机翼后掠角度小于55°，则将机翼后掠至55°位置。如果 CADC 设置的后掠位"
+"置超过55°，则将后掠位置调整至 CADC 设定的角度。"
 
 #: ../../source/cockpit.rst:375
 msgid "PLM button"
-msgstr "PLM按钮"
+msgstr "PLM 按钮"
 
 #: ../../source/cockpit.rst:375
 msgid ""
 "Button used to command pilot lockon mode of AWG-9. Also used to disengage "
 "autopilot while in ACL."
 msgstr ""
+"用于选择 AWG-9 的飞行员锁定模式。也用于在 ACL（自动航降）过程中解除自动驾驶。"
 
 #: ../../source/cockpit.rst:377
 msgid "CAGE/SEAM button"
-msgstr ""
+msgstr "CAGE/SEAM 按钮"
 
 #: ../../source/cockpit.rst:377
 msgid ""
 "Button used to command CAGE/SEAM to AIM-9 initiating lockon. Also used to "
 "disengage APC when in use."
 msgstr ""
+"用于控制 AIM-9 导弹 CAGE（引导头解锁）/ SEAM（“响尾蛇”扩展搜索模式）以启用 "
+"AIM-9 引导头锁定。如果启用了 APC（进近推力补偿器），也用于解除 APC。"
 
 #: ../../source/cockpit.rst:379
 msgid "Exterior light switch"
 msgstr "外部灯光开关"
 
+# approach light?
+# like landing light?
 #: ../../source/cockpit.rst:379
 msgid ""
 "Switch used to control exterior lights. OFF disable all exterior lights and "
 "increases approach light intensity. ON enables all exterior lights and dims "
 "approach lights."
 msgstr ""
+"用于控制机外灯光。OFF 档位会关闭所有外部灯光，并增加进近灯亮度。ON 档位会开启"
+"所有外部灯光，并减小进近灯亮度。"
 
 #: ../../source/cockpit.rst:381
 msgid "ICS PTT switch"
-msgstr "ICS按键通话开关"
+msgstr "ICS 按键通话开关"
 
+# keying 类似于拍发电报
 #: ../../source/cockpit.rst:0
 msgid ""
 "Switch allowing pilot to key one or both radios and intercommunication to "
 "RIO."
-msgstr ""
+msgstr "通过这个开关，飞行员可以在单频道或双频道 V/UHF 下通讯，或与 RIO 对讲。"
 
 #: ../../source/cockpit.rst:0
 msgid "ICS - Keys intercommunication to RIO."
-msgstr ""
+msgstr "ICS - 与 RIO 通话"
 
 #: ../../source/cockpit.rst:0
 msgid "BOTH - Keys both UHF 1 and V/UHF 2 for transmission."
-msgstr ""
+msgstr "BOTH - 同时在 UHF 1 和 V/UHF 2 频率下通话"
 
 #: ../../source/cockpit.rst:0
 msgid "UHF1 - Keys UHF 1 for transmission."
-msgstr ""
+msgstr "UHF1 - 在 UHF 1 频率下通话"
 
 #: ../../source/cockpit.rst:0
 msgid "UHF2 - Keys V/UHF 2 for transmission."
-msgstr ""
+msgstr "UHF2 - 在 V/UHF 2 频率下通话"
 
+# 油门弧座
+# 油门握把
+# which is whch?
 #: ../../source/cockpit.rst:396
 msgid "Throttle Quadrant"
 msgstr "油门弧座"
@@ -989,6 +1020,8 @@ msgid ""
 "controls on the throttles themselves. The throttles have detents in the OFF, "
 "IDLE and MIL positions."
 msgstr ""
+"油门弧座主要组成部分包括：两个发动机油门控制握把、襟翼控制杆和应急机翼后掠手"
+"柄，以及油门握把上的 HOTAS 系统。"
 
 #: ../../source/cockpit.rst:406
 msgid ""
@@ -1000,6 +1033,10 @@ msgid ""
 "friction is located on the left side of the throttle quadrant, beneath the "
 "flap lever."
 msgstr ""
+"将油门从 OFF 位置推到 IDLE 位置会激活点火器并关闭发动机断油装置。油门握把内并"
+"未安装弹簧机构，横向推动油门时，握把不会被弹回原位，因此飞行员弹射起飞时可以"
+"将油门握把置于 MIL（军用推力）档，而不用担心油门位置意外变动，从而导致发动机"
+"转速降低。"
 
 #: ../../source/cockpit.rst:410
 msgid ""
@@ -1009,6 +1046,10 @@ msgid ""
 "continue movement into these positions. Emergency up forces the flaps up, "
 "overriding the normal flap logic. Emergency down is non-functional."
 msgstr ""
+"襟翼控制杆的无级行程的最前段和最后段分别有两个应急档位，一个是应急收起，一个"
+"是应急放下。两个应急档位都有卡位，襟翼控制杆移动至卡位处时，需向外推动才能继"
+"续移动至这两个应急档位。应急收起档位会强行收起襟翼，越控正常襟翼控制逻辑。应"
+"急放下档位无功能。"
 
 #: ../../source/cockpit.rst:412
 msgid ""
@@ -1016,10 +1057,13 @@ msgid ""
 "normally pushed in and stowed. The handle-top is extended for manual "
 "operation. For more information see :ref:`wingsweepemerg`."
 msgstr ""
+"手动/应急机翼后掠手柄上方有一个保护盖，且手柄通常处于推入并收起的状态。握住手"
+"柄顶部，抽出手柄来进行手动机翼后掠控制。请查阅 :ref:`wingsweepemerg` 来获得更"
+"多相关信息。"
 
 #: ../../source/cockpit.rst:419
 msgid "Hydraulic Hand Pump"
-msgstr ""
+msgstr "手动液压泵"
 
 #: ../../source/cockpit.rst:421
 msgid ""
@@ -1028,6 +1072,9 @@ msgid ""
 "brake operation (with gear handle in the down position) or for refueling "
 "probe operation in case of a failure in the hydraulic system."
 msgstr ""
+"手动液压泵位于油门弧座的内侧，靠近飞行员左腿的位置。通过手动液压泵向液压系统"
+"增压来进行制动操作（当起落架手柄处于向下位置时），或在液压系统故障时，通过它"
+"操作加油探头。"
 
 #: ../../source/cockpit.rst:427 ../../source/cockpit.rst:2203
 msgid "Left Vertical Console"
@@ -1041,81 +1088,98 @@ msgstr "燃油管理面板"
 msgid ""
 "Control panel for various fuel related systems, CADC master reset and the "
 "anti skid system."
-msgstr ""
+msgstr "这个面板用于控制诸多燃油相关系统、CADC 重置和防滑系统。"
 
 #: ../../source/cockpit.rst:440
-#, fuzzy
-#| msgid "OXYGEN switch"
 msgid "QTY SEL switch"
-msgstr "供氧开关"
+msgstr "燃油量选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Switch selecting what the fuel quantity tapes on the fuel quantity display "
 "shows. Springloaded to FEED."
 msgstr ""
+"这个滑动弹簧开关用于选择燃油量显示器上显示哪个油箱的油量。松开开关后，开关会"
+"弹回 FEED（供油油箱）档位。"
 
 #: ../../source/cockpit.rst:0
 msgid "FEED - Shows respective feed and fuselage tank fuel quantity."
-msgstr ""
+msgstr "FEED - 显示供油油箱和机身油箱中的燃油量。"
 
 #: ../../source/cockpit.rst:0
 msgid "WING - Shows respective wing tank fuel quantity."
-msgstr ""
+msgstr "WING - 显示各个机翼油箱中的燃油量"
 
 #: ../../source/cockpit.rst:0
 msgid "EXT - Shows respective external fuel tank quantity."
-msgstr ""
+msgstr "EXT - 显示外部油箱中的燃油量。"
 
 #: ../../source/cockpit.rst:448
 msgid "FEED switch"
-msgstr "FEED开关"
+msgstr "供油开关"
 
+# FWD — Both engines feed from right and forward tanks. Opens sump
+# tank interconnect valve, box beam vent valves, fuselage motive
+# flow isolation valve, defueling and transfer selector valve, and
+# shuts off motive flow fuel to all aft tank ejector pumps.
+# ---
+# NORM — (guarded
+# position)
+# Right engine feeds from forward and right tanks. Left engine
+# feeds from aft and left tanks.
+# ---
+# AFT — Both engines feed from aft and left tanks. Opens sump tank
+# interconnect valve, box beam vent valves, fuselage motive flow
+# isolation valve, defueling and transfer selector valves, and shuts
+# off motive flow fuel to forward tank ejector pumps.
 #: ../../source/cockpit.rst:448
 msgid ""
 "Switch selecting fuel feed to the engines. Guard locks the switch to NORM "
 "until lifted."
-msgstr ""
+msgstr "用于选择为发动机供油的油箱。保护盖关闭时，开关被锁定在 NORM 档位。"
 
 #: ../../source/cockpit.rst:450
 msgid "WING/EXT TRANS switch"
-msgstr ""
+msgstr "机翼/外部油箱转移开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch selecting operation of the wing and external tanks."
-msgstr ""
+msgstr "用于控制机油和外部油箱燃油转移。"
 
 #: ../../source/cockpit.rst:0
 msgid "ORIDE - Override."
-msgstr ""
+msgstr "ORIDE - 越控"
 
 #: ../../source/cockpit.rst:0
 msgid "AUTO - Normal position."
-msgstr ""
+msgstr "AUTO - 正常（自动燃油转移）"
 
+# fuel feed??
+# it's not "feed" but rather "transfer"
 #: ../../source/cockpit.rst:0
 msgid "OFF - Turns off fuel feed from the wing and external tanks."
-msgstr ""
+msgstr "OFF - 停止机翼和外部油箱中的燃油转移"
 
 #: ../../source/cockpit.rst:458
 msgid "Refueling probe indicator light"
-msgstr ""
+msgstr "受油管指示灯"
 
 #: ../../source/cockpit.rst:458
 msgid ""
 "Transition light illuminated when refueling probe is not in extended or "
 "retracted position."
-msgstr ""
+msgstr "受油管不处于完全伸出或完全收起位置时，受油管提示灯便会亮起。"
 
 #: ../../source/cockpit.rst:460
 msgid "DUMP switch"
-msgstr "DUMP开关"
+msgstr "放油开关"
 
 #: ../../source/cockpit.rst:460
 msgid ""
 "OFF/DUMP switch. Allows fuel dump when speed brakes are retracted, "
 "afterburner off and weight off wheels."
 msgstr ""
+"放油开启/关闭开关。减速板收起，机轮不承重且加力燃烧关闭时进行放油操作。"
 
 #: ../../source/cockpit.rst:462
 msgid "REFUEL PROBE switch"
@@ -1123,64 +1187,66 @@ msgstr "受油管开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selection switch toggling operation of refueling probe."
-msgstr ""
+msgstr "用于控制受油管"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "ALL EXTD - All extended, extends refueling probe and allows refueling of all "
 "tanks. Also resets WING/EXT TRANS switch to AUTO."
 msgstr ""
+"ALL EXTD - 受油管移动至完全伸出位置，允许对所有（ALL）油箱加油。同时也会将机"
+"翼/外部油箱转移开关（WING/EXT TRANS）重置回 AUTO 档位。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "FUS EXTD - Fuselage extended, extends refueling probe and allows refueling "
 "of only fuselage tanks."
-msgstr ""
+msgstr "FUS EXTD - 受油管移动至完全伸出位置，只允许对机身（FUS）箱加油"
 
 #: ../../source/cockpit.rst:0
 msgid "RET - Retracted, retracts refueling probe."
-msgstr ""
+msgstr "RET - 收起受油管"
 
 #: ../../source/cockpit.rst:470
 msgid "ANTI SKID SPOILER BK switch"
-msgstr ""
+msgstr "防滑合扰流板制动控制开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Selection switch determining operation anti-skid and spoiler brake systems."
-msgstr ""
+msgstr "用于控制防滑系统和扰流板制动系统。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "BOTH - Enables both anti-skid and spoiler brake function with weight on "
 "wheels."
-msgstr ""
+msgstr "BOTH - 机轮承重时，启用防滑系统和扰流板制动系统"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Turns off both systems."
-msgstr ""
+msgstr "OFF - 关闭防滑系统和扰流板制动系统"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "SPOILER BK - Spoiler brake, enables spoiler brake function with weight on "
 "wheels."
-msgstr ""
+msgstr "SPOILER BK - 扰流板制动，机轮承重时，启用扰流板制动功能。"
 
 #: ../../source/cockpit.rst:478
 msgid "MASTER RESET button"
-msgstr "主警报重置按钮"
+msgstr "主重置按钮"
 
 #: ../../source/cockpit.rst:478
 msgid "Resets CADC failure detection system and associated fault displays."
-msgstr ""
+msgstr "重置 CADC 故障检测系统和相关的故障显示。"
 
 #: ../../source/cockpit.rst:480
 msgid "Control surface position indicator"
-msgstr ""
+msgstr "控制面位置指示器"
 
 #: ../../source/cockpit.rst:480
 msgid "Displays control surface positions. See below."
-msgstr ""
+msgstr "显示控制面位置。详见下文。"
 
 #: ../../source/cockpit.rst:487
 msgid "Control Surface Position Indicator"
@@ -1188,7 +1254,7 @@ msgstr "控制面位置指示器"
 
 #: ../../source/cockpit.rst:490
 msgid "Indicator for indication of control surface positions."
-msgstr ""
+msgstr "控制面位置指示器是用于指示各个飞行操纵面位置的仪表。"
 
 #: ../../source/cockpit.rst:493 ../../source/cockpit.rst:803
 #: ../../source/cockpit.rst:948 ../../source/cockpit.rst:1187
@@ -1200,49 +1266,48 @@ msgstr "指示器"
 
 #: ../../source/cockpit.rst:495
 msgid "SPOILER"
-msgstr ""
+msgstr "扰流板"
 
 #: ../../source/cockpit.rst:0
-#, fuzzy
-#| msgid "Control Surface Position Indicator"
 msgid "Spoiler position indicators."
-msgstr "控制面位置指示器"
+msgstr "扰流板位置指示器"
 
 #: ../../source/cockpit.rst:0
 msgid "DN - Down, flush with wings."
-msgstr ""
+msgstr "DN - 扰流板收起，与机翼齐平。"
 
 #: ../../source/cockpit.rst:0
 msgid "Up-arrow - Extended above wing."
-msgstr ""
+msgstr "向上箭头 - 扰流板展开"
 
 #: ../../source/cockpit.rst:0
 msgid "Down-arrow - Drooped below wing surface."
-msgstr ""
+msgstr "向下箭头 - 扰流板放下至机翼表面下方。"
 
 #: ../../source/cockpit.rst:503
 msgid "RUDDER"
-msgstr ""
+msgstr "方向舵"
 
 #: ../../source/cockpit.rst:503
 msgid ""
 "Rudder position indicators, shows position of left and right rudders, each "
 "marked L or R."
-msgstr ""
+msgstr "方向舵位置指示器，标注的“L”和“R”分别指示了左方向舵和右方向舵的位置。"
 
 #: ../../source/cockpit.rst:505
 msgid "HORIZ TAIL"
-msgstr ""
+msgstr "水平尾翼"
 
 #: ../../source/cockpit.rst:505
 msgid ""
 "Horizontal stabilizer position indicators, shows position of left and right "
 "stabilizer surfaces, marked L or R respectively."
 msgstr ""
+"水平尾翼位置指示器，标注的“L”和“R”分别显示了左水平尾翼和右水平尾翼的位置。"
 
 #: ../../source/cockpit.rst:512
 msgid "Launch Bar Abort Panel"
-msgstr ""
+msgstr "弹射牵引杆中止面板"
 
 #: ../../source/cockpit.rst:515
 msgid ""
@@ -1250,42 +1315,49 @@ msgid ""
 "launch abortion. Spring-loaded to NORM (Normal) which is the standard "
 "position. Not currently used in DCS."
 msgstr ""
+"弹射牵引杆选择开关，将弹簧开关保持在 ABORT 档位时，弹射牵引杆升起，终止弹射。"
+"松开开关后，开关弹回 NORM （正常）档位，这也是弹射牵引杆选择开关的标准位置。"
+"目前，这个开关在 DCS 中没有实际作用。"
 
 #: ../../source/cockpit.rst:522
 msgid "Landing Gear Control Panel"
-msgstr ""
+msgstr "起落架控制面板"
 
 #: ../../source/cockpit.rst:525
 msgid "Control panel for the main landing gear and emergency stores jettison."
-msgstr ""
+msgstr "这个面板用于控制主起落架和应急挂载抛离。"
 
 #: ../../source/cockpit.rst:530
 msgid "LDG GEAR"
-msgstr ""
+msgstr "起落架控制手柄"
 
 #: ../../source/cockpit.rst:0
 msgid "Landing gear handle. Selects gear UP or DOWN."
-msgstr ""
+msgstr "起落架控制手柄。用于选择起落架的 UP（收起）或 DOWN（放下）位置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "For emergency extension in DOWN position, push handle in, turn clockwise and "
 "pull out. This releases a compressed nitrogen charge for emergency extension."
 msgstr ""
+"应急放下起落架时，将手柄置于向下位置，并将手柄推入，顺时针旋转手柄顶端然后抽"
+"出。这会释放储存的压缩氮气，使起落架紧急放下。"
 
 #: ../../source/cockpit.rst:534
 msgid "DOWN LOCK ORIDE"
-msgstr ""
+msgstr "起落架放下锁定越控"
 
 #: ../../source/cockpit.rst:534
 msgid ""
 "Indicates weight on wheels when moved down by solenoid. Can be lifted up to "
 "override. Non-functional in DCS."
 msgstr ""
+"被电磁铁移动至向下位置时指示机轮承重。可以升起至向上位置来越控（起落架手柄锁"
+"定在放下位置）。DCS 中无功能。"
 
 #: ../../source/cockpit.rst:536
 msgid "HYD ISOL"
-msgstr ""
+msgstr "起落架液压隔离开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -1293,112 +1365,116 @@ msgid ""
 "combined hydraulic system. Is automatically moved to T.O./LDG by LDG GEAR in "
 "DOWN position."
 msgstr ""
+"用于将起落架、前轮转向和机轮刹车的液压控制隔离出联合液压系统。起落架手柄处于"
+"放下位置时，隔离开关由起落架手柄自动移动至 T.O. / LDG 档位。"
 
 #: ../../source/cockpit.rst:0
 msgid "FLT - In flight operation, isolates systems listed above."
-msgstr ""
+msgstr "FLT - 空中飞行时，隔离上述系统中的液压控制。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "T.O./LDG - Take-off/landing, connects systems listed above, allowing them to "
 "operate."
-msgstr ""
+msgstr "T.O. / LDG - 起飞/降落，接通上述系统的液压控制，允许它们正常工作。"
 
 #: ../../source/cockpit.rst:542
 msgid "Transition light"
-msgstr ""
+msgstr "起落架转移指示灯"
 
 #: ../../source/cockpit.rst:542
 msgid ""
 "Illuminates to indicate landing gear position not corresponding to current "
 "LDG GEAR handle position."
-msgstr ""
+msgstr "起落架当前位置与起落架控制手柄位置不符时，指示灯会亮起。"
 
 #: ../../source/cockpit.rst:544
 msgid "Wheels-flaps position indicator"
-msgstr ""
+msgstr "机轮-襟翼位置指示器"
 
 #: ../../source/cockpit.rst:544
 msgid "See below."
-msgstr ""
+msgstr "详见下文。"
 
 #: ../../source/cockpit.rst:546
 msgid "EMERG STORES button"
-msgstr ""
+msgstr "应急挂载抛离按钮"
 
 #: ../../source/cockpit.rst:546
 msgid ""
 "Emergency stores jettison. Illuminates to indicate activation when pressed."
-msgstr ""
+msgstr "应急挂载抛离。按下时会亮起，表示激活应急抛离。"
 
 #: ../../source/cockpit.rst:548
 msgid "NOSE STRUT switch"
-msgstr ""
+msgstr "前轮支柱开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch selecting nosewheel strut retraction."
-msgstr ""
+msgstr "这个弹簧开关用于控制前起落架支柱伸缩。"
 
 #: ../../source/cockpit.rst:0
 msgid "EXTD - Extend, extends nosewheel strut and raises and locks launch bar."
-msgstr ""
+msgstr "EXTD - 伸展前起落架支柱，升起并锁定弹射牵引杆。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "OFF - Turns off nosewheel strut movement, springloaded to this position."
-msgstr ""
+msgstr "OFF - 关闭前起落架支柱运动，松开开关时，开关弹回该位置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "KNEEL - Releases pressure from nosewheel strut to retract it, kneeling "
 "aircraft. Also unlocks launch bar."
 msgstr ""
+"KNEEL - 释放前起落架支柱系统中的压强并收缩，降低机头的高度，同时解锁弹射牵引"
+"杆。"
 
 #: ../../source/cockpit.rst:556
 msgid "BRAKE-PULL handle"
-msgstr ""
+msgstr "制动-抽出手柄"
 
 #: ../../source/cockpit.rst:556
 msgid "Parking brake, pull out to apply parking brake, push in to release."
-msgstr ""
+msgstr "停放刹车，抽出手柄来启动停放刹车，推入手柄释放机轮刹车。"
 
 #: ../../source/cockpit.rst:558
 msgid "EJECT CMD indicator"
-msgstr ""
+msgstr "弹射指令指示器"
 
 #: ../../source/cockpit.rst:0
 msgid "Indicates ejection system mode for the back seat."
-msgstr ""
+msgstr "指示后座驾驶舱的弹射系统的模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "PILOT - Pilot ejects both crewmembers, RIO only himself."
-msgstr ""
+msgstr "PILOT - 飞行员弹射时弹射所有机组乘员，RIO 弹射时只弹射自己"
 
 #: ../../source/cockpit.rst:0
 msgid "MCO - Each position ejects both crewmen."
-msgstr ""
+msgstr "MCO - 飞行员或 RIO 弹射时，另一名机组乘员也会被弹射。"
 
 #: ../../source/cockpit.rst:569
 msgid "Wheels-Flaps Position Indicator"
-msgstr ""
+msgstr "机轮-襟翼位置指示器"
 
 #: ../../source/cockpit.rst:573
 msgid ""
 "Indicates position of flaps and slats, speed brakes and the landing gear. "
 "The slats are indicated as follows:"
-msgstr ""
+msgstr "指示襟翼和前缘缝翼、减速板和起落架的位置。前缘缝翼的位置指示标识如下："
 
 #: ../../source/cockpit.rst:575
 msgid "Power off or maneuver slats extended."
-msgstr ""
+msgstr "电源切断，或前缘机动缝翼张开"
 
 #: ../../source/cockpit.rst:578
 msgid "Slats extended."
-msgstr ""
+msgstr "前缘缝翼张开"
 
 #: ../../source/cockpit.rst:581
 msgid "Slats retracted."
-msgstr ""
+msgstr "前缘缝翼收起"
 
 #: ../../source/cockpit.rst:584
 msgid ""
@@ -1406,38 +1482,40 @@ msgid ""
 "first marked section of the indicator indicates maneuver flap-range. The "
 "landing gear is indicated as follows:"
 msgstr ""
+"在 UP 和 DN 之间移动的指针指示了襟翼的位置。带白色标记的区域指示了机动襟翼的"
+"移动范围。起落架位置的指示标识如下："
 
 #: ../../source/cockpit.rst:587
 msgid "Power off or unsafe gear."
-msgstr ""
+msgstr "电源关闭，或起落架故障（不安全）"
 
 #: ../../source/cockpit.rst:590
 msgid "Gear down."
-msgstr ""
+msgstr "起落架放下"
 
 #: ../../source/cockpit.rst:593
 msgid "Gear retracted and doors closed."
-msgstr ""
+msgstr "起落架收起，起落架舱门关闭"
 
 #: ../../source/cockpit.rst:596
 msgid "Speed brakes are indicated as follows:"
-msgstr ""
+msgstr "减速板位置的指示标识如下："
 
 #: ../../source/cockpit.rst:598
 msgid "Speed brake system power off."
-msgstr ""
+msgstr "减速板系统电源断开"
 
 #: ../../source/cockpit.rst:601
 msgid "Speed brake partial extension, not in motion."
-msgstr ""
+msgstr "减速板部分张开，保持位置"
 
 #: ../../source/cockpit.rst:604
 msgid "Speed brake fully extended."
-msgstr ""
+msgstr "减速板完全张开"
 
 #: ../../source/cockpit.rst:607
 msgid "Speed brake retracted."
-msgstr ""
+msgstr "减速板收起"
 
 #: ../../source/cockpit.rst:615
 msgid "Left Knee Panel"
@@ -1454,6 +1532,9 @@ msgid ""
 "EMER FLT HI ON/OFF-flags indicates backup flight hydraulic system pressures "
 "when HI or LOW is selected respectively."
 msgstr ""
+"显示联合液压系统和飞行液压系统的压强。SPOIL（扰流板）ON/OFF 警示旗指示外侧扰"
+"流板模块加压。选中 EMER FLT（应急飞行液压）HI 或 LOW 时，EMER FLT 标识下方的 "
+"HI 和 LOW 对应的 ON/OFF 警示旗分别指示备用飞行液压系统是否启用。"
 
 #: ../../source/cockpit.rst:631
 msgid "Oil Pressure Indicator"
@@ -1464,6 +1545,8 @@ msgid ""
 "Displays oil pressure for each engine. Range is 0 - 100 psi, normal range is "
 "25 - 65 psi, varying with engine rpm."
 msgstr ""
+"显示每个发动机的油压。显示范围是 0 到 100 psi，正常范围是 25 至 65 psi，随发"
+"动机转速而变化。"
 
 #: ../../source/cockpit.rst:640
 msgid "Exhaust Nozzle Position Indicator"
@@ -1473,20 +1556,23 @@ msgstr "发动机喷口位置指示器"
 msgid ""
 "Displays position of engine nozzles. Range 0 – 5 with 5 being fully open."
 msgstr ""
+"显示发动机喷口的位置。显示范围是 0 到 5，指针指向 5 则表示喷口完全张开。"
 
 #: ../../source/cockpit.rst:649
 msgid "Electronic Instrument Group"
-msgstr ""
+msgstr "电子仪表组"
 
 #: ../../source/cockpit.rst:652
 msgid ""
 "Displays engine RPM (High-pressure compressor rotor speed (N2)), EGT "
 "(Exhaust Gas Temperature) and FF (Fuel Flow) for respective engine."
 msgstr ""
+"显示每个发动机的 RPM（高压压缩机转子转速，也就是N2）、EGT（发动机排气温度）"
+"和 FF（燃油流量）。"
 
 #: ../../source/cockpit.rst:654
 msgid "Image shows TF-30 engine instruments, F110 EIG coming soon."
-msgstr ""
+msgstr "图中展示的是 TF-30 发动机的仪表组，F110 发动机的 EIG 即将实装。"
 
 #: ../../source/cockpit.rst:660 ../../source/cockpit.rst:2265
 msgid "Left Instrument Panel"
