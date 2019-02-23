@@ -315,7 +315,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#after-landing">降落后</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#link-4a-c-data-link">Link 4A 和 Link 4C 数据链</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#link-4a-c-data-link">Link 4A &amp; C Data Link</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#link-4-controls">Link 4 控制</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#link-4-in-dcs">DCS 中的 Link 4</a></li>
 </ul>
@@ -397,55 +397,39 @@
 <h1>总体设计和系统总览<a class="headerlink" href="#general-design-and-systems-overview" title="永久链接至标题">¶</a></h1>
 <div class="section" id="engines-and-throttle-controls">
 <h2>发动机和油门控制<a class="headerlink" href="#engines-and-throttle-controls" title="永久链接至标题">¶</a></h2>
-<p>The two F110-GE-400 afterburning turbo-fans powering the F-14B are controlled by the AFTC (Augmenter Fan Temperature Control unit).
-The AFTC is akin to an early version of a FADEC (Full Authority Digital Engine Control) used on newer turbine engines.</p>
-<p>The AFTC controls both the engine itself as well as the variable exhaust nozzles controlling the engine exhaust gases.
-Additionally, the AICS (Air Inlet Control System) helps by controlling the engine airflow for an even subsonic airflow to the engine inlets.
-This is done through the variable geometry intakes, more precisely the variable ramps in the intakes.</p>
-<p>All this is achieved by the AFTC and AICS using appropriate sensor inputs which then control engine operations according to programmed schedules.</p>
-<p>In addition both engines also drive separate fuel, hydraulic and electric generators to create redundancy.</p>
-<p>In case of a failure in the AFTC the MEC (Main engine control) is capable of assuming control of the engines to provide a fall-back mechanical control of them.
-The normal mode, AFTC, is the primary mode (PRI) and called as such while the fall-back MEC is the secondary (SEC) mode.
-The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be selected manually.
-Of note is that in secondary mode the engine nozzles are fully closed and disabled in addition to the afterburners being disabled with a corresponding loss of engine performance.</p>
+<p>为F-14B提供动力的两台F110-GE-400发动机由AFTC（增推扇叶温度控制器）控制。AFTC可以看做现代比较先进的发动机上使用的FADEC（全权限数字式发动机控制）的前身。</p>
+<p>它不但可以控制发动机本身，还能控制发动机喷口位置。 除此之外，AICS（进气控制系统）通过控制通过可变几何进气道，更确切地说是通过进气道中的可变斜板来改变进入发动机的气流，使发动机获得稳定的亚音速气流。</p>
+<p>ATFC和AICS的这些操作都是通过相应的传感器来获得外部数据，然后根据设置好的程序来控制发动机系统的运行。</p>
+<p>此外，两台发动机都拥有各自独立的供油系统，液压系统和发电机，这样它们就可以相互作为备份。</p>
+<p>在AFTC发生故障的情况下，MEC（发动机主控）会提供直接机械控制来控制发动机。 正常情况下AFTC为主要模式（PRI）并优先调用，而MEC的机械控制是次要（SEC）模式。 在AFTC发生故障的情况下，飞机会自动选择次要模式。也可以由飞行员手动选择。在次要式下，发动机会禁止启用加力燃烧室，并且将发动机喷口收至最小位置后固定，这些举措会使发动机性能下降。</p>
 <div class="section" id="throttle-controls">
 <span id="throttlecontrols"></span><h3>油门控制<a class="headerlink" href="#throttle-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/throttles-schem1.png" src="_images/throttles-schem1.png" />
-<p>The throttles in the F-14 have detents preventing unintentional engine start and shutdown and unintentional selection of afterburner.
-In addition the throttles also controls several different systems depending on throttle position as shown in the diagram above.
-The most critical of these being the fuel cutoff and ignition systems in the respective engines.</p>
-<p>For throttle operations there are three modes:</p>
-<p>The manual mode is a mechanical mode in which the engines are controlled by mechanical linkages directly from the throttles to the engines.
-The manual mode is designed as a backup mode and may be inexact becuase of the mechanical nature of the controls.</p>
-<p>Boost mode is the normal mode of operation in which electrical paths control actuators moving the same engine controls as the mechanical linkages but more exactly and with lesser force required.</p>
-<p>The third mode is the approach power compensator mode or the auto throttle mode which is a system which allows for automatic throttle control for optimal angle-of-attack during approaches.</p>
-<p>The controls for the throttle mode are located on the inlet ramps/throttle control panel to the side of the main throttles and allows for selection of all three modes.
-The auto throttle mode is solenoid held and will revert to boost mode if the criteria for automatic controls are not met.</p>
-<p>To allow selection of auto mode the throttles need to be between 75 to 90% rpm, the gear handle needs to be down and with no weight on the wheels.
-If these criteria are no longer met, the throttles are manually overriden with force or the Cage/SEAM button on the left throttle is depressed the solenoid releases the switch and it reverts to boost.</p>
-<p>For additional autothrottle tune the gain of the system can be set on the inlet ramps/throttle control panel. The settings are hot, normal or cold with hot increasing the throttle gain (and effective thrust) and cold decreasing it.
-These settings correspond to cold or hot external temperatures but should be set according to observed throttle control.</p>
-<p>The RATS or reduced arrestment thrust system is a system limiting engine thrust after touchdown to limit it to levels appropriate for carrier environments.
-The system is enabled by weight on either main landing gear and is disabled by selection of afterburner on the throttles.</p>
-<p>Finally, and implemented on the F110-GE-400, is the asymmetric limiter, preventing asymmetric afterburner engagement if only one afterburner lights by keeping that afterburner at minimum afterburner thrust until the other afterburner also lights.</p>
+<p>F-14的油门杆具有止动装置，可防止发动机意外启动或关闭以及不小心打开加力燃烧室。此外，油门杆还会根据油门位置来控制多个不同的系统，如上图所示，其中最重要的是发动机供油关断和点火系统。</p>
+<p>油门杆有三种操作模式：</p>
+<p>MAN模式是一种机械操作模式，该模式下发动机由从油门杆到发动机的机械连杆直接控制，这个模式被设计为备份模式，而且由于机械性质，精确度也不高。</p>
+<p>第二种模式是BOOST模式，该模式是油门的正常工作模式，在这个模式下油门杆通过传感器电路控制致动器像机械连杆那样来控制发动机。与机械模式不同的是此模式下操控油门杆所需要的力度更小而且更精确。</p>
+<p>第三种模式是进近推力补偿模式或者叫AUTO模式，该模式允许飞机在进近期间自动控制油门以获得最佳攻角。</p>
+<p>油门模式的选择开关位于油门杆旁边的进气道板/油门控制面板上。自动油门模式是通过电磁开关保持的，如果当前飞机状态不满足自动油门模式的条件，就需要回到助力模式。</p>
+<p>如果想要选择自动油门模式，油门区间需要保持在75至90％rpm之间，起落架手柄需要放下并且起落架上没有负重。 如果不再满足这些条件，用力推动油门杆或按下左油门杆上的Cage / SEAM按钮，电磁开关就会释放并回到增助力模式。</p>
+<p>同时，飞行员还可以在进气道板/油门控制面板上通过油门温控开关设置增益来对标准油门计算机增益调节。 可以设置HOT，NORM的或COLD三个档位，HOT增大标准油门计算机增益（和有效推力），COLD挡减小标准油门计算机增益。 这些设置一般来说对应于外部温度，但应根据实际油门情况进行设置。</p>
+<p>RATS，或者叫做低速制动推力系统，此系统会限制着陆后的发动机推力，使其更适合在航母环境下使用。任意一个主起落架受到负重就会启动该系统。如果打开加力燃烧室，该系统会被自动禁用。</p>
+<p>最后要说的是在F110-GE-400上实现并被应用的不对称推力限制器（ASYM LIMITER），如果在启用加力的时候只有一边发动机的加力燃烧室被打开，那么它就会保持在最小加力推力直到另一边发动机的加力燃烧室启动。</p>
 </div>
 <div class="section" id="engine-and-throttle-control-switches-and-indicators">
 <h3>发动机和油门控制开关以及指示器<a class="headerlink" href="#engine-and-throttle-control-switches-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/asym1.png" src="_images/asym1.png" />
 <p>The <strong>ASYM LIMITER</strong> (<strong>1</strong>) on the ASYM limiter/engine mode select panel enables or disables the asymmetric afterburner thrust limiter. Default position is <strong>ON</strong> and the switch has a guard cover keeping it in that position.</p>
-<p>The other switches on that same panel are the <strong>ENG</strong> (engine) <strong>MODE SELECT</strong> switches (<strong>2</strong>), setting the left (<strong>L ENG</strong>) and right (<strong>R ENG</strong>) to <strong>PRI</strong>, primary or <strong>SEC</strong>, secondary modes respectively.</p>
+<p>在这个面板上还有 <strong>ENG</strong> （发动机） <strong>MODE SELECT</strong> （模式选择）开关（<strong>2</strong>）。在这里飞行员可以为左发动机（<strong>L ENG</strong>）和右发动机（<strong>R ENG</strong>）来选择 <strong>PRI</strong> 模式或者 <strong>SEC</strong> 模式。</p>
 <img alt="_images/inlet1.png" src="_images/inlet1.png" />
-<p>The inlet ramps/throttle control panel contains most other engine releated controls.</p>
+<p>进气道板/油门控制面板包含了大多数与发动机相关的控制。</p>
 <p>The <strong>THROTTLE MODE</strong> (<strong>1</strong>) switch sets throttle mode to <strong>AUTO</strong>, <strong>BOOST</strong> or <strong>MAN</strong> modes respectively, with auto being springloaded back to boost but held in place electrically as mentioned above.</p>
-<p>The <strong>THROTTLE TEMP</strong> (<strong>2</strong>) switch controls the gain of the automatic throttle system also described above.</p>
-<p>The <strong>INLET RAMPS</strong> (<strong>3</strong>) switches enable (<strong>AUTO</strong>) or disable, stow (<strong>STOW</strong>) the variable intake ramps.</p>
-<p>The engine crank switch (<strong>4</strong>) is used to crank the engines to 20% rpm allowing for engine start by moving the respective throttle to idle from cut-off.
-The air to start the engine is sourced from an external air supply if connected or the other engine if no external source exists.
-At 50% rpm the crank switch automatically returns to off/center position. If this does not occur it should be manually set to off to prevent damage to the air turbine starter.</p>
+<p>在它右边的 <strong>THROTTLE TEMP</strong> （ <strong>2</strong> ）开关可以用来设置标准油门计算机增益。</p>
+<p>最上方的 <strong>INLET RAMPS</strong> （ <strong>3</strong> ）开关可以让飞行员来控制进气道斜板，可以设置为自动模式（<strong>AUTO</strong>）或者直接选择收起进气道斜板（<strong>STOW</strong>）。</p>
+<p>我们可以通过发动机启动开关 （ <strong>4</strong> ）用来选择想要启动的发动机。如果我们通过这个开关选择了一个发动机，外部气源或者从另一个已启动发动机的引气会驱动空气涡轮启动器来使这个发动机转速上升至20%rpm，此时我们需要将相应的油门杆从关断位移动到怠速位来启动发动机。在发动机转速上升到50%rpm时，这个开关会自动返回中心位置，如果没有，你需要手动将其拨至中心位置来避免损坏空气涡轮启动器。</p>
 <p>The <strong>BACK UP IGNITION</strong> (<strong>5</strong>) switch enables the backup ignition system in case of a failure in the main ignition circuits that are normally enabled by moving the throttles out of the cut-off position.</p>
 <img alt="_images/externalenvironment1.png" src="_images/externalenvironment1.png" />
-<p>The <strong>ENG/PROBE ANTI-ICE</strong> (<strong>2</strong>) switch on the external environmental control panel enables the engine anti-ice and intake ramp anti-ice mode in addition to the various probe heaters.
-The <strong>ORIDE</strong> position enables the system, the <strong>AUTO</strong> position enables the system if icing is detected and the <strong>OFF</strong> position disable it.</p>
+<p>除了舱外探头加热器开关外，外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong> （ <strong>2</strong> ）开关控制着发动机与进气道板除冰系统。开关位置在 <strong>ORIDE</strong> 位置时该系统就会启动，在 <strong>AUTO</strong> 位置时系统会在检测到结冰时自动启动，将开关拨至 <strong>OFF</strong> 位置会禁用此系统。</p>
 <div class="section" id="engine-instrument-group-eig-related-indicators-and-caution-lights">
 <h4>发动机仪表组（EIG）及相关指示器和注意灯<a class="headerlink" href="#engine-instrument-group-eig-related-indicators-and-caution-lights" title="永久链接至标题">¶</a></h4>
 <img alt="_images/instrument-group1.png" src="_images/instrument-group1.png" />
@@ -454,20 +438,18 @@ The <strong>ORIDE</strong> position enables the system, the <strong>AUTO</strong
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Pictured above are the TF30 engine indicators, F110 EIG coming soon.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">上图中显示的是TF30发动机仪表组，F110发动机仪表组将在不久后发布。</td>
 </tr>
 </tbody>
 </table>
 <img alt="_images/exhaust1.png" src="_images/exhaust1.png" />
-<p>The exhaust nozzle position indicators display respective engine’s current engine exhaust nozzle position, with zero being fully closed and full clockwise rotation being fully open.</p>
+<p>发动机喷口位置位置指示器显示各自发动机当前的喷口位置, 0表示完全收起, 顺时针旋转到头表示完全打开。</p>
 <img alt="_images/oil1.png" src="_images/oil1.png" />
-<p>The oil pressure indicators display respective engine oil pressure allowing the pilot to check that engine oil pressure is at acceptable levels.</p>
-<p>The caution lights relevant to engine operation are located on the pilot’s caution - advisory panel,  and at the sides of the HUD.</p>
-<p>The caution lights on the sides of the HUD are the engine stall warning lights which blink at a 3 Hz rate when an engine stall is detected.
-The warning light on the left side of the HUD indicates an engine stall in the left engine and the one on the opposite side the right engine.
-This is also combined with an audio warning, a modulated tone at 320 Hz.</p>
-<p>Below the left engine stall warning light is, amongst others, the <strong>AUTO THROT</strong> (auto throttle) caution light which lights for 10 seconds when the auto throttle system is disengaged by other means than the throttle mode switch.</p>
-<p>On the main caution - advisory panel the relevant engine caution and warnings lights are:</p>
+<p>油压表会显示相应发动机的燃油压力，可以让飞行员检查发动机油压是否处于正常水平。</p>
+<p>在HUD的两侧分别有一个发动机状态告警灯。</p>
+<p>一旦检测到发动机失速，告警灯就会以3HZ的频率闪烁，左侧的告警灯代表左发动机，右边的告警灯代表右发动机。在告警闪烁的同时还会伴有频率为320HZ的告警音。</p>
+<p>在左侧发动机失速告警灯的下方的 <strong>AUTO THROT</strong> （自动油门）注意灯会在自动油门系统通过除油门模式开关之外的其他途径断开时，亮起10秒来提醒飞行员注意。</p>
+<p>注意-提示指示灯面板上的信息</p>
 <ul class="simple">
 <li><strong>INLET ICE</strong> - Caution light indicating ice detection on the detector in the left engine inlet.</li>
 <li><strong>L &amp; R INLET</strong> - Caution lights indicating failure in AICS for respective variable intake system.</li>
@@ -488,13 +470,10 @@ This is also combined with an audio warning, a modulated tone at 320 Hz.</p>
 <h2>燃油系统<a class="headerlink" href="#fuel-system" title="永久链接至标题">¶</a></h2>
 <div class="figure" id="id6">
 <img alt="_images/tanks.png" src="_images/tanks.png" />
-<p class="caption"><span class="caption-text">1 - Refueling Probe, 2 - Ground refueling Port (Right Side) , 3 - Forward Fuselage Tank, 4 - Left External Drop Tank, 5 - Left Box Beam Tank, 6 - Left Wing Tank, 7 - Vent Tank, 8 - Fuel Dump Mast,
-9 - Aft Fuselage Tank, 10 - Right Box Beam Tank, 11 - Right Wing Tank, 12 - Right External Drop Tank.</span></p>
+<p class="caption"><span class="caption-text">1 - 空中加油探头，2 - 地面加油口（右侧），3 - 前机身油箱，4 - 左侧外部副油箱，5 - 左侧翼箱油箱，6 - 左侧机翼油箱，7 - 通气油箱，8 - 泄油装置，9 - 后机身油箱，10 - 右侧翼箱油箱，11 - 右侧机翼油箱，12 - 右侧外部副油箱。</span></p>
 </div>
-<p>The main fuel storage in the F-14 consists of two feed systems, one for each engine.
-The right engine feed system consists of the right wing and right box cells and the front fuselage cells while the left engine feed system consists of the left wing and left box cells in addition to the aft fuselage cells.
-This fact needs to be kept in mind when reading the fuel gauges.</p>
-<p>The total useable fuel quantity is roughly 20,000 pounds distributed as in the table below.</p>
+<p>F-14的主要供油系统由两个系统组成，每个系统分别对应一个发动机。右发动机供油系统的燃油来自右侧机翼油箱，右侧翼箱油箱和机身前部油箱，而左发动机供油系统的燃油来自机身后部油箱，左侧机翼油箱和左侧翼箱油箱。所以在读取油量表时，需要记住这个事实。</p>
+<p>如下图所示，F-14的最大可用燃油量约为20,000磅。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="69%" />
@@ -529,17 +508,14 @@ This fact needs to be kept in mind when reading the fuel gauges.</p>
 <div class="section" id="fuel-quantity-indicators-and-controls">
 <h3>燃油量指示器和控制<a class="headerlink" href="#fuel-quantity-indicators-and-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/fuelquantity1.png" src="_images/fuelquantity1.png" />
-<p>The fuel quantity indicator on the pilot right knee panel displays internal and external fuel carried.</p>
-<p>The uppermost indicator (<strong>1</strong>) displays currently set <strong>BINGO</strong> fuel level, this quantity is set by rotating the knob (<strong>5</strong>) to desired amount.
-This indicator and control activates a BINGO caution light when total fuel level is below set amount.</p>
-<p>The <strong>TOTAL</strong> (<strong>2</strong>) indicator displays total carried fuel.</p>
-<p>The <strong>L</strong> and <strong>R</strong> (<strong>3</strong>) normally shows fuel carried in left and right fuel feeds respectively.
-A rocker switch on the fuel management panel enables selection of the wing internal tanks (<strong>WING</strong>) or external fuel tanks (<strong>EXT</strong>) for display but is springloaded to return to showing the feed tanks (<strong>FEED</strong>) automatically.
-When displaying wing internal tanks or external fuel tanks, the left wing or left external tank is shown on the L counter and the right wing or right external tank on the R counter.</p>
+<p>位于右膝仪表板上的燃油量显示器显示了机内燃油剩余量以及外部燃油剩余量。</p>
+<p>最上面的燃油量显示器（ <strong>1</strong> ）显示了当前设置的 <strong>BINGO</strong>  油量，飞行员可以通过旁边的旋钮（ <strong>5</strong> ）来设置自己所需要的数值。当剩余燃油总量低于设定值时，BINGO油量注意灯就会亮起。</p>
+<p>中间的 <strong>TOTAL</strong> （ <strong>2</strong> ）燃油量显示器显示了剩余的全部燃油重量。</p>
+<p>燃油管理面板上的滑动弹簧开关可以用来选择让 <strong>L</strong> 和 <strong>R</strong> 燃油量显示器显示各个机翼油箱（ <strong>WING</strong> ）中的燃油量或者外部油箱（ <strong>EXT</strong> ）中的燃油量，松开开关后，开关会弹回显示供油油箱（ <strong>FEED</strong> ）油量的档位。当显示机翼油箱或外部油箱油量时，左机翼或左外部油箱油量显示在L显示器上，右机翼或右外部油箱显示在R显示器上。</p>
 <p>The <strong>FUS &amp; FEED</strong> tapes (fuselage and feed) shows the <strong>AFT &amp; L</strong> (aft fuselage and left feed) and <strong>FWD &amp; R</strong> (forward fuselage and right feed) in thousands of pounds.</p>
 <p>另外，RIO驾驶舱右仪表板上也显示了燃油总量。而且这个显示器只能显示燃油总量。（详见 <a class="reference internal" href="cockpit.html#rfuelqtytot"><span class="std std-ref">燃油总量表</span></a>。）</p>
 <img alt="_images/fuel2.png" src="_images/fuel2.png" />
-<p>The fuel management panel on the pilot’s left vertical console contains the applicable controls for the fuel system.</p>
+<p>飞行员可以在左侧垂直控制台的燃油管理面板上对燃油系统进行控制。</p>
 <p>The <strong>QTY SEL</strong> (<strong>1</strong>) rocker switch is detailed above under the description above about the L &amp; R fuel displays.</p>
 <p>The <strong>FEED</strong> switch allows the pilot to correct fuel imbalances caused by single engine operation or feed failures by selecting both engines to feed from either the <strong>FWD</strong> (forward and right tanks) or <strong>AFT</strong> (aft and left tanks) instead of from one feed system each as normal <strong>NORM</strong>.
 The switch guard locks the switch to the NORM position when down.</p>
@@ -553,13 +529,13 @@ If there’s weight on the wheels or the speed brake is not fully retracted the 
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Even though technically possible to engage the afterburners after a fuel dump is in progress, this is not allowed due to the possibility of igniting the dumped fuel.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">尽管从技术上来说在放油过程中是可以打开加力燃烧室的，但是这样有可能会点燃放出的燃油，所以这样的操作是不允许的。</td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="in-flight-refueling">
 <h4>空中加油<a class="headerlink" href="#in-flight-refueling" title="永久链接至标题">¶</a></h4>
-<p>The above panel also contains the control for the in-flight refueling system.</p>
+<p>上文所讲的燃油管理面板上还可以控制空中加油系统。</p>
 <p>The <strong>REFUEL PROBE</strong> (<strong>6</strong>) switch controls the extension of the refueling probe as well as setting up the fuel system to recieve fuel.
 The two extended positions (<strong>EXTD</strong>) are <strong>ALL</strong>, enabling refueling of all tanks, including wings and external tanks and <strong>FUS</strong>, allowing refuel of only the fuselage tanks.
 When selecting the <strong>ALL</strong> position the fuel feed from the wings and external tanks are disabled to allow refueling of these tanks.
@@ -568,7 +544,7 @@ When selecting the <strong>ALL</strong> position the fuel feed from the wings an
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Selecting <strong>EXTD ALL</strong> resets the <strong>WING/EXT TRANS</strong> switch to <strong>AUTO</strong>.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">值得一提的是在选择 <strong>EXTD ALL</strong> 位置时， <strong>WING/EXT TRANS</strong> 开关会自动回到 <strong>AUTO</strong> 位置。</td>
 </tr>
 </tbody>
 </table>
@@ -888,7 +864,7 @@ for braking on the ground as part of the <a class="reference internal" href="#as
 <p>The spoilers are only used forwards of 62° wing-sweep as further aft these conflict with the fuselage.</p>
 <p>In case of a spoiler malfunction the spoiler symmetry protection logic disables all of the spoilers in the same section as the failed spoiler, either inboard or outboard spoilers.
 If this occurs the <strong>SPOILERS</strong> caution light on the <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> illuminates.</p>
-<p>To override this the switch corresponding to the relevant section on the <a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障越控</span></a> can be set to override by lifting the guard and setting the switch to
+<p>To override this the switch corresponding to the relevant section on the <a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障超控</span></a> can be set to override by lifting the guard and setting the switch to
 <strong>ORIDE</strong> and then depressing the <strong>MASTER RESET</strong> button on the <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>.</p>
 <p>Spoiler position can be seen on the <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a>.</p>
 <div class="section" id="dlc-direct-lift-control">
@@ -1123,8 +1099,8 @@ The indicator is electrically driven and if it receives no power an <strong>OFF<
 <p>Apart from the VDIG (HUD and VDI) the F-14 is equipped with:</p>
 <ul class="simple">
 <li>two <a class="reference internal" href="cockpit.html#stbyattind"><span class="std std-ref">备用气压高度表</span></a> (and <a class="reference internal" href="cockpit.html#rstbyattind"><span class="std std-ref">备用气压高度表</span></a>)</li>
-<li>two <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">Airspeed Mach Indicator</span></a> (and <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">Airspeed Mach Indicator</span></a>)</li>
-<li>two <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">Servopneumatic Altimeter</span></a> (and <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">Servopneumatic Altimeter</span></a>)</li>
+<li>two <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">空速 / 马赫表</span></a> (and <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">空速 / 马赫表</span></a>)</li>
+<li>two <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">气压高度表</span></a> (and <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">气压高度表</span></a>)</li>
 <li>a <a class="reference internal" href="cockpit.html#vertvelind"><span class="std std-ref">Vertical Velocity Indicator</span></a></li>
 <li>一个转弯侧滑指示器（在 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 上）</li>
 <li>an <a class="reference internal" href="cockpit.html#acc"><span class="std std-ref">Accelerometer</span></a></li>
@@ -5360,7 +5336,7 @@ Forward deflection of the switch increases the numeric reading, and aft deflecti
 </div>
 </div>
 <div class="section" id="link-4a-c-data-link">
-<h3>Link 4A 和 Link 4C 数据链<a class="headerlink" href="#link-4a-c-data-link" title="永久链接至标题">¶</a></h3>
+<h3>Link 4A &amp; C Data Link<a class="headerlink" href="#link-4a-c-data-link" title="永久链接至标题">¶</a></h3>
 <p>F-14 雄猫配备了Link 4数据链路系统，可以传输和接收目标航迹，航点信息和转向命令。 Link 4有两个版本，第一个是Link 4A，它允许水面舰艇或空基AWACS指挥飞机，还有 Link 4C，它是F-14所独有的，战斗机对战斗机的数据链路。</p>
 <p>Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路网络。 然后，数据源（或者说，数据源的操作员）将为F-14提供目标航迹，航路点和控制命令。 此外，它还用于自动航降系统（ACLS）。</p>
 <p>而Link 4C 则允许最多四架 F-14 雄猫战斗机建立互联的数据网络并共享目标轨迹以协同作战。</p>
