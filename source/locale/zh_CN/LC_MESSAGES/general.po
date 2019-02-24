@@ -4,9 +4,20 @@
 # Flight Manul zh-CN package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
 "#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
 "#\n"
 "#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
@@ -14,7 +25,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-22 10:13+0800\n"
+"PO-Revision-Date: 2019-02-24 20:59+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -45,6 +56,96 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
 "PO-Revision-Date: 2019-02-23 15:25+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_cg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-24 15:48+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-24 16:05+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-24 15:08+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_zero.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-24 18:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.4\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-23 15:25+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-24 20:48+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -564,7 +665,7 @@ msgid ""
 "indicator and control activates a BINGO caution light when total fuel level "
 "is below set amount."
 msgstr ""
-"最上面的燃油量显示器（ **1** ）显示了当前设置的 **BINGO**  油量，飞行员可以通"
+"最上面的燃油量显示器（ **1** ）显示了当前设置的 **BINGO** 油量，飞行员可以通"
 "过旁边的旋钮（ **5** ）来设置自己所需要的数值。当剩余燃油总量低于设定值时，"
 "BINGO油量注意灯就会亮起。"
 
@@ -720,7 +821,7 @@ msgstr "火灾报警系统"
 msgid ""
 "The fire detection system in the F-14 has two fire sensing loops, one in "
 "each engine."
-msgstr ""
+msgstr "F-14的火灾探测系统有两个火灾传感回路, 每个发动机各有一个。"
 
 #: ../../source/general.rst:222
 msgid ""
@@ -730,6 +831,9 @@ msgid ""
 "left fire warning light on the ACM panel and the right detection loop lights "
 "the right fire warning light, see :ref:`ACMpanel`."
 msgstr ""
+"如果这些回路在整个回路中检测到超过 600°F (约 316°C) 或在一个6英寸的部分检测"
+"到 1, 000°F (约 538°C)的温度, 就会触发火灾探测电路。左探测回路亮起面板上的左"
+"火警示灯, 右检测回路亮起右侧火光灯, 请参见 :ref:`ACMpanel` 。"
 
 #: ../../source/general.rst:225
 msgid ""
@@ -738,6 +842,9 @@ msgid ""
 "advisory indicator (see :ref:`CAindicator`) if temperatures above 575 °F "
 "(about 302 °C) are detected."
 msgstr ""
+"此外F-14上同样有旨在探测发动机热空气泄露的传感器，如果检测到温度高于575 °F "
+"（约302 °C），该传感器将点亮飞行员注意-提示指示器（见 :ref:`CAindicator` ）上"
+"的BLEED DUCT告警灯。"
 
 #: ../../source/general.rst:229
 msgid "Fire Suppression System"
@@ -751,6 +858,9 @@ msgid ""
 "the same time making the system a one-shot system, capable of extinguishing "
 "only one engine."
 msgstr ""
+"F-14的灭火系统包含两个装有灭火剂的瓶子, 这些灭火剂能够排放到飞行员选择的发动"
+"机中。虽然该系统包含两个灭火瓶，但是他们的释放是同时的, 这使该系统成为一个只"
+"能扑灭单个发动机火灾的一次性系统。"
 
 #: ../../source/general.rst:238
 msgid ""
@@ -760,6 +870,9 @@ msgid ""
 "is a low toxicity agent, designed to do as little damage to the engine as "
 "possible while still being an effective fire surpessant."
 msgstr ""
+"由于药剂的有效性取决于它是否存在于发动机中直到火灾消失，因此药剂在较低的空速"
+"下有更高的效率，因为其被吹出发动机需要更长的时间。 该药剂本身是一种低毒剂，旨"
+"在仍然为一种有效的灭火剂的情况下尽可能减少对发动机造成的损伤。"
 
 #: ../../source/general.rst:241
 msgid ""
@@ -769,6 +882,9 @@ msgid ""
 "the fuel to the connected engine and the button behind it releases the fire "
 "suppression agent into that engine."
 msgstr ""
+"为了激活系统, 飞行员拉起与起火发动机相对应的 **FUEL SHUT OFF** 手柄 (上图), "
+"并按下该手柄后面的灭火器按钮。被拉起的手柄将切断其所连接的发动机的燃油而灭火"
+"器按钮将释放灭火剂到该发动机中。"
 
 #: ../../source/general.rst:244
 msgid ""
@@ -778,12 +894,16 @@ msgid ""
 "in the auxiliary bottle. Both are located on the pilot caution - advisory "
 "indicator, see :ref:`CAindicator`."
 msgstr ""
+"有两个提示灯连接到这个系统, 分别指示一个低压灭火剂瓶。 **ENG FIRE EXT** 表示"
+"主瓶低压， **AUX FIRE EXT** 表示辅瓶低压。两者都位于飞行员警告-提示面板，参"
+"见 :ref:`CAindicator` 。"
 
 #: ../../source/general.rst:248
 msgid ""
 "The advisory lights will both light after a successful application of the "
 "system and might also light if an error drains the pressure in the bottles."
 msgstr ""
+"成功应用系统后，提示灯将亮起，如果错误排出了瓶子中的压力，其也可能亮起。"
 
 #: ../../source/general.rst:252
 msgid "Fire Detection and Suppression System Test"
@@ -798,6 +918,10 @@ msgid ""
 "system is functional. If the **NO GO** or no lights illuminate there's a "
 "problem in either the suppression system or the test circuitry."
 msgstr ""
+"这两个系统都可以通过选择至主测试面板开关上的 **FIRE DET/EXT** 位进行测试。(参"
+"见 :ref:`MTPanel` )如果它们各自的环路正常工作，它将点亮ACM面板上的两个火警警"
+"示灯，如果抑制系统正常工作，主测试面板上的 **GO** 灯将点亮。 如果 **NO GO** "
+"亮起或没有指示灯亮起，则抑制系统或测试的电路存在问题。"
 
 #: ../../source/general.rst:260
 msgid "Electrical Power System"
@@ -810,6 +934,8 @@ msgid ""
 "engines are each capable of generating enough power to individually drive "
 "all aircraft systems."
 msgstr ""
+"F-14的所有主要电力均由两个发动机驱动的交流发电机产生。 每个连接到发动机变速箱"
+"的发电机都能够产生足够的动力来单独驱动所有机载系统。"
 
 #: ../../source/general.rst:265
 msgid ""
@@ -817,6 +943,8 @@ msgid ""
 "28 V DC, and again each one is individually capable of driving all aircraft "
 "DC appliances."
 msgstr ""
+"直流发电方面，F-14有两个变压整流器提供28V直流电，而且每个变压整流器都可以单独"
+"驱动所有机载直流电设备。"
 
 #: ../../source/general.rst:267
 msgid ""
@@ -825,6 +953,9 @@ msgid ""
 "rectifiers). External power is automatically disconnected from the aircraft "
 "power system when one of the interal generators come online."
 msgstr ""
+"F-14在鼻轮后方有一个用于交流电源的外部电源插座, 它能够驱动机载交流电与直流电 "
+"(通过变压整流器)。当一个内部发电机并网发电时, 外部电源将自动断开与飞机电力系"
+"统的连接。"
 
 #: ../../source/general.rst:272
 msgid "Emergency Power"
@@ -837,6 +968,8 @@ msgid ""
 "power the emergency generator takes over supply of flight critical systems "
 "within 1 second."
 msgstr ""
+"F-14有一个由组合式液压系统驱动可产生有限的交流和直流电源的应急发电机。 如果系"
+"统失去主电源，应急发电机将在1秒内接管关键飞行系统的供电。"
 
 #: ../../source/general.rst:279 ../../source/general.rst:348
 #: ../../source/general.rst:451
@@ -847,7 +980,7 @@ msgstr "控制和指示器"
 msgid ""
 "The controls for the electrical systems are located on the master generator "
 "control panel."
-msgstr ""
+msgstr "电气系统的控制装置位于主发电机控制面板上。"
 
 #: ../../source/general.rst:285
 msgid ""
@@ -861,6 +994,11 @@ msgid ""
 "other aircraft systems. The switch is locked to the on position and needs to "
 "be lifted to move it to the OFF/RESET position from NORM."
 msgstr ""
+"**MASTER GEN** （**1**）开关控制主发电机与电气总线的连接。 开关上的 **NORM** "
+"位将各个发电机连接到总线。**OFF/RESET** 位将断开发电机的连接，并且还会因为电"
+"源超出正常限制而复位任何可能已经切入的保护电路。 **TEST** 位将启动发电机，但"
+"不会将其连接到电力总线，这样可以在不影响其他飞机系统的情况下测试发电机。 开关"
+"被锁定在打开位置，需要将其抬起以便从NORM位移动到OFF/RESET位。"
 
 #: ../../source/general.rst:291
 msgid ""
@@ -871,6 +1009,10 @@ msgid ""
 "protection circuits if tripped. The switch is guarded to the NORM position "
 "and that guard needs to be opened to move the switch to OFF/RESET."
 msgstr ""
+"**EMERG**（**2**）开关控制应急发电机。 在 **NORM** 位下，如果主发电机发生故"
+"障，应急发电机将自动连接到必要总线。 **OFF/RESET** 位将禁用应急发电机，并在跳"
+"闸时复位相关的保护电路。 此开关被保护盖保持在NORM位置，若要将开关设置为OFF/"
+"RESET，需打开保护盖。"
 
 #: ../../source/general.rst:296
 msgid ""
@@ -879,12 +1021,15 @@ msgid ""
 "the respective generator is not functioning correctly. Either because of a "
 "fault or because the engine driving the generator not running."
 msgstr ""
+"相关的警告灯和提示灯位于飞行员 :ref:`CAindicator` 。 **L GEN** 和 **R GEN** "
+"指示灯亮起时表示相应的发电机不能正常工作。无论是因为发动机故障还是因为驱动发"
+"电机的发动机没有运转"
 
 #: ../../source/general.rst:300
 msgid ""
 "The **TRANS/RECT** advisory light indicates that only one or none of the "
 "transformer-rectifiers are functioning."
-msgstr ""
+msgstr "**TRANS/RECT** 提示灯表示只有一个或没有变压整流器在工作。"
 
 #: ../../source/general.rst:302
 msgid ""
@@ -893,6 +1038,8 @@ msgid ""
 "indicated by the **GO** light illuminating. In case of a fault the **NO GO** "
 "light illuminates."
 msgstr ""
+"应急发电机可以通过 :ref:`MTpanel` 上的 **MASTER TEST** 开关选择 **EMERG "
+"GEN** 来测试。 **GO** 灯亮起表示测试完成。 如果发生故障，**NO GO** 灯将亮起。"
 
 #: ../../source/general.rst:307
 msgid "Circuit Breakers"
@@ -907,10 +1054,13 @@ msgid ""
 "line becoming visible on the breaker as it pops out. The breaker can be "
 "reset by pushing it in and it can also be pulled out manually."
 msgstr ""
+"F-14 的断路器位于飞行员的左右膝板以及 RIO 座椅左后侧和右后侧。 断路器通过弹出"
+"自身隔离系统来保护机载系统免受过大电流的影响。 这在断路器弹出时表现为白线变得"
+"可见。 断路器可以通过推入来复位，也可以手动拉出。"
 
 #: ../../source/general.rst:313
 msgid "These breakers will be detailed here when implemented in DCS."
-msgstr ""
+msgstr "当他们在DCS中被实现时，这些断路器将在此处详细描述。"
 
 #: ../../source/general.rst:317
 msgid "Hydraulic System"
@@ -920,7 +1070,7 @@ msgstr "液压系统"
 msgid ""
 "The F-14 has two separate hydraulic systems, the flight hydraulic system and "
 "the combined hydraulic system."
-msgstr ""
+msgstr "F-14有两个独立的液压系统，飞行液压系统以及组合式液压系统。"
 
 #: ../../source/general.rst:321
 msgid ""
@@ -929,6 +1079,8 @@ msgid ""
 "system from the left engine. Both systems are pressurised to around 3,000 "
 "psi when operating normally."
 msgstr ""
+"两个系统均由连接到每个发动机的液压泵驱动，飞行液压系统由右侧发动机驱动，组合"
+"液压系统由左侧发动机驱动。 若运行正常的话，两个系统都将被加压至约3000psi。"
 
 #: ../../source/general.rst:324
 msgid ""
@@ -938,6 +1090,9 @@ msgid ""
 "the control surfaces independently from each other in case of a failure in "
 "the other."
 msgstr ""
+"飞行控制翼面由这两个系统驱动，而组合液压系统同时也向二级系统提供压力，例如襟"
+"翼，起落架和受油管。 这使得两个系统可以在另一个系统发生故障的情况下相互独立地"
+"驱动控制表面。"
 
 #: ../../source/general.rst:327
 msgid ""
@@ -949,6 +1104,10 @@ msgid ""
 "isolating these systems by the landing gear handle when it's in the down "
 "position."
 msgstr ""
+"此外，液压系统可以通过起落架手柄旁边的开关来隔离与飞行不相关的系统。 这样，对"
+"这些系统的损坏不会影响组合液压系统的压力并导致流体损失。 可以隔离的系统是起落"
+"架，车轮制动器和受油管。 该开关被机械锁定，以便在起落架手柄处于向下位置时不会"
+"通过起落架手柄隔离这些系统。"
 
 #: ../../source/general.rst:332
 msgid ""
@@ -961,6 +1120,11 @@ msgid ""
 "pressure in the working system. The pump can also be manually disengaged by "
 "the pilot."
 msgstr ""
+"如果只有一个液压泵失效，则可以通过液压传输泵从另一个液压泵加压该系统。液压传"
+"输泵是一种全方位液压驱动泵，可以从另一个系统供应任一系统，如果系统驱动在"
+"3,000 psi左右，则压力可以保持在2,400和2,600psi之间。 如果一个系统压力低于"
+"500psi，泵将被锁定以防止泵损坏并保持运行中的系统的压力。 泵也可以由飞行员手动"
+"关闭。"
 
 #: ../../source/general.rst:337
 msgid ""
@@ -975,6 +1139,12 @@ msgid ""
 "The control surfaces will have a reduced deflection rate if driven by this "
 "pump, more so in low than high."
 msgstr ""
+"在两个液压泵都发生故障的情况下，飞行液压系统可以由被称为紧急飞行液压泵的电动"
+"泵驱动。 该泵能够独立驱动尾部控制翼面，使得飞机即使在主液压系统中无压力也能够"
+"返回基地和着陆。 如果两个主系统降至2,100 psi以下，则电动泵自动启用;如果再次达"
+"到2,400 psi，则关闭电动泵。 自动泵激活在低模式下激活系统，但也可以手动选择低"
+"或高。 如果由该泵驱动，控制翼面将降低自身偏转率，相对于于高模式而言低模式该特"
+"性更为显著。"
 
 #: ../../source/general.rst:343
 msgid ""
@@ -983,6 +1153,8 @@ msgid ""
 "pressure in the combined system. This is mainly for unpowered ground "
 "operation but can be used as a backup in the air."
 msgstr ""
+"如果组合式液压系统中没有压力，可以使用手动液压泵对受油杆和车轮制动蓄能器加"
+"压。 此方法主要用于地面无动力操作，但在空中可作为备用。"
 
 #: ../../source/general.rst:352
 msgid ""
@@ -991,6 +1163,9 @@ msgid ""
 "in thousands of psi. The scales have markings for the nominal 3,000 psi "
 "pressure when the pumps are operating normally."
 msgstr ""
+"**HYD PRESS** ，液压指示器，包含两个仪表，**COMB** 表示联合液压系统，**FLT** "
+"表示飞行液压系统，两者压力以千psi为单位显示。 当泵正常运行时，标尺应当指示在"
+"3,000 psi压力值上。"
 
 #: ../../source/general.rst:355
 msgid ""
@@ -999,6 +1174,9 @@ msgid ""
 "hydraulic pump. The **HI** flag indicates on if the emergency flight "
 "hydraulic pump is operating in high and the **LOW** if it's operating in low."
 msgstr ""
+"仪表下方是指示扰流板液压可用性的 **SPOIL** 标志以及紧急飞行液压泵运行情况的 "
+"**EMER FLT** 标志。**HI** 标志表示紧急飞行液压泵在高位运行，如果在低位运行，"
+"则显示 **LOW** 标记。"
 
 #: ../../source/general.rst:360
 msgid ""
@@ -1007,6 +1185,9 @@ msgid ""
 "indicating wheel brake pressure. The green area represents a pressure from "
 "about 2,150 psi to 3,000 psi and the red a pressure below that."
 msgstr ""
+"**制动压力** 表显示制动蓄能器中的可用压力。 **PARK** 表示驻机制动压力，"
+"**AUX** 表示机轮制动压力。 绿色区域表示约2,150 psi至3,000 psi的压力，红色区域"
+"指示当前压力低于2150psi。"
 
 #: ../../source/general.rst:366
 msgid ""
@@ -1016,6 +1197,9 @@ msgid ""
 "position allowing the pump to activate automatically if either hydraulic "
 "pump fails. The switch is guarded to the NORMAL position."
 msgstr ""
+"**HYD TRANSFER PUMP** ，液压传输泵开关位于飞行员自己右侧控制台的面板上。 该开"
+"关允许手动关闭该泵（ **SHUTOFF** ），但通常处于 **NORMAL** 位，以便在液压泵出"
+"现故障时自动启动液压传输泵。 此开关被保护盖保持在 NORMAL 位。"
 
 #: ../../source/general.rst:370
 msgid ""
@@ -1024,6 +1208,9 @@ msgid ""
 "automatically activate as detailed above and the two other positions, "
 "**HIGH** and **LOW** can manually activate those modes when the guard is up."
 msgstr ""
+"紧急飞行液压泵由一个位于 :ref:`MTpanel` 上有保护的开关控制。其保护位，"
+"**(AUTO)LOW** 允许泵自动激活, 如上面所述, 其他两个控制位，**HIGH** 模式和 "
+"**LOW** 模式可以在保护盖被打开时手动激活。"
 
 #: ../../source/general.rst:373
 msgid ""
@@ -1031,15 +1218,23 @@ msgid ""
 "PRESS** light indicating that either main hydraulic system pressure is below "
 "2,100 psi. It turns off when both systems are again above 2,400 psi."
 msgstr ""
+"在 :ref:`CAindicator` 上，唯一与液压系统相关的警示灯是 **HYD PRESS** 灯，任意"
+"一个主液压系统压力低于2,100 psi时亮起。 当两个系统再次高于2,400 psi时熄灭。"
 
 #: ../../source/general.rst:378
 msgid "Wing-Sweep System"
 msgstr "机翼后掠系统"
 
 #: ../../source/general.rst:382
+#, fuzzy
 msgid ""
 "Wing-sweep schedule as function of Mach number and related flap interlocks."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"后掠表作为马赫数和相关襟翼联锁的函数。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:384
 msgid ""
@@ -1048,6 +1243,8 @@ msgid ""
 "an oversweep of 75° is also possible reducing the F-14's wing span to 33 "
 "feet (about 10 meters)."
 msgstr ""
+"机翼后掠系统控制F-14机翼的几何形状，使机翼能够在空中从20°移动到68°。 在甲板"
+"上，75°的停放后掠可以将F-14的翼展减少到33英尺（约10米）。"
 
 #: ../../source/general.rst:387
 msgid ""
@@ -1057,8 +1254,12 @@ msgid ""
 "rate is about 15°. This can be affected negatively by negative g or large "
 "amounts of positive g."
 msgstr ""
+"机翼由液压机械螺旋式执行机构移动, 这些执行器机械互联以确保同步。只要两个主液"
+"压系统都正常工作, 最大机翼后掠变化率大约为15°。这可能会受到负 g 或大量正 g 的"
+"负面影响。"
 
 #: ../../source/general.rst:391
+#, fuzzy
 msgid ""
 "In normal operation the CADC, Central Air Data Computer, controls the wing "
 "position as a function of current Mach via the wing-sweep program, this is "
@@ -1069,12 +1270,23 @@ msgid ""
 "this is done electrically via two independent channels (for redundancy) to "
 "the wing-sweep actuators."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"在正常操作中，CADC，中央大气数据计算机通过机翼后掠程序控制机翼位置作为当前马"
+"赫的函数，这被称为**AUTO**模式。 飞行员还可以手动选择机翼后掠程序后的机翼位"
+"置，或者根据程序选择**BOMB**模式，将机翼设置为55°或更小。 简而言之，CADC机翼"
+"后掠程序确定了机翼的最大前移位置。 所有这一切都通过两个独立的通道（为了冗余）"
+"交由机翼后掠执行器电动完成。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:396
 msgid ""
 "Currently commanded wing position, CADC program wing position and actual "
 "wing position can be seen on the wing-sweep indicator next to the ACM panel."
 msgstr ""
+"当前指令的机翼位置，CADC程序设定的机翼位置以及实际机翼位置可在ACM面板旁的机翼"
+"后掠角指示器上看到"
 
 #: ../../source/general.rst:402
 msgid "Emergency Mode"
@@ -1089,8 +1301,12 @@ msgid ""
 "hydraulic valves in the wing-sweep system, providing a physical back-up "
 "control."
 msgstr ""
+"虽然正常模式可以电动控制机翼后掠，但作为补充，也可以通过紧急模式机械控制机翼"
+"后掠。 这是通过油门右侧的紧急机翼后掠手柄完成的。 该手柄与机翼后掠系统中的液"
+"压阀机械连接，提供物理备份控制。"
 
 #: ../../source/general.rst:408
+#, fuzzy
 msgid ""
 "Normally this handle is moved with the electronic wing-sweep program by a "
 "servo located beneath it, making sure it's at the actual wing position. To "
@@ -1100,61 +1316,69 @@ msgid ""
 "connecting it to the electrical servo and then used to manually set the wing "
 "position."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"通常，这个手柄通过电子机翼后掠程序藉由其下方的伺服机构移动，确保它处于实际的"
+"机翼位置。 为了脱离电气系统并启用紧急模式，打开手柄上的防护装置，然后拉出手柄"
+"以获得额外的力矩。 随后可以将手柄从spider-detent中正常推出并将其连接到电动伺"
+"服系统，然后用于手动设置机翼位置。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:412
 msgid ""
 "In this mode the pilot has to make sure to follow the following schedule to "
 "avoid damage to the wings:"
-msgstr ""
+msgstr "在此模式下，飞行员必须确保遵循下表以避免损坏机翼："
 
 #: ../../source/general.rst:415
 msgid "Speed (Indicated Mach)"
-msgstr ""
+msgstr "速度（指示马赫）"
 
 #: ../../source/general.rst:415
 msgid "Max Forward Wing Position"
-msgstr ""
+msgstr "最大向前机翼位置"
 
 #: ../../source/general.rst:417
 msgid "0.4"
-msgstr ""
+msgstr "0.4"
 
 #: ../../source/general.rst:417
 msgid "20°"
-msgstr ""
+msgstr "20°"
 
 #: ../../source/general.rst:419
 msgid "0.7"
-msgstr ""
+msgstr "0.7"
 
 #: ../../source/general.rst:419
 msgid "25°"
-msgstr ""
+msgstr "25°"
 
 #: ../../source/general.rst:421
 msgid "0.8"
-msgstr ""
+msgstr "0.8"
 
 #: ../../source/general.rst:421
 msgid "50°"
-msgstr ""
+msgstr "50°"
 
 #: ../../source/general.rst:423
 msgid "0.9"
-msgstr ""
+msgstr "0.9"
 
 #: ../../source/general.rst:423 ../../source/general.rst:1788
 #: ../../source/general.rst:1796
 msgid "60°"
-msgstr ""
+msgstr "60°"
 
 #: ../../source/general.rst:425
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../../source/general.rst:425
 msgid "68°"
-msgstr ""
+msgstr "68°"
 
 #: ../../source/general.rst:428
 msgid ""
@@ -1165,6 +1389,9 @@ msgid ""
 "then drive to the commanded position and re-engage the handle to the spider "
 "detent, resuming normal operation."
 msgstr ""
+"要返回正常操作模式，应将手柄推入所需位置并按下且关闭护罩。 然后按下燃油管理面"
+"板上的 **MASTER RESET** 按钮，机翼后掠系统设置在与手柄相同的位置。 然后伺服器"
+"将驱动机翼到指令位置并将手柄重新接合到spider detent上，恢复正常操作。"
 
 #: ../../source/general.rst:434
 msgid "Oversweep"
@@ -1179,8 +1406,12 @@ msgid ""
 "tail authority system is enabled to prevent the wings and stabilizers from "
 "damaging each other by restricting movement of the stabilizer."
 msgstr ""
+"紧急机翼后掠手柄也用于选择机翼的停放后掠位置。 停放后掠仅在地面为减小翼展以便"
+"更容易在甲板上停放飞机而使用。 当机翼将掠过尾部的安定面时，水平尾翼管理系统能"
+"够通过限制安定面的运动来防止机翼和安定面相互损坏。"
 
 #: ../../source/general.rst:440
+#, fuzzy
 msgid ""
 "To set the wings to oversweep the emergency wing-sweep handle should be "
 "moved to the 68° position and held in the extended position. This will "
@@ -1190,6 +1421,14 @@ msgid ""
 "wing-sweep indicator appears the oversweep interlocks are free and the "
 "handle can now be moved to the 75° position and stowed."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"为了使机翼处于停机后掠，紧急机翼后掠手柄应移至68°位置并保持在伸展位置。 这将"
+"使机翼密封安全气囊放气并启动水平尾翼管理系统，通过亮起 **HZ TAIL AUTH** 警告"
+"灯来指示该动作。 当 **HZ TAIL AUTH** 警告灯熄灭且机翼后掠指示灯上的 **OVER** "
+"标志出现时，停机后掠互锁是解除的，手柄现在可以移动到75°位置并收起。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:444
 msgid ""
@@ -1198,12 +1437,17 @@ msgid ""
 "light. When the wings have physically exited the oversweep the caution light "
 "and the **OVER** flag will turn off."
 msgstr ""
+"为了使机翼退出停机后掠，手柄需要被拉起并向前移动68°。 这将再次点亮 **HZ TAIL "
+"AUTH** 警告灯。 当机翼已经完全退出停机后掠时，警告灯和 **OVER** 标志将被关"
+"闭。"
 
 #: ../../source/general.rst:447
 msgid ""
 "As with normal emergency mode operation the handle should now be set to the "
 "same position as the spider detent and the **MASTER RESET** button depressed."
 msgstr ""
+"与正常的紧急模式操作相同，现在应将手柄设置到与spider detent相同的位置，并按"
+"下 **MASTER RESET** 按钮。"
 
 #: ../../source/general.rst:453
 msgid ""
@@ -1211,6 +1455,8 @@ msgid ""
 "(electrical) and to the right of the right throttle (mechanical). See the :"
 "ref:`throttle` and the :ref:`throttlequadrant`."
 msgstr ""
+"机翼后掠系统的控制装置位于右侧油门（电子）和右侧油门的右侧（机械）。参见 :"
+"ref:`throttle` 和 :ref:`throttlequadrant` 。"
 
 #: ../../source/general.rst:456
 msgid ""
@@ -1218,18 +1464,20 @@ msgid ""
 "enabling CADC control of the wings, this is the upper position. The down "
 "position sets the wing-sweep to the **BOMB** mode, 55° or aft."
 msgstr ""
+"右侧油门的机翼后掠帽通常设置为 **AUTO** ，使CADC可以控制机翼，此为向上位。 向"
+"下位将会把机翼后掠设置为 **BOMB** 模式，55°或后移。"
 
 #: ../../source/general.rst:459
 msgid ""
 "The **AFT** and **FWD** (forward) positions enable manual movement aft of "
 "the CADC scheduled position."
-msgstr ""
+msgstr "**AFT** 和 **FWD** （向前）位置可以在CADC设定位置后进行手动移动。"
 
 #: ../../source/general.rst:461
 msgid ""
 "The emergency wing-sweep handle on the throttle quadrant is used to control "
 "the mechanical emergency mode, see emergency mode above."
-msgstr ""
+msgstr "油门象限上的紧急后掠手柄用于控制机械应急模式，参见上面的紧急模式。"
 
 #: ../../source/general.rst:465
 msgid ""
@@ -1238,36 +1486,38 @@ msgid ""
 "CADC scheduled wing position. The left tape shows the manually commanded "
 "position and the right tape shows the actual wing position."
 msgstr ""
+"ACM面板右侧的机翼后掠指示器用于指示当前的机翼后掠位置。 左侧的指针显示了CADC"
+"设定的机翼位置。 左侧卷带显示手动指令位置，右侧卷带显示实际机翼位置。"
 
 #: ../../source/general.rst:469
 msgid "The five windows on the right side show:"
-msgstr ""
+msgstr "右侧的五个窗口显示："
 
 #: ../../source/general.rst:471
 msgid "**OFF** - System inoperable."
-msgstr ""
+msgstr "**OFF** \\- 系统无法操作。"
 
 #: ../../source/general.rst:472
 msgid "**AUTO** - CADC controlling wing-sweep."
-msgstr ""
+msgstr "**AUTO** \\- 机翼后掠由CADC控制。"
 
 #: ../../source/general.rst:473
 msgid "**MAN** - Wings set manually with the control on the right throttle."
-msgstr ""
+msgstr "**MAN** \\- 机翼由右侧油门手动控制。"
 
 #: ../../source/general.rst:474
 msgid "**EMER** - Wings set with the emergency wing-sweep handle."
-msgstr ""
+msgstr "**EMER** \\- 机翼由紧急机翼后掠手柄控制。"
 
 #: ../../source/general.rst:475
 msgid "**OVER** - Wings in oversweep."
-msgstr ""
+msgstr "**OVER** \\- 机翼处于停机后掠状态。"
 
 #: ../../source/general.rst:477
 msgid ""
 "The relevant warning and advisory lights are located on the :ref:`VDI` and "
 "the pilot :ref:`CAindicator`."
-msgstr ""
+msgstr "相关的警告与提示灯位于 :ref:`VDI` 和飞行员的 :ref:`CAindicator` 。"
 
 #: ../../source/general.rst:479
 msgid ""
@@ -1276,12 +1526,17 @@ msgid ""
 "mode is in use. If it illuminates without the emergency mode being used that "
 "mode should then be used as the electrical system might not work."
 msgstr ""
+"当两个机翼后掠电气通道无法操作或使用紧急模式时，VDI右侧的**WING SWEEP**警告灯"
+"将亮起。 如果在未使用紧急模式的情况下亮起，则应使用该模式，因为电气系统可能已"
+"无法工作。"
 
 #: ../../source/general.rst:482
 msgid ""
 "The **WING SWEEP** caution light on the pilot caution - advisory indicator "
 "illuminates when at least one electrical wing-sweep channel is inoperable."
 msgstr ""
+"当至少一个电动机翼后掠通道无法操作时，位于飞行员警告-提示指示器上的**WING "
+"SWEEP**警告灯将亮起。"
 
 #: ../../source/general.rst:486
 msgid "Wing-Sweep System Test"
@@ -1292,12 +1547,15 @@ msgid ""
 "The wing-sweep system can be tested on the ground in pre-flight without "
 "moving the wings using the :ref:`MTPanel`."
 msgstr ""
+"机翼后掠系统可以在地面上进行起飞前测试，而无需使用 :ref:`MTPanel` 移动机翼。"
 
 #: ../../source/general.rst:490
 msgid ""
 "To conduct the test, set the wing-sweep mode to **AUTO** and push the "
 "**MASTER RESET** button. Set the **MASTER TEST** switch to **WG SWP**"
 msgstr ""
+"要进行测试，需将机翼后掠模式设置为 **AUTO** 并按下 **MASTER RESET** 按钮。 "
+"将 **MASTER TEST** 开关设置为 **WG SWP**"
 
 #: ../../source/general.rst:493
 msgid ""
@@ -1306,12 +1564,15 @@ msgid ""
 "pilot :ref:`CAindicator` and the **REDUCE SPEED** warning light on the :ref:"
 "`VDI`."
 msgstr ""
+"机翼后掠指示器上的CADC指令位置指示器现在将移动到44°。 飞行员 :ref:"
+"`CAindicator` 上的 **WING SWEEP** 和 **FLAP** 提示灯以及 :ref:`VDI` 上的 "
+"**REDUCE SPEED** 警告灯将亮起。"
 
 #: ../../source/general.rst:496
 msgid ""
 "The **WING SWEEP** advisory light will illuminate after 3 seconds into test, "
 "turn off and then illuminate again at 8 seconds."
-msgstr ""
+msgstr "**WING SWEEP** 提示灯将在测试3秒后亮起，将其关闭，8秒后其将再次亮起。"
 
 #: ../../source/general.rst:498
 msgid ""
@@ -1320,20 +1581,25 @@ msgid ""
 "switch can now be set to **OFF** and the test is complete. The test will "
 "take about 25 seconds to complete."
 msgstr ""
+"当CADC指令位置指示器向前移动到20°位置时，测试结束，上述指示灯将熄灭。 "
+"**MASTER TEST** 开关现在可以设置为 **OFF** ，测试完成。 整个测试大约需要25秒"
+"才能完成。"
 
 #: ../../source/general.rst:501
 msgid ""
 "The **RUDDER AUTH** and/or **MACH TRIM** lights might illuminate and the "
 "control stick might move. This can be ignored."
 msgstr ""
+"**RUDDER AUTH** 和 **MACH TRIM** 灯可能会同时亮起或亮起其中一个，控制杆可能会"
+"移动。 在此可以忽略。"
 
 #: ../../source/general.rst:0
 msgid "Note 2"
-msgstr ""
+msgstr "注意"
 
 #: ../../source/general.rst:503
 msgid "The WG SWP test on the Master Test panel is not implemented yet."
-msgstr ""
+msgstr "主测试面板上的 WG SWP 测试尚未实装。"
 
 #: ../../source/general.rst:509
 msgid "Flight Control System"
@@ -1344,12 +1610,15 @@ msgid ""
 "The flight control system on the F-14 Tomcat is driven by the two main "
 "hydraulic circuits, powered by pumps connected to each engine."
 msgstr ""
+"F-14“雄猫”的飞行控制系统由两个主液压管路驱动，以连接到两个引擎的液压泵作为动"
+"力。"
 
 #: ../../source/general.rst:513
 msgid ""
 "For longitudinal (pitch) control both tail stabilizers are deflected in "
 "unison, acting in the same way as traditional elevators."
 msgstr ""
+"对于纵向（俯仰）控制，两边水平尾翼一致地偏转，其作用方式与传统升降舵相同。"
 
 #: ../../source/general.rst:515
 msgid ""
@@ -1358,24 +1627,29 @@ msgid ""
 "opposite each other to act as ailerons in combination with the spoilers on "
 "the side to which roll is commanded."
 msgstr ""
+"侧向（滚转）控制由水平尾翼和扰流板一起工作进行。 为了进行滚转，水平尾翼彼此相"
+"对地偏转，与滚动方向的一侧的扰流板组合作为副翼。"
 
 #: ../../source/general.rst:518
 msgid ""
 "The rudders on the F-14 is a standard rudder configuration albeit in a two "
 "tail, two rudder configuration."
-msgstr ""
+msgstr "F-14的方向舵是标准的双垂直尾翼方向舵。"
 
 #: ../../source/general.rst:520
 msgid ""
 "Control surface position is indicated on the :ref:`controlsurface` and can "
 "also be used to check trim position with controls at neutral."
 msgstr ""
+"控制面位置会在 :ref:`controlsurface` 中指示，也可以在回中时检查配平位置。"
 
 #: ../../source/general.rst:522
 msgid ""
 "Above 15 units AOA the rudders should be used for lateral (roll) control due "
 "to the different airflow along the aircraft control surfaces."
 msgstr ""
+"由于经过飞机控制面的气流变化，在大于15单位AOA时方向舵应该用于横向（滚转）控"
+"制。"
 
 #: ../../source/general.rst:531
 msgid "Trim"
@@ -1388,6 +1662,9 @@ msgid ""
 "aircraft. Rudder trim is accomplished via the **RUDDER TRIM** switch on the :"
 "ref:`inletrampsthrottle`, changing the neutral rudder position."
 msgstr ""
+"纵向和横向配平通过 :ref:`stick` 的配平帽完成。通过改变操纵杆的回中位置来完成"
+"飞机的配平。方向舵配平通过 :ref:`inletrampsthrottle` 的 **RUDDER TRIM** 完"
+"成，改变方向舵回中位置。"
 
 #: ../../source/general.rst:536
 msgid ""
@@ -1396,6 +1673,8 @@ msgid ""
 "compensates for transonic and supersonic trim changes and the ITS for trim "
 "changes due to flap and speedbrake position changes."
 msgstr ""
+"马赫配平和ITS（集成配平系统）会自动配平以补偿纵向配平变化。马赫配平系统可补偿"
+"跨音速和超音速配平变化并通过减速板和襟翼位置变化来修正ITS。"
 
 #: ../../source/general.rst:541
 msgid "AFCS Automatic Flight Control System"
@@ -1409,6 +1688,9 @@ msgid ""
 "switches on the :ref:`afcs` and pitch, roll and yaw can each be set "
 "individually."
 msgstr ""
+"自动飞行控制系统（AFCS）通过AFCS传感器生成的控制面自动命令提供额外的飞机稳定"
+"性（SAS，稳定性增强系统）。AFCS由 :ref:`afcs` 的开关控制，并且仰俯，滚转和偏"
+"航都可以单独设置。"
 
 #: ../../source/general.rst:546
 msgid ""
@@ -1416,18 +1698,20 @@ msgid ""
 "by solenoids meaning that if the system is turned off or inoperable the "
 "switches return to off. The yaw switch is purely mechanical."
 msgstr ""
+"仰俯和滚转开关会被弹簧顶到关闭位，但通常由螺线管保持其打开，也就是说如果系统"
+"关闭或者不可操作状态下开关会回到关闭位。偏航开关是纯机械的。"
 
 #: ../../source/general.rst:549
 msgid ""
 "Roll SAS should not be used for situations involving flight at AOA above 15 "
 "units and should therefore be set to off for combat maneuvers."
-msgstr ""
+msgstr "当AOA大于15单位时不应使用滚转SAS，因此战斗机动时要把它关闭。"
 
 #: ../../source/general.rst:551
 msgid ""
 "If the autopilot emergency disengage paddle on the control stick is held "
 "down the pitch and roll channels will be set to off."
-msgstr ""
+msgstr "如果按下操纵杆上的自动驾驶仪紧急脱离杆，则仰俯和滚转通道将会关闭。"
 
 #: ../../source/general.rst:554
 msgid "Autopilot"
@@ -1439,10 +1723,12 @@ msgid ""
 "functionality. To use the autopilot all three stabilisation channels must be "
 "enabled."
 msgstr ""
+"除增强稳定性外，AFCS还提供自动驾驶功能。要使用自动驾驶，必须启用所有三个稳定"
+"通道。"
 
 #: ../../source/general.rst:559
 msgid "The controls for the autopilot system are situated on the :ref:`afcs`."
-msgstr ""
+msgstr "自动驾驶系统的控制器位于 :ref:`afcs` 。"
 
 #: ../../source/general.rst:561
 msgid ""
@@ -1450,6 +1736,8 @@ msgid ""
 "altitude hold, vector/pcd (precision course direction) and acl (automatic "
 "carrier landing)."
 msgstr ""
+"可用的自动驾驶模式包括姿态保持，航向保持，地面航迹，高度保持，vector/pcd（精"
+"确航向）和acl（自动航母着陆）。"
 
 #: ../../source/general.rst:563
 msgid ""
@@ -1459,11 +1747,14 @@ msgid ""
 "range. Current attitude can be changed with the control stick and will be "
 "held when the stick is released."
 msgstr ""
+"把自动驾驶的 **ENGAGE** 开关打开即可接通姿态保持，保持飞机当前的姿态。飞机会"
+"自动在30°仰俯和60°滚转范围限制内移动。当前的姿态可以通过操纵杆改变，并在释放"
+"操纵杆后保持。"
 
 #: ../../source/general.rst:567
 msgid ""
 "The **ENGAGE** switch is also a prerequisite for all other autopilot modes."
-msgstr ""
+msgstr "**ENGAGE** 开关也是所有其他自动驾驶模式的先决条件。"
 
 #: ../../source/general.rst:569
 msgid ""
@@ -1471,6 +1762,8 @@ msgid ""
 "aircraft to desired heading and with a bank angle of less than 5° to set "
 "heading."
 msgstr ""
+"HDG开关的 **HDG** 位能激活航向保持，将飞机指向所需航向并且坡度小于5°以设定航"
+"向。"
 
 #: ../../source/general.rst:571
 msgid ""
@@ -1481,6 +1774,9 @@ msgid ""
 "mode will be enabled, setting the autopilot to follow a ground track by "
 "compensating for aircraft wind drift."
 msgstr ""
+"通过将HDG开关设置为 **GT** 进入地面跟踪模式，等待 :ref:`VDI` 左侧的 **A/P "
+"REF** 警告灯亮起，然后按操纵杆上的前轮转向按钮。**A/P REF** 警告灯将关闭，地"
+"面跟踪模式将启用，设置自动驾驶仪补偿飞机风漂并跟随地形轨迹。"
 
 #: ../../source/general.rst:574
 msgid ""
@@ -1488,6 +1784,8 @@ msgid ""
 "ground track mode the **A/P REF** warning light will illuminate until the "
 "nosewheel steering button is depressed, enabling the mode."
 msgstr ""
+"高度保持模式通过 **ALT** 高度开关设置，与地形跟踪模式类似，在按下前轮转向按钮"
+"启用模式前 **A/P REF** 警告灯会亮起。"
 
 #: ../../source/general.rst:576
 msgid ""
@@ -1495,6 +1793,7 @@ msgid ""
 "Link 4 controller to remotely control the aircraft. This is not modelled in "
 "DCS."
 msgstr ""
+"数据链引导航向 - 精准航向指向模式允许 Link4 控制器远程控制飞机。DCS中未模拟。"
 
 #: ../../source/general.rst:578
 msgid ""
@@ -1507,6 +1806,10 @@ msgid ""
 "on the control stick. This engages the ACL and lets the data link control "
 "the aircraft. The **A/P REF** warning light will turn off."
 msgstr ""
+"最后，自动航降模式（ACL）把Link4数据链和舰载雷达信标相结合进行自动航降。要启"
+"用ACL，把VEC/PCD开关拨至 **ACL**，**A/P REF** 将会亮起。截获ACL下滑道并且VDI"
+"的 **ACL READY** 和 **A/P CPLR** 警告灯亮起后按下操纵杆的前轮转向按钮。这将接"
+"通ACL并让数据链控制飞机。 **A/P REF** 警告灯将熄灭。"
 
 #: ../../source/general.rst:583
 msgid ""
@@ -1515,6 +1818,8 @@ msgid ""
 "via the **PLM** button on the right throttle and the APC via the **CAGE/"
 "SEAM** button on the left throttle."
 msgstr ""
+"ACL可以与APC（详见 :ref:`throttlecontrols` ）结合进行全自动降落。ACL可以通过"
+"右油门的 **PLM** 按钮和左油门的 **CAGE/SEAM** 按钮断开。"
 
 #: ../../source/general.rst:586
 msgid ""
@@ -1522,6 +1827,8 @@ msgid ""
 "stick or by depression of the autopilot emergency disengagement paddle, "
 "automatically resetting all autopilot switches to off."
 msgstr ""
+"所有自动驾驶模式都可以通过用力动操纵杆或按下自动驾驶仪紧急断开杆来超控，并把"
+"所有自动驾驶开关重置为关。"
 
 #: ../../source/general.rst:590
 msgid "Spoilers"
@@ -1533,12 +1840,14 @@ msgid ""
 "roll as detailed above under :ref:`fcs`, for braking on the ground as part "
 "of the :ref:`askid` system and as a part of the DLC system (see next header)."
 msgstr ""
+"扰流板位于机翼上翼面，如上所述，:ref:`fcs` 用它控制滚转，作为 :ref:`askid` 系"
+"统的一部分可在地面提供制动，同时也是DLC系统的一部分（见下一个标题）。"
 
 #: ../../source/general.rst:595
 msgid ""
 "The spoilers are only used forwards of 62° wing-sweep as further aft these "
 "conflict with the fuselage."
-msgstr ""
+msgstr "由于和机身冲突，扰流板仅能在翼掠角小于62°时展开。"
 
 #: ../../source/general.rst:597
 msgid ""
@@ -1547,6 +1856,9 @@ msgid ""
 "either inboard or outboard spoilers. If this occurs the **SPOILERS** caution "
 "light on the :ref:`CAindicator` illuminates."
 msgstr ""
+"扰流板故障时，扰流板对称保护逻辑会禁用与故障扰流板相同部分的全部扰流板，无论"
+"内外侧扰流板。如果发生这种情况，:ref:`CAindicator` 的 **SPOILERS** 注意灯会亮"
+"起。"
 
 #: ../../source/general.rst:600
 msgid ""
@@ -1555,10 +1867,12 @@ msgid ""
 "the switch to **ORIDE** and then depressing the **MASTER RESET** button on "
 "the :ref:`fuelmgmtpanel`."
 msgstr ""
+"把对应 :ref:`spoilfailover` 相关部分的开关保护盖掀起并把开关拨至 **ORIDE** ，"
+"然后按下位于 :ref:`fuelmgmtpanel` 的 **MASTER RESET** 按钮即可超控。"
 
 #: ../../source/general.rst:603
 msgid "Spoiler position can be seen on the :ref:`controlsurface`."
-msgstr ""
+msgstr "扰流板位置可以在 :ref:`controlsurface` 看到。"
 
 #: ../../source/general.rst:607
 msgid "DLC Direct Lift Control"
@@ -1571,6 +1885,8 @@ msgid ""
 "uses the two inboard spoiler sections in conjunction with small corrections "
 "on the tail stabilizers to control lift."
 msgstr ""
+"直接升力控制（DLC）不用控制仰俯和油门即可调整下滑道。DLC使用两边内侧扰流板并"
+"微调水平尾翼来调整升力。"
 
 #: ../../source/general.rst:612
 msgid ""
@@ -1579,6 +1895,8 @@ msgid ""
 "enables the DLC & maneuver flap command thumbwheel on the control stick to "
 "control them."
 msgstr ""
+"在襟翼和起落架放下时按下操纵杆的DLC开关来接通DLC。这使内侧扰流板展开一半并能"
+"通过操纵杆的DLC与机动襟翼控制旋钮来调节。"
 
 #: ../../source/general.rst:615
 msgid ""
@@ -1587,10 +1905,12 @@ msgid ""
 "Rotation of the thumbwheel aft retracts the spoilers towards the flush "
 "position, increasing lift and adjusting glideslope position upward."
 msgstr ""
+"向前转旋钮使扰流板向最大位展开，减少升力并降低下滑道。向后转旋钮使扰流板收回"
+"到与机翼平齐的位置，增加升力并提高下滑道。"
 
 #: ../../source/general.rst:618
 msgid "Another depression of the DLC switch disengages the system."
-msgstr ""
+msgstr "再按一下DLC开关断开系统。"
 
 #: ../../source/general.rst:622
 msgid "Flaps and Slats"
@@ -1598,7 +1918,7 @@ msgstr "襟翼和缝翼"
 
 #: ../../source/general.rst:624
 msgid "The flaps and slats on the F-14 Tomcat can be used in two modes."
-msgstr ""
+msgstr "F-14“雄猫”的襟翼和缝翼可用于两种模式。"
 
 #: ../../source/general.rst:626
 msgid ""
@@ -1609,6 +1929,10 @@ msgid ""
 "positions, retracted and extended. They will extend fully when the **FLAP** "
 "handle is at more than 5° extension."
 msgstr ""
+"使用 :ref:`throttlequadrant` 的 **FLAP** 控制杆控制襟翼和缝翼的正常伸展。襟翼"
+"能调到收回和完全展开之间的任意位置，襟翼最大展开至35°，缝翼最大展开至17°。辅"
+"助襟翼即最内侧的襟翼，只有两个位置，收回和展开。当 **FLAP** 控制杆大于5°时它"
+"们将完全展开。"
 
 #: ../../source/general.rst:630
 msgid ""
@@ -1616,6 +1940,8 @@ msgid ""
 "be moved to the **UP** position and then moved outboard and up to the **EMER "
 "UP** position, overriding faulty interlocks."
 msgstr ""
+"如果有阻碍襟翼收回的故障，则应将 **FLAP** 控制杆移至 **UP** 位然后向外移至 "
+"**EMER UP** 位，从而超控故障联锁。"
 
 #: ../../source/general.rst:632
 msgid ""
@@ -1624,6 +1950,8 @@ msgid ""
 "flaps extends to 10° maximum and the slats to 7° maximum and the innermost "
 "flap section is disabled."
 msgstr ""
+"另一种模式是机动机动襟翼系统，CADC自动使用襟翼和缝翼来提升飞机性能。此模式下"
+"襟翼最大伸展至10°，缝翼最大伸展至7°，最内侧部分的襟翼被禁用。"
 
 #: ../../source/general.rst:635
 msgid ""
@@ -1632,6 +1960,8 @@ msgid ""
 "Forward thumbwheel rotation retracts the flaps and slats and aft thumbwheel "
 "rotation extends them."
 msgstr ""
+"虽然通常是自动的，但是仍然可以通过操纵杆的DLC和机动襟翼控制旋钮来手动控制机动"
+"襟翼系统。向前转旋钮收回襟翼和缝翼，向后转旋钮展开它们。"
 
 #: ../../source/general.rst:638
 msgid ""
@@ -1639,11 +1969,13 @@ msgid ""
 "Aft of 21° sweep the auxiliary (inboard flaps) are disabled up. Aft of 50° "
 "all flaps are disabled up. The slats are not inhibited by wing-sweep."
 msgstr ""
+"机翼后掠时襟翼会受到机翼后掠位置的限制。机翼后掠大于21°时辅助（内侧）襟翼会被"
+"禁用并收起。机翼后掠大于50°时所有襟翼都会被禁用并收起。机翼后掠不会限制缝翼。"
 
 #: ../../source/general.rst:642
 msgid ""
 "Position of the flaps and slats are indicated on the :ref:`wheelsflapsind`."
-msgstr ""
+msgstr "襟翼和缝翼的位置在 :ref:`wheelsflapsind` 上指示。"
 
 #: ../../source/general.rst:644
 msgid ""
@@ -1652,6 +1984,9 @@ msgid ""
 "SPEED** warning light on the left side of the :ref:`VDI` indicates flaps not "
 "retracted above 225 knots indicated airspeed."
 msgstr ""
+"飞行员 :ref:`CAindicator` 的 **FLAP** 灯表示襟翼系统出现故障，襟翼处于非对称"
+"位置。 :ref:`VDI` 左侧的 **REDUCE SPEED** 警告灯表示空速高于225节而襟翼未收"
+"起。"
 
 #: ../../source/general.rst:649
 msgid "Speedbrakes"
@@ -1663,6 +1998,8 @@ msgid ""
 "located between the engines and these are powered by the combined hydrualic "
 "system."
 msgstr ""
+"F-14“雄猫”的减速板由位于发动机之间的尾部的三个部分组成，由组合式液压系统提供"
+"动力。"
 
 #: ../../source/general.rst:653
 msgid ""
@@ -1670,6 +2007,8 @@ msgid ""
 "set to desired position depending on how long the switch is held to the "
 "extend position. Retraction always fully retracts the speedbrakes."
 msgstr ""
+"减速板开关位于右 :ref:`throttle` ，可以通过保持在展开位时间的长短来调整减速板"
+"展开的位置。收回永远都是完全收回减速板。"
 
 #: ../../source/general.rst:656
 msgid ""
@@ -1677,16 +2016,18 @@ msgid ""
 "will continue to do so with increasing airspeed, additionally selection of "
 "**MIL** power or above automatically retracts them."
 msgstr ""
+"为了保护减速板，超过400节后它们将开始收回，随着速度的增加逐渐收回，另外，"
+"**MIL** 或更大的推力会自动收回减速板。"
 
 #: ../../source/general.rst:659
 msgid ""
 "As the speedbrakes disturb airflow around the tail the fuel dump is disabled "
 "with speedbrake extension as to not have the fuel hit the aircraft."
-msgstr ""
+msgstr "当展开的减速板扰动机尾周围的气流时，放油会被禁用以免燃油溅到飞机上。"
 
 #: ../../source/general.rst:661
 msgid "Position of the speedbrakes can be seen on the :ref:`wheelsflapsind`."
-msgstr ""
+msgstr "减速板的位置可以在 :ref:`wheelsflapsind` 上看到。"
 
 #: ../../source/general.rst:665
 msgid "Landing Gear System"
@@ -1702,12 +2043,18 @@ msgid ""
 "emergency extension. With the emergency system triggered, the system needs "
 "to be reset by technicians on the ground to allow further normal retraction."
 msgstr ""
+"F-14“雄猫”使用可完全收回的前三点式起落架，并且足够结实以应对航降。起落架的收"
+"放由组合液压系统提供动力并拥有紧急释放系统。紧急释放系统由一个氮气瓶为紧急释"
+"放提供一次性动力。当紧急系统触发后，系统需要地面技术人员复位，以便之后能正常"
+"收回。"
 
 #: ../../source/general.rst:672
 msgid ""
 "For additional information on controls and indicators see :ref:`gearcontrol` "
 "for controls and :ref:`wheelsflapsind` for the indicators."
 msgstr ""
+"有关控制和指示器的更多信息，请看 :ref:`gearcontrol` 和 :ref:"
+"`wheelsflapsind` 。"
 
 #: ../../source/general.rst:676
 msgid "Nosewheel Steering"
@@ -1720,6 +2067,8 @@ msgid ""
 "The activation of this system is indicated via the **NWS ENGA** caution "
 "light on the left side of the HUD, see :ref:`wheelswarn`."
 msgstr ""
+"前轮转向系统可以在机轮受到压力时按下 :ref:`stick` 的前轮转向按钮激活。系统的"
+"激活会通过HUD左侧的 **NWS ENGA** 注意灯来指示，见 :ref:`wheelswarn` 。"
 
 #: ../../source/general.rst:681
 msgid ""
@@ -1728,6 +2077,8 @@ msgid ""
 "also possible to deactivate the system by depression of the nosewheel "
 "steering button."
 msgstr ""
+"该系统会随着机轮受到的压力消失（起飞），供电故障或放下弹射牵引杆而自动断开。"
+"也可以通过按下前轮转向按钮来禁用。"
 
 #: ../../source/general.rst:684
 msgid ""
@@ -1735,6 +2086,8 @@ msgid ""
 "It's capable of a deflection of up to 70° meaning that it will turn tightly "
 "enough that the inner wheel will in fact move backwards."
 msgstr ""
+"系统接通时前轮通过方向舵踏板控制。其偏转能达到70°，也就是说转向半径非常小，以"
+"至于内侧机轮实际上是向后动。"
 
 #: ../../source/general.rst:689
 msgid "Wheelbrakes"
@@ -1746,12 +2099,14 @@ msgid ""
 "the upper part of them, rotating them forwards. The other application is via "
 "the parking brake handle located on the :ref:`gearcontrol` panel."
 msgstr ""
+"踩压方向舵踏板的上部使它向前转可以激活机轮刹车。也可以由 :ref:`gearcontrol` "
+"面板的停放刹激活刹车。"
 
 #: ../../source/general.rst:694
 msgid ""
 "The rudder pedals can be used to apply the brakes gradually while the "
 "parking brakes are either on or off."
-msgstr ""
+msgstr "无论停放刹车开还是关，都可以通过方向舵踏板逐渐增加刹车力度。"
 
 #: ../../source/general.rst:696
 msgid ""
@@ -1760,6 +2115,8 @@ msgid ""
 "the backup accumulators. The :ref:`brakepressind` shows current pressure in "
 "the emergency accumulators."
 msgstr ""
+"通常两个系统都是由组合液压系统提供的，但如果该系统减压，则制动系统会自动切换"
+"到备用聚能器。 :ref:`brakepressind` 显示紧急聚能器的当前压力。"
 
 #: ../../source/general.rst:699
 msgid ""
@@ -1768,6 +2125,8 @@ msgid ""
 "parking brake applications minimum. These accumulators can be recharged via "
 "the :ref:`hydhandpump`."
 msgstr ""
+"辅助聚能器完全加压后能用大约13到14次踏板刹车，至少3次停放刹车。聚能器能通过 :"
+"ref:`hydhandpump` 加压。"
 
 #: ../../source/general.rst:702
 msgid ""
@@ -1775,6 +2134,8 @@ msgid ""
 "parking brake applied, antiskid system fail or that the brakes are operating "
 "in the emergency mode (only when the pedals are depressed)."
 msgstr ""
+"HUD左侧的 **BRAKES** 警告灯表示已激活停放刹车，防滑系统故障或刹车在紧急模式下"
+"运行（仅踩下踏板时）。"
 
 #: ../../source/general.rst:708
 msgid "Antiskid"
@@ -1787,6 +2148,8 @@ msgid ""
 "main wheels are on the ground and the wheels have spun up. Also the system "
 "is not operational below 15 knots."
 msgstr ""
+"防滑系统调节机轮刹车以防止在地面打滑。在空中启用防滑系统将阻止刹车激活，直到"
+"两个主机轮都已经接地并且在旋转。此外，低于15节时该系统不会运作。"
 
 #: ../../source/general.rst:714
 msgid ""
@@ -1794,6 +2157,8 @@ msgid ""
 "deploys the spoilers as brakes when the throttles are set to **IDLE** while "
 "on the ground."
 msgstr ""
+"防滑系统还控制扰流板减速系统，在地面上当油门收到 **IDLE** 时，扰流板会作为减"
+"速板展开。"
 
 #: ../../source/general.rst:716
 msgid ""
@@ -1801,6 +2166,8 @@ msgid ""
 "disturb normal braking even though the antiskid feature not being "
 "operational at those speeds."
 msgstr ""
+"滑行时应该禁用防滑，低于15节时系统可能会干扰刹车正常激活，尽管防滑功能在这个"
+"速度下无法运行。"
 
 #: ../../source/general.rst:718
 msgid ""
@@ -1809,6 +2176,9 @@ msgid ""
 "and the spoiler brake system and **SPOILER BK** enables only the spoiler "
 "brake system."
 msgstr ""
+":ref:`fuelmgmtpanel` 的 **ANTI SKID SPOILER BK** 开关控制此系统。 **OFF** 禁"
+"用系统， **BOTH** 启用防滑和扰流板减速系统， **SPOILER BK** 只启用扰流板减速"
+"系统。"
 
 #: ../../source/general.rst:723
 msgid "Catapult Launch and Arresting Gear"
@@ -1822,13 +2192,13 @@ msgstr "前轮弹射系统"
 msgid ""
 "The nosegear of the F-14 contains the system allowing for catapult assisted "
 "takeoff during carrier based operations."
-msgstr ""
+msgstr "F-14的前起落架包含航母弹射起飞系统。"
 
 #: ../../source/general.rst:730
 msgid ""
 "The three components mounted in or on the nosegear are the nosewheel kneel "
 "functionality, the launch bar and the holdback fitting."
-msgstr ""
+msgstr "安装在前起落架的三个部件为前起落架支柱伸缩系统，弹射牵引杆和止动配件。"
 
 #: ../../source/general.rst:732
 msgid ""
@@ -1836,6 +2206,8 @@ msgid ""
 "on the :ref:`gearcontrol`. This is done by holding the switch to the "
 "**KNEEL** position until downward movement stops."
 msgstr ""
+"要启用系统，使用 :ref:`gearcontrol` 的 **NOSE STRUT** 开关来收缩前起落架支"
+"柱。把开关保持在 **KNEEL** 位直到收缩动作停止即可。"
 
 #: ../../source/general.rst:735
 msgid ""
@@ -1844,10 +2216,13 @@ msgid ""
 "launch bar which can then be lowered manually by the deck crew or by turning "
 "the nosegear more than 10° from center."
 msgstr ""
+"这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。缩短后弹射牵引杆会解"
+"除锁定并放下，也可以由甲板工作人员手动放下或把前起落架偏转离中心超过10°来放"
+"下。"
 
 #: ../../source/general.rst:738
 msgid "In DCS the launch bar is automatically lowered with nosegear kneel."
-msgstr ""
+msgstr "在DCS中，弹射牵引杆会随着前起落架支柱的收缩自动放下。"
 
 #: ../../source/general.rst:740
 msgid ""
@@ -1855,12 +2230,14 @@ msgid ""
 "shuttle, in DCS via default keybind **U**. The holdback bar is currently not "
 "modelled in DCS."
 msgstr ""
+"在DCS中，默认按键 **U** 可以把飞机引导到弹射器并与弹射器滑块连接。止动杆目前"
+"在DCS中未模拟。"
 
 #: ../../source/general.rst:743
 msgid ""
 "Deselection of nosewheel steering should be done before final movement onto "
 "the shuttle and hookup to avoid missalignment."
-msgstr ""
+msgstr "在移动到弹射器滑块并连接之前应关闭前轮转向以避免错位。"
 
 #: ../../source/general.rst:745
 msgid ""
@@ -1868,6 +2245,8 @@ msgid ""
 "to salute the \"shooter\" or officer in command of catapult launch, default "
 "keybind **Left Shift + U** in DCS."
 msgstr ""
+"在正确的程序之后，弹射起飞的最后一步是向“shooter”或指挥弹射作业的军官敬礼，"
+"DCS中默认按键为 **Left Shift + U** 。"
 
 #: ../../source/general.rst:747
 msgid ""
@@ -1876,6 +2255,8 @@ msgid ""
 "aircraft. This also automatically raises the launch bar into its stowed "
 "position."
 msgstr ""
+"弹射器滑块完成冲程，弹射牵引杆从滑块脱离后，前起落架支柱存储的液压能量被释放"
+"以向飞机施加抬头力矩。同时也自动把弹射牵引杆收起。"
 
 #: ../../source/general.rst:750
 msgid ""
@@ -1887,6 +2268,10 @@ msgid ""
 "the nose strut hasn't fully extended, launch bar is not up and locked or "
 "nosewheel hasn't centered correctly. This inhibits nosegear retraction."
 msgstr ""
+"弹射牵引杆的状态通过 :ref:`CAindicator` 的 **LAUNCH BAR** 提示灯指示。机轮受"
+"到压力，弹射牵引杆未收起并锁定时提示灯亮起，油门推至 **MIL** 则熄灭以满足弹射"
+"标准。机轮未受到压力时如果前起落架支柱没有完全伸展，弹射牵引杆没有收起并锁定"
+"或前轮没有正确回中都会导致 **LAUNCH BAR** 注意灯亮起。这会阻碍前起落架收起。"
 
 #: ../../source/general.rst:755
 msgid ""
@@ -1895,6 +2280,9 @@ msgid ""
 "currently not implemented in DCS, unhooking the launch bar is currently "
 "accomplished by another depression of the hookup key, default key **U**."
 msgstr ""
+":ref:`launchbarabort` 包含脱离弹射牵引杆的 **LAUNCH BAR** 开关，用于在弹射中"
+"止的情况下脱离弹射牵引杆。此功能目前尚未在DCS中实现，目前脱离弹射牵引杆需要再"
+"按一次连接键，默认为 **U** 。"
 
 #: ../../source/general.rst:760
 msgid "Arresting Gear"
@@ -1904,14 +2292,14 @@ msgstr "阻拦装置"
 msgid ""
 "The arresting hook located on the underside of the tail of the F-14 is used "
 "for arrested landings during carrier operations."
-msgstr ""
+msgstr "位于F-14尾部下方的阻拦钩用于航降时停下飞机。"
 
 #: ../../source/general.rst:764
 msgid ""
 "To system uses hydraulic power from both flight and combined hydraulic "
 "systems and is controlled electrically, thus requiring electrical power as "
 "well."
-msgstr ""
+msgstr "系统使用来自飞控和组合液压系统的液压动力，并且是电动的，因此需要电。"
 
 #: ../../source/general.rst:766
 msgid ""
@@ -1922,6 +2310,9 @@ msgid ""
 "whenever the arresting hook position does not correspond with handle "
 "position."
 msgstr ""
+"系统通过 :ref:`arrhook` 面板的 **HOOK** 控制杆操作。 **UP** 收起阻拦钩， "
+"**DN** 放下阻拦钩到37°以在便正确执行航降时勾住阻拦索。每当阻拦钩位置与控制杆"
+"位置不对应时，阻拦 **HOOK** 控制杆旁边的过渡灯就会亮起。"
 
 #: ../../source/general.rst:770
 msgid ""
@@ -1931,6 +2322,9 @@ msgid ""
 "releases the mechanical uplock and drain the hydraulic pressure keeping the "
 "hook up, thus lowering it."
 msgstr ""
+"如果发生阻拦钩无法正常放下的故障，则可使用机械备份来放下阻拦钩。要激活机械备"
+"份，拉出控制杆并逆时针旋转90°。这将解开机械锁并排出使阻拦钩保持收起的液压油，"
+"从而放下它。"
 
 #: ../../source/general.rst:774
 msgid ""
@@ -1938,6 +2332,8 @@ msgid ""
 "retract the hook by rotating the handle 90° clockwise and pushing the handle "
 "back in and then setting it in the default **UP** position."
 msgstr ""
+"如果电力和液压都已恢复，则可顺时针旋转控制杆90°并推回原位，然后将其放到默认"
+"的 **UP** 位来收起阻拦钩。"
 
 #: ../../source/general.rst:776
 msgid ""
@@ -1945,6 +2341,8 @@ msgid ""
 "flash with gear down if hook is not also down. This feature can be disabled "
 "using the **HOOK BYPASS** switch on the :ref:`mlightctrlpanel`."
 msgstr ""
+"阻拦钩的位置也会影响进近迎角指示灯，起落架放下而阻拦钩未放下会使之闪烁。此功"
+"能可以通过 :ref:`mlightctrlpanel` 的 **HOOK BYPASS** 开关禁用。"
 
 #: ../../source/general.rst:780
 msgid "ECS Environmental Control System"
@@ -1956,12 +2354,15 @@ msgid ""
 "and pressure-regulated air to cockpit systems and cooling for electronic "
 "equipment and weapons."
 msgstr ""
+"ECS（环境控制系统）控制座舱温度以及舱内大气压，同时为机载设备及武器提供冷却。"
 
 #: ../../source/general.rst:784
 msgid ""
 "The air used is sourced from the engines, one or both, or if needed from the "
 "emergency ram air door on the fuselage inboard of the right glove."
 msgstr ""
+"空气源来自于飞机的一个或者两个发动机，在必要时也可以由机身的右机翼翼套内的紧"
+"急冲压气门获得空气源。"
 
 #: ../../source/general.rst:786
 msgid ""
@@ -1969,6 +2370,8 @@ msgid ""
 "seals, anti-g suit inflation, aircrew suit ventilation, seat cushion "
 "ventilation and windshield anti-ice and defogging."
 msgstr ""
+"ECS为座舱内提供的空气，用于座舱加压，座舱密封，抗G负荷服充气，机组飞行服通"
+"风，座椅缓冲垫通风，前挡风玻璃除冰以及除雾。"
 
 #: ../../source/general.rst:788
 msgid ""
@@ -1976,6 +2379,8 @@ msgid ""
 "external drop tanks, wing airbag seals, electronics cooling and cooling of "
 "the AN/AWG-9 radar and AIM-54 missiles via an air/liquid heat exchanger."
 msgstr ""
+"ECS为舱外系统提供空气，用于外部可抛弃油箱加压，机翼气囊密封，机载电子设备冷却"
+"及通过气/液热交换器对AN/AWG-9雷达和AIM-54导弹冷却。"
 
 #: ../../source/general.rst:792
 msgid "Air Source and Cockpit Air Controls"
@@ -1985,19 +2390,22 @@ msgstr "气源和座舱引气控制"
 msgid ""
 "Air source for the ECS is set using the controls on the :ref:"
 "`airconctrlpanel`."
-msgstr ""
+msgstr "ECS气源的控制位于 :ref:`airconctrlpanel`。"
 
 #: ../../source/general.rst:796
 msgid ""
 "The **L ENG** set air source to left engine, **R ENG** to right engine and "
 "**BOTH** to both engines which is also the normal position while in use."
 msgstr ""
+"\"L ENG\"表示使用左发动机作为气源；“R ENG”表示使用右发动机作为气源；\"BOTH"
+"\"表示同时使用两个发动机作为气源；正常情况下同时使用两个发动机作为气源。"
 
 #: ../../source/general.rst:798
 msgid ""
 "**RAM** and **OFF** both enable the emergency ram door but **OFF** turns off "
 "pressurization and heating."
 msgstr ""
+"\"RAM\"和\"OFF\"都能气动紧急冲压气门，但是\"OFF\"会关闭舱内加压和加热。"
 
 #: ../../source/general.rst:800
 msgid ""
@@ -2007,6 +2415,9 @@ msgid ""
 "**TEMP** switch is set to **AUTO**. If that switch is set to **MAN**, "
 "manual, it will vary depending on airspeed and altitude."
 msgstr ""
+"正常舱内温度由\"TEMP\"开关及同面板上的拨轮开关控制。若\"TEMP\"处于\"AUTO"
+"\"位，拨轮开关将无视飞机空速及高度自动设定温度。若\"TEMP\"开关处于\"MAN\"位，"
+"即手动模式，温度会根据飞机空速和高度变化。"
 
 #: ../../source/general.rst:804
 msgid ""
@@ -2016,6 +2427,10 @@ msgid ""
 "the atmosphere outside. **DUMP** depressurizes the cockpit by opening the "
 "cockpit safety valve."
 msgstr ""
+"**舱内气压** 开关用于控制座舱安全阀，而座舱安全阀决定座舱是否进行加压。若\"舱"
+"内气压\"开关置于 **NORM** 位，座舱气压将会维持在8000英尺至23000英尺之间，当高"
+"度超过23000英尺，则舱内气压将比外环境气压高出5psi。若\"舱内气压\"开关置于 "
+"**DUMP** 位，座舱安全阀将会打开，使得座舱失压。"
 
 #: ../../source/general.rst:808
 msgid ""
@@ -2026,16 +2441,20 @@ msgid ""
 "temperature and **DECR** closes the door and increases temperature. "
 "Springloaded to center."
 msgstr ""
+"**冲压空气** 开关通过开启和关闭紧急冲压气门来控制冲压气门以调节座舱空气温度。"
+"在该模式下，空气直接与发动机热尾气从而获得热气源。 **INCR** 意为“增高”，该档"
+"位下会打开冲压气门从而降低舱内温度。 **DECR** 意为“降低”，该档位下会关闭冲压"
+"气门从而增加舱内温度。调节完毕后开关会跳回中间档位。"
 
 #: ../../source/general.rst:812
 msgid "Selection of **RAM** or **OFF** inhibits gun firing."
-msgstr ""
+msgstr "选择 **RAM** 或者 **OFF** 将使得机炮无法开火。"
 
 #: ../../source/general.rst:814
 msgid ""
 "Current cabin air pressure altitude can be seen on the :ref:`cabpressalt` in "
 "front of the pilot control stick."
-msgstr ""
+msgstr "当前舱内气压高度可以在驾驶杆后的面板上的 :ref:`cabpressalt` 看到。"
 
 #: ../../source/general.rst:816
 msgid ""
@@ -2045,14 +2464,23 @@ msgid ""
 "indicates overheat in the electronics cooling system, indicative of a "
 "failure in the ECS which might damage the electronics."
 msgstr ""
+"**CABIN PRESS** 告警灯位于飞机后座RIO处的 :ref:`cauadvpanel` ，用于提示座舱低"
+"于5psi的绝对气压或者高于27000英尺的座舱气压。在同一个面板下还有 **COOLING "
+"AIR** 提示灯，该提示灯告知航电冷却设备过热，ECS存在故障，可能导致航电设备损"
+"坏。"
 
 #: ../../source/general.rst:819
+#, fuzzy
 msgid ""
 "The anti-g suit pressurisation can be tested via the :ref:`gvalve` for the "
 "pilot and :ref:`rgvalve` for the RIO. The airflow through the suit, or seats "
 "if no suits are worn, are controlled by the **VENT AIRFLOW** thumbwheel on "
 "the pilot :ref:`oxygen` and RIO :ref:`roxyvent` respectively."
 msgstr ""
+"抗荷服加压可以通过 :ref:`gvalve` 测试飞行员的抗荷服，通过 :ref:`rgvalve` 测试"
+"后座RIO的抗荷服。气流穿过抗荷服或在无抗荷服的情况下气流穿过座椅的选择由位于前"
+"舱飞行员处的 :ref:`oxygen` 和位于后座RIO的 :ref:`roxyvent` 的 **VENT "
+"AIRFLOW** 拨轮控制。"
 
 #: ../../source/general.rst:824
 msgid "Windshield Anti-Ice and Defogging"
@@ -2063,6 +2491,7 @@ msgid ""
 "Windshield anti-ice and defogging is controlled via the :ref:"
 "`extenvctrlpanel` and :ref:`candefogairlev`."
 msgstr ""
+"风挡除冰和除雾通过 :ref:`extenvctrlpanel` 和 :ref:`candefogairlev` 控制。"
 
 #: ../../source/general.rst:828
 msgid ""
@@ -2070,6 +2499,8 @@ msgid ""
 "hot bleed air on the outside of the windshield to clear ice and rain on the "
 "glass. **AIR** enables airflow over windshield, **OFF** disables it."
 msgstr ""
+"**WSHLD** 风挡开关位于外部环境面板，它为风挡提供了热气流用于除冰和除水。"
+"**AIR** 位开启热气流，**OFF** 关闭热气流。"
 
 #: ../../source/general.rst:831
 msgid ""
@@ -2079,6 +2510,10 @@ msgid ""
 "through the canopy diffusers while lever fully at **CABIN AIR** redirects "
 "30% through the canopy diffusers and the rest to the cockpit diffusers."
 msgstr ""
+"前舱飞行员处的 :ref:`candefogairlev` 和后座RIO处的 :ref:`rcandefogairlev` 用"
+"于设置通过座舱盖散流器的空气流量以达到座舱除雾的效果。若将把手完全置于 "
+"**CANOPY DEFOG** 位，全部座舱气流将会流入座舱盖散流器；若将把手置于 **CABIN "
+"AIR** 位，只有30%的空气流入座舱盖散流器，余下的空气将进入座舱散流器。"
 
 #: ../../source/general.rst:834
 msgid ""
@@ -2086,6 +2521,9 @@ msgid ""
 "the windshield is warmer than 300° F (149° C). This automatically closes the "
 "valve and stops warm air to the windshield until cooled down."
 msgstr ""
+"位于前座驾驶员处的 :ref:`CAindicator` **WSHLD HOT** 提示灯告知飞行员风挡的温"
+"度已达 300° F (149° C)。该提示灯亮起时，气阀自动关闭从而使热空气不再吹向风挡"
+"直到风挡冷却。"
 
 #: ../../source/general.rst:838
 msgid "AN/AWG-9 and AIM-54 Cooling"
@@ -2096,15 +2534,21 @@ msgid ""
 "The AN/AWG-9 radar and AIM-54 missiles are liquid cooled via independent "
 "liquid/air heat exchangers cooled by ECS air."
 msgstr ""
+"AN/AWG-9雷达和AIM-54导弹均通过液冷的方式冷却，而冷却液通过独立的液/气热交换器"
+"冷却，冷却气体由ECS提供。"
 
 #: ../../source/general.rst:842
 msgid ""
-"The :ref:`liqcool` controls these cooling systems and should be set to **AWG-"
-"9** to enable only the AN/AWG-9 cooler if no AIM-54 Phoenix missiles are "
-"carried. If AIM-54 missiles are loaded **AWG-9/AIM-54** should instead be "
-"set to enable both systems. **OFF** turns off both systems and should not be "
-"set with systems in use as they will overheat."
+"The :ref:`liqcool` controls these cooling systems and should be set to "
+"**AWG-9** to enable only the AN/AWG-9 cooler if no AIM-54 Phoenix missiles "
+"are carried. If AIM-54 missiles are loaded **AWG-9/AIM-54** should instead "
+"be set to enable both systems. **OFF** turns off both systems and should not "
+"be set with systems in use as they will overheat."
 msgstr ""
+":ref:`liqcool` 用于控制这些冷却系统，在没有携带AIM-54导弹的情况下，液体冷却应"
+"该选择 **AWG-9** ，这样液冷系统将只启动AN/AWG-9冷却器。若携带有AIM-54导弹，液"
+"体冷却应该选择 **AWG-9/AIM-54** 来同时为雷达和导弹提供冷却。**OFF** 位将不为"
+"任何设备提供冷却，在设备在用的情况不可以选择该档位，否则设备将会过热。"
 
 #: ../../source/general.rst:845
 msgid ""
@@ -2115,6 +2559,10 @@ msgid ""
 "of the WCS with AIM-54s loaded and liquid cooling switch not set to **AWG-9/"
 "AIM-54**."
 msgstr ""
+"后座RIO处的 :ref:`cauadvpanel` 包含这些系统的指示灯。 **AWG-9 COND** 指示灯表"
+"示AN/AWG-9雷达冷却系统过热，在这种情况下继续使用AN/AWG-9雷达将会导致雷达损"
+"坏。 **MSL COND** 指示灯表示AIM-54冷却系统过热或者启动了武器控制系统在挂载了"
+"AIM-54导弹的同时没有将液冷开关置于**AWG-9/AIM-54** 位。"
 
 #: ../../source/general.rst:851
 msgid "External ECS Air Supply"
@@ -2124,7 +2572,7 @@ msgstr "外部 ECS 供气"
 msgid ""
 "For operation of systems requiring cooling on the ground or on deck it's "
 "possible to connect an external ECS air source to cool them."
-msgstr ""
+msgstr "为了使系统正常运行需要连接地面或者舰上的外部ECS气源进行冷却。"
 
 #: ../../source/general.rst:855
 msgid ""
@@ -2138,22 +2586,35 @@ msgid ""
 "electronics. **OFF** turns off external ECS air supply and is the normal "
 "mode used when the engines are running."
 msgstr ""
+"通常使用的气源不能足以同时为所有系统提供冷却，因此需要设置哪些系统需要冷却。"
+"这个设置由位于后座RIO右侧控制台的 :ref:`iffant` 面板上的 **GND CLG** 开关控"
+"制。 **OBC/CABIN** 位提供外部ECS气源用于舱内和所有气冷机载设备的冷却。该设置"
+"会关闭AN/AWG-9雷达的收发机，毕竟冷却不足以覆盖全部机载设备。 **AWG-9/"
+"AIM-54** 位为AN/AWG-9雷达和AIM-54导弹以及相关航电设备的热交换器提供外部ECS气"
+"源。**OFF** 位关闭外部ECS气源。在正常情况下，发动机运行时应该使用 **OFF** "
+"位。"
 
 #: ../../source/general.rst:861
 msgid ""
 "Any setting on the **GND CLG** other than **OFF** should not be used when "
 "the engines are running."
-msgstr ""
+msgstr "**GND CLG** 上的设置参数除了 **OFF** 位均不应在发动机运行时使用。"
 
 #: ../../source/general.rst:0
 msgid "Note2"
-msgstr ""
+msgstr "注意2"
 
 #: ../../source/general.rst:863
+#, fuzzy
 msgid ""
 "For the Heatblur F-14B in DCS the external ECS air supply is connected via "
 "the same command as the engine starter air."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"由Heatblur为DCS开发的F-14B的外部ECS气源与发动机点火气源命令绑定。"
 
 #: ../../source/general.rst:867
 msgid "Oxygen System"
@@ -2163,7 +2624,7 @@ msgstr "供氧系统"
 msgid ""
 "The F-14 carries one or two 10-liter liquid oxygen bottles providing oxygen "
 "to the crew when needed."
-msgstr ""
+msgstr "F-14携带1瓶或2瓶10公升液态氧气瓶，在必要时为机组提供氧气。"
 
 #: ../../source/general.rst:871
 msgid ""
@@ -2171,6 +2632,8 @@ msgid ""
 "`roxyvent` respectively. Both panels contain an **OXYGEN** switch that sets "
 "oxygen supply to **ON** or **OFF**."
 msgstr ""
+"氧气供应由前座飞行员处的 :ref:`oxygen` 以及后座RIO处的 :ref:`roxyvent` 控制。"
+"2个面板均包含一个 **氧气** 开关用于 **开启** 或者 **关闭** 氧气供应。"
 
 #: ../../source/general.rst:874
 msgid ""
@@ -2180,18 +2643,30 @@ msgid ""
 "driven and if it receives no power an **OFF** flag will be visible and it "
 "will display 0 liters remaining."
 msgstr ""
+"剩余氧气在位于飞行员右侧控制台的 :ref:`liqoxyqtyind` 显示。该仪表显示剩余氧气"
+"量， 在安装有2个全新氧气瓶的情况下，仪表显示的最大值为20公升。指示仪表由电驱"
+"动，若该仪表无供电，则仪表将会竖起 **OFF** 警告旗且显示剩余氧气量为0公升。"
 
 #: ../../source/general.rst:878
 msgid ""
 "Additionally the RIO :ref:`cauadvpanel` has the **OXY LOW** caution light "
 "which illuminates when the liquid oxygen quantity is below 2 liters."
 msgstr ""
+"除此之外，后座RIO处的 :ref:`cauadvpanel` 包含一个 **OXY LOW** 告警灯，该告警"
+"灯在氧气量低于2公升时亮起。"
 
 #: ../../source/general.rst:880
+#, fuzzy
 msgid ""
 "During the **INST** test on the :ref:`MTPanel` the liquid oxygen meter shows "
 "2 liters and the **OXY LOW** caution light illuminates."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"在 :ref:`MTPanel` 的 **INST** 自检过程中，液态氧气指示表将显示2公升，同时 "
+"**OXY LOW** 告警灯将会亮起。"
 
 #: ../../source/general.rst:884
 msgid "Flight Instruments"
@@ -2199,45 +2674,52 @@ msgstr "飞行仪表"
 
 #: ../../source/general.rst:886
 msgid "Apart from the VDIG (HUD and VDI) the F-14 is equipped with:"
-msgstr ""
+msgstr "除了VDIG（平视显示器和垂直显示指示器），F-14还装备了："
 
 #: ../../source/general.rst:888
 msgid "two :ref:`stbyattind` (and :ref:`rstbyattind`)"
-msgstr ""
+msgstr "2个  :ref:`stbyattind` (以及 :ref:`rstbyattind`)"
 
 #: ../../source/general.rst:889
 msgid "two :ref:`pspeedmachind` (and :ref:`rspeedmachind`)"
-msgstr ""
+msgstr "2个 :ref:`pspeedmachind` (以及 :ref:`rspeedmachind`)"
 
 #: ../../source/general.rst:890
 msgid "two :ref:`pservopneualt` (and :ref:`rservopneualt`)"
-msgstr ""
+msgstr "2个 :ref:`pservopneualt` (以及 :ref:`rservopneualt`)"
 
 #: ../../source/general.rst:891
 msgid "a :ref:`vertvelind`"
-msgstr ""
+msgstr "1个 :ref:`vertvelind`"
 
 #: ../../source/general.rst:892
+#, fuzzy
 msgid "a turn and slip indicator (on the :ref:`ACMpanel`)"
-msgstr "一个转弯侧滑指示器（在 :ref:`ACMpanel` 上）"
+msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"一个转弯侧滑指示器（在 :ref:`ACMpanel` 上）\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"1个转弯侧滑指示器（在 :ref:`ACMpanel` 上）"
 
 #: ../../source/general.rst:893
 msgid "an :ref:`acc`"
-msgstr ""
+msgstr "1个 :ref:`acc`"
 
 #: ../../source/general.rst:894
 msgid "a :ref:`pstbycomp`"
-msgstr ""
+msgstr "1个 :ref:`pstbycomp`"
 
 #: ../../source/general.rst:895
 msgid "and two mechanical clocks (:ref:`pclock` and :ref:`rclock`)."
-msgstr ""
+msgstr "以及2个机械时钟(:ref:`pclock` 和 :ref:`rclock`)。"
 
 #: ../../source/general.rst:897
 msgid ""
 "The types that have two installed have one installed on the RIO instrument "
 "panel as well as the pilot one."
-msgstr ""
+msgstr "安装数量为2的仪表分别安装在前座飞行员处和后座RIO处的仪表面板上。"
 
 #: ../../source/general.rst:899
 msgid ""
@@ -2245,12 +2727,14 @@ msgid ""
 "essential buses meaning that they can be powered by the emergency generator "
 "if the main ones fail."
 msgstr ""
+"所有仪表均由电驱动且均连接于必要的汇流条，这意味着在主供电设备失效以后，应急"
+"发电机能够为这些仪表供电。"
 
 #: ../../source/general.rst:901
 msgid ""
 "For more info on the instruments see their respective cockpit panel "
 "descriptions linked above."
-msgstr ""
+msgstr "关于仪表的更多信息，可以通过上面的链接查看它们所对应的座舱面板描述。"
 
 #: ../../source/general.rst:905
 msgid "Canopy"
@@ -2261,10 +2745,11 @@ msgid ""
 "The rear-hinged F-14 canopy is operated hydraulically and pneumatically. "
 "Controls are present in both pilot and RIO cockpits."
 msgstr ""
+"F-14的后挂钩座舱盖由液压及空气作用操控。舱内前座飞行员和后座RIO处均能控制。"
 
 #: ../../source/general.rst:910
 msgid "See :ref:`pcanopylever` or :ref:`rcanopylever` for the controls."
-msgstr ""
+msgstr "相关控制可通过 :ref:`pcanopylever` 或者 :ref:`rcanopylever` 查看。"
 
 #: ../../source/general.rst:912
 msgid ""
@@ -2272,6 +2757,8 @@ msgid ""
 "rio :ref:`cauadvpanel` illuminates if the canopy is not in the down and "
 "locked, secured position."
 msgstr ""
+"**座舱盖** 告警灯同时存在于前座飞行员处的 :ref:`CAindicator` 和后座RIO处的 :"
+"ref:`cauadvpanel`。该告警灯亮起表示座舱盖未关闭或未锁死并处于安全位置。"
 
 #: ../../source/general.rst:916
 msgid "Ejection System"
@@ -2284,6 +2771,9 @@ msgid ""
 "zero/zero system, capable of successfully ejecting the crewmembers at zero "
 "airspeed, stationary, on the ground."
 msgstr ""
+"F-14雄猫装备了2台Martin-Baker GRU-7A 火箭助推弹射座椅，一个供飞行员使用，另一"
+"个则为RIO使用。弹射系统是一个0/0系统，能够在速度为零、静止、或者在地面将机组"
+"成员成功弹射出机舱。"
 
 #: ../../source/general.rst:921
 msgid ""
@@ -2292,6 +2782,9 @@ msgid ""
 "lever, which is located in the RIO cockpit, selects if the RIO ejects the "
 "pilot as well when he ejects."
 msgstr ""
+"F-14作为双座飞机拥有除弹射手柄和保险解除系统外的额外的操纵杆，即弹射控制操纵"
+"杆。该杆位于后座RIO处。当后座RIO弹射时，弹射控制操纵杆可以选择是否也将飞行员"
+"弹射出舱。"
 
 #: ../../source/general.rst:924
 msgid ""
@@ -2300,19 +2793,25 @@ msgid ""
 "while the RIO ejects only himself. When set to **MCO** both crewmembers "
 "eject both crewmembers."
 msgstr ""
+"弹射控制操纵杆位于传感器控制面板旁，见 :ref:`ejectcmdlev`。当设置到 "
+"**PILOT** 位时，飞行员可将2名机组成员同时弹出，而RIO仅能将自己弹出。当设置到 "
+"**MCO** 位时，任意机组成员均可将2人同时弹射出机舱。"
 
 #: ../../source/general.rst:928
 msgid ""
 "The system does not allow pilot-only ejection because it would be "
 "undesirable for the RIO to remain in the aircraft alone."
-msgstr ""
+msgstr "系统不允许只有飞行员1人弹射的情况，因为仅RIO一个人呆在飞机上并不合适。"
 
 #: ../../source/general.rst:930
+#, fuzzy
 msgid ""
 "The pilot has indication of what position the ejection command lever is at "
 "on the :ref:`gearcontrol`, the **EJECT CMD** flip-flop indicator showing "
 "**PILOT** when the lever is in pilot and **MCO** when in MCO."
 msgstr ""
+"飞行员可以在 :ref:`gearcontrol` 看到弹射控制操纵杆所处位置， **EJECT CMD** 触"
+"发指示器在操纵杆位于飞行员是指示 **PILOT** ，位于MCO时指示 **MCO** 。"
 
 #: ../../source/general.rst:932
 msgid ""
@@ -2325,6 +2824,11 @@ msgid ""
 "ejection sequence as the canopy might need longer to clear during a flat "
 "spin."
 msgstr ""
+"当启动弹射程序，但座舱盖并没有弹出时，我们仍可以通过位于前座飞行员处的 :ref:"
+"`pcanjett` 或者后座RIO处 :ref:`rcanjett` 手动进行弹射。如果座舱盖在开始弹射程"
+"序开始后依然未弹射出去，那么座舱盖弹射过程将会重启。如果在水平螺旋中弹射，我"
+"们建议手动弹射座舱盖，这样可以给予充足的时间让弹射出去的座舱盖远离飞机为真正"
+"启动弹射程序净空。"
 
 #: ../../source/general.rst:938
 msgid "Lighting System"
@@ -2334,20 +2838,22 @@ msgstr "灯光系统"
 msgid ""
 "The F-14 Tomcat lighting system consists of the internal and the external "
 "lights."
-msgstr ""
+msgstr "F-14雄猫灯光系统由内部灯光和外部灯光构成。"
 
 #: ../../source/general.rst:942
 msgid ""
 "The internal lights are the red instrument panel and console lights, red and "
 "white floodlights and a moveable utility light at both crew stations."
 msgstr ""
+"内部灯光包括红色仪表板灯和控制台灯，2个机组位置均配置有红白泛光灯和可调节位置"
+"的通用工作灯。"
 
 #: ../../source/general.rst:944
 msgid ""
 "The external lights are the position lights, the anticollision lights, the "
 "formation lights, the taxi light, the approach lights and the refueling "
 "probe light."
-msgstr ""
+msgstr "外部灯光包括航行灯，防撞灯，编队灯，滑行灯，进近灯和空中加油管灯。"
 
 #: ../../source/general.rst:948
 msgid "Internal Lighting"
@@ -2359,18 +2865,22 @@ msgid ""
 "during nighttime, they back-light all instruments and controls allowing "
 "their use while impacting night vision minimally."
 msgstr ""
+"红色仪表板和控制台一般在夜间使用灯光，其灯光以背光灯的形式为所有的仪表和控制"
+"台提供照明，同时背光灯也能最大程度地降低对夜视仪的影响。"
 
 #: ../../source/general.rst:952
 msgid ""
 "The floodlights allow for additional lighting of the cockpit panels but care "
 "should be taken to avoid affecting night vision."
-msgstr ""
+msgstr "泛光灯为座舱面板提供额外的照明，但是注意避免其对夜视仪效果的影响。"
 
 #: ../../source/general.rst:954
 msgid ""
 "The utility lights are movable and can be used to illuminate a specific spot "
 "and as a map or reading light."
 msgstr ""
+"通用工作灯是可以调节位置的，因此它可以用来照亮一些特定的点位或者在看地图时充"
+"当照明。"
 
 #: ../../source/general.rst:956
 msgid ""
@@ -2378,6 +2888,8 @@ msgid ""
 "cockpit and :ref:`intlight` in the RIO cockpit, each controlling their own "
 "cockpit lighting."
 msgstr ""
+"内部灯光的控制位于前座飞行员处的 :ref:`mlightctrlpanel` 以及后座RIO处的 :ref:"
+"`intlight` ，分别控制各自区域的舱内灯光。"
 
 #: ../../source/general.rst:958
 msgid ""
@@ -2385,6 +2897,8 @@ msgid ""
 "function, default keybind Left Alt + L, which moves with the cursor can be "
 "used, providing a similar function."
 msgstr ""
+"通用工作灯的功能并未在DCS中实现。但是手电筒功能，默认按键左Alt+L，可以随鼠标"
+"光标移动，充当通用工作灯功能的近似替代。"
 
 #: ../../source/general.rst:962
 msgid "External Lighting"
@@ -2399,6 +2913,10 @@ msgid ""
 "the wing tip lights. When the wings are swept forward of 25° the wing tip "
 "lights are active and when aft of 25° the glove lights are active instead."
 msgstr ""
+"F-14的航行灯位于两侧机翼翼尖（左侧为红色，右侧为绿色），机身左侧垂尾后部（白"
+"色），翼套上下两侧（左侧为红色，右侧为绿色）。翼套灯被当作翼尖灯的补充。当机"
+"翼向前展开至25度时，那么翼尖灯将会激活；当机翼向前展开不足25度时，那么对应"
+"的，翼套灯会激活。"
 
 #: ../../source/general.rst:967
 msgid ""
@@ -2407,6 +2925,8 @@ msgid ""
 "anticollision lights are on the the position lights can only operate in the "
 "steady mode, otherwise they can be set to flash."
 msgstr ""
+"在起落架放下的情况下，机翼向前展开25度且航行灯处于长亮模式时，翼尖灯和翼套灯"
+"会同时亮起。当防撞灯处于开启位置时，航行灯只能在长亮模式下亮起。"
 
 #: ../../source/general.rst:970
 msgid ""
@@ -2416,6 +2936,9 @@ msgid ""
 "pod mounted lower light only operates while the nosegear wheel door is "
 "closed."
 msgstr ""
+"防撞灯位于机鼻吊舱或者说TCS吊舱处及机身左垂尾顶部前面和右侧垂尾顶部的后面位"
+"置。防撞灯均为红色频闪灯。机鼻吊舱低点处安装的防撞灯只在起落架舱门关闭时才可"
+"以开启。"
 
 #: ../../source/general.rst:973
 msgid ""
@@ -2424,24 +2947,32 @@ msgid ""
 "radome), the wing tips, on the fuselage aft of the wings and on the top edge "
 "of the vertical stabilizers. All duplicated on both sides of the aircraft."
 msgstr ""
+"编队灯为昏暗绿色灯，被用于编队飞行，编队灯能够逐渐调暗。编队灯位于机鼻（就在"
+"雷达罩后面），机翼翼尖，机身后部机翼下面和机身垂尾顶部边缘。所有编队灯都是对"
+"称存在的。"
 
 #: ../../source/general.rst:976
 msgid ""
 "The taxi light is a fixed headlight located on the nosewheel strut. It's "
 "automatically turned off with gear retraction if set to on."
 msgstr ""
+"滑行灯是一个固定的照明灯，位于前起落架支柱上。滑行灯在开启的情况下，如果起落"
+"架收起，则滑行灯将会自动关闭。"
 
 #: ../../source/general.rst:978
+#, fuzzy
 msgid ""
 "The approach lights are also located on the nosewheel strut and replicate "
 "the AoA indexer for the LSOs during carrier traps."
 msgstr ""
+"进近灯同样位于前起落架支架上，进近灯不断重复AOA索引在航母降落时为LSO提供参考"
+"信息。"
 
 #: ../../source/general.rst:980
 msgid ""
 "The refueling probe light is used to illuminate the refueling probe and is "
 "automatically enabled with probe extension."
-msgstr ""
+msgstr "加油管灯用于照亮加油管，该灯在加油管伸出时自动点亮。"
 
 #: ../../source/general.rst:982
 msgid ""
@@ -2449,6 +2980,8 @@ msgid ""
 "for the exterior lights switch on the left throttle (see :ref:`throttle`) "
 "which disables or enables all external lights apart from the approach lights."
 msgstr ""
+"除了左节流阀的外部灯光开关外（ :ref:`throttle`），其他所有外部灯光控制位于 :"
+"ref:`mlightctrlpanel` 。可以关闭或者启动除进近灯以外的外部灯光。"
 
 #: ../../source/general.rst:986
 msgid "Jettison System"
@@ -2458,7 +2991,7 @@ msgstr "抛离系统"
 msgid ""
 "The Jettison system has four modes of operation: emergency, ACM, selective "
 "and auxiliary."
-msgstr ""
+msgstr "抛离系统由4个模式构成：紧急抛离 ，ACM，可选择抛离和辅助抛离。"
 
 #: ../../source/general.rst:991
 msgid "**Emergency Jettison**"
@@ -2470,22 +3003,27 @@ msgid ""
 "`gearcontrol`. Selection causes the **EMERG JETT** caution light to "
 "illuminate on the pilot :ref:`CAindicator`."
 msgstr ""
+"紧急抛离通过在位于 :ref:`gearcontrol` 的 **EMERG STORES JETT** 选择。选择紧急"
+"抛离将导致位于前座飞行员处 :ref:`CAindicator` 的 **EMERG JETT** 告警灯亮起。"
 
 #: ../../source/general.rst:996
 msgid ""
 "The emergency jettison requires only no weight on wheels indicated (no "
 "master arm) and ejects all stores except for Sidewinders."
 msgstr ""
+"紧急抛离要求机轮没有任何负重（军械开关关闭）的情况下才能抛离除了AIM-9响尾蛇导"
+"弹之外的全部挂载。"
 
 #: ../../source/general.rst:999
 msgid "**ACM Jettison**"
-msgstr ""
+msgstr "**ACM 抛离**"
 
 #: ../../source/general.rst:1001
+#, fuzzy
 msgid ""
 "The ACM jettison is selected via the **ACM JETT** button under the ACM cover/"
 "switch on the :ref:`ACMpanel`."
-msgstr ""
+msgstr "ACM抛离在 :ref:`ACMpanel`上通过ACM 盖/开关的 **ACM JETT** 按钮选择。"
 
 #: ../../source/general.rst:1003
 msgid ""
@@ -2494,10 +3032,13 @@ msgid ""
 "jettison the ACM jettison only ejects those stations selected by the RIO on "
 "the :ref:`armpanel` (set to **SEL** or **B** for stations 1 and 8)."
 msgstr ""
+"ACM抛离，就像紧急抛离一样，但不同于关闭军械开关，ACM抛离需要起落架手柄处于收"
+"起状态。和紧急抛离不一样的是，ACM抛离只能由后座RIO通过 :ref:`armpanel` 选择抛"
+"离挂载（设置 **SEL** 或 **B** 选择1和8号挂架）。"
 
 #: ../../source/general.rst:1007
 msgid "**Selective Jettison**"
-msgstr ""
+msgstr "**可选择抛离**"
 
 #: ../../source/general.rst:1009
 msgid ""
@@ -2505,16 +3046,25 @@ msgid ""
 "`armpanel`. This mode of jettisoning requires the landing gear handle to be "
 "in the up position and the master arm to be on."
 msgstr ""
+"可选择抛离由后座RIO在 :ref:`armpanel` 设置和执行。该抛离模式要求起落架手柄处"
+"于收起位置且军械开关开启。"
 
 #: ../../source/general.rst:1012
+#, fuzzy
 msgid ""
 "The procedure for jettison in selective mode is to set the desired station "
 "switches to **SEL** and hold the **SEL JETT** switch to **JETT**."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"可选择抛离模式下的抛离程序是将希望抛离的挂架选择到 **SEL**，然后按住 **SEL "
+"JETT** 到 **JETT**。"
 
 #: ../../source/general.rst:1015
 msgid "**Auxiliary Jettison**"
-msgstr ""
+msgstr "**辅助抛离**"
 
 #: ../../source/general.rst:1017
 msgid ""
@@ -2522,6 +3072,8 @@ msgid ""
 "have failed. Like the selective jettison mode it requires the landing gear "
 "handle to be up and the master arm to be on."
 msgstr ""
+"辅助抛离作为备用模式在其他抛离模式故障时使用。和可选择抛离模式一样，辅助抛离"
+"需要起落架手柄处于收起状态及军械开关开启。"
 
 #: ../../source/general.rst:1020
 msgid ""
@@ -2530,12 +3082,16 @@ msgid ""
 "and level as the stores are not ejected forcefully but instead just released "
 "and cleared using gravity."
 msgstr ""
+"该模式通过驱动正常释放钩抛离挂载（只能抛离空对地武器挂载）。这意味着飞机必须"
+"水平直飞，它不通过强制手段抛离挂载而是在重力的作用下自行离开挂架。"
 
 #: ../../source/general.rst:1023
 msgid ""
 "No jettison mode can jettison ITERs or stores loaded on those, they need to "
 "be dropped like normal, with or without the fuzes armed."
 msgstr ""
+"没有任何一种抛离模式可以抛离ITERs或者ITERs上面的挂载，这些挂载需要在正常模式"
+"下面投放。而这些挂载的引信可以按需设置。"
 
 #: ../../source/general.rst:1027
 msgid "CADC Central Air Data Computer"
@@ -2549,6 +3105,10 @@ msgid ""
 "the wing-sweep schedule and also controls the flaps and slats as they are "
 "limited by that same schedule."
 msgstr ""
+"中央大气数据计算机就像蜘蛛网中心的蜘蛛一样处理绝大多数飞机飞行传感器收集的信"
+"息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC也通过机翼后掠控"
+"制调度程序控制后掠翼。同时CADC也能控制襟翼以及前缘缝翼，襟翼和前缘缝翼同样被"
+"同一套控制调度程序限制。"
 
 #: ../../source/general.rst:1034
 msgid "AN/AWG-9 Weapon Control System (WCS)"
@@ -4704,8 +5264,8 @@ msgid ""
 "the horizon. It can also be turned off manually by the RIO but if the "
 "antenna looks down this can make the displays unusable in RWS and TWS as all "
 "of the ground returns will be sent to the computer for tracking. In "
-"whichever case, with the MLC filter off, the target can not notch the AN/AWG-"
-"9 if it is above the radar."
+"whichever case, with the MLC filter off, the target can not notch the AN/"
+"AWG-9 if it is above the radar."
 msgstr ""
 
 #: ../../source/general.rst:1772
@@ -5219,6 +5779,8 @@ msgid ""
 "into the AN/AWG-9 operation. Then interrogator antenna itself is located on "
 "the AN/AWG-9 antenna gimbal platform."
 msgstr ""
+"AN/APX-72 IFF(敌我识别系统）的询问器集成在AN/AWG-9中，而询问器天线则位于AN/"
+"AWG-9的天线框架平台上。"
 
 #: ../../source/general.rst:1994
 msgid ""
@@ -5228,6 +5790,9 @@ msgid ""
 "military mode 4. This ensures that targets replying to mode 4 interrogations "
 "are indeed friendly."
 msgstr ""
+"IFF系统的工作原理是发射问询信号脉冲，然后监听友军传回的询问器脉冲信号。除了非"
+"加密民用模式外，AN/APX-72还可以在加密的军用模式（mode 4）下进行识别验证，这将"
+"可以确定目标在回应mode4问询信号时是否是友军。"
 
 #: ../../source/general.rst:1998
 msgid ""
@@ -5236,13 +5801,19 @@ msgid ""
 "then activates the interrogator while the button is held or for 10 seconds "
 "if held shorter than that."
 msgstr ""
+"AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，请"
+"按下 :ref:`dddp` 上的IFF开关，当按住开关时询问器将会被激活，如果短暂按下开关"
+"询问器会工作十秒后停止。"
 
 #: ../../source/general.rst:2001
 msgid ""
-"When enabled IFF received IFF returns are then overlaid on the normal AN/AWG-"
-"9 radar returns on the DDD. A friendly target will be indicated with two "
+"When enabled IFF received IFF returns are then overlaid on the normal AN/"
+"AWG-9 radar returns on the DDD. A friendly target will be indicated with two "
 "bars, one above and one below the normal radar return."
 msgstr ""
+"当启用IFF时，接收到的IFF回应信号将覆盖在标准的AN/AWG-9雷达回波信号中，并显示"
+"在DDD上。一个友军单位将会被显示为两条杠，一条在标准雷达信号的上方，一条在标准"
+"雷达回波信号的下方。"
 
 #: ../../source/general.rst:2004
 msgid ""
@@ -5251,6 +5822,8 @@ msgid ""
 "the DDD will switch from normal range display to a ±10 NM display to enable "
 "display of multiple returns in case of closely grouped targets."
 msgstr ""
+"另外，如果STT目标与TID关联，DDD将从一般显示距离切换到±10 NM的显示距离，以此来"
+"显示多个紧密编队目标的雷达信号回波。"
 
 #: ../../source/general.rst:2009
 msgid "Television Camera Set (TCS)"
@@ -5258,8 +5831,8 @@ msgstr "电视摄像套件（TCS）"
 
 #: ../../source/general.rst:2013
 msgid ""
-"U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030418-N-"
-"0382O-591)"
+"U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030418-"
+"N-0382O-591)"
 msgstr ""
 
 #: ../../source/general.rst:2015
@@ -5269,6 +5842,9 @@ msgid ""
 "to have insufficient capability it was decided to replace it with the TCS "
 "giving the F-14 a long range visual identification capability."
 msgstr ""
+"电视摄像套件，也称TCS，是为了替代第一架F-14As战斗机搭载的IRST而制造的。在军方"
+"发现IRST能力不足后，格鲁曼公司决定用TCS代替它，而TCS也因此赋予了F-14战机远程"
+"视觉识别能力。"
 
 #: ../../source/general.rst:2018
 msgid ""
@@ -5280,6 +5856,11 @@ msgid ""
 "except upwards which is limited to +11° and the TCS is capable of "
 "independent contrast lock or being slaved to the AN/AWG-9 radar."
 msgstr ""
+"TCS位于雷达天线罩的下方和后方，正好在前起落架的前方。它包含一个相对机身保持自"
+"稳定的高分辨率闭路电视摄像机。传感器有两种视野的视图，宽视野(WFOV)和窄视野"
+"(NFOV)， 窄视野（NFOV）是0.44°窄视角或10倍放大倍率，宽视野(WFOV) 1.42°宽视角"
+"或4倍放大倍率。传感器的平衡架角度限制为 +/- 15度 ，而向上的角度则被限制为11"
+"度。TCS能够独立的比对并锁定目标，也可以被AN/AWG-9雷达所支配以用来锁定目标。"
 
 #: ../../source/general.rst:2023
 msgid ""
@@ -5288,6 +5869,9 @@ msgid ""
 "in the front seat. Also, the video can be recorded using the airborne video "
 "tape recorder for later review. (Not currently implemented in DCS.)"
 msgstr ""
+"TCS由RIO通过传感器控制面板、DDD、TID和HCU进行控制，传感器的视频可以显示在前座"
+"的TID和VDI上。此外，该视频还可以用机载磁带录像机录制下来，供以后查看。(目前"
+"DCS中没有实现)"
 
 #: ../../source/general.rst:2028
 msgid "TCS Controls and Symbology"
@@ -5299,6 +5883,8 @@ msgid ""
 "control panel, the DDD and the HCU/TID. The pilot display control panel "
 "contains a switch allowing display of TCS video on the VDI."
 msgstr ""
+"TCS的控制器位于后座RIO座舱的传感器控制面板、DDD和HCU/TID。前座飞行员显示控制"
+"面板也包含一个允许在VDI上显示TCS视频的控制开关。"
 
 #: ../../source/general.rst:2038
 msgid ""
@@ -5306,6 +5892,8 @@ msgid ""
 "knobs, the SLAVE switch, the field of view, FOV, switch and the acquire, "
 "ACQ, switch."
 msgstr ""
+"传感器控制面板上用于控制TCS的装置有： TCS微调校准按钮、从动选择器、视野切换开"
+"关 FOV 、目标截获开关 ACQ 。"
 
 #: ../../source/general.rst:2040
 msgid ""
@@ -5316,8 +5904,13 @@ msgid ""
 "target in STT and adjust the knobs until the TCS LOS is correctly aimed at "
 "the locked target."
 msgstr ""
+"TCS微调旋钮控制用来控制相对于AN/AWG-9雷达瞄准线的TCS瞄准线校准，瞄准线也称为"
+"LOS（sensor line of sight）。如果需要，这个微调旋钮可以用来微调TCS，使两个传"
+"感器的瞄准线（LOS）相关联。它们有±2°的活动范围和最简单的方法来检查和校准TCS "
+"STT是否锁定了一个友方目标，然后继续调整旋钮，直到TCS瞄准线瞄准了锁定的目标。"
 
 #: ../../source/general.rst:2044
+#, fuzzy
 msgid ""
 "The **SLAVE** switch controls which sensor is controlled by the other. If "
 "set to **RDR** the radar is slaved to the TCS as long as an optical track "
@@ -5325,6 +5918,14 @@ msgid ""
 "And if set to **TCS** the TCS is slaved to radar LOS as long as an STT track "
 "exists."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+" **SLAVE** 开关主要用来控制某些传感器的从属控制关系。如果调定到 **RDR** ，那"
+"么TCS系统就会在执行光学追踪作业时从属于雷达系统的控制。如果设置为 "
+"**INDEP** ，则各传感器会独立工作。如果将TCS设置为 **TCS** ，那么只要是单目标"
+"追踪模式，TCS就会从属于雷达LOS（瞄准基线）控制。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:2048
 msgid ""
@@ -5332,6 +5933,8 @@ msgid ""
 "**WIDE** sets the 1.42°, 4X magnification FOV and **NAR** sets the narrow "
 "0.44°, 10X magnification FOV."
 msgstr ""
+" **FOV** ，视野选择开关用来控制TCS的视野模式。 **WIDE** 设置1.42度视角，四倍"
+"放大率的视野，而 **NAR** 设置0.44度窄视角，十倍放大率的视野。"
 
 #: ../../source/general.rst:2050
 msgid ""
@@ -5343,6 +5946,11 @@ msgid ""
 "without a search pattern making the TCS snap to a target as long as it's "
 "inside the TCS FOV."
 msgstr ""
+"最后介绍 **ACQ** ，这个探测模式选择开关用来选择TCS探测截获目标的模式， "
+"**AUTO SRCH** 档位用来启用一种全自动搜索模式，这种搜索模式允许在当前FOV视野之"
+"外自动探测离飞机最近的目标。 **MAN** 档位则是手动使用HCU直接进行目标探测截"
+"获。 **AUTO** 档位则是用来设置自动探测模式，这种模式无需搜索，只要目标在TCS的"
+"FOV（视野）内，TCS就会锁定到目标上。"
 
 #: ../../source/general.rst:2057
 msgid "DDD"
@@ -5350,19 +5958,21 @@ msgstr ""
 
 #: ../../source/general.rst:2061
 msgid "The DDD contains two indicators pertaining to the TCS."
-msgstr ""
+msgstr "DDD包含两个与TCS相关的指标器。"
 
 #: ../../source/general.rst:2063
 msgid ""
 "The **DDD EL** meter shows current elevation of the TCS sensor LOS as long "
 "as the IR/TV mode is selected on the HCU."
 msgstr ""
+"只要在HCU上选择IR/TV模式， **DDD EL** 表就会显示TCS LOS 传感器的当前高度。"
 
 #: ../../source/general.rst:2065
 msgid ""
 "The **IROT** light indicates the presence of a TCS track. The IROT acronym "
 "is inherited from the IRST which the TCS replaced."
 msgstr ""
+" **IROT** 灯会指示TCS的追踪状态。IROT的缩写是从TCS所替换的IRST继承而来的。"
 
 #: ../../source/general.rst:2069
 msgid "HCU/TID"
@@ -5375,8 +5985,12 @@ msgid ""
 "itself has a control knob enabling display of the TCS video on the TID as "
 "well as a brightness and contrast control for the video on the TID."
 msgstr ""
+"HCU包含TCS的电源开关和指示灯，以及一个按钮，这个按钮会让系统以HCU来控制TCS，"
+"而TID本身具有一个控制旋钮来调整TID上的TCS视频显示亮度，并控制TID上的视频对比"
+"度。"
 
 #: ../../source/general.rst:2075
+#, fuzzy
 msgid ""
 "The **IR/TV power** switch is located on the top left corner on the HCU "
 "panel and controls power to the TCS. **OFF** disables all power to the TCS. "
@@ -5386,6 +6000,14 @@ msgid ""
 "be available directly. There is also no need to select the STBY position "
 "first, setting the switch to IR/TV directly works fine."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+" **IR/TV电源**  开关位于HCU面板的左上角，用来控制TCS的电源。 **OFF** 关闭所有"
+"TCS电源。 **STBY** 为TCS的冷却风扇和加热器供电。 **IR/TV** 为TCS中的所有系统"
+"供电，允许TCS启动并经过1-2分钟来传输视频图像。此外，也可以直接在TID上显示TCS"
+"的符号。也不需要先选择STBY位置，直接切换到IR/TV即可。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:2081
 msgid ""
@@ -5393,6 +6015,8 @@ msgid ""
 "temperature condition is lit. If present the TCS should be powered off to "
 "prevent damage to the system."
 msgstr ""
+"电源开关旁边的指示灯被点亮表示TCS进入了过热状态。如果出现这种情况，则应关闭"
+"TCS以防止系统损坏。"
 
 #: ../../source/general.rst:2083
 msgid ""
@@ -5400,6 +6024,8 @@ msgid ""
 "TCS sensor, half-action to manually control sensor LOS and full-action to "
 "command target acquisition."
 msgstr ""
+"HCU杆旁的 **IR/TV** 按钮，可以让HCU控制杆对TCS的传感器进行控制、半自动地手动"
+"操作传感器的LOS、或者命令TCS进行全自动的目标探测。"
 
 #: ../../source/general.rst:2085
 msgid ""
@@ -5407,12 +6033,21 @@ msgid ""
 "display of the TCS video on the TID. Note that this disables the TID repeat "
 "on the HSD."
 msgstr ""
+"在TID显示控制界面， 将 **TID MODE** 选择开关设置到 **TV** 档位会让TCS的视频显"
+"示在TID上。"
 
 #: ../../source/general.rst:2087
+#, fuzzy
 msgid ""
 "Finally the **CONTRAST** and **BRIGHTNESS** knobs on the upper part of the "
 "TID can be used to control the TCS video shown on the TID."
 msgstr ""
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"最后通过控制TID上半部分的 **对比度** 和 **亮度** 旋钮来控制TID上显示的TCS视"
+"频。\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
 
 #: ../../source/general.rst:2091
 msgid "Symbology"
@@ -5423,6 +6058,8 @@ msgid ""
 "On the TID in non TV mode a TCS track is indicated by a 1.5\" strobe at TCS "
 "LOS azimuth with a hollow circle at the end."
 msgstr ""
+"在TID处于非TV mode的模式时，TCS追踪将会在TCS的视线下方以一个1.5”英寸的频闪空"
+"心圆指示出来。"
 
 #: ../../source/general.rst:2097
 msgid ""
@@ -5431,6 +6068,9 @@ msgid ""
 "AWG-9 radar LOS relative TCS LOS, **RACH**. Additionally the track window is "
 "indicated by 4 small squares representing each corner of that window."
 msgstr ""
+"来自TCS的视频信号上有FOV的指示器和两个十字准星， **GACH** 用来指示TCS LOS（视"
+"线）相对自身机体的位置， **RACH** 用来指示 AN/AWG-9 雷达视线相对于TCS视线的位"
+"置。另外，追踪窗口由4个小正方形表示，每个小正方形代表窗口的每个边角。"
 
 #: ../../source/general.rst:2100
 msgid ""
@@ -5455,6 +6095,8 @@ msgid ""
 "antenna LOS when inside the current TCS FOV. When the sensors are slaved to "
 "one another RACH and GACH will coincide creating a single solid crosshair."
 msgstr ""
+" **RACH** 或雷达角度十字准线，虚线十字准线，指示雷达天线视线在当前TCS FOV内的"
+"状态。当传感器相互作用时，RACH和GACH会重合，形成一个一致的十字线。"
 
 #: ../../source/general.rst:2108
 msgid ""
@@ -5463,6 +6105,9 @@ msgid ""
 "track these squares collapse into the center of the display being 2% of the "
 "screen width when in manual mode and 5% when in an auto mode."
 msgstr ""
+"如果系统已经获取了一个目标，跟踪窗口将指示当前TCS跟踪器锁定的区域。当TCS没有"
+"激活追踪模式时，这些窗口方块在手动模式下会被折叠为屏幕宽度的2%，而在自动模式"
+"下则会被折叠为屏幕宽度的5%。"
 
 #: ../../source/general.rst:2113
 msgid "TCS Operation"
@@ -5477,6 +6122,10 @@ msgid ""
 "control the LOS of the TCS and full-action commands target acquisition using "
 "the selected acquistion mode."
 msgstr ""
+"TCS的所有探测模式都有一个共同点，即可以在IR/TV模式下使用HCU进行控制。通过选择"
+"HCU上的IR/TV按钮，可以实现此模式，也可以设置DDD EL表(右指示灯)来显示当前TCS传"
+"感器的LOS高度。半自动模式使得HCU能够直接控制TCS的LOS，全自动模式则命令TCS进行"
+"全自动的目标探测。"
 
 #: ../../source/general.rst:2119
 msgid ""
@@ -5485,6 +6134,9 @@ msgid ""
 "target and then selecting full-action. If successfully acquired the track "
 "window will then expand to encompass the target and tracking will begin."
 msgstr ""
+"至于手动模式 **MAN** ，这种手动的TCS探测模式意味着HCU必须在半自动状态下将跟踪"
+"窗口指示并定位在目标上方，然后才可选择全自动操作。如果成功截获目标，跟踪窗口"
+"将展开并框柱目标轮廓，然后开始跟踪。"
 
 #: ../../source/general.rst:2122
 msgid ""
@@ -5495,6 +6147,9 @@ msgid ""
 "pattern around the commanded FOV (by moving the sensor LOS) acquiring the "
 "first found target."
 msgstr ""
+"在自动模式 **AUTO** 下，探测模式与半自动工作原理相同，但在选择全自动探测时，"
+"TCS将自动锁定当前FOV中最靠近中心的目标。自动搜索模式 **AUTO SRCH** 进一步加强"
+"了上述模式，命令FOV(通过移动传感器LOS)获得第一个发现的目标。"
 
 #: ../../source/general.rst:2125
 msgid ""
@@ -5508,18 +6163,26 @@ msgid ""
 "manual mode will also slave to radar LOS but will not lock on, instead just "
 "following the radar LOS."
 msgstr ""
+"当使用TCS slave to radar选项时，两种自动模式会在STT目标出现时自动尝试锁定该目"
+"标，并且会让TCS移动到该目标上，从而实现对锁定的STT目标进行全自动跟踪。此外，"
+"系统在锁定STT目标后TCS会马上将自身的LOS同雷达的LOS作对比,以检查目标是否已经被"
+"正确的锁定。如果两个LOS在3秒的窗口内相差超过几度，系统将尝试对目标展开新的截"
+"获。手动模式下TCS LOS也将从属于雷达LOS，但不会锁定目标，而只是单纯跟随雷达LOS"
+"移动。"
 
 #: ../../source/general.rst:2129
 msgid ""
 "To unlock a tracked target when not being slaved to radar, select half-"
 "action and release."
 msgstr ""
+"在TCS没有从属于雷达控制时如果要多一个目标解除锁定，请选择半自动（half-"
+"action）并释放。"
 
 #: ../../source/general.rst:2131
 msgid ""
 "For information about RDR slaved to TCS check relevant header under AN/AWG-9 "
 "in this chapter."
-msgstr ""
+msgstr "关于RDR的信息，请查看本章AN/AWG-9下的相关标题。"
 
 #: ../../source/general.rst:2135
 msgid "LANTIRN"
@@ -5527,8 +6190,8 @@ msgstr ""
 
 #: ../../source/general.rst:2139
 msgid ""
-"U.S. Navy photo by Photographer's Mate 2nd Class Felix Garza Jr. (030325-N-"
-"4142G-009)"
+"U.S. Navy photo by Photographer's Mate 2nd Class Felix Garza Jr. (030325-"
+"N-4142G-009)"
 msgstr ""
 
 #: ../../source/general.rst:2141
@@ -5818,8 +6481,8 @@ msgstr "威胁标识"
 
 #: ../../source/general.rst:2260
 msgid ""
-"The following table details the threat symbols used by the Heatblur DCS F-"
-"14B."
+"The following table details the threat symbols used by the Heatblur DCS "
+"F-14B."
 msgstr ""
 
 #: ../../source/general.rst:2263
@@ -6779,8 +7442,8 @@ msgstr ""
 
 #: ../../source/general.rst:2553
 msgid ""
-"As the launchers use the R10 section of the programmer, mounting two LAU-"
-"138s result means that the counter for chaff on the controller should be "
+"As the launchers use the R10 section of the programmer, mounting two "
+"LAU-138s result means that the counter for chaff on the controller should be "
 "increased by 40. A chaff only loadout can result in the number of launches "
 "available to be in total 100, which too much for the counter, and that the "
 "counter will effectively show one chaff ejection less than what's really "
@@ -10773,30 +11436,37 @@ msgid ""
 "output of 10 watts. All controls for operation of the radio are on the front "
 "panel of the radio. The radio is located on the pilot left console."
 msgstr ""
+"UHF 1 (ARC-159)无线电提供空空和空面语音通讯。无线电频率范围为225.000到"
+"399.975 MHz。此设备允许发送和接收过程中使用AM模式，预设了20个频道和一个紧急频"
+"道(243.000MHz)。紧急频率在任何其他频率选择后可同时显示。通过人工转动分辨力为"
+"25KHz旋钮，ARC-159有7 000个频率可供选择。ARC-159是一个固态独立单元，最小射频"
+"输出功率为10w。无线电的所有控制操作都在无线电前面板上。无线电位于飞行员座舱左"
+"控制台上。"
 
 #: ../../source/general.rst:4177
 msgid ""
 "Note: The UHF 1 (ARC-159) ADF position is non-functional in the modelled "
 "version of the F-14; use the DF mode of V/UHF 2 ARC-182."
 msgstr ""
+"注意：UHF 1 (ARC-159) 的ADF模式在游戏中无功能；使用V/UHF 2 ARC-182的DF模式。"
 
 #: ../../source/general.rst:4187
 msgid "Controls volume of pilot audio for UHF 1."
-msgstr ""
+msgstr "控制飞行员座舱UHF 1无线电的音量。"
 
 #: ../../source/general.rst:4191
 msgid "SQL (Squelch) switch"
-msgstr ""
+msgstr "SQL（降噪）开关"
 
 #: ../../source/general.rst:4191 ../../source/general.rst:4279
 msgid ""
 "On/off control for radio squelch (noise-blanking when carrier is not "
 "present)."
-msgstr ""
+msgstr "无线电降噪的开关控制（航母不在时的降噪）"
 
 #: ../../source/general.rst:4195 ../../source/general.rst:4283
 msgid "Frequency Tuning switches (Springloaded to Center)"
-msgstr ""
+msgstr "频率调谐开关（弹簧力回中）"
 
 #: ../../source/general.rst:4195 ../../source/general.rst:4283
 msgid ""
@@ -10807,54 +11477,59 @@ msgid ""
 "deflection of the switch increases the numeric reading, and aft deflection "
 "decreases the numeric reading."
 msgstr ""
+"四个频率调节开关用来在模式选择开关位于MANUAL（人工）位时调谐无线电收发器。"
 
 #: ../../source/general.rst:4202
 msgid "FREQ/(CHAN) display"
-msgstr ""
+msgstr "无线电频率/(频道) 显示器"
 
 #: ../../source/general.rst:4202
 msgid ""
 "Displays frequency when mode selector switch is in MANUAL and displays UHF "
 "channel when mode switch is in PRESET."
 msgstr ""
+"当模式选择开关在MANUAL位时显示频率，模式选择开关在PRESET（预设）位时显示UHF频"
+"道。"
 
 #: ../../source/general.rst:4206
 msgid "READ switch"
-msgstr ""
+msgstr "读取开关"
 
 #: ../../source/general.rst:4206
 msgid ""
 "Deflection of the switch causes the frequency display to show the preset "
 "channel frequency."
-msgstr ""
+msgstr "点击开关来让频率显示器显示预设频道的频率。"
 
 #: ../../source/general.rst:4210
 msgid "BRT/TEST control"
-msgstr ""
+msgstr "亮度/测试 控制"
 
 #: ../../source/general.rst:4210
 msgid ""
 "Controls brightness of radio FREQ/(CHAN) display. Turn past max to show "
 "888.888 test display."
 msgstr ""
+"控制无线电频率/（频道）显示器的亮度。转到最大处来进行888.888的测试显示。"
 
 #: ../../source/general.rst:4214
 msgid "LOAD button"
-msgstr ""
+msgstr "载入按钮"
 
 #: ../../source/general.rst:4214
 msgid "Depressing button saves displayed frequency to selected preset channel."
-msgstr ""
+msgstr "按下按钮来将显示的无线电频率保存到之前选择的频道。"
 
 #: ../../source/general.rst:0
 msgid ""
 "ADF – The UHF 1 ARC-159 ADF function is not functional; use the DF mode of "
 "the V/UHF 2 ARC-182."
 msgstr ""
+"ADF – UHF 1 (ARC-159) 的ADF功能在游戏中未实现；使用V/UHF 2 ARC-182的DF模式。"
 
 #: ../../source/general.rst:0
 msgid "BOTH – Energizes both the main transceiver and the guard receiver."
-msgstr ""
+msgstr "BOTH –激活主无线电收发器和紧急无线电接收器。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -10862,34 +11537,38 @@ msgid ""
 "reception. Receive or transmit function is selected by the microphone push-"
 "to-talk switch."
 msgstr ""
+"MAIN –激活主无线电收发器，允许正常的发送和接收。接收或发送功能通过麦克风按下"
+"通话开关激活。"
 
 #: ../../source/general.rst:0
 msgid "OFF – Secures UHF 1 radio."
-msgstr ""
+msgstr "OFF – 关闭 UHF 1无线电"
 
 #: ../../source/general.rst:4228
 msgid "CHAN SEL control"
-msgstr ""
+msgstr "频道选择控制器"
 
 #: ../../source/general.rst:4228
 msgid ""
 "Selects one of 20 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr ""
+msgstr "当调谐选择器开关位于PRESET位时，用来选择20个预设的无线电频道中的一个。"
 
 #: ../../source/general.rst:4232
 msgid "Frequency Chart"
-msgstr ""
+msgstr "频率表"
 
 #: ../../source/general.rst:4232
 msgid ""
 "Used to record preset channel frequencies. Frequencies preset in the mission "
 "editor will be automatically displayed here in DCS."
 msgstr ""
+"用来记录预设无线电频道的频率。在DCS中，任务编辑器预设好的无线电频率会自动显示"
+"在这里。"
 
 #: ../../source/general.rst:4236
 msgid "Mode Selector switch"
-msgstr ""
+msgstr "模式选择开关"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -10897,6 +11576,8 @@ msgid ""
 "243.0 MHz permitting transmission and reception. In this position, both "
 "preset and manual frequency selections are not available."
 msgstr ""
+"GUARD –激活主无线电收发器，转到紧急频率243.0 MHz来进行发送和接收。在这个位"
+"置，预设的和人工输入的无线电频率都失效。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -10905,6 +11586,8 @@ msgid ""
 "selected is displayed in the readout window. In this position, PRESET "
 "selections are not available."
 msgstr ""
+"MANUAL –频率调谐控制器，用来在一定范围内调谐主无线电收发器到任意频率（7 000个"
+"可用）。被选择的频率在读出窗口中显示。在此位置时， PRESET 选择无效。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -10912,16 +11595,18 @@ msgid ""
 "PRESET channel selector. The selected channel is displayed in the readout "
 "window."
 msgstr ""
+"PRESET –通过使用预设频道选择器调谐到20个预设频道中的任何一个频率。选择的频道"
+"在读出窗口显示。"
 
 #: ../../source/general.rst:4244
 msgid "TONE button"
-msgstr ""
+msgstr "调谐按钮"
 
 #: ../../source/general.rst:4244
 msgid ""
 "Depressing button causes a steady tone (1 020 Hz) to be transmitted on the "
 "frequency or channel selected."
-msgstr ""
+msgstr "按下按钮后可在选择的频率或者频道上发送一个稳定的音调（1 020Hz）。"
 
 #: ../../source/general.rst:4248
 msgid ""
@@ -10933,6 +11618,10 @@ msgid ""
 "MHz, and if necessary along with turning UHF 1 or V/UHF 2 radio OFF to avoid "
 "mutual interference between UHF communications."
 msgstr ""
+"UHF通信和数据链的互相干扰可能导致TILT灯亮起，自动驾驶仪ACL或VEC / PCD模式断开"
+"以及数据链回复信息中的鸣叫。注意：虽然在DCS中天线开关未实现，仍然建议无线电频"
+"率之间间隔大于55 MHz，并且如果有必要的话，关闭UHF 1和V / UHF 2无线电中的一"
+"个，以避免UHF通信之间的相互干扰。"
 
 #: ../../source/general.rst:4250
 msgid ""
@@ -10941,10 +11630,12 @@ msgid ""
 "caused by RF interaction between the two radios operating on the same "
 "frequency in close proximity to each other."
 msgstr ""
+"UHF 1和V / UHF 2无线电在相同频率下发送时可能会产生啸叫。这是由在彼此非常接近"
+"的两个无线电设备之间，在相同频率上运行时，无线电频率互相干扰的正常情况。"
 
 #: ../../source/general.rst:4254
 msgid "AN/ARC-182 (V/UHF 2) Radio"
-msgstr ""
+msgstr "AN/ARC-182 (V/UHF 2) 无线电"
 
 #: ../../source/general.rst:4256
 msgid ""
@@ -10954,10 +11645,13 @@ msgid ""
 "88, 108 to 156, 156 to 174, and 225 to 399.975 MHz on any of 11,960 channels "
 "(separated by 25 kHz)."
 msgstr ""
+"ARC-182无线电提供多模式，多频道，空空/空面语音和音调通信。ARC-182控制面板位于"
+"RIO座舱的左控制台。频率分布在四个区间，分别为30到88，108到156，156到174和225"
+"到399.975 MHz中的11,960个频道上的任意一个（相邻频道以25 KHz分开）。"
 
 #: ../../source/general.rst:4259
 msgid "The “Have Quick” anti-jam function is not implemented in DCS."
-msgstr ""
+msgstr "在DCS中，“Have Quick”反干扰功能未实现"
 
 #: ../../source/general.rst:4261
 msgid ""
@@ -10972,83 +11666,90 @@ msgid ""
 "NM (depending on altitude and atmospheric conditions). A remote indicator on "
 "the pilot instrument panel indicates the channel or frequency selected."
 msgstr ""
+"在 AM（调幅） 和 FM（调频） 内无线电发射和接收有效。无线电自动选择调制方式，"
+"但 225 至 399.975 MHz 频段（拨动开关）除外。有30个预设频道可用。随着任意其他"
+"频率被选择，每个频段内的紧急频率可能会同时显示。无线电系统使用 ARA-50 来提供"
+"对发送基站的自动侧向。ARC-182使用安全语音设备来工作(KY-28, KY-58 在DCS中未实"
+"现）。 安装的上下天线提供可靠的200海里视线通信（取决于高度和大气条件）。飞行"
+"员驾驶舱仪表面板上的一个远程显示器显示选择的频道或频率。"
 
 #: ../../source/general.rst:4275
 msgid "Controls volume of RIO audio for V/UHF 2."
-msgstr ""
+msgstr "控制RIO的V/UHF 2无线电音量"
 
 #: ../../source/general.rst:4279
 msgid "SQL (squelch) switch"
-msgstr ""
+msgstr "SQL（降噪）开关"
 
 #: ../../source/general.rst:4290
 msgid "FREQ/(CHAN)"
-msgstr ""
+msgstr "频率/（频道）"
 
 #: ../../source/general.rst:4290
 msgid ""
 "Displays frequency when mode selector switch is in MAN and displays V/UHF "
 "channel when mode switch is in PRESET."
 msgstr ""
+"当主模式选择开关在MAN位时，显示频率，主模式开关在PRESET位时显示V/UHF的频道。"
 
 #: ../../source/general.rst:4294
 msgid "UHF Mode switch"
-msgstr ""
+msgstr "UHF模式开关"
 
 #: ../../source/general.rst:0
 msgid ""
 "Operational when tuned to frequencies in the 225.000 to 399.000 MHz band."
-msgstr ""
+msgstr "频率调谐到225.000到399.000MHz区间时可用"
 
 #: ../../source/general.rst:0
 msgid ""
 "AM – Selects amplitude modulation signals. Varies with atmospheric "
 "conditions, susceptible to electromagnetic interference."
-msgstr ""
+msgstr "AM – 选择调幅信号。随大气条件变化，易受电磁干扰"
 
 #: ../../source/general.rst:0
 msgid ""
 "FM – Selects frequency modulation signals. Reduces electromagnetic "
 "interference."
-msgstr ""
+msgstr "FM – 选择调频信号。能减少电磁干扰的影响"
 
 #: ../../source/general.rst:4302
 msgid "BRT control"
-msgstr ""
+msgstr "亮度控制"
 
 #: ../../source/general.rst:4302
 msgid "Controls brightness of radio FREQ/(CHAN) display."
-msgstr ""
+msgstr "控制无线电频率/（频道）显示器的亮度"
 
 #: ../../source/general.rst:4306
 msgid "MODE selector"
-msgstr ""
+msgstr "模式选择器"
 
 #: ../../source/general.rst:0
 msgid ""
 "OFF – Secures VHF/UHF radio, unless frequency mode switch is set to 243."
-msgstr ""
+msgstr "OFF – 关闭VHF/UHF无线电，除非无线电模式开关设置到243"
 
 #: ../../source/general.rst:0
 msgid "T/R – Energizes transmitter and main receiver."
-msgstr ""
+msgstr "T/R – 激活发送器和主接收器"
 
 #: ../../source/general.rst:0
 msgid "T/R&G – Energizes transmitter, main, and guard receivers."
-msgstr ""
+msgstr "T/R&G – 激活发送器，主要和紧急接收器"
 
 #: ../../source/general.rst:0
 msgid "DF – Provides automatic direction finding from 108 to 399.975 MHz."
-msgstr ""
+msgstr "DF – 提供自动定向，频率从108到3999.975MHz"
 
 #: ../../source/general.rst:0
 msgid ""
 "TEST – Indicates built-in-test (BIT) AT; displayed on FREQ/(CHAN) indicator."
-msgstr ""
+msgstr "TEST（测试） – 显示自检（BIT）AT；显示在无线电频率/（频道）显示器上"
 
 #: ../../source/general.rst:4318
 msgid "Frequency Mode switch (Outer Dial)"
-msgstr ""
+msgstr "频率模式开关（外圈表盘）"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -11057,18 +11758,20 @@ msgid ""
 "receiver to tune to 243.000 MHz (UHF guard frequency). All functions except "
 "VOL SQL and BAT are disabled."
 msgstr ""
+"243 – 打开无线电收发器（优先于（外圈表盘）操作模式控制），使主无线电收发器调"
+"谐到243.000MHz（UHF紧急频率）。除了VOL SQL和BAT功能外所有功能都未实现。"
 
 #: ../../source/general.rst:0
 msgid ""
 "MAN – Allows manual selection of an operating frequency using the frequency "
 "tuning switches. Transceiver is disabled during a frequency change."
-msgstr ""
+msgstr "MAN（人工） –允许通过使用频率调谐开关人工选择一个频率。 "
 
 #: ../../source/general.rst:0
 msgid ""
 "G – Tunes the transceiver to the guard frequency in the band to which the "
 "radio was last tuned."
-msgstr ""
+msgstr "G（紧急） – 把最后进行调谐操作的无线电收发器调谐到紧急频率"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -11077,28 +11780,30 @@ msgid ""
 "display. Channels 31 through 40 are for Have Quick (antijam) use and are not "
 "implemented in DCS."
 msgstr ""
+"PRESET（预设） – 允许通过频道选择开关选择40个预设频道频率中的任意一个。选择的"
+"频道在无线电频率/（频道）显示器上显示。频道31到40用来反干扰，在DCS中未实现。"
 
 #: ../../source/general.rst:0
 msgid ""
 "READ – Displays the frequency (rather than channel) of preset channel "
 "selected."
-msgstr ""
+msgstr "READ（读取） –显示预设频道的频率（而不是频道）"
 
 #: ../../source/general.rst:0
 msgid ""
 "LOAD – Automatically places the displayed frequency into the memory for the "
 "selected preset channel."
-msgstr ""
+msgstr "LOAD（载入）-自动把显示的频率存储到预设的频道"
 
 #: ../../source/general.rst:4332
 msgid "CHAN SEL switch (Inner Dial)"
-msgstr ""
+msgstr "频道选择开关（内圈表盘）"
 
 #: ../../source/general.rst:4332
 msgid ""
 "Selects one of 40 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr ""
+msgstr "当调谐选择开关设置到PRESET（预设）位时，选择40个预设频道中的一个。"
 
 #: ../../source/general.rst:4338
 msgid "Loading (saving) Preset Channel(s) on UHF 1 and V/UHF 2"
@@ -11106,37 +11811,37 @@ msgstr "在 UHF 1 和 V/UHF 2 中读取（保存）预设频道"
 
 #: ../../source/general.rst:4340
 msgid "MODE selection- T/R or T/R&G."
-msgstr ""
+msgstr "模式选择-T/R或T/R&G"
 
 #: ../../source/general.rst:4342
 msgid "Frequency mode control - PRESET."
-msgstr ""
+msgstr "频率模式控制-预设"
 
 #: ../../source/general.rst:4344
 msgid "CHAN SEL switch- Select desired channel."
-msgstr ""
+msgstr "频道选择开关-选择需要的频道"
 
 #: ../../source/general.rst:4346
 msgid "Frequency mode control- READ."
-msgstr ""
+msgstr "频率模式控制-读取"
 
 #: ../../source/general.rst:4348
 msgid "Frequency select switches - Slew to desired Frequency."
-msgstr ""
+msgstr "频率选择开关-调到所需的频率"
 
 #: ../../source/general.rst:4350
 msgid ""
 "Frequency mode control - LOAD (frequency is stored in memory for selected "
 "channel)."
-msgstr ""
+msgstr "频率模式控制-载入（频率存储到选择的频道中）"
 
 #: ../../source/general.rst:4352
 msgid "Frequency mode control- READ, Verify frequency display."
-msgstr ""
+msgstr "频率模式控制-读取，核实频率显示"
 
 #: ../../source/general.rst:4354
 msgid "Repeat steps 2 through 7 for subsequent channels."
-msgstr ""
+msgstr "对后续频道重复步骤2到步骤7"
 
 #: ../../source/general.rst:4358
 msgid "AN/ARC-182 BIT (Built-in Test)"
@@ -11148,141 +11853,143 @@ msgid ""
 "display blanks, indicates an erroneous readout or the transceiver otherwise "
 "malfunctions."
 msgstr ""
+"自检分离了AN/ARC-182的错误。如果无线电频率/（频道）显示器空白，自检应该开始"
+"了，显示一个错误读出数据，否则无线电收发器发生了故障。"
 
 #: ../../source/general.rst:4362
 msgid "Proceed as follows:"
-msgstr ""
+msgstr "按以下步骤操作："
 
 #: ../../source/general.rst:4364
 msgid "MODE selector - TEST."
-msgstr ""
+msgstr "模式选择器 - 测试"
 
 #: ../../source/general.rst:4366
 msgid "BRT control- As Required."
-msgstr ""
+msgstr "亮度控制- 按需"
 
 #: ../../source/general.rst:4368
 msgid "BIT requires approximately 10 seconds, observe FREQ/(CHAN) display."
-msgstr ""
+msgstr "自检需要大约10秒，观察无线电频率/（频道）显示器"
 
 #: ../../source/general.rst:4370
 msgid "No fault is indicated by 888.888."
-msgstr ""
+msgstr "888.888 显示时没有错误"
 
 #: ../../source/general.rst:4372
 msgid ""
 "Faults are indicated by a number that identifies the module or modules at "
 "fault."
-msgstr ""
+msgstr "错误由数字显示，指示组件的错误"
 
 #: ../../source/general.rst:4375
 msgid "Fault"
-msgstr ""
+msgstr "错误"
 
 #: ../../source/general.rst:4375
 msgid "Interpretation"
-msgstr ""
+msgstr "解释"
 
 #: ../../source/general.rst:4377
 msgid "RCV"
-msgstr ""
+msgstr "接收"
 
 #: ../../source/general.rst:4377 ../../source/general.rst:4379
 #: ../../source/general.rst:4381
 msgid "'"
-msgstr ""
+msgstr "'"
 
 #: ../../source/general.rst:4377
 msgid "RMT or RT"
-msgstr ""
+msgstr "RMT 或 RT"
 
 #: ../../source/general.rst:4377 ../../source/general.rst:4379
 msgid "Select test mode"
-msgstr ""
+msgstr "选择测试模式"
 
 #: ../../source/general.rst:4379
 msgid "XMT"
-msgstr ""
+msgstr "XMT"
 
 #: ../../source/general.rst:4379
 msgid "LOW PWR"
-msgstr ""
+msgstr "电源低"
 
 #: ../../source/general.rst:4381 ../../source/general.rst:4383
 #: ../../source/general.rst:4385 ../../source/general.rst:4387
 #: ../../source/general.rst:4389 ../../source/general.rst:4391
 #: ../../source/general.rst:4393
 msgid "TEST"
-msgstr ""
+msgstr "测试"
 
 #: ../../source/general.rst:4381
 msgid "RMT CTRL"
-msgstr ""
+msgstr "RMT控制"
 
 #: ../../source/general.rst:4381
 msgid "Defective control"
-msgstr ""
+msgstr "错误控制"
 
 #: ../../source/general.rst:4383
 msgid "888.888"
-msgstr ""
+msgstr "888.888"
 
 #: ../../source/general.rst:4383
 msgid "NONE"
-msgstr ""
+msgstr "NONE"
 
 #: ../../source/general.rst:4383
 msgid "RT and CTRL ok"
-msgstr ""
+msgstr "RT 和 CTRL ok"
 
 #: ../../source/general.rst:4385
 msgid "4 6 5"
-msgstr ""
+msgstr "4 6 5"
 
 #: ../../source/general.rst:4385 ../../source/general.rst:4391
 #: ../../source/general.rst:4393
 msgid "RT"
-msgstr ""
+msgstr "RT"
 
 #: ../../source/general.rst:4385
 msgid "Modules 4, 5 or 6 bad"
-msgstr ""
+msgstr "组件 4，5或6损坏"
 
 #: ../../source/general.rst:4387
 msgid "0 6 1"
-msgstr ""
+msgstr "0 6 1"
 
 #: ../../source/general.rst:4387
 msgid "VSWR"
-msgstr ""
+msgstr "VSWR"
 
 #: ../../source/general.rst:4387 ../../source/general.rst:4389
 msgid "RT or antenna system"
-msgstr ""
+msgstr "RT 或天线系统"
 
 #: ../../source/general.rst:4389
 msgid "6 5 1"
-msgstr ""
+msgstr "6 5 1"
 
 #: ../../source/general.rst:4389
 msgid "FWD PWR"
-msgstr ""
+msgstr "FWD 电源"
 
 #: ../../source/general.rst:4391
 msgid "1 5 7"
-msgstr ""
+msgstr "1 5 7"
 
 #: ../../source/general.rst:4391
 msgid "Modules 1, 5 or 7 bad"
-msgstr ""
+msgstr "组件 1，5或7损坏"
 
 #: ../../source/general.rst:4393
 msgid "3 3 3"
-msgstr ""
+msgstr "3 3 3"
 
 #: ../../source/general.rst:4393
 msgid "Module 3 bad"
-msgstr ""
+msgstr "组件 3 损坏"
 
 # 分离显示器？
 #: ../../source/general.rst:4398
@@ -11567,19 +12274,9 @@ msgstr ""
 "注：若POWER MODE开关位于C位置时按下ZEROIZE开关，则飞行员和RIO均将听到连续的蜂"
 "鸣音警告。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# #-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# A和C我翻译成了工作模式了
 #: ../../source/general.rst:4521
-#, fuzzy
 msgid "Link 4A & C Data Link"
-msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"Link 4A 和 Link 4C 数据链\n"
-"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
-"#-#\n"
-"Link 4A 和 4C 数据链"
+msgstr "Link 4A 和 4C 数据链"
 
 #: ../../source/general.rst:4523
 msgid ""
@@ -11685,9 +12382,9 @@ msgid ""
 "antenna. As these are the same antennas that the UHF 1 (AN/ARC-159) uses it "
 "automatically sets that radio to the other antenna."
 msgstr ""
-"**ANTENNA** 开关（**1**）控制数据链使用上部或下部天线。由于这些天线和UHF 1"
-"（AN/ARC-159）无线电所使用的天线相同，故选择下部天线则UHF无线电便自动使用上部"
-"天线，反之同理。"
+"**ANTENNA** 开关（**1**）控制数据链使用上部或下部天线。由于这些天线和UHF "
+"1（AN/ARC-159）无线电所使用的天线相同，故选择下部天线则UHF无线电便自动使用上"
+"部天线，反之同理。"
 
 #: ../../source/general.rst:4558
 msgid ""

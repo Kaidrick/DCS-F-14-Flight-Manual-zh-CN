@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 17:32+0800\n"
-"PO-Revision-Date: 2019-02-23 23:26+0800\n"
+"PO-Revision-Date: 2019-02-24 23:34+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -545,7 +545,7 @@ msgid ""
 "VEC/PCD - Vector/PCD mode. Roll and pitch axis is controlled by data link. "
 "Engaged by NWS button on pilot stick."
 msgstr ""
-"VEC/PCD - Vector/PCD 模式。由数据链控制滚转和俯仰轴。通过飞行员驾驶杆上的 "
+"VEC/PCD - 引导航向/PCD 模式。由数据链控制滚转和俯仰轴。通过飞行员驾驶杆上的 "
 "NWS（前轮转向）按钮激活。"
 
 #: ../../source/cockpit.rst:0
@@ -2470,66 +2470,71 @@ msgid ""
 "The horizontal situation display is used to display navigational information "
 "to the pilot. It can also be used to repeat the RIO's TID to the pilot."
 msgstr ""
+"水平状态显示器用于向飞行员显示导航信息。它也用于重复 RIO 的 TID 屏幕中显示的"
+"内容。"
 
 #: ../../source/cockpit.rst:989
 msgid "BRT control"
-msgstr ""
+msgstr "亮度控制旋钮"
 
 #: ../../source/cockpit.rst:989
 msgid "Controls HSD brightness."
-msgstr ""
+msgstr "用于控制 HSD 的亮度。"
 
 #: ../../source/cockpit.rst:991
 msgid "HDG control"
-msgstr ""
+msgstr "航向选择旋钮"
 
 #: ../../source/cockpit.rst:991
 msgid "Controls heading reference bug in TACAN mode."
-msgstr ""
+msgstr "用于 TACAN 模式下设定参考航向游标。"
 
 #: ../../source/cockpit.rst:993
 msgid "CRS control"
-msgstr ""
+msgstr "航线选择旋钮"
 
 #: ../../source/cockpit.rst:993
 msgid "Controls desired course in MAN (manual) and TACAN mode."
-msgstr ""
+msgstr "用于在 TACAN 和 MAN（手动）模式下设定所需航线。"
 
 #: ../../source/cockpit.rst:995
 msgid "TEST button"
-msgstr ""
+msgstr "测试按钮"
 
 #: ../../source/cockpit.rst:995
+#, fuzzy
 msgid ""
 "Allows reset of the HSD to re-enable display if the overload protection is "
 "tripped. Also displays the HSD IR field test display on the HSD."
 msgstr ""
+"如果触发了过载保护，HSD 显示消失，可以通过这个按钮来重置 HSD 显示。同时也用于"
+"在 HSD 上显示 HSD IR 现场测试。"
 
 #: ../../source/cockpit.rst:997
 msgid "BIT indicator"
-msgstr ""
+msgstr "自检状态指示器"
 
 #: ../../source/cockpit.rst:997
 msgid ""
 "Indicates failure in HSD by showing white flags. Reset by rotating it "
 "clockwise."
-msgstr ""
+msgstr "显示白色标示旗时，表示 HSD 故障。逆时针旋转旋钮来重置 HSD。"
 
 #: ../../source/cockpit.rst:1000
 msgid ""
 "For more information see relevant chapters under :ref:`navigation` and for "
 "the TID repeat :ref:`TID`."
 msgstr ""
+"请查阅 :ref:`navigation` 和 :ref:`TID` 中的相关章节来获取更多相关信息。"
 
 # wording
 #: ../../source/cockpit.rst:1006
-#, fuzzy
 msgid "Cabin Pressure Altimeter"
 msgstr "座舱压力高度表"
 
 #: ../../source/cockpit.rst:1009
 msgid "Displays cabin pressure in 1,000 foot increments from 0 to 50,000 feet."
-msgstr ""
+msgstr "以千英尺为单位显示从0至50,000英尺的座舱气压高度。"
 
 #: ../../source/cockpit.rst:1015
 msgid "Emergency Brake Pressure Indicator"
@@ -2539,7 +2544,7 @@ msgstr "应急刹车压强表"
 msgid ""
 "Displays hydraulic pressure available from the emergency brake accumulators "
 "to the auxiliary and parking wheelbrake systems."
-msgstr ""
+msgstr "显示应急刹车蓄压器中的可用于备用刹车和停放刹车系统的液压压强。"
 
 #: ../../source/cockpit.rst:1020
 msgid ""
@@ -2547,6 +2552,9 @@ msgid ""
 "indicates 2,150 to 3,000 psi, red indicates 1,900 to 2,150 psi. When green "
 "there is pressure enough for approximately 3 applications."
 msgstr ""
+"PARK - 显示停放刹车可用的刹车压强。绿色区域对应的范围是2,150至3,000 psi，红色"
+"区域对应的范围是1,900至2,150 psi。指针指向绿色时，蓄压器中的液压压强可供刹车"
+"进行约三次制动操作。"
 
 #: ../../source/cockpit.rst:1022
 msgid ""
@@ -2555,6 +2563,9 @@ msgid ""
 "(approximately 13 to 14 applications) while red indicates 1,900 to 2,150 psi "
 "(approximately 5 applications)."
 msgstr ""
+"AUX - 显示备用刹车系统中的刹车压强，飞行员可以通过脚踏上的指尖刹车来启用备用"
+"刹车。绿色区域对应的范围是2,150至3,000 psi（约可提供13至14次刹车制动），而红"
+"色区域对应的范围则是1,900至2,150 psi（约可提供5次刹车制动）。"
 
 #: ../../source/cockpit.rst:1028
 msgid "Control Stick"
@@ -2564,134 +2575,147 @@ msgstr "驾驶杆"
 msgid ""
 "Used to control aircraft roll and pitch. Also various other functions "
 "according to table below."
-msgstr ""
+msgstr "用于控制飞机滚转和俯仰。同时也用于控制下表所述的各种功能："
 
 #: ../../source/cockpit.rst:1036
 msgid "Bomb release button"
-msgstr ""
+msgstr "炸弹投放按钮"
 
 #: ../../source/cockpit.rst:1036
 msgid ""
 "Stores release button, used for air-to-ground ordnance (except rockets) and "
 "loaded external countermeasures."
 msgstr ""
+"挂载投放按钮，用于投放空对地挂载（火箭弹例外）或发射挂架挂载的电子对抗干扰措"
+"施。"
 
 #: ../../source/cockpit.rst:1038
 msgid "Pitch and roll trim hat"
-msgstr ""
+msgstr "俯仰和滚转配平开关"
 
 #: ../../source/cockpit.rst:1038
 msgid ""
 "Hat used to control trim, up/down trims pitch and left/right trims roll."
-msgstr ""
+msgstr "这个苦力帽开关用于控制配平，上下位置配平俯仰，左右位置配平滚转。"
 
 #: ../../source/cockpit.rst:1040
 msgid "Weapon select hat"
-msgstr ""
+msgstr "武器选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selector hat moveable up and down and depressable."
-msgstr ""
+msgstr "选择开关可上下移动，也可按下。"
 
 #: ../../source/cockpit.rst:0
 msgid "SP or PH - Selects AIM-7 or AIM-54, depression toggles between type."
-msgstr ""
+msgstr "SP / PH - 选择 AIM-7 或 AIM-54，按下开关来切换选中的导弹类型。"
 
 #: ../../source/cockpit.rst:0
 msgid "SW - Selects AIM-9, depression toggles between stations."
-msgstr ""
+msgstr "SW - 选择 AIM-9，按下开关来切换的选中的 AIM-9 挂架。"
 
 #: ../../source/cockpit.rst:0
 msgid "GUN - Selects M-61A1 Vulcan gun."
-msgstr ""
+msgstr "GUN - 选择M-61A1“火神”航炮。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Inhibits weapon release."
-msgstr ""
+msgstr "OFF - 禁止武器发射。"
 
 #: ../../source/cockpit.rst:1050
 msgid "DLC & maneuver flap command wheel"
-msgstr ""
+msgstr "DLC 和机动襟翼控制拨轮"
 
 #: ../../source/cockpit.rst:0
 msgid "Thumbwheel used to control DLC or maneuver flaps."
-msgstr ""
+msgstr "拨轮用于控制 DLC（直接升力控制）或机动襟翼。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "With DLC engaged forward rotation extends spoilers and aft rotation retracts "
 "spoilers."
-msgstr ""
+msgstr "启用 DLC 时，向前转动拨轮张开扰流板，向后转动拨轮收起扰流板。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "With gear and flaps up and DLC disengaged forward rotation retracts "
 "maneuvering flaps/slats and aft rotation extends them."
 msgstr ""
+"起落架和襟翼收起切 DLC 解除时，向前转动拨轮收起机动襟翼/缝翼，向后转动拨轮放"
+"下襟翼。"
 
 #: ../../source/cockpit.rst:1056
 msgid "DLC engage/disengage & countermeasure dispense button"
-msgstr ""
+msgstr "DLC 启用/解除和电子对抗干扰措施布撒按钮"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Momentary depression with flaps down, throttles less than MIL and no spoiler "
 "system failure engages DLC."
 msgstr ""
+"襟翼放下，油门不超过 MIL（军用推力）位置，且扰流板系统无故障时，短按按钮来启"
+"用 DLC。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "With flaps up button sends command to ALE-39 to dispense chaff or flares "
 "according to RIO setting."
 msgstr ""
+"襟翼收起时，按下按钮会命令 ALE-39 根据 RIO 的设置抛射箔条和红外干扰弹。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "DLC is disengaged by further momentary depression of button, raising flaps "
 "or advancing either throttle to MIL."
-msgstr ""
+msgstr "襟翼收起，或油门位置超过 MIL 时，再次短按按钮会解除 DLC 控制。"
 
 #: ../../source/cockpit.rst:1062
+#, fuzzy
 msgid "Autopilot reference & nosewheel steering button"
-msgstr ""
+msgstr "自动驾驶和前轮转向按钮"
 
+# wording
 #: ../../source/cockpit.rst:0
 msgid "Button toggling nosewheel steering with weight on wheels."
-msgstr ""
+msgstr "机轮承重时，按下按钮来启用或关闭前轮转向系统。"
 
 #: ../../source/cockpit.rst:0
 msgid "Without weight on wheels is used to engage enabled autopilot modes."
-msgstr ""
+msgstr "机轮不承重时，按下按钮来启用当前选定的自动驾驶模式。"
 
 #: ../../source/cockpit.rst:1066
 msgid "Autopilot emergency disengage paddle"
-msgstr ""
+msgstr "自动驾驶紧急断开开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Disengages all autopilot modes and DLC and releases all autopilot switches "
 "and roll and pitch SAS switches to OFF position."
 msgstr ""
+"断开所有自动驾驶模式和 DLC，同时将所有自动驾驶模式开关弹回中置位置，并将滚转"
+"和俯仰 SAS（增稳系统）开关退回 OFF 位置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "With weight on wheels additionally reverts throttle mode to MAN (manual) "
 "while depressed."
-msgstr ""
+msgstr "机轮承重时，按下紧急断开开关也会将油门模式退回 MAN（手动）模式。"
 
 #: ../../source/cockpit.rst:1070
 msgid "Weapon firing trigger"
-msgstr ""
+msgstr "武器发射扳机"
 
 #: ../../source/cockpit.rst:1070
 msgid ""
 "Two-stage trigger. First detent enables CTVS and gun camera. Second detent "
 "releases selected forwards firing weapon."
 msgstr ""
+"两端式扳机。第一段激活 CTVS（驾驶舱电视传感器）和照相枪。第二段发射选中的前射"
+"武器。"
 
 #: ../../source/cockpit.rst:1073
 msgid "CTVS not implemented in DCS."
-msgstr ""
+msgstr "DCS 中未实现 CTVS 的功能。"
 
 #: ../../source/cockpit.rst:1079
 msgid "Right Windshield Frame"
@@ -2699,30 +2723,34 @@ msgstr "风挡右边框"
 
 #: ../../source/cockpit.rst:1084
 msgid "ECM Warning Lights"
-msgstr ""
+msgstr "ECM（电子对抗）警告灯光"
 
 #: ../../source/cockpit.rst:1087
 msgid ""
 "Warning lights connected to the ALR-67 indicating different types of threats."
-msgstr ""
+msgstr "这些警告灯与 ALR-67 项链，指示不同类型的雷达威胁。"
 
 #: ../../source/cockpit.rst:1089
 msgid ""
 "SAM - SAM, steady illumination when detecting lock on from a SAM tracking "
 "radar. Flashes when missile launch is detected."
 msgstr ""
+"SAM - 地空导弹，灯光稳定亮起表示侦测到地空导弹跟踪雷达锁定，灯光闪烁表示侦测"
+"到地空导弹发射。"
 
 #: ../../source/cockpit.rst:1091
 msgid ""
 "AAA - AAA, steady illumination when detecting lock on from a AAA tracking "
 "radar. Flashes when AAA firing is detected."
 msgstr ""
+"AAA - 防空高炮，灯光稳定亮起表示侦测到防空炮跟踪雷达锁定，灯光闪烁表示侦测到"
+"防空炮开火。"
 
 #: ../../source/cockpit.rst:1093
 msgid ""
 "AI - AI, steady illumination when detecting lock on from an airborne "
 "interceptor radar."
-msgstr ""
+msgstr "AI - 机载拦截雷达，灯光稳定亮起表示侦测到机载雷达锁定。"
 
 #: ../../source/cockpit.rst:1099
 msgid "Standby Compass"
@@ -2742,53 +2770,58 @@ msgstr "机翼后掠指示器"
 
 #: ../../source/cockpit.rst:1116
 msgid "Indicator detailing status of the wing-sweep system."
-msgstr ""
+msgstr "用于显示后掠翼系统的详细状态。"
 
 #: ../../source/cockpit.rst:1118
 msgid ""
 "Leftmost indicator pointer shows wing-sweep program position which is also "
 "the max forward angle at present airspeed and altitude."
 msgstr ""
+"最左侧的指针指示了机翼后掠控制程序选定的后掠位置，也就是当前的空速和高度下的"
+"最小后掠角度。"
 
 #: ../../source/cockpit.rst:1120
+#, fuzzy
 msgid "Middle tape shows commanded wing-sweep position."
-msgstr ""
+msgstr "中间的指示条显示了指令后掠位置。"
 
 #: ../../source/cockpit.rst:1122
 msgid "Rightmost tape shows actual wing-sweep position."
-msgstr ""
+msgstr "最右侧指示条显示了实际的机翼后掠位置。"
 
 #: ../../source/cockpit.rst:1124
 msgid "The five indicator windows shows current operating mode."
-msgstr ""
+msgstr "五个垂直排列的显示窗口显示了当前的机翼后掠工作模式。"
 
 #: ../../source/cockpit.rst:1130
 msgid "Right Engine Fuel Shutoff Handle"
-msgstr ""
+msgstr "右发断油手柄"
 
 #: ../../source/cockpit.rst:1133
 msgid ""
 "Pull to shut off fuel to the right engine in case of emergency. Push in to "
 "re-enable fuel-flow to the engine. Should not be used to secure the engine."
 msgstr ""
+"紧急情况下，抽出手柄来切断右发动机供油。将手柄推入正常位置来重新向发动机注入"
+"燃油。但这个手柄不应用于（降落后）关闭发动机。"
 
 #: ../../source/cockpit.rst:1135
 msgid ""
 "Right engine fire extinguishing button is located behind the handle, "
 "accessable when the handle is pulled out."
-msgstr ""
+msgstr "右发灭火按钮在手柄后方，抽出手柄后方可使用灭火按钮。"
 
 #: ../../source/cockpit.rst:1141 ../../source/cockpit.rst:2324
 msgid "Standby Attitude Indicator"
-msgstr "备用气压高度表"
+msgstr "备用姿态仪"
 
 #: ../../source/cockpit.rst:1144 ../../source/cockpit.rst:2327
 msgid "Standalone standby attitude indicator."
-msgstr ""
+msgstr "独立工作的备用姿态仪。"
 
 #: ../../source/cockpit.rst:1146 ../../source/cockpit.rst:2329
 msgid "An OFF flag is visible on the left side when caged or when unpowered."
-msgstr ""
+msgstr "表盘左侧显示的 OFF 标示旗表示备用姿态仪锁定或未通电。"
 
 #: ../../source/cockpit.rst:1148 ../../source/cockpit.rst:2331
 msgid ""
@@ -2797,47 +2830,51 @@ msgid ""
 "caged. When pushed in uncages the indicator and allows pitch trim by turning "
 "the knob."
 msgstr ""
+"表盘右下方的旋钮用于锁定/解锁姿态仪和调节俯仰梯度显示。旋钮抽出时，姿态仪锁"
+"定。旋钮按下时，旋转旋钮可以调节俯仰梯度指示线。"
 
 #: ../../source/cockpit.rst:1156
 msgid "UHF/VHF Remote Indicators"
-msgstr ""
+msgstr "UHF/VHF 远程显示器"
 
 #: ../../source/cockpit.rst:1159
 msgid ""
 "Remote indicators displaying set frequency or channel of UHF 1 (AN/ARC-159) "
 "and V/UHF 2 (AN/ARC-182)."
 msgstr ""
+"这个远程显示器用于显示 UHF 1（AN/ARC-159）和 V/UHF 2（AN/ARC-182）中调定的频"
+"率。"
 
 #: ../../source/cockpit.rst:1164
 msgid "UHF 1 remote channel/frequency indicator (pilot)"
-msgstr ""
+msgstr "UHF 1 远程频道/频率显示器（飞行员）"
 
 #: ../../source/cockpit.rst:0
 msgid "Displays a readout of the frequency or channel set for the UHF 1 radio."
-msgstr ""
+msgstr "显示 UHF 1 无线电台调定的频率或频道。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "TEST - Initiates test for the indicator, no fault resulting in 888.888 "
 "readout."
-msgstr ""
+msgstr "TEST - 开始显示器自检，如果通过测试，屏幕中会显示 888.888。"
 
 #: ../../source/cockpit.rst:0
 msgid "DIM - Controls display brightness."
-msgstr ""
+msgstr "DIM - 用于控制显示器亮度。"
 
 #: ../../source/cockpit.rst:1170
 msgid "V/UHF 2 remote channel/frequency indicator (pilot)"
-msgstr ""
+msgstr "V/UHF 2 远程频道/频率指示器（飞行员）"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Displays a readout of the frequency or channel set for the V/UHF 2 radio."
-msgstr ""
+msgstr "显示 V/UHF 2 无线电台调定的频率或频道。"
 
 #: ../../source/cockpit.rst:0
 msgid "BRT - Controls display brightness."
-msgstr ""
+msgstr "BRT - 用于控制显示器亮度。"
 
 #: ../../source/cockpit.rst:1181 ../../source/cockpit.rst:2691
 msgid "Bearing Distance Heading Indicator (BDHI)"
@@ -2845,163 +2882,166 @@ msgstr "方位距离航向指示器（BDHI）"
 
 #: ../../source/cockpit.rst:1184 ../../source/cockpit.rst:2694
 msgid "Display indicating azimuth and bearing information."
-msgstr ""
+msgstr "用于显示方位角和航向信息"
 
 #: ../../source/cockpit.rst:1189 ../../source/cockpit.rst:2699
 msgid "No. 2 bearing pointer"
-msgstr ""
+msgstr "二号方位指针"
 
 #: ../../source/cockpit.rst:1189 ../../source/cockpit.rst:2699
 msgid "Indicates magnetic course to tuned TACAN station."
-msgstr ""
+msgstr "指向调定的 TACAN 基站的磁航线。"
 
 #: ../../source/cockpit.rst:1191 ../../source/cockpit.rst:2701
 msgid "Compass rose"
-msgstr ""
+msgstr "罗盘表盘"
 
 #: ../../source/cockpit.rst:1191 ../../source/cockpit.rst:2701
 msgid "Shows current aircraft magnetic heading."
-msgstr ""
+msgstr "显示当前飞机的磁航向"
 
 #: ../../source/cockpit.rst:1193 ../../source/cockpit.rst:2703
 msgid "No. 1 bearing pointer"
-msgstr ""
+msgstr "一号方位指针"
 
 #: ../../source/cockpit.rst:1193 ../../source/cockpit.rst:2703
 msgid "Indicates bearing to tuned UHF/ADF station."
-msgstr ""
+msgstr "指向调定的 UHF/ADF 基站的方位"
 
 #: ../../source/cockpit.rst:1195 ../../source/cockpit.rst:2705
 msgid "Distance counter"
-msgstr ""
+msgstr "距离计数器"
 
 #: ../../source/cockpit.rst:1195 ../../source/cockpit.rst:2705
 msgid ""
 "Indicates slant range to tuned TACAN station in nautical miles. (Not visible "
 "in this image.)"
-msgstr ""
+msgstr "显示本机至调定的 TACAN 基站的斜距（图中不可见）。"
 
 #: ../../source/cockpit.rst:1203 ../../source/cockpit.rst:2604
 msgid "ALR-67 Indicator"
-msgstr "ALR-67 指示器"
+msgstr "ALR-67 显示器"
 
 #: ../../source/cockpit.rst:1206 ../../source/cockpit.rst:2607
 msgid ""
 "Indicator showing emitters detected by the ALR-67 RWR (radar warning "
 "receiver) set."
-msgstr ""
+msgstr "用于显示 ALR-67 RWR（雷达警告接收器）组件侦测到的辐射源。"
 
 #: ../../source/cockpit.rst:1211 ../../source/cockpit.rst:2612
 msgid "System status circle, area I"
-msgstr ""
+msgstr "系统状态圈，区域 I"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Upper left quadrant of 1. Shows symbol indicating type of threats selected "
 "to be shown."
-msgstr ""
+msgstr "区域 I 的左上象限中显示的符号代表威胁目标的显示类型。"
 
 #: ../../source/cockpit.rst:0
 msgid "N - Normal priority"
-msgstr ""
+msgstr "N - 正常优先级"
 
 #: ../../source/cockpit.rst:0
 msgid "I - AI, airborne interceptors prioritized."
-msgstr ""
+msgstr "I - AI，优先显示机载拦截雷达威胁"
 
 #: ../../source/cockpit.rst:0
 msgid "A - AAA, anti-air artillery prioritized."
-msgstr ""
+msgstr "A - AAA，优先显示防空高炮威胁"
 
 #: ../../source/cockpit.rst:0
 msgid "U - Unknown emitters prioritized."
-msgstr ""
+msgstr "U - 优先显示未知辐射源"
 
 #: ../../source/cockpit.rst:0
 msgid "F - Friendly emitters shown in addition to other threats."
-msgstr ""
+msgstr "F - 显示其他雷达威胁的同时也显示友方信号源"
 
 #: ../../source/cockpit.rst:1223 ../../source/cockpit.rst:2624
 msgid "System status circle, area II"
-msgstr ""
+msgstr "系统状态圈，区域 II"
 
 #: ../../source/cockpit.rst:0
 msgid "Upper right quadrant of 1. Indicates if limited mode is selected."
-msgstr ""
+msgstr "区域 I 的右上象限中的标志显示 ARL-67 是否处于限制模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "(Blank) - Limited mode not selected."
-msgstr ""
+msgstr "无显示 - 未选择限制模式。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "L - Limited mode selected, display shows only 6 highest prioritized threats."
-msgstr ""
+msgstr "L - 选用限制模式，只显示威胁最高的6个雷达威胁。"
 
 #: ../../source/cockpit.rst:1229 ../../source/cockpit.rst:2630
 msgid "System status circle, area III"
-msgstr ""
+msgstr "系统状态圈，区域 III"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Lower half of 1. Displays failure codes and if offset display is selected."
-msgstr ""
+msgstr "区域 I 的下半部分用于显示故障编码，或指示是否启用了威胁目标符号偏置。"
 
 #: ../../source/cockpit.rst:0
 msgid "(Blank) - No failure detected and offset not selected."
-msgstr ""
+msgstr "无显示 - 无故障且未选择符号偏置。"
 
 #: ../../source/cockpit.rst:0
 msgid "B - BIT failure."
-msgstr ""
+msgstr "B - BIT（自检）未通过"
 
 #: ../../source/cockpit.rst:0
 msgid "T - Thermal overload."
-msgstr ""
+msgstr "T - 过热"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "O - Offset display selected. Threats will be separated to allow readout of "
 "overlapping symbols. Bearing accuracy degraded for displaced threats."
 msgstr ""
+"O - 选择了偏置显示模式。重叠的威胁目标符号会偏置显示，以增强可读性。选择偏置"
+"显示模式时，显示器指示目标方位信息的精度会下降。"
 
 #: ../../source/cockpit.rst:1239 ../../source/cockpit.rst:2640
 msgid "Non-lethal band"
-msgstr ""
+msgstr "非致命威胁区"
 
 #: ../../source/cockpit.rst:1239
 msgid ""
 "Displays emitters not a direct threat to own aircraft, either because deemed "
 "out of range or lacking weaponry."
 msgstr ""
+"用于显示 RWR 认为处于射程外，或未装备武器，从而不直接对本机构成威胁的辐射源。"
 
 #: ../../source/cockpit.rst:1241 ../../source/cockpit.rst:2642
 msgid "Lethal band"
-msgstr ""
+msgstr "致命威胁区"
 
 #: ../../source/cockpit.rst:1241
 msgid ""
 "Displays threats that are deemed within range and capable of engaging own "
 "aircraft but not currently doing so."
-msgstr ""
+msgstr "用于显示 RWR 认为处于射程内，且装备武器，但并未攻击本机的辐射源。"
 
 #: ../../source/cockpit.rst:1243 ../../source/cockpit.rst:2644
 msgid "Critical band"
-msgstr ""
+msgstr "严重威胁区"
 
 #: ../../source/cockpit.rst:1243 ../../source/cockpit.rst:2644
 msgid ""
 "Displays direct threats to own aircraft. Systems capable of engaging own "
 "aircraft and showing current intent of doing so."
-msgstr ""
+msgstr "显示对本机构成直接威胁的辐射源。辐射源有能力攻击本机，且攻击意图明显。"
 
 #: ../../source/cockpit.rst:1245 ../../source/cockpit.rst:2646
 msgid "INT knob"
-msgstr ""
+msgstr "亮度控制旋钮"
 
 #: ../../source/cockpit.rst:1245 ../../source/cockpit.rst:2646
 msgid "Intensity/brightness knob. Controls the brightness of the display."
-msgstr ""
+msgstr "用于控制显示器的亮度。"
 
 #: ../../source/cockpit.rst:1252 ../../source/cockpit.rst:2713
 msgid "Canopy Jettison Handle"
@@ -3009,7 +3049,7 @@ msgstr "驾驶舱盖抛离手柄"
 
 #: ../../source/cockpit.rst:1255
 msgid "Used to jettison canopy manually."
-msgstr ""
+msgstr "用于手动抛离驾驶舱盖。"
 
 #: ../../source/cockpit.rst:1261 ../../source/cockpit.rst:2722
 msgid "Right Knee Panel"
@@ -3017,43 +3057,45 @@ msgstr "右膝仪表板"
 
 #: ../../source/cockpit.rst:1266
 msgid "Fuel Quantity Indicator"
-msgstr ""
+msgstr "油量表"
 
 #: ../../source/cockpit.rst:1269
 msgid "Shows fuel quantity in the different aircraft tanks."
-msgstr ""
+msgstr "用于显示飞机不同油箱中的燃油量。"
 
 #: ../../source/cockpit.rst:1274
 msgid "BINGO readout"
-msgstr "BINGO 油量读数"
+msgstr "BINGO 油量显示"
 
 #: ../../source/cockpit.rst:1274
 msgid "Shows currently set BINGO fuel quantity."
-msgstr ""
+msgstr "显示当前调定的 BINGO 油量（返航油量）。"
 
 #: ../../source/cockpit.rst:1276
 msgid "TOTAL counter"
-msgstr ""
+msgstr "总油量显示"
 
 #: ../../source/cockpit.rst:1276
 msgid ""
 "Total fuel quantity readout, shows totalled fuel quantity in all aircraft "
 "tanks."
-msgstr ""
+msgstr "燃油总量读数对应了飞机所有油箱中的燃油总量。"
 
 #: ../../source/cockpit.rst:1278
 msgid "L & R counters"
-msgstr ""
+msgstr "左/右油量显示"
 
 #: ../../source/cockpit.rst:1278
 msgid ""
 "Shows fuel quantity in currently selected respective (L or R) tanks (feed, "
 "wing or ext) set by the QTY SEL switch on the fuel management panel."
 msgstr ""
+"显示对应一侧（左或右）的、由燃油管理面板中的 QTY SEL 开关选中的油箱（供油油"
+"箱、机翼油箱或外部油箱）油量。"
 
 #: ../../source/cockpit.rst:1280
 msgid "FUS & FEED tapes"
-msgstr ""
+msgstr "FUS & FEED（机身油箱和供油油箱）指示条"
 
 #: ../../source/cockpit.rst:1280
 msgid ""
@@ -3061,18 +3103,20 @@ msgid ""
 "feed and aft fuselage tanks. Right tape indicates right feed and forward "
 "fuselage tanks."
 msgstr ""
+"显示对应油箱中的油量。左指示条指示左供油油箱和后机身油箱钟的燃油量。右指示条"
+"指示右侧供油油箱和前机身油箱中的燃油量。"
 
 #: ../../source/cockpit.rst:1282
 msgid "SET knob"
-msgstr ""
+msgstr "BINGO 设置旋钮"
 
 #: ../../source/cockpit.rst:1282
 msgid "Knob used to set BINGO fuel quantity. Turn to set desired quantity."
-msgstr ""
+msgstr "用于选择返航油量（BINGO），旋转旋钮来调定所需油量。"
 
 #: ../../source/cockpit.rst:1289
 msgid "Accelerometer"
-msgstr ""
+msgstr "加速度表"
 
 #: ../../source/cockpit.rst:1292
 msgid ""
@@ -3082,6 +3126,9 @@ msgid ""
 "positive g-load. These can be reset by pushing the PUSH TO SET button on the "
 "lower left corner of the instrument."
 msgstr ""
+"显示当前飞机过载值（沿飞机垂直轴的加速度）的仪表。它的显示范围是 -5G 至 "
+"+10G。 其中一个指针将显示当前 G 值，而另外两个指针指示飞行过程中受到的最大正 "
+"G 和负 G 过载值。 按下仪器左下角的重置按钮可以重置指针位置。"
 
 #: ../../source/cockpit.rst:1298 ../../source/cockpit.rst:2591
 msgid "Clock"
@@ -3089,19 +3136,20 @@ msgstr "时钟"
 
 #: ../../source/cockpit.rst:1301 ../../source/cockpit.rst:2594
 msgid "Mechanical wind up clock."
-msgstr ""
+msgstr "机械发条时钟。"
 
 #: ../../source/cockpit.rst:1303 ../../source/cockpit.rst:2596
 msgid ""
 "The knob on the lower left corner is used to wind up the clock by turning it "
 "clockwise and pulled out and turned to set the hour and minute hands."
 msgstr ""
+"左下角的旋钮用于上紧时钟发条，顺时针旋转旋钮，然后抽出旋钮来设置时针和分针。"
 
 #: ../../source/cockpit.rst:1305 ../../source/cockpit.rst:2598
 msgid ""
 "The control on the upper right corner is used to start, stop and reset a 1-"
 "hour elapsed time counter."
-msgstr ""
+msgstr "右上角的按钮用于开始、停止和重置时长为1小时的计时器。"
 
 #: ../../source/cockpit.rst:1311 ../../source/cockpit.rst:2766
 msgid "Right Vertical Console"
@@ -3109,41 +3157,43 @@ msgstr "右垂直控制台"
 
 #: ../../source/cockpit.rst:1316
 msgid "Arresting Hook Panel"
-msgstr "着舰钩面板"
+msgstr "阻拦钩控制面板"
 
 #: ../../source/cockpit.rst:1319
 msgid "Panel controlling arrestor hook."
-msgstr ""
+msgstr "用于控制阻拦钩。"
 
 #: ../../source/cockpit.rst:1324
 msgid "HOOK handle"
-msgstr ""
+msgstr "阻拦钩手柄"
 
 #: ../../source/cockpit.rst:0
 msgid "Arresting hook handle, selects arresting hook position."
-msgstr ""
+msgstr "用于选择阻拦钩的位置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "UP - Electrically actuates hydraulic retractation of the hook and locks it "
 "in the uplock."
-msgstr ""
+msgstr "UP - 电动向液压系统增压，升起阻拦钩并上锁。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "DOWN - Electrically releases hydraulic pressure allowing hook to extend via "
 "dashpot pressure and gravity."
-msgstr ""
+msgstr "DN - 电动释放液压系统压强，使阻拦钩受缓冲器压力和自身重力展开。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "EMERG DOWN - When handle is pulled and twisted counter-clockwise the hook is "
 "mechanically released for extention."
 msgstr ""
+"EMERG DOWN（应急放钩） - 抽出并逆时针旋转手柄会释放阻拦钩锁定机构，使阻拦钩展"
+"开。"
 
 #: ../../source/cockpit.rst:1332
 msgid "Hook transition light"
-msgstr ""
+msgstr "阻拦钩过渡指示灯"
 
 #: ../../source/cockpit.rst:1332
 msgid ""
@@ -3151,16 +3201,20 @@ msgid ""
 "turn off until fully extended and may remain illuminated when lowered at "
 "high speeds due to hook blowback."
 msgstr ""
+"灯光亮起表示阻拦钩实际位置与阻拦钩手柄对应位置不符。高速飞行中放下阻拦钩时，"
+"由于空气向后吹动阻拦钩，使其无法展开，因此指示灯直到阻拦钩完全展开才会熄灭。"
 
 #: ../../source/cockpit.rst:1334
 msgid "GUN"
-msgstr ""
+msgstr "航炮弹药计数器"
 
 #: ../../source/cockpit.rst:1334
 msgid ""
 "Rounds remaining indicator for M-61A1 gun. Counts down from 676 but can be "
 "reset to desired readout with the knob on the right side."
 msgstr ""
+"显示 M-61A1 航炮的剩余弹药数量。从 676 开始倒数，但可按需使用右侧的旋钮调整至"
+"所需数值。"
 
 #: ../../source/cockpit.rst:1341
 msgid "Displays Control Panel"
@@ -3168,25 +3222,27 @@ msgstr "显示器控制面板"
 
 #: ../../source/cockpit.rst:1344
 msgid "Control panel for front cockpit displays."
-msgstr ""
+msgstr "用于控制前座驾驶舱中的显示器。"
 
 #: ../../source/cockpit.rst:1349
 msgid "STEERING CMD selectors"
-msgstr ""
+msgstr "转向指令选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Selects current source for steering commands, selectors are mutually "
 "exclusive and turns to indicate selected option."
 msgstr ""
+"用于选择当前的转向指令来源，且所有选择开关互斥（只能选中一个），当前被选中的"
+"开关会旋转。"
 
 #: ../../source/cockpit.rst:0
 msgid "TACAN - Selects TACAN as steering command source."
-msgstr ""
+msgstr "TACAN - 使用 TACAN 作为转向指令源"
 
 #: ../../source/cockpit.rst:0
 msgid "DEST - Selects RIO set waypoint as steering command source."
-msgstr ""
+msgstr "DEST - 选择 RIO 设置的航路点作为转向指令源"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3194,138 +3250,146 @@ msgid ""
 "guidance (ILS/ACLS) for landing or PCD for air-to-ground engagement "
 "directions as steering command source."
 msgstr ""
+"AWL/PCD - 全天候着舰/精确航线方向。按下开关选择使用下滑道引导（ILS/ACLS）进行"
+"着舰，或选择PCD作为空对地攻击方向用于转向指令源。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "VEC - Vector, selects data link deviation steering as steering command "
 "source."
-msgstr ""
+msgstr "VEC - 引导航向，选择数据偏差转向作为转向指令源。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "MAN - Manual, selects manually selected course and heading as steering "
 "command source."
-msgstr ""
+msgstr "MAN - 手动，使用手动选择的航线和航向作为转向指令源。"
 
 #: ../../source/cockpit.rst:1361
 msgid "MODE selectors"
-msgstr ""
+msgstr "模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Selects display mode, selectors are mutually exclusive and turns to indicate "
 "selected mode."
 msgstr ""
+"用于选择显示模式，且所有选择开关互斥（只能选中一个），当前被选中的开关会旋"
+"转。"
 
 #: ../../source/cockpit.rst:0
 msgid "T.O. - Selects takeoff mode."
-msgstr ""
+msgstr "T.O. - 选择起飞模式"
 
 #: ../../source/cockpit.rst:0
 msgid "CRUISE - Selects cruise mode."
-msgstr ""
+msgstr "CRUISE - 选择巡航模式"
 
 #: ../../source/cockpit.rst:0
 msgid "A/A - Selects air-to-air mode."
-msgstr ""
+msgstr "A/A - 选择空对空模式"
 
 #: ../../source/cockpit.rst:0
 msgid "A/G - Selects air-to-ground mode."
-msgstr ""
+msgstr "A/G - 选择空对地模式"
 
 #: ../../source/cockpit.rst:0
 msgid "LDG - Selects landing mode."
-msgstr ""
+msgstr "LDG - 选择降落模式"
 
 #: ../../source/cockpit.rst:1373
 msgid "HUD DECLUTTER switch"
-msgstr ""
+msgstr "HUD 防拥开关"
 
 #: ../../source/cockpit.rst:1373
 msgid "Selects declutter mode for HUD."
-msgstr ""
+msgstr "选择 HUD 标识防拥模式。"
 
 #: ../../source/cockpit.rst:1375
 msgid "HUD AWL switch"
-msgstr ""
+msgstr "HUD AWL 开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects which AWL information to display on HUD."
-msgstr ""
+msgstr "选择在 HUD 上显示何种 AWL（全天候降落）信息。"
 
 #: ../../source/cockpit.rst:0
 msgid "ILS - Selects ILS as source for AWL information."
-msgstr ""
+msgstr "ILS - 选择 ILS 作为 AWL 信息来源"
 
 #: ../../source/cockpit.rst:0
 msgid "ACL - Selects ACL as source for AWL information."
-msgstr ""
+msgstr "ACL - 选择 ACL 作为 AWL 信息来源"
 
 #: ../../source/cockpit.rst:1381
 msgid "VDI MODE switch"
-msgstr ""
+msgstr "VDI 模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects what to display on VDI."
-msgstr ""
+msgstr "用于选择 VDI 显示何种数据。"
 
 #: ../../source/cockpit.rst:0
 msgid "TV - Displays video from TCS or LANTIRN on VDI."
-msgstr ""
+msgstr "TV - 在 VDI 上显示 TCS 或 LANTIRN 吊舱的视频图像"
 
 #: ../../source/cockpit.rst:0
 msgid "NORM - Displays normal VDI display."
-msgstr ""
+msgstr "NORM - 使用正常 VDI 显示"
 
 #: ../../source/cockpit.rst:1387
 msgid "VDI AWL switch"
-msgstr ""
+msgstr "VDI AWL 开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects which AWL information to display on VDI."
-msgstr ""
+msgstr "选择 VDI 上显示何种 AWL 信息"
 
 #: ../../source/cockpit.rst:1393
 msgid "HSD MODE switch"
-msgstr ""
+msgstr "HSD 模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects what to display on HSD."
-msgstr ""
+msgstr "选择 HSD 上显示何种数据。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "NAV - Navigational display, shows steering information depending on selected "
 "steering command source."
-msgstr ""
+msgstr "NAV - 导航显示，HSD 将根据选定的转向指令源显示转向信息。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "TID - Display repeating the RIO TID information. If RIO has TID set to TV "
 "the screen will be blank."
 msgstr ""
+"TID - 重复显示 RIO 的 TID 中的图像。如果 RIO 将 TID 设置显示 TV 图像，则 HSD "
+"无显示。"
 
 #: ../../source/cockpit.rst:1399
 msgid "POWER switches"
-msgstr ""
+msgstr "电源控制开关"
 
 #: ../../source/cockpit.rst:1399
 msgid "Power switches for VDI, HUD and HSD/ECMD."
-msgstr ""
+msgstr "用于控制 VDI、HUD 和 HSD / ECMD 的电源。"
 
 #: ../../source/cockpit.rst:1401
 msgid "PITCH LAD BRT knob"
-msgstr ""
+msgstr "俯仰梯度亮度旋钮"
 
 #: ../../source/cockpit.rst:1401
 msgid "Controls brightness of pitch ladder on HUD."
-msgstr ""
+msgstr "用于控制 HUD 中俯仰梯度线的亮度。"
 
 #: ../../source/cockpit.rst:1404
 msgid ""
 "Image shows F-14 with integrated RWR having a third option on the HSD MODE "
 "and ECM ORIDE which are not present in the modelled F-14B."
 msgstr ""
+"图像资料显示，装有整合 RWR 的 F-14 的 HSD 模式和还有第三种选项——ECM "
+"ORDIE（ECM超控），但 Heatblur 的F-14B并没有模拟此选项。"
 
 #: ../../source/cockpit.rst:1410
 msgid "Elevation Lead Panel"
@@ -3336,6 +3400,8 @@ msgid ""
 "Used to set gun elevation lead in mils for the manual A/A and A/G gun modes. "
 "Limits are -263 and +87 mils."
 msgstr ""
+"用于设置航炮 A/A 和 A/G 模式下准星的抬高/下压量。最小和最大值分别是 -263 和 "
+"+87 毫弧度。"
 
 #: ../../source/cockpit.rst:1419 ../../source/cockpit.rst:2784
 msgid "Right Side Console"
@@ -3351,6 +3417,8 @@ msgid ""
 "Contains controls to override failed spoiler sections, allowing the rest to "
 "continue to work after a MASTER RESET."
 msgstr ""
+"用于超控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机重"
+"置）后继续正常工作。"
 
 #: ../../source/cockpit.rst:1432
 msgid "INBD"
@@ -3358,13 +3426,15 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "Inboard spoiler override switch."
-msgstr ""
+msgstr "内侧扰流板超控开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "ORIDE - Overrides inboard spoiler symmetry protection, allowing a functional "
 "inboard spoiler to continue to operate after a MASTER RESET if one fails."
 msgstr ""
+"ORDIE - 超控内侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
+"常工作的内侧扰流板继续作动。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3372,6 +3442,8 @@ msgid ""
 "up the rest are commanded to droop and the SPOILERS light illuminates on the "
 "caution panel."
 msgstr ""
+"NORM - 正常模式（保护开关锁定），该模式下，如果一侧的内扰流板故障无法升起，其"
+"余扰流板会降下，且注意灯面板 SPOILERS 灯亮起。"
 
 #: ../../source/cockpit.rst:1438
 msgid "OUTBD"
@@ -3379,7 +3451,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "Outboard spoiler override switch."
-msgstr ""
+msgstr "外侧扰流板超控开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3387,6 +3459,8 @@ msgid ""
 "functional outboard spoiler to continue to operate after a MASTER RESET if "
 "one fails."
 msgstr ""
+"ORDIE - 超控外侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
+"常工作的外侧扰流板继续作动。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3394,10 +3468,12 @@ msgid ""
 "up the rest are commanded to droop and the SPOILERS light illuminates on the "
 "caution panel."
 msgstr ""
+"NORM - 正常模式（保护开关锁定），该模式下，如果一侧的外扰流板故障无法升起，其"
+"余扰流板会降下，且注意灯面板 SPOILERS 灯亮起。"
 
 #: ../../source/cockpit.rst:1449
 msgid "Liquid Oxygen Quantity Indicator"
-msgstr ""
+msgstr "液氧储量表"
 
 #: ../../source/cockpit.rst:1452
 msgid ""
@@ -3406,16 +3482,18 @@ msgid ""
 "of power failure to the indicator. The indicator is tested through the INST "
 "mode on the MASTER TEST panel and should read 2 liters."
 msgstr ""
+"显示了剩余的液氧储备量。每个刻度代表1升。电源故障时，表盘上显示 OFF 标示旗。"
+"通过主测试面板的 INST 模式来测试这个仪表，测试时，仪表读数应为 2 升。"
 
 #: ../../source/cockpit.rst:1458
 msgid "Compass Control Panel"
-msgstr ""
+msgstr "罗盘控制面板"
 
 #: ../../source/cockpit.rst:1461
 msgid ""
 "The compass control panel contains controls for selecting compass mode when "
 "using AHRS."
-msgstr ""
+msgstr "用于在使用 AHRS（姿态航向基准系统）时选择罗盘工作模式。"
 
 #: ../../source/cockpit.rst:1466
 msgid "SYNC IND"
@@ -3426,30 +3504,36 @@ msgid ""
 "Indicator showing sync between AHRS gyro and magnetic azimuth detector. Used "
 "in SLAVED mode."
 msgstr ""
+"这个指示器用于显示 AHRS 陀螺仪与磁方位角探测器之间是否同步。用于 SLAVED（从"
+"属）模式。"
 
 #: ../../source/cockpit.rst:1468
 msgid "N-S switch"
-msgstr ""
+msgstr "N-S 选择开关"
 
 #: ../../source/cockpit.rst:1468
 msgid ""
 "Switch used to select which hemisphere aircraft is in for DG and SLAVED "
 "modes. Critical for correct earth-rate correction."
 msgstr ""
+"用于选择 DG（航向陀螺仪）和 SLAVED 模式下飞机所处的半球。这个开关对修正地球自"
+"转导致的陀螺仪偏移至关重要。"
 
 #: ../../source/cockpit.rst:1470
 msgid "LAT knob"
-msgstr ""
+msgstr "纬度选择旋钮"
 
 #: ../../source/cockpit.rst:1470
 msgid ""
 "Control knob used to select latitude from 0º to 90º to allow for correct "
 "earth rate correction in DG and SLAVED modes."
 msgstr ""
+"用于选择从0°到90°的维度，以使 DG 和 SLAVED 模式中的陀螺仪能修正地球自转导致的"
+"偏移。"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects source of AHRS heading information."
-msgstr ""
+msgstr "用于选择 AHRS 航向信息来源。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3457,26 +3541,28 @@ msgid ""
 "stabilization from the directional gyro, used only for emergency operation "
 "and the displays automatically uses the manual magnetic variation."
 msgstr ""
+"COMP - 罗盘，直接使用磁方位角探测器，不通过方位陀螺仪稳定，仅用于紧急情况，且"
+"罗盘显示的读数自动使用手动录入的磁差信息。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "SLAVED - Normal mode, uses the magnetic azimuth detector stabilized by the "
 "directional gyro."
-msgstr ""
+msgstr "SLAVED - 正常模式，使用由方位陀螺仪稳定的磁方位角检测器。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "DG - Directional gyro mode, uses only gyro and not the magnetic azimuth "
 "detector."
-msgstr ""
+msgstr "DG - 方位陀螺仪模式"
 
 #: ../../source/cockpit.rst:1480
 msgid "HDG knob/button"
-msgstr ""
+msgstr "航向选择旋钮"
 
 #: ../../source/cockpit.rst:0
 msgid "Used in DG and SLAVED modes."
-msgstr ""
+msgstr "用于 DG 和 SLAVED 模式。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3484,12 +3570,14 @@ msgid ""
 "azimuth detector and set magnetic heading on the BDHI. Button should be held "
 "until the syncronization indicator needle is over the null mark."
 msgstr ""
+"在 SLAVED 模式下，它用于同步方位陀螺仪和磁方位角探测器，以及设置 BDHI 上的磁"
+"航向。按下旋钮，直到同步完成，指示器指针超过空白标识。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "In DG mode the button is depressed and rotated to select desired heading on "
 "the BDHI."
-msgstr ""
+msgstr "在 DG 模式下，按下并旋转旋钮来调定 BDHI 中的所需航向。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3497,54 +3585,57 @@ msgid ""
 "depressing the button for up to 3 minutes. A new fast erect attempt can be "
 "done if a 1 minute wait is first observed."
 msgstr ""
+"按下超过3分钟时，这个旋钮也可以用于快速校准 AHRS 的俯仰和滚转。等待1分钟后，"
+"可重新进行校准。"
 
 #: ../../source/cockpit.rst:1493
 msgid "ARA-63 Control Panel"
-msgstr ""
+msgstr "ARA-63 控制面板"
 
 #: ../../source/cockpit.rst:1496
 msgid "Panel used to control the AN/ARA-63 ILS (ICLS)."
-msgstr ""
+msgstr "用于控制 AN/ARA-63 ILS（ICLS）系统。"
 
 #: ../../source/cockpit.rst:1501
 msgid "CHANNEL selector"
-msgstr ""
+msgstr "频道选择开关"
 
 #: ../../source/cockpit.rst:1501
 msgid "Selector selecting one of 20 available ICLS channels."
-msgstr ""
+msgstr "用于从 20 个可用的频道中选择 ICLS 频道。"
 
 #: ../../source/cockpit.rst:1503
 msgid ""
 "Button used to test AN/ARA-63, displays landing symbology on the HUD and VDI "
 "if set up for ILS."
-msgstr ""
+msgstr "用于测试 AN/ARA-63。如果 VDI 设置就绪，HUD 中会显示着陆标识符。"
 
 #: ../../source/cockpit.rst:1505
 msgid "POWER switch"
-msgstr ""
+msgstr "电源开关"
 
 #: ../../source/cockpit.rst:1505
 msgid ""
 "ON/OFF switch to energize the AN/ARA-63, switch must be pulled out to allow "
 "OFF position."
 msgstr ""
+"ON/OFF 开关用于接通或断开 ARA-63 的电源。提起开关才可将其拨至 OFF 档位。"
 
 #: ../../source/cockpit.rst:1507
 msgid "Indicator light"
-msgstr ""
+msgstr "状态指示灯"
 
 #: ../../source/cockpit.rst:1507
 msgid "Lights to indicate AN/ARA-63 power on."
-msgstr ""
+msgstr "灯光亮起表示 AN/ARA-63 通电。"
 
 #: ../../source/cockpit.rst:1514
 msgid "Caution - Advisory Indicator"
-msgstr ""
+msgstr "注意 - 提示灯光面板"
 
 #: ../../source/cockpit.rst:1517
 msgid "Main pilot caution panel."
-msgstr ""
+msgstr "飞行员主要的注意灯光面板"
 
 #: ../../source/cockpit.rst:1522
 msgid "PITCH STAB 1 & 2"
@@ -3552,7 +3643,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1522
 msgid "Caution lights indicating inoperative pitch channels."
-msgstr ""
+msgstr "灯光亮起表示俯仰通道不可用。"
 
 #: ../../source/cockpit.rst:1524
 msgid "ROLL STAB 1 & 2"
@@ -3560,7 +3651,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1524
 msgid "Caution lights indicating inoperative roll channels (roll SAS failure)."
-msgstr ""
+msgstr "灯光亮起表示滚转通道不可用（滚转增稳故障）。"
 
 #: ../../source/cockpit.rst:1526
 msgid "YAW STAB OP"
@@ -3568,7 +3659,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1526
 msgid "Caution light indicating one inoperative yaw channel."
-msgstr ""
+msgstr "灯光亮起表示偏航通道不可用。"
 
 #: ../../source/cockpit.rst:1528
 msgid "YAW STAB OUT"
@@ -3577,7 +3668,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1528
 msgid ""
 "Caution light indicating two inoperative yaw channels (yaw SAS failure)."
-msgstr ""
+msgstr "灯光亮起表示两个偏航通道不可用（偏航增稳故障）。"
 
 #: ../../source/cockpit.rst:1530
 msgid "EMERG JETT"
@@ -3585,7 +3676,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1530
 msgid "Caution light indicating activation of EMERG STORES JETT button."
-msgstr ""
+msgstr "灯光亮起表示 EMERG STORES JETT（应急挂载抛离）按钮按下。"
 
 #: ../../source/cockpit.rst:1532
 msgid "LADDER"
@@ -3593,7 +3684,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1532
 msgid "Caution light indicating boarding ladder not correctly stowed."
-msgstr ""
+msgstr "灯光亮起表示登机梯未正确折叠收起。"
 
 #: ../../source/cockpit.rst:1534
 msgid "ECS TURBINE"
@@ -3601,7 +3692,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1534
 msgid "Non-functional"
-msgstr ""
+msgstr "无功能"
 
 #: ../../source/cockpit.rst:1536
 msgid "INLET ICE"
@@ -3611,7 +3702,7 @@ msgstr ""
 msgid ""
 "Caution light indicating accumulation of ice on ice detector in left engine "
 "inlet."
-msgstr ""
+msgstr "注意灯亮起表示左发进气道结冰探头结冰。"
 
 #: ../../source/cockpit.rst:1538
 msgid "FLAP"
@@ -3621,7 +3712,7 @@ msgstr ""
 msgid ""
 "Caution light indicating failure in flap system or airspeed greater than 225 "
 "knots indicated airspeed with flaps down."
-msgstr ""
+msgstr "注意灯亮起表示襟翼系统故障，或空速超过225节但襟翼仍未收起。"
 
 #: ../../source/cockpit.rst:1540
 msgid "HZ TAIL AUTH"
@@ -3631,7 +3722,7 @@ msgstr ""
 msgid ""
 "Caution light indicating failure of lateral tail authority actuator (or CADC "
 "failure)."
-msgstr ""
+msgstr "注意灯亮起表示水平尾翼控制作动器故障（或 CADC 故障）。"
 
 #: ../../source/cockpit.rst:1542
 msgid "RUDDER AUTH"
@@ -3641,7 +3732,7 @@ msgstr ""
 msgid ""
 "Caution light indicating failure of rudder authority actuators (or CADC "
 "failure)."
-msgstr ""
+msgstr "注意灯亮起表示方向舵控制作动器故障（或 CADC 故障）。"
 
 #: ../../source/cockpit.rst:1544
 msgid "SPOILERS"
@@ -3651,7 +3742,7 @@ msgstr ""
 msgid ""
 "Caution light indicating spoiler system failure causing several or all "
 "spoilers to be locked down."
-msgstr ""
+msgstr "注意灯亮起表示扰流板系统故障导致多个或全部扰流板锁死。"
 
 #: ../../source/cockpit.rst:1546
 msgid "AUTO PILOT"
@@ -3659,7 +3750,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1546
 msgid "Caution light indicating failure in auto pilot system."
-msgstr ""
+msgstr "注意灯亮起表示自动驾驶系统故障。"
 
 #: ../../source/cockpit.rst:1548
 msgid "L & R INLET"
@@ -3667,7 +3758,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1548
 msgid "Caution lights indicating AICS programmer and/or system failure."
-msgstr ""
+msgstr "注意灯亮起表示 AICS（进气控制系统）控制程序和/或系统故障。"
 
 #: ../../source/cockpit.rst:1550
 msgid "OIL PRESS"
@@ -3676,7 +3767,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1550
 msgid ""
 "Caution light indicating left or right engine oil pressure below 11 psi."
-msgstr ""
+msgstr "注意灯亮起表示左发或右发机油压力小于 11 psi。"
 
 #: ../../source/cockpit.rst:1552
 msgid "BLEED DUCT"
@@ -3686,7 +3777,7 @@ msgstr ""
 msgid ""
 "Caution light indicating high temperature air leak in the engine "
 "compartments."
-msgstr ""
+msgstr "注意灯亮起表示发动机舱内高温气流泄露。"
 
 #: ../../source/cockpit.rst:1554
 msgid "L & R RAMPS"
@@ -3696,7 +3787,7 @@ msgstr ""
 msgid ""
 "Caution lights indicating ramps not locked in position during critical "
 "flight conditions."
-msgstr ""
+msgstr "注意灯亮起表示关键飞行阶段中，进气道斜板未锁定。"
 
 #: ../../source/cockpit.rst:1556
 msgid "START VALVE"
@@ -3706,7 +3797,7 @@ msgstr ""
 msgid ""
 "Caution light indicating that the starter solenoid air valve is open after "
 "start."
-msgstr ""
+msgstr "注意灯亮起表示发动机启动后，启动器电磁空气阀仍开启。"
 
 #: ../../source/cockpit.rst:1558
 msgid "L & R ENG SEC"
@@ -3716,6 +3807,7 @@ msgstr ""
 msgid ""
 "Caution lights indicating that respective engine AFTC is in secondary mode."
 msgstr ""
+"注意灯亮起表示对应一侧的发动机 AFTC（增推扇叶温度控制器）处于次级工作模式。"
 
 #: ../../source/cockpit.rst:1560
 msgid "L & R GEN"
@@ -3723,7 +3815,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1560
 msgid "Caution lights indicating respective engine generator is inoperative."
-msgstr ""
+msgstr "注意灯亮起表示对应一侧的发电机故障。"
 
 #: ../../source/cockpit.rst:1562 ../../source/cockpit.rst:2741
 msgid "CANOPY"
@@ -3731,7 +3823,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1562
 msgid "Caution light indicating that canopy is not down and locked."
-msgstr ""
+msgstr "注意灯亮起表示驾驶舱盖未关闭或未锁定。"
 
 #: ../../source/cockpit.rst:1564
 msgid "BINGO"
@@ -3741,7 +3833,7 @@ msgstr ""
 msgid ""
 "Caution light indicating aircraft fuel quantity at or below set BINGO "
 "quantity."
-msgstr ""
+msgstr "注意灯亮起表示飞机燃油量处于或低于设定的返航油量（BINGO）。"
 
 #: ../../source/cockpit.rst:1566
 msgid "L & R OIL HOT"
@@ -3749,7 +3841,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1566
 msgid "Caution lights indicating that respective engine oil is too hot."
-msgstr ""
+msgstr "注意灯亮起表示对应一侧的发动机油温过高。"
 
 #: ../../source/cockpit.rst:1568
 msgid "CADC"
@@ -3757,7 +3849,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1568
 msgid "Caution light indicating failure in the air data computer."
-msgstr ""
+msgstr "注意灯亮起表示大气数据计算机故障。"
 
 #: ../../source/cockpit.rst:1570
 msgid "HYD PRESS"
@@ -3767,7 +3859,7 @@ msgstr ""
 msgid ""
 "Caution light indicating pressure in either engine hydraulic pump below "
 "2,100 psi."
-msgstr ""
+msgstr "注意灯亮起表示至少一侧发动机液压泵提供的压强低于 2,100 psi。"
 
 #: ../../source/cockpit.rst:1572
 msgid "L & R FUEL PRESS"
@@ -3777,7 +3869,7 @@ msgstr ""
 msgid ""
 "Caution lights indicating pressure below 9 psi in respective engine fuel "
 "boost pump."
-msgstr ""
+msgstr "注意灯亮起表示发动机燃油增压泵中的压强小于 9 psi。"
 
 #: ../../source/cockpit.rst:1574
 msgid "L & R FUEL LOW"
@@ -3787,12 +3879,12 @@ msgstr ""
 msgid ""
 "Caution lights indicating fuel quantity below 1,000 pounds in aft and left "
 "or forward and right fuel feed group respectively."
-msgstr ""
+msgstr "注意灯亮起表示对应的左/后或右/前供油油箱组内的剩余油量低于1,000磅。"
 
 #: ../../source/cockpit.rst:1576
 msgid ""
 "Advisory light indicating failure of a single channel in wing-sweep system."
-msgstr ""
+msgstr "提示灯亮起表示机翼后掠系统单通道故障。"
 
 #: ../../source/cockpit.rst:1578
 msgid "RATS"
@@ -3800,7 +3892,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1578
 msgid "Advisory light indicating RATS enabled."
-msgstr ""
+msgstr "提示灯表示 RATS（航降减推系统）启用。"
 
 #: ../../source/cockpit.rst:1580
 msgid "TRANS/RECT"
@@ -3809,7 +3901,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1580
 msgid ""
 "Advisory light indicating failure in one or both transformer-rectifiers."
-msgstr ""
+msgstr "提示灯亮起表示一个或两个变压器整流器故障。"
 
 #: ../../source/cockpit.rst:1582
 msgid "MACH TRIM"
@@ -3817,7 +3909,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1582
 msgid "Advisory light indicating failure in Mach trim actuator."
-msgstr ""
+msgstr "提示灯亮起表示马赫数配平作动器故障。"
 
 #: ../../source/cockpit.rst:1584
 msgid "WSHLD HOT"
@@ -3825,7 +3917,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1584
 msgid "Advisory light indicating central windshield overheat."
-msgstr ""
+msgstr "提示灯亮起表示中央风挡玻璃过热。"
 
 #: ../../source/cockpit.rst:1586
 msgid "LAUNCH BAR"
@@ -3833,19 +3925,23 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "Advisory light indicating either:"
-msgstr ""
+msgstr "提示灯亮表示："
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Weight on wheels - Aircraft kneeled, either throttle below MIL and launch "
 "bar not up and locked."
 msgstr ""
+"机轮承重时 - 飞机机头高度降低，油门位置不超过 MIL 且弹射牵引杆未收起或未锁"
+"定。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Weight off wheels - Launch bar not up and locked, launch bar not within 15º "
 "off center (cocked nosegear) or nose strut not fully extended."
 msgstr ""
+"机轮不承重时 - 弹射牵引杆未收起或未锁定，弹射牵引杆偏离中心超过15度（前轮翘"
+"起）或前起落架支柱未完全伸展。"
 
 #: ../../source/cockpit.rst:1592
 msgid "INTEG TRIM"
@@ -3853,7 +3949,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1592
 msgid "Advisory light indicating failure in trim system or computer failure."
-msgstr ""
+msgstr "提示灯亮起表示配平系统故障或计算机故障。"
 
 #: ../../source/cockpit.rst:1594 ../../source/cockpit.rst:2759
 msgid "AHRS"
@@ -3863,7 +3959,7 @@ msgstr ""
 msgid ""
 "Advisory light indicating unreliable attitude or heading information from "
 "AHRS."
-msgstr ""
+msgstr "提示灯亮起表示 AHRS 显示不可靠的姿态或航向信息。"
 
 #: ../../source/cockpit.rst:1596
 msgid "ENG FIRE EXT"
@@ -3873,7 +3969,7 @@ msgstr ""
 msgid ""
 "Advisory light indicating low pressure in the fire extinguishing container "
 "(90 psi below nominal 600 psi)."
-msgstr ""
+msgstr "提示灯亮起表示灭火器压强低（与正常值 600 psi 的偏差超过 90 psi）。"
 
 #: ../../source/cockpit.rst:1598
 msgid "AUX FIRE EXT"
@@ -3883,19 +3979,19 @@ msgstr ""
 msgid ""
 "Advisory light indicating low pressure in the auxiliary fire extinguishing "
 "container (90 psi below nominal 600 psi)."
-msgstr ""
+msgstr "提示灯亮起表示备用灭火器压强低（与正常值 600 psi 的偏差超过 90 psi）。"
 
 #: ../../source/cockpit.rst:1605
 msgid "Master Generator Control Panel"
-msgstr ""
+msgstr "发电机主控面板"
 
 #: ../../source/cockpit.rst:1608
 msgid "Panel controlling left and right engine generator."
-msgstr ""
+msgstr "这个面板用于控制左、右发电机"
 
 #: ../../source/cockpit.rst:1613
 msgid "L & R MASTER GEN switch"
-msgstr ""
+msgstr "左发电机和右发电机开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3922,7 +4018,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1621
 msgid "EMERG switch"
-msgstr ""
+msgstr "应急发电机开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3944,7 +4040,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1632
 msgid "Master Light Control Panel"
-msgstr ""
+msgstr "灯光主控面板"
 
 #: ../../source/cockpit.rst:1635
 msgid "Master light control panel, controlling most lights in/on the aircraft."
@@ -3952,7 +4048,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1640
 msgid "ANTI COLLISION switch"
-msgstr ""
+msgstr "防撞灯开关"
 
 #: ../../source/cockpit.rst:1640
 msgid "ON/OFF switch controlling anticollision lights."
@@ -3960,7 +4056,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1642
 msgid "POSITION switch"
-msgstr ""
+msgstr "航行灯开关"
 
 #: ../../source/cockpit.rst:1642
 msgid ""
@@ -3971,7 +4067,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1644
 msgid "TAIL POSITION switch"
-msgstr ""
+msgstr "尾灯开关"
 
 #: ../../source/cockpit.rst:1644
 msgid ""
@@ -3981,7 +4077,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1646
 msgid "WING POSITION switch"
-msgstr ""
+msgstr "翼尖灯开关"
 
 #: ../../source/cockpit.rst:1646
 msgid ""
@@ -3990,7 +4086,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1648
 msgid "ACM thumbwheel"
-msgstr ""
+msgstr "ACM 灯光拨轮"
 
 #: ../../source/cockpit.rst:1648
 msgid ""
@@ -4008,7 +4104,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1652
 msgid "HOOK BYPASS"
-msgstr ""
+msgstr "阻拦钩旁路开关"
 
 #: ../../source/cockpit.rst:1652
 msgid ""
@@ -4018,7 +4114,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1654
 msgid "TAXI switch"
-msgstr ""
+msgstr "滑行灯开关"
 
 #: ../../source/cockpit.rst:1654
 msgid "Switch controlling taxi lights."
@@ -4026,7 +4122,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1656 ../../source/cockpit.rst:3082
 msgid "INSTRUMENT thumbwheel"
-msgstr ""
+msgstr "仪表板灯光拨轮"
 
 #: ../../source/cockpit.rst:1656 ../../source/cockpit.rst:3082
 msgid ""
@@ -4046,7 +4142,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1660 ../../source/cockpit.rst:3086
 msgid "CONSOLE thumbwheel"
-msgstr ""
+msgstr "控制台灯光拨轮"
 
 #: ../../source/cockpit.rst:1660 ../../source/cockpit.rst:3086
 msgid ""
@@ -4057,7 +4153,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1662 ../../source/cockpit.rst:3088
 msgid "RED FLOOD switch"
-msgstr ""
+msgstr "红色泛光灯开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch controlling red instrument and console floodlights."
@@ -4077,7 +4173,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1670
 msgid "FORMATION thumbwheel"
-msgstr ""
+msgstr "编队灯拨轮"
 
 #: ../../source/cockpit.rst:1670
 msgid ""
@@ -4325,7 +4421,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1779
 msgid "ANTI-ICE switch"
-msgstr ""
+msgstr "除冰开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Controls engine, probe and AICS anti-ice settings."
@@ -4349,7 +4445,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1792
 msgid "Hydraulic Transfer Pump Switch"
-msgstr ""
+msgstr "液压转移泵开关"
 
 #: ../../source/cockpit.rst:1795
 msgid ""
@@ -4371,7 +4467,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1805
 msgid "HUD-Video Control Panel"
-msgstr ""
+msgstr "HUD-视频控制面板"
 
 #: ../../source/cockpit.rst:1808
 msgid ""

@@ -59,7 +59,7 @@
             
             
               <div class="version">
-                协作预览 | Feb. 22nd, 2019
+                协作预览 | Feb. 24th, 2019
               </div>
             
           
@@ -303,7 +303,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#pilot-volume-tacan-command-panel">飞行员音量 / TACAN 指令面板</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#rio-communication-tacan-command-panel">RIO 通讯 / TACAN 指令面板</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-arc-159-uhf-1-radio">AN/ARC-159 (UHF 1) 电台</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#an-arc-182-v-uhf-2-radio">AN/ARC-182 (V/UHF 2) Radio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#an-arc-182-v-uhf-2-radio">AN/ARC-182 (V/UHF 2) 无线电</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#loading-saving-preset-channel-s-on-uhf-1-and-v-uhf-2">在 UHF 1 和 V/UHF 2 中读取（保存）预设频道</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-arc-182-bit-built-in-test">AN/ARC-182 BIT（自检）</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-arc-159-and-an-arc-182-remote-displays">AN/ARC-159 和 AN/ARC-182 远程显示器</a></li>
@@ -315,7 +315,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#after-landing">降落后</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#link-4a-c-data-link">Link 4A &amp; C Data Link</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#link-4a-c-data-link">Link 4A 和 4C 数据链</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#link-4-controls">Link 4 控制</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#link-4-in-dcs">DCS 中的 Link 4</a></li>
 </ul>
@@ -509,7 +509,7 @@
 <h3>燃油量指示器和控制<a class="headerlink" href="#fuel-quantity-indicators-and-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/fuelquantity1.png" src="_images/fuelquantity1.png" />
 <p>位于右膝仪表板上的燃油量显示器显示了机内燃油剩余量以及外部燃油剩余量。</p>
-<p>最上面的燃油量显示器（ <strong>1</strong> ）显示了当前设置的 <strong>BINGO</strong>  油量，飞行员可以通过旁边的旋钮（ <strong>5</strong> ）来设置自己所需要的数值。当剩余燃油总量低于设定值时，BINGO油量注意灯就会亮起。</p>
+<p>最上面的燃油量显示器（ <strong>1</strong> ）显示了当前设置的 <strong>BINGO</strong> 油量，飞行员可以通过旁边的旋钮（ <strong>5</strong> ）来设置自己所需要的数值。当剩余燃油总量低于设定值时，BINGO油量注意灯就会亮起。</p>
 <p>中间的 <strong>TOTAL</strong> （ <strong>2</strong> ）燃油量显示器显示了剩余的全部燃油重量。</p>
 <p>燃油管理面板上的滑动弹簧开关可以用来选择让 <strong>L</strong> 和 <strong>R</strong> 燃油量显示器显示各个机翼油箱（ <strong>WING</strong> ）中的燃油量或者外部油箱（ <strong>EXT</strong> ）中的燃油量，松开开关后，开关会弹回显示供油油箱（ <strong>FEED</strong> ）油量的档位。当显示机翼油箱或外部油箱油量时，左机翼或左外部油箱油量显示在L显示器上，右机翼或右外部油箱显示在R显示器上。</p>
 <p>The <strong>FUS &amp; FEED</strong> tapes (fuselage and feed) shows the <strong>AFT &amp; L</strong> (aft fuselage and left feed) and <strong>FWD &amp; R</strong> (forward fuselage and right feed) in thousands of pounds.</p>
@@ -555,10 +555,9 @@ When selecting the <strong>ALL</strong> position the fuel feed from the wings an
 <h2>火灾报警和灭火系统<a class="headerlink" href="#fire-detection-and-suppression-system" title="永久链接至标题">¶</a></h2>
 <div class="section" id="fire-detection-system">
 <h3>火灾报警系统<a class="headerlink" href="#fire-detection-system" title="永久链接至标题">¶</a></h3>
-<p>The fire detection system in the F-14 has two fire sensing loops, one in each engine.</p>
-<p>If these loops detects a temperature over 600 °F (about 316 °C) along its whole length or 1,000 °F (about 538 °C) in a single 6-inch section it triggers the fire detection circuits.
-The left detection loop lights the left fire warning light on the ACM panel and the right detection loop lights the right fire warning light, see <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>.</p>
-<p>In addition there are also sensors designed to detect hot air leaks in the engines and light the BLEED DUCT caution light on the pilot caution - advisory indicator (see <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a>) if temperatures above 575 °F (about 302 °C) are detected.</p>
+<p>F-14的火灾探测系统有两个火灾传感回路, 每个发动机各有一个。</p>
+<p>如果这些回路在整个回路中检测到超过 600°F (约 316°C) 或在一个6英寸的部分检测到 1, 000°F (约 538°C)的温度, 就会触发火灾探测电路。左探测回路亮起面板上的左火警示灯, 右检测回路亮起右侧火光灯, 请参见 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 。</p>
+<p>此外F-14上同样有旨在探测发动机热空气泄露的传感器，如果检测到温度高于575 °F （约302 °C），该传感器将点亮飞行员注意-提示指示器（见 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> ）上的BLEED DUCT告警灯。</p>
 </div>
 <div class="section" id="fire-suppression-system">
 <h3>灭火系统<a class="headerlink" href="#fire-suppression-system" title="永久链接至标题">¶</a></h3>
@@ -575,105 +574,62 @@ The left detection loop lights the left fire warning light on the ACM panel and 
 </tr>
 </tbody>
 </table>
-<p>The fire suppression system in the F-14 contains two bottles filled with a fire suppression agent capable of being discharged into one engine selected by the pilot.
-Though the system contains two bottles, both are discharged at the same time making the system a one-shot system, capable of extinguishing only one engine.</p>
-<p>As the effectiveness of the agent depends on it remaining in the engine until the fire is out the effectiveness is greater at lower airspeed as it takes longer for the agent to be blown clear of the engine.
-The agent itself is a low toxicity agent, designed to do as little damage to the engine as possible while still being an effective fire surpessant.</p>
-<p>To activate the system the pilot pulls the <strong>FUEL SHUT OFF</strong> handle (pictured above) corresponding to the alight engine and pushes the fire extinguisher button behind that handle.
-The pull-out of the handle shuts off the fuel to the connected engine and the button behind it releases the fire suppression agent into that engine.</p>
-<p>Two advisory lights are connected to this system, each one indicating low pressure in one of the fire suppression agent bottles.
-The <strong>ENG FIRE EXT</strong> indicates low pressure in the main bottle and the <strong>AUX FIRE EXT</strong> the same in the auxiliary bottle.
-Both are located on the pilot caution - advisory indicator, see <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a>.</p>
-<p>The advisory lights will both light after a successful application of the system and might also light if an error drains the pressure in the bottles.</p>
+<p>F-14的灭火系统包含两个装有灭火剂的瓶子, 这些灭火剂能够排放到飞行员选择的发动机中。虽然该系统包含两个灭火瓶，但是他们的释放是同时的, 这使该系统成为一个只能扑灭单个发动机火灾的一次性系统。</p>
+<p>由于药剂的有效性取决于它是否存在于发动机中直到火灾消失，因此药剂在较低的空速下有更高的效率，因为其被吹出发动机需要更长的时间。 该药剂本身是一种低毒剂，旨在仍然为一种有效的灭火剂的情况下尽可能减少对发动机造成的损伤。</p>
+<p>为了激活系统, 飞行员拉起与起火发动机相对应的 <strong>FUEL SHUT OFF</strong> 手柄 (上图), 并按下该手柄后面的灭火器按钮。被拉起的手柄将切断其所连接的发动机的燃油而灭火器按钮将释放灭火剂到该发动机中。</p>
+<p>有两个提示灯连接到这个系统, 分别指示一个低压灭火剂瓶。 <strong>ENG FIRE EXT</strong> 表示主瓶低压， <strong>AUX FIRE EXT</strong> 表示辅瓶低压。两者都位于飞行员警告-提示面板，参见 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 。</p>
+<p>成功应用系统后，提示灯将亮起，如果错误排出了瓶子中的压力，其也可能亮起。</p>
 </div>
 <div class="section" id="fire-detection-and-suppression-system-test">
 <h3>火灾报警和灭火系统测试<a class="headerlink" href="#fire-detection-and-suppression-system-test" title="永久链接至标题">¶</a></h3>
-<p>Both systems can be tested by selection of the <strong>FIRE DET/EXT</strong> position on the master test panel switch. (see <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a>)
-This will light both fire warning lights on the ACM panel if their respective loop is functional and the <strong>GO</strong> light on the master test panel will illuminate if the suppression system is functional.
-If the <strong>NO GO</strong> or no lights illuminate there’s a problem in either the suppression system or the test circuitry.</p>
+<p>这两个系统都可以通过选择至主测试面板开关上的 <strong>FIRE DET/EXT</strong> 位进行测试。(参见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a> )如果它们各自的环路正常工作，它将点亮ACM面板上的两个火警警示灯，如果抑制系统正常工作，主测试面板上的 <strong>GO</strong> 灯将点亮。 如果 <strong>NO GO</strong> 亮起或没有指示灯亮起，则抑制系统或测试的电路存在问题。</p>
 </div>
 </div>
 <div class="section" id="electrical-power-system">
 <h2>电力系统<a class="headerlink" href="#electrical-power-system" title="永久链接至标题">¶</a></h2>
-<p>All main electrical power in the F-14 is generated from the two engine driven AC generators.
-The generators connected to the gearboxes on the engines are each capable of generating enough power to individually drive all aircraft systems.</p>
-<p>As for DC power generation the F-14 has two transformer-rectifiers supplying 28 V DC, and again each one is individually capable of driving all aircraft DC appliances.</p>
-<p>The F-14 has an external power receptacle for AC power just aft of the nosegear, capable of driving aircraft AC and DC (through the transformer-rectifiers).
-External power is automatically disconnected from the aircraft power system when one of the interal generators come online.</p>
+<p>F-14的所有主要电力均由两个发动机驱动的交流发电机产生。 每个连接到发动机变速箱的发电机都能够产生足够的动力来单独驱动所有机载系统。</p>
+<p>直流发电方面，F-14有两个变压整流器提供28V直流电，而且每个变压整流器都可以单独驱动所有机载直流电设备。</p>
+<p>F-14在鼻轮后方有一个用于交流电源的外部电源插座, 它能够驱动机载交流电与直流电 (通过变压整流器)。当一个内部发电机并网发电时, 外部电源将自动断开与飞机电力系统的连接。</p>
 <div class="section" id="emergency-power">
 <h3>应急动力<a class="headerlink" href="#emergency-power" title="永久链接至标题">¶</a></h3>
-<p>The F-14 has an emergency generator driven by the combined hydraulic system generating a limited supply of AC and DC power.
-If the system loses main power the emergency generator takes over supply of flight critical systems within 1 second.</p>
+<p>F-14有一个由组合式液压系统驱动可产生有限的交流和直流电源的应急发电机。 如果系统失去主电源，应急发电机将在1秒内接管关键飞行系统的供电。</p>
 </div>
 <div class="section" id="controls-and-indicators">
 <h3>控制和指示器<a class="headerlink" href="#controls-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/generator1.png" src="_images/generator1.png" />
-<p>The controls for the electrical systems are located on the master generator control panel.</p>
-<p>The <strong>MASTER GEN</strong> (<strong>1</strong>) switches control connection of the main generators to the electrical buses.
-The <strong>NORM</strong> position on the switches connect the individual generators to the buses.
-The <strong>OFF/RESET</strong> position disconnects the generator and also resets any protection circuits that might have cut in because of the power supply being outside normal limits.
-The <strong>TEST</strong> position starts the generator but do not connect it to the electrical buses making it possible to test the generator without affecting other aircraft systems.
-The switch is locked to the on position and needs to be lifted to move it to the OFF/RESET position from NORM.</p>
-<p>The <strong>EMERG</strong> (<strong>2</strong>) switch controls the emergency generator.
-In the <strong>NORM</strong> position the emergency generator is automatically connected to the essential buses if the main generators fail.
-The <strong>OFF/RESET</strong> position deactivates the emergency generator and also resets the associated protection circuits if tripped.
-The switch is guarded to the NORM position and that guard needs to be opened to move the switch to OFF/RESET.</p>
-<p>Associated caution and advisory lights are located on the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a>.
-The <strong>L GEN</strong> and <strong>R GEN</strong> lights, when lit, indicate that the respective generator is not functioning correctly.
-Either because of a fault or because the engine driving the generator not running.</p>
-<p>The <strong>TRANS/RECT</strong> advisory light indicates that only one or none of the transformer-rectifiers are functioning.</p>
-<p>The emergency generator can be tested by selection of <strong>EMERG GEN</strong> on the <strong>MASTER TEST</strong> switch on the <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a>.
-Completion of the test is indicated by the <strong>GO</strong> light illuminating. In case of a fault the <strong>NO GO</strong> light illuminates.</p>
+<p>电气系统的控制装置位于主发电机控制面板上。</p>
+<p><strong>MASTER GEN</strong> （<strong>1</strong>）开关控制主发电机与电气总线的连接。 开关上的 <strong>NORM</strong> 位将各个发电机连接到总线。<strong>OFF/RESET</strong> 位将断开发电机的连接，并且还会因为电源超出正常限制而复位任何可能已经切入的保护电路。 <strong>TEST</strong> 位将启动发电机，但不会将其连接到电力总线，这样可以在不影响其他飞机系统的情况下测试发电机。 开关被锁定在打开位置，需要将其抬起以便从NORM位移动到OFF/RESET位。</p>
+<p><strong>EMERG**（**2</strong>）开关控制应急发电机。 在 <strong>NORM</strong> 位下，如果主发电机发生故障，应急发电机将自动连接到必要总线。 <strong>OFF/RESET</strong> 位将禁用应急发电机，并在跳闸时复位相关的保护电路。 此开关被保护盖保持在NORM位置，若要将开关设置为OFF/RESET，需打开保护盖。</p>
+<p>相关的警告灯和提示灯位于飞行员 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 。 <strong>L GEN</strong> 和 <strong>R GEN</strong> 指示灯亮起时表示相应的发电机不能正常工作。无论是因为发动机故障还是因为驱动发电机的发动机没有运转</p>
+<p><strong>TRANS/RECT</strong> 提示灯表示只有一个或没有变压整流器在工作。</p>
+<p>应急发电机可以通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a> 上的 <strong>MASTER TEST</strong> 开关选择 <strong>EMERG GEN</strong> 来测试。 <strong>GO</strong> 灯亮起表示测试完成。 如果发生故障，<strong>NO GO</strong> 灯将亮起。</p>
 </div>
 <div class="section" id="circuit-breakers">
 <h3>断路器<a class="headerlink" href="#circuit-breakers" title="永久链接至标题">¶</a></h3>
-<p>The circuit breakers in the F-14 are located on the pilot’s right and left knee panels and behind the RIO’s seat on his left and right sides.
-The breakers protect aircraft systems from overcurrent by popping out and isolating the system drawing too much current.
-This is indicated by a white line becoming visible on the breaker as it pops out. The breaker can be reset by pushing it in and it can also be pulled out manually.</p>
-<p>These breakers will be detailed here when implemented in DCS.</p>
+<p>F-14 的断路器位于飞行员的左右膝板以及 RIO 座椅左后侧和右后侧。 断路器通过弹出自身隔离系统来保护机载系统免受过大电流的影响。 这在断路器弹出时表现为白线变得可见。 断路器可以通过推入来复位，也可以手动拉出。</p>
+<p>当他们在DCS中被实现时，这些断路器将在此处详细描述。</p>
 </div>
 </div>
 <div class="section" id="hydraulic-system">
 <h2>液压系统<a class="headerlink" href="#hydraulic-system" title="永久链接至标题">¶</a></h2>
-<p>The F-14 has two separate hydraulic systems, the flight hydraulic system and the combined hydraulic system.</p>
-<p>Both systems are driven by hydraulic pumps connected to each engine, the flight hydraulic system from the right engine and the combined hydraulic system from the left engine.
-Both systems are pressurised to around 3,000 psi when operating normally.</p>
-<p>Flight control surfaces are supplied by both systems while the combined system also supplies pressure to secondary systems such as the flaps, landing gear and the refueling probe.
-This is so that both systems can drive the control surfaces independently from each other in case of a failure in the other.</p>
-<p>Additionally, the hydraulic systems related to systems not necessary while airborne can be isolated by a switch next to the landing gear handle.
-This is so that damage to those systems won’t affect the combined system pressure and cause fluid loss.
-The systems that can be isolated are the landing gear, wheel brakes and refueling probe.
-This switch is mechanically locked to not isolating these systems by the landing gear handle when it’s in the down position.</p>
-<p>If only one of the hydraulic pumps fail it’s possible to pressurize that system from the other pump via the hydraulic transfer pump.
-This pump is an omni-directional hydraulically driven pump that can supply either system from the other and will maintain a pressure between 2,400 and 2,600 psi if the driving system is at around 3,000 psi.
-If one system pressure falls below 500 psi the pump will be secured to prevent pump damage and preserve pressure in the working system.
-The pump can also be manually disengaged by the pilot.</p>
-<p>In case of failure of both hydraulic pumps the flight hydraulic system can be driven by an electrical pump, called the emergency flight hydraulic pump.
-This pump is capable of independently driving the tail control surfaces, enabling the aircraft to return home and land even without pressure in either main hydraulic system.
-The electric pump is automatically enabled if both main systems drop below 2,100 psi and shut off if either reaches 2,400 psi again.
-The automatic pump activation activates the system in the low mode but it can also manually be selected to either low or high operation.
-The control surfaces will have a reduced deflection rate if driven by this pump, more so in low than high.</p>
-<p>There is also a hand driven hydraulic pump that can be used to pressurize the refueling probe and wheel brake accumulator if there’s otherwise no pressure in the combined system.
-This is mainly for unpowered ground operation but can be used as a backup in the air.</p>
+<p>F-14有两个独立的液压系统，飞行液压系统以及组合式液压系统。</p>
+<p>两个系统均由连接到每个发动机的液压泵驱动，飞行液压系统由右侧发动机驱动，组合液压系统由左侧发动机驱动。 若运行正常的话，两个系统都将被加压至约3000psi。</p>
+<p>飞行控制翼面由这两个系统驱动，而组合液压系统同时也向二级系统提供压力，例如襟翼，起落架和受油管。 这使得两个系统可以在另一个系统发生故障的情况下相互独立地驱动控制表面。</p>
+<p>此外，液压系统可以通过起落架手柄旁边的开关来隔离与飞行不相关的系统。 这样，对这些系统的损坏不会影响组合液压系统的压力并导致流体损失。 可以隔离的系统是起落架，车轮制动器和受油管。 该开关被机械锁定，以便在起落架手柄处于向下位置时不会通过起落架手柄隔离这些系统。</p>
+<p>如果只有一个液压泵失效，则可以通过液压传输泵从另一个液压泵加压该系统。液压传输泵是一种全方位液压驱动泵，可以从另一个系统供应任一系统，如果系统驱动在3,000 psi左右，则压力可以保持在2,400和2,600psi之间。 如果一个系统压力低于500psi，泵将被锁定以防止泵损坏并保持运行中的系统的压力。 泵也可以由飞行员手动关闭。</p>
+<p>在两个液压泵都发生故障的情况下，飞行液压系统可以由被称为紧急飞行液压泵的电动泵驱动。 该泵能够独立驱动尾部控制翼面，使得飞机即使在主液压系统中无压力也能够返回基地和着陆。 如果两个主系统降至2,100 psi以下，则电动泵自动启用;如果再次达到2,400 psi，则关闭电动泵。 自动泵激活在低模式下激活系统，但也可以手动选择低或高。 如果由该泵驱动，控制翼面将降低自身偏转率，相对于于高模式而言低模式该特性更为显著。</p>
+<p>如果组合式液压系统中没有压力，可以使用手动液压泵对受油杆和车轮制动蓄能器加压。 此方法主要用于地面无动力操作，但在空中可作为备用。</p>
 <div class="section" id="id1">
 <h3>控制和指示器<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
 <img alt="_images/hydraulic1.png" src="_images/hydraulic1.png" />
-<p>The <strong>HYD PRESS</strong>, hydraulic pressure indicator, contains two gauges indicating <strong>COMB</strong>, combined, and <strong>FLT</strong>, flight system hydraulic pressure in thousands of psi.
-The scales have markings for the nominal 3,000 psi pressure when the pumps are operating normally.</p>
-<p>Below the gauges are flags indicating hydraulic pressure availability to the spoilers <strong>SPOIL</strong> and the operation of the <strong>EMER FLT</strong>, emergency flight hydraulic pump.
-The <strong>HI</strong> flag indicates on if the emergency flight hydraulic pump is operating in high and the <strong>LOW</strong> if it’s operating in low.</p>
+<p><strong>HYD PRESS</strong> ，液压指示器，包含两个仪表，<strong>COMB</strong> 表示联合液压系统，<strong>FLT</strong> 表示飞行液压系统，两者压力以千psi为单位显示。 当泵正常运行时，标尺应当指示在3,000 psi压力值上。</p>
+<p>仪表下方是指示扰流板液压可用性的 <strong>SPOIL</strong> 标志以及紧急飞行液压泵运行情况的 <strong>EMER FLT</strong> 标志。<strong>HI</strong> 标志表示紧急飞行液压泵在高位运行，如果在低位运行，则显示 <strong>LOW</strong> 标记。</p>
 <img alt="_images/brakepressure1.png" src="_images/brakepressure1.png" />
-<p>The <strong>BRAKE PRESSURE</strong> gauge shows available pressure in the brake accumulators.
-<strong>PARK</strong> indicating parking brake pressure and the <strong>AUX</strong> indicating wheel brake pressure.
-The green area represents a pressure from about 2,150 psi to 3,000 psi and the red a pressure below that.</p>
+<p><strong>制动压力</strong> 表显示制动蓄能器中的可用压力。 <strong>PARK</strong> 表示驻机制动压力，<strong>AUX</strong> 表示机轮制动压力。 绿色区域表示约2,150 psi至3,000 psi的压力，红色区域指示当前压力低于2150psi。</p>
 <img alt="_images/hydraulictransferpump1.png" src="_images/hydraulictransferpump1.png" />
-<p>The <strong>HYD TRANSFER PUMP</strong>, hydraulic transfer pump switch is located on its own panel on the pilot’s right side console.
-The switch allows for manual shut-off of the pump (<strong>SHUTOFF</strong>) but is normally in the <strong>NORMAL</strong> position allowing the pump to activate automatically if either hydraulic pump fails.
-The switch is guarded to the NORMAL position.</p>
-<p>The emergency flight hydraulic pump is controlled by a guarded switch on the <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a>.
-The guarded position, <strong>(AUTO)LOW</strong> allows the pump to automatically activate as detailed above and the two other positions, <strong>HIGH</strong> and <strong>LOW</strong> can manually activate those modes when the guard is up.</p>
-<p>On the <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> the only relevant caution light is the <strong>HYD PRESS</strong> light indicating that either main hydraulic system pressure is below 2,100 psi.
-It turns off when both systems are again above 2,400 psi.</p>
+<p><strong>HYD TRANSFER PUMP</strong> ，液压传输泵开关位于飞行员自己右侧控制台的面板上。 该开关允许手动关闭该泵（ <strong>SHUTOFF</strong> ），但通常处于 <strong>NORMAL</strong> 位，以便在液压泵出现故障时自动启动液压传输泵。 此开关被保护盖保持在 NORMAL 位。</p>
+<p>紧急飞行液压泵由一个位于 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a> 上有保护的开关控制。其保护位，<strong>(AUTO)LOW</strong> 允许泵自动激活, 如上面所述, 其他两个控制位，<strong>HIGH</strong> 模式和 <strong>LOW</strong> 模式可以在保护盖被打开时手动激活。</p>
+<p>在 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 上，唯一与液压系统相关的警示灯是 <strong>HYD PRESS</strong> 灯，任意一个主液压系统压力低于2,100 psi时亮起。 当两个系统再次高于2,400 psi时熄灭。</p>
 </div>
 </div>
 <div class="section" id="wing-sweep-system">
@@ -682,33 +638,28 @@ It turns off when both systems are again above 2,400 psi.</p>
 <img alt="_images/sweepschedule.png" src="_images/sweepschedule.png" />
 <p class="caption"><span class="caption-text">Wing-sweep schedule as function of Mach number and related flap interlocks.</span></p>
 </div>
-<p>The wing-sweep system controls the geometry of the F-14’s wings, allowing the wings to move from a 20° to a 68° position in the air.
-While on the deck an oversweep of 75° is also possible reducing the F-14’s wing span to 33 feet (about 10 meters).</p>
-<p>The wings are moved by hydromechanical screwjack actuators which are interconnected mechanically, making sure they’re synchronized.
-As long as both main hydraulic systems are functioning the maximum wing-sweep change rate is about 15°.
-This can be affected negatively by negative g or large amounts of positive g.</p>
+<p>机翼后掠系统控制F-14机翼的几何形状，使机翼能够在空中从20°移动到68°。 在甲板上，75°的停放后掠可以将F-14的翼展减少到33英尺（约10米）。</p>
+<p>机翼由液压机械螺旋式执行机构移动, 这些执行器机械互联以确保同步。只要两个主液压系统都正常工作, 最大机翼后掠变化率大约为15°。这可能会受到负 g 或大量正 g 的负面影响。</p>
 <p>In normal operation the CADC, Central Air Data Computer, controls the wing position as a function of current Mach via the wing-sweep program,
 this is known as the <strong>AUTO</strong> mode. The pilot can also select a wing position aft of the wing-sweep program manually or choose the <strong>BOMB</strong> mode that sets the
 wings to 55° or further aft depending on the program. Simply put, the CADC wing-sweep program determines the max forward position of the wings.
 All this is done electrically via two independent channels (for redundancy) to the wing-sweep actuators.</p>
-<p>Currently commanded wing position, CADC program wing position and actual wing position can be seen on the wing-sweep indicator next to the ACM panel.</p>
+<p>当前指令的机翼位置，CADC程序设定的机翼位置以及实际机翼位置可在ACM面板旁的机翼后掠角指示器上看到</p>
 <div class="section" id="emergency-mode">
 <span id="wingsweepemerg"></span><h3>应急模式<a class="headerlink" href="#emergency-mode" title="永久链接至标题">¶</a></h3>
-<p>While the normal mode controls the wing-sweep electrically, to supplement this it’s also possible to control the wing-sweep mechanically via the emergency mode.
-This is done via the emergency wing-sweep handle on the right side of the throttle.
-That handle is connected mechanically to the hydraulic valves in the wing-sweep system, providing a physical back-up control.</p>
+<p>虽然正常模式可以电动控制机翼后掠，但作为补充，也可以通过紧急模式机械控制机翼后掠。 这是通过油门右侧的紧急机翼后掠手柄完成的。 该手柄与机翼后掠系统中的液压阀机械连接，提供物理备份控制。</p>
 <p>Normally this handle is moved with the electronic wing-sweep program by a servo located beneath it, making sure it’s at the actual wing position.
 To disengage the electric system and enable the emergency mode the guard over the handle is opened and then the handle is extended for additional leverage.
 Then the handle can be forced out of the spider-detent normally connecting it to the electrical servo and then used to manually set the wing position.</p>
-<p>In this mode the pilot has to make sure to follow the following schedule to avoid damage to the wings:</p>
+<p>在此模式下，飞行员必须确保遵循下表以避免损坏机翼：</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="47%" />
 <col width="53%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">Speed (Indicated Mach)</th>
-<th class="head">Max Forward Wing Position</th>
+<tr class="row-odd"><th class="head">速度（指示马赫）</th>
+<th class="head">最大向前机翼位置</th>
 </tr>
 </thead>
 <tbody valign="top">
@@ -729,70 +680,57 @@ Then the handle can be forced out of the spider-detent normally connecting it to
 </tr>
 </tbody>
 </table>
-<p>To return to the normal mode of operation, the handle should be pushed into the desired position and pressed down and the guard closed.
-The <strong>MASTER RESET</strong> button on the fuel management panel should then be depressed and the wing-sweep system set to the same position as the handle.
-The servo will then drive to the commanded position and re-engage the handle to the spider detent, resuming normal operation.</p>
+<p>要返回正常操作模式，应将手柄推入所需位置并按下且关闭护罩。 然后按下燃油管理面板上的 <strong>MASTER RESET</strong> 按钮，机翼后掠系统设置在与手柄相同的位置。 然后伺服器将驱动机翼到指令位置并将手柄重新接合到spider detent上，恢复正常操作。</p>
 <div class="section" id="oversweep">
 <h4>机翼停放后掠<a class="headerlink" href="#oversweep" title="永久链接至标题">¶</a></h4>
-<p>The emergency wing-sweep handle is also used to select the oversweep position of the wings.
-The oversweep is only used while on the ground to reduce the wing span to make it easier to spot the aircraft on the carrier deck.
-As the wing will sweep over the stabilizers on the tail the horizontal tail authority system is enabled to prevent the wings and stabilizers from damaging each other by restricting movement of the stabilizer.</p>
+<p>紧急机翼后掠手柄也用于选择机翼的停放后掠位置。 停放后掠仅在地面为减小翼展以便更容易在甲板上停放飞机而使用。 当机翼将掠过尾部的安定面时，水平尾翼管理系统能够通过限制安定面的运动来防止机翼和安定面相互损坏。</p>
 <p>To set the wings to oversweep the emergency wing-sweep handle should be moved to the 68° position and held in the extended position.
 This will deflate the wing-seal airbags and activate the horizontal tail authority system, indicated by the <strong>HZ TAIL AUTH</strong> caution light illuminating.
 When the <strong>HZ TAIL AUTH</strong> caution light turns off and the <strong>OVER</strong> flag on the wing-sweep indicator appears the oversweep interlocks are free and the handle can now be moved to the 75° position and stowed.</p>
-<p>To move the wings out of oversweep the handle is pulled up and moved forwards of 68°. This will again illuminate the <strong>HZ TAIL AUTH</strong> caution light.
-When the wings have physically exited the oversweep the caution light and the <strong>OVER</strong> flag will turn off.</p>
-<p>As with normal emergency mode operation the handle should now be set to the same position as the spider detent and the <strong>MASTER RESET</strong> button depressed.</p>
+<p>为了使机翼退出停机后掠，手柄需要被拉起并向前移动68°。 这将再次点亮 <strong>HZ TAIL AUTH</strong> 警告灯。 当机翼已经完全退出停机后掠时，警告灯和 <strong>OVER</strong> 标志将被关闭。</p>
+<p>与正常的紧急模式操作相同，现在应将手柄设置到与spider detent相同的位置，并按下 <strong>MASTER RESET</strong> 按钮。</p>
 </div>
 </div>
 <div class="section" id="id2">
 <h3>控制和指示器<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
-<p>The controls for the wing-sweep system are on the right throttle (electrical) and to the right of the right throttle (mechanical).
-See the <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门</span></a> and the <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a>.</p>
-<p>The wing-sweep hat on the right throttle is normally set to <strong>AUTO</strong> enabling CADC control of the wings, this is the upper position.
-The down position sets the wing-sweep to the <strong>BOMB</strong> mode, 55° or aft.</p>
-<p>The <strong>AFT</strong> and <strong>FWD</strong> (forward) positions enable manual movement aft of the CADC scheduled position.</p>
-<p>The emergency wing-sweep handle on the throttle quadrant is used to control the mechanical emergency mode, see emergency mode above.</p>
+<p>机翼后掠系统的控制装置位于右侧油门（电子）和右侧油门的右侧（机械）。参见 <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门</span></a> 和 <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a> 。</p>
+<p>右侧油门的机翼后掠帽通常设置为 <strong>AUTO</strong> ，使CADC可以控制机翼，此为向上位。 向下位将会把机翼后掠设置为 <strong>BOMB</strong> 模式，55°或后移。</p>
+<p><strong>AFT</strong> 和 <strong>FWD</strong> （向前）位置可以在CADC设定位置后进行手动移动。</p>
+<p>油门象限上的紧急后掠手柄用于控制机械应急模式，参见上面的紧急模式。</p>
 <img alt="_images/wingsweep1.png" src="_images/wingsweep1.png" />
-<p>The wing-sweep indicator to the right of the ACM panel is used to indicate the current wing-sweep positions.
-The pointer on the left side shows the CADC scheduled wing position.
-The left tape shows the manually commanded position and the right tape shows the actual wing position.</p>
-<p>The five windows on the right side show:</p>
+<p>ACM面板右侧的机翼后掠指示器用于指示当前的机翼后掠位置。 左侧的指针显示了CADC设定的机翼位置。 左侧卷带显示手动指令位置，右侧卷带显示实际机翼位置。</p>
+<p>右侧的五个窗口显示：</p>
 <ul class="simple">
-<li><strong>OFF</strong> - System inoperable.</li>
-<li><strong>AUTO</strong> - CADC controlling wing-sweep.</li>
-<li><strong>MAN</strong> - Wings set manually with the control on the right throttle.</li>
-<li><strong>EMER</strong> - Wings set with the emergency wing-sweep handle.</li>
-<li><strong>OVER</strong> - Wings in oversweep.</li>
+<li><strong>OFF</strong> - 系统无法操作。</li>
+<li><strong>AUTO</strong> - 机翼后掠由CADC控制。</li>
+<li><strong>MAN</strong> - 机翼由右侧油门手动控制。</li>
+<li><strong>EMER</strong> - 机翼由紧急机翼后掠手柄控制。</li>
+<li><strong>OVER</strong> - 机翼处于停机后掠状态。</li>
 </ul>
-<p>The relevant warning and advisory lights are located on the <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">Vertical Display Indicator (VDI)</span></a> and the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a>.</p>
-<p>The <strong>WING SWEEP</strong> warning light on the right side of the VDI illuminates when both wing-sweep electrical channels are inoperable or the emergency mode is in use.
-If it illuminates without the emergency mode being used that mode should then be used as the electrical system might not work.</p>
-<p>The <strong>WING SWEEP</strong> caution light on the pilot caution - advisory indicator illuminates when at least one electrical wing-sweep channel is inoperable.</p>
+<p>相关的警告与提示灯位于 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 和飞行员的 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 。</p>
+<p>当两个机翼后掠电气通道无法操作或使用紧急模式时，VDI右侧的**WING SWEEP**警告灯将亮起。 如果在未使用紧急模式的情况下亮起，则应使用该模式，因为电气系统可能已无法工作。</p>
+<p>当至少一个电动机翼后掠通道无法操作时，位于飞行员警告-提示指示器上的**WING SWEEP**警告灯将亮起。</p>
 <div class="section" id="wing-sweep-system-test">
 <h4>机翼后掠系统测试<a class="headerlink" href="#wing-sweep-system-test" title="永久链接至标题">¶</a></h4>
-<p>The wing-sweep system can be tested on the ground in pre-flight without moving the wings using the <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a>.</p>
-<p>To conduct the test, set the wing-sweep mode to <strong>AUTO</strong> and push the <strong>MASTER RESET</strong> button.
-Set the <strong>MASTER TEST</strong> switch to <strong>WG SWP</strong></p>
-<p>The CADC commanded position indicator on the wing-sweep indicator will now move to 44°.
-The <strong>WING SWEEP</strong> and <strong>FLAP</strong> light will illuminate on the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> and the <strong>REDUCE SPEED</strong> warning light on the <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">Vertical Display Indicator (VDI)</span></a>.</p>
+<p>机翼后掠系统可以在地面上进行起飞前测试，而无需使用 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a> 移动机翼。</p>
+<p>要进行测试，需将机翼后掠模式设置为 <strong>AUTO</strong> 并按下 <strong>MASTER RESET</strong> 按钮。 将 <strong>MASTER TEST</strong> 开关设置为 <strong>WG SWP</strong></p>
+<p>机翼后掠指示器上的CADC指令位置指示器现在将移动到44°。 飞行员 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 上的 <strong>WING SWEEP</strong> 和 <strong>FLAP</strong> 提示灯以及 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 上的 <strong>REDUCE SPEED</strong> 警告灯将亮起。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The <strong>WING SWEEP</strong> advisory light will illuminate after 3 seconds into test, turn off and then illuminate again at 8 seconds.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><strong>WING SWEEP</strong> 提示灯将在测试3秒后亮起，将其关闭，8秒后其将再次亮起。</td>
 </tr>
 </tbody>
 </table>
-<p>When the CADC commanded position indicator moves forward to the 20° position the test is over and the above light will turn off.
-The <strong>MASTER TEST</strong> switch can now be set to <strong>OFF</strong> and the test is complete. The test will take about 25 seconds to complete.</p>
+<p>当CADC指令位置指示器向前移动到20°位置时，测试结束，上述指示灯将熄灭。 <strong>MASTER TEST</strong> 开关现在可以设置为 <strong>OFF</strong> ，测试完成。 整个测试大约需要25秒才能完成。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The <strong>RUDDER AUTH</strong> and/or <strong>MACH TRIM</strong> lights might illuminate and the control stick might move. This can be ignored.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><strong>RUDDER AUTH</strong> 和 <strong>MACH TRIM</strong> 灯可能会同时亮起或亮起其中一个，控制杆可能会移动。 在此可以忽略。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Note 2:</th><td class="field-body">The WG SWP test on the Master Test panel is not implemented yet.</td>
+<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">主测试面板上的 WG SWP 测试尚未实装。</td>
 </tr>
 </tbody>
 </table>
@@ -801,17 +739,16 @@ The <strong>MASTER TEST</strong> switch can now be set to <strong>OFF</strong> a
 </div>
 <div class="section" id="flight-control-system">
 <span id="fcs"></span><h2>飞行控制系统<a class="headerlink" href="#flight-control-system" title="永久链接至标题">¶</a></h2>
-<p>The flight control system on the F-14 Tomcat is driven by the two main hydraulic circuits, powered by pumps connected to each engine.</p>
-<p>For longitudinal (pitch) control both tail stabilizers are deflected in unison, acting in the same way as traditional elevators.</p>
-<p>Lateral (roll) control is produced by both the tail stabilizers and the spoilers working in unison.
-To produce roll the stabilizers are deflected opposite each other to act as ailerons in combination with the spoilers on the side to which roll is commanded.</p>
-<p>The rudders on the F-14 is a standard rudder configuration albeit in a two tail, two rudder configuration.</p>
-<p>Control surface position is indicated on the <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a> and can also be used to check trim position with controls at neutral.</p>
+<p>F-14“雄猫”的飞行控制系统由两个主液压管路驱动，以连接到两个引擎的液压泵作为动力。</p>
+<p>对于纵向（俯仰）控制，两边水平尾翼一致地偏转，其作用方式与传统升降舵相同。</p>
+<p>侧向（滚转）控制由水平尾翼和扰流板一起工作进行。 为了进行滚转，水平尾翼彼此相对地偏转，与滚动方向的一侧的扰流板组合作为副翼。</p>
+<p>F-14的方向舵是标准的双垂直尾翼方向舵。</p>
+<p>控制面位置会在 <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a> 中指示，也可以在回中时检查配平位置。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Above 15 units AOA the rudders should be used for lateral (roll) control due to the different airflow along the aircraft control surfaces.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">由于经过飞机控制面的气流变化，在大于15单位AOA时方向舵应该用于横向（滚转）控制。</td>
 </tr>
 </tbody>
 </table>
@@ -820,135 +757,96 @@ To produce roll the stabilizers are deflected opposite each other to act as aile
 </div>
 <div class="section" id="trim">
 <h3>配平<a class="headerlink" href="#trim" title="永久链接至标题">¶</a></h3>
-<p>Longitudinal and lateral trim is accomplished via the trim hat on the <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a>. This changes the stick neutral position, thus trimming the aircraft.
-Rudder trim is accomplished via the <strong>RUDDER TRIM</strong> switch on the <a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">进气道板 / 油门控制面板</span></a>, changing the neutral rudder position.</p>
-<p>The Mach Trim and ITS (Integrated Trim System) automatically trims to compensate for changes in longitudinal trim.
-The Mach Trim system compensates for transonic and supersonic trim changes and the ITS for trim changes due to flap and speedbrake position changes.</p>
+<p>纵向和横向配平通过 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 的配平帽完成。通过改变操纵杆的回中位置来完成飞机的配平。方向舵配平通过 <a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">进气道板 / 油门控制面板</span></a> 的 <strong>RUDDER TRIM</strong> 完成，改变方向舵回中位置。</p>
+<p>马赫配平和ITS（集成配平系统）会自动配平以补偿纵向配平变化。马赫配平系统可补偿跨音速和超音速配平变化并通过减速板和襟翼位置变化来修正ITS。</p>
 </div>
 <div class="section" id="afcs-automatic-flight-control-system">
 <h3>AFCS 自动飞行控制系统<a class="headerlink" href="#afcs-automatic-flight-control-system" title="永久链接至标题">¶</a></h3>
-<p>The AFCS or Automatic Flight Control System provides additional aircraft stability (SAS or Stability Augmentation System) via automatic control surface commands generated from AFCS sensors.
-The AFCS is controlled by switches on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">自动飞控系统控制面板</span></a> and pitch, roll and yaw can each be set individually.</p>
-<p>The pitch and roll switches are springloaded to off but normally held to on by solenoids meaning that if the system is turned off or inoperable the switches return to off.
-The yaw switch is purely mechanical.</p>
-<p>Roll SAS should not be used for situations involving flight at AOA above 15 units and should therefore be set to off for combat maneuvers.</p>
-<p>If the autopilot emergency disengage paddle on the control stick is held down the pitch and roll channels will be set to off.</p>
+<p>自动飞行控制系统（AFCS）通过AFCS传感器生成的控制面自动命令提供额外的飞机稳定性（SAS，稳定性增强系统）。AFCS由 <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">自动飞控系统控制面板</span></a> 的开关控制，并且仰俯，滚转和偏航都可以单独设置。</p>
+<p>仰俯和滚转开关会被弹簧顶到关闭位，但通常由螺线管保持其打开，也就是说如果系统关闭或者不可操作状态下开关会回到关闭位。偏航开关是纯机械的。</p>
+<p>当AOA大于15单位时不应使用滚转SAS，因此战斗机动时要把它关闭。</p>
+<p>如果按下操纵杆上的自动驾驶仪紧急脱离杆，则仰俯和滚转通道将会关闭。</p>
 <div class="section" id="autopilot">
 <h4>自动驾驶<a class="headerlink" href="#autopilot" title="永久链接至标题">¶</a></h4>
-<p>Apart from stability augmentation the AFCS is also used to provide autopilot functionality.
-To use the autopilot all three stabilisation channels must be enabled.</p>
-<p>The controls for the autopilot system are situated on the <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">自动飞控系统控制面板</span></a>.</p>
-<p>Autopilot modes available are attitude hold, heading hold, ground track, altitude hold, vector/pcd (precision course direction) and acl (automatic carrier landing).</p>
-<p>By setting the autopilot <strong>ENGAGE</strong> switch to on the attitude hold is engaged, maintaining current aircraft attitude.
-Limited to within 30° pitch and 60° roll angles and the aircraft will be automatically moved within this range.
-Current attitude can be changed with the control stick and will be held when the stick is released.</p>
-<p>The <strong>ENGAGE</strong> switch is also a prerequisite for all other autopilot modes.</p>
-<p>The <strong>HDG</strong> position on the HDG switch enables heading hold, maneuver the aircraft to desired heading and with a bank angle of less than 5° to set heading.</p>
-<p>The ground track mode is entered by setting the HDG switch to <strong>GT</strong>, wait for the <strong>A/P REF</strong> warning light on the left side of the <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">Vertical Display Indicator (VDI)</span></a> to illuminate and then press the nosewheel steering button on the control stick.
-The <strong>A/P REF</strong> warning light will then turn off and the ground track mode will be enabled, setting the autopilot to follow a ground track by compensating for aircraft wind drift.</p>
-<p>The altitude hold mode is set via the <strong>ALT</strong>, altitude switch and like the ground track mode the <strong>A/P REF</strong> warning light will illuminate until the nosewheel steering button is depressed, enabling the mode.</p>
-<p>The Data Link Vector - Precision Course Direction mode is used to allow a Link 4 controller to remotely control the aircraft. This is not modelled in DCS.</p>
-<p>Finally the ACL or Automatic Carrier Landing mode is used to conduct automatic carrier landings in conjunction with the Link 4 data link and the on-board radar beacon.
-To enable the ACL, set the VEC/PCD switch to <strong>ACL</strong> which will cause the <strong>A/P REF</strong> warning light to illuminate.
-When intercepting the ACL glideslope and with the <strong>ACL READY</strong> and <strong>A/P CPLR</strong> warning lights illuminated on the VDI, depress the nosewheel steering button on the control stick.
-This engages the ACL and lets the data link control the aircraft. The <strong>A/P REF</strong> warning light will turn off.</p>
-<p>The ACL can be used in conjunction with the APC (see <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制</span></a>) for a fully automatic landing.
-The ACL can be disengaged via the <strong>PLM</strong> button on the right throttle and the APC via the <strong>CAGE/SEAM</strong> button on the left throttle.</p>
-<p>All the autopilot modes can be overriden by enough force on the control stick or by depression of the autopilot emergency disengagement paddle, automatically resetting all autopilot switches to off.</p>
+<p>除增强稳定性外，AFCS还提供自动驾驶功能。要使用自动驾驶，必须启用所有三个稳定通道。</p>
+<p>自动驾驶系统的控制器位于 <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">自动飞控系统控制面板</span></a> 。</p>
+<p>可用的自动驾驶模式包括姿态保持，航向保持，地面航迹，高度保持，vector/pcd（精确航向）和acl（自动航母着陆）。</p>
+<p>把自动驾驶的 <strong>ENGAGE</strong> 开关打开即可接通姿态保持，保持飞机当前的姿态。飞机会自动在30°仰俯和60°滚转范围限制内移动。当前的姿态可以通过操纵杆改变，并在释放操纵杆后保持。</p>
+<p><strong>ENGAGE</strong> 开关也是所有其他自动驾驶模式的先决条件。</p>
+<p>HDG开关的 <strong>HDG</strong> 位能激活航向保持，将飞机指向所需航向并且坡度小于5°以设定航向。</p>
+<p>通过将HDG开关设置为 <strong>GT</strong> 进入地面跟踪模式，等待 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>A/P REF</strong> 警告灯亮起，然后按操纵杆上的前轮转向按钮。<strong>A/P REF</strong> 警告灯将关闭，地面跟踪模式将启用，设置自动驾驶仪补偿飞机风漂并跟随地形轨迹。</p>
+<p>高度保持模式通过 <strong>ALT</strong> 高度开关设置，与地形跟踪模式类似，在按下前轮转向按钮启用模式前 <strong>A/P REF</strong> 警告灯会亮起。</p>
+<p>数据链引导航向 - 精准航向指向模式允许 Link4 控制器远程控制飞机。DCS中未模拟。</p>
+<p>最后，自动航降模式（ACL）把Link4数据链和舰载雷达信标相结合进行自动航降。要启用ACL，把VEC/PCD开关拨至 <strong>ACL</strong>，<strong>A/P REF</strong> 将会亮起。截获ACL下滑道并且VDI的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 警告灯亮起后按下操纵杆的前轮转向按钮。这将接通ACL并让数据链控制飞机。 <strong>A/P REF</strong> 警告灯将熄灭。</p>
+<p>ACL可以与APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制</span></a> ）结合进行全自动降落。ACL可以通过右油门的 <strong>PLM</strong> 按钮和左油门的 <strong>CAGE/SEAM</strong> 按钮断开。</p>
+<p>所有自动驾驶模式都可以通过用力动操纵杆或按下自动驾驶仪紧急断开杆来超控，并把所有自动驾驶开关重置为关。</p>
 </div>
 </div>
 <div class="section" id="spoilers">
 <h3>扰流板<a class="headerlink" href="#spoilers" title="永久链接至标题">¶</a></h3>
-<p>The spoilers located on the upper surfaces of the wings are used to control roll as detailed above under <a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a>,
-for braking on the ground as part of the <a class="reference internal" href="#askid"><span class="std std-ref">防滑</span></a> system and as a part of the DLC system (see next header).</p>
-<p>The spoilers are only used forwards of 62° wing-sweep as further aft these conflict with the fuselage.</p>
-<p>In case of a spoiler malfunction the spoiler symmetry protection logic disables all of the spoilers in the same section as the failed spoiler, either inboard or outboard spoilers.
-If this occurs the <strong>SPOILERS</strong> caution light on the <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> illuminates.</p>
-<p>To override this the switch corresponding to the relevant section on the <a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障超控</span></a> can be set to override by lifting the guard and setting the switch to
-<strong>ORIDE</strong> and then depressing the <strong>MASTER RESET</strong> button on the <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>.</p>
-<p>Spoiler position can be seen on the <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a>.</p>
+<p>扰流板位于机翼上翼面，如上所述，<a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a> 用它控制滚转，作为 <a class="reference internal" href="#askid"><span class="std std-ref">防滑</span></a> 系统的一部分可在地面提供制动，同时也是DLC系统的一部分（见下一个标题）。</p>
+<p>由于和机身冲突，扰流板仅能在翼掠角小于62°时展开。</p>
+<p>扰流板故障时，扰流板对称保护逻辑会禁用与故障扰流板相同部分的全部扰流板，无论内外侧扰流板。如果发生这种情况，<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 的 <strong>SPOILERS</strong> 注意灯会亮起。</p>
+<p>把对应 <a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障超控</span></a> 相关部分的开关保护盖掀起并把开关拨至 <strong>ORIDE</strong> ，然后按下位于 <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a> 的 <strong>MASTER RESET</strong> 按钮即可超控。</p>
+<p>扰流板位置可以在 <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a> 看到。</p>
 <div class="section" id="dlc-direct-lift-control">
 <h4>直接升力控制（DLC）<a class="headerlink" href="#dlc-direct-lift-control" title="永久链接至标题">¶</a></h4>
-<p>The DLC or Direct Lift Control is used to control vertical glideslope position without pitch control inputs or engine throttle commands.
-The DLC uses the two inboard spoiler sections in conjunction with small corrections on the tail stabilizers to control lift.</p>
-<p>The DLC is engaged by depression of the DLC switch on the control stick with flaps and gear down.
-This causes the inboard spoilers to extend to half and enables the DLC &amp; maneuver flap command thumbwheel on the control stick to control them.</p>
-<p>Rotation of the thumbwheel forwards extends the spoilers towards the max up position, decreasing lift and adjusting glideslope position downward.
-Rotation of the thumbwheel aft retracts the spoilers towards the flush position, increasing lift and adjusting glideslope position upward.</p>
-<p>Another depression of the DLC switch disengages the system.</p>
+<p>直接升力控制（DLC）不用控制仰俯和油门即可调整下滑道。DLC使用两边内侧扰流板并微调水平尾翼来调整升力。</p>
+<p>在襟翼和起落架放下时按下操纵杆的DLC开关来接通DLC。这使内侧扰流板展开一半并能通过操纵杆的DLC与机动襟翼控制旋钮来调节。</p>
+<p>向前转旋钮使扰流板向最大位展开，减少升力并降低下滑道。向后转旋钮使扰流板收回到与机翼平齐的位置，增加升力并提高下滑道。</p>
+<p>再按一下DLC开关断开系统。</p>
 </div>
 </div>
 <div class="section" id="flaps-and-slats">
 <h3>襟翼和缝翼<a class="headerlink" href="#flaps-and-slats" title="永久链接至标题">¶</a></h3>
-<p>The flaps and slats on the F-14 Tomcat can be used in two modes.</p>
-<p>The normal flap and slat extension is controlled using the <strong>FLAP</strong> handle on the <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a>.
-The flaps can be set to anywhere between retracted and fully extended where the flaps will extend to 35° and the slats to 17°.
-The auxiliary flaps, the innermost section, only have two positions, retracted and extended. They will extend fully when the <strong>FLAP</strong> handle is at more than 5° extension.</p>
-<p>If a fault exists preventing retraction of flaps the <strong>FLAP</strong> handle should be moved to the <strong>UP</strong> position and then moved outboard and up to the <strong>EMER UP</strong> position, overriding faulty interlocks.</p>
-<p>The other mode is the maneuver flap system in which the CADC uses the flaps and slats automatically to improve aircraft performance.
-In this mode the flaps extends to 10° maximum and the slats to 7° maximum and the innermost flap section is disabled.</p>
-<p>While normally automatic the maneuver flap system can be manually controlled using the DLC &amp; maneuver flap command thumbwheel on the control stick.
-Forward thumbwheel rotation retracts the flaps and slats and aft thumbwheel rotation extends them.</p>
-<p>When sweeping the wings the flaps are limited by the wing-sweep position.
-Aft of 21° sweep the auxiliary (inboard flaps) are disabled up. Aft of 50° all flaps are disabled up.
-The slats are not inhibited by wing-sweep.</p>
-<p>Position of the flaps and slats are indicated on the <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a>.</p>
-<p>The <strong>FLAP</strong> light on the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> indicates a malfunction in the flap system with flaps at non symmetrical positions.
-The <strong>REDUCE SPEED</strong> warning light on the left side of the <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">Vertical Display Indicator (VDI)</span></a> indicates flaps not retracted above 225 knots indicated airspeed.</p>
+<p>F-14“雄猫”的襟翼和缝翼可用于两种模式。</p>
+<p>使用 <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a> 的 <strong>FLAP</strong> 控制杆控制襟翼和缝翼的正常伸展。襟翼能调到收回和完全展开之间的任意位置，襟翼最大展开至35°，缝翼最大展开至17°。辅助襟翼即最内侧的襟翼，只有两个位置，收回和展开。当 <strong>FLAP</strong> 控制杆大于5°时它们将完全展开。</p>
+<p>如果有阻碍襟翼收回的故障，则应将 <strong>FLAP</strong> 控制杆移至 <strong>UP</strong> 位然后向外移至 <strong>EMER UP</strong> 位，从而超控故障联锁。</p>
+<p>另一种模式是机动机动襟翼系统，CADC自动使用襟翼和缝翼来提升飞机性能。此模式下襟翼最大伸展至10°，缝翼最大伸展至7°，最内侧部分的襟翼被禁用。</p>
+<p>虽然通常是自动的，但是仍然可以通过操纵杆的DLC和机动襟翼控制旋钮来手动控制机动襟翼系统。向前转旋钮收回襟翼和缝翼，向后转旋钮展开它们。</p>
+<p>机翼后掠时襟翼会受到机翼后掠位置的限制。机翼后掠大于21°时辅助（内侧）襟翼会被禁用并收起。机翼后掠大于50°时所有襟翼都会被禁用并收起。机翼后掠不会限制缝翼。</p>
+<p>襟翼和缝翼的位置在 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> 上指示。</p>
+<p>飞行员 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 的 <strong>FLAP</strong> 灯表示襟翼系统出现故障，襟翼处于非对称位置。 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>REDUCE SPEED</strong> 警告灯表示空速高于225节而襟翼未收起。</p>
 </div>
 <div class="section" id="speedbrakes">
 <h3>减速板<a class="headerlink" href="#speedbrakes" title="永久链接至标题">¶</a></h3>
-<p>The speedbrakes on the F-14 Tomcat consists of three sections on the tail located between the engines and these are powered by the combined hydrualic system.</p>
-<p>The speedbrake controls are located on the right <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门</span></a> and can be set to desired position depending on how long the switch is held to the extend position.
-Retraction always fully retracts the speedbrakes.</p>
-<p>To protect the speedbrakes they will start retracting above 400 knots and will continue to do so with increasing airspeed,
-additionally selection of <strong>MIL</strong> power or above automatically retracts them.</p>
-<p>As the speedbrakes disturb airflow around the tail the fuel dump is disabled with speedbrake extension as to not have the fuel hit the aircraft.</p>
-<p>Position of the speedbrakes can be seen on the <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a>.</p>
+<p>F-14“雄猫”的减速板由位于发动机之间的尾部的三个部分组成，由组合式液压系统提供动力。</p>
+<p>减速板开关位于右 <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门</span></a> ，可以通过保持在展开位时间的长短来调整减速板展开的位置。收回永远都是完全收回减速板。</p>
+<p>为了保护减速板，超过400节后它们将开始收回，随着速度的增加逐渐收回，另外，<strong>MIL</strong> 或更大的推力会自动收回减速板。</p>
+<p>当展开的减速板扰动机尾周围的气流时，放油会被禁用以免燃油溅到飞机上。</p>
+<p>减速板的位置可以在 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> 上看到。</p>
 </div>
 </div>
 <div class="section" id="landing-gear-system">
 <h2>起落架系统<a class="headerlink" href="#landing-gear-system" title="永久链接至标题">¶</a></h2>
-<p>The F-14 Tomcat has a tricycle landing gear designed to be fully retractable as well as hardened enough to withstand the rigours of carrier traps.
-The landing gear extension and retraction is powered by the combined hydraulic system as well as having an emergency extension system.
-The emergency extension system has a nitrogen bottle that can be used to power a one-shot emergency extension.
-With the emergency system triggered, the system needs to be reset by technicians on the ground to allow further normal retraction.</p>
-<p>For additional information on controls and indicators see <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> for controls and <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> for the indicators.</p>
+<p>F-14“雄猫”使用可完全收回的前三点式起落架，并且足够结实以应对航降。起落架的收放由组合液压系统提供动力并拥有紧急释放系统。紧急释放系统由一个氮气瓶为紧急释放提供一次性动力。当紧急系统触发后，系统需要地面技术人员复位，以便之后能正常收回。</p>
+<p>有关控制和指示器的更多信息，请看 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 和 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> 。</p>
 <div class="section" id="nosewheel-steering">
 <h3>前轮转向<a class="headerlink" href="#nosewheel-steering" title="永久链接至标题">¶</a></h3>
-<p>The nosewheel steering system on the F-14 can be activated with weight on wheels by depression of the nosewheel steering button on the <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a>.
-The activation of this system is indicated via the <strong>NWS ENGA</strong> caution light on the left side of the HUD, see <a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">Wheels Warning/Brakes Warnings/ACLS/AP Caution/NWS Engage Caution/Auto Throttle Caution Lights</span></a>.</p>
-<p>Disengagement of this system occurs automatically with weight off wheels (take-off), electrical supply failure or lowering of the launch bar.
-It’s also possible to deactivate the system by depression of the nosewheel steering button.</p>
-<p>The nosewheel, with the system engaged, is controlled via the rudder pedals.
-It’s capable of a deflection of up to 70° meaning that it will turn tightly enough that the inner wheel will in fact move backwards.</p>
+<p>前轮转向系统可以在机轮受到压力时按下 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 的前轮转向按钮激活。系统的激活会通过HUD左侧的 <strong>NWS ENGA</strong> 注意灯来指示，见 <a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">机轮警告/刹车警告/ ACLS 和 AP 注意/ NWS 启用注意/自动油门注意灯</span></a> 。</p>
+<p>该系统会随着机轮受到的压力消失（起飞），供电故障或放下弹射牵引杆而自动断开。也可以通过按下前轮转向按钮来禁用。</p>
+<p>系统接通时前轮通过方向舵踏板控制。其偏转能达到70°，也就是说转向半径非常小，以至于内侧机轮实际上是向后动。</p>
 </div>
 <div class="section" id="wheelbrakes">
 <h3>机轮刹车<a class="headerlink" href="#wheelbrakes" title="永久链接至标题">¶</a></h3>
-<p>The wheelbrakes can be applied either via the rudder pedals by pressing on the upper part of them, rotating them forwards.
-The other application is via the parking brake handle located on the <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> panel.</p>
-<p>The rudder pedals can be used to apply the brakes gradually while the parking brakes are either on or off.</p>
-<p>Normally both systems are supplied from the combined hydraulic system but if that system becomes depressurised the brake system automatically switches to the backup accumulators.
-The <a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压强表</span></a> shows current pressure in the emergency accumulators.</p>
-<p>If fully charged the auxiliary accumulator allows for about 13 to 14 wheelbrake applications from the pedals and the parking brake accumulator 3 parking brake applications minimum.
-These accumulators can be recharged via the <a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a>.</p>
-<p>The <strong>BRAKES</strong> warning light on the left side of the HUD indicates either parking brake applied, antiskid system fail or that the brakes are operating in the emergency mode (only when the pedals are depressed).</p>
+<p>踩压方向舵踏板的上部使它向前转可以激活机轮刹车。也可以由 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 面板的停放刹激活刹车。</p>
+<p>无论停放刹车开还是关，都可以通过方向舵踏板逐渐增加刹车力度。</p>
+<p>通常两个系统都是由组合液压系统提供的，但如果该系统减压，则制动系统会自动切换到备用聚能器。 <a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压强表</span></a> 显示紧急聚能器的当前压力。</p>
+<p>辅助聚能器完全加压后能用大约13到14次踏板刹车，至少3次停放刹车。聚能器能通过 <a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a> 加压。</p>
+<p>HUD左侧的 <strong>BRAKES</strong> 警告灯表示已激活停放刹车，防滑系统故障或刹车在紧急模式下运行（仅踩下踏板时）。</p>
 <div class="section" id="antiskid">
 <span id="askid"></span><h4>防滑<a class="headerlink" href="#antiskid" title="永久链接至标题">¶</a></h4>
-<p>The antiskid system modulates the wheelbrakes to prevent skidding while on the ground.
-When armed in the air the system prevents braking until both main wheels are on the ground and the wheels have spun up.
-Also the system is not operational below 15 knots.</p>
-<p>The antiskid system switch also controls the spoiler brake system that deploys the spoilers as brakes when the throttles are set to <strong>IDLE</strong> while on the ground.</p>
+<p>防滑系统调节机轮刹车以防止在地面打滑。在空中启用防滑系统将阻止刹车激活，直到两个主机轮都已经接地并且在旋转。此外，低于15节时该系统不会运作。</p>
+<p>防滑系统还控制扰流板减速系统，在地面上当油门收到 <strong>IDLE</strong> 时，扰流板会作为减速板展开。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The antiskid should be disabled during taxi as below 15 knots the system may disturb normal braking even though the antiskid feature not being operational at those speeds.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">滑行时应该禁用防滑，低于15节时系统可能会干扰刹车正常激活，尽管防滑功能在这个速度下无法运行。</td>
 </tr>
 </tbody>
 </table>
-<p>The <strong>ANTI SKID SPOILER BK</strong> switch on the <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a> panel controls the system.
-<strong>OFF</strong> disables the system, <strong>BOTH</strong> enables antiskid and the spoiler brake system and <strong>SPOILER BK</strong> enables only the spoiler brake system.</p>
+<p><a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a> 的 <strong>ANTI SKID SPOILER BK</strong> 开关控制此系统。 <strong>OFF</strong> 禁用系统， <strong>BOTH</strong> 启用防滑和扰流板减速系统， <strong>SPOILER BK</strong> 只启用扰流板减速系统。</p>
 </div>
 </div>
 </div>
@@ -956,56 +854,44 @@ Also the system is not operational below 15 knots.</p>
 <h2>弹射和阻拦装置<a class="headerlink" href="#catapult-launch-and-arresting-gear" title="永久链接至标题">¶</a></h2>
 <div class="section" id="nosegear-catapult-system">
 <h3>前轮弹射系统<a class="headerlink" href="#nosegear-catapult-system" title="永久链接至标题">¶</a></h3>
-<p>The nosegear of the F-14 contains the system allowing for catapult assisted takeoff during carrier based operations.</p>
-<p>The three components mounted in or on the nosegear are the nosewheel kneel functionality, the launch bar and the holdback fitting.</p>
-<p>To enable the system the aircraft is kneeled using the <strong>NOSE STRUT</strong> switch on the <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a>.
-This is done by holding the switch to the <strong>KNEEL</strong> position until downward movement stops.</p>
-<p>This drains hydraulic fluid from the shock absorber, compressing the nosegear strut 14 inches.
-When compressed this also releases the lock on the launch bar which can then be lowered manually by the deck crew or by turning the nosegear more than 10° from center.</p>
+<p>F-14的前起落架包含航母弹射起飞系统。</p>
+<p>安装在前起落架的三个部件为前起落架支柱伸缩系统，弹射牵引杆和止动配件。</p>
+<p>要启用系统，使用 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>NOSE STRUT</strong> 开关来收缩前起落架支柱。把开关保持在 <strong>KNEEL</strong> 位直到收缩动作停止即可。</p>
+<p>这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。缩短后弹射牵引杆会解除锁定并放下，也可以由甲板工作人员手动放下或把前起落架偏转离中心超过10°来放下。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS the launch bar is automatically lowered with nosegear kneel.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中，弹射牵引杆会随着前起落架支柱的收缩自动放下。</td>
 </tr>
 </tbody>
 </table>
-<p>The aircraft can then be guided onto the catapult and connected to the shuttle, in DCS via default keybind <strong>U</strong>.
-The holdback bar is currently not modelled in DCS.</p>
+<p>在DCS中，默认按键 <strong>U</strong> 可以把飞机引导到弹射器并与弹射器滑块连接。止动杆目前在DCS中未模拟。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Deselection of nosewheel steering should be done before final movement onto the shuttle and hookup to avoid missalignment.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在移动到弹射器滑块并连接之前应关闭前轮转向以避免错位。</td>
 </tr>
 </tbody>
 </table>
-<p>The final command to launch the aircraft, after proper procedures, is then to salute the “shooter” or officer in command of catapult launch, default keybind <strong>Left Shift + U</strong> in DCS.</p>
-<p>After the catapult stroke, when the launch bar is released from the shuttle, stored hydraulic energy is released to impart a positive pitch moment to the aircraft.
-This also automatically raises the launch bar into its stowed position.</p>
-<p>Indication of the launch bar status is available on the <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> via the <strong>LAUNCH BAR</strong> advisory light.
-The advisory light is on with weight on wheels when the launch bar is not up and locked and turns off if throttles are advanced to <strong>MIL</strong> to enable a lights out for launch criteria.
-With weight off wheels the <strong>LAUNCH BAR</strong> advisory light is on if the nose strut hasn’t fully extended, launch bar is not up and locked or nosewheel hasn’t centered correctly.
-This inhibits nosegear retraction.</p>
-<p>The <a class="reference internal" href="cockpit.html#launchbarabort"><span class="std std-ref">弹射牵引杆中止面板</span></a> contains the <strong>LAUNCH BAR</strong> switch used to disengage the launch bar in case of an aborted launch.
-This functionality is currently not implemented in DCS, unhooking the launch bar is currently accomplished by another depression of the hookup key, default key <strong>U</strong>.</p>
+<p>在正确的程序之后，弹射起飞的最后一步是向“shooter”或指挥弹射作业的军官敬礼，DCS中默认按键为 <strong>Left Shift + U</strong> 。</p>
+<p>弹射器滑块完成冲程，弹射牵引杆从滑块脱离后，前起落架支柱存储的液压能量被释放以向飞机施加抬头力矩。同时也自动把弹射牵引杆收起。</p>
+<p>弹射牵引杆的状态通过 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 的 <strong>LAUNCH BAR</strong> 提示灯指示。机轮受到压力，弹射牵引杆未收起并锁定时提示灯亮起，油门推至 <strong>MIL</strong> 则熄灭以满足弹射标准。机轮未受到压力时如果前起落架支柱没有完全伸展，弹射牵引杆没有收起并锁定或前轮没有正确回中都会导致 <strong>LAUNCH BAR</strong> 注意灯亮起。这会阻碍前起落架收起。</p>
+<p><a class="reference internal" href="cockpit.html#launchbarabort"><span class="std std-ref">弹射牵引杆中止面板</span></a> 包含脱离弹射牵引杆的 <strong>LAUNCH BAR</strong> 开关，用于在弹射中止的情况下脱离弹射牵引杆。此功能目前尚未在DCS中实现，目前脱离弹射牵引杆需要再按一次连接键，默认为 <strong>U</strong> 。</p>
 </div>
 <div class="section" id="arresting-gear">
 <h3>阻拦装置<a class="headerlink" href="#arresting-gear" title="永久链接至标题">¶</a></h3>
-<p>The arresting hook located on the underside of the tail of the F-14 is used for arrested landings during carrier operations.</p>
-<p>To system uses hydraulic power from both flight and combined hydraulic systems and is controlled electrically, thus requiring electrical power as well.</p>
-<p>Operation of the system is via the arresting <strong>HOOK</strong> handle on the <a class="reference internal" href="cockpit.html#arrhook"><span class="std std-ref">阻拦钩面板</span></a>.
-<strong>UP</strong> raises the arresting hook and <strong>DN</strong>, down, lowers it to 37° allowing it to catch the wire during a correctly executed carrier “trap”.
-The transition light next to the arresting <strong>HOOK</strong> handle illuminates whenever the arresting hook position does not correspond with handle position.</p>
-<p>If on board failures do not allow for normal hook lowering it’s possible to use a mechanical backup to deploy the hook.
-To activate the mechanical backup, pull the handle out and rotate it 90° counterclockwise.
-This releases the mechanical uplock and drain the hydraulic pressure keeping the hook up, thus lowering it.</p>
-<p>If electrical power and hydraulic power are restored, it’s then possible to retract the hook by rotating the handle 90° clockwise and pushing the handle back in and then setting it in the default <strong>UP</strong> position.</p>
+<p>位于F-14尾部下方的阻拦钩用于航降时停下飞机。</p>
+<p>系统使用来自飞控和组合液压系统的液压动力，并且是电动的，因此需要电。</p>
+<p>系统通过 <a class="reference internal" href="cockpit.html#arrhook"><span class="std std-ref">阻拦钩控制面板</span></a> 面板的 <strong>HOOK</strong> 控制杆操作。 <strong>UP</strong> 收起阻拦钩， <strong>DN</strong> 放下阻拦钩到37°以在便正确执行航降时勾住阻拦索。每当阻拦钩位置与控制杆位置不对应时，阻拦 <strong>HOOK</strong> 控制杆旁边的过渡灯就会亮起。</p>
+<p>如果发生阻拦钩无法正常放下的故障，则可使用机械备份来放下阻拦钩。要激活机械备份，拉出控制杆并逆时针旋转90°。这将解开机械锁并排出使阻拦钩保持收起的液压油，从而放下它。</p>
+<p>如果电力和液压都已恢复，则可顺时针旋转控制杆90°并推回原位，然后将其放到默认的 <strong>UP</strong> 位来收起阻拦钩。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Hook position also affects the AoA indexer and approach lights, making them flash with gear down if hook is not also down. This feature can be disabled using the <strong>HOOK BYPASS</strong> switch on the <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a>.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">阻拦钩的位置也会影响进近迎角指示灯，起落架放下而阻拦钩未放下会使之闪烁。此功能可以通过 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a> 的 <strong>HOOK BYPASS</strong> 开关禁用。</td>
 </tr>
 </tbody>
 </table>
@@ -1013,71 +899,55 @@ This releases the mechanical uplock and drain the hydraulic pressure keeping the
 </div>
 <div class="section" id="ecs-environmental-control-system">
 <h2>环境控制系统（ECS）<a class="headerlink" href="#ecs-environmental-control-system" title="永久链接至标题">¶</a></h2>
-<p>The ECS or environmental control system controls and supplies temperature- and pressure-regulated air to cockpit systems and cooling for electronic equipment and weapons.</p>
-<p>The air used is sourced from the engines, one or both, or if needed from the emergency ram air door on the fuselage inboard of the right glove.</p>
-<p>Systems using ECS air in the cockpit are cockpit pressurization and canopy seals, anti-g suit inflation, aircrew suit ventilation, seat cushion ventilation and windshield anti-ice and defogging.</p>
-<p>Other systems using ECS air outside of the cockpit are pressurization of external drop tanks, wing airbag seals, electronics cooling and cooling of the AN/AWG-9 radar and AIM-54 missiles via an air/liquid heat exchanger.</p>
+<p>ECS（环境控制系统）控制座舱温度以及舱内大气压，同时为机载设备及武器提供冷却。</p>
+<p>空气源来自于飞机的一个或者两个发动机，在必要时也可以由机身的右机翼翼套内的紧急冲压气门获得空气源。</p>
+<p>ECS为座舱内提供的空气，用于座舱加压，座舱密封，抗G负荷服充气，机组飞行服通风，座椅缓冲垫通风，前挡风玻璃除冰以及除雾。</p>
+<p>ECS为舱外系统提供空气，用于外部可抛弃油箱加压，机翼气囊密封，机载电子设备冷却及通过气/液热交换器对AN/AWG-9雷达和AIM-54导弹冷却。</p>
 <div class="section" id="air-source-and-cockpit-air-controls">
 <h3>气源和座舱引气控制<a class="headerlink" href="#air-source-and-cockpit-air-controls" title="永久链接至标题">¶</a></h3>
-<p>Air source for the ECS is set using the controls on the <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">Air Conditioning Control Panel</span></a>.</p>
-<p>The <strong>L ENG</strong> set air source to left engine, <strong>R ENG</strong> to right engine and <strong>BOTH</strong> to both engines which is also the normal position while in use.</p>
-<p><strong>RAM</strong> and <strong>OFF</strong> both enable the emergency ram door but <strong>OFF</strong> turns off pressurization and heating.</p>
-<p>During normal operation temperature in the cockpit is controlled using the <strong>TEMP</strong> switch and thumbwheel on that same panel.
-The thumbwheel sets the temperature which is automatic regardless of airspeed and altitude if the <strong>TEMP</strong> switch is set to <strong>AUTO</strong>.
-If that switch is set to <strong>MAN</strong>, manual, it will vary depending on airspeed and altitude.</p>
-<p>The <strong>CABIN PRESS</strong> switch controls the cockpit safety valve, controlling whether the cockpit is pressurized or not.
-If set to <strong>NORM</strong> cockpit pressure is at 8,000 feet up to 23,000 feet and after that 5 psi higher than the atmosphere outside.
-<strong>DUMP</strong> depressurizes the cockpit by opening the cockpit safety valve.</p>
-<p>The <strong>RAM AIR</strong> switch is used to modulate cockpit air supply temperature when the ram air door is in use by opening and closing the emergency ram air door.
-This is as in this mode that air is mixed directly with hot bleed air from the engines.
-<strong>INCR</strong>, increase, opens the ram door, decreasing temperature and <strong>DECR</strong> closes the door and increases temperature. Springloaded to center.</p>
+<p>ECS气源的控制位于 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">Air Conditioning Control Panel</span></a>。</p>
+<p>“L ENG”表示使用左发动机作为气源；“R ENG”表示使用右发动机作为气源；”BOTH”表示同时使用两个发动机作为气源；正常情况下同时使用两个发动机作为气源。</p>
+<p>“RAM”和”OFF”都能气动紧急冲压气门，但是”OFF”会关闭舱内加压和加热。</p>
+<p>正常舱内温度由”TEMP”开关及同面板上的拨轮开关控制。若”TEMP”处于”AUTO”位，拨轮开关将无视飞机空速及高度自动设定温度。若”TEMP”开关处于”MAN”位，即手动模式，温度会根据飞机空速和高度变化。</p>
+<p><strong>舱内气压</strong> 开关用于控制座舱安全阀，而座舱安全阀决定座舱是否进行加压。若”舱内气压”开关置于 <strong>NORM</strong> 位，座舱气压将会维持在8000英尺至23000英尺之间，当高度超过23000英尺，则舱内气压将比外环境气压高出5psi。若”舱内气压”开关置于 <strong>DUMP</strong> 位，座舱安全阀将会打开，使得座舱失压。</p>
+<p><strong>冲压空气</strong> 开关通过开启和关闭紧急冲压气门来控制冲压气门以调节座舱空气温度。在该模式下，空气直接与发动机热尾气从而获得热气源。 <strong>INCR</strong> 意为“增高”，该档位下会打开冲压气门从而降低舱内温度。 <strong>DECR</strong> 意为“降低”，该档位下会关闭冲压气门从而增加舱内温度。调节完毕后开关会跳回中间档位。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Selection of <strong>RAM</strong> or <strong>OFF</strong> inhibits gun firing.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">选择 <strong>RAM</strong> 或者 <strong>OFF</strong> 将使得机炮无法开火。</td>
 </tr>
 </tbody>
 </table>
-<p>Current cabin air pressure altitude can be seen on the <a class="reference internal" href="cockpit.html#cabpressalt"><span class="std std-ref">Cabin Pressure Altimeter</span></a> in front of the pilot control stick.</p>
-<p>The <strong>CABIN PRESS</strong> caution light is present on the RIO <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a>, indicating less than 5 psi absolute pressure or above 27,000 feet cockpit pressure.
-On the same panel is also the <strong>COOLING AIR</strong> advisory light which indicates overheat in the electronics cooling system, indicative of a failure in the ECS which might damage the electronics.</p>
+<p>当前舱内气压高度可以在驾驶杆后的面板上的 <a class="reference internal" href="cockpit.html#cabpressalt"><span class="std std-ref">座舱压力高度表</span></a> 看到。</p>
+<p><strong>CABIN PRESS</strong> 告警灯位于飞机后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> ，用于提示座舱低于5psi的绝对气压或者高于27000英尺的座舱气压。在同一个面板下还有 <strong>COOLING AIR</strong> 提示灯，该提示灯告知航电冷却设备过热，ECS存在故障，可能导致航电设备损坏。</p>
 <p>The anti-g suit pressurisation can be tested via the <a class="reference internal" href="cockpit.html#gvalve"><span class="std std-ref">飞行服抗荷充气检测按钮</span></a> for the pilot and <a class="reference internal" href="cockpit.html#rgvalve"><span class="std std-ref">G-Valve Button</span></a> for the RIO.
 The airflow through the suit, or seats if no suits are worn, are controlled by the <strong>VENT AIRFLOW</strong> thumbwheel on the pilot <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> and RIO <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> respectively.</p>
 </div>
 <div class="section" id="windshield-anti-ice-and-defogging">
 <h3>风挡除冰和除雾<a class="headerlink" href="#windshield-anti-ice-and-defogging" title="永久链接至标题">¶</a></h3>
-<p>Windshield anti-ice and defogging is controlled via the <a class="reference internal" href="cockpit.html#extenvctrlpanel"><span class="std std-ref">External Environmental Control Panel</span></a> and <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a>.</p>
-<p>The <strong>WSHLD</strong>, windshield, switch on the external environment panel provides hot bleed air on the outside of the windshield to clear ice and rain on the glass.
-<strong>AIR</strong> enables airflow over windshield, <strong>OFF</strong> disables it.</p>
-<p>The <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> (for pilot) and <a class="reference internal" href="cockpit.html#rcandefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> (for RIO) sets amount of air through the canopy air diffusers to be used to defog the canopy.
-Lever set fully to <strong>CANOPY DEFOG</strong> selects all cockpit air to be through the canopy diffusers while lever fully at <strong>CABIN AIR</strong> redirects 30% through the canopy diffusers and the rest to the cockpit diffusers.</p>
-<p>The <strong>WSHLD HOT</strong> advisory light on the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> lights when the windshield is warmer than 300° F (149° C). This automatically closes the valve and stops warm air to the windshield until cooled down.</p>
+<p>风挡除冰和除雾通过 <a class="reference internal" href="cockpit.html#extenvctrlpanel"><span class="std std-ref">External Environmental Control Panel</span></a> 和 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> 控制。</p>
+<p><strong>WSHLD</strong> 风挡开关位于外部环境面板，它为风挡提供了热气流用于除冰和除水。<strong>AIR</strong> 位开启热气流，<strong>OFF</strong> 关闭热气流。</p>
+<p>前舱飞行员处的 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#rcandefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> 用于设置通过座舱盖散流器的空气流量以达到座舱除雾的效果。若将把手完全置于 <strong>CANOPY DEFOG</strong> 位，全部座舱气流将会流入座舱盖散流器；若将把手置于 <strong>CABIN AIR</strong> 位，只有30%的空气流入座舱盖散流器，余下的空气将进入座舱散流器。</p>
+<p>位于前座驾驶员处的 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> <strong>WSHLD HOT</strong> 提示灯告知飞行员风挡的温度已达 300° F (149° C)。该提示灯亮起时，气阀自动关闭从而使热空气不再吹向风挡直到风挡冷却。</p>
 </div>
 <div class="section" id="an-awg-9-and-aim-54-cooling">
 <h3>AN/AWG-9 和 AIM-54 冷却<a class="headerlink" href="#an-awg-9-and-aim-54-cooling" title="永久链接至标题">¶</a></h3>
-<p>The AN/AWG-9 radar and AIM-54 missiles are liquid cooled via independent liquid/air heat exchangers cooled by ECS air.</p>
-<p>The <a class="reference internal" href="cockpit.html#liqcool"><span class="std std-ref">Liquid Cooling Control Panel</span></a> controls these cooling systems and should be set to <strong>AWG-9</strong> to enable only the AN/AWG-9 cooler if no AIM-54 Phoenix missiles are carried.
-If AIM-54 missiles are loaded <strong>AWG-9/AIM-54</strong> should instead be set to enable both systems. <strong>OFF</strong> turns off both systems and should not be set with systems in use as they will overheat.</p>
-<p>The RIO <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> contains advisory lights for these systems.
-The <strong>AWG-9 COND</strong> advisory light indicates overheat in the AN/AWG-9 cooling system, continuing use of the AN/AWG-9 might damage it.
-The <strong>MSL COND</strong> advisory light indicates overheat in the AIM-54 cooling system or operation of the WCS with AIM-54s loaded and liquid cooling switch not set to <strong>AWG-9/AIM-54</strong>.</p>
+<p>AN/AWG-9雷达和AIM-54导弹均通过液冷的方式冷却，而冷却液通过独立的液/气热交换器冷却，冷却气体由ECS提供。</p>
+<p><a class="reference internal" href="cockpit.html#liqcool"><span class="std std-ref">Liquid Cooling Control Panel</span></a> 用于控制这些冷却系统，在没有携带AIM-54导弹的情况下，液体冷却应该选择 <strong>AWG-9</strong> ，这样液冷系统将只启动AN/AWG-9冷却器。若携带有AIM-54导弹，液体冷却应该选择 <strong>AWG-9/AIM-54</strong> 来同时为雷达和导弹提供冷却。<strong>OFF</strong> 位将不为任何设备提供冷却，在设备在用的情况不可以选择该档位，否则设备将会过热。</p>
+<p>后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 包含这些系统的指示灯。 <strong>AWG-9 COND</strong> 指示灯表示AN/AWG-9雷达冷却系统过热，在这种情况下继续使用AN/AWG-9雷达将会导致雷达损坏。 <strong>MSL COND</strong> 指示灯表示AIM-54冷却系统过热或者启动了武器控制系统在挂载了AIM-54导弹的同时没有将液冷开关置于**AWG-9/AIM-54** 位。</p>
 </div>
 <div class="section" id="external-ecs-air-supply">
 <h3>外部 ECS 供气<a class="headerlink" href="#external-ecs-air-supply" title="永久链接至标题">¶</a></h3>
-<p>For operation of systems requiring cooling on the ground or on deck it’s possible to connect an external ECS air source to cool them.</p>
-<p>The normally used source isn’t able to provide cooling for all systems at the same time though and thus what is to be cooled needs to be set.
-This is controlled by the <strong>GND CLG</strong> switch on the <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> panel at the RIO right side console.
-<strong>OBC/CABIN</strong> provides the external ECS air to the cabin and all air cooled electronics. This setting disables the AN/AWG-9 transmitter due to inadequate cooling.
-<strong>AWG-9/AIM-54</strong> provides the external ECS air to the AN/AWG-9 and AIM-54 heat exchangers and to related electronics.
-<strong>OFF</strong> turns off external ECS air supply and is the normal mode used when the engines are running.</p>
+<p>为了使系统正常运行需要连接地面或者舰上的外部ECS气源进行冷却。</p>
+<p>通常使用的气源不能足以同时为所有系统提供冷却，因此需要设置哪些系统需要冷却。这个设置由位于后座RIO右侧控制台的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 面板上的 <strong>GND CLG</strong> 开关控制。 <strong>OBC/CABIN</strong> 位提供外部ECS气源用于舱内和所有气冷机载设备的冷却。该设置会关闭AN/AWG-9雷达的收发机，毕竟冷却不足以覆盖全部机载设备。 <strong>AWG-9/AIM-54</strong> 位为AN/AWG-9雷达和AIM-54导弹以及相关航电设备的热交换器提供外部ECS气源。<strong>OFF</strong> 位关闭外部ECS气源。在正常情况下，发动机运行时应该使用 <strong>OFF</strong> 位。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Any setting on the <strong>GND CLG</strong> other than <strong>OFF</strong> should not be used when the engines are running.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><strong>GND CLG</strong> 上的设置参数除了 <strong>OFF</strong> 位均不应在发动机运行时使用。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Note2:</th><td class="field-body">For the Heatblur F-14B in DCS the external ECS air supply is connected via the same command as the engine starter air.</td>
+<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">For the Heatblur F-14B in DCS the external ECS air supply is connected via the same command as the engine starter air.</td>
 </tr>
 </tbody>
 </table>
@@ -1085,123 +955,103 @@ This is controlled by the <strong>GND CLG</strong> switch on the <a class="refer
 </div>
 <div class="section" id="oxygen-system">
 <h2>供氧系统<a class="headerlink" href="#oxygen-system" title="永久链接至标题">¶</a></h2>
-<p>The F-14 carries one or two 10-liter liquid oxygen bottles providing oxygen to the crew when needed.</p>
-<p>The oxygen supply is controlled on the pilot <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> and RIO <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> respectively.
-Both panels contain an <strong>OXYGEN</strong> switch that sets oxygen supply to <strong>ON</strong> or <strong>OFF</strong>.</p>
-<p>Liquid oxygen remaining is shown on the <a class="reference internal" href="cockpit.html#liqoxyqtyind"><span class="std std-ref">Liquid Oxygen Quantity Indicator</span></a> on the pilot’s right side console.
-The gauge shows remaining liters of liquid oxygen up to 20 liters. (If two bottles are installed)
-The indicator is electrically driven and if it receives no power an <strong>OFF</strong> flag will be visible and it will display 0 liters remaining.</p>
-<p>Additionally the RIO <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> has the <strong>OXY LOW</strong> caution light which illuminates when the liquid oxygen quantity is below 2 liters.</p>
+<p>F-14携带1瓶或2瓶10公升液态氧气瓶，在必要时为机组提供氧气。</p>
+<p>氧气供应由前座飞行员处的 <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> 以及后座RIO处的 <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> 控制。2个面板均包含一个 <strong>氧气</strong> 开关用于 <strong>开启</strong> 或者 <strong>关闭</strong> 氧气供应。</p>
+<p>剩余氧气在位于飞行员右侧控制台的 <a class="reference internal" href="cockpit.html#liqoxyqtyind"><span class="std std-ref">Liquid Oxygen Quantity Indicator</span></a> 显示。该仪表显示剩余氧气量， 在安装有2个全新氧气瓶的情况下，仪表显示的最大值为20公升。指示仪表由电驱动，若该仪表无供电，则仪表将会竖起 <strong>OFF</strong> 警告旗且显示剩余氧气量为0公升。</p>
+<p>除此之外，后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 包含一个 <strong>OXY LOW</strong> 告警灯，该告警灯在氧气量低于2公升时亮起。</p>
 <p>During the <strong>INST</strong> test on the <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">Master Test Panel</span></a> the liquid oxygen meter shows 2 liters and the <strong>OXY LOW</strong> caution light illuminates.</p>
 </div>
 <div class="section" id="flight-instruments">
 <h2>飞行仪表<a class="headerlink" href="#flight-instruments" title="永久链接至标题">¶</a></h2>
-<p>Apart from the VDIG (HUD and VDI) the F-14 is equipped with:</p>
+<p>除了VDIG（平视显示器和垂直显示指示器），F-14还装备了：</p>
 <ul class="simple">
-<li>two <a class="reference internal" href="cockpit.html#stbyattind"><span class="std std-ref">备用气压高度表</span></a> (and <a class="reference internal" href="cockpit.html#rstbyattind"><span class="std std-ref">备用气压高度表</span></a>)</li>
-<li>two <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">空速 / 马赫表</span></a> (and <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">空速 / 马赫表</span></a>)</li>
-<li>two <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">气压高度表</span></a> (and <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">气压高度表</span></a>)</li>
-<li>a <a class="reference internal" href="cockpit.html#vertvelind"><span class="std std-ref">Vertical Velocity Indicator</span></a></li>
-<li>一个转弯侧滑指示器（在 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 上）</li>
-<li>an <a class="reference internal" href="cockpit.html#acc"><span class="std std-ref">Accelerometer</span></a></li>
-<li>a <a class="reference internal" href="cockpit.html#pstbycomp"><span class="std std-ref">备用罗盘</span></a></li>
-<li>and two mechanical clocks (<a class="reference internal" href="cockpit.html#pclock"><span class="std std-ref">时钟</span></a> and <a class="reference internal" href="cockpit.html#rclock"><span class="std std-ref">时钟</span></a>).</li>
+<li>2个  <a class="reference internal" href="cockpit.html#stbyattind"><span class="std std-ref">备用姿态仪</span></a> (以及 <a class="reference internal" href="cockpit.html#rstbyattind"><span class="std std-ref">备用姿态仪</span></a>)</li>
+<li>2个 <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">空速马赫表</span></a> (以及 <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">空速马赫表</span></a>)</li>
+<li>2个 <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">气压高度表</span></a> (以及 <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">气压高度表</span></a>)</li>
+<li>1个 <a class="reference internal" href="cockpit.html#vertvelind"><span class="std std-ref">垂直速率表</span></a></li>
+<li>a turn and slip indicator (on the <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>)</li>
+<li>1个 <a class="reference internal" href="cockpit.html#acc"><span class="std std-ref">加速度表</span></a></li>
+<li>1个 <a class="reference internal" href="cockpit.html#pstbycomp"><span class="std std-ref">备用罗盘</span></a></li>
+<li>以及2个机械时钟(<a class="reference internal" href="cockpit.html#pclock"><span class="std std-ref">时钟</span></a> 和 <a class="reference internal" href="cockpit.html#rclock"><span class="std std-ref">时钟</span></a>)。</li>
 </ul>
-<p>The types that have two installed have one installed on the RIO instrument panel as well as the pilot one.</p>
-<p>All of these instruments that need electrical power are connected to the essential buses meaning that they can be powered by the emergency generator if the main ones fail.</p>
-<p>For more info on the instruments see their respective cockpit panel descriptions linked above.</p>
+<p>安装数量为2的仪表分别安装在前座飞行员处和后座RIO处的仪表面板上。</p>
+<p>所有仪表均由电驱动且均连接于必要的汇流条，这意味着在主供电设备失效以后，应急发电机能够为这些仪表供电。</p>
+<p>关于仪表的更多信息，可以通过上面的链接查看它们所对应的座舱面板描述。</p>
 </div>
 <div class="section" id="canopy">
 <h2>驾驶舱盖<a class="headerlink" href="#canopy" title="永久链接至标题">¶</a></h2>
-<p>The rear-hinged F-14 canopy is operated hydraulically and pneumatically.
-Controls are present in both pilot and RIO cockpits.</p>
-<p>See <a class="reference internal" href="cockpit.html#pcanopylever"><span class="std std-ref">驾驶舱盖控制手柄</span></a> or <a class="reference internal" href="cockpit.html#rcanopylever"><span class="std std-ref">驾驶舱盖控制手柄</span></a> for the controls.</p>
-<p>The <strong>CANOPY</strong> caution light on both the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> and the rio <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> illuminates if the canopy is not in the down and locked, secured position.</p>
+<p>F-14的后挂钩座舱盖由液压及空气作用操控。舱内前座飞行员和后座RIO处均能控制。</p>
+<p>相关控制可通过 <a class="reference internal" href="cockpit.html#pcanopylever"><span class="std std-ref">驾驶舱盖控制手柄</span></a> 或者 <a class="reference internal" href="cockpit.html#rcanopylever"><span class="std std-ref">驾驶舱盖控制手柄</span></a> 查看。</p>
+<p><strong>座舱盖</strong> 告警灯同时存在于前座飞行员处的 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a>。该告警灯亮起表示座舱盖未关闭或未锁死并处于安全位置。</p>
 </div>
 <div class="section" id="ejection-system">
 <h2>弹射系统<a class="headerlink" href="#ejection-system" title="永久链接至标题">¶</a></h2>
-<p>The F-14 Tomcat is equipped with dual Martin-Baker GRU-7A rocket-assisted ejection seats, one for the pilot, one for the RIO.
-The ejection system is a zero/zero system, capable of successfully ejecting the crewmembers at zero airspeed, stationary, on the ground.</p>
-<p>As the F-14 is a two seat aircraft it has additional controls apart from the ejection handles and arming systems, namely the ejection command lever.
-This lever, which is located in the RIO cockpit, selects if the RIO ejects the pilot as well when he ejects.</p>
-<p>The lever is situated beside the sensor control panel, see <a class="reference internal" href="cockpit.html#ejectcmdlev"><span class="std std-ref">Eject Command Lever</span></a>.
-When set to <strong>PILOT</strong>, the pilot ejects both crewmembers, while the RIO ejects only himself.
-When set to <strong>MCO</strong> both crewmembers eject both crewmembers.</p>
-<p>The system does not allow pilot-only ejection because it would be undesirable for the RIO to remain in the aircraft alone.</p>
+<p>F-14雄猫装备了2台Martin-Baker GRU-7A 火箭助推弹射座椅，一个供飞行员使用，另一个则为RIO使用。弹射系统是一个0/0系统，能够在速度为零、静止、或者在地面将机组成员成功弹射出机舱。</p>
+<p>F-14作为双座飞机拥有除弹射手柄和保险解除系统外的额外的操纵杆，即弹射控制操纵杆。该杆位于后座RIO处。当后座RIO弹射时，弹射控制操纵杆可以选择是否也将飞行员弹射出舱。</p>
+<p>弹射控制操纵杆位于传感器控制面板旁，见 <a class="reference internal" href="cockpit.html#ejectcmdlev"><span class="std std-ref">Eject Command Lever</span></a>。当设置到 <strong>PILOT</strong> 位时，飞行员可将2名机组成员同时弹出，而RIO仅能将自己弹出。当设置到 <strong>MCO</strong> 位时，任意机组成员均可将2人同时弹射出机舱。</p>
+<p>系统不允许只有飞行员1人弹射的情况，因为仅RIO一个人呆在飞机上并不合适。</p>
 <p>The pilot has indication of what position the ejection command lever is at on the <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a>, the <strong>EJECT CMD</strong> flip-flop indicator showing <strong>PILOT</strong> when the lever is in pilot and <strong>MCO</strong> when in MCO.</p>
-<p>If the canopy does not jettison when initiating the ejection sequence it’s possible to manually jettison it using the <a class="reference internal" href="cockpit.html#pcanjett"><span class="std std-ref">驾驶舱盖抛离手柄</span></a> in the pilot cockpit or the <a class="reference internal" href="cockpit.html#rcanjett"><span class="std std-ref">驾驶舱盖抛离手柄</span></a> in the RIO cockpit.
-If the canopy inhibited ejection after ejection initiation, jettisoning the canopy will most likely restart it.
-If ejection is needed during a flat spin, it’s also recommended to manually jettison the canopy and allow it to clear before initiating the ejection sequence as the canopy might need longer to clear during a flat spin.</p>
+<p>当启动弹射程序，但座舱盖并没有弹出时，我们仍可以通过位于前座飞行员处的 <a class="reference internal" href="cockpit.html#pcanjett"><span class="std std-ref">驾驶舱盖抛离手柄</span></a> 或者后座RIO处 <a class="reference internal" href="cockpit.html#rcanjett"><span class="std std-ref">驾驶舱盖抛离手柄</span></a> 手动进行弹射。如果座舱盖在开始弹射程序开始后依然未弹射出去，那么座舱盖弹射过程将会重启。如果在水平螺旋中弹射，我们建议手动弹射座舱盖，这样可以给予充足的时间让弹射出去的座舱盖远离飞机为真正启动弹射程序净空。</p>
 </div>
 <div class="section" id="lighting-system">
 <h2>灯光系统<a class="headerlink" href="#lighting-system" title="永久链接至标题">¶</a></h2>
-<p>The F-14 Tomcat lighting system consists of the internal and the external lights.</p>
-<p>The internal lights are the red instrument panel and console lights, red and white floodlights and a moveable utility light at both crew stations.</p>
-<p>The external lights are the position lights, the anticollision lights, the formation lights, the taxi light, the approach lights and the refueling probe light.</p>
+<p>F-14雄猫灯光系统由内部灯光和外部灯光构成。</p>
+<p>内部灯光包括红色仪表板灯和控制台灯，2个机组位置均配置有红白泛光灯和可调节位置的通用工作灯。</p>
+<p>外部灯光包括航行灯，防撞灯，编队灯，滑行灯，进近灯和空中加油管灯。</p>
 <div class="section" id="internal-lighting">
 <h3>机内灯光<a class="headerlink" href="#internal-lighting" title="永久链接至标题">¶</a></h3>
-<p>The red instrument panel and console lights are the normally used lights during nighttime, they back-light all instruments and controls allowing their use while impacting night vision minimally.</p>
-<p>The floodlights allow for additional lighting of the cockpit panels but care should be taken to avoid affecting night vision.</p>
-<p>The utility lights are movable and can be used to illuminate a specific spot and as a map or reading light.</p>
-<p>Controls for the internal lights are on the <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a> in pilot cockpit and <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">座舱灯光控制面板</span></a> in the RIO cockpit, each controlling their own cockpit lighting.</p>
+<p>红色仪表板和控制台一般在夜间使用灯光，其灯光以背光灯的形式为所有的仪表和控制台提供照明，同时背光灯也能最大程度地降低对夜视仪的影响。</p>
+<p>泛光灯为座舱面板提供额外的照明，但是注意避免其对夜视仪效果的影响。</p>
+<p>通用工作灯是可以调节位置的，因此它可以用来照亮一些特定的点位或者在看地图时充当照明。</p>
+<p>内部灯光的控制位于前座飞行员处的 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a> 以及后座RIO处的 <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">座舱灯光控制面板</span></a> ，分别控制各自区域的舱内灯光。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The utility light function is not modelled in DCS but the flashlight function, default keybind Left Alt + L, which moves with the cursor can be used, providing a similar function.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">通用工作灯的功能并未在DCS中实现。但是手电筒功能，默认按键左Alt+L，可以随鼠标光标移动，充当通用工作灯功能的近似替代。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="external-lighting">
 <h3>机外灯光<a class="headerlink" href="#external-lighting" title="永久链接至标题">¶</a></h3>
-<p>The position lights on the F-14 are located on the left wing tip (red), right wing tip (green), top aft of left vertical stabilizer (white) and upper and lower lights on the wing gloves on each side (red on left glove and green on right).
-The glove lights are additional lights supplementing the wing tip lights. When the wings are swept forward of 25° the wing tip lights are active and when aft of 25° the glove lights are active instead.</p>
-<p>With the gear down, wings forward of 25° and the position lights in steady mode both the glove and wingtip position lights are lit.
-When the anticollision lights are on the the position lights can only operate in the steady mode, otherwise they can be set to flash.</p>
-<p>The anticollision lights are located on the chin pod or TCS pod, top front of the left vertical stabilizer and top aft of the right vertical stabilizer.
-The anticollision lights are all red flashing lights. The chin pod mounted lower light only operates while the nosegear wheel door is closed.</p>
-<p>The formation lights are dim green lights used for formation flight which can be dimmed gradually.
-They are located on the aircraft nose (behind the radome), the wing tips, on the fuselage aft of the wings and on the top edge of the vertical stabilizers. All duplicated on both sides of the aircraft.</p>
-<p>The taxi light is a fixed headlight located on the nosewheel strut. It’s automatically turned off with gear retraction if set to on.</p>
+<p>F-14的航行灯位于两侧机翼翼尖（左侧为红色，右侧为绿色），机身左侧垂尾后部（白色），翼套上下两侧（左侧为红色，右侧为绿色）。翼套灯被当作翼尖灯的补充。当机翼向前展开至25度时，那么翼尖灯将会激活；当机翼向前展开不足25度时，那么对应的，翼套灯会激活。</p>
+<p>在起落架放下的情况下，机翼向前展开25度且航行灯处于长亮模式时，翼尖灯和翼套灯会同时亮起。当防撞灯处于开启位置时，航行灯只能在长亮模式下亮起。</p>
+<p>防撞灯位于机鼻吊舱或者说TCS吊舱处及机身左垂尾顶部前面和右侧垂尾顶部的后面位置。防撞灯均为红色频闪灯。机鼻吊舱低点处安装的防撞灯只在起落架舱门关闭时才可以开启。</p>
+<p>编队灯为昏暗绿色灯，被用于编队飞行，编队灯能够逐渐调暗。编队灯位于机鼻（就在雷达罩后面），机翼翼尖，机身后部机翼下面和机身垂尾顶部边缘。所有编队灯都是对称存在的。</p>
+<p>滑行灯是一个固定的照明灯，位于前起落架支柱上。滑行灯在开启的情况下，如果起落架收起，则滑行灯将会自动关闭。</p>
 <p>The approach lights are also located on the nosewheel strut and replicate the AoA indexer for the LSOs during carrier traps.</p>
-<p>The refueling probe light is used to illuminate the refueling probe and is automatically enabled with probe extension.</p>
-<p>All external light controls are located on the <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a> except for the exterior lights switch on the left throttle (see <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门</span></a>) which disables or enables all external lights apart from the approach lights.</p>
+<p>加油管灯用于照亮加油管，该灯在加油管伸出时自动点亮。</p>
+<p>除了左节流阀的外部灯光开关外（ <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门</span></a>），其他所有外部灯光控制位于 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">Master Light Control Panel</span></a> 。可以关闭或者启动除进近灯以外的外部灯光。</p>
 </div>
 </div>
 <div class="section" id="jettison-system">
 <h2>抛离系统<a class="headerlink" href="#jettison-system" title="永久链接至标题">¶</a></h2>
-<p>The Jettison system has four modes of operation: emergency, ACM, selective and auxiliary.</p>
+<p>抛离系统由4个模式构成：紧急抛离 ，ACM，可选择抛离和辅助抛离。</p>
 <p><strong>紧急抛离</strong></p>
-<p>The emergency jettison is selected via the <strong>EMERG STORES JETT</strong> on the <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a>.
-Selection causes the <strong>EMERG JETT</strong> caution light to illuminate on the pilot <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a>.</p>
-<p>The emergency jettison requires only no weight on wheels indicated (no master arm) and ejects all stores except for Sidewinders.</p>
-<p><strong>ACM Jettison</strong></p>
+<p>紧急抛离通过在位于 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>EMERG STORES JETT</strong> 选择。选择紧急抛离将导致位于前座飞行员处 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">Caution - Advisory Indicator</span></a> 的 <strong>EMERG JETT</strong> 告警灯亮起。</p>
+<p>紧急抛离要求机轮没有任何负重（军械开关关闭）的情况下才能抛离除了AIM-9响尾蛇导弹之外的全部挂载。</p>
+<p><strong>ACM 抛离</strong></p>
 <p>The ACM jettison is selected via the <strong>ACM JETT</strong> button under the ACM cover/switch on the <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>.</p>
-<p>The ACM jettison, like the emergency jettison, requires no master arm but instead requires that the landing gear lever is up.
-Unlike the emergency jettison the ACM jettison only ejects those stations selected by the RIO on the <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">Armament Panel</span></a> (set to <strong>SEL</strong> or <strong>B</strong> for stations 1 and 8).</p>
-<p><strong>Selective Jettison</strong></p>
-<p>The selective jettison is set and executed by the RIO on the <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">Armament Panel</span></a>.
-This mode of jettisoning requires the landing gear handle to be in the up position and the master arm to be on.</p>
+<p>ACM抛离，就像紧急抛离一样，但不同于关闭军械开关，ACM抛离需要起落架手柄处于收起状态。和紧急抛离不一样的是，ACM抛离只能由后座RIO通过 <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">Armament Panel</span></a> 选择抛离挂载（设置 <strong>SEL</strong> 或 <strong>B</strong> 选择1和8号挂架）。</p>
+<p><strong>可选择抛离</strong></p>
+<p>可选择抛离由后座RIO在 <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">Armament Panel</span></a> 设置和执行。该抛离模式要求起落架手柄处于收起位置且军械开关开启。</p>
 <p>The procedure for jettison in selective mode is to set the desired station switches to <strong>SEL</strong> and hold the <strong>SEL JETT</strong> switch to <strong>JETT</strong>.</p>
-<p><strong>Auxiliary Jettison</strong></p>
-<p>The auxiliary jettison mode is a backup mode to use when the other modes have failed.
-Like the selective jettison mode it requires the landing gear handle to be up and the master arm to be on.</p>
-<p>This mode can only eject air-to-ground stores and ejects them by actuating the normal release hooks.
-This means that the aircraft needs to fly straight and level as the stores are not ejected forcefully but instead just released and cleared using gravity.</p>
+<p><strong>辅助抛离</strong></p>
+<p>辅助抛离作为备用模式在其他抛离模式故障时使用。和可选择抛离模式一样，辅助抛离需要起落架手柄处于收起状态及军械开关开启。</p>
+<p>该模式通过驱动正常释放钩抛离挂载（只能抛离空对地武器挂载）。这意味着飞机必须水平直飞，它不通过强制手段抛离挂载而是在重力的作用下自行离开挂架。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">No jettison mode can jettison ITERs or stores loaded on those, they need to be dropped like normal, with or without the fuzes armed.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">没有任何一种抛离模式可以抛离ITERs或者ITERs上面的挂载，这些挂载需要在正常模式下面投放。而这些挂载的引信可以按需设置。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="cadc-central-air-data-computer">
 <h2>中央大气数据计算机（CADC）<a class="headerlink" href="#cadc-central-air-data-computer" title="永久链接至标题">¶</a></h2>
-<p>The Central Air Data Computer or CADC is the computer acting as the spider in the web for most aircraft flight sensors and relaying this information to all systems needing them.
-In addition it also controls the wing-sweep via the wing-sweep schedule and also controls the flaps and slats as they are limited by that same schedule.</p>
+<p>中央大气数据计算机就像蜘蛛网中心的蜘蛛一样处理绝大多数飞机飞行传感器收集的信息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC也通过机翼后掠控制调度程序控制后掠翼。同时CADC也能控制襟翼以及前缘缝翼，襟翼和前缘缝翼同样被同一套控制调度程序限制。</p>
 </div>
 <div class="section" id="an-awg-9-weapon-control-system-wcs">
 <h2>AN/AWG-9 武器控制系统（WCS）<a class="headerlink" href="#an-awg-9-weapon-control-system-wcs" title="永久链接至标题">¶</a></h2>
@@ -2261,17 +2111,11 @@ If the transition fails the radar reverts to the respective search mode of the c
 </div>
 <div class="section" id="an-apx-72-iff-interrogator">
 <h2>AN/APX-72 IFF 询问器<a class="headerlink" href="#an-apx-72-iff-interrogator" title="永久链接至标题">¶</a></h2>
-<p>The AN/APX-72 IFF (Identification Friend or Foe) interrogator is integrated into the AN/AWG-9 operation.
-Then interrogator antenna itself is located on the AN/AWG-9 antenna gimbal platform.</p>
-<p>An IFF system works by sending out an interrogation pulse and then listening for returns from cooperating transponders.
-In addition to the unencrypted civilian mode the AN/APX-72 is capable of interrogating in the encrypted military mode 4.
-This ensures that targets replying to mode 4 interrogations are indeed friendly.</p>
-<p>The AN/APX-72 can be used both in search radar modes and in STT radar modes.
-To enable interrogation the IFF switch is depressed on the <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">Detail Data Display Panel</span></a> which then activates the interrogator while the button is held or for 10 seconds if held shorter than that.</p>
-<p>When enabled IFF received IFF returns are then overlaid on the normal AN/AWG-9 radar returns on the DDD.
-A friendly target will be indicated with two bars, one above and one below the normal radar return.</p>
-<p>In the search mode this is overlaid over each target replying and in STT over the STT target.
-Additionally, if the STT target is hooked on the TID the DDD will switch from normal range display to a ±10 NM display to enable display of multiple returns in case of closely grouped targets.</p>
+<p>AN/APX-72 IFF(敌我识别系统）的询问器集成在AN/AWG-9中，而询问器天线则位于AN/AWG-9的天线框架平台上。</p>
+<p>IFF系统的工作原理是发射问询信号脉冲，然后监听友军传回的询问器脉冲信号。除了非加密民用模式外，AN/APX-72还可以在加密的军用模式（mode 4）下进行识别验证，这将可以确定目标在回应mode4问询信号时是否是友军。</p>
+<p>AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，请按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">Detail Data Display Panel</span></a> 上的IFF开关，当按住开关时询问器将会被激活，如果短暂按下开关询问器会工作十秒后停止。</p>
+<p>当启用IFF时，接收到的IFF回应信号将覆盖在标准的AN/AWG-9雷达回波信号中，并显示在DDD上。一个友军单位将会被显示为两条杠，一条在标准雷达信号的上方，一条在标准雷达回波信号的下方。</p>
+<p>另外，如果STT目标与TID关联，DDD将从一般显示距离切换到±10 NM的显示距离，以此来显示多个紧密编队目标的雷达信号回波。</p>
 </div>
 <div class="section" id="television-camera-set-tcs">
 <h2>电视摄像套件（TCS）<a class="headerlink" href="#television-camera-set-tcs" title="永久链接至标题">¶</a></h2>
@@ -2279,83 +2123,65 @@ Additionally, if the STT target is hooked on the TID the DDD will switch from no
 <img alt="_images/tcs.png" src="_images/tcs.png" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer’s Mate Airman Justin S. Osborne. (030418-N-0382O-591)</span></p>
 </div>
-<p>The television camera set, or TCS, was constructed as a replacement for the IRST which was present in the first F-14As produced.
-When the IRST was found to have insufficient capability it was decided to replace it with the TCS giving the F-14 a long range visual identification capability.</p>
-<p>The TCS is located underneath and behind the radar radome, just in front of the nose gear well.
-It contains an aircraft stabilized high resolution (for it’s time) closed circuit television camera.
-The sensor has two fields of view (FOV), narrow (NFOV) which is 0.44° or 10X magnification and wide (WFOV) which is 1.42° or 4X magnification.
-The gimbal limits are +/- 15° except upwards which is limited to +11° and the TCS is capable of independent contrast lock or being slaved to the AN/AWG-9 radar.</p>
-<p>The TCS is controlled by the RIO using the sensor control panel, DDD, TID and the HCU. Video from the sensor can be displayed on the TID and the VDI in the front seat.
-Also, the video can be recorded using the airborne video tape recorder for later review. (Not currently implemented in DCS.)</p>
+<p>电视摄像套件，也称TCS，是为了替代第一架F-14As战斗机搭载的IRST而制造的。在军方发现IRST能力不足后，格鲁曼公司决定用TCS代替它，而TCS也因此赋予了F-14战机远程视觉识别能力。</p>
+<p>TCS位于雷达天线罩的下方和后方，正好在前起落架的前方。它包含一个相对机身保持自稳定的高分辨率闭路电视摄像机。传感器有两种视野的视图，宽视野(WFOV)和窄视野(NFOV)， 窄视野（NFOV）是0.44°窄视角或10倍放大倍率，宽视野(WFOV) 1.42°宽视角或4倍放大倍率。传感器的平衡架角度限制为 +/- 15度 ，而向上的角度则被限制为11度。TCS能够独立的比对并锁定目标，也可以被AN/AWG-9雷达所支配以用来锁定目标。</p>
+<p>TCS由RIO通过传感器控制面板、DDD、TID和HCU进行控制，传感器的视频可以显示在前座的TID和VDI上。此外，该视频还可以用机载磁带录像机录制下来，供以后查看。(目前DCS中没有实现)</p>
 <div class="section" id="tcs-controls-and-symbology">
 <h3>TCS 控制和标识<a class="headerlink" href="#tcs-controls-and-symbology" title="永久链接至标题">¶</a></h3>
-<p>The controls for the TCS are located in the RIO cockpit at the sensor control panel, the DDD and the HCU/TID. The pilot display control panel contains a switch allowing display of TCS video on the VDI.</p>
+<p>TCS的控制器位于后座RIO座舱的传感器控制面板、DDD和HCU/TID。前座飞行员显示控制面板也包含一个允许在VDI上显示TCS视频的控制开关。</p>
 <div class="section" id="id3">
 <h4>传感器控制面板<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h4>
 <img alt="_images/scp.png" src="_images/scp.png" />
-<p>The controls on the sensor control panel for the TCS are; the TCS trim knobs, the SLAVE switch, the field of view, FOV, switch and the acquire, ACQ, switch.</p>
-<p>The <strong>TCS TRIM</strong> knobs controls TCS sensor line of sight, LOS, calibration relative the AN/AWG-9 radar LOS.
-If needed these can be used to trim the TCS so that the two sensors LOS correlate.
-They have a ±2° range of motion and the easiest way to check and calibrate the TCS is to lock up a friendly target in STT and adjust the knobs until the TCS LOS is correctly aimed at the locked target.</p>
+<p>传感器控制面板上用于控制TCS的装置有： TCS微调校准按钮、从动选择器、视野切换开关 FOV 、目标截获开关 ACQ 。</p>
+<p>TCS微调旋钮控制用来控制相对于AN/AWG-9雷达瞄准线的TCS瞄准线校准，瞄准线也称为LOS（sensor line of sight）。如果需要，这个微调旋钮可以用来微调TCS，使两个传感器的瞄准线（LOS）相关联。它们有±2°的活动范围和最简单的方法来检查和校准TCS STT是否锁定了一个友方目标，然后继续调整旋钮，直到TCS瞄准线瞄准了锁定的目标。</p>
 <p>The <strong>SLAVE</strong> switch controls which sensor is controlled by the other. If set to <strong>RDR</strong> the radar is slaved to the TCS as long as an optical track exists.
 If set to <strong>INDEP</strong> each sensor operates independently of the other.
 And if set to <strong>TCS</strong> the TCS is slaved to radar LOS as long as an STT track exists.</p>
 <p>The <strong>FOV</strong>, field of view switch controls what FOV is used in the TCS. <strong>WIDE</strong> sets the 1.42°, 4X magnification FOV and <strong>NAR</strong> sets the narrow 0.44°, 10X magnification FOV.</p>
-<p>Lastly the <strong>ACQ</strong>, acquire switch controls the acquisition mode in use in the TCS.
-<strong>AUTO SRCH</strong> enables an automatic acquisition mode with a search pattern, enabling acquisition of the closest target even if outside current FOV.
-<strong>MAN</strong> selects purely manual acquisition with the HCU where the target needs to be pointed at directly.
-<strong>AUTO</strong> sets an automatic acquisition mode without a search pattern making the TCS snap to a target as long as it’s inside the TCS FOV.</p>
+<p>最后介绍 <strong>ACQ</strong> ，这个探测模式选择开关用来选择TCS探测截获目标的模式， <strong>AUTO SRCH</strong> 档位用来启用一种全自动搜索模式，这种搜索模式允许在当前FOV视野之外自动探测离飞机最近的目标。 <strong>MAN</strong> 档位则是手动使用HCU直接进行目标探测截获。 <strong>AUTO</strong> 档位则是用来设置自动探测模式，这种模式无需搜索，只要目标在TCS的FOV（视野）内，TCS就会锁定到目标上。</p>
 </div>
 <div class="section" id="ddd">
 <h4>DDD<a class="headerlink" href="#ddd" title="永久链接至标题">¶</a></h4>
 <img alt="_images/ddd1.png" src="_images/ddd1.png" />
-<p>The DDD contains two indicators pertaining to the TCS.</p>
-<p>The <strong>DDD EL</strong> meter shows current elevation of the TCS sensor LOS as long as the IR/TV mode is selected on the HCU.</p>
+<p>DDD包含两个与TCS相关的指标器。</p>
+<p>只要在HCU上选择IR/TV模式， <strong>DDD EL</strong> 表就会显示TCS LOS 传感器的当前高度。</p>
 <p>The <strong>IROT</strong> light indicates the presence of a TCS track. The IROT acronym is inherited from the IRST which the TCS replaced.</p>
 </div>
 <div class="section" id="hcu-tid">
 <h4>HCU/TID<a class="headerlink" href="#hcu-tid" title="永久链接至标题">¶</a></h4>
 <img alt="_images/hcu2.png" src="_images/hcu2.png" />
-<p>The HCU contains the power switch and indicator for the TCS as well as a button enabling selection for using the HCU to control the TCS while the TID itself has a control knob enabling display of the TCS video on the TID as well as a brightness and contrast control for the video on the TID.</p>
+<p>HCU包含TCS的电源开关和指示灯，以及一个按钮，这个按钮会让系统以HCU来控制TCS，而TID本身具有一个控制旋钮来调整TID上的TCS视频显示亮度，并控制TID上的视频对比度。</p>
 <p>The <strong>IR/TV power</strong> switch is located on the top left corner on the HCU panel and controls power to the TCS.
 <strong>OFF</strong> disables all power to the TCS.
 <strong>STBY</strong> enables power to the cooling fans and heaters in the TCS.
 <strong>IR/TV</strong> supplies power to all systems in the TCS, allow 1-2 minutes for the TCS to spin up and deliver video. TCS symbology on the TID on the other hand will be available directly.
 There is also no need to select the STBY position first, setting the switch to IR/TV directly works fine.</p>
-<p>The indication light next to the power switch indicates a TCS over temperature condition is lit. If present the TCS should be powered off to prevent damage to the system.</p>
-<p>The <strong>IR/TV</strong> button next to the HCU stick enables HCU stick control of the TCS sensor, half-action to manually control sensor LOS and full-action to command target acquisition.</p>
-<p>On the TID display control the <strong>TID MODE</strong> switch set to <strong>TV</strong> enables display of the TCS video on the TID. Note that this disables the TID repeat on the HSD.</p>
+<p>电源开关旁边的指示灯被点亮表示TCS进入了过热状态。如果出现这种情况，则应关闭TCS以防止系统损坏。</p>
+<p>HCU杆旁的 <strong>IR/TV</strong> 按钮，可以让HCU控制杆对TCS的传感器进行控制、半自动地手动操作传感器的LOS、或者命令TCS进行全自动的目标探测。</p>
+<p>在TID显示控制界面， 将 <strong>TID MODE</strong> 选择开关设置到 <strong>TV</strong> 档位会让TCS的视频显示在TID上。</p>
 <p>Finally the <strong>CONTRAST</strong> and <strong>BRIGHTNESS</strong> knobs on the upper part of the TID can be used to control the TCS video shown on the TID.</p>
 </div>
 <div class="section" id="symbology">
 <h4>标识<a class="headerlink" href="#symbology" title="永久链接至标题">¶</a></h4>
 <img alt="_images/symbology.png" src="_images/symbology.png" />
-<p>On the TID in non TV mode a TCS track is indicated by a 1.5” strobe at TCS LOS azimuth with a hollow circle at the end.</p>
-<p>The symbology on the video feed from the TCS has indicators for the FOV and two crosshairs indicating TCS LOS relative own aircraft, <strong>GACH</strong>, and AN/AWG-9 radar LOS relative TCS LOS, <strong>RACH</strong>.
-Additionally the track window is indicated by 4 small squares representing each corner of that window.</p>
+<p>在TID处于非TV mode的模式时，TCS追踪将会在TCS的视线下方以一个1.5”英寸的频闪空心圆指示出来。</p>
+<p>来自TCS的视频信号上有FOV的指示器和两个十字准星， <strong>GACH</strong> 用来指示TCS LOS（视线）相对自身机体的位置， <strong>RACH</strong> 用来指示 AN/AWG-9 雷达视线相对于TCS视线的位置。另外，追踪窗口由4个小正方形表示，每个小正方形代表窗口的每个边角。</p>
 <p>The field of view lines are shown when in the wide FOV indicating the size of the area visible when switching to the narrow FOV.
 They consist of two parallell lines together creating the sides of an imaginary box indicating the narrow FOV size.</p>
 <p>The gimbal angle crosshairs or <strong>GACH</strong>, which is a solid cross, indicate deflection of the TCS LOS from the aircraft datum line, ADL.
 GACH crosshair in center indicates TCS LOS along ADL and deflection towards the edges indicate deflection towards the gimbal limits with the video edges being maximum deflection.</p>
 <p><strong>RACH</strong> or radar angle crosshairs, a dashed crosshair, indicate radar antenna LOS when inside the current TCS FOV. When the sensors are slaved to one another RACH and GACH will coincide creating a single solid crosshair.</p>
-<p>The track window indicates the area that the TCS contrast tracker is currently locked on to if it has acquired a target.
-When not in an active track these squares collapse into the center of the display being 2% of the screen width when in manual mode and 5% when in an auto mode.</p>
+<p>如果系统已经获取了一个目标，跟踪窗口将指示当前TCS跟踪器锁定的区域。当TCS没有激活追踪模式时，这些窗口方块在手动模式下会被折叠为屏幕宽度的2%，而在自动模式下则会被折叠为屏幕宽度的5%。</p>
 </div>
 </div>
 <div class="section" id="tcs-operation">
 <h3>TCS 操作<a class="headerlink" href="#tcs-operation" title="永久链接至标题">¶</a></h3>
-<p>All acquisition modes of the TCS has in common that they can be controlled using the HCU in IR/TV mode.
-Selection of the IR/TV button on the HCU enables this mode and also sets the DDD EL meter (right indicator) to show current TCS sensor LOS elevation.
-Half-action enables the HCU to directly control the LOS of the TCS and full-action commands target acquisition using the selected acquistion mode.</p>
-<p>For manual, <strong>MAN</strong>, TCS acquisition mode this means that the HCU must be used in half-action to position the tracking window indication over the target and then selecting full-action.
-If successfully acquired the track window will then expand to encompass the target and tracking will begin.</p>
-<p>In automatic, <strong>AUTO</strong> acquisition mode half-action works the same but when selecting full-action for acquisition the TCS will instead automatically try to lock on to the target closest to the center in the current FOV.
-Automatic search, <strong>AUTO SRCH</strong> mode further enhances this by enabling a search pattern around the commanded FOV (by moving the sensor LOS) acquiring the first found target.</p>
-<p>When using the TCS slave to radar option the two auto modes will automatically try to lock on to the STT target as soon as it exists and the TCS has been slewed to that target, enabling a fully automatic track of a target locked in STT.
-Additionally as soon as a track is acquired from an STT lock the TCS will compare its own LOS to the radar LOS to check if the correct target has been locked, if the two LOS differs by more than a couple of degrees during a 3 second window a new acquisition will be attempted.
-The manual mode will also slave to radar LOS but will not lock on, instead just following the radar LOS.</p>
-<p>To unlock a tracked target when not being slaved to radar, select half-action and release.</p>
-<p>For information about RDR slaved to TCS check relevant header under AN/AWG-9 in this chapter.</p>
+<p>TCS的所有探测模式都有一个共同点，即可以在IR/TV模式下使用HCU进行控制。通过选择HCU上的IR/TV按钮，可以实现此模式，也可以设置DDD EL表(右指示灯)来显示当前TCS传感器的LOS高度。半自动模式使得HCU能够直接控制TCS的LOS，全自动模式则命令TCS进行全自动的目标探测。</p>
+<p>至于手动模式 <strong>MAN</strong> ，这种手动的TCS探测模式意味着HCU必须在半自动状态下将跟踪窗口指示并定位在目标上方，然后才可选择全自动操作。如果成功截获目标，跟踪窗口将展开并框柱目标轮廓，然后开始跟踪。</p>
+<p>在自动模式 <strong>AUTO</strong> 下，探测模式与半自动工作原理相同，但在选择全自动探测时，TCS将自动锁定当前FOV中最靠近中心的目标。自动搜索模式 <strong>AUTO SRCH</strong> 进一步加强了上述模式，命令FOV(通过移动传感器LOS)获得第一个发现的目标。</p>
+<p>当使用TCS slave to radar选项时，两种自动模式会在STT目标出现时自动尝试锁定该目标，并且会让TCS移动到该目标上，从而实现对锁定的STT目标进行全自动跟踪。此外，系统在锁定STT目标后TCS会马上将自身的LOS同雷达的LOS作对比,以检查目标是否已经被正确的锁定。如果两个LOS在3秒的窗口内相差超过几度，系统将尝试对目标展开新的截获。手动模式下TCS LOS也将从属于雷达LOS，但不会锁定目标，而只是单纯跟随雷达LOS移动。</p>
+<p>在TCS没有从属于雷达控制时如果要多一个目标解除锁定，请选择半自动（half-action）并释放。</p>
+<p>关于RDR的信息，请查看本章AN/AWG-9下的相关标题。</p>
 </div>
 </div>
 <div class="section" id="lantirn">
@@ -4518,7 +4344,7 @@ If one amplifier fails, it may be bypassed by selecting either the B/U (backup) 
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If two amplifiers fail at the same station, intercommunication is impossible.</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Note2:</th><td class="field-body">By selecting EMER on respective ICS control panel and using the other crewmember’s amplifier you can listen in on audio normally only available at that station (like SW-tone or ALQ-126 PRF) but you lose ability to control the volume of the audio you listen to.</td>
+<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">By selecting EMER on respective ICS control panel and using the other crewmember’s amplifier you can listen in on audio normally only available at that station (like SW-tone or ALQ-126 PRF) but you lose ability to control the volume of the audio you listen to.</td>
 </tr>
 </tbody>
 </table>
@@ -4841,13 +4667,8 @@ The KY MODE switch is operative only when the KY-58 is installed.</p>
 </div>
 <div class="section" id="an-arc-159-uhf-1-radio">
 <h3>AN/ARC-159 (UHF 1) 电台<a class="headerlink" href="#an-arc-159-uhf-1-radio" title="永久链接至标题">¶</a></h3>
-<p>The UHF 1 (ARC-159) radio provides air-to-air and air-to-surface voice communications.
-Radio frequency range extends from 225.000 to 399.975 MHz. The equipment allows AM mode transmission and reception
-on any of the 20 preset channels and a guard channel (243.000 MHz).
-Guard frequency may be monitored simultaneously with any other frequency selected. The ARC-159 has a possible 7 000 frequencies available by manually tuning in 25-kHz steps.
-The ARC-159 radio is a solid-state, self-contained unit with a minimum RF output of 10 watts. All controls for operation of the radio are on the front panel of the radio.
-The radio is located on the pilot left console.</p>
-<p>Note: The UHF 1 (ARC-159) ADF position is non-functional in the modelled version of the F-14; use the DF mode of V/UHF 2 ARC-182.</p>
+<p>UHF 1 (ARC-159)无线电提供空空和空面语音通讯。无线电频率范围为225.000到399.975 MHz。此设备允许发送和接收过程中使用AM模式，预设了20个频道和一个紧急频道(243.000MHz)。紧急频率在任何其他频率选择后可同时显示。通过人工转动分辨力为25KHz旋钮，ARC-159有7 000个频率可供选择。ARC-159是一个固态独立单元，最小射频输出功率为10w。无线电的所有控制操作都在无线电前面板上。无线电位于飞行员座舱左控制台上。</p>
+<p>注意：UHF 1 (ARC-159) 的ADF模式在游戏中无功能；使用V/UHF 2 ARC-182的DF模式。</p>
 <img alt="_images/arc-1591.png" src="_images/arc-1591.png" />
 <table border="1" class="docutils">
 <colgroup>
@@ -4864,92 +4685,89 @@ The radio is located on the pilot left console.</p>
 <li>VOL control</li>
 </ol>
 </td>
-<td>Controls volume of pilot audio for UHF 1.</td>
+<td>控制飞行员座舱UHF 1无线电的音量。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>SQL (Squelch) switch</li>
+<li>SQL（降噪）开关</li>
 </ol>
 </td>
-<td>On/off control for radio squelch (noise-blanking when carrier is not present).</td>
+<td>无线电降噪的开关控制（航母不在时的降噪）</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>Frequency Tuning switches (Springloaded to Center)</li>
+<li>频率调谐开关（弹簧力回中）</li>
 </ol>
 </td>
-<td>Four frequency tuning switches are used to tune transceiver when the mode selector switch is set to MANUAL.
-The left switch controls the hundreds and tens digits, the second switch controls units,
-the third switch controls tenths, and the right switch controls hundredths and thousandths.
-Forward deflection of the switch increases the numeric reading, and aft deflection decreases the numeric reading.</td>
+<td>四个频率调节开关用来在模式选择开关位于MANUAL（人工）位时调谐无线电收发器。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>FREQ/(CHAN) display</li>
+<li>无线电频率/(频道) 显示器</li>
 </ol>
 </td>
-<td>Displays frequency when mode selector switch is in MANUAL and displays UHF channel when mode switch is in PRESET.</td>
+<td>当模式选择开关在MANUAL位时显示频率，模式选择开关在PRESET（预设）位时显示UHF频道。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li>READ switch</li>
+<li>读取开关</li>
 </ol>
 </td>
-<td>Deflection of the switch causes the frequency display to show the preset channel frequency.</td>
+<td>点击开关来让频率显示器显示预设频道的频率。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
-<li>BRT/TEST control</li>
+<li>亮度/测试 控制</li>
 </ol>
 </td>
-<td>Controls brightness of radio FREQ/(CHAN) display. Turn past max to show 888.888 test display.</td>
+<td>控制无线电频率/（频道）显示器的亮度。转到最大处来进行888.888的测试显示。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>LOAD button</li>
+<li>载入按钮</li>
 </ol>
 </td>
-<td>Depressing button saves displayed frequency to selected preset channel.</td>
+<td>按下按钮来将显示的无线电频率保存到之前选择的频道。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
 <li>Function selector</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">ADF – The UHF 1 ARC-159 ADF function is not functional; use the DF mode of the V/UHF 2 ARC-182.</div>
+<div class="line">ADF – UHF 1 (ARC-159) 的ADF功能在游戏中未实现；使用V/UHF 2 ARC-182的DF模式。</div>
 <div class="line"><br /></div>
-<div class="line">BOTH – Energizes both the main transceiver and the guard receiver.</div>
+<div class="line">BOTH –激活主无线电收发器和紧急无线电接收器。</div>
 <div class="line"><br /></div>
-<div class="line">MAIN – Main transceiver is energized permitting normal transmission and reception. Receive or transmit function is selected by the microphone push-to-talk switch.</div>
+<div class="line">MAIN –激活主无线电收发器，允许正常的发送和接收。接收或发送功能通过麦克风按下通话开关激活。</div>
 <div class="line"><br /></div>
-<div class="line">OFF – Secures UHF 1 radio.</div>
+<div class="line">OFF – 关闭 UHF 1无线电</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="9">
-<li>CHAN SEL control</li>
+<li>频道选择控制器</li>
 </ol>
 </td>
-<td>Selects one of 20 preset frequency channels to use when the tuning selector switch is set to PRESET.</td>
+<td>当调谐选择器开关位于PRESET位时，用来选择20个预设的无线电频道中的一个。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="10">
-<li>Frequency Chart</li>
+<li>频率表</li>
 </ol>
 </td>
-<td>Used to record preset channel frequencies. Frequencies preset in the mission editor will be automatically displayed here in DCS.</td>
+<td>用来记录预设无线电频道的频率。在DCS中，任务编辑器预设好的无线电频率会自动显示在这里。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="11">
-<li>Mode Selector switch</li>
+<li>模式选择开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">GUARD – Main transceiver is energized and shifted to guard frequency of 243.0 MHz permitting transmission and reception. In this position, both preset and manual frequency selections are not available.</div>
+<div class="line">GUARD –激活主无线电收发器，转到紧急频率243.0 MHz来进行发送和接收。在这个位置，预设的和人工输入的无线电频率都失效。</div>
 <div class="line"><br /></div>
-<div class="line">MANUAL – Frequency tuning controls are used to tune the main transceiver to any frequency (7 000 available) within the range of the set. The frequency selected is displayed in the readout window. In this position, PRESET selections are not available.</div>
+<div class="line">MANUAL –频率调谐控制器，用来在一定范围内调谐主无线电收发器到任意频率（7 000个可用）。被选择的频率在读出窗口中显示。在此位置时， PRESET 选择无效。</div>
 <div class="line"><br /></div>
-<div class="line">PRESET – Used to tune the transceiver to any of 20 preset channels using the PRESET channel selector. The selected channel is displayed in the readout window.</div>
+<div class="line">PRESET –通过使用预设频道选择器调谐到20个预设频道中的任何一个频率。选择的频道在读出窗口显示。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="12">
-<li>TONE button</li>
+<li>调谐按钮</li>
 </ol>
 </td>
-<td>Depressing button causes a steady tone (1 020 Hz) to be transmitted on the frequency or channel selected.</td>
+<td>按下按钮后可在选择的频率或者频道上发送一个稳定的音调（1 020Hz）。</td>
 </tr>
 </tbody>
 </table>
@@ -4957,30 +4775,25 @@ Forward deflection of the switch increases the numeric reading, and aft deflecti
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">UHF communication interference with the D/L may cause the TILT light to illuminate and the autopilot ACL or VEC/PCD mode to disengage. Data link interference with the UHF radios may cause audible chirping at the D/L message reply rate. Note: Although antenna switching is not implemented in DCS, it is still recommended to use a frequency separation greater than 55 MHz, and if necessary along with turning UHF 1 or V/UHF 2 radio OFF to avoid mutual interference between UHF communications.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">UHF通信和数据链的互相干扰可能导致TILT灯亮起，自动驾驶仪ACL或VEC / PCD模式断开以及数据链回复信息中的鸣叫。注意：虽然在DCS中天线开关未实现，仍然建议无线电频率之间间隔大于55 MHz，并且如果有必要的话，关闭UHF 1和V / UHF 2无线电中的一个，以避免UHF通信之间的相互干扰。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Note2:</th><td class="field-body">Transmissions on both UHF 1 and V/UHF 2 radios, while operating on the same frequency, may result in a squeal. This feedback is a normal condition caused by RF interaction between the two radios operating on the same frequency in close proximity to each other.</td>
+<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">UHF 1和V / UHF 2无线电在相同频率下发送时可能会产生啸叫。这是由在彼此非常接近的两个无线电设备之间，在相同频率上运行时，无线电频率互相干扰的正常情况。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="an-arc-182-v-uhf-2-radio">
-<h3>AN/ARC-182 (V/UHF 2) Radio<a class="headerlink" href="#an-arc-182-v-uhf-2-radio" title="永久链接至标题">¶</a></h3>
-<p>The ARC-182 radio provides multimode, multichannel, air-to-air/air-to-surface voice and tone communications.
-The ARC-182 control panel is located on the RIO left console. Frequency range extends in four bands from 30 to 88, 108 to 156, 156 to 174, and 225 to 399.975 MHz on any of 11,960 channels (separated by 25 kHz).</p>
+<h3>AN/ARC-182 (V/UHF 2) 无线电<a class="headerlink" href="#an-arc-182-v-uhf-2-radio" title="永久链接至标题">¶</a></h3>
+<p>ARC-182无线电提供多模式，多频道，空空/空面语音和音调通信。ARC-182控制面板位于RIO座舱的左控制台。频率分布在四个区间，分别为30到88，108到156，156到174和225到399.975 MHz中的11,960个频道上的任意一个（相邻频道以25 KHz分开）。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The “Have Quick” anti-jam function is not implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中，“Have Quick”反干扰功能未实现</td>
 </tr>
 </tbody>
 </table>
-<p>Transmission and reception are available in AM or FM bands. The modulation is selected automatically by the radio except in the 225 to 399.975 band (toggle switch).
-30 preset channels are available. Guard frequency of each band may be monitored simultaneously with any other frequency selected.
-The radio is used with the ARA-50 to provide automatic direction finding (ADF) to the transmitting station.
-The ARC-182 operates with secure-voice equipment (KY-28, the KY-58 is not implemented in DCS). Upper and lower antenna installations provide reliable line-of-sight communications to 200 NM (depending on altitude and atmospheric conditions).
-A remote indicator on the pilot instrument panel indicates the channel or frequency selected.</p>
+<p>在 AM（调幅） 和 FM（调频） 内无线电发射和接收有效。无线电自动选择调制方式，但 225 至 399.975 MHz 频段（拨动开关）除外。有30个预设频道可用。随着任意其他频率被选择，每个频段内的紧急频率可能会同时显示。无线电系统使用 ARA-50 来提供对发送基站的自动侧向。ARC-182使用安全语音设备来工作(KY-28, KY-58 在DCS中未实现）。 安装的上下天线提供可靠的200海里视线通信（取决于高度和大气条件）。飞行员驾驶舱仪表面板上的一个远程显示器显示选择的频道或频率。</p>
 <img alt="_images/arc-1821.png" src="_images/arc-1821.png" />
 <table border="1" class="docutils">
 <colgroup>
@@ -4997,89 +4810,86 @@ A remote indicator on the pilot instrument panel indicates the channel or freque
 <li>VOL control</li>
 </ol>
 </td>
-<td>Controls volume of RIO audio for V/UHF 2.</td>
+<td>控制RIO的V/UHF 2无线电音量</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>SQL (squelch) switch</li>
+<li>SQL（降噪）开关</li>
 </ol>
 </td>
-<td>On/off control for radio squelch (noise-blanking when carrier is not present).</td>
+<td>无线电降噪的开关控制（航母不在时的降噪）</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>Frequency Tuning switches (Springloaded to Center)</li>
+<li>频率调谐开关（弹簧力回中）</li>
 </ol>
 </td>
-<td>Four frequency tuning switches are used to tune transceiver when the mode selector switch is set to MANUAL.
-The left switch controls the hundreds and tens digits, the second switch controls units,
-the third switch controls tenths, and the right switch controls hundredths and thousandths.
-Forward deflection of the switch increases the numeric reading, and aft deflection decreases the numeric reading.</td>
+<td>四个频率调节开关用来在模式选择开关位于MANUAL（人工）位时调谐无线电收发器。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>FREQ/(CHAN)</li>
+<li>频率/（频道）</li>
 </ol>
 </td>
-<td>Displays frequency when mode selector switch is in MAN and displays V/UHF channel when mode switch is in PRESET.</td>
+<td>当主模式选择开关在MAN位时，显示频率，主模式开关在PRESET位时显示V/UHF的频道。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li>UHF Mode switch</li>
+<li>UHF模式开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">Operational when tuned to frequencies in the 225.000 to 399.000 MHz band.</div>
+<div class="line">频率调谐到225.000到399.000MHz区间时可用</div>
 <div class="line"><br /></div>
-<div class="line">AM – Selects amplitude modulation signals. Varies with atmospheric conditions, susceptible to electromagnetic interference.</div>
+<div class="line">AM – 选择调幅信号。随大气条件变化，易受电磁干扰</div>
 <div class="line"><br /></div>
-<div class="line">FM – Selects frequency modulation signals. Reduces electromagnetic interference.</div>
+<div class="line">FM – 选择调频信号。能减少电磁干扰的影响</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
-<li>BRT control</li>
+<li>亮度控制</li>
 </ol>
 </td>
-<td>Controls brightness of radio FREQ/(CHAN) display.</td>
+<td>控制无线电频率/（频道）显示器的亮度</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>MODE selector</li>
+<li>模式选择器</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">OFF – Secures VHF/UHF radio, unless frequency mode switch is set to 243.</div>
+<div class="line">OFF – 关闭VHF/UHF无线电，除非无线电模式开关设置到243</div>
 <div class="line"><br /></div>
-<div class="line">T/R – Energizes transmitter and main receiver.</div>
+<div class="line">T/R – 激活发送器和主接收器</div>
 <div class="line"><br /></div>
-<div class="line">T/R&amp;G – Energizes transmitter, main, and guard receivers.</div>
+<div class="line">T/R&amp;G – 激活发送器，主要和紧急接收器</div>
 <div class="line"><br /></div>
-<div class="line">DF – Provides automatic direction finding from 108 to 399.975 MHz.</div>
+<div class="line">DF – 提供自动定向，频率从108到3999.975MHz</div>
 <div class="line"><br /></div>
-<div class="line">TEST – Indicates built-in-test (BIT) AT; displayed on FREQ/(CHAN) indicator.</div>
+<div class="line">TEST（测试） – 显示自检（BIT）AT；显示在无线电频率/（频道）显示器上</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
-<li>Frequency Mode switch (Outer Dial)</li>
+<li>频率模式开关（外圈表盘）</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">243 – Turns on the transceiver (takes precedence over (outer dial) operational mode control) and causes the main transceiver, and guard receiver to tune to 243.000 MHz (UHF guard frequency). All functions except VOL SQL and BAT are disabled.</div>
+<div class="line">243 – 打开无线电收发器（优先于（外圈表盘）操作模式控制），使主无线电收发器调谐到243.000MHz（UHF紧急频率）。除了VOL SQL和BAT功能外所有功能都未实现。</div>
 <div class="line"><br /></div>
-<div class="line">MAN – Allows manual selection of an operating frequency using the frequency tuning switches. Transceiver is disabled during a frequency change.</div>
+<div class="line">MAN（人工） –允许通过使用频率调谐开关人工选择一个频率。</div>
 <div class="line"><br /></div>
-<div class="line">G – Tunes the transceiver to the guard frequency in the band to which the radio was last tuned.</div>
+<div class="line">G（紧急） – 把最后进行调谐操作的无线电收发器调谐到紧急频率</div>
 <div class="line"><br /></div>
-<div class="line">PRESET – Allows selection of any one of 40 present operating frequencies with the CHAN SEL switch. Selected channel is displayed on the FREQ/(CHAN) display. Channels 31 through 40 are for Have Quick (antijam) use and are not implemented in DCS.</div>
+<div class="line">PRESET（预设） – 允许通过频道选择开关选择40个预设频道频率中的任意一个。选择的频道在无线电频率/（频道）显示器上显示。频道31到40用来反干扰，在DCS中未实现。</div>
 <div class="line"><br /></div>
-<div class="line">READ – Displays the frequency (rather than channel) of preset channel selected.</div>
+<div class="line">READ（读取） –显示预设频道的频率（而不是频道）</div>
 <div class="line"><br /></div>
-<div class="line">LOAD – Automatically places the displayed frequency into the memory for the selected preset channel.</div>
+<div class="line">LOAD（载入）-自动把显示的频率存储到预设的频道</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="9">
-<li>CHAN SEL switch (Inner Dial)</li>
+<li>频道选择开关（内圈表盘）</li>
 </ol>
 </td>
-<td>Selects one of 40 preset frequency channels to use when the tuning selector switch is set to PRESET.</td>
+<td>当调谐选择开关设置到PRESET（预设）位时，选择40个预设频道中的一个。</td>
 </tr>
 </tbody>
 </table>
@@ -5087,28 +4897,28 @@ Forward deflection of the switch increases the numeric reading, and aft deflecti
 <div class="section" id="loading-saving-preset-channel-s-on-uhf-1-and-v-uhf-2">
 <h3>在 UHF 1 和 V/UHF 2 中读取（保存）预设频道<a class="headerlink" href="#loading-saving-preset-channel-s-on-uhf-1-and-v-uhf-2" title="永久链接至标题">¶</a></h3>
 <ol class="arabic simple">
-<li>MODE selection- T/R or T/R&amp;G.</li>
-<li>Frequency mode control - PRESET.</li>
-<li>CHAN SEL switch- Select desired channel.</li>
-<li>Frequency mode control- READ.</li>
-<li>Frequency select switches - Slew to desired Frequency.</li>
-<li>Frequency mode control - LOAD (frequency is stored in memory for selected channel).</li>
-<li>Frequency mode control- READ, Verify frequency display.</li>
-<li>Repeat steps 2 through 7 for subsequent channels.</li>
+<li>模式选择-T/R或T/R&amp;G</li>
+<li>频率模式控制-预设</li>
+<li>频道选择开关-选择需要的频道</li>
+<li>频率模式控制-读取</li>
+<li>频率选择开关-调到所需的频率</li>
+<li>频率模式控制-载入（频率存储到选择的频道中）</li>
+<li>频率模式控制-读取，核实频率显示</li>
+<li>对后续频道重复步骤2到步骤7</li>
 </ol>
 </div>
 <div class="section" id="an-arc-182-bit-built-in-test">
 <h3>AN/ARC-182 BIT（自检）<a class="headerlink" href="#an-arc-182-bit-built-in-test" title="永久链接至标题">¶</a></h3>
-<p>BIT isolates faults in AN/ARC-182. BIT should be started if the FREQ/(CHAN) display blanks, indicates an erroneous readout or the transceiver otherwise malfunctions.</p>
-<p>Proceed as follows:</p>
+<p>自检分离了AN/ARC-182的错误。如果无线电频率/（频道）显示器空白，自检应该开始了，显示一个错误读出数据，否则无线电收发器发生了故障。</p>
+<p>按以下步骤操作：</p>
 <ol class="arabic simple">
-<li>MODE selector - TEST.</li>
-<li>BRT control- As Required.</li>
-<li>BIT requires approximately 10 seconds, observe FREQ/(CHAN) display.</li>
+<li>模式选择器 - 测试</li>
+<li>亮度控制- 按需</li>
+<li>自检需要大约10秒，观察无线电频率/（频道）显示器</li>
 </ol>
 <ol class="loweralpha simple">
-<li>No fault is indicated by 888.888.</li>
-<li>Faults are indicated by a number that identifies the module or modules at fault.</li>
+<li>888.888 显示时没有错误</li>
+<li>错误由数字显示，指示组件的错误</li>
 </ol>
 <table border="1" class="docutils">
 <colgroup>
@@ -5120,55 +4930,55 @@ Forward deflection of the switch increases the numeric reading, and aft deflecti
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Mode</th>
 <th class="head">Display</th>
-<th class="head">Fault</th>
-<th class="head">Interpretation</th>
+<th class="head">错误</th>
+<th class="head">解释</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>RCV</td>
+<tr class="row-even"><td>接收</td>
 <td>‘</td>
-<td>RMT or RT</td>
-<td>Select test mode</td>
+<td>RMT 或 RT</td>
+<td>选择测试模式</td>
 </tr>
 <tr class="row-odd"><td>XMT</td>
 <td>‘</td>
-<td>LOW PWR</td>
-<td>Select test mode</td>
+<td>电源低</td>
+<td>选择测试模式</td>
 </tr>
-<tr class="row-even"><td>TEST</td>
+<tr class="row-even"><td>测试</td>
 <td>‘</td>
-<td>RMT CTRL</td>
-<td>Defective control</td>
+<td>RMT控制</td>
+<td>错误控制</td>
 </tr>
-<tr class="row-odd"><td>TEST</td>
+<tr class="row-odd"><td>测试</td>
 <td>888.888</td>
 <td>NONE</td>
-<td>RT and CTRL ok</td>
+<td>RT 和 CTRL ok</td>
 </tr>
-<tr class="row-even"><td>TEST</td>
+<tr class="row-even"><td>测试</td>
 <td>4 6 5</td>
 <td>RT</td>
-<td>Modules 4, 5 or 6 bad</td>
+<td>组件 4，5或6损坏</td>
 </tr>
-<tr class="row-odd"><td>TEST</td>
+<tr class="row-odd"><td>测试</td>
 <td>0 6 1</td>
 <td>VSWR</td>
-<td>RT or antenna system</td>
+<td>RT 或天线系统</td>
 </tr>
-<tr class="row-even"><td>TEST</td>
+<tr class="row-even"><td>测试</td>
 <td>6 5 1</td>
-<td>FWD PWR</td>
-<td>RT or antenna system</td>
+<td>FWD 电源</td>
+<td>RT 或天线系统</td>
 </tr>
-<tr class="row-odd"><td>TEST</td>
+<tr class="row-odd"><td>测试</td>
 <td>1 5 7</td>
 <td>RT</td>
-<td>Modules 1, 5 or 7 bad</td>
+<td>组件 1，5或7损坏</td>
 </tr>
-<tr class="row-even"><td>TEST</td>
+<tr class="row-even"><td>测试</td>
 <td>3 3 3</td>
 <td>RT</td>
-<td>Module 3 bad</td>
+<td>组件 3 损坏</td>
 </tr>
 </tbody>
 </table>
@@ -5336,12 +5146,12 @@ Forward deflection of the switch increases the numeric reading, and aft deflecti
 </div>
 </div>
 <div class="section" id="link-4a-c-data-link">
-<h3>Link 4A &amp; C Data Link<a class="headerlink" href="#link-4a-c-data-link" title="永久链接至标题">¶</a></h3>
+<h3>Link 4A 和 4C 数据链<a class="headerlink" href="#link-4a-c-data-link" title="永久链接至标题">¶</a></h3>
 <p>F-14 雄猫配备了Link 4数据链路系统，可以传输和接收目标航迹，航点信息和转向命令。 Link 4有两个版本，第一个是Link 4A，它允许水面舰艇或空基AWACS指挥飞机，还有 Link 4C，它是F-14所独有的，战斗机对战斗机的数据链路。</p>
 <p>Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路网络。 然后，数据源（或者说，数据源的操作员）将为F-14提供目标航迹，航路点和控制命令。 此外，它还用于自动航降系统（ACLS）。</p>
 <p>而Link 4C 则允许最多四架 F-14 雄猫战斗机建立互联的数据网络并共享目标轨迹以协同作战。</p>
 <p>由于A和C模式使用的是同一个信号收发机，系统不允许F-14同时使用这两种模式。而Link 4系统本身工作在UHF频段，以每秒5000比特的速率进行信号传输。</p>
-<p>控制Link 4数据链系统使用数据链控制面板以及数据链应答和天线控制面板。接收到的控制信号将在飞行员VDI显示器（<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">Vertical Display Indicator (VDI)</span></a>）以及RIO DDI面板（<a class="reference internal" href="cockpit.html#ddi"><span class="std std-ref">数字数据显示面板（DDI）</span></a>）上显示。</p>
+<p>控制Link 4数据链系统使用数据链控制面板以及数据链应答和天线控制面板。接收到的控制信号将在飞行员VDI显示器（<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>）以及RIO DDI面板（<a class="reference internal" href="cockpit.html#ddi"><span class="std std-ref">数字数据显示面板（DDI）</span></a>）上显示。</p>
 <div class="section" id="link-4-controls">
 <h4>Link 4 控制<a class="headerlink" href="#link-4-controls" title="永久链接至标题">¶</a></h4>
 <img alt="_images/datalink1.png" src="_images/datalink1.png" />
