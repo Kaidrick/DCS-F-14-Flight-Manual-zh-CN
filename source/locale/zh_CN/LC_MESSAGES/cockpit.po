@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 17:32+0800\n"
-"PO-Revision-Date: 2019-02-24 23:34+0800\n"
+"PO-Revision-Date: 2019-02-25 22:10+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3758,7 +3758,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1548
 msgid "Caution lights indicating AICS programmer and/or system failure."
-msgstr "注意灯亮起表示 AICS（进气控制系统）控制程序和/或系统故障。"
+msgstr "注意灯亮起表示 AICS（进气道控制系统）控制程序和/或系统故障。"
 
 #: ../../source/cockpit.rst:1550
 msgid "OIL PRESS"
@@ -3983,7 +3983,7 @@ msgstr "提示灯亮起表示备用灭火器压强低（与正常值 600 psi 的
 
 #: ../../source/cockpit.rst:1605
 msgid "Master Generator Control Panel"
-msgstr "发电机主控面板"
+msgstr "主发电机面板"
 
 #: ../../source/cockpit.rst:1608
 msgid "Panel controlling left and right engine generator."
@@ -3998,23 +3998,24 @@ msgid ""
 "Switches controlling connection and test of respective generator. Switch "
 "needs to be lifted to move from OFF/RESET."
 msgstr ""
+"分别用于接通和测试对应一侧的发电机。提起开关才能将其拨至 OFF/RESET 档位。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "NORM - Normal, activating and connecting the generator to the main buses."
-msgstr ""
+msgstr "NORM - 正常位置，启用发电机并将发电机连接至主总线。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "OFF/RESET - Disconnects and deactivates generator and resets tripped "
 "protection circuits."
-msgstr ""
+msgstr "OFF/RESET - 断开并关闭发电机，重置触发的保护电路。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "TEST - Activates generator but does not connect it to the main buses, for "
 "testing purposes."
-msgstr ""
+msgstr "TEST - 启用发电机，但不与主总线连接，只用于测试。"
 
 #: ../../source/cockpit.rst:1621
 msgid "EMERG switch"
@@ -4025,26 +4026,30 @@ msgid ""
 "Guarded switch controlling connection of emergency generator to the "
 "essential buses. (Guarded position is NORM)"
 msgstr ""
+"带有保护盖的开关，用于控制应急发电机与应急总线间的连接（保护盖降下时开关固定"
+"在 NORM 档位）。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "NORM - Normal, generator is automatically connected to essential buses if "
 "both main generators fail."
-msgstr ""
+msgstr "NORM - 正常模式，如果主发电机故障，应急发电机将自动与应急总线连接。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "OFF/RESET - Disconnects the generator from the essential buses regardless of "
 "main generator status. Resets protection circuits."
 msgstr ""
+"OFF/RESET - 无论主发电机状态如何，切断将应急发电机与应急总线间的连接，重置保"
+"护电路。"
 
 #: ../../source/cockpit.rst:1632
 msgid "Master Light Control Panel"
-msgstr "灯光主控面板"
+msgstr "主灯光控制板"
 
 #: ../../source/cockpit.rst:1635
 msgid "Master light control panel, controlling most lights in/on the aircraft."
-msgstr ""
+msgstr "用于控制机外和机内的大部分灯光。"
 
 #: ../../source/cockpit.rst:1640
 msgid "ANTI COLLISION switch"
@@ -4052,7 +4057,7 @@ msgstr "防撞灯开关"
 
 #: ../../source/cockpit.rst:1640
 msgid "ON/OFF switch controlling anticollision lights."
-msgstr ""
+msgstr "用于开启或关闭防撞灯。"
 
 #: ../../source/cockpit.rst:1642
 msgid "POSITION switch"
@@ -4064,6 +4069,8 @@ msgid ""
 "lights lights up steadily or flashes. With weight on wheels the "
 "supplementary lights are always steady."
 msgstr ""
+"用于设置翼尖或机尾的附加灯和航行灯是稳定亮起还是闪烁。机轮承重时，补充灯光总"
+"是稳定亮起。"
 
 #: ../../source/cockpit.rst:1644
 msgid "TAIL POSITION switch"
@@ -4073,7 +4080,7 @@ msgstr "尾灯开关"
 msgid ""
 "Switch controlling tail position lights, DIM and BRT (bright) settings "
 "available."
-msgstr ""
+msgstr "用于控制机尾航行灯，可选择 BRT（亮）或 DIM（暗）。"
 
 #: ../../source/cockpit.rst:1646
 msgid "WING POSITION switch"
@@ -4082,7 +4089,7 @@ msgstr "翼尖灯开关"
 #: ../../source/cockpit.rst:1646
 msgid ""
 "Switch controlling wing position lights, DIM and BRT settings available."
-msgstr ""
+msgstr "用于控制翼尖航行灯，可选择 BRT（亮）或 DIM（暗）。"
 
 #: ../../source/cockpit.rst:1648
 msgid "ACM thumbwheel"
@@ -4092,15 +4099,15 @@ msgstr "ACM 灯光拨轮"
 msgid ""
 "Thumbwheel controlling ACM panel lights, 0 equals off, 1-14 sets the lights "
 "to an increasingly bright setting."
-msgstr ""
+msgstr "拨轮用于控制 ACM 面板灯光亮度，0等于关闭，1-14逐渐增加灯光亮度。"
 
 #: ../../source/cockpit.rst:1650
 msgid "INDEXER thumbwheel"
-msgstr ""
+msgstr "指示灯亮度"
 
 #: ../../source/cockpit.rst:1650
 msgid "Thumbwheel controlling AoA-indexer light intensity from 0-14."
-msgstr ""
+msgstr "拨轮用于控制进近迎角指示灯的亮度，范围是0到14。"
 
 #: ../../source/cockpit.rst:1652
 msgid "HOOK BYPASS"
@@ -4111,6 +4118,8 @@ msgid ""
 "Sets AOA lights to either FIELD or CARRIER mode, with the switch in CARRIER "
 "and wheels down the AOA lights flash if the hook isn't down."
 msgstr ""
+"设置进近迎角指示灯的 FIELD（机场）或 CARRIER（航母）模式，如果选择了 CARRIER "
+"模式且起落架放下，但阻拦钩未降下时，指示灯会闪烁。"
 
 #: ../../source/cockpit.rst:1654
 msgid "TAXI switch"
@@ -4118,7 +4127,7 @@ msgstr "滑行灯开关"
 
 #: ../../source/cockpit.rst:1654
 msgid "Switch controlling taxi lights."
-msgstr ""
+msgstr "控制滑行灯。"
 
 #: ../../source/cockpit.rst:1656 ../../source/cockpit.rst:3082
 msgid "INSTRUMENT thumbwheel"
@@ -4128,17 +4137,19 @@ msgstr "仪表板灯光拨轮"
 msgid ""
 "Thumbwheel controlling instrument panel lights, 0 equals off, 1-14 sets the "
 "lights to an increasingly bright setting."
-msgstr ""
+msgstr "拨轮用于控制仪表板灯光亮度，0等于关闭灯光，1-14逐渐增加灯光亮度。"
 
 #: ../../source/cockpit.rst:1658 ../../source/cockpit.rst:3084
 msgid "WHITE FLOOD switch"
-msgstr ""
+msgstr "白色泛光灯开关"
 
 #: ../../source/cockpit.rst:1658
 msgid ""
 "Switch enabling white flood lights in the pilot cockpit. DIM and BRT "
 "settings available, switch locked to OFF unless pulled out."
 msgstr ""
+"用于控制飞行员驾驶舱中的白色泛光灯。向上提起开关才可将其拨至 BRT（亮）或 "
+"DIM（暗）档位。"
 
 #: ../../source/cockpit.rst:1660 ../../source/cockpit.rst:3086
 msgid "CONSOLE thumbwheel"
@@ -4150,6 +4161,8 @@ msgid ""
 "console and red floodlights, 1-14 sets the console lights to an increasingly "
 "bright setting."
 msgstr ""
+"用于调整控制台灯光和红色泛光灯的拨轮。拨至0会关闭控制台灯光和红泛光灯，而1-14"
+"逐渐增加控制台灯光的亮度。"
 
 #: ../../source/cockpit.rst:1662 ../../source/cockpit.rst:3088
 msgid "RED FLOOD switch"
@@ -4157,19 +4170,19 @@ msgstr "红色泛光灯开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch controlling red instrument and console floodlights."
-msgstr ""
+msgstr "用于控制仪表板和控制台的红色泛光灯。"
 
 #: ../../source/cockpit.rst:0
 msgid "BRT - Sets bright red instrument flood and console lights."
-msgstr ""
+msgstr "BRT - 开启高亮度仪表板和控制台红色泛光灯。"
 
 #: ../../source/cockpit.rst:0
 msgid "MED - Red console floodlights."
-msgstr ""
+msgstr "MED - 开启仪表板和控制台红色泛光灯。"
 
 #: ../../source/cockpit.rst:0
 msgid "DIM - Dim red console floodlights."
-msgstr ""
+msgstr "DIM - 开启低亮度仪表板和控制台红色泛光灯。"
 
 #: ../../source/cockpit.rst:1670
 msgid "FORMATION thumbwheel"
@@ -4179,43 +4192,45 @@ msgstr "编队灯拨轮"
 msgid ""
 "Thumbwheel controlling external formation lights. 0 equals off, 1-14 sets "
 "the lights to an increasingly bright setting."
-msgstr ""
+msgstr "用于控制机外编队灯亮度。0等于关闭编队灯，1-14逐渐增加编队灯亮度。"
 
 #: ../../source/cockpit.rst:1677
 msgid "Air Conditioning Control Panel"
-msgstr ""
+msgstr "空调控制面板"
 
 #: ../../source/cockpit.rst:1680
 msgid "Panel controlling the environmental control system (ECS)."
-msgstr ""
+msgstr "用于操作环境控制系统（ECS）的面板。"
 
 #: ../../source/cockpit.rst:1685
 msgid "TEMP switch"
-msgstr ""
+msgstr "温控模式开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch controlling the cabin and pressure suit temperature mode."
-msgstr ""
+msgstr "用于控制驾驶舱和抗荷服加温模式。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "AUTO - Temperature is automatically set from the TEMP thumbwheel regardless "
 "of airspeed and altitude."
-msgstr ""
+msgstr "AUTO - 无论空速和高度如何，ECS 都会自动根据温控拨轮设置的值调整温度。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "MAN - Temperature is manually set from the TEMP thumbwheel but varies with "
 "airspeed and altitude and might need to be reset."
 msgstr ""
+"MAN - ECS 根据温控拨轮手动设置的值来调整温度，但随着空速和高度的变化，可能需"
+"要重新调整拨轮设置。"
 
 #: ../../source/cockpit.rst:1691
 msgid "CABIN PRESS switch"
-msgstr ""
+msgstr "座舱增压开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch controlling cabin pressurization. Locked to NORM until lifted."
-msgstr ""
+msgstr "用于控制座舱增压。向上提起开关才能将其拨至其他档位。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -4223,14 +4238,16 @@ msgid ""
 "aircraft level of 23,000 feet after which it maintains a 5 psi difference "
 "from outside atmosphere."
 msgstr ""
+"NORM - 正常模式，在8,000英尺至23,000英尺的高度范围内向座舱增压，超过23,000英"
+"尺后则始终保持舱内气压比外部气压高 5 psi。"
 
 #: ../../source/cockpit.rst:0
 msgid "DUMP - Opens the cockpit dump valve depressurizing the cockpit."
-msgstr ""
+msgstr "DUMP - 开启驾驶舱泄压阀来给驾驶舱减压。"
 
 #: ../../source/cockpit.rst:1697
 msgid "RAM AIR switch"
-msgstr ""
+msgstr "冲压空气开关"
 
 #: ../../source/cockpit.rst:1697
 msgid ""
@@ -4238,40 +4255,49 @@ msgid ""
 "after AIR SOURCE is set to RAM or OFF. Can be held to INCR (increase) or "
 "DECR (decrease), springloaded back to center."
 msgstr ""
+"如果气源选择开关选择了冲压空气作为进气源，则可使用这个弹簧开关用于调整冲压空"
+"气进气门的进气量。开关可以保持在 INCR（增加进气量）或 DECR（减小进气量）位置"
+"上，释放开关时，弹簧将开关弹回中置位置。"
 
 #: ../../source/cockpit.rst:1699
 msgid "AIR SOURCE selectors"
-msgstr ""
+msgstr "气源选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Five mutually exclusive air source selectors. Rotates to indicate selection."
-msgstr ""
+msgstr "五个互斥的气源选择开关。被选中的开关会旋转。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "RAM - Closes other air sources and opens ram air door which is combined with "
 "hot bleed air to supply all users."
 msgstr ""
+"RAM - 关闭其他气源，并开启冲压空气进气门，冲压空气与热引气混合后提供给所有系"
+"统。"
 
 #: ../../source/cockpit.rst:0
 msgid "L & R ENG - Selects either engine as the source for bleed air."
-msgstr ""
+msgstr "L ENG 和 R ENG - 选择对应一侧的发动机作为引气源。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "BOTH ENG - Selects both engines as source for bleed air. Normal position."
 msgstr ""
+"BOTH ENG - 使用两个发动机引气作为气源。这个档位是 AIR SOURCE 选择开关的正常位"
+"置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "OFF - Closes all air sources but the ram air door. In this mode the ram air "
 "door can not supply pressurization or air conditioning. Inhibits gun firing."
 msgstr ""
+"OFF - 关闭除了冲压进气以外的所有其他气源。该模式下，冲压空气无法为驾驶舱增压"
+"或提供空调。该模式下航炮无法击发。"
 
 #: ../../source/cockpit.rst:1709
 msgid "TEMP thumbwheel"
-msgstr ""
+msgstr "温控拨轮"
 
 #: ../../source/cockpit.rst:1709
 msgid ""
@@ -4280,144 +4306,163 @@ msgid ""
 "corresponds to 21º C or 70º F. In manual the thumbwheel needs to be set for "
 "each variation in airspeed and altitude."
 msgstr ""
+"用于调节驾驶舱和抗荷服温度。拨轮的调节范围是0-14，两侧有 COOL（冷）和 "
+"WARM（热）标识。自动模式下，7的位置大约对应 21°C 或 70°F。手动模式下，每当空"
+"速和高度变化，都需要调节拨轮以保持当前温度。"
 
 # wording
 # ---
 # 主测试面板？
 #: ../../source/cockpit.rst:1716
-#, fuzzy
 msgid "Master Test Panel"
-msgstr "测试主控面板"
+msgstr "主测试面板"
 
 #: ../../source/cockpit.rst:1719
 msgid ""
 "Panel controlling OBC and various on board BITs in addition to the emergency "
 "flight hydraulic setting."
-msgstr ""
+msgstr "用于控制 OBC（机内检查）和机载系统 BIT（自检）以及应急飞行液压系统。"
 
 #: ../../source/cockpit.rst:1724
 msgid "MASTER TEST selector"
-msgstr ""
+msgstr "主测试选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Selector used to select and initiate OBC and BIT for various systems. Pull "
 "out to enable selection, push in at selected option to start test."
 msgstr ""
+"用于选择和启动 OBC 和多个系统的 BIT 程序。向上提起旋钮来选择测试项目，按下旋"
+"钮选择对应项目并开始测试。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Disables test functions."
-msgstr ""
+msgstr "OFF - 禁用测试功能。"
 
 #: ../../source/cockpit.rst:0
 msgid "LTS - Lights, tests cockpit indication lights."
-msgstr ""
+msgstr "LTS - 灯光测试，测试驾驶舱内所有指示灯。"
 
 #: ../../source/cockpit.rst:0
 msgid "FIRE DET/EXT - Fire detection system test."
-msgstr ""
+msgstr "FIRE DET/EXT - 测试火灾报警系统。"
 
 #: ../../source/cockpit.rst:0
 msgid "INST - Instruments, tests various cockpit instrumentation."
-msgstr ""
+msgstr "INST - 仪表测试，测试驾驶舱中的多个仪表和指示器。"
 
+# The OBC system checks the operational status of approximately 85% of the non-AWG-S avionics equipment.
 #: ../../source/cockpit.rst:0
 msgid "OBC - On board checkout, starts OBC."
-msgstr ""
+msgstr "OBC - 机内检查，选则该项目来启动 OBC 程序。"
 
 #: ../../source/cockpit.rst:0
 msgid "EMERG GEN - Tests emergency generator."
-msgstr ""
+msgstr "EMERG GEN - 测试应急发电机。"
 
 #: ../../source/cockpit.rst:0
 msgid "WG SWP - Tests wing-sweep system."
-msgstr ""
+msgstr "WG SWP - 测试机翼后掠系统。"
 
+# what does that even mean?
+# need context
+# ----
+# Figure 41-1. Master Test Panel (Sheet 2)
 #: ../../source/cockpit.rst:0
 msgid "FLT GR DN - Initiates ground check of auto throttle interlocks."
-msgstr ""
+msgstr "FLT GR DN - 开始自动油门互锁地面检查。"
 
 #: ../../source/cockpit.rst:0
 msgid "FLT GR UP - Tests external fuel tank pressurization."
-msgstr ""
+msgstr "FLT GR UP - 测试外部油箱增压。"
 
 #: ../../source/cockpit.rst:0
 msgid "D/L RAD - Tests the data link converter."
-msgstr ""
+msgstr "D/L RAD - 测试数据链转换器。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "STICK SW - Checks left and right spoiler symmetry switches and 1-inch stick "
 "switches for yaw SAS."
 msgstr ""
+"STICK SW - 检查左、右扰流板对称性，将操纵杆向各方向移动1英寸以检查横向增稳。"
 
 #: ../../source/cockpit.rst:1748
 msgid "GO/NO-GO lights"
-msgstr ""
+msgstr "GO/NO-GO 指示灯"
 
 #: ../../source/cockpit.rst:1748
 msgid ""
 "Lights used in relevant tests to indicate GO or NO-GO conditions of those "
 "systems."
-msgstr ""
+msgstr "用于指示系统测试通过（GO）或未通过（NO-GO）的指示灯。"
 
 #: ../../source/cockpit.rst:1750
 msgid "EMERG FLT HYD"
-msgstr ""
+msgstr "应急飞行液压"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Switch controlling the emergency mode of the flight hydraulic system. "
 "Guarded to the AUTO (LOW) position."
 msgstr ""
+"用于控制飞行液压系统的紧急模式。保护盖关闭时，开关固定在 AUTO（LOW）位置。"
 
+# what are these "flight and combined 2,100 psi switches"?
 #: ../../source/cockpit.rst:0
+#, fuzzy
 msgid ""
 "HIGH - Activates the power module (high speed mode), bypassing flight and "
 "combined 2,100 psi switches."
 msgstr ""
+"HIGH - 启用动力模块（高速模式），绕过飞行液压和联合液压系统2,100 psi控制开"
+"关。"
 
+# 即使不低于2,100也启用的意思？
 #: ../../source/cockpit.rst:0
+#, fuzzy
 msgid ""
 "LOW - Activates the backup power module bypassing flight and combined 2,100 "
 "psi switches."
-msgstr ""
+msgstr "LOW - 启用备用动力模块，绕过飞行液压和联合液压系统2,100 psi控制开关。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "AUTO (LOW) - Automatically activates LOW mode when both flight and combined "
 "system pressures are below 2,100 psi."
 msgstr ""
+"AUTO（LOW）- 飞行液压和联合液压系统中压强低于2,100 psi 时，自动启用 LOW（低"
+"速）模式"
 
 #: ../../source/cockpit.rst:1759
 msgid "Specific tests will be detailed in a future BIT chapter."
-msgstr ""
+msgstr "在以后的 BIT 章节中会详细介绍各个测试的细节内容。"
 
 #: ../../source/cockpit.rst:1765
 msgid "External Environmental Control Panel"
-msgstr ""
+msgstr "外部环境控制面板"
 
 #: ../../source/cockpit.rst:1768
 msgid "Panel controlling windshield air and external anti-ice settings."
-msgstr ""
+msgstr "用于设置风挡吹风和机外除冰。"
 
 #: ../../source/cockpit.rst:1773
 msgid "WSHLD switch"
-msgstr ""
+msgstr "风挡加温开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Switch controlling external heating of windshield by blasting the exterior "
 "with warm air."
-msgstr ""
+msgstr "用于控制风挡加温，用热气流喷射风挡外部来加温。"
 
 #: ../../source/cockpit.rst:0
 msgid "AIR - Enables system."
-msgstr ""
+msgstr "AIR - 启用系统"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Disables system."
-msgstr ""
+msgstr "OFF - 关闭系统"
 
 #: ../../source/cockpit.rst:1779
 msgid "ANTI-ICE switch"
@@ -4425,27 +4470,29 @@ msgstr "除冰开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Controls engine, probe and AICS anti-ice settings."
-msgstr ""
+msgstr "控制发动机、全静压系统探头和 AICS （进气道控制系统）除冰设置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "ORIDE/ON - Engages engine and probe anti-ice regardless of external "
 "conditions and enables the anti-ice setting in AICS."
 msgstr ""
+"ORIDE - 无论机外气象条件如何，启用发动机除冰和全静压系统探头除冰，并启用 "
+"AICS 除冰。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "AUTO/OFF - Automatically engages engine and probe anti-ice as needed, turns "
 "off AICS anti-ice."
-msgstr ""
+msgstr "AUTO - 自动按需启用发动机除冰、全静压系统探头除冰和 AICS 除冰。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF/OFF - Turns off both engine and probe anti-ice and AICS anti-ice."
-msgstr ""
+msgstr "OFF - 关闭所有发动机除冰、全静压系统探头除冰和 AICS 除冰。"
 
 #: ../../source/cockpit.rst:1792
 msgid "Hydraulic Transfer Pump Switch"
-msgstr "液压转移泵开关"
+msgstr "液压输送泵开关"
 
 #: ../../source/cockpit.rst:1795
 msgid ""
@@ -4453,6 +4500,8 @@ msgid ""
 "pressure between the combined and flight hydraulic systems in case of a "
 "failure in one of them."
 msgstr ""
+"用于控制液压输送泵，在联合液压系统和飞行液压系统其中一个发生故障的情况下，使"
+"二者之间的压力平衡。"
 
 #: ../../source/cockpit.rst:1797
 msgid ""
@@ -4464,6 +4513,10 @@ msgid ""
 "transfer pump in case it can't supply enough pressure to the failed system "
 "as that would risk disabling the still operational system."
 msgstr ""
+"HYD TRANSFER PUMP 开关有两个档位，分别是 SHUTOFF（关闭）和 NORMAL（保护盖关"
+"闭，正常档位）。如果开关置于 NORMAL 位置（使用标准设置），一侧液压系统故障导"
+"致液压压强低于2,100 psi 时，另一侧仍正常工作的液压系统会通过液压输送泵对另一"
+"侧的系统增压。"
 
 #: ../../source/cockpit.rst:1805
 msgid "HUD-Video Control Panel"
@@ -4474,37 +4527,39 @@ msgid ""
 "Control panel for the CTVS system which records the HUD when activated. Not "
 "implemented in DCS."
 msgstr ""
+"用于控制 CTVS 系统。CTVS 的作用是记录和录制 HUD 中的标识和图像。DCS 中未实装"
+"相关功能。"
 
 #: ../../source/cockpit.rst:1813
 msgid "HUD CAM(E)RA switch"
-msgstr ""
+msgstr "HUD 摄像机开关"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "TRG - Trigger, records while the second (firing) detent on the stick trigger "
 "is depressed."
-msgstr ""
+msgstr "TRG - 扳机触发，当第二段扳机按下（开火）时录制 HUD 画面。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "NORMAL - Records while the first detend on the stick trigger is depressed."
-msgstr ""
+msgstr "NORMAL- 驾驶杆扳机按下时录制画面。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Disables power to the CTVS."
-msgstr ""
+msgstr "OFF - 关闭 CTVS 电源。"
 
 #: ../../source/cockpit.rst:0
 msgid "RUN - Records continuously."
-msgstr ""
+msgstr "RUN - 持续录制 HUD 画面。"
 
 #: ../../source/cockpit.rst:1821
 msgid "Switch 2 & 3."
-msgstr ""
+msgstr "开关 2 和开关 3"
 
 #: ../../source/cockpit.rst:1821
 msgid "VTR - Video tape recorder."
-msgstr ""
+msgstr "VTR - 录像机"
 
 #: ../../source/cockpit.rst:1828 ../../source/cockpit.rst:3226
 msgid "Canopy Defog/Cabin Air Lever"
@@ -4518,6 +4573,10 @@ msgid ""
 "position directs all air flow through the canopy air diffusers for canopy "
 "defog."
 msgstr ""
+"舱盖空气散流器控制手柄控制驾驶舱中的通风气流。手柄置于正常位置（CABIN AIR）"
+"时，空调系统引导70%的气流空过驾驶舱空气散流器，30%通过舱盖空气散流器。手柄置"
+"于 CANOPY DEFOG（舱盖除雾）位置时，空调系统引导引导所有气流通过舱盖空气散流器"
+"来给舱盖除雾。"
 
 #: ../../source/cockpit.rst:1838 ../../source/cockpit.rst:3236
 msgid "Canopy Control Handle"
@@ -4530,6 +4589,8 @@ msgid ""
 "containing the handle mechanism and the handle position texts. The canopy "
 "control handle is duplicated in the RIO cockpit."
 msgstr ""
+"驾驶舱右侧舱壁上的舱盖控制手柄用于操作驾驶舱盖。这个手柄安装在标有手柄位置标"
+"识、内置舱盖控制机构的控制盒下方。RIO 驾驶舱内也有一个相同的舱盖控制手柄。"
 
 #: ../../source/cockpit.rst:1848 ../../source/cockpit.rst:3246
 msgid "BOOST"
@@ -4539,7 +4600,7 @@ msgstr ""
 msgid ""
 "Closes the canopy using boost, used during cold weather or with a strong "
 "headwind."
-msgstr ""
+msgstr "使用助力模式关闭驾驶舱盖，用于低温或强逆风条件下。"
 
 #: ../../source/cockpit.rst:1850 ../../source/cockpit.rst:3248
 msgid "CLOSE"
@@ -4547,7 +4608,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1850 ../../source/cockpit.rst:3248
 msgid "Closes the canopy, default position during flight."
-msgstr ""
+msgstr "关闭驾驶舱盖，这是飞行中舱盖控制手柄的默认位置。"
 
 #: ../../source/cockpit.rst:1852 ../../source/cockpit.rst:3250
 msgid "HOLD"
@@ -4555,7 +4616,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1852 ../../source/cockpit.rst:3250
 msgid "Holds canopy at current position for any position other than closed."
-msgstr ""
+msgstr "将驾驶舱盖保持在非关闭位置外的当前位置。"
 
 #: ../../source/cockpit.rst:1854 ../../source/cockpit.rst:3252
 msgid "OPEN"
@@ -4571,7 +4632,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1856 ../../source/cockpit.rst:3254
 msgid "Allows manual opening of the canopy if system pressure is too low."
-msgstr ""
+msgstr "允许系统液压过低时手动开启驾驶舱盖。"
 
 #: ../../source/cockpit.rst:1860
 msgid "F-14B RIO Cockpit"
@@ -4579,250 +4640,256 @@ msgstr "F-14B 雷达拦截官驾驶舱"
 
 #: ../../source/cockpit.rst:1870
 msgid "G-Valve Button"
-msgstr ""
+msgstr "飞行服抗荷充气检测按钮"
 
 #: ../../source/cockpit.rst:1882
 msgid ""
 "Controls ventilation airflow to pressure suit or seat cushions and oxygen to "
 "RIO mask."
-msgstr ""
+msgstr "用于控制抗荷服或坐垫的通风气流以及通向 RIO 面罩的氧气。"
 
 #: ../../source/cockpit.rst:1896
 msgid "Data Stowage Compartment"
-msgstr ""
+msgstr "数据储存室"
 
 #: ../../source/cockpit.rst:1899
 msgid ""
 "The data stowage panel is a small compartment for equipment storage and "
 "mission briefing materials etc."
-msgstr ""
+msgstr "数据储存室用于存放设备和任务用简报等材料。"
 
 #: ../../source/cockpit.rst:1908
 msgid "TACAN control panel letting the RIO control TACAN if in command of it."
-msgstr ""
+msgstr "如果 RIO 拥有 TACAN 设备控制权，则可以通过该控制面板操作 TACAN。"
 
 #: ../../source/cockpit.rst:1921
 msgid "Volume control knob for TACAN audio to RIO."
-msgstr ""
+msgstr "用于控制 RIO 的 TACAN 音频音量。"
 
 #: ../../source/cockpit.rst:1940
 msgid "Communication/TACAN Command Panel"
-msgstr ""
+msgstr "通信/TACAN 指令面板"
 
 #: ../../source/cockpit.rst:1943
 msgid ""
 "Panel controlling ICS radio settings and crewmember in control of TACAN."
-msgstr ""
+msgstr "用于选择 ICS（通讯系统）电台设置和拥有 TACAN 控制权的机组成员。"
 
 #: ../../source/cockpit.rst:1948
 msgid "XMTR SEL switch"
-msgstr ""
+msgstr "XMTR SEL 开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects which VHF/UHF radio the RIO PTT keys."
-msgstr ""
+msgstr "选择 RIO PTT（按键通话）按下后在哪个 VHF/UHF 电台通信。"
 
 #: ../../source/cockpit.rst:0
 msgid "UHF 1 - Selects the ARC-159 UHF radio."
-msgstr ""
+msgstr "UHF 1 - 选择 ARC-159 UHF 无线电台"
 
 #: ../../source/cockpit.rst:0
 msgid "BOTH - Selects both radios."
-msgstr ""
+msgstr "BOTH - 同时选择 ARC-159 UHF 和 ARC-182 VHF/UHF 电台"
 
 #: ../../source/cockpit.rst:0
 msgid "V/UHF 2 - Selects the ARC-182 VHF/UHF radio."
-msgstr ""
+msgstr "V/UHF 2 - 选择 ARC-182 VHF/UHF 无线电台"
 
 #: ../../source/cockpit.rst:1956
 msgid "V/UHF 2 ANT switch"
-msgstr ""
+msgstr "V/UHF 2 天线控制开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects which antenna the V/UHF 2 uses."
-msgstr ""
+msgstr "选择 V/UHF 2 使用的天线。"
 
 #: ../../source/cockpit.rst:0
 msgid "UPR - Selects the upper antenna."
-msgstr ""
+msgstr "UPR - 选择上部天线"
 
 #: ../../source/cockpit.rst:0
 msgid "LWR - Selects the lower antenna."
-msgstr ""
+msgstr "LWR - 选择下部天线"
 
 #: ../../source/cockpit.rst:1965
 msgid "UHF 1 VOL knob"
-msgstr ""
+msgstr "UHF 1 音量控制旋钮"
 
 #: ../../source/cockpit.rst:1965
 msgid "Volume knob controlling RIO headset volume of UHF 1 audio."
-msgstr ""
+msgstr "用于控制 RIO 头戴中 UHF 1 音频音量。"
 
 #: ../../source/cockpit.rst:1967
 msgid "KY MODE switch"
-msgstr ""
+msgstr "KY 模式选择开关"
 
 #: ../../source/cockpit.rst:1967
 msgid "Functional only with KY-58 installed."
-msgstr ""
+msgstr "只在安装了 KY-58 时有效。"
 
 #: ../../source/cockpit.rst:1970
 msgid ""
 "As the DCS F-14B is modelled with KY-28 the KY MODE switch is non-functional "
 "in DCS."
-msgstr ""
+msgstr "由于 DCS F-14B 安装的是 KY-28，因此 KY MODE 开关在 DCS 中无功能。"
 
 #: ../../source/cockpit.rst:1976
 msgid "V/UHF 2 (AN/ARC-182) Radio"
-msgstr ""
+msgstr "V/UHF 2（AN/ARC-182）无线电台"
 
 #: ../../source/cockpit.rst:1979
 msgid "V/UHF radio 2. Radio and controls."
-msgstr ""
+msgstr "V/UHF 2 及相关控制。"
 
 #: ../../source/cockpit.rst:1984
 msgid "Controls volume of V/UHF 2 audio to RIO headset."
-msgstr ""
+msgstr "控制 RIO 头戴中 V/UHF 2 音频音量。"
 
 #: ../../source/cockpit.rst:1992
 msgid "UHF switch"
-msgstr ""
+msgstr "UHF 调制选择开关"
 
 #: ../../source/cockpit.rst:1992
 msgid ""
 "Selector switch selecting modulation in use. Operational in the 225.000 to "
 "399.00 MHz band."
-msgstr ""
+msgstr "用于选择使用的调制模式，工作频率波段为 225.000 至 399.00 MHz。"
 
 #: ../../source/cockpit.rst:1996 ../../source/cockpit.rst:2159
 msgid "MODE knob"
-msgstr ""
+msgstr "模式选择旋钮"
 
 #: ../../source/cockpit.rst:1996
 msgid "MODE selector knob controlling V/UHF 2 radio mode."
-msgstr ""
+msgstr "用于选择 V/UHF 2 电台的工作模式。"
 
 #: ../../source/cockpit.rst:1998
 msgid "Frequency mode knob"
-msgstr ""
+msgstr "频率模式选择旋钮"
 
 #: ../../source/cockpit.rst:1998
 msgid "Outer dial on the knob, selects frequency mode."
-msgstr ""
+msgstr "双层旋钮开关的外侧旋钮，用于选择频率模式。"
 
 #: ../../source/cockpit.rst:2000
 msgid "Inner dial on the knob, selects preset channel to use."
-msgstr ""
+msgstr "双层旋钮开关的内侧旋钮，用于选择预设频道。"
 
 #: ../../source/cockpit.rst:2003
 msgid "Have Quick anti-jam functionality not implemented in DCS."
-msgstr ""
+msgstr "“Have Quick”抗干扰功能在 DCS 中未实装。"
 
 #: ../../source/cockpit.rst:2009
 msgid "KY-28 Control Panel"
-msgstr ""
+msgstr "KY-28 控制面板"
 
 #: ../../source/cockpit.rst:2015
 msgid "ZEROIZE switch"
-msgstr ""
+msgstr "擦除开关"
 
 #: ../../source/cockpit.rst:2015
 msgid "Switch/guard used to zeroize KY-28."
-msgstr ""
+msgstr "带有保护盖的开关，用于擦除（zeroize） KY-28 编码。"
 
 #: ../../source/cockpit.rst:2017
 msgid "Power-mode switch"
-msgstr ""
+msgstr "电源模式开关"
 
 #: ../../source/cockpit.rst:2017
 msgid "Switch selecting KY-28 mode of operation."
-msgstr ""
+msgstr "用于选择 KY-28 工作模式。"
 
 #: ../../source/cockpit.rst:2019
 msgid "Radio select switch"
-msgstr ""
+msgstr "无线电台选择开关"
 
 #: ../../source/cockpit.rst:2019
 msgid "Switch selecting which radio to use with KY-28."
-msgstr ""
+msgstr "用于选择与 KY-28 一起使用的无线电台。"
 
 #: ../../source/cockpit.rst:2026
 msgid "Data Link Control Panel"
-msgstr ""
+msgstr "数据链控制面板"
 
 #: ../../source/cockpit.rst:2029
 msgid "Control panel for the data link."
-msgstr ""
+msgstr "用于控制数据链。"
 
 #: ../../source/cockpit.rst:2034
 msgid "Transmission mode switch"
-msgstr ""
+msgstr "传输模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Sets data link tranmission mode."
-msgstr ""
+msgstr "用于设置数据链的传输模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "TEST - Starts system test."
-msgstr ""
+msgstr "TEST - 开始系统测试"
 
 #: ../../source/cockpit.rst:0
 msgid "NORM - Normal operational mode."
-msgstr ""
+msgstr "NORM - 正常工作模式"
 
 #: ../../source/cockpit.rst:0
 msgid "A/J - Anti-jam mode."
-msgstr ""
+msgstr "A/J - 抗干扰工作模式"
 
 #: ../../source/cockpit.rst:2042
 msgid "Frequency select wheels"
-msgstr ""
+msgstr "频率选择器"
 
 #: ../../source/cockpit.rst:2042
 msgid "Thumbwheels used to set data link frequency."
-msgstr ""
+msgstr "选择器上的拨轮用于设置数据链频率"
 
 #: ../../source/cockpit.rst:2044
 msgid "Data link power switch"
-msgstr ""
+msgstr "数据链电源开关"
 
 #: ../../source/cockpit.rst:2044
 msgid "Enables power to data link, also used to set AUX (auxiliary) mode."
-msgstr ""
+msgstr "控制数据链电源，也用于设置数据链备用（AUX）模式。"
 
 #: ../../source/cockpit.rst:2051
 msgid "Radar Beacon Control Panel"
-msgstr ""
+msgstr "雷达信标控制面板"
 
 #: ../../source/cockpit.rst:2054
 msgid "Panel controlling AN/APN-154 radar beacon."
-msgstr ""
+msgstr "用于控制 AN/APN-154 雷达信标。"
 
 #: ../../source/cockpit.rst:2059
 msgid "MODE selector"
-msgstr ""
+msgstr "模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Selector switch controlling beacon mode of operation."
-msgstr ""
+msgstr "用于控制雷达信标工作模式。"
 
+#  SINGLE — Limits beacon response to single pulse of any group received
 #: ../../source/cockpit.rst:0
 msgid "SINGLE - Enables beacon response to single pulse codes."
-msgstr ""
+msgstr "SINGLE - 雷达信标回应单脉冲编码。"
 
+# DOUBLE — Beacon response to one of five double-pulse interrogations.
 #: ../../source/cockpit.rst:0
 msgid "DOUBLE - Enables beacon response to set double pulse code."
-msgstr ""
+msgstr "SINGLE - 雷达信标回应设定的双脉冲编码。"
 
+# 17.2.4 ACLS Beacon Augmentor (R-1623).
+# The beacon augmentor is a crossband receiver that extends the tracking capability of the AN/SPN-42 shipboard radar with the capability of operating with either or both channels of the AN/SPN42 without interference.
+# The beacon augmentor eliminates radar scintillation by providing a large source of reply energy from one point on the aircraft. The beacon augmentor receives interrogations from the AN/SPN-42 carrierbased radar in the kA-band at 33.0 to 33.4 GHz, processes them, and retransmits modulated I-band pulses at 8.8 to 9.5 GHz to the AN/SPN-42, which has an I-band receiving system mounted contiguous with
+# the basic kA-band radar transmitting antenna. The unique feature of the augmentor is that it uses the AN/APN-154 beacon as its I-band transmitter. This is accomplished by coupling the output of the augmentor to the AN/APN-154 and triggering its modulator and transmitter. During the landing phase, it is necessary to manually place the radar beacon MODE switch to ACLS. In this mode the AN/APN-154 receiver is disabled to ensure that I-band signals in the area will not trigger the AN/APN-154 transmitter during landing.
 #: ../../source/cockpit.rst:0
 msgid ""
 "ACLS - Enables augmentor operation for ACLS. Required for CATCC radar lockon "
 "for ACLS."
-msgstr ""
+msgstr "ACLS - 启用 ACLS 信标增强装置，用于着舰时为 CATCC 雷达锁定提供信号源。"
 
 #: ../../source/cockpit.rst:2067
 msgid "ACLS TEST button"
-msgstr ""
+msgstr "ACLS 测试按钮"
 
 #: ../../source/cockpit.rst:2067
 msgid ""
@@ -4831,33 +4898,44 @@ msgid ""
 "flashes when detecting an AN/SPN-42 radar sweeping past and illuminates when "
 "that radar has locked on for ACLS guidance."
 msgstr ""
+"这个绿色按钮灯用于指示信标工作状态或用于测试信标。选择 ACLS 模式时，按下按钮"
+"灯，如果灯亮则表示通过测试。探测到 AN/SPN-42（舰载）雷达信号时，绿灯会闪烁，"
+"而当 AN/SPN-42 锁定本机来提供 ACLS 引导时，绿灯会稳定亮起。"
 
 #: ../../source/cockpit.rst:2069 ../../source/cockpit.rst:2795
 msgid "PWR switch"
-msgstr ""
+msgstr "电源开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Switch controlling beacon power."
-msgstr ""
+msgstr "用于控制信标电源。"
 
 #: ../../source/cockpit.rst:0
 msgid "PWR - Enables beacon and all replies depending on MODE selector."
-msgstr ""
+msgstr "PWR - 启用信标，根据所选模式进行回应。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "STBY - Used to warmup system, also enables ACLS replies if the MODE selector "
 "is set to ACLS."
 msgstr ""
+"STBY - 用于预热系统，如果模式选择开关置于 ACLS 档位，同时也会启用信标 ACLS 回"
+"应。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Beacon off."
-msgstr ""
+msgstr "OFF - 信标关闭。"
 
 #: ../../source/cockpit.rst:2082
 msgid "Liquid Cooling Control Panel"
-msgstr ""
+msgstr "液冷控制面板"
 
+# AWG-9/AIM-54 — Activates the AWG-9 and AIM-54 cooling pump motors.
+# OFF — Deactivates the AWG-9 and AIM-54 cooling pumps.
+# AWG-9 — Activates the AWG-9 cooling pump for ground and
+# airborne thermal conditioning.
+# Note
+# AIM 54C missiles do not need liquid cooling.
 #: ../../source/cockpit.rst:2085
 msgid ""
 "LIQ COOLING switch controlling the liquid cooling system for the AWG-9 and "
@@ -4865,35 +4943,42 @@ msgid ""
 "switch need to be enabled for the respective system before AWG-9 operation "
 "or AIM-54 missile preparation."
 msgstr ""
+"液冷控制开关用于控制 AWG-9 和 AIM-54 的冷却系统。AWG-9 冷却控制电路可以独立"
+"于 AIM-54 电路启用。使用 AWG-9 前，或进行 AIM-54 导弹发射准备前，需开启此开"
+"关。"
 
 #: ../../source/cockpit.rst:2099
 msgid ""
 "Volume control knob for intercommunication audio from the pilot to the RIO."
-msgstr ""
+msgstr "这个旋钮用于控制 RIO 接收飞行员对讲音频的音量。"
 
 #: ../../source/cockpit.rst:0
 msgid "Knob selecting which amplifier to use for the RIO's headset audio."
-msgstr ""
+msgstr "这个旋钮用于选择使用哪种放大器处理 RIO 头戴的音频。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "EMER - Emergency amplifier. Uses pilot's amplifier and his volume settings. "
 "Disallows listening to audio only available to RIO."
 msgstr ""
+"EMER - 应急放大器。这个档位会使用飞行员的放大器和他的音量设定。启用时将无法监"
+"听只有常规放大器中 RIO 才能听见的音频警告/提示。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "HOT MIC - Allows talking to the pilot without pressing the PTT. Also allows "
 "the groundcrew to talk to the crew via the external interphone."
 msgstr ""
+"HOT MIC - 飞行员无需按下 PTT（Push-To-Talk，按键说话）即可通话。地勤人员也可"
+"以通过外部对讲机与乘员通话。"
 
 #: ../../source/cockpit.rst:0
 msgid "COLD MIC - Allows talking to the pilot only while the PTT is pressed."
-msgstr ""
+msgstr "COLD MIC - 飞行员需按下 PTT 才能通话。"
 
 #: ../../source/cockpit.rst:2122
 msgid "Eject Command Lever"
-msgstr ""
+msgstr "弹射指令控制杆"
 
 #: ../../source/cockpit.rst:2125
 msgid ""
@@ -4902,16 +4987,19 @@ msgid ""
 "forward), only the RIO will be ejected. In MCO mode, both pilot and RIO "
 "initiated ejection will eject both crew members"
 msgstr ""
+"由飞行员发起的弹射总是会同时弹射所有机组成员。弹射指令控制杆用于设置弹射系统"
+"在 RIO 弹射时的行为：如果选择 PILOT 模式（手柄向前），RIO 弹射时，只有 RIO 自"
+"己会弹射。如果选择 MCO 模式，RIO 弹射时，RIO 和飞行员都会弹射。"
 
 #: ../../source/cockpit.rst:2131
 msgid "Sensor Control Panel"
-msgstr ""
+msgstr "传感器控制面板"
 
 #: ../../source/cockpit.rst:2134
 msgid ""
 "Control panel for AWG-9 scan settings, the TCS and the airborne video tape "
 "recorder."
-msgstr ""
+msgstr "用于控制 AWG-9 雷达的扫描设置、TCS（电视摄像套件）和机载录像机。"
 
 #: ../../source/cockpit.rst:2139
 msgid "STAB switch"
@@ -5111,7 +5199,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2208
 msgid "Armament Panel"
-msgstr ""
+msgstr "武器控制面板"
 
 #: ../../source/cockpit.rst:2211
 msgid "Main armament control panel in the RIO cockpit."
@@ -6938,7 +7026,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3027
 msgid "AN/ALE-39 Programmer"
-msgstr ""
+msgstr "AN/ALE-39 编程面板"
 
 #: ../../source/cockpit.rst:3030
 msgid ""
@@ -7257,7 +7345,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3184
 msgid "Transponder functionality not currently modelled in DCS."
-msgstr ""
+msgstr "DCS 中暂未模拟应答机功能。"
 
 #: ../../source/cockpit.rst:3190
 msgid "IFF Antenna Control/Test Panel"
@@ -7317,7 +7405,7 @@ msgstr "电力系统测试面板"
 
 #: ../../source/cockpit.rst:3218
 msgid "Panel used by groundcrew to test aircraft electrical systems."
-msgstr ""
+msgstr "地勤人员使用此面板测试飞机电力系统。"
 
 #: ../../source/cockpit.rst:3220
 msgid "Non-functional in DCS."
@@ -7330,6 +7418,8 @@ msgid ""
 "containing the handle mechanism and the handle position texts. The canopy "
 "control handle is duplicated in the pilot cockpit."
 msgstr ""
+"驾驶舱右侧舱壁上的舱盖控制手柄用于操作驾驶舱盖。这个手柄安装在标有手柄位置标"
+"识、内置舱盖控制机构的控制盒下方。飞行员驾驶舱内也有一个相同的舱盖控制手柄。"
 
 #~ msgid "__Label"
 #~ msgstr "标签"
