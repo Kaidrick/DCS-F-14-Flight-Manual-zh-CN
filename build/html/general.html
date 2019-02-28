@@ -13,6 +13,8 @@
 
   
   
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
   
   
 
@@ -59,7 +61,7 @@
             
             
               <div class="version">
-                协作预览 | Feb. 25th, 2019
+                协作预览 | Feb. 28th, 2019
               </div>
             
           
@@ -969,7 +971,7 @@ The airflow through the suit, or seats if no suits are worn, are controlled by t
 <li>2个 <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">空速马赫表</span></a> (以及 <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">空速马赫表</span></a>)</li>
 <li>2个 <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">气压高度表</span></a> (以及 <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">气压高度表</span></a>)</li>
 <li>1个 <a class="reference internal" href="cockpit.html#vertvelind"><span class="std std-ref">垂直速率表</span></a></li>
-<li>a turn and slip indicator (on the <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>)</li>
+<li>一个转弯侧滑指示器（在 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 上）</li>
 <li>1个 <a class="reference internal" href="cockpit.html#acc"><span class="std std-ref">加速度表</span></a></li>
 <li>1个 <a class="reference internal" href="cockpit.html#pstbycomp"><span class="std std-ref">备用罗盘</span></a></li>
 <li>以及2个机械时钟(<a class="reference internal" href="cockpit.html#pclock"><span class="std std-ref">时钟</span></a> 和 <a class="reference internal" href="cockpit.html#rclock"><span class="std std-ref">时钟</span></a>)。</li>
@@ -1003,7 +1005,7 @@ The airflow through the suit, or seats if no suits are worn, are controlled by t
 <p>红色仪表板和控制台一般在夜间使用灯光，其灯光以背光灯的形式为所有的仪表和控制台提供照明，同时背光灯也能最大程度地降低对夜视仪的影响。</p>
 <p>泛光灯为座舱面板提供额外的照明，但是注意避免其对夜视仪效果的影响。</p>
 <p>通用工作灯是可以调节位置的，因此它可以用来照亮一些特定的点位或者在看地图时充当照明。</p>
-<p>内部灯光的控制位于前座飞行员处的 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 以及后座RIO处的 <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">座舱灯光控制面板</span></a> ，分别控制各自区域的舱内灯光。</p>
+<p>内部灯光的控制位于前座飞行员处的 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 以及后座RIO处的 <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">驾驶舱灯光控制面板</span></a> ，分别控制各自区域的舱内灯光。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -2113,7 +2115,7 @@ If the transition fails the radar reverts to the respective search mode of the c
 <h2>AN/APX-72 IFF 询问器<a class="headerlink" href="#an-apx-72-iff-interrogator" title="永久链接至标题">¶</a></h2>
 <p>AN/APX-72 IFF(敌我识别系统）的询问器集成在AN/AWG-9中，而询问器天线则位于AN/AWG-9的天线框架平台上。</p>
 <p>IFF系统的工作原理是发射问询信号脉冲，然后监听友军传回的询问器脉冲信号。除了非加密民用模式外，AN/APX-72还可以在加密的军用模式（mode 4）下进行识别验证，这将可以确定目标在回应mode4问询信号时是否是友军。</p>
-<p>AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，请按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">Detail Data Display Panel</span></a> 上的IFF开关，当按住开关时询问器将会被激活，如果短暂按下开关询问器会工作十秒后停止。</p>
+<p>AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，请按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 上的IFF开关，当按住开关时询问器将会被激活，如果短暂按下开关询问器会工作十秒后停止。</p>
 <p>当启用IFF时，接收到的IFF回应信号将覆盖在标准的AN/AWG-9雷达回波信号中，并显示在DDD上。一个友军单位将会被显示为两条杠，一条在标准雷达信号的上方，一条在标准雷达回波信号的下方。</p>
 <p>另外，如果STT目标与TID关联，DDD将从一般显示距离切换到±10 NM的显示距离，以此来显示多个紧密编队目标的雷达信号回波。</p>
 </div>
@@ -2196,45 +2198,37 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <h2>AN/ALR-67 雷达警告接收系统（RWR）<a class="headerlink" href="#an-alr-67-rwr" title="永久链接至标题">¶</a></h2>
 <div class="section" id="description">
 <h3>描述<a class="headerlink" href="#description" title="永久链接至标题">¶</a></h3>
-<p>The AN/ALR-67 radar warning receiver (RWR) is designed to inform and alert the F-14B crew about radar emitters in their general area.
-It’s also designed to help the crew defend themselves from hostile threats by indicate radar tracking and engagement by radar guided weapons.</p>
-<p>The AN/ALR-67 was integrated into the F-14B Tomcat as part of the A+/B programme and at first as a standalone system.
-The RWR is however connected to the AN/ALQ-126 allowing it to send info on threat emitters to the jammer and also display jammed targets on its own display.
-It can also trigger preprogrammed countermeasure programs set up in the AN/ALE-39 system.</p>
-<p>On later F-14B aircraft incorporating the PTID upgrade the AN/ALR-67 was also integrated into the MDIG diplays system, allowing for a more detailed threat display on the ECMD.</p>
+<p>AN/ALR-67雷达警报接收器（RWR）的设计目的是向F-14B机组人员通报和警告其一般区域内的雷达发射器。它还设计用来帮助船员通过雷达跟踪和雷达制导武器的交战来防御敌方威胁。</p>
+<p>AN/ALR-67作为A+/B程序的一部分，最初作为一个独立系统集成到F-14B Tomcat中。然而，RWR与AN/ALQ-126相连，允许它向干扰机发送关于威胁发射器的信息，并在自己的显示器上显示被干扰的目标。它还可以触发在AN/ALE-39系统中设置的预编程对抗程序。</p>
+<p>在后来的F-14B飞机上，结合了PTID升级，AN/ALR-67也被集成到MDIG双工系统中，允许在ECMD上显示更详细的威胁。</p>
 <p>The AN/ALR-67 on the F-14B has four small spiral high-band antennas, four wideband high-band quadrant receivers and a low-band array.
 Connected to these antennas is a narrowband superheterodyne receiver analysing the received signals and indicating emitters and threats to both pilot and RIO using two displays, one at each seat and by audio signals played to the ICS of both crewmen.</p>
 </div>
 <div class="section" id="controls">
 <h3>控制<a class="headerlink" href="#controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/control1.png" src="_images/control1.png" />
-<p>The AN/ALR-67 RWR is controlled by a control panel on the RIO right side horizontal panel.</p>
-<p>The PWR (power) switch control power to the RWR and should be set to ON to operate the system.</p>
-<p>The VOL (volume) control knob sets RIO audio level for the RWR sound indications. The pilot has a corresponding control on his Volume/TACAN command panel.</p>
-<p>The TEST switch has two selectable modes and is springloaded to center when not held. Momentary selection of the BIT position initiates the AN/ALR-67 built in test and if the switch is held in the SPL (special) position while on the first BIT page displays the special BIT status page as long as it’s held in that position.</p>
-<p>The MODE switch also has two selectable modes used while held in the respective position, springloaded to return to center when not held. When not activated enables normal operational mode, OFST enables the offset mode when held and LMT the limit mode when held.
-The offset mode is indicated by an O in the status ring on the display and separates overlapping threat symbols sacrificing azimuth accuracy to instead show all threats clearly.
-The limit mode is indicated by an L in the status ring  on the display and limits the display to only show the threat symbols of the six highest prioritized threats.</p>
-<p>The DISPLAY TYPE selector sets what threat display priority to use on the RWR displays.</p>
-<p>NORM - Normal is indicated by a N in the status ring on the display and shows threat symbology according to the loaded thread library.</p>
-<p>AI - Airborne interceptor is indicated by an I in the status ring on the display and prioritizes all airborne interceptor threats above all other threats.</p>
-<p>AAA - Anti-aircraft artillery is indicated by an A in the status ring on the display and prioritizes all anti-aircraft artillery threats above all other threats.</p>
-<p>UNK - Unknown is indicated by a U in the status ring on the display and prioritizes all unknown threats above all other threats.</p>
+<p>AN/ALR-67 RWR由RIO右侧水平面板上的控制面板控制。</p>
+<p>PWR（电源）开关控制RWR的电源，并应设置为“ON”以操作系统。</p>
+<p>音量（vol）控制旋钮可为RWR声音指示设置RIO音频音量。在飞行员的VOLUME/TACAN命令面板上有相应的控制。</p>
+<p>测试(TEST)开关有两个可选择的模式，未操作时弹簧会保持开关中置。将瞬时选择位位置(Momentary selection of the BIT position)将启动AN/ALR-67内置测试，在第一个BIT页面上，将开关保持在SPL（特殊）位置，就会显示特殊BIT状态页面。</p>
+<p>模式(MODE)开关还具有两个可选择的模式，在保持在各自的位置时激活，未操作时弹簧会保持开关中置。操作将时启用正常操作模式，保持在OFST时启用偏移模式，保持在LMT时启用限制模式。偏置模式会在显示屏上状态环中显示O，并会分离重叠的威胁符号，但会牺牲方位角精度，可以清楚地显示所有威胁。限制模式会在显示屏上状态环中显示L，且仅会显示六个最高优先级威胁的威胁。</p>
+<p>DISPLAY TYPE旋钮可设置在RWR上威胁的优先级。</p>
+<p>NORM - RWR显示屏状态环中的N表示正常模式, 会根据预载数据库显示威胁。</p>
+<p>AI - RWR显示屏状态环中的 I 表示拦截机优先，在此模式下战斗机的威胁等级会高于任何威胁的等级。</p>
+<p>AAA - RWR显示屏状态环中的 I 表示高射炮优先, 在此模式下高射炮的威胁等级会高于任何威胁的等级。</p>
+<p>UNK - RWR显示屏状态环中的 U 表示未知威胁优先, 在此模式下未知目标的威胁等级会高于任何威胁的等级。</p>
 <p>FRIEND - Friendly is indicated by an F in the status ring on the display and allows for the same prioritization as in normal but also displays known friendly emitters.</p>
 </div>
 <div class="section" id="displays">
 <h3>显示<a class="headerlink" href="#displays" title="永久链接至标题">¶</a></h3>
 <img alt="_images/display.png" src="_images/display.png" />
-<p>The RWR display is identical at both positions in the cockpit and uses three bands (circles) on the display to indicate the threat level of the displayed threat symbols.</p>
+<p>RWR显示器在驾驶舱的两个位置都是相同的，它使用显示器上的三个威胁区（圆圈）来指示所显示的威胁符号的威胁级别。</p>
 <p>The outermost, critical band displays threat symbols belonging to emitters representing an imminent threat to own aircraft, either a locked on tracking radar or a radar detected to be actively engaging own aircraft.
 A threat symbol belonging to a track detected as actively engaging own aircraft is enhanced by flashing of its symbol.</p>
-<p>The middle, lethal band displays threat symbols belonging to emitters representing threat systems deemed within lethal range of own aircraft but not actively tracking or engaging it.</p>
-<p>The inner, non-lethal band displays threat symbols belonging to emitters not representing a system capable of engaging own aircraft or systems capable of but not deemed within range to engage it.</p>
-<p>The circle inside the threat bands is the system status circle, indicating various system modes in use or the presence of failures.
-The upper left quadrant displays what display type is set (N, I, A, U or F),
-the upper right quadrant showing an L if limited display mode is used
-and the lower half indicating either the use of the offset display mode by indicating an O, the presence of a BIT failure by showing B or that the system is thermally overloaded (too warm) by showing a T.</p>
-<p>On the lower right side is a knob controlling display intensity on display it’s attached to.</p>
+<p>中部的致命威胁区会显示 RWR 认为处于射程内，且装备武器，但并未攻击本机的辐射源。</p>
+<p>最内侧的非致命威胁区会显示 RWR 认为处于射程外，或未装备武器，从而不直接对本机构成威胁的辐射源。</p>
+<p>威胁区内最内侧的圆圈是系统状态圆圈，显示各种系统模式正在使用或存在故障。左上象限中显示的符号代表威胁目标的显示类型（N、I、A、U或F），右上象限中的标志显示 ARL-67 是否处于限制模式（如果在限制模式则显示L），下半部分显示O（表示偏置模式的使用），显示B（表示自检未通过）或显示T（表示系统热过载（过热））。</p>
+<p>在右下方是一个亮度控制旋钮，用于控制显示器的亮度。。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -2259,15 +2253,13 @@ and the lower half indicating either the use of the offset display mode by indic
 </tr>
 </tbody>
 </table>
-<p>The two crewmembers have warning lights dedicated to specific threats on their front cockpit panels.
-The pilot warning lights are situated on the right side of the HUD and the RIO warning lights on the right side of the TID.
-The RIO warning light panel also contains light for the AN/ALQ-126 and the IFF transponder, those are detailed under their respective section.</p>
+<p>这两名机组成员的前驾驶舱面板上有专用于特定威胁的警告灯。飞行员警告灯位于抬头显示器（HUD）右侧，RIO警告灯也位于抬头显示器（TID）右侧。RIO警示灯面板还包含AN/ALQ-126和IFF的指示灯，这些指示灯在各自章节中有详细说明。</p>
 <p>The different lights illuminate to indicate the presence of a certain type of threat in the critical band of the RWR and when an active engagement is detected the corresponding light starts flashing.
 The categories present are SAM (surface to air missile), AAA (anti-air artillery), AI (airborne interceptor) and (only in the RIO pit) CW (continuous wave).</p>
 </div>
 <div class="section" id="threat-indication-alert-tones">
 <h3>威胁提示警告音<a class="headerlink" href="#threat-indication-alert-tones" title="永久链接至标题">¶</a></h3>
-<p>The AN/ALR-67 uses four distinct audio tones to indicate threats and status changes of those threats.</p>
+<p>AN/ALR-67使用四种不同的音频提示音来指示威胁和这些威胁的状态变化。</p>
 <p>A single short tone is used to indicate the presence of a new emitter or when a threat is moved to another threat band.</p>
 <p>A slow warbling, alternating tone is used to indicate the presence of a threat in the critical band.</p>
 <p>A fast warbling, alternating tone is used to indicate that a threat is actively engaging own aircraft.</p>
@@ -2278,14 +2270,14 @@ This capability is either because of that the launching aircraft is capable of l
 <div class="section" id="bit">
 <h3>BIT<a class="headerlink" href="#bit" title="永久链接至标题">¶</a></h3>
 <img alt="_images/bit.gif" src="_images/bit.gif" />
-<p>The AN/ALR-67 BIT cycles between different test screens testing the screen, symbology and threat indication tones as well as displaying system revision and threat library information.</p>
-<p>The first page displayed shows system and threat library revision and the following screens test the symbol generation of the displays.</p>
+<p>AN/ALR-67会在不同测试之间循环，测试屏幕、符号和威胁指示音，并显示系统版本和威胁库信息。</p>
+<p>显示的第一页显示系统和威胁库版本，下面的屏幕测试显示的符号。</p>
 <p>The threat indication tones are also tested during the bit, first page tests the status change tone, second page the special tone, third page the threat in critical band tone and the fourth the fast warbling active threat tone.</p>
-<p>During the tests the threat warning lights also illuminate for both the pilot and the RIO.</p>
+<p>在测试过程中，飞行员和RIO的危险警告灯也会亮起。</p>
 </div>
 <div class="section" id="threat-symbology">
 <h3>威胁标识<a class="headerlink" href="#threat-symbology" title="永久链接至标题">¶</a></h3>
-<p>The following table details the threat symbols used by the Heatblur DCS F-14B.</p>
+<p>下表详细说明了Heatblur DCS F-14B使用的威胁符号。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="14%" />
@@ -2294,23 +2286,23 @@ This capability is either because of that the launching aircraft is capable of l
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">威胁标识符号</th>
-<th class="head">Platform/Sensor</th>
-<th class="head">Causes special tone</th>
+<th class="head">平台/传感器</th>
+<th class="head">引起特殊提示音</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td colspan="3">Ships (Symbology enhanced by being enclosed by an enlarged U symbol.)</td>
+<tr class="row-even"><td colspan="3">船舶（用放大的U包围。）</td>
 </tr>
 <tr class="row-odd"><td>AB</td>
-<td>Arleigh Burke</td>
+<td>阿利·伯克级驱逐舰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>AK</td>
-<td>Admiral Kuznetsov</td>
+<td>库兹涅佐夫海军上将级航空母舰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>GR</td>
-<td>Grisha 5 (Albatros)</td>
+<td>格里莎级反潜舰 5（信天翁）</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>GZ</td>
@@ -2318,7 +2310,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>HP</td>
-<td>Oliver Hazard Perry</td>
+<td>奥利弗·哈泽德·佩里级护卫舰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>HU</td>
@@ -2326,46 +2318,46 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>KK</td>
-<td>Krivak 3 (Rezky)</td>
+<td>克里瓦克级护卫舰3(Rezky)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>KV</td>
-<td>Kirov (Pyotr Velikiy)</td>
+<td>基洛夫级 (彼得大帝号)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>N</td>
-<td>Ships only carrying a navigational radar (civilian ships, submarines)</td>
+<td>只携带导航雷达的船舶（民用船舶、潜艇）</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>NE</td>
-<td>Neustrashimy</td>
+<td>不惧级护卫舰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>NZ</td>
-<td>Nimitz (Vinson, Stennis)</td>
+<td>尼米兹级航空母舰（卡尔文森号，斯坦尼斯）</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>SV</td>
-<td>Slava (Moscow)</td>
+<td>光荣级导弹巡洋舰（莫斯科号）</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>TC</td>
-<td>Ticonderoga</td>
+<td>提康德罗加级导弹巡洋舰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>TT</td>
-<td>Tarantul 3 (Molniya)</td>
+<td>蚊子级导弹快艇3(Molniya)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>TW</td>
-<td>Tarawa</td>
+<td>塔拉瓦级直升机登陆突击舰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>YI</td>
 <td>FFG-538 烟台</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-odd"><td colspan="3">Aircraft</td>
+<tr class="row-odd"><td colspan="3">飞机</td>
 </tr>
 <tr class="row-even"><td>13</td>
 <td>C-130</td>
@@ -2389,19 +2381,19 @@ This capability is either because of that the launching aircraft is capable of l
 </tr>
 <tr class="row-odd"><td>14</td>
 <td>F-14A/B</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-even"><td>15</td>
 <td>F-15C/E</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-odd"><td>16</td>
 <td>F-16C</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-even"><td>18</td>
 <td>F/A-18C</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-odd"><td>19</td>
 <td>Mig-19</td>
@@ -2424,12 +2416,12 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>29</td>
-<td>Su-27, Su-33, Mig-29A/G/S and J-11A</td>
-<td>Yes</td>
+<td>Su-27, Su-33, Mig-29A/G/S 或 J-11A</td>
+<td>是</td>
 </tr>
 <tr class="row-odd"><td>30</td>
 <td>Su-30</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-even"><td>31</td>
 <td>Mig-31</td>
@@ -2437,14 +2429,14 @@ This capability is either because of that the launching aircraft is capable of l
 </tr>
 <tr class="row-odd"><td>34</td>
 <td>Su-34</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-even"><td>39</td>
 <td>Su-25TM (Su-39)</td>
-<td>Yes</td>
+<td>是</td>
 </tr>
 <tr class="row-odd"><td>AN</td>
-<td>AN-26B and AN-30M</td>
+<td>AN-26B 或 AN-30M</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>AP</td>
@@ -2456,7 +2448,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>BE</td>
-<td>Tu-95 and Tu-142M</td>
+<td>Tu-95 或 Tu-142M</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>BF</td>
@@ -2488,7 +2480,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>IL</td>
-<td>IL-76MD and IL-78M</td>
+<td>IL-76MD 或 IL-78M</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>KC</td>
@@ -2500,8 +2492,8 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>M2</td>
-<td>Mirage 2000-C and 2000-5</td>
-<td>Yes</td>
+<td>Mirage 2000-C 或 2000-5</td>
+<td>是</td>
 </tr>
 <tr class="row-even"><td>S3</td>
 <td>S-3B</td>
@@ -2511,14 +2503,14 @@ This capability is either because of that the launching aircraft is capable of l
 <td>SH-60B</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-even"><td colspan="3">Air Defense</td>
+<tr class="row-even"><td colspan="3">防空单位</td>
 </tr>
 <tr class="row-odd"><td>2</td>
-<td>S-75 TR SNR (Fan Song)</td>
+<td>S-75 TR SNR (扇歌)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>3</td>
-<td>S-125 TR SNR-125 (SA-3/Low Blow)</td>
+<td>S-125 TR SNR-125 (SA-3/偷袭)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>6</td>
@@ -2546,19 +2538,19 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>19</td>
-<td>Tunguska 2C6M (SA-19)</td>
-<td>Yes</td>
+<td>通古斯卡 2C6M (SA-19)</td>
+<td>是</td>
 </tr>
 <tr class="row-even"><td>A</td>
-<td>Gepard, M-163 Vulcan and ZSU-23-4 Shilka</td>
+<td>猎豹, M-163 火神或 ZSU-23-4 石勒喀河</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>BB</td>
-<td>S-300PS 64H6E SR (SA-10/Big Bird)</td>
+<td>S-300PS 64H6E SR (SA-10/大鸟)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>CS</td>
-<td>S-300PS 5N66M SR (SA-10/Clam Shell)</td>
+<td>S-300PS 5N66M SR (SA-10/贝壳)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>DE</td>
@@ -2566,7 +2558,7 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>FF</td>
-<td>S-125 P-19 SR (SA-3/Flat Face)</td>
+<td>S-125 P-19 SR (SA-3/平面)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>GR</td>
@@ -2582,11 +2574,11 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>PT</td>
-<td>Patriot</td>
+<td>爱国者</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>RO</td>
-<td>Roland</td>
+<td>罗兰</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>S</td>
@@ -2594,23 +2586,23 @@ This capability is either because of that the launching aircraft is capable of l
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>SD</td>
-<td>Buk TR (SA-11/Snow Drift)</td>
+<td>山毛榉 TR (SA-11/雪堆)</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>SN</td>
 <td>PRW-11 (Side Net)</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-odd"><td colspan="3">Missiles</td>
+<tr class="row-odd"><td colspan="3">导弹</td>
 </tr>
 <tr class="row-even"><td>M</td>
-<td>MICA-EM, R-37, R-77, AIM-54 and AIM-120</td>
+<td>MICA-EM, R-37, R-77, AIM-54 或 AIM-120</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-odd"><td colspan="3">ATC (Air Traffic Control)</td>
+<tr class="row-odd"><td colspan="3">ATC (空管)</td>
 </tr>
 <tr class="row-even"><td>T</td>
-<td>Airport ATC Radar</td>
+<td>机场空中交通管制雷达</td>
 <td>&#160;</td>
 </tr>
 </tbody>
@@ -2619,8 +2611,7 @@ This capability is either because of that the launching aircraft is capable of l
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Aircraft only flown by own faction in a mission are automatically set as friendly and shown only when setting the DISPLAY TYPE selector to FRIEND.
-N are shown only in UNK and T only in FRIEND.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在任务中己方飞机会自动显示成友好，并且只有在将显示类型设置为FRIEND时才会显示。N只在UNK中显示，T只在FRIEND中显示。</td>
 </tr>
 </tbody>
 </table>

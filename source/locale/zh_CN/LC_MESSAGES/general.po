@@ -22,10 +22,12 @@ msgstr ""
 "#\n"
 "#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
 "#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-25 22:15+0800\n"
+"PO-Revision-Date: 2019-02-26 16:39+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -146,6 +148,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
 "PO-Revision-Date: 2019-02-24 20:48+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 23:26+0800\n"
+"PO-Revision-Date: 2019-02-26 16:31+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1229,12 +1246,7 @@ msgstr "机翼后掠系统"
 #, fuzzy
 msgid ""
 "Wing-sweep schedule as function of Mach number and related flap interlocks."
-msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"后掠表作为马赫数和相关襟翼联锁的函数。\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
+msgstr "后掠表作为马赫数和相关襟翼联锁的函数。"
 
 #: ../../source/general.rst:384
 msgid ""
@@ -1270,15 +1282,11 @@ msgid ""
 "this is done electrically via two independent channels (for redundancy) to "
 "the wing-sweep actuators."
 msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
 "在正常操作中，CADC，中央大气数据计算机通过机翼后掠程序控制机翼位置作为当前马"
 "赫的函数，这被称为**AUTO**模式。 飞行员还可以手动选择机翼后掠程序后的机翼位"
 "置，或者根据程序选择**BOMB**模式，将机翼设置为55°或更小。 简而言之，CADC机翼"
 "后掠程序确定了机翼的最大前移位置。 所有这一切都通过两个独立的通道（为了冗余）"
-"交由机翼后掠执行器电动完成。\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
+"交由机翼后掠执行器电动完成。"
 
 #: ../../source/general.rst:396
 msgid ""
@@ -1316,14 +1324,10 @@ msgid ""
 "connecting it to the electrical servo and then used to manually set the wing "
 "position."
 msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
 "通常，这个手柄通过电子机翼后掠程序藉由其下方的伺服机构移动，确保它处于实际的"
 "机翼位置。 为了脱离电气系统并启用紧急模式，打开手柄上的防护装置，然后拉出手柄"
 "以获得额外的力矩。 随后可以将手柄从spider-detent中正常推出并将其连接到电动伺"
-"服系统，然后用于手动设置机翼位置。\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
+"服系统，然后用于手动设置机翼位置。"
 
 #: ../../source/general.rst:412
 msgid ""
@@ -1421,14 +1425,10 @@ msgid ""
 "wing-sweep indicator appears the oversweep interlocks are free and the "
 "handle can now be moved to the 75° position and stowed."
 msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
 "为了使机翼处于停机后掠，紧急机翼后掠手柄应移至68°位置并保持在伸展位置。 这将"
 "使机翼密封安全气囊放气并启动水平尾翼管理系统，通过亮起 **HZ TAIL AUTH** 警告"
 "灯来指示该动作。 当 **HZ TAIL AUTH** 警告灯熄灭且机翼后掠指示灯上的 **OVER** "
-"标志出现时，停机后掠互锁是解除的，手柄现在可以移动到75°位置并收起。\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
+"标志出现时，停机后掠互锁是解除的，手柄现在可以移动到75°位置并收起。"
 
 #: ../../source/general.rst:444
 msgid ""
@@ -2609,12 +2609,7 @@ msgstr "注意2"
 msgid ""
 "For the Heatblur F-14B in DCS the external ECS air supply is connected via "
 "the same command as the engine starter air."
-msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
-"由Heatblur为DCS开发的F-14B的外部ECS气源与发动机点火气源命令绑定。"
+msgstr "由Heatblur为DCS开发的F-14B的外部ECS气源与发动机点火气源命令绑定。"
 
 #: ../../source/general.rst:867
 msgid "Oxygen System"
@@ -2661,10 +2656,6 @@ msgid ""
 "During the **INST** test on the :ref:`MTPanel` the liquid oxygen meter shows "
 "2 liters and the **OXY LOW** caution light illuminates."
 msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
 "在 :ref:`MTPanel` 的 **INST** 自检过程中，液态氧气指示表将显示2公升，同时 "
 "**OXY LOW** 告警灯将会亮起。"
 
@@ -2693,15 +2684,8 @@ msgid "a :ref:`vertvelind`"
 msgstr "1个 :ref:`vertvelind`"
 
 #: ../../source/general.rst:892
-#, fuzzy
 msgid "a turn and slip indicator (on the :ref:`ACMpanel`)"
-msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"一个转弯侧滑指示器（在 :ref:`ACMpanel` 上）\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
-"1个转弯侧滑指示器（在 :ref:`ACMpanel` 上）"
+msgstr "一个转弯侧滑指示器（在 :ref:`ACMpanel` 上）"
 
 #: ../../source/general.rst:893
 msgid "an :ref:`acc`"
@@ -3055,10 +3039,6 @@ msgid ""
 "The procedure for jettison in selective mode is to set the desired station "
 "switches to **SEL** and hold the **SEL JETT** switch to **JETT**."
 msgstr ""
-"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
-"#-#-#\n"
 "可选择抛离模式下的抛离程序是将希望抛离的挂架选择到 **SEL**，然后按住 **SEL "
 "JETT** 到 **JETT**。"
 
@@ -6201,6 +6181,9 @@ msgid ""
 "designed to help the crew defend themselves from hostile threats by indicate "
 "radar tracking and engagement by radar guided weapons."
 msgstr ""
+"AN/ALR-67雷达警报接收器（RWR）的设计目的是向F-14B机组人员通报和警告其一般区域"
+"内的雷达发射器。它还设计用来帮助船员通过雷达跟踪和雷达制导武器的交战来防御敌"
+"方威胁。"
 
 #: ../../source/general.rst:2152
 msgid ""
@@ -6210,6 +6193,9 @@ msgid ""
 "and also display jammed targets on its own display. It can also trigger "
 "preprogrammed countermeasure programs set up in the AN/ALE-39 system."
 msgstr ""
+"AN/ALR-67作为A+/B程序的一部分，最初作为一个独立系统集成到F-14B Tomcat中。然"
+"而，RWR与AN/ALQ-126相连，允许它向干扰机发送关于威胁发射器的信息，并在自己的显"
+"示器上显示被干扰的目标。它还可以触发在AN/ALE-39系统中设置的预编程对抗程序。"
 
 #: ../../source/general.rst:2156
 msgid ""
@@ -6217,8 +6203,11 @@ msgid ""
 "also integrated into the MDIG diplays system, allowing for a more detailed "
 "threat display on the ECMD."
 msgstr ""
+"在后来的F-14B飞机上，结合了PTID升级，AN/ALR-67也被集成到MDIG双工系统中，允许"
+"在ECMD上显示更详细的威胁。"
 
 #: ../../source/general.rst:2158
+#, fuzzy
 msgid ""
 "The AN/ALR-67 on the F-14B has four small spiral high-band antennas, four "
 "wideband high-band quadrant receivers and a low-band array. Connected to "
@@ -6227,6 +6216,10 @@ msgid ""
 "using two displays, one at each seat and by audio signals played to the ICS "
 "of both crewmen."
 msgstr ""
+"F-14B上的AN/ALR-67有四个小螺旋高频天线、四个宽带高频象限接收机和一个低频阵"
+"列。与这些天线相连的是一个窄带超外差接收机，它使用两个显示器（每个座位一个）"
+"和向两名机组人员的集成电路播放的音频信号，分析接收到的信号并指示发射器和对飞"
+"行员和RIO的威胁。"
 
 #: ../../source/general.rst:2163 ../../source/general.rst:4040
 msgid "Controls"
@@ -6236,13 +6229,13 @@ msgstr "控制"
 msgid ""
 "The AN/ALR-67 RWR is controlled by a control panel on the RIO right side "
 "horizontal panel."
-msgstr ""
+msgstr "AN/ALR-67 RWR由RIO右侧水平面板上的控制面板控制。"
 
 #: ../../source/general.rst:2168
 msgid ""
 "The PWR (power) switch control power to the RWR and should be set to ON to "
 "operate the system."
-msgstr ""
+msgstr "PWR（电源）开关控制RWR的电源，并应设置为“ON”以操作系统。"
 
 #: ../../source/general.rst:2170
 msgid ""
@@ -6250,6 +6243,8 @@ msgid ""
 "indications. The pilot has a corresponding control on his Volume/TACAN "
 "command panel."
 msgstr ""
+"音量（vol）控制旋钮可为RWR声音指示设置RIO音频音量。在飞行员的VOLUME/TACAN命令"
+"面板上有相应的控制。"
 
 #: ../../source/general.rst:2172
 msgid ""
@@ -6259,7 +6254,11 @@ msgid ""
 "on the first BIT page displays the special BIT status page as long as it's "
 "held in that position."
 msgstr ""
+"测试(TEST)开关有两个可选择的模式，未操作时弹簧会保持开关中置。将瞬时选择位位"
+"置(Momentary selection of the BIT position)将启动AN/ALR-67内置测试，在第一个"
+"BIT页面上，将开关保持在SPL（特殊）位置，就会显示特殊BIT状态页面。"
 
+# limit mode 限制模式？
 #: ../../source/general.rst:2174
 msgid ""
 "The MODE switch also has two selectable modes used while held in the "
@@ -6272,18 +6271,23 @@ msgid ""
 "limits the display to only show the threat symbols of the six highest "
 "prioritized threats."
 msgstr ""
+"模式(MODE)开关还具有两个可选择的模式，在保持在各自的位置时激活，未操作时弹簧"
+"会保持开关中置。操作将时启用正常操作模式，保持在OFST时启用偏移模式，保持在LMT"
+"时启用限制模式。偏置模式会在显示屏上状态环中显示O，并会分离重叠的威胁符号，但"
+"会牺牲方位角精度，可以清楚地显示所有威胁。限制模式会在显示屏上状态环中显示L，"
+"且仅会显示六个最高优先级威胁的威胁。"
 
 #: ../../source/general.rst:2178
 msgid ""
 "The DISPLAY TYPE selector sets what threat display priority to use on the "
 "RWR displays."
-msgstr ""
+msgstr "DISPLAY TYPE旋钮可设置在RWR上威胁的优先级。"
 
 #: ../../source/general.rst:2180
 msgid ""
 "NORM - Normal is indicated by a N in the status ring on the display and "
 "shows threat symbology according to the loaded thread library."
-msgstr ""
+msgstr "NORM - RWR显示屏状态环中的N表示正常模式, 会根据预载数据库显示威胁。"
 
 #: ../../source/general.rst:2182
 msgid ""
@@ -6291,6 +6295,8 @@ msgid ""
 "display and prioritizes all airborne interceptor threats above all other "
 "threats."
 msgstr ""
+"AI - RWR显示屏状态环中的 I 表示拦截机优先，在此模式下战斗机的威胁等级会高于任"
+"何威胁的等级。"
 
 #: ../../source/general.rst:2184
 msgid ""
@@ -6298,19 +6304,28 @@ msgid ""
 "display and prioritizes all anti-aircraft artillery threats above all other "
 "threats."
 msgstr ""
+"AAA - RWR显示屏状态环中的 I 表示高射炮优先, 在此模式下高射炮的威胁等级会高于"
+"任何威胁的等级。"
 
 #: ../../source/general.rst:2186
 msgid ""
 "UNK - Unknown is indicated by a U in the status ring on the display and "
 "prioritizes all unknown threats above all other threats."
 msgstr ""
+"UNK - RWR显示屏状态环中的 U 表示未知威胁优先, 在此模式下未知目标的威胁等级会"
+"高于任何威胁的等级。"
 
+# #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
+#  friendly emitters.友军方位？
 #: ../../source/general.rst:2188
+#, fuzzy
 msgid ""
 "FRIEND - Friendly is indicated by an F in the status ring on the display and "
 "allows for the same prioritization as in normal but also displays known "
 "friendly emitters."
 msgstr ""
+"FRIEND -RWR显示屏状态环会显示 F ，此模式和正常模式逻辑相同，但同时也会显示友"
+"军。"
 
 #: ../../source/general.rst:2192 ../../source/general.rst:2704
 msgid "Displays"
@@ -6322,8 +6337,11 @@ msgid ""
 "bands (circles) on the display to indicate the threat level of the displayed "
 "threat symbols."
 msgstr ""
+"RWR显示器在驾驶舱的两个位置都是相同的，它使用显示器上的三个威胁区（圆圈）来指"
+"示所显示的威胁符号的威胁级别。"
 
 #: ../../source/general.rst:2197
+#, fuzzy
 msgid ""
 "The outermost, critical band displays threat symbols belonging to emitters "
 "representing an imminent threat to own aircraft, either a locked on tracking "
@@ -6331,6 +6349,9 @@ msgid ""
 "symbol belonging to a track detected as actively engaging own aircraft is "
 "enhanced by flashing of its symbol."
 msgstr ""
+"最外层的严重威胁区显示了对本机构成严重危险的辐射源, 这些威胁可能是锁定并跟踪"
+"你的雷达,也可能是已发射导弹的作战飞机。已发射导弹的作战飞机的符号会闪烁以增强"
+"飞行员的注意。"
 
 #: ../../source/general.rst:2200
 msgid ""
@@ -6338,6 +6359,8 @@ msgid ""
 "representing threat systems deemed within lethal range of own aircraft but "
 "not actively tracking or engaging it."
 msgstr ""
+"中部的致命威胁区会显示 RWR 认为处于射程内，且装备武器，但并未攻击本机的辐射"
+"源。"
 
 #: ../../source/general.rst:2202
 msgid ""
@@ -6345,6 +6368,8 @@ msgid ""
 "representing a system capable of engaging own aircraft or systems capable of "
 "but not deemed within range to engage it."
 msgstr ""
+"最内侧的非致命威胁区会显示 RWR 认为处于射程外，或未装备武器，从而不直接对本机"
+"构成威胁的辐射源。"
 
 #: ../../source/general.rst:2204
 msgid ""
@@ -6356,19 +6381,26 @@ msgid ""
 "O, the presence of a BIT failure by showing B or that the system is "
 "thermally overloaded (too warm) by showing a T."
 msgstr ""
+"威胁区内最内侧的圆圈是系统状态圆圈，显示各种系统模式正在使用或存在故障。左上"
+"象限中显示的符号代表威胁目标的显示类型（N、I、A、U或F），右上象限中的标志显"
+"示 ARL-67 是否处于限制模式（如果在限制模式则显示L），下半部分显示O（表示偏置"
+"模式的使用），显示B（表示自检未通过）或显示T（表示系统热过载（过热））。"
 
 #: ../../source/general.rst:2209
 msgid ""
 "On the lower right side is a knob controlling display intensity on display "
 "it's attached to."
-msgstr ""
+msgstr "在右下方是一个亮度控制旋钮，用于控制显示器的亮度。。"
 
 #: ../../source/general.rst:2211
+#, fuzzy
 msgid ""
 "The ordering of the three threat bands has changed at least once since the "
 "introduction of the AN/ALR-67, as the modelled F-14B represents one of the "
 "earlier versions we've chosen the present order."
 msgstr ""
+"自从引入AN/ALR-67以来，我们至少改变了一次三个威胁区的顺序，因为我们做的F-14B"
+"是早期众多版本中比较现代的那个。"
 
 #: ../../source/general.rst:2215
 msgid "Warning Lights"
@@ -6382,8 +6414,14 @@ msgid ""
 "TID. The RIO warning light panel also contains light for the AN/ALQ-126 and "
 "the IFF transponder, those are detailed under their respective section."
 msgstr ""
+"这两名机组成员的前驾驶舱面板上有专用于特定威胁的警告灯。飞行员警告灯位于抬头"
+"显示器（HUD）右侧，RIO警告灯也位于抬头显示器（TID）右侧。RIO警示灯面板还包含"
+"AN/ALQ-126和IFF的指示灯，这些指示灯在各自章节中有详细说明。"
 
+# #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
+# CW (continuous wave).
 #: ../../source/general.rst:2224
+#, fuzzy
 msgid ""
 "The different lights illuminate to indicate the presence of a certain type "
 "of threat in the critical band of the RWR and when an active engagement is "
@@ -6391,6 +6429,9 @@ msgid ""
 "SAM (surface to air missile), AAA (anti-air artillery), AI (airborne "
 "interceptor) and (only in the RIO pit) CW (continuous wave)."
 msgstr ""
+"不同的灯亮起表示在RWR的关键波段存在某种类型的威胁，当检测到被进攻时，相应的灯"
+"会开始闪烁。目前的类别有萨姆（地空导弹）、AAA（防空炮）、AI（空中拦截）和"
+"CW（连续波）。"
 
 #: ../../source/general.rst:2229
 msgid "Threat Indication Alert Tones"
@@ -6400,27 +6441,34 @@ msgstr "威胁提示警告音"
 msgid ""
 "The AN/ALR-67 uses four distinct audio tones to indicate threats and status "
 "changes of those threats."
-msgstr ""
+msgstr "AN/ALR-67使用四种不同的音频提示音来指示威胁和这些威胁的状态变化。"
 
 #: ../../source/general.rst:2233
+#, fuzzy
 msgid ""
 "A single short tone is used to indicate the presence of a new emitter or "
 "when a threat is moved to another threat band."
-msgstr ""
+msgstr "一个短音用来表示发现新的威胁，或者表示一个威胁转移到了另一个威胁区。"
 
 #: ../../source/general.rst:2235
+#, fuzzy
 msgid ""
 "A slow warbling, alternating tone is used to indicate the presence of a "
 "threat in the critical band."
 msgstr ""
+"一个缓慢的颤音，交替的提示音是用来表示发现了新的威胁且此威胁在严重威胁区。"
 
 #: ../../source/general.rst:2237
+#, fuzzy
 msgid ""
 "A fast warbling, alternating tone is used to indicate that a threat is "
 "actively engaging own aircraft."
-msgstr ""
+msgstr "一个快速的警告，交替的提示音是用来本机正在被攻击。"
 
+# #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
+# A special four tone audio signal, pitch decreasing with each tone
 #: ../../source/general.rst:2239
+#, fuzzy
 msgid ""
 "A special four tone audio signal, pitch decreasing with each tone, is used "
 "to indicate a special event as programmed by the threat library. In the "
@@ -6432,6 +6480,11 @@ msgid ""
 "that a launching SAM system can guide missiles by other means than radar and "
 "thus not giving further warning of an active engagement."
 msgstr ""
+"一个特殊的四音音频信号，音调随音调降低，用于指示由威胁库编程的特殊事件。在"
+"heatblur DCS F-14B中，这代表了一种新的威胁，它能够隐蔽的攻击本机，而且它的威"
+"胁符号不会移动到严重威胁区，因此没有额外的音频警告音。这种能力可能是是因为发"
+"射飞机能够在TWS下发射导弹，也可能是因为SAM可以通过雷达以外的其他方式引导导"
+"弹，所以不会有警告。"
 
 #: ../../source/general.rst:2245
 msgid "BIT"
@@ -6443,25 +6496,30 @@ msgid ""
 "symbology and threat indication tones as well as displaying system revision "
 "and threat library information."
 msgstr ""
+"AN/ALR-67会在不同测试之间循环，测试屏幕、符号和威胁指示音，并显示系统版本和威"
+"胁库信息。"
 
 #: ../../source/general.rst:2250
 msgid ""
 "The first page displayed shows system and threat library revision and the "
 "following screens test the symbol generation of the displays."
-msgstr ""
+msgstr "显示的第一页显示系统和威胁库版本，下面的屏幕测试显示的符号。"
 
 #: ../../source/general.rst:2252
+#, fuzzy
 msgid ""
 "The threat indication tones are also tested during the bit, first page tests "
 "the status change tone, second page the special tone, third page the threat "
 "in critical band tone and the fourth the fast warbling active threat tone."
 msgstr ""
+"在测试时，还会测试威胁指示音，第一页测试状态变化提示音，第二页测试特殊提示"
+"音，第三页测试严重威胁区的提示音，第四页测试快速颤音主动威胁提示音。"
 
 #: ../../source/general.rst:2254
 msgid ""
 "During the tests the threat warning lights also illuminate for both the "
 "pilot and the RIO."
-msgstr ""
+msgstr "在测试过程中，飞行员和RIO的危险警告灯也会亮起。"
 
 #: ../../source/general.rst:2258
 msgid "Threat Symbology"
@@ -6471,7 +6529,7 @@ msgstr "威胁标识"
 msgid ""
 "The following table details the threat symbols used by the Heatblur DCS "
 "F-14B."
-msgstr ""
+msgstr "下表详细说明了Heatblur DCS F-14B使用的威胁符号。"
 
 #: ../../source/general.rst:2263
 msgid "Threat symbol"
@@ -6479,43 +6537,43 @@ msgstr "威胁标识符号"
 
 #: ../../source/general.rst:2263
 msgid "Platform/Sensor"
-msgstr ""
+msgstr "平台/传感器"
 
 #: ../../source/general.rst:2263
 msgid "Causes special tone"
-msgstr ""
+msgstr "引起特殊提示音"
 
 #: ../../source/general.rst:2265
 msgid "Ships (Symbology enhanced by being enclosed by an enlarged U symbol.)"
-msgstr ""
+msgstr "船舶（用放大的U包围。）"
 
 #: ../../source/general.rst:2267
 msgid "AB"
-msgstr ""
+msgstr "AB"
 
 #: ../../source/general.rst:2267
 msgid "Arleigh Burke"
-msgstr ""
+msgstr "阿利·伯克级驱逐舰"
 
 #: ../../source/general.rst:2269
 msgid "AK"
-msgstr ""
+msgstr "AK"
 
 #: ../../source/general.rst:2269
 msgid "Admiral Kuznetsov"
-msgstr ""
+msgstr "库兹涅佐夫海军上将级航空母舰"
 
 #: ../../source/general.rst:2271 ../../source/general.rst:2403
 msgid "GR"
-msgstr ""
+msgstr "GR"
 
 #: ../../source/general.rst:2271
 msgid "Grisha 5 (Albatros)"
-msgstr ""
+msgstr "格里莎级反潜舰 5（信天翁）"
 
 #: ../../source/general.rst:2273
 msgid "GZ"
-msgstr ""
+msgstr "GZ"
 
 #: ../../source/general.rst:2273
 msgid "DDG-168 Guangzhou"
@@ -6523,15 +6581,15 @@ msgstr "DDG-168 广州"
 
 #: ../../source/general.rst:2275
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 #: ../../source/general.rst:2275
 msgid "Oliver Hazard Perry"
-msgstr ""
+msgstr "奥利弗·哈泽德·佩里级护卫舰"
 
 #: ../../source/general.rst:2277
 msgid "HU"
-msgstr ""
+msgstr "HU"
 
 #: ../../source/general.rst:2277
 msgid "DDG-171 Haikou"
@@ -6539,79 +6597,81 @@ msgstr "DDG-171 海口"
 
 #: ../../source/general.rst:2279
 msgid "KK"
-msgstr ""
+msgstr "KK"
 
+# #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
+# 在wiki英文版里找不到括号里的同名穿
 #: ../../source/general.rst:2279
 msgid "Krivak 3 (Rezky)"
-msgstr ""
+msgstr "克里瓦克级护卫舰3(Rezky)"
 
 #: ../../source/general.rst:2281
 msgid "KV"
-msgstr ""
+msgstr "KV"
 
 #: ../../source/general.rst:2281
 msgid "Kirov (Pyotr Velikiy)"
-msgstr ""
+msgstr "基洛夫级 (彼得大帝号)"
 
 #: ../../source/general.rst:2283
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: ../../source/general.rst:2283
 msgid "Ships only carrying a navigational radar (civilian ships, submarines)"
-msgstr ""
+msgstr "只携带导航雷达的船舶（民用船舶、潜艇）"
 
 #: ../../source/general.rst:2285
 msgid "NE"
-msgstr ""
+msgstr "NE"
 
 #: ../../source/general.rst:2285
 msgid "Neustrashimy"
-msgstr ""
+msgstr "不惧级护卫舰"
 
 #: ../../source/general.rst:2287
 msgid "NZ"
-msgstr ""
+msgstr "NZ"
 
 #: ../../source/general.rst:2287
 msgid "Nimitz (Vinson, Stennis)"
-msgstr ""
+msgstr "尼米兹级航空母舰（卡尔文森号，斯坦尼斯）"
 
 #: ../../source/general.rst:2289
 msgid "SV"
-msgstr ""
+msgstr "SV"
 
 #: ../../source/general.rst:2289
 msgid "Slava (Moscow)"
-msgstr ""
+msgstr "光荣级导弹巡洋舰（莫斯科号）"
 
 #: ../../source/general.rst:2291
 msgid "TC"
-msgstr ""
+msgstr "TC"
 
 #: ../../source/general.rst:2291
 msgid "Ticonderoga"
-msgstr ""
+msgstr "提康德罗加级导弹巡洋舰"
 
 #: ../../source/general.rst:2293
 msgid "TT"
-msgstr ""
+msgstr "TT"
 
 #: ../../source/general.rst:2293
 msgid "Tarantul 3 (Molniya)"
-msgstr ""
+msgstr "蚊子级导弹快艇3(Molniya)"
 
 #: ../../source/general.rst:2295
 msgid "TW"
-msgstr ""
+msgstr "TW"
 
 #: ../../source/general.rst:2295
 msgid "Tarawa"
-msgstr ""
+msgstr "塔拉瓦级直升机登陆突击舰"
 
 #: ../../source/general.rst:2297
 msgid "YI"
-msgstr ""
+msgstr "YI"
 
 #: ../../source/general.rst:2297
 msgid "FFG-538 Yantai"
@@ -6619,55 +6679,55 @@ msgstr "FFG-538 烟台"
 
 #: ../../source/general.rst:2299
 msgid "Aircraft"
-msgstr ""
+msgstr "飞机"
 
 #: ../../source/general.rst:2301
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../../source/general.rst:2301
 msgid "C-130"
-msgstr ""
+msgstr "C-130"
 
 #: ../../source/general.rst:2303
 msgid "17"
-msgstr ""
+msgstr "17"
 
 #: ../../source/general.rst:2303
 msgid "C-17A"
-msgstr ""
+msgstr "C-17A"
 
 #: ../../source/general.rst:2305
 msgid "37"
-msgstr ""
+msgstr "37"
 
 #: ../../source/general.rst:2305
 msgid "AJS-37"
-msgstr ""
+msgstr "AJS-37"
 
 #: ../../source/general.rst:2307
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: ../../source/general.rst:2307
 msgid "A-50"
-msgstr ""
+msgstr "A-50"
 
 #: ../../source/general.rst:2309
 msgid "52"
-msgstr ""
+msgstr "52"
 
 #: ../../source/general.rst:2309
 msgid "B-52"
-msgstr ""
+msgstr "B-52"
 
 #: ../../source/general.rst:2311
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../../source/general.rst:2311
 msgid "F-14A/B"
-msgstr ""
+msgstr "F-14A/B"
 
 #: ../../source/general.rst:2311 ../../source/general.rst:2313
 #: ../../source/general.rst:2315 ../../source/general.rst:2317
@@ -6675,423 +6735,427 @@ msgstr ""
 #: ../../source/general.rst:2335 ../../source/general.rst:2337
 #: ../../source/general.rst:2367 ../../source/general.rst:2391
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../../source/general.rst:2313 ../../source/general.rst:2389
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../../source/general.rst:2313
 msgid "F-15C/E"
-msgstr ""
+msgstr "F-15C/E"
 
 #: ../../source/general.rst:2315
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../../source/general.rst:2315
 msgid "F-16C"
-msgstr ""
+msgstr "F-16C"
 
 #: ../../source/general.rst:2317
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: ../../source/general.rst:2317
 msgid "F/A-18C"
-msgstr ""
+msgstr "F/A-18C"
 
 #: ../../source/general.rst:2319 ../../source/general.rst:2391
 msgid "19"
-msgstr ""
+msgstr "19"
 
 #: ../../source/general.rst:2319
 msgid "Mig-19"
-msgstr ""
+msgstr "Mig-19"
 
 #: ../../source/general.rst:2321
 msgid "21"
-msgstr ""
+msgstr "21"
 
 #: ../../source/general.rst:2321
 msgid "Mig-21bis"
-msgstr ""
+msgstr "Mig-21bis"
 
 #: ../../source/general.rst:2323
 msgid "23"
-msgstr ""
+msgstr "23"
 
 #: ../../source/general.rst:2323
 msgid "Mig-23MLD"
-msgstr ""
+msgstr "Mig-23MLD"
 
 #: ../../source/general.rst:2325
 msgid "24"
-msgstr ""
+msgstr "24"
 
 #: ../../source/general.rst:2325
 msgid "Su-24M/MR"
-msgstr ""
+msgstr "Su-24M/MR"
 
 #: ../../source/general.rst:2327
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: ../../source/general.rst:2327
 msgid "Mig-25PD"
-msgstr ""
+msgstr "Mig-25PD"
 
 #: ../../source/general.rst:2329
 msgid "29"
-msgstr ""
+msgstr "29"
 
 #: ../../source/general.rst:2329
 msgid "Su-27, Su-33, Mig-29A/G/S and J-11A"
-msgstr ""
+msgstr "Su-27, Su-33, Mig-29A/G/S 或 J-11A"
 
 #: ../../source/general.rst:2331
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../../source/general.rst:2331
 msgid "Su-30"
-msgstr ""
+msgstr "Su-30"
 
 #: ../../source/general.rst:2333
 msgid "31"
-msgstr ""
+msgstr "31"
 
 #: ../../source/general.rst:2333
 msgid "Mig-31"
-msgstr ""
+msgstr "Mig-31"
 
 #: ../../source/general.rst:2335
 msgid "34"
-msgstr ""
+msgstr "34"
 
 #: ../../source/general.rst:2335
 msgid "Su-34"
-msgstr ""
+msgstr "Su-34"
 
 #: ../../source/general.rst:2337
 msgid "39"
-msgstr ""
+msgstr "39"
 
 #: ../../source/general.rst:2337
 msgid "Su-25TM (Su-39)"
-msgstr ""
+msgstr "Su-25TM (Su-39)"
 
 #: ../../source/general.rst:2339
 msgid "AN"
-msgstr ""
+msgstr "AN"
 
 #: ../../source/general.rst:2339
 msgid "AN-26B and AN-30M"
-msgstr ""
+msgstr "AN-26B 或 AN-30M"
 
 #: ../../source/general.rst:2341
 msgid "AP"
-msgstr ""
+msgstr "AP"
 
 #: ../../source/general.rst:2341
 msgid "AH-64D"
-msgstr ""
+msgstr "AH-64D"
 
 #: ../../source/general.rst:2343
 msgid "B1"
-msgstr ""
+msgstr "B1"
 
 #: ../../source/general.rst:2343
 msgid "B-1B"
-msgstr ""
+msgstr "B-1B"
 
 #: ../../source/general.rst:2345
 msgid "BE"
-msgstr ""
+msgstr "BE"
 
 #: ../../source/general.rst:2345
 msgid "Tu-95 and Tu-142M"
-msgstr ""
+msgstr "Tu-95 或 Tu-142M"
 
 #: ../../source/general.rst:2347
 msgid "BF"
-msgstr ""
+msgstr "BF"
 
 #: ../../source/general.rst:2347
 msgid "Tu-22M3"
-msgstr ""
+msgstr "Tu-22M3"
 
 #: ../../source/general.rst:2349
 msgid "BJ"
-msgstr ""
+msgstr "BJ"
 
 #: ../../source/general.rst:2349
 msgid "Tu-160"
-msgstr ""
+msgstr "Tu-160"
 
 #: ../../source/general.rst:2351
 msgid "E2"
-msgstr ""
+msgstr "E2"
 
 #: ../../source/general.rst:2351
 msgid "E-2D"
-msgstr ""
+msgstr "E-2D"
 
 #: ../../source/general.rst:2353
 msgid "E3"
-msgstr ""
+msgstr "E3"
 
 #: ../../source/general.rst:2353
 msgid "E-3C"
-msgstr ""
+msgstr "E-3C"
 
 #: ../../source/general.rst:2355
 msgid "F4"
-msgstr ""
+msgstr "F4"
 
 #: ../../source/general.rst:2355
 msgid "F-4E"
-msgstr ""
+msgstr "F-4E"
 
 #: ../../source/general.rst:2357
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #: ../../source/general.rst:2357
 msgid "F-5E"
-msgstr ""
+msgstr "F-5E"
 
 #: ../../source/general.rst:2359
 msgid "HX"
-msgstr ""
+msgstr "HX"
 
 #: ../../source/general.rst:2359
 msgid "Ka-27"
-msgstr ""
+msgstr "Ka-27"
 
 #: ../../source/general.rst:2361
 msgid "IL"
-msgstr ""
+msgstr "IL"
 
 #: ../../source/general.rst:2361
 msgid "IL-76MD and IL-78M"
-msgstr ""
+msgstr "IL-76MD 或 IL-78M"
 
 #: ../../source/general.rst:2363
 msgid "KC"
-msgstr ""
+msgstr "KC"
 
 #: ../../source/general.rst:2363
 msgid "KC-135"
-msgstr ""
+msgstr "KC-135"
 
 #: ../../source/general.rst:2365
 msgid "KJ"
-msgstr ""
+msgstr "KJ"
 
 #: ../../source/general.rst:2365
 msgid "KJ-2000"
-msgstr ""
+msgstr "KJ-2000"
 
 #: ../../source/general.rst:2367
 msgid "M2"
-msgstr ""
+msgstr "M2"
 
 #: ../../source/general.rst:2367
 msgid "Mirage 2000-C and 2000-5"
-msgstr ""
+msgstr "Mirage 2000-C 或 2000-5"
 
 #: ../../source/general.rst:2369
 msgid "S3"
-msgstr ""
+msgstr "S3"
 
 #: ../../source/general.rst:2369
 msgid "S-3B"
-msgstr ""
+msgstr "S-3B"
 
 #: ../../source/general.rst:2371
 msgid "SH"
-msgstr ""
+msgstr "SH"
 
 #: ../../source/general.rst:2371
 msgid "SH-60B"
-msgstr ""
+msgstr "SH-60B"
 
 #: ../../source/general.rst:2373
 msgid "Air Defense"
-msgstr ""
+msgstr "防空单位"
 
 #: ../../source/general.rst:2375
 msgid "S-75 TR SNR (Fan Song)"
-msgstr ""
+msgstr "S-75 TR SNR (扇歌)"
 
 #: ../../source/general.rst:2377
 msgid "S-125 TR SNR-125 (SA-3/Low Blow)"
-msgstr ""
+msgstr "S-125 TR SNR-125 (SA-3/偷袭)"
 
 #: ../../source/general.rst:2379
 msgid "Kub SA-6"
-msgstr ""
+msgstr "Kub SA-6"
 
 #: ../../source/general.rst:2381
 msgid "OSA (SA-8)"
-msgstr ""
+msgstr "OSA (SA-8)"
 
 #: ../../source/general.rst:2383
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../source/general.rst:2383
 msgid "S-300PS 30N6 TR (SA-10)"
-msgstr ""
+msgstr "S-300PS 30N6 TR (SA-10)"
 
 #: ../../source/general.rst:2385
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../../source/general.rst:2385
 msgid "Buk (SA-11)"
-msgstr ""
+msgstr "Buk (SA-11)"
 
 #: ../../source/general.rst:2387
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../source/general.rst:2387
 msgid "S-300V"
-msgstr ""
+msgstr "S-300V"
 
 #: ../../source/general.rst:2389
 msgid "Tor 9A331 (SA-15)"
-msgstr ""
+msgstr "Tor 9A331 (SA-15)"
 
 #: ../../source/general.rst:2391
 msgid "Tunguska 2C6M (SA-19)"
-msgstr ""
+msgstr "通古斯卡 2C6M (SA-19)"
 
 #: ../../source/general.rst:2393
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: ../../source/general.rst:2393
 msgid "Gepard, M-163 Vulcan and ZSU-23-4 Shilka"
-msgstr ""
+msgstr "猎豹, M-163 火神或 ZSU-23-4 石勒喀河"
 
 #: ../../source/general.rst:2395
 msgid "BB"
-msgstr ""
+msgstr "BB"
 
 #: ../../source/general.rst:2395
 msgid "S-300PS 64H6E SR (SA-10/Big Bird)"
-msgstr ""
+msgstr "S-300PS 64H6E SR (SA-10/大鸟)"
 
 #: ../../source/general.rst:2397
 msgid "CS"
-msgstr ""
+msgstr "CS"
 
 #: ../../source/general.rst:2397
 msgid "S-300PS 5N66M SR (SA-10/Clam Shell)"
-msgstr ""
+msgstr "S-300PS 5N66M SR (SA-10/贝壳)"
 
 #: ../../source/general.rst:2399
 msgid "DE"
-msgstr ""
+msgstr "DE"
 
 #: ../../source/general.rst:2399
+#, fuzzy
 msgid "Sborka (Dog Ear)"
-msgstr ""
+msgstr "Sborka (Dog Ear)"
 
 #: ../../source/general.rst:2401
 msgid "FF"
-msgstr ""
+msgstr "FF"
 
 #: ../../source/general.rst:2401
 msgid "S-125 P-19 SR (SA-3/Flat Face)"
-msgstr ""
+msgstr "S-125 P-19 SR (SA-3/平面)"
 
 #: ../../source/general.rst:2403
+#, fuzzy
 msgid "Roland SR"
-msgstr ""
+msgstr "罗兰 SR"
 
 #: ../../source/general.rst:2405
 msgid "HA"
-msgstr ""
+msgstr "HA"
 
 #: ../../source/general.rst:2405
+#, fuzzy
 msgid "Hawk SR"
-msgstr ""
+msgstr "霍克 SR"
 
 #: ../../source/general.rst:2407
 msgid "HK"
-msgstr ""
+msgstr "HK"
 
 #: ../../source/general.rst:2407
+#, fuzzy
 msgid "Hawk TR"
-msgstr ""
+msgstr "霍克 TR"
 
 #: ../../source/general.rst:2409 ../../source/general.rst:0
 msgid "PT"
-msgstr ""
+msgstr "PT"
 
 #: ../../source/general.rst:2409
 msgid "Patriot"
-msgstr ""
+msgstr "爱国者"
 
 #: ../../source/general.rst:2411
 msgid "RO"
-msgstr ""
+msgstr "RO"
 
 #: ../../source/general.rst:2411
 msgid "Roland"
-msgstr ""
+msgstr "罗兰"
 
 #: ../../source/general.rst:2413
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: ../../source/general.rst:2413
 msgid "1L13 and 55G6 EWR"
-msgstr ""
+msgstr "1L13 and 55G6 EWR"
 
 #: ../../source/general.rst:2415
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #: ../../source/general.rst:2415
 msgid "Buk TR (SA-11/Snow Drift)"
-msgstr ""
+msgstr "山毛榉 TR (SA-11/雪堆)"
 
 #: ../../source/general.rst:2417
 msgid "SN"
-msgstr ""
+msgstr "SN"
 
 #: ../../source/general.rst:2417
 msgid "PRW-11 (Side Net)"
-msgstr ""
+msgstr "PRW-11 (Side Net)"
 
 #: ../../source/general.rst:2419
 msgid "Missiles"
-msgstr ""
+msgstr "导弹"
 
 #: ../../source/general.rst:2421
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #: ../../source/general.rst:2421
 msgid "MICA-EM, R-37, R-77, AIM-54 and AIM-120"
-msgstr ""
+msgstr "MICA-EM, R-37, R-77, AIM-54 或 AIM-120"
 
 #: ../../source/general.rst:2423
 msgid "ATC (Air Traffic Control)"
-msgstr ""
+msgstr "ATC (空管)"
 
 #: ../../source/general.rst:2425
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: ../../source/general.rst:2425
 msgid "Airport ATC Radar"
-msgstr ""
+msgstr "机场空中交通管制雷达"
 
 #: ../../source/general.rst:2428
 msgid ""
@@ -7099,6 +7163,8 @@ msgid ""
 "friendly and shown only when setting the DISPLAY TYPE selector to FRIEND. N "
 "are shown only in UNK and T only in FRIEND."
 msgstr ""
+"在任务中己方飞机会自动显示成友好，并且只有在将显示类型设置为FRIEND时才会显"
+"示。N只在UNK中显示，T只在FRIEND中显示。"
 
 #: ../../source/general.rst:2433
 msgid "AN/ALE-39 Countermeasures Dispensing Set"

@@ -22,7 +22,7 @@ copyright = '2019, Heatblur Simulations.'
 author = ''
 
 # The short X.Y version
-version = '协作预览 | Feb. 25th, 2019'
+version = '协作预览 | Feb. 28th, 2019'
 # The full version, including alpha/beta/rc tags
 release = 'nightly'
 
@@ -101,6 +101,8 @@ html_context = {
         ],
      }
 
+html_favicon = 'favicon.ico'
+	 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
