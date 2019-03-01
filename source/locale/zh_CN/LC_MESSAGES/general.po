@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-26 16:39+0800\n"
+"PO-Revision-Date: 2019-03-01 16:27+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -7718,7 +7718,7 @@ msgstr ""
 
 #: ../../source/general.rst:2646
 msgid "IMU Platform Alignment"
-msgstr ""
+msgstr "IMU 平台对准"
 
 #: ../../source/general.rst:2648
 msgid ""
@@ -7772,7 +7772,7 @@ msgstr ""
 
 #: ../../source/general.rst:2671
 msgid "Navigation Modes"
-msgstr ""
+msgstr "导航模式"
 
 #: ../../source/general.rst:2673
 msgid "Three navigation data mode sources are used for general navigation:"
@@ -7807,7 +7807,7 @@ msgstr ""
 
 #: ../../source/general.rst:2683
 msgid "Navigation Computations"
-msgstr ""
+msgstr "导航计算"
 
 #: ../../source/general.rst:2685
 msgid ""
@@ -7882,7 +7882,7 @@ msgstr ""
 
 #: ../../source/general.rst:2711
 msgid "Inertial Navigation System (INS)"
-msgstr ""
+msgstr "惯性导航系统（INS）"
 
 #: ../../source/general.rst:2713
 msgid ""
@@ -7927,7 +7927,7 @@ msgstr ""
 
 #: ../../source/general.rst:2733
 msgid "Inertial Measurement Unit"
-msgstr ""
+msgstr "惯性测量单元（IMU）"
 
 #: ../../source/general.rst:2735
 msgid ""
@@ -8140,7 +8140,7 @@ msgstr ""
 
 #: ../../source/general.rst:2821
 msgid "INS Alignment Modes"
-msgstr ""
+msgstr "INS 对准模式"
 
 #: ../../source/general.rst:2823
 msgid ""
@@ -8252,11 +8252,11 @@ msgstr ""
 
 #: ../../source/general.rst:2871
 msgid "Non-SAT Alignments"
-msgstr ""
+msgstr "非 SAT 对准"
 
 #: ../../source/general.rst:2874
 msgid "Ground Alignment"
-msgstr ""
+msgstr "地面对准"
 
 #: ../../source/general.rst:2876
 msgid ""
@@ -8500,7 +8500,7 @@ msgstr ""
 
 #: ../../source/general.rst:2962
 msgid "Carrier Data Link Alignment"
-msgstr ""
+msgstr "航母数据链对准"
 
 #: ../../source/general.rst:2964
 msgid ""
@@ -8883,7 +8883,7 @@ msgstr ""
 
 #: ../../source/general.rst:3109
 msgid "Navigational Controls and Displays"
-msgstr ""
+msgstr "导航控制和显示器"
 
 #: ../../source/general.rst:3113
 msgid "Navigational Displays"
@@ -9503,7 +9503,7 @@ msgstr ""
 
 #: ../../source/general.rst:3317
 msgid "Navigation Fix Update"
-msgstr ""
+msgstr "导航点更新"
 
 #: ../../source/general.rst:3319
 msgid ""
@@ -9877,7 +9877,7 @@ msgstr ""
 
 #: ../../source/general.rst:3460
 msgid "Attitude and Heading Reference Set (AHRS)"
-msgstr ""
+msgstr "姿态航向基准系统（AHRS）"
 
 #: ../../source/general.rst:3462
 msgid ""
@@ -10010,7 +10010,7 @@ msgstr ""
 
 #: ../../source/general.rst:3507
 msgid "TACAN System (AN/ARN-84)"
-msgstr ""
+msgstr "TACAN 系统（AN/ARN-84）"
 
 #: ../../source/general.rst:3509
 msgid ""
@@ -10186,7 +10186,7 @@ msgstr ""
 
 #: ../../source/general.rst:3582
 msgid "Bearing Distance and Heading Indicator (BDHI)"
-msgstr ""
+msgstr "方位距离航向指示器（BDHI）"
 
 #: ../../source/general.rst:3584
 msgid ""
@@ -10218,7 +10218,7 @@ msgstr ""
 
 #: ../../source/general.rst:3598
 msgid "Radar Altimeter System (AN/APN-194)"
-msgstr ""
+msgstr "无线电高度计系统（AN/APN-194）"
 
 #: ../../source/general.rst:3600
 msgid ""
@@ -10316,7 +10316,7 @@ msgstr ""
 
 #: ../../source/general.rst:3645
 msgid "Navigation System Integration"
-msgstr ""
+msgstr "导航系统整合"
 
 #: ../../source/general.rst:3648
 msgid "Navigational Modes"

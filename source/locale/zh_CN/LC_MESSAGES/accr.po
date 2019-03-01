@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-02-17 15:07+0800\n"
+"PO-Revision-Date: 2019-03-01 16:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -252,9 +252,11 @@ msgstr ""
 # no reference?
 # ---
 # cant find any reference, maybe it's the WCS command that makes aim-54 radar active?
+# ---
+# or is it data link related?
 #: ../../source/accr.rst:38
 msgid "__Active Transfer Command"
-msgstr ""
+msgstr "主动控制转交指令"
 
 #: ../../source/accr.rst:40
 msgid "ATLS"
@@ -318,7 +320,7 @@ msgstr ""
 
 #: ../../source/accr.rst:55
 msgid "__Bullet at Target Range"
-msgstr ""
+msgstr "目标距离上航炮炮弹通过的位置"
 
 #: ../../source/accr.rst:57
 msgid "BDHI"
@@ -456,9 +458,8 @@ msgid "Collision"
 msgstr ""
 
 #: ../../source/accr.rst:84
-#, fuzzy
 msgid "__Collision"
-msgstr "相交"
+msgstr "截击（航线）"
 
 #: ../../source/accr.rst:86
 msgid "CM"
@@ -1014,7 +1015,7 @@ msgstr ""
 # NATOPS page 52 has this entry of GSS, but no where in it says anything about this scoring system. Maybe it is used in training simulation or WCS traning mode or something?
 #: ../../source/accr.rst:200
 msgid "__Gun Scoring System"
-msgstr ""
+msgstr "航炮命中指示系统"
 
 #: ../../source/accr.rst:202
 msgid "GT"
@@ -1054,7 +1055,7 @@ msgstr ""
 
 #: ../../source/accr.rst:213
 msgid "__Hand Control Unit"
-msgstr ""
+msgstr "手控单元（控制器）"
 
 #: ../../source/accr.rst:215
 msgid "HDG"
@@ -1706,7 +1707,7 @@ msgstr ""
 
 #: ../../source/accr.rst:359
 msgid "__Naval Flight Officer"
-msgstr ""
+msgstr "海军飞行操作官"
 
 #: ../../source/accr.rst:361
 msgid "NFOV"
@@ -2231,7 +2232,7 @@ msgstr ""
 # no ref in NATOPS
 #: ../../source/accr.rst:476
 msgid "__Sample Data/Active"
-msgstr ""
+msgstr "样本数据/主动"
 
 #: ../../source/accr.rst:478
 msgid "SEAM"
@@ -2654,7 +2655,7 @@ msgstr ""
 # basically means heading altitude and speed
 #: ../../source/accr.rst:565
 msgid "__Vector"
-msgstr ""
+msgstr "引导航向"
 
 #: ../../source/accr.rst:567
 msgid "VFR"
