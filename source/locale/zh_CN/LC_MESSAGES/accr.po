@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-03-01 16:18+0800\n"
+"PO-Revision-Date: 2019-03-02 13:12+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../source/accr.rst:26
 msgid "__Augmenter Fan Temperature Control"
-msgstr "增推扇叶温度控制器"
+msgstr "增推扇叶温度控制"
 
 #: ../../source/accr.rst:28
 msgid "AHRS"
@@ -710,7 +710,7 @@ msgstr ""
 
 #: ../../source/accr.rst:138
 msgid "__Expanded Chaff Adapter"
-msgstr "箔条扩容器"
+msgstr "箔条扩容适配器"
 
 #: ../../source/accr.rst:140
 msgid "ECM"
@@ -951,7 +951,7 @@ msgstr ""
 # ref?
 #: ../../source/accr.rst:190
 msgid "__Gimbal Angle Crosshair"
-msgstr ""
+msgstr "框架方位角准星"
 
 #: ../../source/accr.rst:192
 msgid "GCI"
@@ -1851,7 +1851,7 @@ msgstr ""
 
 #: ../../source/accr.rst:395
 msgid "__Pulse Doppler Radar Slaved"
-msgstr "脉冲多普勒雷达受役"
+msgstr "脉冲多普勒雷达从属"
 
 #: ../../source/accr.rst:397
 msgid "PDS"

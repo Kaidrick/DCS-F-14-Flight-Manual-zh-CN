@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                协作预览 | Feb. 28th, 2019
+                协作预览 | Mar. 2nd, 2019
               </div>
             
           
@@ -289,13 +289,13 @@
 <div class="section" id="launch-modes">
 <h4>发射模式<a class="headerlink" href="#launch-modes" title="永久链接至标题">¶</a></h4>
 <p>F-14 可使用正常发射模式和瞄准线发射模式发射 AIM-7 导弹。飞行员使用驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）位置来选择发射AIM-7。然而，飞行员无法选择发射哪一个挂架上的导弹，因为这是由武器控制系统自动分配的。</p>
-<p>按压武器选择开关会将选定的武器从 SP 切换至 PH，反之亦然。如果武器控制系统有 STT 目标，那么，除非在 ACM 面板的 MSL MODE（导弹模式）开关上选择 BRSIT（瞄准线），否则武器控制系统将自动使用正常模式进行发射。在所有其他情况下，将使用瞄准线模式发射导弹。</p>
+<p>按压武器选择开关会将选定的武器从 SP 切换至 PH，反之亦然。如果武器控制系统有 STT 目标，那么，除非在 ACM 面板的 MSL MODE（导弹模式）开关上选择 BRSIT（瞄准线），否则武器控制系统将自动使用正常模式进行发射。在所有其他情况下，武器控制系统将使用瞄准线模式发射导弹。</p>
 <div class="section" id="normal-mode">
 <h5>正常模式<a class="headerlink" href="#normal-mode" title="永久链接至标题">¶</a></h5>
 <a class="reference internal image-reference" href="_images/msloptionsp.png"><img alt="_images/msloptionsp.png" class="align-left" src="_images/msloptionsp.png" style="width: 185.5px; height: 161.35px;" /></a>
 <p>使用正常模式攻击 STT 目标时，武器控制系统可以使用连续波或脉冲多普勒进行制导。在正常模式下使用连续波时，AN/AWG-9 雷达使用专用连续波天线，它能比泛指天线更直接地聚焦照射被跟踪目标。虽然连续波是所有 AIM-7 型号的正常制导模式，但使用 AIM-7F 和 AIM-7M 导弹时，可以选择脉冲多普勒制导模式。</p>
 <p>RIO 可以在武器面板上将 MSL OPTIONS 开关设置到 SP PD（“麻雀”/ 多普勒）档位来切换至脉冲多普勒制导。选择此选项后，武器控制系统将使用脉冲多普勒照射引导“麻雀”导弹。</p>
-<p>无论采用哪种制导模式，武器控制系统都会计算导弹地 LAR（发射允许区间），并在 VDI（垂直显示指示器）和 TID（战术信息显示器）上显示导弹发射射程。HUD 显示菱形目标指定符、当前目标距离、Rmin（最小发射距离）和 Rmax（最大发射距离），而 VDI、DDD（详细数据显示器）和 TID 显示攻击制导符号系统以及上述的导弹 LAR 指示。</p>
+<p>无论采用哪种制导模式，武器控制系统都会计算导弹地 LAR（发射允许区间），并在 VDI（垂直显示指示器）和 TID（战术信息显示器）上显示导弹发射射程。HUD 显示菱形目标指定符、当前目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离），而 VDI、DDD（详细数据显示器）和 TID 显示攻击制导符号系统以及上述的导弹 LAR 指示。</p>
 </div>
 <div class="section" id="boresight-mode">
 <h5>瞄准线模式<a class="headerlink" href="#boresight-mode" title="永久链接至标题">¶</a></h5>
@@ -322,11 +322,11 @@
 <h4>引导头模式<a class="headerlink" href="#seeker-head-modes" title="永久链接至标题">¶</a></h4>
 <p>AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的引导头，后来所有由 F-14 携带的响尾蛇都能使用此模式。SEAM允许导弹头解锁并在范围（离 ADL 40°）内跟踪目标，使飞行员在前置跟踪目标时也能发射导弹，提升了导弹的性能。它还允许 F-14 上的 WCS 驱动引导头在离 ADL 20°的范围内跟踪目标，从而实现偏离瞄准线索敌。</p>
 <img alt="_images/double-D.png" src="_images/double-D.png" />
-<p>F-14 上的 AIM-9 依然可以使早期的瞄准线模式，该模式下引导头保持从属于 ADL（2.5°视场），但通常会选用 SEAM 引导头来扫描 ADL 或跟踪目标。引导头沿着两个垂直方向上背对背排列的“D”字模式进行扫描，基本上就是一个宽约6°的锥形扫描区域，引导头能在约3秒内覆盖整个扫描区（如上图所示）。与所有“响尾蛇”导弹一样，目标跟踪状态由音调表示。扫描时导弹会发出蜂鸣，当引导头正在观察红外光源时，蜂鸣强度会增加。</p>
+<p>F-14 上的 AIM-9 依然可以使早期的瞄准线模式，该模式下引导头保持从属于 ADL（2.5°视场），但通常会选用 SEAM 引导头来扫描 ADL 或跟踪目标。引导头沿着两个垂直方向上背对背排列的“D”字模式进行扫描，基本上就是一个宽约6°的锥形扫描区域，引导头能在约3秒内覆盖整个扫描区（如上图所示）。与所有“响尾蛇”导弹一样，飞行员可以通过音调来判断目标跟踪状态。扫描时导弹会发出蜂鸣，当引导头正在观察红外光源时，蜂鸣强度会增加。</p>
 </div>
 <div class="section" id="missile-operation">
 <h4>导弹操作<a class="headerlink" href="#missile-operation" title="永久链接至标题">¶</a></h4>
-<p>通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可以循环切换用于发射的 AIM-9 导弹，ACM 面板相应挂架状态窗口中的棋图案指示当前选中的导弹。使用 AIM-9 时，HUD 使用菱形指示框指示跟踪目标，使用准星（十字准线）指示当前导引头位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、Rmin（最小距离）和 Rmax（最大距离）。如果 WCS 有跟踪目标，则 VDI，DDD 和 TID 显示攻击制导符。</p>
+<p>通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可以循环切换用于发射的 AIM-9 导弹，ACM 面板相应挂架状态窗口中的棋图案指示当前选中的导弹。使用 AIM-9 时，HUD 使用菱形指示框指示跟踪目标，使用准星（十字准线）指示当前导引头位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、R<sub>min</sub>（最小距离）和 R<sub>max</sub>（最大距离）。如果 WCS 有跟踪目标，则 VDI，DDD 和 TID 显示攻击制导符。</p>
 <p>未激活 ACM 模式时，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM 功能（无扫描功能）的基础瞄准线模式。在此模式中飞行员将 ADL 对准目标，当声音提示响起时开火。</p>
 <p>如果未使用 BRSIT 开关，或 ACM 模式处于激活状态，AIM-9 将使用 SEAM 进行前文所述的双 D 形扫描。如果 WCS 有跟踪目标，引导头会扫描雷达或 TCS 视线/瞄准线周围，否则导弹引导头将扫描 ADL 周围。</p>
 <a class="reference internal image-reference" href="_images/seamlock.png"><img alt="_images/seamlock.png" class="align-right" src="_images/seamlock.png" style="width: 139.0px; height: 149.5px;" /></a>
@@ -392,7 +392,7 @@
 <h4>导弹操作<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h4>
 <p>在飞行员驾驶杆上选择 SPH/PH（麻雀/不死鸟）开关的位置，然后按下选择开关来从 SP 切换至 PH 来选择 AIM-54 导弹。再次按下武器选择开关可以重新选择 SP。</p>
 <p>在瞄准线模式下，或者在 ACM 模式且 WCS 无跟踪目标的情况下发射 AIM-54 时，除了用于瞄准导弹的 ADL 线外，HUD上不会显示任何标识。</p>
-<p>在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示目标指定符，如果 TCS 也有跟踪目标，目标上会显示十字准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。HUD 右侧的距离标尺上显示了目标当前距离、Rmin（最小射程）和 Rmax（最大射程），而 VDI、DDI 和 TID 上则显示了攻击引导标识。</p>
+<p>在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示目标指定符，如果 TCS 也有跟踪目标，目标上会显示十字准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。HUD 右侧的距离标尺上显示了目标当前距离、R<sub>min</sub>（最小射程）和 R<sub>max</sub>（最大射程），而 VDI、DDI 和 TID 上则显示了攻击引导标识。</p>
 <div class="section" id="tws">
 <span id="twsattk"></span><h5>TWS<a class="headerlink" href="#tws" title="永久链接至标题">¶</a></h5>
 <p>在 TWS 模式下使用 AIM-54时，WCS 会自动分配跟踪目标的优先级，给每个目标指定一个发射序号，表示导弹的发射顺序。向第一个目标发射导弹后，目标上的发射序号会消失，所有其他目标的发射序号分别减少 1。</p>
@@ -403,7 +403,7 @@
 <img alt="_images/TWS.png" src="_images/TWS.png" />
 <p>通过 CAP 面板设置可以让 WCS 强制在发射序列中包括一个目标，还可以让 WCS 强制排除某个目标，不对其发射导弹，也是在 CAP 面板上设置。此外，勾选一个目标并按下 RIO 武器面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先级目标。</p>
 <p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示 TWS 扫描范围的中心点。</p>
-<p>HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、Rmin 和 Rmax。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">Track While Scan (TWS)</span></a>。</p>
+<p>HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R<sub>min</sub> 和 R<sub>max</sub>。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">Track While Scan (TWS)</span></a>。</p>
 </div>
 </div>
 </div>
@@ -455,8 +455,7 @@
 <div class="section" id="air-to-ground-weapon-delivery">
 <h3>空对地武器投放<a class="headerlink" href="#air-to-ground-weapon-delivery" title="永久链接至标题">¶</a></h3>
 <p>飞行员在显示控制面板上选择了 A/G 模式后飞机就会进入空对地投放模式。在磁带数据读入（需约30秒）完成后，武器控制系统启动空对地模式并且在显示器上显示相关的符号。</p>
-<p>The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon.
-All other options are set by the RIO in the back seat.</p>
+<p>除非飞行员已经选择了其他武器，否则 HUD 会自动切换至（对地）挂载模式（HUD 中显示 ORD）。所有其他投放选项都由后座 RIO 设置。</p>
 <p>飞行员驾驶舱内的 ATTK MODE 选择开关用于选择攻击模式，所有可用的攻击模式分别是：</p>
 <ul class="simple">
 <li>CMPTR TGT - 计算机目标模式，这是一种半自动计算机引导模式，类似于新型战机中的 CCRP（连续计算投放点）模式。</li>
@@ -480,7 +479,7 @@ All other options are set by the RIO in the back seat.</p>
 <p>功能上与计算机目标模式相同，区别是初始点模式使用一个预设的初始点（IP）作为指定目标的位置，而不是实际的目标位置。这个 IP 点在起飞前通过数据链路或由 RIO 在 CAP（计算机位址面板）中手动设置。</p>
 <p>IP 航路点应该是易于飞行员目视辨认的地形特征，即使实际目标不容易被识别。</p>
 <p>RIO 使用 CAP 面板来设置 IP 航路点，操作与设置导航系统中其他航路点相同。 （参见“一般设计和系统概述”中 AN / AWG-9 下的 CAP 部分，或本章节中的导航系统部分）</p>
-<p>CAP 面板下的 TAC DATA 类别中的 IP TO TGT 消息（功能）与前缀按钮（指 CAP 面板上方键盘的按键）ALT、RNG 和 BRG 一起使用来读取和设置以下数据点：* ALT - 设置目标相对于 IP 航路点的高度差。 * RNG - 设置目标相对 IP 航路点的距离。 * BRG - 设置目标相对 IP 航路点的方位。</p>
+<p>CAP 面板下的 TAC DATA 类别中的 IP TO TGT 消息（功能）与前缀按钮（指 CAP 面板上方键盘的按键）ALT、RNG 和 BRG 一起使用来读取和设置以下数据点：* ALT - 设置目标相对于 IP 航路点的高度差。* RNG - 设置目标相对 IP 航路点的距离。* BRG - 设置目标相对 IP 航路点的方位。</p>
 <p>飞行员在 HUD 上目视指定 IP 点后，WCS 会根据 CAP 中 IP TO TGT 功能所设置的数据重新计算目标位置，并将菱形目标指示符移动到计算位置，使 HUD 显示的引导标识从 IP 航路点位置切换至目标实际位置。</p>
 <p>此模式下的其他功能与计算机目标模式下的功能相同。</p>
 </div>

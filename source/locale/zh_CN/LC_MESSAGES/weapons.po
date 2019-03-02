@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-27 13:31+0800\n"
+"PO-Revision-Date: 2019-03-02 17:50+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -527,8 +527,8 @@ msgid ""
 msgstr ""
 "按压武器选择开关会将选定的武器从 SP 切换至 PH，反之亦然。如果武器控制系统有 "
 "STT 目标，那么，除非在 ACM 面板的 MSL MODE（导弹模式）开关上选择 BRSIT（瞄准"
-"线），否则武器控制系统将自动使用正常模式进行发射。在所有其他情况下，将使用瞄"
-"准线模式发射导弹。"
+"线），否则武器控制系统将自动使用正常模式进行发射。在所有其他情况下，武器控制"
+"系统将使用瞄准线模式发射导弹。"
 
 #: ../../source/weapons.rst:184
 msgid "Normal Mode"
@@ -571,9 +571,9 @@ msgid ""
 msgstr ""
 "无论采用哪种制导模式，武器控制系统都会计算导弹地 LAR（发射允许区间），并在 "
 "VDI（垂直显示指示器）和 TID（战术信息显示器）上显示导弹发射射程。HUD 显示菱形"
-"目标指定符、当前目标距离、Rmin（最小发射距离）和 Rmax（最大发射距离），而 "
-"VDI、DDD（详细数据显示器）和 TID 显示攻击制导符号系统以及上述的导弹 LAR 指"
-"示。"
+"目标指定符、当前目标距离、R\\ :sub:`min`\\ （最小发射距离）和 R\\ :sub:`max`"
+"\\ （最大发射距离），而 VDI、DDD（详细数据显示器）和 TID 显示攻击制导符号系统"
+"以及上述的导弹 LAR 指示。"
 
 #: ../../source/weapons.rst:202
 msgid "Boresight Mode"
@@ -679,9 +679,9 @@ msgstr ""
 "F-14 上的 AIM-9 依然可以使早期的瞄准线模式，该模式下引导头保持从属于 "
 "ADL（2.5°视场），但通常会选用 SEAM 引导头来扫描 ADL 或跟踪目标。引导头沿着两"
 "个垂直方向上背对背排列的“D”字模式进行扫描，基本上就是一个宽约6°的锥形扫描区"
-"域，引导头能在约3秒内覆盖整个扫描区（如上图所示）。与所有“响尾蛇”导弹一样，目"
-"标跟踪状态由音调表示。扫描时导弹会发出蜂鸣，当引导头正在观察红外光源时，蜂鸣"
-"强度会增加。"
+"域，引导头能在约3秒内覆盖整个扫描区（如上图所示）。与所有“响尾蛇”导弹一样，飞"
+"行员可以通过音调来判断目标跟踪状态。扫描时导弹会发出蜂鸣，当引导头正在观察红"
+"外光源时，蜂鸣强度会增加。"
 
 #: ../../source/weapons.rst:254 ../../source/weapons.rst:379
 msgid "Missile Operation"
@@ -702,9 +702,9 @@ msgstr ""
 "通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可"
 "以循环切换用于发射的 AIM-9 导弹，ACM 面板相应挂架状态窗口中的棋图案指示当前选"
 "中的导弹。使用 AIM-9 时，HUD 使用菱形指示框指示跟踪目标，使用准星（十字准线）"
-"指示当前导引头位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、"
-"Rmin（最小距离）和 Rmax（最大距离）。如果 WCS 有跟踪目标，则 VDI，DDD 和 TID "
-"显示攻击制导符。"
+"指示当前导引头位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、R\\ :"
+"sub:`min`\\ （最小距离）和 R\\ :sub:`max`\\ （最大距离）。如果 WCS 有跟踪目"
+"标，则 VDI，DDD 和 TID 显示攻击制导符。"
 
 #: ../../source/weapons.rst:262
 msgid ""
@@ -1046,8 +1046,8 @@ msgid ""
 msgstr ""
 "在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示目标指定符，如果 TCS 也有跟踪"
 "目标，目标上会显示十字准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。"
-"HUD 右侧的距离标尺上显示了目标当前距离、Rmin（最小射程）和 Rmax（最大射程），"
-"而 VDI、DDI 和 TID 上则显示了攻击引导标识。"
+"HUD 右侧的距离标尺上显示了目标当前距离、R\\ :sub:`min`\\ （最小射程）和 R\\ :"
+"sub:`max`\\ （最大射程），而 VDI、DDI 和 TID 上则显示了攻击引导标识。"
 
 # Track While Scan
 # 注意翻译成汉语的语序：边搜索边跟踪
@@ -1137,9 +1137,9 @@ msgid ""
 "see :ref:`TWS`."
 msgstr ""
 "HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目"
-"标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、Rmin 和 Rmax。TID 上显示"
-"了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 :ref:"
-"`TWS`。"
+"标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R\\ :sub:`min`\\  和 R"
+"\\ :sub:`max`\\ 。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目"
+"标的最优发射距离，详见 :ref:`TWS`。"
 
 #: ../../source/weapons.rst:421
 msgid "Air-to-Ground Weapons"
@@ -1321,16 +1321,15 @@ msgstr ""
 "读入（需约30秒）完成后，武器控制系统启动空对地模式并且在显示器上显示相关的符"
 "号。"
 
-# doesn't make sense at all. cannot find reference in natops either.
+# original sentence makes no sense
 #: ../../source/weapons.rst:472
-#, fuzzy
 msgid ""
 "The weapon selection automatically switches to ordnance (ORD on the HUD) "
 "unless the pilot has selected another weapon. All other options are set by "
 "the RIO in the back seat."
 msgstr ""
-"除非飞行员已经选择了其他武器，否则投放武器将会被自动选择到当前所挂载的武器"
-"（ORD on the HUD）。所有其他投放选项都由后座 RIO 设置。"
+"除非飞行员已经选择了其他武器，否则 HUD 会自动切换至（对地）挂载模式（HUD 中显"
+"示 ORD）。所有其他投放选项都由后座 RIO 设置。"
 
 #: ../../source/weapons.rst:475
 msgid ""
@@ -1501,6 +1500,8 @@ msgstr ""
 # Figure 20-10. PTID Readout Pairs
 # ---
 # still very confusing though
+# ---
+# original rST is badly formatted
 #: ../../source/weapons.rst:520
 msgid ""
 "The message (function) IP TO TGT on the CAP under the TAC DATA category is "
@@ -1511,8 +1512,8 @@ msgid ""
 msgstr ""
 "CAP 面板下的 TAC DATA 类别中的 IP TO TGT 消息（功能）与前缀按钮（指 CAP 面板"
 "上方键盘的按键）ALT、RNG 和 BRG 一起使用来读取和设置以下数据点：* ALT - 设置"
-"目标相对于 IP 航路点的高度差。 * RNG - 设置目标相对 IP 航路点的距离。 * BRG "
-"- 设置目标相对 IP 航路点的方位。"
+"目标相对于 IP 航路点的高度差。* RNG - 设置目标相对 IP 航路点的距离。* BRG - "
+"设置目标相对 IP 航路点的方位。"
 
 #: ../../source/weapons.rst:525
 msgid ""

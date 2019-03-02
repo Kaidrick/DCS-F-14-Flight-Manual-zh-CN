@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 17:32+0800\n"
-"PO-Revision-Date: 2019-03-01 23:19+0800\n"
+"PO-Revision-Date: 2019-03-02 18:12+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2459,12 +2459,12 @@ msgstr ""
 
 # spider detent
 #: ../../source/cockpit.rst:970
-#, fuzzy
 msgid ""
 "Warning light indicating failure in both wing-sweep channels or "
 "disengagement of spider detent."
 msgstr ""
-"指示灯亮起表示两侧的机翼后掠控制通道中出现故障，或表示 spider detent 解除。"
+"指示灯亮起表示两侧的机翼后掠控制通道中出现故障，或表示应急机翼后掠手柄的随动"
+"限位器解除。"
 
 #: ../../source/cockpit.rst:972
 msgid "REDUCE SPEED"
@@ -3504,8 +3504,8 @@ msgid ""
 "of power failure to the indicator. The indicator is tested through the INST "
 "mode on the MASTER TEST panel and should read 2 liters."
 msgstr ""
-"显示了剩余的液氧储备量。每个刻度代表1升。电源故障时，表盘上显示 OFF 标示旗。"
-"通过主测试面板的 INST 模式来测试这个仪表，测试时，仪表读数应为 2 升。"
+"显示了剩余的液氧储备量。每个刻度代表 1 公升。电源故障时，表盘上显示 OFF 标示"
+"旗。通过主测试面板的 INST 模式来测试这个仪表，测试时，仪表读数应为 2 公升。"
 
 #: ../../source/cockpit.rst:1458
 msgid "Compass Control Panel"
@@ -3666,7 +3666,7 @@ msgstr "PITCH STAB 1 和 PITCH STAB 2"
 
 #: ../../source/cockpit.rst:1522
 msgid "Caution lights indicating inoperative pitch channels."
-msgstr "“俯仰增稳1/2”，灯光亮起表示俯仰通道不可用。"
+msgstr "“俯仰增稳 1” 和 “俯仰增稳 2” 注意灯，灯亮表示俯仰通道不可用。"
 
 #: ../../source/cockpit.rst:1524
 msgid "ROLL STAB 1 & 2"
@@ -3674,7 +3674,8 @@ msgstr "ROLL STAB 1 和 ROLL STAB 2"
 
 #: ../../source/cockpit.rst:1524
 msgid "Caution lights indicating inoperative roll channels (roll SAS failure)."
-msgstr "“滚转增稳1/2”，灯光亮起表示滚转通道不可用（滚转增稳故障）。"
+msgstr ""
+"“滚转增稳 1” 和 “滚转增稳 2” 注意灯，灯亮表示滚转通道不可用（滚转增稳故障）。"
 
 #: ../../source/cockpit.rst:1526
 msgid "YAW STAB OP"
@@ -3682,7 +3683,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1526
 msgid "Caution light indicating one inoperative yaw channel."
-msgstr "“偏航增稳工作”，灯光亮起表示偏航通道不可用。"
+msgstr "“偏航增稳工作” 注意灯，灯亮表示偏航通道不可用。"
 
 #: ../../source/cockpit.rst:1528
 msgid "YAW STAB OUT"
@@ -3691,7 +3692,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1528
 msgid ""
 "Caution light indicating two inoperative yaw channels (yaw SAS failure)."
-msgstr "“偏航增稳失效”，灯光亮起表示两个偏航通道不可用（横向增稳故障）。"
+msgstr "“偏航增稳失效” 注意灯，灯亮表示两个偏航通道不可用（横向增稳故障）。"
 
 #: ../../source/cockpit.rst:1530
 msgid "EMERG JETT"
@@ -3699,7 +3700,8 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1530
 msgid "Caution light indicating activation of EMERG STORES JETT button."
-msgstr "“应急抛离”，灯光亮起表示 EMERG STORES JETT（应急挂载抛离）按钮按下。"
+msgstr ""
+"“应急抛离” 注意灯，灯亮表示 EMERG STORES JETT（应急挂载抛离）按钮按下。"
 
 #: ../../source/cockpit.rst:1532
 msgid "LADDER"
@@ -3707,7 +3709,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1532
 msgid "Caution light indicating boarding ladder not correctly stowed."
-msgstr "“登机梯”，灯光亮起表示登机梯未正确折叠收起。"
+msgstr "“登机梯” 注意灯，灯亮表示登机梯未正确折叠收起。"
 
 #: ../../source/cockpit.rst:1534
 msgid "ECS TURBINE"
@@ -3715,7 +3717,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1534
 msgid "Non-functional"
-msgstr "“环境控制系统涡轮”，无功能"
+msgstr "“环境控制系统涡轮” 注意灯，无功能"
 
 #: ../../source/cockpit.rst:1536
 msgid "INLET ICE"
@@ -3725,7 +3727,7 @@ msgstr ""
 msgid ""
 "Caution light indicating accumulation of ice on ice detector in left engine "
 "inlet."
-msgstr "“进气道结冰”，注意灯亮起表示左发进气道结冰探头结冰。"
+msgstr "“进气道结冰” 注意灯，灯亮表示左发进气道结冰探头结冰。"
 
 #: ../../source/cockpit.rst:1538
 msgid "FLAP"
@@ -3735,7 +3737,7 @@ msgstr ""
 msgid ""
 "Caution light indicating failure in flap system or airspeed greater than 225 "
 "knots indicated airspeed with flaps down."
-msgstr "“襟翼”，注意灯亮起表示襟翼系统故障，或空速超过225节但襟翼仍未收起。"
+msgstr "“襟翼” 注意灯，灯亮表示襟翼系统故障，或空速超过225节但襟翼仍未收起。"
 
 #: ../../source/cockpit.rst:1540
 msgid "HZ TAIL AUTH"
@@ -3745,7 +3747,7 @@ msgstr ""
 msgid ""
 "Caution light indicating failure of lateral tail authority actuator (or CADC "
 "failure)."
-msgstr "“平尾控制”，注意灯亮起表示水平尾翼控制作动器故障（或 CADC 故障）。"
+msgstr "“平尾控制” 注意灯，灯亮表示水平尾翼控制作动器故障（或 CADC 故障）。"
 
 #: ../../source/cockpit.rst:1542
 msgid "RUDDER AUTH"
@@ -3755,7 +3757,7 @@ msgstr ""
 msgid ""
 "Caution light indicating failure of rudder authority actuators (or CADC "
 "failure)."
-msgstr "“垂尾控制”，注意灯亮起表示方向舵控制作动器故障（或 CADC 故障）。"
+msgstr "“垂尾控制” 注意灯，灯亮表示方向舵控制作动器故障（或 CADC 故障）。"
 
 #: ../../source/cockpit.rst:1544
 msgid "SPOILERS"
@@ -3765,7 +3767,7 @@ msgstr ""
 msgid ""
 "Caution light indicating spoiler system failure causing several or all "
 "spoilers to be locked down."
-msgstr "“扰流板”，注意灯亮起表示扰流板系统故障导致多个或全部扰流板锁死。"
+msgstr "“扰流板” 注意灯，灯亮表示扰流板系统故障导致多个或全部扰流板锁死。"
 
 #: ../../source/cockpit.rst:1546
 msgid "AUTO PILOT"
@@ -3773,7 +3775,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1546
 msgid "Caution light indicating failure in auto pilot system."
-msgstr "“自动驾驶”，注意灯亮起表示自动驾驶系统故障。"
+msgstr "“自动驾驶” 注意灯，灯亮表示自动驾驶系统故障。"
 
 #: ../../source/cockpit.rst:1548
 msgid "L & R INLET"
@@ -3782,7 +3784,8 @@ msgstr "L INLET 和 R INLET"
 #: ../../source/cockpit.rst:1548
 msgid "Caution lights indicating AICS programmer and/or system failure."
 msgstr ""
-"“左/右进气”，注意灯亮起表示 AICS（进气道控制系统）控制程序和/或系统故障。"
+"“左进气” 和 “右进气” 注意灯，灯亮表示 AICS（进气道控制系统）控制程序和/或系统"
+"故障。"
 
 #: ../../source/cockpit.rst:1550
 msgid "OIL PRESS"
@@ -3791,7 +3794,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1550
 msgid ""
 "Caution light indicating left or right engine oil pressure below 11 psi."
-msgstr "“油压”，注意灯亮起表示左发或右发机油压力小于 11 psi。"
+msgstr "“油压” 注意灯，灯亮表示左发或右发机油压力小于 11 psi。"
 
 #: ../../source/cockpit.rst:1552
 msgid "BLEED DUCT"
@@ -3801,7 +3804,7 @@ msgstr ""
 msgid ""
 "Caution light indicating high temperature air leak in the engine "
 "compartments."
-msgstr "“引气导管”，注意灯亮起表示发动机舱内高温气流泄露。"
+msgstr "“引气导管” 注意灯，灯亮表示发动机舱内高温气流泄露。"
 
 #: ../../source/cockpit.rst:1554
 msgid "L & R RAMPS"
@@ -3811,7 +3814,8 @@ msgstr "L RAMPS 和 R RAMPS"
 msgid ""
 "Caution lights indicating ramps not locked in position during critical "
 "flight conditions."
-msgstr "“左/右斜板”，注意灯亮起表示关键飞行阶段中，进气道斜板未锁定。"
+msgstr ""
+"“左斜板” 和 “右斜板” 注意灯，灯亮表示关键飞行阶段中，进气道斜板未锁定。"
 
 #: ../../source/cockpit.rst:1556
 msgid "START VALVE"
@@ -3821,7 +3825,7 @@ msgstr ""
 msgid ""
 "Caution light indicating that the starter solenoid air valve is open after "
 "start."
-msgstr "“启动阀”，注意灯亮起表示发动机启动后，启动器电磁空气阀仍开启。"
+msgstr "“启动阀” 注意灯，灯亮表示发动机启动后，启动器电磁空气阀仍开启。"
 
 #: ../../source/cockpit.rst:1558
 msgid "L & R ENG SEC"
@@ -3831,8 +3835,8 @@ msgstr "L ENG SEC 和 R ENG SEC"
 msgid ""
 "Caution lights indicating that respective engine AFTC is in secondary mode."
 msgstr ""
-"“左/右发次级模式”，注意灯亮起表示对应一侧的发动机 AFTC（增推扇叶温度控制器）"
-"处于次级工作模式。"
+"“左发次级模式” 和 “右发次级模式” 注意灯，灯亮表示对应一侧的发动机 AFTC（增推"
+"扇叶温度控制器）处于次级工作模式。"
 
 #: ../../source/cockpit.rst:1560
 msgid "L & R GEN"
@@ -3840,7 +3844,7 @@ msgstr "L GEN 和 R GEN"
 
 #: ../../source/cockpit.rst:1560
 msgid "Caution lights indicating respective engine generator is inoperative."
-msgstr "“左/右发电机”，注意灯亮起表示对应一侧的发电机故障。"
+msgstr "“左发电机” 和 “右发电机” 注意灯，灯亮表示对应一侧的发电机故障。"
 
 #: ../../source/cockpit.rst:1562 ../../source/cockpit.rst:2741
 msgid "CANOPY"
@@ -3848,7 +3852,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1562
 msgid "Caution light indicating that canopy is not down and locked."
-msgstr "“舱盖”，注意灯亮起表示驾驶舱盖未关闭或未锁定。"
+msgstr "“舱盖” 注意灯，灯亮表示驾驶舱盖未关闭或未锁定。"
 
 #: ../../source/cockpit.rst:1564
 msgid "BINGO"
@@ -3859,7 +3863,7 @@ msgid ""
 "Caution light indicating aircraft fuel quantity at or below set BINGO "
 "quantity."
 msgstr ""
-"“返航油量”，注意灯亮起表示飞机燃油量处于或低于设定的返航油量（BINGO）。"
+"“返航油量” 注意灯，灯亮表示飞机燃油量处于或低于设定的返航油量（BINGO）。"
 
 #: ../../source/cockpit.rst:1566
 msgid "L & R OIL HOT"
@@ -3867,7 +3871,8 @@ msgstr "L OIL HOT 和 R OIL HOT"
 
 #: ../../source/cockpit.rst:1566
 msgid "Caution lights indicating that respective engine oil is too hot."
-msgstr "“左/右油温高”，注意灯亮起表示对应一侧的发动机油温过高。"
+msgstr ""
+"“左发油温高” 和 “右发油温高” 注意灯，灯亮表示对应一侧的发动机油温过高。"
 
 #: ../../source/cockpit.rst:1568
 msgid "CADC"
@@ -3875,7 +3880,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1568
 msgid "Caution light indicating failure in the air data computer."
-msgstr "“中央大气数据计算机”，注意灯亮起表示大气数据计算机故障。"
+msgstr "“中央大气数据计算机” 注意灯，灯亮表示大气数据计算机故障。"
 
 #: ../../source/cockpit.rst:1570
 msgid "HYD PRESS"
@@ -3885,7 +3890,7 @@ msgstr ""
 msgid ""
 "Caution light indicating pressure in either engine hydraulic pump below "
 "2,100 psi."
-msgstr "“液压”，注意灯亮起表示至少一侧发动机液压泵提供的压强低于 2,100 psi。"
+msgstr "“液压” 注意灯，灯亮表示至少一侧发动机液压泵提供的压强低于 2,100 psi。"
 
 #: ../../source/cockpit.rst:1572
 msgid "L & R FUEL PRESS"
@@ -3895,7 +3900,8 @@ msgstr "L FUEL PRESS 和 R FUEL PRESS"
 msgid ""
 "Caution lights indicating pressure below 9 psi in respective engine fuel "
 "boost pump."
-msgstr "“左/右注油压强”，注意灯亮起表示发动机燃油增压泵中的压强小于 9 psi。"
+msgstr ""
+"“左注油” 和 “右注油” 注意灯，灯亮表示发动机燃油增压泵中的压强小于 9 psi。"
 
 #: ../../source/cockpit.rst:1574
 msgid "L & R FUEL LOW"
@@ -3906,13 +3912,13 @@ msgid ""
 "Caution lights indicating fuel quantity below 1,000 pounds in aft and left "
 "or forward and right fuel feed group respectively."
 msgstr ""
-"“左/右油量低”，注意灯亮起表示对应的左/后或右/前供油油箱组内的剩余油量低于"
-"1,000磅。"
+"“左油量低” 和 “右油量低” 注意灯，灯亮表示对应的左/后或右/前供油油箱组内的剩余"
+"油量低于1,000磅。"
 
 #: ../../source/cockpit.rst:1576
 msgid ""
 "Advisory light indicating failure of a single channel in wing-sweep system."
-msgstr "提示灯亮起表示机翼后掠系统单通道故障。"
+msgstr "“机翼后掠” 提示灯，灯亮表示机翼后掠系统单通道故障。"
 
 #: ../../source/cockpit.rst:1578
 msgid "RATS"
@@ -3920,7 +3926,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1578
 msgid "Advisory light indicating RATS enabled."
-msgstr "“航降减推”，提示灯表示 RATS（航降减推系统）启用。"
+msgstr "“航降减推” 提示灯，灯亮表示 RATS（航降减推系统）启用。"
 
 #: ../../source/cockpit.rst:1580
 msgid "TRANS/RECT"
@@ -3929,7 +3935,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1580
 msgid ""
 "Advisory light indicating failure in one or both transformer-rectifiers."
-msgstr "“变压/整流”，提示灯亮起表示一个或两个变压器整流器故障。"
+msgstr "“变压/整流” 提示灯，灯亮表示一个或两个变压器整流器故障。"
 
 #: ../../source/cockpit.rst:1582
 msgid "MACH TRIM"
@@ -3937,7 +3943,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1582
 msgid "Advisory light indicating failure in Mach trim actuator."
-msgstr "“马赫数配平”，提示灯亮起表示马赫数配平作动器故障。"
+msgstr "“马赫数配平” 提示灯，灯亮表示马赫数配平作动器故障。"
 
 #: ../../source/cockpit.rst:1584
 msgid "WSHLD HOT"
@@ -3945,7 +3951,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1584
 msgid "Advisory light indicating central windshield overheat."
-msgstr "“风挡超温”，提示灯亮起表示中央风挡玻璃过热。"
+msgstr "“风挡超温” 提示灯，灯亮表示中央风挡玻璃过热。"
 
 #: ../../source/cockpit.rst:1586
 msgid "LAUNCH BAR"
@@ -3953,7 +3959,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "Advisory light indicating either:"
-msgstr "“弹射牵引杆”，提示灯亮表示："
+msgstr "“弹射牵引杆” 提示灯，灯亮表示："
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3977,7 +3983,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1592
 msgid "Advisory light indicating failure in trim system or computer failure."
-msgstr "“综合配平”，提示灯亮起表示配平系统故障或计算机故障。"
+msgstr "“综合配平” 提示灯，灯亮表示配平系统故障或计算机故障。"
 
 #: ../../source/cockpit.rst:1594 ../../source/cockpit.rst:2759
 msgid "AHRS"
@@ -3987,7 +3993,7 @@ msgstr ""
 msgid ""
 "Advisory light indicating unreliable attitude or heading information from "
 "AHRS."
-msgstr "“姿态航向基准”，提示灯亮起表示 AHRS 显示不可靠的姿态或航向信息。"
+msgstr "“姿态航向基准” 提示灯，灯亮表示 AHRS 显示不可靠的姿态或航向信息。"
 
 #: ../../source/cockpit.rst:1596
 msgid "ENG FIRE EXT"
@@ -3998,7 +4004,7 @@ msgid ""
 "Advisory light indicating low pressure in the fire extinguishing container "
 "(90 psi below nominal 600 psi)."
 msgstr ""
-"“发动机灭火”，提示灯亮起表示灭火器压强低（与正常值 600 psi 的偏差超过 90 "
+"“发动机灭火” 提示灯，灯亮表示灭火器压强低（与正常值 600 psi 的偏差超过 90 "
 "psi）。"
 
 #: ../../source/cockpit.rst:1598
@@ -4010,7 +4016,7 @@ msgid ""
 "Advisory light indicating low pressure in the auxiliary fire extinguishing "
 "container (90 psi below nominal 600 psi)."
 msgstr ""
-"“备用灭火”，提示灯亮起表示备用灭火器压强低（与正常值 600 psi 的偏差超过 90 "
+"“备用灭火” 提示灯，灯亮表示备用灭火器压强低（与正常值 600 psi 的偏差超过 90 "
 "psi）。"
 
 #: ../../source/cockpit.rst:1605
@@ -4692,7 +4698,7 @@ msgstr "数据储存室"
 msgid ""
 "The data stowage panel is a small compartment for equipment storage and "
 "mission briefing materials etc."
-msgstr "数据储存室用于存放设备和任务用简报等材料。"
+msgstr "数据储存室用于存放设备和任务简报等材料。"
 
 #: ../../source/cockpit.rst:1908
 msgid "TACAN control panel letting the RIO control TACAN if in command of it."
@@ -5807,14 +5813,13 @@ msgid "ASPECT switch"
 msgstr "ASPECT 选择开关"
 
 #: ../../source/cockpit.rst:2440
-#, fuzzy
 msgid ""
 "Switch used to control the rate region covered by the doppler filters in "
 "pulse doppler modes and if to use edge or centroid tracking in pulse mode. "
 "These settings correspond to expected target aspect."
 msgstr ""
-"目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，and is to "
-"use edge or centroid tracking in pulse mode. 这些设置对应了预计目标方位。"
+"目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择脉"
+"冲模式下跟踪目标边缘回波或中心回波。这些设置对应了预计目标姿态。"
 
 #: ../../source/cockpit.rst:2442
 msgid "EL indicator"
@@ -5999,10 +6004,10 @@ msgstr ""
 msgid "DATA LINK - Toggles display of all data link tracks."
 msgstr "DATA LINK - 显示或隐藏所有数据链跟踪目标。"
 
+# jam strobe?
 #: ../../source/cockpit.rst:0
-#, fuzzy
 msgid "JAM STROBE - Toggles display of jamming strobes."
-msgstr "JAM STROBE - 显示或隐藏"
+msgstr "JAM STROBE - 显示或隐藏干扰信号源"
 
 #: ../../source/cockpit.rst:0
 msgid "NON-ATTK - Toggles display of non-attackable tracks."
@@ -6050,8 +6055,8 @@ msgid ""
 "Button extending the amount of time before a track is dropped after last "
 "radar observation to two minutes. Normal time is 14 seconds."
 msgstr ""
-"用于延长从上一次目标回波到目标从屏幕中擦除的所需时间，最多延长至2分钟，正常时"
-"间是14秒。"
+"跟踪信号保持按钮，用于延长从上一次收到目标回波到目标从屏幕中擦除的所需时间，"
+"最多延长至2分钟，正常时间是14秒。"
 
 #: ../../source/cockpit.rst:2511
 msgid "NAV MODE selector"
@@ -6069,7 +6074,7 @@ msgstr "HCU 控制器"
 
 #: ../../source/cockpit.rst:2521
 msgid "Main radar and TCS control stick."
-msgstr "雷达和 TCS 系统控制杆。"
+msgstr "雷达和 TCS 控制杆。"
 
 #: ../../source/cockpit.rst:2526
 msgid "IR/TV switch"
@@ -6094,7 +6099,7 @@ msgstr "LIGHT TEST 按钮"
 
 #: ../../source/cockpit.rst:2530
 msgid "Button allowing test of all AWG-9 lights."
-msgstr "用于测试所有 AWG-9 灯光。"
+msgstr "灯光测试按钮，用于测试所有 AWG-9 灯光。"
 
 #: ../../source/cockpit.rst:2532
 msgid "PWR RESET indicator"
@@ -6102,7 +6107,7 @@ msgstr "PWR RESET 指示灯"
 
 #: ../../source/cockpit.rst:2532
 msgid "Light indicating one or more inoperative secondary power supplies."
-msgstr "灯光亮起表示一个或多个不工作的二级电源。"
+msgstr "电源重置指示灯，灯光亮起表示一个或多个不工作的二级电源。"
 
 #: ../../source/cockpit.rst:2534
 msgid "PWR RESET button"
@@ -6114,8 +6119,8 @@ msgid ""
 "condition triggering the inoperational state remains the affected supplies "
 "will remain inoperational."
 msgstr ""
-"用于重置不工作的二级电源。但如果导致电源不工作的状况仍未解决，受影响的二级电"
-"源依旧无法正常工作。"
+"电源重置按钮，用于重置不工作的二级电源。但如果导致电源不工作的状况仍未解决，"
+"受影响的二级电源依旧无法正常工作。"
 
 #: ../../source/cockpit.rst:2536
 msgid "WCS indicator"
@@ -6380,7 +6385,7 @@ msgstr "C D HOT"
 
 #: ../../source/cockpit.rst:2733
 msgid "Caution light indicating overheat in RIO controls and displays."
-msgstr "过热注意灯，灯光亮起表示 RIO 控制和显示器过热。"
+msgstr "“过热”注意灯，灯光亮起表示 RIO 控制和显示器过热。"
 
 #: ../../source/cockpit.rst:2735
 msgid "CABIN PRESS"
@@ -6388,7 +6393,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2735
 msgid "Caution light indicating cabin pressure is too low."
-msgstr "座舱增压注意灯，灯光亮起表示驾驶舱压强过低。"
+msgstr "“座舱增压”注意灯，灯光亮起表示驾驶舱压强过低。"
 
 #: ../../source/cockpit.rst:2737
 msgid "FUEL LOW"
@@ -6399,7 +6404,7 @@ msgid ""
 "Caution light indicating fuel below 1,000 pounds in either aft and left or "
 "forward and right fuel feed groups."
 msgstr ""
-"低油量注意灯，灯光亮起表示左/后或右/前供油油箱组内剩余燃油小于1,000磅。"
+"“油量低”注意灯，灯光亮起表示左/后或右/前供油油箱组内剩余燃油小于1,000磅。"
 
 #: ../../source/cockpit.rst:2739
 msgid "OXY LOW"
@@ -6409,11 +6414,12 @@ msgstr ""
 msgid ""
 "Caution light indicating oxygen quantity is below 2 liters or pressure too "
 "low."
-msgstr "低供氧压力注意灯，灯光亮起表示剩余液氧储量少于2升，或压强过低。"
+msgstr ""
+"“供氧压力低”注意灯，灯光亮起表示剩余液氧储量少于 2 公升，或供氧压强过低。"
 
 #: ../../source/cockpit.rst:2741
 msgid "Caution light indicating canopy not down and locked."
-msgstr "驾驶舱盖注意灯，灯光亮起表示驾驶舱盖未降下并锁定。"
+msgstr "“驾驶舱盖”注意灯，灯光亮起表示驾驶舱盖未降下并锁定。"
 
 # Fuse High Voltage
 #: ../../source/cockpit.rst:2743
@@ -6422,7 +6428,7 @@ msgstr "FUZE HV"
 
 #: ../../source/cockpit.rst:2743
 msgid "Caution light indicating AWW-4 electric fuse inoperative."
-msgstr "引信高电压注意灯，灯光亮起表示 AWW-4 电子引信失效。"
+msgstr "“引信高电压”注意灯，灯光亮起表示 AWW-4 电子引信失效。"
 
 #: ../../source/cockpit.rst:2745
 msgid "RDR ENABLED"
@@ -6432,7 +6438,7 @@ msgstr ""
 msgid ""
 "Caution light indicating that radar operation with weight on wheels is "
 "possible."
-msgstr "雷达启用注意灯，灯光亮起表示机轮承重时可以在地面上进行雷达操作。"
+msgstr "“雷达启用”注意灯，灯光亮起表示机轮承重时可以在地面上进行雷达操作。"
 
 #: ../../source/cockpit.rst:2747
 msgid "COOLING AIR"
@@ -6442,7 +6448,7 @@ msgstr ""
 msgid ""
 "Advisory light indicating overtemperature condition in the electronic forced "
 "air cooling system."
-msgstr "冷气通风提示灯，灯光亮起表示强制空气冷却系统超温。"
+msgstr "“冷气通风”提示灯，灯光亮起表示强制空气冷却系统超温。"
 
 #: ../../source/cockpit.rst:2749
 msgid "MSL COND"
@@ -6456,9 +6462,9 @@ msgid ""
 "indicate that the LIQ COOLING switch is not in the AWG-9/AIM-54 position "
 "with the WCS in STBY or ON when the Phoenix fairings are installed."
 msgstr ""
-"导弹状况提示灯，灯光亮起表示导弹冷却液流超温或压力低，且两种情况都会导致导弹"
-"的冷却液泵关闭。如果“不死鸟”导弹挂架安装了整流罩，状况提示灯光亮起可能也表示"
-"WCS 正处于 STBY（待机）或 ON（开机）状态，但 LIQ COOLING 开关未拨至 AWG-9/"
+"“导弹状况”提示灯，灯光亮起表示导弹冷却液流超温或压力低，且两种情况都会导致导"
+"弹的冷却液泵关闭。如果“不死鸟”导弹挂架安装了整流罩，状况提示灯光亮起可能也表"
+"示WCS 正处于 STBY（待机）或 ON（开机）状态，但 LIQ COOLING 开关未拨至 AWG-9/"
 "AM-54 档位。"
 
 #: ../../source/cockpit.rst:2751
@@ -6470,8 +6476,8 @@ msgid ""
 "Advisory light indicating overheat or overpressure in the AWG-9 coolant flow "
 "or that the overtemperature switch has shut down the coolant pump."
 msgstr ""
-"AWG-9 状况提示灯，灯光亮起表示 AWG-9 冷却液流超温或超压，或由于超温导致冷却泵"
-"关闭。"
+"“AWG-9 状况”提示灯，灯光亮起表示 AWG-9 冷却液流超温或超压，或由于超温导致冷却"
+"泵关闭。"
 
 #: ../../source/cockpit.rst:2753
 msgid "NAV COMP"
@@ -6494,8 +6500,8 @@ msgid ""
 "Advisory light indicating failure in the INS or CSDC with the NAV MODE "
 "switch in INS."
 msgstr ""
-"导航组件提示灯，NAV MODE 选择开关位于 INS 档位时，灯光亮起表示 INS 或 CSDC 故"
-"障。"
+"“导航组件”提示灯，NAV MODE 选择开关位于 INS 档位时，灯光亮起表示 INS 或 CSDC "
+"故障。"
 
 #: ../../source/cockpit.rst:2755
 msgid "FILM LOW"
@@ -6504,7 +6510,7 @@ msgstr ""
 #: ../../source/cockpit.rst:2755
 msgid ""
 "Advisory light indicating low remaining quantity of mission recorder film."
-msgstr "胶卷余量提示灯，灯光亮起表示机载任务录像机胶片余量低。"
+msgstr "“胶卷余量”提示灯，灯光亮起表示机载任务录像机胶片余量低。"
 
 #: ../../source/cockpit.rst:2757
 msgid "IMU"
@@ -6515,14 +6521,14 @@ msgid ""
 "Advisory light indicating a failure in the inertial measuring unit or that "
 "the navigation system is in AHRS/AM mode."
 msgstr ""
-"惯性测量装置提示灯，灯光亮起表示惯性测量装置故障，或导航系统处于 AHRS（姿态航"
-"向基准系统）/AM（大气质量）模式。"
+"“惯性测量装置”提示灯，灯光亮起表示惯性测量装置故障，或导航系统处于 AHRS（姿态"
+"航向基准系统）/AM（大气质量）模式。"
 
 #: ../../source/cockpit.rst:2759
 msgid ""
 "Advisory light indicating that the attitude or heading information from the "
 "AHRS is unreliable."
-msgstr "姿态航向基准系统提示灯，灯光亮起表示 AHRS 提供的姿态或航向信息不可靠。"
+msgstr "“姿态航向基准”提示灯，灯光亮起表示 AHRS 提供的姿态或航向信息不可靠。"
 
 #: ../../source/cockpit.rst:2771
 msgid "Electronic Countermeasures Display (ECMD)"
