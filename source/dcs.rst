@@ -78,7 +78,7 @@ To access the assisted startup select assisted start on the Jester menu. Jester 
 HB DCS F-14 Specific Configuration Options
 ******************************************
 
-The Heatblur F-14 in DCS has a set off options available affecting only the F-14.
+The Heatblur F-14 in DCS has a set of options available affecting only the F-14.
 These are located under **OPTIONS** -> **SPECIAL** -> **F-14B** on the main DCS menu.
 
 The available options are:
@@ -92,7 +92,7 @@ The available options are:
 +-----------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 | Use Head Movement in Order to Select Items in Jester Menu | Enable use of head movement with VR or Track-IR to select Jester Menu items.                  |
 +-----------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| Boring Jester                                             | Disables Jester embellishments and jokes.                                                     |
+| Boring Jester                                             | Disables Jester embellishments and jokes. Currently not implemented.                          |
 +-----------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 | Switch PD-STT to P-STT lock when going WVR                | Jester will automatically switch to P-STT within ACM ranges.                                  |
 +-----------------------------------------------------------+-----------------------------------------------------------------------------------------------+

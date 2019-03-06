@@ -36,6 +36,12 @@ Pilot Cockpit Layout
 | 12 | :ref:`pcanopylever`    |
 +----+------------------------+
 
+.. raw:: html
+
+    <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/OO3IdQjAdDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
+
 .. _riolayout:
 
 RIO Cockpit Layout
@@ -66,6 +72,11 @@ RIO Cockpit Layout
 | 11 | :ref:`rcanopylever`    |
 +----+------------------------+
 
+.. raw:: html
+
+    <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/kgpGO7fj4oU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
 
 F-14B Pilot Cockpit
 *******************
@@ -300,8 +311,10 @@ Target Designate Switch
 .. image:: /images/cockpit/detail/pilot/target.png 
  
 Used to designate ground targets on the HUD and to control pilot ACM radar modes except PLM.
-In air-to-ground mode UP and DOWN moves the designator and DES (designate) selects/designates.
-In all other cases UP and DOWN selects VSL HI and VSL LO ACM-modes respectively and DES selects PAL.
+Can be moved up/down and forward which is the designate position.
+
+In air-to-ground mode up and down moves the designator and forward designates.
+In all other cases up and down selects VSL HI and VSL LO ACM-modes respectively and forward selects PAL.
 
 
 .. _inletrampsthrottle:
@@ -1735,6 +1748,8 @@ Panel controlling OBC and various on board BITs in addition to the emergency fli
 |                         | |                                                                                                                                               |
 |                         | | EMERG GEN - Tests emergency generator.                                                                                                        |
 |                         | |                                                                                                                                               |
+|                         | | MACH LEV - Initiates dynamic MACH lever check. F-14A only.                                                                                    |
+|                         | |                                                                                                                                               |
 |                         | | WG SWP - Tests wing-sweep system.                                                                                                             |
 |                         | |                                                                                                                                               |
 |                         | | FLT GR DN - Initiates ground check of auto throttle interlocks.                                                                               |
@@ -3003,19 +3018,19 @@ AN/APX-76 interrogator control panel.
 +-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Control/Indicator             | Function                                                                                                                                                  |
 +===============================+===========================================================================================================================================================+
-| 12. TEST-CHAL CC switch       | | Switch springloaded to center controlling IFF challenge and test.                                                                                       |
+| 1. M4 ALARM OVERRIDE switch   | Switch disabling the mode 4 tone alarm in the RIO headset.                                                                                                |
++-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2. TEST-CHAL CC switch        | | Switch springloaded to center controlling IFF challenge and test.                                                                                       |
 |                               | |                                                                                                                                                         |
 |                               | | TEST - Momentary actuation, tests the AN/APX-76 by interrogating own transponder, if same codes are set two solid lines appear on DDD at 3 and 4 miles. |
 |                               | |                                                                                                                                                         |
 |                               | | CHAL CC - Momentary actuation, starts a 10 second interrogation cycle only showing returns with correct mode and code on DDD.                           |
 +-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 13. M4 ALARM OVERRIDE switch  | Switch disabling the mode 4 tone alarm in the RIO headset.                                                                                                |
+| 3. CODE selector thumbwheels  | Thumbwheels controlling mode and code used for interrogation. First wheel sets mode, last four sets code.                                                 |
 +-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 14. FAULT light               | Light indicating fault in AN/APX-76.                                                                                                                      |
+| 4. CHAL light                 | Light indicating active interrogation in progress.                                                                                                        |
 +-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 15. CHAL light                | Light indicating active interrogation in progress.                                                                                                        |
-+-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 16. CODE selector thumbwheels | Thumbwheels controlling mode and code used for interrogation. First wheel sets mode, last four sets code.                                                 |
+| 5. FAULT light                | Light indicating fault in AN/APX-76.                                                                                                                      |
 +-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 :Note: Due to DCS limitations in regards to IFF the AA1 control panel is currently non-functional.

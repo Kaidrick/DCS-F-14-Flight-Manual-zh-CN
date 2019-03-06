@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                协作预览 | Mar. 2nd, 2019
+                协作预览 | Mar. 6th, 2019
               </div>
             
           
@@ -132,12 +132,12 @@
 <li class="toctree-l2"><a class="reference internal" href="#special-munitions">特种弹药</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#adm-141-tald">ADM-141 TALD（战术空射诱饵）</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#luu-2-parachute-flare">LUU-2 降落伞照明弹</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#lau-138-chaff-adapter">LAU-138 箔条适配器</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#smokewinder">拉烟吊舱</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tacts-pods">TACTS 吊舱</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">其他吊舱和油箱</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#lau-138-chaff-adapter">LAU-138 箔条适配器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tacts-pods">TACTS 吊舱</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fpu-1-fuel-tank">FPU-1 油箱</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#lantirn">LANTIRN 吊舱</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cnu-188-external-baggage-container">CNU-188 外挂行李舱</a></li>
@@ -150,6 +150,7 @@
 <li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急流程</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
 </ul>
 
             
@@ -223,15 +224,14 @@
 <p class="caption"><span class="caption-text">由美国海军摄影师 Kristopher Wilson 拍摄（041129-N-5345W-034）</span></p>
 </div>
 <p>M-61“火神”是一种六管液压驱动的20毫米航炮，能以每分钟6000发的速度射击。</p>
-<p>M-61安装在 F-14 驾驶舱下方的机身内，炮口位于机身的左下侧。航炮的弹药筒内携带了650发20毫米炮弹，并且会保留航炮射击后留下的弹壳。</p>
+<p>M-61安装在 F-14 驾驶舱下方的机身内，炮口位于机身的左下侧。航炮的弹药筒内携带了676发20毫米炮弹，并且会保留航炮射击后留下的弹壳。</p>
 <p>航炮安装的角度，比武器基准线（ADL）略高3度，F-14 在狗斗中进行前置射击时便能体现这样安装航炮的先天优势。</p>
 <p>WCS（武器控制系统）并不控制航炮射击。只要主军械开启，飞行员便可在驾驶杆上通过武器选择开关选择航炮，并使用驾驶杆的扳机开火。</p>
 <p>选择航炮作为武器时，HUD 底部会显示一个大写的“G”标识，这个标识下方显示了以百发为单位的剩余炮弹数量。</p>
 <img alt="_images/rounds.png" src="_images/rounds.png" />
 <p>除了 HUD 上的指示外，飞行员右垂直面板上的剩余弹药指示器也显示了剩余弹药数量。指示器从650开始倒数，但可以通过旋转指示器下方的旋钮来重新调整至所需的炮弹剩余数量。</p>
 <a class="reference internal image-reference" href="_images/rate.png"><img alt="_images/rate.png" class="align-left" src="_images/rate.png" style="width: 125.46000000000001px; height: 117.64000000000001px;" /></a>
-<p>航炮的两种模式对应的射击速率分别是每分钟4000发和每分钟6000发。低射速模式通常用于对地攻击，高射速模式用于对空攻击。航炮射速通常会根据对地或对空模式自动设定，但也可以通过 ACM 面板的 GUN RATE（航炮射速）开关切换，面板上也会显示当前选定的模式。</p>
-<p>尽管航炮击发不经过 WCS，但 WCS 可以在 HUD 上显示航炮攻击标识以提高射击精度。航炮在空对空和空对地模式下，每一种模式有两种可用的瞄准标识。空对空模式下使用的是手动空对空瞄准标识和实时瞄准标识（RTGS）。</p>
+<p>航炮的两种模式对应的射击速率分别是每分钟4000发和每分钟6000发。低射速模式通常用于对地攻击，高射速模式用于对空攻击。航炮射速通常会根据对地或对空模式自动设定，但也可以通过 ACM 面板的 GUN RATE（航炮射速）开关切换，面板上也会显示当前选定的模式。选择 ACM 模式会自动选择航炮高射速模式。虽然航炮射击不经过 WCS，但 WCS 可以在 HUD 中显示射击标识来辅助飞行员瞄准，以提升命中率。航炮有两种可用的空对空和空对地瞄准标识。空对空模式下的两种可用瞄准标识分别是手动瞄准和 RTGS（实时航炮准星）。</p>
 <p><strong>手动空对空准星</strong></p>
 <img alt="_images/gunhudmanual.png" src="_images/gunhudmanual.png" />
 <p>在手动模式下，HUD 上显示了 ADL（武器基准线），武器标识，以及手动准星。在空对空模式下选择航炮后，按下左油门握把上的 CAGE/SEAM 按钮来进入此模式。该模式下飞行员需要估算目标距离和提前量，控制飞机进行手动瞄准。</p>
@@ -242,9 +242,9 @@
 <p>实时航炮准星模式是航炮在空对空模式下的标准射击模式。</p>
 <p>在 RTGS 模式中，如果 WCS 无可用目标数据，WCS 会计算炮弹飞行轨迹，并显示炮弹在飞行1000英尺和2000英尺后将会通过的位置。菱形标志指示1000英尺处炮弹通过的位置，而十字准星指示2000英尺处炮弹通过的位置。</p>
 <img alt="_images/gunhudrtgs.png" src="_images/gunhudrtgs.png" />
-<p>如果 WCS 可以（使用 STT 模式跟踪目标）获取目标数据，则会将目标当前距离作为参考距离，十字准星会显示炮弹飞行经过参考距离后通过的位置，而菱形标识则显示雷达指向目标的视线/瞄准线（也就是目标位置）。这意味着飞行员需要控制飞机将十字准星对准目标来击落它。</p>
-<p>除了根据目标位置解算航炮射击诸元外，RTGS 准星还能提供命中指示。当 WCS 计算炮弹已飞行至目标位置时，原本用作指示目标位置的菱形标识会切换为指示目标距离上炮弹的位置，同时，菱形指示框会闪烁。</p>
-<p>利用这个功能便可以判断出，为了击中目标，炮弹需要通过的位置。如果航炮成功命中目标，菱形标识应正好位于目标上方并闪烁，表示炮弹穿过了目标位置。</p>
+<p>如果 WCS 可以（使用 STT 模式跟踪目标）获取目标数据，则会将目标当前距离作为参考距离，十字准星会显示炮弹飞行经过参考距离后通过的位置。菱形标识则显示雷达指向目标的视线/瞄准线（也就是目标位置）。这意味着飞行员需要控制飞机将十字准星对准目标来击落它。</p>
+<p>除了根据目标位置解算航炮射击诸元外，RTGS 准星还将计算并显示目标距离上航炮炮弹通过的位置与目标实际位置之间的偏差（注：目标与本机的当前距离称为“目标距离”，航炮炮弹的飞行距离与目标距离相同时，炮弹所处的位置叫做 BATR，目标距离上的炮弹位置，见<a class="reference internal" href="accr.html"><span class="doc">首字母缩写和简称</span></a>）。当 WCS 计算炮弹已飞行至目标位置时，原本用作指示目标位置的菱形标识会切换为指示目标距离上炮弹的位置，同时，菱形指示框会闪烁。</p>
+<p>利用这个标识便可以判断出，为了击中目标，炮弹需要通过的位置。如果航炮成功命中目标，菱形标识应正好位于目标上方并闪烁，表示炮弹穿过了目标位置。</p>
 <p><strong>手动空对地航炮准星</strong></p>
 <a class="reference internal image-reference" href="_images/attkmode.png"><img alt="_images/attkmode.png" class="align-right" src="_images/attkmode.png" style="width: 290.0px; height: 259.5px;" /></a>
 <p>手动空对地准星的工作方式与手动空对空准星相同，只不过它是由 RIO 使用左垂直面板上的武器控制面板 ATTK MODE 旋钮开关设置的。选择空对地模式时，通过 ATTK MODE 拨扭选择 MAN 档位， HUD 中会显示与空对空航炮准星相同的标识，唯一的区别是，HUD 右侧增加了当前雷达高度指示。航炮准星的提前量需要考虑到空速、目标距离和俯冲角度，使用手动空对地模式进行攻击时，应根据这些数值，参考预制的航炮攻击参数进行对照设置。</p>
@@ -279,7 +279,7 @@
 </div>
 <p>AIM-7“麻雀”空空导弹是一种超音速助推/滑翔导弹，它能在全天候条件下攻击飞机和导弹。AIM-7“麻雀”是一种中距空对空导弹，AIM-7E 最大射程至少为16海里（30千米）而 AIM-7F 和 AIM-7M 最大射程至少为38海里（70千米）。它的全天候能力来自于导弹雷达制导，更确切地说是半主动雷达制导（SARH）。这意味着“麻雀”只有依赖 AN/AWG-9 为其照着目标，它的引导头才能跟踪目标的雷达反射信号。</p>
 <p>F-14 可以在机身上的四个专用保形挂架和左右翼套挂架上分别挂载一枚 AIM-7E、AIM-7F 或 AIM-7M 导弹。</p>
-<p>除了导弹射程，导引头和弹头的各种改进之外，不同版本之间的主要区别在于 AIM-7E 仅能通过连续波（CW）照射制导，而 AIM-7F 和 AIM-7M 可以通过连续波也可以通过脉冲多普勒照射来引导。</p>
+<p>除了导弹射程，导引头和战斗部的各种改进之外，不同版本之间的主要区别在于 AIM-7E 仅能通过连续波（CW）照射制导，而 AIM-7F 和 AIM-7M 可以通过连续波也可以通过脉冲多普勒照射来引导。</p>
 <div class="section" id="missile-preparation">
 <h4>导弹发射准备<a class="headerlink" href="#missile-preparation" title="永久链接至标题">¶</a></h4>
 <a class="reference internal image-reference" href="_images/mslprep.png"><img alt="_images/mslprep.png" class="align-right" src="_images/mslprep.png" style="width: 173.4px; height: 174.6px;" /></a>
@@ -288,7 +288,7 @@
 </div>
 <div class="section" id="launch-modes">
 <h4>发射模式<a class="headerlink" href="#launch-modes" title="永久链接至标题">¶</a></h4>
-<p>F-14 可使用正常发射模式和瞄准线发射模式发射 AIM-7 导弹。飞行员使用驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）位置来选择发射AIM-7。然而，飞行员无法选择发射哪一个挂架上的导弹，因为这是由武器控制系统自动分配的。</p>
+<p>F-14 可使用正常发射模式和瞄准线发射模式发射 AIM-7 导弹。飞行员使用驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）位置来选择发射AIM-7。武器控制系统将自动分配并选择一枚用于发射的导弹。</p>
 <p>按压武器选择开关会将选定的武器从 SP 切换至 PH，反之亦然。如果武器控制系统有 STT 目标，那么，除非在 ACM 面板的 MSL MODE（导弹模式）开关上选择 BRSIT（瞄准线），否则武器控制系统将自动使用正常模式进行发射。在所有其他情况下，武器控制系统将使用瞄准线模式发射导弹。</p>
 <div class="section" id="normal-mode">
 <h5>正常模式<a class="headerlink" href="#normal-mode" title="永久链接至标题">¶</a></h5>
@@ -316,7 +316,7 @@
 <div class="section" id="id1">
 <h4>导弹发射准备<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h4>
 <a class="reference internal image-reference" href="_images/swcool.png"><img alt="_images/swcool.png" class="align-left" src="_images/swcool.png" style="width: 117.9px; height: 118.35000000000001px;" /></a>
-<p>发射 AIM-9 前需要启用引导头冷却。按下飞行员 ACM 面板的 SW COOL 开关，或在相同面板选择 ACM 模式来启用引导头冷却。此指令会冷却导弹引导头，导弹状态会立刻显示就绪，但使引导头发挥全部性能需要冷却进行至少60秒。</p>
+<p>发射 AIM-9 前需要启用引导头冷却。按下飞行员 ACM 面板的 SW COOL 开关，或在相同面板选择 ACM 模式来启用引导头冷却。此指令会冷却导弹引导头，导弹状态会立刻显示就绪，但使引导头发挥全部性能需要进行至少60秒冷却。</p>
 </div>
 <div class="section" id="seeker-head-modes">
 <h4>引导头模式<a class="headerlink" href="#seeker-head-modes" title="永久链接至标题">¶</a></h4>
@@ -351,7 +351,7 @@
 <p>AIM-54 “不死鸟”导弹是一种长程空空导弹，它本来是为流产的 F-111B 舰队防空战斗机计划而设计的。F-111B 计划以失败告终，使得 F-111B 的 AIM-54 导弹与配套的AN/AWG-9 WCS 最终被用于装备 F-14。</p>
 <p>F-14 能够携带6枚 AIM-54 导弹，左右翼套挂架上各搭载一枚，其余四枚搭载于机身挂架上。由于导弹冷却系统的设计原因，两个机身前部挂架必须总是挂弹，这意味着如果前部挂架不挂载导弹，机身后部挂架便无法使用。而翼套挂架内置了单独的冷却系统。</p>
 <p>“不死鸟”导弹具有支持 STT（单目标跟踪）攻击单个目标和 TWS（边搜索边跟踪）攻击多个目标的能力。</p>
-<p>AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号引导头，而不是模拟信号引导头，从而提升了性能。</p>
+<p>AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号引导头，而不是模拟信号引导头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。</p>
 <p>使用 PD STT（脉冲多普勒单目标跟踪，见后文）模式攻击战斗机尺寸的目标时，AIM-54 的射程至少有60海里。而使用 TWS 攻击多目标时，射程降低到约50海里。攻击大型目标时，有效射程会增加，反之，攻击小型目标时，有效射程会缩短。</p>
 <p>如果使用主动雷达发射，根据目标尺寸，射程也稍有差异，攻击战斗机尺寸的目标射程会降低至10海里。需要注意的是，如果配置时选择在 SARH 模式下使用主动雷达发射，但导弹未能探测到目标时，导弹会返回 SARH 模式。</p>
 <div class="section" id="id2">
@@ -366,7 +366,7 @@
 <div class="section" id="tws-sarh-arh">
 <h5>TWS SARH/ARH<a class="headerlink" href="#tws-sarh-arh" title="永久链接至标题">¶</a></h5>
 <p>在 TWS（Track While Scan，边搜索边跟踪）模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 AIM-54 追踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达回波来进行半主动制导。当目标进入导弹引导头 ARH 模式的启动距离后，AN/AWG-9 会命令导弹切换至主动雷达制导。</p>
-<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式，所以 AIM-54 也就无法发射后不管，而且它必须受制导，直到导弹雷达开机。然而，作为备用措施，AN/AWG-9会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并非发射后不管，但可以认为导弹进入ARH模式后能够自主攻击目标，然而驾驶舱系统中并不会明确指示模式转换行为，因此机组必须手动监视导弹的状态。</p>
+<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式。然而，作为备用措施，AN/AWG-9会继续向导弹传输制导指令，以防导弹无法自主获取目标。这说明AIM-54本质上并非发射后不管，但可以认为导弹进入 ARH 模式后能够自主攻击目标。</p>
 </div>
 <div class="section" id="pd-stt-sarh">
 <h5>PD STT SARH<a class="headerlink" href="#pd-stt-sarh" title="永久链接至标题">¶</a></h5>
@@ -399,11 +399,11 @@
 <p>依次对每个目标按下一次扳机来继续攻击跟踪目标 2 至 6，等前一枚导弹离轨后再按下扳机，直到希望发射的导弹全部发射完毕。</p>
 <p>导弹发射后，跟踪目标右侧的发射优先级数字会被替换为 TTI，也就是预计命中时间，这是计算出的导弹命中目标所需时间。此外，当 AN/AWG-9 向导弹发送开机指令时，TTI 数字会闪烁，表示跟踪目标的导弹已经接收主动模式开机指令。</p>
 <p>正被导弹攻击的目标会保持高亮，直到预计命中时间 + 15秒，经过预计命中时间 + 15秒后，VDI、DDD和TID上会显示脱离“X”标识。</p>
-<p>TID 标识信息详见 <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID Symbology</span></a> 。</p>
+<p>TID 标识信息详见 <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID上的符号信息</span></a> 。</p>
 <img alt="_images/TWS.png" src="_images/TWS.png" />
 <p>通过 CAP 面板设置可以让 WCS 强制在发射序列中包括一个目标，还可以让 WCS 强制排除某个目标，不对其发射导弹，也是在 CAP 面板上设置。此外，勾选一个目标并按下 RIO 武器面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先级目标。</p>
 <p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示 TWS 扫描范围的中心点。</p>
-<p>HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R<sub>min</sub> 和 R<sub>max</sub>。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">Track While Scan (TWS)</span></a>。</p>
+<p>HUD 和 VDI 上显示了一个转向标识来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R<sub>min</sub> 和 R<sub>max</sub>。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">边扫描边跟踪（TWS）</span></a>。</p>
 </div>
 </div>
 </div>
@@ -456,7 +456,7 @@
 <h3>空对地武器投放<a class="headerlink" href="#air-to-ground-weapon-delivery" title="永久链接至标题">¶</a></h3>
 <p>飞行员在显示控制面板上选择了 A/G 模式后飞机就会进入空对地投放模式。在磁带数据读入（需约30秒）完成后，武器控制系统启动空对地模式并且在显示器上显示相关的符号。</p>
 <p>除非飞行员已经选择了其他武器，否则 HUD 会自动切换至（对地）挂载模式（HUD 中显示 ORD）。所有其他投放选项都由后座 RIO 设置。</p>
-<p>飞行员驾驶舱内的 ATTK MODE 选择开关用于选择攻击模式，所有可用的攻击模式分别是：</p>
+<p>RIO 驾驶舱内的 ATTK MODE 选择开关用于选择攻击模式，所有可用的攻击模式分别是：</p>
 <ul class="simple">
 <li>CMPTR TGT - 计算机目标模式，这是一种半自动计算机引导模式，类似于新型战机中的 CCRP（连续计算投放点）模式。</li>
 <li>CMPTR IP - 计算机初始点模式是 CMPTR TGT 模式的扩展模式，它使用一个已知的起始点作为挂载投放参考点。通常在预期目标难以被目视定位，但其附近有易于识别的参考点/地标的情况下使用。</li>
@@ -519,7 +519,7 @@
 </div>
 <p>GBU 炸弹是加装了引导头和尾翼（控制）元件来将其转换为精确制导弹药的 Mk-80 系列炸弹。F-14B 挂载的 GBU 炸弹——准确的说是激光制导炸弹——分别是 GBU-10、GBU-12、GBU-16 和 GBU-24。</p>
 <p>获得搭载 LANTIRN 吊舱的能力后，F-14B 也通过了挂载 Mk-80 系列 GBU 衍生型号炸弹的测试。GBU 炸弹可以通过 F-14 自机携带的 LANTIRN 吊舱进行激光制导，也可由其他飞机或地面的激光指示制导。</p>
-<p>F-14 挂载的 GBU 直接安装在“不死鸟”挂架3到挂架6的导轨上，因为 GBU 相较常规 Mk-80 炸弹尺寸有所增加，所以 GBU 炸弹无法适配子挂架。如果挂载 GBU-10 或其他尺寸小于 GBU-10 的炸弹，则每个“不死鸟”挂架都可挂载一枚 GBU。但如果需要挂载 GBU-24，则两枚必须分别挂在一侧的前挂架和另一侧后挂架上，因为 GBU-24 比 GBU-10 的尺寸更大。</p>
+<p>F-14 挂载的 GBU 直接安装在“不死鸟”挂架3到挂架6的导轨上，因为 GBU 相较常规 Mk-80 炸弹尺寸有所增加，所以 GBU 炸弹无法适配子挂架。如果挂载 GBU-16 或其他尺寸小于 GBU-16 的炸弹，则每个“不死鸟”挂架都可挂载一枚 GBU。但如果需要挂载两枚 GBU-10 或 GBU-24，GBU-10 可以挂在两个前挂架导轨（挂架3和挂架6），而两枚 GBU-24 必须分别挂在一侧的前挂架和另一侧后挂架上，因为 GBU-24 的尾部套件的弹翼尺寸更大。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -567,6 +567,14 @@
 <p>ADM-141战术空射诱饵（TALD）是一种利用主动和被动手段模拟真实飞机信号的滑翔诱饵。TALD 有许多个版本，例如有一个版本发射箔条，另一个版本使用龙勃透镜来增大雷达截面积，用来伪装成一架更大的飞机。</p>
 <p>TALD 的所有的版本都需要在起飞前预编程，且 TALD 自身无动力推进，仅能使用折叠翼滑翔。</p>
 <p>F-14B 最多可携带4枚 ADM-141 战术空射诱饵，3号至6号挂架可分别挂载各一枚，每个挂架都需要连接 TER 来增加 TALD 和飞机机身的间距。</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">目前在 DCS 中，TALD 只能向正前方滑翔，直到坠地。</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="luu-2-parachute-flare">
 <h3>LUU-2 降落伞照明弹<a class="headerlink" href="#luu-2-parachute-flare" title="永久链接至标题">¶</a></h3>
@@ -574,17 +582,20 @@
 <p>F-14B 可以携带多达16个 LUU-2 照明弹，4号和5号挂架上连接 TER 时可挂载最多 4 个 SUU-25 照明弹布撒器，其中每个 TER 最多能携带2个布撒器，以免与机身冲突。</p>
 <p>LUU-2 降落伞照明弹的发射和设置方式与通用航空炸弹相同。</p>
 </div>
-<div class="section" id="lau-138-chaff-adapter">
-<h3>LAU-138 箔条适配器<a class="headerlink" href="#lau-138-chaff-adapter" title="永久链接至标题">¶</a></h3>
-<p>LAU-138 箔条适配器 （也称为 BOL 导轨）由瑞典的 Celcius Tech 公司设计，用于增强作战飞机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于箔条是通过机械动作布撒，而不是使用火药来发射的。</p>
-<p>虽然每个适配器可以携带多达160包箔条，但是每个发射包并不是一个标准的箔条包，这意味着，每个箔条释放周期中，两个一组的发射器总共会发射4包箔条。两个一组的 LAU-138 适配器总共携带320包，即使每次发射4包，仍能够释放80次，这极大地增加了飞机携载箔条的数量。</p>
-<p>适配器本身替代了常规的 LAU-7“响尾蛇”发射滑轨，在不影响携载其他武器的能力下让 F-14B 携载更多的箔条。虽然从技术上来说，（翼套挂架的）A 和 B  挂架都可以挂载 LAU-138，但在现实中，B 挂架无法连接 AIM-9 的冷却剂瓶，因此只有 A 挂架用于挂载 LAU-138 适配器。</p>
-<p>更多关于LAU-138 箔条适配器的信息，请查阅总体设计和系统总览章节下的 AN/ALE-29 和 AN/ALE-39 部分内容。</p>
-</div>
 <div class="section" id="smokewinder">
 <h3>拉烟吊舱<a class="headerlink" href="#smokewinder" title="永久链接至标题">¶</a></h3>
 <p>拉烟吊舱用于空中表演，它模拟了 AIM-9 导弹在飞机航电上的显示。</p>
 <p>选择 AIM-9 的瞄准线发射模式，然后通过飞行员驾驶杆上的武器选择按钮选择相应的武器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，便可以按下扳机来开始或者停止拉烟。</p>
+</div>
+</div>
+<div class="section" id="pods-and-tanks">
+<h2>其他吊舱和油箱<a class="headerlink" href="#pods-and-tanks" title="永久链接至标题">¶</a></h2>
+<div class="section" id="lau-138-chaff-adapter">
+<h3>LAU-138 箔条适配器<a class="headerlink" href="#lau-138-chaff-adapter" title="永久链接至标题">¶</a></h3>
+<p>LAU-138 箔条适配器 （也称为 BOL 导轨）由瑞典的 Celcius Tech 公司设计，用于增强作战飞机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于箔条是通过机械动作布撒，而不是使用火药来发射的。</p>
+<p>虽然每个适配器可以携带多达160包箔条，但他们并不是标准尺寸的箔条包，因此，发射箔条时，每个发射器总共会发射4包箔条。两个一组的 LAU-138 适配器每次发射8包箔条，一共可以发射40次。</p>
+<p>适配器本身替代了常规的 LAU-7“响尾蛇”发射滑轨，在不影响携载其他武器的能力下让 F-14B 携载更多的箔条。虽然从技术上来说，（翼套挂架的）A 和 B  挂架都可以挂载 LAU-138，但在现实中，B 挂架无法连接 AIM-9 的冷却剂瓶，因此只有 A 挂架用于挂载 LAU-138 适配器。</p>
+<p>更多关于LAU-138 箔条适配器的信息，请查阅总体设计和系统总览章节下的 AN/ALE-29 和 AN/ALE-39 部分内容。</p>
 </div>
 <div class="section" id="tacts-pods">
 <h3>TACTS 吊舱<a class="headerlink" href="#tacts-pods" title="永久链接至标题">¶</a></h3>
@@ -598,9 +609,6 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="pods-and-tanks">
-<h2>其他吊舱和油箱<a class="headerlink" href="#pods-and-tanks" title="永久链接至标题">¶</a></h2>
 <div class="section" id="fpu-1-fuel-tank">
 <h3>FPU-1 油箱<a class="headerlink" href="#fpu-1-fuel-tank" title="永久链接至标题">¶</a></h3>
 <p>FPU-1 油箱安装在 F-14B “雄猫”发动机舱下方的2号和7号挂架。每个油箱能携带多达 2,000 磅燃油，与其他挂载一样可以使用正常程序抛离。</p>
@@ -797,13 +805,13 @@
 <td>&#160;</td>
 <td>&#160;</td>
 <td>1</td>
-<td>1</td>
-<td>1</td>
+<td>&#160;</td>
+<td>&#160;</td>
 <td>1</td>
 <td>&#160;</td>
 <td>&#160;</td>
 <td>&#160;</td>
-<td>4</td>
+<td>2</td>
 </tr>
 <tr class="row-odd"><td>GBU-12</td>
 <td>&#160;</td>

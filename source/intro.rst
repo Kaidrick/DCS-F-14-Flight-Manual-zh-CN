@@ -14,15 +14,15 @@ F-14 Tomcat
 The F-14 Tomcat can trace its origin back to the 1950's and the US Navy's need for a carrier based long range interceptor to fill the Fleet Air Defence role.
 It was decided that it needed an aircraft with a more advanced and longer ranged radar as well as longer ranged air-to-air missile than the F-4 Phantom.
 
-The Navy was directed, by then, defense secretary Robert McNamara to join the Tactical Fighter Experimental or TFX program to procure this aircraft in a joint venture with the US Air Force.
-The Navy was opposed to this from the beginning and the proposed General Dynamics F-111B aircraft did not meet the Navy's expectations.
+The Navy was directed, by then defense secretary Robert McNamara, to join the Tactical Fighter Experimental or TFX program to procure this aircraft in a joint venture with the US Air Force.
+The Navy was opposed to this from the beginning and the proposed General Dynamics F-111B did not meet the Navy's expectations.
 
-Grumman, which had been brought on board by General Dynamics for the Navy F-111B, was eventually awarded a contract to begin developement of an aircraft more suited to the Navy's requirements.
+Grumman, which had been brought on board by General Dynamics for the Navy F-111B, was eventually awarded a contract to begin development of an aircraft more suited to the Navy's requirements.
 This led to the design that would eventually become the F-14, carrying over the radar (AN/AWG-9) and missiles (AIM-54 Phoenix) from the failed F-111B project.
 
 The F-14 Tomcat first flew on the 21st of December 1970 and entered service on the 22nd of September 1974.
 The name "Tomcat" follows Grumman's tradition of naming their aircraft after cats and
-also partially from the nickname "Tom's Cat" for Vice Admiral Thomas F. Connolly who was instrumental for the developement of the F-14.
+also partially from the nickname "Tom's Cat" for Vice Admiral Thomas F. Connolly who was instrumental for the development of the F-14.
 
 
 Service Life Upgrades
@@ -30,9 +30,9 @@ Service Life Upgrades
 
 The first version of the F-14, the F-14A was equipped with the Pratt & Whitney TF30 and carried an IRST system in the chinpod under the nose.
 
-The TF30 engines were generally regarded as temperamental and underpowered for the F-14A and were eventually replaced by the General Electrics F110-400 engines in the F-14A+ (later F-14B).
+The TF30 engines were generally regarded as temperamental and underpowered for the F-14A and were eventually replaced by the General Electric F110-400 engines in the F-14A+ (later F-14B).
 
-The IRST system was rather quickly determined to be underperforming and replaced with the TCS (Television Camera Set) in the chinpod allowing for greater than visual range identifications of radar tracked targets.
+The IRST system was rather quickly determined to be underperforming and replaced with the TCS (Television Camera Set) in the chinpod allowing for greater than visual range identification of radar tracked targets.
 
 Both the F-14A and F-14B received continuous upgrades during their life, including new programmable cockpit displays (PTID and PMDIG) as well as a new INS system, a digital flight control system (DFCS) and an RWR system amongst others.
 
@@ -46,11 +46,11 @@ Ground Attack
 
    Photo by LCDR Dave Parsons. (DN-SC-93-01299)
 
-During the 1990's when the aerial threat to the fleets of the US Navy lessened and with the advent of operations like operation Desert Storm, the ground attack role was resurrected.
+During the 1990's when the aerial threat to the fleets of the US Navy lessened and with the advent of operations like Desert Storm, the ground attack role was resurrected.
 
 The ability to carry and deliver air-to-ground munitions had been implemented in the F-14 from the beginning but ruled out by the Navy as cost and risk ineffective given the F-14's role as a Fleet Air Defence fighter.
 
-With the renewed interest for this role, some of the F-14As and F-14Bs were equipped to carry the LANTIRN targetting pod allowing the RIO to find and designate laser guided bombs for his own aircraft and others.
+With the renewed interest for this role, some of the F-14As and F-14Bs were equipped to carry the LANTIRN targeting pod allowing the RIO to find and designate laser guided bombs for his own aircraft and others.
 Later on the ability to carry and deliver gps-guided JDAMs was also added.
 
 Most of the LANTIRN equipped aircraft were the ones upgraded with the programmable TID or (PTID) allowing for greater integration of the LANTIRN.
@@ -109,7 +109,7 @@ The AIM-54 long-range air-to-air missile was born from the same TFX program as t
 It was designed for the F-111B and then adopted for the F-14 as a long-range missile capable of long range engagement of enemy bombers in addition to hostile cruise missiles.
 That's not to say that the AIM-54 Phoenix was a slouch at engaging other smaller targets as well.
 
-Outstanding features of the AIM-54 missiles were their long range as well as their ability to launch at and track up to six simultaneous targets, guided first by the AN/AWG-9 radar in the launching aircraft and then its own active radar seeker independently.
+Outstanding features of the AIM-54 missiles were their long range as well as their ability to be launched at up to six simultaneous targets, guided first by the AN/AWG-9 radar in the launching aircraft and then its own active radar seeker independently.
 
 The original AIM-54 Phoenix was the AIM-54A with a mk47 rocket motor.
 The motor was later on upgraded, creating the mk60 motor, increasing the missile's range.
@@ -156,5 +156,5 @@ F-14B
 +---------------------------------+----------------------------+
 | Ceiling                         | 53,000'+ (~16,200 meters)  |
 +---------------------------------+----------------------------+
-| Range                           | 2,050 nm (~3800 km)        |
+| Range                           | 2,050 NM (~3800 km)        |
 +---------------------------------+----------------------------+

@@ -6,84 +6,44 @@
 #
 msgid ""
 msgstr ""
-"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
-"#\n"
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-03-02 17:50+0800\n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
+"PO-Revision-Date: 2019-03-06 11:19+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
 "#-#-#-#-#  weapons_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
 "#-#\n"
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-16 16:27+0800\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2.1\n"
 "#-#-#-#-#  weapons_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
 "#-#-#-#\n"
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-16 16:34+0800\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
-"Last-Translator: \n"
-"Language: zh_CN\n"
 "#-#-#-#-#  weapons_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
 "#-#\n"
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-16 21:42+0800\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2.1\n"
 "#-#-#-#-#  weapons_xj.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
 "#-#\n"
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-12 23:26+0800\n"
-"PO-Revision-Date: 2019-02-17 20:04+0800\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
@@ -105,18 +65,18 @@ msgstr "由美国海军摄影师 Kristopher Wilson 拍摄（041129-N-5345W-034�
 #: ../../source/weapons.rst:12
 msgid ""
 "The M-61 Vulcan is a six-barreled hydraulically driven 20 mm automatic "
-"cannon capable of firing over 6 000 rpm (rounds per minute)."
+"cannon capable of firing over 6,000 rpm (rounds per minute)."
 msgstr "M-61“火神”是一种六管液压驱动的20毫米航炮，能以每分钟6000发的速度射击。"
 
 #: ../../source/weapons.rst:14
 msgid ""
 "The F-14 carries the gun internally mounted beneath the cockpit with the "
-"muzzle being located on the lower left side of the fuselage. 650 20 mm "
+"muzzle being located on the lower left side of the fuselage. 676 20 mm "
 "rounds are carried in the ammunition drum for the gun and retains the spent "
 "cases after the rounds have been fired."
 msgstr ""
 "M-61安装在 F-14 驾驶舱下方的机身内，炮口位于机身的左下侧。航炮的弹药筒内携带"
-"了650发20毫米炮弹，并且会保留航炮射击后留下的弹壳。"
+"了676发20毫米炮弹，并且会保留航炮射击后留下的弹壳。"
 
 #: ../../source/weapons.rst:17
 msgid ""
@@ -128,9 +88,9 @@ msgstr ""
 
 #: ../../source/weapons.rst:19
 msgid ""
-"To fire the gun no input is needed from the WCS, the gun can be fired "
-"manually by the trigger on the pilot stick when selected by the weapons "
-"selector on the same stick, provided master arm is on."
+"To fire the gun, no input is needed from the WCS, the gun can be fired by "
+"the trigger on the pilot stick when selected by the weapons selector on that "
+"same stick, provided master arm is on."
 msgstr ""
 "WCS（武器控制系统）并不控制航炮射击。只要主军械开启，飞行员便可在驾驶杆上通过"
 "武器选择开关选择航炮，并使用驾驶杆的扳机开火。"
@@ -159,30 +119,25 @@ msgid ""
 "The gun is capable of a 4 000 rpm or 6 000 rpm mode. The lower rate normally "
 "used for air-to-ground engagement and the higher rate for air-to-air "
 "engagement. The gun rate is selected by the GUN RATE switch on the ACM which "
-"also indicates selected mode, the mode normally being set automatically for "
-"respective type of engagement."
+"also indicates selected option. Selection of ACM will set it to high "
+"automatically. The WCS can however provide symbology on the HUD to increase "
+"gun accuracy. For both air-to-air and air-to-ground modes the gun has two "
+"sights available. For air-to-air it's the manual sight and the RTGS (real-"
+"time gun sight)."
 msgstr ""
 "航炮的两种模式对应的射击速率分别是每分钟4000发和每分钟6000发。低射速模式通常"
 "用于对地攻击，高射速模式用于对空攻击。航炮射速通常会根据对地或对空模式自动设"
 "定，但也可以通过 ACM 面板的 GUN RATE（航炮射速）开关切换，面板上也会显示当前"
-"选定的模式。"
+"选定的模式。选择 ACM 模式会自动选择航炮高射速模式。虽然航炮射击不经过 WCS，"
+"但 WCS 可以在 HUD 中显示射击标识来辅助飞行员瞄准，以提升命中率。航炮有两种可"
+"用的空对空和空对地瞄准标识。空对空模式下的两种可用瞄准标识分别是手动瞄准和 "
+"RTGS（实时航炮准星）。"
 
-#: ../../source/weapons.rst:36
-msgid ""
-"The WCS can however provide symbology on the HUD to increase gun accuracy. "
-"For both air-to-air and air-to-ground modes the gun has two sights "
-"available. For air-to-air it's the manual sight and the RTGS (real-time gun "
-"sight)."
-msgstr ""
-"尽管航炮击发不经过 WCS，但 WCS 可以在 HUD 上显示航炮攻击标识以提高射击精度。"
-"航炮在空对空和空对地模式下，每一种模式有两种可用的瞄准标识。空对空模式下使用"
-"的是手动空对空瞄准标识和实时瞄准标识（RTGS）。"
-
-#: ../../source/weapons.rst:40
+#: ../../source/weapons.rst:39
 msgid "**Manual Air-to-Air Sight**"
 msgstr "**手动空对空准星**"
 
-#: ../../source/weapons.rst:44
+#: ../../source/weapons.rst:43
 msgid ""
 "In manual the HUD displays the ADL, the armament legend and the manual "
 "pipper. This mode is accessed by depressing and releasing the CAGE/SEAM "
@@ -198,7 +153,7 @@ msgstr ""
 # GUN ELEV panel
 # -----------
 # Wrong, this panel is actually called Elevation Lead Panel, as seen in cockpit.po
-#: ../../source/weapons.rst:47
+#: ../../source/weapons.rst:46
 msgid ""
 "The manual piper is adjustable to enable selection of desired lead. The GUN "
 "ELEV panel on the pilot right vertical panel sets the lead, normally this "
@@ -209,60 +164,64 @@ msgstr ""
 "航炮提前量设置面板来调定所需提前量，一般会将这个值设置为53毫弧度，以保持手动"
 "准星与航炮瞄准线位置对齐。"
 
-#: ../../source/weapons.rst:52
+#: ../../source/weapons.rst:51
 msgid "**Real-Time Gunsight (RTGS)**"
 msgstr "**实时航炮准星（RTGS）**"
 
-#: ../../source/weapons.rst:56
+#: ../../source/weapons.rst:55
 msgid ""
 "The real-time gunsight mode is the standard gun mode when in the air-to-air "
 "mode with the gun selected."
 msgstr "实时航炮准星模式是航炮在空对空模式下的标准射击模式。"
 
-#: ../../source/weapons.rst:58
+#: ../../source/weapons.rst:57
 msgid ""
 "In RTGS the WCS computes the bullet trajectory and displays the location the "
-"bullets will pass through at 1 000 and 2 000 feet if no target data is "
-"available from the WCS. The diamond representing bullet location at 1 000 "
-"feet and the pipper representing the bullet location at 2 000 feet."
+"bullets will pass through at 1,000 and 2,000 feet, if no target data is "
+"available from the WCS. The diamond representing bullet location at 1,000 "
+"feet and the pipper representing the bullet location at 2,000 feet."
 msgstr ""
 "在 RTGS 模式中，如果 WCS 无可用目标数据，WCS 会计算炮弹飞行轨迹，并显示炮弹在"
 "飞行1000英尺和2000英尺后将会通过的位置。菱形标志指示1000英尺处炮弹通过的位"
 "置，而十字准星指示2000英尺处炮弹通过的位置。"
 
-#: ../../source/weapons.rst:63
+#: ../../source/weapons.rst:62
 msgid ""
 "If target data is available from the WCS (target tracked in an STT mode) the "
-"pipper instead shows bullet location at the target's current range out to 4 "
-"000 feet and the diamond show radar line of sight to the target (target "
-"location). This means that when having a target track the pilot should fly "
-"the aircraft to place the pipper over the target to hit it."
+"pipper instead displays bullet location at the target's current range out to "
+"4,000 feet. The diamond will display radar line of sight to the target "
+"(target location). This means that when having a target track the pilot "
+"should fly the aircraft to place the pipper over the target to hit it."
 msgstr ""
 "如果 WCS 可以（使用 STT 模式跟踪目标）获取目标数据，则会将目标当前距离作为参"
-"考距离，十字准星会显示炮弹飞行经过参考距离后通过的位置，而菱形标识则显示雷达"
-"指向目标的视线/瞄准线（也就是目标位置）。这意味着飞行员需要控制飞机将十字准星"
-"对准目标来击落它。"
+"考距离，十字准星会显示炮弹飞行经过参考距离后通过的位置。菱形标识则显示雷达指"
+"向目标的视线/瞄准线（也就是目标位置）。这意味着飞行员需要控制飞机将十字准星对"
+"准目标来击落它。"
 
 #: ../../source/weapons.rst:66
 msgid ""
 "In addition to computing the solution to put bullets at the targets location "
-"the RTGS sight is also able to show a hit indication. When the bullets fired "
-"are computed to be at the target's location the diamond switches from target "
-"indication to indicating bullet position at target range. This is also "
-"indicated by the diamond blinking."
+"the RTGS sight will also calculate where the bullets actually are in "
+"relation to the target when at target range. When the bullets fired are "
+"computed to be at the target's location the diamond switches from target "
+"indication to indicating bullet position at target range (BATR). This is "
+"also indicated by the diamond flashing."
 msgstr ""
-"除了根据目标位置解算航炮射击诸元外，RTGS 准星还能提供命中指示。当 WCS 计算炮"
-"弹已飞行至目标位置时，原本用作指示目标位置的菱形标识会切换为指示目标距离上炮"
-"弹的位置，同时，菱形指示框会闪烁。"
+"除了根据目标位置解算航炮射击诸元外，RTGS 准星还将计算并显示目标距离上航炮炮弹"
+"通过的位置与目标实际位置之间的偏差（注：目标与本机的当前距离称为“目标距离”，"
+"航炮炮弹的飞行距离与目标距离相同时，炮弹所处的位置叫做 BATR，目标距离上的炮弹"
+"位置，见\\ :doc:`accr`\\ ）。当 WCS 计算炮弹已飞行至目标位置时，原本用作指示"
+"目标位置的菱形标识会切换为指示目标距离上炮弹的位置，同时，菱形指示框会闪烁。"
 
 #: ../../source/weapons.rst:70
 msgid ""
-"Using this it's possible to see where the target would have needed to be to "
-"be hit by the fired bullets. If the gun engagement was executed successfully "
-"this means that the diamond should still be on top of the target, blinking, "
-"indicating that the bullets passed through the target's location."
+"Using this symbology it's possible to see where the target would have needed "
+"to be to be hit by the bullets. If the gun engagement was executed "
+"successfully this means that the diamond should still be on top of the "
+"target, blinking, indicating that the bullets passed through the target's "
+"location."
 msgstr ""
-"利用这个功能便可以判断出，为了击中目标，炮弹需要通过的位置。如果航炮成功命中"
+"利用这个标识便可以判断出，为了击中目标，炮弹需要通过的位置。如果航炮成功命中"
 "目标，菱形标识应正好位于目标上方并闪烁，表示炮弹穿过了目标位置。"
 
 #: ../../source/weapons.rst:73
@@ -460,17 +419,20 @@ msgstr ""
 "F-14 可以在机身上的四个专用保形挂架和左右翼套挂架上分别挂载一枚 AIM-7E、"
 "AIM-7F 或 AIM-7M 导弹。"
 
+# Original text:
+# Apart from the various improvements to the missile range, seeker and warhead, the major difference between the different versions is that the AIM-7E is only capable of being guided via continuous-wave(CW) illumination while the AIM-7F and AIM-7M can also be guided via pulse doppler illumination in addition to CW.
+# -----
+# the orginal text is much better and clearer than the changed text.
 #: ../../source/weapons.rst:151
 msgid ""
 "Apart from the various improvements to the missile range, seeker and "
 "warhead, the major difference between the different versions is that the "
-"AIM-7E is only capable of being guided via continous-wave (CW) illumination "
-"while the AIM-7F and AIM-7M can also be guided via pulse doppler "
-"illumination in addition to CW."
+"AIM-7F and newer missiles can also be guided via pulse doppler illumination "
+"in addition to CW as opposed to only CW."
 msgstr ""
-"除了导弹射程，导引头和弹头的各种改进之外，不同版本之间的主要区别在于 AIM-7E "
-"仅能通过连续波（CW）照射制导，而 AIM-7F 和 AIM-7M 可以通过连续波也可以通过脉"
-"冲多普勒照射来引导。"
+"除了导弹射程，导引头和战斗部的各种改进之外，不同版本之间的主要区别在于 "
+"AIM-7E 仅能通过连续波（CW）照射制导，而 AIM-7F 和 AIM-7M 可以通过连续波也可以"
+"通过脉冲多普勒照射来引导。"
 
 #: ../../source/weapons.rst:156 ../../source/weapons.rst:228
 #: ../../source/weapons.rst:310
@@ -510,13 +472,12 @@ msgstr "发射模式"
 msgid ""
 "The two available launch modes for the AIM-7 on the F-14 is the normal mode "
 "and the boresight mode. To select the AIM-7 for launch the pilot selects the "
-"SP/PH (sparrow/phoenix) position on the stick weapon selector. It is not "
-"possible to select which sparrow to be launched, this is done automatically "
-"by the WCS."
+"SP/PH (sparrow/phoenix) position on the stick weapon selector. Selection of "
+"which Sparrow to launch is done automatically by the WCS."
 msgstr ""
 "F-14 可使用正常发射模式和瞄准线发射模式发射 AIM-7 导弹。飞行员使用驾驶杆武器"
-"选择开关上的 SP/PH（“麻雀”/“不死鸟”）位置来选择发射AIM-7。然而，飞行员无法选"
-"择发射哪一个挂架上的导弹，因为这是由武器控制系统自动分配的。"
+"选择开关上的 SP/PH（“麻雀”/“不死鸟”）位置来选择发射AIM-7。武器控制系统将自动"
+"分配并选择一枚用于发射的导弹。"
 
 #: ../../source/weapons.rst:178
 msgid ""
@@ -644,7 +605,7 @@ msgid ""
 msgstr ""
 "发射 AIM-9 前需要启用引导头冷却。按下飞行员 ACM 面板的 SW COOL 开关，或在相同"
 "面板选择 ACM 模式来启用引导头冷却。此指令会冷却导弹引导头，导弹状态会立刻显示"
-"就绪，但使引导头发挥全部性能需要冷却进行至少60秒。"
+"就绪，但使引导头发挥全部性能需要进行至少60秒冷却。"
 
 #: ../../source/weapons.rst:240
 msgid "Seeker Head Modes"
@@ -683,7 +644,7 @@ msgstr ""
 "行员可以通过音调来判断目标跟踪状态。扫描时导弹会发出蜂鸣，当引导头正在观察红"
 "外光源时，蜂鸣强度会增加。"
 
-#: ../../source/weapons.rst:254 ../../source/weapons.rst:379
+#: ../../source/weapons.rst:254 ../../source/weapons.rst:378
 msgid "Missile Operation"
 msgstr "导弹操作"
 
@@ -804,15 +765,16 @@ msgid ""
 "The AIM-54 is available in two different versions, the AIM-54A and the "
 "AIM-54C. The Heatblur Simulations F-14B Tomcat is modelled with both "
 "versions as well as modelling the AIM-54A with both mk47 and mk60 rocket "
-"motors. The two motors on the AIM-54A differing in effective range and the "
-"AIM-54C differing from the AIM-54A by having a digital seeker instead of an "
-"analog one, increasing its performance."
+"motors. The two motors on the AIM-54A differing in effective range while the "
+"AIM-54C differs by having a digital seeker instead of an analog one, "
+"increasing its performance, as well as an improved, smokeless, mk47 rocket "
+"motor."
 msgstr ""
 "AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄"
 "猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 "
 "火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 "
 "AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号引导头，而不是模拟信号引"
-"导头，从而提升了性能。"
+"导头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。"
 
 #: ../../source/weapons.rst:301
 msgid ""
@@ -901,29 +863,25 @@ msgstr ""
 #: ../../source/weapons.rst:335
 msgid ""
 "Absence of this command via the AN/AWG-9 radar means that the missile won't "
-"switch to the ARH mode meaning that the AIM-54 isn't fire and forget and "
-"must be guided at least until it goes active. The AN/AWG-9, however, "
-"continues to transmit guidance commands to the missile as a fallback in case "
-"the missile can't acquire the target autonomously. This means that the "
-"AIM-54 isn't a \"fire and forget\" missile per se but it can be considered "
-"autonomous after transfer to ARH, though this transition isn't indicated in "
-"the system so the crew has to keep track of this manually."
+"switch to the ARH mode. The AN/AWG-9, however, continues to transmit "
+"guidance commands to the missile as a fallback in case the missile can't "
+"acquire the target autonomously. This means that the AIM-54 isn't a \"fire "
+"and forget\" missile per se but it can be considered autonomous after "
+"transfer to ARH."
 msgstr ""
-"如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式，所以 AIM-54 也就"
-"无法发射后不管，而且它必须受制导，直到导弹雷达开机。然而，作为备用措施，AN/"
-"AWG-9会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并"
-"非发射后不管，但可以认为导弹进入ARH模式后能够自主攻击目标，然而驾驶舱系统中并"
-"不会明确指示模式转换行为，因此机组必须手动监视导弹的状态。"
+"如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式。然而，作为备用措"
+"施，AN/AWG-9会继续向导弹传输制导指令，以防导弹无法自主获取目标。这说明AIM-54"
+"本质上并非发射后不管，但可以认为导弹进入 ARH 模式后能够自主攻击目标。"
 
 # PD STT SARH
 # 脉冲多普勒单目标 半主动制导
 # Pulse Doppler Single Target Track
 # 脉冲多普勒单目标跟踪
-#: ../../source/weapons.rst:341
+#: ../../source/weapons.rst:340
 msgid "PD STT SARH"
 msgstr ""
 
-#: ../../source/weapons.rst:343
+#: ../../source/weapons.rst:342
 msgid ""
 "In pulse doppler STT the AIM-54 uses SARH all the way to the target "
 "receiving guidance commands at a greater rate than in TWS and also continous "
@@ -935,11 +893,11 @@ msgstr ""
 "标跟踪，目标会受到持续聚焦照射。使用 PD STT 可以少许增加 AIM-54 引导头的有效"
 "搜索距离。"
 
-#: ../../source/weapons.rst:348
+#: ../../source/weapons.rst:347
 msgid "Active-Radar Homing (ARH)"
 msgstr "主动雷达制导（ARH）"
 
-#: ../../source/weapons.rst:354
+#: ../../source/weapons.rst:353
 msgid ""
 "The AIM-54 can also be commanded to go active directly after launch in both "
 "TWS and pulse doppler STT modes by setting the MSL OPTIONS switch to PH ACT "
@@ -955,7 +913,7 @@ msgstr ""
 "标后半球6海里内，或目标前半球10海里内发射导弹，WCS（武器控制系统）会自动发送"
 "这条指令，而不再使用 SARH 模式。"
 
-#: ../../source/weapons.rst:358
+#: ../../source/weapons.rst:357
 msgid ""
 "If the target is not detected actively by the seeker it will still fall back "
 "to SARH until the seeker can acquire on its own like in the two SARH modes."
@@ -963,12 +921,12 @@ msgstr ""
 "与另外两种 SARH 模式下一样，如果导弹引导头未能主动探测到目标，导弹会返回 "
 "SARH 模式，直到引导头主动截获目标。"
 
-#: ../../source/weapons.rst:362
+#: ../../source/weapons.rst:361
 msgid "ACM Active"
 msgstr "ACM 主动制导"
 
 # WCS track 指WCS正跟踪的目标？指pre-calc导弹飞行的track（轨迹）？
-#: ../../source/weapons.rst:364
+#: ../../source/weapons.rst:363
 msgid ""
 "The last mode is ACM active in which the missile is commanded active before "
 "launch making this the only mode where the missile is truly fire and forget. "
@@ -986,7 +944,7 @@ msgstr ""
 # ACM Active指AIM-54的ACM主动模式
 # -------------------
 # 文中进入ACM模式和导弹接收ACM Active指令是两个概念
-#: ../../source/weapons.rst:367
+#: ../../source/weapons.rst:366
 msgid ""
 "ACM active is commanded when BRSIT (boresight) is selected on the pilot ACM "
 "panel, when having the ACM active without a WCS track and when using a non "
@@ -1001,12 +959,12 @@ msgstr ""
 "着 ADL（武器基准线）发射，并锁定它探测到的第一个目标，但如果使用非多普勒雷达"
 "跟踪目标，发射前引导头会提前对准跟踪目标。"
 
-#: ../../source/weapons.rst:372
+#: ../../source/weapons.rst:371
 msgid "ECM Mode"
 msgstr "ECM 模式"
 
 # angle-tracking?
-#: ../../source/weapons.rst:374
+#: ../../source/weapons.rst:373
 msgid ""
 "In all of the guidance modes the seeker head automatically switches to a "
 "passive ECM follow if jammed, angle-tracking the target until it can again "
@@ -1017,7 +975,7 @@ msgstr ""
 "方位角来跟踪目标，直到引导头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自"
 "动完成的，不需要机组操作，操作员也不会收到提示。"
 
-#: ../../source/weapons.rst:381
+#: ../../source/weapons.rst:380
 msgid ""
 "The AIM-54 missile is selected with the weapon selector on the pilot stick "
 "by selecting the SP/PH (sparrow/phoenix) position and then depressing the "
@@ -1027,7 +985,7 @@ msgstr ""
 "在飞行员驾驶杆上选择 SPH/PH（麻雀/不死鸟）开关的位置，然后按下选择开关来从 "
 "SP 切换至 PH 来选择 AIM-54 导弹。再次按下武器选择开关可以重新选择 SP。"
 
-#: ../../source/weapons.rst:384
+#: ../../source/weapons.rst:383
 msgid ""
 "When used in boresight or ACM without a WCS track the HUD will not indicate "
 "any symbology apart from the ADL which is used to aim the missile."
@@ -1035,7 +993,7 @@ msgstr ""
 "在瞄准线模式下，或者在 ACM 模式且 WCS 无跟踪目标的情况下发射 AIM-54 时，除了"
 "用于瞄准导弹的 ADL 线外，HUD上不会显示任何标识。"
 
-#: ../../source/weapons.rst:386
+#: ../../source/weapons.rst:385
 msgid ""
 "When selected with a WCS track in STT the HUD will display the Target "
 "Designator and if a TCS track exists, the Movable Reticle overlaying the "
@@ -1051,22 +1009,22 @@ msgstr ""
 
 # Track While Scan
 # 注意翻译成汉语的语序：边搜索边跟踪
-#: ../../source/weapons.rst:393
+#: ../../source/weapons.rst:392
 msgid "TWS"
 msgstr ""
 
-#: ../../source/weapons.rst:395
+#: ../../source/weapons.rst:394
 msgid ""
-"When using the AIM-54 with TWS the WCS automatically prioritises the tracked "
+"When using the AIM-54 with TWS the WCS automatically prioritizes the tracked "
 "targets, giving them a firing order number indicating missile launch order. "
-"As the first target is launched at the first tracks number is removed and "
-"the other tracks numbers are decreased by one."
+"As the first target is launched at the first track's number is removed and "
+"the other tracks' numbers are decreased by one."
 msgstr ""
 "在 TWS 模式下使用 AIM-54时，WCS 会自动分配跟踪目标的优先级，给每个目标指定一"
 "个发射序号，表示导弹的发射顺序。向第一个目标发射导弹后，目标上的发射序号会消"
 "失，所有其他目标的发射序号分别减少 1。"
 
-#: ../../source/weapons.rst:398
+#: ../../source/weapons.rst:397
 msgid ""
 "To continue to engage track 2 through 6 the pilot thus depresses the trigger "
 "once for each target, waits until the missile is clear and then depresses "
@@ -1076,7 +1034,7 @@ msgstr ""
 "依次对每个目标按下一次扳机来继续攻击跟踪目标 2 至 6，等前一枚导弹离轨后再按下"
 "扳机，直到希望发射的导弹全部发射完毕。"
 
-#: ../../source/weapons.rst:400
+#: ../../source/weapons.rst:399
 msgid ""
 "After missile launch the prioritisation numbers on the right side of the "
 "targeted tracks are replaced with the TTI or Time to Impact number, showing "
@@ -1089,7 +1047,7 @@ msgstr ""
 "这是计算出的导弹命中目标所需时间。此外，当 AN/AWG-9 向导弹发送开机指令时，"
 "TTI 数字会闪烁，表示跟踪目标的导弹已经接收主动模式开机指令。"
 
-#: ../../source/weapons.rst:403
+#: ../../source/weapons.rst:402
 msgid ""
 "The targets currently under missile attack brightens until estimated time to "
 "target plus 15 seconds has elapsed and when at 15 seconds past estimated "
@@ -1099,12 +1057,12 @@ msgstr ""
 "正被导弹攻击的目标会保持高亮，直到预计命中时间 + 15秒，经过预计命中时间 + 15"
 "秒后，VDI、DDD和TID上会显示脱离“X”标识。"
 
-#: ../../source/weapons.rst:405
+#: ../../source/weapons.rst:404
 msgid ""
 "For more info regarding the applicable TID symbology see :ref:`TIDSYMB`."
 msgstr "TID 标识信息详见 :ref:`TIDSYMB` 。"
 
-#: ../../source/weapons.rst:410
+#: ../../source/weapons.rst:409
 msgid ""
 "It is possible to force the WCS to include a target by setting it to "
 "mandatory attack using the CAP and also to exclude a target by setting it to "
@@ -1117,7 +1075,7 @@ msgstr ""
 "RIO 武器面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先"
 "级目标。"
 
-#: ../../source/weapons.rst:413
+#: ../../source/weapons.rst:412
 msgid ""
 "If not already in TWS AUTO the WCS automatically switches to this mode thus "
 "assuming control over the AN/AWG-9 radar to keep the engaged targets "
@@ -1128,7 +1086,7 @@ msgstr ""
 "达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示 TWS 扫描范围的中心"
 "点。"
 
-#: ../../source/weapons.rst:416
+#: ../../source/weapons.rst:415
 msgid ""
 "The HUD and VDI displays a steering cue guiding the pilot towards optimal "
 "target illumination and also displays range and Rmin and Rmax to target "
@@ -1141,11 +1099,11 @@ msgstr ""
 "\\ :sub:`max`\\ 。TID 上显示了完整的攻击符号标识，包括目标优先级编号和每个目"
 "标的最优发射距离，详见 :ref:`TWS`。"
 
-#: ../../source/weapons.rst:421
+#: ../../source/weapons.rst:420
 msgid "Air-to-Ground Weapons"
 msgstr "空对地武器"
 
-#: ../../source/weapons.rst:423
+#: ../../source/weapons.rst:422
 msgid ""
 "Despite being primarily designed as an air superioty fighter and an "
 "interceptor the F-14 was from the very start cleared and tested to carry all "
@@ -1157,7 +1115,7 @@ msgstr ""
 "评估测试，可以挂载所有美国现代 Mk-80 系列通用航空炸弹（GP）。此外，它还可以挂"
 "载 Mk-20 “石眼”集束炸弹以及五英寸折翼式航空火箭弹（FFAR）。"
 
-#: ../../source/weapons.rst:426
+#: ../../source/weapons.rst:425
 msgid ""
 "As the F-14's combat role changed to include the precision ground attack "
 "mission it was also cleared to carry several of the guided bomb unit (GBU) "
@@ -1167,17 +1125,17 @@ msgstr ""
 "随着 F-14 的作战职能逐渐转变为对地精确打击任务，它也被用于挂载几种安装了炸弹"
 "制导单元（GBU）的 Mk-80 系列炸弹，准确的说，是这些炸弹的激光制导型号。"
 
-#: ../../source/weapons.rst:430
+#: ../../source/weapons.rst:429
 msgid "Air-to-Ground Weapon Settings"
 msgstr "空对地武器设定"
 
-#: ../../source/weapons.rst:434
+#: ../../source/weapons.rst:433
 msgid ""
 "The air-to-ground weapon delivery is set up by the RIO on his armament panel "
 "on the left vertical panel of the RIO cockpit."
 msgstr "空对地武器投放是由 RIO 使用后座左垂直面板中的武器面板来设置的。"
 
-#: ../../source/weapons.rst:436
+#: ../../source/weapons.rst:435
 msgid ""
 "The type of munition for delivery is set up by the wheel on the top of the "
 "panel, turning it to the correct munition. This configures the WCS with the "
@@ -1186,7 +1144,7 @@ msgstr ""
 "使用面板顶部的 WPN TYPE 转轮来选择投放弹药的类型，将其转动到对应的档位。这将"
 "为武器控制系统配置所选弹药的正确投放参数。"
 
-#: ../../source/weapons.rst:439
+#: ../../source/weapons.rst:438
 msgid ""
 "The Mk-81, 82 and 83 have both a L and a H option being for low-drag and "
 "high-drag versions respectively."
@@ -1194,7 +1152,7 @@ msgstr ""
 "Mk-81、Mk-82 和 Mk-83都分别有 “L”（低阻）和 “H”（高阻）的选项，以区分航弹的低"
 "阻和高阻型号。"
 
-#: ../../source/weapons.rst:441
+#: ../../source/weapons.rst:440
 msgid ""
 "Under DLVY MODE (delivery mode) it is possible to set STP/RPL (step/ripple) "
 "and SGL/PRS (single/pairs). The possible combinations are:"
@@ -1202,13 +1160,13 @@ msgstr ""
 "在 DLVY MODE（投放模式）选择开关上，可以设置 STP / RPL（逐个/连续）和 SGL / "
 "PRS（单个/成对）投放选项。所有可能的组合如下："
 
-#: ../../source/weapons.rst:444
+#: ../../source/weapons.rst:443
 msgid ""
 "STP and SGL - Releases one store with each depression of the bomb relase "
 "button on the pilot stick."
 msgstr "STP 和 SGL - 驾驶杆上的炸弹投放按钮，每按下一次投放一枚炸弹。"
 
-#: ../../source/weapons.rst:445
+#: ../../source/weapons.rst:444
 msgid ""
 "STP and PRS - As with STP and SGL but each depression of the bomb release "
 "button on the pilot stick releases a pair of stores. Only works for paired "
@@ -1217,7 +1175,7 @@ msgstr ""
 "STP 和 PRS - 与 STP 和 SGL 类似，投放按钮每按下一次投放一对炸弹。这个模式只适"
 "用于配对的挂架，挂架 1 对应挂架 8，挂架 3 对应挂架 6，挂架 4 对应挂架 5。"
 
-#: ../../source/weapons.rst:446
+#: ../../source/weapons.rst:445
 msgid ""
 "RPL and SGL - Used with all attack modes, each depression of the bomb "
 "release button on the pilot stick releases set amount of stores set by the "
@@ -1228,7 +1186,7 @@ msgstr ""
 "拨轮设置投放数量和间隔（单位是毫秒）后，投放按钮每按下一次，飞机都会以设定的"
 "投放间隔和数量进行投放。"
 
-#: ../../source/weapons.rst:447
+#: ../../source/weapons.rst:446
 msgid ""
 "RPL and PRS - As RPL and SGL but each release pulse releases a pair of "
 "stores, QTY still sets total amount of stores to be released."
@@ -1236,7 +1194,7 @@ msgstr ""
 "RPL 和 PRS - 与 RPL 和 SGL 类似，但每按一次投放按钮投放一对炸弹，使用 QTY 拨"
 "轮来设置需要投放的炸弹总数。"
 
-#: ../../source/weapons.rst:449
+#: ../../source/weapons.rst:448
 msgid ""
 "The MECH FUSE switch sets which mechanical fuse to arm on the stores. NOSE "
 "arms the nose fuse, SAFE inhibits arming of the fuses and NOSE/TAIL arms "
@@ -1245,33 +1203,33 @@ msgstr ""
 "使用 MECH FUSE 开关来选择挂载引信。NOSE 启用前部引信，SAFE 禁止引信激活，而 "
 "NOSE/TAIL 同时启用前部引信和尾部引信。"
 
-#: ../../source/weapons.rst:451
+#: ../../source/weapons.rst:450
 msgid ""
 "The ELEC FUSE selector knob sets the electrical fuse of the store to be "
 "released:"
 msgstr "使用 ELEC FUSE 旋钮开关来设置投放挂载的电子引信类型："
 
-#: ../../source/weapons.rst:453
+#: ../../source/weapons.rst:452
 msgid "SAFE - Inhibits electrical bomb fusing."
 msgstr "SAFE - 禁止炸弹电子引信激活"
 
-#: ../../source/weapons.rst:454
-msgid "VT - Sets air-burst mode at preset burst heigh for compatible stores."
+#: ../../source/weapons.rst:453
+msgid "VT - Sets air-burst mode at preset burst height for compatible stores."
 msgstr "VT - 选择兼容挂载的空爆模式，挂载将使用预设的起爆高度。"
 
-#: ../../source/weapons.rst:455
+#: ../../source/weapons.rst:454
 msgid "INST - Sets instantaneous burst mode."
 msgstr "INST - 选择瞬爆模式"
 
-#: ../../source/weapons.rst:456
+#: ../../source/weapons.rst:455
 msgid "DLY 1 - Sets preset time delay 1."
 msgstr "DLY 1 - 选择预设的起爆延迟 1"
 
-#: ../../source/weapons.rst:457
+#: ../../source/weapons.rst:456
 msgid "DLY 2 - Sets preset time delay 2."
 msgstr "DLY 2 - 选择预设的起爆延迟 2"
 
-#: ../../source/weapons.rst:459
+#: ../../source/weapons.rst:458
 msgid ""
 "The INTERVAL and QTY (quantity) wheels set the release interval (in "
 "milliseconds) and quantity of stores to be released, compatible with the "
@@ -1280,7 +1238,7 @@ msgstr ""
 "INTERVAL 和 QTY 用于设定 DLVY MODE 选择开关对应的投放模式，两个转轮分别设置了"
 "挂载投放间隔（单位是毫秒）和投放数量。"
 
-#: ../../source/weapons.rst:461
+#: ../../source/weapons.rst:460
 msgid ""
 "Lastly, the 6 STA SEL (station select) switches set which pylons to use for "
 "store delivery. (Also used for selection of what stores to jettison.) To "
@@ -1293,7 +1251,7 @@ msgstr ""
 "时，应将对应的开关拨至 B 档位。开关的 SW 档位曾用于抛离 AIM-9 “响尾蛇”导弹，"
 "但现已无法使用。"
 
-#: ../../source/weapons.rst:464
+#: ../../source/weapons.rst:463
 msgid ""
 "All F-14 bombs in DCS are assumed to have both types of fuzes so need both "
 "the mechanical and electrical fuze set. GBUs, Mk-20s and Mk-81 to 84s need "
@@ -1306,11 +1264,11 @@ msgstr ""
 "有球状高阻尾部附件）和 Mk-82 “蛇眼”炸弹时，选择 Nose 档位会使投放的炸弹自由下"
 "落，而选择 Nose/Tail 会启用炸弹尾部的阻力机构。"
 
-#: ../../source/weapons.rst:467
+#: ../../source/weapons.rst:466
 msgid "Air-to-Ground Weapon Delivery"
 msgstr "空对地武器投放"
 
-#: ../../source/weapons.rst:469
+#: ../../source/weapons.rst:468
 msgid ""
 "Air-to-ground delivery is initiated by pilot selection of the A/G mode on "
 "the display control panel. After tape read-in (about 30 seconds) the WCS "
@@ -1322,7 +1280,7 @@ msgstr ""
 "号。"
 
 # original sentence makes no sense
-#: ../../source/weapons.rst:472
+#: ../../source/weapons.rst:471
 msgid ""
 "The weapon selection automatically switches to ordnance (ORD on the HUD) "
 "unless the pilot has selected another weapon. All other options are set by "
@@ -1331,15 +1289,14 @@ msgstr ""
 "除非飞行员已经选择了其他武器，否则 HUD 会自动切换至（对地）挂载模式（HUD 中显"
 "示 ORD）。所有其他投放选项都由后座 RIO 设置。"
 
-#: ../../source/weapons.rst:475
+#: ../../source/weapons.rst:474
 msgid ""
 "The available attack modes in the F-14B are set by the ATTK MODE selector in "
-"the pilot pit and are:"
+"the RIO pit and are:"
 msgstr ""
-"飞行员驾驶舱内的 ATTK MODE 选择开关用于选择攻击模式，所有可用的攻击模式分别"
-"是："
+"RIO 驾驶舱内的 ATTK MODE 选择开关用于选择攻击模式，所有可用的攻击模式分别是："
 
-#: ../../source/weapons.rst:477
+#: ../../source/weapons.rst:476
 msgid ""
 "CMPTR TGT - Computer target, a semi-automatic computer guided mode similar "
 "to a CCRP mode in newer aircraft."
@@ -1347,7 +1304,7 @@ msgstr ""
 "CMPTR TGT - 计算机目标模式，这是一种半自动计算机引导模式，类似于新型战机中的 "
 "CCRP（连续计算投放点）模式。"
 
-#: ../../source/weapons.rst:478
+#: ../../source/weapons.rst:477
 msgid ""
 "CMPTR IP - Computer initial point, an extended CMPTR TGT mode using a known "
 "initial point (IP) as reference for store delivery. Mostly used in "
@@ -1358,7 +1315,7 @@ msgstr ""
 "点作为挂载投放参考点。通常在预期目标难以被目视定位，但其附近有易于识别的参考"
 "点/地标的情况下使用。"
 
-#: ../../source/weapons.rst:479
+#: ../../source/weapons.rst:478
 msgid ""
 "CMPTR PLT - Computer pilot, a manual computer and pilot guided mode using "
 "the WCS for store impact point indication on HUD. Similar to a CCIP mode in "
@@ -1368,7 +1325,7 @@ msgstr ""
 "的、由计算机引导，飞行员手动操控的导引模式。它类似于新型战机中的 CCIP（连续计"
 "算命中点）模式"
 
-#: ../../source/weapons.rst:480
+#: ../../source/weapons.rst:479
 msgid ""
 "MAN - Manual, manual backup mode in which the HUD displays a pipper "
 "(crosshair) on the HUD at the deflection set by the pilot. Used in case of a "
@@ -1377,7 +1334,7 @@ msgstr ""
 "MAN - 手动模式是空对地模式的备用模式。该模式下，HUD 上会显示一个下压角度可调"
 "的准星（十字准线）。用于系统出现故障，其他模式无法启用时。"
 
-#: ../../source/weapons.rst:481
+#: ../../source/weapons.rst:480
 msgid ""
 "D/L BOMB - Data-link bomb, an automatic mode in which the pilot is steered "
 "via data-link cues for remotely controlled store delivery. (Not implemented "
@@ -1386,11 +1343,11 @@ msgstr ""
 "D/L 投弹模式 - 数据链投弹模式是一种驾驶员通过数据链路的提示来操纵飞机，在远程"
 "数据链控制下完成挂载投放的攻击模式（DCS中尚未实装此功能）。"
 
-#: ../../source/weapons.rst:485
+#: ../../source/weapons.rst:484
 msgid "Computer Target"
 msgstr "计算机目标模式"
 
-#: ../../source/weapons.rst:488
+#: ../../source/weapons.rst:487
 msgid ""
 "The computer target mode allows the pilot to designate a target onto which "
 "the WCS then guides the pilot towards store release. This mode is usable for "
@@ -1399,7 +1356,7 @@ msgstr ""
 "计算机目标模式允许飞行员指定目标，然后由 WCS 引导飞行员控制飞机飞向投弹点。 "
 "此模式适用于所有空对地挂载，包括火箭弹。"
 
-#: ../../source/weapons.rst:491
+#: ../../source/weapons.rst:490
 msgid ""
 "When selected the HUD displays the diamond as target designator and the bomb "
 "fall line (BFL) through the velocity vector and store impact point pipper "
@@ -1411,7 +1368,7 @@ msgstr ""
 # #-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # #-#-#-#-#  weapons_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # Then UP/DN on the target designate switch on the left wall of the pilot cockpit is used to slew the target designator along the BFL until it overlays the target.是旋转吗？
-#: ../../source/weapons.rst:493
+#: ../../source/weapons.rst:492
 msgid ""
 "To designate a target the pilot steers the aircraft in azimuth to place the "
 "target along the BFL. Then UP/DN on the target designate switch on the left "
@@ -1423,7 +1380,7 @@ msgstr ""
 "目标指示开关的 UP / DN 来调整目标指示符位置，直到指示符覆盖目标。这时，按下目"
 "标指定开关下按至 DES 位置来指定目标。"
 
-#: ../../source/weapons.rst:497
+#: ../../source/weapons.rst:496
 msgid ""
 "After designation the target designation diamond becomes stabilized to the "
 "designated position on the ground and the AN/AWG-9 is slewed to it for range "
@@ -1438,7 +1395,7 @@ msgstr ""
 
 # until the solution cues reaches them?
 # until solution cues reaches velocity vector and impact point? does not make sense
-#: ../../source/weapons.rst:501
+#: ../../source/weapons.rst:500
 msgid ""
 "The pilot should now fly the velocity vector and store impact point over the "
 "BFL until the solution cues reaches them. The lower solution cue indicates "
@@ -1456,7 +1413,7 @@ msgstr ""
 # #-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # #-#-#-#-#  weapons_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # .When it reaches the velocity vector it indicates that the aircraft is below safe altitude for store release.感觉不对
-#: ../../source/weapons.rst:505
+#: ../../source/weapons.rst:504
 msgid ""
 "The pull up cue (bracket on the HUD) moves upwards on the HUD towards the "
 "velocity vector with decreasing altitude. When it reaches the velocity "
@@ -1466,11 +1423,11 @@ msgstr ""
 "随着飞机高度降低，HUD 上的拉起标识（开口方向朝上的方括号）朝着速度矢量符向上"
 "移动。 当它与速度矢量符重合时，表示飞机低于投放挂载的安全高度。"
 
-#: ../../source/weapons.rst:511
+#: ../../source/weapons.rst:510
 msgid "Computer Initial Point"
 msgstr "计算机初始点模式"
 
-#: ../../source/weapons.rst:513
+#: ../../source/weapons.rst:512
 msgid ""
 "Functionally identical to the Computer target mode except that a preset "
 "initial point (IP) is designated instead of the actual target. The IP is "
@@ -1480,14 +1437,14 @@ msgstr ""
 "定目标的位置，而不是实际的目标位置。这个 IP 点在起飞前通过数据链路或由 RIO "
 "在 CAP（计算机位址面板）中手动设置。"
 
-#: ../../source/weapons.rst:516
+#: ../../source/weapons.rst:515
 msgid ""
 "The IP waypoint should be a terrain feature expected to be visually "
 "identifiable by the pilot even if the target is not."
 msgstr ""
 "IP 航路点应该是易于飞行员目视辨认的地形特征，即使实际目标不容易被识别。"
 
-#: ../../source/weapons.rst:518
+#: ../../source/weapons.rst:517
 msgid ""
 "To set the CAP the RIO designates the location of the IP waypoint as per the "
 "other waypoints in the system. (See CAP heading under AN/AWG-9 in the "
@@ -1502,7 +1459,7 @@ msgstr ""
 # still very confusing though
 # ---
 # original rST is badly formatted
-#: ../../source/weapons.rst:520
+#: ../../source/weapons.rst:519
 msgid ""
 "The message (function) IP TO TGT on the CAP under the TAC DATA category is "
 "then used with the prefixes ALT, RNG and BRG to readout and set the "
@@ -1515,11 +1472,11 @@ msgstr ""
 "目标相对于 IP 航路点的高度差。* RNG - 设置目标相对 IP 航路点的距离。* BRG - "
 "设置目标相对 IP 航路点的方位。"
 
-#: ../../source/weapons.rst:525
+#: ../../source/weapons.rst:524
 msgid ""
-"When the pilot designate the IP visually on the HUD the WCS recalculates the "
-"target location using the data set under the IP TO TGT function on the CAP, "
-"moves the target diamond to that location and instead displays guidance "
+"When the pilot designates the IP visually on the HUD the WCS recalculates "
+"the target location using the data set under the IP TO TGT function on the "
+"CAP, moves the target diamond to that location and instead displays guidance "
 "towards the real target location."
 msgstr ""
 "飞行员在 HUD 上目视指定 IP 点后，WCS 会根据 CAP 中 IP TO TGT 功能所设置的数据"
@@ -1527,23 +1484,23 @@ msgstr ""
 "IP 航路点位置切换至目标实际位置。"
 
 # 所有其他？
-#: ../../source/weapons.rst:527
+#: ../../source/weapons.rst:526
 msgid ""
 "All other functions of this mode are identical to the Computer target mode."
 msgstr "此模式下的其他功能与计算机目标模式下的功能相同。"
 
-#: ../../source/weapons.rst:531
+#: ../../source/weapons.rst:530
 msgid "Computer Pilot"
 msgstr "计算机引导模式"
 
-#: ../../source/weapons.rst:534
+#: ../../source/weapons.rst:533
 msgid ""
 "The computer pilot mode uses the WCS to continually calculate and display an "
 "impact point for the configured store on the HUD."
 msgstr "计算机引导模式通过 WCS 连续计算并在 HUD 中 显示当前配置挂载的落点。"
 
 #  As in the Computer target and IP modes the pull-up cue is used to indicate aircraft below safe store release altitude when at or above the velocity vector.同147这个velocity vector速度矢量符？？？？
-#: ../../source/weapons.rst:536
+#: ../../source/weapons.rst:535
 msgid ""
 "When selected the HUD displays the current store impact point in real-time "
 "using the pipper (crosshair). The target designation diamond is used when "
@@ -1559,7 +1516,7 @@ msgstr ""
 
 # correctly?
 # engage the correct target?
-#: ../../source/weapons.rst:540
+#: ../../source/weapons.rst:539
 msgid ""
 "To correctly engage the desired target the pilot flies the impact point "
 "pipper on the HUD over the target and then depresses the bomb release button."
@@ -1567,7 +1524,7 @@ msgstr ""
 "飞行员需要控制飞机，将 HUD 中的落点准星置于目标上，并按下武器投放按钮来攻击目"
 "标。"
 
-#: ../../source/weapons.rst:542
+#: ../../source/weapons.rst:541
 msgid ""
 "When using rockets the pilot should wait until the diamond dissappears, "
 "indicating that the selected store is within range and then use the control "
@@ -1576,17 +1533,17 @@ msgstr ""
 "使用火箭弹攻击时，飞行员应该等到准星上的菱形消失，这表示目标在火箭弹的射程"
 "内，然后使用扳机发射火箭弹。"
 
-#: ../../source/weapons.rst:546
+#: ../../source/weapons.rst:545
 msgid "Manual"
 msgstr "手动模式"
 
-#: ../../source/weapons.rst:549
+#: ../../source/weapons.rst:548
 msgid ""
 "The manual Air-to-ground mode is used as a back-up when the other modes are "
 "unavailable."
 msgstr "其他模式不可用时，需要使用手动模式作为空对地备用模式。"
 
-#: ../../source/weapons.rst:551
+#: ../../source/weapons.rst:550
 msgid ""
 "By principle it works the same as the Computer pilot mode in that the pilot "
 "should fly the pipper on the HUD over the desired target. The pipper is in "
@@ -1601,7 +1558,7 @@ msgstr ""
 # #-#-#-#-#  weapons.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # #-#-#-#-#  weapons_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # elevation lead是类似于提前量一类的东西吧？
-#: ../../source/weapons.rst:554
+#: ../../source/weapons.rst:553
 msgid ""
 "This is set using the elevation lead panel on the pilot right side vertical "
 "panel using weapon engagement tables or by pilot estimation."
@@ -1609,17 +1566,17 @@ msgstr ""
 "这个提前量是由飞行员根据一张预制的武器投放表（对应空速、高度和俯冲角度）估"
 "算，然后在右侧垂直面板中的准星提前量设置面板上调定的。"
 
-#: ../../source/weapons.rst:558
+#: ../../source/weapons.rst:557
 msgid "Mk-81, 82, 83 and 84 GP Bombs"
 msgstr "Mk-81、Mk-82、Mk-83 和 Mk-84 通用航空炸弹"
 
-#: ../../source/weapons.rst:561
+#: ../../source/weapons.rst:560
 msgid ""
 "U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030321-"
 "N-0382O-506)"
 msgstr "由美国海军摄影师 Justin S. Osborne 拍摄（030321-N-0382O-506）"
 
-#: ../../source/weapons.rst:563
+#: ../../source/weapons.rst:562
 msgid ""
 "The Mk-80 series bombs are the standard general purpose bombs used by the US "
 "Navy and allies and where first dropped in combat during the Vietnam war. "
@@ -1635,7 +1592,7 @@ msgstr ""
 "Mk-82炸弹的这些高阻型号在 DCS 中被称为 MK-82“蛇眼”（弹翼）和 MK-82AIR（充气增"
 "阻附件）。"
 
-#: ../../source/weapons.rst:567
+#: ../../source/weapons.rst:566
 msgid ""
 "The F-14B is capable of carrying all the various bombs in the Mk-80s series, "
 "81 through to 84. While the ground attack mission never really materialised "
@@ -1647,7 +1604,7 @@ msgstr ""
 "使用。"
 
 # 不会
-#: ../../source/weapons.rst:570
+#: ../../source/weapons.rst:569
 msgid ""
 "The F-14 uses the Phoenix rails (stations 3-6) and the glove pylons' lower "
 "stations to mount the bombs. The rails themselves can carry all four "
@@ -1658,7 +1615,7 @@ msgstr ""
 "弹。“机身挂架的导轨本身可以挂载 Mk-80 系列的所有四种型号，而 Mk-81 至 Mk-83 "
 "也可以安装在机身挂架子挂架的连接点和翼套挂架的三联装挂架（TER）上。"
 
-#: ../../source/weapons.rst:573
+#: ../../source/weapons.rst:572
 msgid ""
 "All of the Mk-80 bombs has nose fuzes only and should be dropped with the "
 "nose (N) fuze setting on the mechanical fuze switch on the RIO armament "
@@ -1670,7 +1627,7 @@ msgstr ""
 "关来设置启用弹头引信（N）。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启动增"
 "阻装置，这意味着，如需使用高阻炸弹，应选择头部/尾部（N/T）机械引信。"
 
-#: ../../source/weapons.rst:576
+#: ../../source/weapons.rst:575
 msgid ""
 "The total amount of the different bombs carried depends on weapon weight and "
 "weapon clearance between the rails, the actual number varies from 18 for the "
@@ -1681,17 +1638,17 @@ msgstr ""
 "从18枚 Mk-81 或 Mk-82 到4枚 Mk-84 不等，因为 Mk-84 只能直接安装在导轨上（而不"
 "能使用 TER）。详细的挂载信息请参考下文中的 F-14 挂载示意图。"
 
-#: ../../source/weapons.rst:581
+#: ../../source/weapons.rst:580
 msgid "GBU-10, 12, 16 and 24"
 msgstr "GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹"
 
-#: ../../source/weapons.rst:584
+#: ../../source/weapons.rst:583
 msgid ""
 "U.S. Navy photo by Photographer's Mate Airman Milosz Reterski. (040105-"
 "N-9742R-001)"
 msgstr "由美国海军摄影师 Milosz Reterski 拍摄（040105-N-9742R-001）"
 
-#: ../../source/weapons.rst:586
+#: ../../source/weapons.rst:585
 msgid ""
 "The GBU (guided bomb unit) are bombs from the Mk-80s series with an attached "
 "seeker unit and fin (control) unit converting them into guided precision "
@@ -1702,7 +1659,7 @@ msgstr ""
 "炸弹。F-14B 挂载的 GBU 炸弹——准确的说是激光制导炸弹——分别是 GBU-10、GBU-12、"
 "GBU-16 和 GBU-24。"
 
-#: ../../source/weapons.rst:588
+#: ../../source/weapons.rst:587
 msgid ""
 "When the F-14B gained the ability to mount and use the LANTIRN pod it was "
 "also cleared to carry some of the GBU variants of the Mk-80 series bombs. It "
@@ -1713,30 +1670,32 @@ msgstr ""
 "的测试。GBU 炸弹可以通过 F-14 自机携带的 LANTIRN 吊舱进行激光制导，也可由其他"
 "飞机或地面的激光指示制导。"
 
-#: ../../source/weapons.rst:591
+#: ../../source/weapons.rst:590
 msgid ""
 "The GBUs carried are mounted on the Phoenix rails themselves on stations 3-6 "
 "as the additional size of a GBU compared to a normal Mk-80 series bomb makes "
 "it impossible to use the substations on the rails for those. Each station is "
-"capable of carrying one GBU up to the size of the GBU-10. As for the GBU-24 "
-"they need to be carried one each on the front and back rails and on opposite "
-"sides of the aircraft as the GBU-24 is larger than the GBU-10."
+"capable of carrying one GBU up to the size of the GBU-16. As for the GBU-10 "
+"and 24, the 10 can be carried on the front rails (3 and 6) and the 24 on one "
+"front rail and one back rail as they need to be carried on opposite sides of "
+"the aircraft due to the larger wing assembly."
 msgstr ""
 "F-14 挂载的 GBU 直接安装在“不死鸟”挂架3到挂架6的导轨上，因为 GBU 相较常规 "
-"Mk-80 炸弹尺寸有所增加，所以 GBU 炸弹无法适配子挂架。如果挂载 GBU-10 或其他尺"
-"寸小于 GBU-10 的炸弹，则每个“不死鸟”挂架都可挂载一枚 GBU。但如果需要挂载 "
-"GBU-24，则两枚必须分别挂在一侧的前挂架和另一侧后挂架上，因为 GBU-24 比 "
-"GBU-10 的尺寸更大。"
+"Mk-80 炸弹尺寸有所增加，所以 GBU 炸弹无法适配子挂架。如果挂载 GBU-16 或其他尺"
+"寸小于 GBU-16 的炸弹，则每个“不死鸟”挂架都可挂载一枚 GBU。但如果需要挂载两枚 "
+"GBU-10 或 GBU-24，GBU-10 可以挂在两个前挂架导轨（挂架3和挂架6），而两枚 "
+"GBU-24 必须分别挂在一侧的前挂架和另一侧后挂架上，因为 GBU-24 的尾部套件的弹翼"
+"尺寸更大。"
 
-#: ../../source/weapons.rst:594
+#: ../../source/weapons.rst:593
 msgid "GBU laser codes are set as per :ref:`MESET` or via the kneeboard."
 msgstr "GBU 激光代码可以通过 :ref:`MESET` 或飞行员膝板来设置。"
 
-#: ../../source/weapons.rst:598
+#: ../../source/weapons.rst:597
 msgid "Mk-20 Rockeye"
 msgstr "Mk-20“石眼”炸弹"
 
-#: ../../source/weapons.rst:600
+#: ../../source/weapons.rst:599
 msgid ""
 "The Mk-20 Rockeye is a conventional free fall bomb like the Mk-80 series "
 "bombs but instead of a conventional charge it carries anti-tank "
@@ -1749,7 +1708,7 @@ msgstr ""
 "在设定的高度释放子弹药，这种设计是为了将子弹药分散到更广的区域，增加杀伤效"
 "果。"
 
-#: ../../source/weapons.rst:604
+#: ../../source/weapons.rst:603
 msgid ""
 "The fuze height itself is set by the ground crew as they're loaded and can't "
 "be changed by the pilot. To arm the Rockeye correctly the mechanical fuse "
@@ -1758,7 +1717,7 @@ msgstr ""
 "引信激活高度只能由地勤人员在装载时调定的，飞行员不能改变引信高度。投放“石"
 "眼”时，应将机械引信设置为头部引信（N）。"
 
-#: ../../source/weapons.rst:607
+#: ../../source/weapons.rst:606
 msgid ""
 "The F-14B can carry up to 10 Mk-20 Rockeyes using the Phoenix rails and "
 "substations as well as TERs on the glove pylons."
@@ -1766,17 +1725,17 @@ msgstr ""
 "F-14B可以使用“不死鸟”导弹挂架、子挂点和翼套挂架连接的三联装挂架（TER）携带多"
 "达10枚Mk-20“石眼”。"
 
-#: ../../source/weapons.rst:609
+#: ../../source/weapons.rst:608
 msgid ""
 "Additional fuse settings (FMU-140 fuse) pending additional weapon code "
 "implementation."
 msgstr "其他的引信设置（FMU-140引信）需等到武器代码实装后。"
 
-#: ../../source/weapons.rst:613
+#: ../../source/weapons.rst:612
 msgid "Zuni Rockets"
 msgstr "“祖尼”火箭弹"
 
-#: ../../source/weapons.rst:615
+#: ../../source/weapons.rst:614
 msgid ""
 "The Zuni 5-inch folding-fin aircraft rocket (FFAR) was developed to replace "
 "the high velocity aircraft rocket (HVAR) of world war 2 vintage. As part of "
@@ -1786,7 +1745,7 @@ msgstr ""
 "“祖尼”5英寸折叠翼航空火箭弹 （FFAR）是为了取代二战时期的高速飞机火箭弹"
 "（HVAR）而开发的。模块化设计使它能安装不同的弹头和引信。"
 
-#: ../../source/weapons.rst:618
+#: ../../source/weapons.rst:617
 msgid ""
 "The Zuni rockets are carried in LAU-10 pods, each carrying 4 rockets. The "
 "pods can fire in either salvo mode or ripple mode, salvo launching one "
@@ -1795,7 +1754,7 @@ msgstr ""
 "每个 LAU-10 吊舱可以装载4枚“祖尼”火箭弹，这个吊舱可以使用两种齐射模式开火，从"
 "所有火箭弹巢中发射一枚，或发射所有火箭弹。"
 
-#: ../../source/weapons.rst:620
+#: ../../source/weapons.rst:619
 msgid ""
 "The F-14B Tomcat can carry LAU-10 rocket pods on stations 1B, 3, 6 and 8B "
 "using TERs, each TER holding up to two pods except on of either 3 or 6 which "
@@ -1812,7 +1771,7 @@ msgstr ""
 "接 TER，内挂架会与主起落架冲突，而 3 号和 6 号挂架上的 TER，如果内侧挂点连接"
 "吊舱则会与机身冲突。"
 
-#: ../../source/weapons.rst:624
+#: ../../source/weapons.rst:623
 msgid ""
 "The Zuni rockets are set up for launch by the RIO on the armament panel as "
 "with bombs, the delivery mode (DLVY MODE) switches being used to configure "
@@ -1821,11 +1780,11 @@ msgstr ""
 "“祖尼”火箭由 RIO 使用武器面板设置，投放参数和选项与普通炸弹一致，投放模式"
 "（DLVY 模式）开关用于配置一次开火中用于齐射火箭弹的吊舱的数量。"
 
-#: ../../source/weapons.rst:628
+#: ../../source/weapons.rst:627
 msgid "BDU-33 Practice Bombs"
 msgstr "BDU-33 训练弹"
 
-#: ../../source/weapons.rst:630
+#: ../../source/weapons.rst:629
 msgid ""
 "The BDU-33 practice bomb is a training round used to simulate a Mk-82 "
 "general purpose bomb for training purposes. They can be carried three to a "
@@ -1834,25 +1793,25 @@ msgstr ""
 "BDU-33 训练弹是一种用于模拟 Mk-82 通用航空炸弹的训练弹。F-14B 可以在 3 号、4 "
 "号、5 号和 6 号的三联装挂架挂架上挂载 BDU-33。"
 
-#: ../../source/weapons.rst:633
+#: ../../source/weapons.rst:632
 msgid "They are set up for release as with the real general purpose bombs."
 msgstr "BDU-33 训练弹的投放流程与投放通用航空炸弹实弹没有区别。"
 
-#: ../../source/weapons.rst:637
+#: ../../source/weapons.rst:636
 msgid "Special Munitions"
 msgstr "特种弹药"
 
-#: ../../source/weapons.rst:640
+#: ../../source/weapons.rst:639
 msgid "ADM-141 TALD"
 msgstr "ADM-141 TALD（战术空射诱饵）"
 
-#: ../../source/weapons.rst:643
+#: ../../source/weapons.rst:642
 msgid ""
 "U.S. Navy photo by Photographer's Mate 3rd Class Mark J. Rebilas. (041018-"
 "N-6213R-021)"
 msgstr "由美国海军摄影师 Mark J. Rebilas 拍摄（041018-N-6213R-021）"
 
-#: ../../source/weapons.rst:645
+#: ../../source/weapons.rst:644
 msgid ""
 "The ADM-141 tactical air-launched decoy (TALD) is a gliding decoy simulating "
 "real aircraft using active and passive means. There are several versions of "
@@ -1864,15 +1823,15 @@ msgstr ""
 "饵。TALD 有许多个版本，例如有一个版本发射箔条，另一个版本使用龙勃透镜来增大雷"
 "达截面积，用来伪装成一架更大的飞机。"
 
-#: ../../source/weapons.rst:648
+#: ../../source/weapons.rst:647
 msgid ""
-"All versions are pre-programmed before take-off and are unpowered gliding "
+"All versions are pre-programmed before take-off and are unpowered, gliding "
 "through the air on fold-out wings."
 msgstr ""
 "TALD 的所有的版本都需要在起飞前预编程，且 TALD 自身无动力推进，仅能使用折叠翼"
 "滑翔。"
 
-#: ../../source/weapons.rst:650
+#: ../../source/weapons.rst:649
 msgid ""
 "The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through "
 "6, using a TER each to gain separation from the aircraft fuselage."
@@ -1880,11 +1839,17 @@ msgstr ""
 "F-14B 最多可携带4枚 ADM-141 战术空射诱饵，3号至6号挂架可分别挂载各一枚，每个"
 "挂架都需要连接 TER 来增加 TALD 和飞机机身的间距。"
 
-#: ../../source/weapons.rst:654
+#: ../../source/weapons.rst:651
+msgid ""
+"In DCS these currently glide straight ahead until they run out of speed and "
+"altitude."
+msgstr "目前在 DCS 中，TALD 只能向正前方滑翔，直到坠地。"
+
+#: ../../source/weapons.rst:655
 msgid "LUU-2 Parachute Flare"
 msgstr "LUU-2 降落伞照明弹"
 
-#: ../../source/weapons.rst:656
+#: ../../source/weapons.rst:657
 msgid ""
 "The LUU-2 parachute flare is an air-launched flare suspended by a parachute "
 "used to illuminate the ground during night-time."
@@ -1892,7 +1857,7 @@ msgstr ""
 "LUU-2 降落伞照明弹是一种空射照明弹，通过降落伞减速在空中停留，用于在夜间地面"
 "照明。"
 
-#: ../../source/weapons.rst:658
+#: ../../source/weapons.rst:659
 msgid ""
 "The F-14B can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers "
 "on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers "
@@ -1901,17 +1866,42 @@ msgstr ""
 "F-14B 可以携带多达16个 LUU-2 照明弹，4号和5号挂架上连接 TER 时可挂载最多 4 "
 "个 SUU-25 照明弹布撒器，其中每个 TER 最多能携带2个布撒器，以免与机身冲突。"
 
-#: ../../source/weapons.rst:660
+#: ../../source/weapons.rst:661
 msgid ""
 "The LUU-2 parachute flare is launched and set up in the same way as a "
 "general purpose bomb."
 msgstr "LUU-2 降落伞照明弹的发射和设置方式与通用航空炸弹相同。"
 
-#: ../../source/weapons.rst:664 ../../source/weapons.rst:772
+#: ../../source/weapons.rst:665 ../../source/weapons.rst:776
+msgid "Smokewinder"
+msgstr "拉烟吊舱"
+
+#: ../../source/weapons.rst:667
+msgid ""
+"The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 "
+"missile to the aircraft interface."
+msgstr "拉烟吊舱用于空中表演，它模拟了 AIM-9 导弹在飞机航电上的显示。"
+
+#: ../../source/weapons.rst:669
+msgid ""
+"To enable and disable a Smokewinder, select AIM-9 for launch using boresight "
+"(BRSIT) and select the corresponding weapon station using the weapon "
+"selector on the pilot stick. When set up thusly and with master arm on, each "
+"pull of the trigger enables or disable the Smokewinder discharging smoke."
+msgstr ""
+"选择 AIM-9 的瞄准线发射模式，然后通过飞行员驾驶杆上的武器选择按钮选择相应的武"
+"器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，便可以按下扳机来开始或"
+"者停止拉烟。"
+
+#: ../../source/weapons.rst:674
+msgid "Pods and Tanks"
+msgstr "其他吊舱和油箱"
+
+#: ../../source/weapons.rst:677 ../../source/weapons.rst:774
 msgid "LAU-138 Chaff Adapter"
 msgstr "LAU-138 箔条适配器"
 
-#: ../../source/weapons.rst:666
+#: ../../source/weapons.rst:679
 msgid ""
 "The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in "
 "Sweden to enhance a combat aircraft's capability to carry chaff "
@@ -1922,21 +1912,19 @@ msgstr ""
 "强作战飞机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于箔条是通过机械"
 "动作布撒，而不是使用火药来发射的。"
 
-#: ../../source/weapons.rst:669
+#: ../../source/weapons.rst:682
 msgid ""
-"While each adapter can carry up to 160 chaff packages each package is not "
-"equal to a standard chaff bundle meaning that a set of two launchers "
-"launches four packages in total for each chaff release impulse. Even though "
-"ejecting 4 packages at each impulse this still means that a set of two "
-"LAU-138, carrying in total 320 packages, still can release chaff 80 times, "
-"greatly increasing the carried amount of chaff on the aircraft."
+"While each adapter can carry up to 160 chaff packages in total, each package "
+"is not the equal to a standard chaff bundle. Because of this fact, each "
+"launcher is set to eject four packages in total for each release impulse. "
+"This means that the pair of LAU-138s ejects in total 8 chaff packages per "
+"impulse and that 40 dispensation cycles are available."
 msgstr ""
-"虽然每个适配器可以携带多达160包箔条，但是每个发射包并不是一个标准的箔条包，这"
-"意味着，每个箔条释放周期中，两个一组的发射器总共会发射4包箔条。两个一组的 "
-"LAU-138 适配器总共携带320包，即使每次发射4包，仍能够释放80次，这极大地增加了"
-"飞机携载箔条的数量。"
+"虽然每个适配器可以携带多达160包箔条，但他们并不是标准尺寸的箔条包，因此，发射"
+"箔条时，每个发射器总共会发射4包箔条。两个一组的 LAU-138 适配器每次发射8包箔"
+"条，一共可以发射40次。"
 
-#: ../../source/weapons.rst:672
+#: ../../source/weapons.rst:686
 msgid ""
 "The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing "
 "the F-14B to carry additional chaff without impacting the ability to carry "
@@ -1950,7 +1938,7 @@ msgstr ""
 "LAU-138，但在现实中，B 挂架无法连接 AIM-9 的冷却剂瓶，因此只有 A 挂架用于挂"
 "载 LAU-138 适配器。"
 
-#: ../../source/weapons.rst:675
+#: ../../source/weapons.rst:689
 msgid ""
 "For more information about the LAU-138 and its use, see the section about "
 "the AN/ALE-29 and 39 under the General design and systems overview chapter."
@@ -1958,32 +1946,11 @@ msgstr ""
 "更多关于LAU-138 箔条适配器的信息，请查阅总体设计和系统总览章节下的 AN/ALE-29 "
 "和 AN/ALE-39 部分内容。"
 
-#: ../../source/weapons.rst:679 ../../source/weapons.rst:774
-msgid "Smokewinder"
-msgstr "拉烟吊舱"
-
-#: ../../source/weapons.rst:681
-msgid ""
-"The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 "
-"missile to the aircraft interface."
-msgstr "拉烟吊舱用于空中表演，它模拟了 AIM-9 导弹在飞机航电上的显示。"
-
-#: ../../source/weapons.rst:683
-msgid ""
-"To enable and disable a Smokewinder, select AIM-9 for launch using boresight "
-"(BRSIT) and select the corresponding weapon station using the weapon "
-"selector on the pilot stick. When set up thusly and with master arm on, each "
-"pull of the trigger enables or disable the Smokewinder discharging smoke."
-msgstr ""
-"选择 AIM-9 的瞄准线发射模式，然后通过飞行员驾驶杆上的武器选择按钮选择相应的武"
-"器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，便可以按下扳机来开始或"
-"者停止拉烟。"
-
-#: ../../source/weapons.rst:688
+#: ../../source/weapons.rst:693
 msgid "TACTS Pods"
 msgstr "TACTS 吊舱"
 
-#: ../../source/weapons.rst:690
+#: ../../source/weapons.rst:695
 msgid ""
 "The TACTS pod is an analysis pod used during training missions, it is "
 "carried on LAU-7 rails instead of AIM-9s, normally on station 1A and 8A. "
@@ -1992,19 +1959,15 @@ msgstr ""
 "TACTS 吊舱是在训练任务期间使用的数据分析吊舱，安装在 LAU-7 导轨连接 AIM-9 的"
 "位置上，一般是 1A 和 8A 挂架上。通常会在飞机上成对携带 TACTS 吊舱，每侧一个。"
 
-#: ../../source/weapons.rst:693
+#: ../../source/weapons.rst:698
 msgid "In DCS their functionality is purely cosmetic."
 msgstr "DCS 中的 TACTS 吊舱没有实际功能，仅作为装饰。"
 
-#: ../../source/weapons.rst:697
-msgid "Pods and Tanks"
-msgstr "其他吊舱和油箱"
-
-#: ../../source/weapons.rst:700 ../../source/weapons.rst:780
+#: ../../source/weapons.rst:702 ../../source/weapons.rst:782
 msgid "FPU-1 Fuel Tank"
 msgstr "FPU-1 油箱"
 
-#: ../../source/weapons.rst:702
+#: ../../source/weapons.rst:704
 msgid ""
 "The FPU-1 fuel tank is carried by the F-14B Tomcat on stations 2 and 7 on "
 "each engine nacelle. They each carry up to 2 000 pounds of fuel and can be "
@@ -2013,17 +1976,17 @@ msgstr ""
 "FPU-1 油箱安装在 F-14B “雄猫”发动机舱下方的2号和7号挂架。每个油箱能携带多达 "
 "2,000 磅燃油，与其他挂载一样可以使用正常程序抛离。"
 
-#: ../../source/weapons.rst:707 ../../source/weapons.rst:778
+#: ../../source/weapons.rst:709 ../../source/weapons.rst:780
 msgid "LANTIRN"
 msgstr "LANTIRN 吊舱"
 
-#: ../../source/weapons.rst:710
+#: ../../source/weapons.rst:712
 msgid ""
 "U.S. Navy photo by Photographers Mate Airman Jason Frost. (030122-"
 "N-9403F-002)"
 msgstr "由美国海军摄影师 Jason Frost 拍摄（030122-N-9403F-002）"
 
-#: ../../source/weapons.rst:712
+#: ../../source/weapons.rst:714
 msgid ""
 "The LANTIRN was adapted for use on the F-14 Tomcats during the 1990s as the "
 "F-14's role started to gravitate towards including the precision strike role."
@@ -2031,7 +1994,7 @@ msgstr ""
 "随着作战职能开始逐渐偏向精确对地攻击，F-14“雄猫”在20世纪90年代适配了 LANTIRN "
 "吊舱。"
 
-#: ../../source/weapons.rst:714
+#: ../../source/weapons.rst:716
 msgid ""
 "The version carried on the Heatblur DCS F-14B Tomcat represents the earliest "
 "integrations of the LANTIRN, the pod being carried only on station 8B and "
@@ -2042,17 +2005,17 @@ msgstr ""
 "装在 8B 挂架上，通过电路硬连线到 RIO 驾驶舱中的控制面板，视频输出图像通过 "
 "TID/VDI 输出。"
 
-#: ../../source/weapons.rst:717
+#: ../../source/weapons.rst:719
 msgid ""
 "For more information regarding the use of the LANTIRN pod, see the section "
 "about it under the General design and systems overview chapter."
 msgstr "更多关于 LANTIRN 吊舱的信息，请查看总体设计和系统总览中对应的内容。"
 
-#: ../../source/weapons.rst:721 ../../source/weapons.rst:782
+#: ../../source/weapons.rst:723 ../../source/weapons.rst:784
 msgid "CNU-188 External Baggage Container"
 msgstr "CNU-188 外挂行李舱"
 
-#: ../../source/weapons.rst:723
+#: ../../source/weapons.rst:725
 msgid ""
 "The CNU-188 external baggage container is a converted fuel tank used to "
 "carry equipment and supplies during aircraft transfer. One such container "
@@ -2063,178 +2026,189 @@ msgstr ""
 "补给。F-14B 的4号或者5号挂加上分别可以挂载一个行李吊舱，每个吊舱最大载重量为"
 "350磅。"
 
-#: ../../source/weapons.rst:726
+#: ../../source/weapons.rst:728
 msgid "Pending implementation in DCS."
 msgstr "DCS 中尚未实装。"
 
-#: ../../source/weapons.rst:730
+#: ../../source/weapons.rst:732
 msgid "F-14B Loadout Diagram"
 msgstr "F-14B 挂载示意图"
 
-#: ../../source/weapons.rst:734
-msgid "Weapon\\Station"
+#: ../../source/weapons.rst:736
+msgid "Weapon \\ Station"
 msgstr "武器 \\ 挂架"
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "1A"
 msgstr ""
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "1B"
 msgstr ""
 
-#: ../../source/weapons.rst:734 ../../source/weapons.rst:742
-#: ../../source/weapons.rst:744 ../../source/weapons.rst:746
-#: ../../source/weapons.rst:748 ../../source/weapons.rst:754
-#: ../../source/weapons.rst:762 ../../source/weapons.rst:766
-#: ../../source/weapons.rst:770 ../../source/weapons.rst:772
-#: ../../source/weapons.rst:776 ../../source/weapons.rst:780
+#: ../../source/weapons.rst:736 ../../source/weapons.rst:744
+#: ../../source/weapons.rst:746 ../../source/weapons.rst:748
+#: ../../source/weapons.rst:750 ../../source/weapons.rst:756
+#: ../../source/weapons.rst:758 ../../source/weapons.rst:764
+#: ../../source/weapons.rst:768 ../../source/weapons.rst:772
+#: ../../source/weapons.rst:774 ../../source/weapons.rst:778
+#: ../../source/weapons.rst:782
 msgid "2"
 msgstr ""
 
-#: ../../source/weapons.rst:734 ../../source/weapons.rst:742
-#: ../../source/weapons.rst:744 ../../source/weapons.rst:746
-#: ../../source/weapons.rst:748 ../../source/weapons.rst:750
-#: ../../source/weapons.rst:764
+#: ../../source/weapons.rst:736 ../../source/weapons.rst:744
+#: ../../source/weapons.rst:746 ../../source/weapons.rst:748
+#: ../../source/weapons.rst:750 ../../source/weapons.rst:752
+#: ../../source/weapons.rst:766
 msgid "3"
 msgstr ""
 
-#: ../../source/weapons.rst:734 ../../source/weapons.rst:736
-#: ../../source/weapons.rst:742 ../../source/weapons.rst:744
-#: ../../source/weapons.rst:746 ../../source/weapons.rst:748
-#: ../../source/weapons.rst:752 ../../source/weapons.rst:756
-#: ../../source/weapons.rst:758 ../../source/weapons.rst:760
-#: ../../source/weapons.rst:768 ../../source/weapons.rst:774
+#: ../../source/weapons.rst:736 ../../source/weapons.rst:738
+#: ../../source/weapons.rst:744 ../../source/weapons.rst:746
+#: ../../source/weapons.rst:748 ../../source/weapons.rst:750
+#: ../../source/weapons.rst:754 ../../source/weapons.rst:760
+#: ../../source/weapons.rst:762 ../../source/weapons.rst:770
+#: ../../source/weapons.rst:776
 msgid "4"
 msgstr ""
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "5"
 msgstr ""
 
-#: ../../source/weapons.rst:734 ../../source/weapons.rst:738
-#: ../../source/weapons.rst:740
+#: ../../source/weapons.rst:736 ../../source/weapons.rst:740
+#: ../../source/weapons.rst:742
 msgid "6"
 msgstr ""
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "7"
 msgstr ""
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "8B"
 msgstr ""
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "8A"
 msgstr ""
 
-#: ../../source/weapons.rst:734
+#: ../../source/weapons.rst:736
 msgid "Total"
 msgstr "最大挂载量"
 
-#: ../../source/weapons.rst:736
+#: ../../source/weapons.rst:738
 msgid "AIM-9"
 msgstr ""
 
-#: ../../source/weapons.rst:736 ../../source/weapons.rst:738
-#: ../../source/weapons.rst:740 ../../source/weapons.rst:750
-#: ../../source/weapons.rst:752 ../../source/weapons.rst:754
-#: ../../source/weapons.rst:756 ../../source/weapons.rst:758
-#: ../../source/weapons.rst:760 ../../source/weapons.rst:762
-#: ../../source/weapons.rst:766 ../../source/weapons.rst:768
-#: ../../source/weapons.rst:772 ../../source/weapons.rst:774
-#: ../../source/weapons.rst:776 ../../source/weapons.rst:778
-#: ../../source/weapons.rst:780 ../../source/weapons.rst:782
+#: ../../source/weapons.rst:738 ../../source/weapons.rst:740
+#: ../../source/weapons.rst:742 ../../source/weapons.rst:752
+#: ../../source/weapons.rst:754 ../../source/weapons.rst:756
+#: ../../source/weapons.rst:758 ../../source/weapons.rst:760
+#: ../../source/weapons.rst:762 ../../source/weapons.rst:764
+#: ../../source/weapons.rst:768 ../../source/weapons.rst:770
+#: ../../source/weapons.rst:774 ../../source/weapons.rst:776
+#: ../../source/weapons.rst:778 ../../source/weapons.rst:780
+#: ../../source/weapons.rst:782 ../../source/weapons.rst:784
 msgid "1"
 msgstr ""
 
-#: ../../source/weapons.rst:738
+#: ../../source/weapons.rst:740
 msgid "AIM-7"
 msgstr ""
 
-#: ../../source/weapons.rst:740
+#: ../../source/weapons.rst:742
 msgid "AIM-54"
 msgstr ""
 
-#: ../../source/weapons.rst:742
+#: ../../source/weapons.rst:744
 msgid "Mk-81"
 msgstr ""
 
-#: ../../source/weapons.rst:742 ../../source/weapons.rst:744
-#: ../../source/weapons.rst:746 ../../source/weapons.rst:748
-#: ../../source/weapons.rst:764
+#: ../../source/weapons.rst:744 ../../source/weapons.rst:746
+#: ../../source/weapons.rst:748 ../../source/weapons.rst:750
+#: ../../source/weapons.rst:766
 msgid "18"
 msgstr ""
 
-#: ../../source/weapons.rst:744
+#: ../../source/weapons.rst:746
 msgid "Mk-82"
 msgstr ""
 
-#: ../../source/weapons.rst:746
+#: ../../source/weapons.rst:748
 msgid "Mk-82AIR"
 msgstr ""
 
-#: ../../source/weapons.rst:748
+#: ../../source/weapons.rst:750
 msgid "Mk-82 Snake Eye"
 msgstr "Mk-82“蛇眼”"
 
-#: ../../source/weapons.rst:750
+#: ../../source/weapons.rst:752
 msgid "Mk-83"
 msgstr ""
 
-#: ../../source/weapons.rst:750 ../../source/weapons.rst:754
+#: ../../source/weapons.rst:752 ../../source/weapons.rst:756
 msgid "10"
 msgstr ""
 
-#: ../../source/weapons.rst:752
+#: ../../source/weapons.rst:754
 msgid "Mk-84"
 msgstr ""
 
-#: ../../source/weapons.rst:754
+#: ../../source/weapons.rst:756
 msgid "Mk-20"
 msgstr ""
 
-#: ../../source/weapons.rst:756
+#: ../../source/weapons.rst:758
 msgid "GBU-10"
 msgstr ""
 
-#: ../../source/weapons.rst:758
+#: ../../source/weapons.rst:760
 msgid "GBU-12"
 msgstr ""
 
-#: ../../source/weapons.rst:760
+#: ../../source/weapons.rst:762
 msgid "GBU-16"
 msgstr ""
 
-#: ../../source/weapons.rst:762
+#: ../../source/weapons.rst:764
 msgid "GBU-24"
 msgstr ""
 
-#: ../../source/weapons.rst:764
+#: ../../source/weapons.rst:766
 msgid "BDU-33"
 msgstr ""
 
-#: ../../source/weapons.rst:766
+#: ../../source/weapons.rst:768
 msgid "LAU-10 (ZUNI)"
 msgstr "LAU-10（祖尼）"
 
-#: ../../source/weapons.rst:766
+#: ../../source/weapons.rst:768
 msgid "7(28)"
 msgstr ""
 
-#: ../../source/weapons.rst:768
+#: ../../source/weapons.rst:770
 msgid "ADM-141A TALD"
 msgstr ""
 
-#: ../../source/weapons.rst:770
+#: ../../source/weapons.rst:772
 msgid "SUU-25 F/A Flare Dispenser"
 msgstr "SUU-25 F/A 干扰弹布撒器"
 
-#: ../../source/weapons.rst:770
+#: ../../source/weapons.rst:772
 msgid "4(16)"
 msgstr ""
 
-#: ../../source/weapons.rst:776
+#: ../../source/weapons.rst:778
 msgid "TACTS"
 msgstr "TACTS 吊舱"
+
+#~ msgid ""
+#~ "The WCS can however provide symbology on the HUD to increase gun "
+#~ "accuracy. For both air-to-air and air-to-ground modes the gun has two "
+#~ "sights available. For air-to-air it's the manual sight and the RTGS (real-"
+#~ "time gun sight)."
+#~ msgstr ""
+#~ "尽管航炮击发不经过 WCS，但 WCS 可以在 HUD 上显示航炮攻击标识以提高射击精"
+#~ "度。航炮在空对空和空对地模式下，每一种模式有两种可用的瞄准标识。空对空模式"
+#~ "下使用的是手动空对空瞄准标识和实时瞄准标识（RTGS）。"

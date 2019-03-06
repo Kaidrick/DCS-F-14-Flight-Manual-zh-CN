@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-03-02 13:12+0800\n"
+"PO-Revision-Date: 2019-03-03 12:50+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1180,7 +1180,7 @@ msgstr ""
 
 #: ../../source/accr.rst:240
 msgid "__Intercommunications"
-msgstr "机内对讲系统"
+msgstr "机内对讲（内话）系统"
 
 #: ../../source/accr.rst:242
 msgid "IFF"

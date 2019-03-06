@@ -15,9 +15,9 @@ All this is achieved by the AFTC and AICS using appropriate sensor inputs which 
 
 In addition both engines also drive separate fuel, hydraulic and electric generators to create redundancy.
 
-In case of a failure in the AFTC the MEC (Main engine control) is capable of assuming control of the engines to provide a fall-back mechanical control of them.
+In case of a failure in the AFTC the MEC (Main engine control) is capable of assuming control of the engines to provide a fall-back, mechanical control.
 The normal mode, AFTC, is the primary mode (PRI) and called as such while the fall-back MEC is the secondary (SEC) mode.
-The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be selected manually.
+The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be manually selected.
 Of note is that in secondary mode the engine nozzles are fully closed and disabled in addition to the afterburners being disabled with a corresponding loss of engine performance.
 
 
@@ -106,11 +106,11 @@ The oil pressure indicators display respective engine oil pressure allowing the 
 
 The caution lights relevant to engine operation are located on the pilot's caution - advisory panel,  and at the sides of the HUD.
 
-The caution lights on the sides of the HUD are the engine stall warning lights which blink at a 3 Hz rate when an engine stall is detected.
+The caution lights on the sides of the HUD are the engine stall warning lights which flashes at a 3 Hz rate when an engine stall is detected.
 The warning light on the left side of the HUD indicates an engine stall in the left engine and the one on the opposite side the right engine.
 This is also combined with an audio warning, a modulated tone at 320 Hz.
 
-Below the left engine stall warning light is, amongst others, the **AUTO THROT** (auto throttle) caution light which lights for 10 seconds when the auto throttle system is disengaged by other means than the throttle mode switch.
+Below the left engine stall warning light is, amongst others, the **AUTO THROT** (auto throttle) caution light which illuminates for 10 seconds when the auto throttle system is disengaged by other means than the throttle mode switch.
 
 On the main caution - advisory panel the relevant engine caution and warnings lights are:
 
@@ -166,7 +166,7 @@ Fuel Quantity Indicators and Controls
 The fuel quantity indicator on the pilot right knee panel displays internal and external fuel carried.
 
 The uppermost indicator (**1**) displays currently set **BINGO** fuel level, this quantity is set by rotating the knob (**5**) to desired amount.
-This indicator and control activates a BINGO caution light when total fuel level is below set amount.
+This indicator and control activates the BINGO caution light when total fuel level is below set amount.
 
 The **TOTAL** (**2**) indicator displays total carried fuel.
 
@@ -220,9 +220,9 @@ Fire Detection System
 The fire detection system in the F-14 has two fire sensing loops, one in each engine.
 
 If these loops detects a temperature over 600 °F (about 316 °C) along its whole length or 1,000 °F (about 538 °C) in a single 6-inch section it triggers the fire detection circuits.
-The left detection loop lights the left fire warning light on the ACM panel and the right detection loop lights the right fire warning light, see :ref:`ACMpanel`.
+The left detection loop illuminates the left fire warning light on the ACM panel and the right detection loop illuminates the right fire warning light, see :ref:`ACMpanel`.
 
-In addition there are also sensors designed to detect hot air leaks in the engines and light the BLEED DUCT caution light on the pilot caution - advisory indicator (see :ref:`CAindicator`) if temperatures above 575 °F (about 302 °C) are detected.
+In addition there are also sensors designed to detect hot air leaks in the engines and illuminate the BLEED DUCT caution light on the pilot caution - advisory indicator (see :ref:`CAindicator`) if temperatures above 575 °F (about 302 °C) are detected.
 
 
 Fire Suppression System
@@ -245,14 +245,14 @@ Two advisory lights are connected to this system, each one indicating low pressu
 The **ENG FIRE EXT** indicates low pressure in the main bottle and the **AUX FIRE EXT** the same in the auxiliary bottle.
 Both are located on the pilot caution - advisory indicator, see :ref:`CAindicator`.
 
-The advisory lights will both light after a successful application of the system and might also light if an error drains the pressure in the bottles.
+The advisory lights will both illuminate after a successfull application of the system and will also indicate if an error drains the pressure in the bottles.
 
 
 Fire Detection and Suppression System Test
 ==========================================
 
 Both systems can be tested by selection of the **FIRE DET/EXT** position on the master test panel switch. (see :ref:`MTPanel`) 
-This will light both fire warning lights on the ACM panel if their respective loop is functional and the **GO** light on the master test panel will illuminate if the suppression system is functional.
+This will illuminate both fire warning lights on the ACM panel if their respective loop is functional and the **GO** light on the master test panel will illuminate if the suppression system is functional.
 If the **NO GO** or no lights illuminate there's a problem in either the suppression system or the test circuitry.
 
 
@@ -265,7 +265,7 @@ The generators connected to the gearboxes on the engines are each capable of gen
 As for DC power generation the F-14 has two transformer-rectifiers supplying 28 V DC, and again each one is individually capable of driving all aircraft DC appliances.
 
 The F-14 has an external power receptacle for AC power just aft of the nosegear, capable of driving aircraft AC and DC (through the transformer-rectifiers).
-External power is automatically disconnected from the aircraft power system when one of the interal generators come online.
+External power is automatically disconnected from the aircraft power system when one of the internal generators come online.
 
 
 Emergency Power
@@ -294,7 +294,7 @@ The **OFF/RESET** position deactivates the emergency generator and also resets t
 The switch is guarded to the NORM position and that guard needs to be opened to move the switch to OFF/RESET.
 
 Associated caution and advisory lights are located on the pilot :ref:`CAindicator`.
-The **L GEN** and **R GEN** lights, when lit, indicate that the respective generator is not functioning correctly.
+The **L GEN** and **R GEN** lights, when illuminated, indicate that the respective generator is not functioning correctly.
 Either because of a fault or because the engine driving the generator not running. 
 
 The **TRANS/RECT** advisory light indicates that only one or none of the transformer-rectifiers are functioning.
@@ -385,7 +385,7 @@ The wing-sweep system controls the geometry of the F-14's wings, allowing the wi
 While on the deck an oversweep of 75° is also possible reducing the F-14's wing span to 33 feet (about 10 meters).
 
 The wings are moved by hydromechanical screwjack actuators which are interconnected mechanically, making sure they're synchronized.
-As long as both main hydraulic systems are functioning the maximum wing-sweep change rate is about 15°.
+As long as both main hydraulic systems are functioning the maximum wing-sweep change rate is about 15°/s.
 This can be affected negatively by negative g or large amounts of positive g.
 
 In normal operation the CADC, Central Air Data Computer, controls the wing position as a function of current Mach via the wing-sweep program,
@@ -439,7 +439,7 @@ As the wing will sweep over the stabilizers on the tail the horizontal tail auth
 
 To set the wings to oversweep the emergency wing-sweep handle should be moved to the 68° position and held in the extended position.
 This will deflate the wing-seal airbags and activate the horizontal tail authority system, indicated by the **HZ TAIL AUTH** caution light illuminating.
-When the **HZ TAIL AUTH** caution light turns off and the **OVER** flag on the wing-sweep indicator appears the oversweep interlocks are free and the handle can now be moved to the 75° position and stowed.
+When the **HZ TAIL AUTH** caution light goes out and the **OVER** flag on the wing-sweep indicator appears the oversweep interlocks are free and the handle can now be moved to the 75° position and stowed.
 
 To move the wings out of oversweep the handle is pulled up and moved forwards of 68°. This will again illuminate the **HZ TAIL AUTH** caution light.
 When the wings have physically exited the oversweep the caution light and the **OVER** flag will turn off.
@@ -831,7 +831,7 @@ The **WSHLD**, windshield, switch on the external environment panel provides hot
 The :ref:`candefogairlev` (for pilot) and :ref:`rcandefogairlev` (for RIO) sets amount of air through the canopy air diffusers to be used to defog the canopy.
 Lever set fully to **CANOPY DEFOG** selects all cockpit air to be through the canopy diffusers while lever fully at **CABIN AIR** redirects 30% through the canopy diffusers and the rest to the cockpit diffusers.
 
-The **WSHLD HOT** advisory light on the pilot :ref:`CAindicator` lights when the windshield is warmer than 300° F (149° C). This automatically closes the valve and stops warm air to the windshield until cooled down.
+The **WSHLD HOT** advisory light on the pilot :ref:`CAindicator` illuminates when the windshield is warmer than 300° F (149° C). This automatically closes the valve and stops warm air to the windshield until cooled down.
 
 
 AN/AWG-9 and AIM-54 Cooling
@@ -877,7 +877,7 @@ The indicator is electrically driven and if it receives no power an **OFF** flag
 
 Additionally the RIO :ref:`cauadvpanel` has the **OXY LOW** caution light which illuminates when the liquid oxygen quantity is below 2 liters.
 
-During the **INST** test on the :ref:`MTPanel` the liquid oxygen meter shows 2 liters and the **OXY LOW** caution light illuminates.
+During the **INST** test on the ref:`MTPanel` the liquid oxygen meter shows 2 liters and the **OXY LOW** caution light illuminates.
 
 
 Flight Instruments
@@ -971,7 +971,7 @@ The anticollision lights are located on the chin pod or TCS pod, top front of th
 The anticollision lights are all red flashing lights. The chin pod mounted lower light only operates while the nosegear wheel door is closed.
 
 The formation lights are dim green lights used for formation flight which can be dimmed gradually.
-They are located on the aircraft nose (behind the radome), the wing tips, on the fuselage aft of the wings and on the top edge of the vertical stabilizers. All duplicated on both sides of the aircraft.
+They are located on the aircraft nose (behind the radome), the wing tips, on the fuselage aft of the wings and on the top edge of the vertical stabilizers. All are duplicated on both sides of the aircraft.
 
 The taxi light is a fixed headlight located on the nosewheel strut. It's automatically turned off with gear retraction if set to on.
 
@@ -1168,15 +1168,18 @@ The **ACM THRLD** sets the threshold for what to regard as a target at ACM range
 
 **Detail Data Display**
 
-+--------------------------------------------------------------------------------------------+
-| Pulse                                                                                      |
-+-----------------------------------------------+--------------------------------------------+
-| .. image:: /images/general/awg-9/PSEARCH.png  | .. image:: /images/general/awg-9/PSTT.png  |
-+-----------------------------------------------+--------------------------------------------+
-| Pulse-Doppler                                                                              |
-+-----------------------------------------------+--------------------------------------------+
-| .. image:: /images/general/awg-9/PDSEARCH.png | .. image:: /images/general/awg-9/PDSTT.png |
-+-----------------------------------------------+--------------------------------------------+
+.. table::
+    :widths: auto
+    
+    +--------------------------------------------------------------------------------------------+
+    | Pulse                                                                                      |
+    +-----------------------------------------------+--------------------------------------------+
+    | .. image:: /images/general/awg-9/PSEARCH.png  | .. image:: /images/general/awg-9/PSTT.png  |
+    +-----------------------------------------------+--------------------------------------------+
+    | Pulse-Doppler                                                                              |
+    +-----------------------------------------------+--------------------------------------------+
+    | .. image:: /images/general/awg-9/PDSEARCH.png | .. image:: /images/general/awg-9/PDSTT.png |
+    +-----------------------------------------------+--------------------------------------------+
 
 
 The **DDD** screen itself shows either only radar return data or radar returns combined with symbology depending on radar mode.
@@ -1243,7 +1246,7 @@ The drum can also show a blank face to indicate the data source as one not havin
 
 **TRACK HOLD and CLSN buttons**
 
-Below the selector knobs on the sides of the TID are two buttons with indicator lights, one on each side. The lights lights up green to indicate selection.
+Below the selector knobs on the sides of the TID are two buttons with indicator lights, one on each side. The lights illuminates green to indicate selection.
 
 On the left side is the **TRACK HOLD** button (**11**) which enables the track hold function. Normally targets on the TID in TWS mode are retained 14 seconds after last observation.
 The track hold function extends this two 2 minutes for all tracks. If disabled it reverts to the standard 14 second period, whereafter the targets will be dropped if no new observations occur.
@@ -1254,7 +1257,7 @@ This selection overrides the current steering information presented to the pilot
 
 **TID Control Panel**
 
-Below the TID is the TID control panel (**8**). It contains 8 buttons selecting what symbology to show on the TID, these lights up green when active. It also contains two selector knobs controlling display scale and TID mode.
+Below the TID is the TID control panel (**8**). It contains 8 buttons selecting what symbology to show on the TID, these illuminates green when active. It also contains two selector knobs controlling display scale and TID mode.
 The buttons are:
 
 +-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1482,7 +1485,7 @@ The hand control unit (HCU), stick and corresponding controls are the main input
 The lights on the upper edge of the HCU are the IR/TV overtemp indicator (**2**), the power reset indicator (**4**) and the WCS power indicator (**6**).
 The IR/TV power indicator light indicates TCS not ready when in the standby (STBY) and on positions, will remain on in the standby position and turn off in the on position when the TCS is ready for operation.
 The power reset indicator light indicatets that one or more of the secondary power supplies are inoperative due to a power fault tripping it's protection circuit.
-The WCS power indicator light indicates WCS in standby (STBY) or on but that the radar is not ready to transmit. During startup the light will not go out until the radar startup timer times out. To reset radar cycle to standby and back to on.
+The WCS power indicator light indicates WCS in standby (STBY) or on but that the radar is not ready to transmit. During startup the light will turn off until the radar startup timer times out. To reset radar cycle to standby and back to on.
 
 The **IR/TV** switch (**1**) in the upper left corner of the HCU controls the power to the TCS. Standby (STBY) starts system initiation but does not turn on the sensor. On enables sensor operation. The switch requires the WCS XMT to be in STBY or on to be enabled.
 The **WCS XMT** switch (**7**) controls power to the WCS computer system and corresponding displays (DDD and TID) and inhibits or allows radar transmission.
@@ -1497,7 +1500,7 @@ Should only be used if the power reset indicator light is on, if the fault tripp
 
 **HCU Mode buttons**
 
-The four lighted buttons on the left side (**12**) of the HCU stick are the HCU mode buttons which lights up green to indicate which one is active, they are mutually exclusive.
+The four lighted buttons on the left side (**12**) of the HCU stick are the HCU mode buttons which illuminates green to indicate which one is active, they are mutually exclusive.
 The **IR/TV** button selects TCS mode, allowing the HCU stick and controls to control the TCS.
 The **RDR** button selects radar mode, allowing the HCU stick and controls to control the radar acquisition cursor on the DDD allowing for transition from radar search modes to STT.
 The **DDD CURSOR** button selects DDD cursor mode, allowing the HCU stick and controls to control the DDD cursor used to indicate ground coordinates when using the radar for ground mapping. This is used for radar navigational fixes or for selecting a position on the DDD radar display for use as a waypoint.
@@ -1565,7 +1568,7 @@ Some of these keys also makes a corresponding other data be displayed on the TID
 The middle/lower part of the panel contains the message buttons and indicator drum and its CATEGORY selector knob. Its functionality is somewhat akin to the buttons on a MFD in a more modern system except that instead of a screen the drum is used to display the current functionality of the buttons.
 
 The current functionality of the buttons are chosen by selecting a category on the CATEGORY selector knob, movement of the selector turns the display drum to indicate selected category's button functionality.
-When a function or symbol hook is in use the corresponding message button lights up to indicate activation.
+When a function or symbol hook is in use the corresponding message button illuminates to indicate activation.
 
 The matrixes and corresponding functionality of the different categories are as follows:
 
@@ -1721,7 +1724,7 @@ Pulse search is used to search for and find airborne targets at range.
 
 It is possible to use this radar mode as a basic ground mapper as well which can be useful for navigation and navigational fixes and can also be used in a pinch to detect larger surface targets like ships. Keep in mind though that the radar is not built with this as its main function and that a real air-to-ground radar will outperform it handily.
 
-In this mode the radar can not by itself differentiate targets and generate tracks meaning that the WCS will not generate track files and display anything on the TID. This also means that pulse search is not capable of guiding missiles.
+In this mode the radar cannot by itself differentiate targets and generate tracks meaning that the WCS will not generate track files and display anything on the TID. This also means that pulse search is not capable of guiding missiles.
 
 The DDD in this mode will display a radar image indicating the azimuth and range of targets at selected scale and it is possible to transition to P STT using the RDR mode with the HCU stick.
 It is possible to select ground or aircraft stabilized modes of operation using the STAB switch on the sensor control panel.
@@ -1738,7 +1741,7 @@ As it is only in the pulse doppler modes that the missile guidance commands can 
 At short ranges, ACM ranges, it is possible to use the ASPECT switch to set what aspect of the target to track, this is just to counter different types of countermeasures. As an example, if set to NOSE the radar will be less susceptible to chaff as the radar weights its track towards the targets leading edge (nose) away from the chaff being launched behind the target.
 
 A successful track is indicated by the ANT TRK and RDROT indicator lights on the DDD, meaning that the antenna is tracking the target and that the target is within the range gates.
-If the target is jamming with sufficient strength, negating a range track, the radar will transition to a jam angle track instead, indicated by the JAT indicator light on the DDD lighting up instead of the RDROT.
+If the target is jamming with sufficient strength, negating a range track, the radar will transition to a jam angle track instead, indicated by the JAT indicator light on the DDD illuminating instead of the RDROT.
 When range tracking is again possible at closer ranges the radar will transition to that instead.
 
 The DDD in this mode will be similar to the pulse search mode but the antenna will be locked onto the target and not scan. Additionally the DDD will show the range gates around the target, a closing rate symbol at the right scale and applicable attack symbology if a valid missile is selected.
@@ -1767,10 +1770,10 @@ This allows the RIO to optime the doppler filters for a known target closing spe
 Because of the way the radar operates the doppler filters it will have two blind ranges. The main lobe clutter (MLC) region which contains most of the ground returns, those returning with zero groundspeed is one of them and is 266 knots wide, centered around own aircraft groundspeed  (133 knots slower and 133 knots faster).
 This is the reason that the radar can be notched as a target with the same relative groundspeed as the ground will also be filtered out. This is however only true for look-down conditions as when the radar antenna looks up into the sky this filter isn't necessary and can be turned off.
 If the MLC switch on the DDD panel is in AUTO the radar will automatically turn off the MLC filter if looking more than 3 degrees above the horizon. It can also be turned off manually by the RIO but if the antenna looks down this can make the displays unusable in RWS and TWS as all of the ground returns will be sent to the computer for tracking.
-In whichever case, with the MLC filter off, the target can not notch the AN/AWG-9 if it is above the radar.
+In whichever case, with the MLC filter off, the target cannot notch the AN/AWG-9 if it is above the radar.
 
 The second filter, and second blind spot, of the radar is the zero doppler filter. This blind area is centered around a closure rate of negative own groundspeed, meaning a target moving away from own aircraft at the same speed as own aircraft.
-This blind area is a hardware limitation as being a doppler radar mode it can not detect targets without a doppler shift. The resulting blind area is 200 knots wide at, as mentioned, negative own groundspeed (100 knots slower to 100 knots faster).
+This blind area is a hardware limitation as it is a doppler radar mode it cannot detect targets without a doppler shift. The resulting blind area is 200 knots wide, meaning that a chased target moving at a speed of within 100 knots (+/-) of own groundspeed will be invisible to the radar.
 This means that when chasing a fleeing target it may very well be necessary to use the pulse modes instead.
 
 Both filters vary with azimuth as own airspeed relative to target varies with aspect. Relative airspeed from a target at 45° will be less than a target at 0° as own speed vector will be pointing away from it slightly.
@@ -1826,7 +1829,7 @@ Track While Scan (TWS)
 ^^^^^^^^^^^^^^^^^^^^^^
 
 The track while scan mode uses the same FM ranging as RWS with the same reduction in range compared to pulse doppler search and the DDD display is also the same.
-The main difference that the computer establishes track files and tracks up two 24 targets concurrently of which 18 can be shown on the TID at any given time.
+The main difference that the computer establishes track files and tracks up to 24 targets concurrently of which 18 can be shown on the TID at any given time.
 
 As the computer routine calculating these tracks need a set track refresh time of 2 seconds this limits available azimuth scan area and bar settings to either 20° 4 bars or 40° 2 bars.
 When entering TWS the computer automatically selects the ±20° 4 bar scan disregarding the RIO set scan volumes unless those are set to ±40° 2 bars in which case that is used instead.
@@ -1876,7 +1879,7 @@ The acquisition gates can then be steered over the detected position of the targ
 The antenna elevation is then fine-tuned using the elevation vernier on the HCU until the target return is visible within the acquisition gates.
 At that time the RIO can then select full-action on the HCU trigger, commanding the radar to attempt a lockon at the commanded azimuth, range/rate and elevation.
 
-If successfully executed the radar then transitions into the respective STT mode and the correct indicators on the DDD lights up. Pulse STT is used if transitioning from pulse search and pulse doppler STT if transitioning from any of the pulse doppler search modes.
+If successfully executed the radar then transitions into the respective STT mode and the correct indicators on the DDD illuminates. Pulse STT is used if transitioning from pulse search and pulse doppler STT if transitioning from any of the pulse doppler search modes.
 
 
 TWS STT Acquisition
@@ -1996,7 +1999,7 @@ In addition to the unencrypted civilian mode the AN/APX-72 is capable of interro
 This ensures that targets replying to mode 4 interrogations are indeed friendly.
 
 The AN/APX-72 can be used both in search radar modes and in STT radar modes.
-To enable interrogation the IFF switch is depressed on the :ref:`dddp` which then activates the interrogator while the button is held or for 10 seconds if held shorter than that.
+To enable interrogation the IFF switch is depressed on the :ref:`dddp` which then activates the interrogator while the button is held or for 10 seconds if shorter than that.
 
 When enabled IFF received IFF returns are then overlaid on the normal AN/AWG-9 radar returns on the DDD.
 A friendly target will be indicated with two bars, one above and one below the normal radar return.
@@ -2219,7 +2222,7 @@ Warning Lights
 
 The two crewmembers have warning lights dedicated to specific threats on their front cockpit panels.
 The pilot warning lights are situated on the right side of the HUD and the RIO warning lights on the right side of the TID.
-The RIO warning light panel also contains light for the AN/ALQ-126 and the IFF transponder, those are detailed under their respective section.
+The RIO warning light panel also contains lights for the AN/ALQ-126 and the IFF transponder, those are detailed under their respective section.
 
 The different lights illuminate to indicate the presence of a certain type of threat in the critical band of the RWR and when an active engagement is detected the corresponding light starts flashing.
 The categories present are SAM (surface to air missile), AAA (anti-air artillery), AI (airborne interceptor) and (only in the RIO pit) CW (continuous wave).
@@ -2575,7 +2578,7 @@ AN/ALQ-126 Controls and Indicators
 The controls for the AN/ALQ-126 DECM are all located on the right horizontal panel in the RIO pit, panel as image above.
 In addition there are two indication lights co-located with the RWR threat indicators on the right side of the TID.
 
-The two indication lights on the threat advisory are RCV (recieve) and XMIT (transmit). RCV lights up when the system detects and analyzes a threat while the XMIT lights up when it's actively jamming a threat.
+The two indication lights on the threat advisory are RCV (recieve) and XMIT (transmit). RCV illuminates up when the system detects and analyzes a threat while the XMIT illuminates up when it's actively jamming a threat.
 
 The control panel itself contains a STANDBY indicator light, a mode selector knob and an AUDIO volume knob.
 
@@ -2606,7 +2609,7 @@ Navigation
 Navigation System
 =================
 
-The F-14’s primary navigation system is is a multi-unit Carrier Aircraft Inertial Navigation System (CAINS) designated as AN/ASN-92.
+The F-14’s primary navigation system is a multi-unit Carrier Aircraft Inertial Navigation System (CAINS) designated as AN/ASN-92.
 An INS system measures and integrates sensed inertia forces (acceleration) and rotational velocities to calculate aircraft position and linear velocity.
 A good navigation system can precisely guide an aircraft on a route to a mission objective hundred or thousand miles-long, and then back to the home base, safely and reliably.
 Such a system is even more important when an aircraft is designed to operate over the ocean, far away from any ground-based TACAN or visual references.
@@ -2915,7 +2918,7 @@ After the parking brake is reset, alignment will continue and the diamond will m
 
 At the second tick, which indicates that alignment meets the minimum criteria to launch weapons, the STBY light will go off and the READY light will illuminate.
 The INS mode may be entered at this point. If INS is not selected, the diamond continues to move to the right.
-When it reaches the third tick, it indicates that fine alignment is completed and a dot will appear in the diamond (◊). 
+When it reaches the third tick, it indicates that fine alignment is completed and a dot will appear in the diamond (<>). 
 
 You can leave the system in alignment mode even after fine align is complete, which will provide a progressively more accurate alignment.
 How much more accuracy is gained depends on the quality of alignment when fine align was completed.
@@ -3362,7 +3365,7 @@ Radar updating is performed as follows:
 :Note: To clear previous hooked DDD cursor position, go to half action and then release prior to initiating full action for new position hook.
 
 
-Tacan Update
+TACAN Update
 ------------
 
 To perform a nav fix by TACAN, requires that a prestored waypoint shares identical LAT and LONG values with the TACAN station that will be used for the fix.
@@ -3382,7 +3385,7 @@ Perform a TACAN fix following these steps:
 6. If delta is unsatisfactory, deselect TACAN FIX and repeat steps 2 through 7.
 7. FIX ENABLE button - Depress.
 
-:Note: During a TACAN FIX, the MAG VAR must be the same as the TACAN station magnetic variation, or the update will be in error. Given a TACAN station with a range of 100 nm from ownship, a 1°MAG VAR error introduces a 1.74nm error into the ownship’s TACAN update.
+:Note: During a TACAN FIX, the MAG VAR must be the same as the TACAN station magnetic variation, or the update will be in error. Given a TACAN station with a range of 100 NM from ownship, a 1°MAG VAR error introduces a 1.74nm error into the ownship’s TACAN update.
 
 
 Visual Update
@@ -3506,12 +3509,12 @@ If this is encountered, accurate and stable magnetic heading displays on the HUD
 TACAN System (AN/ARN-84)
 ========================
 
-The TACAN system indicates a slant range of up to 0.1 nm and a bearing of 0.5° to any surface station selected.
-Slant range to airborne stations is provided with an air-to-air (A/A) mode. Operating range is approximately 300 nm, if line of sight is given.
+The TACAN system indicates a slant range accurate to within 0.1 NM and a bearing of 0.5° to any surface station selected.
+Slant range to airborne stations is provided with an air-to-air (A/A) mode. Operating range is approximately 300 NM, if line of sight is given.
 
 The system offers 126 operating channels in each of 2 modes.
 Receiving frequencies for surface-to-air operation are 962 to 1024 MHz and 1151 to 1213 MHz, for air-to-air operations, the frequencies are from 1025 to 1150 MHz.
-The Tacan uses two antennas that automatically switch in a 6-second interval until a threshold signal is received.
+The TACAN uses two antennas that automatically switch in a 6-second interval until a threshold signal is received.
 Note that the TACAN can take up to 2 minutes to warm up, when turned on for the first time after a cold start. 
 
 
@@ -3531,19 +3534,19 @@ For TACAN panel description see :ref:`TACANcontrol`.
 TACAN Displays
 --------------
 
-Bearing and distance to a Tacan station is displayed on the BDHI, the HSD, and the multiple display indicator.
-Deviation to the Tacan station is displayed on the HUD and VDI (VDIG) and the HSD and multiple display indicator.
+Bearing and distance to a TACAN station is displayed on the BDHI, the HSD, and the multiple display indicator.
+Deviation to the TACAN station is displayed on the HUD and VDI (VDIG) and the HSD and multiple display indicator.
 
 The MDIG displays TACAN bearing marker, deviation ticks, range-to-TACAN station, and course.
 The HUD and VDI display provide a TACAN deviation bar, which is coded, on the HUD: solid line - TO station, dashed line - FROM station and on the VDI: bright bar - TO station, dark bar - FROM station.
 
-Tacan information is also displayed on both the pilot’s and RIO’s identical BDHI.
+TACAN information is also displayed on both the pilot’s and RIO’s identical BDHI.
 The bearing and distance functions of the BDHI come alive when the TACAN mode select switch is set to T/R. In the REC and T/R modes,
 magnetic bearings are displayed by the No.2 (large) needle, which unlocks and enters a search mode (spins) whenever bearing information is unreliable.
 
 Range information received in T/R or A/A mode, is displayed in nautical miles on the distance counter.
 An OFF flag covers the counter window if the range information is unreliable or not available.
-Tacan information is also displayed on the pilot HSD, HUD, and VDI and on the RIO multiple display indicator in other navigation modes.
+TACAN information is also displayed on the pilot HSD, HUD, and VDI and on the RIO multiple display indicator in other navigation modes.
 
 
 TACAN Operation
@@ -3564,7 +3567,7 @@ TACAN BIT
 The TACAN system has a built in test that continuously monitors the TACAN functionality and provides an interruptive self-test.
 To start a 22-second interruptive self-test, use the momentary button (BIT switch) and monitor the GO (green) and NO-GO (amber) status lights.
 
-:Note: A BIT performed on TACAN stations within 2 nm can give an invalid indication. If a TCN acronym or NO-GO response is observed while tuned to a local station, along with normal TACAN azimuth and range, the acronym and/or the NO-GO should be disregarded.
+:Note: A BIT performed on TACAN stations within 2 NM can give an invalid indication. If a TCN acronym or NO-GO response is observed while tuned to a local station, along with normal TACAN azimuth and range, the acronym and/or the NO-GO should be disregarded.
 
 The normal BIT sequence is as follows:
 
@@ -3574,7 +3577,7 @@ The normal BIT sequence is as follows:
 4. BDHI range OFF flag appears.
 5. BDHI bearing needle rotates counterclockwise.
 6. Release button; both lights go out (self-test starts).
-7. After 5 to 6 seconds, BDHI and HSD range reads 2 nm, BDHI and HSD bearing reads 4° (identify TACAN station).
+7. After 5 to 6 seconds, BDHI and HSD range reads 2 NM, BDHI and HSD bearing reads 4° (identify TACAN station).
 8. After 22 seconds, if good, green GO light illuminates, if bad, amber NO-GO light illuminates.
 
 
@@ -3826,11 +3829,11 @@ After takeoff, the navigation system normally computes wind and magnetic variati
 **Take-Off-TACAN Steering**
 
 The TACAN steering submode works the same, whether used for takeoff, cruise, or landing, by providing the pilot with a TACAN deviation.
-The pilot can set the course or Tacan radial with the CRS control on the HSD. The TACAN displays are available on the HUD, VDI, HSD, and multiple display indicator.
+The pilot can set the course or TACAN radial with the CRS control on the HSD. The TACAN displays are available on the HUD, VDI, HSD, and multiple display indicator.
 The HSD and the CMD display TACAN range and the relative bearing to a selected TACAN station.
 
 To enter the submode, press the TACAN button on the PDCP. After selection of TACAN course, the HUD and VDI display the TACAN deviation symbol and a TO and FROM symbology.
-This indicates whether the Tacan course is toward or away from the TACAN station.
+This indicates whether the TACAN course is toward or away from the TACAN station.
 On the HSD and multiple display indicator, an arrow on the deviation bar pointing in the same direction as the TACAN course indicates a course toward the station,
 an arrow pointing in the opposite direction indicates a course away from the station. On the HUD, a dashed line indicates FROM, a solid line indicates TO.
 On the VDI, a dark bar indicates FROM, a bright bar indicates TO.
@@ -3857,7 +3860,7 @@ While it is physically possible to press the AWL/PCD steering button on the disp
 
 **Cruise TACAN Steering**
 
-This submode works in the same way as take off tacan steering and provides the same readouts and displays to the flight crew as described under take off tacan steering.
+This submode works in the same way as take off TACAN steering and provides the same readouts and displays to the flight crew as described under take off TACAN steering.
 
 
 **Cruise Destination Steering** 
@@ -3935,7 +3938,7 @@ Antennas
 ========
 
 Four VHF/UHF/L-band dual-blade antennas provide omnidirectional coverage for VHF/UHF voice, UHF data link, TACAN, and identification friend or foe/selective identification feature transponder (APX-72) operation.
-Tacan and VHF/UHF 2 voice communications use one set of antennas; UHF 1 voice communications, the data link and IFF transponder, another set of antennas.
+TACAN and VHF/UHF 2 voice communications use one set of antennas; UHF 1 voice communications, the data link and IFF transponder, another set of antennas.
 Refer to general arrangement illustration for antenna locations. The IFF interrogator (APX-76) antenna is an integral part of the AWG-9 WCS antenna.
 
 Each individual system is connected to the appropriate portion of an upper or lower antenna through a coaxial switch and diplexer.
@@ -4012,12 +4015,12 @@ ground personnel can communicate with the cockpit stations. In DCS this works th
 |                                       |                                                                                                                                                 |
 +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                       |                                                                                                                                                 |
-| 5. RIO’s ICS button (Left Foot Rest)  | Permits intercommunication if COLD MIC is selected on the function selector control.                                                            |
+| RIO’s ICS button (Left Foot Rest)     | Permits intercommunication if COLD MIC is selected on the function selector control.                                                            |
 |                                       | Overrides UHF communication.                                                                                                                    |
 |                                       |                                                                                                                                                 |
 +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                       |                                                                                                                                                 |
-| 6. RIO’s MIC button (Right Foot Rest)	| Permits transmission of UHF 1 or UHF 2 radios as selected on the communications/TACAN	                                                          |
+| RIO’s MIC button (Right Foot Rest)    | Permits transmission of UHF 1 or UHF 2 radios as selected on the communications/TACAN	                                                          |
 |                                       | command panel. Note that BOTH is not functional in DCS.                                                                                         |
 |                                       |                                                                                                                                                 |
 +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -4057,7 +4060,7 @@ Approximately 1 minute of warmup is required in order to achieve normal operatin
 |                               |               |                                                                           |                                                   |                                                                       |
 +-------------------------------+---------------+---------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------------------------------------------+
 |                               |               |                                                                           |                                                   |                                                                       |
-| TACAN                         | Pilot & RIO   | Tacan Control Panel                                                       | Station identification                            | TACAN station morse code.                                             |
+| TACAN                         | Pilot & RIO   | TACAN Control Panel                                                       | Station identification                            | TACAN station morse code.                                             |
 |                               |               |                                                                           |                                                   |                                                                       |
 +-------------------------------+---------------+---------------------------------------------------------------------------+---------------------------------------------------+-----------------------------------------------------------------------+
 |                               |               |                                                                           |                                                   |                                                                       |

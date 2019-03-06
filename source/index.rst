@@ -18,7 +18,7 @@ https://github.com/Kaidrick/DCS-F-14-Flight-Manual-zh-CN
 DCS特定功能        dcs.po            午饭                                                                             北欧                 √
 紧急程序           emergency.po      煎蛋                                                                             狐狸                 √
 武器使用总览        weapons.po       红白、吃瓜、zero、北欧、学姐、煎蛋、威龙、丫滑                                          北欧                 √
-缩略词/简称         accr.po          北欧                                                                             北欧                 
+缩略词/简称         accr.po          北欧                                                                             北欧                 √
 驾驶舱总览          cockpit.po       北欧                                                                             北欧
 ==============    ================  =============================================================================   ==================   =======
 
@@ -133,3 +133,4 @@ DCS特定功能        dcs.po            午饭                                 
    emergency
    dcs
    accr
+   tutorials

@@ -9,14 +9,14 @@ M-61 Vulcan Six-Barreled Gatling Cannon
 
     U.S. Navy photo by Photographers Mate Airman Kristopher Wilson. (041129-N-5345W-034)
 
-The M-61 Vulcan is a six-barreled hydraulically driven 20 mm automatic cannon capable of firing over 6 000 rpm (rounds per minute).
+The M-61 Vulcan is a six-barreled hydraulically driven 20 mm automatic cannon capable of firing over 6,000 rpm (rounds per minute).
 
 The F-14 carries the gun internally mounted beneath the cockpit with the muzzle being located on the lower left side of the fuselage.
-650 20 mm rounds are carried in the ammunition drum for the gun and retains the spent cases after the rounds have been fired.
+676 20 mm rounds are carried in the ammunition drum for the gun and retains the spent cases after the rounds have been fired.
 
 The gun itself is mounted to be elevated slightly more than 3° from the ADL to provide built-in lead for dog-fight situations.
 
-To fire the gun no input is needed from the WCS, the gun can be fired manually by the trigger on the pilot stick when selected by the weapons selector on the same stick,
+To fire the gun, no input is needed from the WCS, the gun can be fired by the trigger on the pilot stick when selected by the weapons selector on that same stick,
 provided master arm is on.
 
 Selection of the gun is indicated on the bottom of the hud by a capital G with remaining hundreds of rounds indicated below.
@@ -31,8 +31,7 @@ The indicator counts down from 650 but can manually be reset by rotating the kno
     :scale: 34%
 
 The gun is capable of a 4 000 rpm or 6 000 rpm mode. The lower rate normally used for air-to-ground engagement and the higher rate for air-to-air engagement.
-The gun rate is selected by the GUN RATE switch on the ACM which also indicates selected mode, the mode normally being set automatically for respective type of engagement.
-
+The gun rate is selected by the GUN RATE switch on the ACM which also indicates selected option. Selection of ACM will set it to high automatically.
 The WCS can however provide symbology on the HUD to increase gun accuracy.
 For both air-to-air and air-to-ground modes the gun has two sights available. For air-to-air it's the manual sight and the RTGS (real-time gun sight).
 
@@ -55,19 +54,20 @@ The manual piper is adjustable to enable selection of desired lead. The GUN ELEV
 
 The real-time gunsight mode is the standard gun mode when in the air-to-air mode with the gun selected.
 
-In RTGS the WCS computes the bullet trajectory and displays the location the bullets will pass through at 1 000 and 2 000 feet if no target data is available from the WCS.
-The diamond representing bullet location at 1 000 feet and the pipper representing the bullet location at 2 000 feet.
+In RTGS the WCS computes the bullet trajectory and displays the location the bullets will pass through at 1,000 and 2,000 feet, if no target data is available from the WCS.
+The diamond representing bullet location at 1,000 feet and the pipper representing the bullet location at 2,000 feet.
 
 .. image:: /images/weapons/gunhudrtgs.png
 
-If target data is available from the WCS (target tracked in an STT mode) the pipper instead shows bullet location at the target's current range out to 4 000 feet and the diamond show radar line of sight to the target (target location).
+If target data is available from the WCS (target tracked in an STT mode) the pipper instead displays bullet location at the target's current range out to 4,000 feet.
+The diamond will display radar line of sight to the target (target location).
 This means that when having a target track the pilot should fly the aircraft to place the pipper over the target to hit it.
 
-In addition to computing the solution to put bullets at the targets location the RTGS sight is also able to show a hit indication.
-When the bullets fired are computed to be at the target's location the diamond switches from target indication to indicating bullet position at target range.
-This is also indicated by the diamond blinking.
+In addition to computing the solution to put bullets at the targets location the RTGS sight will also calculate where the bullets actually are in relation to the target when at target range.
+When the bullets fired are computed to be at the target's location the diamond switches from target indication to indicating bullet position at target range (BATR).
+This is also indicated by the diamond flashing.
 
-Using this it's possible to see where the target would have needed to be to be hit by the fired bullets.
+Using this symbology it's possible to see where the target would have needed to be to be hit by the bullets.
 If the gun engagement was executed successfully this means that the diamond should still be on top of the target, blinking, indicating that the bullets passed through the target's location.
 
 **Manual Air-to-Ground Sight**
@@ -148,8 +148,8 @@ This means that the seeker of the Sparrow relies on the AN/AWG-9 painting the ta
 
 The F-14 can carry the AIM-7E, AIM-7F and AIM-7M on four dedicated recesses on the aircraft fuselage and one each on the glove pylons.
 
-Apart from the various improvements to the missile range, seeker and warhead, the major difference between the different versions is that the AIM-7E is only capable of being guided via continous-wave (CW) illumination
-while the AIM-7F and AIM-7M can also be guided via pulse doppler illumination in addition to CW.
+Apart from the various improvements to the missile range, seeker and warhead, the major difference between the different versions is that the AIM-7F and newer missiles can
+also be guided via pulse doppler illumination in addition to CW as opposed to only CW.
 
 
 Missile Preparation
@@ -173,7 +173,7 @@ Launch Modes
 
 The two available launch modes for the AIM-7 on the F-14 is the normal mode and the boresight mode.
 To select the AIM-7 for launch the pilot selects the SP/PH (sparrow/phoenix) position on the stick weapon selector.
-It is not possible to select which sparrow to be launched, this is done automatically by the WCS.
+Selection of which Sparrow to launch is done automatically by the WCS.
 
 Depression of the weapon selector switches from SP to PH and vice versa.
 If a STT target is available the WCS will automatically use the normal mode for launch unless BRSIT (boresight) is selected on the MSL MODE (missile mode) switch on the ACM panel.
@@ -296,7 +296,7 @@ The missile is capable of engagement both against a single target in STT and mul
 
 The AIM-54 is available in two different versions, the AIM-54A and the AIM-54C.
 The Heatblur Simulations F-14B Tomcat is modelled with both versions as well as modelling the AIM-54A with both mk47 and mk60 rocket motors.
-The two motors on the AIM-54A differing in effective range and the AIM-54C differing from the AIM-54A by having a digital seeker instead of an analog one, increasing its performance.
+The two motors on the AIM-54A differing in effective range while the AIM-54C differs by having a digital seeker instead of an analog one, increasing its performance, as well as an improved, smokeless, mk47 rocket motor.
 
 The AIM-54 has a range of at least 60 NM against a fighter sized target at high altitudes in pulse doppler STT.
 When using TWS for engagement against multiple targets this drops to about 50 NM.
@@ -332,10 +332,9 @@ In TWS the AN/AWG-9 is capable of supporting the launch of up to 6 AIM-54 missil
 In the first stage of the AIM-54 engagement, the missile is guided semi-actively by the AN/AWG-9 radar using both guidance commands transmitted via the radar and radar energy reflected off the target.
 Then when the missile is within range of its seeker's ARH mode the AN/AWG-9 commands the missile to switch to ARH.
 
-Absence of this command via the AN/AWG-9 radar means that the missile won't switch to the ARH mode meaning that the AIM-54 isn't fire and forget and must be guided at least until it goes active.
+Absence of this command via the AN/AWG-9 radar means that the missile won't switch to the ARH mode.
 The AN/AWG-9, however, continues to transmit guidance commands to the missile as a fallback in case the missile can't acquire the target autonomously.
-This means that the AIM-54 isn't a "fire and forget" missile per se but it can be considered autonomous after transfer to ARH, though this transition isn't indicated in the system so the crew has to keep track of this manually.
-
+This means that the AIM-54 isn't a "fire and forget" missile per se but it can be considered autonomous after transfer to ARH.
 
 PD STT SARH
 ^^^^^^^^^^^
@@ -392,8 +391,8 @@ The range scale on the right side of the HUD indicates range to target and Rmin 
 TWS
 ^^^
 
-When using the AIM-54 with TWS the WCS automatically prioritises the tracked targets, giving them a firing order number indicating missile launch order.
-As the first target is launched at the first tracks number is removed and the other tracks numbers are decreased by one.
+When using the AIM-54 with TWS the WCS automatically prioritizes the tracked targets, giving them a firing order number indicating missile launch order.
+As the first target is launched at the first track's number is removed and the other tracks' numbers are decreased by one.
 
 To continue to engage track 2 through 6 the pilot thus depresses the trigger once for each target, waits until the missile is clear and then depresses the trigger again for the next missile and so on until the desired number of missiles are away.
 
@@ -451,7 +450,7 @@ The MECH FUSE switch sets which mechanical fuse to arm on the stores. NOSE arms 
 The ELEC FUSE selector knob sets the electrical fuse of the store to be released:
 
 *   SAFE - Inhibits electrical bomb fusing.
-*   VT - Sets air-burst mode at preset burst heigh for compatible stores.
+*   VT - Sets air-burst mode at preset burst height for compatible stores.
 *   INST - Sets instantaneous burst mode.
 *   DLY 1 - Sets preset time delay 1.
 *   DLY 2 - Sets preset time delay 2.
@@ -472,7 +471,7 @@ After tape read-in (about 30 seconds) the WCS initiates the Air-to-ground mode a
 The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon.
 All other options are set by the RIO in the back seat.
 
-The available attack modes in the F-14B are set by the ATTK MODE selector in the pilot pit and are:
+The available attack modes in the F-14B are set by the ATTK MODE selector in the RIO pit and are:
 
 *   CMPTR TGT - Computer target, a semi-automatic computer guided mode similar to a CCRP mode in newer aircraft.
 *   CMPTR IP - Computer initial point, an extended CMPTR TGT mode using a known initial point (IP) as reference for store delivery. Mostly used in situations where the actual target is expected to be hard to locate visually and is located closely to an easily identifiable reference point/landmark.
@@ -522,7 +521,7 @@ The message (function) IP TO TGT on the CAP under the TAC DATA category is then 
 *   RNG - Sets range to target from the IP waypoint.
 *   BRG - Sets the bearing to the target from the IP waypoint.
 
-When the pilot designate the IP visually on the HUD the WCS recalculates the target location using the data set under the IP TO TGT function on the CAP, moves the target diamond to that location and instead displays guidance towards the real target location.
+When the pilot designates the IP visually on the HUD the WCS recalculates the target location using the data set under the IP TO TGT function on the CAP, moves the target diamond to that location and instead displays guidance towards the real target location.
 
 All other functions of this mode are identical to the Computer target mode.
 
@@ -589,7 +588,7 @@ When the F-14B gained the ability to mount and use the LANTIRN pod it was also c
 It can either deliver them onto designation from a self-carried LANTIRN pod or onto a laser designation from another aircraft or ground source.
 
 The GBUs carried are mounted on the Phoenix rails themselves on stations 3-6 as the additional size of a GBU compared to a normal Mk-80 series bomb makes it impossible to use the substations on the rails for those.
-Each station is capable of carrying one GBU up to the size of the GBU-10. As for the GBU-24 they need to be carried one each on the front and back rails and on opposite sides of the aircraft as the GBU-24 is larger than the GBU-10.
+Each station is capable of carrying one GBU up to the size of the GBU-16. As for the GBU-10 and 24, the 10 can be carried on the front rails (3 and 6) and the 24 on one front rail and one back rail as they need to be carried on opposite sides of the aircraft due to the larger wing assembly.
 
 :Note: GBU laser codes are set as per :ref:`MESET` or via the kneeboard.
 
@@ -645,9 +644,11 @@ ADM-141 TALD
 The ADM-141 tactical air-launched decoy (TALD) is a gliding decoy simulating real aircraft using active and passive means.
 There are several versions of the TALD, examples being a version equipped to launch chaff and another version using a Luneberg lens to increase its cross-section to simulate a larger aircraft.
 
-All versions are pre-programmed before take-off and are unpowered gliding through the air on fold-out wings.
+All versions are pre-programmed before take-off and are unpowered, gliding through the air on fold-out wings.
 
 The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage.
+
+:Note: In DCS these currently glide straight ahead until they run out of speed and altitude.
 
 
 LUU-2 Parachute Flare
@@ -660,21 +661,6 @@ The F-14B can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on 
 The LUU-2 parachute flare is launched and set up in the same way as a general purpose bomb.
 
 
-LAU-138 Chaff Adapter
-=====================
-
-The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in Sweden to enhance a combat aircraft's capability to carry chaff countermeasures.
-The chaff launcher is unusual in that it doesn't use pyrotechnics to fire the chaff packages but instead uses a mechanical action.
-
-While each adapter can carry up to 160 chaff packages each package is not equal to a standard chaff bundle meaning that a set of two launchers launches four packages in total for each chaff release impulse.
-Even though ejecting 4 packages at each impulse this still means that a set of two LAU-138, carrying in total 320 packages, still can release chaff 80 times, greatly increasing the carried amount of chaff on the aircraft.
-
-The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14B to carry additional chaff without impacting the ability to carry other weapons.
-While technically capable of carrying the LAU-138 on both A & B stations on the glove pylons, in practice it was impossible to access the cooling bottle for an AIM-9 carried on the B station meaning that operationally only the A stations were loaded with LAU-138 adapters.
-
-For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter.
-
-
 Smokewinder
 ===========
 
@@ -682,6 +668,25 @@ The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 miss
 
 To enable and disable a Smokewinder, select AIM-9 for launch using boresight (BRSIT) and select the corresponding weapon station using the weapon selector on the pilot stick.
 When set up thusly and with master arm on, each pull of the trigger enables or disable the Smokewinder discharging smoke.
+
+
+Pods and Tanks
+**************
+
+LAU-138 Chaff Adapter
+=====================
+
+The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in Sweden to enhance a combat aircraft's capability to carry chaff countermeasures.
+The chaff launcher is unusual in that it doesn't use pyrotechnics to fire the chaff packages but instead uses a mechanical action.
+
+While each adapter can carry up to 160 chaff packages in total, each package is not the equal to a standard chaff bundle.
+Because of this fact, each launcher is set to eject four packages in total for each release impulse.
+This means that the pair of LAU-138s ejects in total 8 chaff packages per impulse and that 40 dispensation cycles are available.
+
+The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14B to carry additional chaff without impacting the ability to carry other weapons.
+While technically capable of carrying the LAU-138 on both A & B stations on the glove pylons, in practice it was impossible to access the cooling bottle for an AIM-9 carried on the B station meaning that operationally only the A stations were loaded with LAU-138 adapters.
+
+For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter.
 
 
 TACTS Pods
@@ -692,9 +697,6 @@ They are normally carried as a pair of two, one on each side.
 
 :Note: In DCS their functionality is purely cosmetic.
 
-
-Pods and Tanks
-**************
 
 FPU-1 Fuel Tank
 ===============
@@ -731,7 +733,7 @@ F-14B Loadout Diagram
 .. image:: /images/weapons/F14.png
 
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
-| Weapon\Station                     | 1A | 1B | 2 | 3 | 4 | 5 | 6 | 7 | 8B | 8A | Total |
+| Weapon \ Station                   | 1A | 1B | 2 | 3 | 4 | 5 | 6 | 7 | 8B | 8A | Total |
 +====================================+====+====+===+===+===+===+===+===+====+====+=======+
 | AIM-9                              | 1  | 1  |   |   |   |   |   |   | 1  | 1  | 4     |
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
@@ -753,7 +755,7 @@ F-14B Loadout Diagram
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
 | Mk-20                              |    | 2  |   | 2 | 1 | 1 | 2 |   | 2  |    | 10    |
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
-| GBU-10                             |    |    |   | 1 | 1 | 1 | 1 |   |    |    | 4     |
+| GBU-10                             |    |    |   | 1 |   |   | 1 |   |    |    | 2     |
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
 | GBU-12                             |    |    |   | 1 | 1 | 1 | 1 |   |    |    | 4     |
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+

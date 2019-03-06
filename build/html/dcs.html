@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                协作预览 | Mar. 2nd, 2019
+                协作预览 | Mar. 6th, 2019
               </div>
             
           
@@ -109,6 +109,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
 </ul>
 
             
@@ -179,9 +180,9 @@
 <h2>Jester<a class="headerlink" href="#jester" title="永久链接至标题">¶</a></h2>
 <img alt="_images/jester.png" class="align-center" src="_images/jester.png" />
 <p>Jester AI 的目标是为 Heatblur DCS F-14B 打造一个 AI 雷达拦截官（即 RIO），便于玩家能够在单人（单人单架飞机）的环境下享受双人协作驾驶的快感。</p>
-<p>Jester 被完全集成进了后座驾驶舱，他需要控制后座驾驶舱内几乎所有的系统，特别是那些前座飞行员无法完成的操作，同样，我们为 Jester 构建模型时，还考虑了到一名真正人类 RIO 的局限性，也就是说，除了各种各样的限制因素外，RIO 当前头部位置，目视搜索范围以及他的手在操作什么——Jester AI 的人类行为模型充分考虑到了这些因素。Jester AI 能够像人类一样坐在 RIO 座位上控制所有系统，执行各种各样的操作。</p>
-<p>玩家可以通过一个环形选单快速访问并选择 Jester 的命令/控制。该选单中的内容会根据当前所处的模式和目前的状况进行动态的调整。Jester 的反馈会调用语音库中的语句并通过内话系统传递给玩家，以此模拟 RIO 交流的真实体验，而且，除了确认指令外，Jester 还会根据当前的情况向飞行员传达相关信息。</p>
-<p>最后，在多人游戏中，加入其他玩家的 RIO 会发现加入时所有的控制（例如：开关的位置等）都处在 Jester 离开前操作的位置上，同理，若玩家 RIO 离开，Jester也会按照玩家所留下的设置来接手 RIO 的工作。</p>
+<p>Jester 被完全集成进了后座驾驶舱，他需要控制后座驾驶舱内几乎所有的航电，特别是那些前座飞行员无法操作的系统，我们为 Jester 构建模型时，还考虑了到一名真正人类 RIO 的局限性，也就是说，除了各种各样的限制因素外，RIO 当前头部位置，目视搜索范围以及他的手在操作什么——Jester AI 的人类行为模型充分考虑到了这些因素。Jester AI 能够像人类一样坐在 RIO 座位上控制所有系统，执行各种各样的操作。</p>
+<p>玩家可以通过一个环形选单快速访问并选择 Jester 的命令/控制。该选单中的内容会根据当前所处的模式和目前的状况进行动态的调整。Jester 的反馈会调用语音库中的语句并通过内话系统（ICS）传递给玩家，以此模拟 RIO 交流的真实体验，而且，除了确认指令外，Jester 还会根据当前的情况向飞行员传达相关信息。</p>
+<p>最后，在多人游戏中，作为 RIO 加入的玩家会发现，加入时所有的控制（例如：开关的位置等）都处在 Jester 离开前操作的位置上，同理，若玩家 RIO 离开，Jester也会按照玩家所留下的设置来接手 RIO 的工作。</p>
 <div class="section" id="functionality">
 <h3>功能<a class="headerlink" href="#functionality" title="永久链接至标题">¶</a></h3>
 <img alt="_images/menu.png" src="_images/menu.png" />
@@ -197,7 +198,7 @@
 <div class="section" id="iceman">
 <h3>Iceman<a class="headerlink" href="#iceman" title="永久链接至标题">¶</a></h3>
 <img alt="_images/pilot.png" src="_images/pilot.png" />
-<p>除了 Jester ，或者说，作为 Jester AI 的一部分， Heatblur DCS F-14B 同样实现了 Iceman ，一个基础的自动驾驶仪/AI 。这适用于单人模式，当玩家在前后座之间跳转以同时控制两个驾驶舱内的系统时，这个基本的自动驾驶仪就会激活，并使用与控制 Jester 相同的控制方法。</p>
+<p>除了 Jester ，或者说，作为 Jester AI 的一部分， Heatblur DCS F-14B 同样实现了 Iceman ，一个基础的自动驾驶仪/AI 。这适用于单人模式，当玩家在前后座之间跳转以同时控制两个驾驶舱内的系统时，这个基本的自动驾驶仪就会激活，并使用与 Jester 相同的控制方法。</p>
 <p>我们所说的基础功能是指，当玩家切换到后舱 RIO 的座位时， Iceman 将获取控制权，保持飞机当前的航向和高度。通过菜单——现在是 Iceman 菜单了——玩家可以设置航向、高度和速度。航向和高度可以相对某个目标进行设定，也可以设定为不参考任何外部目标的绝对值。</p>
 </div>
 <div class="section" id="assisted-startup">
@@ -234,7 +235,7 @@
 <td>允许使用 VR 或 Track-IR 控制用头部移动选择 Jester 菜单中的条目</td>
 </tr>
 <tr class="row-odd"><td>无聊的 Jester</td>
-<td>禁用 Jester 的润色和笑话。</td>
+<td>禁用 Jester 的润色和笑话。未实装。</td>
 </tr>
 <tr class="row-even"><td>视距内空战以 P-STT 锁定而不是 PD-STT</td>
 <td>进入格斗射程后 Jester 会自动将雷达切换至 P-STT 模式。</td>
