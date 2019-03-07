@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 0.2.1 | Feb. 15th, 2019\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 | Mar. 2nd, 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 17:14+0800\n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,15 +37,15 @@ msgid "The F-14 Tomcat can trace its origin back to the 1950's and the US Navy's
 msgstr ""
 
 #: ../../source/intro.rst:17
-msgid "The Navy was directed, by then, defense secretary Robert McNamara to join the Tactical Fighter Experimental or TFX program to procure this aircraft in a joint venture with the US Air Force. The Navy was opposed to this from the beginning and the proposed General Dynamics F-111B aircraft did not meet the Navy's expectations."
+msgid "The Navy was directed, by then defense secretary Robert McNamara, to join the Tactical Fighter Experimental or TFX program to procure this aircraft in a joint venture with the US Air Force. The Navy was opposed to this from the beginning and the proposed General Dynamics F-111B did not meet the Navy's expectations."
 msgstr ""
 
 #: ../../source/intro.rst:20
-msgid "Grumman, which had been brought on board by General Dynamics for the Navy F-111B, was eventually awarded a contract to begin developement of an aircraft more suited to the Navy's requirements. This led to the design that would eventually become the F-14, carrying over the radar (AN/AWG-9) and missiles (AIM-54 Phoenix) from the failed F-111B project."
+msgid "Grumman, which had been brought on board by General Dynamics for the Navy F-111B, was eventually awarded a contract to begin development of an aircraft more suited to the Navy's requirements. This led to the design that would eventually become the F-14, carrying over the radar (AN/AWG-9) and missiles (AIM-54 Phoenix) from the failed F-111B project."
 msgstr ""
 
 #: ../../source/intro.rst:23
-msgid "The F-14 Tomcat first flew on the 21st of December 1970 and entered service on the 22nd of September 1974. The name \"Tomcat\" follows Grumman's tradition of naming their aircraft after cats and also partially from the nickname \"Tom's Cat\" for Vice Admiral Thomas F. Connolly who was instrumental for the developement of the F-14."
+msgid "The F-14 Tomcat first flew on the 21st of December 1970 and entered service on the 22nd of September 1974. The name \"Tomcat\" follows Grumman's tradition of naming their aircraft after cats and also partially from the nickname \"Tom's Cat\" for Vice Admiral Thomas F. Connolly who was instrumental for the development of the F-14."
 msgstr ""
 
 #: ../../source/intro.rst:29
@@ -57,11 +57,11 @@ msgid "The first version of the F-14, the F-14A was equipped with the Pratt & Wh
 msgstr ""
 
 #: ../../source/intro.rst:33
-msgid "The TF30 engines were generally regarded as temperamental and underpowered for the F-14A and were eventually replaced by the General Electrics F110-400 engines in the F-14A+ (later F-14B)."
+msgid "The TF30 engines were generally regarded as temperamental and underpowered for the F-14A and were eventually replaced by the General Electric F110-400 engines in the F-14A+ (later F-14B)."
 msgstr ""
 
 #: ../../source/intro.rst:35
-msgid "The IRST system was rather quickly determined to be underperforming and replaced with the TCS (Television Camera Set) in the chinpod allowing for greater than visual range identifications of radar tracked targets."
+msgid "The IRST system was rather quickly determined to be underperforming and replaced with the TCS (Television Camera Set) in the chinpod allowing for greater than visual range identification of radar tracked targets."
 msgstr ""
 
 #: ../../source/intro.rst:37
@@ -81,7 +81,7 @@ msgid "Photo by LCDR Dave Parsons. (DN-SC-93-01299)"
 msgstr ""
 
 #: ../../source/intro.rst:49
-msgid "During the 1990's when the aerial threat to the fleets of the US Navy lessened and with the advent of operations like operation Desert Storm, the ground attack role was resurrected."
+msgid "During the 1990's when the aerial threat to the fleets of the US Navy lessened and with the advent of operations like Desert Storm, the ground attack role was resurrected."
 msgstr ""
 
 #: ../../source/intro.rst:51
@@ -89,7 +89,7 @@ msgid "The ability to carry and deliver air-to-ground munitions had been impleme
 msgstr ""
 
 #: ../../source/intro.rst:53
-msgid "With the renewed interest for this role, some of the F-14As and F-14Bs were equipped to carry the LANTIRN targetting pod allowing the RIO to find and designate laser guided bombs for his own aircraft and others. Later on the ability to carry and deliver gps-guided JDAMs was also added."
+msgid "With the renewed interest for this role, some of the F-14As and F-14Bs were equipped to carry the LANTIRN targeting pod allowing the RIO to find and designate laser guided bombs for his own aircraft and others. Later on the ability to carry and deliver gps-guided JDAMs was also added."
 msgstr ""
 
 #: ../../source/intro.rst:56
@@ -169,7 +169,7 @@ msgid "It was designed for the F-111B and then adopted for the F-14 as a long-ra
 msgstr ""
 
 #: ../../source/intro.rst:112
-msgid "Outstanding features of the AIM-54 missiles were their long range as well as their ability to launch at and track up to six simultaneous targets, guided first by the AN/AWG-9 radar in the launching aircraft and then its own active radar seeker independently."
+msgid "Outstanding features of the AIM-54 missiles were their long range as well as their ability to be launched at up to six simultaneous targets, guided first by the AN/AWG-9 radar in the launching aircraft and then its own active radar seeker independently."
 msgstr ""
 
 #: ../../source/intro.rst:114
@@ -297,6 +297,6 @@ msgid "Range"
 msgstr ""
 
 #: ../../source/intro.rst:159
-msgid "2,050 nm (~3800 km)"
+msgid "2,050 NM (~3800 km)"
 msgstr ""
 

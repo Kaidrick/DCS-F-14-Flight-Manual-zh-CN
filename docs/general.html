@@ -2639,29 +2639,26 @@ In addition there are two indication lights co-located with the RWR threat indic
 <span id="id4"></span><h2>导航<a class="headerlink" href="#navigation" title="永久链接至标题">¶</a></h2>
 <div class="section" id="navigation-system">
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
-<p>The F-14’s primary navigation system is a multi-unit Carrier Aircraft Inertial Navigation System (CAINS) designated as AN/ASN-92.
-An INS system measures and integrates sensed inertia forces (acceleration) and rotational velocities to calculate aircraft position and linear velocity.
-A good navigation system can precisely guide an aircraft on a route to a mission objective hundred or thousand miles-long, and then back to the home base, safely and reliably.
-Such a system is even more important when an aircraft is designed to operate over the ocean, far away from any ground-based TACAN or visual references.</p>
+<p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），命名为 AN/ASN-92。INS通过测量惯性力（即加速度）以及旋转时的角速度并对其积分以计算飞机的位置以及线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全可靠地返回到基地。当飞机需要在远离地面塔康基站和目视参考的大洋上执行任务时，这样的导航系统甚是重要。</p>
 <p>设计一套INS（IMU）是一项非常复杂的工作，需要考虑到的方方面面包括了校正、对准、地球自转、惯性力、热稳定性甚至是模拟信号和数字信号的转换精度，上述所有的、必须应用的修正措施均是为了保证在长时间使用后设备的精度，以及更多需要考虑到的因素。同样，模拟一套INS是非常相似的——这也不是什么轻松的活。</p>
-<p>在Heatblur，我们决定开发一套全新的数学模型来模拟我们F-14的AN/ASN-92。我们为这个模型囊括了所有影响设备最终精度的潜在错误来源，并再现了一个万向INS平台的特征行为。这一系列下来的结果便是基于这个模型所开发的算法，在DCS中真实再现AN/ASN-92，但经过优化之后却能够做到几乎不影响CPU性能。</p>
+<p>在Heatblur，我们决定开发一套全新的数学模型来模拟我们F-14的AN/ASN-92。我们为这个模型囊括了所有影响设备最终精度的潜在错误来源，并再现了一个万向INS平台的特征行为。我们努力下来的结果便是基于这个模型所开发的算法，在DCS中真实再现AN/ASN-92，但经过优化之后却能够做到几乎不影响CPU性能。</p>
 <p>INS的主要组件包括了惯性测量单元（IMU），电源以及飞行员及RIO的导航控制及显示。</p>
-<p>尽管对于机组来说，INS主要用于导航，但其对其他机载设备的运行必不可少，例如，雷达就需要从INS中获取飞机的姿态，一些武器投放模式——特别是某些长距离投放，需要通过INS获取姿态以及自身的位置。更能令机组不安的是，INS的失效将使得武器——比如AIM-7或是AIM-54——的某些高级模式无法使用。</p>
+<p>尽管对于机组来说，INS主要用于导航，但其对其他机载设备的运行必不可少，例如，雷达就需要从INS获取飞机的姿态，一些武器投放模式——特别是某些长距离投放，需要通过INS获取姿态以及自身的位置。更能令机组不安的是，INS的失效将使得武器——比如AIM-7或是AIM-54——的某些高级模式无法使用。</p>
 <p>同样的数据也会被数据链所使用——当使用错误的INS数据时，从友机获取的自身轨迹以及目标信息将无法匹配，并且将导致TID显示错误的目标。以上的情况只是一些例子，而每当飞机系统需要用到自身的姿态和位置数据时，被使用的永远是INS数据。</p>
 <p>因此，惯性导航系统（INS）与AWG-9计算机（即WCS计算机）以及CSDC（计算机信号数据转换器，Computer Signal Data Converter）集成工作。其他相关的设备包括了姿态及航向参考系统，中央大气数据计算机，雷达高度计，仪表着陆系统以及TACAN。</p>
 <div class="section" id="wcs-computer">
 <h4>WCS 计算机<a class="headerlink" href="#wcs-computer" title="永久链接至标题">¶</a></h4>
-<p>WCS计算机，即武器控制系统计算机（Weapon Control System computer），通过与CSDC一起使用存储在磁带上的数个对准子程序来执行对准INS所需要的、必要的计算。</p>
+<p>WCS计算机，即武器控制系统计算机（Weapon Control System computer），通过与CSDC一起使用存储在磁带上的数个对准子程序来执行对准INS所需的，必要的计算。</p>
 <p>这些存储好的对准子程序在WCS计算机中被称为SMAL，单模式对准程序（Single Mode Alignment Program）。当开始执行INS对准时，对准程序将被加载到计算机的破坏读取式内存中。</p>
 <p>该过程被称为“磁带读入”，并由TID上的“M”表示。在IMU的对准过程中，WCS将与CSDC进行数据交换以加载特定的CSDC导航子程序。</p>
 </div>
 <div class="section" id="imu-platform-alignment">
 <h4>IMU 平台对准<a class="headerlink" href="#imu-platform-alignment" title="永久链接至标题">¶</a></h4>
-<p>当选择对准模式时，IMU平台首先将在加速度计的帮助下竖立至粗略对准位置，并将输出一个航向，其代表飞机自真北向的角位移，该角位移被称为漂移角。CSDC将在对准过程中向WCS发送惯性速度数据。</p>
-<p>第二阶段——精确对准——使用陀螺仪漂移的精确测量来计算飞机的真航向。由于地球的自转，这是可能的，在没有对准的情况下，使用磁航向，并且整个过程仅依赖于感知平台在3D空间内的非惯性运动。</p>
+<p>当选择对准模式后，IMU平台首先将在加速度计的帮助下竖立至粗略对准位置，并将输出一个航向，其代表飞机自真北向的角位移，该角位移被称为漂移角。CSDC将在对准过程中向WCS发送惯性速度数据。</p>
+<p>第二阶段——精确对准——使用陀螺仪漂移的精确测量来计算飞机的真航向。由于地球的自转，这是可能的，在未开始精确对准时，系统将使用磁航向，并且整个对准过程仅依赖于感知平台在3D空间内的非惯性运动。</p>
 <p>WCS计算平台对准校正所需要的数据诸元并估计漂移角的值，然后将该数据发送到CSDC。CSDC在CSDC惯性方程中使用这些校正数据诸元来产生用于生成平台扭矩的信号脉冲，然后将其传输到IMU。作为回应，CSDC从IMU接收速度信息并将该新的惯性速度数据发送到WCS对准程序，循环重复该程序。数据的交换将一直持续到输入INS为止。</p>
-<p>平台调平过程是由CSDC根据从IMU接收的加速度非平值（off-level indication，译者注）进行计算并发送调矩脉冲来完成的。在每次数据交换时，WCS会计算前一个和当前漂移角之间的误差值（Δ）。该误差值在对齐开始时最大，在对齐结束时最小。</p>
-<p>当Δ接近零并且沿平台X及Y轴均感测到速度接近零时，完成对准。对准平台所需的变量因子将被连续计算、更新并保存为校正数据。对准完成后，系统即可进入INS模式。 最后使用的校正数据和漂移角在进入INS模式时存储在CSDC中。在INS模式中，WCS将接受来自CSDC的速度和位置数据以及漂移角。</p>
+<p>平台调平过程是由CSDC根据从IMU接收的加速度计非平值（off-level indication，译者注）进行计算并发送调矩脉冲来完成的。在每次数据交换时，WCS会计算前一个和当前漂移角之间的误差值（Δ）。该误差值在对准开始时最大，在对齐结束时最小。</p>
+<p>当Δ接近零并且沿平台X及Y轴均感测到速度接近零时，对准完成。对准平台所需的变量因子将被连续计算、更新并保存为校正数据。对准完成后，系统即可进入INS模式。 最后使用的校正数据和漂移角在进入INS模式时存储在CSDC中。在INS模式中，WCS将接受来自CSDC的速度和位置数据以及漂移角。</p>
 <div class="section" id="navigation-modes">
 <h5>导航模式<a class="headerlink" href="#navigation-modes" title="永久链接至标题">¶</a></h5>
 <p>有三种导航数据模式可用于一般导航：</p>
@@ -2677,7 +2674,7 @@ Such a system is even more important when an aircraft is designed to operate ove
 <li>当前经纬度</li>
 <li>姿态</li>
 <li>真航向和磁航向</li>
-<li>本机的地速和地面轨迹</li>
+<li>本机的地速和飞行轨迹的地面投影</li>
 <li>存储和显示三个导航点以及固定点（FP），初始点（IP），地面/水面目标（ST），基地（HB），防守点和敌对区域的能力</li>
 <li>距离，方位，指令航线，指令航向和到达所选目的地的时间</li>
 <li>计算风速和风向</li>
@@ -2694,7 +2691,7 @@ Such a system is even more important when an aircraft is designed to operate ove
 </div>
 <div class="section" id="inertial-navigation-system-ins">
 <h3>惯性导航系统（INS）<a class="headerlink" href="#inertial-navigation-system-ins" title="永久链接至标题">¶</a></h3>
-<p>INS的一个重要特征是它在很宽的工作温度范围内具有快速对准能力。INS是一种航位推算系统，可根据飞机加速度得出速度。两个加速度计用于测量水平面中的加速度，在校正地球的旋转速度（科氏加速度）后并对其积分便能得出基于飞机X和Y轴的速度。这些X和Y轴的速度可以通过漂移角在IMU平台坐标系中解析，并转换至以地球为参照系的北/东/下系统。以北轴和东轴做参考并对速度积分还能提供经纬度的增量。以这种方式进行导航可以使飞行机组人员能随时详细，准确地了解飞机的位置，方向和速度。</p>
+<p>INS的一个重要特征是它在很宽的工作温度范围内具有快速对准能力。INS是一种航位推算系统，可通过飞机的加速度得出速度。两个加速度计用于测量水平面中的加速度，在校正地球的旋转速度（科氏加速度）后并对其积分便能得出基于飞机X和Y轴的速度。这些X和Y轴的速度可以通过漂移角在IMU平台坐标系中解析，并转换至以地球为参照系的北/东/下坐标系。以北轴和东轴做参考并对速度积分还能提供经纬度的增量。以这种方式进行导航可以使飞行机组人员能随时详细、准确地了解飞机的位置、方向和速度。</p>
 <p>像AN/ASN-92这样的INS设备需要高精度的加速度和姿态测量，因为即使最小的误差也会在长时间累积后被放大。</p>
 <p>举一个例子：惯性平台从标称位置略微倾斜，比如说，0.002°。然后，水平加速度计不再与地面平行，这意味着它们开始感知重力。如果不纠正，则导航计算机会将重力分量误认为水平加速度。如果错误的姿态保持一小时，将导致超过一海里的测量位置误差。这是一个重要的不准确性，它是由这种最小的对齐误差造成的。</p>
 <p>INS的精度会随着时间的推移而降低——通常它们在导航模式下运行的时间越长, 累积的误差就越高。</p>
@@ -2758,11 +2755,11 @@ Such a system is even more important when an aircraft is designed to operate ove
 </tr>
 <tr class="row-even"><td>熄灭</td>
 <td>闪烁</td>
-<td>由于未在显示第二个标记后设置停机刹车，对准已暂停。</td>
+<td>由于未在进度指示符到达第二个标记后设置停机刹车，对准已暂停。</td>
 </tr>
 <tr class="row-odd"><td>熄灭</td>
 <td>点亮</td>
-<td>对准精度可以保证进行武器部署（屏幕上显示的第二个标记），或在INS或IMU/AM可用时选择AHRS/AM。等待系统完全对准或选择所需模式。</td>
+<td>对准精度可以保证进行武器部署（TID屏幕上显示的第二个标记），或在INS或IMU/AM可用时选择AHRS/AM。等待系统完全对准或选择所需模式。</td>
 </tr>
 <tr class="row-even"><td>熄灭</td>
 <td>熄灭</td>
@@ -2774,7 +2771,7 @@ Such a system is even more important when an aircraft is designed to operate ove
 </tr>
 </tbody>
 </table>
-<p><a href="#id1"><span class="problematic" id="id2">**</span></a>警告：<a href="#id3"><span class="problematic" id="id4">**</span></a>在RIO因系统故障选择IMU/AM后，且之后发生完整的IMU故障，系统将向飞行员显示错误的姿态信息。CSDC既不会自动退出IMU/AM到AHRS/AM模式（若AHRS工作正常），也不会移除VDIG/TID/DDD姿态显示。RIO应手动切换到AHRS/AM模式。</p>
+<p><strong>WARNING:</strong> After RIO selection IMU/AM because of a failure, and a complete IMU failure occurs afterwards, the system will display erroneous attitude information to the pilot. The CSDC will neither automatically exit IMU/AM to the AHRS/AM mode (if a valid AHRS exists) nor remove VDIG/TID/DDD attitude displays. The RIO should manually switch to the AHRS/AM mode.</p>
 <p>每当NAV COMP灯点亮时，机组应谨慎处理各个姿态显示并经常交叉参考VDIG/TID/DDD和备用姿态仪，特别是在非VFR条件下，并警惕IMU故障。如果发现IMU灯点亮或OBC连续监视器中显示IMU首字母缩略词或TID姿态参考源缓冲器中的IMU首字母缩略词指示被移除或NAV COMP灯熄灭，则意味着IMU故障，RIO应将NAV MODE开关自IMU/AM移动到AHRS/AM并忽略READY灯。如果存在有效的AHRS，将显示AHRS姿态信息，否则VDIG/TID/DDD姿态显示将消失。</p>
 </div>
 <div class="section" id="ahrs-light">
@@ -2790,37 +2787,28 @@ Such a system is even more important when an aircraft is designed to operate ove
 <h3>INS 对准模式<a class="headerlink" href="#ins-alignment-modes" title="永久链接至标题">¶</a></h3>
 <p>在INS可以用于导航之前，惯性平台必须进行对准，使其与当地重力方向垂直（即保持水平）并且确定与真北方向的夹角（漂移角）。这是由两个阶段所自动完成的：粗略对准和精细对准。</p>
 <p>粗略对准在系统初始化完成时开始，并执行IMU平台漂移角的初始粗略估计。该阶段的成功完成需要IMU平台中的最小局部水平误差。粗略对准完成后即进入精细对准阶段。</p>
-<p>IMU elements that require warmup are being heated by the IMU heaters.
-In addition, the IMU gimbals (roll, pitch, azimuth) are caged through their respective synchros to the IMU case (airframe reference).
-The IMU gyros are brought up to running speed, and coarse leveling is performed using the accelerometer outputs.</p>
-<p>When power is applied to the NPS and IMU, the SMAL program from the bulk storage tape is read into the WCS computer nonwrite-protected memory.
-The alignment program estimates a wander angle, velocity errors, and gyro-torquing correction signals.</p>
-<p>These values are sent to the CSDC to align the IMU and to initialize the CSDC NAV program.
-The following assemblies are used during alignment: IMU, NPS, CSDC, WCS computer, CAP (computer address panel), navigation control and data readout panel.
-For carrier alignment also the data link receiver-processor is used.</p>
-<p>There are four primary alignment modes: SAT ground and carrier alignment, and NON SAT ground and carrier alignment.
-SAT operation allows OBC testing during the alignment. Either alignment mode can be used in SAT or NON SAT. (SAT modes are not yet implemented in DCS)</p>
-<p>The basic TID display formats are represented in the image below. The automatic sequence is the same for all modes, except for CVA ALIGN, where the ship’s motion is inserted by the data link.</p>
-<p>The CAT ALIGN overrides the requirement for the parking brake to be on (suspend align).
-There are two more alignment submodes: stored heading and handset. The handset mode is used for CVA ALIGN when SINS data is not available.
-The stored heading mode is used for rapid alignment, by using a previous alignment (reference alignment) to align the system quickly.</p>
-<p>Initialization of any alignment mode requires entry of the following values in either own aircraft or HB (homebase) for the following:</p>
+<p>IMU加热器负责加热那些需要预热的IMU元件。此外，IMU环架（滚转，俯仰，方位角）通过它们各自的同步器与IMU壳体（机身参考）相对锁定。随后IMU陀螺仪达到运行速度，并使用加速度计输出执行粗略调平。</p>
+<p>当NPS和IMU上电时，来自存储磁带的SMAL程序将被读入WCS计算机的破坏读取式内存。对准程序将估计漂移角度，速度误差以及陀螺扭矩校正信号。</p>
+<p>这些数据将被发送至CSDC以使IMU完成对准并初始化CSDC NAV程序。在对准期间，IMU，NPS，CSDC，WCS计算机，CAP（计算机地址面板），导航控制和数据读出面板被使用。 对于舰上对准，数据链路接收-处理器也会被用到。</p>
+<p>INS有四种主要的对准模式：SAT地面对准和SAT舰上对准，以及，对应的，NON SAT地面对准和舰上对准。SAT操作允许在对准期间执行OBC。对齐模式可以在SAT或NON SAT中使用。（SAT模式尚未在DCS中模拟）</p>
+<p>基础的TID显示格式如下图所示。所有模式的自动序列都相同，除CVA ALIGN之外，在CVA ALIGN中船舶的移动数据由数据链所输入。</p>
+<p>CAT ALIGN模式无视了停机刹车的需要（除CAT ALIGN模式外未设置停机刹车将暂停对齐）。CAT ALIGN还有两个对齐子模式：预存航向模式和手动模式。当SINS数据不可用时，CVA ALIGN使用手动模式以完成对准。 预存航向模式用于快速对准，其通过使用先前的对准（参考对准）来快速完成对准。</p>
+<p>任意对准模式的初始化都需要在本机或HB（基地）条目中输入以下值，以便进行以下操作：</p>
 <ol class="arabic simple">
-<li>Latitude</li>
-<li>Longitude</li>
-<li>Corrected pressure altitude.</li>
+<li>纬度</li>
+<li>经度</li>
+<li>修压高度。</li>
 </ol>
-<p>In addition, if handset alignment is used on the carrier, the following values must also be entered:</p>
+<p>除此之外，如果在舰上执行手动对准，以下项目的值也需被输入：</p>
 <ol class="arabic simple">
-<li>Speed</li>
-<li>Ship’s true heading.</li>
+<li>航母的航速</li>
+<li>航母的真航向。</li>
 </ol>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The parking brake must be on during initialization of any alignment. When the parking brake is released during coarse alignment, the STBY and READY lights flash and the align program will reinitialize.
-If the parking brake is released during fine alignment, a suspend align discrete is sent to the CSDC, the STBY or READY light blinks, and the time into alignment clock on the TID stops.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在初始化任何对准模式时均需设置停机刹车。在粗略对准期间松开停机制动时，STBY灯和READY指示灯闪烁，对齐程序将重新初始化。如果在精确对准期间松开停机刹车，则暂停对准的信号将被发送到CSDC，STBY灯或READY灯闪烁，且TID上的对准倒计时停止。</td>
 </tr>
 </tbody>
 </table>
@@ -2829,148 +2817,121 @@ If the parking brake is released during fine alignment, a suspend align discrete
 <h4>非 SAT 对准<a class="headerlink" href="#non-sat-alignments" title="永久链接至标题">¶</a></h4>
 <div class="section" id="ground-alignment">
 <h5>地面对准<a class="headerlink" href="#ground-alignment" title="永久链接至标题">¶</a></h5>
-<p>For land-based operations, the ground alignment procedure is used to align the IMU. Aircraft or homebase latitude, longitude, and altitude are entered into the WCS computer via the CAP.
-This may be accomplished before or after selecting GND align. Selecting GND ALIGN on the NAV MODE switch initiates the align operation.
-However note that whatever has been hooked when switching to ALIGN, is injected as your own coordinates.
-You can use homebase or preset own aircraft coordinates for example, but if you didn’t, you will have between 90 to 120 seconds to enter your own coordinates and you cannot wait for the alignment to finish,
-or it will trigger the observable error (O) and alignment will have to be reinitialized.</p>
+<p>在执行陆基任务时，对准IMU应使用地面对准程序。本机或基地的经纬度和海拔高度需通过CAP输入至WCS计算机。这可以在选择GND对准之前或之后完成。在NAV MODE开关上选择GND ALIGN将启动对齐操作。 但请注意，切换到ALIGN时已在TID上勾选的任何内容都会被作为您自己的坐标输入，例如基地坐标或预设的本机坐标作为对准的参照。但如果没有，您将有90到120秒之间输入自己的坐标，并且您不能等待对准完成，否则会触发一个可观察到的错误（O），而对准将不得不重新开始。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If fine align has not been achieved, entry of the own aircraft’s latitude will restart the alignment. On completion of the alignment program read-in, the alignment display appears on the TID (see image above).</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果尚未开始精确对准，输入本机的纬度将会重新开始对准。当完成对准程序的读取之后，对准进度显示将出现在TID上（如上图所示）。</td>
 </tr>
 </tbody>
 </table>
-<p>During the initialization, the TID will display an alignment time of 0.7. After 42 to 45 seconds, the NAV COMP light on the caution/advisory panel goes out,
-indicating that the IMU has entered the ready state; the READY light also goes out. The alignment program will begin with the computation of the alignment parameters.</p>
-<p>At this time an alignment status indicator, called a caret (v), will start to move from left to right.
-The status of the alignment is indicated by where the caret appears in relationship to three alignment-tick indicators.
-The first tick indicator is called the coarse-align complete marker, the second is the alert launch criteria marker, and the third indicator is the fine-align complete marker.
-An elapsed time indicator provides alignment time in minutes and tenths.</p>
-<p>The clock indicator will begin with 0.7 displayed and continue after a 42-second delay. After 9.9 minutes, the clock display will pass through zero and begin again.
-If the alignment is suspended (parking brake), the clock will stop counting until alignment is resumed.</p>
-<p>Between the first and second ticks are the telltale status indicators that indicate a failure of one of four systems: C = calibration data fail,
-T = temperature (cold IMU), S = SINS data invalid, and 0 = observable (alignment data bad, i.e., LAT, LONG, SPEED, etc.). The letter that appears indicates which system has a failure.</p>
-<p>A C indicates a failure in the transfer of calibration data between the IMU and the CSDC, and the alignment will not progress.</p>
-<p>The T appears normally at the start of alignment and disappears when the IMU has reached operating temperature.
-If the T does not disappear, there is a failure in the system and a non-stored heading alignment will not progress.</p>
-<p>The S can appear at the start of any CV alignment and will disappear shortly after.
-If the S does not disappear, there is a failure and the result will be a bad alignment.
-The S also appears if incoming SINS data is not valid, in which case the alignment should not be trusted.</p>
+<p>在初始化时，TID将显示0.7的对准时间。42至45秒后，位于注意-咨询灯光面板上的NAV COMP灯将熄灭，表明IMU已进入就绪状态；READY灯也会一并熄灭。对准程序将从计算对准参数开始执行对准。</p>
+<p>此时，形似插入符号（V）的对准状态指示符将开始自左向右移动。对准的状态由插入符与三个对准进度刻度符相关的位置指示。 第一个刻度符标记称为粗略对准完成标记，第二个刻度符标记是武器部署最低限度标记，第三个刻度符标记是精细对准完成标记。用时指示器负责提供以分钟为单位，0.1分钟为分度的对准时间。</p>
+<p>用时指示器将从0.7开始显示，并在42秒钟的延迟后开始计时。在9.9分钟后，计时显示将显示零并从零开始继续计时。如果对准暂停（停机刹车），计时器将停止计时，直到恢复对准。</p>
+<p>在第一个和第二个标记之间的状态指示器负责显示四个系统中任意一个子系统的故障。C代表校正数据失效；T则是温度告警（IMU温度过低）；S意味着SINS数据无效；而O代表可观察错误（导航数据无效，比如LAT，LONG，SPEED等等）。显示的字母意味着字母所对应的子系统出现了故障。</p>
+<p>C表示IMU和CSDC间的校正数据传输失败，此时对准将不会进行。</p>
+<p>T通常在对准的开始阶段出现，且在IMU达到工作温度后消失。若T没有消失，这意味着系统出现故障并且预存航向对准将不会进行。</p>
+<p>S会在任意模式的舰上对准开始时显示并且很快就会消失。如果S没有消失，这代表系统出现故障并且对准的结果将是错误的。若输入的SINS数据无效，S也会显示，在这种情况下不应该信任对准结果。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
-<li>The CSDC and IMU outputs as well as data inputs are constantly monitored and if either an excessive value in the X or Y acceleration is sensed, or a bad value from wrong lat or long data input, a 0 (bad observable) is posted on the TID and the alignment stalls (ceases to continue).</li>
-<li>The IMU may be preheated by selecting IMU/AM on the TID NAV MODE switch when operating on ground or aircraft power. This energizes the IMU and navigation power supply, which turns on the IMU heater prior to start of a ground or carrier alignment. The IMU should not be preheated for longer than 5 minutes.</li>
+<li>CSDC和IMU的信号输出与输入会被持续监控，如果系统检测到X或Y轴加速度值过大，或是错误的经纬度输入，TID屏幕上将会显示O，意味着出现可观察错误，对准将停止。</li>
+<li>IMU单元的预热可以通过在接入地面或舰上外部电源后在TID的NAV MODE开关上选择IMU/AM来完成。这一步将为IMU和导航系统供电系统上电，并在开始进行地面或舰上对准之前就打开IMU加热器。IMU单元的预热不应该超过5分钟。</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-<p>During coarse alignment, the alignment caret moves based on the wander angle error. If the parking brake is released during this phase, the alignment will reset.</p>
-<p>The V will reach the first tick when coarse alignment is complete.
-When the program switches to fine alignment, the caret changes into a diamond, which indicates to the pilot that he may release the parking brake (suspend alignment) and taxi, if OBC is complete.
-After the parking brake is reset, alignment will continue and the diamond will move right as alignment improves.</p>
-<p>At the second tick, which indicates that alignment meets the minimum criteria to launch weapons, the STBY light will go off and the READY light will illuminate.
-The INS mode may be entered at this point. If INS is not selected, the diamond continues to move to the right.
-When it reaches the third tick, it indicates that fine alignment is completed and a dot will appear in the diamond (&lt;&gt;).</p>
-<p>You can leave the system in alignment mode even after fine align is complete, which will provide a progressively more accurate alignment.
-How much more accuracy is gained depends on the quality of alignment when fine align was completed.
-This can be rather minimal in some cases, but, when it is further left in alignment for long enough, it will always provide a certain amount of improvement.</p>
+<p>在粗略对准过程中，对准进度符的移动基于漂移角的误差。在该阶段中松开停机刹车将导致对准进度重设。</p>
+<p>对准进度符将在完成粗略对准之后到达第一个标记。当对准程序切换到精确对准之后，插入符号会变成菱形符号，这意味着在完成机载检查之后飞行员可以松开停机刹车（这将暂停对准）并开始滑行。在停机刹车重新设置后，对准将继续进行，菱形符号将随着对准进度往右移动。</p>
+<p>在进度符号到达第二个标记之后，STBY灯将熄灭且READY灯将点亮，这意味着INS对准精度已经满足了武器部署的最低标准。INS模式在此时可供选择。若未选择INS模式，菱形符号将继续向右移动。当进度符号到达第三个标记时，这意味着精确对准已经完成，且菱形符号中会出现一个点（&lt;·&gt;）。</p>
+<p>即便在精确对准完成后，您也可以使系统仍然保持在对准模式，这将使对准的精度更进一步。获得的更多精度在很大程度上取决于之前执行的精细对准的质量，在某些情况下这可能只会带来非常小幅度的提升。可如果让它在足够长的时间内继续执行对准的话，它总能够提供一些额外的精度。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If alignment is suspended and the aircraft is taxied over a distance greater than 4000 feet, the quality of the alignment becomes unknown to a point where it might be unreliable. Alignment reinitialization is advised.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果对准暂停并且飞机滑行的距离超过4000英尺，则对准的质量便会变得不可预期，以至于对准结果可能不可靠。在这种情况下，建议重新初始化对准。</td>
 </tr>
 </tbody>
 </table>
-<p>If the caret (v) or diamond stop moving, the program has stopped aligning. If they stop between the first and third ticks (coarse and fine), it means that alignment has been suspended.
-The clock will stop counting if that is the case. If alignment continues, the clock resumes counting until switched out of alignment by NAV MODE switch or if the parking brake is released again.</p>
+<p>如果对准进度符——插入符号（v）或菱形符号——停止移动，这意味着程序已停止对齐。如果它在第一个和第三个刻度（它们分别表示粗略对准和精细对准）之间停止，则表示对准已暂停。在这种情况下，计时器将停止计时。如果对准恢复，则计时器将在NAV MODE开关切换出对齐位置前或再次释放停机刹车前继续计数。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The alignment display will not go past the coarse align tick until the IMU temperature has reached 165°. When this temperature is reached, the T symbol will disappear. The temperature interlock is bypassed when performing a stored heading alignment. The IMU should be preheated for a stored heading alignment, as it usually completes in under 2 minutes, which could result in a bad alignment.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在IMU温度未达到165℉（约为74℃，译者注）前，对准进度符不会越过粗略对准标记。当IMU温度到达165℉后T将消失。在执行预存航向对准时IMU温度互锁被旁通，这意味着执行预存航向对准时IMU单元应被预热，因为通常情况下预存航向对准的完成时间只有不到两分钟，完成对准时IMU可能未到达工作温度，以至于可能会导致对准不良。</td>
 </tr>
 </tbody>
 </table>
-<p>Selecting INS will turn off the READY light, terminate alignment and the tactical display will appear, and the normal navigation display will become available.</p>
+<p>当NAV MODE开关选择INS时，READY指示灯将熄灭，对准将终止，TID上将显示战术内容，并且正常的导航显示可被调用。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
-<li>When the NAV MODE switch is set to INS, the CSDC is in navigation mode and the READY light goes out.</li>
-<li>After selecting the INS navigation mode, the AWG-9 align program continues for approximately three align data cycles (18 seconds) before entering INS. This also applies if the aircraft takes off before INS is selected.</li>
+<li>选择NAV MODE开关至INS位将使CSDC进入导航模式并熄灭READY灯。</li>
+<li>在选择INS导航模式后，AWG-9对准程序在进入INS之前会持续大约三个对准数据周期（18秒）。这也适用于在选择INS之前飞机起飞的情况。</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-<p>The RIO and pilot can then observe an IN acronym on the attitude status readout on the TID or TID repeat.</p>
-<p>If you want to reinitialize an alignment when observing an acronym during fine alignment or if noting a stalled alignment, the following methods can be used:</p>
+<p>随后，RIO和飞行员可以在TID或TID复示所显示的姿态信息中看到缩略词IN。</p>
+<p>若在精确对准阶段观察到缩略词或是对准停止，可以使用以下方法重新初始化对准：</p>
 <ol class="arabic simple">
-<li>Select both INS mode switch and WCS PWR switch to off. Allow TID displays to collapse. Proceed with normal start sequence.</li>
-<li>INS mode switch to desired align mode.</li>
-<li>INS mode switch to INS. Verify system in INS (IN acronym on TID), cycle mode switch to off and back to desired alignment mode.</li>
+<li>将NAV MODE开关和WCS PWR开关打至关闭，待TID显示消失后执行正常的启动顺序。</li>
+<li>将NAV MODE开关切换至所需的对准模式。</li>
+<li>将NAV MODE开关切换至INS位。 验证INS中的系统（TID上的IN首字母缩写）是否正常，之后将INS模式开关切换到关闭并返回到所需的对准模式。</li>
 </ol>
-<p>Failing to follow above procedures when reinitializing a fine alignment will result in severely degraded alignment quality.
-To reinitialize the program during coarse align, the RIO has to unselect GND ALIGN, re-enter LAT and LONG and reselect GND ALIGN.</p>
+<p>在精确对准时重新初始化未能遵循上述步骤将导致对准质量严重下降。要在粗略对准期间重新初始化程序，RIO须取消选择GND ALIGN，重新输入经纬度并重新选择GND ALIGN。</p>
 </div>
 <div class="section" id="carrier-alignment">
-<h5>Carrier Alignment<a class="headerlink" href="#carrier-alignment" title="永久链接至标题">¶</a></h5>
-<p>When aligning on a carrier with a changing latitude, longitude and heading, the carrier alignment procedure is used.
-INS can be aligned in three different ways on a carrier: with RF data link alignment and manual (handset) alignment - deck-edge cable alignment is not implemented in DCS.
-TID displays the same information as during a GND ALIGN procedure.</p>
-<p>Note that you will get erroneous heading readings on a carrier, even if fine align is complete.
-The heading can deviate up to 20 or 30 degrees, depending on the parking position on the carrier and the carrier’s heading, due to the carrier’s own magnetic field and induced magnetic field.
-It is important that the flight crew knows the carrier BRC. The magnetic variation caused by the carrier’s magnetic distortion will go away shortly after take off.
-This magnetic distortion does not impact the alignment quality.</p>
+<h5>舰上对准<a class="headerlink" href="#carrier-alignment" title="永久链接至标题">¶</a></h5>
+<p>当在具有变化的经纬度及航向的航母上执行对准时，使用舰上对准程序。INS可以在航母上以三种不同的方式完成对准：RF数据链路对准和手动（手动）对齐，以及在DCS中未实现的甲板线缆对准。执行舰上对准时，TID上显示的信息于GND ALIGN过程中所显示的信息是相同的。</p>
+<p>需要注意的是，即便在完成精确对准之后，您也会在航母上获得错误的航向读数。由于航母自身的磁场和感应磁场，航向可以偏离20或30度，具体取决于航母上的停放位置和航母的航向。对机组来说，知道航母的BRC非常重要。由航母磁场扰动所引起的磁场变化在起飞后不久就会消失。这种磁性失真不会影响对准质量。</p>
 <div class="section" id="carrier-data-link-alignment">
-<h6>航母数据链对准<a class="headerlink" href="#carrier-data-link-alignment" title="永久链接至标题">¶</a></h6>
-<p>The primary carrier alignment mode is the RF data link alignment (CAINS). This mode uses the ship’s INS (SINS) to align the IMU.
-Inertial inputs including the ship’s longitude, latitude, north and east velocity as well as roll, pitch, heading, and heading rate are transmitted to the WCS computer via the RF data link.</p>
-<p>The data is transmitted by the ship’s data link equipment. To align the INS by the CVA alignment method, follow these steps:</p>
+<h6>舰上数据链对准<a class="headerlink" href="#carrier-data-link-alignment" title="永久链接至标题">¶</a></h6>
+<p>主要的舰上对准模式是RF数据链路对准模式（即CAINS）。此模式使用船舶的INS（SINS）使IMU对准。惯性输入，包括船舶的经度，纬度，北轴和东轴速度以及滚转，俯仰，航向和航向速率，均通过RF数据链路传输到WCS计算机。</p>
+<p>这些数据通过船舶的数据链设备发送。若需通过CVA对准方法对准INS，请按照下列步骤操作：</p>
 <ol class="arabic simple">
-<li>Turn on the power to the data link system</li>
-<li>Turn the WCS power to STBY</li>
-<li>Set the D/L mode on the DATA LINK control panel to CAINS/WAYPT</li>
-<li>Select CVA ALIGN on the NAV MODE switch.</li>
+<li>打开数据链系统的电源</li>
+<li>将WCS电源开关拨至STBY</li>
+<li>将位于DATA LINK面板上的D/L模式开关拨至CAINS/WAYPT</li>
+<li>将NAV MODE开关拨至CVA ALIGN。</li>
 </ol>
-<p>The received data is processed by the data link equipment in the aircraft and transmitted to the WCS computer. The WCS computer compares the IMU data with the ship’s INS data and sends correction signals to the CSDC to fine align the IMU.</p>
+<p>接收到的数据由飞机上的数据链设备处理并发送到WCS计算机。WCS计算机将IMU数据与船舶的INS数据进行比对，并将校正信号发送到CSDC以精确对准IMU。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
-<li>If CVA or CAT ALIGN is selected prior to selecting OBC BIT, data link OBC testing is inhibited. (Not implemented yet)</li>
-<li>The fine alignment complete tick mark indicates completion of fine align and whether alignment data is SINS or handset. When good SINS data is not received during a filter cycle, the fine alignment complete tick mark jumps to the left approximately 0.75 inch. The jump indicates the SINS data is intermittent, and handset alignment data is required.</li>
+<li>若在选择OBC BIT之前就选择CVA对准或CAT ALIGN对准，数据链自检测试将被抑制。（尚未模拟）</li>
+<li>精确对准完成刻度标记表示精确对准完成以及对准数据来源是SINS还是手动。当在信号过滤循环期间没有接收到良好的SINS数据时，精确对准完成刻度标记将向左移动大约0.75英寸。这表明SINS数据是间歇性的，并且系统需要手动对准数据。</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-<p>CVA ALIGN is much similar to GND ALIGN, and alignment is suspended, stalled and reinitialized in the same manner as during GND ALIGN, depending on whether it has been induced during the coarse or fine alignment phase.</p>
+<p>CVA ALIGN与GND ALIGN非常相似，并且它的暂停，终止和重新初始化对准的形式与GND ALIGN非常相似，这些同样取决于引起INS系统停止对齐的因素是在粗略对准还是精细对准阶段引入的。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If SINS data link is lost during taxi, a flashing HS will appear on the TID. This will disappear when data link is reacquired; however, because of align timing requirements it may remain flashing up to 8 seconds after data link is reacquired. If the HS flashing does not stop 8 seconds after resetting the parking brake, SINS data is lost but the alignment can continue by entering carrier speed and true heading into the own aircraft file and completing the align in handset mode. If datalink is reacquired during this period, the HS will disappear from the TID and a normal datalink CVA align will continue.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果在滑行期间SINS数据链信号丢失，则TID上将出现闪烁的HS。重新获取数据链接后，这将消失，但是，由于对准时序要求，在重新收到数据链信号后，它可能会持续闪烁8秒。 如果在重置停机刹车8秒钟后HS闪烁没有停止，则SINS数据会丢失。但是，通过在本机文件中输入航母的速度和真航向可以在手动模式下继续完成对准过程。如果在此期间重新收到数据链信号，则HS将从TID中消失，并且系统将继续执行正常的数据链CVA对准。</td>
 </tr>
 </tbody>
 </table>
-<p>To complete the alignment, set the NAV MODE switch to INS. A successfully aligned INS is indicated by both the STBY and READY lights off and the IN acronym in the status readout on the TID.</p>
+<p>要完成对准，将NAV MODE开关设置到INS位。，熄灭的STBY和READY灯并且TID状态读出中的IN首字母缩略词表明INS已成功完成对准。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
-<li>Do not switch to INS while the ship is in a turn, even if fine align has been completed. This will degrade the alignment quality significantly. If you wait until the ship’s turn is complete, alignment quality will not be affected. Handset alignment is not affected.</li>
-<li>If during a CVA alignment the CAINS/WAYPT-TAC switch is unlatched to TAC by power transient, or data link signal is lost, the INS will revert to a handset alignment (HS).</li>
+<li>即使精确对准已完成，也不要在航母转弯时将NAV MODE开关切换到INS。这么做将导致INS的对准质量显著降低。当然，如果航母转弯完成之后再执行上述操作，则不会影响对齐质量。而手动对齐不受此影响。</li>
+<li>如果在CVA对准期间，CAINS/WAYPT-TAC开关由于跳电而使得开关跳至TAC位或数据链路信号丢失，都将使INS返回到手动对齐模式（HS）。</li>
 </ul>
 </td>
 </tr>
@@ -2978,139 +2939,116 @@ Inertial inputs including the ship’s longitude, latitude, north and east veloc
 </table>
 </div>
 <div class="section" id="carrier-cable-alignment">
-<h6>Carrier Cable Alignment<a class="headerlink" href="#carrier-cable-alignment" title="永久链接至标题">¶</a></h6>
-<p>The deck-edge cable alignment (SINS) is an alternative to the RF data link alignment, where inputs are sent over a secure cable to the data link from the deck-edge outlet box of the carrier.
-Switching from RF data link to cable inputs is done automatically when the cable is connected. To initiate a CVA align with SINS via cable, use the same steps as for the RF data link alignment.
-As cable and RF data link alignment are virtually the same, it has not been implemented in DCS.</p>
+<h6>甲板线缆对准<a class="headerlink" href="#carrier-cable-alignment" title="永久链接至标题">¶</a></h6>
+<p>甲板线缆对准（SINS）是RF数据链对准的替代方案，惯性数据是通过从航母的甲板边缘出线盒伸出的安全电缆发送到数据链路系统来输入的。连接电缆时，系统将自动将信号源从RF数据链路切换到电缆。要通过电缆启动与SINS的数据传输并执行CVA对准，请使用与RF数据链路对准相同的步骤。由于电缆对准和RF数据链对准几乎相同，因此尚未在DCS中模拟。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The SINS-cable is currently not implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">SINS线缆未在DCS中模拟。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="handset-alignment">
-<h6>Handset Alignment<a class="headerlink" href="#handset-alignment" title="永久链接至标题">¶</a></h6>
-<p>The HS alignment mode is a manual alignment option available for carrier alignment, should SINS data from RF data link or cable not be available,
-inaccurate, or interrupted (indicated by the TILT light on the DDI and/or the fine alignment complete tick mark jumping to the left about 0.75 inch).
-The HS is also very similar to the GND ALIGN mode, but the RIO has to input more data and the computer takes longer to process because of the ship movement.</p>
-<p>IF CVA ALIGN is selected with the NAV MODE switch and no SINS data is available, a flashing HS acronym will appear on the TID.
-Whenever HS flashes on the TID before alignment starts and the RIO chooses to align the system with handset align, he must enter the according ship’s data in the following order:</p>
+<h6>手动对准<a class="headerlink" href="#handset-alignment" title="永久链接至标题">¶</a></h6>
+<p>如果来自RF数据链或电缆的SINS数据不可用，不准确或中断（由DDI上的TILT灯指示和/或精确对齐完成刻度标记向左移动约0.75英寸所指示），手动对准模式便可以用来执行手动的舰上对准。HS模式也与GND ALIGN模式非常相似，但RIO必须输入更多数据，并且，由于船舶移动，计算机需要更长的时间来处理。</p>
+<p>如果NAV MODE开关位于CVA ALIGN位并且没有可用的SINS数据，则TID上将出现闪烁的HS首字母缩略词。在对齐开始之前，只要HS在TID上闪烁并且RIO选择系统执行手动对准，他必须按以下顺序输入相应的船舶数据：</p>
 <ol class="arabic simple">
-<li>Speed</li>
-<li>Ship’s true heading</li>
-<li>Latitude</li>
-<li>Longitude</li>
-<li>Corrected pressure altitude.</li>
+<li>航母的航速</li>
+<li>航母的真航向</li>
+<li>纬度</li>
+<li>经度</li>
+<li>修压高度。</li>
 </ol>
-<p>If during coarse align data link is lost (RF or cable) or during any portion of a stored heading alignment, the alignment will reinitialize and the HS acronym will be flashing.
-The alignment can then be continued with the handset mode as described above.</p>
-<p>If the reinitialization occurs during the fine align phase of a stored heading alignment, the CSDC alignment routine must be reset first by turning the AWG-9 OFF for 6 seconds.</p>
-<p>If data link is lost during a normal fine align phase, HS will be entered automatically, but the acronym will not flash and the alignment will continue.
-If data link is regained, the HS acronym will disappear and normal CVA align via RF or cable data link will continue. When data link is regained, the acronym can remain for up to 8 seconds.</p>
+<p>如果在粗略对准期间数据链连接（RF或电缆）丢失或在预存航向对准的任何部分期间，对齐将重新初始化并且HS将闪烁。之后可以用如上所述的手动模式继续进行对准。</p>
+<p>如果在预存航向对准的精确对准阶段期间发生系统重新初始化的情况，则必须首先将AWG-9关闭6秒来重置CSDC对准流程。</p>
+<p>如果数据链信号在正常精确对准阶段丢失，系统将自动切换到手动对准模式，但HS不会闪烁，对准将继续。如果重新收到数据链信号，HS将消失，并且系统将继续通过RF或电缆执行正常的CVA对齐。重新获得数据信号后，首字母缩略词将保留最多8秒。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">If HS is not flashing, valid SINS data has already been entered. If it is flashing, SINS data has to be entered manually.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">若HS未闪烁，这意味着有效的SINS数据已被输入。若HS闪烁，SINS数据则必须手动输入。</td>
 </tr>
 </tbody>
 </table>
-<p>On the CAP NAV DATA matrix use OWN AC, and the LAT and LONG prefix push buttons; to enter the ships’ heading and speed use own-aircraft HDG and SPD buttons.
-Once this data has been entered HS will stop flashing and the alignment will progress like a normal GND ALIGN, but can take up to 3 times as long.</p>
+<p>输入经度和纬度需在CAP的NAV DATA模式下选择OWN AC，并使用LAT和LONG前缀按钮完成；输入船舶的航向和速度需要使用HDG和SPD按钮。一旦这些数据均完成输入，HS将停止闪烁并开始对准，对准过程十分类似于正常的GND ALIGN，但可能需要耗费最多三分钟的时间。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The carrier needs to maintain a constant speed and heading during alignment for this method to be successful. Remember that handset alignment quality will always be inferior to a normal CVA ALIGN fine alignment quality.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在执行手动对准模式时，为成功完成对准，航母必须维持恒定的航速和航向。需要记住的是，手动对准的精度将劣于正常的CVA ALIGN模式对准。</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="section" id="reinitialization">
-<h5>Reinitialization<a class="headerlink" href="#reinitialization" title="永久链接至标题">¶</a></h5>
-<p>To reinitialize an alignment during the fine align phase, if an observable acronym (O) or a stalled alignment has been noticed, the RIO can use any of the following methods:</p>
+<h5>重新初始化<a class="headerlink" href="#reinitialization" title="永久链接至标题">¶</a></h5>
+<p>若在精确对准阶段观察到缩略词或是对准停止，RIO可以使用以下方法重新初始化对准：</p>
 <ol class="arabic simple">
-<li>Set NAV MODE switch and WCS switch to OFF. Allow TID displays to collapse. Proceed with normal start sequence.</li>
-<li>Set NAV MODE switch to OFF. Set NAV MODE switch to desired align mode.</li>
-<li>Set NAV MODE switch to INS. Verify system in INS (IN acronym on TID). Cycle NAV MODE switch to OFF and back to desired alignment mode.</li>
+<li>将INS模式开关和WCS PWR开关打至关闭，待TID显示消失后执行正常的启动顺序。</li>
+<li>将NAV MODE开关切换至OFF。将NAV MODE开关切换至所需的对准模式。</li>
+<li>将NAV MODE切换至INS位。 验证INS中的系统（TID上的IN首字母缩写）是否正常，之后将INS模式开关切换到关闭并返回到所需的对准模式。</li>
 </ol>
-<p>Failing to follow above procedures when reinitializing a fine alignment will result in severely degraded alignment quality.
-To reinitialize the program during coarse align, the RIO has to unselect GND ALIGN, re-enter LAT and LONG and reselect GND ALIGN.</p>
+<p>在精确对准时重新初始化未能遵循上述步骤将导致对准质量严重下降。要在粗略对准期间重新初始化程序，RIO须取消选择GND ALIGN，重新输入经纬度并重新选择GND ALIGN。</p>
 </div>
 <div class="section" id="stored-heading-alignment">
-<h5>Stored Heading Alignment<a class="headerlink" href="#stored-heading-alignment" title="永久链接至标题">¶</a></h5>
-<p>A feature of the INS that allows for quick-reaction response is the stored-heading alignment.
-The aircraft has to be parked and tied down in the alert position (wheel-chocks in DCS) for this procedure to be successful.
-Additionally the aircraft heading has to be stored with a reference alignment before the aircraft is being powered down (and back up again).</p>
-<p>When the aircraft is powered back up, the system takes less than 2 minutes to align the INS from the stored heading, while providing almost the same accuracy like a full, fine ground or carrier alignment.
-When align is selected and a reference alignment is available, an ASH acronym for automatic stored heading will be displayed on the TID and STORED HDG ALIGN will illuminate on the CAP.
-The ASH acronym tellsl the RIO that a stored heading has been entered automatically.</p>
-<p>No further action from the RIO is needed, ASH align will continue and ASH will remain on the TID as an advisory.
-Pressing once on the STORED HDG ALIGN on the CAP will end the ASH align and initiate normal alignment.
-The ASH acronym will disappear. Pressing the STORED HDG ALIGN a second time will reinitialize the stored heading alignment, however ASH won’t be displayed on the TID anymore.</p>
+<h5>预存航向对准<a class="headerlink" href="#stored-heading-alignment" title="永久链接至标题">¶</a></h5>
+<p>INS的一大特征是允许使用预先存储的航向完成对准以满足执行快速反应任务的需要。若需成功完成对准，需要将飞机停放并固定在警戒位置（在DCS中这需要轮挡）。 此外，飞机航向必须在飞机断电（并再次通电）之前以对准参考方式存储。</p>
+<p>当飞机重新通电时，系统只需要不到2分钟的时间就能将INS与预先存储的航向对准，同时提供几乎相同的精度，一如一次完整，精细的地面或舰上对准。 选择对准并且对准参考可用时，ASH（Automatic Stored Heading，自动存储航向）首字母缩写将显示在TID上，并且STORED HDG ALIGN将在CAP上亮起。ASH意味着系统已自动输入预先存储的航向。</p>
+<p>RIO将不需要做进一步的操作，ASH对准将继续，而ASH将作为一个咨询信息保留在TID上。在CAP面板上的STORED HDG ALIGN上按一下将结束ASH对准并启动正常对准。此时ASH首字母缩略词将消失。如果再次按STORED HDG ALIGN将重新初始化预存航向对准，但ASH将不再显示在TID上。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">STBY/READY lights should be monitored for simultaneous illumination. If simultaneous illumination appears after 42 to 45 seconds, a failure has caused the alignment to reinitiate and may result in an erroneous alignment. The RIO must turn NAV MODE switch to OFF for 1 second, then restart the alignment following normal ground or carrier alignment procedures.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">此时应注意STBY和READY灯是否同时点亮。如果在42到45秒后两灯同时点亮，这意味着对准因故障重新开始并且这可能导致错误对齐。RIO必须将NAV MODE开关打至关闭1秒钟，然后以正常地面或舰上对准程序重新开始对准。</td>
 </tr>
 </tbody>
 </table>
-<p>The reference alignment can be done with either internal or external power.
-To do a reference alignment, enter the latitude and longitude via the CAP into the own-aircraft file.
-This can be achieved by an automatic transfer from homebase entry into own-aircraft before selecting GND ALIGN, or entry into own-aircraft file after GND ALIGN has been selected.</p>
-<p>The aircraft’s latitude and longitude can be entered into homebase and transferred into own-aircraft file through the following steps:</p>
+<p>参考对准可以使用内部或外部电源完成。要进行参考对准，请通过CAP将纬度和经度输入到本机位置文件中。这可以通过在选择GND ALIGN之前等待数据自基地文件自动转移至本机文件，或者在选择GND ALIGN之后手动输入本机文件来完成。</p>
+<p>飞机的经纬度可以输入到基地文件，并通过以下步骤转移到本机文件中：</p>
 <ol class="arabic simple">
-<li>Set the NAV MODE switch to GND ALIGN.</li>
-<li>Select CAP category TAC DATA.</li>
-<li>Depress HOME BASE and enter aircraft longitude and latitude via the CAP data entry buttons.</li>
+<li>将NAV MODE开关拨至GND ALIGN。</li>
+<li>将CAP类别选择开关拨至TAC DATA。</li>
+<li>按下HOME BASE然后使用CAP数据输入按钮输入本机经纬度。</li>
 </ol>
-<p>Aircraft latitude and longitude can be entered directly through the following steps:</p>
+<p>飞机的经纬度可以通过以下步骤以直接输入：</p>
 <ol class="arabic simple">
-<li>Set the NAV MODE switch to either OFF or GND ALIGN.</li>
-<li>Select CAP category NAV.</li>
+<li>将NAV MODE开关拨至OFF或GND ALIGN。</li>
+<li>将CAP类别选择开关拨至NAV。</li>
 </ol>
-<p>Depress OWN A/C and enter aircraft longitude and latitude via the CAP data entry buttons.</p>
+<p>按下OWN A/C并使用CAP数据输入按钮输入本机经纬度。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Depressing OWN A/C hooks own aircraft. If longitude and latitude is entered with the NAV MODE switch set to OFF, own aircraft must be hooked when the NAV MODE switch is set from OFF to GND ALIGN again. Be aware that whatever has been hooked (OWN AC or HB) will provide the data that is entered when NAV MODE is set from OFF to GND ALIGN.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">按下OWN A/C对应的按键将选择本机文件来进行数据输入。若在输入本机的经纬度坐标时NAV MODE开关在OFF位，当再次将NAV MODE开关自OFF位旋至GND ALIGN时必须选择OWN A/C。需要注意的是，无论在CAP面板上选择的是什么文件（OWN A/C和HB），其都将在NAV MODE开关自OFF旋至GND ALIGN时为INS提供数据源。</td>
 </tr>
 </tbody>
 </table>
-<p>For a reference alignment, alignment has to reach fine align complete.
-Both CVA ALIGN and GND ALIGN can be used to establish a reference alignment. The reference alignment is complete when a dot appears in the diamond.</p>
-<p>To establish a reference alignment follow these steps:</p>
+<p>对于参考对准，对准必须等到精确对准完成时才算完成。CVA ALIGN和GND ALIGN都可以用来建立参考对准。当菱形的进度指示符中出现一个点（&lt;·&gt;）时，参考对准即完成。</p>
+<p>如需建立参考对准，请遵循以下步骤：</p>
 <ol class="arabic simple">
-<li>WCS switch - STBY.</li>
-<li>NAV MODE - CVA or GND.</li>
-<li>DATA LINK - ON (CV ops only).</li>
-<li>D/L MODE - CAINS/WAYPT (CV ops only).</li>
-<li>Reference alignment continues to fine align complete.</li>
+<li>WCS开关-STBY。</li>
+<li>NAV MODE开关-CVA或GND。</li>
+<li>DATA LINK-ON（仅限舰上作业）。</li>
+<li>D/L MODE-CAINS/WAYPT（仅限舰上作业）。</li>
+<li>参考对准将在精确对准阶段完成时完成。</li>
 </ol>
-<p>To store the reference alignment:
-6.      NAV MODE switch to INS.
-7.      WCS - OFF.
-NAV MODE - OFF.</p>
+<p>如需保留参考对准结果需执行以下额外操作: 6.      NAV MODE 开关至INS位。 7.      WCS开关-OFF。NAV MODE开关-OFF。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Unstable current or temporary loss of power will cause the CAINS to be deselected and will be indicated by a flashing HS acronym. A reference alignment cannot be done through a handset alignment, even if continued to fine align complete. For a successful reference alignment the aircraft must not move and the parking brake must not be cycled after the reference heading has been stored. For a valid reference alignment, it isn’t necessary to switch NAV MODE to INS, instead it can be switched directly to OFF from either CVA or GND ALIGN.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">电源电流不稳定或电源暂时断电将导致开关自CAINS位置跳回，这将由TID上闪烁的HS缩写词表示。参考对准无法通过手动对准完成，即使继续等待至精确对准完成。 为了成功建立参考对准，飞机必须不能移动，并且在存储参考航向后不得操作停机刹车。如果重新初始化对准时建立的参考对准有效，不必先将NAV MODE开关切换到INS，而是可以从CVA或GND ALIGN直接切换到OFF。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="catapult-alignment">
-<h5>Catapult Alignment<a class="headerlink" href="#catapult-alignment" title="永久链接至标题">¶</a></h5>
-<p>The CAT ALIGN mode is used to prevent suspend align when positioned on the catapult and the parking brake bas been released.
-The purpose of the catapult align mode is to provide normal CVA ALIGN as long as possible.
-When CAT ALIGN is selected, large roll, pitch, speed and heading changes of the ship can cause the program to automatically switch to INS.</p>
+<h5>弹射器对准<a class="headerlink" href="#catapult-alignment" title="永久链接至标题">¶</a></h5>
+<p>CAT ALIGN模式用于防止在弹射器上定位后因释放停机刹车导致的停止对准的情况发生。弹射器模式模式的目的是尽可能长时间地执行正常的CVA ALIGN流程。选择CAT ALIGN时时，船舶横滚、俯仰、速度和航向的大幅度变化均会导致程序自动切换到INS模式。</p>
 </div>
 </div>
 </div>
@@ -4923,7 +4861,7 @@ Refer to general arrangement illustration for antenna locations. The IFF interro
 <p>数据链路应答和天线控制面板用于选择使用什么天线，本机数据链路地址，是否发送以及Link 4A的使用模式。</p>
 <p><strong>ANTENNA</strong> 开关（<strong>1</strong>）控制数据链使用上部或下部天线。由于这些天线和UHF 1（AN/ARC-159）无线电所使用的天线相同，故选择下部天线则UHF无线电便自动使用上部天线，反之同理。</p>
 <p><strong>REPLY</strong> 开关（<strong>2</strong>）设置本机是否会回复数据链信息。<strong>NORM</strong> 为正常操作，而 <strong>CANC</strong> 将关闭发射器并将数据链设置为仅接收。</p>
-<p><strong>MODE</strong> 开关（ <strong>3</strong> ）控制 Link 4A 是以正常 <strong>TAC</strong> （战术）模式运行还是以 <strong>CAINS / WAYPT</strong> （Carrier Aircraft Inertial Navigation System / Waypoint，舰载机惯性导航/航路点）模式运行。TAC 模式是正常的空中运行模式，而 CAINS/WAYPT 模式则于航母上使用以接收来自航母INS系统的计划航路点。该开关由电磁铁定位且电磁铁失电后会自动跳回至 TAC 位置，数据链接收信号丢失或数据链系统断电均会使电磁铁失电并让开关跳回至 TAC 位，从而迫使正在进行的INS校准进入备用手台模式。若飞机起飞时开关仍位于 CAINS/WAYPT 位，机轮承重传感器也会迫使开关跳回至 TAC 位。</p>
+<p><strong>MODE</strong> 开关（ <strong>3</strong> ）控制 Link 4A 是以正常 <strong>TAC</strong> （战术）模式运行还是以 <strong>CAINS / WAYPT</strong> （Carrier Aircraft Inertial Navigation System / Waypoint，舰载机惯性导航/航路点）模式运行。TAC 模式是正常的空中运行模式，而 CAINS/WAYPT 模式则于航母上使用以接收来自航母INS系统的计划航路点。该开关由电磁铁定位且电磁铁失电后会自动跳回至 TAC 位置，数据链接收信号丢失或数据链系统断电均会使电磁铁失电并让开关跳回至 TAC 位，从而迫使正在进行的INS校准进入备用手动模式。若飞机起飞时开关仍位于 CAINS/WAYPT 位，机轮承重传感器也会迫使开关跳回至 TAC 位。</p>
 <p>两个地址拨轮用于设置飞机数据链地址的最低有效位（两个最低数字），而其余部分必须由地勤人员设置。</p>
 </div>
 <div class="section" id="link-4-in-dcs">

@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heatblur Simulations.
+# This file is distributed under the same license as the DCS: F-14 “雄猫” 中文飞行手册 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 | Mar. 2nd, 2019\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/tutorials.rst:2
+msgid "Tutorial Videos"
+msgstr ""
+
+#: ../../source/tutorials.rst:5
+msgid "Cold Start"
+msgstr ""
+
+#: ../../source/tutorials.rst:14
+msgid "Pilot Cockpit Overview"
+msgstr ""
+
+#: ../../source/tutorials.rst:23
+msgid "RIO Cockpit Overview"
+msgstr ""
+
+#: ../../source/tutorials.rst:32
+msgid "Maneuvering and Flight Characteristics"
+msgstr ""
+
