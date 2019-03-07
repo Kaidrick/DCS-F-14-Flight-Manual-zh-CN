@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-07 12:40+0800\n"
+"PO-Revision-Date: 2019-03-07 14:19+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3390,7 +3390,7 @@ msgstr ""
 "STT** ）中选择一个单目标跟踪模式并自动尝试以STT模式锁定在TID上选定的目标。这"
 "两个按钮也可以用来切换这两种STT模式。脉冲多普勒搜索按钮（ **PD SRCH** ）用来"
 "选择雷达的PD搜索模式。边测距边跟踪搜索按钮（ **RWS** ）用来选择雷达的RWS模"
-"式。两个边跟踪边扫描按钮（ **TWS AUTO** and **TWS MAN** ）可以选择雷达的两种"
+"式。两个边搜索边跟踪按钮（ **TWS AUTO** and **TWS MAN** ）可以选择雷达的两种"
 "TWS模式。脉冲搜索按钮（ **PULSE SRCH** ）选择雷达的脉冲搜索模式。"
 
 #: ../../source/general.rst:1112
@@ -5405,7 +5405,7 @@ msgid ""
 "which it was very well adapted."
 msgstr ""
 "F-14所装备的AN/AWG-9雷达是一部工作在X波段（8 - 12 GHZ）下的全天候，多模式脉冲"
-"多普勒雷达。它是专门为远程攻击所设计的一款雷达系统，可以在边扫描边跟踪模式下"
+"多普勒雷达。它是专门为远程攻击所设计的一款雷达系统，可以在边搜索边跟踪模式下"
 "同时引导6枚AIM-54不死鸟导弹攻击不同的目标。在最初的设想中，F-14将作为一名远程"
 "舰队防御者，拦截俄罗斯轰炸机和威胁到舰队的敌机。在F-14的服役后期，它的任务开"
 "始想着攻击机的方向过渡并很好的适应了这些任务。"
@@ -5495,7 +5495,7 @@ msgstr "90海里"
 
 #: ../../source/general.rst:1700
 msgid "Track While Search"
-msgstr "边跟踪边扫描"
+msgstr "边搜索边跟踪"
 
 #: ../../source/general.rst:1700
 msgid ""
@@ -5679,7 +5679,7 @@ msgid ""
 "search has a slightly better range as the other two modes need to process FM-"
 "ranging to enable range indication of tracked targets."
 msgstr ""
-"AN/AWG-9雷达脉冲多普勒模式的子模式有：脉冲多普勒搜索，边扫描边测距，边扫描边"
+"AN/AWG-9雷达脉冲多普勒模式的子模式有：脉冲多普勒搜索，边搜索边测距，边搜索边"
 "跟踪以及脉冲多普勒STT模式。三种搜索模式都可以使用DDD显示，主要区别在于脉冲多"
 "普勒搜索的扫描距离稍微远一点，因为其他两种搜索模式需要处理调频测距以实现对跟"
 "踪目标的距离显示。"
@@ -5921,7 +5921,7 @@ msgstr ""
 
 #: ../../source/general.rst:1829
 msgid "Track While Scan (TWS)"
-msgstr "边扫描边跟踪（TWS）"
+msgstr "边搜索边跟踪（TWS）"
 
 #: ../../source/general.rst:1831
 msgid ""
@@ -12660,7 +12660,7 @@ msgid ""
 "reception. Receive or transmit function is selected by the microphone push-"
 "to-talk switch."
 msgstr ""
-"MAIN –激活主无线电收发器，允许正常的发送和接收。接收或发送功能通过麦克风按下"
+"MAIN –激活主无线电收发器，允许正常的发送和接收。接收或发送功能通过传声器按下"
 "通话开关激活。"
 
 #: ../../source/general.rst:0
