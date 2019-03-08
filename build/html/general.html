@@ -333,6 +333,11 @@
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
 </ul>
+<p class="caption"><span class="caption-text">中文本地化：</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="loc_about.html">关于本项目</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loc_credit.html">中文本地化制作</a></li>
+</ul>
 
             
           
@@ -383,13 +388,20 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/general.rst.txt" rel="nofollow"> View page source</a>
-          
         
       </li>
     
   </ul>
 
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="cockpit.html" class="btn btn-neutral" title="驾驶舱总览" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+  </div>
   
   <hr/>
 </div>
@@ -559,8 +571,7 @@ When selecting the <strong>ALL</strong> position the fuel feed from the wings an
 <div class="section" id="fire-detection-system">
 <h3>火灾报警系统<a class="headerlink" href="#fire-detection-system" title="永久链接至标题">¶</a></h3>
 <p>F-14的火灾探测系统有两个火灾传感回路, 每个发动机各有一个。</p>
-<p>If these loops detects a temperature over 600 °F (about 316 °C) along its whole length or 1,000 °F (about 538 °C) in a single 6-inch section it triggers the fire detection circuits.
-The left detection loop illuminates the left fire warning light on the ACM panel and the right detection loop illuminates the right fire warning light, see <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>.</p>
+<p>如果这些回路在整个回路中检测到超过 600°F (约 316°C) 或在一个6英寸的部分检测到 1, 000°F (约 538°C)的温度, 就会触发火灾探测电路。左探测回路亮起面板上的左火警示灯, 右检测回路亮起右侧火光灯, 请参见 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 。</p>
 <p>In addition there are also sensors designed to detect hot air leaks in the engines and illuminate the BLEED DUCT caution light on the pilot caution - advisory indicator (see <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯光面板</span></a>) if temperatures above 575 °F (about 302 °C) are detected.</p>
 </div>
 <div class="section" id="fire-suppression-system">
@@ -1112,7 +1123,7 @@ It can also show ±10 for when using the IFF interrogator in the STT modes.</p>
 </table>
 <p><strong>雷达模式选择器</strong></p>
 <p>该控制器位于DDD面板的右下角，控制着DDD显示模式，雷达模式以及雷达模式指示器。显示模式按钮（ <strong>15</strong> ）用来选择当前DDD的显示模式。 <strong>RDR</strong> ：雷达模式是最常用的模式。由于未安装红外系统，红外模式无法正常工作。IFF按钮可以控制IFF的两种工作模式中，有关更多详细信息，请参阅总体设计和系统总览章节中的IFF部分。</p>
-<p>雷达模式按钮（ <strong>16</strong> ）用来选择AN/AWG-9雷达的当前操作模式。在条件允许时两个STT按钮可以在脉冲多普勒单目标跟踪（ <strong>PD STT</strong> ）和脉冲单目标跟踪（ <strong>P STT</strong> ）中选择一个单目标跟踪模式并自动尝试以STT模式锁定在TID上选定的目标。这两个按钮也可以用来切换这两种STT模式。脉冲多普勒搜索按钮（ <strong>PD SRCH</strong> ）用来选择雷达的PD搜索模式。边测距边跟踪搜索按钮（ <strong>RWS</strong> ）用来选择雷达的RWS模式。两个边搜索边跟踪按钮（ <strong>TWS AUTO</strong> and <strong>TWS MAN</strong> ）可以选择雷达的两种TWS模式。脉冲搜索按钮（ <strong>PULSE SRCH</strong> ）选择雷达的脉冲搜索模式。</p>
+<p>雷达模式按钮（ <strong>16</strong> ）用来选择AN/AWG-9雷达的当前操作模式。在条件允许时两个STT按钮可以在脉冲多普勒单目标跟踪（ <strong>PD STT</strong> ）和脉冲单目标跟踪（ <strong>P STT</strong> ）中选择一个单目标跟踪模式并自动尝试以STT模式锁定在TID上选定的目标。这两个按钮也可以用来切换这两种STT模式。脉冲多普勒搜索按钮（ <strong>PD SRCH</strong> ）用来选择雷达的PD搜索模式。边测距边跟踪搜索按钮（ <strong>RWS</strong> ）用来选择雷达的RWS模式。两个边跟踪边扫描按钮（ <strong>TWS AUTO</strong> and <strong>TWS MAN</strong> ）可以选择雷达的两种TWS模式。脉冲搜索按钮（ <strong>PULSE SRCH</strong> ）选择雷达的脉冲搜索模式。</p>
 <p>The <strong>indicator drum</strong> (<strong>17</strong>) shows currently selected radar mode.
 Apart from TWS MAN, TWS AUTO, RWS which refers to their respective modes it can also show MRL (manual rapid lockon), A-G (air-to-ground), VSL (vertical scan lockon), OPTTRK (TCS track), PLM (pilot lockon mode), PULSE (for both pulse search and pulse STT), PD (for both pulse dopple search and PD STT) and PAL (pilot automatic lockon mode).</p>
 <p><strong>Aspect and Vc Switches</strong></p>
@@ -1733,7 +1744,7 @@ Normally this is done by locking a target in STT, setting slave to TCS and then 
 </div>
 <div class="section" id="an-awg-9-radar">
 <h3>AN/AWG-9雷达<a class="headerlink" href="#an-awg-9-radar" title="永久链接至标题">¶</a></h3>
-<p>F-14所装备的AN/AWG-9雷达是一部工作在X波段（8 - 12 GHZ）下的全天候，多模式脉冲多普勒雷达。它是专门为远程攻击所设计的一款雷达系统，可以在边搜索边跟踪模式下同时引导6枚AIM-54不死鸟导弹攻击不同的目标。在最初的设想中，F-14将作为一名远程舰队防御者，拦截俄罗斯轰炸机和威胁到舰队的敌机。在F-14的服役后期，它的任务开始想着攻击机的方向过渡并很好的适应了这些任务。</p>
+<p>F-14所装备的AN/AWG-9雷达是一部工作在X波段（8 - 12 GHZ）下的全天候，多模式脉冲多普勒雷达。它是专门为远程攻击所设计的一款雷达系统，可以在边扫描边跟踪模式下同时引导6枚AIM-54不死鸟导弹攻击不同的目标。在最初的设想中，F-14将作为一名远程舰队防御者，拦截俄罗斯轰炸机和威胁到舰队的敌机。在F-14的服役后期，它的任务开始想着攻击机的方向过渡并很好的适应了这些任务。</p>
 <p>AN/AWG-9雷达有两种基本工作模式：脉冲模式和脉冲多普勒模式，两种模式各有其优缺点。下表列出了两种基础模式下的不同功能，武器投放能力，扫描范围和可用目标数据。</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -1925,7 +1936,7 @@ Normally this is done by locking a target in STT, setting slave to TCS and then 
 </div>
 <div class="section" id="tws-stt-acquisition">
 <h5>TWS STT 获取目标<a class="headerlink" href="#tws-stt-acquisition" title="永久链接至标题">¶</a></h5>
-<p>在STT模式中，可以通过在TID上选择一个目标，然后在DDD面板上选择脉冲STT或者脉冲多普勒STT来尝试锁定该目标。然后WCS计算机会将超级搜索的天线指令关联到该目标的方位，距离和高度，并在探测到目标时尝试锁定。</p>
+<p>在TWS模式中，可以通过在TID上选择一个目标，然后在DDD面板上选择脉冲STT或者脉冲多普勒STT来尝试锁定该目标。然后WCS计算机会将超级搜索的天线指令关联到该目标的方位，距离和高度，并在探测到目标时尝试锁定。</p>
 <p>与手动操作HCU锁定目标不同，这个过程是完全自动化的，但是其锁定目标的成功率也低于手动操作。</p>
 </div>
 <div class="section" id="acm-modes">
@@ -2641,24 +2652,24 @@ In addition there are two indication lights co-located with the RWR threat indic
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
 <p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），命名为 AN/ASN-92。INS通过测量惯性力（即加速度）以及旋转时的角速度并对其积分以计算飞机的位置以及线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全可靠地返回到基地。当飞机需要在远离地面塔康基站和目视参考的大洋上执行任务时，这样的导航系统甚是重要。</p>
 <p>设计一套INS（IMU）是一项非常复杂的工作，需要考虑到的方方面面包括了校正、对准、地球自转、惯性力、热稳定性甚至是模拟信号和数字信号的转换精度，上述所有的、必须应用的修正措施均是为了保证在长时间使用后设备的精度，以及更多需要考虑到的因素。同样，模拟一套INS是非常相似的——这也不是什么轻松的活。</p>
-<p>在Heatblur，我们决定开发一套全新的数学模型来模拟我们F-14的AN/ASN-92。我们为这个模型囊括了所有影响设备最终精度的潜在错误来源，并再现了一个万向INS平台的特征行为。我们努力下来的结果便是基于这个模型所开发的算法，在DCS中真实再现AN/ASN-92，但经过优化之后却能够做到几乎不影响CPU性能。</p>
+<p>在Heatblur，我们决定开发一套全新的数学模型来模拟我们F-14的AN/ASN-92。我们为这个模型囊括了所有影响设备最终精度的潜在错误来源，并再现了一个万向INS平台的特征行为。这一系列下来的结果便是基于这个模型所开发的算法，在DCS中真实再现AN/ASN-92，但经过优化之后却能够做到几乎不影响CPU性能。</p>
 <p>INS的主要组件包括了惯性测量单元（IMU），电源以及飞行员及RIO的导航控制及显示。</p>
-<p>尽管对于机组来说，INS主要用于导航，但其对其他机载设备的运行必不可少，例如，雷达就需要从INS获取飞机的姿态，一些武器投放模式——特别是某些长距离投放，需要通过INS获取姿态以及自身的位置。更能令机组不安的是，INS的失效将使得武器——比如AIM-7或是AIM-54——的某些高级模式无法使用。</p>
+<p>尽管对于机组来说，INS主要用于导航，但其对其他机载设备的运行必不可少，例如，雷达就需要从INS中获取飞机的姿态，一些武器投放模式——特别是某些长距离投放，需要通过INS获取姿态以及自身的位置。更能令机组不安的是，INS的失效将使得武器——比如AIM-7或是AIM-54——的某些高级模式无法使用。</p>
 <p>同样的数据也会被数据链所使用——当使用错误的INS数据时，从友机获取的自身轨迹以及目标信息将无法匹配，并且将导致TID显示错误的目标。以上的情况只是一些例子，而每当飞机系统需要用到自身的姿态和位置数据时，被使用的永远是INS数据。</p>
 <p>因此，惯性导航系统（INS）与AWG-9计算机（即WCS计算机）以及CSDC（计算机信号数据转换器，Computer Signal Data Converter）集成工作。其他相关的设备包括了姿态及航向参考系统，中央大气数据计算机，雷达高度计，仪表着陆系统以及TACAN。</p>
 <div class="section" id="wcs-computer">
 <h4>WCS 计算机<a class="headerlink" href="#wcs-computer" title="永久链接至标题">¶</a></h4>
-<p>WCS计算机，即武器控制系统计算机（Weapon Control System computer），通过与CSDC一起使用存储在磁带上的数个对准子程序来执行对准INS所需的，必要的计算。</p>
+<p>WCS计算机，即武器控制系统计算机（Weapon Control System computer），通过与CSDC一起使用存储在磁带上的数个对准子程序来执行对准INS所需要的、必要的计算。</p>
 <p>这些存储好的对准子程序在WCS计算机中被称为SMAL，单模式对准程序（Single Mode Alignment Program）。当开始执行INS对准时，对准程序将被加载到计算机的破坏读取式内存中。</p>
 <p>该过程被称为“磁带读入”，并由TID上的“M”表示。在IMU的对准过程中，WCS将与CSDC进行数据交换以加载特定的CSDC导航子程序。</p>
 </div>
 <div class="section" id="imu-platform-alignment">
 <h4>IMU 平台对准<a class="headerlink" href="#imu-platform-alignment" title="永久链接至标题">¶</a></h4>
-<p>当选择对准模式后，IMU平台首先将在加速度计的帮助下竖立至粗略对准位置，并将输出一个航向，其代表飞机自真北向的角位移，该角位移被称为漂移角。CSDC将在对准过程中向WCS发送惯性速度数据。</p>
-<p>第二阶段——精确对准——使用陀螺仪漂移的精确测量来计算飞机的真航向。由于地球的自转，这是可能的，在未开始精确对准时，系统将使用磁航向，并且整个对准过程仅依赖于感知平台在3D空间内的非惯性运动。</p>
+<p>当选择对准模式时，IMU平台首先将在加速度计的帮助下竖立至粗略对准位置，并将输出一个航向，其代表飞机自真北向的角位移，该角位移被称为漂移角。CSDC将在对准过程中向WCS发送惯性速度数据。</p>
+<p>第二阶段——精确对准——使用陀螺仪漂移的精确测量来计算飞机的真航向。由于地球的自转，这是可能的，在没有对准的情况下，使用磁航向，并且整个过程仅依赖于感知平台在3D空间内的非惯性运动。</p>
 <p>WCS计算平台对准校正所需要的数据诸元并估计漂移角的值，然后将该数据发送到CSDC。CSDC在CSDC惯性方程中使用这些校正数据诸元来产生用于生成平台扭矩的信号脉冲，然后将其传输到IMU。作为回应，CSDC从IMU接收速度信息并将该新的惯性速度数据发送到WCS对准程序，循环重复该程序。数据的交换将一直持续到输入INS为止。</p>
-<p>平台调平过程是由CSDC根据从IMU接收的加速度计非平值（off-level indication，译者注）进行计算并发送调矩脉冲来完成的。在每次数据交换时，WCS会计算前一个和当前漂移角之间的误差值（Δ）。该误差值在对准开始时最大，在对齐结束时最小。</p>
-<p>当Δ接近零并且沿平台X及Y轴均感测到速度接近零时，对准完成。对准平台所需的变量因子将被连续计算、更新并保存为校正数据。对准完成后，系统即可进入INS模式。 最后使用的校正数据和漂移角在进入INS模式时存储在CSDC中。在INS模式中，WCS将接受来自CSDC的速度和位置数据以及漂移角。</p>
+<p>平台调平过程是由CSDC根据从IMU接收的加速度非平值（off-level indication，译者注）进行计算并发送调矩脉冲来完成的。在每次数据交换时，WCS会计算前一个和当前漂移角之间的误差值（Δ）。该误差值在对齐开始时最大，在对齐结束时最小。</p>
+<p>当Δ接近零并且沿平台X及Y轴均感测到速度接近零时，完成对准。对准平台所需的变量因子将被连续计算、更新并保存为校正数据。对准完成后，系统即可进入INS模式。 最后使用的校正数据和漂移角在进入INS模式时存储在CSDC中。在INS模式中，WCS将接受来自CSDC的速度和位置数据以及漂移角。</p>
 <div class="section" id="navigation-modes">
 <h5>导航模式<a class="headerlink" href="#navigation-modes" title="永久链接至标题">¶</a></h5>
 <p>有三种导航数据模式可用于一般导航：</p>
