@@ -11,18 +11,19 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import sys
+import jieba
+#sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'DCS: F-14 “雄猫” 中文飞行手册'
-copyright = '2019, Heatblur Simulations.'
+copyright = '2019, Heatblur Simulations'
 author = ''
 
 # The short X.Y version
-version = '协作预览 | Mar. 7th, 2019'
+version = '协作预览 | Mar. 8th, 2019'
 # The full version, including alpha/beta/rc tags
 release = 'nightly'
 
@@ -69,7 +70,13 @@ master_doc = 'index'
 language = 'zh_CN'
 
 html_search_language = 'zh'
-# html_search_options = {'dict': 'C:/Users/Administrator/AppData/Local/Programs/Python/Python37/Lib/site-packages/jieba/weapons_po_dict.txt'}
+
+#sys.path.insert(0, os.path.abspath('jieba'))
+jieba_dict_path = os.path.abspath("jieba/weapons_po_dict.txt")
+print(jieba_dict_path)
+jieba.set_dictionary(jieba_dict_path)
+
+# html_search_options = {'dict': jieba_dict_path}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -88,6 +95,8 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
+
+html_show_copyright = True
 
 html_theme_options = {
 	'prev_next_buttons_location': 'both'
