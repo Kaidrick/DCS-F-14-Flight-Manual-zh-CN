@@ -2502,95 +2502,82 @@ This capability is either because of that the launching aircraft is capable of l
 <div class="section" id="an-ale-39-countermeasures-dispensing-set">
 <h2>AN/ALE-39 电子对抗布撒套件<a class="headerlink" href="#an-ale-39-countermeasures-dispensing-set" title="永久链接至标题">¶</a></h2>
 <p>在本作的F-14B模拟中，战机搭载了AN/ALE-39对抗系统。它自身控制着一套发射装置，这个发射装置位于所谓的“渐平尾翼”底部的发动机喷口之间。（注：渐平尾翼戏称海狸尾巴，所谓渐平尾翼就是两个发动机之间那跟伸出去的梁架，搭载着着舰尾钩和放油装置，英文名次也称“Mast”。）</p>
-<p>每个发射装置都具有两个部分，一个部分容纳10个干扰弹，另一部分则包含20个。尽管他们被成为左发射器和右发射器，然而实际上左发射器装在前部，右发射器装在后部，且两个发射器都装在着舰钩左侧，排成一行，这是沿用了早期F-14在尾部并排安装的的AN/ALE-29发射器的称呼。</p>
-<p>整个对抗系统的发射器容量加起来达到60个。每个发射器必须包含一种类型的干扰弹，这意味着只要每种类型的数量是10的倍数，任何干扰弹组合都是可能的。对抗系统本身并不知道在每个发射器里分别装载了什么类型的干扰弹，所以错误地设置对抗系统的程序会导致发射器射出错误的干扰弹。</p>
-<p>当襟翼杆处于上升位置时，系统本身可以通过后座RIO座舱内的控制面板或飞行员操纵杆上的DLC（Direct Lift Control）拇指旋轮进行手动操作。</p>
+<p>每个发射装置都具有两个部分，一个部分容纳10个干扰弹，另一部分则可容纳20个。虽然他们被称为左发射器和右发射器，但是实际上左发射器装在前部，右发射器装在后部，且两个发射器都装在着舰钩左侧，排成一行，称为左右发射器其实是沿用了早期F-14在尾部并排安装的的AN/ALE-29发射器的称呼。</p>
+<p>整个对抗系统的发射器容量加起来达到60个。每个发射器必须包含一种类型的干扰弹，这意味着，只要每种类型的数量是10的倍数，任何干扰弹组合都是可能的。对抗系统本身并不知道在每个发射器里分别装载了什么类型的干扰弹，所以错误地设置对抗系统的程序会导致发射器抛射出错误的干扰弹类型。</p>
+<p>当襟翼控制杆位于收起位置时，对抗系统系统可以通过后座RIO座舱内的控制面板或飞行员操纵杆上的DLC（Direct Lift Control）拇指旋轮进行手动操作。它还能够执行被预先编制好的投放序列，而要设置这些抛射序列则需要RIO在控制面板上将它设置好，或者可以通过操作DDD上的苦力帽开关来设置它。此外，如果在AN/ALE-39控制面板上正确设置了抛射程序后，AN/ALR-67也可以随之启动相应的箔条抛射程序。</p>
 <div class="section" id="controls-and-operation">
 <h3>控制和操作<a class="headerlink" href="#controls-and-operation" title="永久链接至标题">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS the F-14B countermeasure loadout is set in the Mission Editor, see <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> or controlled through the radio menu under ground crew.
-The default setting in the mission editor is bypassed. To see the real loadout check the kneeboard.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中，可以在任务编辑器中对F-14B的反制措施进行设置，详见 <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> 或者通过呼出地勤人员的无线电菜单进行控制。如果用地勤菜单设置的话，那么任务编辑器的设置则为无效。想查看实际的装填方案请查看膝板。</td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="programmer">
 <h4>编程面板<a class="headerlink" href="#programmer" title="永久链接至标题">¶</a></h4>
 <img alt="_images/programmer.png" src="_images/programmer.png" />
-<p>The programmer is used to set up what countermeasure cartridges are loaded where and to set up the different ejection programmes.
-The panel is located on the right horizontal console of the RIO cockpit.</p>
-<p>The left side of the programmer holds the controls (thumbwheels) for the different ejection programmes, one section for each type of cartridge.</p>
+<p>编程面板用来设置干扰弹的挂载位置与类型，并且设置不同的干扰弹抛射程序。这个编程面板位于RIO座舱的右侧水平控制台。</p>
+<p>编程面板的左侧（拨轮）控制着不同的抛射程序，任何一个抛射程序选项都用于控制所有的干扰弹。</p>
 <div class="line-block">
-<div class="line">The <strong>CHAFF</strong> section controls how to eject chaff in program mode. The chaff sequences are programmed to launch a number of salvoes, each consisting of a burst of a set amount of cartridges.</div>
-<div class="line"><strong>B QTY</strong> controls how many cartridges to eject in each burst, selection of 1-4 cartridges and C for continuous and R for random (4-6 cartridges) possible.</div>
-<div class="line"><strong>B INTV</strong> sets the time in seconds between each individual cartridge ejection in each burst, possible settings being .1 (0.125), .2 (0.25), .5 (0.5), .7 (0.75), 1 and R for random.</div>
-<div class="line"><strong>S QTY</strong> controls how many salvoes of bursts to eject in each program, settings available are 1, 2, 4, 6, 8, 10 and 15.</div>
-<div class="line"><strong>S INT</strong> sets the time in seconds between each salvo in the program, available settings are 2, 4, 6, 8 and 10.</div>
+<div class="line">在投射程序中， ** CHAFF** 选项用来控制如何抛射箔条。箔条抛射序列被编制为数次齐射，每次齐射都由一定数量的箔条组成。</div>
+<div class="line"><strong>B QTY</strong> 间隔拨轮用来控制每批次抛射要齐射多少数量的干扰弹，当齐射数量选择1或者2；3；4，并选择C档位时，意味着连续抛射指定数量的干扰弹；当选择R档位时，则意味着每次抛射会随机（Random）投放4-6个干扰弹。</div>
+<div class="line"><strong>B INTV</strong> 用来设置以秒为单位的相邻两个干扰弹的抛射间隔时间，可行的设置为：.1（0.125），.2（0.25），.5（0.5），.7（0.75），以及 1 ，或者可以使用R（Random）来设置随机的抛射间隔时间。</div>
+<div class="line"><strong>S QTY</strong> 用来控制每个抛射程序所释放的干扰弹的数量。可以设置为：1,2,4,6,8,10以及15。</div>
+<div class="line"><strong>S INT</strong> 间隔拨轮，用于设置程序每次执行时的抛射批次之时间间隔，可行的设置是：2, 4, 6, 8 和 10.</div>
 </div>
 <div class="line-block">
-<div class="line">When using the random and continuous settings for B special conditions apply.</div>
-<div class="line"><strong>B at C QTY and R INTV</strong> sets the first 3 cartridges to launch at 0.125 second intervals, the rest at random intervals from 0.25 to 4 seconds. Ejection disregards the S settings and continue until all cartridges are ejected.</div>
-<div class="line"><strong>B at R QTY and R INTV</strong> sets each burst to have between 4-6 cartridges and to eject at random intervals between 0.25 to 4 seconds. The first burst in a salvo will always launch the first 3 cartridges at 0.125 second intervals.</div>
-<div class="line"><strong>B at R QTY and INTV at set number</strong> sets each burst to launch between 4-6 cartridges at set interval. First burst will always launch first 3 cartridges at 0.125 sec interval.</div>
-<div class="line"><strong>B at fixed QTY and R INTV</strong> sets each burst to eject one cartridge disregarding B QTY.</div>
+<div class="line">当使用随机和连续设置适用于B的特殊情况时</div>
+<div class="line"><strong>B at C QTY and R INTV</strong> 将前3个干扰弹设置为0.125秒的抛射时间间隔，其余干扰弹则设置为0.25 - 4秒随机抛射时间间隔。整个抛射过程会无视S的设置，直到所有干扰弹射出。</div>
+<div class="line"><strong>B at R QTY and R INTV</strong> 会将抛射程序设置为每次投射4-6个干扰弹并且将投放的间隔设置为介于0.25到4秒的随机间隔。齐射中的第一次抛射总是以0.125秒的抛射间隔发射前3发干扰弹。</div>
+<div class="line"><strong>B at R QTY and INTV at set number</strong> 用于设置每次抛射4-6个干扰弹。但是初次抛射依旧会先以0.125秒的间隔抛射三枚干扰弹。</div>
+<div class="line"><strong>B at fixed QTY and R INTV</strong> 用来设置抛射程序，让它仅仅抛射一个干扰弹，并无视 B QTY设置的抛射数量。</div>
 </div>
 <div class="line-block">
-<div class="line">The <strong>JAMMER</strong> section controls the ejection of jammer cartridges in programmed mode.</div>
-<div class="line"><strong>QTY</strong> sets how many jammer cartridges to eject, possible settings are 1-4.</div>
-<div class="line"><strong>INTV</strong> uses all three indicated thumbwheels to set time in seconds between each ejection in the program. Settings from 1 to 299 possible in 1 second increments.</div>
+<div class="line"><strong>JAMMER</strong> 选项用来编程模式下控制有源射频诱饵的抛射。</div>
+<div class="line"><strong>QTY</strong> 用来设置干扰器的投放数量，可行的设置是1-4个。</div>
+<div class="line"><strong>INTV</strong> 使用三个指定的拨轮来设置程序中每次抛射的时间间隔(以秒为单位)。 可以从1设置到299，每次拨动拨轮，读数加1.</div>
 </div>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Jammer cartridges not currently implemented in DCS.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">目前在DCS中尚未引入有源射频诱饵弹。</td>
 </tr>
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">The <strong>FLARE</strong> section controls ejection of flares when using programmed mode.</div>
-<div class="line"><strong>QTY</strong> sets amount of flare cartridges to eject, possible settings being 2, 3, 4, 6, 8 and 10.</div>
-<div class="line"><strong>INTV</strong> sets time interval between each ejection in seconds, possible settings being 2, 4, 6, 8 and 10.</div>
+<div class="line"><strong>FLARE</strong> 用于在编程模式下控制红外干扰弹的抛射。</div>
+<div class="line"><strong>QTY</strong> 用于设置红外干扰弹的抛射总数，可行的设置是：2,3,4,6,8,10.</div>
+<div class="line"><strong>INTV</strong> 用于设置以秒为单位的相邻两个干扰弹的抛射间隔时间，可行的设置是：2,4,6,8,10.</div>
 </div>
-<p>The right side of the programmer sets the type of cartridge loaded into each section and the reset switch used after loading new cartridges.</p>
-<p>The <strong>L10, L20, R10 and R20</strong> thumbwheels can be set to C, J or F setting what cartridge is loaded into which section.</p>
+<p>编程面板的右侧用于设置每个发射器模块所装载的干扰弹类型，当装载了新的干扰弹之后，请按下重置按钮（Reset Switch）。</p>
+<p><strong>L10, L20, R10 and R20</strong> 拨轮可以被设置到 C（Chaff）、J（Jammer）或者F（Flare），以此来设置发射器里装载了何种类型的干扰弹。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Incorrectly setting type of cartridge loaded can result in the launch of the wrong type of cartridge.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">错误地设置所装载的干扰弹类型会导致发射装置抛射出错误的干扰弹。</td>
 </tr>
 </tbody>
 </table>
-<p>The <strong>RESET</strong> switch needs to be used to reset the systems internal counters after loading new cartridges into the launchers. Needs to be held to reset for at least 5 seconds to reset the system.</p>
+<p>当发射装置装载了新的干扰弹之后， 需要按下 <strong>RESET</strong> ，以此来重置系统内部的干扰弹计数器。 玩家需要将 <strong>RESET</strong> 按下至少5秒，以此来重置系统。</p>
 </div>
 <div class="section" id="control-panel">
 <h4>控制面板<a class="headerlink" href="#control-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/controller.png" src="_images/controller.png" />
-<p>The control panel is used to control system power, to set up automatic ejections and to manually eject cartridges and is also located on the RIO right horizontal console.</p>
-<p>The mechanical counters on the upper part of the panel are used to indicate remaining cartridges of each type.
-They need to be set up manually using the knob below each counter but decreases automatically as each cartridge ejection pulse is sent.
-As they’re set manually it’s possible to end up in a situation were the counter is at 0 but additional cartridges are still available. In this cases ejection pulses will still be sent but the counter will remain at 0.</p>
-<p>Below each counter each cartridge type has a switch for manual ejection commands. The switches are momentary and springloaded to center, each having three positions.
-<strong>PRGM</strong> initiates respective set ejection program, <strong>SGL</strong> commands ejection of a single cartridge of respective type and <strong>STBY</strong> is the default center position not commanding manual ejection.</p>
-<p>The <strong>PWR/MODE</strong> switch enables power to the AN/ALE-39 and can enable automatic chaff launch via the AN/ALR-67 RWR.
-<strong>AUTO (CHAFF) / MAN</strong> enables power to the system and allows the AN/ALR-67 to initiate the set chaff ejection program but flares remain in manual. Chaff ejection is initiated when the RWR detects a threat actively engaging own aircraft,
-after each program initiation a 30 second cooldown is present before next program is initiated if such a detection is still present. Manual ejection is still available as normal.
-<strong>MAN</strong> enables power to the system and allows for manual initiation of all functions.
-<strong>OFF</strong> disables the system.</p>
-<p>The <strong>FLARE MODE</strong> switch controls how flares are ejected and also sets up how the pilot stick <strong>DLC button is used</strong>. The flaps lever needs to be in the up position to enable DLC button cartridge ejection.
-The switch has three positions. <strong>MULT</strong>, multiple, sets the system to eject one cartridge from each section set to flares on the programmer for each ejection pulse.
-<strong>Note</strong> that this means that if flares are loaded on all four sections this results in 4 flares being launched each time a flare ejection command is sent.
-<strong>NORM</strong> sets normal flare ejection pulse behavior. <strong>PILOT</strong> enables ejection of one flare cartridge with each depression of the DLC button. Normal flare ejection still possible.
-If the switch is set a position <strong>other than PILOT</strong> the DLC button will command ejection of a single chaff cartridge.</p>
-<p>Finally the <strong>SALVO FLARES</strong> switch initiates rapid ejection of all flares using a 0.125 second time interval for as long as the switch is held in the <strong>ON</strong> position. Normally springloaded to the <strong>OFF</strong> position.</p>
+<p>控制面板位于RIO右侧的水平控制台，用于控制系统电源、设置干扰弹的自动抛射和手动抛射。</p>
+<p>位于控制面板上方的机械计数器用于指示每种类型的干扰弹的剩余数量。RIO需要手动设置位于计数器下方的旋钮。计数器会在发射装置抛射干扰弹的同时自动地减少指示数值。此外，因为计数器是被手动设置的，所以很有可能会出现计数器指示为0，却仍然有额外的干扰弹可用的情况，在这种情况下控制系统仍旧会向发射装置传送干扰弹发射脉冲，使发射装置继续发射干扰弹，但是计数器依旧会显示为0。</p>
+<p>在每个计数器下面都有开关，用于手动控制每种干扰弹的抛射。这些开关都是瞬时开关，开关中心安装弹簧，每个开关有三个档位。 <strong>PRGM</strong> 用于启动各自的抛射程序， <strong>SGL</strong> 用于命令每个类型的干扰弹进行单发抛射， <strong>STBY</strong> 处于默认的中心位置，在这个位置时系统不会进行抛射程序。</p>
+<p><strong>PWR/MODE</strong> 开关用来给 AN/ALE-39提供电力，并且可以让发射装置通过AN/ALR-67 RWR自动发射箔条干扰弹。 <strong>AUTO (CHAFF) / MAN</strong> 开关用来接通系统电源，并且让AN/ALR-67启用箔条干扰弹的发射程序，但是值得注意的是，AN/ALR-67只会启用箔条干扰弹的发射程序，而红外干扰弹的发射程序则需要手动设置。当RWR探测到一个对自身具有攻击威胁的目标后，便会启用箔条抛射程序，在每个程序启动之后，如果仍然存在这样的检测，则在下一个程序启动之前存在30秒的冷却时间。在这期间手动抛射功能是依旧处于可用的状态。 <strong>MAN</strong> 会给整个系统供电，并且可以手动启用所有的功能。 <strong>OFF</strong> 关闭系统。</p>
+<p><strong>FLARE MODE</strong> 选择开关用于控制被抛射的红外干扰弹的数量，也可用于设定飞行操纵杆上的 <strong>DLC buttton</strong> 处于何种使用模式。襟翼控制杆需要处于向上的位置，使得飞行员可以操作DLC按钮用来抛射干扰弹。 <strong>FLARE MODE</strong> 开关有三个档位， <strong>MULT</strong> ，多类型模式，用于设置发射系统从每个发射器（通常每个发射器搭载的干扰弹类型不同）抛射一枚干扰弹。 <strong>Note</strong> 意味着如果所有四个部分都装载了干扰弹，那么系统每次发送一个干扰弹抛射信号时，就会发射4枚干扰弹。 <strong>NORM</strong> 用于设置一般的红外干扰弹抛射动作。 <strong>PILOT</strong> 每次按下操纵杆上的DLC 按钮，都会抛射一枚红外干扰弹。常规的红外干扰弹抛射功能依旧可用。如果开关设置到 <strong>other than PILOT</strong> 的档位，那么DLC按钮会命令系统发射一枚箔条干扰弹。</p>
+<p>最后是 <strong>SALVO FLARES</strong> ，这个开关只要保持在 <strong>ON</strong> 档位，那么发射装置便会以0.125秒的间隔抛射所有的红外干扰弹。通常情况下这个开关一般由弹簧结构固定在 <strong>OFF</strong> 档位。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">All countermeasure cartridge ejection is inhibited while the weight on wheels sensor is active, preventing countermeasure ejection while on the ground.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">当起落架的机轮传感器激活时，所有的干扰弹抛射都会被限制住，以防止飞机在地面时抛射干扰弹。</td>
 </tr>
 </tbody>
 </table>
@@ -2598,53 +2585,42 @@ If the switch is set a position <strong>other than PILOT</strong> the DLC button
 <div class="section" id="rio-hand-hold-switches">
 <h4>RIO 握把控制开关<a class="headerlink" href="#rio-hand-hold-switches" title="永久链接至标题">¶</a></h4>
 <img alt="_images/cmhats1.png" src="_images/cmhats1.png" />
-<p>Two four-way direction hats are mounted on the RIO hand hold above the DDD to enable quick access to countermeasure ejection.
-The two switches are mirrored and <strong>UP</strong> commands ejection of a single chaff cartridge. <strong>DOWN</strong> initiates the chaff ejection program, <strong>INBOARD</strong> (towards center) initiates the jammer ejection program and <strong>OUTBOARD</strong> (towards the sides) initiates the flare ejection program.</p>
+<p>在DDD上方的RIO握把上安装了一个四向苦力帽，可以让对抗系统快速地执行干扰弹抛射。四向苦力帽的上下左右两端之档位是互相对称的， <strong>UP</strong> 用于抛射单发箔条干扰弹， <strong>DOWN</strong> 用于启用箔条抛射程序， <strong>INBOARD</strong> （朝向中心）用于启用有源射频干扰弹的抛射程序， <strong>OUTBOARD</strong> （朝向外侧）用于启用红外干扰弹的抛射程序。</p>
 </div>
 </div>
 <div class="section" id="lau-138">
 <h3>LAU-138<a class="headerlink" href="#lau-138" title="永久链接至标题">¶</a></h3>
-<p>The LAU-138 chaff dispenser was developed to meet the need for additional chaff cartridge payload capacity.
-The launcher itself was developed in Sweden by CelciusTech as a chaff dispenser integrated into a rail designed to replace the LAU-7 Sidewinder rail.
-Each rail holds up to 160 chaff packages, each being smaller than a normal chaff cartridge while still enabling the mounting of single AIM-9 Sidewinder to itself.</p>
-<p>On the F-14 the LAU-138 was used mounted on the 1A and 8A stations.
-While technically able to be mounted on the respective B stations as well it wasn’t possible to refill the launcher while mounted there so wasn’t used there operationally.</p>
-<p>While having the LAU-138s mounted the R10 and R20 sections in the launcher are both connected to the R20 section and the R10 connected to the LAU-138s.
-This means that the R20 section type setting on the programmer controls both R10 and R20 and the R10 section type setting should always be set to C for chaff.</p>
-<p>Each launcher holds, as mentioned, 160 chaff packages and each ejection impulse ejects four packages from each launcher, each packages being about 1/4 the size of a normal chaff cartidge.
-This results in that each ejection impulse ejects the equivalent of two chaff cartridges in total and that a total of 40 ejections are available from the launchers.</p>
-<p>As the launchers use the R10 section of the programmer, mounting two LAU-138s result means that the counter for chaff on the controller should be increased by 40.
-A chaff only loadout can result in the number of launches available to be in total 100, which too much for the counter, and that the counter will effectively show one chaff ejection less than what’s really available.
-The last ejection will still work though.</p>
-<p>In summary this means that when using the LAU-138 an additional 40 chaff ejections are available increasing the total number to anywhere from 100 chaff to 40 chaff and 60 flares when combined with the normal AN/ALE-39 loadout
-and that the R10 section should always be set to C for chaff when mounted.</p>
+<p>为了应对军方对于机载箔条干扰弹的较大的挂载容量之需求，工程师团队研发了LAU-138箔条布撒器。发射装置由瑞典的CelciusTech公司开发，作为一个箔条布撒器集成到一个挂架上，用于替换挂载“响尾蛇”的LAU-7挂架。每个挂架最多可容纳160个箔条干扰弹组件，每个组件都比普通箔条干扰弹小，同时挂架仍然可以单独安装AIM-9响尾蛇。（注：这个挂架本身就是个箔条布撒器，同时还能装”响尾蛇“，可谓一物两用，集成了两种功能同时节省了体积，并减少了流体阻力。）</p>
+<p>在F-14上，LAU-138挂架被安装在1A和8A挂点上。虽然从技术角度上来说LAU-138能够安装在每一个B挂点上，但是在那些挂点安装的时候地勤无法给发射装置装填干扰弹，因此不将LAU-138安装在那些挂点上。</p>
+<p>当安装了LAU-138挂架后，发射器中的R10和R20部分都会被关联到R20，而R10则连接到LAU-138挂架。这意味着编程面板上的R20部分的干扰弹类型设置同时控制着R10和R20，对于箔条，而R10部分的干扰器类型设置应该始终设置为C（Chaff 箔条）。</p>
+<p>如前面所述，每个发射器携带160个箔条干扰弹组件，每个弹射信号脉冲会让每个发射器射出4个箔条干扰弹组件，每个组件的大小约为普通箔条布撒器所搭载的箔条干扰弹体积的四分之一。所以综上所述，发射装置总共可抛射40次箔条干扰弹。</p>
+<p>由于发射器使用编程面板上的R10部分来进行设置，所以安装两个LAU-138挂架意味着在控制器上的箔条干扰弹计数器需要把数值增加到40。实际上LAU-138挂架可以挂载100枚箔条干扰弹，而计数器最高计数值只有99，这意味着当计数器指示数值为0的时候，其实还可以再抛射一枚箔条干扰弹。</p>
+<p>总之，这意味着当使用LAU-138时，可以抛射额外的40个箔条干扰弹，当LAU-138与常规的AN / ALE-39对抗装置相结合时，整体挂载的干扰弹类型和数量可以是100枚箔条干扰弹或者40枚箔条干扰弹和60枚红外干扰弹，并且R10部分应该始终设置为C（Chaff）以表示箔条干扰弹。</p>
 </div>
 </div>
 <div class="section" id="an-alq-126-decm">
 <h2>AN/ALQ-126 DECM<a class="headerlink" href="#an-alq-126-decm" title="永久链接至标题">¶</a></h2>
-<p>The AN/ALQ-126 deception jammer is designed to detect radar threats, analyze them, select the optimum countermeasure technique available and apply it.
-Available techniques for jamming are amongst others, mainlobe blanking, inverse con-scan, range-gate pull-off and swept square modes.</p>
-<p>In DCS this is modelled as a simple noise jammer due to engine limitations but controlled by the DECM logic as to when it’s on or off.</p>
+<p>AN/ALQ-126有源射频欺诈干扰装置主要用于探测并应对雷达威胁、分析威胁、选择最佳对抗技术并加以应用。现有的有源射频干扰技术主要有主瓣消隐（指你进入了主瓣杂波的范围 和地面杂波混淆在一起）、逆共扫描、距离拖引干扰模式和方形扫掠模式。</p>
+<p>在DCS中，由于发动机的限制，这一功能被建模成一个简单的噪声干扰器，但可以通过DECM逻辑控制闸来控制干扰器何时打开或关闭。</p>
 <div class="section" id="an-alq-126-controls-and-indicators">
 <h3>AN/ALQ-126 控制和指示器<a class="headerlink" href="#an-alq-126-controls-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/control2.png" src="_images/control2.png" />
-<p>The controls for the AN/ALQ-126 DECM are all located on the right horizontal panel in the RIO pit, panel as image above.
-In addition there are two indication lights co-located with the RWR threat indicators on the right side of the TID.</p>
-<p>The two indication lights on the threat advisory are RCV (recieve) and XMIT (transmit). RCV illuminates up when the system detects and analyzes a threat while the XMIT illuminates up when it’s actively jamming a threat.</p>
-<p>The control panel itself contains a STANDBY indicator light, a mode selector knob and an AUDIO volume knob.</p>
-<p>The STANDBY light indicates that system warmup is not yet completed and when completed turns off. At other times, illumination of this indicator indicates the presence of a fault in the system.</p>
-<p>The AUDIO (volume) knob controls the audio volume of the RIO sound from the system. The pilot has no access to this audio. The audio itself is generated from the PRF of recieved threats with PRF frequency being converted to audio frequency.</p>
-<p>The mode selector knob controls power and operational mode that the system is in.</p>
-<p><strong>OFF</strong> turns off power to the system. <strong>STBY</strong> begins pre-warming of the system, taking in all around 5 minutes.</p>
-<p><strong>TEST - HOLD 3 SEC</strong> is used to prepare the system for BIT, after 3 seconds in this mode, turn the knob to TEST - ACT.</p>
-<p><strong>TEST - ACT</strong> starts the BIT in the system. The BIT takes approximately 30 seconds and the RCV light will be illuminated the whole time while the XMIT light will flash twice. If the STANDBY light illuminates it indicates that a no-go condition exists in the system.</p>
-<p><strong>REC</strong> enables the system in recieve only mode, enabling analysation of threats and also the threat audio.</p>
-<p><strong>RPT</strong> enables full system functionality, in addition to REC it also now tries to jam threats according to selected method.</p>
+<p>AN/ALQ-126 DECM的控件都位于RIO座舱内的右侧水平控制面板上，面板如图所示。此外，在TID的右侧，还有两个与RWR威胁指示器处于同个位置的指示灯。</p>
+<p>威胁警告上的两个指示灯分别是RCV (recieve)和XMIT (transfer)。RCV指示灯在系统检测到信号源并分析其为威胁时发光，而XMIT指示灯在系统激活了主动射频干扰弹时发光。</p>
+<p>控制面板本身包含一个备用指示灯、一个模式选择旋钮和一个音频音量控制旋钮。</p>
+<p>待机指示灯表示系统预热尚未完成，当系统预热完成时便会关闭。在其他时候，该指示灯的点亮意味着系统存在故障。</p>
+<p>AUDIO(音量)旋钮用于控制系统中的RIO音频音量。飞行员无法访问该音频。音频本身由系统接收到的威胁性PRF（ Pulse Repetition Frequency 脉冲重复频率）直接生成，随后PRF频率会被转换为音频。</p>
+<p>模式选择旋钮用于控制系统的电源和操作模式。</p>
+<p><strong>OFF</strong> 用于关闭系统的电源， <strong>STBY</strong> 让系统进入预热状态，整体预热时间为5分钟。</p>
+<p><strong>TEST - HOLD 3 SEC</strong> 用于准备系统的BIT（Built-in Test自检），进入该模式3秒后，旋转旋钮到 <strong>TEST-ACT</strong> 档位</p>
+<p><strong>TEST - ACT</strong> 用于启动系统的自检程序。整个自检程序用时大约30秒，并且RCV指示灯会一直亮着，而XMIT指示灯会闪烁两次。如果STANDBY待机指示灯点亮，则表示系统中存在“NO-GO”状态。</p>
+<p><strong>REC</strong> 用来设置系统处于接收模式，在这个模式下系统可以进行威胁分析和威胁音频分析。</p>
+<p><strong>RPT</strong> 用于启用完整的系统功能，除了REC（接收功能），系统现在还会根据系统所分析的威胁类型选择的适当的射频欺诈方法以阻断威胁。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">In DCS jamming is always done with noise jamming, turning on as a threat is detected.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS的系统建模中，有源射频干扰通常是通过噪声干扰来完成的，当检测到威胁时就噪声干扰功能就会打开。</td>
 </tr>
 </tbody>
 </table>
