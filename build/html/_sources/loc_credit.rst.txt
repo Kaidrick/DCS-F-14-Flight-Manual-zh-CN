@@ -8,6 +8,18 @@ https://github.com/Kaidrick/DCS-F-14-Flight-Manual-zh-CN
 
 ---------------------------------------------
 
+翻译声明
+**********
+
+本文档翻译自Heatblur Simulations的官方飞行手册文档\ `《F-14 Tomcat》 <http://www.heatblur.se/F-14Manual/>`_。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulation持有并保留。
+
+本翻译文档使用请参见 `GNU General Public License v3.0 <https://github.com/Kaidrick/DCS-F-14-Flight-Manual-zh-CN/blob/master/LICENSE/>`_ 。
+
+文档可以免费使用、分享，但\ **必须遵循GPL协议**\ ，如您对内容上有任何的意见或疑问，请在Github中Fork / Pull request 。
+
+.. raw:: html
+
+	<br>
 
 DCS: F-14 “雄猫” 中文飞行手册（初版）
 =========================================
@@ -37,6 +49,9 @@ DCS: F-14 “雄猫” 中文飞行手册（初版）
 	:Heatblur写手册的那个人: 你不要写手册了，你英语不及格
 
 -------------------------------------
+
+手册翻译和校对分工
+*******************
 
 **已完成部分：**
 

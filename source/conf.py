@@ -19,11 +19,11 @@ import jieba
 # -- Project information -----------------------------------------------------
 
 project = 'DCS: F-14 “雄猫” 中文飞行手册'
-copyright = '2019, Heatblur Simulations'
+copyright = '2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留'
 author = ''
 
 # The short X.Y version
-version = '协作预览 | Mar. 8th, 2019'
+version = '协作预览 | Mar. 10th, 2019'
 # The full version, including alpha/beta/rc tags
 release = 'nightly'
 

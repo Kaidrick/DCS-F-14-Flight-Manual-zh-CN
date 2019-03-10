@@ -1,2 +1,3 @@
 1. check for any update on HB website
 2. replace youtube video links with bilibili links
+3. make available po/mo and miz download link

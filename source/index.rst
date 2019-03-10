@@ -25,3 +25,9 @@ Heatblur DCS F-14 Tomcat
 
    loc_about
    loc_credit
+   
+.. toctree::
+   :caption: Other Files:
+   :hidden:
+   
+   loc_other

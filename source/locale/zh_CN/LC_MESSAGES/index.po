@@ -31,8 +31,6 @@ msgstr "内容："
 msgid "CN Localization:"
 msgstr "中文本地化："
 
-#~ msgid "Welcome to the zh-CN fork of the Heatblur DCS: F-14 Tomcat Flight Manual. This documentation is hosted by Virtual 422d Test and Evaluation Squadron. This manual is translated from `the official online manual <http://www.heatblur.se/F-14Manual/index.html/>`_。"
-#~ msgstr "欢迎您查阅Heatblur DCS: F-14 “雄猫”中文飞行手册。该文档搭建于虚拟422d测试和评估中队站点。手册翻译自`the official online manual <http://www.heatblur.se/F-14Manual/index.html/>`_。"
-
-#~ msgid "Flight Manual"
-#~ msgstr "飞行手册"
+#: add
+msgid "Other Files:"
+msgstr "下载："

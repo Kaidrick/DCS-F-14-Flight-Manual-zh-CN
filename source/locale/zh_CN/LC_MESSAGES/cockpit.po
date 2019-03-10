@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-07 14:19+0800\n"
+"PO-Revision-Date: 2019-03-09 20:24+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2741,7 +2741,7 @@ msgid ""
 "Two-stage trigger. First detent enables CTVS and gun camera. Second detent "
 "releases selected forwards firing weapon."
 msgstr ""
-"两端式扳机。第一段激活 CTVS（驾驶舱电视传感器）和照相枪。第二段发射选中的前射"
+"两段式扳机。第一段激活 CTVS（驾驶舱电视传感器）和照相枪。第二段发射选中的前射"
 "武器。"
 
 #: ../../source/cockpit.rst:1086
@@ -4410,9 +4410,19 @@ msgstr "OBC - 机内检查，选则该项目来启动 OBC 程序。"
 msgid "EMERG GEN - Tests emergency generator."
 msgstr "EMERG GEN - 测试应急发电机。"
 
+# 2.11.4 Mach Lever. The Mach lever provides a mechani
+# cal input to the main fuel control as a function of aircraft
+# Mach number to control engine airflow at high airspeeds by
+# providing a maximum and minimum rpm limitation. The
+# Mach lever on each engine receives signals from the central
+# air data computer, which varies its position linearly between
+# 0.25 and 2.5 IMN. Airflow is kept within a topping limit that
+# prevents excessive distortion at maximum thrust and a
+# bottoming limit, which prevents inlet buzz at idle thrust
+# settings.
 #: ../../source/cockpit.rst:0
 msgid "MACH LEV - Initiates dynamic MACH lever check. F-14A only."
-msgstr ""
+msgstr "MACH LEV - 开始动态马赫控制杆检查。只适用于F-14A。"
 
 #: ../../source/cockpit.rst:0
 msgid "WG SWP - Tests wing-sweep system."
