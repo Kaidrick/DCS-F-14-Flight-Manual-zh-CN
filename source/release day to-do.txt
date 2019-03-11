@@ -1,3 +1,18 @@
 1. check for any update on HB website
 2. replace youtube video links with bilibili links
 3. make available po/mo and miz download link
+
+---
+vocabulary:
+half-action 第一级
+full-action 第二级
+
+warning light 报警灯 not 警告灯 nor 告警灯
+
+the flag on Wing-sweep indicator is OVER not OV SW nor OV SWP
+
+tape 条形指示器
+
+注意-提示灯面板 not 注意-提示灯光面板
+
+脚蹬？脚踏？踏板

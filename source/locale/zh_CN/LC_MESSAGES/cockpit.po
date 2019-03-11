@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-09 20:24+0800\n"
+"PO-Revision-Date: 2019-03-11 20:17+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1455,8 +1455,8 @@ msgid ""
 "KNEEL - Releases pressure from nosewheel strut to retract it, kneeling "
 "aircraft. Also unlocks launch bar."
 msgstr ""
-"KNEEL - 释放前起落架支柱系统中的压强并收缩，降低机头的高度，同时解锁弹射牵引"
-"杆。"
+"KNEEL - 减小前起落架支柱系统中的液压压强，使支柱收缩，从而降低机头的高度，同"
+"时解锁弹射牵引杆。"
 
 #: ../../source/cockpit.rst:569
 msgid "BRAKE-PULL handle"
@@ -1731,9 +1731,9 @@ msgid ""
 "(pressure) mode."
 msgstr ""
 "三档位弹簧开关，松开开关时，开关从 RESET 位置弹回正常位置。如果接通电源，且 "
-"CADC 可提供高度数据，那么开关可以在 RESET 位置保持3秒，使高度计在正常（伺服）"
-"模式下工作。如果将开关拨至 STBY 位置，或电源断开，或缺少 CADC 高度数据，那么3"
-"秒后，系统会切换至备用（气压）模式。"
+"CADC 可提供高度数据，那么将开关在 RESET 档位保持3秒后，高度计会进入正常（伺"
+"服）工作模式。如果将开关拨至 STBY 位置，或电源断开，或缺少 CADC 高度数据，那"
+"么3秒后，系统会切换至备用（气压）模式。"
 
 #: ../../source/cockpit.rst:721 ../../source/cockpit.rst:2301
 msgid "STBY flag"
@@ -1906,7 +1906,7 @@ msgstr "进近迎角指示灯"
 #: ../../source/cockpit.rst:798
 msgid ""
 "Contains three lights showing angle-of-attack (AOA) relative on-speed AOA."
-msgstr "进近指示灯又三盏灯组成，它显示了当前迎角和最佳进近迎角的相对关系。"
+msgstr "进近指示灯由三盏灯组成，它显示了当前迎角和最佳进近迎角的相对关系。"
 
 #: ../../source/cockpit.rst:800
 msgid "Green being too slow, amber being on-speed AOA and red being too fast."
@@ -2759,7 +2759,7 @@ msgstr "ECM（电子对抗）警告灯光"
 #: ../../source/cockpit.rst:1100
 msgid ""
 "Warning lights connected to the ALR-67 indicating different types of threats."
-msgstr "这些警告灯与 ALR-67 项链，指示不同类型的雷达威胁。"
+msgstr "这些警告灯与 ALR-67 相连，用于指示不同类型的雷达威胁。"
 
 #: ../../source/cockpit.rst:1102
 msgid ""
@@ -2919,9 +2919,11 @@ msgstr "用于显示方位角和航向信息"
 msgid "No. 2 bearing pointer"
 msgstr "二号方位指针"
 
+# typo:
+# BDHI cannot indicate "course"
 #: ../../source/cockpit.rst:1202 ../../source/cockpit.rst:2714
 msgid "Indicates magnetic course to tuned TACAN station."
-msgstr "指向调定的 TACAN 基站的磁航线。"
+msgstr "指向调定的 TACAN 基站的磁航向。"
 
 #: ../../source/cockpit.rst:1204 ../../source/cockpit.rst:2716
 msgid "Compass rose"
@@ -3121,8 +3123,8 @@ msgid ""
 "Shows fuel quantity in currently selected respective (L or R) tanks (feed, "
 "wing or ext) set by the QTY SEL switch on the fuel management panel."
 msgstr ""
-"显示对应一侧（左或右）的、由燃油管理面板中的 QTY SEL 开关选中的油箱（供油油"
-"箱、机翼油箱或外部油箱）油量。"
+"分别用于显示左侧或右侧选定油箱的剩余油量。使用燃油管理面板中的 QTY SEL 开关可"
+"以选择计数器显示哪一个油箱（供油油箱、机翼油箱或外部油箱）的油量。"
 
 #: ../../source/cockpit.rst:1293
 msgid "FUS & FEED tapes"
@@ -3212,7 +3214,7 @@ msgstr "UP - 电动向液压系统增压，升起阻拦钩并上锁。"
 msgid ""
 "DOWN - Electrically releases hydraulic pressure allowing hook to extend via "
 "dashpot pressure and gravity."
-msgstr "DN - 电动释放液压系统压强，使阻拦钩受缓冲器压力和自身重力展开。"
+msgstr "DN - 电动向液压系统减压，使阻拦钩受缓冲器压力和自身重力展开。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -4013,8 +4015,8 @@ msgid ""
 "Advisory light indicating low pressure in the fire extinguishing container "
 "(90 psi below nominal 600 psi)."
 msgstr ""
-"“发动机灭火” 提示灯，灯亮表示灭火器压强低（与正常值 600 psi 的偏差超过 90 "
-"psi）。"
+"“发动机灭火” 提示灯，灯亮表示灭火器（主瓶）压强低（与正常值 600 psi 的偏差超"
+"过 90 psi）。"
 
 #: ../../source/cockpit.rst:1611
 msgid "AUX FIRE EXT"
@@ -4025,8 +4027,8 @@ msgid ""
 "Advisory light indicating low pressure in the auxiliary fire extinguishing "
 "container (90 psi below nominal 600 psi)."
 msgstr ""
-"“备用灭火” 提示灯，灯亮表示备用灭火器压强低（与正常值 600 psi 的偏差超过 90 "
-"psi）。"
+"“备用灭火” 提示灯，灯亮表示备用灭火器（辅瓶）压强低（与正常值 600 psi 的偏差"
+"超过 90 psi）。"
 
 #: ../../source/cockpit.rst:1618
 msgid "Master Generator Control Panel"
@@ -4640,8 +4642,8 @@ msgid ""
 msgstr ""
 "舱盖空气散流器控制手柄控制驾驶舱中的通风气流。手柄置于正常位置（CABIN AIR）"
 "时，空调系统引导70%的气流空过驾驶舱空气散流器，30%通过舱盖空气散流器。手柄置"
-"于 CANOPY DEFOG（舱盖除雾）位置时，空调系统引导引导所有气流通过舱盖空气散流器"
-"来给舱盖除雾。"
+"于 CANOPY DEFOG（舱盖除雾）位置时，空调系统将引导所有气流通过舱盖空气散流器来"
+"给舱盖除雾。"
 
 #: ../../source/cockpit.rst:1853 ../../source/cockpit.rst:3251
 msgid "Canopy Control Handle"
