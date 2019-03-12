@@ -183,20 +183,74 @@
 <p>因此，本页面提供了与《DCS：F-14 “雄猫” 中文飞行手册》配套的游戏内按键设置页和驾驶舱提示的中文本地化，同时也包括数个训练任务的中文本地化。</p>
 <br><div class="section" id="id2">
 <h2>按键设置和驾驶舱提示<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p><strong>使用说明：</strong></p>
-<p>下载文件后，将其放入DCS World安装根目录中的对应文件夹。详细路径如下：</p>
-<p>&gt; <code class="code docutils literal notranslate"><span class="pre">Eagle</span> <span class="pre">Dynamics</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">DCS</span> <span class="pre">World</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Mods</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">aircraft</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">F-14</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">l10n</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">cn</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">LC_MESSAGES</span></code></p>
-<p>如果<code class="code docutils literal notranslate"><span class="pre">F-14</span></code>目录中缺少<code class="code docutils literal notranslate"><span class="pre">l10n</span></code>、<code class="code docutils literal notranslate"><span class="pre">cn</span></code>或<code class="code docutils literal notranslate"><span class="pre">LC_MESSAGES</span></code>这三个文件夹中的任何一个或多个文件夹，那么请按照上述文件结构，自行新建文件夹并将它们重命名。</p>
-<p><strong>最后，将</strong><code class="code docutils literal notranslate"><span class="pre">F-14-cn.mo</span></code><strong>重命名为</strong><code class="code docutils literal notranslate"><span class="pre">messages.mo</span></code> 。</p>
-<p>请注意文件扩展名。如果您的资源管理器中隐藏了文件扩展名（也就是所谓的“文件类型”——本文件的 <code class="code docutils literal notranslate"><span class="pre">*.mo</span></code> 是这个文件的扩展名，如同<code class="code docutils literal notranslate"><span class="pre">.exe</span></code>、<code class="code docutils literal notranslate"><span class="pre">.png</span></code>、<code class="code docutils literal notranslate"><span class="pre">.pdf</span></code>等），<strong>请注意不要将文件误命名为“messages.mo.mo”</strong>）</p>
-<p>控制设置和驾驶舱提示 <code class="xref download docutils literal notranslate"><span class="pre">F-14-cn.mo</span></code></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="26%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">请选择下列安装方式中的一种</th>
+<th class="head">安装说明</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>（<strong>推荐</strong>）<code class="xref download docutils literal notranslate"><span class="pre">F-14-cn.zip</span></code></td>
+<td><dl class="first last docutils">
+<dt>下载*.zip文件，然后将压缩包中的 <code class="code docutils literal notranslate"><span class="pre">CoreMods</span></code> 文件夹<strong>直接解压至DCS World安装路径的根目录</strong>。</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">什么是安装路径:</th><td class="field-body">常见安装路径<code class="code docutils literal notranslate"><span class="pre">D:\Eagle</span> <span class="pre">Dynamics\DCS</span> <span class="pre">World</span></code> 或 <code class="code docutils literal notranslate"><span class="pre">C:\Program</span> <span class="pre">Files\Eagle</span> <span class="pre">Dynamics\DCS</span> <span class="pre">World</span></code> 或 <code class="code docutils literal notranslate"><span class="pre">F:\游戏\DCS</span> <span class="pre">World</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Steam版怎么办:</th><td class="field-body">找到Steam库路径，如 <code class="code docutils literal notranslate"><span class="pre">C:\Program</span> <span class="pre">Files</span> <span class="pre">(x86)\Steam\steamapps\common\DCS</span> <span class="pre">World</span></code> 或 <code class="code docutils literal notranslate"><span class="pre">D:\SteamLibrary\steamapps\common\DCS</span> <span class="pre">World</span></code>，然后解压至该文件夹中。</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="row-odd"><td><code class="xref download docutils literal notranslate"><span class="pre">F-14-cn.po</span></code> <code class="xref download docutils literal notranslate"><span class="pre">F-14-cn.mo</span></code></td>
+<td><p class="first"><strong>除非需要自行编辑文字，否则不推荐这种方法</strong></p>
+<p>下载*.po文件，然后：</p>
+<ul class="simple">
+<li>下载并安装<a class="reference external" href="https://poedit.net/">Poedit</a>，通过Poedit打开*.po文件，选择左上角的File &gt; Compile to MO来生成*.mo文件，然后将其放入对应的路径中并重命名。</li>
+</ul>
+<p>或</p>
+<ul class="simple">
+<li>使用msgfmt（GnuWin32等），将*.po编译为*.mo文件</li>
+</ul>
+<p>或</p>
+<ul class="simple">
+<li>使用其他在线服务/网站编译*.mo</li>
+</ul>
+<p>或</p>
+<p>直接下载提供的*.mo文件，然后将其放入：</p>
+<p>&gt; <code class="code docutils literal notranslate"><span class="pre">Eagle</span> <span class="pre">Dynamics</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">DCS</span> <span class="pre">World</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">CoreMods</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">aircraft</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">F14</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">l10n</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">cn</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">LC_MESSAGES</span></code></p>
+<p><strong>然后将</strong><code class="code docutils literal notranslate"><span class="pre">F-14-cn.mo</span></code><strong>重命名为</strong><code class="code docutils literal notranslate"><span class="pre">messages.mo</span></code> 。</p>
+<blockquote class="last">
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">放入 <code class="code docutils literal notranslate"><span class="pre">CoreMods</span></code> 和 <code class="code docutils literal notranslate"><span class="pre">Mods</span></code> 文件夹均可；如放入 <code class="code docutils literal notranslate"><span class="pre">CoreMods</span></code> 文件夹，未购买F-14的用户也可看到编辑器中相关文字的翻译；如果放入 <code class="code docutils literal notranslate"><span class="pre">Mods</span></code> 文件夹，只有购买了F-14的用户可以看到相关翻译。</td>
+</tr>
+<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">如果<code class="code docutils literal notranslate"><span class="pre">F-14</span></code>目录中缺少<code class="code docutils literal notranslate"><span class="pre">l10n</span></code>、<code class="code docutils literal notranslate"><span class="pre">cn</span></code>或<code class="code docutils literal notranslate"><span class="pre">LC_MESSAGES</span></code>这三个文件夹中的任何一个或多个文件夹，那么请按照上述文件结构，自行新建文件夹并将它们重命名。</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">请注意文件扩展名。如果您的资源管理器中隐藏了文件扩展名（也就是所谓的“文件类型”——本文件的 <code class="code docutils literal notranslate"><span class="pre">*.mo</span></code> 是这个文件的扩展名，如同<code class="code docutils literal notranslate"><span class="pre">.exe</span></code>、<code class="code docutils literal notranslate"><span class="pre">.png</span></code>、<code class="code docutils literal notranslate"><span class="pre">.pdf</span></code>等），<strong>请注意不要将文件误命名为</strong><code class="code docutils literal notranslate"><span class="pre">messages.mo.mo</span></code> ）</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 <hr class="docutils" />
 <div class="section" id="id3">
 <h2>训练任务<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
-<p><strong>使用说明：</strong></p>
-<p>下载文件后，将其放入DCS World安装根目录中的对应文件夹，并覆盖原文件。详细路径如下：</p>
-<p>&gt; <code class="code docutils literal notranslate"><span class="pre">Eagle</span> <span class="pre">Dynamics</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">DCS</span> <span class="pre">World</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Mods</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">aircraft</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">F-14</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Missions</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Training</span></code></p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="24%" />
@@ -213,6 +267,26 @@
 </tr>
 <tr class="row-odd"><td>CASE I 航降</td>
 <td><code class="xref download docutils literal notranslate"><span class="pre">F-14B-Training-Case-1.miz</span></code></td>
+</tr>
+</tbody>
+</table>
+<p>下载文件后，将其放入DCS World安装根目录中的对应文件夹，并覆盖原文件。详细路径如下：</p>
+<p>&gt; <code class="code docutils literal notranslate"><span class="pre">Eagle</span> <span class="pre">Dynamics</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">DCS</span> <span class="pre">World</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Mods</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">aircraft</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">F14</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Missions</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Training</span></code></p>
+<p><strong>Steam版</strong>
+首先找到Steam库的路径，如 <code class="code docutils literal notranslate"><span class="pre">C:\Program</span> <span class="pre">Files</span> <span class="pre">(x86)\Steam\steamapps\common\DCS</span> <span class="pre">World</span></code>
+或 <code class="code docutils literal notranslate"><span class="pre">D:\SteamLibrary\steamapps\common\DCS</span> <span class="pre">World</span></code></p>
+<p>然后将任务文件放入 <code class="code docutils literal notranslate"><span class="pre">DCS</span> <span class="pre">World</span></code> 目录中的 <code class="code docutils literal notranslate"><span class="pre">Mods</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">aircraft</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">F14</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Missions</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Training</span></code></p>
+<br>
+<br>
+<br><p>另一种方式则是将*.miz文件作为单独的任务，从主菜单的 <strong>任务</strong> 或 <strong>任务编辑器</strong> 中打开运行。将下载好的文件放入：</p>
+<p><code class="code docutils literal notranslate"><span class="pre">C:</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Users</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">[UserName]</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Saved</span> <span class="pre">Games</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">DCS.openbeta</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Missions</span></code></p>
+<p>中文Windows操作系统中的路径如下：</p>
+<p><code class="code docutils literal notranslate"><span class="pre">C:</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">用户</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">[你的用户名]</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">保存的游戏</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">DCS.openbeta</span></code> &gt; <code class="code docutils literal notranslate"><span class="pre">Missions</span></code></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">根据版本的不同，<code class="code docutils literal notranslate"><span class="pre">保存的游戏</span></code> 中的DCS目录文件名可能是 <code class="code docutils literal notranslate"><span class="pre">DCS</span></code> 或 <code class="code docutils literal notranslate"><span class="pre">DCS.openbeta</span></code> 或其他分支，请确认选择了正确的版本对应的文件夹。</td>
 </tr>
 </tbody>
 </table>

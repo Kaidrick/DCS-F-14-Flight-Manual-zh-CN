@@ -1,6 +1,10 @@
-1. check for any update on HB website
+﻿1. check for any update on HB website
 2. replace youtube video links with bilibili links
 3. make available po/mo and miz download link
+
+---
+
+proof read at 机轮刹车
 
 ---
 vocabulary:
@@ -18,3 +22,5 @@ tape 条形指示器
 脚蹬？脚踏？踏板
 
 油门 油门握把？
+
+ elevation vernier 

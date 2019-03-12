@@ -8,10 +8,16 @@ msgid ""
 msgstr ""
 "#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
 "#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-10 11:01+0800\n"
-"PO-Revision-Date: 2019-03-11 23:10+0800\n"
+"PO-Revision-Date: 2019-03-12 13:32+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -327,6 +333,240 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.4\n"
+"#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_cg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_zero.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.4\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_emerg_fanedit_1479-1524.po (DCS: F-14 Tomcat Flight Manul "
+"zh-CN 0.0.1)  #-#-#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
+"PO-Revision-Date: 2019-03-11 22:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_cg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_zero.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.4\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_c_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  "
+"#-#-#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
+"PO-Revision-Date: 2019-03-11 19:17+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_cg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_zero.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.4\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
+"PO-Revision-Date: 2019-03-11 12:30+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
 "#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
 "#-#-#-#\n"
 "Generated-By: Babel 2.6.0\n"
@@ -2299,18 +2539,18 @@ msgid ""
 "emergency extension. With the emergency system triggered, the system needs "
 "to be reset by technicians on the ground to allow further normal retraction."
 msgstr ""
-"F-14“雄猫”使用可完全收回的前三点式起落架，并且足够结实以应对航降。起落架的收"
-"放由组合液压系统提供动力并拥有紧急释放系统。紧急释放系统由一个氮气瓶为紧急释"
-"放提供一次性动力。当紧急系统触发后，系统需要地面技术人员复位，以便之后能正常"
-"收回。"
+"F-14 “雄猫” 采用可完全收起的前三点式起落架，起落架设计得足够结实，以应对航降"
+"时对机身带来的巨大冲击。起落架的收放由联合液压系统提供动力，起落架也连接了一"
+"个起落架应急放下系统。应急系统使用一个氮气瓶来提供一次性动力。应急系统触发"
+"后，需要由地面技术人员复位之后才能正常收回。"
 
 #: ../../source/general.rst:672
 msgid ""
 "For additional information on controls and indicators see :ref:`gearcontrol` "
 "for controls and :ref:`wheelsflapsind` for the indicators."
 msgstr ""
-"有关控制和指示器的更多信息，请看 :ref:`gearcontrol` 和 :ref:"
-"`wheelsflapsind` 。"
+"相关的控制和指示器的信息，详见\\ :ref:`gearcontrol`\\ 和\\ :ref:"
+"`wheelsflapsind`\\ 。"
 
 #: ../../source/general.rst:676
 msgid "Nosewheel Steering"
@@ -2323,8 +2563,9 @@ msgid ""
 "The activation of this system is indicated via the **NWS ENGA** caution "
 "light on the left side of the HUD, see :ref:`wheelswarn`."
 msgstr ""
-"前轮转向系统可以在机轮受到压力时按下 :ref:`stick` 的前轮转向按钮激活。系统的"
-"激活会通过HUD左侧的 **NWS ENGA** 注意灯来指示，见 :ref:`wheelswarn` 。"
+"前轮转向系统可以在机轮承重，由飞行员按下\\ :ref:`stick`\\ 上的前轮转向按钮激"
+"活。HUD左侧的 **NWS ENGA** 注意灯亮起表示前轮转向系统激活，详见\\ :ref:"
+"`wheelswarn`\\ 。"
 
 #: ../../source/general.rst:681
 msgid ""
@@ -2333,8 +2574,8 @@ msgid ""
 "also possible to deactivate the system by depression of the nosewheel "
 "steering button."
 msgstr ""
-"该系统会随着机轮受到的压力消失（起飞），供电故障或放下弹射牵引杆而自动断开。"
-"也可以通过按下前轮转向按钮来禁用。"
+"机轮不承重（起飞）、供电故障或放下弹射牵引杆时，前轮转向会自动解除。前轮转向"
+"激活时，飞行员再次按下驾驶杆前轮转向按钮也可以将转向系统解除。"
 
 #: ../../source/general.rst:684
 msgid ""
@@ -2342,8 +2583,8 @@ msgid ""
 "It's capable of a deflection of up to 70° meaning that it will turn tightly "
 "enough that the inner wheel will in fact move backwards."
 msgstr ""
-"系统接通时前轮通过方向舵踏板控制。其偏转能达到70°，也就是说转向半径非常小，以"
-"至于内侧机轮实际上是向后动。"
+"系统接通时，前轮通过方向舵脚蹬控制。前轮最大偏转角度可达到70°，也就是说，采用"
+"最小转弯半径转向时，转弯内侧的机轮实际上会向后转动。"
 
 #: ../../source/general.rst:689
 msgid "Wheelbrakes"
@@ -2355,14 +2596,14 @@ msgid ""
 "the upper part of them, rotating them forwards. The other application is via "
 "the parking brake handle located on the :ref:`gearcontrol` panel."
 msgstr ""
-"踩压方向舵踏板的上部使它向前转可以激活机轮刹车。也可以由 :ref:`gearcontrol` "
-"面板的停放刹激活刹车。"
+"踩压方向舵脚蹬的上部，使它向偏转来激活机轮刹车。也可以通过\\ :ref:"
+"`gearcontrol`\\ 面板的停放刹激活刹车。"
 
 #: ../../source/general.rst:694
 msgid ""
 "The rudder pedals can be used to apply the brakes gradually while the "
 "parking brakes are either on or off."
-msgstr "无论停放刹车开还是关，都可以通过方向舵踏板逐渐增加刹车力度。"
+msgstr "无论停放刹车是否开启，都可以通过方向舵踏板逐渐增加刹车力度。"
 
 #: ../../source/general.rst:696
 msgid ""
@@ -2371,8 +2612,8 @@ msgid ""
 "the backup accumulators. The :ref:`brakepressind` shows current pressure in "
 "the emergency accumulators."
 msgstr ""
-"通常两个系统都是由组合液压系统提供的，但如果该系统减压，则制动系统会自动切换"
-"到备用聚能器。 :ref:`brakepressind` 显示紧急聚能器的当前压力。"
+"通常两个系统都是由联合液压系统提供的，但如果该系统减压，制动系统则会自动切换"
+"到备用聚能器。\\ :ref:`brakepressind`\\ 显示应急聚能器的当前压力。"
 
 #: ../../source/general.rst:699
 msgid ""
@@ -2555,7 +2796,7 @@ msgid ""
 "To system uses hydraulic power from both flight and combined hydraulic "
 "systems and is controlled electrically, thus requiring electrical power as "
 "well."
-msgstr "系统使用来自飞控和组合液压系统的液压动力，并且是电动的，因此需要电。"
+msgstr "系统使用来自飞控和联合液压系统的液压动力，并且是电动的，因此需要电。"
 
 #: ../../source/general.rst:766
 msgid ""
@@ -2726,17 +2967,16 @@ msgstr ""
 "坏。"
 
 #: ../../source/general.rst:819
-#, fuzzy
 msgid ""
 "The anti-g suit pressurisation can be tested via the :ref:`gvalve` for the "
 "pilot and :ref:`rgvalve` for the RIO. The airflow through the suit, or seats "
 "if no suits are worn, are controlled by the **VENT AIRFLOW** thumbwheel on "
 "the pilot :ref:`oxygen` and RIO :ref:`roxyvent` respectively."
 msgstr ""
-"抗荷服加压可以通过 :ref:`gvalve` 测试飞行员的抗荷服，通过 :ref:`rgvalve` 测试"
-"后座RIO的抗荷服。气流穿过抗荷服或在无抗荷服的情况下气流穿过座椅的选择由位于前"
-"舱飞行员处的 :ref:`oxygen` 和位于后座RIO的 :ref:`roxyvent` 的 **VENT "
-"AIRFLOW** 拨轮控制。"
+"抗荷服加压可以通过\\ :ref:`gvalve`\\ 测试飞行员的抗荷服，通过\\ :ref:"
+"`rgvalve`\\ 测试后座RIO的抗荷服。气流穿过抗荷服或在无抗荷服的情况下气流穿过座"
+"椅的选择由位于前舱飞行员处的\\ :ref:`oxygen`\\ 和位于后座RIO的\\ :ref:"
+"`roxyvent`\\ 的 **VENT AIRFLOW** 拨轮控制。"
 
 #: ../../source/general.rst:824
 msgid "Windshield Anti-Ice and Defogging"
@@ -2782,15 +3022,14 @@ msgstr ""
 # | "when the windshield is warmer than 300° F (149° C). This automatically "
 # | "closes the valve and stops warm air to the windshield until cooled down."
 #: ../../source/general.rst:834
-#, fuzzy
 msgid ""
 "The **WSHLD HOT** advisory light on the pilot :ref:`CAindicator` illuminates "
 "when the windshield is warmer than 300° F (149° C). This automatically "
 "closes the valve and stops warm air to the windshield until cooled down."
 msgstr ""
-"位于前座驾驶员处的 :ref:`CAindicator` **WSHLD HOT** 提示灯告知飞行员风挡的温"
-"度已达 300° F (149° C)。该提示灯亮起时，气阀自动关闭从而使热空气不再吹向风挡"
-"直到风挡冷却。"
+"位于前座驾驶员处的\\ :ref:`CAindicator`\\ **WSHLD HOT** 提示灯告知飞行员风挡"
+"的温度已达 300° F (149° C)。该提示灯亮起时，气阀自动关闭从而使热空气不再吹向"
+"风挡直到风挡冷却。"
 
 #: ../../source/general.rst:838
 msgid "AN/AWG-9 and AIM-54 Cooling"
@@ -2872,11 +3111,11 @@ msgid "Note2"
 msgstr "注意2"
 
 #: ../../source/general.rst:863
-#, fuzzy
 msgid ""
 "For the Heatblur F-14B in DCS the external ECS air supply is connected via "
 "the same command as the engine starter air."
-msgstr "由Heatblur为DCS开发的F-14B的外部ECS气源与发动机点火气源命令绑定。"
+msgstr ""
+"由 Heatblur 为 DCS 开发的 F-14B 的外部 ECS 气源与发动机点火气源命令绑定。"
 
 #: ../../source/general.rst:867
 msgid "Oxygen System"
@@ -2918,7 +3157,6 @@ msgstr ""
 "灯在氧气量低于2公升时亮起。"
 
 #: ../../source/general.rst:880
-#, fuzzy
 msgid ""
 "During the **INST** test on the ref:`MTPanel` the liquid oxygen meter shows "
 "2 liters and the **OXY LOW** caution light illuminates."
@@ -3055,7 +3293,6 @@ msgid ""
 msgstr "系统不允许只有飞行员1人弹射的情况，因为仅RIO一个人呆在飞机上并不合适。"
 
 #: ../../source/general.rst:930
-#, fuzzy
 msgid ""
 "The pilot has indication of what position the ejection command lever is at "
 "on the :ref:`gearcontrol`, the **EJECT CMD** flip-flop indicator showing "
@@ -3206,7 +3443,6 @@ msgstr ""
 # | "top edge of the vertical stabilizers. All duplicated on both sides of the "
 # | "aircraft."
 #: ../../source/general.rst:973
-#, fuzzy
 msgid ""
 "The formation lights are dim green lights used for formation flight which "
 "can be dimmed gradually. They are located on the aircraft nose (behind the "
@@ -3227,13 +3463,12 @@ msgstr ""
 "架收起，则滑行灯将会自动关闭。"
 
 #: ../../source/general.rst:978
-#, fuzzy
 msgid ""
 "The approach lights are also located on the nosewheel strut and replicate "
 "the AoA indexer for the LSOs during carrier traps."
 msgstr ""
-"进近灯同样位于前起落架支架上，进近灯不断重复AOA索引在航母降落时为LSO提供参考"
-"信息。"
+"进近灯同样位于前起落架支架上，进近灯不断重复AOA指示灯，在航母降落时为LSO提供"
+"参考信息。"
 
 #: ../../source/general.rst:980
 msgid ""
@@ -3247,7 +3482,7 @@ msgid ""
 "for the exterior lights switch on the left throttle (see :ref:`throttle`) "
 "which disables or enables all external lights apart from the approach lights."
 msgstr ""
-"除了左节流阀的外部灯光开关外（ :ref:`throttle`），其他所有外部灯光控制位于 :"
+"除了左节流阀的外部灯光开关外（ :ref:`throttle` ），其他所有外部灯光控制位于 :"
 "ref:`mlightctrlpanel` 。可以关闭或者启动除进近灯以外的外部灯光。"
 
 #: ../../source/general.rst:986
@@ -3286,11 +3521,11 @@ msgid "**ACM Jettison**"
 msgstr "**ACM 抛离**"
 
 #: ../../source/general.rst:1001
-#, fuzzy
 msgid ""
 "The ACM jettison is selected via the **ACM JETT** button under the ACM cover/"
 "switch on the :ref:`ACMpanel`."
-msgstr "ACM抛离在 :ref:`ACMpanel`上通过ACM 盖/开关的 **ACM JETT** 按钮选择。"
+msgstr ""
+"ACM抛离在\\ :ref:`ACMpanel`\\ 上通过ACM 保护盖开关的 **ACM JETT** 按钮选择。"
 
 #: ../../source/general.rst:1003
 msgid ""
@@ -3317,12 +3552,11 @@ msgstr ""
 "于收起位置且军械开关开启。"
 
 #: ../../source/general.rst:1012
-#, fuzzy
 msgid ""
 "The procedure for jettison in selective mode is to set the desired station "
 "switches to **SEL** and hold the **SEL JETT** switch to **JETT**."
 msgstr ""
-"可选择抛离模式下的抛离程序是将希望抛离的挂架选择到 **SEL**，然后按住 **SEL "
+"可选择抛离模式下的抛离程序是将需要抛离的挂架选择到 **SEL**，然后按住 **SEL "
 "JETT** 到 **JETT**。"
 
 #: ../../source/general.rst:1015
@@ -3401,7 +3635,7 @@ msgstr ""
 
 #: ../../source/general.rst:1046
 msgid "**TGTS, MLC, AGC and PARAMP Switches**"
-msgstr " **TGTS开关, MLC开关, AGC开关 和 PARAMP 开关** "
+msgstr "**TGTS开关, MLC开关, AGC开关 和 PARAMP 开关**"
 
 #: ../../source/general.rst:1048
 msgid ""
@@ -3420,7 +3654,7 @@ msgid ""
 "tracking in the radar. The selected position of this switch might negatively "
 "affect target tracking and engagement if set incorrectly."
 msgstr ""
-" **TGTS** （目标）开关可以选择预计目标的大小，WCS会根据设置的目标大小计算导弹"
+"**TGTS** （目标）开关可以选择预计目标的大小，WCS会根据设置的目标大小计算导弹"
 "发射距离，并在雷达上设置目标的跟踪参数。如果开关选择的预计目标大小错误，就有"
 "可能会影响到雷达对目标跟踪和导弹命中率。"
 
@@ -3431,7 +3665,7 @@ msgid ""
 "while the IN position enables it. The AUTO position automatically enables "
 "the MLC filter if the antenna look-up angle is greater than 3°."
 msgstr ""
-" **MLC** 开关可以控制主瓣杂波过滤器，该装置可以用于抑制雷达在脉冲多普勒模式工"
+"**MLC** 开关可以控制主瓣杂波过滤器，该装置可以用于抑制雷达在脉冲多普勒模式工"
 "作时产生的主瓣杂波。开关在OUT位置时这个装置将被关闭，IN位置则会开启这个系统。"
 "如果开关在AUTO位置，这个装置将会在雷达天线超过地平线3°时自动关闭。"
 
@@ -3445,7 +3679,7 @@ msgid ""
 "time constant to mitigate these factors but this setting can also make the "
 "radar less sensitive to real targets."
 msgstr ""
-" **AGC** 开关控制着雷达在脉冲多普勒模式下的自动增益系统，它可以调整用于自动增"
+"**AGC** 开关控制着雷达在脉冲多普勒模式下的自动增益系统，它可以调整用于自动增"
 "益控制的时间常数。一般情况下（开关在NORM位置）AGC（自动增益控制系统）用较长的"
 "时间常数来计算用于增益的平均值。如果雷达在有电子干扰或严重杂波的环境中工作，"
 "可以将自动增益控制设置为使用更快的时间常数来缓解这些不利因素，但是这样设置也"
@@ -3460,7 +3694,7 @@ msgid ""
 "to lessen the effect from background noise. If set to off manually it "
 "lessens the detection range by approximately 35%."
 msgstr ""
-" **PARAMP** ,参数放大器开关可以控制参数放大器，可以在所有雷达模式下放大雷达回"
+"**PARAMP** ,参数放大器开关可以控制参数放大器，可以在所有雷达模式下放大雷达回"
 "波较弱的目标参数。通常情况下，WCS会根据目标距离自主决定在什么时候使用参数放大"
 "器，但如果跟踪回波异常强大的目标，则可以通过这个开关禁用参数放大器以减少背景"
 "噪声的影响。如果将这个开关手动设置为关闭（OFF），雷达探测范围会缩小35％。"
@@ -3471,7 +3705,7 @@ msgstr "目前AGC和PARAMP开关在DCS中无功能。"
 
 #: ../../source/general.rst:1061
 msgid "**AWG-9 Range Selection and Tracking Indication**"
-msgstr " **AWG - 9雷达扫描距离和跟踪指示** "
+msgstr "**AWG - 9雷达扫描距离和跟踪指示** "
 
 #: ../../source/general.rst:1063
 msgid ""
@@ -3502,7 +3736,7 @@ msgid ""
 "the DDD for the pulse modes and is blank when using pulse-doppler. It can "
 "also show ±10 for when using the IFF interrogator in the STT modes."
 msgstr ""
-" **距离指示器** （ **7** ）上显示了雷达在脉冲模式下当前选定的雷达扫描距离，雷"
+"**距离指示器** （ **7** ）上显示了雷达在脉冲模式下当前选定的雷达扫描距离，雷"
 "达处于脉冲多普勒模式下时这个指示器可以显示为空白 。如果在STT模式下使用敌我识"
 "别器时，这个指示器会显示±10的数字。"
 
@@ -3518,7 +3752,7 @@ msgid ""
 "The **ANT TRK**, antenna track, light indicates that the radar is tracking "
 "the target angle (direction) in azimuth and elevation."
 msgstr ""
-" **ANT TRK** ,天线跟踪，这个指示灯亮起表示雷达天线正在跟踪目标的方位角和俯仰"
+"**ANT TRK** ,天线跟踪，这个指示灯亮起表示雷达天线正在跟踪目标的方位角和俯仰"
 "角。"
 
 #: ../../source/general.rst:1076
@@ -3526,7 +3760,7 @@ msgid ""
 "The **RDROT**, radar on target, light indicates that the target is in the "
 "range or rate gate and is being tracked in range or rate."
 msgstr ""
-" **RDROT** ，雷达发现目标，这个指示灯亮起表示目标在雷达的扫描刷新范围内并且被"
+"**RDROT** ，雷达发现目标，这个指示灯亮起表示目标在雷达的扫描刷新范围内并且被"
 "持续跟踪。"
 
 #: ../../source/general.rst:1077
@@ -3534,7 +3768,7 @@ msgid ""
 "The **JAT**, jam angle track, indicates that the antenna is tracking a "
 "jamming source's angle in azimuth and elevation."
 msgstr ""
-" **JAT** 干扰源角度，这个指示灯亮起表示表示雷达天线正在跟踪干扰源的方位角和俯"
+"**JAT** 干扰源角度，这个指示灯亮起表示表示雷达天线正在跟踪干扰源的方位角和俯"
 "仰角。"
 
 #: ../../source/general.rst:1078
@@ -3543,12 +3777,12 @@ msgid ""
 "elevation is being tracked via the TCS, the name is inherited from the "
 "earlier IRST system of early -A F-14s."
 msgstr ""
-" **IROT** 光电发现目标，这个指示灯亮起表示TCS正在跟踪目标的方位角和俯仰角，这"
+"**IROT** 光电发现目标，这个指示灯亮起表示TCS正在跟踪目标的方位角和俯仰角，这"
 "个开关的名字来自早期装备了IRST系统的F-14A。"
 
 #: ../../source/general.rst:1081
 msgid "**IR AUDIO Controls**"
-msgstr " **IR AUDIO控制** "
+msgstr "**IR AUDIO控制** "
 
 #: ../../source/general.rst:1084
 msgid ""
@@ -3556,13 +3790,12 @@ msgid ""
 "panel were used with the IR sensor but as this is replaced by the TCS in the "
 "F-14B these are non-functional."
 msgstr ""
-" **IR AUDIO** 控制旋钮（ **10 - 12** ）位于DDD面板的右上部，用来参与红外传感"
-"器的的控制，由于在F-14B上红外传感器已经被TCS取代，所以这几个旋钮是没有功能"
-"的。"
+"**IR AUDIO** 控制旋钮（ **10 - 12** ）位于DDD面板的右上部，用来参与红外传感器"
+"的的控制，由于在F-14B上红外传感器已经被TCS取代，所以这几个旋钮是没有功能的。"
 
 #: ../../source/general.rst:1087
 msgid "**Radar and Missile Frequency Selectors**"
-msgstr " **雷达、导弹频率选择器** "
+msgstr "**雷达、导弹频率选择器** "
 
 #: ../../source/general.rst:1089
 msgid ""
@@ -3634,7 +3867,7 @@ msgid ""
 "search and pulse STT), PD (for both pulse dopple search and PD STT) and PAL "
 "(pilot automatic lockon mode)."
 msgstr ""
-" **模式指示器** （ **17** ）显示了当前选定的雷达模式。除了TWS MAN, TWS AUTO, "
+"**模式指示器** （ **17** ）显示了当前选定的雷达模式。除了TWS MAN, TWS AUTO, "
 "RWS这些模式外，它还可以显示MRL（手动快速锁定）、A-G （空对地）、VSL（垂直扫描"
 "锁定）、OPTTRK（TCS跟踪）、PLM（飞行员锁定模式）、PULSE（脉冲搜索模式和脉冲"
 "STT模式）、PD（指脉冲多普勒搜索模式和脉冲多普勒STT模式）和PAL（飞行员自动锁定"
@@ -3642,7 +3875,7 @@ msgstr ""
 
 #: ../../source/general.rst:1116
 msgid "**Aspect and Vc Switches**"
-msgstr " **Aspect和Vc开关** "
+msgstr "**Aspect和Vc开关**"
 
 #: ../../source/general.rst:1118
 msgid ""
@@ -3667,16 +3900,16 @@ msgid ""
 "switch sets the system tracking mode to the corresponding echo edge or "
 "centroid to counteract countermeasures like chaff and specific jammer modes."
 msgstr ""
-" **ASPECT** 开关（ **21** ）根据雷达模式的不同控制着两种不同的功能。在脉冲多"
-"普勒模式中它控制着该模式下雷达在不同情况下对目标的处理速率范围，开关在NOSE位"
-"置时会对迎头600节工作到1800节接近率的目标进行处理，BEAM位置时会对侧视1200节以"
-"内接近率的目标进行处理，TAIL位置是会对尾追1800节到600节的接近率目标进行处理。"
-"在短脉冲STT模式中，这个开关可以用来选择跟踪目标边缘回波或者中心回波，以减轻干"
-"扰等对抗措施带来的影响。"
+"**ASPECT** 开关（ **21** ）根据雷达模式的不同控制着两种不同的功能。在脉冲多普"
+"勒模式中它控制着该模式下雷达在不同情况下对目标的处理速率范围，开关在NOSE位置"
+"时会对迎头600节工作到1800节接近率的目标进行处理，BEAM位置时会对侧视1200节以内"
+"接近率的目标进行处理，TAIL位置是会对尾追1800节到600节的接近率目标进行处理。在"
+"短脉冲STT模式中，这个开关可以用来选择跟踪目标边缘回波或者中心回波，以减轻干扰"
+"等对抗措施带来的影响。"
 
 #: ../../source/general.rst:1128
 msgid "**Elevation Indicator**"
-msgstr " **角度指示器** "
+msgstr "**角度指示器** "
 
 #: ../../source/general.rst:1130
 msgid ""
@@ -3708,7 +3941,7 @@ msgstr ""
 
 #: ../../source/general.rst:1139
 msgid "**Counter-Countermeasure Mode Controls**"
-msgstr " **反对抗模式控制** "
+msgstr "**反对抗模式控制** "
 
 #: ../../source/general.rst:1141
 msgid ""
@@ -3721,7 +3954,7 @@ msgstr ""
 
 #: ../../source/general.rst:1144
 msgid "**Radar and DDD Control Knobs**"
-msgstr " **雷达和DDD控制旋钮** "
+msgstr "**雷达和DDD控制旋钮** "
 
 #: ../../source/general.rst:1146
 msgid ""
@@ -3762,9 +3995,9 @@ msgid ""
 "beam is what erases the indications continually on the DDD and thus affects "
 "how long the after-image of the detected targets will remain."
 msgstr ""
-" **ERASE** 控制旋钮（ **9** ）位于DDD的右下侧，它用于控制DDD上擦除光束的强"
-"度。因为擦除光束会连续清除DDD上的目标指示，所以这个设置会影响到目标余像在DDD"
-"上的残留时间。"
+"**ERASE** 控制旋钮（ **9** ）位于DDD的右下侧，它用于控制DDD上擦除光束的强度。"
+"因为擦除光束会连续清除DDD上的目标指示，所以这个设置会影响到目标余像在DDD上的"
+"残留时间。"
 
 #: ../../source/general.rst:1158
 msgid ""
@@ -3777,7 +4010,7 @@ msgid ""
 "DDD). Normally left in the counter-clockwise detents, letting the WCS "
 "automatically control them."
 msgstr ""
-" PD THRLD ( **26** ), JAM/JET ( **24** ) and ACM THRLD ( **25** )控制旋钮位于"
+"PD THRLD ( **26** ), JAM/JET ( **24** ) 和 ACM THRLD ( **25** )控制旋钮位于"
 "DDD面板的左侧。脉冲多普勒阈值旋钮（PD THRLD）控制着接受目标回波的阈值，阈值内"
 "的目标会显示在DDD上，RWS和TWS模式下还会在TID上被跟踪。CLEAR旋钮控制着CLEAR区"
 "域阈值（DDD的上半部分），CLUTTER旋钮控制着CLUTTER区域的阈值。一般情况下这两个"
@@ -3791,7 +4024,7 @@ msgid ""
 "for what to regard as a target at ACM ranges. Normally left in the counter-"
 "clockwise detent, letting the WCS automatically control it."
 msgstr ""
-" **JAM/JET** 旋钮可以用来设置显示在TID上的带干扰目标的干扰强度阈值。 **ACM "
+"**JAM/JET** 旋钮可以用来设置显示在TID上的带干扰目标的干扰强度阈值。 **ACM "
 "THRLD** 旋钮可以用来设置ACM模式下雷达的探测距离，通常保持在逆时针初始位置，由"
 "WCS自动控制。"
 
@@ -3815,7 +4048,7 @@ msgstr "脉冲多普勒"
 msgid ""
 "The **DDD** screen itself shows either only radar return data or radar "
 "returns combined with symbology depending on radar mode."
-msgstr " **DDD** 屏幕会根据雷达模式显示不同的数据和符号组合。"
+msgstr "**DDD** 屏幕会根据雷达模式显示不同的数据和符号组合。"
 
 #: ../../source/general.rst:1187
 msgid ""
@@ -3892,7 +4125,7 @@ msgstr ""
 
 #: ../../source/general.rst:1215
 msgid "**TID Display Control Knobs**"
-msgstr " **TID显示控制旋钮** "
+msgstr "**TID显示控制旋钮** "
 
 #: ../../source/general.rst:1217
 msgid ""
@@ -3906,7 +4139,7 @@ msgstr ""
 
 #: ../../source/general.rst:1221
 msgid "**INS and Navigational Controls**"
-msgstr " **INS和导航控制** "
+msgstr "**INS和导航控制** "
 
 #: ../../source/general.rst:1223
 msgid ""
@@ -3956,7 +4189,7 @@ msgstr ""
 
 #: ../../source/general.rst:1238
 msgid "**TID Data Readout Drum**"
-msgstr " **TID数据读取指示器** "
+msgstr "**TID数据读取指示器** "
 
 #: ../../source/general.rst:1240
 msgid ""
@@ -3982,7 +4215,7 @@ msgstr ""
 
 #: ../../source/general.rst:1247
 msgid "**TRACK HOLD and CLSN buttons**"
-msgstr " **TRACK HOLD按钮与CLSN按钮** "
+msgstr "**TRACK HOLD按钮与CLSN按钮** "
 
 #: ../../source/general.rst:1249
 msgid ""
@@ -4016,7 +4249,7 @@ msgstr ""
 
 #: ../../source/general.rst:1258
 msgid "**TID Control Panel**"
-msgstr " **TID控制面板** "
+msgstr "**TID控制面板** "
 
 #: ../../source/general.rst:1260
 msgid ""
@@ -4160,8 +4393,8 @@ msgid ""
 "link information outside of own radar range."
 msgstr ""
 "右侧的旋钮（ **9** ）可以用来设置TID的显示范围，选择不同的数字可以将TID的显示"
-"直径分别设置为25,50,100,200和400海里。较大的显示范围可以用来显示雷达探测距离"
-"之外的数据链信息。"
+"直径分别设置为25、50、100、200和400海里。较大的显示范围可以用来显示雷达探测距"
+"离之外的数据链信息。"
 
 #: ../../source/general.rst:1294
 msgid "TID Data Readouts"
@@ -4365,7 +4598,7 @@ msgstr "TWS模式计算机计算的目标拦截点。"
 
 #: ../../source/general.rst:1345
 msgid "**Onboard Sensor Targets**"
-msgstr " **机载传感器目标** "
+msgstr "**机载传感器目标**"
 
 #: ../../source/general.rst:1347 ../../source/general.rst:1363
 msgid "Unknown"
@@ -4429,7 +4662,7 @@ msgstr "TCS跟踪目标角度，距离通过高度差测距计算。"
 
 #: ../../source/general.rst:1361
 msgid "**Data Link Targets**"
-msgstr " **数据链目标** "
+msgstr "**数据链目标**"
 
 #: ../../source/general.rst:1363
 msgid "Data link track identified as unknown by source."
@@ -4445,7 +4678,7 @@ msgstr "来自数据链且被识别为友军的目标。"
 
 #: ../../source/general.rst:1369
 msgid "**Manually Entered Reference Points**"
-msgstr " **手动输入的航路点** "
+msgstr "**手动输入的航路点**"
 
 #: ../../source/general.rst:1371
 msgid "Home base"
@@ -4491,11 +4724,11 @@ msgstr "表示位于敌对区域的航路点。"
 
 #: ../../source/general.rst:1381 ../../source/general.rst:1393
 msgid "Surface Target"
-msgstr ""
+msgstr "地面/水面目标"
 
 #: ../../source/general.rst:1381
 msgid "Waypoint indicating a surface target."
-msgstr "指示地面目标的航路点。"
+msgstr "用于代表地面/水面目标的航路点。"
 
 #: ../../source/general.rst:1383 ../../source/general.rst:3300
 msgid "IP"
@@ -4503,11 +4736,11 @@ msgstr ""
 
 #: ../../source/general.rst:1383
 msgid "Waypoint used for air-to-ground engagement, see :ref:`CIP`."
-msgstr "用于空对地攻击的航路点，详情参考 :ref:`CIP`。"
+msgstr "用于空对地攻击的航路点，详情参考\\ :ref:`CIP`\\ 。"
 
 #: ../../source/general.rst:1385
 msgid "**Data Link Reference Points**"
-msgstr " **数据链航路点** "
+msgstr "**数据链航路点**"
 
 #: ../../source/general.rst:1387
 msgid "Home Base"
@@ -4535,7 +4768,7 @@ msgstr "指示地面目标的数据链航路点。"
 
 #: ../../source/general.rst:1395
 msgid "**Position Symbol Modifiers**"
-msgstr " **附加符号信息** "
+msgstr "**附加符号信息**"
 
 #: ../../source/general.rst:1397
 msgid "Mandatory Attack"
@@ -4876,7 +5109,7 @@ msgstr ""
 
 #: ../../source/general.rst:1462
 msgid "**Attack Display Symbols**"
-msgstr " **攻击符号信息** "
+msgstr "**攻击符号信息**"
 
 #: ../../source/general.rst:1464
 msgid "Artificial Horizon"
@@ -4943,7 +5176,7 @@ msgstr ""
 
 #: ../../source/general.rst:1483
 msgid "**HCU Power Controls and Indicators**"
-msgstr " **HCU电源控制和指示器** "
+msgstr "**HCU电源控制和指示器**"
 
 #: ../../source/general.rst:1485
 msgid ""
@@ -5004,7 +5237,7 @@ msgstr ""
 
 #: ../../source/general.rst:1501
 msgid "**HCU Mode buttons**"
-msgstr " **HCU模式按钮** "
+msgstr "**HCU模式按钮** "
 
 #: ../../source/general.rst:1503
 msgid ""
@@ -5034,7 +5267,7 @@ msgstr ""
 
 #: ../../source/general.rst:1510
 msgid "**HCU Control Stick**"
-msgstr " **HCU控制杆** "
+msgstr "**HCU控制杆** "
 
 #: ../../source/general.rst:1512
 msgid ""
@@ -5078,12 +5311,12 @@ msgid ""
 "enable the manual rapid lockon mode (MRL) for target acquisition. See :ref:"
 "`MRL` for more information."
 msgstr ""
-" **扫描角度控制** 是一个位于HCU控制杆左上部的滚轮，它可以在TCS或者雷达模式下"
-"在已经设定的传感器扫描角度的基础上进行±4°的角度微调。控制杆顶部的 **OFFSET** "
-"按钮可以用来控制TID显示器图像的整体位移，比如说可以将本机符号或者其他目标符号"
-"移动到当前TID光标的位置并选择，退出这个功能后TID会切换回原本的显示模式并且所"
-"有符号将会回到原来的位置。位于HUC控制杆右侧的 **MRL** 按钮可以用来开启手动快"
-"速锁定模式（MRL）关于此模式的详细信息请参阅 :ref:`MRL` for more information。"
+"**扫描角度控制** 是一个位于HCU控制杆左上部的滚轮，它可以在TCS或者雷达模式下在"
+"已经设定的传感器扫描角度的基础上进行±4°的角度微调。控制杆顶部的 **OFFSET** 按"
+"钮可以用来控制TID显示器图像的整体位移，比如说可以将本机符号或者其他目标符号移"
+"动到当前TID光标的位置并选择，退出这个功能后TID会切换回原本的显示模式并且所有"
+"符号将会回到原来的位置。位于HUC控制杆右侧的 **MRL** 按钮可以用来开启手动快速"
+"锁定模式（MRL）关于此模式的详细信息请参阅 :ref:`MRL` for more information。"
 
 #: ../../source/general.rst:1521
 msgid ""
@@ -5097,7 +5330,7 @@ msgid ""
 "in a similar fashion. In the two cursor modes X controls up/down of the "
 "cursor on the respective screen and Y controls left/right of the same."
 msgstr ""
-" **控制杆** 的功能在HCU选择不同的模式下是不同的，不过在所有模式下，只有在按下"
+"**控制杆** 的功能在HCU选择不同的模式下是不同的，不过在所有模式下，只有在按下"
 "第一段扳机的时候才会接通控制杆的控制，并且控制杆的固定杆量对应的传感器以及光"
 "标位置是始终固定且绝对不会改变的。在TCS模式下，控制杆的X轴（上/下）控制着TCS"
 "传感器的俯仰角，Y轴（左/右）控制着TCS传感器的方位角。在雷达模式下，控制杆X轴"
@@ -5118,7 +5351,7 @@ msgstr ""
 
 #: ../../source/general.rst:1537
 msgid "**Numeric Keypad** (**3**)"
-msgstr " **前缀和数字按钮** （ **3** ）"
+msgstr "**前缀和数字按钮** （ **3** ）"
 
 #: ../../source/general.rst:1539
 msgid ""
@@ -5220,7 +5453,7 @@ msgstr ""
 
 #: ../../source/general.rst:1566
 msgid "**CAP Message Matrix Indicator Drum and buttons**"
-msgstr " **MESSAGE 滚筒指示器和按钮** "
+msgstr "**MESSAGE 滚筒指示器和按钮**"
 
 #: ../../source/general.rst:1568
 msgid ""
@@ -5254,7 +5487,7 @@ msgstr "CATEGORY选择不同模式的功能如下："
 
 #: ../../source/general.rst:1575
 msgid "**BIT** (Built in Test)"
-msgstr " **BIT** (自检)"
+msgstr "**BIT**\\ （自检）"
 
 #: ../../source/general.rst:1577
 msgid ""
@@ -5270,7 +5503,7 @@ msgstr ""
 
 #: ../../source/general.rst:1580
 msgid "**SPL** (Special)"
-msgstr " **SPL** （特殊）"
+msgstr "**SPL**\\ （特殊）"
 
 #: ../../source/general.rst:1582
 msgid ""
@@ -5295,7 +5528,7 @@ msgstr ""
 
 #: ../../source/general.rst:1586
 msgid "**NAV** (Navigation)"
-msgstr " **NAV** （导航）"
+msgstr "**NAV**\\ （导航）"
 
 #: ../../source/general.rst:1588
 msgid ""
@@ -5338,13 +5571,13 @@ msgid ""
 "system. Full procedures for these fixes can be found in the navigational "
 "section in this chapter."
 msgstr ""
-"TACAN，RDR（雷达），VIS（目视）和FIX ENABLE这四个FIX按钮用于更新飞机当前位置"
-"以校准INS偏移。基本操作是通过前几个按钮选择想要通过什么方法校准INS，然后按下"
-"FIX ENABLE确认将其输入系统，完整操作可以在本章导航部分找到。"
+"TACAN、RDR（雷达）、VIS（目视）和 FIX ENABLE 这四个FIX按钮用于更新飞机当前位"
+"置以校准INS偏移。基本操作是通过前几个按钮选择想要通过什么方法校准INS，然后按"
+"下FIX ENABLE确认将其输入系统，完整操作可以在本章导航部分找到。"
 
 #: ../../source/general.rst:1598
 msgid "**TAC DATA** (Tactical Data)"
-msgstr " **TAC DATA** (战术数据)"
+msgstr "**TAC DATA**\\ （战术数据）"
 
 #: ../../source/general.rst:1600
 msgid ""
@@ -5370,7 +5603,7 @@ msgstr ""
 
 #: ../../source/general.rst:1604
 msgid "**DATA LINK**"
-msgstr " **DATA LINK** "
+msgstr "**DATA LINK**\\ （数据链）"
 
 #: ../../source/general.rst:1606
 msgid ""
@@ -5388,7 +5621,7 @@ msgstr ""
 
 #: ../../source/general.rst:1609
 msgid "**TARGET DATA**"
-msgstr " **目标数据** "
+msgstr "**目标数据** "
 
 #: ../../source/general.rst:1611
 msgid ""
@@ -5441,7 +5674,7 @@ msgstr ""
 
 #: ../../source/general.rst:1622
 msgid "**Program Restart Button**"
-msgstr " **程序重启按钮** "
+msgstr "**程序重启按钮**"
 
 #: ../../source/general.rst:1624
 msgid ""
@@ -5506,7 +5739,7 @@ msgstr ""
 
 #: ../../source/general.rst:1647
 msgid "**Antenna Search Pattern Selection**"
-msgstr " **天线搜索模式选择** "
+msgstr "**天线搜索模式选择**"
 
 #: ../../source/general.rst:1649
 msgid ""
@@ -5527,17 +5760,17 @@ msgid ""
 "elevation. It can move from -76° to +54°. Both control knobs have marked "
 "centerpoints, being aircraft centerline and zero elevation respectively."
 msgstr ""
-"面板的上半部分是对于雷达扫描模式的控制。 **STAB**（增稳）开关用来控制雷达天线"
-"扫描模式的基准线时候是否相对于地平线（IN）稳定。如果开关在OUT位置表示雷达扫描"
-"模式的基准线随动于F-14的武器基准线(ADL)。在必要的时候，WCS会覆盖此设置。 "
-"**AZ  CTR** （方位角控制）和 **EL CTR** （俯仰角控制）旋钮用来设置天线扫描模"
-"式的方位角与俯仰角中心点。 **方位角控制** 可以在以飞机中心线的65°范围内设置雷"
-"达天线的方位扫描角中心，如果将雷达扫描宽度设置为±65°，那么该设置将会被禁用，"
-"因为当前扫描范围已经包括所有可用方位角。不要将天线的扫描方位角设置到以机身为"
-"中心线的65°以外，因为这会引起天线机械结构碰撞从而损坏天线。 **俯仰角控制** 旋"
-"钮控制着雷达天线相对于飞机机身水平线的俯仰角，可以从-76°到+54°设置天线在俯仰"
-"角上的扫描中心角度。刚刚所讲的两个旋钮都有一个中心点标记，用来表示飞机中心线"
-"和机身水平线。"
+"面板的上半部分是对于雷达扫描模式的控制。 **STAB**\\ （增稳）开关用来控制雷达"
+"天线扫描模式的基准线时候是否相对于地平线（IN）稳定。如果开关在OUT位置表示雷达"
+"扫描模式的基准线随动于F-14的武器基准线(ADL)。在必要的时候，WCS会覆盖此设置。 "
+"**AZ CTR**\\ （方位角控制）和 **EL CTR**\\ （俯仰角控制）旋钮用来设置天线扫描"
+"模式的方位角与俯仰角中心点。 **方位角控制** 可以在以飞机中心线的65°范围内设置"
+"雷达天线的方位扫描角中心，如果将雷达扫描宽度设置为±65°，那么该设置将会被禁"
+"用，因为当前扫描范围已经包括所有可用方位角。不要将天线的扫描方位角设置到以机"
+"身为中心线的65°以外，因为这会引起天线机械结构碰撞从而损坏天线。 **俯仰角控制"
+"** 旋钮控制着雷达天线相对于飞机机身水平线的俯仰角，可以从-76°到+54°设置天线在"
+"俯仰角上的扫描中心角度。刚刚所讲的两个旋钮都有一个中心点标记，用来表示飞机中"
+"心线和机身水平线。"
 
 #: ../../source/general.rst:1658
 msgid ""
@@ -5549,11 +5782,11 @@ msgid ""
 "equalling one bar times the number of bars being that the bars overlap "
 "slightly."
 msgstr ""
-" **AZ SCAN** （方位扫描）和 **EL BARS** （水平扫描行线）选择旋钮用来控制天线"
-"扫描范围的大小。AZ SCAN旋钮有4个位置，±10°，±20°，±40°和±65°。ELBARS旋钮也有4"
-"个位置，1线扫描,2线扫描,4线扫描和8线扫描。1线的扫描俯仰范围为2.3°，2线为"
-"3.6°，4线为6.3°，8线为11.5°。俯仰扫描范围之所以不是扫描线角度单纯相加是因为每"
-"条扫描线所覆盖的范围会有一些重叠。"
+"**AZ SCAN** （方位扫描）和 **EL BARS** （水平扫描行线）选择旋钮用来控制天线扫"
+"描范围的大小。AZ SCAN旋钮有4个位置，±10°，±20°，±40°和±65°。ELBARS旋钮也有4个"
+"位置，1线扫描,2线扫描,4线扫描和8线扫描。1线的扫描俯仰范围为2.3°，2线为3.6°，4"
+"线为6.3°，8线为11.5°。俯仰扫描范围之所以不是扫描线角度单纯相加是因为每条扫描"
+"线所覆盖的范围会有一些重叠。"
 
 #: ../../source/general.rst:1662
 msgid ""
@@ -5562,11 +5795,11 @@ msgid ""
 "mode (VSL). (See :ref:`VSL`)"
 msgstr ""
 "最后一个雷达控制是面板上的VSL开关。可以把这个开关拨到HIGH或者LOW位置直接开启"
-"垂直扫描锁定模式（VSL）。(详情参阅 :ref:`VSL`)"
+"垂直扫描锁定模式（VSL）。详情参阅 :ref:`VSL` 。"
 
 #: ../../source/general.rst:1665
 msgid "**TCS Controls**"
-msgstr " **TCS控制** "
+msgstr "**TCS 控制**"
 
 #: ../../source/general.rst:1667
 msgid ""
@@ -5591,9 +5824,9 @@ msgid ""
 "STT, setting slave to TCS and then fine-tuning the calibration knobs until "
 "the TCS looks directly at the locked target."
 msgstr ""
-" **TCS TRIM** 旋钮可以调整TCS的方位角（AZ）和俯仰角（EL）可以用来校准TCS。一"
-"般的校准方法是先通过雷达STT锁定目标后将TCS隶属于雷达，然后微调旋钮直到目标位"
-"于TCS锁定正中心。"
+"**TCS TRIM** 旋钮可以调整TCS的方位角（AZ）和俯仰角（EL）可以用来校准TCS。一般"
+"的校准方法是先通过雷达STT锁定目标后将TCS隶属于雷达，然后微调旋钮直到目标位于"
+"TCS锁定正中心。"
 
 #: ../../source/general.rst:1673
 msgid ""
@@ -6202,11 +6435,11 @@ msgid ""
 "maximised. If not selected before launch the WCS overrides as soon as the "
 "first AIM-54 is launched and selects TWS Auto."
 msgstr ""
-"在TWS下有两个子模式，分别是TWS AUTO和TWS Manual，RIO可以通过DDD面板上的相应按"
-"钮选择其中一个子模式。两个子模式的区别在于，在TWS AUTO模式中，一旦目标被雷达"
-"跟踪，计算机就会接手控制雷达的扫描范围以及扫描方位角和俯仰角，并自动优化以便"
-"最大限度的跟踪优先目标。如果在启动TWS模式的时候未选择子模式，那么在选择AIM-54"
-"的时候，WCS就会自动选择TWS AUTO模式。"
+"在TWS下有两个子模式，分别是TWS AUTO（自动）和TWS MANUAL（手动）。RIO可以通过"
+"DDD面板上的相应按钮选择其中一个子模式。两个子模式的区别在于，在TWS AUTO模式"
+"中，一旦目标被雷达跟踪，计算机就会接手控制雷达的扫描范围以及扫描方位角和俯仰"
+"角，并自动优化以便最大限度的跟踪优先目标。如果在启动TWS模式的时候未选择子模"
+"式，那么在选择AIM-54的时候，WCS就会自动选择TWS AUTO模式。"
 
 #: ../../source/general.rst:1844
 msgid ""
@@ -6222,7 +6455,8 @@ msgid ""
 "For additional information about TWS symbology and missile guidance see :ref:"
 "`TWSATTK` and :ref:`TIDSYMB`."
 msgstr ""
-"有关TWS符号和导弹制导的更多信息，请参阅 :ref:`TWSATTK` and :ref:`TIDSYMB`。"
+"有关TWS符号和导弹制导的更多信息，请参阅\\ :ref:`TWSATTK`\\ 和\\ :ref:"
+"`TIDSYMB`\\ 。"
 
 #: ../../source/general.rst:1850
 msgid "Pulse Doppler Single Target Track (PD STT)"
@@ -6236,7 +6470,7 @@ msgid ""
 "while much better at tracking a target close to the ground it is however "
 "vulnerable to notching."
 msgstr ""
-"脉冲多普勒STT模式与脉冲STT模式很像。不过与脉冲STT模式相比，它既有优点，也有缺"
+"脉冲多普勒STT模式与脉冲STT模式相似。不过与脉冲STT模式相比，它既有优点，也有缺"
 "点。虽然该模式更适合跟踪接近地面的目标，但是他很容易受到盲区的影响。"
 
 #: ../../source/general.rst:1856
@@ -6642,14 +6876,13 @@ msgstr ""
 # | "`dddp` which then activates the interrogator while the button is held or "
 # | "for 10 seconds if held shorter than that."
 #: ../../source/general.rst:2001
-#, fuzzy
 msgid ""
 "The AN/APX-72 can be used both in search radar modes and in STT radar modes. "
 "To enable interrogation the IFF switch is depressed on the :ref:`dddp` which "
 "then activates the interrogator while the button is held or for 10 seconds "
 "if shorter than that."
 msgstr ""
-"AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，请"
+"AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，需"
 "按下 :ref:`dddp` 上的IFF开关，当按住开关时询问器将会被激活，如果短暂按下开关"
 "询问器会工作十秒后停止。"
 
@@ -6681,7 +6914,7 @@ msgstr "电视摄像套件（TCS）"
 msgid ""
 "U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030418-"
 "N-0382O-591)"
-msgstr ""
+msgstr "照片由美国海军摄影师 Justin S. Osborne 拍摄（030418-N-0382O-591）"
 
 #: ../../source/general.rst:2018
 msgid ""
@@ -6765,10 +6998,10 @@ msgid ""
 "And if set to **TCS** the TCS is slaved to radar LOS as long as an STT track "
 "exists."
 msgstr ""
-" **SLAVE** 开关主要用来控制某些传感器的从属控制关系。如果设置到 **RDR** ，那"
-"么TCS系统就会在执行光学追踪作业时从属于雷达系统的控制。如果设置为 "
-"**INDEP** ，则各传感器会独立工作。如果将TCS设置为 **TCS** ，那么只要是单目标"
-"追踪模式，TCS就会从属于雷达LOS（瞄准基线）控制。"
+"**SLAVE** 开关主要用来控制某些传感器的从属控制关系。如果设置到 **RDR** ，那么"
+"TCS系统就会在执行光学追踪作业时从属于雷达系统的控制。如果设置为 **INDEP** ，"
+"则各传感器会独立工作。如果将TCS设置为 **TCS** ，那么只要是单目标追踪模式，TCS"
+"就会从属于雷达LOS（瞄准基线）控制。"
 
 #: ../../source/general.rst:2051
 msgid ""
@@ -6776,8 +7009,8 @@ msgid ""
 "**WIDE** sets the 1.42°, 4X magnification FOV and **NAR** sets the narrow "
 "0.44°, 10X magnification FOV."
 msgstr ""
-" **FOV** ，视野选择开关用来控制TCS的视野模式。 **WIDE** 设置1.42度视角，四倍"
-"放大率的视野，而 **NAR** 设置0.44度窄视角，十倍放大率的视野。"
+"**FOV** ，视野选择开关用来控制TCS的视野模式。 **WIDE** 设置1.42度视角，四倍放"
+"大率的视野，而 **NAR** 设置0.44度窄视角，十倍放大率的视野。"
 
 #: ../../source/general.rst:2053
 msgid ""
@@ -6815,7 +7048,7 @@ msgid ""
 "The **IROT** light indicates the presence of a TCS track. The IROT acronym "
 "is inherited from the IRST which the TCS replaced."
 msgstr ""
-" **IROT** 灯会指示TCS的追踪状态。IROT的缩写是从TCS所替换的IRST继承而来的。"
+"**IROT** 灯会指示TCS的追踪状态。IROT的缩写是从TCS所替换的IRST继承而来的。"
 
 #: ../../source/general.rst:2072
 msgid "HCU/TID"
@@ -6862,8 +7095,8 @@ msgid ""
 "TCS sensor, half-action to manually control sensor LOS and full-action to "
 "command target acquisition."
 msgstr ""
-"HCU杆旁的 **IR/TV** 按钮，可以让HCU控制杆对TCS的传感器进行控制、半自动地手动"
-"操作传感器的LOS、或者命令TCS进行全自动的目标探测。"
+"HCU杆旁的 **IR/TV** 按钮，可以让HCU控制杆对TCS的传感器进行控制、按下扳机第一"
+"级来手动操作传感器的LOS、或者命令TCS进行全自动的目标探测。"
 
 #: ../../source/general.rst:2088
 msgid ""
@@ -6875,7 +7108,6 @@ msgstr ""
 "示在TID上。"
 
 #: ../../source/general.rst:2090
-#, fuzzy
 msgid ""
 "Finally the **CONTRAST** and **BRIGHTNESS** knobs on the upper part of the "
 "TID can be used to control the TCS video shown on the TID."
@@ -6929,7 +7161,7 @@ msgid ""
 "antenna LOS when inside the current TCS FOV. When the sensors are slaved to "
 "one another RACH and GACH will coincide creating a single solid crosshair."
 msgstr ""
-" **RACH** 或雷达角度十字准线，虚线十字准线，指示雷达天线视线在当前TCS FOV内的"
+"**RACH** 或雷达角度十字准线，虚线十字准线，指示雷达天线视线在当前TCS FOV内的"
 "状态。当传感器相互作用时，RACH和GACH会重合，形成一个一致的十字线。"
 
 #: ../../source/general.rst:2111
@@ -6958,8 +7190,8 @@ msgid ""
 msgstr ""
 "TCS的所有探测模式都有一个共同点，即可以在IR/TV模式下使用HCU进行控制。通过选择"
 "HCU上的IR/TV按钮，可以实现此模式，也可以设置DDD EL表(右指示灯)来显示当前TCS传"
-"感器的LOS高度。半自动模式使得HCU能够直接控制TCS的LOS，全自动模式则命令TCS进行"
-"全自动的目标探测。"
+"感器的LOS高度。按下HCU扳机第一级来直接控制TCS的LOS，全自动模式则命令TCS进行全"
+"自动的目标探测。"
 
 #: ../../source/general.rst:2122
 msgid ""
@@ -6968,9 +7200,9 @@ msgid ""
 "target and then selecting full-action. If successfully acquired the track "
 "window will then expand to encompass the target and tracking will begin."
 msgstr ""
-"至于手动模式 **MAN** ，这种手动的TCS探测模式意味着HCU必须在半自动状态下将跟踪"
-"窗口指示并定位在目标上方，然后才可选择全自动操作。如果成功截获目标，跟踪窗口"
-"将展开并框柱目标轮廓，然后开始跟踪。"
+"至于手动模式 **MAN** ，这种手动的TCS探测模式意味着需将HCU第一级扳机按下，将跟"
+"踪窗口指示并定位在目标上方，然后才可选择全自动操作。如果成功截获目标，跟踪窗"
+"口将展开并框柱目标轮廓，然后开始跟踪。"
 
 #: ../../source/general.rst:2125
 msgid ""
@@ -6981,9 +7213,10 @@ msgid ""
 "pattern around the commanded FOV (by moving the sensor LOS) acquiring the "
 "first found target."
 msgstr ""
-"在自动模式 **AUTO** 下，探测模式与半自动工作原理相同，但在选择全自动探测时，"
-"TCS将自动锁定当前FOV中最靠近中心的目标。自动搜索模式 **AUTO SRCH** 进一步加强"
-"了上述模式，命令FOV(通过移动传感器LOS)获得第一个发现的目标。"
+"在自动模式，也就是 **AUTO** 探测模式下，HCU扳机第一级与手动模式下的工作原理相"
+"同，但在选择全自动探测时，TCS将自动锁定当前FOV中最靠近中心的目标。自动搜索模"
+"式 **AUTO SRCH** 进一步加强了上述模式，命令FOV(通过移动传感器LOS)获得第一个发"
+"现的目标。"
 
 #: ../../source/general.rst:2128
 msgid ""
@@ -7009,7 +7242,7 @@ msgid ""
 "To unlock a tracked target when not being slaved to radar, select half-"
 "action and release."
 msgstr ""
-"在TCS没有从属于雷达控制时如果要多一个目标解除锁定，请选择半自动（half-"
+"在TCS没有从属于雷达控制时如果要多一个目标解除锁定，按下HCU扳机第一级（half-"
 "action）并释放。"
 
 #: ../../source/general.rst:2134
@@ -7073,7 +7306,6 @@ msgstr ""
 "在ECMD上显示更详细的威胁。"
 
 #: ../../source/general.rst:2161
-#, fuzzy
 msgid ""
 "The AN/ALR-67 on the F-14B has four small spiral high-band antennas, four "
 "wideband high-band quadrant receivers and a low-band array. Connected to "
@@ -7184,7 +7416,6 @@ msgstr ""
 # #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 #  friendly emitters.友军方位？
 #: ../../source/general.rst:2191
-#, fuzzy
 msgid ""
 "FRIEND - Friendly is indicated by an F in the status ring on the display and "
 "allows for the same prioritization as in normal but also displays known "
@@ -7207,7 +7438,6 @@ msgstr ""
 "示所显示的威胁符号的威胁级别。"
 
 #: ../../source/general.rst:2200
-#, fuzzy
 msgid ""
 "The outermost, critical band displays threat symbols belonging to emitters "
 "representing an imminent threat to own aircraft, either a locked on tracking "
@@ -7259,7 +7489,6 @@ msgid ""
 msgstr "在右下方是一个亮度控制旋钮，用于控制显示器的亮度。。"
 
 #: ../../source/general.rst:2214
-#, fuzzy
 msgid ""
 "The ordering of the three threat bands has changed at least once since the "
 "introduction of the AN/ALR-67, as the modelled F-14B represents one of the "
@@ -7289,7 +7518,6 @@ msgstr "警告灯"
 # | "and the IFF transponder, those are detailed under their respective "
 # | "section."
 #: ../../source/general.rst:2223
-#, fuzzy
 msgid ""
 "The two crewmembers have warning lights dedicated to specific threats on "
 "their front cockpit panels. The pilot warning lights are situated on the "
@@ -7304,7 +7532,6 @@ msgstr ""
 # #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # CW (continuous wave).
 #: ../../source/general.rst:2227
-#, fuzzy
 msgid ""
 "The different lights illuminate to indicate the presence of a certain type "
 "of threat in the critical band of the RWR and when an active engagement is "
@@ -7327,14 +7554,12 @@ msgid ""
 msgstr "AN/ALR-67使用四种不同的音频提示音来指示威胁和这些威胁的状态变化。"
 
 #: ../../source/general.rst:2236
-#, fuzzy
 msgid ""
 "A single short tone is used to indicate the presence of a new emitter or "
 "when a threat is moved to another threat band."
 msgstr "一个短音用来表示发现新的威胁，或者表示一个威胁转移到了另一个威胁区。"
 
 #: ../../source/general.rst:2238
-#, fuzzy
 msgid ""
 "A slow warbling, alternating tone is used to indicate the presence of a "
 "threat in the critical band."
@@ -7342,7 +7567,6 @@ msgstr ""
 "一个缓慢的颤音，交替的提示音是用来表示发现了新的威胁且此威胁在严重威胁区。"
 
 #: ../../source/general.rst:2240
-#, fuzzy
 msgid ""
 "A fast warbling, alternating tone is used to indicate that a threat is "
 "actively engaging own aircraft."
@@ -7351,7 +7575,6 @@ msgstr "一个快速的警告，交替的提示音是用来本机正在被攻击
 # #-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # A special four tone audio signal, pitch decreasing with each tone
 #: ../../source/general.rst:2242
-#, fuzzy
 msgid ""
 "A special four tone audio signal, pitch decreasing with each tone, is used "
 "to indicate a special event as programmed by the threat library. In the "
@@ -7389,7 +7612,6 @@ msgid ""
 msgstr "显示的第一页显示系统和威胁库版本，下面的屏幕测试显示的符号。"
 
 #: ../../source/general.rst:2255
-#, fuzzy
 msgid ""
 "The threat indication tones are also tested during the bit, first page tests "
 "the status change tone, second page the special tone, third page the threat "
@@ -7941,7 +8163,6 @@ msgid "DE"
 msgstr "DE"
 
 #: ../../source/general.rst:2402
-#, fuzzy
 msgid "Sborka (Dog Ear)"
 msgstr "Sborka (Dog Ear)"
 
@@ -7954,27 +8175,24 @@ msgid "S-125 P-19 SR (SA-3/Flat Face)"
 msgstr "S-125 P-19 SR (SA-3/平面)"
 
 #: ../../source/general.rst:2406
-#, fuzzy
 msgid "Roland SR"
-msgstr "罗兰 SR"
+msgstr "罗兰 搜索雷达"
 
 #: ../../source/general.rst:2408
 msgid "HA"
 msgstr "HA"
 
 #: ../../source/general.rst:2408
-#, fuzzy
 msgid "Hawk SR"
-msgstr "霍克 SR"
+msgstr "霍克 搜索雷达"
 
 #: ../../source/general.rst:2410
 msgid "HK"
 msgstr "HK"
 
 #: ../../source/general.rst:2410
-#, fuzzy
 msgid "Hawk TR"
-msgstr "霍克 TR"
+msgstr "霍克 跟踪雷达"
 
 #: ../../source/general.rst:2412 ../../source/general.rst:0
 msgid "PT"
@@ -8149,8 +8367,8 @@ msgid ""
 "sequences are programmed to launch a number of salvoes, each consisting of a "
 "burst of a set amount of cartridges."
 msgstr ""
-"在投射程序中， ** CHAFF** 选项用来控制如何抛射箔条。箔条抛射序列被编制为数次"
-"齐射，每次齐射都由一定数量的箔条组成。"
+"在投射程序中， **CHAFF** 选项用来控制如何抛射箔条。箔条抛射序列被编制为数次齐"
+"射，每次齐射都由一定数量的箔条组成。"
 
 #: ../../source/general.rst:2470
 msgid ""
@@ -9261,8 +9479,8 @@ msgid ""
 "the AHRS/AM mode (if a valid AHRS exists) nor remove VDIG/TID/DDD attitude "
 "displays. The RIO should manually switch to the AHRS/AM mode."
 msgstr ""
-" **警告：**在RIO因系统故障选择IMU/AM后，且之后发生完整的IMU故障，系统将向飞行"
-"员显示错误的姿态信息。CSDC既不会自动退出IMU/AM到AHRS/AM模式（若AHRS工作正"
+"**警告：**\\ 在RIO因系统故障选择IMU/AM后，且之后发生完整的IMU故障，系统将向飞"
+"行员显示错误的姿态信息。CSDC既不会自动退出IMU/AM到AHRS/AM模式（若AHRS工作正"
 "常），也不会移除VDIG/TID/DDD姿态显示。RIO应手动切换到AHRS/AM模式。"
 
 #: ../../source/general.rst:2802
@@ -10940,6 +11158,11 @@ msgid ""
 "existing values. The nav system may be updated by either a radar fix, a "
 "TACAN fix, or a visual fix."
 msgstr ""
+"飞行计算机的经纬度方位误差可以通过导航定位更新功能来进行修正。由于先前预估的"
+"风向和磁场会发生变化，使得导航点更新在备份模式（AHRS AM和IMU/AM）中显得尤为重"
+"要。导航定位修正是通过地面参考点（纬度和经度）的坐标而完成的。该坐标到当前飞"
+"机所处位置的相对范围和相对方位将会用于帮助导航系统更新或更正现有的数值。导航"
+"系统可以通过雷达定位、塔康定位或视觉定位进行更新。"
 
 #: ../../source/general.rst:3328
 msgid ""
@@ -10949,19 +11172,23 @@ msgid ""
 "and IP). This data can be stored prior to flight by data link or by manual "
 "insertion. Then follow these steps:"
 msgstr ""
+"在进行导航修正之前，所需的更新航路点（雷达、塔康或可视）之纬度和经度必须存储"
+"在八个导航点位置中的一个位置（three WPS、FIX PT、HOME BASE、HOST AREA、DEF PT"
+"和IP）。这些数据可以在飞行前通过数据链或手动输入来进行存储。然后执行以下步"
+"骤："
 
 #: ../../source/general.rst:3331
 msgid "Hook the Waypoint you choose to select for the nav fix."
-msgstr ""
+msgstr "选定你所要的航路点进行导航点更新"
 
 #: ../../source/general.rst:3332
 msgid "Check the stored latitude and longitude on the TID."
-msgstr ""
+msgstr "检查TID上存储的纬度和经度数据。"
 
 #: ../../source/general.rst:3333
 msgid ""
 "Rotate the CATEGORY switch to NAV and select the desired type of update."
-msgstr ""
+msgstr "将 **CATEGORY** 选择开关旋转至NAV并选择所需的更新类型。"
 
 #: ../../source/general.rst:3335
 msgid ""
@@ -10972,10 +11199,16 @@ msgid ""
 "good MAG VAR during TACAN updates). Updating your nav system via a nav fix "
 "should be primarily used in the AHRS mode."
 msgstr ""
+"请注意，当你在INS中更新位置坐标，并且当前IMU（Intertial Measurement Unit 惯性"
+"测量单元）的更新程度较低时，可能会导致更正后的导航位置比现有的导航位置存在更"
+"大的误差值，特别是在使用雷达修正功能来更新导航系统的情况下。而采取目视更新法"
+"或塔康修正更新功能则会提供更具精准性的修正结果（假设飞机在使用塔康更新功能的"
+"时候其飞行环境具备一个较好的磁差）。飞行员应该在AHRS模式（ Attitude Heading "
+"Reference System 姿态航向基准系统）使用导航修正功能来更新导航系统的数据。"
 
 #: ../../source/general.rst:3341
 msgid "Radar Update"
-msgstr ""
+msgstr "雷达更新"
 
 #: ../../source/general.rst:3343
 msgid ""
@@ -10990,74 +11223,85 @@ msgid ""
 "should also perform periodic checks of own aircraft system altitude and "
 "update the altitude if necessary."
 msgstr ""
+"可以在定位DDD（Deteil Data Display 详细数据显示器）光标之前或之后选择RDR修"
+"复。如果按下RDR FIX按钮，那么计算机会通过测量当前所选的坐标点之相对距离和相对"
+"方位来计算飞机的当前位置。计算机所计算的位置坐标和INS所确定的位置坐标之间的距"
+"离增量将显示在TID上。如果需要在导航计算中输入此增量，请按 **FIX ENABLE** 按"
+"钮。如果增量看起来不正确，按下 **RDR FIX** 按钮可以清除计算机的数据缓存和读"
+"数。然后可以再次尝试修复。RIO还应定期检查飞机所处的高度，并且在必要时更新高度"
+"数据。"
 
 #: ../../source/general.rst:3350
 msgid "Radar updating is performed as follows:"
-msgstr ""
+msgstr "雷达更新执行步骤如下："
 
 #: ../../source/general.rst:3352
 msgid "TID CURSOR/CAP - Hook Desired Navigation Point for Update."
-msgstr ""
+msgstr "TID CURSOR/CAP - 选定想要更新的导航点"
 
 #: ../../source/general.rst:3353
 msgid "PULSE SRCH button - Depress."
-msgstr ""
+msgstr "PULSE SRCH button - 按下"
 
 #: ../../source/general.rst:3354
 msgid ""
 "On sensor control panel: STAB switch - IN. EL BARS switch - 1. AZ SCAN "
 "switch - As Desired."
 msgstr ""
+"在传感器控制面板上：**STAB** switch - IN. **EL BARS** switch - 1. **AZ "
+"SCAN** switch - 根据需要而定."
 
 #: ../../source/general.rst:3355
 msgid "RDR FIX button - Depress."
-msgstr ""
+msgstr "RDR FIX button - 按下"
 
 #: ../../source/general.rst:3356
 msgid "DDD CURSOR button - Depress."
-msgstr ""
+msgstr "DDD CURSOR button - 按下"
 
 #: ../../source/general.rst:3357
 msgid "Action switch - Half Action (first detent)."
-msgstr ""
+msgstr "Action switch - 第一级"
 
 #: ../../source/general.rst:3358
 msgid "Cursor is displayed on DDD."
-msgstr ""
+msgstr "光标已经显示在DDD上。"
 
 #: ../../source/general.rst:3359
 msgid "Manipulate hand control DDD cursor over desired ground map point."
-msgstr ""
+msgstr "在DDD上手动操作光标覆盖到所需的"
 
 #: ../../source/general.rst:3360
 msgid ""
 "Action switch - Full Action and Release. (This will cause the DDD cursor to "
 "remain at the selected position."
-msgstr ""
+msgstr "Action switch - 第二级和释放。（这将使DDD光标保持在所选的位置。）"
 
 #: ../../source/general.rst:3361
 msgid "Observe the delta for LAT and LONG on TID."
-msgstr ""
+msgstr "在TID上观察LAT（纬度）和LONG（经度）的增量。"
 
 #: ../../source/general.rst:3362
 msgid ""
 "If readouts are unsatisfactory, deselect RDR FIX and repeat steps 4 through "
 "12."
-msgstr ""
+msgstr "如果读数不令人满意，可以取消选择RDR修复并重复步骤4到12。"
 
 #: ../../source/general.rst:3363 ../../source/general.rst:3386
 msgid "FIX ENABLE button - Depress."
-msgstr ""
+msgstr "FIX ENABLE button - 按下."
 
 #: ../../source/general.rst:3365
 msgid ""
 "To clear previous hooked DDD cursor position, go to half action and then "
 "release prior to initiating full action for new position hook."
 msgstr ""
+"若要清除先前选定的DDD光标位置，请转到“Half Action”，然后在开始选定新的光标位"
+"置之前将其释放回原来的位置。"
 
 #: ../../source/general.rst:3369
 msgid "TACAN Update"
-msgstr ""
+msgstr "塔康更新"
 
 #: ../../source/general.rst:3371
 msgid ""
@@ -11066,6 +11310,9 @@ msgid ""
 "the fix. Select the TACAN channel for the desired station and verify by "
 "listening to the coded identifier tone in the headset."
 msgstr ""
+"若是要执行塔康导航数据修正功能，需要将预先存储的航路点与将要用于执行导航修正"
+"的塔康基站共享相同的纬度值和经度值。选择所需电台的塔康频道，并通过收听耳机中"
+"的编码识别音进行查验。"
 
 #: ../../source/general.rst:3374
 msgid ""
@@ -11074,28 +11321,31 @@ msgid ""
 "based on the range and bearing from the TACAN station. The delta is then "
 "entered in the same manner as with a radar fix."
 msgstr ""
+"按下 **TACAN FIX** 按钮使系统根据塔康基站所提供的方位信息来更新飞机位置。然"
+"后，WCS计算机会根据塔康站的相对距离和相对方位计算飞机的方位误差。然后，使用和"
+"雷达定位功能相同的方式输入数据增量。"
 
 #: ../../source/general.rst:3378
 msgid "Perform a TACAN fix following these steps:"
-msgstr ""
+msgstr "按照以下步骤执行塔康修正"
 
 #: ../../source/general.rst:3380
 msgid ""
 "Select a TACAN channel whose latitude and longitude correspond to an update "
 "point."
-msgstr ""
+msgstr "选择一个纬度和经度数据与更新点经纬度数据相对应的 TACAN 频道。"
 
 #: ../../source/general.rst:3381
 msgid "Hook desired update point (WAYPT 1, FIX PT, HOME BASE, etc.)."
-msgstr ""
+msgstr "选定所需的更新点（WAYPT 1、FIX PT、HOME BASE等）"
 
 #: ../../source/general.rst:3382
 msgid "CATEGORY switch - NAV."
-msgstr ""
+msgstr "CATEGORY 开关 - 选择至NAV档位."
 
 #: ../../source/general.rst:3383
 msgid "TACAN FIX button - Depress."
-msgstr ""
+msgstr "TACAN FIX 按钮 - 按下."
 
 #: ../../source/general.rst:3384
 msgid "Observe present position delta readout."
@@ -11312,6 +11562,10 @@ msgid ""
 "MDIG, and the WCS. Additionally the autopilot gets its heading reference "
 "from the AHRS."
 msgstr ""
+"如果INS的姿态数据不可用，AHRS将向CSDC和WCS计算机提供备用俯仰和滚转信息。在任"
+"何时候，AHRS都是BDHI和CSDC的主要磁航向来源，磁航向数据在BDHI上作为模拟信息直"
+"接显示，在CSDC上被转换为数字信息以供 VDIG、WDIG和WCS所使用。此外，AHRS也为自"
+"动驾驶提供航向参考。"
 
 #: ../../source/general.rst:3469
 msgid ""
@@ -11320,6 +11574,9 @@ msgid ""
 "inputs from the AHRS through the CSDC. Thus. in case of a CSDC failure, the "
 "only magnetic heading is displayed on the BDHI."
 msgstr ""
+"驾驶舱内唯一以模拟仪表显示磁航向的设备便是BDHI。HUD、VDI、TID、HSD和多显示器"
+"指示器上的磁航向均是数字形式，其通过CSDC自AHRS接收数据输入。因此。如果CSDC发"
+"生故障，则磁航向将只显示在BDHI上。"
 
 #: ../../source/general.rst:3471
 msgid ""
@@ -11327,6 +11584,8 @@ msgid ""
 "directional displacement gyros), an electronic control amplifier, a compass "
 "controller, a magnetic azimuth detector and an electronic compensator."
 msgstr ""
+"AHRS的主要组件包括一个双陀螺平台（垂直和方向位移陀螺仪）、一个电子控制放大"
+"器、一个罗盘控制器、一个磁方位探测器和一个电子补偿装置。"
 
 #: ../../source/general.rst:3473
 msgid ""
@@ -11336,6 +11595,9 @@ msgid ""
 "direct heading reference in the DG mode. The resulting heading is "
 "transmitted to thee BDHI, the CSDC, and the WCS."
 msgstr ""
+"当IMU发生故障时，CSDC将自动选择AHRS姿态信息并用于显示及自动驾驶控制。定向陀螺"
+"仪负责在SLAVED模式下平滑磁通阀航向信号，或在DG模式下提供直接航向参考。其产生"
+"的航向信息将发送给BDHI、CSDC和WCS。"
 
 #: ../../source/general.rst:3476
 msgid ""
@@ -11344,6 +11606,9 @@ msgid ""
 "backup magnetic value, if needed. Under normal operation, AHRS magnetic "
 "heading is used for all displays."
 msgstr ""
+"在INS NAV模式中，系统使用的是IMU真航向数据，如果需要，必须通过加上或减去磁差"
+"将其转换为磁航向，以获得备用磁航向。在正常操作下，所有的航向显示均使用AHRS磁"
+"航向。"
 
 #: ../../source/general.rst:3477
 msgid ""
@@ -11357,10 +11622,16 @@ msgid ""
 "The HDG set button should be held for a least 3 minutes. Before repeating "
 "the 3-minute cycle, it should be released for at least 1 minute."
 msgstr ""
+"AHRS的滚转数据是不受限制的，但是俯仰数据有82°的限制，当俯仰度数超过82°后，内"
+"部陀螺仪便会进动。在低转弯率（低于6°每分钟）的持续转弯中，内部的陀螺仪也可能"
+"在滚转方向、俯仰方向和水平航向方向中逐渐进动。大的横滚和纵摇进动误差可以通过"
+"直线飞行和水平飞行来修正，不需要加速，按住罗盘控制器面板上的HDG设置按钮。按住"
+"此按钮可纠正进动误差，最小修正值为每分钟12度。HDG设置按钮应保持按下至少3分"
+"钟。在再一次按下该按钮之前，应至少释放1分钟。"
 
 #: ../../source/general.rst:3481
 msgid "Compass Controller Panel"
-msgstr ""
+msgstr "罗盘控制器面板"
 
 #: ../../source/general.rst:3483
 msgid ""
@@ -11368,6 +11639,8 @@ msgid ""
 "the AHRS is used as heading reference. For description see Compass Control "
 "Panel."
 msgstr ""
+"当AHRS用作航向参考时，可通过罗盘控制器面板选择三种罗盘工作模式中的任意一种。"
+"有关说明，请参阅罗盘控制面板。"
 
 #: ../../source/general.rst:3485
 msgid ""
@@ -11376,6 +11649,8 @@ msgid ""
 "SLAVED mode. When DG or SLAVED modes are inoperable, the COMP mode can be "
 "used for emergencies."
 msgstr ""
+"当磁航向参考不可靠时，需在DG模式下操作系统。当磁基准可靠时，需以SLAVED模式操"
+"作系统。当DG或SLAVED模式不可操作时，COMP模式可用于紧急情况。"
 
 #: ../../source/general.rst:3488
 msgid ""
@@ -11386,30 +11661,36 @@ msgid ""
 "AHRS advisory lights will go off. Disregard the invalid pitch and roll "
 "attitude information that will be restored to the HUD and VDI."
 msgstr ""
+"如果IMU和AHRS都出现故障，来自HUD、TID和DDD的俯仰和滚转姿态指示将被移除，IMU和"
+"AHRS提示灯将点亮。在罗盘控制器面板上选择COMP模式可能将有效的磁航向信息恢复到"
+"HUD、VDI和HSD，AHRS咨询灯将熄灭。此时需忽略无效的俯仰和侧倾姿态信息，正确的信"
+"息将恢复到HUD和VDI。"
 
 #: ../../source/general.rst:3492
 msgid "AHRS Operation"
-msgstr ""
+msgstr "AHRS工作模式"
 
 #: ../../source/general.rst:3494
 msgid "As a compass, the AHRS operates in three modes:"
-msgstr ""
+msgstr "作为罗盘，AHRS以三种模式工作："
 
 #: ../../source/general.rst:3496
 msgid ""
 "The directional gyro (DG) mode provides a free-gyro heading reference with "
 "Earthrate correction."
 msgstr ""
+"定向陀螺仪（DG，Directional Gyro ）模式提供一个自由陀螺仪航向参考，并提供地球"
+"自转校正。"
 
 #: ../../source/general.rst:3497
 msgid "The SLAVED mode provides a gyrostabilized magnetic heading"
-msgstr ""
+msgstr "随动（SLAVED）模式提供陀螺稳定的磁航向"
 
 #: ../../source/general.rst:3498
 msgid ""
 "And the compass (COMP) mode provides an emergency magnetic heading from the "
 "compass transmitter only."
-msgstr ""
+msgstr "罗盘（COMP）模式仅提供来自罗盘发送器的紧急磁航向。"
 
 #: ../../source/general.rst:3500
 msgid ""
@@ -11420,6 +11701,10 @@ msgid ""
 "on the compass controller (3 minutes on, 1 minute off cycle) until the "
 "needle of the synchronous indicator is bracketing the null mark."
 msgstr ""
+"如果选择了COMP模式，AFCS将自动断开，以防止出现不稳定的转向指令。COMP模式不能"
+"为AFCS操作提供足够稳定的航向信号，只能用于紧急情况。要校正AHRS，按住罗盘控制"
+"器上的HDG设置按钮（需执行3分钟按下，1分钟松开的循环），直到同步指示器的指针包"
+"围零位标记。"
 
 #: ../../source/general.rst:3504
 msgid ""
@@ -11431,6 +11716,10 @@ msgid ""
 "regained immediately by inserting the proper MAG VAR via the computer "
 "address panel."
 msgstr ""
+"如果NAV模式开关被设置为INS或IMU/AM，当超过AHRS俯仰限制82°时，姿态显示将继续正"
+"确指示，但所有磁航向显示都将出错，并且提示灯可能会出现亮灭的情况。此时可通过"
+"在计算机地址面板输入适当的磁变量，可以立即将HUD、VDI、HSD、TID和多显示指示器"
+"上的磁航向恢复准确和稳定。"
 
 #: ../../source/general.rst:3510
 msgid "TACAN System (AN/ARN-84)"
@@ -11443,6 +11732,9 @@ msgid ""
 "stations is provided with an air-to-air (A/A) mode. Operating range is "
 "approximately 300 NM, if line of sight is given."
 msgstr ""
+"TACAN系统能指示与所选地面站的斜距，精确到0.1海里及0.5°方位角范围内。空对空"
+"（A/A）模式能提供与机载TACAN基站的斜距。如果没有信号阻挡，工作范围约为300海"
+"里。"
 
 #: ../../source/general.rst:3515
 msgid ""
@@ -11454,16 +11746,20 @@ msgid ""
 "up to 2 minutes to warm up, when turned on for the first time after a cold "
 "start."
 msgstr ""
+"系统在两种模式中各提供126个操作通道。空地模式下的接收频率为962至1024兆赫和"
+"1151至1213兆赫，空空模式下的接收频率为1025至1150兆赫。TACAN系统使用两个天线，"
+"它们以6秒的间隔自动切换，直到接收到阈值信号。注意，该设备当在冷启动后第一次打"
+"开时，可能需要2分钟的时间来预热。"
 
 #: ../../source/general.rst:3522
 msgid "TACAN Modes"
-msgstr ""
+msgstr "TACAN模式"
 
 #: ../../source/general.rst:3524
 msgid ""
 "The system is capable of receiving valid signals from a ground station "
 "simultaneously with 99 other aircraft in either REC or T/R mode."
-msgstr ""
+msgstr "该系统能够在REC或T/R模式下，与其他99架飞机同时接收地面站的有效信号。"
 
 #: ../../source/general.rst:3526
 msgid ""
@@ -11471,6 +11767,8 @@ msgid ""
 "cooperating aircraft, indicating slant range information to each, but the "
 "system will interrogate and lock on to only one at a time."
 msgstr ""
+"在A/A模式下，系统能够与五架合作飞机中的每架进行转换，向每架飞机显示倾斜距离信"
+"息，但系统一次只能询问和锁定一架飞机。"
 
 #: ../../source/general.rst:3528
 msgid ""
@@ -11481,10 +11779,14 @@ msgid ""
 "(pilot) or RIO. Either crewman may adjust the audio level of the "
 "identification signal. For TACAN panel description see :ref:`TACANcontrol`."
 msgstr ""
+"飞行员和RIO在左侧控制台上使用相同的TACAN控制面板。飞行员和RIO左控制台上的单独"
+"TACAN命令按钮提供飞行员和RIO之间的TACAN控制传输。TACAN的控制由每个驾驶舱的触"
+"发器指示灯指示，显示PLT（飞行员）或RIO。任何一名机组人员都可以调整识别信号的"
+"音量。有关TACAN面板的说明，请参阅 :ref:`TacanControl` 。"
 
 #: ../../source/general.rst:3535
 msgid "TACAN Displays"
-msgstr ""
+msgstr "TACAN显示"
 
 #: ../../source/general.rst:3537
 msgid ""
@@ -11493,6 +11795,8 @@ msgid ""
 "displayed on the HUD and VDI (VDIG) and the HSD and multiple display "
 "indicator."
 msgstr ""
+"到达TACAN站的方位和距离显示在BDHI、HSD和多显示指示器上。与TACAN站的偏差显示在"
+"HUD和VDI（VDIG）以及HSD和多显示指示器上。"
 
 #: ../../source/general.rst:3540
 msgid ""
@@ -11501,6 +11805,9 @@ msgid ""
 "which is coded, on the HUD: solid line - TO station, dashed line - FROM "
 "station and on the VDI: bright bar - TO station, dark bar - FROM station."
 msgstr ""
+"MDIG将显示塔康方位标记、偏差刻度、到塔康站的距离和航向。HUD和VDI显示器将提供"
+"一个塔康偏差条，并在HUD上编码显示：实线——到站点，虚线——从站点，在VDI上：亮条"
+"——到站点，暗条——从站点。"
 
 #: ../../source/general.rst:3543
 msgid ""
@@ -11510,6 +11817,9 @@ msgid ""
 "bearings are displayed by the No.2 (large) needle, which unlocks and enters "
 "a search mode (spins) whenever bearing information is unreliable."
 msgstr ""
+"塔康信息也显示在飞行员和RIO相同的BDI上。当TACAN模式选择开关设置为T/R时，BDHI"
+"的方位和距离功能激活。在REC和T/R模式中，2号（大）指针显示磁方位，当方位信息不"
+"可靠时，该指针解锁并进入搜索模式（旋转）。"
 
 #: ../../source/general.rst:3547
 msgid ""
@@ -11519,10 +11829,13 @@ msgid ""
 "displayed on the pilot HSD, HUD, and VDI and on the RIO multiple display "
 "indicator in other navigation modes."
 msgstr ""
+"以T/R或A/A模式接收到的距离信息以海里为单位显示在距离计数器上。如果范围信息不"
+"可靠或不可用，关闭标志便会覆盖计数器窗口。TACAN信息也显示在飞行员的HSD、HUD和"
+"VDI上，在其他导航模式下显示在RIO多显示器指示灯上。"
 
 #: ../../source/general.rst:3553
 msgid "TACAN Operation"
-msgstr ""
+msgstr "TACAN操作"
 
 #: ../../source/general.rst:3555
 msgid ""
@@ -11532,6 +11845,9 @@ msgid ""
 "feature so that tracking will not be interrupted by momentary disruption of "
 "received signals."
 msgstr ""
+"如果在大约2分钟的预热时间后，当选择可靠的站时，范围和轴承指示继续搜索，则应检"
+"查断路器或选择其他基站。系统具有记忆功能，因此跟踪不会因接收信号的瞬时中断而"
+"中断。"
 
 #: ../../source/general.rst:3558
 msgid ""
@@ -11541,16 +11857,19 @@ msgid ""
 "seconds after signal loss. This allows for automatic antenna switching "
 "without a loss of TACAN displays."
 msgstr ""
+"一个丢失的距离信号，已经被跟踪至少10秒，将由存储器保持9到12秒。信号丢失后，跟"
+"踪至少15秒的方位信号将保持3至8秒。这样就可以在不丢失塔康显示器的情况下自动切"
+"换天线。"
 
 #: ../../source/general.rst:3561
 msgid ""
 "During the minimum warmup time, failure indications and erroneous readouts "
 "should be disregarded and self-test results may be inconclusive."
-msgstr ""
+msgstr "在最短预热时间内，应忽略故障指示和错误读数，自我测试结果可能不确定。"
 
 #: ../../source/general.rst:3565
 msgid "TACAN BIT"
-msgstr ""
+msgstr "TACAN自检"
 
 #: ../../source/general.rst:3567
 msgid ""
@@ -11559,6 +11878,9 @@ msgid ""
 "interruptive self-test, use the momentary button (BIT switch) and monitor "
 "the GO (green) and NO-GO (amber) status lights."
 msgstr ""
+"TACAN系统有一个内置测试，可以持续监控TACAN功能，并提供一个中断的自我测试。要"
+"启动22秒中断自检，使用瞬时按钮（BIT开关）并监测Go（绿色）和No-Go（琥珀色）状"
+"态灯。"
 
 #: ../../source/general.rst:3570
 msgid ""
@@ -11567,46 +11889,50 @@ msgid ""
 "local station, along with normal TACAN azimuth and range, the acronym and/or "
 "the NO-GO should be disregarded."
 msgstr ""
+"在2海里范围内对TACAN工作站执行的自检可能会给出无效指示。如果在调到本地基站时"
+"观察到TCN首字母缩略词或NO-GO响应，以及正常的塔康方位角和距离，则应忽略首字母"
+"缩略词和/或NO-GO提示。"
 
 #: ../../source/general.rst:3572
 msgid "The normal BIT sequence is as follows:"
-msgstr ""
+msgstr "正常自检序列如下："
 
 #: ../../source/general.rst:3574
 msgid "Set MODE switch to T/R, allow 2 minutes for warmup."
-msgstr ""
+msgstr "将模式开关设置为T/R，等待2分钟预热。"
 
 #: ../../source/general.rst:3575
 msgid "Press and hold BIT button."
-msgstr ""
+msgstr "按住BIT按钮。"
 
 #: ../../source/general.rst:3576
 msgid "Both GO and NO-GO lights illuminate (light test)."
-msgstr ""
+msgstr "GO和NO-GO灯都亮起（灯测试）。"
 
 #: ../../source/general.rst:3577
 msgid "BDHI range OFF flag appears."
-msgstr ""
+msgstr "BDHI range OFF标志出现。"
 
 #: ../../source/general.rst:3578
 msgid "BDHI bearing needle rotates counterclockwise."
-msgstr ""
+msgstr "BDHI方位滚针逆时针旋转。"
 
 #: ../../source/general.rst:3579
 msgid "Release button; both lights go out (self-test starts)."
-msgstr ""
+msgstr "释放按钮；两个灯都熄灭（自检开始）。"
 
 #: ../../source/general.rst:3580
 msgid ""
 "After 5 to 6 seconds, BDHI and HSD range reads 2 NM, BDHI and HSD bearing "
 "reads 4° (identify TACAN station)."
 msgstr ""
+"5到6秒后，BDHI和HSD范围读数为2海里，BDHI和HSD方位读数为4°（识别塔康站）。"
 
 #: ../../source/general.rst:3581
 msgid ""
 "After 22 seconds, if good, green GO light illuminates, if bad, amber NO-GO "
 "light illuminates."
-msgstr ""
+msgstr "22秒后，如果状态良好，绿灯亮，如果状态不佳，琥珀色灯不亮。"
 
 #: ../../source/general.rst:3585
 msgid "Bearing Distance and Heading Indicator (BDHI)"
@@ -11621,6 +11947,10 @@ msgid ""
 "mode. A fixed index marker at the 12-o’clock position indicates the magnetic "
 "heading."
 msgstr ""
+"方位-距离-航向指示器位于前座飞行员和后座RIO的仪表盘的右侧，详见 :ref:"
+"`BDHIindicator` 。它用于显示磁偏角航向、导航航向数据以及距离信息。罗盘面板控"
+"制方位-距离-航向指示器罗经刻度盘在隶属和非隶属(自由航向)罗盘模式。一个位于罗"
+"盘12点方向的固定标记代表磁航向。"
 
 #: ../../source/general.rst:3592
 msgid ""
@@ -11629,6 +11959,9 @@ msgid ""
 "the UHF (ADF) system, the No.2 (double bar) needle receives signals from the "
 "TACAN coupler."
 msgstr ""
+"2个伺服驱动的方位指针表示磁方位指向选定的特高频（自动测向仪）和战术空中导航"
+"台。第一根（带单条）指针接收来自特高频（自动测向仪）系统的信号，第二根（带双"
+"条）指针接收来自战术空中导航耦合器的信号。"
 
 #: ../../source/general.rst:3595
 msgid ""
@@ -11639,6 +11972,9 @@ msgid ""
 "show the magnetic bearing to the selected station or may revert to the "
 "search mode."
 msgstr ""
+"第一根指针会持续指向信号源，即使罗经刻度盘校准偏离或者存在故障。但是到导航台"
+"的方位只能作为一个相对方位显示且罗盘顶部指示器会显示000度。第二根指针同样显示"
+"选择的塔康台的磁方位，或者恢复到搜索模式。"
 
 #: ../../source/general.rst:3601
 msgid "Radar Altimeter System (AN/APN-194)"
@@ -11655,6 +11991,11 @@ msgid ""
 "either Landing or Take off mode is selected on the PDCP, radar altitude is "
 "displayed on the HUD from 0 to 1,400 feet."
 msgstr ""
+"雷达高度计是一个低空的（0到5000英尺）、脉冲波测距雷达，主要测量飞机机体下的地"
+"表或地形的净空距离。高度信息由发射天线向地表发射的散射的短暂的射频脉冲通过到"
+"达接收天线的反射时间计算获得。高度以“英尺”为单位，实时显示于飞行员的仪表盘"
+"上。如果飞行员显示控制面板上的“起飞”或者“降落”模式被选中，那么雷达高度将在HUD"
+"上显示（0到1400英尺时）。"
 
 #: ../../source/general.rst:3607
 msgid ""
@@ -11664,6 +12005,9 @@ msgid ""
 "system switches to the track mode and tracks the return signal to provide "
 "continuous altitude information."
 msgstr ""
+"雷达高度计可以在2种模式下运行。在搜索模式下，系统成功检测距离增量，直到完整的"
+"高度距离通过回波搜索完毕。当检测到回波，系统切换到跟踪模式，然后跟踪信号以获"
+"得持续不断的高度信息。"
 
 #: ../../source/general.rst:3610
 msgid ""
@@ -11675,6 +12019,10 @@ msgid ""
 "system will operate normally in bank angles up to 45° and in climbs or dives "
 "except when the reflected signal is too weak."
 msgstr ""
+"如果雷达高度计跳出跟踪模式，OFF标识会出现，且指针被一个面罩遮挡。高度计将会保"
+"持不起作用直到有回波信号收到，此刻，高度计将会重新显示距离地表的高度。系统的"
+"可靠使用高度范围是0到5000英尺，这允许飞行员最大限度地在最低高度控制高度。一"
+"般，系统在倾斜角45度，爬升，俯冲时均能正常运作，除非回波信号过于微弱。"
 
 #: ../../source/general.rst:3615
 msgid ""
@@ -11686,20 +12034,26 @@ msgid ""
 "on the limit index. When the aircraft is below this altitude, the red low-"
 "altitude warning light on the indicator will stay on."
 msgstr ""
+"系统包括一个高度指示计（高度计），指示计上还有一个测试灯，一个低空告警音，一"
+"个位于前座舱下的雷达收发器以及2个天线（收发天线）分别位于机身外壳红外整流罩两"
+"侧。在下降高度时，当飞机通过设定的高度极限，告警音将会立刻发出。当飞机低于设"
+"定的高度极限，指示计上的红色的低空告警灯会长亮。"
 
 #: ../../source/general.rst:3620
 msgid "If radar altitude is unreliable, only the OFF flag is present."
-msgstr ""
+msgstr "如果雷达高度变得不可靠时，高度计上只会显示OFF指示。"
 
 #: ../../source/general.rst:3622
 msgid ""
 "The radar altimeter has a minimum warmup time of 3 minutes. During warmup, "
 "failure indications and erroneous readouts should be disregarded."
 msgstr ""
+"雷达高度计有一个3分钟的最小预热时间。在雷达高度计的预热过程中，应该无视故障提"
+"示和错误读数。"
 
 #: ../../source/general.rst:3625 ../../source/general.rst:4059
 msgid "Radar Altimeter"
-msgstr ""
+msgstr "雷达高度计"
 
 #: ../../source/general.rst:3627
 msgid ""
@@ -11711,10 +12065,14 @@ msgid ""
 "power switch, self-test switch, and positioning control for the low-altitude "
 "limit bug."
 msgstr ""
+"该系统唯一的控制位于前座飞行员仪表板处的 :ref:`RADALT` 。指示计在一个单匝圈上"
+"显示高于地表雷达高度。仪表刻度从0到5000英尺密集划分，为低空飞行提供了更为精确"
+"的高度信息。在指示计的左下角落的控制旋钮是一个组合电源开关，自检开关和调整最"
+"低高度限制游标。"
 
 #: ../../source/general.rst:3633
 msgid "Altimeter Bit"
-msgstr ""
+msgstr "高度计自检"
 
 #: ../../source/general.rst:3635
 msgid ""
@@ -11725,10 +12083,13 @@ msgid ""
 "are triggered. To resume normal operation simply release the control knob "
 "again."
 msgstr ""
+"按下控制旋钮并且保持能为自检电路供电，此时绿色测试灯将会亮起，指示计读数将为"
+"100 ±10 英尺，HUD高度刻度划分应为约100英尺。如果指示计通过高度限制游标设置"
+"值，则声觉+听觉警告会被触发。想要恢复正常运作，只需要松开控制旋钮即可。"
 
 #: ../../source/general.rst:3641
 msgid "Low-Altitude Audio Warning"
-msgstr ""
+msgstr "低空音频告警"
 
 #: ../../source/general.rst:3643
 msgid ""
@@ -11737,6 +12098,8 @@ msgid ""
 "members when the aircraft descends below the altitude set on the low-"
 "altitude limit bug."
 msgstr ""
+"低高度警报是频率为1000赫兹的单音提供音频告警，告警音被设置为每秒2个脉冲，持续"
+"3秒。当飞机下降到高度限制游标设置值以下时，两位机组人员的将会听到这个告警音。"
 
 #: ../../source/general.rst:3648
 msgid "Navigation System Integration"
@@ -11744,7 +12107,7 @@ msgstr "导航系统整合"
 
 #: ../../source/general.rst:3651
 msgid "Navigational Modes"
-msgstr ""
+msgstr "导航模式"
 
 #: ../../source/general.rst:3653
 msgid ""
@@ -11753,6 +12116,8 @@ msgid ""
 "CSDC. INS provides the flight crew with own-aircraft position, velocity, "
 "attitude, and heading information."
 msgstr ""
+"F-14拥有3个导航模式。主要的导航模式是惯性的，并由INS实现。采用IMU（和PSU）和"
+"CSDC。INS为机组人员提供本机位置，速度，姿态和航向信息。"
 
 #: ../../source/general.rst:3656
 msgid ""
@@ -11760,6 +12125,8 @@ msgid ""
 "serves as a backup navigation mode and entry into this mode permanently "
 "degrades INS platform heading alignment."
 msgstr ""
+"第二个模式为惯性测量单元/空气质量（IMU / AM）模式。该模式作为后备导航模式，进"
+"入该模式将永久性地降级INS平台的航向对准。"
 
 #: ../../source/general.rst:3658
 msgid ""
@@ -11767,10 +12134,13 @@ msgid ""
 "attitude and heading information in place of the IMU and also serves as an "
 "additional backup mode if both INS and IMU/AM modes fail."
 msgstr ""
+"第三个模式为 姿态航向基准系统/空气质量 (AHRS/ AM)模式，该模式利用姿态航向基准"
+"系统和航向信息代替惯性测量单元，同时在INS和IMU/AM模式失效时作为另一个后备导航"
+"模式。"
 
 #: ../../source/general.rst:3662
 msgid "Inertial Navigation Mode"
-msgstr ""
+msgstr "惯性导航模式"
 
 #: ../../source/general.rst:3664
 msgid ""
@@ -11782,35 +12152,39 @@ msgid ""
 "READY lights will illuminate and the system will revert to the IMU/AM backup "
 "mode."
 msgstr ""
+"进入INS模式之前应该进行对准。READY灯在GND和CVA对准位置时亮起，并在CAT对准启动"
+"后保持长亮，表示对齐完成。如果选择了INS模式，STBY灯和READY灯都会熄灭。然而，"
+"如果在倒V形脱字符（“^”符号）变成菱形前就选择了INS模式，STBY灯和READY灯都会亮"
+"起且系统会还原为 IMU/AM备用模式。"
 
 #: ../../source/general.rst:3668
 msgid "In the INS mode, IMU and CSDC provide the following outputs:"
-msgstr ""
+msgstr "在INS模式，IMU和CSDC提供以下输出："
 
 #: ../../source/general.rst:3670
 msgid "Aircraft latitude and longitude"
-msgstr ""
+msgstr "飞机经纬度"
 
 #: ../../source/general.rst:3671
 msgid ""
 "Aircraft magnetic or true heading (depending on CAP prefix button selected)"
-msgstr ""
+msgstr "飞机磁航向或真航向（取决于选定的CAP前缀按钮）"
 
 #: ../../source/general.rst:3672
 msgid "System altitude (barometric damped inertial altitude)"
-msgstr ""
+msgstr "系统高度（气压阻尼惯性高度）"
 
 #: ../../source/general.rst:3673
 msgid "Platform wander angle"
-msgstr ""
+msgstr "平台漂移角"
 
 #: ../../source/general.rst:3674
 msgid "Velocity components (x, y, z)"
-msgstr ""
+msgstr "速度矢量构成 (x, y, z)"
 
 #: ../../source/general.rst:3675
 msgid "Vertical acceleration."
-msgstr ""
+msgstr "垂直加速度。"
 
 #: ../../source/general.rst:3677
 msgid ""
@@ -11820,6 +12194,9 @@ msgid ""
 "ground speed, ground track, true airspeed, wind (speed and direction), MAG "
 "VAR, altitude, and aircraft true or magnetic heading."
 msgstr ""
+"飞机磁航向源自于姿态航向基准系统。如果姿态航向基准系统失效，磁航向将通过真航"
+"向减去磁差来获得。战术信息显示器上能获得的可用读数可以显示纬度，经度，地速，"
+"地面投影，真空速，风（速度和方向），磁差，高度和飞机的真航向或磁航向。"
 
 #: ../../source/general.rst:3680
 msgid ""
@@ -11831,6 +12208,11 @@ msgid ""
 "the TID, HSD, multiple display indicator, HUD, and VDI, depending on the "
 "navigation and steering modes selected by the flight crew."
 msgstr ""
+"武器控制系统计算机在真北坐标系下计算转向参数并使用姿态航向基准系统的磁航向来"
+"更新参数值。风由惯性速度和空气质量速度之间的差异计算。武器控制系统和计算机信"
+"号数据转换器同样向飞行机组人员提供显示所需的转向和提示功能。信息可以在战术信"
+"息显示器，水平状态显示器，多功能显示指示器，平视显示器和垂直显示指示器上显"
+"示，具体取决于机组人员选择的导航模式和转向模式。"
 
 #: ../../source/general.rst:3685
 msgid ""
@@ -11838,6 +12220,8 @@ msgid ""
 "point, home base, surface target, and initial point and may be designated by "
 "the DEST switch on the TID."
 msgstr ""
+"可用目的地或导航点可以是航路点1,2,3，固定的点，基地，水面目标以及初始点也可能"
+"是由战术数据系统上的DEST开关所选定的。"
 
 #: ../../source/general.rst:3687
 msgid ""
@@ -11845,6 +12229,8 @@ msgid ""
 "inserted by the RIO using the CAP or by datalink message (when on the deck) "
 "using either cable or the RF link."
 msgstr ""
+"除此以外，导航点（经度和纬度）也可以由后座RIO使用计算机位址面板或使用连接线或"
+"射频连接的数据链消息插入。"
 
 #: ../../source/general.rst:3689
 msgid ""
@@ -11853,16 +12239,20 @@ msgid ""
 "The time-to-go assumes the aircraft is flown at its present groundspeed "
 "along the great circle heading to the selected point."
 msgstr ""
+"设置前往某个点的航向（前往选定的导航点），距离，方位和剩余时间都基于大圆航线"
+"航迹解算法。剩余时间假设飞机以当前地速遵循大圆航向飞向选择的点。"
 
 #: ../../source/general.rst:3692
 msgid ""
 "If INS fails, the RIO should verify MAG VAR calculated and WIND data and "
 "update via manual entries as required."
 msgstr ""
+"如果INS失效，后座RIO应该校验计算出来的磁差和风的数据，然后通过根据需求手动输"
+"入更新数据。"
 
 #: ../../source/general.rst:3696
 msgid "IMU/AM Navigation Mode"
-msgstr ""
+msgstr "IMU / AM导航模式"
 
 #: ../../source/general.rst:3698
 msgid ""
@@ -11871,6 +12261,9 @@ msgid ""
 "The failures are indicated by the STBY and READY lights illuminating and the "
 "NAV COMP light illuminating on the RIO CAUTION/ ADVISORY panel."
 msgstr ""
+"如果检测到计算机信号数据转换器的导航计算机部分故障或者某些惯性测量单元的故"
+"障，则自动进入IMU/AM模式。故障发生时，STBY和READY灯及后座的警告/ 提示面板上的"
+"NAV COMP灯将会亮起。"
 
 #: ../../source/general.rst:3701
 msgid ""
@@ -11879,6 +12272,9 @@ msgid ""
 "extinguish the STBY and READY lights. The IMU/AM mode can be entered "
 "manually by selecting IMU/AM with the NAV MODE switch."
 msgstr ""
+"切换到IMU/AM是由战术信息显示器上的IN缩略词还有水平状态显示器变到IM所指示的。"
+"后座RIO应该在NAV MODE开关处选择IMU/AM来熄灭STBY和READY灯。IMU/AM模式可以通过"
+"在NAV MODE开关处选择IMU/AM手动地进入。"
 
 #: ../../source/general.rst:3705
 msgid ""
@@ -11891,6 +12287,11 @@ msgid ""
 "align completed), the entry into IMU/AM will occur immediately upon "
 "selection."
 msgstr ""
+"如果在选择IMU/AM模式之前将开关关闭，计算机将在3到5分钟内无法进入IMU/AM模式。"
+"这对于IMU（惯性测量单元）在关闭后能够自行对准是必要的。在这3到5分钟内，飞机必"
+"须保持在地面上静止或者水平均速飞行。直到IMU对准完毕以前，计算机将会使用AHRS/"
+"AM模式。如果IMU是对准的（这就是说，粗略对准完成），选择IMU/AM模式后将会立即进"
+"入该模式。"
 
 #: ../../source/general.rst:3711
 msgid ""
@@ -11899,6 +12300,9 @@ msgid ""
 "switch is not returned to INS within 5 seconds the INS mode cannot be re-"
 "entered without completing a new alignment."
 msgstr ""
+"如果粗略对准没有任何NAV COMP故障且后座RIO选择了IMU/AM模式，READY灯将会闪烁，"
+"提示如果开关没有在5秒钟内回到INS模式，则INS模式必须在完成一次新对准后才能进"
+"入。"
 
 #: ../../source/general.rst:3713
 msgid ""
@@ -11908,6 +12312,9 @@ msgid ""
 "the INS mode. The accuracy of the computer outputs degrades because of the "
 "inferior available speed and heading information."
 msgstr ""
+"武器控制计算机WCS在IMU/AM模式会进行航位推测导航，依赖于IMU提供的航向信息和中"
+"央大气数据计算机CADC提供的真空速信息。备用系统可以提供与主系统相同的导航功"
+"能，虽然其精度会因为备用系统获取的信息限制而导致误差增加。"
 
 #: ../../source/general.rst:3716
 msgid ""
@@ -11916,36 +12323,40 @@ msgid ""
 "referenced to the last computed INS heading or to manual entry of true "
 "heading data via the CAP."
 msgstr ""
+"风可以通过使用上次INS模式计算的风数据或通过CAP手动输入风的数据。IMU航向同样参"
+"考最后计算的INS航向或通过CAP手动输入真实航向数据。"
 
 #: ../../source/general.rst:3719
 msgid ""
 "After entering the IMU/AM mode, check wind and MAG VAR values. If MV is in "
 "error, enter own-aircraft true heading. If winds are in error, update."
 msgstr ""
+"进入IMU/AM模式以后，检查风和MAG VAR参数。如果MV有报错，进入本机真航向。如果风"
+"报错，更新。"
 
 #: ../../source/general.rst:3723
 msgid "IMU Reset Procedure"
-msgstr ""
+msgstr "IMU重置程序"
 
 #: ../../source/general.rst:3725
 msgid "NAV MODE switch - OFF, for a few seconds."
-msgstr ""
+msgstr "NAV MODE开关置于-OFF位数秒。"
 
 #: ../../source/general.rst:3727
 msgid "NAV MODE switch - IMU."
-msgstr ""
+msgstr "NAV MODE开关置于-IMU"
 
 #: ../../source/general.rst:3729
 msgid "Fly straight and level for 5 minutes."
-msgstr ""
+msgstr "水平直飞保持5分钟。"
 
 #: ../../source/general.rst:3731
 msgid "Verify IM acronym."
-msgstr ""
+msgstr "验证IM缩写。"
 
 #: ../../source/general.rst:3735
 msgid "AHRS/Air Mass Mode"
-msgstr ""
+msgstr "姿态航向基准系统/空气质量 模式"
 
 #: ../../source/general.rst:3737
 msgid ""
@@ -11958,6 +12369,10 @@ msgid ""
 "illuminating. Additionally, the attitude status readout on the TID changes "
 "to AH."
 msgstr ""
+"AHRS/AM模式是用于导航的另一个备用系统。该系统从导航计算机或者手动输入坐标来得"
+"知飞机的最后已知位置，随后通过数据推算获得飞机的目前位置。AHRS/AM会在IMU失效"
+"之后自动开启，或由调整NAV MODE开关手动进入。IMU失效时，STBY和READY状态指示"
+"灯，以及IMU警告灯会亮起。同时，TID上显示的飞行姿态信息会变成AH。"
 
 #: ../../source/general.rst:3743
 msgid ""
@@ -11967,6 +12382,9 @@ msgid ""
 "VDIG/TID/DDD are displaying invalid IMU attitudes, the NAV MODE switch "
 "should be moved to AHRS/AM."
 msgstr ""
+"**警告:** 当导航系统在IMU/AM模式下运作时，如果IMU系统中的量化器失效（NAV COMP"
+"警告灯亮起），VDIG/TID/DDD会显示出错误的姿态信息。此时飞机不会自动切换到备用"
+"的AHRS/AM导航模式，操纵者应当手动进行模式切换。"
 
 #: ../../source/general.rst:3745
 msgid ""
@@ -11974,6 +12392,8 @@ msgid ""
 "fails, the STBY and READY lights will remain on until the RIO selects AHRS/"
 "AM on the NAV MODE switch."
 msgstr ""
+"当IMU失效时，导航模式自动转到AHRS，STBY和READY灯将仍保持亮起直到后座RIO在NAV "
+"MODE开关处选择AHRS/AM。"
 
 #: ../../source/general.rst:3747
 msgid ""
@@ -11983,24 +12403,31 @@ msgid ""
 "the IMU/ AM mode. To update wind speed and direction and magnetic variation, "
 "use the CAP."
 msgstr ""
+"当NAV MODE开关上的AHRS/AM被选中了，AHRS提供DR导航所需的航向信息以取代IMU平台"
+"提供的信息，且如果在IMU/AM模式时，CSDC提供气压高度，高度速率和真空速信息。若"
+"要更新风速和风向及磁偏，则使用CAP。"
 
 #: ../../source/general.rst:3750
 msgid ""
 "The AHRS can be operated in any of three subheading modes selected on the "
 "compass controller panel:"
-msgstr ""
+msgstr "通过罗盘控制面板，AHRS可以在任何3种子航向模式中选择使用："
 
 #: ../../source/general.rst:3752
 msgid ""
 "SLAVED - Magnetic north referenced (flux value), directional gyro is slaved "
 "to flux value, used where reliable magnetic heading reference is available."
 msgstr ""
+"SLAVED - 磁北参考（磁通值），定向陀螺仪隶属于磁通值，在可靠的磁航向参考可用的"
+"时候使用。"
 
 #: ../../source/general.rst:3753
 msgid ""
 "DG - Free azimuth gyro, compensated for drift because of Earth’s (polar "
 "operations), used where magnetic reference is unreliable."
 msgstr ""
+"DG -自由方位角陀螺， 补偿由地球本身（两极活动）产生的漂移，自由方位角陀螺在磁"
+"参考不可靠时使用。"
 
 #: ../../source/general.rst:3754
 msgid ""
@@ -12008,6 +12435,8 @@ msgid ""
 "HUD, VDI, HSD, and multiple display indicator use manual magnetic variation "
 "(vM) automatically in this mode."
 msgstr ""
+"COMP - 磁北参考直接（磁通值），无陀螺阻尼。 HUD，VDI，HSD和多显示指示器在此模"
+"式下自动使用手动磁变化（vM）。"
 
 #: ../../source/general.rst:3756
 msgid ""
@@ -12020,12 +12449,20 @@ msgid ""
 "and data readout panel in INS, as long as the WCS computer receives heading "
 "from the AHRS and airspeed from the CADC."
 msgstr ""
+"武器官可以在INS惯导模式和AHRS/AM模式之间，或IMU/AM和AHRS/AM模式之间随时进行切"
+"换，以比对两个模式的导航精度。由于AHRS是独立于其他系统工作的装置，上述切换过"
+"程不会影响导航精度。然而，由于INS惯导模式和IMU/AM模式都会使用IMU，在这两个模"
+"式之间切换时会对IMU造成不可逆的精度影响。IMU系统失效时，导航系统会自动切换到"
+"AHRS/AM模式，此时如果武器系统计算机还能够从AHRS和CADC获得航向和空速信息，导航"
+"信息面板则会继续将INS提供的信息显示在导航资料面板上。"
 
 #: ../../source/general.rst:3761
 msgid ""
 "If takeoff is performed in the AHRS/AM mode, MAG VAR and WIND must be "
 "manually inserted via CAP for proper navigation computations."
 msgstr ""
+"如果起飞动作在AHRS/AM模式下进行，MAG VAR和WIND必须手动通过CAP输入以或者更为正"
+"确的导航计算数据。"
 
 #: ../../source/general.rst:3763
 msgid ""
@@ -12036,10 +12473,15 @@ msgid ""
 "inputs are used for some calculations a degraded navigation performance is "
 "to be expected."
 msgstr ""
+"导航系统校准完毕后，如果乘员启动了AHRS/AM备用模式。STBY指示灯会熄灭，READY指"
+"示灯则会持续点亮，说明INS惯导系统已经准备完毕。此模式下飞机会用备用系统提供的"
+"数据进行导航和显示器输出，和使用INS主模式相比，备用模式提供的各种导航功能齐"
+"全，然而精度会比使用INS主模式时低一些。乘员可以随时将备用模式切换到INS惯性导"
+"航模式。"
 
 #: ../../source/general.rst:3769
 msgid "Steering"
-msgstr ""
+msgstr "转向"
 
 #: ../../source/general.rst:3771
 msgid ""
@@ -12047,6 +12489,7 @@ msgid ""
 "steering modes will be covered in the Weapons and Weapons Employment "
 "overview."
 msgstr ""
+"有两种转向种类：导航和攻击。攻击转向模式将会在武器系统和武器使用总览中概括。"
 
 #: ../../source/general.rst:3773
 msgid ""
@@ -12059,10 +12502,15 @@ msgid ""
 "target, or home base), a TACAN station, ADF information, ACLS information, "
 "or a data link waypoint."
 msgstr ""
+"导航系统使用罗盘方位线，或最短距离线，将地球表面的某一点和飞机目前的位置，或"
+"者飞机航向/航程上的某一点连接，来确定飞机的航线。一般来说，最短距离线用于远距"
+"离飞行，罗盘方位线用于近距离飞行（在使用罗盘线不会比最短距离线远多少的情况"
+"下）。导航点由武器官选择，可以是：三路径点，固定位置点，识别点，地上目标，驻"
+"地机场，塔康基站，ADF信号，ACLS信号，或是数据链路径点。"
 
 #: ../../source/general.rst:3780
 msgid "Flight Modes and Steering Submodes"
-msgstr ""
+msgstr "飞行模式和转向子模式"
 
 #: ../../source/general.rst:3782
 msgid ""
@@ -12070,31 +12518,33 @@ msgid ""
 "pilot display control panel. These five flight modes are arranged as five "
 "vertical, mutually exclusive buttons:"
 msgstr ""
+"飞行员可以在飞行员显示控制面板的5个垂直显示指示器组版中（HUD模式）选择。这5个"
+"飞行模式为垂直排列的互斥按钮："
 
 #: ../../source/general.rst:3785
 msgid "Take Off (T.O.)"
-msgstr ""
+msgstr "起飞（T.O.）"
 
 #: ../../source/general.rst:3786
 msgid "Cruise (CRUISE)"
-msgstr ""
+msgstr "巡航（CRUISE）"
 
 #: ../../source/general.rst:3787
 msgid "Air to Air (A/A)"
-msgstr ""
+msgstr "空对空（A/A）"
 
 #: ../../source/general.rst:3788
 msgid "Air to Ground (A/G)"
-msgstr ""
+msgstr "空对地（A/G）"
 
 #: ../../source/general.rst:3789
 msgid "Landing (LDG)"
-msgstr ""
+msgstr "降落（LDG）"
 
 #: ../../source/general.rst:3791
 msgid ""
 "ACM cover open selection overrides all modes, except the T.O. and LDG modes."
-msgstr ""
+msgstr "选择ACM保护盖打开将覆盖除了T.O和LDG模式以外的其他所有模式。"
 
 #: ../../source/general.rst:3793
 msgid ""
@@ -12102,32 +12552,34 @@ msgid ""
 "armament, and WCS logic. In addition to the essential data such as altitude, "
 "vertical speed indicator etc. the VDIG format also provides steering cues."
 msgstr ""
+"除了VDIG 显示，选择飞行模式同样控制 AFCS，挂载和WCS逻辑。除了必要的数据比如高"
+"度，垂直速度指示等。VDIG版同样提供转向指示标。"
 
 #: ../../source/general.rst:3796
 msgid ""
 "In each of the flight modes, the pilot can choose between the following five "
 "types of steering commands:"
-msgstr ""
+msgstr "在各个飞行模式中，飞行员可以在一下5种类型的转向指令中选择："
 
 #: ../../source/general.rst:3798
 msgid "TACAN (TACAN)"
-msgstr ""
+msgstr "塔康（TACAN）"
 
 #: ../../source/general.rst:3799
 msgid "Destination (DEST)"
-msgstr ""
+msgstr "目的地（DEST）"
 
 #: ../../source/general.rst:3800
 msgid "AWL/PCD"
-msgstr ""
+msgstr "全天候着陆/\t精确航线方向"
 
 #: ../../source/general.rst:3801
 msgid "Vector (VEC)"
-msgstr ""
+msgstr "适量（VEC）"
 
 #: ../../source/general.rst:3802
 msgid "Manual (MAN)"
-msgstr ""
+msgstr "手动（MAN）"
 
 #: ../../source/general.rst:3804
 msgid ""
@@ -12137,6 +12589,9 @@ msgid ""
 "present, in a horizontal plane, steering to the selected point. The HSD "
 "follows the five submodes when the pilot places the HSD-MODE switch to NAV."
 msgstr ""
+"5个选项均水平排列在飞行员PDCP的底部。这些转向模式决定飞行员水平状态显示器上的"
+"显示格式以及后座RIO多显示指示计的显示格式。HSD和多显示指示器显示转向一个选择"
+"了的点的水平面。当飞行员将HSD-MODE开关扭到NAV，则HSD会遵循这5个子模式。"
 
 #: ../../source/general.rst:3809
 msgid ""
@@ -12147,12 +12602,17 @@ msgid ""
 "for display. A typical choice would be to select ICLS (SPN-41 /ARA-63) for "
 "the HUD and for D/L the VDI."
 msgstr ""
+"后座RIO可以将多显示指示器的模式选择开关选到NAV以完成同样功能的操作。同样，当"
+"选择了LDG，飞行员可以通过飞行员显示控制面板上的开关选择显示ICLS或者ACL信息，"
+"这些开关可以用来独立地选择HUD和VDI进行显示。对于HUD和为VDI选择D/L，这是一种典"
+"型的做法来选择仪表航降系统（ICLS）。"
 
 #: ../../source/general.rst:3813
 msgid ""
 "A/A (air-to-air) and A/G (air-to-ground) modes are further explained in the "
 "Weapons and Weapons Employement overview."
 msgstr ""
+"A/A（空对空）和A/G（空对地）模式均在武器系统和武器使用总览中进行了详细说明。"
 
 #: ../../source/general.rst:3815
 msgid ""
@@ -12160,10 +12620,12 @@ msgid ""
 "provides a readout for the RIO to inform him of what steering submode the "
 "pilot bas chosen."
 msgstr ""
+"位于导航控制和数据读出面板的转向指示器转鼓为后座RIO提供的当前转向子模式选择情"
+"况的读数。"
 
 #: ../../source/general.rst:3819
 msgid "Takeoff Steering"
-msgstr ""
+msgstr "起飞转向"
 
 #: ../../source/general.rst:3821
 msgid ""
@@ -12175,6 +12637,10 @@ msgid ""
 "carrier, due to the large magnetic distortion on the ship). The vertical "
 "speed indicator should be used to verify a positive climb after takeoff."
 msgstr ""
+"进入起飞转向模式，按下显示控制面板的T.O.按键。VDIG在左侧会显示一个垂直的速度"
+"指示标，HUD的右侧会显示高度比例尺。起飞前，飞行员应该通过比对已知资料检查HUD"
+"顶部和VDI磁航向。（也就是说，跑道方向和最重要母舰回收航向）起飞后，应该使用垂"
+"直速度指示计来校验是否有正爬升率。"
 
 #: ../../source/general.rst:3826
 msgid ""
@@ -12182,10 +12648,12 @@ msgid ""
 "variation, which are needed for steering. For backup modes, the WCS uses the "
 "last computed or RIO-entered wind speed, direction, and magnetic variation."
 msgstr ""
+"起飞以后，导航系统一般计算风和磁场的偏差，这是转向所需要的。对于后备模式，武"
+"器控制系统使用最后计算或后座RIO输入的风速，方向和磁偏差。"
 
 #: ../../source/general.rst:3829
 msgid "**Take-Off-TACAN Steering**"
-msgstr ""
+msgstr "**起飞-塔康 转向**"
 
 #: ../../source/general.rst:3831
 msgid ""
@@ -12196,6 +12664,10 @@ msgid ""
 "The HSD and the CMD display TACAN range and the relative bearing to a "
 "selected TACAN station."
 msgstr ""
+"TACAN转向子模式以同样的方式奇效，不论是为起飞，巡航或者降落，TACAN子模式为飞"
+"行员提供TACAN偏差。飞行员可以通过HSD上的CRS控制设置航线或者TACAN径向。塔康显"
+"示在HUD，VDI，HSD和多显示指示器上。HSD和CMD显示TACAN的距离和相对于选择的TACAN"
+"台的方位。"
 
 #: ../../source/general.rst:3835
 msgid ""
@@ -12209,6 +12681,11 @@ msgid ""
 "dashed line indicates FROM, a solid line indicates TO. On the VDI, a dark "
 "bar indicates FROM, a bright bar indicates TO."
 msgstr ""
+"要进入塔康副模式，首先按下PDCP上的TACAN按钮。选择好TACAN航线之后，HUD和VDI上"
+"会显示出TACAN偏移指示标，以及TO/FROM指示标。后者会显示出飞机目前在接近还是远"
+"离TACAN基站的位置。在HSD和多显示指示器上，TACAN偏移指示标上的箭头一段会直接指"
+"向TACAN基站，另一端则是指向远离TACAN基站的方向。在HUD上，实线指基站方向，虚线"
+"指远离方向。在VDI上，白色的长条指基站方向，暗色的长条指远离方向。"
 
 #: ../../source/general.rst:3841
 msgid ""
@@ -12218,10 +12695,13 @@ msgid ""
 "left and right side. On the VDI, the deviation symbol is scaled to move 1.5 "
 "inches (linear) for a 6° deviation."
 msgstr ""
+"在HUD上，TACAN偏移指示标会以二分之一的比例线性移动（最大偏转90度），以防止标"
+"记阻碍视野或者干扰其他信息的显示。在VDI上，航向每偏移6度，偏移指示标移动1.5英"
+"寸。"
 
 #: ../../source/general.rst:3846
 msgid "**Takeoff Manual Steering**"
-msgstr ""
+msgstr "**起飞手动转向**"
 
 #: ../../source/general.rst:3848
 msgid ""
@@ -12230,10 +12710,13 @@ msgid ""
 "CRS control on the HSD. The navigation system will then display a command "
 "heading on the VDI as a small diamond under the magnetic heading scale."
 msgstr ""
+"手动转向模式和基本起飞模式很相似。按下MAN按钮并使用HSD的CRS控制选择一个期望的"
+"航向来进入手动转向模式。导航系统将会在VDI上显示一个命令航向，该命令航向以一个"
+"小的菱形出现在磁航向分划刻度下。"
 
 #: ../../source/general.rst:3853
 msgid "Cruise Steering"
-msgstr ""
+msgstr "巡航转向"
 
 #: ../../source/general.rst:3855
 msgid ""
@@ -12243,16 +12726,19 @@ msgid ""
 "AWL/PCD steering button on the display control panel, the action is without "
 "function in cruise mode."
 msgstr ""
+"进入巡航转向模式，按下PDCP上的CRUISE按钮。在PDCP上有4种转向子模式可供巡航操"
+"作：TACAN，目的地，手动和矢量。虽然在物理上可以按下位于显示控制面板的AWL/PCD"
+"转向按钮，但是这个举动并不能在巡航模式下起作用。"
 
 #: ../../source/general.rst:3858
 msgid ""
 "Should the AWL/PCD submode be selected while in CRUISE, it will inhibit the "
 "display of other steering cues."
-msgstr ""
+msgstr "如果在CRUISE中选择AWL / PCD子模式，它将禁止显示其他转向提示。"
 
 #: ../../source/general.rst:3861
 msgid "**Cruise TACAN Steering**"
-msgstr ""
+msgstr "**巡航 TACAN 转向**"
 
 #: ../../source/general.rst:3863
 msgid ""
@@ -12260,10 +12746,12 @@ msgid ""
 "the same readouts and displays to the flight crew as described under take "
 "off TACAN steering."
 msgstr ""
+"该子模式工作和起飞TACAN转向模式类似，提供了同样的读数并显示给机组人员，正如起"
+"飞塔康转向所描述的一样。"
 
 #: ../../source/general.rst:3866
 msgid "**Cruise Destination Steering**"
-msgstr ""
+msgstr "**巡航 目的地 转向**"
 
 #: ../../source/general.rst:3868
 msgid ""
@@ -12273,12 +12761,17 @@ msgid ""
 "readout panel. The RIO can change latitude/longitude of the destination by "
 "hooking the point on the TID and inserting new data."
 msgstr ""
+"要将巡航目的地输入到导航系统中，乘员首先应当按下PDCP上的DEST按钮。按钮启动"
+"后，VDI和HSD上会显示一个航向指令标，标记会指向武器官在导航控制和资料输出面板"
+"上选择的路径点。武器官可以通过TID对路径点的经纬度坐标进行修改。"
 
 #: ../../source/general.rst:3872
 msgid ""
 "Destination steering to the defended point is provided by the RIO selecting "
 "MAN with the TID DEST switch. This option is not available in TARPS."
 msgstr ""
+"目的地转向转向一个防御点由后座RIO使用TID DEST开关选择MAN。这个选项在TARPS吊舱"
+"下不可用。"
 
 #: ../../source/general.rst:3873
 msgid ""
@@ -12286,28 +12779,30 @@ msgid ""
 "the NAV MODE in use will be alternately displayed on the bottom center of "
 "the HSD."
 msgstr ""
+"在目的地转向子模式，目的地由后座RIO选择且在用的导航模式将在HSD的底部中心显"
+"示。"
 
 #: ../../source/general.rst:3878
 msgid ""
 "ECMD showing the navigational display for Cruise with Manual steering "
 "selected."
-msgstr ""
+msgstr "ECMD显示选择了手动转向的巡航导航显示。"
 
 #: ../../source/general.rst:3882
 msgid ""
 "VDI and HSD showing navigational displays for Cruise with TACAN steering "
 "selected."
-msgstr ""
+msgstr "当TACAN转向被选择时，VDI和HSD为巡航显示导航信息。"
 
 #: ../../source/general.rst:3886
 msgid ""
 "HSD showing navigational display for Cruise with Waypoint 1 set as "
 "Destination."
-msgstr ""
+msgstr "当航路点1被选为目的地时，HSD为巡航显示相应的导航信息。"
 
 #: ../../source/general.rst:3890
 msgid "Landing Steering Modes"
-msgstr ""
+msgstr "降落转向模式"
 
 #: ../../source/general.rst:3892
 msgid ""
@@ -12316,6 +12811,8 @@ msgid ""
 "case of a go around, waveoff or bolter, the pilot can press the T.O. button "
 "on the PDCP to engage the take off steering mode."
 msgstr ""
+"进入降落转向模式，按下PDCP上的LDG按钮。通常，LDG模式在编组点的任何点上都能启"
+"动。为了应对复飞的情况，飞行员可以按下PDCP上的T.O.按钮来启动起飞转向模式。"
 
 #: ../../source/general.rst:3895
 msgid ""
@@ -12325,12 +12822,15 @@ msgid ""
 "not the velocity vector) and the velocity vector symbol, as well as 5° pitch "
 "increments on the VDI."
 msgstr ""
+"着陆模式符号系统大体上与起飞模式符号系统相同。 例外是在HUD上增加的AOA误差符"
+"（“E”型括号，参考显示的是飞机机翼而不是速度矢量）和速度矢量符，以及VDI上的5度"
+"俯仰增量。"
 
 #: ../../source/general.rst:3899
 msgid ""
 "In all landing submodes, a VDIG breakaway symbol can be displayed upon "
 "receipt of a D/L waveoff message."
-msgstr ""
+msgstr "在所有的降落子模式中，可以在接收到D / L波形消息时显示VDIG脱离符。"
 
 #: ../../source/general.rst:3901
 msgid ""
@@ -12340,10 +12840,13 @@ msgid ""
 "the HUD display includes the velocity vector symbol, the radar altitude "
 "symbol and the vertical speed indicator symbol."
 msgstr ""
+"降落时可以使用3种子模式。他们分别是TACAN，VEC和AWL/PCD。对于LDG的TACAN或者VEC"
+"子模式，HUD，VDI和HSD显示的内容类似与CURISE模式下的同种子模式，除了LDG模式"
+"下，HUD显示包括速度矢量，雷达高度标和垂直速度指示标。"
 
 #: ../../source/general.rst:3906
 msgid "**AWL Steering**"
-msgstr ""
+msgstr "**全天候着陆 转向**"
 
 #: ../../source/general.rst:3908
 msgid ""
@@ -12352,6 +12855,8 @@ msgid ""
 "the HUD and VDI AWL switches on the pilot display and control panel should "
 "be placed in the ILS position."
 msgstr ""
+"如果ARA-63的ICLS信息在编组区域可用，则飞行员可以选择AWL / PCD子模式。 要观察"
+"下滑道显示，应将飞行员显示和控制面板上的HUD和VDI AWL开关置于ILS位置。"
 
 #: ../../source/general.rst:3911
 msgid ""
@@ -12362,6 +12867,9 @@ msgid ""
 "additionally display TACAN information if the HSD is set to NAV mode on the "
 "PDCP."
 msgstr ""
+"然后，HUD和VDIG将提供垂直和横向精确航向矢量符号，形成由ICLS驱动的交叉指针。 "
+"在HUD上，全部的矢量偏转限制在2度。 VDI上的全部的矢量偏差为1.5度。 在LDG的"
+"AWL / PCD子模式中，如果将PDCP上的HSD设置为NAV模式，则HSD将另外显示TACAN信息。"
 
 #: ../../source/general.rst:3915
 msgid ""
@@ -12375,22 +12883,34 @@ msgid ""
 "may be engaged by selecting ACL on the VEC/PCD, OFF, and ACL switch located "
 "on the AFCS control panel."
 msgstr ""
+"当飞机处在仪表降落系统（ILS）的信号截取窗口中，飞行员可以选择继续使用ILS界面"
+"显示的信息；或者，当SPN-42数据链提供ACL自动航降系统数据时，为VDI或HUD显示器启"
+"用全天候降落开关上的ACL自动航降模式界面。ACL界面下显示出的横纵轴航迹矢量标与"
+"ICLS仪器航降界面下的标记相同，只是这些指示标在ACL模式下将由SPN-42数据链提供的"
+"信息控制。在降落的最后阶段，一个比较常见的用法是在HUD上显示ILS界面，同时在VDI"
+"上显示ACL界面。当数据链提供了有效ACL数据时，飞行员可使用AFCS自动飞行控制系统"
+"进行自动航降。其启动过程为：VEC/PCD面板上ACL开关打到OFF，然后打开AFCS控制面板"
+"上的ACL开关。"
 
 #: ../../source/general.rst:3923
 msgid "HUD showing Landing mode display with TACAN set as destination source."
-msgstr ""
+msgstr "当将TACAN设置为目的地信息源时，HUD显示降落模式所需信息。"
 
 #: ../../source/general.rst:3927
 msgid ""
 "HUD showing Landing mode with AWL/PCD set as Destination source, ACL set as "
 "source of glideslope and localiser."
 msgstr ""
+"当将AWL/PCD设置为目的地信息源时，HUD显示降落模式所需信息，ACL被设置为下滑道和"
+"航向信息源。"
 
 #: ../../source/general.rst:3931
 msgid ""
 "VDI showing Landing mode with AWL/PCD set as Destination source, ILS (ICLS) "
 "set as source of glideslope and localiser."
 msgstr ""
+"当将AWL/PCD设置为目的地信息源时，VDI显示降落模式所需信息，ILS（ICLS）被设置为"
+"下滑道和航向信息源。"
 
 #: ../../source/general.rst:3935
 msgid "Communications Systems"
@@ -12421,7 +12941,6 @@ msgstr "天线"
 # | "locations. The IFF interrogator (APX-76) antenna is an integral part of "
 # | "the AWG-9 WCS antenna."
 #: ../../source/general.rst:3940
-#, fuzzy
 msgid ""
 "Four VHF/UHF/L-band dual-blade antennas provide omnidirectional coverage for "
 "VHF/UHF voice, UHF data link, TACAN, and identification friend or foe/"
@@ -12771,9 +13290,8 @@ msgstr "1000 Hz音调，以每秒2个脉冲调制3秒。"
 # #-#-#-#-#  general_final_re_rw (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # | msgid "Control Panel"
 #: ../../source/general.rst:4063
-#, fuzzy
 msgid "TACAN Control Panel"
-msgstr "控制面板"
+msgstr "TACAN 控制面板"
 
 #: ../../source/general.rst:4063
 msgid "Station identification"
