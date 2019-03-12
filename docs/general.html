@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>总体设计和系统总览 &mdash; DCS: F-14 “雄猫” 中文飞行手册 nightly 文档</title>
+  <title>总体设计和系统总览 &mdash; DCS: F-14 “雄猫” 中文飞行手册 RC1 文档</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                协作预览 | Mar. 10th, 2019
+                协作预览 | Mar. 12th, 2019
               </div>
             
           
@@ -149,13 +149,13 @@
 <li class="toctree-l2"><a class="reference internal" href="#landing-gear-system">起落架系统</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#nosewheel-steering">前轮转向</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#wheelbrakes">机轮刹车</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#antiskid">防滑</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#antiskid">防滑系统</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#catapult-launch-and-arresting-gear">弹射和阻拦装置</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#nosegear-catapult-system">前轮弹射系统</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nosegear-catapult-system">前起落架弹射系统</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#arresting-gear">阻拦装置</a></li>
 </ul>
 </li>
@@ -266,10 +266,10 @@
 <li class="toctree-l3"><a class="reference internal" href="#navigation-fix-update">导航点更新</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#radar-update">雷达更新</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#tacan-update">塔康更新</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#visual-update">Visual Update</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#data-link-update">Data Link Update</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#fighter-to-fighter-navigation-update">Fighter-to-Fighter Navigation Update</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#position-marking">Position Marking</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#visual-update">视觉更新</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-link-update">数据链更新</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fighter-to-fighter-navigation-update">战机间导航更新</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#position-marking">位置标记</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#attitude-and-heading-reference-set-ahrs">姿态航向基准系统（AHRS）</a><ul>
@@ -788,7 +788,7 @@
 </div>
 <div class="section" id="spoilers">
 <h3>扰流板<a class="headerlink" href="#spoilers" title="永久链接至标题">¶</a></h3>
-<p>扰流板位于机翼上翼面，上文中的<a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a>内容中介绍了扰流板如何控制飞机滚转；扰流板也作为<a class="reference internal" href="#askid"><span class="std std-ref">防滑</span></a>系统的一部分，用于在地面提供制动；同时，扰流板也是 DLC 系统的一部分（详见下一个标题）。</p>
+<p>扰流板位于机翼上翼面，上文中的<a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a>内容中介绍了扰流板如何控制飞机滚转；扰流板也作为<a class="reference internal" href="#askid"><span class="std std-ref">防滑系统</span></a>系统的一部分，用于在地面提供制动；同时，扰流板也是 DLC 系统的一部分（详见下一个标题）。</p>
 <p>为了避免和机身冲突，扰流板仅能在翼掠角小于 62° 时展开。</p>
 <p>扰流板故障时，扰流板对称保护逻辑会禁用故障扰流板区域内的全部扰流板模块，无论是内侧还是外侧扰流板。如果发生这种情况，<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯光面板</span></a>中的 <strong>SPOILERS</strong> 注意灯会亮起。</p>
 <p>为应对这种情况，需将<a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障超控</span></a>中对应故障扰流板区域的控制开关保护盖升起，然后将开关拨至 <strong>ORIDE</strong> 档位，接着按下位于<a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>中的 <strong>MASTER RESET</strong> 按钮来进行超控。</p>
@@ -835,31 +835,31 @@
 <h3>机轮刹车<a class="headerlink" href="#wheelbrakes" title="永久链接至标题">¶</a></h3>
 <p>踩压方向舵脚蹬的上部，使它向偏转来激活机轮刹车。也可以通过<a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a>面板的停放刹激活刹车。</p>
 <p>无论停放刹车是否开启，都可以通过方向舵踏板逐渐增加刹车力度。</p>
-<p>通常两个系统都是由联合液压系统提供的，但如果该系统减压，制动系统则会自动切换到备用聚能器。<a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压强表</span></a>显示应急聚能器的当前压力。</p>
-<p>辅助聚能器完全加压后能用大约13到14次踏板刹车，至少3次停放刹车。聚能器能通过 <a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a> 加压。</p>
-<p>HUD左侧的 <strong>BRAKES</strong> 警告灯表示已激活停放刹车，防滑系统故障或刹车在紧急模式下运行（仅踩下踏板时）。</p>
+<p>停放刹车和机轮制动系统通常都是由联合液压系统提供的，但如果联合液压系统减压，制动系统则会自动切换到备用聚能器。<a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压强表</span></a>显示应急聚能器的当前压力。</p>
+<p>辅助聚能器完全加压后能提供大约13到14次脚蹬刹车制动，或至少3次停放刹车制动。辅助聚能器通过<a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a>加压。</p>
+<p>HUD左侧的 <strong>BRAKES</strong> 警告灯表示停放刹车激活，也可能表示防滑系统故障或刹车在应急模式下工作（警告灯仅在踩下踏板时亮起）。</p>
 <div class="section" id="antiskid">
-<span id="askid"></span><h4>防滑<a class="headerlink" href="#antiskid" title="永久链接至标题">¶</a></h4>
-<p>防滑系统调节机轮刹车以防止在地面打滑。在空中启用防滑系统将阻止刹车激活，直到两个主机轮都已经接地并且在旋转。此外，低于15节时该系统不会运作。</p>
-<p>防滑系统还控制扰流板减速系统，在地面上当油门收到 <strong>IDLE</strong> 时，扰流板会作为减速板展开。</p>
+<span id="askid"></span><h4>防滑系统<a class="headerlink" href="#antiskid" title="永久链接至标题">¶</a></h4>
+<p>防滑系统根据需要来机轮刹车，以防止飞机在地面打滑。在空中启用防滑系统时，系统将禁用刹车，直到两个主起落架机轮都已经接地并开始旋转。此外，滑行速度低于15节时，该系统不会运作。</p>
+<p>防滑系统还控制扰流板减速系统，在地面将油门收到 <strong>IDLE</strong> 档位时，扰流板会作为减速板展开。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">滑行时应该禁用防滑，低于15节时系统可能会干扰刹车正常激活，尽管防滑功能在这个速度下无法运行。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">滑行时应该关闭防滑系统，因为滑行速度低于15节时，系统可能会干扰刹车正常激活，尽管防滑系统在这个速度下并不工作。</td>
 </tr>
 </tbody>
 </table>
-<p><a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a> 的 <strong>ANTI SKID SPOILER BK</strong> 开关控制此系统。 <strong>OFF</strong> 禁用系统， <strong>BOTH</strong> 启用防滑和扰流板减速系统， <strong>SPOILER BK</strong> 只启用扰流板减速系统。</p>
+<p><a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>中的 <strong>ANTI SKID SPOILER BK</strong> 开关用于控制此系统。 <strong>OFF</strong> 档位禁用系统， <strong>BOTH</strong> 档位启用防滑和扰流板减速系统，而  <strong>SPOILER BK</strong> 档位只启用扰流板减速系统。</p>
 </div>
 </div>
 </div>
 <div class="section" id="catapult-launch-and-arresting-gear">
 <h2>弹射和阻拦装置<a class="headerlink" href="#catapult-launch-and-arresting-gear" title="永久链接至标题">¶</a></h2>
 <div class="section" id="nosegear-catapult-system">
-<h3>前轮弹射系统<a class="headerlink" href="#nosegear-catapult-system" title="永久链接至标题">¶</a></h3>
-<p>F-14的前起落架包含航母弹射起飞系统。</p>
-<p>安装在前起落架的三个部件为前起落架支柱伸缩系统，弹射牵引杆和止动配件。</p>
+<h3>前起落架弹射系统<a class="headerlink" href="#nosegear-catapult-system" title="永久链接至标题">¶</a></h3>
+<p>F-14 的前起落架系统用于将前起落架连接至航母弹射器，以进行弹射起飞。</p>
+<p>前起落架上安装的三个部件为前起落架支柱伸缩系统，弹射牵引杆和止动配件。</p>
 <p>要启用系统，使用 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>NOSE STRUT</strong> 开关来收缩前起落架支柱。把开关保持在 <strong>KNEEL</strong> 位直到收缩动作停止即可。</p>
 <p>这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。缩短后弹射牵引杆会解除锁定并放下，也可以由甲板工作人员手动放下或把前起落架偏转离中心超过10°来放下。</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -3394,89 +3394,79 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <li>选定所需的更新点（WAYPT 1、FIX PT、HOME BASE等）</li>
 <li>CATEGORY 开关 - 选择至NAV档位.</li>
 <li>TACAN FIX 按钮 - 按下.</li>
-<li>Observe present position delta readout.</li>
-<li>If delta is unsatisfactory, deselect TACAN FIX and repeat steps 2 through 7.</li>
+<li>观察当前数据增量读数。</li>
+<li>如果数据增量不符合预期，取消选择TACAN FIX并重复步骤2到7。</li>
 <li>FIX ENABLE button - 按下.</li>
 </ol>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">During a TACAN FIX, the MAG VAR must be the same as the TACAN station magnetic variation, or the update will be in error. Given a TACAN station with a range of 100 NM from ownship, a 1°MAG VAR error introduces a 1.74nm error into the ownship’s TACAN update.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在TACAN FIX,期间，MAG VAR必须与TACAN站的磁变化相同，否则更新将出错。对于距离本机100 nm的TACAN站，1°MAG VAR误差会在本机的TACAN更新中引入1.74海里误差。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="visual-update">
-<h4>Visual Update<a class="headerlink" href="#visual-update" title="永久链接至标题">¶</a></h4>
-<p>To perform a visual fix, fly over a prestored waypoint and press the VIS FIX button. Estimate your timing, because the aircraft nose and fuselage can obscure the fix point during overflight.
-It is also difficult to estimate when directly overhead a waypoint if the aircraft altitude is greater than 10.000 feet. The delta for the visual fix is displayed on the TID. Enter the delta by pressing FIX ENABLE.</p>
-<p>To perform a  visual fix use the following steps:</p>
+<h4>视觉更新<a class="headerlink" href="#visual-update" title="永久链接至标题">¶</a></h4>
+<p>要执行视觉修复，请飞越预先存储的航路点，然后按VIS FIX按钮。要估计好时间，因为飞机在飞越过程中很难保持固定指向。如果飞机高度超过10000英尺，则很难估计直接在航路点上方的时间。视觉修复的数据增量显示在TID上。按“FIX ENABLE”输入增量。</p>
+<p>要执行视觉修复，请使用以下步骤：</p>
 <ol class="arabic simple">
-<li>Hook desired update point (WAY PT, HB, IP, etc.).</li>
-<li>Select NAV category on CAP.</li>
-<li>Overfly the selected prestored point and when over the point, depress the VIS FIX button on the cap.</li>
-<li>If the delta is not satisfactory, press VIS FIX again to clear the delta and repeat from step 1.</li>
-<li>If a satisfactory delta is displayed, depress the FIX ENABLE button; this causes the delta correction of own-aircraft position to be inserted into the computer.</li>
+<li>挂接所需的更新点（WAY PT、HB、IP等）。</li>
+<li>选择CAP上的NAV种类。</li>
+<li>飞越选定的预存储点，当超过该点时，按下盖子上的VIS FIX按钮。</li>
+<li>如果数据增量不符合预期，那么请再次按 <strong>VIS FIX</strong> 清除数据增量并从步骤1重复。</li>
+<li>如果数据增量符合预期，按下 <strong>FIX ENABLE</strong> 按钮；系统会将飞机的方位坐标之数据增量进行修正并输入计算机。</li>
 </ol>
 </div>
 <div class="section" id="data-link-update">
-<h4>Data Link Update<a class="headerlink" href="#data-link-update" title="永久链接至标题">¶</a></h4>
-<p>To perform a data link update of the aircraft INS to the TDS frame of reference, the aircraft and TDS must share a prebriefed waypoint, identical in latitude and longitude.
-Enter this LAT/LONG data into the HOST AREA pseudo target file. The TDS will uplink the common reference point as a data link waypoint.
-When the aircraft and TDS INS systems agree, the data link waypoint and host area symbols will be superimposed on the TID. If they drift apart, the two pseudo targets on the TID will drift as well.</p>
-<p>To perform an update via data link, use the following steps:</p>
+<h4>数据链更新<a class="headerlink" href="#data-link-update" title="永久链接至标题">¶</a></h4>
+<p>如果要将飞机的INS数据链更新到TDS（Tactical Data System 战术数据系统），那么飞机和TDS必须共享一个具有相同纬度数据和经度数据的航路点信息。将此LAT/LONG数据输入 HOST AREA 作为伪目标文件。TDS会将共同参考点上传，参为数据链航路点。当飞机的坐标方位和TDS INS系统一致时，数据链航路点和主区符号（Hostile Area）将叠加在TID上。如果它们分开，tid上的两个伪目标也会分开。</p>
+<p>要通过数据链执行导航更新，请使用以下步骤：</p>
 <ol class="arabic simple">
-<li>Hook data link waypoint corresponding prebriefed reference point.</li>
-<li>Select NAV category on CAP.</li>
-<li>Overfly the hooked data link waypoint. When immediately over the point, press VIS FIX button on CAP.</li>
-<li>Observe delta LAT and LONG on TID.</li>
-<li>If deltas are satisfactory and update is desired, depress FIX ENABLE.</li>
+<li>选定数据链航路点对应的预设简报参考点。</li>
+<li>选择CAP上的NAV种类。</li>
+<li>飞越选定的数据链路航路点。当飞跃该点时，立即按下的 <strong>VIS FIX</strong> 按钮。</li>
+<li>在TID上观察 纬度数据与经度数据的数据增量。</li>
+<li>如果对导航数据增量不满意，那么按下 <strong>FIX ENABLE</strong> 。</li>
 </ol>
-<p>After a data link update, HOST AREA and data link waypoint should be superimposed on the TID again.</p>
+<p>数据链路更新后，Host Area 和数据链航路点应该被叠加在TID上。</p>
 </div>
 <div class="section" id="fighter-to-fighter-navigation-update">
-<h4>Fighter-to-Fighter Navigation Update<a class="headerlink" href="#fighter-to-fighter-navigation-update" title="永久链接至标题">¶</a></h4>
-<p>Net aircraft that use fighter-to-fighter data link can update their navigation system in the FF/DL mode.
-To update LAT/LONG hook the net aircraft symbol of an aircraft that is in close proximity and select F/F NAV UPDATE on the CAP.
-This will enter the hooked aircraft’s coordinates into the INS as own-aircraft coordinates.
-To update the nav system on an aircraft that is not close, first obtain a radar STT on that aircraft, hook the STT-ed aircraft on the TID and then press F/F NAV UPDATE on the CAP.</p>
+<h4>战机间导航更新<a class="headerlink" href="#fighter-to-fighter-navigation-update" title="永久链接至标题">¶</a></h4>
+<p>具备数据互联能力的战斗机可以在FF/DL模式下使用战机间导航更新功能来更新导航数据。要更新LAT/LONG数据，要先选定近距离飞机的净飞机符号，并在盖子上选择f/f nav update。这将把挂接飞机的坐标作为自己的飞机坐标输入到INS中。要更新未关闭飞机上的导航系统，首先获取该飞机上的雷达STT，将STT ED飞机挂在TID上，然后按CAP上的F/F NAV更新。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">By updating to the selected aircraft’s INS, its calibration/drift can potentially introduce a larger error into your own INS. Both aircraft will share the same error though.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">通过更新所选飞机的INS惯性导航系统，其校准/漂移量可能会自身的惯性导航系统带来更大的误差。不过，两架飞机的在交互数据中所共享的误差量是相同的。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="position-marking">
-<h4>Position Marking<a class="headerlink" href="#position-marking" title="永久链接至标题">¶</a></h4>
-<p>To mark the position of a pulse radar target, a visual target or a TACAN station to be displayed on the TID, use the SURF TGT position in the TAC DATA category.
-Once displayed on the TID, latitude, longitude, range, bearing, and steering data are available, using the CAP or the navigation destination control or both.</p>
+<h4>位置标记<a class="headerlink" href="#position-marking" title="永久链接至标题">¶</a></h4>
+<p>要在TID上标记脉冲雷达目标、视觉目标或塔康站的位置，请使用TAC数据类别中的 SURF TGT 位置。一旦数据显示在TID上，就可以使用CAP或通过控制导航目的地（或者同时使用两种方式）来获取纬度、经度、距离、方位和转向数据。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Do not use the position SURF TGT to update the navigation computer. The surface target position symbol is repositioned with respect to own aircraft instead of own aircraft being updated in reference to the surface target.</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">不要使用SURF TGT的位置来更新导航计算机。地面目标位置符号会相对于自己的飞机重新进行定位，而不是参照地面目标更新自己的飞机坐标。</td>
 </tr>
 </tbody>
 </table>
-<p>To mark a pulse radar target on the TID, follow these steps:</p>
+<p>如果要在TID上标记脉冲雷达目标，请执行以下步骤：</p>
 <ol class="arabic simple">
-<li>Select the SURF TGT button.</li>
-<li>Establish the location via a radar fix.</li>
-<li>Select the DDD CURSOR and use the pulse system for radar mapping.</li>
-<li>Designate the point of interest by placing the cursor over that point.</li>
-<li>Selecting full action.</li>
-<li>Select RDR FIX.</li>
+<li>选择 <strong>SURF TGT</strong> 按钮。</li>
+<li>通过雷达定位确定位置。</li>
+<li>选择DDD光标并使用脉冲系统进行雷达测绘。</li>
+<li>将光标放在放置于所要的点上。</li>
+<li>将按钮按入进入第二级。</li>
+<li>选择 <strong>RDR FIX</strong>.</li>
 </ol>
-<p>This will display a delta from the hooked point to the surface target. Ignore the delta and select FIX ENABLE to position the surface target over the previously identified radar position.
-A very accurate readout of latitude, longitude, and steering information will become available for the Surface Target Waypoint.</p>
-<p>The method for visual targets is the same, but a visual fix is required. You can also mark a  TACAN station by using the same method and following the TACAN fix procedures.
-After completing any of the above procedures, the SURF TGT symbol will be displayed on the TID at the computed latitude and longitude coordinates.</p>
-<p>The surface target symbol can also be used as a destination point. If its position has been previously entered, the symbol will appear on the TID.
-One method for special position marking is to hook any point on the TID and select SURF TGT. The surface target symbol now appears over the hooked point and its new position will be stored in the WCS computer.</p>
+<p>这将显示从挂接点到表面目标的增量。忽略delta并选择fix enable以将表面目标定位在先前识别的雷达位置上。对于地面目标航路点，将提供非常精确的纬度、经度和转向信息读数。</p>
+<p>视觉目标的方法相同，但需要视觉修复。您也可以使用相同的方法并遵循tacan修复过程来标记tacan站。完成上述任何步骤后，SURF TGT符号将以计算的经纬度坐标显示在TID上。</p>
+<p>表面目标符号也可用作目标点。如果之前已输入其位置，则符号将显示在tid上。特殊位置标记的一种方法是勾住TID上的任何点并选择Surf TGT。表面目标符号现在出现在挂接点上，其新位置将存储在WCS计算机中。</p>
 </div>
 </div>
 <div class="section" id="attitude-and-heading-reference-set-ahrs">

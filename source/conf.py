@@ -23,9 +23,9 @@ copyright = '2019 Heatblur Simulations。本文档翻译自官方文档。如您
 author = ''
 
 # The short X.Y version
-version = '协作预览 | Mar. 10th, 2019'
+version = '协作预览 | Mar. 12th, 2019'
 # The full version, including alpha/beta/rc tags
-release = 'nightly'
+release = 'RC1'
 
 
 # -- Localization configuration ----------------------------------------------

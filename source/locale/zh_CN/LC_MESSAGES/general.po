@@ -14,10 +14,12 @@ msgstr ""
 "#\n"
 "#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
 "#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-10 11:01+0800\n"
-"PO-Revision-Date: 2019-03-12 13:32+0800\n"
+"PO-Revision-Date: 2019-03-12 14:58+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -567,6 +569,84 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_cg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_oilegg.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
+"#-#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"#-#-#-#-#  general_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_zero.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.4\n"
+"#-#-#-#-#  general_rw.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_jolly.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-"
+"#-#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_yh.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
+"#-#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"#-#-#-#-#  general_duck_slip.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  "
+"#-#-#-#-#\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-04 12:39+0800\n"
+"PO-Revision-Date: 2019-03-12 14:37+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"#-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-"
+"#\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
 "#-#-#-#-#  general_fanedit.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-"
 "#-#-#-#\n"
 "Generated-By: Babel 2.6.0\n"
@@ -2612,8 +2692,9 @@ msgid ""
 "the backup accumulators. The :ref:`brakepressind` shows current pressure in "
 "the emergency accumulators."
 msgstr ""
-"通常两个系统都是由联合液压系统提供的，但如果该系统减压，制动系统则会自动切换"
-"到备用聚能器。\\ :ref:`brakepressind`\\ 显示应急聚能器的当前压力。"
+"停放刹车和机轮制动系统通常都是由联合液压系统提供的，但如果联合液压系统减压，"
+"制动系统则会自动切换到备用聚能器。\\ :ref:`brakepressind`\\ 显示应急聚能器的"
+"当前压力。"
 
 #: ../../source/general.rst:699
 msgid ""
@@ -2622,8 +2703,8 @@ msgid ""
 "parking brake applications minimum. These accumulators can be recharged via "
 "the :ref:`hydhandpump`."
 msgstr ""
-"辅助聚能器完全加压后能用大约13到14次踏板刹车，至少3次停放刹车。聚能器能通过 :"
-"ref:`hydhandpump` 加压。"
+"辅助聚能器完全加压后能提供大约13到14次脚蹬刹车制动，或至少3次停放刹车制动。辅"
+"助聚能器通过\\ :ref:`hydhandpump`\\ 加压。"
 
 #: ../../source/general.rst:702
 msgid ""
@@ -2631,12 +2712,12 @@ msgid ""
 "parking brake applied, antiskid system fail or that the brakes are operating "
 "in the emergency mode (only when the pedals are depressed)."
 msgstr ""
-"HUD左侧的 **BRAKES** 警告灯表示已激活停放刹车，防滑系统故障或刹车在紧急模式下"
-"运行（仅踩下踏板时）。"
+"HUD左侧的 **BRAKES** 警告灯表示停放刹车激活，也可能表示防滑系统故障或刹车在应"
+"急模式下工作（警告灯仅在踩下踏板时亮起）。"
 
 #: ../../source/general.rst:708
 msgid "Antiskid"
-msgstr "防滑"
+msgstr "防滑系统"
 
 #: ../../source/general.rst:710
 msgid ""
@@ -2645,8 +2726,9 @@ msgid ""
 "main wheels are on the ground and the wheels have spun up. Also the system "
 "is not operational below 15 knots."
 msgstr ""
-"防滑系统调节机轮刹车以防止在地面打滑。在空中启用防滑系统将阻止刹车激活，直到"
-"两个主机轮都已经接地并且在旋转。此外，低于15节时该系统不会运作。"
+"防滑系统根据需要来机轮刹车，以防止飞机在地面打滑。在空中启用防滑系统时，系统"
+"将禁用刹车，直到两个主起落架机轮都已经接地并开始旋转。此外，滑行速度低于15节"
+"时，该系统不会运作。"
 
 #: ../../source/general.rst:714
 msgid ""
@@ -2654,8 +2736,8 @@ msgid ""
 "deploys the spoilers as brakes when the throttles are set to **IDLE** while "
 "on the ground."
 msgstr ""
-"防滑系统还控制扰流板减速系统，在地面上当油门收到 **IDLE** 时，扰流板会作为减"
-"速板展开。"
+"防滑系统还控制扰流板减速系统，在地面将油门收到 **IDLE** 档位时，扰流板会作为"
+"减速板展开。"
 
 #: ../../source/general.rst:716
 msgid ""
@@ -2663,8 +2745,8 @@ msgid ""
 "disturb normal braking even though the antiskid feature not being "
 "operational at those speeds."
 msgstr ""
-"滑行时应该禁用防滑，低于15节时系统可能会干扰刹车正常激活，尽管防滑功能在这个"
-"速度下无法运行。"
+"滑行时应该关闭防滑系统，因为滑行速度低于15节时，系统可能会干扰刹车正常激活，"
+"尽管防滑系统在这个速度下并不工作。"
 
 #: ../../source/general.rst:718
 msgid ""
@@ -2673,9 +2755,9 @@ msgid ""
 "and the spoiler brake system and **SPOILER BK** enables only the spoiler "
 "brake system."
 msgstr ""
-":ref:`fuelmgmtpanel` 的 **ANTI SKID SPOILER BK** 开关控制此系统。 **OFF** 禁"
-"用系统， **BOTH** 启用防滑和扰流板减速系统， **SPOILER BK** 只启用扰流板减速"
-"系统。"
+"\\ :ref:`fuelmgmtpanel`\\ 中的 **ANTI SKID SPOILER BK** 开关用于控制此系统。 "
+"**OFF** 档位禁用系统， **BOTH** 档位启用防滑和扰流板减速系统，而  **SPOILER "
+"BK** 档位只启用扰流板减速系统。"
 
 #: ../../source/general.rst:723
 msgid "Catapult Launch and Arresting Gear"
@@ -2683,19 +2765,19 @@ msgstr "弹射和阻拦装置"
 
 #: ../../source/general.rst:726
 msgid "Nosegear Catapult System"
-msgstr "前轮弹射系统"
+msgstr "前起落架弹射系统"
 
 #: ../../source/general.rst:728
 msgid ""
 "The nosegear of the F-14 contains the system allowing for catapult assisted "
 "takeoff during carrier based operations."
-msgstr "F-14的前起落架包含航母弹射起飞系统。"
+msgstr "F-14 的前起落架系统用于将前起落架连接至航母弹射器，以进行弹射起飞。"
 
 #: ../../source/general.rst:730
 msgid ""
 "The three components mounted in or on the nosegear are the nosewheel kneel "
 "functionality, the launch bar and the holdback fitting."
-msgstr "安装在前起落架的三个部件为前起落架支柱伸缩系统，弹射牵引杆和止动配件。"
+msgstr "前起落架上安装的三个部件为前起落架支柱伸缩系统，弹射牵引杆和止动配件。"
 
 #: ../../source/general.rst:732
 msgid ""
@@ -11349,12 +11431,12 @@ msgstr "TACAN FIX 按钮 - 按下."
 
 #: ../../source/general.rst:3384
 msgid "Observe present position delta readout."
-msgstr ""
+msgstr "观察当前数据增量读数。"
 
 #: ../../source/general.rst:3385
 msgid ""
 "If delta is unsatisfactory, deselect TACAN FIX and repeat steps 2 through 7."
-msgstr ""
+msgstr "如果数据增量不符合预期，取消选择TACAN FIX并重复步骤2到7。"
 
 #: ../../source/general.rst:3388
 msgid ""
@@ -11363,10 +11445,12 @@ msgid ""
 "with a range of 100 NM from ownship, a 1°MAG VAR error introduces a 1.74nm "
 "error into the ownship’s TACAN update."
 msgstr ""
+"在TACAN FIX,期间，MAG VAR必须与TACAN站的磁变化相同，否则更新将出错。对于距离"
+"本机100 nm的TACAN站，1°MAG VAR误差会在本机的TACAN更新中引入1.74海里误差。"
 
 #: ../../source/general.rst:3392
 msgid "Visual Update"
-msgstr ""
+msgstr "视觉更新"
 
 #: ../../source/general.rst:3394
 msgid ""
@@ -11377,30 +11461,34 @@ msgid ""
 "10.000 feet. The delta for the visual fix is displayed on the TID. Enter the "
 "delta by pressing FIX ENABLE."
 msgstr ""
+"要执行视觉修复，请飞越预先存储的航路点，然后按VIS FIX按钮。要估计好时间，因为"
+"飞机在飞越过程中很难保持固定指向。如果飞机高度超过10000英尺，则很难估计直接在"
+"航路点上方的时间。视觉修复的数据增量显示在TID上。按“FIX ENABLE”输入增量。"
 
 #: ../../source/general.rst:3397
 msgid "To perform a  visual fix use the following steps:"
-msgstr ""
+msgstr "要执行视觉修复，请使用以下步骤："
 
 #: ../../source/general.rst:3399
 msgid "Hook desired update point (WAY PT, HB, IP, etc.)."
-msgstr ""
+msgstr "挂接所需的更新点（WAY PT、HB、IP等）。"
 
 #: ../../source/general.rst:3400 ../../source/general.rst:3416
 msgid "Select NAV category on CAP."
-msgstr ""
+msgstr "选择CAP上的NAV种类。"
 
 #: ../../source/general.rst:3401
 msgid ""
 "Overfly the selected prestored point and when over the point, depress the "
 "VIS FIX button on the cap."
-msgstr ""
+msgstr "飞越选定的预存储点，当超过该点时，按下盖子上的VIS FIX按钮。"
 
 #: ../../source/general.rst:3402
 msgid ""
 "If the delta is not satisfactory, press VIS FIX again to clear the delta and "
 "repeat from step 1."
 msgstr ""
+"如果数据增量不符合预期，那么请再次按 **VIS FIX** 清除数据增量并从步骤1重复。"
 
 #: ../../source/general.rst:3403
 msgid ""
@@ -11408,10 +11496,12 @@ msgid ""
 "causes the delta correction of own-aircraft position to be inserted into the "
 "computer."
 msgstr ""
+"如果数据增量符合预期，按下 **FIX ENABLE** 按钮；系统会将飞机的方位坐标之数据"
+"增量进行修正并输入计算机。"
 
 #: ../../source/general.rst:3407
 msgid "Data Link Update"
-msgstr ""
+msgstr "数据链更新"
 
 #: ../../source/general.rst:3409
 msgid ""
@@ -11423,38 +11513,43 @@ msgid ""
 "waypoint and host area symbols will be superimposed on the TID. If they "
 "drift apart, the two pseudo targets on the TID will drift as well."
 msgstr ""
+"如果要将飞机的INS数据链更新到TDS（Tactical Data System 战术数据系统），那么飞"
+"机和TDS必须共享一个具有相同纬度数据和经度数据的航路点信息。将此LAT/LONG数据输"
+"入 HOST AREA 作为伪目标文件。TDS会将共同参考点上传，参为数据链航路点。当飞机"
+"的坐标方位和TDS INS系统一致时，数据链航路点和主区符号（Hostile Area）将叠加在"
+"TID上。如果它们分开，tid上的两个伪目标也会分开。"
 
 #: ../../source/general.rst:3413
 msgid "To perform an update via data link, use the following steps:"
-msgstr ""
+msgstr "要通过数据链执行导航更新，请使用以下步骤："
 
 #: ../../source/general.rst:3415
 msgid "Hook data link waypoint corresponding prebriefed reference point."
-msgstr ""
+msgstr "选定数据链航路点对应的预设简报参考点。"
 
 #: ../../source/general.rst:3417
 msgid ""
 "Overfly the hooked data link waypoint. When immediately over the point, "
 "press VIS FIX button on CAP."
-msgstr ""
+msgstr "飞越选定的数据链路航路点。当飞跃该点时，立即按下的 **VIS FIX** 按钮。"
 
 #: ../../source/general.rst:3418
 msgid "Observe delta LAT and LONG on TID."
-msgstr ""
+msgstr "在TID上观察 纬度数据与经度数据的数据增量。"
 
 #: ../../source/general.rst:3419
 msgid "If deltas are satisfactory and update is desired, depress FIX ENABLE."
-msgstr ""
+msgstr "如果对导航数据增量不满意，那么按下 **FIX ENABLE** 。"
 
 #: ../../source/general.rst:3421
 msgid ""
 "After a data link update, HOST AREA and data link waypoint should be "
 "superimposed on the TID again."
-msgstr ""
+msgstr "数据链路更新后，Host Area 和数据链航路点应该被叠加在TID上。"
 
 #: ../../source/general.rst:3425
 msgid "Fighter-to-Fighter Navigation Update"
-msgstr ""
+msgstr "战机间导航更新"
 
 #: ../../source/general.rst:3427
 msgid ""
@@ -11466,6 +11561,11 @@ msgid ""
 "that is not close, first obtain a radar STT on that aircraft, hook the STT-"
 "ed aircraft on the TID and then press F/F NAV UPDATE on the CAP."
 msgstr ""
+"具备数据互联能力的战斗机可以在FF/DL模式下使用战机间导航更新功能来更新导航数"
+"据。要更新LAT/LONG数据，要先选定近距离飞机的净飞机符号，并在盖子上选择f/f "
+"nav update。这将把挂接飞机的坐标作为自己的飞机坐标输入到INS中。要更新未关闭飞"
+"机上的导航系统，首先获取该飞机上的雷达STT，将STT ED飞机挂在TID上，然后按CAP上"
+"的F/F NAV更新。"
 
 #: ../../source/general.rst:3432
 msgid ""
@@ -11473,10 +11573,12 @@ msgid ""
 "potentially introduce a larger error into your own INS. Both aircraft will "
 "share the same error though."
 msgstr ""
+"通过更新所选飞机的INS惯性导航系统，其校准/漂移量可能会自身的惯性导航系统带来"
+"更大的误差。不过，两架飞机的在交互数据中所共享的误差量是相同的。"
 
 #: ../../source/general.rst:3436
 msgid "Position Marking"
-msgstr ""
+msgstr "位置标记"
 
 #: ../../source/general.rst:3438
 msgid ""
@@ -11486,6 +11588,9 @@ msgid ""
 "bearing, and steering data are available, using the CAP or the navigation "
 "destination control or both."
 msgstr ""
+"要在TID上标记脉冲雷达目标、视觉目标或塔康站的位置，请使用TAC数据类别中的 "
+"SURF TGT 位置。一旦数据显示在TID上，就可以使用CAP或通过控制导航目的地（或者同"
+"时使用两种方式）来获取纬度、经度、距离、方位和转向数据。"
 
 #: ../../source/general.rst:3441
 msgid ""
@@ -11493,34 +11598,36 @@ msgid ""
 "surface target position symbol is repositioned with respect to own aircraft "
 "instead of own aircraft being updated in reference to the surface target."
 msgstr ""
+"不要使用SURF TGT的位置来更新导航计算机。地面目标位置符号会相对于自己的飞机重"
+"新进行定位，而不是参照地面目标更新自己的飞机坐标。"
 
 #: ../../source/general.rst:3443
 msgid "To mark a pulse radar target on the TID, follow these steps:"
-msgstr ""
+msgstr "如果要在TID上标记脉冲雷达目标，请执行以下步骤："
 
 #: ../../source/general.rst:3445
 msgid "Select the SURF TGT button."
-msgstr ""
+msgstr "选择 **SURF TGT** 按钮。"
 
 #: ../../source/general.rst:3446
 msgid "Establish the location via a radar fix."
-msgstr ""
+msgstr "通过雷达定位确定位置。"
 
 #: ../../source/general.rst:3447
 msgid "Select the DDD CURSOR and use the pulse system for radar mapping."
-msgstr ""
+msgstr "选择DDD光标并使用脉冲系统进行雷达测绘。"
 
 #: ../../source/general.rst:3448
 msgid "Designate the point of interest by placing the cursor over that point."
-msgstr ""
+msgstr "将光标放在放置于所要的点上。"
 
 #: ../../source/general.rst:3449
 msgid "Selecting full action."
-msgstr ""
+msgstr "将按钮按入进入第二级。"
 
 #: ../../source/general.rst:3450
 msgid "Select RDR FIX."
-msgstr ""
+msgstr "选择 **RDR FIX**."
 
 #: ../../source/general.rst:3452
 msgid ""
@@ -11530,6 +11637,9 @@ msgid ""
 "latitude, longitude, and steering information will become available for the "
 "Surface Target Waypoint."
 msgstr ""
+"这将显示从挂接点到表面目标的增量。忽略delta并选择fix enable以将表面目标定位在"
+"先前识别的雷达位置上。对于地面目标航路点，将提供非常精确的纬度、经度和转向信"
+"息读数。"
 
 #: ../../source/general.rst:3455
 msgid ""
@@ -11539,6 +11649,9 @@ msgid ""
 "TGT symbol will be displayed on the TID at the computed latitude and "
 "longitude coordinates."
 msgstr ""
+"视觉目标的方法相同，但需要视觉修复。您也可以使用相同的方法并遵循tacan修复过程"
+"来标记tacan站。完成上述任何步骤后，SURF TGT符号将以计算的经纬度坐标显示在TID"
+"上。"
 
 #: ../../source/general.rst:3458
 msgid ""
@@ -11548,6 +11661,9 @@ msgid ""
 "select SURF TGT. The surface target symbol now appears over the hooked point "
 "and its new position will be stored in the WCS computer."
 msgstr ""
+"表面目标符号也可用作目标点。如果之前已输入其位置，则符号将显示在tid上。特殊位"
+"置标记的一种方法是勾住TID上的任何点并选择Surf TGT。表面目标符号现在出现在挂接"
+"点上，其新位置将存储在WCS计算机中。"
 
 #: ../../source/general.rst:3463
 msgid "Attitude and Heading Reference Set (AHRS)"
