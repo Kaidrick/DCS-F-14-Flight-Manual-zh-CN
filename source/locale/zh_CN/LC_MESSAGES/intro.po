@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-13 11:54+0800\n"
+"PO-Revision-Date: 2019-03-13 16:41+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -397,7 +397,7 @@ msgstr "长度"
 
 #: ../../source/intro.rst:140
 msgid "62'8.5\" (~19.1 meters)"
-msgstr "62‘8.5”（约19.1米）"
+msgstr "62'8.5”（约19.1米）"
 
 #: ../../source/intro.rst:142
 msgid "Height"
@@ -469,4 +469,4 @@ msgstr "航程"
 
 #: ../../source/intro.rst:159
 msgid "2,050 NM (~3800 km)"
-msgstr "2,050海里（~3800千米）"
+msgstr "2,050海里（~3,800千米）"
