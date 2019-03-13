@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-13 10:45+0800\n"
-"PO-Revision-Date: 2019-03-13 20:13+0800\n"
+"PO-Revision-Date: 2019-03-14 00:15+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -27,7 +27,7 @@ msgstr ""
 # 例：ID 95 开始的AFCS控制面板
 #: ../../source/cockpit.rst:2
 msgid "Cockpit Overview"
-msgstr "驾驶舱总览"
+msgstr "驾驶舱简介"
 
 #: ../../source/cockpit.rst:9
 msgid "F-14B Cockpit Layout"
@@ -899,7 +899,7 @@ msgstr "方向舵配平开关，用于调整方向舵配平"
 
 #: ../../source/cockpit.rst:407
 msgid "Throttle"
-msgstr "油门"
+msgstr "油门握把"
 
 #: ../../source/cockpit.rst:410
 msgid ""
@@ -1044,7 +1044,7 @@ msgid ""
 msgstr ""
 "油门弧座主要组成部分包括：两个发动机油门控制握把、襟翼控制杆和应急机翼后掠手"
 "柄，另外也包括油门握把上用于控制 HOTAS 系统的按钮和开关。油门行程中的 OFF（关"
-"闭）、IDLE（怠速）和 MIL（军用推力）位置都有限动卡。"
+"闭）、IDLE（慢车）和 MIL（军用推力）位置都有限动卡。"
 
 #: ../../source/cockpit.rst:465
 msgid ""
@@ -1123,8 +1123,8 @@ msgid ""
 "Switch selecting what the fuel quantity tapes on the fuel quantity display "
 "shows. Springloaded to FEED."
 msgstr ""
-"燃油量选择开关，这个滑动弹簧开关用于选择燃油量显示器上显示哪个油箱中的油量。"
-"松开开关后，开关会弹回 FEED（供油油箱）档位。"
+"燃油量选择开关，这个滑动弹簧开关用于选择燃油量条形指示器上显示哪个油箱中的油"
+"量。松开开关后，开关会弹回 FEED（供油油箱）档位。"
 
 #: ../../source/cockpit.rst:0
 msgid "FEED - Shows respective feed and fuselage tank fuel quantity."
@@ -1643,7 +1643,7 @@ msgstr "系统关闭、电源关闭或丢失地面锁定时，雷达高度表会
 
 #: ../../source/cockpit.rst:781
 msgid "Low altitude warning light"
-msgstr "低高度警告灯"
+msgstr "低高度报警灯"
 
 #: ../../source/cockpit.rst:781
 msgid "Red light illuminated when below set altitude warning level."
@@ -1884,7 +1884,7 @@ msgid ""
 "Tape indicating angle of attack (AOA) on a scale of 0 to 30 units. "
 "(Equivalent to -10° to +40° rotation of the AoA probe.)"
 msgstr ""
-"条状迎角指示器指示了飞机的迎角（AoA），范围是 0 至 30 迎角单位（对应迎角探头"
+"条形迎角指示器指示了飞机的迎角（AoA），范围是 0 至 30 迎角单位（对应迎角探头"
 "在 -10° 至 +40° 范围内转动）。"
 
 #: ../../source/cockpit.rst:885
@@ -1948,8 +1948,8 @@ msgid ""
 "Warning light flashes with landing gear not down and locked, flaps below 10° "
 "and either throttle below 85%."
 msgstr ""
-"机轮警告灯。起落架未放下或未锁定，且襟翼放下的角度小于10°，或油门行程小于总行"
-"程的85%时，警告灯亮起。"
+"机轮报警灯。起落架未放下或未锁定，且襟翼放下的角度小于10°，或油门行程小于总行"
+"程的85%时，报警灯亮起。"
 
 #: ../../source/cockpit.rst:927
 msgid "BRAKES"
@@ -1960,7 +1960,7 @@ msgid ""
 "Warning light indicating antiskid or brake failure. Also lights when parking "
 "brake is set."
 msgstr ""
-"机轮刹车警告灯。警告灯亮起时，表示防滑系统或刹车故障。设置机轮刹车也会使警告"
+"机轮刹车报警灯。报警灯亮起时，表示防滑系统或刹车故障。设置机轮刹车也会使报警"
 "灯亮起。"
 
 #: ../../source/cockpit.rst:929
@@ -2014,7 +2014,7 @@ msgid ""
 "and right sides respectively. They indicate the presence of an engine stall "
 "condition in their respective engine."
 msgstr ""
-"HUD 的左侧和右侧分别装有失速警告灯（L STALL 和 R STALL 警告灯）。它们分别指示"
+"HUD 的左侧和右侧分别装有失速报警灯（L STALL 和 R STALL 报警灯）。它们分别指示"
 "对应一侧发动机的压气机失速。"
 
 #: ../../source/cockpit.rst:955 ../../source/cockpit.rst:1055
@@ -2096,7 +2096,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:995
 msgid "HOT TRIG light"
-msgstr "HOT TRIG 警告灯"
+msgstr "HOT TRIG 报警灯"
 
 #: ../../source/cockpit.rst:995
 msgid ""
@@ -2249,13 +2249,13 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1032
 msgid "L FIRE and R FIRE lights"
-msgstr "L FIRE 和 R FIRE 警告灯"
+msgstr "L FIRE 和 R FIRE 报警灯"
 
 #: ../../source/cockpit.rst:1032
 msgid ""
 "Engine fire warning lights. Illuminates when a fire has been detected in the "
 "respective engine."
-msgstr "发动机火警警告灯。发动机起火时，对应故障发动机一侧的警告灯亮起。"
+msgstr "发动机火警报警灯。发动机起火时，对应故障发动机一侧的报警灯亮起。"
 
 #: ../../source/cockpit.rst:1034
 msgid "Turn-and-Slip indicator"
@@ -2387,7 +2387,7 @@ msgid ""
 "Warning light indicating CATCC has aquired aircraft and is transmitting "
 "glidepath information to aircraft."
 msgstr ""
-"警告灯，指示 CATCC（母舰空中交通管制中心）已经获取本机信息，且正在向本机传输"
+"报警灯，指示 CATCC（母舰空中交通管制中心）已经获取本机信息，且正在向本机传输"
 "下滑道信息。"
 
 #: ../../source/cockpit.rst:1088 ../../source/cockpit.rst:3170
@@ -2396,7 +2396,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1088
 msgid "Warning light indicating CATCC is ready to control aircraft."
-msgstr "警告灯，指示 CATCC 已准备控制飞机。"
+msgstr "报警灯，指示 CATCC 已准备控制飞机。"
 
 #: ../../source/cockpit.rst:1090
 msgid "CMD CONTROL"
@@ -2405,7 +2405,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1090
 msgid ""
 "Warning light indicating aircraft is under data link control for landing."
-msgstr "警告灯，指示飞机正由数据链路控制进行着陆。"
+msgstr "报警灯，指示飞机正由数据链路控制进行着陆。"
 
 #: ../../source/cockpit.rst:1092
 msgid "10 SECONDS"
@@ -2417,7 +2417,7 @@ msgid ""
 "commands during landing. Indicates 10 seconds to arrival at the next point "
 "in approach pattern in other modes."
 msgstr ""
-"警告灯，指示 ACL 着舰过程中，数据链路的下滑道信息和指令正根据母舰的持续运动进"
+"报警灯，指示 ACL 着舰过程中，数据链路的下滑道信息和指令正根据母舰的持续运动进"
 "行调整。在其他模式下则表示距离进近航线钟的下一个检查点还有10秒钟。"
 
 #: ../../source/cockpit.rst:1094 ../../source/cockpit.rst:3179
@@ -2430,7 +2430,7 @@ msgid ""
 "seconds during ACL. When not in ACL it indicates no data link messages "
 "during last 10 seconds."
 msgstr ""
-"警告灯，指示 ACL 过程中，未能接收数据链控制的时间超2秒。非 ACL 模式下，警告灯"
+"报警灯，指示 ACL 过程中，未能接收数据链控制的时间超2秒。非 ACL 模式下，报警灯"
 "亮起表示过去的10秒内未接收任何数据链信息。"
 
 #: ../../source/cockpit.rst:1096 ../../source/cockpit.rst:3177
@@ -2442,7 +2442,7 @@ msgid ""
 "Warning light indicating CATCC not ready for ACL, switch to standard voice "
 "procedures."
 msgstr ""
-"警告灯，指示 CATCC 自动航降未就绪，切换至标准的基于音频通讯的进近流程。"
+"报警灯，指示 CATCC 自动航降未就绪，切换至标准的基于音频通讯的进近流程。"
 
 #: ../../source/cockpit.rst:1098
 msgid "A/P REF"
@@ -2452,7 +2452,7 @@ msgstr ""
 msgid ""
 "Warning light indicating autopilot selected but not engaged. Exception "
 "altitude and heading hold."
-msgstr "警告灯，指示已选择自动驾驶，但自动驾驶未启用（高度和航向保持除外）。"
+msgstr "报警灯，指示已选择自动驾驶，但自动驾驶未启用（高度和航向保持除外）。"
 
 #: ../../source/cockpit.rst:1100
 msgid "WAVEOFF"
@@ -2460,7 +2460,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1100
 msgid "Warning light indicating waveoff commanded."
-msgstr "警告灯，指示执行复飞指令。"
+msgstr "报警灯，指示执行复飞指令。"
 
 #: ../../source/cockpit.rst:1102 ../../source/cockpit.rst:1770
 msgid "WING SWEEP"
@@ -2484,7 +2484,7 @@ msgid ""
 "Warning light indicating flap retraction failure with greater than 225 knots "
 "indicated airspeed. Also indicates safe Mach number exceeded."
 msgstr ""
-"警告灯，指示空速超过225节但襟翼故障无法收起。也用于指示飞机空速超过最大安全马"
+"报警灯，指示空速超过225节但襟翼故障无法收起。也用于指示飞机空速超过最大安全马"
 "赫数。"
 
 #: ../../source/cockpit.rst:1106
@@ -2754,12 +2754,12 @@ msgstr "风挡右边框"
 
 #: ../../source/cockpit.rst:1231
 msgid "ECM Warning Lights"
-msgstr "ECM（电子对抗）警告灯光"
+msgstr "ECM（电子对抗）报警灯光"
 
 #: ../../source/cockpit.rst:1234
 msgid ""
 "Warning lights connected to the ALR-67 indicating different types of threats."
-msgstr "这些警告灯与 ALR-67 相连，用于指示不同类型的雷达威胁。"
+msgstr "这些报警灯与 ALR-67 相连，用于指示不同类型的雷达威胁。"
 
 #: ../../source/cockpit.rst:1236
 msgid ""
@@ -2814,7 +2814,7 @@ msgstr ""
 # what is commanded wing-sweep position?
 #: ../../source/cockpit.rst:1270
 msgid "Middle tape shows commanded wing-sweep position."
-msgstr "中间的指示条指示了指令后掠位置。"
+msgstr "中间的条形指示器显示了指令后掠位置。"
 
 #: ../../source/cockpit.rst:1272
 msgid "Rightmost tape shows actual wing-sweep position."
@@ -3665,7 +3665,7 @@ msgstr "灯光亮起表示 AN/ARA-63 通电。"
 
 #: ../../source/cockpit.rst:1708
 msgid "Caution - Advisory Indicator"
-msgstr "注意 - 提示灯光面板"
+msgstr "注意 - 提示灯面板"
 
 #: ../../source/cockpit.rst:1711
 msgid "Main pilot caution panel."
@@ -6272,7 +6272,7 @@ msgstr "威胁提示灯和主注意灯"
 msgid ""
 "Master caution light and various ECM and IFF related advisory and warning "
 "lights."
-msgstr "主注意（Master Caution）灯以及各种 ECM 和 IFF 相关提示 / 警告灯。"
+msgstr "主注意（Master Caution）灯以及各种 ECM 和 IFF 相关提示 / 报警灯。"
 
 #: ../../source/cockpit.rst:2954
 msgid ""
@@ -6319,7 +6319,7 @@ msgid ""
 "Warning light, steady illumination when detecting lockon from a SAM tracking "
 "radar. Flashes when missile launch is detected."
 msgstr ""
-"地空导弹警告灯，灯光稳定亮起表示侦测到 SAM 跟踪雷达锁定，闪烁时表示侦测到导弹"
+"地空导弹报警灯，灯光稳定亮起表示侦测到 SAM 跟踪雷达锁定，闪烁时表示侦测到导弹"
 "发射。"
 
 #: ../../source/cockpit.rst:2964
@@ -6331,7 +6331,7 @@ msgid ""
 "Warning light, steady illumination when detecting lockon from a AAA tracking "
 "radar. Flashes when AAA engagement is detected."
 msgstr ""
-"防空高炮警告灯，灯光稳定亮起表示侦测到 AAA 跟踪雷达锁定，闪烁时表示侦测到防空"
+"防空高炮报警灯，灯光稳定亮起表示侦测到 AAA 跟踪雷达锁定，闪烁时表示侦测到防空"
 "高炮开火。"
 
 #: ../../source/cockpit.rst:2966
@@ -6340,7 +6340,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2966
 msgid "Warning light indicating detection of a continuous wave emitter."
-msgstr "连续波警告灯，灯光亮起表示本机正被连续波信号源照射。"
+msgstr "连续波报警灯，灯光亮起表示本机正被连续波信号源照射。"
 
 #: ../../source/cockpit.rst:2968
 msgid "AI"
@@ -6350,7 +6350,7 @@ msgstr ""
 msgid ""
 "Warning light, steady illumination when detecting lockon from an airborne "
 "interceptor radar."
-msgstr "机载拦截雷达警告灯，灯光稳定亮起表示侦测到 AI 跟踪雷达锁定。"
+msgstr "机载拦截雷达报警灯，灯光稳定亮起表示侦测到 AI 跟踪雷达锁定。"
 
 #: ../../source/cockpit.rst:3003
 msgid "Handle used to manually jettison canopy."

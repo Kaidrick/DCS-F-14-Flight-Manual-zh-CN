@@ -9,6 +9,22 @@
 
 	<br>
 
+
+游戏本地化文件集合包（推荐）
+=============================
+
+**包含所有目前可用的本地化文件。直接解压至DCS World安装目录中，并覆盖原文件。**	
+
+:download:`F-14-localization-pack.zip <download/F-14-localization-pack.zip>`
+
+:注意: 如果下载了本集合包，则无需单独下载下文中的按键设置和驾驶舱提示和任务文件。
+
+
+
+------------------------------
+	
+	
+
 按键设置和驾驶舱提示
 =======================
 
@@ -16,7 +32,7 @@
 ====================================================================================================================     ===========================
 请选择下列安装方式中的一种                                                                                                 安装说明
 ====================================================================================================================     ===========================
-（**推荐**）\ :download:`F-14-cn.zip <download/F-14-cn.zip>`			                                                      下载\*.zip文件，然后将压缩包中的 :code:`CoreMods` 文件夹\ **直接解压至DCS World安装路径的根目录**\ 。
+\ :download:`F-14-cn.zip <download/F-14-cn.zip>`			                                                              下载\*.zip文件，然后将压缩包中的 :code:`Mods` 文件夹\ **直接解压至DCS World安装路径的根目录**\ 。
 																		                                                  :什么是安装路径: 常见安装路径\ :code:`D:\Eagle Dynamics\DCS World` 或 :code:`C:\Program Files\Eagle Dynamics\DCS World` 或 :code:`F:\游戏\DCS World`
 																		                                                  :Steam版怎么办: 找到Steam库路径，如 :code:`C:\Program Files (x86)\Steam\steamapps\common\DCS World` 或 :code:`D:\SteamLibrary\steamapps\common\DCS World`，然后解压至该文件夹中。
 																		
@@ -61,8 +77,17 @@
 =====================    =====================
 训练任务名称               下载
 =====================    =====================
-冷启动                     :download:`F-14B-Training-Start-Up.miz <download/placeholder.ph>`
-CASE I 航降                :download:`F-14B-Training-Case-1.miz <download/placeholder.ph>`
+M61航炮 空对空             :download:`F-14B tutorial AA M61.miz <download/Miz/Training/F-14B tutorial AA M61.miz>`
+CASE I 航降               :download:`F-14B tutorial carrier-based Case1.miz <download/Miz/Training/F-14B tutorial carrier-based Case1.miz>`
+CASE I 弹射起飞            :download:`F-14B tutorial carrier-based Takeoff Case1.miz <download/Miz/Training/F-14B tutorial carrier-based Takeoff Case1.miz>`
+冷启动 飞行员              :download:`F-14B tutorial cold start.miz <download/Miz/Training/F-14B tutorial cold start.miz>`
+导航                      :download:`F-14B tutorial Navigation.miz <download/Miz/Training/F-14B tutorial Navigation.miz>`
+岸基着陆                  :download:`F-14B tutorial Shore-based Landing.miz <download/Miz/Training/F-14B tutorial Shore-based Landing.miz>`
+岸基起飞                  :download:`F-14B tutorial Shore-based Takeoff.miz <download/Miz/Training/F-14B tutorial Shore-based Takeoff.miz>`
+AWG-9 课程1                :download:`F-14B-AWG-9-1.miz <download/Miz/Training/F-14B-AWG-9-1.miz>`
+AWG-9 课程2                :download:`F-14B-AWG-9-2.miz <download/Miz/Training/F-14B-AWG-9-2.miz>`
+AWG-9 课程3                :download:`F-14B-AWG-9-3.miz <download/Miz/Training/F-14B-AWG-9-3.miz>`
+冷启动 RIO                :download:`F-14B-RIO Cold Start.miz <download/Miz/Training/F-14B-RIO Cold Start.miz>`
 =====================    =====================  
 
 下载文件后，将其放入DCS World安装根目录中的对应文件夹，并覆盖原文件。详细路径如下：

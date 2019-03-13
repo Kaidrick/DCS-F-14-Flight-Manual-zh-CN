@@ -2639,7 +2639,7 @@ Two switch hats on the center RIO hand hold used to initiate release of counterm
 
 Detail Data Display Panel
 -------------------------
-.. image:: /images/cockpit/detail/rio/DDD.png
+.. image:: /images/cockpit/detail/rio/ddd.png
 
 Main radar control panel.
 
