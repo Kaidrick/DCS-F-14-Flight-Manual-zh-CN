@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-13 16:41+0800\n"
+"PO-Revision-Date: 2019-03-13 17:17+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -373,7 +373,7 @@ msgstr "翼展（机翼完全展开）"
 
 #: ../../source/intro.rst:134
 msgid "64'1.5\" (~19.5 meters)"
-msgstr "64'1.5\"（约19.5米）"
+msgstr "64' 1.5\"（约19.5米）"
 
 #: ../../source/intro.rst:136
 msgid "Wingspan (Fully Swept Airborne)"
@@ -381,7 +381,7 @@ msgstr "翼展（空中完全后掠）"
 
 #: ../../source/intro.rst:136
 msgid "38'2.5\" (~11.6 meters)"
-msgstr "38'2.5\"（约11.6米）"
+msgstr "38' 2.5\"（约11.6米）"
 
 #: ../../source/intro.rst:138
 msgid "Wingspan (Oversweep)"
@@ -389,7 +389,7 @@ msgstr "翼展（停放机翼后掠）"
 
 #: ../../source/intro.rst:138
 msgid "33'3.5\" (~10.1 meters)"
-msgstr "33'3.5\"（约10.1米）"
+msgstr "33' 3.5\"（约10.1米）"
 
 #: ../../source/intro.rst:140
 msgid "Length"
@@ -397,7 +397,7 @@ msgstr "长度"
 
 #: ../../source/intro.rst:140
 msgid "62'8.5\" (~19.1 meters)"
-msgstr "62'8.5”（约19.1米）"
+msgstr "62' 8.5”（约19.1米）"
 
 #: ../../source/intro.rst:142
 msgid "Height"

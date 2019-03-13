@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="总体设计和系统总览" href="general.html" />
+    <link rel="next" title="总体设计和系统概述" href="general.html" />
     <link rel="prev" title="简介" href="intro.html" /> 
 
   
@@ -89,7 +89,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">驾驶舱总览</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#f-14b-cockpit-layout">F-14B驾驶舱布局</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#f-14b-cockpit-layout">F-14B 驾驶舱布局</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#pilot-cockpit-layout">飞行员驾驶舱布局</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#rio-cockpit-layout">雷达拦截官驾驶舱布局</a></li>
 </ul>
@@ -279,10 +279,10 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="general.html">总体设计和系统总览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general.html">总体设计和系统概述</a></li>
 <li class="toctree-l1"><a class="reference internal" href="weapons.html">武器系统和武器使用总览</a></li>
-<li class="toctree-l1"><a class="reference internal" href="procedures.html">流程</a></li>
-<li class="toctree-l1"><a class="reference internal" href="emergency.html">紧急流程</a></li>
+<li class="toctree-l1"><a class="reference internal" href="procedures.html">正常程序</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emergency.html">应急处置程序</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
@@ -354,7 +354,7 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="general.html" class="btn btn-neutral float-right" title="总体设计和系统总览" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="general.html" class="btn btn-neutral float-right" title="总体设计和系统概述" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="intro.html" class="btn btn-neutral" title="简介" accesskey="p"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
@@ -369,7 +369,7 @@
   <div class="section" id="cockpit-overview">
 <h1>驾驶舱总览<a class="headerlink" href="#cockpit-overview" title="永久链接至标题">¶</a></h1>
 <div class="section" id="f-14b-cockpit-layout">
-<h2>F-14B驾驶舱布局<a class="headerlink" href="#f-14b-cockpit-layout" title="永久链接至标题">¶</a></h2>
+<h2>F-14B 驾驶舱布局<a class="headerlink" href="#f-14b-cockpit-layout" title="永久链接至标题">¶</a></h2>
 <div class="section" id="pilot-cockpit-layout">
 <span id="pilotlayout"></span><h3>飞行员驾驶舱布局<a class="headerlink" href="#pilot-cockpit-layout" title="永久链接至标题">¶</a></h3>
 <img alt="_images/pilotcockpit.png" src="_images/pilotcockpit.png" />
@@ -5034,8 +5034,8 @@
 </tr>
 <tr class="row-even"><td>NO MSG</td>
 <td><div class="first last line-block">
-<div class="line">No message at this time, indicates presence of data link communication</div>
-<div class="line">while not receiving a command.</div>
+<div class="line">无信息，表示数据链通信正常，</div>
+<div class="line">但未接受指令。</div>
 </div>
 </td>
 </tr>
@@ -5062,8 +5062,8 @@
 </tr>
 <tr class="row-even"><td>NOT CMD</td>
 <td><div class="first last line-block">
-<div class="line">Ignore currently received heading, speed and altitude.</div>
-<div class="line">Also means valid command BIT not yet available.</div>
+<div class="line">无视当前接收到的航向、速度和高度信息。</div>
+<div class="line">这也表示有效指令 BIT 暂不可用。</div>
 </div>
 </td>
 </tr>
@@ -5084,8 +5084,8 @@
 </tr>
 <tr class="row-even"><td>DROP</td>
 <td><div class="first last line-block">
-<div class="line">Command to release weapon in data link A/G attack,</div>
-<div class="line">manually or automatically if in data link attack mode.</div>
+<div class="line">接收指令使用数据链进行对地攻击，</div>
+<div class="line">如果选用数据链攻击模式，则使用自动投放，否则采用手动投放。</div>
 </div>
 </td>
 </tr>
@@ -5106,8 +5106,8 @@
 </tr>
 <tr class="row-even"><td>ACL RDY</td>
 <td><div class="first last line-block">
-<div class="line">ACL has locked onto aircraft APN-154 beacon and is transmitting zero pitch and bank signals.</div>
-<div class="line">Glideslope information is now available to pilot.</div>
+<div class="line">ACL 已锁定本机的 APN-154 信标，且正在传输引导讯号。</div>
+<div class="line">飞行员现在可以看见下滑道信息。</div>
 </div>
 </td>
 </tr>
@@ -5116,8 +5116,8 @@
 </tr>
 <tr class="row-even"><td>10 SEC</td>
 <td><div class="first last line-block">
-<div class="line">Indicates 10 seconds to next action or waypoint.</div>
-<div class="line">In ACL indicates that ships motion is taken into account for ACL.</div>
+<div class="line">表示距离下个自动驾驶行为或航路点还有10秒。</div>
+<div class="line">在 ACL 中则表示数据链路的下滑道信息和指令正根据母舰的持续运动进行调整。</div>
 </div>
 </td>
 </tr>
@@ -5850,7 +5850,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="general.html" class="btn btn-neutral float-right" title="总体设计和系统总览" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="general.html" class="btn btn-neutral float-right" title="总体设计和系统概述" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="intro.html" class="btn btn-neutral" title="简介" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> 上一页</a>

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-13 11:53+0800\n"
+"PO-Revision-Date: 2019-03-13 17:17+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/emergency.rst:2
 msgid "Emergency Procedures"
-msgstr "紧急流程"
+msgstr "应急处置程序"
 
 #: ../../source/emergency.rst:5
 msgid "Engine Airstart"
@@ -32,7 +32,7 @@ msgstr "发动机空中启动"
 msgid ""
 "The F110-GE-400 engines can be airstarted one by one or both at the same "
 "time."
-msgstr "两台 F110-GE-400 发动机可以依次或同时进行空中启动"
+msgstr "两台 F110-GE-400 发动机可以依次或同时进行空中启动。"
 
 # 狐：Spool-down即Run-down，即发动机叶片在发动机停车后还在自行旋转的状态。Spool-down time是发动机关闭到叶片完全停止转动所需的时间。基于以上概念，我将Spooldown翻译为“脱机自转”，以区别“停转”这样完全停止的状态。希望指正。
 # 另外，AFTC主要和次要模式，根据第七行，我括号内增加了PRI和SEC
@@ -60,7 +60,7 @@ msgid ""
 "significant spooldown has occured. This is the fastest way to restart an "
 "engine."
 msgstr ""
-"发动机停机之后，应在发动机转速显著降低之前尝试脱机自转重启。这是重启发动机最"
+"发动机停车之后，应在发动机转速显著降低之前尝试脱机自转重启。这是重启发动机最"
 "快的方法。"
 
 #: ../../source/emergency.rst:19

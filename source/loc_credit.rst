@@ -93,7 +93,7 @@ DCS: F-14 训练任务
 		:翻译:
 			Cai, Jiutian
 			
-	* CASE 1 航降
+	* CASE I 航降
 	
 		:翻译:
 			Cai, Jiutian

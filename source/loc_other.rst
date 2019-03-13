@@ -20,7 +20,7 @@
 																		                                                  :什么是安装路径: 常见安装路径\ :code:`D:\Eagle Dynamics\DCS World` 或 :code:`C:\Program Files\Eagle Dynamics\DCS World` 或 :code:`F:\游戏\DCS World`
 																		                                                  :Steam版怎么办: 找到Steam库路径，如 :code:`C:\Program Files (x86)\Steam\steamapps\common\DCS World` 或 :code:`D:\SteamLibrary\steamapps\common\DCS World`，然后解压至该文件夹中。
 																		
-\ :download:`F-14-cn.po <download/F-14-cn.po>` :download:`F-14-cn.mo <download/F-14-cn.mo>`                               **除非需要自行编辑文字，否则不推荐这种方法**
+\ :download:`F-14-cn.po <download/F-14-cn.po>` / :download:`F-14-cn.mo <download/F-14-cn.mo>`                               **除非需要自行编辑文字，否则不推荐这种方法**
 
                                                                                                                           下载*.po文件，然后：
 
