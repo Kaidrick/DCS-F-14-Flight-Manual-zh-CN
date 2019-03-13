@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 19:24+0800\n"
-"PO-Revision-Date: 2019-03-03 12:50+0800\n"
+"PO-Revision-Date: 2019-03-13 10:29+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1937,7 +1937,7 @@ msgstr ""
 
 #: ../../source/accr.rst:409
 msgid "__Pulse Radar Slaved"
-msgstr "脉冲雷达受役"
+msgstr "脉冲雷达随动"
 
 #: ../../source/accr.rst:411
 msgid "PS"

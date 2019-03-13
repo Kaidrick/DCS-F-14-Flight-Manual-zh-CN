@@ -24,3 +24,13 @@ tape 条形指示器
 油门 油门握把？
 
  elevation vernier 
+ 
+油门 - 慢车，发动机 - 怠速
+
+通用设计和系统概述
+
+驾驶舱总览中 DDD图片有误
+
+-----
+
+tutorial video --> D.ACE

@@ -246,7 +246,7 @@
 <p>选择航炮作为武器时，HUD 底部会显示一个大写的“G”标识，这个标识下方显示了以百发为单位的剩余炮弹数量。</p>
 <img alt="_images/rounds.png" src="_images/rounds.png" />
 <p>除了 HUD 上的指示外，飞行员右垂直面板上的剩余弹药指示器也显示了剩余弹药数量。指示器从650开始倒数，但可以通过旋转指示器下方的旋钮来重新调整至所需的炮弹剩余数量。</p>
-<a class="reference internal image-reference" href="_images/rate.png"><img alt="_images/rate.png" class="align-left" src="_images/rate.png" style="width: 125.46000000000001px; height: 117.64000000000001px;" /></a>
+<a class="reference internal image-reference" href="_images/rate.png"><img alt="_images/rate.png" class="align-left" src="_images/rate.png" style="width: 150px; height: 150px;" /></a>
 <p>航炮的两种模式对应的射击速率分别是每分钟4000发和每分钟6000发。低射速模式通常用于对地攻击，高射速模式用于对空攻击。航炮射速通常会根据对地或对空模式自动设定，但也可以通过 ACM 面板的 GUN RATE（航炮射速）开关切换，面板上也会显示当前选定的模式。选择 ACM 模式会自动选择航炮高射速模式。虽然航炮射击不经过 WCS，但 WCS 可以在 HUD 中显示射击标识来辅助飞行员瞄准，以提升命中率。航炮有两种可用的空对空和空对地瞄准标识。空对空模式下的两种可用瞄准标识分别是手动瞄准和 RTGS（实时航炮准星）。</p>
 <p><strong>手动空对空准星</strong></p>
 <img alt="_images/gunhudmanual.png" src="_images/gunhudmanual.png" />
@@ -262,7 +262,7 @@
 <p>除了根据目标位置解算航炮射击诸元外，RTGS 准星还将计算并显示目标距离上航炮炮弹通过的位置与目标实际位置之间的偏差（注：目标与本机的当前距离称为“目标距离”，航炮炮弹的飞行距离与目标距离相同时，炮弹所处的位置叫做 BATR，即目标距离上的炮弹位置，见<a class="reference internal" href="accr.html"><span class="doc">首字母缩写和简称</span></a>）。当 WCS 计算炮弹已飞行至目标位置时，原本用作指示目标位置的菱形标识会切换为指示目标距离上炮弹的位置，同时，菱形指示框会闪烁。</p>
 <p>利用这个标识便可以判断出，为了击中目标，炮弹需要通过的位置。如果航炮成功命中目标，菱形标识应正好位于目标上方并闪烁，表示炮弹穿过了目标位置。</p>
 <p><strong>手动空对地航炮准星</strong></p>
-<a class="reference internal image-reference" href="_images/attkmode.png"><img alt="_images/attkmode.png" class="align-right" src="_images/attkmode.png" style="width: 290.0px; height: 259.5px;" /></a>
+<a class="reference internal image-reference" href="_images/attkmode.png"><img alt="_images/attkmode.png" class="align-left" src="_images/attkmode.png" style="width: 290.0px; height: 259.5px;" /></a>
 <p>手动空对地准星的工作方式与手动空对空准星相同，只不过它是由 RIO 使用左垂直面板上的武器控制面板 ATTK MODE 旋钮开关设置的。选择空对地模式时，通过 ATTK MODE 拨扭选择 MAN 档位， HUD 中会显示与空对空航炮准星相同的标识，唯一的区别是，HUD 右侧增加了当前雷达高度指示。航炮准星的提前量需要考虑到空速、目标距离和俯冲角度，使用手动空对地模式进行攻击时，应根据这些数值，参考预制的航炮攻击参数进行对照设置。</p>
 <p><strong>计算机/飞行员模式</strong></p>
 <img alt="_images/guncomputerpilot.png" src="_images/guncomputerpilot.png" />
@@ -298,7 +298,7 @@
 <p>除了导弹射程，导引头和战斗部的各种改进之外，不同版本之间的主要区别在于 AIM-7E 仅能通过连续波（CW）照射制导，而 AIM-7F 和 AIM-7M 可以通过连续波也可以通过脉冲多普勒照射来引导。</p>
 <div class="section" id="missile-preparation">
 <h4>导弹发射准备<a class="headerlink" href="#missile-preparation" title="永久链接至标题">¶</a></h4>
-<a class="reference internal image-reference" href="_images/mslprep.png"><img alt="_images/mslprep.png" class="align-right" src="_images/mslprep.png" style="width: 173.4px; height: 174.6px;" /></a>
+<a class="reference internal image-reference" href="_images/mslprep.png"><img alt="_images/mslprep.png" class="align-left" src="_images/mslprep.png" style="width: 125px; height: 125px;" /></a>
 <p>发射 AIM-7 导弹前，需要在前座飞行员 ACM 面板上选择 MSL PREP 按钮开关来开始准备程序。这个指令会让武器控制系统开始准备 AIM-7 和 AIM-54 导弹。</p>
 <p>准备 AIM-7 发射程序时，武器控制系统会为导弹预热电子元件和陀螺仪提供所需电力。它还会通过挂架轨道后端的发射器向导弹尾部的接收器输入连续波雷达视频。此视频用于将 AIM-7 导弹调整到 RIO 在 DDD 面板选定的连续波频率上。当一枚导弹调校并准备完毕时，ACM 面板对应的导弹状态窗将变成白色，表示对应挂架上的导弹已经准备完毕。</p>
 </div>
@@ -331,7 +331,7 @@
 <p>F-14 可以在 挂架 1A 和 1B 以及 挂架 8A 和 8B 上携带 AIM-9 导弹。1号挂架和8号挂架是机翼翼套挂架，每个挂架可携带两枚 AIM-9 导弹，总计四枚。挂架 1A 和 8A 是专门用于仅携带 AIM-9 的挂架，并且通常仅携带两枚，让挂架 1B 和 8B 挂载其他弹药。</p>
 <div class="section" id="id1">
 <h4>导弹发射准备<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h4>
-<a class="reference internal image-reference" href="_images/swcool.png"><img alt="_images/swcool.png" class="align-left" src="_images/swcool.png" style="width: 117.9px; height: 118.35000000000001px;" /></a>
+<a class="reference internal image-reference" href="_images/swcool.png"><img alt="_images/swcool.png" class="align-left" src="_images/swcool.png" style="width: 100px; height: 100px;" /></a>
 <p>发射 AIM-9 前需要启用引导头冷却。按下飞行员 ACM 面板的 SW COOL 开关，或在相同面板选择 ACM 模式来启用引导头冷却。此指令会冷却导弹引导头，导弹状态会立刻显示就绪，但使引导头发挥全部性能需要进行至少60秒冷却。</p>
 </div>
 <div class="section" id="seeker-head-modes">
@@ -345,9 +345,12 @@
 <p>通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可以循环切换用于发射的 AIM-9 导弹，ACM 面板相应挂架状态窗口中的棋图案指示当前选中的导弹。使用 AIM-9 时，HUD 使用菱形指示框指示跟踪目标，使用准星（十字准线）指示当前导引头位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、R<sub>min</sub>（最小距离）和 R<sub>max</sub>（最大距离）。如果 WCS 有跟踪目标，则 VDI，DDD 和 TID 显示攻击制导符。</p>
 <p>未激活 ACM 模式时，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM 功能（无扫描功能）的基础瞄准线模式。在此模式中飞行员将 ADL 对准目标，当声音提示响起时开火。</p>
 <p>如果未使用 BRSIT 开关，或 ACM 模式处于激活状态，AIM-9 将使用 SEAM 进行前文所述的双 D 形扫描。如果 WCS 有跟踪目标，引导头会扫描雷达或 TCS 视线/瞄准线周围，否则导弹引导头将扫描 ADL 周围。</p>
-<a class="reference internal image-reference" href="_images/seamlock.png"><img alt="_images/seamlock.png" class="align-right" src="_images/seamlock.png" style="width: 139.0px; height: 149.5px;" /></a>
+<a class="reference internal image-reference" href="_images/seamlock.png"><img alt="_images/seamlock.png" class="align-left" src="_images/seamlock.png" style="width: 100px; height: 100px;" /></a>
 <p>飞行员可以按下左油门握把上的 CAGE/SEAM 按钮来使用 SEAM 模式锁定目标。这会点亮 ACM 面板的 SEAM LOCK 灯并将引导头解锁4.5秒，允许它跟踪引导头视场内的目标。如果未探测到红外信号源，则导弹引导头会重新锁定，且 SEAM LOCK 灯熄灭。</p>
 <p>如果成功锁定，蜂鸣提示音将持续响起，SEAM LOCK 灯保持点亮，飞行员按下驾驶杆扳机来发射导弹。发射后，下一枚 AIM-9 将被自动选中。</p>
+<iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/4m-Q02gxFEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 </div>
 <div class="section" id="aim-54-phoenix">
@@ -565,6 +568,9 @@
 <p>每个 LAU-10 吊舱可以装载4枚“祖尼”火箭弹，这个吊舱可以使用两种齐射模式开火，从所有火箭弹巢中发射一枚，或发射所有火箭弹。</p>
 <p>通过使用 TER，F-14B“雄猫”可以在 1B、3、6 和 8B 挂架上携带 LAU-10 火箭弹吊舱，每个 TER 最多可容纳两个（火箭弹）吊舱，但 3 号和 6 号挂架除外，否则会与相邻挂架上的（火箭弹）吊舱冲突。使用 TER 是为了增加火箭弹吊舱之间的间距，以保证火箭弹安全发射。然而，之所以不在 TER 上挂满三个吊舱的原因是，如果在翼套挂架上连接 TER，内挂架会与主起落架冲突，而 3 号和 6 号挂架上的 TER，如果内侧挂点连接吊舱则会与机身冲突。</p>
 <p>“祖尼”火箭由 RIO 使用武器面板设置，投放参数和选项与普通炸弹一致，投放模式（DLVY 模式）开关用于配置一次开火中用于齐射火箭弹的吊舱的数量。</p>
+<iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/wftck0C3fJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="bdu-33-practice-bombs">
 <h3>BDU-33 训练弹<a class="headerlink" href="#bdu-33-practice-bombs" title="永久链接至标题">¶</a></h3>

@@ -28,13 +28,17 @@ The indicator counts down from 650 but can manually be reset by rotating the kno
 
 .. image:: /images/weapons/rate.png
     :align: left
-    :scale: 34%
+    :width: 150 px
+    :height: 150 px
 
 The gun is capable of a 4 000 rpm or 6 000 rpm mode. The lower rate normally used for air-to-ground engagement and the higher rate for air-to-air engagement.
 The gun rate is selected by the GUN RATE switch on the ACM which also indicates selected option. Selection of ACM will set it to high automatically.
 The WCS can however provide symbology on the HUD to increase gun accuracy.
 For both air-to-air and air-to-ground modes the gun has two sights available. For air-to-air it's the manual sight and the RTGS (real-time gun sight).
 
+.. raw:: latex
+
+    \newpage
 
 **Manual Air-to-Air Sight**
 
@@ -47,6 +51,9 @@ The manual piper is adjustable to enable selection of desired lead. The GUN ELEV
 
 .. image:: /images/weapons/gunelevation.png
 
+.. raw:: latex
+
+    \newpage
 
 **Real-Time Gunsight (RTGS)**
 
@@ -70,10 +77,14 @@ This is also indicated by the diamond flashing.
 Using this symbology it's possible to see where the target would have needed to be to be hit by the bullets.
 If the gun engagement was executed successfully this means that the diamond should still be on top of the target, blinking, indicating that the bullets passed through the target's location.
 
+.. raw:: latex
+
+    \newpage
+
 **Manual Air-to-Ground Sight**
 
 .. image:: /images/weapons/attkmode.png
-    :align: right
+    :align: left
     :scale: 50%
 
 The manual air-to-ground sight works and looks the same way as the manual air-to-air sight except that it's set by the RIO using the ATTK MODE selector on the armament control panel that's located on the RIO left vertical panel.
@@ -156,8 +167,9 @@ Missile Preparation
 -------------------
 
 .. image:: /images/weapons/mslprep.png
-    :align: right
-    :scale: 60%
+    :align: left
+    :width: 125 px
+    :height: 125 px
 
 Before launch the AIM-7 missiles need to be prepared by selection of the MSL PREP-ON pushbutton on the pilot ACM panel.
 This commands the WCS to start missile preparation for the AIM-7 and AIM-54.
@@ -229,12 +241,16 @@ Missile Preparation
 
 .. image:: /images/weapons/swcool.png
     :align: left
-    :scale: 45%
+    :width: 100 px
+    :height: 100 px
 
 The cooling of the AIM-9 seeker head needs to be enabled before launch.
 This is done by pressing the SW COOL switch on the pilot ACM panel or by selecting the ACM mode on the same panel.
 This commands cooling of the missiles seeker head, the missile will immediately show ready but full seeker head performance will take at least 60 seconds.
 
+.. raw:: latex
+
+    \newpage
 
 Seeker Head Modes
 -----------------
@@ -249,6 +265,9 @@ The AIM-9 on the F-14 can still use the old boresight mode where the seeker head
 This seeker scan is along a back-to-back double-D scan pattern, basically a scan cone about 6° wide covered in around 3 seconds. (Pictured above.)
 Like in all Sidewinders target detection is indicated by an aural tone. That growling tone is present while scanning but increases in intensity while the seeker is looking at an IR-source.
 
+.. raw:: latex
+
+    \newpage
 
 Missile Operation
 -----------------
@@ -266,8 +285,9 @@ If the BRSIT switch is not used or the ACM mode is active the AIM-9 will use the
 If a WCS target is present the seeker head will scan around the radar or TCS line of sight, otherwise the missile will scan around the ADL.
 
 .. image:: /images/weapons/seamlock.png
-    :align: right
-    :scale: 50%
+    :align: left
+    :height: 100 px
+    :width: 100 px
 
 To enable lock-on to a target in SEAM the pilot depresses the CAGE/SEAM pushbutton on the left throttle.
 This illuminates the SEAM LOCK light on the ACM panel and uncages the seeker for 4.5 seconds and allows it to track a target present in the seeker field of view.
@@ -276,6 +296,15 @@ If no IR sources is found the missile is again caged and the SEAM LOCK light is 
 If lock-on is successful the aural tone will remain and the SEAM LOCK light stays illuminated allowing the pilot to launch the missile by pressing the stick trigger.
 After launch the next AIM-9 will automatically be selected.
 
+.. raw:: html
+
+    <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/4m-Q02gxFEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
+
+.. raw:: latex
+
+    \newpage
 
 AIM-54 Phoenix
 ==============
@@ -621,6 +650,12 @@ The TERs are used to gain separation from the station for safe rocket firing and
 and on stations 3 and 6 with the fuselage.
 
 The Zuni rockets are set up for launch by the RIO on the armament panel as with bombs, the delivery mode (DLVY MODE) switches being used to configure how many pods to activate at a time.
+
+.. raw:: html
+
+    <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/wftck0C3fJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
 
 
 BDU-33 Practice Bombs

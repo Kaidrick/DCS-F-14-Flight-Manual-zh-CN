@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-11 20:17+0800\n"
+"PO-Revision-Date: 2019-03-13 11:53+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3078,11 +3078,11 @@ msgstr "用于控制显示器的亮度。"
 
 #: ../../source/cockpit.rst:1265 ../../source/cockpit.rst:2728
 msgid "Canopy Jettison Handle"
-msgstr "驾驶舱盖抛离手柄"
+msgstr "座舱盖抛离手柄"
 
 #: ../../source/cockpit.rst:1268
 msgid "Used to jettison canopy manually."
-msgstr "用于手动抛离驾驶舱盖。"
+msgstr "用于手动抛离座舱盖。"
 
 #: ../../source/cockpit.rst:1274 ../../source/cockpit.rst:2737
 msgid "Right Knee Panel"
@@ -3863,7 +3863,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1575
 msgid "Caution light indicating that canopy is not down and locked."
-msgstr "“舱盖” 注意灯，灯亮表示驾驶舱盖未关闭或未锁定。"
+msgstr "“舱盖” 注意灯，灯亮表示座舱盖未关闭或未锁定。"
 
 #: ../../source/cockpit.rst:1577
 msgid "BINGO"
@@ -4630,7 +4630,7 @@ msgstr "VTR - 录像机"
 
 #: ../../source/cockpit.rst:1843 ../../source/cockpit.rst:3241
 msgid "Canopy Defog/Cabin Air Lever"
-msgstr "驾驶舱盖除雾 / 座舱通风气流调节拉杆"
+msgstr "座舱盖除雾 / 座舱通风气流调节拉杆"
 
 #: ../../source/cockpit.rst:1846 ../../source/cockpit.rst:3244
 msgid ""
@@ -4647,7 +4647,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1853 ../../source/cockpit.rst:3251
 msgid "Canopy Control Handle"
-msgstr "驾驶舱盖控制手柄"
+msgstr "座舱盖控制手柄"
 
 #: ../../source/cockpit.rst:1856
 msgid ""
@@ -4656,7 +4656,7 @@ msgid ""
 "containing the handle mechanism and the handle position texts. The canopy "
 "control handle is duplicated in the RIO cockpit."
 msgstr ""
-"驾驶舱右侧舱壁上的舱盖控制手柄用于操作驾驶舱盖。这个手柄安装在标有手柄位置标"
+"驾驶舱右侧舱壁上的舱盖控制手柄用于操作座舱盖。这个手柄安装在标有手柄位置标"
 "识、内置舱盖控制机构的控制盒下方。RIO 驾驶舱内也有一个相同的舱盖控制手柄。"
 
 #: ../../source/cockpit.rst:1863 ../../source/cockpit.rst:3261
@@ -4667,7 +4667,7 @@ msgstr ""
 msgid ""
 "Closes the canopy using boost, used during cold weather or with a strong "
 "headwind."
-msgstr "使用助力模式关闭驾驶舱盖，用于低温或强逆风条件下。"
+msgstr "使用助力模式关闭座舱盖，用于低温或强逆风条件下。"
 
 #: ../../source/cockpit.rst:1865 ../../source/cockpit.rst:3263
 msgid "CLOSE"
@@ -4675,7 +4675,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1865 ../../source/cockpit.rst:3263
 msgid "Closes the canopy, default position during flight."
-msgstr "关闭驾驶舱盖，这是飞行中舱盖控制手柄的默认位置。"
+msgstr "关闭座舱盖，这是飞行中舱盖控制手柄的默认位置。"
 
 #: ../../source/cockpit.rst:1867 ../../source/cockpit.rst:3265
 msgid "HOLD"
@@ -4683,7 +4683,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1867 ../../source/cockpit.rst:3265
 msgid "Holds canopy at current position for any position other than closed."
-msgstr "将驾驶舱盖保持在非关闭位置外的当前位置。"
+msgstr "将座舱盖保持在非关闭位置外的当前位置。"
 
 #: ../../source/cockpit.rst:1869 ../../source/cockpit.rst:3267
 msgid "OPEN"
@@ -4691,7 +4691,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1869 ../../source/cockpit.rst:3267
 msgid "Opens the canopy."
-msgstr "开启驾驶舱盖"
+msgstr "开启座舱盖"
 
 #: ../../source/cockpit.rst:1871 ../../source/cockpit.rst:3269
 msgid "AUX OPEN"
@@ -4699,7 +4699,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1871 ../../source/cockpit.rst:3269
 msgid "Allows manual opening of the canopy if system pressure is too low."
-msgstr "允许系统液压过低时手动开启驾驶舱盖。"
+msgstr "允许系统液压过低时手动开启座舱盖。"
 
 #: ../../source/cockpit.rst:1875
 msgid "F-14B RIO Cockpit"
@@ -6398,7 +6398,7 @@ msgstr "机载拦截雷达警告灯，灯光稳定亮起表示侦测到 AI 跟�
 
 #: ../../source/cockpit.rst:2731
 msgid "Handle used to manually jettison canopy."
-msgstr "用于手动抛离驾驶舱盖。"
+msgstr "用于手动抛离座舱盖。"
 
 #: ../../source/cockpit.rst:2742
 msgid "Caution-Advisory Panel"
@@ -6444,7 +6444,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2756
 msgid "Caution light indicating canopy not down and locked."
-msgstr "“驾驶舱盖”注意灯，灯光亮起表示驾驶舱盖未降下并锁定。"
+msgstr "“座舱盖”注意灯，灯光亮起表示座舱盖未降下并锁定。"
 
 # Fuse High Voltage
 #: ../../source/cockpit.rst:2758
@@ -7740,7 +7740,7 @@ msgid ""
 "containing the handle mechanism and the handle position texts. The canopy "
 "control handle is duplicated in the pilot cockpit."
 msgstr ""
-"驾驶舱右侧舱壁上的舱盖控制手柄用于操作驾驶舱盖。这个手柄安装在标有手柄位置标"
+"驾驶舱右侧舱壁上的舱盖控制手柄用于操作座舱盖。这个手柄安装在标有手柄位置标"
 "识、内置舱盖控制机构的控制盒下方。飞行员驾驶舱内也有一个相同的舱盖控制手柄。"
 
 #~ msgid "__Label"

@@ -175,135 +175,142 @@ Prestart
 
     <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/ws1GxPG2ZXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 1.    Order plane captain to connect and apply starter air                        | Wait for confirmation.                                            |
-|       and apply external power.                                                   |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 2.    If wings are not in OV SWP:                                                 |                                                                   |
-|                                                                                   |                                                                   |
-|   *   | WING SWEEP DRIVE NO. 1 and WG SWP DRIVE NO 2/MANUV FLAP cb's (LE1, LE2)   |                                                                   |
-|       | - Pull.                                                                   |                                                                   |
-|   *   | Emergency WINGSWEEP handle                                                |                                                                   |
-|       | - Extend and match captain bars with wing position tape.                  | | **CAUTION**                                                     |
-|                                                                                   | | Wings will move to emergency handle position regardless of      |
-|                                                                                   | | wing-sweep circuit-breaker (cb) position.                       |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 3. ICS - Check.                                                                   |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 4. Landing gear indicator and transition light - Check.                           | Check gear position indication down and                           |
-|                                                                                   | transition light off.                                             |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 5. MASTER TEST switch - Check.                                                    | |                                                                 |
-|                                                                                   | |                                                                 |
-|   *   | LTS - Check that all warning, caution and advisory lights illuminate.     | | Coordinate with RIO.                                            |
-|       |                                                                           | | Set brightness of the ACM panel and indexer lights during test. |
-|       |                                                                           | | The DATA LINK switch must be on to check DDI lights.            |
-|   *   | FIRE DET/EXT - Check that L and R FIRE and GO light illuminate.           | |                                                                 |
-|   *   | INST - Check for following responses on instruments after 5 secs:         | |                                                                 |
-|                                                                                   | |                                                                 |
-|       *   RPM - 96%.                                                              | |                                                                 |
-|       *   EGT - 960 °C.                                                           | |                                                                 |
-|       *   FF - 10500 Pph.                                                         | |                                                                 |
-|       *   AOA - 18±5.                                                             | | Makes L STALL and R STALL warning lights flash.                 |
-|       *   Wing sweep - 45°±2.5°.                                                  | |                                                                 |
-|       *   FUEL QTY - 2000±200 Pounds.                                             | |                                                                 |
-|       *   Oxygen quantity - 2 Liters.                                             | |                                                                 |
-|       *   L and R FUEL FLOW lights - Illuminated.                                 | |                                                                 |
-|                                                                                   | | Verify RIO FUEL QTY.                                            |
-|       *   MASTER TEST switch - OFF.                                               |                                                                   |
-|                                                                                   |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 6.    Ejection seats - Armed.                                                     | Verify RIO seats armed.                                           |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 7.    CANOPY handle - Close.                                                      |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 8.    ACM panel - Set.                                                            |                                                                   |
-|                                                                                   |                                                                   |
-|   *   Gun rate - Set and check rounds remaining.                                  |                                                                   |
-|   *   SW COOL - OFF.                                                              |                                                                   |
-|   *   MSL PREP - OFF.                                                             |                                                                   |
-|   *   MSL MODE - NORM.                                                            |                                                                   |
-|   *   Station loading status windows - Check.                                     | Verify consistency with loaded armaments.                         |
-|                                                                                   |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 9.    EMERG STORES JETT pushbutton light - Out.                                   |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 10.   LADDER light - Out.                                                         | Order plane captain to stow boarding ladder and steps.            |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
-| 11.   Inform RIO - Ready to start.                                                |                                                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+|
+    
+.. table::
+    :class: longtable
+    
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 1.    Order plane captain to connect and apply starter air                        | Wait for confirmation.                                            |
+    |       and apply external power.                                                   |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 2.    If wings are not in OV SWP:                                                 |                                                                   |
+    |                                                                                   |                                                                   |
+    |   *   | WING SWEEP DRIVE NO. 1 and WG SWP DRIVE NO 2/MANUV FLAP cb's (LE1, LE2)   |                                                                   |
+    |       | - Pull.                                                                   |                                                                   |
+    |   *   | Emergency WINGSWEEP handle                                                |                                                                   |
+    |       | - Extend and match captain bars with wing position tape.                  | | **CAUTION**                                                     |
+    |                                                                                   | | Wings will move to emergency handle position regardless of      |
+    |                                                                                   | | wing-sweep circuit-breaker (cb) position.                       |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 3. ICS - Check.                                                                   |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 4. Landing gear indicator and transition light - Check.                           | Check gear position indication down and                           |
+    |                                                                                   | transition light off.                                             |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 5. MASTER TEST switch - Check.                                                    | |                                                                 |
+    |                                                                                   | |                                                                 |
+    |   *   | LTS - Check that all warning, caution and advisory lights illuminate.     | | Coordinate with RIO.                                            |
+    |       |                                                                           | | Set brightness of the ACM panel and indexer lights during test. |
+    |       |                                                                           | | The DATA LINK switch must be on to check DDI lights.            |
+    |   *   | FIRE DET/EXT - Check that L and R FIRE and GO light illuminate.           | |                                                                 |
+    |   *   | INST - Check for following responses on instruments after 5 secs:         | |                                                                 |
+    |                                                                                   | |                                                                 |
+    |       *   RPM - 96%.                                                              | |                                                                 |
+    |       *   EGT - 960 °C.                                                           | |                                                                 |
+    |       *   FF - 10500 Pph.                                                         | |                                                                 |
+    |       *   AOA - 18±5.                                                             | | Makes L STALL and R STALL warning lights flash.                 |
+    |       *   Wing sweep - 45°±2.5°.                                                  | |                                                                 |
+    |       *   FUEL QTY - 2000±200 Pounds.                                             | |                                                                 |
+    |       *   Oxygen quantity - 2 Liters.                                             | |                                                                 |
+    |       *   L and R FUEL FLOW lights - Illuminated.                                 | |                                                                 |
+    |                                                                                   | | Verify RIO FUEL QTY.                                            |
+    |       *   MASTER TEST switch - OFF.                                               |                                                                   |
+    |                                                                                   |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 6.    Ejection seats - Armed.                                                     | Verify RIO seats armed.                                           |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 7.    CANOPY handle - Close.                                                      |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 8.    ACM panel - Set.                                                            |                                                                   |
+    |                                                                                   |                                                                   |
+    |   *   Gun rate - Set and check rounds remaining.                                  |                                                                   |
+    |   *   SW COOL - OFF.                                                              |                                                                   |
+    |   *   MSL PREP - OFF.                                                             |                                                                   |
+    |   *   MSL MODE - NORM.                                                            |                                                                   |
+    |   *   Station loading status windows - Check.                                     | Verify consistency with loaded armaments.                         |
+    |                                                                                   |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 9.    EMERG STORES JETT pushbutton light - Out.                                   |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 10.   LADDER light - Out.                                                         | Order plane captain to stow boarding ladder and steps.            |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
+    | 11.   Inform RIO - Ready to start.                                                |                                                                   |
+    +-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
 
 Engine Start
 ============
 
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 1.    Check AIR SOURCE switch is set to OFF.                                              |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 2.    Set HYD TRANSFER PUMP switch to OFF. (Guard up)                                     |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 3.    | EMERG FLT HYD switch to LOW,                                                      |                                                                       |
-|       | Check for ON flag in EMER FLT LOW hydraulic pressure window.                      |                                                                       |
-|       |                                                                                   |                                                                       |
-|       | Verify control over horizontal                                                    |                                                                       |
-|       | and rudder control surfaces on surface position indicator.                        |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 4.    | EMERG FLT HYD switch to HIGH,                                                     | |                                                                     |
-|       | Check for ON flag in EMER FLT HI hydraulic pressure window.                       | |                                                                     |
-|       |                                                                                   | |                                                                     |
-|       | Verify control over horizontal                                                    | | Should have a higher deflection rate than LOW.                      |
-|       | and rudder control surfaces on surface position indicator.                        | |                                                                     |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 5.    | EMERG FLT HYD switch to AUTO(LOW),                                                |                                                                       |
-|       | Check for OFF flags in both EMER FLT LOW and HI.                                  |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 6.    | ENG CRANK switch to R (Right engine).                                             | | Switch is held in position automatically by solenoid                |
-|       | Check for oil and hydraulic pressure at roughly 20% RPM.                          | | until engine is at roughly 50% RPM.                                 |
-|       | Check START/VALVE caution light indication.                                       |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 7.    Right throttle to IDLE at 20% RPM.                                                  | | Will automatically actuate ignition system and fuel flow.           |
-|                                                                                           | | Light off (EGT temperature rise) should occur within 5-15 secs.     |
-|                                                                                           | | EGT temperature should peak around 40-50% and not exceed 890 °C     |
-|                                                                                           | | which constitutes a hot start.                                      |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 8.	| Check ENG CRANK switch returns to OFF around 50% rpm                              | | If ENG CRANK stays at R manually set it to off before 60% rpm.      |
-|       | and START/VALVE caution light turns off.                                          | | If START/VALVE caution light is still on, disconnect starter air.   |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 9.    Check R GEN caution light turns off.                                                | At around 59% rpm.                                                    |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 10.   Check R FUEL PRESS caution light turns off.                                         | Before idle rpm.                                                      |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 11.	Check engine idle instrument readings.                                              |                                                                       |
-|                                                                                           |                                                                       |
-|   * RPM - 62 to 78%.                                                                      |                                                                       |
-|   * EGT - 500 °C (nominal).                                                               |                                                                       |
-|   * FF - 950 to 1400 Pph (nominal).                                                       |                                                                       |
-|   * NOZ position - 100%.                                                                  |                                                                       |
-|   * OIL - 25 to 35 psi (nominal, 15 minimum).                                             |                                                                       |
-|   * FLT HYD PRESS - 3000 psi.                                                             |                                                                       |
-|                                                                                           |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 12.	Order plane captain to disconnect external electrical power.                        |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 13.   | ENG CRANK switch to L (Left engine).                                              |                                                                       |
-|       |                                                                                   |                                                                       |
-|       | When combined hydraulic pressure reaches 3000 psi switch ENG CRANK back to OFF.   |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 14.   | HYD TRANSFER PUMP switch to NORMAL.                                               | | Will operate from flight side to maintain                           |
-|       |                                                                                   | | combined side at between 2400-2600 psi.                             |
-|       | If it does not pressurize combined side within 10 secs,                           | |                                                                     |
-|       | immediately set HYD TRANSFER PUMP switch to SHUTOFF.                              | |                                                                     |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 15.   HYD TRANSFER PUMP switch to SHUTOFF.                                                |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 16.   Repeat steps 6 to 11 for left engine.                                               |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 17.   Order plane captain to disconnect starter air.                                      |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 18.   Cycle AIR SOURCE switch to L ENG, R ENG, then set it to BOTH ENG.                   | Verify cockpit airflow at all positions.                              |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| 19.   HYD TRANSFER PUMP switch to NORMAL.                                                 |                                                                       |
-+-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 1.    Check AIR SOURCE switch is set to OFF.                                              |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 2.    Set HYD TRANSFER PUMP switch to OFF. (Guard up)                                     |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 3.    | EMERG FLT HYD switch to LOW,                                                      |                                                                       |
+    |       | Check for ON flag in EMER FLT LOW hydraulic pressure window.                      |                                                                       |
+    |       |                                                                                   |                                                                       |
+    |       | Verify control over horizontal                                                    |                                                                       |
+    |       | and rudder control surfaces on surface position indicator.                        |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 4.    | EMERG FLT HYD switch to HIGH,                                                     | |                                                                     |
+    |       | Check for ON flag in EMER FLT HI hydraulic pressure window.                       | |                                                                     |
+    |       |                                                                                   | |                                                                     |
+    |       | Verify control over horizontal                                                    | | Should have a higher deflection rate than LOW.                      |
+    |       | and rudder control surfaces on surface position indicator.                        | |                                                                     |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 5.    | EMERG FLT HYD switch to AUTO(LOW),                                                |                                                                       |
+    |       | Check for OFF flags in both EMER FLT LOW and HI.                                  |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 6.    | ENG CRANK switch to R (Right engine).                                             | | Switch is held in position automatically by solenoid                |
+    |       | Check for oil and hydraulic pressure at roughly 20% RPM.                          | | until engine is at roughly 50% RPM.                                 |
+    |       | Check START/VALVE caution light indication.                                       |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 7.    Right throttle to IDLE at 20% RPM.                                                  | | Will automatically actuate ignition system and fuel flow.           |
+    |                                                                                           | | Light off (EGT temperature rise) should occur within 5-15 secs.     |
+    |                                                                                           | | EGT temperature should peak around 40-50% and not exceed 890 °C     |
+    |                                                                                           | | which constitutes a hot start.                                      |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 8.    | Check ENG CRANK switch returns to OFF around 50% rpm                              | | If ENG CRANK stays at R manually set it to off before 60% rpm.      |
+    |       | and START/VALVE caution light turns off.                                          | | If START/VALVE caution light is still on, disconnect starter air.   |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 9.    Check R GEN caution light turns off.                                                | At around 59% rpm.                                                    |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 10.   Check R FUEL PRESS caution light turns off.                                         | Before idle rpm.                                                      |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 11.   Check engine idle instrument readings.                                              |                                                                       |
+    |                                                                                           |                                                                       |
+    |   * RPM - 62 to 78%.                                                                      |                                                                       |
+    |   * EGT - 500 °C (nominal).                                                               |                                                                       |
+    |   * FF - 950 to 1400 Pph (nominal).                                                       |                                                                       |
+    |   * NOZ position - 100%.                                                                  |                                                                       |
+    |   * OIL - 25 to 35 psi (nominal, 15 minimum).                                             |                                                                       |
+    |   * FLT HYD PRESS - 3000 psi.                                                             |                                                                       |
+    |                                                                                           |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 12.   Order plane captain to disconnect external electrical power.                        |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 13.   | ENG CRANK switch to L (Left engine).                                              |                                                                       |
+    |       |                                                                                   |                                                                       |
+    |       | When combined hydraulic pressure reaches 3000 psi switch ENG CRANK back to OFF.   |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 14.   | HYD TRANSFER PUMP switch to NORMAL.                                               | | Will operate from flight side to maintain                           |
+    |       |                                                                                   | | combined side at between 2400-2600 psi.                             |
+    |       | If it does not pressurize combined side within 10 secs,                           | |                                                                     |
+    |       | immediately set HYD TRANSFER PUMP switch to SHUTOFF.                              | |                                                                     |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 15.   HYD TRANSFER PUMP switch to SHUTOFF.                                                |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 16.   Repeat steps 6 to 11 for left engine.                                               |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 17.   Order plane captain to disconnect starter air.                                      |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 18.   Cycle AIR SOURCE switch to L ENG, R ENG, then set it to BOTH ENG.                   | Verify cockpit airflow at all positions.                              |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+    | 19.   HYD TRANSFER PUMP switch to NORMAL.                                                 |                                                                       |
+    +-------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
 
 
 Poststart
@@ -483,96 +490,105 @@ Checklists - RIO
 Interior Inspection
 ===================
 
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 1.    OXYGEN - Check.                                         | | Turn OXYGEN switch ON and check for airflow.            |
-|                                                               | |                                                         |
-|                                                               | | Turn OXYGEN switch OFF and check that airflow ceases.   |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 2.    VENT AIRFLOW thumbwheel - OFF.                          |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 3.    SYS TEST - SYS PWR ground check panel - Closed.	        |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 4.    KY-28 or KY-58 - P/OFF.                                 |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 5.    ICS panel - Set.                                        |                                                           |
-|                                                               |                                                           |
-|   *   VOL knob - Set.                                         |                                                           |
-|   *   Amplifier - NORM.                                       |                                                           |
-|   *   Function selector - COLD MIC.                           |                                                           |
-|                                                               |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 6.    TACAN function selector - OFF.                          |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 7.    U/VHF MODE selector - OFF.                              |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 8.    LIQ COOLING switch - OFF.                               |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 9.    EJECT CMD lever - Set.                                  | According to squadron policy.                             |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 10.   ARMAMENT control panel - Set.                           |                                                           |
-|                                                               |                                                           |
-|   *   WPN type thumbwheel - OFF.                              |                                                           |
-|   *   ATTK MODE knob - MAN.                                   |                                                           |
-|   *   DLVY MODE switch - STP.                                 |                                                           |
-|   *   DLVY MODE switch - SGL.                                 |                                                           |
-|   *   ELECT FUZE knob - Safe.                                 |                                                           |
-|   *   A/G GUN switch - OFF.                                   |                                                           |
-|   *   MECH FUZE switch - Safe.                                |                                                           |
-|   *   SEL JETT switch - Safe.                                 |                                                           |
-|   *   JETT OPTIONS switch - MER TER.                          |                                                           |
-|   *   INTERVAL - Set.                                         |                                                           |
-|   *   QTY - Set.                                              |                                                           |
-|   *   Station select switches 1 to 8 - Safe.                  |                                                           |
-|   *   MSL OPTIONS switch - NORM.                              |                                                           |
-|   *   MSL SPD GATE knob - NOSE QTR.                           |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 11.   Standby attitude gyro - Caged.                          |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 12.   NAV MODE knob - OFF.                                    |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 13.   Clock - Set and Wind.                                   |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 14.   WCS switch - OFF.                                       |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 15.   IR/TV power switch - OFF.                               |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 16.   RECORD switch - OFF.                                    |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 17.   RADAR WARNING RCVR PWR switch - OFF.                    |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 18.   DECM selector knob - OFF.                               |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 19.   AN/ALE-39 PWR/MODE switch - OFF.                        |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 20.   DATA LINK ON-OFF-AUX ON switch - OFF.                   |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 21.   APX-76 - OFF.                                           |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 22.   INTERIOR LIGHTS panel - Check.                          |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 23.   IFF MASTER knob - OFF.                                  |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 24.   MODE 4 switch - Out.                                    |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 25.   IFF ANT and TEST panel - SET.                           |                                                           |
-|                                                               |                                                           |
-|   *   IFF ANT switch - Off (center).                          |                                                           |
-|   *   IND LT-DDI BIT switch - Off (center).                   |                                                           |
-|   *   GND CLG switch - OFF.                                   |                                                           |  
-|                                                               |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 26.   RADAR BEACON switch - OFF.                              |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 27.   RADAR BEACON MODE switch - Single or Double.            |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 28.   POWER SYS TEST switch - OFF.                            |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
-| 29.   DATA/ADF switch - OFF.                                  |                                                           |
-+---------------------------------------------------------------+-----------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 1.    OXYGEN - Check.                                         | | Turn OXYGEN switch ON and check for airflow.            |
+    |                                                               | |                                                         |
+    |                                                               | | Turn OXYGEN switch OFF and check that airflow ceases.   |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 2.    VENT AIRFLOW thumbwheel - OFF.                          |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 3.    SYS TEST - SYS PWR ground check panel - Closed.         |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 4.    KY-28 or KY-58 - P/OFF.                                 |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 5.    ICS panel - Set.                                        |                                                           |
+    |                                                               |                                                           |
+    |   *   VOL knob - Set.                                         |                                                           |
+    |   *   Amplifier - NORM.                                       |                                                           |
+    |   *   Function selector - COLD MIC.                           |                                                           |
+    |                                                               |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 6.    TACAN function selector - OFF.                          |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 7.    U/VHF MODE selector - OFF.                              |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 8.    LIQ COOLING switch - OFF.                               |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 9.    EJECT CMD lever - Set.                                  | According to squadron policy.                             |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 10.   ARMAMENT control panel - Set.                           |                                                           |
+    |                                                               |                                                           |
+    |   *   WPN type thumbwheel - OFF.                              |                                                           |
+    |   *   ATTK MODE knob - MAN.                                   |                                                           |
+    |   *   DLVY MODE switch - STP.                                 |                                                           |
+    |   *   DLVY MODE switch - SGL.                                 |                                                           |
+    |   *   ELECT FUZE knob - Safe.                                 |                                                           |
+    |   *   A/G GUN switch - OFF.                                   |                                                           |
+    |   *   MECH FUZE switch - Safe.                                |                                                           |
+    |   *   SEL JETT switch - Safe.                                 |                                                           |
+    |   *   JETT OPTIONS switch - MER TER.                          |                                                           |
+    |   *   INTERVAL - Set.                                         |                                                           |
+    |   *   QTY - Set.                                              |                                                           |
+    |   *   Station select switches 1 to 8 - Safe.                  |                                                           |
+    |   *   MSL OPTIONS switch - NORM.                              |                                                           |
+    |   *   MSL SPD GATE knob - NOSE QTR.                           |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 11.   Standby attitude gyro - Caged.                          |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 12.   NAV MODE knob - OFF.                                    |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 13.   Clock - Set and Wind.                                   |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 14.   WCS switch - OFF.                                       |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 15.   IR/TV power switch - OFF.                               |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 16.   RECORD switch - OFF.                                    |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 17.   RADAR WARNING RCVR PWR switch - OFF.                    |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 18.   DECM selector knob - OFF.                               |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 19.   AN/ALE-39 PWR/MODE switch - OFF.                        |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 20.   DATA LINK ON-OFF-AUX ON switch - OFF.                   |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 21.   APX-76 - OFF.                                           |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 22.   INTERIOR LIGHTS panel - Check.                          |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 23.   IFF MASTER knob - OFF.                                  |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 24.   MODE 4 switch - Out.                                    |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 25.   IFF ANT and TEST panel - SET.                           |                                                           |
+    |                                                               |                                                           |
+    |   *   IFF ANT switch - Off (center).                          |                                                           |
+    |   *   IND LT-DDI BIT switch - Off (center).                   |                                                           |
+    |   *   GND CLG switch - OFF.                                   |                                                           |  
+    |                                                               |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 26.   RADAR BEACON switch - OFF.                              |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 27.   RADAR BEACON MODE switch - Single or Double.            |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 28.   POWER SYS TEST switch - OFF.                            |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
+    | 29.   DATA/ADF switch - OFF.                                  |                                                           |
+    +---------------------------------------------------------------+-----------------------------------------------------------+
 
 
 Prestart
 ========
+
+.. raw:: html
+
+    <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/SWeHtpJ00JI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
 
 +-------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 1.    Verify that external power and air is connected.                                    | | **CAUTION**                                                                                                                                                 |

@@ -1,6 +1,10 @@
 Cockpit Overview
 ################
 
+.. raw:: latex
+
+    \newpage
+
 F-14B Cockpit Layout
 ********************
 
@@ -42,6 +46,10 @@ Pilot Cockpit Layout
 
 |
 
+.. raw:: latex
+
+    \newpage
+
 .. _riolayout:
 
 RIO Cockpit Layout
@@ -78,6 +86,10 @@ RIO Cockpit Layout
 
 |
 
+.. raw:: latex
+
+    \newpage
+
 F-14B Pilot Cockpit
 *******************
 
@@ -94,6 +106,9 @@ G-valve Button
 
 Pressed to test inflation of g-suit.
 
+.. raw:: latex
+
+    \newpage
 
 .. _oxygen:
 
@@ -111,6 +126,9 @@ Controls ventilation airflow to pressure suit or seat cushions and oxygen to pil
 | 2. OXYGEN switch     | Switch with ON/OFF positions. Controls oxygen flow to the mask.                                 |
 +----------------------+-------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _pilotvoltac:
 
@@ -133,6 +151,9 @@ Panel controlling volume to Pilot headset and crewmember in control of TACAN.
 |                     | Also indicates current setting.                            |
 +---------------------+------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _TACANcontrol:
 
@@ -168,6 +189,9 @@ TACAN control panel letting the pilot control TACAN if in command of it.
 |                       | | BCN - Beacon TACAN mode. (Non functional)                                                        |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _piloticscontrol:
 
@@ -200,6 +224,9 @@ Control panel for ICS.
 |                             | | COLD MIC - Allows talking to the RIO only while the PTT is pressed.                                                                       |
 +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _afcs:
 
@@ -242,6 +269,9 @@ Control panel for AFCS and autopilot.
 
 :Note: All switches are springloaded to OFF position but held in position with solenoid to enable automatic disengagement when applicable.
 
+.. raw:: latex
+
+    \newpage
 
 .. _arc159:
 
@@ -283,6 +313,10 @@ UHF radio 1. Radio and controls.
 
 :Note: ADF nonfunctional in AN/ARC-159, use V/UHF 2 instead.
 
+.. raw:: latex
+
+    \newpage
+
 .. _asymlimit:
 
 ASYM Limiter/Engine Mode Select
@@ -303,6 +337,9 @@ Control panel for the asymmetric thrust limiter system and the control mode of e
 |                             | | SEC - Secondary engine control mode.                             |
 +-----------------------------+--------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _tds:
 
@@ -316,6 +353,9 @@ Can be moved up/down and forward which is the designate position.
 In air-to-ground mode up and down moves the designator and forward designates.
 In all other cases up and down selects VSL HI and VSL LO ACM-modes respectively and forward selects PAL.
 
+.. raw:: latex
+
+    \newpage
 
 .. _inletrampsthrottle:
 
@@ -357,6 +397,9 @@ Control panel for various engine systems, throttle settings and rudder trim.
 | 6. RUDDER TRIM      | Switch adjusting rudder trim.                                               |
 +---------------------+-----------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _throttle:
 
@@ -402,6 +445,9 @@ The throttle grips contains various flight controls and HOTAS functions.
 |                          | | UHF2 - Keys V/UHF 2 for transmission.                                                                                                                                  |
 +--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _throttlequadrant:
 
@@ -425,6 +471,9 @@ The flap lever has a stepless range of motion between up and down and has two em
 The manual/emergency wing-sweep handle is protected by a guard and is normally pushed in and stowed. The handle-top is extended for manual operation.
 For more information see :ref:`wingsweepemerg`.
 
+.. raw:: latex
+
+    \newpage
 
 .. _hydhandpump:
 
@@ -433,6 +482,9 @@ Hydraulic Hand Pump
 
 The hydraulic hand pump is located inboards of the throttle quadrant, near the pilot’s left leg. It is used to manually add hydraulic pressure for brake operation (with gear handle in the down position) or for refueling probe operation in case of a failure in the hydraulic system.
 
+.. raw:: latex
+
+    \newpage
 
 .. _lvc:
 
@@ -447,52 +499,58 @@ Fuel Management Panel
 
 Control panel for various fuel related systems, CADC master reset and the anti skid system.
 
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator                      | Function                                                                                                                             |
-+========================================+======================================================================================================================================+
-| 1. QTY SEL switch                      | | Switch selecting what the fuel quantity tapes on the fuel quantity display shows. Springloaded to FEED.                            |
-|                                        | |                                                                                                                                    |
-|                                        | | FEED - Shows respective feed and fuselage tank fuel quantity.                                                                      |
-|                                        | |                                                                                                                                    |
-|                                        | | WING - Shows respective wing tank fuel quantity.                                                                                   |
-|                                        | |                                                                                                                                    |
-|                                        | | EXT - Shows respective external fuel tank quantity.                                                                                |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 2. FEED switch                         | Switch selecting fuel feed to the engines. Guard locks the switch to NORM until lifted.                                              |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 3. WING/EXT TRANS switch               | | Switch selecting operation of the wing and external tanks.                                                                         |
-|                                        | |                                                                                                                                    |
-|                                        | | ORIDE - Override.                                                                                                                  |
-|                                        | |                                                                                                                                    |
-|                                        | | AUTO - Normal position.                                                                                                            |
-|                                        | |                                                                                                                                    |
-|                                        | | OFF - Turns off fuel feed from the wing and external tanks.                                                                        |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 4. Refueling probe indicator light     | Transition light illuminated when refueling probe is not in extended or retracted position.                                          |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 5. DUMP switch                         | OFF/DUMP switch. Allows fuel dump when speed brakes are retracted, afterburner off and weight off wheels.                            |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 6. REFUEL PROBE switch                 | | Selection switch toggling operation of refueling probe.                                                                            |
-|                                        | |                                                                                                                                    |
-|                                        | | ALL EXTD - All extended, extends refueling probe and allows refueling of all tanks. Also resets WING/EXT TRANS switch to AUTO.     |
-|                                        | |                                                                                                                                    |
-|                                        | | FUS EXTD - Fuselage extended, extends refueling probe and allows refueling of only fuselage tanks.                                 |
-|                                        | |                                                                                                                                    |
-|                                        | | RET - Retracted, retracts refueling probe.                                                                                         |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 7. ANTI SKID SPOILER BK switch         | | Selection switch determining operation anti-skid and spoiler brake systems.                                                        |
-|                                        | |                                                                                                                                    |
-|                                        | | BOTH - Enables both anti-skid and spoiler brake function with weight on wheels.                                                    |
-|                                        | |                                                                                                                                    |
-|                                        | | OFF - Turns off both systems.                                                                                                      |
-|                                        | |                                                                                                                                    |
-|                                        | | SPOILER BK - Spoiler brake, enables spoiler brake function with weight on wheels.                                                  |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 8. MASTER RESET button                 | Resets CADC failure detection system and associated fault displays.                                                                  |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 9. Control surface position indicator  | Displays control surface positions. See below.                                                                                       |
-+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator                      | Function                                                                                                                             |
+    +========================================+======================================================================================================================================+
+    | 1. QTY SEL switch                      | | Switch selecting what the fuel quantity tapes on the fuel quantity display shows. Springloaded to FEED.                            |
+    |                                        | |                                                                                                                                    |
+    |                                        | | FEED - Shows respective feed and fuselage tank fuel quantity.                                                                      |
+    |                                        | |                                                                                                                                    |
+    |                                        | | WING - Shows respective wing tank fuel quantity.                                                                                   |
+    |                                        | |                                                                                                                                    |
+    |                                        | | EXT - Shows respective external fuel tank quantity.                                                                                |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. FEED switch                         | Switch selecting fuel feed to the engines. Guard locks the switch to NORM until lifted.                                              |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. WING/EXT TRANS switch               | | Switch selecting operation of the wing and external tanks.                                                                         |
+    |                                        | |                                                                                                                                    |
+    |                                        | | ORIDE - Override.                                                                                                                  |
+    |                                        | |                                                                                                                                    |
+    |                                        | | AUTO - Normal position.                                                                                                            |
+    |                                        | |                                                                                                                                    |
+    |                                        | | OFF - Turns off fuel feed from the wing and external tanks.                                                                        |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. Refueling probe indicator light     | Transition light illuminated when refueling probe is not in extended or retracted position.                                          |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. DUMP switch                         | OFF/DUMP switch. Allows fuel dump when speed brakes are retracted, afterburner off and weight off wheels.                            |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. REFUEL PROBE switch                 | | Selection switch toggling operation of refueling probe.                                                                            |
+    |                                        | |                                                                                                                                    |
+    |                                        | | ALL EXTD - All extended, extends refueling probe and allows refueling of all tanks. Also resets WING/EXT TRANS switch to AUTO.     |
+    |                                        | |                                                                                                                                    |
+    |                                        | | FUS EXTD - Fuselage extended, extends refueling probe and allows refueling of only fuselage tanks.                                 |
+    |                                        | |                                                                                                                                    |
+    |                                        | | RET - Retracted, retracts refueling probe.                                                                                         |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. ANTI SKID SPOILER BK switch         | | Selection switch determining operation anti-skid and spoiler brake systems.                                                        |
+    |                                        | |                                                                                                                                    |
+    |                                        | | BOTH - Enables both anti-skid and spoiler brake function with weight on wheels.                                                    |
+    |                                        | |                                                                                                                                    |
+    |                                        | | OFF - Turns off both systems.                                                                                                      |
+    |                                        | |                                                                                                                                    |
+    |                                        | | SPOILER BK - Spoiler brake, enables spoiler brake function with weight on wheels.                                                  |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. MASTER RESET button                 | Resets CADC failure detection system and associated fault displays.                                                                  |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. Control surface position indicator  | Displays control surface positions. See below.                                                                                       |
+    +----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _controlsurface:
 
@@ -528,6 +586,9 @@ Launch Bar Abort Panel
 LAUNCH BAR – Selection switch – When held in ABORT lifts the launch bar for launch abortion. Spring-loaded to NORM (Normal) which is the standard position.
 Not currently used in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 .. _gearcontrol:
 
@@ -537,44 +598,50 @@ Landing Gear Control Panel
 
 Control panel for the main landing gear and emergency stores jettison.
 
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator                  | Function                                                                                                                                                                     |
-+====================================+==============================================================================================================================================================================+
-| 1. LDG GEAR                        | | Landing gear handle. Selects gear UP or DOWN.                                                                                                                              |
-|                                    | |                                                                                                                                                                            |
-|                                    | | For emergency extension in DOWN position, push handle in, turn clockwise and pull out. This releases a compressed nitrogen charge for emergency extension.                 |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. DOWN LOCK ORIDE                 | Indicates weight on wheels when moved down by solenoid. Can be lifted up to override. Non-functional in DCS.                                                                 |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. HYD ISOL                        | | Switch isolating landing gear, nosewheel steering and wheel brakes from the combined hydraulic system. Is automatically moved to T.O./LDG by LDG GEAR in DOWN position.    |
-|                                    | |                                                                                                                                                                            |
-|                                    | | FLT - In flight operation, isolates systems listed above.                                                                                                                  |
-|                                    | |                                                                                                                                                                            |
-|                                    | | T.O./LDG - Take-off/landing, connects systems listed above, allowing them to operate.                                                                                      |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. Transition light                | Illuminates to indicate landing gear position not corresponding to current LDG GEAR handle position.                                                                         |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. Wheels-flaps position indicator | See below.                                                                                                                                                                   |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. EMERG STORES button             | Emergency stores jettison. Illuminates to indicate activation when pressed.                                                                                                  |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. NOSE STRUT switch               | | Switch selecting nosewheel strut retraction.                                                                                                                               |
-|                                    | |                                                                                                                                                                            |
-|                                    | | EXTD - Extend, extends nosewheel strut and raises and locks launch bar.                                                                                                    |
-|                                    | |                                                                                                                                                                            |
-|                                    | | OFF - Turns off nosewheel strut movement, springloaded to this position.                                                                                                   |
-|                                    | |                                                                                                                                                                            |
-|                                    | | KNEEL - Releases pressure from nosewheel strut to retract it, kneeling aircraft. Also unlocks launch bar.                                                                  |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. BRAKE-PULL handle               | Parking brake, pull out to apply parking brake, push in to release.                                                                                                          |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. EJECT CMD indicator             | | Indicates ejection system mode for the back seat.                                                                                                                          |
-|                                    | |                                                                                                                                                                            |
-|                                    | | PILOT - Pilot ejects both crewmembers, RIO only himself.                                                                                                                   |
-|                                    | |                                                                                                                                                                            |
-|                                    | | MCO - Each position ejects both crewmen.                                                                                                                                   |
-+------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator                  | Function                                                                                                                                                                     |
+    +====================================+==============================================================================================================================================================================+
+    | 1. LDG GEAR                        | | Landing gear handle. Selects gear UP or DOWN.                                                                                                                              |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | For emergency extension in DOWN position, push handle in, turn clockwise and pull out. This releases a compressed nitrogen charge for emergency extension.                 |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. DOWN LOCK ORIDE                 | Indicates weight on wheels when moved down by solenoid. Can be lifted up to override. Non-functional in DCS.                                                                 |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. HYD ISOL                        | | Switch isolating landing gear, nosewheel steering and wheel brakes from the combined hydraulic system. Is automatically moved to T.O./LDG by LDG GEAR in DOWN position.    |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | FLT - In flight operation, isolates systems listed above.                                                                                                                  |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | T.O./LDG - Take-off/landing, connects systems listed above, allowing them to operate.                                                                                      |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. Transition light                | Illuminates to indicate landing gear position not corresponding to current LDG GEAR handle position.                                                                         |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. Wheels-flaps position indicator | See below.                                                                                                                                                                   |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. EMERG STORES button             | Emergency stores jettison. Illuminates to indicate activation when pressed.                                                                                                  |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. NOSE STRUT switch               | | Switch selecting nosewheel strut retraction.                                                                                                                               |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | EXTD - Extend, extends nosewheel strut and raises and locks launch bar.                                                                                                    |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | OFF - Turns off nosewheel strut movement, springloaded to this position.                                                                                                   |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | KNEEL - Releases pressure from nosewheel strut to retract it, kneeling aircraft. Also unlocks launch bar.                                                                  |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. BRAKE-PULL handle               | Parking brake, pull out to apply parking brake, push in to release.                                                                                                          |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. EJECT CMD indicator             | | Indicates ejection system mode for the back seat.                                                                                                                          |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | PILOT - Pilot ejects both crewmembers, RIO only himself.                                                                                                                   |
+    |                                    | |                                                                                                                                                                            |
+    |                                    | | MCO - Each position ejects both crewmen.                                                                                                                                   |
+    +------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _wheelsflapsind:
 
@@ -586,41 +653,54 @@ Wheels-Flaps Position Indicator
 | Indicates position of flaps and slats, speed brakes and the landing gear. The slats are indicated as follows:                                                             |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/off.png           | Power off or maneuver slats extended.                                                                         |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/slats-ext.png     | Slats extended.                                                                                               |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/slats-ret.png     | Slats retracted.                                                                                              |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | Flap Position is displayed by an indicator moving between UP and DOWN. The first marked section of the indicator indicates maneuver flap-range.                           |
 | The landing gear is indicated as follows:                                                                                                                                 |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/off.png           | Power off or unsafe gear.                                                                                     |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/gear-down.png     | Gear down.                                                                                                    |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/gear-up.png       | Gear retracted and doors closed.                                                                              |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | Speed brakes are indicated as follows:                                                                                                                                    |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/off.png           | Speed brake system power off.                                                                                 |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/brake-partial.png | Speed brake partial extension, not in motion.                                                                 |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/brake-out.png     | Speed brake fully extended.                                                                                   |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | .. image:: /images/cockpit/detail/pilot/brake-in.png      | Speed brake retracted.                                                                                        |
-|    :scale: 5 %                                            |                                                                                                               |
+|    :height: 50 px                                         |                                                                                                               |
+|    :width: 50 px                                          |                                                                                                               |
 +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _lkp:
 
@@ -637,6 +717,9 @@ Shows hydraulic pressure of the combined and flight hydraulic systems.
 SPOIL (Spoiler) ON/OFF-flag indicates pressurization of outboard spoiler module.
 EMER FLT HI ON/OFF-flags indicates backup flight hydraulic system pressures when HI or LOW is selected respectively.
 
+.. raw:: latex
+
+    \newpage
 
 .. _oilpressind:
 
@@ -655,6 +738,9 @@ Exhaust Nozzle Position Indicator
  
 Displays position of engine nozzles. Range 0 – 5 with 5 being fully open.
 
+.. raw:: latex
+
+    \newpage
 
 .. _eig:
 
@@ -666,6 +752,9 @@ Displays engine RPM (High-pressure compressor rotor speed (N2)), EGT (Exhaust Ga
 
 :Note: Image shows TF-30 engine instruments, F110 EIG coming soon.
 
+.. raw:: latex
+
+    \newpage
 
 .. _lip:
 
@@ -698,6 +787,9 @@ Control and indicator for the radar altimeter.
 
 :Note: Radio override does not disable low-altitude warning tone.
 
+.. raw:: latex
+
+    \newpage
 
 .. _pservopneualt:
 
@@ -723,6 +815,9 @@ Control and indicator for the servopneumatic altimeter.
 
 :Note: At high speeds and below 10,000 feet, due to pressure changes, errors in readout up to as much as 1,200 feet when transonic and up to as much as 4,000 feet when supersonic can occur.
 
+.. raw:: latex
+
+    \newpage
 
 .. _pspeedmachind:
 
@@ -752,6 +847,9 @@ Indicated airspeed and Mach number display.
 | 8. Index knob                       | Knob with a pull-out and push-in position. One sets indexer for indicated airspeed and the other for Mach number. |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _vertvelind:
 
@@ -772,6 +870,9 @@ Pull to shut off fuel to the left engine in case of emergency. Push in to re-ena
 
 Left engine fire extinguishing button is located behind the handle, accessable when the handle is pulled out.
 
+.. raw:: latex
+
+    \newpage
 
 .. _aoaind:
 
@@ -783,6 +884,9 @@ Tape indicating angle of attack (AOA) on a scale of 0 to 30 units. (Equivalent t
 
 The indicator has markers on the right for climb (5), cruise (8.5), and stall (29), and a reference bar for on-speed approach (15). 
 
+.. raw:: latex
+
+    \newpage
 
 .. _lwf:
 
@@ -803,6 +907,9 @@ If the HOOK BY-PASS switch is set to CARRIER the lights will flash if the arrest
 
 These lights are repeated on the approach lights on the nosewheel strut, allowing the LSO to see aircraft AOA during carrier landings.
 
+.. raw:: latex
+
+    \newpage
 
 .. _wheelswarn:
 
@@ -826,6 +933,9 @@ HUD left side indicators.
 | AUTO THROT        | Caution light indicating disengagement of the automatic throttle control mode not resulting from the throttle mode switch. |
 +-------------------+----------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _cp:
 
@@ -844,6 +954,9 @@ Has two engine stall warning lights (L STALL & R STALL) mounted on the left and 
 
 :Note: For more information see relevant chapters under :ref:`navigation` and :ref:`weaponsemploy`.
 
+.. raw:: latex
+
+    \newpage
 
 .. _ctvs:
 
@@ -864,64 +977,70 @@ Air Combat Maneuver Panel
 
 Main pilot armament control panel.
 
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator                       | Function                                                                                                                                                                                                                                  |
-+=========================================+===========================================================================================================================================================================================================================================+
-| 1. ACM switch/cover                     | Lifting the ACM (Air combat maneuver) cover actives the ACM mode and allows access to the ACM jettison button.                                                                                                                            |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. ACM JETT button                      | Button under the ACM cover that enables jettison of stores selected on the RIO's ARMAMENT panel. Will not jettison Sidewinders regardless if selected.                                                                                    |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. SEAM LOCK light                      | Light that illuminates to show that Sidewinder acquisition is in progress while in slaved and boresight SEAM modes.                                                                                                                       |
-|                                         | Lights up during the 4.5 second SEAM acquisition attempt, and remains lit thereafter if the seeker has locked onto a target.                                                                                                              |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. COLLISION light                      | Light that illuminates to show that collision steering has been selected during AWG-9 STT operation.                                                                                                                                      |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. HOT TRIG light                       | Red light that indicates that the HOT TRIGGER conditions are met. When this is lit, the trigger will release a weapon.                                                                                                                    |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. GUN RATE switch                      | | Toggle switch with light indication of selected option.                                                                                                                                                                                 |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | HIGH - Selects gun rate of 6 000 rounds per minute. Normally for A/A operation.                                                                                                                                                         |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | LOW - Selects gun rate of 4 000 rounds per minute. Normally for A/G operation.                                                                                                                                                          |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | Automatically set to HIGH when ACM mode is selected.                                                                                                                                                                                    |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. SW COOL switch                       | Toggle switch with light indication of selected option. Manual control of Sidewinder seeker cooling. Automatically set to ON when ACM mode is selected.                                                                                   |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. MSL PREP switch                      | Toggle switch with light indication of selected option. Commands WCS to prepare AIM-54 and AIM-7 missiles. Automatically set to ON when ACM mode is commanded.                                                                            |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. MSL MODE switch                      | Toggle switch with light indication of selected option. Selects NORM (normal) or BRSIT (boresight) operation for missile launch. Controlled by WCS when in ACM mode.                                                                      |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 10. MASTER ARM switch                   | | Enables weapons release and selective and auxiliary jettison.                                                                                                                                                                           |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | OFF - Disables electrical power to release circuitry.                                                                                                                                                                                   |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | ON - Enables electrical power to release circuitry. Position locked until the master arm cover is lifted.                                                                                                                               |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | TNG (training) - Enables the in-flight training mode.                                                                                                                                                                                   |
-|                                         |                                                                                                                                                                                                                                           |
-|                                         | :Note: The MASTER ARM bus is also interlocked with the landing gear control lever, disabling all releases except emergency jettison while the gear is down.                                                                               |
-|                                         | :Note2: The ACM and Emergency jettison are not disabled by the MASTER ARM.                                                                                                                                                                |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 11. Station status flags                | | Shows indication of weapon status for the different stations.                                                                                                                                                                           |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | BLACK - Station not loaded or weapon not ready.                                                                                                                                                                                         |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | WHITE - Station and weapon ready.                                                                                                                                                                                                       |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | CHECKERBOARD - Weapon is selected and ready for launch. On the ground indicates that fuselage rails are up and locked and that loaded weapons are armed.                                                                                |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 12. MASTER CAUTION light and button     | Flashes to indicate status change on the pilot caution/advisory panel. Press to reset and turn off light until next event.                                                                                                                |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 13. L FIRE and R FIRE lights            | Engine fire warning lights. Illuminates when a fire has been detected in the respective engine.                                                                                                                                           |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 14. Turn-and-Slip indicator             | | Indicator showing rate of turn around aircraft vertical axis.                                                                                                                                                                           |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | The upper part contains an electrically driven pointer, one needle deflection equalling a 360° turn in 4 minutes.                                                                                                                       |
-|                                         | |                                                                                                                                                                                                                                         |
-|                                         | | The lower part contains an inclinometer with a ball suspended in a dampening fluid.                                                                                                                                                     |
-+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator                       | Function                                                                                                                                                                                                                                  |
+    +=========================================+===========================================================================================================================================================================================================================================+
+    | 1. ACM switch/cover                     | Lifting the ACM (Air combat maneuver) cover actives the ACM mode and allows access to the ACM jettison button.                                                                                                                            |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. ACM JETT button                      | Button under the ACM cover that enables jettison of stores selected on the RIO's ARMAMENT panel. Will not jettison Sidewinders regardless if selected.                                                                                    |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. SEAM LOCK light                      | Light that illuminates to show that Sidewinder acquisition is in progress while in slaved and boresight SEAM modes.                                                                                                                       |
+    |                                         | Lights up during the 4.5 second SEAM acquisition attempt, and remains lit thereafter if the seeker has locked onto a target.                                                                                                              |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. COLLISION light                      | Light that illuminates to show that collision steering has been selected during AWG-9 STT operation.                                                                                                                                      |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. HOT TRIG light                       | Red light that indicates that the HOT TRIGGER conditions are met. When this is lit, the trigger will release a weapon.                                                                                                                    |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. GUN RATE switch                      | | Toggle switch with light indication of selected option.                                                                                                                                                                                 |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | HIGH - Selects gun rate of 6 000 rounds per minute. Normally for A/A operation.                                                                                                                                                         |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | LOW - Selects gun rate of 4 000 rounds per minute. Normally for A/G operation.                                                                                                                                                          |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | Automatically set to HIGH when ACM mode is selected.                                                                                                                                                                                    |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. SW COOL switch                       | Toggle switch with light indication of selected option. Manual control of Sidewinder seeker cooling. Automatically set to ON when ACM mode is selected.                                                                                   |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. MSL PREP switch                      | Toggle switch with light indication of selected option. Commands WCS to prepare AIM-54 and AIM-7 missiles. Automatically set to ON when ACM mode is commanded.                                                                            |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. MSL MODE switch                      | Toggle switch with light indication of selected option. Selects NORM (normal) or BRSIT (boresight) operation for missile launch. Controlled by WCS when in ACM mode.                                                                      |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 10. MASTER ARM switch                   | | Enables weapons release and selective and auxiliary jettison.                                                                                                                                                                           |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | OFF - Disables electrical power to release circuitry.                                                                                                                                                                                   |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | ON - Enables electrical power to release circuitry. Position locked until the master arm cover is lifted.                                                                                                                               |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | TNG (training) - Enables the in-flight training mode.                                                                                                                                                                                   |
+    |                                         |                                                                                                                                                                                                                                           |
+    |                                         | :Note: The MASTER ARM bus is also interlocked with the landing gear control lever, disabling all releases except emergency jettison while the gear is down.                                                                               |
+    |                                         | :Note2: The ACM and Emergency jettison are not disabled by the MASTER ARM.                                                                                                                                                                |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 11. Station status flags                | | Shows indication of weapon status for the different stations.                                                                                                                                                                           |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | BLACK - Station not loaded or weapon not ready.                                                                                                                                                                                         |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | WHITE - Station and weapon ready.                                                                                                                                                                                                       |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | CHECKERBOARD - Weapon is selected and ready for launch. On the ground indicates that fuselage rails are up and locked and that loaded weapons are armed.                                                                                |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 12. MASTER CAUTION light and button     | Flashes to indicate status change on the pilot caution/advisory panel. Press to reset and turn off light until next event.                                                                                                                |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 13. L FIRE and R FIRE lights            | Engine fire warning lights. Illuminates when a fire has been detected in the respective engine.                                                                                                                                           |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 14. Turn-and-Slip indicator             | | Indicator showing rate of turn around aircraft vertical axis.                                                                                                                                                                           |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | The upper part contains an electrically driven pointer, one needle deflection equalling a 360° turn in 4 minutes.                                                                                                                       |
+    |                                         | |                                                                                                                                                                                                                                         |
+    |                                         | | The lower part contains an inclinometer with a ball suspended in a dampening fluid.                                                                                                                                                     |
+    +-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _VDI:
 
@@ -987,12 +1106,15 @@ Data link warning and caution lights situated at the VDI panel.
 | ALT LOW      | Non functional, light on radar altimeter is used instead.                                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _HSD:
 
 Horizontal Situation Display Indicator (HSD)
 --------------------------------------------
-.. image:: /images/cockpit/detail/pilot/hsd.png
+.. image:: /images/cockpit/detail/pilot/HSD.png
 
 The horizontal situation display is used to display navigational information to the pilot. It can also be used to repeat the RIO's TID to the pilot.
 
@@ -1012,6 +1134,9 @@ The horizontal situation display is used to display navigational information to 
 
 :Note: For more information see relevant chapters under :ref:`navigation` and for the TID repeat :ref:`TID`.
 
+.. raw:: latex
+
+    \newpage
 
 .. _cabpressalt:
 
@@ -1021,6 +1146,9 @@ Cabin Pressure Altimeter
 
 Displays cabin pressure in 1,000 foot increments from 0 to 50,000 feet.
 
+.. raw:: latex
+
+    \newpage
 
 .. _brakepressind:
 
@@ -1043,48 +1171,54 @@ Control Stick
 
 Used to control aircraft roll and pitch. Also various other functions according to table below.
 
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| Control                                                  | Function                                                                                                                         |
-+==========================================================+==================================================================================================================================+
-| 1. Bomb release button                                   | Stores release button, used for air-to-ground ordnance (except rockets) and loaded external countermeasures.                     |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 2. Pitch and roll trim hat                               | Hat used to control trim, up/down trims pitch and left/right trims roll.                                                         |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 3. Weapon select hat                                     | | Selector hat moveable up and down and depressable.                                                                             |
-|                                                          | |                                                                                                                                |
-|                                                          | | SP or PH - Selects AIM-7 or AIM-54, depression toggles between type.                                                           |
-|                                                          | |                                                                                                                                |
-|                                                          | | SW - Selects AIM-9, depression toggles between stations.                                                                       |
-|                                                          | |                                                                                                                                |
-|                                                          | | GUN - Selects M-61A1 Vulcan gun.                                                                                               |
-|                                                          | |                                                                                                                                |
-|                                                          | | OFF - Inhibits weapon release.                                                                                                 |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 4. DLC & maneuver flap command wheel                     | | Thumbwheel used to control DLC or maneuver flaps.                                                                              |
-|                                                          | |                                                                                                                                |
-|                                                          | | With DLC engaged forward rotation extends spoilers and aft rotation retracts spoilers.                                         |
-|                                                          | |                                                                                                                                |
-|                                                          | | With gear and flaps up and DLC disengaged forward rotation retracts maneuvering flaps/slats and aft rotation extends them.     |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 5. DLC engage/disengage & countermeasure dispense button | | Momentary depression with flaps down, throttles less than MIL and no spoiler system failure engages DLC.                       |
-|                                                          | |                                                                                                                                |
-|                                                          | | With flaps up button sends command to ALE-39 to dispense chaff or flares according to RIO setting.                             |
-|                                                          | |                                                                                                                                |
-|                                                          | | DLC is disengaged by further momentary depression of button, raising flaps or advancing either throttle to MIL.                |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 6. Autopilot reference & nosewheel steering button       | | Button toggling nosewheel steering with weight on wheels.                                                                      |
-|                                                          | |                                                                                                                                |
-|                                                          | | Without weight on wheels is used to engage enabled autopilot modes.                                                            |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 7. Autopilot emergency disengage paddle                  | | Disengages all autopilot modes and DLC and releases all autopilot switches and roll and pitch SAS switches to OFF position.    |
-|                                                          | |                                                                                                                                |
-|                                                          | | With weight on wheels additionally reverts throttle mode to MAN (manual) while depressed.                                      |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| 8. Weapon firing trigger                                 | Two-stage trigger. First detent enables CTVS and gun camera. Second detent releases selected forwards firing weapon.             |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | Control                                                  | Function                                                                                                                         |
+    +==========================================================+==================================================================================================================================+
+    | 1. Bomb release button                                   | Stores release button, used for air-to-ground ordnance (except rockets) and loaded external countermeasures.                     |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 2. Pitch and roll trim hat                               | Hat used to control trim, up/down trims pitch and left/right trims roll.                                                         |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 3. Weapon select hat                                     | | Selector hat moveable up and down and depressable.                                                                             |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | SP or PH - Selects AIM-7 or AIM-54, depression toggles between type.                                                           |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | SW - Selects AIM-9, depression toggles between stations.                                                                       |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | GUN - Selects M-61A1 Vulcan gun.                                                                                               |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | OFF - Inhibits weapon release.                                                                                                 |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 4. DLC & maneuver flap command wheel                     | | Thumbwheel used to control DLC or maneuver flaps.                                                                              |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | With DLC engaged forward rotation extends spoilers and aft rotation retracts spoilers.                                         |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | With gear and flaps up and DLC disengaged forward rotation retracts maneuvering flaps/slats and aft rotation extends them.     |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 5. DLC engage/disengage & countermeasure dispense button | | Momentary depression with flaps down, throttles less than MIL and no spoiler system failure engages DLC.                       |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | With flaps up button sends command to ALE-39 to dispense chaff or flares according to RIO setting.                             |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | DLC is disengaged by further momentary depression of button, raising flaps or advancing either throttle to MIL.                |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 6. Autopilot reference & nosewheel steering button       | | Button toggling nosewheel steering with weight on wheels.                                                                      |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | Without weight on wheels is used to engage enabled autopilot modes.                                                            |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 7. Autopilot emergency disengage paddle                  | | Disengages all autopilot modes and DLC and releases all autopilot switches and roll and pitch SAS switches to OFF position.    |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | With weight on wheels additionally reverts throttle mode to MAN (manual) while depressed.                                      |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+    | 8. Weapon firing trigger                                 | Two-stage trigger. First detent enables CTVS and gun camera. Second detent releases selected forwards firing weapon.             |
+    +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
 
 :Note: CTVS not implemented in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rwf:
 
@@ -1114,6 +1248,9 @@ Standby Compass
 
 Conventional standby compass.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rip:
 
@@ -1147,6 +1284,9 @@ Pull to shut off fuel to the right engine in case of emergency. Push in to re-en
 
 Right engine fire extinguishing button is located behind the handle, accessable when the handle is pulled out.
 
+.. raw:: latex
+
+    \newpage
 
 .. _stbyattind:
 
@@ -1162,6 +1302,9 @@ The knob below and to the right of the indicator cages/uncages the indicator and
 In pulled out position the indicator is caged.
 When pushed in uncages the indicator and allows pitch trim by turning the knob.
 
+.. raw:: latex
+
+    \newpage
 
 .. _uhfvhfremind:
 
@@ -1187,6 +1330,9 @@ Remote indicators displaying set frequency or channel of UHF 1 (AN/ARC-159) and 
 |                                                       | | BRT - Controls display brightness.                                              |
 +-------------------------------------------------------+-----------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _BDHIindicator:
 
@@ -1209,6 +1355,9 @@ Display indicating azimuth and bearing information.
 |                          | (Not visible in this image.)                                    |
 +--------------------------+-----------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _palr67ind:
 
@@ -1258,6 +1407,9 @@ Indicator showing emitters detected by the ALR-67 RWR (radar warning receiver) s
 | 5. INT knob                    | Intensity/brightness knob. Controls the brightness of the display.                                                                                   |
 +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _pcanjett:
 
@@ -1267,6 +1419,9 @@ Canopy Jettison Handle
 
 Used to jettison canopy manually.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rkp:
 
@@ -1295,6 +1450,9 @@ Shows fuel quantity in the different aircraft tanks.
 | 5. SET knob         | Knob used to set BINGO fuel quantity. Turn to set desired quantity.                                                                                                 |
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _acc:
 
@@ -1304,6 +1462,9 @@ Accelerometer
 
 Instrument showing current aircraft g-load (acceleration along aircraft vertical axis). It's graded in g from -5g to +10g. One pointer will show current g-load while the other two will indicate max reached negative and positive g-load. These can be reset by pushing the PUSH TO SET button on the lower left corner of the instrument.
 
+.. raw:: latex
+
+    \newpage
 
 .. _pclock:
 
@@ -1317,6 +1478,9 @@ The knob on the lower left corner is used to wind up the clock by turning it clo
 
 The control on the upper right corner is used to start, stop and reset a 1-hour elapsed time counter.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rvc:
 
@@ -1347,6 +1511,9 @@ Panel controlling arrestor hook.
 | 3. GUN                   | Rounds remaining indicator for M-61A1 gun. Counts down from 676 but can be reset to desired readout with the knob on the right side.                                                   |
 +--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _dispctrlpanel:
 
@@ -1354,68 +1521,74 @@ Displays Control Panel
 ----------------------
 .. image:: /images/cockpit/detail/pilot/displays.png
 
-Control panel for front cockpit displays.
-
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator         | Function                                                                                                                                                                                  |
-+===========================+===========================================================================================================================================================================================+
-| 1. STEERING CMD selectors | | Selects current source for steering commands, selectors are mutually exclusive and turns to indicate selected option.                                                                   |
-|                           | |                                                                                                                                                                                         |
-|                           | | TACAN - Selects TACAN as steering command source.                                                                                                                                       |
-|                           | |                                                                                                                                                                                         |
-|                           | | DEST - Selects RIO set waypoint as steering command source.                                                                                                                             |
-|                           | |                                                                                                                                                                                         |
-|                           | | AWL/PCD - All-weather landing/precision course direction, selects glideslope guidance (ILS/ACLS) for landing or PCD for air-to-ground engagement directions as steering command source. |
-|                           | |                                                                                                                                                                                         |
-|                           | | VEC - Vector, selects data link deviation steering as steering command source.                                                                                                          |
-|                           | |                                                                                                                                                                                         |
-|                           | | MAN - Manual, selects manually selected course and heading as steering command source.                                                                                                  |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. MODE selectors         | | Selects display mode, selectors are mutually exclusive and turns to indicate selected mode.                                                                                             |
-|                           | |                                                                                                                                                                                         |
-|                           | | T.O. - Selects takeoff mode.                                                                                                                                                            |
-|                           | |                                                                                                                                                                                         |
-|                           | | CRUISE - Selects cruise mode.                                                                                                                                                           |
-|                           | |                                                                                                                                                                                         |
-|                           | | A/A - Selects air-to-air mode.                                                                                                                                                          |
-|                           | |                                                                                                                                                                                         |
-|                           | | A/G - Selects air-to-ground mode.                                                                                                                                                       |
-|                           | |                                                                                                                                                                                         |
-|                           | | LDG - Selects landing mode.                                                                                                                                                             |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. HUD DECLUTTER switch   | Selects declutter mode for HUD.                                                                                                                                                           |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. HUD AWL switch         | | Selects which AWL information to display on HUD.                                                                                                                                        |
-|                           | |                                                                                                                                                                                         |
-|                           | | ILS - Selects ILS as source for AWL information.                                                                                                                                        |
-|                           | |                                                                                                                                                                                         |
-|                           | | ACL - Selects ACL as source for AWL information.                                                                                                                                        |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. VDI MODE switch        | | Selects what to display on VDI.                                                                                                                                                         |
-|                           | |                                                                                                                                                                                         |
-|                           | | TV - Displays video from TCS or LANTIRN on VDI.                                                                                                                                         |
-|                           | |                                                                                                                                                                                         |
-|                           | | NORM - Displays normal VDI display.                                                                                                                                                     |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. VDI AWL switch         | | Selects which AWL information to display on VDI.                                                                                                                                        |
-|                           | |                                                                                                                                                                                         |
-|                           | | ILS - Selects ILS as source for AWL information.                                                                                                                                        |
-|                           | |                                                                                                                                                                                         |
-|                           | | ACL - Selects ACL as source for AWL information.                                                                                                                                        |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. HSD MODE switch        | | Selects what to display on HSD.                                                                                                                                                         |
-|                           | |                                                                                                                                                                                         |
-|                           | | NAV - Navigational display, shows steering information depending on selected steering command source.                                                                                   |
-|                           | |                                                                                                                                                                                         |
-|                           | | TID - Display repeating the RIO TID information. If RIO has TID set to TV the screen will be blank.                                                                                     |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. POWER switches         | Power switches for VDI, HUD and HSD/ECMD.                                                                                                                                                 |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. PITCH LAD BRT knob     | Controls brightness of pitch ladder on HUD.                                                                                                                                               |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 :Note: Image shows F-14 with integrated RWR having a third option on the HSD MODE and ECM ORIDE which are not present in the modelled F-14B.
 
+Control panel for front cockpit displays.
+
+.. table::
+    :class: longtable
+    
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator         | Function                                                                                                                                                                                  |
+    +===========================+===========================================================================================================================================================================================+
+    | 1. STEERING CMD selectors | | Selects current source for steering commands, selectors are mutually exclusive and turns to indicate selected option.                                                                   |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | TACAN - Selects TACAN as steering command source.                                                                                                                                       |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | DEST - Selects RIO set waypoint as steering command source.                                                                                                                             |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | AWL/PCD - All-weather landing/precision course direction, selects glideslope guidance (ILS/ACLS) for landing or PCD for air-to-ground engagement directions as steering command source. |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | VEC - Vector, selects data link deviation steering as steering command source.                                                                                                          |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | MAN - Manual, selects manually selected course and heading as steering command source.                                                                                                  |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. MODE selectors         | | Selects display mode, selectors are mutually exclusive and turns to indicate selected mode.                                                                                             |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | T.O. - Selects takeoff mode.                                                                                                                                                            |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | CRUISE - Selects cruise mode.                                                                                                                                                           |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | A/A - Selects air-to-air mode.                                                                                                                                                          |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | A/G - Selects air-to-ground mode.                                                                                                                                                       |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | LDG - Selects landing mode.                                                                                                                                                             |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. HUD DECLUTTER switch   | Selects declutter mode for HUD.                                                                                                                                                           |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. HUD AWL switch         | | Selects which AWL information to display on HUD.                                                                                                                                        |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | ILS - Selects ILS as source for AWL information.                                                                                                                                        |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | ACL - Selects ACL as source for AWL information.                                                                                                                                        |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. VDI MODE switch        | | Selects what to display on VDI.                                                                                                                                                         |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | TV - Displays video from TCS or LANTIRN on VDI.                                                                                                                                         |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | NORM - Displays normal VDI display.                                                                                                                                                     |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. VDI AWL switch         | | Selects which AWL information to display on VDI.                                                                                                                                        |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | ILS - Selects ILS as source for AWL information.                                                                                                                                        |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | ACL - Selects ACL as source for AWL information.                                                                                                                                        |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. HSD MODE switch        | | Selects what to display on HSD.                                                                                                                                                         |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | NAV - Navigational display, shows steering information depending on selected steering command source.                                                                                   |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | TID - Display repeating the RIO TID information. If RIO has TID set to TV the screen will be blank.                                                                                     |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. POWER switches         | Power switches for VDI, HUD and HSD/ECMD.                                                                                                                                                 |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. PITCH LAD BRT knob     | Controls brightness of pitch ladder on HUD.                                                                                                                                               |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. raw:: latex
+
+    \newpage
 
 .. _elevleadpanel:
 
@@ -1455,6 +1628,9 @@ Contains controls to override failed spoiler sections, allowing the rest to cont
 |          | | NORM - Normal (guarded position), in this mode, if an outboard spoiler fails up the rest are commanded to droop and the SPOILERS light illuminates on the caution panel. |
 +----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _liqoxyqtyind:
 
@@ -1463,7 +1639,6 @@ Liquid Oxygen Quantity Indicator
 .. image:: /images/cockpit/detail/pilot/liquidoxygen.png
 
 Contains an indicator showing remaining quantity of liquid oxygen available. Graduated in 1 liter increments. Also has an OFF flag that is shown in case of power failure to the indicator. The indicator is tested through the INST mode on the MASTER TEST panel and should read 2 liters.
-
 
 .. _compasscontrol:
 
@@ -1499,6 +1674,9 @@ The compass control panel contains controls for selecting compass mode when usin
 |                        | | The button can also be used to fast erect pitch and roll of the AHRS by depressing the button for up to 3 minutes. A new fast erect attempt can be done if a 1 minute wait is first observed.                              |
 +------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _ara63:
 
@@ -1520,6 +1698,9 @@ Panel used to control the AN/ARA-63 ILS (ICLS).
 | 4. Indicator light  | Lights to indicate AN/ARA-63 power on.                                                              |
 +---------------------+-----------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _CAindicator:
 
@@ -1611,6 +1792,9 @@ Main pilot caution panel.
 | AUX FIRE EXT     | Advisory light indicating low pressure in the auxiliary fire extinguishing container (90 psi below nominal 600 psi).                           |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _mgenctrlpanel:
 
@@ -1638,6 +1822,9 @@ Panel controlling left and right engine generator.
 |                            | | OFF/RESET - Disconnects the generator from the essential buses regardless of main generator status. Resets protection circuits.    |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _mlightctrlpanel:
 
@@ -1683,6 +1870,9 @@ Master light control panel, controlling most lights in/on the aircraft.
 | 13. FORMATION thumbwheel | Thumbwheel controlling external formation lights. 0 equals off, 1-14 sets the lights to an increasingly bright setting.                                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _airconctrlpanel:
 
@@ -1692,36 +1882,42 @@ Air Conditioning Control Panel
 
 Panel controlling the environmental control system (ECS).
 
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator       | Function                                                                                                                                                                                                                                                          |
-+=========================+===================================================================================================================================================================================================================================================================+
-| 1. TEMP switch          | | Switch controlling the cabin and pressure suit temperature mode.                                                                                                                                                                                                |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | AUTO - Temperature is automatically set from the TEMP thumbwheel regardless of airspeed and altitude.                                                                                                                                                           |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | MAN - Temperature is manually set from the TEMP thumbwheel but varies with airspeed and altitude and might need to be reset.                                                                                                                                    |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. CABIN PRESS switch   | | Switch controlling cabin pressurization. Locked to NORM until lifted.                                                                                                                                                                                           |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | NORM - Normal mode, cabin is pressurized at a level of 8,000 feet up to an aircraft level of 23,000 feet after which it maintains a 5 psi difference from outside atmosphere.                                                                                   |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | DUMP - Opens the cockpit dump valve depressurizing the cockpit.                                                                                                                                                                                                 |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. RAM AIR switch       | Selector switch used to modulate the amount of air from the ram air door after AIR SOURCE is set to RAM or OFF. Can be held to INCR (increase) or DECR (decrease), springloaded back to center.                                                                   |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. AIR SOURCE selectors | | Five mutually exclusive air source selectors. Rotates to indicate selection.                                                                                                                                                                                    |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | RAM - Closes other air sources and opens ram air door which is combined with hot bleed air to supply all users.                                                                                                                                                 |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | L & R ENG - Selects either engine as the source for bleed air.                                                                                                                                                                                                  |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | BOTH ENG - Selects both engines as source for bleed air. Normal position.                                                                                                                                                                                       |
-|                         | |                                                                                                                                                                                                                                                                 |
-|                         | | OFF - Closes all air sources but the ram air door. In this mode the ram air door can not supply pressurization or air conditioning. Inhibits gun firing.                                                                                                        |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. TEMP thumbwheel      | Selects cockpit and pressure suit air temperature. 0-14 is selectable with COOL and WARM placarded at each end stop. In auto 7 approximately corresponds to 21º C or 70º F. In manual the thumbwheel needs to be set for each variation in airspeed and altitude. |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator       | Function                                                                                                                                                                                                                                                          |
+    +=========================+===================================================================================================================================================================================================================================================================+
+    | 1. TEMP switch          | | Switch controlling the cabin and pressure suit temperature mode.                                                                                                                                                                                                |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | AUTO - Temperature is automatically set from the TEMP thumbwheel regardless of airspeed and altitude.                                                                                                                                                           |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | MAN - Temperature is manually set from the TEMP thumbwheel but varies with airspeed and altitude and might need to be reset.                                                                                                                                    |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. CABIN PRESS switch   | | Switch controlling cabin pressurization. Locked to NORM until lifted.                                                                                                                                                                                           |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | NORM - Normal mode, cabin is pressurized at a level of 8,000 feet up to an aircraft level of 23,000 feet after which it maintains a 5 psi difference from outside atmosphere.                                                                                   |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | DUMP - Opens the cockpit dump valve depressurizing the cockpit.                                                                                                                                                                                                 |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. RAM AIR switch       | Selector switch used to modulate the amount of air from the ram air door after AIR SOURCE is set to RAM or OFF. Can be held to INCR (increase) or DECR (decrease), springloaded back to center.                                                                   |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. AIR SOURCE selectors | | Five mutually exclusive air source selectors. Rotates to indicate selection.                                                                                                                                                                                    |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | RAM - Closes other air sources and opens ram air door which is combined with hot bleed air to supply all users.                                                                                                                                                 |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | L & R ENG - Selects either engine as the source for bleed air.                                                                                                                                                                                                  |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | BOTH ENG - Selects both engines as source for bleed air. Normal position.                                                                                                                                                                                       |
+    |                         | |                                                                                                                                                                                                                                                                 |
+    |                         | | OFF - Closes all air sources but the ram air door. In this mode the ram air door can not supply pressurization or air conditioning. Inhibits gun firing.                                                                                                        |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. TEMP thumbwheel      | Selects cockpit and pressure suit air temperature. 0-14 is selectable with COOL and WARM placarded at each end stop. In auto 7 approximately corresponds to 21º C or 70º F. In manual the thumbwheel needs to be set for each variation in airspeed and altitude. |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _MTPanel:
 
@@ -1731,48 +1927,54 @@ Master Test Panel
 
 Panel controlling OBC and various on board BITs in addition to the emergency flight hydraulic setting.
 
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator       | Function                                                                                                                                        |
-+=========================+=================================================================================================================================================+
-| 1. MASTER TEST selector | | Selector used to select and initiate OBC and BIT for various systems. Pull out to enable selection, push in at selected option to start test. |
-|                         | |                                                                                                                                               |
-|                         | | OFF - Disables test functions.                                                                                                                |
-|                         | |                                                                                                                                               |
-|                         | | LTS - Lights, tests cockpit indication lights.                                                                                                |
-|                         | |                                                                                                                                               |
-|                         | | FIRE DET/EXT - Fire detection system test.                                                                                                    |
-|                         | |                                                                                                                                               |
-|                         | | INST - Instruments, tests various cockpit instrumentation.                                                                                    |
-|                         | |                                                                                                                                               |
-|                         | | OBC - On board checkout, starts OBC.                                                                                                          |
-|                         | |                                                                                                                                               |
-|                         | | EMERG GEN - Tests emergency generator.                                                                                                        |
-|                         | |                                                                                                                                               |
-|                         | | MACH LEV - Initiates dynamic MACH lever check. F-14A only.                                                                                    |
-|                         | |                                                                                                                                               |
-|                         | | WG SWP - Tests wing-sweep system.                                                                                                             |
-|                         | |                                                                                                                                               |
-|                         | | FLT GR DN - Initiates ground check of auto throttle interlocks.                                                                               |
-|                         | |                                                                                                                                               |
-|                         | | FLT GR UP - Tests external fuel tank pressurization.                                                                                          |
-|                         | |                                                                                                                                               |
-|                         | | D/L RAD - Tests the data link converter.                                                                                                      |
-|                         | |                                                                                                                                               |
-|                         | | STICK SW - Checks left and right spoiler symmetry switches and 1-inch stick switches for yaw SAS.                                             |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. GO/NO-GO lights      | Lights used in relevant tests to indicate GO or NO-GO conditions of those systems.                                                              |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. EMERG FLT HYD        | | Switch controlling the emergency mode of the flight hydraulic system. Guarded to the AUTO (LOW) position.                                     |
-|                         | |                                                                                                                                               |
-|                         | | HIGH - Activates the power module (high speed mode), bypassing flight and combined 2,100 psi switches.                                        |
-|                         | |                                                                                                                                               |
-|                         | | LOW - Activates the backup power module bypassing flight and combined 2,100 psi switches.                                                     |
-|                         | |                                                                                                                                               |
-|                         | | AUTO (LOW) - Automatically activates LOW mode when both flight and combined system pressures are below 2,100 psi.                             |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator       | Function                                                                                                                                        |
+    +=========================+=================================================================================================================================================+
+    | 1. MASTER TEST selector | | Selector used to select and initiate OBC and BIT for various systems. Pull out to enable selection, push in at selected option to start test. |
+    |                         | |                                                                                                                                               |
+    |                         | | OFF - Disables test functions.                                                                                                                |
+    |                         | |                                                                                                                                               |
+    |                         | | LTS - Lights, tests cockpit indication lights.                                                                                                |
+    |                         | |                                                                                                                                               |
+    |                         | | FIRE DET/EXT - Fire detection system test.                                                                                                    |
+    |                         | |                                                                                                                                               |
+    |                         | | INST - Instruments, tests various cockpit instrumentation.                                                                                    |
+    |                         | |                                                                                                                                               |
+    |                         | | OBC - On board checkout, starts OBC.                                                                                                          |
+    |                         | |                                                                                                                                               |
+    |                         | | EMERG GEN - Tests emergency generator.                                                                                                        |
+    |                         | |                                                                                                                                               |
+    |                         | | MACH LEV - Initiates dynamic MACH lever check. F-14A only.                                                                                    |
+    |                         | |                                                                                                                                               |
+    |                         | | WG SWP - Tests wing-sweep system.                                                                                                             |
+    |                         | |                                                                                                                                               |
+    |                         | | FLT GR DN - Initiates ground check of auto throttle interlocks.                                                                               |
+    |                         | |                                                                                                                                               |
+    |                         | | FLT GR UP - Tests external fuel tank pressurization.                                                                                          |
+    |                         | |                                                                                                                                               |
+    |                         | | D/L RAD - Tests the data link converter.                                                                                                      |
+    |                         | |                                                                                                                                               |
+    |                         | | STICK SW - Checks left and right spoiler symmetry switches and 1-inch stick switches for yaw SAS.                                             |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. GO/NO-GO lights      | Lights used in relevant tests to indicate GO or NO-GO conditions of those systems.                                                              |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. EMERG FLT HYD        | | Switch controlling the emergency mode of the flight hydraulic system. Guarded to the AUTO (LOW) position.                                     |
+    |                         | |                                                                                                                                               |
+    |                         | | HIGH - Activates the power module (high speed mode), bypassing flight and combined 2,100 psi switches.                                        |
+    |                         | |                                                                                                                                               |
+    |                         | | LOW - Activates the backup power module bypassing flight and combined 2,100 psi switches.                                                     |
+    |                         | |                                                                                                                                               |
+    |                         | | AUTO (LOW) - Automatically activates LOW mode when both flight and combined system pressures are below 2,100 psi.                             |
+    +-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 :Note: Specific tests will be detailed in a future BIT chapter.
 
+.. raw:: latex
+
+    \newpage
 
 .. _extenvctrlpanel:
 
@@ -1800,6 +2002,9 @@ Panel controlling windshield air and external anti-ice settings.
 |                    | | OFF/OFF - Turns off both engine and probe anti-ice and AICS anti-ice.                                                      |
 +--------------------+------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _hydtranspump:
 
@@ -1813,6 +2018,9 @@ The HYD TRANSFER PUMP switch has two positions, SHUTOFF and NORMAL (guarded posi
 The NORMAL position (also the standard setting) will have the hydraulic transfer pump pressurize a failed hydraulic system from the other, functioning system, when it drops below 2,100 psi.
 The SHUTOFF position (which can be accessed by lifting the guard) is used to turn off the transfer pump in case it can't supply enough pressure to the failed system as that would risk disabling the still operational system.
 
+.. raw:: latex
+
+    \newpage
 
 .. _hudvidctrlpanel:
 
@@ -1836,6 +2044,9 @@ Control panel for the CTVS system which records the HUD when activated. Not impl
 | Switch 2 & 3.            | VTR - Video tape recorder.                                                                                                                        |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
  
 .. _candefogairlev: 
  
@@ -1871,6 +2082,10 @@ The canopy control handle is duplicated in the RIO cockpit.
 | AUX OPEN | Allows manual opening of the canopy if system pressure is too low.                 |
 +----------+------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
+
 F-14B RIO Cockpit
 *****************
 
@@ -1904,6 +2119,9 @@ Controls ventilation airflow to pressure suit or seat cushions and oxygen to RIO
 | OXYGEN switch     | Switch with ON/OFF positions. Controls oxygen flow to the mask.                                 |
 +-------------------+-------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _datastow:
 
@@ -1913,6 +2131,9 @@ Data Stowage Compartment
 
 The data stowage panel is a small compartment for equipment storage and mission briefing materials etc.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rtacanctrlpanel:
 
@@ -1948,6 +2169,9 @@ TACAN control panel letting the RIO control TACAN if in command of it.
 |                       | | BCN - Beacon TACAN mode. (Non functional)                                                        |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rcomtac:
 
@@ -1984,6 +2208,9 @@ Panel controlling ICS radio settings and crewmember in control of TACAN.
 
 :Note: As the DCS F-14B is modelled with KY-28 the KY MODE switch is non-functional in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 .. _arc182:
 
@@ -2017,6 +2244,9 @@ V/UHF radio 2. Radio and controls.
 
 :Note: Have Quick anti-jam functionality not implemented in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 .. _ky28:
 
@@ -2035,30 +2265,9 @@ KY-28 Control Panel
 +------------------------+-------------------------------------------------+
 
 
-.. _dlctrlpanel:
+.. raw:: latex
 
-Data Link Control Panel
------------------------
-.. image:: /images/cockpit/detail/rio/datalink.png
-
-Control panel for the data link.
-
-+-----------------------------+--------------------------------------------------------------------+
-| Control                     | Function                                                           |
-+=============================+====================================================================+
-| 1. Transmission mode switch | | Sets data link tranmission mode.                                 |
-|                             | |                                                                  |
-|                             | | TEST - Starts system test.                                       |
-|                             | |                                                                  |
-|                             | | NORM - Normal operational mode.                                  |
-|                             | |                                                                  |
-|                             | | A/J - Anti-jam mode.                                             |
-+-----------------------------+--------------------------------------------------------------------+
-| 2. Frequency select wheels  | Thumbwheels used to set data link frequency.                       |
-+-----------------------------+--------------------------------------------------------------------+
-| 3. Data link power switch   | Enables power to data link, also used to set AUX (auxiliary) mode. |
-+-----------------------------+--------------------------------------------------------------------+
-
+    \newpage
 
 .. _radbeac:
 
@@ -2090,6 +2299,9 @@ Panel controlling AN/APN-154 radar beacon.
 |                     | | OFF - Beacon off.                                                                                                                                                                                                                                                          |
 +---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _liqcool:
 
@@ -2099,6 +2311,9 @@ Liquid Cooling Control Panel
 
 LIQ COOLING switch controlling the liquid cooling system for the AWG-9 and AIM-54. The AWG-9 circuit can be enabled independently of the AIM-54. This switch need to be enabled for the respective system before AWG-9 operation or AIM-54 missile preparation.
 
+.. raw:: latex
+
+    \newpage
 
 .. _ricsctrlpanel:
 
@@ -2130,6 +2345,9 @@ Control panel for ICS.
 |                             | | COLD MIC - Allows talking to the pilot only while the PTT is pressed.                                                                         |
 +-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _ejectcmdlev:
 
@@ -2139,6 +2357,9 @@ Eject Command Lever
 
 A pilot initiated ejection will always eject both crew members. The EJECT CMD lever controls what happens when the RIO ejects: In PILOT mode (lever forward), only the RIO will be ejected. In MCO mode, both pilot and RIO initiated ejection will eject both crew members
 
+.. raw:: latex
+
+    \newpage
 
 .. _sensctrlpanel:
 
@@ -2211,6 +2432,9 @@ The CAP is used to enter data into the WCS. The MESSAGE indicator drum and butto
 
 :Note: All of the buttons have indicator lights indicating operation depending on function.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rlvc:
 
@@ -2225,54 +2449,60 @@ Armament Panel
 
 Main armament control panel in the RIO cockpit.
 
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator              | Function                                                                                                                                                                                               |
-+================================+========================================================================================================================================================================================================+
-| 1. WPN TYPE selector           | Selector wheel selecting type of weapon used for WCS A/G calculation.                                                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. ATTK MODE knob              | Knob selecting which A/G attack mode to use.                                                                                                                                                           |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. ELEC FUSE knob              | Knob selecting electric fuze setting for A/G ordnance.                                                                                                                                                 |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. A/G GUN switch              | Selector switch controlling gun mode in A/G master mode. MIXED enables gun in addition to selected A/G ordnance.                                                                                       |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. QTY selectors               | Selector wheels controlling quantity of A/G ordnance (including rockets) to be released.                                                                                                               |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. INTERVAL selectors          | Selector wheels controlling interval between weapons release in ripple delivery mode in milliseconds.                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. Station 6 select switch     | Switch used to select station 6 for jettison or weapons A/G delivery.                                                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. A/A LAUNCH button           | Button used for RIO launch of AIM-7 or AIM-54, hot trigger is indicated by button illumination.                                                                                                        |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. MSL SPD GATE knob           | Knob controlling position of missile speed gate.                                                                                                                                                       |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 10. Station 8 select switch    | Switch used to select station 8 for jettison or weapons A/G delivery. B selects the lower pylon for release or jettison, the SW option is non-functional.                                              |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 11. MSL OPTIONS switch         | Selector switch used to activate AIM-7 pulse doppler mode or AIM-54 active launch mode.                                                                                                                |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 12. Station 5 select switch    | Switch used to select station 5 for jettison or weapons A/G delivery.                                                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 13. NEXT LAUNCH button         | Button used by RIO to select a hooked target as the next target to launch at in TWS.                                                                                                                   |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 14. Station 4 select switch    | Switch used to select station 4 for jettison or weapons A/G delivery.                                                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 15. Station 1 select switch    | Switch used to select station 1 for jettison or weapons A/G delivery. B selects the lower pylon for release or jettison, the SW option is non-functional.                                              |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 16. TANK JETT station 7 switch | Switch selecting station 7 for tank jettison.                                                                                                                                                          |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 17. TANK JETT station 2 switch | Switch selecting station 2 for tank jettison.                                                                                                                                                          |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 18. Station 3 select switch    | Switch used to select station 3 for jettison or weapons A/G delivery.                                                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 19. JETT OPTIONS switch        | Switch selecting whether to jettison only WPNS (weapons) or MER/TER (weapon racks) in addition to weapons. Non-functional in modelled F-14B.                                                           |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 20. SEL JETT switch            | Selector switch used to jettison selected stations in normal (JETT) mode or AUX (backup) mode. The AUX position is guarded.                                                                            |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 21. MECH FUSE switch           | Selector switch used to enable and set which mechanical fuse to use for A/G ordnance.                                                                                                                  |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 22. DLVY MODE switches         | Two selector switches used to select A/G delivery mode. One switch controls whether to release in singles or pairs and the other sets whether to release once or multiple times according to settings. |
-+--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator              | Function                                                                                                                                                                                               |
+    +================================+========================================================================================================================================================================================================+
+    | 1. WPN TYPE selector           | Selector wheel selecting type of weapon used for WCS A/G calculation.                                                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. ATTK MODE knob              | Knob selecting which A/G attack mode to use.                                                                                                                                                           |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. ELEC FUSE knob              | Knob selecting electric fuze setting for A/G ordnance.                                                                                                                                                 |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. A/G GUN switch              | Selector switch controlling gun mode in A/G master mode. MIXED enables gun in addition to selected A/G ordnance.                                                                                       |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. QTY selectors               | Selector wheels controlling quantity of A/G ordnance (including rockets) to be released.                                                                                                               |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. INTERVAL selectors          | Selector wheels controlling interval between weapons release in ripple delivery mode in milliseconds.                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. Station 6 select switch     | Switch used to select station 6 for jettison or weapons A/G delivery.                                                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. A/A LAUNCH button           | Button used for RIO launch of AIM-7 or AIM-54, hot trigger is indicated by button illumination.                                                                                                        |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. MSL SPD GATE knob           | Knob controlling position of missile speed gate.                                                                                                                                                       |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 10. Station 8 select switch    | Switch used to select station 8 for jettison or weapons A/G delivery. B selects the lower pylon for release or jettison, the SW option is non-functional.                                              |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 11. MSL OPTIONS switch         | Selector switch used to activate AIM-7 pulse doppler mode or AIM-54 active launch mode.                                                                                                                |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 12. Station 5 select switch    | Switch used to select station 5 for jettison or weapons A/G delivery.                                                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 13. NEXT LAUNCH button         | Button used by RIO to select a hooked target as the next target to launch at in TWS.                                                                                                                   |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 14. Station 4 select switch    | Switch used to select station 4 for jettison or weapons A/G delivery.                                                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 15. Station 1 select switch    | Switch used to select station 1 for jettison or weapons A/G delivery. B selects the lower pylon for release or jettison, the SW option is non-functional.                                              |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 16. TANK JETT station 7 switch | Switch selecting station 7 for tank jettison.                                                                                                                                                          |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 17. TANK JETT station 2 switch | Switch selecting station 2 for tank jettison.                                                                                                                                                          |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 18. Station 3 select switch    | Switch used to select station 3 for jettison or weapons A/G delivery.                                                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 19. JETT OPTIONS switch        | Switch selecting whether to jettison only WPNS (weapons) or MER/TER (weapon racks) in addition to weapons. Non-functional in modelled F-14B.                                                           |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 20. SEL JETT switch            | Selector switch used to jettison selected stations in normal (JETT) mode or AUX (backup) mode. The AUX position is guarded.                                                                            |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 21. MECH FUSE switch           | Selector switch used to enable and set which mechanical fuse to use for A/G ordnance.                                                                                                                  |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 22. DLVY MODE switches         | Two selector switches used to select A/G delivery mode. One switch controls whether to release in singles or pairs and the other sets whether to release once or multiple times according to settings. |
+    +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rlip:
 
@@ -2303,6 +2533,9 @@ Control and indicator for the servopneumatic altimeter.
 
 :Note: At high speeds and below 10,000 feet, due to pressure changes, errors in readout up to as much as 1,200 feet when transonic and up to as much as 4,000 feet when supersonic can occur.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rspeedmachind:
 
@@ -2332,6 +2565,9 @@ Indicated airspeed and Mach number display.
 | 8. Index knob                       | Knob with a pull-out and push-in position. One sets indexer for indicated airspeed and the other for Mach number. |
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rstbyattind:
 
@@ -2366,6 +2602,9 @@ Remote indicator displaying set frequency or channel on UHF 1 (AN/ARC-159).
 |                                                       | | DIM - Controls display brightness.                                              |
 +-------------------------------------------------------+-----------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rcp:
 
@@ -2392,82 +2631,91 @@ Two switch hats on the center RIO hand hold used to initiate release of counterm
 | Outboard | Initiates set flare release program.  |
 +----------+---------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _dddp:
 
 Detail Data Display Panel
 -------------------------
-.. image:: /images/cockpit/detail/rio/ddd.png
+.. image:: /images/cockpit/detail/rio/DDD.png
 
 Main radar control panel.
 
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator               | Function                                                                                                                                                                                                 |
-+=================================+==========================================================================================================================================================================================================+
-| 1. TGTS switch                  | Switch selecting target size for missile launch zones and WCS track calculations.                                                                                                                        |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. MLC switch                   | Switch selecting MLC mode of operation.                                                                                                                                                                  |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. AGC switch                   | Switch controlling AGC speed. Currently non-functional in DCS.                                                                                                                                           |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. PARAMP switch                | Switch controlling the parametric amplification. Currently non-functional in DCS.                                                                                                                        |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. PULSE VIDEO knob             | Knob controlling video strength of pulse video on the DDD. No effect on pulse doppler video.                                                                                                             |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. Radar track indicator lights | | Indicator lights indicating radar tracking in the STT modes.                                                                                                                                           |
-|                                 | |                                                                                                                                                                                                        |
-|                                 | | ANT TRK - Indicates the radar is tracking the target's angle.                                                                                                                                          |
-|                                 | |                                                                                                                                                                                                        |
-|                                 | | RDROT - Indicates the target is within the range or rate gate and being tracked.                                                                                                                       |
-|                                 | |                                                                                                                                                                                                        |
-|                                 | | JAT - Indicates the radar is tracking a jamming source's angle.                                                                                                                                        |
-|                                 | |                                                                                                                                                                                                        |
-|                                 | | IROT - Indication of TCS angle tracking, called IROT as this was originally used for the IRST in the early -A.                                                                                         |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. RANGE display                | Rotary drum indicator displaying currently selected radar range. Can also be blank if no range scale is used on the DDD.                                                                                 |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. RANGE buttons                | Buttons used to select radar range.                                                                                                                                                                      |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. BRIGHT knob                  | Knob used to control the brightness of the DDD by means of a polarized filter in front of the DDD.                                                                                                       |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 10. IR AUDIO THRLD knob         | Knob used to control IR AUDIO threshold, non-functional with TCS.                                                                                                                                        |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 11. IR AUDIO VOL knob           | Knob used to control IR AUDIO volume, non-functional with TCS.                                                                                                                                           |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 12. IR GAIN knob                | Knob used to control IR GAIN, non-functional with TCS.                                                                                                                                                   |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 13. XMTR CHAN wheel             | 12-position wheel used to control AWG-9 operating frequency. Currently non-functional in DCS.                                                                                                            |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 14. MSL CHAN wheel              | 6-position wheel used to control missile channel used by AIM-7 or AIM-54. Currently non-functional in DCS.                                                                                               |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 15. DISPLAY buttons             | Buttons used to control what to display on the DDD. IR button non-functional with TCS.                                                                                                                   |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 16. WCS MODE buttons            | Buttons used to select the current AWG-9 operating mode.                                                                                                                                                 |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 17. WCS MODE display            | Rotary drum indicator displaying current WCS mode.                                                                                                                                                       |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 18. Vc switch                   | Switch used to select different closing velocity scales on the DDD in PD modes.                                                                                                                          |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 19. ERASE knob                  | Knob used to control the intensity of the ERASE beam on the DDD, controlling how quick the image on the DDD fades.                                                                                       |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 20. PULSE GAIN knob             | Knob used to control the gain of the AWG-9 in pulse mode, normally left in detent unless needed because of clutter or jamming.                                                                           |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 21. ASPECT switch               | Switch used to control the rate region covered by the doppler filters in pulse doppler modes and if to use edge or centroid tracking in pulse mode. These settings correspond to expected target aspect. |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 22. EL indicator                | Meter with indicator needles indicating sensor elevation. Left indicator shows current actual radar antenna elevation. The right indicates commanded radar elevation while RDR is selected on            |
-|                                 | HCU and TCS elevation while IR/TV is selected.                                                                                                                                                           |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 23. CCM MODES buttons           | Buttons used to set AWG-9 functionality countering jamming targets. Currently non-functional in DCS.                                                                                                     |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 24. JAM/JET knob                | Control knob used to set the threshold at which a radar return is considered a jamming target. Currently non-functional in DCS.                                                                          |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 25. ACM THRLD knob              | Control knob used to control radar sensitivity level at close ranges. Usually set automatically with the knob in the detent position.                                                                    |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 26. PD THRLD knobs              | Control knobs used to set pulse doppler video threshold in the CLEAR (upper half of DDD) region and in the CLUTTER (lower half of the DDD) region.                                                       |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 27. DDD radar display           | Main AWG-9 radar display.                                                                                                                                                                                |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator               | Function                                                                                                                                                                                                 |
+    +=================================+==========================================================================================================================================================================================================+
+    | 1. TGTS switch                  | Switch selecting target size for missile launch zones and WCS track calculations.                                                                                                                        |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. MLC switch                   | Switch selecting MLC mode of operation.                                                                                                                                                                  |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. AGC switch                   | Switch controlling AGC speed. Currently non-functional in DCS.                                                                                                                                           |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. PARAMP switch                | Switch controlling the parametric amplification. Currently non-functional in DCS.                                                                                                                        |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. PULSE VIDEO knob             | Knob controlling video strength of pulse video on the DDD. No effect on pulse doppler video.                                                                                                             |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. Radar track indicator lights | | Indicator lights indicating radar tracking in the STT modes.                                                                                                                                           |
+    |                                 | |                                                                                                                                                                                                        |
+    |                                 | | ANT TRK - Indicates the radar is tracking the target's angle.                                                                                                                                          |
+    |                                 | |                                                                                                                                                                                                        |
+    |                                 | | RDROT - Indicates the target is within the range or rate gate and being tracked.                                                                                                                       |
+    |                                 | |                                                                                                                                                                                                        |
+    |                                 | | JAT - Indicates the radar is tracking a jamming source's angle.                                                                                                                                        |
+    |                                 | |                                                                                                                                                                                                        |
+    |                                 | | IROT - Indication of TCS angle tracking, called IROT as this was originally used for the IRST in the early -A.                                                                                         |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. RANGE display                | Rotary drum indicator displaying currently selected radar range. Can also be blank if no range scale is used on the DDD.                                                                                 |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. RANGE buttons                | Buttons used to select radar range.                                                                                                                                                                      |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. BRIGHT knob                  | Knob used to control the brightness of the DDD by means of a polarized filter in front of the DDD.                                                                                                       |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 10. IR AUDIO THRLD knob         | Knob used to control IR AUDIO threshold, non-functional with TCS.                                                                                                                                        |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 11. IR AUDIO VOL knob           | Knob used to control IR AUDIO volume, non-functional with TCS.                                                                                                                                           |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 12. IR GAIN knob                | Knob used to control IR GAIN, non-functional with TCS.                                                                                                                                                   |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 13. XMTR CHAN wheel             | 12-position wheel used to control AWG-9 operating frequency. Currently non-functional in DCS.                                                                                                            |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 14. MSL CHAN wheel              | 6-position wheel used to control missile channel used by AIM-7 or AIM-54. Currently non-functional in DCS.                                                                                               |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 15. DISPLAY buttons             | Buttons used to control what to display on the DDD. IR button non-functional with TCS.                                                                                                                   |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 16. WCS MODE buttons            | Buttons used to select the current AWG-9 operating mode.                                                                                                                                                 |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 17. WCS MODE display            | Rotary drum indicator displaying current WCS mode.                                                                                                                                                       |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 18. Vc switch                   | Switch used to select different closing velocity scales on the DDD in PD modes.                                                                                                                          |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 19. ERASE knob                  | Knob used to control the intensity of the ERASE beam on the DDD, controlling how quick the image on the DDD fades.                                                                                       |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 20. PULSE GAIN knob             | Knob used to control the gain of the AWG-9 in pulse mode, normally left in detent unless needed because of clutter or jamming.                                                                           |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 21. ASPECT switch               | Switch used to control the rate region covered by the doppler filters in pulse doppler modes and if to use edge or centroid tracking in pulse mode. These settings correspond to expected target aspect. |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 22. EL indicator                | Meter with indicator needles indicating sensor elevation. Left indicator shows current actual radar antenna elevation. The right indicates commanded radar elevation while RDR is selected on            |
+    |                                 | HCU and TCS elevation while IR/TV is selected.                                                                                                                                                           |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 23. CCM MODES buttons           | Buttons used to set AWG-9 functionality countering jamming targets. Currently non-functional in DCS.                                                                                                     |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 24. JAM/JET knob                | Control knob used to set the threshold at which a radar return is considered a jamming target. Currently non-functional in DCS.                                                                          |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 25. ACM THRLD knob              | Control knob used to control radar sensitivity level at close ranges. Usually set automatically with the knob in the detent position.                                                                    |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 26. PD THRLD knobs              | Control knobs used to set pulse doppler video threshold in the CLEAR (upper half of DDD) region and in the CLUTTER (lower half of the DDD) region.                                                       |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 27. DDD radar display           | Main AWG-9 radar display.                                                                                                                                                                                |
+    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rcc:
 
@@ -2482,50 +2730,56 @@ Tactical Information Display (TID)
 
 Tactical information display and corresponding and navigational controls.
 
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator          | Function                                                                                                                                                                                                                                     |
-+============================+==============================================================================================================================================================================================================================================+
-| 1. INS status indicator    | Indicator light showing status of the INS during alignment. STBY indicates power applied but not aligned. READY indicates minumum launch criteria for AIM-54. Both lights turn off when INS mode is selected. Can otherwise indicate faults. |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. CONTRAST knob           | Control knob that controls contrast of TCS video.                                                                                                                                                                                            |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. DATA READOUT drum       | Readout drum indicating the source of the data displayed on the TID readouts. Might be blank for sources not having its own text on the drum.                                                                                                |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. BRIGHT knob             | Control knob controlling TID brightness.                                                                                                                                                                                                     |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. STEERING indicator drum | Readout drum indicating current steering information being displayed to the pilot.                                                                                                                                                           |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. DEST selector           | Selector knob controlling what destination to use for the navigation destination mode.                                                                                                                                                       |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. CLSN button             | Button with indication used to select collision steering towards tracked target or TWS centroid.                                                                                                                                             |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. DISPLAY buttons         | | Buttons controlling what elements are shown on the TID. Contains indicator lights showing selection.                                                                                                                                       |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | RID DISABLE - Not implemented.                                                                                                                                                                                                             |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | ALT NUM - Toggles display of altitude numeric on the left side of the track symbols.                                                                                                                                                       |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | SYM ELEM - Toggles display of all supplementary elements of target tracks. Deselection causes only the target track dot to be shown.                                                                                                       |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | DATA LINK - Toggles display of all data link tracks.                                                                                                                                                                                       |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | JAM STROBE - Toggles display of jamming strobes.                                                                                                                                                                                           |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | NON-ATTK - Toggles display of non-attackable tracks.                                                                                                                                                                                       |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | VEL VECTOR - Toggles display of velocity vectors on tracks.                                                                                                                                                                                |
-|                            | |                                                                                                                                                                                                                                            |
-|                            | | LAUNCH ZONE - Toggles display of missile launch zones on tracks. Replaces velocity vectors if applicable. Automatically activated by WCS 60 seconds prior to maximum missile launch range.                                                 |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. RANGE selector          | Selector switch selecting current scale of the TID. Corresponds to the distance the diameter represents.                                                                                                                                     |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 10. TID MODE selector      | Selector switch controlling current TID presentation.                                                                                                                                                                                        |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 11. TRACK HOLD button      | Button extending the amount of time before a track is dropped after last radar observation to two minutes. Normal time is 14 seconds.                                                                                                        |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 12. NAV MODE selector      | Selector switch controlling navigation reference systems. Controls which system is in use and also alignment of the INS.                                                                                                                     |
-+----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator          | Function                                                                                                                                                                                                                                     |
+    +============================+==============================================================================================================================================================================================================================================+
+    | 1. INS status indicator    | Indicator light showing status of the INS during alignment. STBY indicates power applied but not aligned. READY indicates minumum launch criteria for AIM-54. Both lights turn off when INS mode is selected. Can otherwise indicate faults. |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. CONTRAST knob           | Control knob that controls contrast of TCS video.                                                                                                                                                                                            |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. DATA READOUT drum       | Readout drum indicating the source of the data displayed on the TID readouts. Might be blank for sources not having its own text on the drum.                                                                                                |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. BRIGHT knob             | Control knob controlling TID brightness.                                                                                                                                                                                                     |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. STEERING indicator drum | Readout drum indicating current steering information being displayed to the pilot.                                                                                                                                                           |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. DEST selector           | Selector knob controlling what destination to use for the navigation destination mode.                                                                                                                                                       |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. CLSN button             | Button with indication used to select collision steering towards tracked target or TWS centroid.                                                                                                                                             |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. DISPLAY buttons         | | Buttons controlling what elements are shown on the TID. Contains indicator lights showing selection.                                                                                                                                       |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | RID DISABLE - Not implemented.                                                                                                                                                                                                             |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | ALT NUM - Toggles display of altitude numeric on the left side of the track symbols.                                                                                                                                                       |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | SYM ELEM - Toggles display of all supplementary elements of target tracks. Deselection causes only the target track dot to be shown.                                                                                                       |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | DATA LINK - Toggles display of all data link tracks.                                                                                                                                                                                       |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | JAM STROBE - Toggles display of jamming strobes.                                                                                                                                                                                           |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | NON-ATTK - Toggles display of non-attackable tracks.                                                                                                                                                                                       |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | VEL VECTOR - Toggles display of velocity vectors on tracks.                                                                                                                                                                                |
+    |                            | |                                                                                                                                                                                                                                            |
+    |                            | | LAUNCH ZONE - Toggles display of missile launch zones on tracks. Replaces velocity vectors if applicable. Automatically activated by WCS 60 seconds prior to maximum missile launch range.                                                 |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. RANGE selector          | Selector switch selecting current scale of the TID. Corresponds to the distance the diameter represents.                                                                                                                                     |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 10. TID MODE selector      | Selector switch controlling current TID presentation.                                                                                                                                                                                        |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 11. TRACK HOLD button      | Button extending the amount of time before a track is dropped after last radar observation to two minutes. Normal time is 14 seconds.                                                                                                        |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 12. NAV MODE selector      | Selector switch controlling navigation reference systems. Controls which system is in use and also alignment of the INS.                                                                                                                     |
+    +----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rhcu:
 
@@ -2535,42 +2789,48 @@ Hand Control Unit (HCU)
 
 Main radar and TCS control stick.
 
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator                     | Function                                                                                                                                                                                                                                        |
-+=======================================+=================================================================================================================================================================================================================================================+
-| 1. IR/TV switch                       | Switch controlling TCS power. Enables selection of OFF/STBY and ON.                                                                                                                                                                             |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. IR/TV overtemp indicator           | Light indicating the presence of an overtemperature condition in the TCS.                                                                                                                                                                       |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. LIGHT TEST button                  | Button allowing test of all AWG-9 lights.                                                                                                                                                                                                       |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. PWR RESET indicator                | Light indicating one or more inoperative secondary power supplies.                                                                                                                                                                              |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. PWR RESET button                   | Button allowing reset of inoperative secondary power supplies. If the condition triggering the inoperational state remains the affected supplies will remain inoperational.                                                                     |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6. WCS indicator                      | Light indicating selection of STBY or XMT with the radar not yet timed out or selection of XMT with radar transmission remaining off.                                                                                                           |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 7. WCS switch                         | Switch controlling WCS power (computer and radar). STBY turns on power to the WCS and begins radar warmup without transmission. XMT enables radar transmission if radar is ready. Display warmup time is 30 seconds, radar warmup is 3 minutes. |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 8. MRL button                         | Button selecting manual rapid lockon mode. Overrides all operational modes except PLM and VSL.                                                                                                                                                  |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 9. OFFSET button                      | Button used to offset TID to hooked location on the display.                                                                                                                                                                                    |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 10. ELEV thumbwheel                   | Thumbwheel used to fine-tune elevation of radar antenna for STT lockon acquisition.                                                                                                                                                             |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 11. HCU trigger                       | Used to select and trigger different functions in the WCS depending on current mode and hcu function. First detent is HALF ACTION, second detent is FULL ACTION. Examples of use are target acquisition and symbol hook.                        |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 12. Hand control function buttons     | | Buttons with indication used to control function of HCU stick. Mutually exclusive.                                                                                                                                                            |
-|                                       | |                                                                                                                                                                                                                                               |
-|                                       | | IR/TV - Selects control of TCS azimuth, elevation and tracking. Enables display of TCS elevation on right elevation indicator on DDD.                                                                                                         |
-|                                       | |                                                                                                                                                                                                                                               |
-|                                       | | RDR - Selects control of radar antenna for STT lock-on and return to search if already in STT. Enables display of currently commanded radar antenna elevation on right elevation indicator on DDD.                                            |
-|                                       | |                                                                                                                                                                                                                                               |
-|                                       | | DDD CURSOR - Selects control of DDD cursor used to mark a geographical position while in pulse radar mode.                                                                                                                                    |
-|                                       | |                                                                                                                                                                                                                                               |
-|                                       | | TID CURSOR - Selects control of TID cursor used to hook (select) symbols on the TID.                                                                                                                                                          |
-+---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator                     | Function                                                                                                                                                                                                                                        |
+    +=======================================+=================================================================================================================================================================================================================================================+
+    | 1. IR/TV switch                       | Switch controlling TCS power. Enables selection of OFF/STBY and ON.                                                                                                                                                                             |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. IR/TV overtemp indicator           | Light indicating the presence of an overtemperature condition in the TCS.                                                                                                                                                                       |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. LIGHT TEST button                  | Button allowing test of all AWG-9 lights.                                                                                                                                                                                                       |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. PWR RESET indicator                | Light indicating one or more inoperative secondary power supplies.                                                                                                                                                                              |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. PWR RESET button                   | Button allowing reset of inoperative secondary power supplies. If the condition triggering the inoperational state remains the affected supplies will remain inoperational.                                                                     |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 6. WCS indicator                      | Light indicating selection of STBY or XMT with the radar not yet timed out or selection of XMT with radar transmission remaining off.                                                                                                           |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 7. WCS switch                         | Switch controlling WCS power (computer and radar). STBY turns on power to the WCS and begins radar warmup without transmission. XMT enables radar transmission if radar is ready. Display warmup time is 30 seconds, radar warmup is 3 minutes. |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 8. MRL button                         | Button selecting manual rapid lockon mode. Overrides all operational modes except PLM and VSL.                                                                                                                                                  |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 9. OFFSET button                      | Button used to offset TID to hooked location on the display.                                                                                                                                                                                    |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 10. ELEV thumbwheel                   | Thumbwheel used to fine-tune elevation of radar antenna for STT lockon acquisition.                                                                                                                                                             |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 11. HCU trigger                       | Used to select and trigger different functions in the WCS depending on current mode and hcu function. First detent is HALF ACTION, second detent is FULL ACTION. Examples of use are target acquisition and symbol hook.                        |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 12. Hand control function buttons     | | Buttons with indication used to control function of HCU stick. Mutually exclusive.                                                                                                                                                            |
+    |                                       | |                                                                                                                                                                                                                                               |
+    |                                       | | IR/TV - Selects control of TCS azimuth, elevation and tracking. Enables display of TCS elevation on right elevation indicator on DDD.                                                                                                         |
+    |                                       | |                                                                                                                                                                                                                                               |
+    |                                       | | RDR - Selects control of radar antenna for STT lock-on and return to search if already in STT. Enables display of currently commanded radar antenna elevation on right elevation indicator on DDD.                                            |
+    |                                       | |                                                                                                                                                                                                                                               |
+    |                                       | | DDD CURSOR - Selects control of DDD cursor used to mark a geographical position while in pulse radar mode.                                                                                                                                    |
+    |                                       | |                                                                                                                                                                                                                                               |
+    |                                       | | TID CURSOR - Selects control of TID cursor used to hook (select) symbols on the TID.                                                                                                                                                          |
+    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rlrfw:
 
@@ -2594,6 +2854,9 @@ Mic Foot Button
 
 RIO right footrest containing PTT for transmission on UHF 1, V/UHF 2 or both depending on ICS setting.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rrip:
 
@@ -2621,45 +2884,48 @@ ALR-67 Indicator
 
 Indicator showing emitters detected by the ALR-67 RWR (radar warning receiver) set.
 
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator              | Function                                                                                                                                             |
-+================================+======================================================================================================================================================+
-| System status circle, area I   | | Upper left quadrant of 1. Shows symbol indicating type of threats selected to be shown.                                                            |
-|                                | |                                                                                                                                                    |
-|                                | | N - Normal priority                                                                                                                                |
-|                                | |                                                                                                                                                    |
-|                                | | I - AI, airborne interceptors prioritized.                                                                                                         |
-|                                | |                                                                                                                                                    |
-|                                | | A - AAA, anti-air artillery prioritized.                                                                                                           |
-|                                | |                                                                                                                                                    |
-|                                | | U - Unknown emitters prioritized.                                                                                                                  |
-|                                | |                                                                                                                                                    |
-|                                | | F - Friendly emitters shown in addition to other threats.                                                                                          |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| System status circle, area II  | | Upper right quadrant of 1. Indicates if limited mode is selected.                                                                                  |
-|                                | |                                                                                                                                                    |
-|                                | | (Blank) - Limited mode not selected.                                                                                                               |
-|                                | |                                                                                                                                                    |
-|                                | | L - Limited mode selected, display shows only 6 highest prioritized threats.                                                                       |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| System status circle, area III | | Lower half of 1. Displays failure codes and if offset display is selected.                                                                         |
-|                                | |                                                                                                                                                    |
-|                                | | (Blank) - No failure detected and offset not selected.                                                                                             |
-|                                | |                                                                                                                                                    |
-|                                | | B - BIT failure.                                                                                                                                   |
-|                                | |                                                                                                                                                    |
-|                                | | T - Thermal overload.                                                                                                                              |
-|                                | |                                                                                                                                                    |
-|                                | | O - Offset display selected. Threats will be separated to allow readout of overlapping symbols. Bearing accuracy degraded for displaced threats.   |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2. Non-lethal band             | Displays emitters not a direct threat to own aircraft, either because deemed out of range or lacking weaponry to do so.                              |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. Lethal band                 | Displays threats that are deemed withing range and capable of engaging own aircraft but not currently doing so.                                      |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4. Critical band               | Displays direct threats to own aircraft. Systems capable of engaging own aircraft and showing current intent of doing so.                            |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5. INT knob                    | Intensity/brightness knob. Controls the brightness of the display.                                                                                   |
-+--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator              | Function                                                                                                                                             |
+    +================================+======================================================================================================================================================+
+    | System status circle, area I   | | Upper left quadrant of 1. Shows symbol indicating type of threats selected to be shown.                                                            |
+    |                                | |                                                                                                                                                    |
+    |                                | | N - Normal priority                                                                                                                                |
+    |                                | |                                                                                                                                                    |
+    |                                | | I - AI, airborne interceptors prioritized.                                                                                                         |
+    |                                | |                                                                                                                                                    |
+    |                                | | A - AAA, anti-air artillery prioritized.                                                                                                           |
+    |                                | |                                                                                                                                                    |
+    |                                | | U - Unknown emitters prioritized.                                                                                                                  |
+    |                                | |                                                                                                                                                    |
+    |                                | | F - Friendly emitters shown in addition to other threats.                                                                                          |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | System status circle, area II  | | Upper right quadrant of 1. Indicates if limited mode is selected.                                                                                  |
+    |                                | |                                                                                                                                                    |
+    |                                | | (Blank) - Limited mode not selected.                                                                                                               |
+    |                                | |                                                                                                                                                    |
+    |                                | | L - Limited mode selected, display shows only 6 highest prioritized threats.                                                                       |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | System status circle, area III | | Lower half of 1. Displays failure codes and if offset display is selected.                                                                         |
+    |                                | |                                                                                                                                                    |
+    |                                | | (Blank) - No failure detected and offset not selected.                                                                                             |
+    |                                | |                                                                                                                                                    |
+    |                                | | B - BIT failure.                                                                                                                                   |
+    |                                | |                                                                                                                                                    |
+    |                                | | T - Thermal overload.                                                                                                                              |
+    |                                | |                                                                                                                                                    |
+    |                                | | O - Offset display selected. Threats will be separated to allow readout of overlapping symbols. Bearing accuracy degraded for displaced threats.   |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 2. Non-lethal band             | Displays emitters not a direct threat to own aircraft, either because deemed out of range or lacking weaponry to do so.                              |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 3. Lethal band                 | Displays threats that are deemed withing range and capable of engaging own aircraft but not currently doing so.                                      |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 4. Critical band               | Displays direct threats to own aircraft. Systems capable of engaging own aircraft and showing current intent of doing so.                            |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 5. INT knob                    | Intensity/brightness knob. Controls the brightness of the display.                                                                                   |
+    +--------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _rfuelqtytot:
@@ -2670,6 +2936,9 @@ Fuel Quantity Totalizer
 
 Total fuel quantity readout, shows total fuel quantity in all aircraft tanks.
 
+.. raw:: latex
+
+    \newpage
 
 .. _threatadvcau:
 
@@ -2699,6 +2968,9 @@ Master caution light and various ECM and IFF related advisory and warning lights
 | AI                                  | Warning light, steady illumination when detecting lockon from an airborne interceptor radar.                                 |
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _rbdhi:
 
@@ -2730,6 +3002,9 @@ Canopy Jettison Handle
 
 Handle used to manually jettison canopy.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rrkp:
 
@@ -2742,38 +3017,44 @@ Caution-Advisory Panel
 ----------------------
 .. image:: /images/cockpit/detail/rio/cautionadvisory.png
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Indicator   | Function                                                                                                                                                                                                                                                                                       |
-+=============+================================================================================================================================================================================================================================================================================================+
-| C&D HOT     | Caution light indicating overheat in RIO controls and displays.                                                                                                                                                                                                                                |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| CABIN PRESS | Caution light indicating cabin pressure is too low.                                                                                                                                                                                                                                            |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| FUEL LOW    | Caution light indicating fuel below 1,000 pounds in either aft and left or forward and right fuel feed groups.                                                                                                                                                                                 |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| OXY LOW     | Caution light indicating oxygen quantity is below 2 liters or pressure too low.                                                                                                                                                                                                                |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| CANOPY      | Caution light indicating canopy not down and locked.                                                                                                                                                                                                                                           |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| FUSE HV     | Caution light indicating AWW-4 electric fuse inoperative.                                                                                                                                                                                                                                      |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| RDR ENABLED | Caution light indicating that radar operation with weight on wheels is possible.                                                                                                                                                                                                               |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| COOLING AIR | Advisory light indicating overtemperature condition in the electronic forced air cooling system.                                                                                                                                                                                               |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| MSL COND    | Advisory light indicating overtemperature or underpressure in missile coolant flow, either of which shuts down the missile coolant pump. Can also indicate that the LIQ COOLING switch is not in the AWG-9/AIM-54 position with the WCS in STBY or ON when the Phoenix fairings are installed. |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| AWG-9 COND  | Advisory light indicating overheat or overpressure in the AWG-9 coolant flow or that the overtemperature switch has shut down the coolant pump.                                                                                                                                                |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| NAV COMP    | Advisory light indicating failure in the INS or CSDC with the NAV MODE switch in INS.                                                                                                                                                                                                          |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| FILM LOW    | Advisory light indicating low remaining quantity of mission recorder film.                                                                                                                                                                                                                     |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| IMU         | Advisory light indicating a failure in the inertial measuring unit or that the navigation system is in AHRS/AM mode.                                                                                                                                                                           |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| AHRS        | Advisory light indicating that the attitude or heading information from the AHRS is unreliable.                                                                                                                                                                                                |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
 
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Indicator   | Function                                                                                                                                                                                                                                                                                       |
+    +=============+================================================================================================================================================================================================================================================================================================+
+    | C&D HOT     | Caution light indicating overheat in RIO controls and displays.                                                                                                                                                                                                                                |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | CABIN PRESS | Caution light indicating cabin pressure is too low.                                                                                                                                                                                                                                            |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | FUEL LOW    | Caution light indicating fuel below 1,000 pounds in either aft and left or forward and right fuel feed groups.                                                                                                                                                                                 |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | OXY LOW     | Caution light indicating oxygen quantity is below 2 liters or pressure too low.                                                                                                                                                                                                                |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | CANOPY      | Caution light indicating canopy not down and locked.                                                                                                                                                                                                                                           |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | FUSE HV     | Caution light indicating AWW-4 electric fuse inoperative.                                                                                                                                                                                                                                      |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | RDR ENABLED | Caution light indicating that radar operation with weight on wheels is possible.                                                                                                                                                                                                               |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | COOLING AIR | Advisory light indicating overtemperature condition in the electronic forced air cooling system.                                                                                                                                                                                               |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | MSL COND    | Advisory light indicating overtemperature or underpressure in missile coolant flow, either of which shuts down the missile coolant pump. Can also indicate that the LIQ COOLING switch is not in the AWG-9/AIM-54 position with the WCS in STBY or ON when the Phoenix fairings are installed. |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | AWG-9 COND  | Advisory light indicating overheat or overpressure in the AWG-9 coolant flow or that the overtemperature switch has shut down the coolant pump.                                                                                                                                                |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | NAV COMP    | Advisory light indicating failure in the INS or CSDC with the NAV MODE switch in INS.                                                                                                                                                                                                          |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | FILM LOW    | Advisory light indicating low remaining quantity of mission recorder film.                                                                                                                                                                                                                     |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | IMU         | Advisory light indicating a failure in the inertial measuring unit or that the navigation system is in AHRS/AM mode.                                                                                                                                                                           |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | AHRS        | Advisory light indicating that the attitude or heading information from the AHRS is unreliable.                                                                                                                                                                                                |
+    +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. raw:: latex
+
+    \newpage
 
 .. _rrvc:
 
@@ -2792,7 +3073,10 @@ Called ECMD as the F-14A and later PMDIG F-14B used this display for RWR present
 
 :Note: For more information see relevant chapters under :ref:`navigation`.
 
+.. raw:: latex
 
+    \newpage
+    
 .. _rrsc:
 
 Right Side Console
@@ -2818,6 +3102,9 @@ Radar Warning Receiver Panel
 | 5. VOL knob              | Volume knob controlling ALR-67 audio to RIO.                                                                                                                                                                                   |
 +--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _ddi:
 
@@ -2834,7 +3121,8 @@ Digital data indicator used to display commands received via the data link.
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | COL VEC    | Aircraft is being vectored on a collision course to target.                                                                                    |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| NO MSG     | No message at this time, indicates presence of data link communication while not receiving a command.                                          |
+| NO MSG     | | No message at this time, indicates presence of data link communication                                                                       |
+|            | | while not receiving a command.                                                                                                               |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | TO WAY PT  | Proceed to the point being indicated by target information.                                                                                    |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2850,7 +3138,8 @@ Digital data indicator used to display commands received via the data link.
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | ARM 3      | Intercept and destroy indicated hostile target using AIM-9.                                                                                    |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| NOT CMD    | Ignore currently received heading, speed and altitude. Also means valid command BIT not yet available.                                         |
+| NOT CMD    | | Ignore currently received heading, speed and altitude.                                                                                       |
+|            | | Also means valid command BIT not yet available.                                                                                              |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | FRE LAN    | Free to attack most suitable target.                                                                                                           |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2862,7 +3151,8 @@ Digital data indicator used to display commands received via the data link.
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | BEAC DUB   | Set APN-154 to double-pulse mode.                                                                                                              |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| DROP       | Command to release weapon in data link A/G attack, manually or automatically if in data link attack mode.                                      |
+| DROP       | | Command to release weapon in data link A/G attack,                                                                                           |
+|            | | manually or automatically if in data link attack mode.                                                                                       |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | BEAC OFF   | Turn off APN-154 tracking beacon.                                                                                                              |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2874,17 +3164,20 @@ Digital data indicator used to display commands received via the data link.
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | ACL BEAC   | Directed by carrier to enable APN-154 beacon.                                                                                                  |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| ACL RDY    | ACL has locked onto aircraft APN-154 beacon and is transmitting zero pitch and bank signals. Glideslope information is now available to pilot. |
+| ACL RDY    | | ACL has locked onto aircraft APN-154 beacon and is transmitting zero pitch and bank signals.                                                 |
+|            | | Glideslope information is now available to pilot.                                                                                            |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | A/P CPLR   | ACL is ready to take control of aircraft for ACL approach, autopilot should be engaged.                                                        |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| 10 SEC     | Indicates 10 seconds to next action or waypoint. In ACL indicates that ships motion is taken into account for ACL.                             |
+| 10 SEC     | | Indicates 10 seconds to next action or waypoint.                                                                                             |
+|            | | In ACL indicates that ships motion is taken into account for ACL.                                                                            |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | ADJ A/C    | Indication from control station of another aircraft near own aircraft.                                                                         |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | VOICE      | Indicates ACL not available, switch to voice procedures.                                                                                       |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| TILT       | Indicates no data link message received in last 10 seconds. In ACL indicates no messages in last 2 seconds, will disengage AFCS.               |
+| TILT       | Indicates no data link message received in last 10 seconds.                                                                                    |
+|            | In ACL indicates no messages in last 2 seconds, will disengage AFCS.                                                                           |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | CMD CHG    | Indicates imminent or recently changed command instructions.                                                                                   |
 +------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2911,6 +3204,9 @@ Digital data indicator used to display commands received via the data link.
 
 :Note: The majority of the DDI lights depend on data link reply messages not currently modelled in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 .. _decmpanel:
 
@@ -2942,6 +3238,37 @@ Control panel for the DECM jammer (AN/ALQ-126).
 | 3. AUDIO knob     | Volume knob, sets audio volume from AN/ALQ-126 to RIO headset.                                                                                                   |
 +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
+
+.. _dlctrlpanel:
+
+Data Link Control Panel
+-----------------------
+.. image:: /images/cockpit/detail/rio/datalink.png
+
+Control panel for the data link.
+
++-----------------------------+--------------------------------------------------------------------+
+| Control                     | Function                                                           |
++=============================+====================================================================+
+| 1. Transmission mode switch | | Sets data link tranmission mode.                                 |
+|                             | |                                                                  |
+|                             | | TEST - Starts system test.                                       |
+|                             | |                                                                  |
+|                             | | NORM - Normal operational mode.                                  |
+|                             | |                                                                  |
+|                             | | A/J - Anti-jam mode.                                             |
++-----------------------------+--------------------------------------------------------------------+
+| 2. Frequency select wheels  | Thumbwheels used to set data link frequency.                       |
++-----------------------------+--------------------------------------------------------------------+
+| 3. Data link power switch   | Enables power to data link, also used to set AUX (auxiliary) mode. |
++-----------------------------+--------------------------------------------------------------------+
+
+.. raw:: latex
+
+    \newpage
 
 .. _dlrepant:
 
@@ -2967,6 +3294,9 @@ Panel used to control data link alignment, reply and antenna.
 | 4. ADRESS thumbwheel | Sets what data link address own aircraft uses. (Sets two least significant digits, others set by groundcrew.) |
 +----------------------+---------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _ale39ctrlpanel:
 
@@ -3006,6 +3336,9 @@ AN/ALE-39 Control Panel
 |                                     | | SGL - Single, momentary actuation releases a single countermeasure.                                                                                               |
 +-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _aa1:
 
@@ -3035,6 +3368,9 @@ AN/APX-76 interrogator control panel.
 
 :Note: Due to DCS limitations in regards to IFF the AA1 control panel is currently non-functional.
 
+.. raw:: latex
+
+    \newpage
 
 .. _ale39prog:
 
@@ -3044,44 +3380,50 @@ AN/ALE-39 Programmer
 
 Programming panel used to program current countermeasure inventory into AN/ALE-39.
 
-+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator           | Function                                                                                                                        |
-+=============================+=================================================================================================================================+
-| 1. JAMR thumbwheels         | | Thumbwheels used to set jammer release program.                                                                               |
-|                             | |                                                                                                                               |
-|                             | | QTY - Quantity, sets quantity of jammers to release in program.                                                               |
-|                             | |                                                                                                                               |
-|                             | | INTV - Interval, sets interval in seconds between jammer releases in program.                                                 |
-+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-| 2. CHAFF thumbwheels        | | Thumbwheels used to set chaff release program.                                                                                |
-|                             | |                                                                                                                               |
-|                             | | B-QTY - Quantity, sets quantity of chaff to release in one program salvo, can also be set to C (continuous) or R (random).    |
-|                             | |                                                                                                                               |
-|                             | | B-INTV - Interval, sets interval between chaff burst to release in one program salvo, can also be set to R (random).          |
-|                             | |                                                                                                                               |
-|                             | | S-QTY - Quantity, selects number of salvoes to release in a program.                                                          |
-|                             | |                                                                                                                               |
-|                             | | S-INTV - Interval, selects interval between salvoes in a program.                                                             |
-+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-| 3. FLARE thumbwheels        | | Thumbwheels used to set flare release program.                                                                                |
-|                             | |                                                                                                                               |
-|                             | | QTY - Quantity, sets quantity of flares to be released in a program.                                                          |
-|                             | |                                                                                                                               |
-|                             | | INTV - Interval, sets interval between flare releases in a program.                                                           |
-+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-| 4. LOAD control thumbwheels | | Thumbwheels inputting into AN/ALE-39 what is loaded into each launcher subsection.                                            |
-|                             | |                                                                                                                               |
-|                             | | L10 - Sets loaded countermeasure in Left 10 subsection.                                                                       |
-|                             | |                                                                                                                               |
-|                             | | L20 - Sets loaded countermeasure in Left 20 subsection.                                                                       |
-|                             | |                                                                                                                               |
-|                             | | R10 - Sets loaded countermeasure in Right 10 subsection.                                                                      |
-|                             | |                                                                                                                               |
-|                             | | R20 - Sets loaded countermeasure in Right 20 subsection.                                                                      |
-+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-| 5. RESET switch             | Switch loading programmed settings into AN/ALE-39 and resetting sequencer switches to their starting positions.                 |
-+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator           | Function                                                                                                                        |
+    +=============================+=================================================================================================================================+
+    | 1. JAMR thumbwheels         | | Thumbwheels used to set jammer release program.                                                                               |
+    |                             | |                                                                                                                               |
+    |                             | | QTY - Quantity, sets quantity of jammers to release in program.                                                               |
+    |                             | |                                                                                                                               |
+    |                             | | INTV - Interval, sets interval in seconds between jammer releases in program.                                                 |
+    +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+    | 2. CHAFF thumbwheels        | | Thumbwheels used to set chaff release program.                                                                                |
+    |                             | |                                                                                                                               |
+    |                             | | B-QTY - Quantity, sets quantity of chaff to release in one program salvo, can also be set to C (continuous) or R (random).    |
+    |                             | |                                                                                                                               |
+    |                             | | B-INTV - Interval, sets interval between chaff burst to release in one program salvo, can also be set to R (random).          |
+    |                             | |                                                                                                                               |
+    |                             | | S-QTY - Quantity, selects number of salvoes to release in a program.                                                          |
+    |                             | |                                                                                                                               |
+    |                             | | S-INTV - Interval, selects interval between salvoes in a program.                                                             |
+    +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+    | 3. FLARE thumbwheels        | | Thumbwheels used to set flare release program.                                                                                |
+    |                             | |                                                                                                                               |
+    |                             | | QTY - Quantity, sets quantity of flares to be released in a program.                                                          |
+    |                             | |                                                                                                                               |
+    |                             | | INTV - Interval, sets interval between flare releases in a program.                                                           |
+    +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+    | 4. LOAD control thumbwheels | | Thumbwheels inputting into AN/ALE-39 what is loaded into each launcher subsection.                                            |
+    |                             | |                                                                                                                               |
+    |                             | | L10 - Sets loaded countermeasure in Left 10 subsection.                                                                       |
+    |                             | |                                                                                                                               |
+    |                             | | L20 - Sets loaded countermeasure in Left 20 subsection.                                                                       |
+    |                             | |                                                                                                                               |
+    |                             | | R10 - Sets loaded countermeasure in Right 10 subsection.                                                                      |
+    |                             | |                                                                                                                               |
+    |                             | | R20 - Sets loaded countermeasure in Right 20 subsection.                                                                      |
+    +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+    | 5. RESET switch             | Switch loading programmed settings into AN/ALE-39 and resetting sequencer switches to their starting positions.                 |
+    +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _intlight:
 
@@ -3109,6 +3451,9 @@ Panel controlling lights in RIO cockpit.
 |                          | | DIM - Dim red console floodlights.                                                                                                                                     |
 +--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _dataadf:
 
@@ -3130,74 +3475,80 @@ IFF Transponder Control Panel
 
 Control panel for the AN/APX-72 transponder.
 
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| Control/Indicator            | Function                                                                                                                   |
-+==============================+============================================================================================================================+
-| 1. MODE 4 switch             | Switch enabling mode 4.                                                                                                    |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 2. MODE 4 AUDIO/LIGHT switch | | Switch enabling mode 4 audio and light monitoring.                                                                       |
-|                              | |                                                                                                                          |
-|                              | | AUDIO - Enables audio monitoring of mode 4 interrogation and REPLY light monitoring of mode 4 replies.                   |
-|                              | |                                                                                                                          |
-|                              | | OUT - Disables audio and light monitoring of mode 4.                                                                     |
-|                              | |                                                                                                                          |
-|                              | | LIGHT - Enables REPLY light monitoring of mode 4 replies.                                                                |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 3. MODE 4 CODE selector      | | CODE selector switch, controlling what cipher code to use.                                                               |
-|                              | |                                                                                                                          |
-|                              | | ZERO - Erases both ciphers from the system.                                                                              |
-|                              | |                                                                                                                          |
-|                              | | B - Selects the B cipher code for use.                                                                                   |
-|                              | |                                                                                                                          |
-|                              | | A - Selects the A cipher code for use.                                                                                   |
-|                              | |                                                                                                                          |
-|                              | | HOLD - Non-functional.                                                                                                   |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 4. MODE 4 REPLY light        | Light indicating when a mode 4 reply is generated and transmitted. Can be pushed to test the light.                        |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 5. TEST light                | Light indicating correct test when respective test switch is used. The light itself can be tested by pushing it.           |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 6. MASTER selector           | | Selector switch controlling AN/APX-72 mode of operation.                                                                 |
-|                              | |                                                                                                                          |
-|                              | | OFF - Disables power to the AN/APX-72.                                                                                   |
-|                              | |                                                                                                                          |
-|                              | | STBY - Standby, enables standby for immediate operation upon selection of other operational mode.                        |
-|                              | |                                                                                                                          |
-|                              | | LOW - Activates replies to set modes in low sensitivity mode, only strong nearby interrogators are replied to.           |
-|                              | |                                                                                                                          |
-|                              | | NORM - Normal, replies normally to all received interrogations.                                                          |
-|                              | |                                                                                                                          |
-|                              | | EMER - Activates emergency mode replies to mode 1, 2 and 3/A and normal reply to mode C, regardless of mode switches.    |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 7. MODE switches             | | Switches controlling operation of the different IFF modes.                                                               |
-|                              | |                                                                                                                          |
-|                              | | TEST - Tests respective mode, correct operation if TEST light illuminates.                                               |
-|                              | |                                                                                                                          |
-|                              | | ON - Enables respective IFF mode.                                                                                        |
-|                              | |                                                                                                                          |
-|                              | | OUT - Disables respective IFF mode.                                                                                      |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 8. RAD TEST-OUT-MOON switch  | | Switch allowing ground test and monitoring of non mode 4 replies.                                                        |
-|                              | |                                                                                                                          |
-|                              | | RAD TEST - Not used by aircrew.                                                                                          |
-|                              | |                                                                                                                          |
-|                              | | OUT - Disables test and monitoring.                                                                                      |
-|                              | |                                                                                                                          |
-|                              | | MON - Monitor mode 1, 2, 3 and C by illuminating the test light when replies are generated and transmitted.              |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 9. IDENT-OUT-MIC switch      | | Switch controlling operation of the mode 1-3 IDENT function.                                                             |
-|                              | |                                                                                                                          |
-|                              | | IDENT - Momentary position enabling IDENT reply for 15 to 30 seconds after switch release.                               |
-|                              | |                                                                                                                          |
-|                              | | OUT - IDENT function off.                                                                                                |
-|                              | |                                                                                                                          |
-|                              | | MIC - Transfers IDENT control to crewmember UHF PTT, enabling IDENT reply as per IDENT each time the PTT is keyed.       |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-| 10. CODE thumbwheels         | Six thumbwheels selecting code in use for mode 1 and 3.                                                                    |
-+------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+.. table::
+    :class: longtable
+    
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | Control/Indicator            | Function                                                                                                                   |
+    +==============================+============================================================================================================================+
+    | 1. MODE 4 switch             | Switch enabling mode 4.                                                                                                    |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 2. MODE 4 AUDIO/LIGHT switch | | Switch enabling mode 4 audio and light monitoring.                                                                       |
+    |                              | |                                                                                                                          |
+    |                              | | AUDIO - Enables audio monitoring of mode 4 interrogation and REPLY light monitoring of mode 4 replies.                   |
+    |                              | |                                                                                                                          |
+    |                              | | OUT - Disables audio and light monitoring of mode 4.                                                                     |
+    |                              | |                                                                                                                          |
+    |                              | | LIGHT - Enables REPLY light monitoring of mode 4 replies.                                                                |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 3. MODE 4 CODE selector      | | CODE selector switch, controlling what cipher code to use.                                                               |
+    |                              | |                                                                                                                          |
+    |                              | | ZERO - Erases both ciphers from the system.                                                                              |
+    |                              | |                                                                                                                          |
+    |                              | | B - Selects the B cipher code for use.                                                                                   |
+    |                              | |                                                                                                                          |
+    |                              | | A - Selects the A cipher code for use.                                                                                   |
+    |                              | |                                                                                                                          |
+    |                              | | HOLD - Non-functional.                                                                                                   |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 4. MODE 4 REPLY light        | Light indicating when a mode 4 reply is generated and transmitted. Can be pushed to test the light.                        |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 5. TEST light                | Light indicating correct test when respective test switch is used. The light itself can be tested by pushing it.           |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 6. MASTER selector           | | Selector switch controlling AN/APX-72 mode of operation.                                                                 |
+    |                              | |                                                                                                                          |
+    |                              | | OFF - Disables power to the AN/APX-72.                                                                                   |
+    |                              | |                                                                                                                          |
+    |                              | | STBY - Standby, enables standby for immediate operation upon selection of other operational mode.                        |
+    |                              | |                                                                                                                          |
+    |                              | | LOW - Activates replies to set modes in low sensitivity mode, only strong nearby interrogators are replied to.           |
+    |                              | |                                                                                                                          |
+    |                              | | NORM - Normal, replies normally to all received interrogations.                                                          |
+    |                              | |                                                                                                                          |
+    |                              | | EMER - Activates emergency mode replies to mode 1, 2 and 3/A and normal reply to mode C, regardless of mode switches.    |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 7. MODE switches             | | Switches controlling operation of the different IFF modes.                                                               |
+    |                              | |                                                                                                                          |
+    |                              | | TEST - Tests respective mode, correct operation if TEST light illuminates.                                               |
+    |                              | |                                                                                                                          |
+    |                              | | ON - Enables respective IFF mode.                                                                                        |
+    |                              | |                                                                                                                          |
+    |                              | | OUT - Disables respective IFF mode.                                                                                      |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 8. RAD TEST-OUT-MOON switch  | | Switch allowing ground test and monitoring of non mode 4 replies.                                                        |
+    |                              | |                                                                                                                          |
+    |                              | | RAD TEST - Not used by aircrew.                                                                                          |
+    |                              | |                                                                                                                          |
+    |                              | | OUT - Disables test and monitoring.                                                                                      |
+    |                              | |                                                                                                                          |
+    |                              | | MON - Monitor mode 1, 2, 3 and C by illuminating the test light when replies are generated and transmitted.              |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 9. IDENT-OUT-MIC switch      | | Switch controlling operation of the mode 1-3 IDENT function.                                                             |
+    |                              | |                                                                                                                          |
+    |                              | | IDENT - Momentary position enabling IDENT reply for 15 to 30 seconds after switch release.                               |
+    |                              | |                                                                                                                          |
+    |                              | | OUT - IDENT function off.                                                                                                |
+    |                              | |                                                                                                                          |
+    |                              | | MIC - Transfers IDENT control to crewmember UHF PTT, enabling IDENT reply as per IDENT each time the PTT is keyed.       |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+    | 10. CODE thumbwheels         | Six thumbwheels selecting code in use for mode 1 and 3.                                                                    |
+    +------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
 :Note: Transponder functionality not currently modelled in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 .. _iffant:
 
@@ -3223,6 +3574,9 @@ Panel containing controls for IFF antenna, tests and ground cooling.
 |                          | | AWG-9/AIM-54 - Uses the external air to cool AWG-9 and AIM-54 coolant with better performance but disables external air to cabin.   |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
 
 .. _elecpowsystest:
 
@@ -3244,6 +3598,9 @@ Canopy Defog/Cabin Air Lever
 The canopy air diffuser lever controls the flow of cabin air. The normal position, CABIN AIR, directs 70% of the conditioned air through the cockpit air diffusers and 30% through the canopy air diffusers.
 The CANOPY DEFOG position directs all air flow through the canopy air diffusers for canopy defog.
 
+.. raw:: latex
+
+    \newpage
 
 .. _rcanopylever:
 

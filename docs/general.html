@@ -168,7 +168,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#oxygen-system">供氧系统</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#flight-instruments">飞行仪表</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#canopy">驾驶舱盖</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#canopy">座舱盖</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ejection-system">弹射系统</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#lighting-system">灯光系统</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#internal-lighting">机内灯光</a></li>
@@ -211,9 +211,24 @@
 <li class="toctree-l3"><a class="reference internal" href="#tcs-operation">TCS 操作</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#lantirn">LANTIRN</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#an-alr-67-rwr">AN/ALR-67 雷达警告接收系统（RWR）</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#lantirn">LANTIRN</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#description">描述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controls-and-displays">Controls and Displays</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#lantirn-video-elements">LANTIRN Video Elements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#control-panel">控制面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#control-stick">Control Stick</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#operation">Operation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#startup">Startup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sensor-modes-and-operation">Sensor Modes and Operation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#a-g-target-engagement-and-designation">A/G Target Engagement and Designation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#an-alr-67-rwr">AN/ALR-67 雷达警告接收系统（RWR）</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">描述</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#controls">控制</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#displays">显示</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#warning-lights">警告灯</a></li>
@@ -225,7 +240,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#an-ale-39-countermeasures-dispensing-set">AN/ALE-39 电子对抗布撒套件</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#controls-and-operation">控制和操作</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#programmer">编程面板</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#control-panel">控制面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#rio-hand-hold-switches">RIO 握把控制开关</a></li>
 </ul>
 </li>
@@ -241,7 +256,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#wcs-computer">WCS 计算机</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#imu-platform-alignment">IMU 平台对准</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#navigation-computations">导航计算</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id5">显示</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">显示</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#inertial-navigation-system-ins">惯性导航系统（INS）</a><ul>
@@ -487,7 +502,7 @@
 </div>
 <div class="section" id="fuel-system">
 <h2>燃油系统<a class="headerlink" href="#fuel-system" title="永久链接至标题">¶</a></h2>
-<div class="figure" id="id6">
+<div class="figure" id="id8">
 <img alt="_images/tanks.png" src="_images/tanks.png" />
 <p class="caption"><span class="caption-text">1 - 受油管（空中加油），2 - 地面加油口（右侧），3 - 前机身油箱，4 - 左侧外部副油箱，5 - 左侧翼箱油箱，6 - 左侧机翼油箱，7 - 通气油箱，8 - 放油装置，9 - 后机身油箱，10 - 右侧翼箱油箱，11 - 右侧机翼油箱，12 - 右侧外部副油箱。</span></p>
 </div>
@@ -559,6 +574,9 @@
 </tr>
 </tbody>
 </table>
+<iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/f4y2oZ-7rM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 </div>
 </div>
@@ -578,9 +596,9 @@
 <col width="50%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><img alt="_images/left1.png" class="first last" src="_images/left1.png" />
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="_images/left1.png"><img alt="_images/left1.png" src="_images/left1.png" style="width: 300px; height: 175px;" /></a>
 </td>
-<td><img alt="_images/right1.png" class="first last" src="_images/right1.png" />
+<td><a class="first last reference internal image-reference" href="_images/right1.png"><img alt="_images/right1.png" src="_images/right1.png" style="width: 300px; height: 175px;" /></a>
 </td>
 </tr>
 </tbody>
@@ -645,7 +663,7 @@
 </div>
 <div class="section" id="wing-sweep-system">
 <h2>机翼后掠系统<a class="headerlink" href="#wing-sweep-system" title="永久链接至标题">¶</a></h2>
-<div class="figure" id="id7">
+<div class="figure" id="id9">
 <img alt="_images/sweepschedule.png" src="_images/sweepschedule.png" />
 <p class="caption"><span class="caption-text">基于马赫数的机翼后掠控制规律及襟翼互锁机制。</span></p>
 </div>
@@ -929,9 +947,9 @@
 </div>
 <div class="section" id="windshield-anti-ice-and-defogging">
 <h3>风挡除冰和除雾<a class="headerlink" href="#windshield-anti-ice-and-defogging" title="永久链接至标题">¶</a></h3>
-<p>风挡除冰和除雾通过 <a class="reference internal" href="cockpit.html#extenvctrlpanel"><span class="std std-ref">外部环境控制面板</span></a> 和 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> 控制。</p>
+<p>风挡除冰和除雾通过 <a class="reference internal" href="cockpit.html#extenvctrlpanel"><span class="std std-ref">外部环境控制面板</span></a> 和 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 控制。</p>
 <p><strong>WSHLD</strong> 风挡开关位于外部环境面板，它为风挡提供了热气流用于除冰和除水。<strong>AIR</strong> 位开启热气流，<strong>OFF</strong> 关闭热气流。</p>
-<p>前舱飞行员处的 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#rcandefogairlev"><span class="std std-ref">驾驶舱盖除雾 / 座舱通风气流调节拉杆</span></a> 用于设置通过座舱盖散流器的空气流量以达到座舱除雾的效果。若将把手完全置于 <strong>CANOPY DEFOG</strong> 位，全部座舱气流将会流入座舱盖散流器；若将把手置于 <strong>CABIN AIR</strong> 位，只有30%的空气流入座舱盖散流器，余下的空气将进入座舱散流器。</p>
+<p>前舱飞行员处的 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#rcandefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 用于设置通过座舱盖散流器的空气流量以达到座舱除雾的效果。若将把手完全置于 <strong>CANOPY DEFOG</strong> 位，全部座舱气流将会流入座舱盖散流器；若将把手置于 <strong>CABIN AIR</strong> 位，只有30%的空气流入座舱盖散流器，余下的空气将进入座舱散流器。</p>
 <p>位于前座驾驶员处的<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯光面板</span></a><strong>WSHLD HOT</strong> 提示灯告知飞行员风挡的温度已达 300° F (149° C)。该提示灯亮起时，气阀自动关闭从而使热空气不再吹向风挡直到风挡冷却。</p>
 </div>
 <div class="section" id="an-awg-9-and-aim-54-cooling">
@@ -982,9 +1000,9 @@
 <p>关于仪表的更多信息，可以通过上面的链接查看它们所对应的座舱面板描述。</p>
 </div>
 <div class="section" id="canopy">
-<h2>驾驶舱盖<a class="headerlink" href="#canopy" title="永久链接至标题">¶</a></h2>
+<h2>座舱盖<a class="headerlink" href="#canopy" title="永久链接至标题">¶</a></h2>
 <p>F-14的后挂钩座舱盖由液压及空气作用操控。舱内前座飞行员和后座RIO处均能控制。</p>
-<p>相关控制可通过 <a class="reference internal" href="cockpit.html#pcanopylever"><span class="std std-ref">驾驶舱盖控制手柄</span></a> 或者 <a class="reference internal" href="cockpit.html#rcanopylever"><span class="std std-ref">驾驶舱盖控制手柄</span></a> 查看。</p>
+<p>相关控制可通过 <a class="reference internal" href="cockpit.html#pcanopylever"><span class="std std-ref">座舱盖控制手柄</span></a> 或者 <a class="reference internal" href="cockpit.html#rcanopylever"><span class="std std-ref">座舱盖控制手柄</span></a> 查看。</p>
 <p><strong>座舱盖</strong> 告警灯同时存在于前座飞行员处的 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯光面板</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a>。该告警灯亮起表示座舱盖未关闭或未锁死并处于安全位置。</p>
 </div>
 <div class="section" id="ejection-system">
@@ -994,7 +1012,7 @@
 <p>弹射控制操纵杆位于传感器控制面板旁，见 <a class="reference internal" href="cockpit.html#ejectcmdlev"><span class="std std-ref">弹射指令控制杆</span></a>。当设置到 <strong>PILOT</strong> 位时，飞行员可将2名机组成员同时弹出，而RIO仅能将自己弹出。当设置到 <strong>MCO</strong> 位时，任意机组成员均可将2人同时弹射出机舱。</p>
 <p>系统不允许只有飞行员1人弹射的情况，因为仅RIO一个人呆在飞机上并不合适。</p>
 <p>飞行员可以在 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 看到弹射控制操纵杆所处位置， <strong>EJECT CMD</strong> 触发指示器在操纵杆位于飞行员是指示 <strong>PILOT</strong> ，位于MCO时指示 <strong>MCO</strong> 。</p>
-<p>当启动弹射程序，但座舱盖并没有弹出时，我们仍可以通过位于前座飞行员处的 <a class="reference internal" href="cockpit.html#pcanjett"><span class="std std-ref">驾驶舱盖抛离手柄</span></a> 或者后座RIO处 <a class="reference internal" href="cockpit.html#rcanjett"><span class="std std-ref">驾驶舱盖抛离手柄</span></a> 手动进行弹射。如果座舱盖在开始弹射程序开始后依然未弹射出去，那么座舱盖弹射过程将会重启。如果在水平螺旋中弹射，我们建议手动弹射座舱盖，这样可以给予充足的时间让弹射出去的座舱盖远离飞机为真正启动弹射程序净空。</p>
+<p>当启动弹射程序，但座舱盖并没有弹出时，我们仍可以通过位于前座飞行员处的 <a class="reference internal" href="cockpit.html#pcanjett"><span class="std std-ref">座舱盖抛离手柄</span></a> 或者后座RIO处 <a class="reference internal" href="cockpit.html#rcanjett"><span class="std std-ref">座舱盖抛离手柄</span></a> 手动进行弹射。如果座舱盖在开始弹射程序开始后依然未弹射出去，那么座舱盖弹射过程将会重启。如果在水平螺旋中弹射，我们建议手动弹射座舱盖，这样可以给予充足的时间让弹射出去的座舱盖远离飞机为真正启动弹射程序净空。</p>
 </div>
 <div class="section" id="lighting-system">
 <h2>灯光系统<a class="headerlink" href="#lighting-system" title="永久链接至标题">¶</a></h2>
@@ -1030,7 +1048,7 @@
 </div>
 <div class="section" id="jettison-system">
 <h2>抛离系统<a class="headerlink" href="#jettison-system" title="永久链接至标题">¶</a></h2>
-<p>抛离系统由4个模式构成：紧急抛离 ，ACM，可选择抛离和辅助抛离。</p>
+<p>抛离系统由4个模式构成：紧急抛离 、ACM、可选择抛离和辅助抛离。</p>
 <p><strong>紧急抛离</strong></p>
 <p>紧急抛离通过在位于 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>EMERG STORES JETT</strong> 选择。选择紧急抛离将导致位于前座飞行员处 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯光面板</span></a> 的 <strong>EMERG JETT</strong> 告警灯亮起。</p>
 <p>紧急抛离要求机轮没有任何负重（军械开关关闭）的情况下才能抛离除了AIM-9响尾蛇导弹之外的全部挂载。</p>
@@ -1116,9 +1134,13 @@
 <p><strong>雷达和DDD控制旋钮</strong></p>
 <p>在DDD面板上有八个旋钮用来控制DDD和雷达的不同功能。脉冲图像控制旋钮（ <strong>5</strong> ）位于DDD的左上方，它用来控制DDD上图像的脉冲强度，这只会影响DDD的显示效果，而不影响雷达本身。</p>
 <p>亮度控制旋钮（ <strong>9</strong> ）位于DDD的右上方，它通过调节偏振滤光片来实现对DDD的亮度控制，主要用于低亮度环境下。</p>
-<p>脉冲增益控制旋钮位于DDD的左下侧，它可以控制脉冲模式下的雷达增益。这个旋钮会直接控制雷达增益，一般情况下保持在逆时针初始位置，由WCS自动对雷达增益进行控制。</p>
+<p>On the lower left side of the DDD is located the <strong>PULSE GAIN</strong> control knob (<strong>20</strong>) which controls the radar gain in the pulse modes.
+This control affects the gain of the radar directly. Normally left in the detent at the fully clockwise position which allows the WCS to control it automatically.</p>
 <p><strong>ERASE</strong> 控制旋钮（ <strong>9</strong> ）位于DDD的右下侧，它用于控制DDD上擦除光束的强度。因为擦除光束会连续清除DDD上的目标指示，所以这个设置会影响到目标余像在DDD上的残留时间。</p>
-<p>PD THRLD ( <strong>26</strong> ), JAM/JET ( <strong>24</strong> ) 和 ACM THRLD ( <strong>25</strong> )控制旋钮位于DDD面板的左侧。脉冲多普勒阈值旋钮（PD THRLD）控制着接受目标回波的阈值，阈值内的目标会显示在DDD上，RWS和TWS模式下还会在TID上被跟踪。CLEAR旋钮控制着CLEAR区域阈值（DDD的上半部分），CLUTTER旋钮控制着CLUTTER区域的阈值。一般情况下这两个旋钮保持在逆时针初始位置，由WCS自动控制。</p>
+<p>On the left side of the DDD panel are located the PD THRLD (<strong>26</strong>), JAM/JET (<strong>24</strong>) and ACM THRLD (<strong>25</strong>) control knobs.
+The pulse-doppler threshold knobs (<strong>PD THRLD</strong>) controls the threshold at which an echo is regarded as a contact, displayed on the DDD and tracked on the TID in RWS and TWS.
+The <strong>CLEAR</strong> knob controls the clear region threshold (upper half of the DDD) and the <strong>CLUTTER</strong> knob controls the clutter region (lower half of the DDD).
+Normally left in the clockwise NORM detents, letting the WCS automatically control them.</p>
 <p><strong>JAM/JET</strong> 旋钮可以用来设置显示在TID上的带干扰目标的干扰强度阈值。 <strong>ACM THRLD</strong> 旋钮可以用来设置ACM模式下雷达的探测距离，通常保持在逆时针初始位置，由WCS自动控制。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -1182,7 +1204,7 @@
 <p>在右侧的是 <strong>CLSN</strong> 按钮（ <strong>7</strong> ），该按钮会为当前正在TWS模式下跟踪的目标设置拦截航线并为飞行员提供导航信息，除非在ACM模式下，否则该导航信息会覆盖之前的导航信息。</p>
 <p><strong>TID控制面板</strong></p>
 <p>在TID的下方是TID控制面板（ <strong>8</strong> ）。这个面板上有8个按钮，分别控制着在TID上显示的符号，按钮激活时会亮起绿灯。按钮下方还有两个分别控制着显示刻度和TID模式的旋钮。这些按钮的功能分别是：</p>
-<table border="1" class="docutils">
+<table border="1" class="longtable docutils">
 <colgroup>
 <col width="7%" />
 <col width="93%" />
@@ -1197,25 +1219,45 @@
 <td>未模拟。</td>
 </tr>
 <tr class="row-odd"><td>ALT NUM</td>
-<td>高度数字按钮，激活这个按钮后会在目标符号的左侧以10000英尺为单位显示目标高度的数字。比如说显示数字为1，表示目标高度在5000到15000 英尺之间。</td>
+<td><div class="first last line-block">
+<div class="line">Altitude numerals, enables display of track altitudes on the left side of track symbols.</div>
+<div class="line">Shows a single digit representing ten-thousands of feet, 1 as an example indicating an altitude of between 5 000 and 15 000 feet.</div>
+</div>
+</td>
 </tr>
 <tr class="row-even"><td>SYM ELEM</td>
-<td>符号按钮，激活这个按钮会让TID上的目标和航路点以代表其意义的符号状态显示，如果关闭这个按钮，TID上的目标和航路点都会显示为一样的点。</td>
+<td><div class="first last line-block">
+<div class="line">Symbology elements, enables display of all supplementary symbology of tracks and waypoints.</div>
+<div class="line">If deselected all tracks and waypoints are represented only as dots on the TID.</div>
+</div>
+</td>
 </tr>
 <tr class="row-odd"><td>DATA LINK</td>
 <td>数据链按钮，激活这个按钮会在TID上显示来自数据链的目标信息。</td>
 </tr>
 <tr class="row-even"><td>JAM STROBE</td>
-<td>激活该按钮可以在TID上显示超过DDD面板设置的JAM/JET阈值的干扰源，未模拟。</td>
+<td><div class="first last line-block">
+<div class="line">Enables display of jam strobes on the TID.</div>
+<div class="line">Jamming targets exceeding the JAM/JET setting on the DDD are shown if enabled. Not yet implemented.</div>
+</div>
+</td>
 </tr>
 <tr class="row-odd"><td>NON-ATTK</td>
-<td>激活该按钮会在TID上显示你不能攻击的目标，比如说友军飞机。</td>
+<td><div class="first last line-block">
+<div class="line">Non-attack, enables or disables display of targets which aren’t possible to engage.</div>
+<div class="line">Friendly targets being an example.</div>
+</div>
+</td>
 </tr>
 <tr class="row-even"><td>VEL VECTOR</td>
 <td>速度矢量按钮，激活该按钮可以在TID上显示目标的速度矢量。</td>
 </tr>
 <tr class="row-odd"><td>LAUNCH ZONE</td>
-<td>发射距离按钮，激活该按钮以后会用根据所选择的导弹类型显示的不同发射距离符号替代目标的速度矢量符号。在目标进入最大发射距离前60秒，WCS会自动启动该功能。</td>
+<td><div class="first last line-block">
+<div class="line">Enables display of weapon launch zones depending on selected missile type.</div>
+<div class="line">These replace the velocity vectors on relevant targets. This function is automatically enabled by the WCS 60 seconds prior to a target entering maximum launch range.</div>
+</div>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1278,17 +1320,17 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>中心点</td>
-<td><a class="first last reference internal image-reference" href="_images/1.png"><img alt="_images/1.png" class="align-center" src="_images/1.png" style="width: 9.5px; height: 9.5px;" /></a>
+<td><a class="first last reference internal image-reference" href="_images/1.png"><img alt="_images/1.png" class="align-center" src="_images/1.png" style="width: 10px;" /></a>
 </td>
 <td>用来标记位置的符号，是TID显示的符号中最基础的。</td>
 </tr>
 <tr class="row-odd"><td>本机符号</td>
-<td><img alt="_images/2.png" class="first last" src="_images/2.png" />
+<td><a class="first last reference internal image-reference" href="_images/2.png"><img alt="_images/2.png" class="align-center" src="_images/2.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>代表自己飞机的符号，这个符号还会显示本机的天线扫描限制与干扰频闪。在GND STAB模式下这个符号会在TID上移动并显示速度矢量。在 A/C STAB模式和ATTK模式下这个符号是固定不动的。如果在GND STAB模式下或者操作TID位移功能使这个符号移动出了TID显示范围，那么显示屏上会出现一条从中心到符号位置的连线来指示其位置。</td>
 </tr>
 <tr class="row-even"><td>TID光标</td>
-<td><img alt="_images/26.png" class="first last" src="_images/26.png" />
+<td><a class="first last reference internal image-reference" href="_images/26.png"><img alt="_images/26.png" class="align-center" src="_images/26.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td><div class="first last line-block">
 <div class="line">用于选择数据信息的圆形光标，在TID模式下由HCU控制。</div>
@@ -1303,7 +1345,7 @@
 </td>
 </tr>
 <tr class="row-odd"><td>TWS拦截点</td>
-<td><img alt="_images/27.png" class="first last" src="_images/27.png" />
+<td><a class="first last reference internal image-reference" href="_images/27.png"><img alt="_images/27.png" class="align-center" src="_images/27.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>TWS模式计算机计算的目标拦截点。</td>
 </tr>
@@ -1311,37 +1353,37 @@
 <td colspan="2"><strong>机载传感器目标</strong></td>
 </tr>
 <tr class="row-odd"><td>未知</td>
-<td><img alt="_images/3.png" class="first last" src="_images/3.png" />
+<td><a class="first last reference internal image-reference" href="_images/3.png"><img alt="_images/3.png" class="align-center" src="_images/3.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>来自RWS，TWS，STT模式下的未知目标。</td>
 </tr>
 <tr class="row-even"><td>敌对目标</td>
-<td><img alt="_images/4.png" class="first last" src="_images/4.png" />
+<td><a class="first last reference internal image-reference" href="_images/4.png"><img alt="_images/4.png" class="align-center" src="_images/4.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>在TWS或者STT模式下被跟踪并被RIO标记为敌人的目标。</td>
 </tr>
 <tr class="row-odd"><td>友军目标</td>
-<td><img alt="_images/5.png" class="first last" src="_images/5.png" />
+<td><a class="first last reference internal image-reference" href="_images/5.png"><img alt="_images/5.png" class="align-center" src="_images/5.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>在TWS或者STT模式下被跟踪并被RIO标记为友军的目标。</td>
 </tr>
 <tr class="row-even"><td>角度跟踪雷达目标</td>
-<td><img alt="_images/6.png" class="first last" src="_images/6.png" />
+<td><a class="first last reference internal image-reference" href="_images/6.png"><img alt="_images/6.png" class="align-center" src="_images/6.png" style="width: 25px; height: 40px;" /></a>
 </td>
 <td>只能跟踪一定角度的目标（自带干扰的目标）。</td>
 </tr>
 <tr class="row-odd"><td>有高度差测距的角度跟踪雷达目标</td>
-<td><img alt="_images/7.png" class="first last" src="_images/7.png" />
+<td><a class="first last reference internal image-reference" href="_images/7.png"><img alt="_images/7.png" class="align-center" src="_images/7.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>雷达仅跟踪目标角度，距离通过高度差测距计算。</td>
 </tr>
 <tr class="row-even"><td>TCS角度跟踪目标</td>
-<td><img alt="_images/10.png" class="first last" src="_images/10.png" />
+<td><a class="first last reference internal image-reference" href="_images/10.png"><img alt="_images/10.png" class="align-center" src="_images/10.png" style="width: 25px; height: 40px;" /></a>
 </td>
 <td>由TCS跟踪角度的目标。</td>
 </tr>
 <tr class="row-odd"><td>有高度差测距的TCS角度跟踪目标</td>
-<td><img alt="_images/11.png" class="first last" src="_images/11.png" />
+<td><a class="first last reference internal image-reference" href="_images/11.png"><img alt="_images/11.png" class="align-center" src="_images/11.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>TCS跟踪目标角度，距离通过高度差测距计算。</td>
 </tr>
@@ -1349,17 +1391,17 @@
 <td colspan="2"><strong>数据链目标</strong></td>
 </tr>
 <tr class="row-odd"><td>未知</td>
-<td><img alt="_images/12.png" class="first last" src="_images/12.png" />
+<td><a class="first last reference internal image-reference" href="_images/12.png"><img alt="_images/12.png" class="align-center" src="_images/12.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>来自数据链的未知目标。</td>
 </tr>
 <tr class="row-even"><td>敌对目标</td>
-<td><img alt="_images/13.png" class="first last" src="_images/13.png" />
+<td><a class="first last reference internal image-reference" href="_images/13.png"><img alt="_images/13.png" class="align-center" src="_images/13.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>来自数据链且被识别为敌军的目标。</td>
 </tr>
 <tr class="row-odd"><td>友军目标</td>
-<td><img alt="_images/14.png" class="first last" src="_images/14.png" />
+<td><a class="first last reference internal image-reference" href="_images/14.png"><img alt="_images/14.png" class="align-center" src="_images/14.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>来自数据链且被识别为友军的目标。</td>
 </tr>
@@ -1367,37 +1409,37 @@
 <td colspan="2"><strong>手动输入的航路点</strong></td>
 </tr>
 <tr class="row-odd"><td>基地</td>
-<td><img alt="_images/15.png" class="first last" src="_images/15.png" />
+<td><a class="first last reference internal image-reference" href="_images/15.png"><img alt="_images/15.png" class="align-center" src="_images/15.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>用来表示基地，航母或机场的航路点。</td>
 </tr>
 <tr class="row-even"><td>航路点</td>
-<td><img alt="_images/16.png" class="first last" src="_images/16.png" />
+<td><a class="first last reference internal image-reference" href="_images/16.png"><img alt="_images/16.png" class="align-center" src="_images/16.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>WCS导航路点，一般表示为航路点1，2和3。</td>
 </tr>
 <tr class="row-odd"><td>防御点</td>
-<td><img alt="_images/17.png" class="first last" src="_images/17.png" />
+<td><a class="first last reference internal image-reference" href="_images/17.png"><img alt="_images/17.png" class="align-center" src="_images/17.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>用来显示需要保护区域的航路点。</td>
 </tr>
 <tr class="row-even"><td>定点</td>
-<td><img alt="_images/18.png" class="first last" src="_images/18.png" />
+<td><a class="first last reference internal image-reference" href="_images/18.png"><img alt="_images/18.png" class="align-center" src="_images/18.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>通用的固定航路点。</td>
 </tr>
 <tr class="row-odd"><td>敌对区域</td>
-<td><img alt="_images/19.png" class="first last" src="_images/19.png" />
+<td><a class="first last reference internal image-reference" href="_images/19.png"><img alt="_images/19.png" class="align-center" src="_images/19.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>表示位于敌对区域的航路点。</td>
 </tr>
 <tr class="row-even"><td>地面/水面目标</td>
-<td><img alt="_images/20.png" class="first last" src="_images/20.png" />
+<td><a class="first last reference internal image-reference" href="_images/20.png"><img alt="_images/20.png" class="align-center" src="_images/20.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>用于代表地面/水面目标的航路点。</td>
 </tr>
 <tr class="row-odd"><td>IP</td>
-<td><img alt="_images/21.png" class="first last" src="_images/21.png" />
+<td><a class="first last reference internal image-reference" href="_images/21.png"><img alt="_images/21.png" class="align-center" src="_images/21.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>用于空对地攻击的航路点，详情参考<a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机初始点模式</span></a>。</td>
 </tr>
@@ -1405,22 +1447,22 @@
 <td colspan="2"><strong>数据链航路点</strong></td>
 </tr>
 <tr class="row-odd"><td>基地</td>
-<td><img alt="_images/22.png" class="first last" src="_images/22.png" />
+<td><a class="first last reference internal image-reference" href="_images/22.png"><img alt="_images/22.png" class="align-center" src="_images/22.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>表示基地的数据链航路点。</td>
 </tr>
 <tr class="row-even"><td>航路点</td>
-<td><img alt="_images/23.png" class="first last" src="_images/23.png" />
+<td><a class="first last reference internal image-reference" href="_images/23.png"><img alt="_images/23.png" class="align-center" src="_images/23.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>数据链通用航路点。</td>
 </tr>
 <tr class="row-odd"><td>数据链固定航路点</td>
-<td><img alt="_images/24.png" class="first last" src="_images/24.png" />
+<td><a class="first last reference internal image-reference" href="_images/24.png"><img alt="_images/24.png" class="align-center" src="_images/24.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>表示固定的数据链航路点。</td>
 </tr>
 <tr class="row-even"><td>地面/水面目标</td>
-<td><img alt="_images/25.png" class="first last" src="_images/25.png" />
+<td><a class="first last reference internal image-reference" href="_images/25.png"><img alt="_images/25.png" class="align-center" src="_images/25.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>指示地面目标的数据链航路点。</td>
 </tr>
@@ -1428,32 +1470,32 @@
 <td colspan="2"><strong>附加符号信息</strong></td>
 </tr>
 <tr class="row-even"><td>强制攻击</td>
-<td><img alt="_images/28.png" class="first last" src="_images/28.png" />
+<td><a class="first last reference internal image-reference" href="_images/28.png"><img alt="_images/28.png" class="align-center" src="_images/28.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>该附加符号（符号上有一条穿过中心点的水平线）表示在TWS模式下被RIO选择的强制攻击目标，只能指定一个目标为强制攻击目标而且该目标会优先获得数字标识。</td>
 </tr>
 <tr class="row-odd"><td>来自数据链的待摧毁目标</td>
-<td><img alt="_images/29.png" class="first last" src="_images/29.png" />
+<td><a class="first last reference internal image-reference" href="_images/29.png"><img alt="_images/29.png" class="align-center" src="_images/29.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td>该附加符号（符号上有一条穿过中心点的水平线）表示这个来自数据链的目标需要被摧毁。该符号不会影响WCS系统中的目标优先级。</td>
 </tr>
 <tr class="row-even"><td>禁止攻击</td>
-<td><img alt="_images/30.png" class="first last" src="_images/30.png" />
+<td><a class="first last reference internal image-reference" href="_images/30.png"><img alt="_images/30.png" class="align-center" src="_images/30.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>该附加符号（符号上有一条穿过中心点的垂直线）表示这个来自雷达TWS或者数据链的目标被RIO或者数据链设置为禁止攻击目标。如果是由RIO设置的，那么该目标将会被从WCS系统优先级中删除。</td>
 </tr>
 <tr class="row-odd"><td>多目标</td>
-<td><img alt="_images/31.png" class="first last" src="_images/31.png" />
+<td><a class="first last reference internal image-reference" href="_images/31.png"><img alt="_images/31.png" class="align-center" src="_images/31.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>该附加符号（符号左侧有一对水平线）表示这个目标符号代表着多个目标。可以通过数据链接受这个信息或者由RIO手动设置。</td>
 </tr>
 <tr class="row-even"><td>需要目视识别</td>
-<td><img alt="_images/32.png" class="first last" src="_images/32.png" />
+<td><a class="first last reference internal image-reference" href="_images/32.png"><img alt="_images/32.png" class="align-center" src="_images/32.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>该附加符号（符号中心有一个v型标志）表示这个通过数据链目标需要目视识别。</td>
 </tr>
 <tr class="row-odd"><td>目标脱锁</td>
-<td><img alt="_images/33.png" class="first last" src="_images/33.png" />
+<td><a class="first last reference internal image-reference" href="_images/33.png"><img alt="_images/33.png" class="align-center" src="_images/33.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>这个附加符号（符号中心有一个x标志）表示在STT或者TWS模式下已经超过8秒没有跟踪到这个目标。如果启用了目标持续追踪功能（TRACK HOLD），这个目标会在14秒或者2分钟后依然没有被发现的情况下删除。</td>
 </tr>
@@ -1470,12 +1512,12 @@
 <td>在TWS或者STT模式下，当飞机到达最佳导弹发射区间所需要的时间小于8秒时，目标符号和开火次序数字会开始闪烁。</td>
 </tr>
 <tr class="row-odd"><td>高度数字</td>
-<td><img alt="_images/34.png" class="first last" src="_images/34.png" />
+<td><a class="first last reference internal image-reference" href="_images/34.png"><img alt="_images/34.png" class="align-center" src="_images/34.png" style="width: 50px; height: 25px;" /></a>
 </td>
 <td>当开启高度显示时，目标符号的左侧会出现一个以10000英尺为单位指示目标高度的数字，比如说，数字4代表该目标高度在35000英尺到45000英尺之间。通过雷达和数据链获取的目标都可以显示该信息。</td>
 </tr>
 <tr class="row-even"><td>开火次序</td>
-<td><img alt="_images/35.png" class="first last" src="_images/35.png" />
+<td><a class="first last reference internal image-reference" href="_images/35.png"><img alt="_images/35.png" class="align-center" src="_images/35.png" style="width: 50px; height: 25px;" /></a>
 </td>
 <td><div class="first last line-block">
 <div class="line">在TWS模式下，WCS会以1到6为编号给AIM-54不死鸟导弹设置目标优先级（开火顺序），第一发导弹攻击1号目标，以此类推。发射后目标符号上的编号会消失，以便为之后的导弹发射做准备。</div>
@@ -1487,12 +1529,12 @@
 </td>
 </tr>
 <tr class="row-odd"><td>撞击时间（TTI）</td>
-<td><img alt="_images/47.png" class="first last" src="_images/47.png" />
+<td><a class="first last reference internal image-reference" href="_images/47.png"><img alt="_images/47.png" class="align-center" src="_images/47.png" style="width: 50px; height: 20px;" /></a>
 </td>
 <td>在AIM-54发射后，目标符号左侧的开火顺序数字会被TTI或着撞击时间指示替换，这个时间代表着WCS计算的导弹命中目标前的剩余时间。当发出激活AIM-54主动导引头的指令时，TTI数字会闪烁以表明这一点。</td>
 </tr>
 <tr class="row-even"><td>速度矢量</td>
-<td><img alt="_images/36.png" class="first last" src="_images/36.png" />
+<td><a class="first last reference internal image-reference" href="_images/36.png"><img alt="_images/36.png" class="align-center" src="_images/36.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td><div class="first last line-block">
 <div class="line">当开启速度矢量显示时，会在目标符号中心增加一个显示该目标速度矢量的符号。</div>
@@ -1506,10 +1548,10 @@
 </td>
 </tr>
 <tr class="row-odd"><td>发射距离矢量</td>
-<td><img alt="_images/37.png" class="first last" src="_images/37.png" />
+<td><a class="first last reference internal image-reference" href="_images/37.png"><img alt="_images/37.png" class="align-center" src="_images/37.png" style="width: 50px; height: 100px;" /></a>
 </td>
-<td><div class="first figure align-center" id="id8">
-<a class="reference internal image-reference" href="_images/lzv.png"><img alt="_images/lzv.png" src="_images/lzv.png" style="width: 250.0px; height: 118.75px;" /></a>
+<td><div class="first figure align-center" id="id10">
+<a class="reference internal image-reference" href="_images/lzv.png"><img alt="_images/lzv.png" src="_images/lzv.png" style="width: 200px;" /></a>
 <p class="caption"><span class="caption-text">TUMR（到达最小发射距离的时间），TUOR（到达最佳发射距离的时间）和TUIR（到达最大发射距离的时间）</span></p>
 </div>
 <div class="last line-block">
@@ -1524,12 +1566,12 @@
 </td>
 </tr>
 <tr class="row-even"><td>干扰源指示</td>
-<td><img alt="_images/38.png" class="first last" src="_images/38.png" />
+<td><a class="first last reference internal image-reference" href="_images/38.png"><img alt="_images/38.png" class="align-center" src="_images/38.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>由本机延伸出的一条指示线指向超出设定的JAM/JET阈值的干扰源。</td>
 </tr>
 <tr class="row-odd"><td>雷达天线扫描角度指示</td>
-<td><img alt="_images/39.png" class="first last" src="_images/39.png" />
+<td><a class="first last reference internal image-reference" href="_images/39.png"><img alt="_images/39.png" class="align-center" src="_images/39.png" style="width: 50px; height: 40px;" /></a>
 </td>
 <td><div class="first last line-block">
 <div class="line">由本机符号向前方两侧延迟出的V字虚线，代表了当前雷达扫描角度范围。在所有雷达模式下，每段虚线代表的距离为20海里。</div>
@@ -1539,17 +1581,17 @@
 </td>
 </tr>
 <tr class="row-even"><td>数据链干扰源指示</td>
-<td><img alt="_images/40.png" class="first last" src="_images/40.png" />
+<td><a class="first last reference internal image-reference" href="_images/40.png"><img alt="_images/40.png" class="align-center" src="_images/40.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>由数据链节点发出的指示线，指向该数据链节点目前所受到干扰的干扰源方向。</td>
 </tr>
 <tr class="row-odd"><td>数据链目标标记</td>
-<td><img alt="_images/41.png" class="first last" src="_images/41.png" />
+<td><a class="first last reference internal image-reference" href="_images/41.png"><img alt="_images/41.png" class="align-center" src="_images/41.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>在数据链目标周围出现一圈高亮标记的光标（光圈），表示该目标需要特别关注。</td>
 </tr>
 <tr class="row-even"><td>数据链优先攻击目标</td>
-<td><img alt="_images/42.png" class="first last" src="_images/42.png" />
+<td><a class="first last reference internal image-reference" href="_images/42.png"><img alt="_images/42.png" class="align-center" src="_images/42.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>这个附加符号表示这个来自数据链的目标必须被摧毁，不过这个符号不会影响WCS系统中的目标优先级。</td>
 </tr>
@@ -1557,22 +1599,22 @@
 <td colspan="2"><strong>攻击符号信息</strong></td>
 </tr>
 <tr class="row-even"><td>人工地平线</td>
-<td><img alt="_images/43.png" class="first last" src="_images/43.png" />
+<td><a class="first last reference internal image-reference" href="_images/43.png"><img alt="_images/43.png" class="align-center" src="_images/43.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>TID上的人工地平线用来指示飞机的俯仰姿态与滚转姿态，人工地平线与水平线的角度表示飞机次数的滚转角度，在TID显示屏上的垂直位移表示飞机的俯仰角。</td>
 </tr>
 <tr class="row-odd"><td>制导转向</td>
-<td><img alt="_images/44.png" class="first last" src="_images/44.png" />
+<td><a class="first last reference internal image-reference" href="_images/44.png"><img alt="_images/44.png" class="align-center" src="_images/44.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>指示最佳导弹发射方向的符号。飞行员在发射导弹时应该尽可能的对准ASE圆的圆心。</td>
 </tr>
 <tr class="row-even"><td>允许转向误差圆</td>
-<td><img alt="_images/45.png" class="first last" src="_images/45.png" />
+<td><a class="first last reference internal image-reference" href="_images/45.png"><img alt="_images/45.png" class="align-center" src="_images/45.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>ASE圆用于指示导弹发射允许的转向误差。它的大小随攻击路线、模式和所选则的导弹而变化。</td>
 </tr>
 <tr class="row-odd"><td>脱离指示</td>
-<td><img alt="_images/27.png" class="first last" src="_images/27.png" />
+<td><a class="first last reference internal image-reference" href="_images/27.png"><img alt="_images/27.png" class="align-center" src="_images/27.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>当目标距离小于导弹最小发射距离时，TID中心会出现此符号。</td>
 </tr>
@@ -1764,6 +1806,9 @@
 </tr>
 </tbody>
 </table>
+<iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/r4-Dd4ss2Rc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
 <div class="section" id="pulse-mode">
 <h4>脉冲模式<a class="headerlink" href="#pulse-mode" title="永久链接至标题">¶</a></h4>
 <p>在脉冲模式下，AN/AWG-9不使用脉冲多普勒滤波，这意味着它可以用于探测各个方向的目标，也可以用于基本的地面测绘。从专业角度来说，因为该模式下雷达对目标无法测速，所以不需要设定目标接近率范围。该模式的缺点是无法轻易区分地面杂波与真实目标回波，这意味着敌机可以利用地面杂波来隐藏自己。因为这个缺点，脉冲模式的有效扫描范围明显小于脉冲多普勒模式的扫描范围。</p>
@@ -1795,7 +1840,7 @@
 <p>由于雷达多普勒滤波器的工作机制，雷达会有两个盲区。主瓣杂波（MLC）区包含了大部分地面杂波，0低速目标回波也会被包含在这个范围内，以及本机地速±133节的266节速度区间。这就是为什么雷达无法搜索低地速目标的原因。当前这种情况只会出现在下视情况中，因为当雷达天线仰视天空时不会有地面杂波。所以如果DDD面板上的MLC滤波器开关位于AUTO位置时，当雷达天线角度处于地平线上方3°以上时，雷达会自动关闭MLC滤波器。也可以由RIO手动关闭，但如果关闭该滤波器后使用雷达下视搜索，RWS与TWS将无法使用，因为计算机会处理所有的的地面回波。如果目标在雷达上方，那它无论如何也不会逃过AN/AWG-9的跟踪。</p>
 <p>雷达的第二个滤波器是多普勒滤波器，也代表着雷达的第二个盲区，这个盲区意味着目标正在以与本机接近的速率飞离本机。该盲区的产生是由于多普勒模式的工作机制所致，因为目标没有多普勒频移就不会被探测到，这个盲区的区间为200节/小时，这意味着雷达将无法跟踪相对于本机接近率为±100节/每小时的目标，在这种情况下应该切换至脉冲模式。</p>
 <p>由于目标的相对速度会随着方位角的变化而变化，所以这两个滤波器都会随着目标方位角的变化而变化。比如说45°时目标的相对速度将会小于0°时的相对速度，因为其自身的速度矢量会有略微偏离。这就是为什么DDD上显示的主瓣杂波轨迹会呈现为曲线的原因。</p>
-<div class="figure" id="id9">
+<div class="figure" id="id11">
 <img alt="_images/pd.png" src="_images/pd.png" />
 <p class="caption"><span class="caption-text">目标低速为900节，空速为1200节。详细信息参照下表。</span></p>
 </div>
@@ -1905,6 +1950,9 @@
 <p>AN/AWG-9雷达拥有三种不同的ACM获取目标方式。飞行员锁定模式（PLM）、垂直扫描锁定模式（VSL）和手动快速锁定（MRL）。</p>
 <p>ACM模式会以优先级顺序排列，优先级较高的模式会被优先使用。这意味着PLM模式总是被优先使用的，之后是VSL模式等。</p>
 <p>除了PLM模式以外，所有的模式都可以通过RIO在HCU控制杆上按下第一段扳机并松开来退出，PLM模式则需要飞行员再次按下PLM按钮来退出。</p>
+<iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/Ujk4hL_EnUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
 <div class="section" id="pilot-lockon-mode-plm">
 <h6>飞行员锁定模式（PLM）<a class="headerlink" href="#pilot-lockon-mode-plm" title="永久链接至标题">¶</a></h6>
 <img alt="_images/plm.png" src="_images/plm.png" />
@@ -1913,7 +1961,7 @@
 </div>
 <div class="section" id="vertical-scan-lockon-vsl">
 <span id="vsl"></span><h6>垂直扫描锁定模式（VSL）<a class="headerlink" href="#vertical-scan-lockon-vsl" title="永久链接至标题">¶</a></h6>
-<img alt="_images/vsl.png" src="_images/vsl.png" />
+<a class="reference internal image-reference" href="_images/vsl.png"><img alt="_images/vsl.png" src="_images/vsl.png" style="width: 500px; height: 800px;" /></a>
 <p>VSL模式可以由飞行员或者RIO启动，用于锁定飞机当前航向下纵向-15°到+55°的目标。RIO可以使用RIO驾驶舱中的传感器控制面板上的VSL开关选择低目标（LO）或者高目标（HI）这两个子模式。</p>
 <p>该模式下天线的扫描宽度为5°，如果处于高目标模式（HI），将扫描垂直范围内+15°到+55°的目标，如果处于低目标模式（LO），则会扫描-15°到+25°范围内的目标。锁定目标后将通过菱形标记来指示当前目标位置。</p>
 <p>当在5海里内锁定目标时，雷达会切换为脉冲STT模式，否则将继续工作在VSL模式下，直到选择另一种模式。</p>
@@ -1925,7 +1973,7 @@
 </div>
 <div class="section" id="manual-rapid-lockon-mrl">
 <span id="mrl"></span><h6>手动快速锁定（MRL）<a class="headerlink" href="#manual-rapid-lockon-mrl" title="永久链接至标题">¶</a></h6>
-<img alt="_images/mrl.png" src="_images/mrl.png" />
+<a class="reference internal image-reference" href="_images/mrl.png"><img alt="_images/mrl.png" src="_images/mrl.png" style="width: 400px; height: 300px;" /></a>
 <p>手动快速锁定模式（MRL）允许RIO在天线扫描范围内快速锁定一个5海里内的目标，当RIO按下HCU控制杆右侧的MRL按钮时，雷达会启动一个扫描距离为5海里，俯仰角为1线的超级搜索模式。</p>
 <p>此时可以通过HCU控制杆控制这个超级搜索模式的扫描方位角与俯仰角（X轴控制方位角，Y轴控制俯仰角）。DDD会以5海里的距离显示当前的超级搜索模式，扫描模式的边缘还有两条用来指示当前扫描角度的刻度线。</p>
 <p>当发现目标时，RIO可以按下HCU控制杆扳机第二段来锁定目标并切换到脉冲STT模式。如何进入MRL模式后按下控制杆扳机第一段并松开，雷达将会返回脉冲搜索模式。</p>
@@ -1955,13 +2003,20 @@
 <h2>AN/APX-72 IFF 询问器<a class="headerlink" href="#an-apx-72-iff-interrogator" title="永久链接至标题">¶</a></h2>
 <p>AN/APX-72 IFF(敌我识别系统）的询问器集成在AN/AWG-9中，而询问器天线则位于AN/AWG-9的天线框架平台上。</p>
 <p>IFF系统的工作原理是发射问询信号脉冲，然后监听友军传回的询问器脉冲信号。除了非加密民用模式外，AN/APX-72还可以在加密的军用模式（mode 4）下进行识别验证，这将可以确定目标在回应mode4问询信号时是否是友军。</p>
-<p>AN/APX-72可用于雷达搜索模式和雷达单目标跟踪模式。若要启用询问器的识别功能，需按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 上的IFF开关，当按住开关时询问器将会被激活，如果短暂按下开关询问器会工作十秒后停止。</p>
-<p>当启用IFF时，接收到的IFF回应信号将覆盖在标准的AN/AWG-9雷达回波信号中，并显示在DDD上。一个友军单位将会被显示为两条杠，一条在标准雷达信号的上方，一条在标准雷达回波信号的下方。</p>
+<p>The AN/APX-72 can be used both in search radar modes and in STT radar modes.
+To enable interrogation the IFF switch is depressed on the <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> which then activates the interrogator for as long as the button is held up to 10 seconds max.</p>
+<p>When enabled IFF received IFF returns are then overlaid on the normal AN/AWG-9 radar returns on the DDD.
+A friendly target will be indicated with two bars, one above and one below the normal radar return.
+As the AN/APX-72 is a separate radar, secondary mode, radar apart from the AWG-9 the IFF can sometimes also detect targets not detected by the AWG-9.
+In this case the IFF return will not have a radar echo inside it.</p>
 <p>另外，如果STT目标与TID关联，DDD将从一般显示距离切换到±10 NM的显示距离，以此来显示多个紧密编队目标的雷达信号回波。</p>
+<iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/YG7sWweg2RQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="television-camera-set-tcs">
 <h2>电视摄像套件（TCS）<a class="headerlink" href="#television-camera-set-tcs" title="永久链接至标题">¶</a></h2>
-<div class="figure" id="id10">
+<div class="figure" id="id12">
 <img alt="_images/tcs.png" src="_images/tcs.png" />
 <p class="caption"><span class="caption-text">照片由美国海军摄影师 Justin S. Osborne 拍摄（030418-N-0382O-591）</span></p>
 </div>
@@ -1982,7 +2037,7 @@
 </div>
 <div class="section" id="ddd">
 <h4>DDD<a class="headerlink" href="#ddd" title="永久链接至标题">¶</a></h4>
-<img alt="_images/ddd1.png" src="_images/ddd1.png" />
+<img alt="_images/ddd.png" src="_images/ddd.png" />
 <p>DDD包含两个与TCS相关的指标器。</p>
 <p>只要在HCU上选择IR/TV模式， <strong>DDD EL</strong> 表就会显示TCS LOS 传感器的当前高度。</p>
 <p><strong>IROT</strong> 灯会指示TCS的追踪状态。IROT的缩写是从TCS所替换的IRST继承而来的。</p>
@@ -2022,16 +2077,176 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 </div>
 <div class="section" id="lantirn">
 <h2>LANTIRN<a class="headerlink" href="#lantirn" title="永久链接至标题">¶</a></h2>
-<div class="figure" id="id11">
+<div class="figure" id="id13">
 <img alt="_images/lantirn.png" src="_images/lantirn.png" />
 <p class="caption"><span class="caption-text">U.S. Navy photo by Photographer’s Mate 2nd Class Felix Garza Jr. (030325-N-4142G-009)</span></p>
 </div>
-<p><strong>Coming Soon</strong></p>
+<div class="section" id="description">
+<h3>描述<a class="headerlink" href="#description" title="永久链接至标题">¶</a></h3>
+<p>The LANTIRN or Low Altitude Navigation and Targeting Infrared for Night began life as combined targeting and navigation pods designed for the F-15E and F-16.
+When the US Navy became interested in using the F-14 Tomcat in the A/G role Martin Marietta (now Lockheed Martin) began its own program
+to show that the LANTIRN could quickly be adapted for F-14 use.</p>
+<p>As the pod was adapted for the F-14 the secondary navigational pod was deleted, keeping only the targeting pod.
+The pod was wired up to its own control panel as the F-14 didn’t have the required 1553-bus for complete integration.
+The control panel was patched into the TCS -&gt; TID video feed allowing it to select either the TCS or the LANTIRN for display on the TID and VDI.</p>
+<p>While the pod can read waypoints and selected weapon from the WCS, the pod has its own GPS receiver and is otherwise self-contained and controlled only via its own control panel.
+Additionally it also has its own weapons release guidance removing the need to boresight the pod to the aircraft, a time-consuming task.</p>
+<p>The FLIR sensor itself has three different zoom levels or fields of view (FoV).
+The Wide FoV limits are 5.9° and allows a maximum slew rate of 8.5°/s.
+The Narrow FoV limits are 1.7° and allows a maximum slew rate of 1.8°/s.
+The last mode, the Expanded FoV is a digital zoom of the Narrow FoV, meaning that the resolution will be worse in this mode.
+The FoV limits for the Expanded FoV are 0.8° with a max slew rate of 0.7°/s.</p>
+</div>
+<div class="section" id="controls-and-displays">
+<h3>Controls and Displays<a class="headerlink" href="#controls-and-displays" title="永久链接至标题">¶</a></h3>
+<p>All the controls for the LANTIRN are situated on its own control panel mounted on the RIO’s left side console when the pod is present,
+including the switch controlling what video feed the TID and VDI display in the TV mode.</p>
+<div class="section" id="lantirn-video-elements">
+<h4>LANTIRN Video Elements<a class="headerlink" href="#lantirn-video-elements" title="永久链接至标题">¶</a></h4>
+<p>The FLIR (Forward Looking InfraRed) video-feed from the LANTIRN has superimposed data readout for the crew’s use.
+This video-feed can be viewed both on the TID (in TV-mode) and on the VDI (also in TV-mode) when the FLIR feed is selected on the control panel.</p>
+<p>Amongst other things the displays show own aircraft position, target position as well as targeting cues to the crew.
+When using the LANTIRN for A/G attack these readouts are also used as targeting and release cues.</p>
+<img alt="_images/FLIR.png" src="_images/FLIR.png" />
+<p>Own aircraft data is shown in the upper left corner (<strong>1</strong>), showing position, altitude, groundspeed and pitch angle (dive).</p>
+<p>On the left side (<strong>2</strong>) the pod displays whether it’s using white hot or black hot (WHOT and BHOT)
+as well as if the AGC (Automatic Gain Control) or MGC (Manual Gain Control) is in use.</p>
+<p>The lower left datablock (<strong>3</strong>) shows pod information, SR is slant range (line of sight range),
+AZ and EL is pod line of sight azimuth and elevation relative aircraft ADL (with AZ having L or R for left or right of aircraft heading).
+Below that is current UTC time and then IBIT codes below that.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">IBIT codes are not implemented currently and the clock will show local time.</td>
+</tr>
+</tbody>
+</table>
+<p>The lower middle (<strong>4</strong>) shows current pod mode (A/A or A/G) and track mode (AREA, POINT or Q designations) on the left side.
+The right side shows currently selected weapon and laser code while above and in the center an L is shown when the laser is armed
+and flashing when firing the laser.</p>
+<p>The lower right (<strong>5</strong>) shows data for currently selected Q (slewpoint) except for QSNO, QADL and QHUD,
+TTG being time to go until on top of currently selected Q,
+the rows below that, bearing and range to Q, ELEV indicating elevation in feet of Q
+and lastly, below that, Q location.</p>
+<p><strong>6</strong> is the crosshairs showing tracked position, in this case we have a bounding box, indicating currently tracked target in point mode.
+The two widest zoom modes will have boxes showing the field of view for the next, narrower, mode.
+Additionally there’s a small white square (FLIR pointing cue) moving around showing the current pod line of sight relative to aircraft from a top down perspective.
+In this case it’s right next to the upside down ^, top center, indicating that the pod is looking ahead of the aircraft.
+If the square is centered the pod is looking straight down and below center it indicates the pod looking aft.</p>
+<p>Finally, <strong>7</strong> is the steering guidance towards the selected Q, the top one being commanded heading and the vertical one on the right the bomb release cue.</p>
+<p>The commanded heading shows current aircraft heading above the inverted ^, with the commanded heading being displayed as a relative bearing either
+L (Left) or R (Right) of current aircraft heading below the line. The commanded heading is also indicated by a vertical line bisecting the horizontal one.</p>
+<p>The right, bomb release cue, is only shown if the selected Q is QDES and shows a vertical line along which a release cue travels downwards.
+This release cue is only visible with a valid weapon selection (bomb) and when it reaches the two tick marks, that’s the cue to release.
+Below the line is the indicated TREL (Time to Release) in seconds, changing to TIMP (Time to Impact) after release.</p>
+<p>Around this all is the masking curve, indicating at what angles the pod will be masked by own aircraft (looking into the aircraft hull).
+This is relative to the FLIR pointing cue, when the cue moves outside the masking curve the sensor will be blocked by the hull.</p>
+</div>
+<div class="section" id="control-panel">
+<h4>控制面板<a class="headerlink" href="#control-panel" title="永久链接至标题">¶</a></h4>
+<p>The control panel contains all the controls for the pod, including the control stick.</p>
+<img alt="_images/panel.png" src="_images/panel.png" />
+<p>The power switch for the LANTIRN pod is located top left (<strong>1</strong>) with <strong>OFF</strong> disabling power to the system,
+<strong>IMU</strong> (blocked in above image) powering only the LANTIRN IMU and <strong>POD</strong> powering the whole system.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">IMU selection has no current DCS function.</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>MODE</strong> switch (<strong>2</strong>) switches the POD sensor between <strong>STBY</strong> (Standby) and <strong>OPER</strong> (Operational).</p>
+<p>The <strong>LASER ARMED</strong> (<strong>3</strong>) light illuminates when the laser is armed while the <strong>LASER</strong> switch (<strong>4</strong>) arms it. (ARM and SAFE positions available.)</p>
+<p>Down right is the <strong>VIDEO</strong> switch (<strong>5</strong>) which controls what video is fed to the TID and VDI, FLIR selecting LANTIRN FLIR video and TCS selecting TCS video.</p>
+<p>The four grouped indicator lights (<strong>6</strong>) indicate various error states in the LANTIRN system and the <strong>IBIT</strong> button (<strong>7</strong>) initiates the IBIT (Initialized Built-In-Test).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">The IBIT and fault indicators are not currently implemented in DCS.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="control-stick">
+<h4>Control Stick<a class="headerlink" href="#control-stick" title="永久链接至标题">¶</a></h4>
+<p>The control stick for the LANTIRN operates the LANTIRN’s sensor itself, note though that the stick itself does not move,
+the buttons and hats on the stick are used to control the pod.</p>
+<img alt="_images/stick1.png" src="_images/stick1.png" />
+<p>The left four-way hat, S3, (<strong>1</strong>) allows selection of QWp- and QWp+ (left/right) in addition to Point Track (up) and Area Track (down) modes.</p>
+<p>The center slew hat (<strong>2</strong>) is used to slew the sensor line of sight itself and depression of this hat switches between white hot (WHOT) and black hot (BHOT) sensor modes.</p>
+<p>The right four-way hat, S4, (<strong>3</strong>) allows for selection of QADL/QHUD (up), QDES (right) and QSNO (down) in addition to declutter level which is cycled by momentary depression of the hat.
+The left slider additionally changes the right hat function as detailed further down.</p>
+<p>The red button on top (<strong>4</strong>) is used to cycle between the three fields of view (zoom levels) of the IR sensor.</p>
+<p>The two-way hat on the side (<strong>5</strong>) selects either the A/G or A/A modes of operation for the pod.</p>
+<p>Located on the left side of the stick head is a two way slider (<strong>6</strong>), springloaded to return to center. This switch changes the function of the right four-way hat.</p>
+<p>Sliding it forwards allows for selection of manual gain while releasing and sliding it forwards again reselects automatic gain.
+Change of the manual gain with manual gain already selected can be done by sliding the switch forwards and holding it for 2 seconds.
+With this mode active up/down on the right hat increases and decreases the gain while left/right decreases and increases level.</p>
+<p>Sliding the switch aft momentarily allows selection of used laser code, while sliding it aft and holding allows for focus control.
+When set to laser code change, the right four-way hat selects digit to change with left/right and increases and decreases the selected digit with up/down.
+In focus control up/down increases and decreases focus.</p>
+<p>Located on the front of the stick (<strong>7</strong>) is a two-stage trigger, first detent manually lasing while the second detent fires the laser and designates QDES at current sensor position.</p>
+<p>Lastly on the front side of the stick (<strong>8</strong>) is the latched laser fire button. Selecting it fires the laser for 60 seconds which can be overriden by the pressing and releasing the first trigger detent.
+A renewed press on the laser latch button resets the latched laser fire timer to 60 seconds, beginning a new 60 second countdown.</p>
+</div>
+</div>
+<div class="section" id="operation">
+<h3>Operation<a class="headerlink" href="#operation" title="永久链接至标题">¶</a></h3>
+<div class="section" id="startup">
+<h4>Startup<a class="headerlink" href="#startup" title="永久链接至标题">¶</a></h4>
+<p>To start the LANTIRN from cold, set the power switch to POD.
+This will start the LANTIRN power up sequence which takes 8 minutes, when ready this will be indicated by the MODE switch showing STBY.</p>
+<p>When at STBY, depression of the MODE button switches the system to OPER (Operational), enabling the LANTIRN sensor after a 30 second initialization.</p>
+<p>Lastly, to allow display of LANTIRN FLIR video, select FLIR on the VIDEO switch.</p>
+</div>
+<div class="section" id="sensor-modes-and-operation">
+<h4>Sensor Modes and Operation<a class="headerlink" href="#sensor-modes-and-operation" title="永久链接至标题">¶</a></h4>
+<p>The LANTIRN has two “master” modes, A/A and A/G. Both work similarly but are optimized for different type of targets.
+Additionally the A/G mode allows for bomb release guidance.</p>
+<p>The pod has two main ways of controlling the sensor line of sight, either via contrast lock (image following) or via being slaved to a Q designation.</p>
+<p>The Area and Point Track modes are the two contrast lock modes in which the LANTIRN locks onto contrast differences in the LANTIRN FLIR video itself.
+This in itself only allows for angle tracking which give unprecise ranging using own aircraft position and pod line of sight to calculate target position.
+It does however allow the system to track moving targets.</p>
+<p>The last tracking mode has the sensor slewed to a stored location/direction, called a Q.
+The directional Qs do not allow for guidance to a location while the location Qs do.</p>
+<p>QSNO and QADL/QHUD are directional.
+QSNO slaves the sensor to the ground 15 NM directly in front of the aircraft along own aircraft heading.
+QADL and QHUD slave the sensor to either ADL (in A/A) or the aircraft wings symbol on the HUD (in A/G).</p>
+<p>The location Qs have two sources, QWp- and QWp+ on the stick’s left hat can be used to cycle through the WCS waypoints,
+allowing the RIO to slew to the different waypoints for navigation and target localization.</p>
+<p>The other source is via pod designation.
+By selecting the second detent on the LANTIRN trigger the current sensor track or location is lased and a new location stored using that data.
+This is called the QDES and is used to designate targets for engagement as well as allowing the RIO to select a new location for navigational reference on the fly.
+The QDES can not however be automatically transferred to the WCS, but the RIO can enter it manually using the target location information in the pod video feed.</p>
+<p>The lower right datablock is enabled for the location Qs only but will remain even when the pod is slewed away in area or point track modes.
+As soon as another Q is slewed however, it will update to that location instead or be removed if a directional Q is selected.</p>
+</div>
+<div class="section" id="a-g-target-engagement-and-designation">
+<h4>A/G Target Engagement and Designation<a class="headerlink" href="#a-g-target-engagement-and-designation" title="永久链接至标题">¶</a></h4>
+<p>The LANTIRN steering cues for ground target engagment are automatically enabled when the LANTIRN is slewed to QDES or a new QDES is designated.
+The QDES itself will remain even if a new Q is selected and as long as it exists, the steering cues will point towards QDES even if slewed to another point.
+This is important to keep in mind as it is easy to think that the steering commands is to the current sensor location instead of the QDES.</p>
+<p>The laser designation itself can however point to a different location than the QDES as the laser always point to the current track.
+This can be used to quickly change back to a target marked by the QDES if desired and when lasing a moving target a QDES should be set
+at an estimated target location at impact (estimated manually) and then the point track mode or manual slew can be used to designate the actual target more precisely.</p>
+<p>To change laser code, move the stick left side slider aft and release, this will change right hat (S4) into laser code mode.
+The currently selected digit will blink and the S4 hat can then be used to set the digits. Left/right change what digit to set and up/down change the value of the digit.
+Renewed selection of aft on the left slider will then exit the laser code mode.</p>
+<p>If the right, S4, hat is depressed while in laser mode the automatic lase mode will be enabled, indicated by the M (for manual) left of the digits changing to an A (autolase).
+Repeat to switch back to manual mode. While activated, the autolase mode will begin firing the laser at 10 seconds TIMP until TIMP zero +4 seconds.</p>
+<p>The bomb release cue is only visible with a valid weapon (bomb) selected and the selected bomb is read from the weapon selector wheel on the RIO armament panel via the WCS.
+The actual bomb release can be accomplished using the computer pilot or computer target modes but the manual mode is recommended.
+In manual mode the pilot follows the cues in the LANTIRN video feed on the VDI and releases the bomb when cued by the LANTIRN.</p>
+</div>
+</div>
 </div>
 <div class="section" id="an-alr-67-rwr">
 <h2>AN/ALR-67 雷达警告接收系统（RWR）<a class="headerlink" href="#an-alr-67-rwr" title="永久链接至标题">¶</a></h2>
-<div class="section" id="description">
-<h3>描述<a class="headerlink" href="#description" title="永久链接至标题">¶</a></h3>
+<div class="section" id="id4">
+<h3>描述<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
 <p>AN/ALR-67雷达警报接收器（RWR）的设计目的是向F-14B机组人员通报和警告其一般区域内的雷达发射器。它还设计用来帮助船员通过雷达跟踪和雷达制导武器的交战来防御敌方威胁。</p>
 <p>AN/ALR-67作为A+/B程序的一部分，最初作为一个独立系统集成到F-14B Tomcat中。然而，RWR与AN/ALQ-126相连，允许它向干扰机发送关于威胁发射器的信息，并在自己的显示器上显示被干扰的目标。它还可以触发在AN/ALE-39系统中设置的预编程对抗程序。</p>
 <p>在后来的F-14B飞机上，结合了PTID升级，AN/ALR-67也被集成到MDIG双工系统中，允许在ECMD上显示更详细的威胁。</p>
@@ -2078,9 +2293,9 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <col width="49%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><img alt="_images/pilotcaution.png" class="first last" src="_images/pilotcaution.png" />
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="_images/pilotcaution.png"><img alt="_images/pilotcaution.png" src="_images/pilotcaution.png" style="width: 150px; height: 350px;" /></a>
 </td>
-<td><img alt="_images/riocaution.png" class="first last" src="_images/riocaution.png" />
+<td><a class="first last reference internal image-reference" href="_images/riocaution.png"><img alt="_images/riocaution.png" src="_images/riocaution.png" style="width: 250px; height: 800px;" /></a>
 </td>
 </tr>
 </tbody>
@@ -2116,7 +2331,7 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">威胁标识符号</th>
 <th class="head">平台/传感器</th>
-<th class="head">引起特殊提示音</th>
+<th class="head">Special Tone</th>
 </tr>
 </thead>
 <tbody valign="top">
@@ -2155,7 +2370,11 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>N</td>
-<td>只携带导航雷达的船舶（民用船舶、潜艇）</td>
+<td><div class="first last line-block">
+<div class="line">Ships only carrying a navigational radar</div>
+<div class="line">(civilian ships, submarines)</div>
+</div>
+</td>
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td>NE</td>
@@ -2511,8 +2730,8 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 </table>
 <p>当发射装置装载了新的干扰弹之后， 需要按下 <strong>RESET</strong> ，以此来重置系统内部的干扰弹计数器。 玩家需要将 <strong>RESET</strong> 按下至少5秒，以此来重置系统。</p>
 </div>
-<div class="section" id="control-panel">
-<h4>控制面板<a class="headerlink" href="#control-panel" title="永久链接至标题">¶</a></h4>
+<div class="section" id="id5">
+<h4>控制面板<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h4>
 <img alt="_images/controller.png" src="_images/controller.png" />
 <p>控制面板位于RIO右侧的水平控制台，用于控制系统电源、设置干扰弹的自动抛射和手动抛射。</p>
 <p>位于控制面板上方的机械计数器用于指示每种类型的干扰弹的剩余数量。RIO需要手动设置位于计数器下方的旋钮。计数器会在发射装置抛射干扰弹的同时自动地减少指示数值。此外，因为计数器是被手动设置的，所以很有可能会出现计数器指示为0，却仍然有额外的干扰弹可用的情况，在这种情况下控制系统仍旧会向发射装置传送干扰弹发射脉冲，使发射装置继续发射干扰弹，但是计数器依旧会显示为0。</p>
@@ -2574,7 +2793,7 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 </div>
 </div>
 <div class="section" id="navigation">
-<span id="id4"></span><h2>导航<a class="headerlink" href="#navigation" title="永久链接至标题">¶</a></h2>
+<span id="id6"></span><h2>导航<a class="headerlink" href="#navigation" title="永久链接至标题">¶</a></h2>
 <div class="section" id="navigation-system">
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
 <p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），命名为 AN/ASN-92。INS通过测量惯性力（即加速度）以及旋转时的角速度并对其积分以计算飞机的位置以及线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全可靠地返回到基地。当飞机需要在远离地面塔康基站和目视参考的大洋上执行任务时，这样的导航系统甚是重要。</p>
@@ -2622,8 +2841,8 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <li>备份本机位置</li>
 </ul>
 </div>
-<div class="section" id="id5">
-<h4>显示<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h4>
+<div class="section" id="id7">
+<h4>显示<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h4>
 <p>导航信息显示在TID，HSD，多显示指示器（MDI），HUD和VDI上，具体取决于飞行员和RIO选择的模式。如果发生IMU或导航计算机故障，则可使用两种备用模式：IMU空中（IMU / AM）或AHRS空中（AHRS / AM）。</p>
 </div>
 </div>
@@ -2829,7 +3048,10 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <div class="section" id="carrier-alignment">
 <h5>舰上对准<a class="headerlink" href="#carrier-alignment" title="永久链接至标题">¶</a></h5>
 <p>当在具有变化的经纬度及航向的航母上执行对准时，使用舰上对准程序。INS可以在航母上以三种不同的方式完成对准：RF数据链路对准和手动（手动）对齐，以及在DCS中未实现的甲板线缆对准。执行舰上对准时，TID上显示的信息于GND ALIGN过程中所显示的信息是相同的。</p>
-<p>需要注意的是，即便在完成精确对准之后，您也会在航母上获得错误的航向读数。由于航母自身的磁场和感应磁场，航向可以偏离20或30度，具体取决于航母上的停放位置和航母的航向。对机组来说，知道航母的BRC非常重要。由航母磁场扰动所引起的磁场变化在起飞后不久就会消失。这种磁性失真不会影响对准质量。</p>
+<p>Note that you will get erroneous heading readings on a carrier, even if fine align is complete.
+The heading can deviate up to 20 or 30 degrees, depending on the parking position on the carrier and the carrier’s heading, due to the carrier’s own magnetic field and induced magnetic field.
+It is important that the flight crew know the carrier’s BRC. The magnetic variation caused by the carrier’s magnetic distortion will go away shortly after take off.
+This magnetic distortion does not impact the alignment quality.</p>
 <div class="section" id="carrier-data-link-alignment">
 <h6>舰上数据链对准<a class="headerlink" href="#carrier-data-link-alignment" title="永久链接至标题">¶</a></h6>
 <p>主要的舰上对准模式是RF数据链路对准模式（即CAINS）。此模式使用船舶的INS（SINS）使IMU对准。惯性输入，包括船舶的经度，纬度，北轴和东轴速度以及滚转，俯仰，航向和航向速率，均通过RF数据链路传输到WCS计算机。</p>
@@ -3777,15 +3999,15 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 </tr>
 </tbody>
 </table>
-<div class="figure" id="id12">
+<div class="figure" id="id14">
 <img alt="_images/cruiseman.png" src="_images/cruiseman.png" />
 <p class="caption"><span class="caption-text">ECMD显示选择了手动转向的巡航导航显示。</span></p>
 </div>
-<div class="figure" id="id13">
+<div class="figure" id="id15">
 <img alt="_images/cruisetac.png" src="_images/cruisetac.png" />
 <p class="caption"><span class="caption-text">当TACAN转向被选择时，VDI和HSD为巡航显示导航信息。</span></p>
 </div>
-<div class="figure" id="id14">
+<div class="figure" id="id16">
 <img alt="_images/cruisedest.png" src="_images/cruisedest.png" />
 <p class="caption"><span class="caption-text">当航路点1被选为目的地时，HSD为巡航显示相应的导航信息。</span></p>
 </div>
@@ -3808,15 +4030,15 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <p>如果ARA-63的ICLS信息在编组区域可用，则飞行员可以选择AWL / PCD子模式。 要观察下滑道显示，应将飞行员显示和控制面板上的HUD和VDI AWL开关置于ILS位置。</p>
 <p>然后，HUD和VDIG将提供垂直和横向精确航向矢量符号，形成由ICLS驱动的交叉指针。 在HUD上，全部的矢量偏转限制在2度。 VDI上的全部的矢量偏差为1.5度。 在LDG的AWL / PCD子模式中，如果将PDCP上的HSD设置为NAV模式，则HSD将另外显示TACAN信息。</p>
 <p>当飞机处在仪表降落系统（ILS）的信号截取窗口中，飞行员可以选择继续使用ILS界面显示的信息；或者，当SPN-42数据链提供ACL自动航降系统数据时，为VDI或HUD显示器启用全天候降落开关上的ACL自动航降模式界面。ACL界面下显示出的横纵轴航迹矢量标与ICLS仪器航降界面下的标记相同，只是这些指示标在ACL模式下将由SPN-42数据链提供的信息控制。在降落的最后阶段，一个比较常见的用法是在HUD上显示ILS界面，同时在VDI上显示ACL界面。当数据链提供了有效ACL数据时，飞行员可使用AFCS自动飞行控制系统进行自动航降。其启动过程为：VEC/PCD面板上ACL开关打到OFF，然后打开AFCS控制面板上的ACL开关。</p>
-<div class="figure" id="id15">
+<div class="figure" id="id17">
 <img alt="_images/landingtac.png" src="_images/landingtac.png" />
 <p class="caption"><span class="caption-text">当将TACAN设置为目的地信息源时，HUD显示降落模式所需信息。</span></p>
 </div>
-<div class="figure" id="id16">
+<div class="figure" id="id18">
 <img alt="_images/landingaclhud.png" src="_images/landingaclhud.png" />
 <p class="caption"><span class="caption-text">当将AWL/PCD设置为目的地信息源时，HUD显示降落模式所需信息，ACL被设置为下滑道和航向信息源。</span></p>
 </div>
-<div class="figure" id="id17">
+<div class="figure" id="id19">
 <img alt="_images/landingaclvdi.png" src="_images/landingaclvdi.png" />
 <p class="caption"><span class="caption-text">当将AWL/PCD设置为目的地信息源时，VDI显示降落模式所需信息，ILS（ICLS）被设置为下滑道和航向信息源。</span></p>
 </div>
@@ -4157,7 +4379,7 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 <p>UHF 1 (ARC-159)无线电提供空空和空面语音通讯。无线电频率范围为225.000到399.975 MHz。此设备允许发送和接收过程中使用AM模式，预设了20个频道和一个紧急频道(243.000MHz)。紧急频率在任何其他频率选择后可同时显示。通过人工转动分辨力为25KHz旋钮，ARC-159有7 000个频率可供选择。ARC-159是一个固态独立单元，最小射频输出功率为10w。无线电的所有控制操作都在无线电前面板上。无线电位于飞行员座舱左控制台上。</p>
 <p>注意：UHF 1 (ARC-159) 的ADF模式在游戏中无功能；使用V/UHF 2 ARC-182的DF模式。</p>
 <img alt="_images/arc-1591.png" src="_images/arc-1591.png" />
-<table border="1" class="docutils">
+<table border="1" class="longtable docutils">
 <colgroup>
 <col width="18%" />
 <col width="82%" />
@@ -4282,7 +4504,7 @@ GACH crosshair in center indicates TCS LOS along ADL and deflection towards the 
 </table>
 <p>在 AM（调幅） 和 FM（调频） 内无线电发射和接收有效。无线电自动选择调制方式，但 225 至 399.975 MHz 频段（拨动开关）除外。有30个预设频道可用。随着任意其他频率被选择，每个频段内的紧急频率可能会同时显示。无线电系统使用 ARA-50 来提供对发送基站的自动侧向。ARC-182使用安全语音设备来工作(KY-28, KY-58 在DCS中未实现）。 安装的上下天线提供可靠的200海里视线通信（取决于高度和大气条件）。飞行员驾驶舱仪表面板上的一个远程显示器显示选择的频道或频率。</p>
 <img alt="_images/arc-1821.png" src="_images/arc-1821.png" />
-<table border="1" class="docutils">
+<table border="1" class="longtable docutils">
 <colgroup>
 <col width="18%" />
 <col width="82%" />
