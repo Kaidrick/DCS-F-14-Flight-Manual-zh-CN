@@ -54,12 +54,12 @@
 																														  
                                                                                                                           直接下载提供的*.mo文件，然后将其放入：
 																														  
-                                                                                                                          > :code:`Eagle Dynamics` > :code:`DCS World` > :code:`CoreMods` > :code:`aircraft` > :code:`F14` > :code:`l10n` > :code:`cn` > :code:`LC_MESSAGES`
+                                                                                                                          > :code:`Eagle Dynamics` > :code:`DCS World` > :code:`Mods` > :code:`aircraft` > :code:`F14` > :code:`l10n` > :code:`cn` > :code:`LC_MESSAGES`
 																		
                                                                                                                           **然后将**\ :code:`F-14-cn.mo`\ **重命名为**\ :code:`messages.mo` 。
 																		
 																		                                                  :注意:
-																			                                                    放入 :code:`CoreMods` 和 :code:`Mods` 文件夹均可；如放入 :code:`CoreMods` 文件夹，未购买F-14的用户也可看到编辑器中相关文字的翻译；如果放入 :code:`Mods` 文件夹，只有购买了F-14的用户可以看到相关翻译。
+																			                                                    （此方法暂时无效）放入 :code:`CoreMods` 和 :code:`Mods` 文件夹均可；如放入 :code:`CoreMods` 文件夹，未购买F-14的用户也可看到编辑器中相关文字的翻译；如果放入 :code:`Mods` 文件夹，只有购买了F-14的用户可以看到相关翻译。
 
 																		                                                  :注意:
 																			                                                    如果\ :code:`F-14`\ 目录中缺少\ :code:`l10n`\ 、\ :code:`cn`\ 或\ :code:`LC_MESSAGES`\ 这三个文件夹中的任何一个或多个文件夹，那么请按照上述文件结构，自行新建文件夹并将它们重命名。

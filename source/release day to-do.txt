@@ -15,15 +15,15 @@ warning light 报警灯 not 警告灯 nor 告警灯 - check
 
 the flag on Wing-sweep indicator is OVER not OV SW nor OV SWP - need more check
 
-tape 条形指示器
+tape 条形指示器 - check
 
 注意-提示灯面板 not 注意-提示灯光面板
 
 脚蹬？脚踏？踏板
 
-油门 油门握把？
+油门 油门握把？ - check
 
- elevation vernier 
+ elevation vernier - where？
  
 油门 - 慢车，发动机 - 怠速
 
