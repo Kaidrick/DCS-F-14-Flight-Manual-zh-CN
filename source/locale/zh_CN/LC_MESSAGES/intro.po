@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-13 17:17+0800\n"
+"PO-Revision-Date: 2019-03-14 13:48+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -421,7 +421,7 @@ msgstr "空重"
 
 #: ../../source/intro.rst:146
 msgid "41,780 pounds (~19,000 kg)"
-msgstr "41,780磅（约33,700千克）"
+msgstr "41,780磅（约19,000千克）"
 
 #: ../../source/intro.rst:148
 msgid "Maximum Weight"

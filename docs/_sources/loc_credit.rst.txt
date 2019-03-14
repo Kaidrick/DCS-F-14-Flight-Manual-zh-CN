@@ -88,16 +88,28 @@ DCS: F-14 “雄猫” 中文飞行手册（初版）
 DCS: F-14 训练任务
 =====================
 	
-	* 冷启动
-		
-		:翻译:
-			Cai, Jiutian
-			
-	* CASE I 航降
-	
-		:翻译:
-			Cai, Jiutian
 
+=====================    =====================
+训练任务名称               翻译
+=====================    =====================
+空对空 M61航炮             Cai, Jiutian
+空对地 计算机引导模式       Cai, Jiutian
+空对地 M61航炮             Wang, Jiawei
+AIM-9                      Wang, Jiawei
+CASE I 航降                Cai, Jiutian
+CASE I 弹射起飞             Cai, Jiutian
+冷启动（飞行员）               Cai, Jiutian
+导航                       Cai, Jiutian
+岸基着陆                   Cai, Jiutian
+岸基起飞                   Cai, Jiutian
+AWG-9 课程1                Cai, Jiutian
+AWG-9 课程2                Wang, Jiawei
+AWG-9 课程3                Wang, Jiawei
+AWG-9 课程4               Wang, Jiawei
+冷启动（RIO）                Cai, Jiutian
+=====================    =====================  
+	
+	
 DCS: F-14 快速任务
 =====================
 
@@ -109,7 +121,8 @@ DCS: F-14 游戏内文件
 
 	* 百科全书
 		:翻译:
-			——————————————
+			Ning, Jiaquan
+			
 -------------------------------------
 
 手册翻译和校对分工

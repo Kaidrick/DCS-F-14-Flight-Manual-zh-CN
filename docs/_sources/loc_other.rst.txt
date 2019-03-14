@@ -77,17 +77,21 @@
 =====================    =====================
 训练任务名称               下载
 =====================    =====================
-M61航炮 空对空             :download:`F-14B tutorial AA M61.miz <download/Miz/Training/F-14B tutorial AA M61.miz>`
+空对空 M61航炮            :download:`F-14B tutorial AA M61.miz <download/Miz/Training/F-14B tutorial AA M61.miz>`
+空对地 计算机引导模式      :download:`F-14B tutorial AG CMP PLT.miz <download/Miz/Training/F-14B tutorial AG CMP PLT.miz>`
+空对地 M61航炮             :download:`F-14B tutorial AG M61.miz <download/Miz/Training/F-14B tutorial AG M61.miz>`
+AIM-9                      :download:`F-14B tutorial AIM9.miz <download/Miz/Training/F-14B tutorial AIM9.miz>`
 CASE I 航降               :download:`F-14B tutorial carrier-based Case1.miz <download/Miz/Training/F-14B tutorial carrier-based Case1.miz>`
 CASE I 弹射起飞            :download:`F-14B tutorial carrier-based Takeoff Case1.miz <download/Miz/Training/F-14B tutorial carrier-based Takeoff Case1.miz>`
-冷启动 飞行员              :download:`F-14B tutorial cold start.miz <download/Miz/Training/F-14B tutorial cold start.miz>`
+冷启动（飞行员）              :download:`F-14B tutorial cold start.miz <download/Miz/Training/F-14B tutorial cold start.miz>`
 导航                      :download:`F-14B tutorial Navigation.miz <download/Miz/Training/F-14B tutorial Navigation.miz>`
 岸基着陆                  :download:`F-14B tutorial Shore-based Landing.miz <download/Miz/Training/F-14B tutorial Shore-based Landing.miz>`
 岸基起飞                  :download:`F-14B tutorial Shore-based Takeoff.miz <download/Miz/Training/F-14B tutorial Shore-based Takeoff.miz>`
 AWG-9 课程1                :download:`F-14B-AWG-9-1.miz <download/Miz/Training/F-14B-AWG-9-1.miz>`
 AWG-9 课程2                :download:`F-14B-AWG-9-2.miz <download/Miz/Training/F-14B-AWG-9-2.miz>`
 AWG-9 课程3                :download:`F-14B-AWG-9-3.miz <download/Miz/Training/F-14B-AWG-9-3.miz>`
-冷启动 RIO                :download:`F-14B-RIO Cold Start.miz <download/Miz/Training/F-14B-RIO Cold Start.miz>`
+AWG-9 课程4               :download:`F-14B-AWG-9-4.miz <download/Miz/Training/F-14B-AWG-9-4.miz>`
+冷启动（RIO）                :download:`F-14B-RIO Cold Start.miz <download/Miz/Training/F-14B-RIO Cold Start.miz>`
 =====================    =====================  
 
 下载文件后，将其放入DCS World安装根目录中的对应文件夹，并覆盖原文件。详细路径如下：
