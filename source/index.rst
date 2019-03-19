@@ -1,6 +1,12 @@
 Heatblur DCS F-14 Tomcat
 ########################
 
+手册上次更新时间：\ :ref:`manual_lastest`
+
+相关本地化文件更新时间：\ :ref:`game_file_lastest`
+
+------------------------
+
 .. image:: /images/Manual_Cover.png
    :align: center
 
