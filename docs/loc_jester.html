@@ -231,7 +231,10 @@
         <script type="text/javascript" src="_static/translations.js"></script>
 		<script type="text/javascript" src="_static/imageMapResizer.min.js"></script>
 		<script type="text/javascript">
-			alert("233233");
+			$(document).ready(function() {
+				$('map').imageMapResize();
+				alert("这是一个交互式控件。点击图中子菜单对应的区域来切换至选定的页面。");
+			});
 		</script>
     
 
