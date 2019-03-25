@@ -24,6 +24,8 @@ Heatblur DCS F-14 Tomcat
    accr
    tutorials
    
+   loc_jester
+   
  
 .. toctree::
    :caption: CN Localization:
@@ -31,6 +33,7 @@ Heatblur DCS F-14 Tomcat
 
    loc_about
    loc_credit
+   loc_changelog
    
 .. toctree::
    :caption: Other Files:
