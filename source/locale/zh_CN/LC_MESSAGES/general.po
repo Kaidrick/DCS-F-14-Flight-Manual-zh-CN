@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-13 10:45+0800\n"
-"PO-Revision-Date: 2019-03-25 10:28+0800\n"
+"PO-Revision-Date: 2019-04-04 22:12+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -4032,9 +4032,9 @@ msgid ""
 "whenever the arresting hook position does not correspond with handle "
 "position."
 msgstr ""
-"系统通过 :ref:`arrhook` 面板的 **HOOK** 控制杆操作。**UP** 收起阻拦钩，"
-"**DN** 将阻拦钩放下至37°以在便正确执行航降时勾住阻拦索。每当阻拦钩位置与控制"
-"杆位置不符时，**HOOK** 控制杆旁边的过渡灯就会亮起。"
+"系统通过 :ref:`arrhook` 面板的 **HOOK**控制杆操作。**UP**收起阻拦钩，**DN** "
+"将阻拦钩放下至37°以在便正确执行航降时勾住阻拦索。每当阻拦钩位置与控制杆位置不"
+"符时，**HOOK** 控制杆旁边的过渡灯就会亮起。"
 
 #: ../../source/general.rst:778
 msgid ""
@@ -4139,7 +4139,7 @@ msgid ""
 "**TEMP** switch is set to **AUTO**. If that switch is set to **MAN**, "
 "manual, it will vary depending on airspeed and altitude."
 msgstr ""
-"正常运行时，舱内温度由 **TEMP** 开关及同面板上的拨盘控制。若 **TEMP** 处于 "
+"正常运行时，舱内温度由 **TEMP** 开关及同面板上的拨盘控制。若 **TEMP* *处于 "
 "**AUTO** 位，系统将自动维持拨盘选定的温度挡位。若 **TEMP** 开关处于 **MAN** "
 "位，即手动模式，需要根据飞机的高度和速度使用拨盘手动维持适合的温度。"
 
@@ -4165,8 +4165,8 @@ msgid ""
 "temperature and **DECR** closes the door and increases temperature. "
 "Springloaded to center."
 msgstr ""
-"当气源选择为**RAM**时，**RAM AIR**开关通过开启和关闭紧急冲压气门以调节座舱空"
-"气温度。在该模式下，空气直接与发动机热尾气混合从而获得热气源。 **INCR** 意"
+"当气源选择为 **RAM** 时，**RAM AIR** 开关通过开启和关闭紧急冲压气门以调节座舱"
+"空气温度。在该模式下，空气直接与发动机热尾气混合从而获得热气源。 **INCR** 意"
 "为“增高”，该档位下会打开冲压气门从而降低舱内温度。 **DECR** 意为“降低”，该档"
 "位下会关闭冲压气门从而增加舱内温度。调节完毕后开关会跳回中间档位。"
 
@@ -4944,6 +4944,7 @@ msgstr ""
 "描距离的指示器。下面还显示了在单目标跟踪（STT）模式下雷达跟踪状态指示灯。"
 
 #: ../../source/general.rst:1074
+#, fuzzy
 msgid ""
 "The six round buttons (**8**), which are labelled **5, 10, 20, 50, 100 and "
 "200**, are used to set desired radar range in pulse modes and IFF range, "
@@ -5343,10 +5344,11 @@ msgid ""
 "hooked on the TID the DDD switches to a ±10 scale centered on the target "
 "while the IFF returns are shown."
 msgstr ""
-"当敌我识别询问器被激活时，如果在脉冲搜索中，它会将敌我识别信息叠加在正常雷达"
-"图像上。在脉冲多普勒搜索中显示IFF信息时DDD会从之前设定的距离标尺下切换到目标"
-"的距离与方位显示。在PD STT模式下，如果目标被显示在TID上，DDD会切换到显示以目"
-"标为中心显示±10刻度的范围，然后显示IFF信息。"
+"当使用IFF进行敌我识别时，如果雷达处于脉冲搜索模式，敌我识别信息将叠加在正常雷"
+"达图像上。当雷达处于脉冲多普勒搜索模式时，在显示敌我识别信息的同时，DDD会在之"
+"前设定的距离标尺下切显示距离（竖轴）与方位角（横轴）。在PD STT模式下，如果目"
+"标在TID上被“钩住”，则DDD会显示以目标为中心±10度的雷达图像，并显示敌我识别信"
+"息。"
 
 #: ../../source/general.rst:1218
 msgid "Tactical Information Display (TID) and Associated Controls"
@@ -5362,10 +5364,10 @@ msgid ""
 "secondary roles as a display for entering data into the WCS, for navigation, "
 "for INS alignment and for the on board checkout, OBC."
 msgstr ""
-"TID是WCS系统的主要数据显示器。它会向RIO显示战术信息，可以用来识别和选择目标，"
-"发射远距离空对空武器。你可以把它想象成一张自上而下的地图，显示所有的轨迹和符"
-"号的相对坐标，但不显示地表特征。它还可以用于WCS和导航系统数据输入，INS校准以"
-"及机上检查。"
+"TID是WCS系统的主要数据显示器。它会向RIO显示战术信息，可以用来识别和选择目标并"
+"向目标发射远距离空对空武器。你可以把它想象成一张战场信息的俯视图，显示所有的"
+"轨迹和符号的相对位置，只不过不显示地表特征。它还可以作为显示屏用于WCS和导航系"
+"统数据输入，INS校准以及机上检查。"
 
 #: ../../source/general.rst:1226
 msgid "**TID Display Control Knobs**"
@@ -5378,8 +5380,8 @@ msgid ""
 "the overall brightness of the TID. Both settings will depend on user "
 "preference and ambient lighting."
 msgstr ""
-"在TID的上方有两个显示控制旋钮（ **2 & 4** ）。左边的旋钮控制TCS的显示对比度，"
-"右边的旋钮控制TID的整体亮度，一般根据使用习惯和当前环境亮度来调整。"
+"在TID的上方边缘处有两个显示控制旋钮（ **2 & 4** ）。左边的旋钮控制TCS的显示对"
+"比度，右边的旋钮控制TID的整体亮度，一般根据使用习惯和当前环境亮度来调整。"
 
 #: ../../source/general.rst:1232
 msgid "**INS and Navigational Controls**"
@@ -5389,8 +5391,7 @@ msgstr "**INS和导航控制** "
 msgid ""
 "On the upper left corner of the TID is the status display for the INS "
 "(**1**), used to indicate status of the INS and its alignment."
-msgstr ""
-"位于TID左上角的指示灯（ **1** ）是INS状态指示灯，用来指示INS状态和校准。"
+msgstr "INS状态指示灯位于TID左上角（ **1** ），用来指示INS状态和校准。"
 
 #: ../../source/general.rst:1236
 msgid ""
@@ -5399,7 +5400,7 @@ msgid ""
 "allows for INS alignment."
 msgstr ""
 "TID的两侧有两个旋钮。左侧的旋钮（ **12** ）控制着INS和AHRS（姿态航向基准系"
-"统），它可以用来设置INS校准。"
+"统）模式，可以使用它来切换到INS校准模式。"
 
 #: ../../source/general.rst:1239
 msgid ""
@@ -5408,8 +5409,9 @@ msgid ""
 "different waypoints stored in the WCS. MAN position is used only for "
 "aircraft with TARPS mounted."
 msgstr ""
-"右侧的旋钮（ **6** ）可以用来选择存储在WCS中的不同航路点，需要注意的是MAN选项"
-"只适用于装备了TARPS的飞机。"
+"当前座驾驶员选择RIO设置的航路点作为转向点时，右侧的旋钮（ **6** ）可以用来选"
+"择存储在WCS中的不同航路点作为当前转向点，需要注意的是MAN选项只适用于装备了"
+"TARPS的飞机。"
 
 #: ../../source/general.rst:1242
 msgid ""
@@ -5418,7 +5420,7 @@ msgid ""
 "currently displayed to the pilot."
 msgstr ""
 "与这个旋钮相邻的是TID右上方边缘的指示器（ **5** ）它可以指示当前显示给飞行员"
-"转向信息的类型。"
+"的转向信息的类型。"
 
 #: ../../source/general.rst:1245
 msgid ""
@@ -5443,9 +5445,9 @@ msgid ""
 "(WAY PT, ST, FIX PT, IP and HB), own aircraft (OWN A/C), first priority "
 "target (TGT 1) and SYMBOL."
 msgstr ""
-"在TID的正上方是数据读取指示器（ **3** ）。它用于指示TID上显示数据的数据源。它"
-"可以显示的不同信息有：导航系统中的不同航路点（WAY PT, ST, FIX PT, IP and "
-"HB），友军飞机（OWN A/C），首要目标（TGT 1）和符号。"
+"在TID的正上方是数据读取指示器（ **3** ）。它用于指示在TID上显示数据的数据来"
+"源。它可以显示的不同信息有：导航系统中的不同航路点（WAY PT, ST, FIX PT, IP "
+"and HB），友军飞机（OWN A/C），首要目标（TGT 1）和SYMBOL。"
 
 #: ../../source/general.rst:1254
 msgid ""
@@ -5454,8 +5456,8 @@ msgid ""
 "show a blank face to indicate the data source as one not having its own "
 "indicator text and which has no symbol on the TID."
 msgstr ""
-"这些符号表示了在TID上被勾选数据的数据来源，在当前数据源没有自己的表示符号时，"
-"指示器上会显示为空白，TID上的数据也不会显示符号。"
+"当显示SYMBOL时表示在指示器中没有与TID上被勾选的标识的数据来源类型相对应的文"
+"字。在上述情况下，指示器上也会显示为空白，TID上也不会显示任何符号。"
 
 #: ../../source/general.rst:1258
 msgid "**TRACK HOLD and CLSN buttons**"
@@ -5476,9 +5478,10 @@ msgid ""
 "minutes for all tracks. If disabled it reverts to the standard 14 second "
 "period, whereafter the targets will be dropped if no new observations occur."
 msgstr ""
-"在左侧的是 **TRACK HOLD** 按钮（ **11** ）。一般在TWS模式下，TID上显示的目标"
-"会符号在最后被发现的位置保留14秒，按下这个按钮会使这个时间会被延长至2分钟。如"
-"果再次按下按钮关闭这个功能，TID上最后刷新的目标位置符号会在14秒后消失。"
+"在左侧的是 **TRACK HOLD** 按钮（ **11** ）该按钮用于启用“目标保留”功能。通"
+"常，在TWS模式下，TID上显示的目标会符号在最后被发现的位置保留14秒，按下这个按"
+"钮会使这个时间会被延长至2分钟。如果再次按下按钮会关闭这个功能，如果没有被再次"
+"扫描到，TID上的目标符号将会在14秒后消失。"
 
 #: ../../source/general.rst:1265
 msgid ""
@@ -5565,8 +5568,7 @@ msgstr ""
 msgid ""
 "Symbology elements, enables display of all supplementary symbology of tracks "
 "and waypoints."
-msgstr ""
-"符号按钮，激活这个按钮会让TID上的目标和航路点以代表其意义的符号状态显示。"
+msgstr "符号按钮，激活这个按钮会让TID上显示目标和航路点的补充符号。"
 
 # | msgid ""
 # | "Symbology elements, enables display of all supplementary symbology of "
@@ -5671,7 +5673,7 @@ msgstr ""
 "在显示器上移动时，显示器背景是固定的。 **A/C STAB** （飞机参照）模式下，TID显"
 "示器以飞机本身为参照物，飞机图标固定于显示器下方中心，正上方永远是当前飞行航"
 "向。 **ATTK** （攻击）模式下TID显示器的显示逻辑与A/C STAB相同，但是叠加了攻击"
-"指示符号的显示。 **TV** 模式下，TID和HSD会暂时停止显示战术信息，显示TCS的图"
+"指示符号的显示。 **TV** 模式下，TID和HSD会暂时停止显示战术信息，而显示TCS的图"
 "像。"
 
 #: ../../source/general.rst:1308
@@ -5682,7 +5684,7 @@ msgid ""
 "link information outside of own radar range."
 msgstr ""
 "右侧的旋钮（ **9** ）可以用来设置TID的显示范围，选择不同的数字可以将TID的显示"
-"直径分别设置为25、50、100、200和400海里。较大的显示范围可以用来显示雷达探测距"
+"范围分别设置为25、50、100、200和400海里。较大的显示范围可以用来显示雷达探测距"
 "离之外的数据链信息。"
 
 #: ../../source/general.rst:1313
@@ -5714,8 +5716,8 @@ msgid ""
 "examples, data from hooked tracks or own aircraft. Functionality further "
 "expanded upon in the CAP section."
 msgstr ""
-"显示为从WCS中选择的读取数据。比如说目标信息或自己飞机上的数据。该功能在CAP部"
-"分有进一步的说明。"
+"显示为从WCS中选择的读取数据。比如说选中的目标信息或本机数据。该功能在CAP部分"
+"有进一步的说明。"
 
 #: ../../source/general.rst:1324
 msgid "Computer Run Indicators"
@@ -5749,7 +5751,8 @@ msgstr "雷达扫描高度区间"
 msgid ""
 "Shows altitude limits of currently selected scan pattern at set TID display "
 "range in thousands of feet."
-msgstr "以千英尺为单位在TID上显示当前雷达扫描的高度上限与高度下限。"
+msgstr ""
+"以千英尺为单位在TID上显示当前TID显示范围下的雷达扫描的高度上限与高度下限。"
 
 #: ../../source/general.rst:1330
 msgid "Navigation Status"
@@ -5774,8 +5777,8 @@ msgid ""
 "tenth of knots. A plus sign indicates that the track is closing and a minus "
 "that the track is opening the distance to own aircraft."
 msgstr ""
-"以节为单位显示STT或者TWS模式下目标的接近率，数字前方的＋号代表目标正在靠近，"
-"﹣号代表目标正在远离。"
+"以节为单位显示STT锁定的目标或者TWS模式下选中的目标的接近率，数字前方的＋号代"
+"表目标正在靠近，﹣号代表目标正在远离。"
 
 #: ../../source/general.rst:1334
 msgid "Selected Weapon"
@@ -5789,8 +5792,8 @@ msgid ""
 "is blank in air-to-ground mode."
 msgstr ""
 "显示当前选择的空对空武器类型，G表示机炮，SW表示响尾蛇导弹，SP表示麻雀导弹，PH"
-"表示不死鸟导弹。SP和PH后面的数字指示当前所选导弹的剩余数量。在空对地模式下这"
-"个位置不显示符号。"
+"表示不死鸟导弹。SP和PH后面的数字指示已经准备好发射的相应导弹数目。在空对地模"
+"式下这个位置不显示符号。"
 
 #: ../../source/general.rst:1345
 msgid "TID Symbology"
@@ -5855,7 +5858,7 @@ msgid ""
 "allowing the RIO to train muscle memory for higher symbol hook speeds."
 msgstr ""
 "光标的位置由控制杆的偏转量控制，这意味着HCU控制杆的固定偏转量总是对应相同的位"
-"置。所以熟练的RIO可以通过肌肉记忆更快的选择光标的位置。"
+"置。所以熟练的RIO可以通过肌肉记忆更快的将光标移动至所需位置。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -5915,15 +5918,15 @@ msgstr "在TWS或者STT模式下被跟踪并被RIO标记为友军的目标。"
 
 #: ../../source/general.rst:1390
 msgid "Angle-Tracked Radar Target"
-msgstr "角度跟踪雷达目标"
+msgstr "仅进行角度跟踪的雷达目标"
 
 #: ../../source/general.rst:1390
 msgid "Radar target tracked only in angle (jamming target)."
-msgstr "只能跟踪一定角度的目标（自带干扰的目标）。"
+msgstr "雷达仅能对其测角，而不能测距的目标（自带干扰的目标）。"
 
 #: ../../source/general.rst:1395
 msgid "Angle-Tracked Radar Target with Altitude Difference Ranging"
-msgstr "有高度差测距的角度跟踪雷达目标"
+msgstr "由高度差测距的角度跟踪雷达目标"
 
 #: ../../source/general.rst:1395
 msgid ""
@@ -5941,7 +5944,7 @@ msgstr "由TCS跟踪角度的目标。"
 
 #: ../../source/general.rst:1405
 msgid "TCS-Angle Tracked Target with Altitude Difference Ranging"
-msgstr "有高度差测距的TCS角度跟踪目标"
+msgstr "由高度差测距的TCS角度跟踪目标"
 
 #: ../../source/general.rst:1405
 msgid ""
@@ -6009,7 +6012,7 @@ msgstr "敌对区域"
 
 #: ../../source/general.rst:1449
 msgid "Waypoint indicating a hostile area."
-msgstr "表示位于敌对区域的航路点。"
+msgstr "表示敌对区域的航路点。"
 
 #: ../../source/general.rst:1454 ../../source/general.rst:1481
 msgid "Surface Target"
@@ -6021,7 +6024,7 @@ msgstr "用于代表地面/水面目标的航路点。"
 
 #: ../../source/general.rst:1459 ../../source/general.rst:3667
 msgid "IP"
-msgstr ""
+msgstr "起始点（IP）"
 
 #: ../../source/general.rst:1459
 msgid "Waypoint used for air-to-ground engagement, see :ref:`CIP`."
@@ -6120,8 +6123,7 @@ msgstr "需要目视识别"
 msgid ""
 "Additional symbology on a data link track (small V with apex at center dot) "
 "representing data link command to visually identify target."
-msgstr ""
-"该附加符号（符号中心有一个v型标志）表示这个通过数据链目标需要目视识别。"
+msgstr "该附加符号（符号中心有一个v型标志）表示数据链指示目标需要目视识别。"
 
 #: ../../source/general.rst:1513
 msgid "Track Extrapolated"
@@ -6134,8 +6136,8 @@ msgid ""
 "be deleted after 14 seconds or 2 minutes if track hold function is enabled."
 msgstr ""
 "这个附加符号（符号中心有一个x标志）表示在STT或者TWS模式下已经超过8秒没有跟踪"
-"到这个目标。如果启用了目标持续追踪功能（TRACK HOLD），这个目标会在14秒或者2分"
-"钟后依然没有被发现的情况下删除。"
+"到这个目标。若这个目标没有在14秒内被雷达再次搜索到，则该表示将被删除。如果启"
+"用了目标持续追踪功能（TRACK HOLD）则删除时间延长为2分钟。"
 
 #: ../../source/general.rst:1518
 msgid "Hooked Symbol"
@@ -6165,8 +6167,8 @@ msgid ""
 "during computed missile flight time plus 15 seconds to indicate missile "
 "engagement in progress."
 msgstr ""
-"在TWS或者STT模式下用导弹攻击目标时，目标符号会在导弹发射15秒以后高亮显示以表"
-"示该目标正在被导弹攻击。"
+"在TWS或者STT模式下用导弹攻击目标时，目标符号会在预计导弹飞行时间加15秒内高亮"
+"显示以表示该目标正在被导弹攻击。"
 
 #: ../../source/general.rst:1522
 msgid "Target in Optimum Missile Launch Zone"
@@ -6211,20 +6213,22 @@ msgid ""
 "prepare for next launch."
 msgstr ""
 "在TWS模式下，WCS会以1到6为编号给AIM-54不死鸟导弹设置目标优先级（开火顺序），"
-"第一发导弹攻击1号目标，以此类推。发射后目标符号上的编号会消失，以便为之后的导"
-"弹发射做准备。"
+"第一发导弹攻击1号目标，以此类推。发射后目标符号上的编号会消失，余下的目标优先"
+"级自动前进一位（数字减1），以便为之后的导弹发射做准备。"
 
 #: ../../source/general.rst:0
 msgid ""
 "Mandatory attack selection on a target forces the WCS to always include that "
 "target in the prioritization."
-msgstr "如果设置了强制攻击目标，WCS会优先攻击这个目标。"
+msgstr "如果设置了强制攻击目标，该目标将始终被包含在攻击优先级序列内。"
 
 #: ../../source/general.rst:0
 msgid ""
 "Next launch selection automatically sets hooked target as number one in the "
 "prioritization queue."
-msgstr "启动发射程序时会将被选择的目标设置为优先级队列的第一位。"
+msgstr ""
+"按下NEXT LAUNCH 开关（位于武器控制面板）会将当前“钩住”的目标自动设为优先级队"
+"列的第一位。"
 
 #: ../../source/general.rst:1535
 msgid "Time-to-Impact (TTI)"
@@ -6237,9 +6241,9 @@ msgid ""
 "intercepts the target track. When the AIM-54 active command is sent the TTI "
 "numbers flash to indicate this."
 msgstr ""
-"在AIM-54发射后，目标符号左侧的开火顺序数字会被TTI或着撞击时间指示替换，这个时"
+"在AIM-54发射后，目标符号左侧的开火顺序数字会被TTI（撞击时间指示）替换，这个时"
 "间代表着WCS计算的导弹命中目标前的剩余时间。当发出激活AIM-54主动导引头的指令"
-"时，TTI数字会闪烁以表明这一点。"
+"时，TTI数字会闪烁。"
 
 #: ../../source/general.rst:1540
 msgid "Velocity Vector"
@@ -6319,9 +6323,10 @@ msgid ""
 "The dot disappears when you are closer than Rmax to the target (i.e. time-"
 "until-Rmax, a.k.a. time-until-in-range is now essentially negative)."
 msgstr ""
-"该矢量符号上有两个加粗的点，距离目标中心较远的点代表着最大发射距离。当符号长"
-"度缩短至该点时表示目标已经进入了导弹最大射程，随着目标的继续靠近符号会继续缩"
-"短，同时外部的点将不在显示。"
+"该矢量符号上有另一个加粗的点（原本符号中心表示目标的点之外），矢量线到点的距"
+"离代表到达最大发射距离的时间。当矢量线长度缩短至该点时表示目标位于导弹最大射"
+"程，随着目标的继续靠近矢量线会继续缩短，当到目标的距离小于最大射程时，这个点"
+"将不再显示。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -7542,7 +7547,7 @@ msgid ""
 "Target groundspeed 900 knots, own airspeed 1200 knots. See table below for "
 "details, line of sight rate is the sum of target and own aircraft relative "
 "rate."
-msgstr "目标低速为900节，空速为1200节。详细信息参照下表。"
+msgstr "目标地速为900节，空速为1200节。详细信息参照下表。"
 
 #: ../../source/general.rst:1931
 msgid "Look Angle"

@@ -112,7 +112,7 @@ html_context = {
         '_static/theme_overrides.css',  # override wide tables in RTD theme
         ],
      }
-
+	 
 html_favicon = 'favicon.ico'
 
 html_show_sourcelink = False
