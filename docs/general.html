@@ -876,7 +876,7 @@
 <h3>前起落架弹射系统<a class="headerlink" href="#nosegear-catapult-system" title="永久链接至标题">¶</a></h3>
 <p>F-14 的前起落架配有一套用于在航空母舰上作业时进行弹射起飞的系统，</p>
 <p>该系统的三个部件为前起落架支柱伸缩系统、弹射牵引杆和止动配件。</p>
-<p>运用该系统进行弹射起飞时，先使用 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的**NOSE STRUT**开关来收缩前起落架支柱。把开关保持在**KNEEL**位直到收缩动作停止即可。</p>
+<p>运用该系统进行弹射起飞时，先使用 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>NOSE STRUT</strong> 开关来收缩前起落架支柱。把开关保持在 <strong>KNEEL</strong> 位直到收缩动作停止即可。</p>
 <p>这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。收缩动作完成后弹射牵引杆会解除锁定，随后可以由甲板工作人员手动放下或通过将前起落架偏转离中心超过10°来放下。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -886,7 +886,7 @@
 </tr>
 </tbody>
 </table>
-<p>此时，飞机可以被引导至弹射起并通过按下DCS中的默认按键**U**将飞机与弹射器滑块连接。止动杆目前在DCS中未模拟。</p>
+<p>此时，飞机可以被引导至弹射起并通过按下DCS中的默认按键 <strong>U</strong> 将飞机与弹射器滑块连接。止动杆目前在DCS中未模拟。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -895,26 +895,23 @@
 </tr>
 </tbody>
 </table>
-<p>在正确的完成前述程序之后，弹射起飞的最后一步是向“shooter”或指挥弹射作业的军官敬礼，DCS中默认按键为**Left Shift + U** 。</p>
+<p>在正确的完成前述程序之后，弹射起飞的最后一步是向“shooter”或指挥弹射作业的军官敬礼，DCS中默认按键为 <strong>左Shift + U</strong> 。</p>
 <p>弹射器滑块完成冲程后，当弹射牵引杆从滑块脱离时，前起落架支柱存储的液压能量被释放以向飞机施加抬头力矩，同时也自动把弹射牵引杆抬升至收起位置。</p>
-<p>Indication of the launch bar status is available on the <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> via the <strong>LAUNCH BAR</strong> advisory light.
-The advisory light is on with weight on wheels when the launch bar is not up and locked and turns off if throttles are advanced to <strong>MIL</strong> to enable a lights out for launch criteria.
-With weight off wheels the <strong>LAUNCH BAR</strong> advisory light is on if the nose strut hasn’t fully extended, launch bar is not up and locked or nosewheel hasn’t centered correctly.
-This inhibits nosegear retraction.</p>
-<p><a class="reference internal" href="cockpit.html#launchbarabort"><span class="std std-ref">弹射牵引杆中止面板</span></a> 包含**LAUNCH BAR**开关，该开关用于在弹射中止的情况下将飞机与弹射牵引杆分离。此功能目前尚未在DCS中实现，目前脱离弹射牵引杆需要再按一次连接键，默认为**U** 。</p>
+<p><a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 的 <strong>LAUNCH BAR</strong> 提示灯会显示弹射牵引杆的位置状态。当机轮承受压力，弹射牵引杆未收起并锁定时提示灯亮起；当油门推至 <strong>MIL</strong> 时提示灯熄灭以表明飞机已经满足弹射条件。当机轮未承受压力时，前起落架支柱未完全伸展、弹射牵引杆没有收起并锁定或前轮没有正确回中都会导致 <strong>LAUNCH BAR</strong> 注意灯亮起。上述三种情况会阻碍前起落架收起。</p>
+<p><a class="reference internal" href="cockpit.html#launchbarabort"><span class="std std-ref">弹射牵引杆中止面板</span></a> 包含 <strong>LAUNCH BAR</strong> 开关，该开关用于在弹射中止的情况下将飞机与弹射牵引杆分离。此功能目前尚未在DCS中实现，目前脱离弹射牵引杆需要再按一次连接键，默认为 <strong>U</strong> 。</p>
 </div>
 <div class="section" id="arresting-gear">
 <h3>阻拦装置<a class="headerlink" href="#arresting-gear" title="永久链接至标题">¶</a></h3>
 <p>位于F-14尾部下方的阻拦钩用于在舰上作业时进行拦阻降落</p>
 <p>系统使用来自飞控和联合液压系统的液压动力，且由电子系统进行控制，因此需要电力以正常运作。</p>
-<p>系统通过 <a class="reference internal" href="cockpit.html#arrhook"><span class="std std-ref">阻拦钩控制面板</span></a> 面板的 <strong>HOOK**控制杆操作。**UP**收起阻拦钩，**DN</strong> 将阻拦钩放下至37°以在便正确执行航降时勾住阻拦索。每当阻拦钩位置与控制杆位置不符时，<strong>HOOK</strong> 控制杆旁边的过渡灯就会亮起。</p>
+<p>系统通过 <a class="reference internal" href="cockpit.html#arrhook"><span class="std std-ref">阻拦钩控制面板</span></a> 面板的 <strong>HOOK</strong> 控制杆操作。<strong>UP</strong> 收起阻拦钩，<strong>DN</strong> 将阻拦钩放下至37°以在便正确执行航降时勾住阻拦索。每当阻拦钩位置与控制杆位置不符时，<strong>HOOK</strong> 控制杆旁边的过渡灯就会亮起。</p>
 <p>当飞机发生故障导致阻拦钩无法正常放下时，可使用机械备份来放下阻拦钩。要激活机械备份，拉出控制杆并逆时针旋转90°。这将解开机械锁并释放使阻拦钩保持收起的液压，从而放下阻拦钩。</p>
-<p>如果电力和液压都已恢复，则可顺时针旋转控制杆90°并推入原位，然后将控制杆放到**UP**位来收起阻拦钩。</p>
+<p>如果电力和液压都已恢复，则可顺时针旋转控制杆90°并推入原位，然后将控制杆放到 <strong>UP</strong> 位来收起阻拦钩。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">阻拦钩的位置也会影响座舱内和起落架上的进近迎角指示灯，起落架放下而阻拦钩未放下会使指示灯闪烁。此功能可以通过 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 的**HOOK BYPASS**开关禁用。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">阻拦钩的位置也会影响座舱内和起落架上的进近迎角指示灯，起落架放下而阻拦钩未放下会使指示灯闪烁。此功能可以通过 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 的 <strong>HOOK BYPASS</strong> 开关禁用。</td>
 </tr>
 </tbody>
 </table>
@@ -931,7 +928,7 @@ This inhibits nosegear retraction.</p>
 <p>ECS气源的控制位于 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">空调控制面板</span></a>。</p>
 <p><strong>L ENG</strong> 表示使用左发动机作为气源；<strong>R ENG</strong> 表示使用右发动机作为气源；<strong>BOTH</strong> 表示同时使用两个发动机作为气源；正常情况下同时使用两个发动机作为气源。</p>
 <p><strong>RAM</strong> 和 <strong>OFF</strong> 都能启动紧急冲压气门，但是 <strong>OFF</strong> 会关闭舱内加压和加热。</p>
-<p>正常运行时，舱内温度由 <strong>TEMP</strong> 开关及同面板上的拨盘控制。若 <strong>TEMP* *处于 **AUTO</strong> 位，系统将自动维持拨盘选定的温度挡位。若 <strong>TEMP</strong> 开关处于 <strong>MAN</strong> 位，即手动模式，需要根据飞机的高度和速度使用拨盘手动维持适合的温度。</p>
+<p>正常运行时，舱内温度由 <strong>TEMP</strong> 开关及同面板上的拨盘控制。若 <strong>TEMP</strong> 处于 <strong>AUTO</strong> 位，系统将自动维持拨盘选定的温度挡位。若 <strong>TEMP</strong> 开关处于 <strong>MAN</strong> 位，即手动模式，需要根据飞机的高度和速度使用拨盘手动维持适合的温度。</p>
 <p><strong>CABIN PRESS</strong> 开关用于控制座舱安全阀，而座舱安全阀决定座舱是否进行加压。若开关置于 <strong>NORM</strong> 位，座舱气压将会维持在8000英尺至23000英尺之间，当高度超过23000英尺，则舱内气压将比外环境气压高出5psi。若开关置于 <strong>DUMP</strong> 位，座舱安全阀将会打开，使得座舱释压。</p>
 <p>当气源选择为 <strong>RAM</strong> 时，<strong>RAM AIR</strong> 开关通过开启和关闭紧急冲压气门以调节座舱空气温度。在该模式下，空气直接与发动机热尾气混合从而获得热气源。 <strong>INCR</strong> 意为“增高”，该档位下会打开冲压气门从而降低舱内温度。 <strong>DECR</strong> 意为“降低”，该档位下会关闭冲压气门从而增加舱内温度。调节完毕后开关会跳回中间档位。</p>
 <table class="docutils field-list" frame="void" rules="none">
@@ -1098,9 +1095,7 @@ This inhibits nosegear retraction.</p>
 </table>
 <p><strong>AWG - 9雷达扫描距离和跟踪指示</strong></p>
 <p>在DDD面板的上部中央部分，有用于在搜索模式中设置雷达扫描距离的按钮和显示目前扫描距离的指示器。下面还显示了在单目标跟踪（STT）模式下雷达跟踪状态指示灯。</p>
-<p>The six round buttons (<strong>8</strong>), which are labelled <strong>5, 10, 20, 50, 100 and 200</strong>, are used to set desired radar range in pulse modes and IFF range, they also set the scale on the pilot target range displays.
-The buttons are mutually exclusive as only one range can be selected at a time.
-In pulse search this setting affects the PRF of the radar and the scale on the DDD and if set to 20nm or greater range it also enables pulse compression.</p>
+<p>分别标记了5、10、20、50、100和200这些数字的六个圆形按钮（ <strong>8</strong> ），用于在脉冲模式下和进行IFF识别时选择所需的雷达扫描距离，在该面板上的选择同样会影响前座目标距离指示器的显示范围。这六个按钮仅能同时按下一个。在脉冲搜索模式，通过上述按钮进行选择会影响雷达的 PRF 和 DDD 的显示范围，如果选择了20海里或更远的距离，则会启用脉冲压缩。</p>
 <p><strong>距离指示器</strong> （ <strong>7</strong> ）上显示了雷达在脉冲模式下当前选定的雷达扫描距离，雷达处于脉冲多普勒模式下时这个指示器显示为空白 。在STT模式下进行敌我识别时，这个指示器会显示±10。</p>
 <p>在这个指示器的两边是4个雷达跟踪指示灯，用于指示雷达在进行STT时的跟踪状态。</p>
 <ul class="simple">
@@ -1195,7 +1190,7 @@ In pulse search this setting affects the PRF of the radar and the scale on the D
 <p>与这个旋钮相邻的是TID右上方边缘的指示器（ <strong>5</strong> ）它可以指示当前显示给飞行员的转向信息的类型。</p>
 <p>这个指示器可以显示的信息类型有：目的地（DEST），数据链指令航向（D/L），方位导引拦截转向（LD CLSN），拦截转向（CLSN），导引跟踪转向（LD PURST），跟踪转向（PURST），塔康径向（TACAN）和手动设置指令航向（MAN）。</p>
 <p><strong>TID数据读取指示器</strong></p>
-<p>在TID的正上方是数据读取指示器（ <strong>3</strong> ）。它用于指示在TID上显示数据的数据来源。它可以显示的不同信息有：导航系统中的不同航路点（WAY PT, ST, FIX PT, IP and HB），友军飞机（OWN A/C），首要目标（TGT 1）和SYMBOL。</p>
+<p>在TID的正上方是数据读取指示器（ <strong>3</strong> ）。它用于指示在TID上显示数据的数据来源。它可以显示的不同信息有：导航系统中的不同航路点（WAY PT、ST、FIX PT、IP 和 HB），本机（OWN A/C），首要目标（TGT 1）和SYMBOL。</p>
 <p>当显示SYMBOL时表示在指示器中没有与TID上被勾选的标识的数据来源类型相对应的文字。在上述情况下，指示器上也会显示为空白，TID上也不会显示任何符号。</p>
 <p><strong>TRACK HOLD按钮与CLSN按钮</strong></p>
 <p>在TID的两侧旋钮的下方也两个带有指示灯的按钮，按下后会亮起绿色指示灯。</p>
@@ -1641,7 +1636,7 @@ In pulse search this setting affects the PRF of the radar and the scale on the D
 <p>HCU模式按钮是在HCU左侧的4个带有指示灯的按钮（ <strong>12</strong> ），这些按钮是互斥的，同时只能按下一个，当按下按钮后按钮上的指示灯会亮起以指示当前状态。按下 <strong>IR/TV</strong> 按钮后会进入TCS模式，同时可以使用HCU控制杆控制TCS。按下 <strong>RDR</strong> 按钮会进入雷达模式，同时可以使用HCU控制杆来控制DDD上的雷达光标，还可以锁定一个目标从搜索模式转换为STT模式。按下 <strong>DDD CURSOR</strong> 按钮可以进入DDD光标模式，可以使HCU控制杆在雷达对地面进行测绘时控制光标标记地面坐标，这可以用于雷达导航定位或者直接在DDD显示器上选择一个位置作为航路点。按下 <strong>TID CURSOR</strong> 按钮可以进入TID光标模式，可以使用HUC控制杆控制TID光标用于选择TID上的符号，以控制符号系统和数据读取与输入。</p>
 <p><strong>HCU控制杆</strong></p>
 <p>在HCU控制杆上的操控按键有：扳机（ <strong>11</strong> ），扫描角度控制（ <strong>10</strong> ），OFFSET按钮（ <strong>9</strong> ）和MRL按钮（ <strong>8</strong> ）。扳机拥有两个段位，按下第一段可以激活TID光标并使用控制杆控制它的移动，如果在TCS模式下，按下第一段扳机可以激活控制杆对TCS俯仰角与方位角的控制。如果处于雷达模式下，按下第一段扳机还会开启超级搜索模式（super search acqusition mode in the radar，详情请参阅有关雷达过渡模式的章节）。关于扳机第二段，如果在TCS模式中跟踪目标时，摄像头已经对准了一个目标，按下第二段扳机就可以锁定这个目标。如果在雷达模式下，按下第二段扳机会让雷达尝试锁定当前选定的方位角上处于雷达扫描范围内和处理速率范围的目标。在DDD模式下，按下第二段扳机会标记当前光标位置，如果在TID模式下，按下第二段扳机后会尝试选择位于光标中心0.125英寸范围内最近的符号。</p>
-<p><strong>扫描角度控制</strong> 是一个位于HCU控制杆左上部的滚轮，它可以在TCS或者雷达模式下在已经设定的传感器扫描角度的基础上进行±4°的角度微调。控制杆顶部的 <strong>OFFSET</strong> 按钮可以用来控制TID显示器图像的整体位移，比如说可以将本机符号或者其他目标符号移动到当前TID光标的位置并选择，退出这个功能后TID会切换回原本的显示模式并且所有符号将会回到原来的位置。位于HUC控制杆右侧的 <strong>MRL</strong> 按钮可以用来开启手动快速锁定模式（MRL）关于此模式的详细信息请参阅 <a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a> for more information。</p>
+<p><strong>扫描角度控制</strong> 是一个位于HCU控制杆左上部的滚轮，它可以在TCS或者雷达模式下在已经设定的传感器扫描角度的基础上进行±4°的角度微调。控制杆顶部的 <strong>OFFSET</strong> 按钮可以用来控制TID显示器图像的整体位移，比如说可以将本机符号或者其他目标符号移动到当前TID光标的位置并选择，退出这个功能后TID会切换回原本的显示模式并且所有符号将会回到原来的位置。位于HUC控制杆右侧的 <strong>MRL</strong> 按钮可以用来开启手动快速锁定模式（MRL）关于此模式的详细信息请参阅<a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a>。</p>
 <p><strong>控制杆</strong> 的功能在HCU选择不同的模式下是不同的，不过在所有模式下，只有在按下第一段扳机的时候才会接通控制杆的控制，并且控制杆的固定杆量对应的传感器以及光标位置是始终固定且绝对不会改变的。在TCS模式下，控制杆的X轴（上/下）控制着TCS传感器的俯仰角，Y轴（左/右）控制着TCS传感器的方位角。在雷达模式下，控制杆X轴控制着雷达扫描范围和速率，Y轴控制着扫描方位角。在两种光标模式下，控制杆X轴控制着光标的左右移动，Y轴控制着光标的上下移动。</p>
 </div>
 <div class="section" id="computer-address-panel-cap">
@@ -2063,7 +2058,7 @@ In pulse search this setting affects the PRF of the radar and the scale on the D
 <p>TCS的所有探测模式都有一个共同点，即可以在IR/TV模式下使用HCU进行控制。通过选择HCU上的IR/TV按钮，可以实现此模式，也可以设置DDD EL表(右指示灯)来显示当前TCS传感器的LOS高度。按下HCU扳机第一级来直接控制TCS的LOS，全自动模式则命令TCS进行全自动的目标探测。</p>
 <p>至于手动模式 <strong>MAN</strong> ，这种手动的TCS探测模式意味着需将HCU第一级扳机按下，将跟踪窗口指示并定位在目标上方，然后才可选择全自动操作。如果成功截获目标，跟踪窗口将展开并框柱目标轮廓，然后开始跟踪。</p>
 <p>在自动模式，也就是 <strong>AUTO</strong> 探测模式下，HCU扳机第一级与手动模式下的工作原理相同，但在选择全自动探测时，TCS将自动锁定当前FOV中最靠近中心的目标。自动搜索模式 <strong>AUTO SRCH</strong> 进一步加强了上述模式，命令FOV(通过移动传感器LOS)获得第一个发现的目标。</p>
-<p>当使用TCS slave to radar选项时，两种自动模式会在STT目标出现时自动尝试锁定该目标，并且会让TCS移动到该目标上，从而实现对锁定的STT目标进行全自动跟踪。此外，系统在锁定STT目标后TCS会马上将自身的LOS同雷达的LOS作对比,以检查目标是否已经被正确的锁定。如果两个LOS在3秒的窗口内相差超过几度，系统将尝试对目标展开新的截获。手动模式下TCS LOS也将从属于雷达LOS，但不会锁定目标，而只是单纯跟随雷达LOS移动。</p>
+<p>当使用TCS从属于雷达选项时，两种自动模式会在STT目标出现时自动尝试锁定该目标，并且会让TCS移动到该目标上，从而实现对锁定的STT目标进行全自动跟踪。此外，系统在锁定STT目标后TCS会马上将自身的LOS同雷达的LOS作对比,以检查目标是否已经被正确的锁定。如果两个LOS在3秒的窗口内相差超过几度，系统将尝试对目标展开新的截获。手动模式下TCS LOS也将从属于雷达LOS，但不会锁定目标，而只是单纯跟随雷达LOS移动。</p>
 <p>在TCS没有从属于雷达控制时如果要多一个目标解除锁定，按下HCU扳机第一级（half-action）并释放。</p>
 <p>关于RDR的信息，请查看本章AN/AWG-9下的相关标题。</p>
 </div>
@@ -2090,7 +2085,7 @@ In pulse search this setting affects the PRF of the radar and the scale on the D
 <p>除此之外，显示器还向机组人员显示自己的飞机位置、目标位置以及目标指示。当使用Lantirn进行A/G攻击时，这些读数也用作目标和武器投放指示。</p>
 <img alt="_images/FLIR.png" src="_images/FLIR.png" />
 <p>本机数据显示在左上角（ <strong>1</strong> ），从上到下分别显示坐标、高度、地速和俯仰角（dive）。</p>
-<p>在画面左侧（ <strong>2</strong> ），显示了当前吊舱正在使用白热还是黑热（whot和bhot），以及是否使用了AGC（自动增益控制）或MGC（手动增益控制）。</p>
+<p>在画面左侧（ <strong>2</strong> ），显示了当前吊舱正在使用白热还是黑热（WHOT 和 BHOT），以及是否使用了AGC（自动增益控制）或MGC（手动增益控制）。</p>
 <p>左下角的数据（ <strong>3</strong> ）显示的是吊舱信息，从上到下分别是：SR，表示视线距离，AZ和EL表示吊舱视线方位角和相对于飞机的俯仰角（AZ数字后方的L或者R代表吊舱是转向左侧还是右侧）。下面是当前的UTC时间，然后是IBIT代码。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
