@@ -128,10 +128,10 @@ planes = {
 --    file = 'F-14B_IA_PG_tour.miz',
 --    },
 	
---	{
---    name = _('On Alert 5'),
---    file = 'F-14B_IA_PG_Scramble_Scramble.miz',
---    },
+	{
+    name = _('On Alert 5'),
+    file = 'F-14B_IA_PG_Scramble_Scramble.miz',
+    },
 	
 	{
     name = _('Southern Watch 1998'),

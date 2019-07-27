@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 | Mar. 12th, 2019\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-13 10:45+0800\n"
+"POT-Creation-Date: 2019-03-20 09:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,19 +20,55 @@ msgstr ""
 msgid "Tutorial Videos"
 msgstr ""
 
-#: ../../source/tutorials.rst:5
-msgid "Cold Start"
-msgstr ""
-
-#: ../../source/tutorials.rst:14
+#: ../../source/tutorials.rst:6
 msgid "Pilot Cockpit Overview"
 msgstr ""
 
-#: ../../source/tutorials.rst:23
+#: ../../source/tutorials.rst:15
 msgid "RIO Cockpit Overview"
 msgstr ""
 
-#: ../../source/tutorials.rst:32
+#: ../../source/tutorials.rst:24
+msgid "Pilot Cold Start"
+msgstr ""
+
+#: ../../source/tutorials.rst:33
+msgid "Front Seat - Startup, Taxi, Takeoff with Jester (Short)"
+msgstr ""
+
+#: ../../source/tutorials.rst:41
+msgid "Back Seat - RIO Startup (4 different ways)"
+msgstr ""
+
+#: ../../source/tutorials.rst:50
 msgid "Maneuvering and Flight Characteristics"
+msgstr ""
+
+#: ../../source/tutorials.rst:59
+msgid "Air to Air Refueling"
+msgstr ""
+
+#: ../../source/tutorials.rst:68
+msgid "Front Seat - ACM - Radar Acquisition Modes"
+msgstr ""
+
+#: ../../source/tutorials.rst:77
+msgid "Back Seat - RIO AWG-9 Tutorial"
+msgstr ""
+
+#: ../../source/tutorials.rst:86
+msgid "Back Seat - RIO IFF Tutorial"
+msgstr ""
+
+#: ../../source/tutorials.rst:95
+msgid "CVW-11: DCS F-14B Tomcat RIO School"
+msgstr ""
+
+#: ../../source/tutorials.rst:104
+msgid "Front Seat - Weapons - AIM-9 Sidewinder"
+msgstr ""
+
+#: ../../source/tutorials.rst:113
+msgid "Front Seat - Weapons - Zuni Rockets with Jester"
 msgstr ""
 

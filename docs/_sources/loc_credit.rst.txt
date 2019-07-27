@@ -46,11 +46,13 @@ DCS: F-14 “雄猫” 中文飞行手册（初版）
 		
 		Cui, Shanlun   `“汉魂~威龙” <http://space.bilibili.com/215189722>`_
 		
-		Dong, BaiLin   `“Silly_Jolly” <http://space.bilibili.com/123604>`_
+		Dong, Bailin   `“Silly_Jolly” <http://space.bilibili.com/123604>`_
 
 		
 
 	:校对: 
+		Ouyang, Junjia `“司姬” <https://space.bilibili.com/11260764>`_
+		
 		Fu, Zirui `“东方狐” <https://space.bilibili.com/9675>`_
 
 		Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
@@ -120,12 +122,13 @@ DCS: F-14 游戏内文件
 			Zhao, Xueqian
 			
 	* 快速任务、单人任务和联机任务
-		:翻译:
+		:翻译 / 校对:
+			Ning, Jiaquan
+			
+	* 百科全书
+		:翻译 / 校对:
 			Ning, Jiaquan
 
-	* 百科全书
-		:翻译:
-			Ning, Jiaquan
 			
 -------------------------------------
 

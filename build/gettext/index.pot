@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 协作预览 | Mar. 12th, 2019\n"
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-13 10:45+0800\n"
+"POT-Creation-Date: 2019-03-20 09:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,15 @@ msgstr ""
 msgid "Heatblur DCS F-14 Tomcat"
 msgstr ""
 
-#: ../../source/index.rst:7
+#: ../../source/index.rst:4
+msgid "手册上次更新时间：\\ :ref:`manual_lastest`"
+msgstr ""
+
+#: ../../source/index.rst:6
+msgid "相关本地化文件更新时间：\\ :ref:`game_file_lastest`"
+msgstr ""
+
+#: ../../source/index.rst:13
 msgid "Contents:"
 msgstr ""
 
