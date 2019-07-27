@@ -13,9 +13,13 @@
 游戏本地化文件集合包（推荐）
 =============================
 
-**包含所有目前可用的本地化文件。直接解压至DCS World安装目录中，并覆盖原文件。**	
+**包含所有目前可用的本地化文件。直接解压至DCS World安装目录中，并覆盖原文件。**
 
-:download:`F-14-localization-pack.zip <download/F-14-localization-pack.zip>`
+**注意：Heatblur在任务中添加了语音，任务体积变大，压缩包体积超过Github lfs的100MB限制，因此改用两个分包，你需要下载part1和part2才能正常解压**	
+
+:download:`part1 <download/F-14-localization-pack.part1.rar>`
+
+:download:`part2 <download/F-14-localization-pack.part2.rar>`
 
 :注意: 如果下载了本集合包，则无需单独下载下文中的按键设置和驾驶舱提示和任务文件。
 

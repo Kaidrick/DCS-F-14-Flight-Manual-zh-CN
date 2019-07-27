@@ -49,17 +49,26 @@
 
 .. _game_file_lastest:
 
+
+2019年07/27日
+****************
+
+校对并修复了单人、多人、快速和训练任务中的文字错误
+
+由于任务体积增加，弃用zip改用rar压缩，集合包分为\ :download:`part1 <download/F-14-localization-pack.part1.rar>` 和\ :download:`part2 <download/F-14-localization-pack.part2.rar>`\ 
+同时下载两者后方可正常解压。安装和使用说明详见\ :doc:`loc_other`\ 页面。
+
 2019年04月12日
 ****************
 
 移除了Mods文件夹下的Options修复，原因：官方已集成修复
+
 添加了缺失的按键翻译
 
 2019年03月25日
 ****************
 
 更新了按键设置/驾驶舱提示本地化文件，添加了F-14特殊设置中的文字翻译，并修复了自定义驾驶舱功能。
-\ :download:`点此下载 <download/F-14-localization-pack.zip>`\ 游戏本地化文件集合包，使用说明详见\ :doc:`loc_other`\ 页面。
 
 2019年03月19日
 ******************
