@@ -1,0 +1,92 @@
+M1
+
+Moved Eastern tanker closer to the boat 
+Moved Western tanker a little further north
+Lowered S-3B Tanker speed to 336 kts
+Lowered S-3B Tankers altitude to 8k & 12k ft
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Increased carrier speed to 19kts
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+
+
+M2
+
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Moved Western tanker closer to the boat 
+Moved Eastern tanker a little further north
+Lowered S-3B Tanker speed to 336 kts
+Lowered S-3B Tankers altitude to 8k & 12k ft
+Increased carrier speed to 19kts
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+
+
+M3
+
+Moved Western tanker closer to the boat 
+Moved Eastern tanker a little further north
+Lowered S-3B Tanker speed to 336 kts
+Lowered S-3B Tankers altitude to 8k & 12k ft
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Increased carrier speed to 19kts
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+
+
+M4
+
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Lowered S-3B Tanker altitude to 12k ft
+Lowered S-3B Tanker speed to 336 kts
+Changed S-3B tanker orbit to stay with Carrier
+Increased carrier speed to 19kts
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+
+
+M5
+
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Moved carrier further out to sea
+Adjusted position of all flights to reflect change in carrier pos
+Increased carrier speed to 19kts
+Added S-3B tanker orbiting near carrier
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+Added new tanker to briefing docs
+
+
+M6
+
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Moved tanker closer to boat and ingress route
+Increased carrier speed to 19kts
+Moved carrier further from coast
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+
+
+M7
+
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Lowered S-3B Tanker altitude to 12k ft
+Lowered S-3B Tanker speed to 336 kts
+Moved KC-135 closer to ingress point
+Moved S-3B Tanker closer to boat
+Increased carrier speed to 19kts
+Moved carrier further from coast
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+
+
+M8
+
+Increased carrier speed to 19kts
+Moved carrier further from coast
+Moved AWACS closer to targets
+Changed AWACS orbit to avoid notching
+Adjusted all airfields to Blue/Red (no more neutral airfields)
+Moved Southern tanker closer to boat
+Lowered Southern tanker altitude to 12,000
+AI should now cease fire when Focus calls for ceasefire
