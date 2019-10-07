@@ -1,8 +1,12 @@
 # DCS-F-14-Flight-Manual-zh-CN
 Source for Heatblur online F-14 manual based on Sphinx with ReadDoc theme.
 
-repos中包括source和build
+# DCS: F-14 “雄猫” 飞行手册汉化项目
+这个repos包括两个分支，master和html-only
+由于master中包含了大量源文件以及未压缩图片及其他二进制文件，体积相当大。
+如果你想假设网站为本手册分流，可以考虑下载html-only分支，该分支中仅包含搭建站点所需的网页文件。
 
+master分支中包括source和build
 其中source是通过Heatblur站点获取的图片和Sphinx / reStructuredText（rST）文件
 
 build > html中是生成的html文件，主页是index.html
