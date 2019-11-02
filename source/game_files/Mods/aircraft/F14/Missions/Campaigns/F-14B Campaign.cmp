@@ -1,0 +1,190 @@
+campaign = 
+{
+    ["picture_EN"] = "Campaign title.jpg",
+    ["directory"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\",
+    ["description"] = "OPERATION : CAGE THE BEAR is a fictional campaign following an elite F-14B Tomcat pilot tasked to repel a lethal aggressor force. \
+\
+It is May 1992. The Berlin wall has fallen, the Soviet Union has broken down. In an attempt to regain control of the crucial Black Sea region, REDFOR invaders have crossed Georgian borders in an attempt to annex the ex-Soviet state.\
+\
+Determined to prevent a return to the old days of Soviet power, NATO takes exceptional action. A US Carrier Strike Group transits the Bosphorus Straits and enters the Black Sea. \
+\
+As the conflict escalates, F-14s of the Carrier Air Wing will lead the fight against REDFOR. \
+\
+Defend the fleet and push back the aggressors!\
+\
+OPERATION : CAGE THE BEAR\
+A campaign by Kaba ",
+    ["picture"] = "Campaign title.jpg",
+    ["name_EN"] = "OPERATION CAGE THE BEAR (HOT START) by Kaba",
+    ["description_EN"] = "OPERATION : CAGE THE BEAR is a fictional campaign following an elite F-14B Tomcat pilot tasked to repel a lethal aggressor force. \
+\
+It is May 1992. The Berlin wall has fallen, the Soviet Union has broken down. In an attempt to regain control of the crucial Black Sea region, REDFOR invaders have crossed Georgian borders in an attempt to annex the ex-Soviet state.\
+\
+Determined to prevent a return to the old days of Soviet power, NATO takes exceptional action. A US Carrier Strike Group transits the Bosphorus Straits and enters the Black Sea. \
+\
+As the conflict escalates, F-14s of the Carrier Air Wing will lead the fight against REDFOR. \
+\
+Defend the fleet and push back the aggressors!\
+\
+OPERATION : CAGE THE BEAR\
+A campaign by Kaba ",
+    ["pictureSuccess_EN"] = "mission accomplished.jpg",
+    ["necessaryUnits"] = 
+    {
+        ["F-14B"] = "F-14B",
+    }, -- end of ["necessaryUnits"]
+    ["pictureFailed"] = "mission failed.jpg",
+    ["stages"] = 
+    {
+        [6] = 
+        {
+            ["name"] = "Stage 6",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 6 - COMMAND AND CONTROL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 6 - COMMAND AND CONTROL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [6]
+        [2] = 
+        {
+            ["name"] = "Stage 2",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 2 - PROTECTION.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 2 - PROTECTION.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [2]
+        [8] = 
+        {
+            ["name"] = "Stage 8",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 8 - ALPHA STRIKE MOZDOK.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 8 - ALPHA STRIKE MOZDOK.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [8]
+        [3] = 
+        {
+            ["name"] = "Stage 3",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 3 - OCA WEST.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 3 - OCA WEST.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [3]
+        [1] = 
+        {
+            ["name"] = "Stage 1",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 1 - VAMPIRE NORTH.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 1 - VAMPIRE NORTH.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [1]
+        [4] = 
+        {
+            ["name"] = "Stage 4",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 4 - RECON DUTIES.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 4 - RECON DUTIES.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [4]
+        [5] = 
+        {
+            ["name"] = "Stage 5",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 5 - INTERCEPTION.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 5 - INTERCEPTION.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [5]
+        [7] = 
+        {
+            ["name"] = "Stage 7",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "F-14B - Caucasus - CTB 7 - CLEARING THE WAY.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B - Caucasus - CTB 7 - CLEARING THE WAY.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [7]
+    }, -- end of ["stages"]
+    ["name"] = "OPERATION CAGE THE BEAR (HOT START) by Kaba",
+    ["version"] = 1,
+    ["pictureSuccess"] = "mission accomplished.jpg",
+    ["pictureFailed_EN"] = "mission failed.jpg",
+    ["fullPath"] = "C:\\Users\\Cal\\Saved Games\\DCS.openbeta\\Missions\\Campaigns\\en\\F-14B - OPERATION CAGE THE BEAR\\F-14B Campaign.cmp",
+    ["startStage"] = 1,
+} -- end of campaign
