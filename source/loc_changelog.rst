@@ -49,7 +49,7 @@
 
 .. _game_file_lastest:
 
-2019年11月02日
+2019年11月28日
 ****************
 修复任务“HB Tomcat Iran Flogger Faceoff Coop”触发。更新messages.mo。
 
