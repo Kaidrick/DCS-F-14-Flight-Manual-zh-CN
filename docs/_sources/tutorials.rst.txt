@@ -73,6 +73,15 @@ Front Seat - ACM - Radar Acquisition Modes
 
 |
 
+Back Seat - RIO NAV GRID Tutorial
+******************************************
+
+.. raw:: html
+
+    <iframe class="aspect-ratio" src="https://player.bilibili.com/player.html?aid=76494666&cid=130846173&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+|
+
 Back Seat - RIO AWG-9 Tutorial
 ******************************
 
