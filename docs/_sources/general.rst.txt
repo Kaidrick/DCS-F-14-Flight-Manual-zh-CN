@@ -1612,6 +1612,91 @@ TID Symbology
 :Note: Some of these symbols pertain to functions not yet implemented in DCS.
 
 
+.. _NAVGRID:
+
+Navigation Command and Control Grid (NAV GRID)
+----------------------------------------------
+
+.. image:: /images/general/navgrid/navgrid.png
+
+The Navigation Command and Control Grid or **NAV GRID** was designed to enable easy navigation and CAP control from a common fixed reference point.
+It enables TID readout of bearing and range from that set reference point, called **YY**.
+While NAV GRID is active displayed range and bearing on the TID for hooks and own aircraft is indicated relative **YY**.
+Additionally it also displays a grid extending from YY along a set threat axis.
+The purpose of the grid itself is to allow for quick position reference while a precise readout is available for a hooked target.
+This is where the name NAV GRID originates.
+
+Lastly it also allows for display of something called **Voice Codes**. These are displayed for current hook alternating with the altitude readout on the TID if **ALT NUM** is selected for display.
+It indicates bearing from **YY** in tens (15 reading as 150 as an example) followed by a letter indicating range. **A** would indicate 0-50nm while **B** indicates 50-100nm and so on for consecutive letters.
+
+The standard NAV GRID display mode is **GND STAB** and this allows for the grid itself to be visible.
+If **A/C STAB** or **ATTK** display modes are selected only the **Voice Code** display functionality is retained but it addition to the normal functionality the **Ownship Symbol** will always display its **Voice Code**. 
+
+As default the grid origin, **YY**, is positioned at the edge of the TID extending outwards along the set threat axis.
+The grid can be set to have between 1 and 6 sectors display, all being outlined meaning that the one sector display will have 2 lines delineating the limits and 6 having 7 lines.
+The size of the sectors depend on the total grid coverage, which can be up to 180 degrees, which is then divided into the selected number of sectors.
+Along the sector demarkation lines are drawn range indicator marks at 50nm intervals, the 50nm marks being shorter than the even 100nm markers.
+
+The ground stab view as well as the grid can be offset as normal by the RIO via the HCU. To reset the offset, cycle to any aircraft stabilized mode and back to **GND STAB**.
+
+While the original purpose of this functionality was intended for fleet defence use it works perfectly fine as a bulls-eye reference in DCS with **YY** set to the bulls-eye.
+The only real limitation being the grid only displaying along the threat axis and not all around.
+
+
+Operation
+^^^^^^^^^
+
+NAV GRID entry
+""""""""""""""
+
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.    Set the **TID MODE** knob to **GND STAB**                                                        |                                                                                                                                                  |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.    Select **D/L** category on the **CAP CATEGORY** knob.                                            |                                                                                                                                                  |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.    Select the **CAP MESSAGE** button corresponding to **NAV GRID**.                                 |                                                                                                                                                  |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.    Enter grid coverage angle using the **ALT/4** button on the CAP.                                 | Press **CLEAR**, **ALT/4** and enter desired grid coverage angle followed by **ENTER**.                                                          |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.    Enter numbers of grid sectors using the **NBR/2** button on the CAP.                             | Press **CLEAR**, **NBR/2** and enter desired numbers of sectors followed by **ENTER**.                                                           |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.    Enter **YY** location using the **LAT/1** and **LONG/6** or **RNG/5** and **BRG/0** CAP buttons. | Press **CLEAR**, **LAT/1** and enter desired latitude followed by **ENTER**.                                                                     |
+|                                                                                                        |                                                                                                                                                  |
+|                                                                                                        | Repeat for longitude using **LONG/6** or use **RNG/5** and **BRG/0** instead of both for **YY** location referenced from own aircraft position.  |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 7.    Enter the threat axis using the **HDG/8** CAP button.                                            | Press **CLEAR**, **HDG/8** and enter desired threat axis extending **from YY** followed by **ENTER**.                                            |
++--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+:Note: First pressing **CLEAR** is to make sure to reset any previously selected readout so that a subsequent press of a prefix sets a new readout for display and data entry and not enters new data into a previous readout instead. This is further detailed under :ref:`CAP`.
+
+:Note 2: Modification and display of the **NAV GRID** readouts are available **in NAV GRID** with no hook present, i.e. **OWN A/C** as hook.
+
+:Note 3: Enter **NAV GRID** from the tactical display (**GND STAB**), do not attempt to enter it during alignment.
+
+
+NAV GRID exit
+"""""""""""""
+
+To exit **NAV GRID** deselect the **CAP MESSAGE** button corresponding to **NAV GRID** under the **D/L** category on the **CAP**.
+
+
+NAV GRID in DCS
+^^^^^^^^^^^^^^^
+
+When hot spawning in DCS **YY** will be set to mission bulls-eye for your faction and threat axis will be set from **YY** to first valid waypoint in the following order:
+**HA**, **DP**, **ST**, **FP**, **3**, **2**, **1** and **HB** or own aircraft position at spawn if none of those waypoints are present.
+
+When cold starting with Jester he has to be commanded to adjust these parameters via the Jester wheel. He can enter **YY** using the same methods available for waypoints as well as entering a waypoint's location as **YY**.
+
+With a human RIO he/she will have to enter it manually.
+
+.. raw:: html
+
+    <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/KWsd5muVWxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
+
+
 Hand Control Unit (HCU)
 =======================
 .. image:: /images/general/awg-9/hcu.png
@@ -1710,69 +1795,114 @@ When a function or symbol hook is in use the corresponding message button illumi
 
 The matrixes and corresponding functionality of the different categories are as follows:
 
-**BIT** (Built in Test)
 
-The BIT category contains message button functions pertaining to BIT initiation of different aircraft systems. These might be functions normally run during OBC during startup or separate tests only available from here.
-This will be detailed in a separate chapter about on board tests and BIT when implemented, not currently implemented in this simulation.
+.. table:: **BIT** (Built in Test)
+   :widths: 30 70
 
-**SPL** (Special)
+   +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | .. image:: /images/general/awg-9/capdrum/bit.png | The BIT category contains message button functions pertaining to BIT initiation of different aircraft systems. These might be functions normally run during OBC during startup or separate tests only available from here. |
+   |                                                  |                                                                                                                                                                                                                            |
+   |                                                  | This will be detailed in a separate chapter about on board tests and BIT when implemented, not currently implemented in this simulation.                                                                                   |
+   +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The SPL category contains message button functions for display and entry of the heading for the data files representing the four catapults on the aircraft carrier. These are used for catapult INS alignment when at a catapult ready position. (Detailed further in the navigational section in this chapter.)
 
-It also contains a button for manually initiating the OBC routine (OBC BIT), a button for displaying latest OBC results (MAINT DISPL) and a button for clearing the latest OBC results (OBC DISPL).
+.. table:: **SPL** (Special)
+   :widths: 30 70
+   
+   +--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | .. image:: /images/general/awg-9/capdrum/spl.png | The SPL category contains various message button functions not contained under the other categories. Currently only the **IP TO TGT** function is implemented and used for the Computer Initial Point air to ground mode, see :ref:`CIP`                              |
+   |                                                  |                                                                                                                                                                                                                                                                       |
+   |                                                  | It also contains a button for manually initiating the OBC routine (**OBC BIT**), a button for displaying latest OBC results (**MAINT DISP**) and a button for clearing the latest OBC results (**OBC DISPL**). These and the other functions are not yet implemented. |
+   +--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-**NAV** (Navigation)
 
-The NAV category contains message button functions used for navigational fixes and updating data used by for INS operation and alignment.
+.. table:: **NAV** (Navigation)
+   :widths: 30 70
+   
+   +--------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   |                                                  | The NAV category contains message button functions used for navigational fixes and updating data used by for INS operation and alignment.                                                                                                                                                                                                                                 |
+   |                                                  |                                                                                                                                                                                                                                                                                                                                                                           |
+   |                                                  | The **OWN A/C** (own aircraft) button selects own aircraft for data readout and entry, the same as hooking the own aircraft symbol on the TID. Its used to enter data critical for INS alignment like aircraft coordinates and altitude (and heading and speed if on a moving carrier) and can also be used for readout of the various data available about own aircraft. |
+   |                                                  |                                                                                                                                                                                                                                                                                                                                                                           |
+   |                                                  | The **STORED HDG ALIGN** button is used to store and indicate if a stored heading align is available. It also allows deselection of the function resulting in a normal alignment.                                                                                                                                                                                         |
+   | .. image:: /images/general/awg-9/capdrum/nav.png |                                                                                                                                                                                                                                                                                                                                                                           |
+   |                                                  | The **WIND SPD HDG** button selects entry and display of wind data, can also be used to enter wind speed and heading manually for backup navigation.                                                                                                                                                                                                                      |
+   |                                                  |                                                                                                                                                                                                                                                                                                                                                                           |
+   |                                                  | The **MAG VAR (HDG)** button is used to display and enter magnetic variation used by the navigational system.                                                                                                                                                                                                                                                             |
+   |                                                  |                                                                                                                                                                                                                                                                                                                                                                           |
+   |                                                  | The four FIX buttons, **TACAN FIX**, **RDR FIX** (radar), **VIS FIX** (visual) and **FIX ENABLE** are used to update aircraft position to correct for INS drift. Basic function is the selection of type of fix followed by **FIX ENABLE** to enter it into the system. Full procedures for these fixes can be found in the navigational section in this chapter.         |
+   |                                                  |                                                                                                                                                                                                                                                                                                                                                                           |
+   |                                                  | The two TARPS buttons are non-functional in a non TARPS aircraft.                                                                                                                                                                                                                                                                                                         |
+   +--------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The OWN A/C (own aircraft) button selects own aircraft for data readout and entry, the same as hooking the own aircraft symbol on the TID. Its used to enter data critical for INS alignment like aircraft coordinates and altitude (and heading and speed if on a moving carrier) and can also be used for readout of the various data available about own aircraft.
 
-The WIND (SPD HDG) button selects entry and display of wind data, can also be used to enter wind speed and heading manually for backup navigation.
+.. table:: **TAC DATA** (Tactical Data)
+   :widths: 30 70
 
-The MAG VAR (NBR) button is used to display and enter magnetic variation used by the navigational system.
+   +------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   |                                                      | The TAC DATA category contains message button functionality allowing for hook/selection of the different waypoints available in the WCS navigational system. The same hook can be made via HCU hook on the TID. Hooking the waypoints enables them to be updated via the CAP keypad. |
+   | .. image:: /images/general/awg-9/capdrum/tacdata.png |                                                                                                                                                                                                                                                                                      |
+   |                                                      | The **PT TO PT** button is non-functional.                                                                                                                                                                                                                                           |
+   +------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The four FIX buttons, TACAN, RDR (radar), VIS (visual) and FIX ENABLE are used to update aircraft position to correct for INS drift. Basic function is the selection of type of fix followed by FIX ENABLE to enter it into the system. Full procedures for these fixes can be found in the navigational section in this chapter.
 
-**TAC DATA** (Tactical Data)
+.. table:: **DATA LINK**
+   :widths: 30 70
+   
+   +-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   |                                                 | The DATA LINK category contains message button functionality for RIO data link responses to data link controller commands. The **WILCO** (will comply), **CANTCO** (can not comply) tells the controller if own aircraft can or can not comply to a command. |
+   |                                                 | **POINT** enables the RIO to mark a hooked track sent to the controller for special attention. **ENGAGE** likewise indicates own intention to engage a hooked track.                                                                                         |
+   |                                                 |                                                                                                                                                                                                                                                              |
+   |                                                 | The **NAV GRID** button enables the NAV GRID functionality on the TID, see :ref:`NAVGRID`                                                                                                                                                                    |
+   | .. image:: /images/general/awg-9/capdrum/dl.png |                                                                                                                                                                                                                                                              |
+   |                                                 | The **TID AVIA** button enables the AVIA display on the TID. Not yet implemented.                                                                                                                                                                            |
+   |                                                 |                                                                                                                                                                                                                                                              |
+   |                                                 | The **F/F NAV UPDATE** allows for Link-4C fighter to fighter navigational updates. See the navigation chapter.                                                                                                                                               |
+   |                                                 |                                                                                                                                                                                                                                                              |
+   |                                                 | Remaining buttons are non-functional.                                                                                                                                                                                                                        |
+   +-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The TAC DATA category contains message button functionality allowing for hook/selection of the different waypoints available in the WCS navigational system. The same hook can be made via HCU hook on the TID. Hooking the waypoints enables them to be updated via the CAP keypad.
 
-The IP TO TGT button functionality is the exception and is used to update the data in the WCS about the positional difference between the air-to-ground target and IP waypoint that is used for computer IP mode of air-to-ground engagement. This is detailed in the weapons overview chapter under air-to-ground delivery.
-
-**DATA LINK**
-
-The DATA LINK category contains message button functionality for RIO data link responses to data link controller commands. The WILCO (will comply), CANTCO (can not comply) tells the controller if own aircraft can or can not comply to command.
-POINT enables the RIO to mark a hooked track sent to the controller for special attention. ENGAGE likewise indicates own intention to engage a hooked track.
-
-**TARGET DATA**
-
-The TARGET DATA category contains message button functionality used to modify hooked track symbols. The FRIEND, UNK (unknown), HOST (hostile) and MULT TGT (multiple target) message functions are used to mark a hooked symbol as the respective category (multiple target can be set in addition to the other three).
-
-MAND ATTK (mandatory attack) set on a target forces the WCS to include it into the TWS prioritisation for AIM-54 engagement, though not necessarily as number 1. DO NOT ATTK (do not attack) does the opposite, in effect removing the target from the TWS prioritisation.
-
-The DATA TRANS (data transfer) function enables a hooked jam strobe to be correlated with another hooked track symbol. This is used to allow the WCS to better use both data sources to track the target. The strobe needs to be hooked before the symbol.
-
-The SYM DELETE (symbol delete) allows the RIO to manually drop/remove a track or waypoint from the TID if no longer relevant. Own aircraft and data link track symbols can not be removed.
-
-TEST TGT (test target) calls up a simulated test target in the WCS for test purposes. See BIT chapter for additional information.
+.. table:: **TARGET DATA**
+   :widths: 30 70
+   
+   +------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   |                                                      | The TARGET DATA category contains message button functionality used to modify hooked track symbols. The **FRIEND**, **UNK** (Unknown), **HOST** (Hostile) and **MULT TGT** (Multiple Target) message functions are used to mark a hooked symbol as the respective category (multiple target can be set in addition to the other three). |
+   |                                                      |                                                                                                                                                                                                                                                                                                                                         |
+   |                                                      | The **DO NOT ATTK** button sets a target as a do not attack target, removing it from the WCS firing order.                                                                                                                                                                                                                              |
+   |                                                      |                                                                                                                                                                                                                                                                                                                                         |
+   |                                                      | The **DATA TRANS** (Data Transfer) function enables a hooked jam strobe to be correlated with another hooked track symbol. This is used to allow the WCS to better use both data sources to track the target. The strobe needs to be hooked before the symbol. Currently not implemented.                                               |
+   | .. image:: /images/general/awg-9/capdrum/tgtdata.png |                                                                                                                                                                                                                                                                                                                                         |
+   |                                                      | **TEST TGT** (Test Target) calls up a simulated test target in the WCS for test purposes. Currently not implemented.                                                                                                                                                                                                                    |
+   |                                                      |                                                                                                                                                                                                                                                                                                                                         |
+   |                                                      | The **SYM DELETE** (Symbol Delete) allows the RIO to manually drop/remove a track or waypoint from the TID if no longer relevant. Own aircraft and data link track symbols can not be removed.                                                                                                                                          |
+   |                                                      |                                                                                                                                                                                                                                                                                                                                         |
+   |                                                      | **IFT AUX LAUNCH** and **GND MAP** are non-functional.                                                                                                                                                                                                                                                                                  |
+   +------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 **Program Restart Button**
 
-Below the message readout and buttons are two final buttons on the panel. The PRGM RESTRT (program restart) button resets the currently running program in case of a computer hang-up. A computer hang-up is indicated when the computer run indicator digits on the TID stops cycling.
-The last button is the TNG (NBR) button which is non functional in the F-14 version.
+Below the message readout and buttons are two final buttons on the panel. The **PRGM RESTRT** (Program Restart) button resets the currently running program in case of a computer hang-up. A computer hang-up is indicated when the computer run indicator digits on the TID stops cycling.
+The last button is the **TUNE DSBL** button which is non-functional in this F-14 version.
 
 
 Data Readout/Entry Procedure
 ----------------------------
 
-The sequence for data readout selection on the TID readouts are:
-Category selection -> Message function selection -> Prefix selection -> TID readout display
-To select another prefix for data readout without reselecting the message function the CLEAR key on the CAP is used, this resets the readout and allows for selection of a new prefix.
+Data readout and entry on the TID always follows the following sequence:
+Selection of symbol/function -> Prefix selection for display -> Data entry.
 
-:Note: Attempted selection of another prefix without first using the CLEAR key will be read by the computer as an attempt to enter a digit into the buffer instead of prefix selection.
+Selection of desired symbol or function can be achieved either via **TID hook** or via the **CAP MESSAGE** buttons available under the different categories on the **CAP DRUM**.
 
-To enter new data into selected prefix the RIO enters desired data after the prefix selection, checks it is correct and then enters it with the ENTER key. The TID readout is then updated with the new data. To clear the data without entering it, instead use the CLEAR key.
+Most data readout prefixes displays multiple readouts, as an example calling up either latitude and longitude shows both and calling up range also displays bearing and vice versa but the selected prefix is the on used for data entry.
+
+To select another prefix for data readout without reselecting the message function the **CLEAR** key on the CAP is used, this resets the readout and allows for selection of a new prefix.
+As it's possible that depression of a prefix button is read as a data entry if a prefix is already selected it's normally recommended to reset using **CLEAR** before reselecting a new prefix.
+This makes the recommended sequence: Selection of symbol/function -> **CLEAR** -> Prefix selection for display -> Data entry.
+
+To enter new data into selected prefix the RIO enters desired data after the prefix selection, checks it is correct and then enters it with the **ENTER** key.
+The TID readout is then updated with the new data. To clear the data without entering it, instead use the **CLEAR** key.
 
 
 Sensor Control Panel
@@ -1904,7 +2034,11 @@ The three search modes have a common DDD display, the main difference being that
 
 .. image:: /images/general/awg-9/PDSEARCH.png
 
-The DDD in the pulse doppler search modes displays returns at azimuth versus rate (closing speed) meaning that by reading only the DDD the RIO can only discern target closing speed and azimuth. The display shows closure rate vs the ground (as if own aircraft was stationary) as opposed to relative closure rate.
+The DDD in the pulse doppler search modes displays returns at azimuth versus rate (closing speed) meaning that by reading only the DDD the RIO can only discern target closing speed and azimuth.
+The display indicates observed closure rate vs the ground (with own airspeed subtracted) as opposed to relative closure rate.
+While this means that a target directly ahead, moving directly towards the radar, will show true target airspeed this speed varies with target aspect and radar antenna azimuth.
+This reason for this is that the radar itself only reads relative airspeed which is then modified by subtracting own airspeed for display on the DDD.
+
 At the bottom edge of the DDD the AGC-trace is displayed indicating radar return intensity enabling the RIO to discern jamming targets by their return strength. The jamming targets are shown as jamming strobes on the TID if they exceed the set jamming threshold (set by the JAM/JET knob on the DDD).
 
 The scale shown on the DDD (what rate region is shown) can be set by the Vc switch on the DDD panel. X-4 sets the scale to 800 knots opening to 4 000 knots closing, NORM sets the scale to 200 knots opening to 1 000 knots closing and VID sets the scale to 50 knots opening to 250 knots closing.
@@ -1930,9 +2064,9 @@ This is the reason for the mainlobe clutter trace presenting a curve on the DDD 
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
 |     | Look Angle | Line of Sight Rate                                        | Target Heading                       |
 +=====+============+===========================================================+======================================+
-| 1   | 45°        | 1490                                                      | 180°                                 |
+| 1   | 60°        | 1490                                                      | 180°                                 |
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
-| 2   | 60°        | 1500                                                      | 120°                                 |
+| 2   | 45°        | 1500                                                      | 120°                                 |
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
 | 3   | 30°        | 1428                                                      | 100°                                 |
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
@@ -1940,9 +2074,9 @@ This is the reason for the mainlobe clutter trace presenting a curve on the DDD 
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
 | 5   | 30°        | 672                                                       | 80°                                  |
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
-| 6   | 60°        | -300                                                      | 60°                                  |
+| 6   | 45°        | 210                                                       | 60°                                  |
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
-| 7   | 45°        | 210                                                       | 0°                                   |
+| 7   | 60°        | -300                                                      | 0°                                   |
 +-----+------------+-----------------------------------------------------------+--------------------------------------+
 
 :Note: Position 4 has the target in a flanking or "notching" position making it dissappear inside the MLC filter or MLC ground return. In a look up situation with the MLC filter disabled the target would still be visible.
@@ -1988,6 +2122,8 @@ If not selected before launch the WCS overrides as soon as the first AIM-54 is l
 In TWS the pilot is guided to the computed centroid of the tracked targets via the navigational cues and this centroid is also displayed on the TID as a small x-shaped cross.
 
 For additional information about TWS symbology and missile guidance see :ref:`TWSATTK` and :ref:`TIDSYMB`.
+
+:Note: The TWS AUTO mode is currently not implemented, will be added during EA.
 
 
 Pulse Doppler Single Target Track (PD STT)
@@ -2142,22 +2278,22 @@ If the radar loses target lock in STT and can not reacquire it reverts to the re
 VSL and MRL can also be reset and returned to search the same way but PLM being priorised means that only way to deselect PLM is either target lockon and transition to pulse STT or the pilot selecting the PLM button again telling the radar to return to pulse search.
 
 
-AN/APX-72 IFF Interrogator
+AN/APX-76 IFF Interrogator
 **************************
 
-The AN/APX-72 IFF (Identification Friend or Foe) interrogator is integrated into the AN/AWG-9 operation.
+The AN/APX-76 IFF (Identification Friend or Foe) interrogator is integrated into the AN/AWG-9 operation.
 Then interrogator antenna itself is located on the AN/AWG-9 antenna gimbal platform.
 
 An IFF system works by sending out an interrogation pulse and then listening for returns from cooperating transponders.
-In addition to the unencrypted civilian mode the AN/APX-72 is capable of interrogating in the encrypted military mode 4.
+In addition to the unencrypted civilian mode the AN/APX-76 is capable of interrogating in the encrypted military mode 4.
 This ensures that targets replying to mode 4 interrogations are indeed friendly.
 
-The AN/APX-72 can be used both in search radar modes and in STT radar modes.
+The AN/APX-76 can be used both in search radar modes and in STT radar modes.
 To enable interrogation the IFF switch is depressed on the :ref:`dddp` which then activates the interrogator for as long as the button is held up to 10 seconds max.
 
 When enabled IFF received IFF returns are then overlaid on the normal AN/AWG-9 radar returns on the DDD.
 A friendly target will be indicated with two bars, one above and one below the normal radar return.
-As the AN/APX-72 is a separate radar, secondary mode, radar apart from the AWG-9 the IFF can sometimes also detect targets not detected by the AWG-9.
+As the AN/APX-76 is a separate radar, secondary mode, radar apart from the AWG-9 the IFF can sometimes also detect targets not detected by the AWG-9.
 In this case the IFF return will not have a radar echo inside it.
 
 In the search mode this is overlaid over each target replying and in STT over the STT target.
@@ -2330,7 +2466,10 @@ Controls and Displays
 All the controls for the LANTIRN are situated on its own control panel mounted on the RIO's left side console when the pod is present,
 including the switch controlling what video feed the TID and VDI display in the TV mode.
     
+.. raw:: latex
 
+    \newpage
+    
 LANTIRN Video Elements
 ----------------------
 
@@ -2380,6 +2519,9 @@ Below the line is the indicated TREL (Time to Release) in seconds, changing to T
 Around this all is the masking curve, indicating at what angles the pod will be masked by own aircraft (looking into the aircraft hull).
 This is relative to the FLIR pointing cue, when the cue moves outside the masking curve the sensor will be blocked by the hull.
 
+.. raw:: latex
+
+    \newpage
 
 Control Panel
 -------------
@@ -2403,6 +2545,9 @@ The four grouped indicator lights (**6**) indicate various error states in the L
 
 :Note: The IBIT and fault indicators are not currently implemented in DCS.
 
+.. raw:: latex
+
+    \newpage
 
 Control Stick
 -------------
@@ -2481,7 +2626,7 @@ This is called the QDES and is used to designate targets for engagement as well 
 The QDES can not however be automatically transferred to the WCS, but the RIO can enter it manually using the target location information in the pod video feed.
 
 The lower right datablock is enabled for the location Qs only but will remain even when the pod is slewed away in area or point track modes.
-As soon as another Q is slewed however, it will update to that location instead or be removed if a directional Q is selected.
+As soon as another Q is selected however, it will update to that location instead or be removed if a directional Q is selected.
 
 
 A/G Target Engagement and Designation
@@ -2544,7 +2689,7 @@ The limit mode is indicated by an L in the status ring  on the display and limit
 
 The DISPLAY TYPE selector sets what threat display priority to use on the RWR displays.
 
-NORM - Normal is indicated by a N in the status ring on the display and shows threat symbology according to the loaded thread library.
+NORM - Normal is indicated by a N in the status ring on the display and shows threat symbology according to the loaded threat library.
 
 AI - Airborne interceptor is indicated by an I in the status ring on the display and prioritizes all airborne interceptor threats above all other threats.
 
@@ -2805,11 +2950,11 @@ AN/ALE-39 Countermeasures Dispensing Set
 The AN/ALE-39 is the countermeasures dispensing set installed in the F-14B in this simulation.
 It controls its own set of launchers located between the engine nozzles on the underside of the so called beaver-tail.
 
-The launchers each has two section, one containing 10 cartridges and the other 20.
+The launchers each have two sections, one containing 10 cartridges and the other 20.
 They are referred to the left and right dispensers even though the left is really the front one and the right the back one with both being mounted in line on the left side of the tailhook.
 This is a remnant from the earliest model F-14s carrying the AN/ALE-29.
 
-This all sums up to a capacity of 60 cartridges in the system with each section necessarily holding one type of cartridges meaning that any combination of cartridges is possible as long as each type's quantity is a multiple of 10.
+This all sums up to a capacity of 60 cartridges in the system with each section necessarily holding one type of cartridge meaning that any combination of cartridges is possible as long as each type's quantity is a multiple of 10.
 The system itself has no real knowledge of what is loaded where so incorrectly programming the system can lead to the wrong type of cartridge being ejected.
 
 The system itself can be operated manually from the control panel in the RIO pit or the DLC thumbwheel on the pilot stick when the flaps lever is in the up position.
@@ -2890,7 +3035,8 @@ The switch has three positions. **MULT**, multiple, sets the system to eject one
 **NORM** sets normal flare ejection pulse behavior. **PILOT** enables ejection of one flare cartridge with each depression of the DLC button. Normal flare ejection still possible.
 If the switch is set a position **other than PILOT** the DLC button will command ejection of a single chaff cartridge.
 
-Finally the **SALVO FLARES** switch initiates rapid ejection of all flares using a 0.125 second time interval for as long as the switch is held in the **ON** position. Normally springloaded to the **OFF** position.
+Finally the **SALVO FLARES** switch initiates rapid ejection of all flares using a 0.125 second time interval. Normally springloaded to the **OFF** position.
+Can't be stopped once initiated.
 
 :Note: All countermeasure cartridge ejection is inhibited while the weight on wheels sensor is active, preventing countermeasure ejection while on the ground.
 
