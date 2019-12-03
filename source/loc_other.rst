@@ -38,7 +38,7 @@
 ====================================================================================================================     ===========================
 请选择下列安装方式中的一种                                                                                                 安装说明
 ====================================================================================================================     ===========================
-\ :download:`F-14-cn.zip <download/F-14-cn.zip>`			                                                              下载\*.zip文件，然后将压缩包中的 :code:`Mods` 文件夹\ **直接解压至DCS World安装路径的根目录**\ 。
+\ :download:`F-14-cn.rar <download/F-14-cn.rar>`			                                                              下载\*.rar文件，然后将压缩包中的 :code:`Mods` 文件夹\ **直接解压至DCS World安装路径的根目录**\ 。
 																		                                                  :什么是安装路径: 常见安装路径\ :code:`D:\Eagle Dynamics\DCS World` 或 :code:`C:\Program Files\Eagle Dynamics\DCS World` 或 :code:`F:\游戏\DCS World`
 																		                                                  :Steam版怎么办: 找到Steam库路径，如 :code:`C:\Program Files (x86)\Steam\steamapps\common\DCS World` 或 :code:`D:\SteamLibrary\steamapps\common\DCS World`，然后解压至该文件夹中。
 																		
