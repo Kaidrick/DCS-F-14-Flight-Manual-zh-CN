@@ -19,13 +19,21 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
@@ -33,21 +41,16 @@
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="正常程序" href="procedures.html" />
     <link rel="prev" title="总体设计和系统概述" href="general.html" /> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -217,10 +220,10 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="procedures.html" class="btn btn-neutral float-right" title="正常程序" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="procedures.html" class="btn btn-neutral float-right" title="正常程序" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="general.html" class="btn btn-neutral" title="总体设计和系统概述" accesskey="p"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
+        <a href="general.html" class="btn btn-neutral float-left" title="总体设计和系统概述" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
   </div>
   
@@ -452,11 +455,11 @@
 <p>使用 MECH FUSE 开关来选择挂载引信。NOSE 启用前部引信，SAFE 禁止引信激活，而 NOSE/TAIL 同时启用前部引信和尾部引信。</p>
 <p>使用 ELEC FUSE 旋钮开关来设置投放挂载的电子引信类型：</p>
 <ul class="simple">
-<li>SAFE - 禁止炸弹电子引信激活</li>
+<li>SAFE - 禁止炸弹电子引信激活。</li>
 <li>VT - 选择兼容挂载的空爆模式，挂载将使用预设的起爆高度。</li>
-<li>INST - 选择瞬爆模式</li>
-<li>DLY 1 - 选择预设的起爆延迟 1</li>
-<li>DLY 2 - 选择预设的起爆延迟 2</li>
+<li>INST - 选择瞬爆模式。</li>
+<li>DLY 1 - 选择预设的起爆延迟 1。</li>
+<li>DLY 2 - 选择预设的起爆延迟 2。</li>
 </ul>
 <p>INTERVAL 和 QTY 用于设定 DLVY MODE 选择开关对应的投放模式，两个转轮分别设置了挂载投放间隔（单位是毫秒）和投放数量。</p>
 <p>最后，6 个 STA SEL（挂架选择）开关用于选择投放挂载（或抛离挂载）的挂架。将挂架对应的开关拨至 SEL 档位来选择这个挂架进行投放。然而，选择挂架 1 和挂架 8 时，应将对应的开关拨至 B 档位。开关的 SW 档位曾用于抛离 AIM-9 “响尾蛇”导弹，但现已无法使用。</p>
@@ -477,7 +480,7 @@
 <ul class="simple">
 <li>CMPTR TGT - 计算机目标模式，这是一种半自动计算机引导模式，类似于新型战机中的 CCRP（连续计算投放点）模式。</li>
 <li>CMPTR IP - 计算机初始点模式是 CMPTR TGT 模式的扩展模式，它使用一个已知的起始点作为挂载投放参考点。通常在预期目标难以被目视定位，但其附近有易于识别的参考点/地标的情况下使用。</li>
-<li>CMPTR PLT - 计算机引导模式，是一种使用武器控制系统在 HUD 上指示挂载武器落点的、由计算机引导，飞行员手动操控的导引模式。它类似于新型战机中的 CCIP（连续计算命中点）模式</li>
+<li>CMPTR PLT - 计算机引导模式，是一种使用武器控制系统在 HUD 上指示挂载武器落点的、由计算机引导，飞行员手动操控的导引模式。它类似于新型战机中的 CCIP（连续计算命中点）模式。</li>
 <li>MAN - 手动模式是空对地模式的备用模式。该模式下，HUD 上会显示一个下压角度可调的准星（十字准线）。用于系统出现故障，其他模式无法启用时。</li>
 <li>D/L 投弹模式 - 数据链投弹模式是一种驾驶员通过数据链路的提示来操纵飞机，在远程数据链控制下完成挂载投放的攻击模式（DCS中尚未实装此功能）。</li>
 </ul>
@@ -1018,7 +1021,7 @@
         <a href="procedures.html" class="btn btn-neutral float-right" title="正常程序" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="general.html" class="btn btn-neutral" title="总体设计和系统概述" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
+        <a href="general.html" class="btn btn-neutral float-left" title="总体设计和系统概述" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
       
     </div>
   
@@ -1044,27 +1047,16 @@
   
 
 
-  
-
-    
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script type="text/javascript" src="_static/translations.js"></script>
-    
-
-  
-
-  <script type="text/javascript" src="_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>
