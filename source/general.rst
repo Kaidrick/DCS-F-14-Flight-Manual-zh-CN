@@ -4490,9 +4490,9 @@ The external interphone connection is in the nose-wheel well. When pilot ICS swi
 ground personnel can communicate with the cockpit stations. In DCS this works through selecting the ground crew communication menu in the DCS radio communication menu when activating ICS PTT.	
 
 
-+-----------------------------------------------------------+---------------------------------------------------------------+
-|.. image:: /images/general/communications/throttle.png     |.. image:: /images/general/communications/ics.png              |
-+-----------------------------------------------------------+---------------------------------------------------------------+
++-----------------------------------------------------------+----------------------------------------------------------------+
+|.. image:: /images/general/communications/throttle.png     |.. image:: /images/general/communications/ics2.png              |
++-----------------------------------------------------------+----------------------------------------------------------------+
 
 +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                       |                                                                                                                                                 |

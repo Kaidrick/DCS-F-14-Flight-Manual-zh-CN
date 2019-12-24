@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-25 21:40+0800\n"
-"PO-Revision-Date: 2019-12-02 23:03+0800\n"
+"PO-Revision-Date: 2019-12-24 18:55+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -8390,7 +8390,7 @@ msgstr "NAV GRID 进入"
 
 #: ../../source/general.rst:1653
 msgid "Set the **TID MODE** knob to **GND STAB**"
-msgstr "设置 **TID模式** 旋钮至 **GND STAB**"
+msgstr "设置 **TID MODE** 旋钮至 **GND STAB**"
 
 #: ../../source/general.rst:1655
 msgid "Select **D/L** category on the **CAP CATEGORY** knob."
@@ -8469,7 +8469,7 @@ msgid ""
 "Modification and display of the **NAV GRID** readouts are available **in NAV "
 "GRID** with no hook present, i.e. **OWN A/C** as hook."
 msgstr ""
-"在 **NAV GRID**无显示数据源时 **NAV GRID** 的读数也可以修改和显示，例如 "
+"在 **NAV GRID** 无显示数据源时 **NAV GRID** 的读数也可以修改和显示，例如 "
 "**OWN A/C** 为选中数据源。"
 
 #: ../../source/general.rst:0
@@ -8480,7 +8480,9 @@ msgstr "注意 3"
 msgid ""
 "Enter **NAV GRID** from the tactical display (**GND STAB**), do not attempt "
 "to enter it during alignment."
-msgstr "请勿尝试在对准时从战术信息显示器输入 **NAV GRID** （ **GND STAB** ）"
+msgstr ""
+"从战术信息显示器（ **GND STAB** ）输入 **NAV GRID** ，请勿尝试在对准进程中输"
+"入。"
 
 #: ../../source/general.rst:1678
 msgid "NAV GRID exit"
@@ -8887,8 +8889,8 @@ msgid ""
 "implemented and used for the Computer Initial Point air to ground mode, see :"
 "ref:`CIP`"
 msgstr ""
-"SPL CATEGORY有其他CATEGORY中没有的各种MESSAGE按钮。当前只有 **IP TO TGT** 功"
-"能可用并且用于计算机初始点模式，参见 :ref:`CIP`"
+"SPL CATEGORY包含其他CATEGORY中没有的各种MESSAGE按钮功能。当前只有 **IP TO "
+"TGT** 功能可用并且用于计算机初始点模式，参见 :ref:`CIP`"
 
 #: ../../source/general.rst:1815
 msgid ""
@@ -8932,8 +8934,8 @@ msgid ""
 "heading align is available. It also allows deselection of the function "
 "resulting in a normal alignment."
 msgstr ""
-"**预存航向对准** 按钮用于储存和指示预存航向对准是否可用。同时它也能在正常对准"
-"中取消选择这个功能。"
+"**STORED HDG ALIGN** 按钮用于储存和指示预存航向对准是否可用。同时它也能在正常"
+"对准中取消选择这个功能。"
 
 #: ../../source/general.rst:1829
 msgid ""
@@ -17039,6 +17041,7 @@ msgstr ""
 "当将AWL/PCD设置为目的地信息源时，VDI显示降落模式所需信息，ILS（ICLS）被设置为"
 "下滑道和航向信息源。"
 
+# AG 12/19重新翻译校对。
 #: ../../source/general.rst:4448
 msgid "Communications Systems"
 msgstr "通讯系统"
@@ -17047,27 +17050,6 @@ msgstr "通讯系统"
 msgid "Antennas"
 msgstr "天线"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Four VHF/UHF/L-band dual-blade antennas provide omnidirectional coverage "
-# | "for VHF/UHF voice, UHF data link, TACAN, and identification friend or foe/"
-# | "selective identification feature transponder (APX-72) operation. Tacan "
-# | "and VHF/UHF 2 voice communications use one set of antennas; UHF 1 voice "
-# | "communications, the data link and IFF transponder, another set of "
-# | "antennas. Refer to general arrangement illustration for antenna "
-# | "locations. The IFF interrogator (APX-76) antenna is an integral part of "
-# | "the AWG-9 WCS antenna."
-# #-#-#-#-#  general_final_re_rw (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Four VHF/UHF/L-band dual-blade antennas provide omnidirectional coverage "
-# | "for VHF/UHF voice, UHF data link, TACAN, and identification friend or foe/"
-# | "selective identification feature transponder (APX-72) operation. Tacan "
-# | "and VHF/UHF 2 voice communications use one set of antennas; UHF 1 voice "
-# | "communications, the data link and IFF transponder, another set of "
-# | "antennas. Refer to general arrangement illustration for antenna "
-# | "locations. The IFF interrogator (APX-76) antenna is an integral part of "
-# | "the AWG-9 WCS antenna."
 #: ../../source/general.rst:4453
 msgid ""
 "Four VHF/UHF/L-band dual-blade antennas provide omnidirectional coverage for "
@@ -17078,10 +17060,10 @@ msgid ""
 "Refer to general arrangement illustration for antenna locations. The IFF "
 "interrogator (APX-76) antenna is an integral part of the AWG-9 WCS antenna."
 msgstr ""
-"四个VHF/UHF/L波段双刀片天线为VHF/UHF语音，UHF数据链，TACAN和敌我识别/选择性识"
-"别功能转发器（APX-72）操作提供全方位覆盖。 TACAN和VHF/UHF 2 语音通信使用其中"
-"一组天线; UHF 1 语音通信，数据链和IFF转发器使用另一组天线。 相关天线位置参阅"
-"总体布置图。 IFF询问器（APX-76）天线是AWG-9 WCS 天线的组成部分。"
+"四个VHF/UHF/L波段双刀片天线为VHF/UHF语音，UHF数据链，TACAN和敌我识别系统/选择"
+"识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 语音通信使用其中一"
+"组天线; UHF 1 语音通信，数据链和IFF应答器使用另一组天线。 相关天线位置参阅总"
+"体布置图。 IFF询问器（APX-76）天线集成在AWG-9 WCS天线内。"
 
 #: ../../source/general.rst:4457
 msgid ""
@@ -17095,11 +17077,11 @@ msgid ""
 "is shared with the DIL antenna system and is always on the opposite antenna "
 "from the one selected by the ANTENNA switch."
 msgstr ""
-"每个单独的系统通过同轴开关和双工器连接到上部或下部天线的适当部分。RIO必须手动"
-"使用TACAN CMD通讯面板上的V/UHF 2 ANT开关选择上部或下部天线，飞机并不能自动选"
-"择。数据链（DIL）同样需要手动选择天线。通过DATA LINK控制面板上的ANTENNA开关来"
-"选择上部或下部天线。UHF 1 语音通信ARC-159天线与DIL天线系统共用，并且始终位于"
-"ANTENNA开关所选择的对应的天线上。"
+"每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自"
+"动作动功能，RIO必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT开关选择上部或"
+"下部天线。数据链（DIL）天线同样需要手动选择。通过DATA LINK控制面板上的ANTENNA"
+"开关来选择上部或下部天线。UHF 1 语音通信 ARC-159 天线与 DIL 天线系统共用，并"
+"且始终使用与ANTENNA开关选择相反的天线。"
 
 #: ../../source/general.rst:4462
 msgid ""
@@ -17110,10 +17092,10 @@ msgid ""
 "weak to hold receiver lockup, the TACAN automatically cycles between the two "
 "antennas every 6 seconds seeking a stronger signal."
 msgstr ""
-"上部V/UHF 2 /TACAN天线是舱盖后龟背上的第一个天线，下部天线嵌入左侧腹鳍的底"
-"部。 每次只会使用一个天线。 天线之间的自动切换可防止丢失TACAN信息。 如果信号"
-"丢失或太弱而无法保持接收器锁定，TACAN会每隔6秒自动在两个天线之间循环以寻求更"
-"强的信号。"
+"上部 V/UHF 2/TACAN 天线是舱盖后机背上的第一个天线，下部天线嵌入左侧腹鳍的底"
+"部。一次只使用一个天线。 天线之间的自动切换可防止丢失TACAN信息。 如果信号丢失"
+"或太弱而无法保持接收器锁定，TACAN会每隔6秒自动在两个天线之间切换以寻求更强的"
+"信号。"
 
 #: ../../source/general.rst:4466
 msgid ""
@@ -17125,10 +17107,10 @@ msgid ""
 "is used to receive and transmit signals. The upper antenna pattern has a "
 "slight forward tilt; the lower pattern a slight aft tilt."
 msgstr ""
-"在此循环和搜索期间，存储器电路保持范围跟踪8到12秒、方位跟踪8秒。 IFF天线波瓣"
-"开关由RIO右侧外置控制台上的IFF ANT开关控制。 若选中AUTO，波瓣开关使接收发射器"
-"在上下天线之间循环。 在LWR（下部）位置，仅使用下部天线来接收和发送信号。 上部"
-"天线图案略微向前倾斜; 下部天线图案略微向后倾斜。"
+"在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF天线波瓣开关"
+"由RIO右侧控制台上的IFF ANT开关控制。AUTO档位，波瓣开关使收发器在上部下部天线"
+"之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾"
+"斜; 下部天线略微向后倾斜。"
 
 #: ../../source/general.rst:4470
 msgid ""
@@ -17138,13 +17120,13 @@ msgid ""
 "neglected for the player. All radios and radio functions work through proper "
 "keying."
 msgstr ""
-"在现实生活中，通常需要选择LWR来改善地面站接收。 然而，由于DCS的限制，天线切换"
-"没有建模，因此不起作用。 对于玩家来说，天线的使用是自动化的和/或忽略的。 所有"
-"无线电和无线电功能都通过适当的键控工作。"
+"在现实生活中，通常需要选择LWR来改善地面站台的接收。 然而，由于DCS的限制，未对"
+"天线切换进行建模，因此无功能。 对于玩家来说，天线的使用是自动化的和/或忽略"
+"的。 所有电台和无线电通话功能通过PTT来控制。"
 
 #: ../../source/general.rst:4475
 msgid "ICS - Intercommunications System"
-msgstr "ICS - 机内对讲系统"
+msgstr "ICS - 机内通话系统"
 
 #: ../../source/general.rst:4478
 msgid ""
@@ -17158,17 +17140,16 @@ msgid ""
 "the B/U (backup) or EMER (emergency) position on the ICS control panel. This "
 "permits continued ICS operation."
 msgstr ""
-"ICS提供机组成员之间的正常、备份或应急通信。它还可以组合和放大从其他电子接收设"
-"备（ECM、响尾蛇音调、IFF/SIF、雷达高度计和无线电语音等）接收到的音频信号。飞"
+"ICS提供机组成员之间的正常、备用或应急通信。它还可以合并和放大从其他电子接收设"
+"备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电语音等）接收到的音频信号。飞"
 "行员和RIO左侧控制台上有相同的ICS控制面板。ICS由四个放大器组成，每个驾驶舱有两"
-"个放大器，在正常操作期间允许双重操作。如果一个放大器发生故障，可以通过选择ICS"
-"控制面板上的B/U（备用）或EMER（紧急）位置来绕过故障放大器。这允许继续进行ICS"
-"操作。"
+"个放大器，在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择ICS控制"
+"面板上的B/U（备用）或EMER（紧急）档位来绕过故障放大器。这可使ICS继续运行。"
 
 #: ../../source/general.rst:4484
 msgid ""
 "If two amplifiers fail at the same station, intercommunication is impossible."
-msgstr "如果一个驾驶舱内的两个放大器同时出现故障, 则无法进行机内通讯。"
+msgstr "如果一个驾驶舱内的两个放大器同时失效, 则无法进行机内通话。"
 
 #: ../../source/general.rst:4486
 msgid ""
@@ -17177,9 +17158,9 @@ msgid ""
 "that station (like SW-tone or ALQ-126 PRF) but you lose ability to control "
 "the volume of the audio you listen to."
 msgstr ""
-"通过在各自的ICS控制面板上选择EMER并使用其他机组成员的放大器，您可以收听通常仅"
-"在该驾驶舱提供的音频 (如响尾蛇音调或ALQ-126 PRF)，但您无法控制所听音频的音"
-"量。"
+"通过选择在各自ICS控制面板上的EMER档位来使用其他机组成员的放大器，你可以收听通"
+"常仅在另一驾驶舱播放的音频 (如响尾蛇音调或ALQ-126 PRF)，但您无法控制收听音频"
+"的音量。"
 
 #: ../../source/general.rst:4489
 msgid ""
@@ -17188,63 +17169,64 @@ msgid ""
 "stations. In DCS this works through selecting the ground crew communication "
 "menu in the DCS radio communication menu when activating ICS PTT."
 msgstr ""
-"外部对讲机连接位于前轮舱中。 当飞行员ICS开关设置为HOT MIC时，地面人员可以与驾"
-"驶舱通信。 在DCS中，通过在激活ICS PTT时选择DCS无线电通信菜单中的地勤人员通信"
-"菜单来工作。"
+"外部机内通话器连接处位于前轮轮舱中。当飞行员ICS开关设置为HOT MIC时，地面人员"
+"可以与驾驶舱内通话。 在DCS中，通过激活ICS PTT时在无线电通信菜单中选择地勤通信"
+"菜单来实现。"
 
 #: ../../source/general.rst:4503
 msgid "Pilot Radio ICS button"
-msgstr "驾驶员无线电ICS按钮"
+msgstr "飞行员ICS 按键通话开关"
 
 #: ../../source/general.rst:4503
 msgid ""
 "ICS – Permits intercommunication when COLD MIC is selected on function "
 "selector. Overrides UHF/VHF communications."
-msgstr "ICS \\- 在功能选择器上选择COLD MIC时允许相互通信。 超控UHF / VHF通信。"
+msgstr ""
+"ICS – 在 ICS 控制开关上选择COLD MIC时允许机内通话。 超控 UHF / VHF 通信。"
 
 #: ../../source/general.rst:4504
 msgid "Both – Keys both radios for operation. Not functional in DCS."
-msgstr "Both \\- 选择同时以两个无线电进行操作。在DCS中无功能。"
+msgstr "Both – 同时使用两个电台通话。在DCS中无功能。"
 
 #: ../../source/general.rst:4505
 msgid "UHF 1 – Keys ARC-159 radio for operation."
-msgstr "UHF 1 \\- 选择以ARC-159无线电进行操作。"
+msgstr "UHF 1 – 使用 ARC-159 无线电台通话。"
 
 #: ../../source/general.rst:4506
 msgid "UHF 2 – Keys ARC-182 radio for operation."
-msgstr "UHF 2 \\- 选择以ARC-182无线电进行操作。"
+msgstr "UHF 2 – 使用 ARC-182 无线电台通话。"
 
 #: ../../source/general.rst:4510 ../../source/general.rst:4706
 #: ../../source/general.rst:4797
 msgid "VOL control"
-msgstr "音量控制"
+msgstr "VOL旋钮"
 
 #: ../../source/general.rst:4510
 msgid ""
 "Controls intercommunication audio level at that cockpit station. Audio level "
 "at other station not affected."
-msgstr "控制该驾驶舱的通信音频电平。其他驾驶舱的音频电平不受影响。"
+msgstr "控制该驾驶舱的通信音量。其他驾驶舱的音量不受影响。"
 
 #: ../../source/general.rst:4515
 msgid "Amplifier selector"
-msgstr "放大器选择器"
+msgstr "放大器选择旋钮"
 
 #: ../../source/general.rst:4515
 msgid ""
 "B/U – (Backup) used to bypass a fault amplifier and uses a backup output "
 "amplifier at own station."
-msgstr "B/U \\- （备用）用于绕过故障放大器并在该驾驶舱使用备用输出放大器。"
+msgstr "B/U –（备用）用于绕过失效的放大器并在该驾驶舱使用备用输出放大器。"
 
 #: ../../source/general.rst:4516
 msgid "NORM – (Normal) used when all amplifiers are functioning properly."
-msgstr "NORM \\- （正常）当所有放大器都正常工作时使用。"
+msgstr "NORM – （正常）当所有放大器都正常工作时使用。"
 
 #: ../../source/general.rst:4517
 msgid ""
 "EMER – (Emergency) used to bypass faulty amplifier and makes use of input "
 "amplifier of other station. No HOT MIC."
 msgstr ""
-"EMER \\- （应急）用于绕过故障放大器并利用其他驾驶舱的输入放大器。没有HOT "
+"EMER – （应急）用于绕过失效放大器并使用另一驾驶舱的输入放大器。无法使用HOT "
 "MIC。"
 
 #: ../../source/general.rst:0
@@ -17257,59 +17239,58 @@ msgid ""
 "engine stall/overtemperature and Sidewinder tones will not be available to "
 "the pilot."
 msgstr ""
-"当前驾驶舱放大器选择开关处于EMER位置时，飞行员将无法听到发动机失速/超温和响尾"
-"蛇提示音。"
+"当前驾驶舱放大器选择旋钮位于EMER档位时，飞行员将无法听到发动机失速/超温警告音"
+"和响尾蛇音调。"
 
 #: ../../source/general.rst:4525 ../../source/general.rst:4737
 msgid "Function selector"
-msgstr "功能选择器"
+msgstr "ICS 控制开关"
 
 #: ../../source/general.rst:4525
 msgid ""
 "RADIO OVERRIDE – Attenuates noncritical radio audio to emphasize "
 "intercommunication when urgent."
-msgstr ""
-"RADIO OVERRIDE \\- 减少非关键无线电音频，以便在紧急情况下强化内部通信。"
+msgstr "RADIO OVERRIDE – 减小非关键无线电音量，以便在紧急情况下强化机内通话。"
 
 #: ../../source/general.rst:4526
 msgid "HOT MIC – Intercommunication without keying."
-msgstr "HOT MIC \\- 无需按键的内部通信。"
+msgstr "HOT MIC – 无需按键的机内通话。"
 
 #: ../../source/general.rst:4527
 msgid ""
 "COLD MIC – Intercommunication only when pilot actuates ICS keying switch on "
 "inboard throttle or RIO actuates keying switch on left foot rest."
 msgstr ""
-"COLD MIC \\- 仅当飞行员按下内侧油门上的ICS键控开关或RIO踩下左侧脚踏板上的键控"
-"开关时，才进行内部通信。"
+"COLD MIC – 仅当飞行员按下内侧油门握把上的ICS开关或RIO踩下左侧脚踏板上的开关"
+"时，才进行机内通话。"
 
 #: ../../source/general.rst:4531
 msgid "RIO’s ICS button (Left Foot Rest)"
-msgstr "RIO的ICS按键（左侧脚踏板）"
+msgstr "RIO的ICS按钮（左侧脚踏板）"
 
 #: ../../source/general.rst:4531
 msgid ""
 "Permits intercommunication if COLD MIC is selected on the function selector "
 "control. Overrides UHF communication."
-msgstr "如果在功能选择器控件上选择了COLD MIC，则允许相互通信。 超控UHF通信。"
+msgstr "如果ICS 控制开关选择了COLD MIC，则可以进行机内通话。 超控UHF通信。"
 
 #: ../../source/general.rst:4536
 msgid "RIO’s MIC button (Right Foot Rest)"
-msgstr "RIO的MIC按键（右侧脚踏板）"
+msgstr "RIO的MIC开关（右侧脚踏板）"
 
 #: ../../source/general.rst:4536
 msgid ""
 "Permits transmission of UHF 1 or UHF 2 radios as selected on the "
 "communications/TACAN command panel. Note that BOTH is not functional in DCS."
 msgstr ""
-"允许在通信/ TACAN命令面板上选择的UHF 1或UHF 2无线电进行传输。注意BOTH在DCS中"
-"无功能。"
+"允许使用 通信/TACAN 指令面板 上选择的UHF 1或UHF 2无线电台进行传输。注意BOTH在"
+"DCS中无功能。"
 
 #: ../../source/general.rst:4541
 msgid ""
 "The two RIO footpedals have axis bindings in DCS to allow sim rudder pedals "
 "to trigger these functions."
-msgstr "RIO的两个脚踏板在DCS中可以被设定为一个轴，以便使用脚躲来使用上述功能。"
+msgstr "玩家在DCS中为两个RIO踏板绑定轴控制后，便可使用脚舵外设触发上述功能。"
 
 #: ../../source/general.rst:4545
 msgid "Audio Warning Signals"
@@ -17324,10 +17305,10 @@ msgid ""
 "off if not required, allowing the flightcrew to concentrate on more critical "
 "tones."
 msgstr ""
-"来自武器系统的音频警告信号可通过ICS提供给任何一个或两个机组成员。每个信号都有"
-"不同的音调。大多数音频信号伴随着视觉显示，这样机组就可以预期音调并解释其含"
-"义。如果不需要的话，大多数音频信号可以被减弱或关闭，从而使机组能够专注于更重"
-"要的音调。"
+"来自武器系统的音频警告信号可通过ICS播放给任何一个或两个机组成员。每个信号都有"
+"不同的音调。面板提示伴随着音频信号，机组人员仅通过警告音的音调便能理解警告含"
+"义。如果不需要的话，大多数音频信号可以被降低或关闭，从而使机组能够专注于更危"
+"急的音调。"
 
 #: ../../source/general.rst:4551
 msgid ""
@@ -17336,8 +17317,8 @@ msgid ""
 "within the aircraft weapon systems. Approximately 1 minute of warmup is "
 "required in order to achieve normal operating temperature."
 msgstr ""
-"任何ICS模式都不能衰减关键警告音。下表提供了机载武器系统内可用的音频警告信号种"
-"类。为了达到正常的工作温度，系统需要大约1分钟的预热。"
+"任何ICS运行模式都不能降低危急警告音。下表提供了机载武器系统内可用的音频警告信"
+"号词汇。为了达到正常的工作温度，系统需要大约1分钟时间预热。"
 
 #: ../../source/general.rst:4556
 msgid "Tone"
@@ -17357,7 +17338,7 @@ msgstr "响尾蛇"
 
 #: ../../source/general.rst:4560
 msgid "Volume/TACAN Command Panel"
-msgstr "音量/TACAN指令面板"
+msgstr "音量/ TACAN 指令面板"
 
 #: ../../source/general.rst:4560
 msgid "Missile lock tone"
@@ -17369,17 +17350,17 @@ msgstr "高频，随着锁定指示而增加。"
 
 #: ../../source/general.rst:4564
 msgid "ALR-67"
-msgstr "ALR-67"
+msgstr ""
 
 #: ../../source/general.rst:4564 ../../source/general.rst:4572
 #: ../../source/general.rst:4576 ../../source/general.rst:4580
 #: ../../source/general.rst:4584
 msgid "Pilot & RIO"
-msgstr "飞行员&RIO"
+msgstr "飞行员 & RIO"
 
 #: ../../source/general.rst:4564
 msgid "Volume/TACAN Command Panel (pilot) & Radar Warning Receiver Panel (RIO)"
-msgstr "音量/TACAN指令面板（飞行员）&雷达告警接收面板（RIO）"
+msgstr "音量/ TACAN 指令面板（飞行员）& 雷达警告接收器面板（RIO）"
 
 #: ../../source/general.rst:4564 ../../source/general.rst:4568
 msgid "Threat indication"
@@ -17391,33 +17372,28 @@ msgstr "低频到高频，由威胁等级决定。"
 
 #: ../../source/general.rst:4568
 msgid "AN/ALQ-126"
-msgstr "AN/ALQ-126"
+msgstr ""
 
 #: ../../source/general.rst:4568
 msgid "DECM Control Panel"
-msgstr "DECM控制面板"
+msgstr "DECM 控制面板"
 
 #: ../../source/general.rst:4568
 msgid "Raw PRF sound."
-msgstr "原始脉冲重复频率声。"
+msgstr "原生脉冲重复频率音。"
 
 #: ../../source/general.rst:4572
 msgid "Radar Altimeter Indicator (Pilot)"
-msgstr "雷达高度指示器（飞行员）"
+msgstr "雷达高度表（飞行员）"
 
 #: ../../source/general.rst:4572
 msgid "Low altitude warning"
-msgstr "低高度告警"
+msgstr "低高度警告"
 
 #: ../../source/general.rst:4572
 msgid "1 000 Hz tone, modulated at 2 pulses per second for 3 seconds."
-msgstr "1000 Hz音调，以每秒2个脉冲调制3秒。"
+msgstr "每秒响两次、持续三秒的1000Hz单音。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid "Control Panel"
-# #-#-#-#-#  general_final_re_rw (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid "Control Panel"
 #: ../../source/general.rst:4576
 msgid "TACAN Control Panel"
 msgstr "TACAN 控制面板"
@@ -17432,35 +17408,35 @@ msgstr "TACAN基站莫尔斯码。"
 
 #: ../../source/general.rst:4580
 msgid "AN/ARC-159 (UHF 1)"
-msgstr "AN/ARC-159（UHF 1）"
+msgstr ""
 
 #: ../../source/general.rst:4580
 msgid "UHF 1 Control Panel (Pilot) & RIO Communication/TACAN Command Panel"
-msgstr "UHF 1 控制面板（飞行员）&RIO通信/TANCAN指令面板"
+msgstr "UHF 1 控制面板（飞行员）& RIO通信/ TANCAN 指令面板"
 
 #: ../../source/general.rst:4580
 msgid "Own aircraft DF transmission"
-msgstr "自身机载测向仪信息"
+msgstr "向其他飞机传输DF信号"
 
 #: ../../source/general.rst:4580
 msgid "1 020 Hz"
-msgstr "1020 Hz"
+msgstr ""
 
 #: ../../source/general.rst:4584
 msgid "AN/ARC-182 (V/UHF 2)"
-msgstr "AN/ARC-182 （V/UHF 2）"
+msgstr ""
 
 #: ../../source/general.rst:4584
 msgid "V/UHF 2 Control Panel (RIO) & Volume/TACAN Command Panel (Pilot)"
-msgstr "V/UHF 2 控制面板（RIO）& 音量/TACAN 指令面板（飞行员）"
+msgstr "V/UHF 2 控制面板（RIO）& 音量/ TACAN 指令面板（飞行员）"
 
 #: ../../source/general.rst:4584
 msgid "Other aircraft DF transmission"
-msgstr "其他机载测向仪信息"
+msgstr "接受来自其他飞机的DF信号"
 
 #: ../../source/general.rst:4584
 msgid "1 020 Hz, morse code or voice."
-msgstr "1020Hz，莫尔斯码或语音。"
+msgstr "1020Hz，莫尔斯码或声音。"
 
 #: ../../source/general.rst:4588
 msgid "Engine Stall/Overtemperature"
@@ -17472,11 +17448,11 @@ msgstr "无"
 
 #: ../../source/general.rst:4588
 msgid "Engine stall detection &  EGT overtemp warning"
-msgstr "检测到发动机失速&排气温度超温告警"
+msgstr "检测到发动机失速 & 排气温度超温警告"
 
 #: ../../source/general.rst:4588
 msgid "Modulated 320 Hz for 10 seconds or until fault is removed if before."
-msgstr "调制320 Hz持续10秒或直到之前的故障被排除。"
+msgstr "播放320 Hz单音最长10秒或直到之前的故障被排除。"
 
 #: ../../source/general.rst:4594
 msgid "Pilot Volume/TACAN Command Panel"
@@ -17488,16 +17464,16 @@ msgid ""
 "volume controls for regulating audio signals from the ALR-67, Sidewinder "
 "(SW) and V/UHF 2."
 msgstr ""
-"飞行员左侧控制台上的音量/ TACAN指令面板有三个音量控制，用于调节来自ALR-67，响"
-"尾蛇（SW）和V/UHF 2 的音频信号。"
+"飞行员左侧控制台上的音量/ TACAN 指令面板有三个音量控制旋钮，用于调节ALR-67，"
+"响尾蛇（SW）和V/UHF 2 的音量。"
 
 #: ../../source/general.rst:4606
 msgid "ALR-67 Volume control"
-msgstr "ALR-67音量控制"
+msgstr "ALR-67 音量控制"
 
 #: ../../source/general.rst:4606
 msgid "Controls volume for pilot ALR-67 indication."
-msgstr "控制飞行员ALR-67指示的音量。"
+msgstr "控制飞行员驾驶舱内 ALR-67 的音量。"
 
 #: ../../source/general.rst:4610
 msgid "SW (Sidewinder) Volume control"
@@ -17505,7 +17481,7 @@ msgstr "SW（响尾蛇）音量控制"
 
 #: ../../source/general.rst:4610
 msgid "Controls volume of pilot's Sidewinder tone."
-msgstr "控制飞行员响尾蛇音调的音量。"
+msgstr "控制飞行员头戴内响尾蛇音调的音量。"
 
 #: ../../source/general.rst:4614
 msgid "V/UHF 2 Volume control"
@@ -17517,23 +17493,23 @@ msgstr "控制飞行员来自V/UHF 2 （AN/ARC-182）的音频音量。"
 
 #: ../../source/general.rst:4618 ../../source/general.rst:4670
 msgid "TACAN CMD control switch/indicator"
-msgstr "TACAN CMD 控制开关/指示器"
+msgstr "TACAN CMD 按钮开关/显示窗"
 
 #: ../../source/general.rst:4618 ../../source/general.rst:4670
 msgid "Controls and indicate crewmember in control of TACAN."
-msgstr "控制并指示机组控制TACAN。"
+msgstr "用于指定或显示控制 TACAN 设备的乘员。"
 
 #: ../../source/general.rst:4624
 msgid "RIO Communication/TACAN Command Panel"
-msgstr "RIO 通讯 / TACAN 指令面板"
+msgstr "RIO 通信/ TACAN 指令面板"
 
 #: ../../source/general.rst:4626
 msgid ""
 "Allows RIO to select either UHF 1 (AN/ARC-159), V/UHF 2 (AN/ARC-182), or "
 "both radios for transmitting."
 msgstr ""
-"允许RIO单独选择UHF 1（AN/ARC-159）、V/UHF 2（AN/ARC-182）或同时选择两个无线电"
-"进行通信。"
+"允许RIO单独选择UHF 1（AN/ARC-159）或 V/UHF 2（AN/ARC-182），或是选择两个无线"
+"电同时进行传输。"
 
 #: ../../source/general.rst:4628
 msgid "BOTH is not functional in DCS."
@@ -17547,9 +17523,9 @@ msgid ""
 "radio off is recommended. In addition, the DATA LINK panel provides lower or "
 "upper antenna selection for UHF 1 and DIL operation."
 msgstr ""
-"V/UHF 2 ANT开关允许选择使用上部或下部天线，以最大限度地减少双UHF或数据链操作"
-"之间的干扰。 建议使用相反的天线、频率间隔大于55 MHz或关闭其中一个无线电。 此"
-"外，DATA LINK面板为UHF 1和DIL操作提供上部或下部天线选择。"
+"V/UHF 2 ANT开关允许选择使用上部或下部天线来尽可能减少两个无线电台或与数据链之"
+"间的干扰。 建议选用相反的天线、频率间隔大于55 MHz或关闭其中一个无线电台。此"
+"外，UHF 1 和 DIL运行使用上部或下部天线可以在 DATA LINK 面板选择。"
 
 #: ../../source/general.rst:4634
 msgid "Antenna Switching is not functional in DCS."
@@ -17561,8 +17537,8 @@ msgid ""
 "between pilot and RIO. The crewmember (PLT or RIO) in control illuminates "
 "when selected."
 msgstr ""
-"TACAN CMD按钮用于在飞行员和RIO之间移交TACAN控制权。 被选中时，拥有控制权的机"
-"组成员（飞行员或RIO）相应的指示灯会亮起。"
+"TACAN CMD按钮用于在飞行员和RIO之间移交TACAN控制权。被选中时，拥有控制权的机组"
+"成员（飞行员或RIO）相应的指示灯会亮起。"
 
 #: ../../source/general.rst:4639
 msgid ""
@@ -17570,8 +17546,8 @@ msgid ""
 "159 UHF 1 radio. The KY MODE switch is operative only when the KY-58 is "
 "installed."
 msgstr ""
-"UHF 1 VOL控制允许RIO调节ARC 159 UHF 1 无线电的音频电平。 KY MODE开关仅在安装"
-"KY-58时有效。"
+"UHF 1 VOL控制旋钮允许RIO调节头戴中ARC 159 UHF 1 无线电台的音量。KY MODE开关只"
+"在安装了 KY-58 时有效。"
 
 #: ../../source/general.rst:4642
 msgid "The Heatblur F-14B version uses the KY-28 only."
@@ -17583,19 +17559,19 @@ msgstr "XMTR SEL 开关"
 
 #: ../../source/general.rst:0
 msgid "Selects desired VHF/UHF radio for use."
-msgstr "选择所需的VHF/UHF无线电。"
+msgstr "选择在哪个 VHF/UHF 电台通信。"
 
 #: ../../source/general.rst:0
 msgid "UHF 1 - Selects ARC-159 UHF 1 radio."
-msgstr "UHF 1 \\- 选择ARC-159 UHF 1 无线电。"
+msgstr "UHF 1 - 选择ARC-159 UHF 1 无线电台。"
 
 #: ../../source/general.rst:0
 msgid "V/UHF 2 - Selects ARC-182 VHF/UHF radio."
-msgstr "V/UHF 2 \\- 选择ARC-182 VHF/UHF 无线电."
+msgstr "V/UHF 2 - 选择ARC-182 VHF/UHF 无线电台."
 
 #: ../../source/general.rst:0
 msgid "Both - Selects both radios. (Not functional in DCS)"
-msgstr "Both \\- 同时选择两个无线电。（在DCS中无功能）"
+msgstr "Both - 同时选择两台无线电。（在DCS中无功能）"
 
 #: ../../source/general.rst:4662
 msgid "V/UHF 2 ANT switch"
@@ -17603,11 +17579,11 @@ msgstr "V/UHF 2 ANT 开关"
 
 #: ../../source/general.rst:0
 msgid "UPR - Selects upper antenna for V/UHF 2."
-msgstr "UPR \\- 为V/UHF 2 选择上部天线。"
+msgstr "UPR - 为V/UHF 2 选择上部天线。"
 
 #: ../../source/general.rst:0
 msgid "LWR - Selects lower antenna for V/UHF 2."
-msgstr "LWR \\- 为V/UHF 2 选择下部天线。"
+msgstr "LWR - 为V/UHF 2 选择下部天线。"
 
 #: ../../source/general.rst:4666
 msgid "Non-functional in DCS."
@@ -17615,22 +17591,24 @@ msgstr "在DCS中无功能。"
 
 #: ../../source/general.rst:4674
 msgid "UHF 1 VOL control"
-msgstr "UHF 1 VOL控制"
+msgstr "UHF 1 VOL 控制旋钮"
 
 #: ../../source/general.rst:4674
 msgid "Controls volume of RIO audio from UHF 1 (AN/ARC-159)."
-msgstr "控制RIO的UHF 1电台（AN/ARC-159）的音频音量。"
+msgstr "控制RIO头戴中的UHF 1（AN/ARC-159）音频音量。"
 
 msgid "5 KY MODE switch"
 msgstr "5 KY MODE开关"
 
+# AG 12/24校对完毕
 #: ../../source/general.rst:4678
 msgid "Non-functional with KY-28."
-msgstr "对KY-28无作用。"
+msgstr "KY-28无效。"
 
+# AG重新翻译
 #: ../../source/general.rst:4684
 msgid "AN/ARC-159 (UHF 1) Radio"
-msgstr "AN/ARC-159 (UHF 1) 电台"
+msgstr "AN/ARC-159 (UHF 1) 无线电台"
 
 #: ../../source/general.rst:4686
 msgid ""
@@ -17644,37 +17622,37 @@ msgid ""
 "output of 10 watts. All controls for operation of the radio are on the front "
 "panel of the radio. The radio is located on the pilot left console."
 msgstr ""
-"UHF 1 (ARC-159)无线电提供空空和空地（海）语音通讯。无线电频率范围为225.000到"
-"399.975 MHz。此设备允许发送和接收过程中使用AM（调幅）模式，预设了20个频道和一"
-"个紧急频道(243.000MHz)。在选择了某一频率后可同时监听应急频道。ARC-159有7 000"
-"个频率可供选择，频率通过旋钮手动设定，调整的最小单位为25-kHz。ARC-159是一个固"
-"态独立单元，最小射频输出功率为10w。无线电的所有控制操作都在无线电前面板上。无"
-"线电位于飞行员座舱左控制台上。"
+"UHF 1 (ARC-159)无线电提供空空和空面语音通讯。无线电频率范围从 225.000 - "
+"399.975 兆赫兹。该设备允许在20个预设频道上的任意一个或救生频率（243.000 MHz）"
+"上进行AM模式收发。救生频率可与其它任意已选频率同时监听。ARC-159通过手动调整 "
+"25-KHz拨动开关可能有7000个可用频率。ARC-159为固态，自主元件，最小RF功率为10"
+"瓦。无线电的所有控制操作都在无线电前面板上。无线电位于飞行员左侧控制台上。"
 
 #: ../../source/general.rst:4693
 msgid ""
 "Note: The UHF 1 (ARC-159) ADF position is non-functional in the modelled "
 "version of the F-14; use the DF mode of V/UHF 2 ARC-182."
 msgstr ""
-"注意：UHF 1 (ARC-159) 的ADF模式在游戏中无功能；使用V/UHF 2 ARC-182的DF模式。"
+"注意：在模拟的F-14版本中 UHF 1 (ARC-159) 的ADF模式无功能；使用V/UHF 2 ARC-182"
+"的DF模式。"
 
 #: ../../source/general.rst:4706
 msgid "Controls volume of pilot audio for UHF 1."
-msgstr "控制飞行员座舱UHF 1无线电的音量。"
+msgstr "飞行员驾驶舱UHF 1无线电音量控制。"
 
 #: ../../source/general.rst:4710
 msgid "SQL (Squelch) switch"
-msgstr "SQL（降噪）开关"
+msgstr "SQL（静噪）开关"
 
 #: ../../source/general.rst:4710 ../../source/general.rst:4801
 msgid ""
 "On/off control for radio squelch (noise-blanking when carrier is not "
 "present)."
-msgstr "无线电降噪的开关控制（航母不在时的降噪）"
+msgstr "开启或关闭无线电静噪（未收到载波时消除杂音）"
 
 #: ../../source/general.rst:4714 ../../source/general.rst:4805
 msgid "Frequency Tuning switches (Springloaded to Center)"
-msgstr "频率调谐开关（弹簧力回中）"
+msgstr "频率拨动开关（弹簧回中）"
 
 #: ../../source/general.rst:4714 ../../source/general.rst:4805
 msgid ""
@@ -17685,60 +17663,57 @@ msgid ""
 "deflection of the switch increases the numeric reading, and aft deflection "
 "decreases the numeric reading."
 msgstr ""
-"四个频率调节开关用来在模式选择开关位于MANUAL（人工）位时调谐无线电收发器。"
+"当模式选择旋钮设置为MANUAL时使用四个频率拨动开关来调谐收发器。左边的开关控制"
+"百位和十位数，从左往右第二位控制个位，右侧开关分别控制百分之一和千分之一。开"
+"关向前拨动频率增加，向后拨动则会减少。"
 
 #: ../../source/general.rst:4721
 msgid "FREQ/(CHAN) display"
-msgstr "无线电频率/(频道) 显示器"
+msgstr "FREQ/(CHAN) 显示窗"
 
 #: ../../source/general.rst:4721
 msgid ""
 "Displays frequency when mode selector switch is in MANUAL and displays UHF "
 "channel when mode switch is in PRESET."
-msgstr ""
-"当模式选择开关在MANUAL位时显示频率，模式选择开关在PRESET（预设）位时显示UHF频"
-"道。"
+msgstr "模式选择旋钮位于MANUAL时显示频率，位于PRESET档位时显示UHF预设频道。"
 
 #: ../../source/general.rst:4725
 msgid "READ switch"
-msgstr "读取开关"
+msgstr "READ 开关"
 
 #: ../../source/general.rst:4725
 msgid ""
 "Deflection of the switch causes the frequency display to show the preset "
 "channel frequency."
-msgstr "点击开关来让频率显示器显示预设频道的频率。"
+msgstr "拨动开关后显示窗将显示预设频道的频率。"
 
 #: ../../source/general.rst:4729
 msgid "BRT/TEST control"
-msgstr "亮度/测试 控制"
+msgstr "BRT/TEST 旋钮"
 
 #: ../../source/general.rst:4729
 msgid ""
 "Controls brightness of radio FREQ/(CHAN) display. Turn past max to show "
 "888.888 test display."
-msgstr ""
-"控制无线电频率/（频道）显示器的亮度。转到最大处来进行测试，此时会显示"
-"888.888。"
+msgstr "控制 FREQ/(CHAN) 显示窗的亮度。转到最大亮度来显示888.888测试。"
 
 #: ../../source/general.rst:4733
 msgid "LOAD button"
-msgstr "载入按钮"
+msgstr "LOAD 按钮"
 
 #: ../../source/general.rst:4733
 msgid "Depressing button saves displayed frequency to selected preset channel."
-msgstr "按下按钮来将显示的无线电频率保存到之前选择的频道。"
+msgstr "按下按钮将显示窗的频率保存至当前选择的预设频道。"
 
 #: ../../source/general.rst:0
 msgid ""
 "ADF – The UHF 1 ARC-159 ADF function is not functional; use the DF mode of "
 "the V/UHF 2 ARC-182."
-msgstr ""
-"ADF – UHF 1 (ARC-159) 的ADF功能在游戏中未实现；使用V/UHF 2 ARC-182的DF模式。"
+msgstr "ADF – UHF 1 (ARC-159) 的ADF无功能；使用V/UHF 2 ARC-182的DF模式。"
 
 #: ../../source/general.rst:0
 msgid "BOTH – Energizes both the main transceiver and the guard receiver."
-msgstr "BOTH –激活主无线电收发器和应急频道接收器。"
+msgstr "BOTH – 接通主无线电收发器和救生频道接收机。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17746,22 +17721,21 @@ msgid ""
 "reception. Receive or transmit function is selected by the microphone push-"
 "to-talk switch."
 msgstr ""
-"MAIN –激活主无线电收发器，允许正常的发送和接收。接收或发送功能通过传声器按下"
-"通话开关激活。"
+"MAIN – 主收发器已接通并且可以正常收发。用传声器按键通话开关选择传输和接收。"
 
 #: ../../source/general.rst:0
 msgid "OFF – Secures UHF 1 radio."
-msgstr "OFF – 关闭 UHF 1无线电。"
+msgstr "OFF – 关闭 UHF 1无线电台。"
 
 #: ../../source/general.rst:4747
 msgid "CHAN SEL control"
-msgstr "频道选择控制器"
+msgstr "CHAN SEL 旋钮"
 
 #: ../../source/general.rst:4747
 msgid ""
 "Selects one of 20 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr "当调谐选择器开关位于PRESET位时，用来选择20个预设的无线电频道中的一个。"
+msgstr "当模式选择旋钮设置为PRESET时，用来选择20个预设频道中的任意一个。"
 
 #: ../../source/general.rst:4751
 msgid "Frequency Chart"
@@ -17772,12 +17746,11 @@ msgid ""
 "Used to record preset channel frequencies. Frequencies preset in the mission "
 "editor will be automatically displayed here in DCS."
 msgstr ""
-"用来记录预设无线电频道的频率。在DCS中，任务编辑器预设好的无线电频率会自动显示"
-"在这里。"
+"用来记录预设频道的频率。在DCS中，任务编辑器中预设的频率会自动显示在这里。"
 
 #: ../../source/general.rst:4755
 msgid "Mode Selector switch"
-msgstr "模式选择开关"
+msgstr "模式选择旋钮"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17785,8 +17758,8 @@ msgid ""
 "243.0 MHz permitting transmission and reception. In this position, both "
 "preset and manual frequency selections are not available."
 msgstr ""
-"GUARD –激活主无线电收发器，并转到紧急频率243.0 MHz来进行发送和接收。在这个位"
-"置，预设的和人工输入的无线电频率都失效。"
+"GUARD – 接通主无线电收发器，并转到救生频率243.0 MHz进行传输和接收.。在这个档"
+"位，预设与手动选择频率将不可用。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17795,8 +17768,8 @@ msgid ""
 "selected is displayed in the readout window. In this position, PRESET "
 "selections are not available."
 msgstr ""
-"MANUAL –频率调谐控制器，用来在一定范围内调谐主无线电收发器（7 000个可用）。被"
-"选择的频率在读出窗口中显示。在此位置时， PRESET 选择无效。"
+"MANUAL – 频率拨动开关用来将主收发器调谐至频率范围内的任一频率（7000个可用）。"
+"所选的频率将显示在显示窗中。在这个档位，PRESET选择为不可用。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17804,19 +17777,20 @@ msgid ""
 "PRESET channel selector. The selected channel is displayed in the readout "
 "window."
 msgstr ""
-"PRESET –通过使用预设频道选择器调谐到20个预设频道中的任何一个频率。选择的频道"
-"在窗口显示。"
+"PRESET – 使用预设频道拨轮将收发器调谐至20个预设频道中的任一频道。显示窗将会显"
+"示已选的频道。"
 
 #: ../../source/general.rst:4763
 msgid "TONE button"
-msgstr "调谐按钮"
+msgstr "TONE 按钮"
 
 #: ../../source/general.rst:4763
 msgid ""
 "Depressing button causes a steady tone (1 020 Hz) to be transmitted on the "
 "frequency or channel selected."
-msgstr "按下按钮后可在选择的频率或者频道上发送一个稳定的音调（1 020Hz）。"
+msgstr "按住按钮会在当前无线电频率或频道上发送一个单音（频率为1,020赫兹）"
 
+# 存疑
 #: ../../source/general.rst:4767
 msgid ""
 "UHF communication interference with the D/L may cause the TILT light to "
@@ -17827,11 +17801,12 @@ msgid ""
 "MHz, and if necessary along with turning UHF 1 or V/UHF 2 radio OFF to avoid "
 "mutual interference between UHF communications."
 msgstr ""
-"UHF通信和数据链的互相干扰可能导致TILT灯亮起、自动驾驶仪ACL或VEC / PCD模式断"
-"开。UHF和数据链之间的干扰可能会导致数据链回复信息中的鸣叫。注意：虽然在DCS中"
-"天线开关未实现，仍然建议无线电频率之间间隔大于55 MHz，并且如果有必要的话，关"
-"闭UHF 1和V / UHF 2无线电中的一个，以避免UHF通信之间的相互干扰。"
+"UHF通讯会干扰D/L可能导致TILT报警灯亮起、自动驾驶中ACL或VEC/PCD模式断开。数据"
+"链对UHF的干扰可能导致在D/L回复信息时听见啁啾。注意：尽管DCS中未实现切换天线，"
+"但仍然建议使用频率的间隔大于55MHz，必要时关闭UHF 1或 V/UHF 2无线电台中的一"
+"个，以免互相干扰。"
 
+# 存疑
 #: ../../source/general.rst:4769
 msgid ""
 "Transmissions on both UHF 1 and V/UHF 2 radios, while operating on the same "
@@ -17839,12 +17814,13 @@ msgid ""
 "caused by RF interaction between the two radios operating on the same "
 "frequency in close proximity to each other."
 msgstr ""
-"UHF 1和V / UHF 2无线电在相同频率下工作时可能会产生啸叫。这是由在彼此非常接近"
-"的两个无线电设备在相同频率上运行时，无线电频率互相干扰的正常情况。"
+"UHF 1和 V/UHF 2无线电台在同频率下工作传输时可能导致出现干扰哨声。有此反馈是正"
+"常情况，这是由于两个无线电台过于接近且工作在同一频率，RF互相干扰引起的。"
 
+# AG重新翻译
 #: ../../source/general.rst:4773
 msgid "AN/ARC-182 (V/UHF 2) Radio"
-msgstr "AN/ARC-182 (V/UHF 2) 无线电"
+msgstr "AN/ARC-182 (V/UHF 2) 无线电台"
 
 #: ../../source/general.rst:4775
 msgid ""
@@ -17854,9 +17830,10 @@ msgid ""
 "88, 108 to 156, 156 to 174, and 225 to 399.975 MHz on any of 11,960 channels "
 "(separated by 25 kHz)."
 msgstr ""
-"ARC-182无线电提供多模式，多频道，空-空/空-地（海）语音和音调通信。ARC-182控制"
-"面板位于RIO座舱的左控制台。频率分布在四个区间，分别为30到88，108到156，156到"
-"174和225到399.975 MHz中的11,960个频道上的任意一个（相邻频道以25 KHz分开）。"
+"ARC-182无线电台提供多模式，多频道，空空/空面语音及单音通讯。ARC-182控制面板位"
+"于RIO左侧控制台上。无线电频率有四个频段，分别为 30 至 88 ，108 至 156 ，156 "
+"至 174 ，以及 225 至399.975MHz 内 11960 个频道中的任一频道（使用 25 KHz开关调"
+"整）"
 
 #: ../../source/general.rst:4778
 msgid "The “Have Quick” anti-jam function is not implemented in DCS."
@@ -17875,90 +17852,89 @@ msgid ""
 "NM (depending on altitude and atmospheric conditions). A remote indicator on "
 "the pilot instrument panel indicates the channel or frequency selected."
 msgstr ""
-"无线电在在 AM（调幅） 和 FM（调频）频段进行。无线电自动选择调制方式，但 225 "
-"至 399.975 MHz 频段（拨动开关）除外。有30个预设频道可用。随着任意其他频率被选"
-"择，每个频段内的紧急频率可在选择了其他频率的同时监听。无线电系统使用 ARA-50 "
-"来提供对导航站的自动测向。ARC-182使用安全语音设备来工作(KY-28, KY-58 在DCS中"
-"未实现）。上下安装的天线提供可靠的200海里视线通信（取决于高度和大气条件）。飞"
-"行员驾驶舱仪表面板上的一个显示器显示选择的频道或频率。"
+"无线电台可以使用AM或FM进行收发。除了 225 至 399.975 频段（拨动开关）外，无线"
+"电将自动选择调制方式。30个预设频道可用。每个频段的救生频率可随其它已选的频率"
+"同时监听。无线电被用于与ARA-50一起使用，提供信标的自动测向（ADF）。ARC-182使"
+"用加密语音设备运行（KY-28，KY-58在DCS中尚未实现）。上部与下部天线在200海里内"
+"可提供可靠的视线内通讯（根据高度与的大气条件而定）。飞行员仪表板上的远程显示"
+"器显示了选择频率或频道。"
 
 #: ../../source/general.rst:4797
 msgid "Controls volume of RIO audio for V/UHF 2."
-msgstr "控制RIO的V/UHF 2无线电音量。"
+msgstr "控制 RIO 头戴中 V/UHF 2 音频音量。"
 
 #: ../../source/general.rst:4801
 msgid "SQL (squelch) switch"
-msgstr "SQL（降噪）开关"
+msgstr "SQL（静噪）开关"
 
 #: ../../source/general.rst:4812
 msgid "FREQ/(CHAN)"
-msgstr "频率/（频道）"
+msgstr ""
 
 #: ../../source/general.rst:4812
 msgid ""
 "Displays frequency when mode selector switch is in MAN and displays V/UHF "
 "channel when mode switch is in PRESET."
-msgstr ""
-"当主模式选择开关在MAN位时，显示频率，主模式开关在PRESET位时显示V/UHF的频道。"
+msgstr "模式选择旋钮位于MAN档位时显示频率，位于PRESET时显示V/UHF频道。"
 
 #: ../../source/general.rst:4816
 msgid "UHF Mode switch"
-msgstr "UHF模式开关"
+msgstr "UHF 模式开关"
 
 #: ../../source/general.rst:0
 msgid ""
 "Operational when tuned to frequencies in the 225.000 to 399.000 MHz band."
-msgstr "频率调谐到225.000到399.000MHz区间时可用。"
+msgstr "频率在 225.000 到 399.000MHz 之间时可用。"
 
 #: ../../source/general.rst:0
 msgid ""
 "AM – Selects amplitude modulation signals. Varies with atmospheric "
 "conditions, susceptible to electromagnetic interference."
-msgstr "AM – 选择调幅信号。随大气条件变化，易受电磁干扰。"
+msgstr "AM – 选择调幅信号。随大气条件而变化，容易受到电磁干扰。"
 
 #: ../../source/general.rst:0
 msgid ""
 "FM – Selects frequency modulation signals. Reduces electromagnetic "
 "interference."
-msgstr "FM – 选择调频信号。能减少电磁干扰的影响。"
+msgstr "FM – 选择调频信号。减少电磁干扰。"
 
 #: ../../source/general.rst:4824
 msgid "BRT control"
-msgstr "亮度控制"
+msgstr "BRT 旋钮"
 
 #: ../../source/general.rst:4824
 msgid "Controls brightness of radio FREQ/(CHAN) display."
-msgstr "控制无线电频率/（频道）显示器的亮度。"
+msgstr "调节 FREQ/(CHAN) 显示窗的亮度。"
 
 #: ../../source/general.rst:4828
 msgid "MODE selector"
-msgstr "模式选择器"
+msgstr "MODE 旋钮"
 
 #: ../../source/general.rst:0
 msgid ""
 "OFF – Secures VHF/UHF radio, unless frequency mode switch is set to 243."
-msgstr "OFF – 关闭VHF/UHF无线电，除非无线电模式开关设置到243。"
+msgstr "OFF – 关闭 VHF/UHF 无线电，除非无线电模式旋钮设置到243。"
 
 #: ../../source/general.rst:0
 msgid "T/R – Energizes transmitter and main receiver."
-msgstr "T/R – 激活发送器和主接收器。"
+msgstr "T/R – 接通发送器和主接收机。"
 
 #: ../../source/general.rst:0
 msgid "T/R&G – Energizes transmitter, main, and guard receivers."
-msgstr "T/R&G – 激活发送器，主要和紧急接收器。"
+msgstr "T/R&G – 接通发送器，主要和应急接收机。"
 
 #: ../../source/general.rst:0
 msgid "DF – Provides automatic direction finding from 108 to 399.975 MHz."
-msgstr "DF – 提供自动定向，频率从108到3999.975MHz。"
+msgstr "DF – 从 108 至 399.975 MHz内提供自动测向。"
 
 #: ../../source/general.rst:0
 msgid ""
 "TEST – Indicates built-in-test (BIT) AT; displayed on FREQ/(CHAN) indicator."
-msgstr "TEST（测试） – 显示自检（BIT）AT；显示在无线电频率/（频道）显示器上。"
+msgstr "TEST – 显示机内自检（BIT）AT；在 FREQ/(CHAN) 显示窗上显示。"
 
 #: ../../source/general.rst:4840
 msgid "Frequency Mode switch (Outer Dial)"
-msgstr "频率模式开关（外圈表盘）"
+msgstr "频率模式选择旋钮（外侧旋钮）"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17967,8 +17943,8 @@ msgid ""
 "receiver to tune to 243.000 MHz (UHF guard frequency). All functions except "
 "VOL SQL and BAT are disabled."
 msgstr ""
-"243 – 打开无线电收发器（优先于（外圈表盘）操作模式控制），使主无线电收发器调"
-"谐到243.000MHz（UHF紧急频率）。除了VOL SQL和BAT功能外所有功能都未实现。"
+"243 – 打开收发器（越级控制运行模式旋钮）并使主收发器和应急接收机调谐至 "
+"243.000 MHz（UHF救生频率）。除了VOL SQL和BAT功能外其它功能禁用。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17980,7 +17956,7 @@ msgstr "MAN（人工） –允许通过使用频率调谐开关人工选择一�
 msgid ""
 "G – Tunes the transceiver to the guard frequency in the band to which the "
 "radio was last tuned."
-msgstr "G（紧急） – 把最后进行调谐操作的无线电收发器调谐到紧急频率。"
+msgstr "G – 将收发器调谐至无线电最后使用频段的救生频率。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17989,69 +17965,72 @@ msgid ""
 "display. Channels 31 through 40 are for Have Quick (antijam) use and are not "
 "implemented in DCS."
 msgstr ""
-"PRESET（预设） – 允许通过频道选择开关选择40个预设频道频率中的任意一个。选择的"
-"频道在无线电频率/（频道）显示器上显示。频道31到40用来反干扰，在DCS中未实现。"
+"PRESET – 使用CHAN SEL 旋钮选择40个预设工作频率中的任意一个。已选的频道将显示"
+"在 FREQ/(CHAN) 显示窗内。频道 31 - 40 为Have Quick（反干扰）使用，DCS中尚未实"
+"现。"
 
 #: ../../source/general.rst:0
 msgid ""
 "READ – Displays the frequency (rather than channel) of preset channel "
 "selected."
-msgstr "READ（读取） –显示预设频道的频率（而不是频道）"
+msgstr "READ – 显示已选预设频道的频率。"
 
 #: ../../source/general.rst:0
 msgid ""
 "LOAD – Automatically places the displayed frequency into the memory for the "
 "selected preset channel."
-msgstr "LOAD（载入）-自动把显示的频率存储到预设的频道。"
+msgstr "LOAD - 将显示窗的频率保存至当前预设频道。"
 
 #: ../../source/general.rst:4854
 msgid "CHAN SEL switch (Inner Dial)"
-msgstr "频道选择开关（内圈表盘）"
+msgstr "CHAN SEL 旋钮（内侧旋钮）"
 
 #: ../../source/general.rst:4854
 msgid ""
 "Selects one of 40 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr "当调谐选择开关设置到PRESET（预设）位时，选择40个预设频道中的一个。"
+msgstr "当频率模式选择旋钮设置为PRESET时，从40个预设频道中任选一个来使用。"
 
+# AG重新翻译
 #: ../../source/general.rst:4860
 msgid "Loading (saving) Preset Channel(s) on UHF 1 and V/UHF 2"
-msgstr "在 UHF 1 和 V/UHF 2 中读取（保存）预设频道"
+msgstr "UHF 1 和 V/UHF 2 中读取（保存）预设频道"
 
 #: ../../source/general.rst:4862
 msgid "MODE selection- T/R or T/R&G."
-msgstr "模式选择-T/R或T/R&G。"
+msgstr "MODE 选择- T/R 或 T/R&G。"
 
 #: ../../source/general.rst:4864
 msgid "Frequency mode control - PRESET."
-msgstr "频率模式控制-预设。"
+msgstr "频率模式选择旋钮 - PRESET。"
 
 #: ../../source/general.rst:4866
 msgid "CHAN SEL switch- Select desired channel."
-msgstr "频道选择开关-选择需要的频道。"
+msgstr "CHAN SEL 旋钮 - 选择所需的频道。"
 
 #: ../../source/general.rst:4868
 msgid "Frequency mode control- READ."
-msgstr "频率模式控制-读取。"
+msgstr "频率模式选择旋钮 - READ。"
 
 #: ../../source/general.rst:4870
 msgid "Frequency select switches - Slew to desired Frequency."
-msgstr "频率选择开关-调到所需的频率。"
+msgstr "频率选择选择旋钮 - 调到所需的频率。"
 
 #: ../../source/general.rst:4872
 msgid ""
 "Frequency mode control - LOAD (frequency is stored in memory for selected "
 "channel)."
-msgstr "频率模式控制-载入（频率存储到选择的频道中）"
+msgstr "频率模式选择旋钮 - LOAD（频率已存储到选择的频道中）。"
 
 #: ../../source/general.rst:4874
 msgid "Frequency mode control- READ, Verify frequency display."
-msgstr "#频率模式控制-读取，核实频率显示。"
+msgstr "频率模式选择旋钮 - READ，核实频率显示。"
 
 #: ../../source/general.rst:4876
 msgid "Repeat steps 2 through 7 for subsequent channels."
-msgstr "对后续频道重复步骤2到步骤7。"
+msgstr "后续频道输入重复第二步至第七步。"
 
+# 12月02日之前由AG重新翻译
 #: ../../source/general.rst:4880
 msgid "AN/ARC-182 BIT (Built-in Test)"
 msgstr "AN/ARC-182 BIT（自检）"
@@ -18062,8 +18041,8 @@ msgid ""
 "display blanks, indicates an erroneous readout or the transceiver otherwise "
 "malfunctions."
 msgstr ""
-"自检隔离了AN/ARC-182的故障。如果无线电频率/（频道）显示器空白，或显示错误读"
-"数，则需要开始机内自检。"
+"自检隔离了AN/ARC-182的故障。如果 FREQ/(CHAN) 显示窗空白，或显示错误读数，则需"
+"要开始机内自检。"
 
 #: ../../source/general.rst:4884
 msgid "Proceed as follows:"
@@ -18071,11 +18050,11 @@ msgstr "按以下步骤进行："
 
 #: ../../source/general.rst:4886
 msgid "MODE selector - TEST."
-msgstr "模式选择旋钮 - 测试。"
+msgstr "MODE 选择旋钮 - 测试。"
 
 #: ../../source/general.rst:4888
 msgid "BRT control- As Required."
-msgstr "亮度控制- 按需。"
+msgstr "BRT旋钮- 按需。"
 
 #: ../../source/general.rst:4890
 msgid "BIT requires approximately 10 seconds, observe FREQ/(CHAN) display."
@@ -18100,12 +18079,12 @@ msgid "Interpretation"
 msgstr "解释"
 
 msgid "RCV"
-msgstr "接收"
+msgstr ""
 
 #: ../../source/general.rst:4899 ../../source/general.rst:4901
 #: ../../source/general.rst:4903
 msgid "'"
-msgstr "'"
+msgstr ""
 
 #: ../../source/general.rst:4899
 msgid "RMT or RT"
@@ -18117,22 +18096,22 @@ msgstr "选择测试模式"
 
 #: ../../source/general.rst:4901
 msgid "XMT"
-msgstr "XMT"
+msgstr ""
 
 #: ../../source/general.rst:4901
 msgid "LOW PWR"
-msgstr "电量低"
+msgstr ""
 
 #: ../../source/general.rst:4903 ../../source/general.rst:4905
 #: ../../source/general.rst:4907 ../../source/general.rst:4909
 #: ../../source/general.rst:4911 ../../source/general.rst:4913
 #: ../../source/general.rst:4915
 msgid "TEST"
-msgstr "测试"
+msgstr ""
 
 #: ../../source/general.rst:4903
 msgid "RMT CTRL"
-msgstr "RMT控制"
+msgstr ""
 
 #: ../../source/general.rst:4903
 msgid "Defective control"
@@ -18144,7 +18123,7 @@ msgstr "888.888"
 
 #: ../../source/general.rst:4905
 msgid "NONE"
-msgstr "NONE"
+msgstr ""
 
 #: ../../source/general.rst:4905
 msgid "RT and CTRL ok"
@@ -18181,7 +18160,7 @@ msgstr "6 5 1"
 
 #: ../../source/general.rst:4911
 msgid "FWD PWR"
-msgstr "FWD 电源"
+msgstr ""
 
 #: ../../source/general.rst:4913
 msgid "1 5 7"
@@ -18241,10 +18220,12 @@ msgid ""
 "Displays a readout of the frequency or channel set for the V/UHF 2 radio."
 msgstr "用于显示 V/UHF 2 无线电的频率或所选频道。"
 
+# AG重新翻译至此
 #: ../../source/general.rst:4944
 msgid "UHF 1 Remote Channel/Frequency Indicator (RIO)"
 msgstr "UHF 1 频道/频率远程显示器（RIO）"
 
+# AG进行校对和修改-12/10
 #: ../../source/general.rst:4952
 msgid "AN/ARA-50 UHF Automatic Direction Finder"
 msgstr "AN/ARA-50 UHF 自动测向仪"
@@ -18257,10 +18238,11 @@ msgid ""
 "manually set frequency in the 108 to 399.975 MHz range. The system has a "
 "line-of-sight range, varying with altitude."
 msgstr ""
-"UHF 自动寻向仪基于 ARC-182 无线电工作。ADF 能提供与地面基站或其他飞机的相对方"
-"位。它可以在30个预设频道中的任意一个或者是在108到399.975 MHz 范围内的任何手动"
-"设定频率。该系统有信号接收范围，随高度而变化。"
+"UHF 自动测向仪被用于与 ARC-182 无线电台一起工作。ADF 能提供与地面信标或其他飞"
+"机的相对方位。它可以在30个预设频道中的任意一个或者是在 108 到 399.975 MHz 范"
+"围内的任何手动设定频率上接收信号。该系统有视线内通讯范围，随高度而变化。"
 
+# AG ADF校对完毕
 #: ../../source/general.rst:4958
 msgid ""
 "The system requires a 5-minute warmup period. During the warmup time, "
@@ -18269,13 +18251,14 @@ msgid ""
 "BDHI (No. 1 needle), pilot HSD, and RIO multiple display indicator. The ADF "
 "signal is interrupted during voice UHF transmissions."
 msgstr ""
-"该系统有五分钟的预热时间，在预热期间应忽略故障指示。系统使用 AS-909/ARA-48 自"
-"动寻向仪天线。飞机与基站的相对方位将在飞行员/RIO BDHI（指针 1），飞行员 HSD，"
-"以及 RIO MDI上显示。在 UHF 语音传输时，ADF 信号将中断。"
+"该系统有五分钟的预热时间，在预热期间应忽略故障指示。系统使用 AS-909/ARA-48 "
+"ADF天线。飞机与信标的相对方位将在飞行员/RIO BDHI（指针 1），飞行员 HSD，以及 "
+"RIO MDI上显示。在 UHF 语音传输时，ADF 信号将中断。"
 
+# AG修改校对-12/12
 #: ../../source/general.rst:4963
 msgid "TSEC/KY-28 Voice Security Equipment"
-msgstr "TSEC/KY-28 语音安全设备"
+msgstr "TSEC/KY-28 语音加密设备"
 
 #: ../../source/general.rst:4965
 msgid ""
@@ -18284,9 +18267,9 @@ msgid ""
 "The KY-28 control panel on the RIO left side console is the only cockpit "
 "control for operating the KY-28 in either cipher or plain-language modes."
 msgstr ""
-"该安全系统已集成进 VHF/UHF 2 和 UHF 1 通讯系统中并与两系统协同工作以在敌对环"
-"境中提供安全的语音通讯。RIO 驾驶舱左侧控制台的 KY-28 控制面板是控制 KY-28 以"
-"明文或密文通讯的唯一的驾驶舱内控制。"
+"该加密设备已集成进 VHF/UHF 2 和 UHF 1 通讯系统中并与两系统协同工作以在敌对环"
+"境中提供安全的语音通讯。驾驶舱中唯一一个控制KY-28的加密或明文模式的装置就是位"
+"于RIO左侧控制台的KY-28控制板。"
 
 #: ../../source/general.rst:4968
 msgid ""
@@ -18296,10 +18279,9 @@ msgid ""
 "attain secure operation. The receiving station must be properly equipped to "
 "receive transmissions in the proper cipher mode."
 msgstr ""
-"KY-28 有两种基本的工作模式：明文（P）或密文（C）。在正常的 UHF 通讯条件下使用"
-"明文模式。当需要加密语音传输时则使用密文模式。无线电设备电源必须位于 ON 以实"
-"现加密操作，接收机也应配备正确的设备以便在适当的密文通讯模式下接收无线电传"
-"输。"
+"KY-28 有两种基本的工作模式：明文（P）或密文（C）。在正常的 UHF 通讯下使用明文"
+"模式。当需要加密语音时则使用密文模式。无线电台必须位于 ON 以实现加密操作。接"
+"收机也应配备正确的设备来接收特定密文模式的传输。"
 
 #: ../../source/general.rst:4977
 msgid "ZEROIZE switch"
@@ -18310,8 +18292,8 @@ msgid ""
 "By lifting the guard the preloaded codes are erased and must be loaded on "
 "the ground before cipher mode can be used again."
 msgstr ""
-"掀起保护盖后可以擦除预加载的加密代码，重新加载加密代码则必须在地面执行，否则"
-"将无法再次使用加密通讯。"
+"掀起保护盖后预加载的代码将被擦除，在重新使用密文模式前并且必须在地面重新加载"
+"代码。"
 
 #: ../../source/general.rst:0
 msgid "In DCS this is done via the ground crew communications menu."
@@ -18319,13 +18301,13 @@ msgstr "在 DCS 中该步骤可以通过地勤通讯菜单完成。"
 
 #: ../../source/general.rst:4981
 msgid "Power-mode switch"
-msgstr "电源/模式开关"
+msgstr "电源/模式旋钮"
 
 #: ../../source/general.rst:0
 msgid ""
 "P/OFF - UHF radio is used as a plain-language transceiver. Removes power "
 "from the system."
-msgstr "P/OFF - UHF 无线电作为明文收发机使用。系统未通电。"
+msgstr "P/OFF - UHF 无线电台使用明文进行收发。系统未通电。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -18333,31 +18315,32 @@ msgid ""
 "codes. Also applies power to the system. To preload codes the system must be "
 "in this mode and power be applied."
 msgstr ""
-"C - 此模式下使用预加载代码进行加密通讯。系统此时接通电源。若需预加载加密代码"
-"系统须处于此模式并通电。"
+"C - 此模式下使用预加载代码进行加密通讯。系统此时接通电源。若需预加载代码系统"
+"须处于此模式并通电。"
 
 #: ../../source/general.rst:0
 msgid "DELAY - Provides a time-delay between ptt and actual transmission."
-msgstr "DELAY - 在送话和实际发送信息之间提供时间延迟。"
+msgstr "DELAY - 在按键通话和实际传输之间提供时间延迟。"
 
 #: ../../source/general.rst:4987
 msgid "Radio-select switch"
-msgstr "无线电选择开关"
+msgstr "无线电选择旋钮"
 
 #: ../../source/general.rst:0
 msgid ""
 "RELAY - Re-transmits information acting as a relay for other stations, "
 "increasing their range. (Not functional in DCS)"
-msgstr "RELAY - 为其他基站提供信号中继以增大传输距离。（DCS中未模拟）"
+msgstr "RELAY - 为其他基站提供信号中继以增大传输距离。（DCS中无功能）"
 
 #: ../../source/general.rst:0
 msgid "RAD-2 - Selects V/UHF 2 for secure voice."
-msgstr "RAD-2 - 加密 V/UHF 2 无线电通话。"
+msgstr "RAD-2 - 加密 V/UHF 2 无线电台通话。"
 
 #: ../../source/general.rst:0
 msgid "RAD-1 - Selects UHF 1 for secure voice."
-msgstr "RAD-1 - 加密 UHF 1 无线电通话。"
+msgstr "RAD-1 - 加密 UHF 1 无线电台通话。"
 
+# 1212校对至此
 #: ../../source/general.rst:4996
 msgid "KY-28 Operation"
 msgstr "KY-28 操作"
@@ -18373,20 +18356,20 @@ msgid ""
 "is done through the ground crew communication menu in the DCS communications "
 "menu."
 msgstr ""
-"确认正确的代码已由具备使用语音安全设备之资格的人员输入。在 DCS 游戏中并与 "
-"SRS 协同时该操作通过 DCS 游戏内通讯菜单中的地勤通讯菜单来完成。"
+"确认由具备使用加密设备资格的人员设置正确的代码。在 DCS 游戏中并与 SRS 协同时"
+"该操作通过 DCS 游戏内通讯菜单中的地勤通讯菜单来完成。"
 
 #: ../../source/general.rst:5003
 msgid "VHF/UHF radios - ON."
-msgstr "VHF/UHF 无线电 - ON。"
+msgstr "VHF/UHF 无线电台 - ON。"
 
 #: ../../source/general.rst:5005
 msgid "Power mode switch - C."
-msgstr "电源/模式开关 - C。"
+msgstr "电源/模式旋钮 - C。"
 
 #: ../../source/general.rst:5007
 msgid "Radio selector - RAD-1 or RAD-2."
-msgstr "无线电选择开关 - RAD-1 或 RAD-2。"
+msgstr "无线电台选择开关 - RAD-1 或 RAD-2。"
 
 #: ../../source/general.rst:5009
 msgid ""
@@ -18394,8 +18377,8 @@ msgid ""
 "radio communications on the plain-voice radio with a suitable remote station "
 "and request an equipment check. (In DCS another player is needed)"
 msgstr ""
-"若需对设备进行地面测试，请与另一台无线电在普通语音频率上建立双向明文无线电通"
-"信并要求通讯检查。在 DCS 中这需要另外一位玩家。"
+"若需对设备进行地面测试，请与另一台合适的无线电台建立双向明文无线电通信并请求"
+"通讯检查。在 DCS 中这需要与另一名玩家配合。"
 
 #: ../../source/general.rst:5011
 msgid ""
@@ -18403,8 +18386,8 @@ msgid ""
 "steady, unbroken tone in the headset followed by a double-pitched broken "
 "tone."
 msgstr ""
-"在两分钟的预热之后在选择加密的无线电中通过耳机收听一段稳定、不间断的音调，随"
-"后是双音调的间断音效。"
+"在两分钟预热之后，选择加密档位后通过头戴收听一段稳定、连续的单音，随后是两个"
+"间断的单音。"
 
 #: ../../source/general.rst:5013
 msgid ""
@@ -18412,8 +18395,8 @@ msgid ""
 "2 seconds, and release. Double-pitched broken tone will cease and no sound "
 "will be heard."
 msgstr ""
-"按下选择传输的无线电的送话开关并保持按下约两秒，然后松开。双音调断音将会停"
-"止，且之后将不会播放声音。"
+"选择适当的通讯频率进行传输，按下PTT大约2秒后然后松开。间断的单音将会停止，且"
+"之后将不会播放声音。"
 
 #: ../../source/general.rst:5015
 msgid ""
@@ -18421,22 +18404,21 @@ msgid ""
 "seconds. When this tone is heard, the equipment is ready to cipher "
 "transmission."
 msgstr ""
-"再次按下无线电通话按钮并保持按下。在大约0.5至1秒后将会听到一声蜂鸣声。当听到"
-"此声音后，设备已完成自检并准备好进行加密语音传输。"
+"再次按下PTT并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设备"
+"已准备好进行加密语音传输。"
 
 #: ../../source/general.rst:5017
 msgid ""
 "After beep tone is heard, establish two-way cipher radio communications with "
 "a cooperating ground station and check for readability and signal strength."
 msgstr ""
-"听到蜂鸣声后，和之前配合的无线电台建立双向加密无线电通讯并检查加密语音传输的"
-"信号强度和清晰度。"
+"听见嘟的单音后，与地面电台建立双向UHF加密无线电通讯来检查可读性和信号强度。"
 
 #: ../../source/general.rst:5019
 msgid ""
 "Set power mode and radio selector switches in accordance with the tactical "
 "situation."
-msgstr "根据战术情况自行设定电源模式及无线电选择开关。"
+msgstr "根据战术情况自行设定电源模式及无线电选择旋钮。"
 
 #: ../../source/general.rst:5021
 msgid ""
@@ -18450,7 +18432,7 @@ msgstr "起飞后"
 
 #: ../../source/general.rst:5027
 msgid "The speech security equipment shall be operated as briefed."
-msgstr "语音安全设备应按照简报所要求操作。"
+msgstr "语音加密设备应按照简报所要求操作。"
 
 #: ../../source/general.rst:5029
 msgid ""
@@ -18478,9 +18460,10 @@ msgid ""
 "Note: If ZEROIZE has been pressed and the POWER MODE switch is in C, both "
 "crewmembers will be warned by a continuing beeping sound."
 msgstr ""
-"注：若POWER MODE开关位于C位置时按下ZEROIZE开关，则飞行员和RIO均将听到连续的蜂"
-"鸣音警告。"
+"注：若POWER MODE旋钮位于C档位时按下ZEROIZE开关，则飞行员和RIO均将听到连续的嘟"
+"嘟警告音。"
 
+# 12-16 AG重新翻译/校对
 #: ../../source/general.rst:5043
 msgid "Link 4A & C Data Link"
 msgstr "Link 4A和4C 数据链"
@@ -18493,9 +18476,9 @@ msgid ""
 "which allows a surface ship or airborne AWACS to control the aircraft and "
 "also Link 4C, unique to the F-14, which is a fighter to fighter data link."
 msgstr ""
-"F-14 雄猫配备了Link 4数据链路系统，可以传输和接收目标航迹，航点信息和转向命"
-"令。 Link 4有两个版本，第一个是Link 4A，它允许水面舰艇或空基AWACS指挥飞机，还"
-"有 Link 4C，它是F-14所独有的，战斗机对战斗机的数据链路。"
+"F-14 雄猫配备了Link 4数据链路系统，可以用于传输和接收目标跟踪，航点信息和转向"
+"命令。 Link 4有两个版本，第一个是Link 4A，它允许水面舰艇或AWACS控制飞机，还"
+"有 Link 4C，它是F-14所独有的战机间数据链路。"
 
 #: ../../source/general.rst:5048
 msgid ""
@@ -18505,17 +18488,16 @@ msgid ""
 "control commands. Additionally, it's also used for the carrier automatic "
 "landing system (ACLS)."
 msgstr ""
-"Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路"
-"网络。 然后，数据源（或者说，数据源的操作员）将为F-14提供目标航迹，航路点和控"
-"制命令。 此外，它还用于自动航降系统（ACLS）。"
+"Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链网"
+"络。 然后，数据源（或者说，数据源的操作员）将为F-14提供目标跟踪，航路点和控制"
+"命令。 此外，它还用于自动航降系统（ACLS）。"
 
 #: ../../source/general.rst:5052
 msgid ""
 "Link 4C on the other hand allows up to four F-14 Tomcats to interconnect and "
 "share target tracks to coordinate their engagements."
 msgstr ""
-"而Link 4C 则允许最多四架 F-14 雄猫战斗机建立互联的数据网络并共享目标轨迹以协"
-"同作战。"
+"另一方面，Link 4C最大允许4架F-14雄猫战机建立数据链并共享目标跟踪来协同作战。"
 
 #: ../../source/general.rst:5054
 msgid ""
@@ -18523,8 +18505,8 @@ msgid ""
 "transmitter and receiver are used for both A and C links. The Link 4 system "
 "itself, operates using the UHF radio band at 5,000 bits per second."
 msgstr ""
-"由于A和C模式使用的是同一个信号收发机，系统不允许F-14同时使用这两种模式。而"
-"Link 4系统本身工作在UHF频段，以5000b/s的速率进行信号传输。"
+"因为Link 4A与Link 4C使用同一个收发器，所以系统不允许同时使用4A与4C。Link 4C系"
+"统使用UHF频段工作，传输速率为5000bit/s。"
 
 #: ../../source/general.rst:5057
 msgid ""
@@ -18532,9 +18514,8 @@ msgid ""
 "Reply and Antenna Control Panel. Received control signals are displayed on "
 "the pilot VDI indicators (:ref:`VDI`) and the RIO DDI panel (:ref:`ddi`)."
 msgstr ""
-"控制Link 4数据链系统使用数据链控制面板以及数据链应答和天线控制面板。接收到的"
-"控制信号将在飞行员VDI显示器（:ref:`VDI`）以及RIO DDI面板（:ref:`ddi`）上显"
-"示。"
+"Link 4数据链系统由数据链控制面板、数据链应答和天线控制面板控制。接收到的控制"
+"信号将在飞行员VDI（:ref:`VDI`）以及RIO DDI面板（:ref:`ddi`）上显示。"
 
 #: ../../source/general.rst:5062
 msgid "Link 4 Controls"
@@ -18544,7 +18525,7 @@ msgstr "Link 4 控制"
 msgid ""
 "The Data Link Control Panel contains the main Link 4 system power switches "
 "and the frequency selection wheels."
-msgstr "数据链控制面板上包括了主要的 Link 4 系统的电源以及频率选择拨轮。"
+msgstr "数据链控制面板上包括了主 Link 4 系统的电源开关以及频率选择拨轮。"
 
 #: ../../source/general.rst:5068
 msgid ""
@@ -18552,8 +18533,8 @@ msgid ""
 "the anti-jam (**A-J**) function, this control is currently non-functional in "
 "DCS and should be set to **NORMAL**."
 msgstr ""
-"第一个开关（**1**）控制Link 4的自检，并同时激活Link 4的反干扰功能（**A-"
-"J**），当前在DCS中该功能不可用，故该开关应被置于 **NORMAL** 位。"
+"第一个开关（**1**）控制Link 4的机内自检，并同时激活Link 4的抗干扰功能（**A-"
+"J**），此模式在DCS中无功能，故该开关应被置于 **NORMAL** 位。"
 
 #: ../../source/general.rst:5070
 msgid ""
@@ -18562,7 +18543,7 @@ msgid ""
 "the first wheel. The allowable frequency range is 300.0 MHz to 324.9 MHz."
 msgstr ""
 "频率拨轮（**2**）用来设定所使用的数据链频率，需要注意的是，第一个拨轮前的第一"
-"位数字（3）已被设置并无法更改，故系统所允许的频率范围是 300MHz 至 324.9MHz。"
+"位数字（3）已被设置并无法更改，故系统所允许的频率范围为 300MHz 至 324.9MHz。"
 
 #: ../../source/general.rst:5072
 msgid ""
@@ -18570,8 +18551,8 @@ msgid ""
 "**ON** turns on and enables the Link 4A data link, **OFF** disables the "
 "system and **AUX** enables the Link 4C data link."
 msgstr ""
-"第三个开关（**3**）控制 Link 4 的电源以及工作模式。**ON** 将给系统通电并启动 "
-"Link 4A 数据链，**OFF** 将关闭系统电源，而 **AUX** 将启动 Link 4C 数据链。"
+"第三个开关（**3**）控制 Link 4 的电源以及工作模式。**ON** 将通电并启动 Link "
+"4A 数据链，**OFF** 将关闭系统电源，而 **AUX** 将启动 Link 4C 数据链。"
 
 #: ../../source/general.rst:5076
 msgid ""
@@ -18579,7 +18560,7 @@ msgid ""
 "to use, own aircraft data link address, whether to transmit and which mode "
 "the Link 4A is used in."
 msgstr ""
-"数据链路应答和天线控制面板用于选择使用什么天线，本机数据链路地址，是否发送以"
+"数据链路应答和天线控制面板用于选择使用什么天线，本机数据链路地址，是否传输以"
 "及Link 4A的使用模式。"
 
 #: ../../source/general.rst:5078
@@ -18588,9 +18569,8 @@ msgid ""
 "antenna. As these are the same antennas that the UHF 1 (AN/ARC-159) uses it "
 "automatically sets that radio to the other antenna."
 msgstr ""
-"**ANTENNA** 开关（**1**）控制数据链使用上部或下部天线。由于这些天线和UHF "
-"1（AN/ARC-159）无线电所使用的天线相同，故选择下部天线则UHF无线电便自动使用上"
-"部天线，反之同理。"
+"**ANTENNA** 开关（**1**）控制数据链使用上部或下部天线。由于和UHF 1（AN."
+"ARC-159）所使用的天线相同，因此会自动让UHF 1使用另一根天线。"
 
 #: ../../source/general.rst:5080
 msgid ""
@@ -18598,11 +18578,9 @@ msgid ""
 "messages. **NORM** allows for normal operation while **CANC** turns off the "
 "transmitter and sets the data link to receive only."
 msgstr ""
-"**REPLY** 开关（**2**）设置本机是否会回复数据链信息。**NORM** 为正常操作，而 "
+"**REPLY** 开关（**2**）设置本机是否应答数据链信息。**NORM** 为正常操作，而 "
 "**CANC** 将关闭发射器并将数据链设置为仅接收。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# 备用手台模式？？？？？
 #: ../../source/general.rst:5082
 msgid ""
 "The **MODE** switch (**3**) controls whether the Link 4A operates in the "
@@ -18618,12 +18596,11 @@ msgid ""
 msgstr ""
 "**MODE** 开关（ **3** ）控制 Link 4A 是以正常的 **TAC** （战术）模式运行还是"
 "以 **CAINS / WAYPT** （Carrier Aircraft Inertial Navigation System / "
-"Waypoint，舰载机惯性导航/航路点）模式运行。TAC 模式是正常的空中运行模式，而 "
-"CAINS/WAYPT 模式则于航母上使用以接收来自航母INS系统的校准信息和计划航路点。该"
-"开关由电磁铁定位且电磁铁失电后会自动跳回至 TAC 位置，数据链接收信号丢失或数据"
-"链系统断电均会使电磁铁失电并让开关跳回至 TAC 位，从而迫使正在进行的INS校准进"
-"入备用手动模式。若飞机起飞时开关仍位于 CAINS/WAYPT 位，机轮承重传感器也会迫使"
-"开关跳回至 TAC 位。"
+"Waypoint，舰载机惯性导航系统/航路点）模式运行。TAC 模式是正常的空中运行模式，"
+"而 CAINS/WAYPT 模式用于在母舰上时从航母的INS系统中接收飞行计划与INS对准信息。"
+"这个开关由电磁铁固定以及弹簧回中至TAC档位，如果数据链接收信号丢失或系统失电，"
+"开关将自动返回TAC模式，强制将正在对准的INS进程切换至备用手动模式。若飞机起飞"
+"时开关仍处于 CAINS/WAYPT 档位，机轮承重传感器也会使开关跳回至 TAC 位。"
 
 #: ../../source/general.rst:5087
 msgid ""
@@ -18631,9 +18608,10 @@ msgid ""
 "numbers) of the aircraft data link address, the rest has to be set by the "
 "ground crew."
 msgstr ""
-"两个地址拨轮用于设置飞机数据链地址的最低有效位（两个最低数字），而其余部分必"
-"须由地勤人员设置。"
+"两个地址拨轮用于设置本机使用的数据链地址的最低有效位（最低的两位数字），而其"
+"余部分必须由地勤人员设置。"
 
+# AG 12/19校对修改
 #: ../../source/general.rst:5091
 msgid "Link 4 in DCS"
 msgstr "DCS 中的 Link 4"
@@ -18642,7 +18620,7 @@ msgstr "DCS 中的 Link 4"
 msgid ""
 "The Link 4 implementation in the Heatblur DCS F-14 implements both the Link "
 "4A and C versions."
-msgstr "Heatblur DCS F-14 的 Link 4 模拟了 Link 4A 及 Link 4C 两种工作模式。"
+msgstr "Heatblur DCS F-14 的 Link 4 模拟了 Link 4A 及 Link 4C 。"
 
 #: ../../source/general.rst:5095
 msgid ""
@@ -18654,11 +18632,11 @@ msgid ""
 "that frequency is set with jumpers on the actual equipment by the ground "
 "crew."
 msgstr ""
-"若要使用Link 4A，数据链电源必须打开并设置为Link 4A模式（ON），且频率须调谐到"
-"所需主机的正确数据链路频率，该频率可于膝板上查得。 在地面上设置为CAINS / "
-"WAYPT模式后，数据链路将加载于任务编辑器中所预先设置好的航点，若在航空母舰上则"
-"将允许进行 INS 的 CVA 对准。使用 CAINS/WAYPT 不需要设置频率，因为地勤人员在实"
-"际设备上使用跳线设置该频率。"
+"若要使用Link 4A，必须打开数据链电源并设置为Link 4A模式（ON），且调谐至所需数"
+"据主机的正确数据链路频率，该频率可以在膝板上查看。若是在地面并设置为 CAINS/"
+"WAYPT 模式，数据链将会接收ME中编辑好的航路点，如果在航母上则同时进行预存航向"
+"对准。使用 CAINS/WAYPT 不需要设置频率，因为地勤人员在真机设备上使用跳线设置该"
+"频率。"
 
 #: ../../source/general.rst:5099
 msgid ""
@@ -18667,8 +18645,8 @@ msgid ""
 "automatic carrier landings with the data link set to use the carrier as a "
 "host."
 msgstr ""
-"当设置为TAC时数据链系统将从TDS中接收八个目标轨迹以及它们的优先级。Link 4A 还"
-"支持通过将航母设置为数据链主机进而实现自动着舰的功能。"
+"当设置为TAC模式时，数据链路将接收由操作员发送的最高优先级的8个跟踪目标。Link "
+"4A 还支持通过将航母设置为数据链主机实现自动着舰的功能。"
 
 #: ../../source/general.rst:5102
 msgid ""
@@ -18679,10 +18657,9 @@ msgid ""
 "same for a flight automatically the link can only be used within the same "
 "flight currently."
 msgstr ""
-"若要使用Link 4C，数据链设置应为Link 4C（即AUX），并调整到由数据链各参与飞机之"
-"间所商定的频率。一个数据链小队最多可以有四架飞机参加，所有四架飞机都应该设置"
-"不同的本机地址。由于地勤人员将自动为飞机群组设置最重要的两位，因此该链路目前"
-"仅在同一飞机群组内使用。"
+"若要使用Link 4C，数据链模式应设置为Link 4C（即AUX），参与组建数据链路的飞机应"
+"使用相同的频率。一个小队最多编入四架战机，四架战机应该设置不同的地址。由于地"
+"勤自动将小队的最高有效位设置为相同，因此数据链只能在小队内使用。"
 
 # #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # 有点问题
@@ -18693,8 +18670,8 @@ msgid ""
 "allows the RIO to update own aircraft INS position to another aircraft on "
 "the link to correlate track transmissions."
 msgstr ""
-"在 Link 4C 中，参与的飞机共享最多4个目标轨迹和自己的飞机位置，由 RIO 使用 "
-"CAP 选择。 CAP 还允许 RIO 将本机INS位置更新到链路上的另一架飞机以协调目标轨迹"
+"在 Link 4C 中，数据链中的飞机最多共享4个跟踪目标以及本机位置，可由 RIO 使用 "
+"CAP 选择。 CAP 还允许 RIO 将本机INS位置更新到链路上的另一架飞机以同步目标跟踪"
 "的传输。"
 
 msgid ""
@@ -18704,9 +18681,9 @@ msgid ""
 "catapult ready position. (Detailed further in the navigational section in "
 "this chapter.)"
 msgstr ""
-"SPL模式中一些MASSAGE按钮用于显示和输入代表航母上四个弹射器的数据文件。当处于"
-"弹射器准备就绪位置时，通过它们进行INS校准。（该内容在本章导航部分有详细描"
-"述）。"
+"SPL模式中包含的MASSAGE按钮功能用于显示和输入代表航母上四个弹射器的航向数据文"
+"件。当位于弹射器就绪位置时，通过它们进行弹射器INS对准。（该内容在本章导航部分"
+"有详细描述）。"
 
 msgid ""
 "The IP TO TGT button functionality is the exception and is used to update "
@@ -18715,9 +18692,9 @@ msgid ""
 "ground engagement. This is detailed in the weapons overview chapter under "
 "air-to-ground delivery."
 msgstr ""
-"与其他按钮不同，IP TO TGT按钮用于更新WCS中有关空对地目标和IP航路点之间相对位"
-"置的数据，空对地攻击中的计算机初始点模式会使用上述信息。详细说明请参阅武器系"
-"统和武器使用总览中的空对地武器投放一章。"
+"与其他按钮不同，IP TO TGT按钮用于更新WCS中有关空对地目标和IP之间相对位置的数"
+"据，该数据用于空对地模式中的计算机初始点模式。详情参阅“武器系统和武器使用总"
+"览“章节中的空对地投放。"
 
 msgid ""
 "MAND ATTK (mandatory attack) set on a target forces the WCS to include it "
@@ -18725,10 +18702,9 @@ msgid ""
 "number 1. DO NOT ATTK (do not attack) does the opposite, in effect removing "
 "the target from the TWS prioritisation."
 msgstr ""
-"在TARGET DATA下RIO可以通过MAND ATTK（强制攻击）来强行指定一个目标让WCS将其加"
-"入到当前AIM-54的攻击序列中并为其分配优先级（被标记的目标并不一定会位于优先级"
-"序列的第一位）。DO NOT ATTK（不要攻击）与其功能正好相反，通过该设置可以将指定"
-"目标从TWS攻击优先级中移出。"
+"MAND ATTK（强制攻击）会强制WCS将目标添加至TWS优先级分配序列中，以使用 AIM-54 "
+"进行交战，尽管不一定为第一位。DO NOT ATTK（不要攻击）与其功能正好相反，通过该"
+"设置可以将指定目标从TWS攻击优先级中移出。"
 
 msgid ""
 "The sequence for data readout selection on the TID readouts are: Category "
@@ -18737,17 +18713,18 @@ msgid ""
 "message function the CLEAR key on the CAP is used, this resets the readout "
 "and allows for selection of a new prefix."
 msgstr ""
-"在TID上选择数据读取的顺序为：分类选择 -> 消息功能选择 -> 数字前缀选择 -> 在"
-"TID上读取。如果需要选择同一消息功能项下的不同数据，可以使用CLEAR键，按下按钮"
-"会清除当前的显示并允许输入一个新的前缀数字。"
+"在TID读数上选择数据读数的顺序为：Category选择 -> MESSAGE功能选择 -> 前缀选择 "
+"-> TID读数显示要选择另一个数据读数的前缀可以按下CAP上的 CLEAR 键，这样就无需"
+"重新选择message功能，按下后将会重置读数并可以选择新的前缀。"
 
+# 12/19 AG校对至此
 msgid ""
 "Attempted selection of another prefix without first using the CLEAR key will "
 "be read by the computer as an attempt to enter a digit into the buffer "
 "instead of prefix selection."
 msgstr ""
-"如果没有使用清除键，按下数字按键将会被计算机视为在缓存器上输入数字而不是输入"
-"一个新的前缀数字。"
+"不使用 CLEAR 键尝试选择其它前缀的话，会被计算机视为尝试输入数据至缓存器中而不"
+"是选择前缀。"
 
 msgid "AN/APX-72 IFF Interrogator"
 msgstr "AN/APX-72 IFF 询问器"
