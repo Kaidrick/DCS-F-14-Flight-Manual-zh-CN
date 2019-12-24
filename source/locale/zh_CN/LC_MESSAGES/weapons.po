@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 12:39+0800\n"
-"PO-Revision-Date: 2019-03-14 08:55+0800\n"
+"PO-Revision-Date: 2019-12-19 19:11+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -26,7 +26,7 @@ msgstr ""
 "#\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "#-#-#-#-#  weapons_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
 "#-#\n"
 "Generated-By: Babel 2.6.0\n"
@@ -1212,7 +1212,7 @@ msgstr "使用 ELEC FUSE 旋钮开关来设置投放挂载的电子引信类型�
 
 #: ../../source/weapons.rst:452
 msgid "SAFE - Inhibits electrical bomb fusing."
-msgstr "SAFE - 禁止炸弹电子引信激活"
+msgstr "SAFE - 禁止炸弹电子引信激活。"
 
 #: ../../source/weapons.rst:453
 msgid "VT - Sets air-burst mode at preset burst height for compatible stores."
@@ -1220,15 +1220,15 @@ msgstr "VT - 选择兼容挂载的空爆模式，挂载将使用预设的起爆�
 
 #: ../../source/weapons.rst:454
 msgid "INST - Sets instantaneous burst mode."
-msgstr "INST - 选择瞬爆模式"
+msgstr "INST - 选择瞬爆模式。"
 
 #: ../../source/weapons.rst:455
 msgid "DLY 1 - Sets preset time delay 1."
-msgstr "DLY 1 - 选择预设的起爆延迟 1"
+msgstr "DLY 1 - 选择预设的起爆延迟 1。"
 
 #: ../../source/weapons.rst:456
 msgid "DLY 2 - Sets preset time delay 2."
-msgstr "DLY 2 - 选择预设的起爆延迟 2"
+msgstr "DLY 2 - 选择预设的起爆延迟 2。"
 
 #: ../../source/weapons.rst:458
 msgid ""
@@ -1324,7 +1324,7 @@ msgid ""
 msgstr ""
 "CMPTR PLT - 计算机引导模式，是一种使用武器控制系统在 HUD 上指示挂载武器落点"
 "的、由计算机引导，飞行员手动操控的导引模式。它类似于新型战机中的 CCIP（连续计"
-"算命中点）模式"
+"算命中点）模式。"
 
 #: ../../source/weapons.rst:479
 msgid ""
