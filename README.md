@@ -1,5 +1,5 @@
 # DCS F-14 Flight Manual zh-CN translation
-This repository contains the source files for the online DCS: F-14 flight manual built on Sphinx with ReadDoc theme. These sources files (images and reStructedText files) are pulled with the permission by Heatblur Simulations from their official website.
+This repository contains the source files for the online DCS: F-14 flight manual built with Sphinx in ReadDoc theme. These sources files (images and reStructedText files) are pulled with the permission by Heatblur Simulations from their official website.
 
 Along with the source files are `*.pot` files extracted from reStructuredText and `*.po` files translated in Simplified Chinese; also included are translated training/quick start/single/multiplayer missions and campaigns.
 These `*.pot` files may be useful if you want to translate the manual into other languages.
