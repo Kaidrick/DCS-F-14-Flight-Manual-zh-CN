@@ -1439,7 +1439,7 @@
 <tr class="row-odd"><td>起始点（IP）</td>
 <td><a class="first last reference internal image-reference" href="_images/21.png"><img alt="_images/21.png" class="align-center" src="_images/21.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>用于空对地攻击的航路点，详情参考<a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机初始点模式</span></a>。</td>
+<td>用于空对地攻击的航路点，详情参考<a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机起始点模式</span></a>。</td>
 </tr>
 <tr class="row-even"><td>&#160;</td>
 <td colspan="2"><strong>数据链航路点</strong></td>
@@ -1808,7 +1808,7 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/spl.png" class="first last" src="_images/spl.png" />
 </td>
-<td><p class="first">SPL CATEGORY包含其他CATEGORY中没有的各种MESSAGE按钮功能。当前只有 <strong>IP TO TGT</strong> 功能可用并且用于计算机初始点模式，参见 <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机初始点模式</span></a></p>
+<td><p class="first">SPL CATEGORY包含其他CATEGORY中没有的各种MESSAGE按钮功能。当前只有 <strong>IP TO TGT</strong> 功能可用并且用于计算机初始点模式，参见 <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机起始点模式</span></a></p>
 <p class="last">同时这个模式下还有用于手动启动OBC程序（<strong>OBC位</strong>）的按钮、一个用于显示最新OBC结果的按钮（<strong>MAINT DISPL</strong>）和一个用于清除最新OBC结果的按钮（<strong>OBC DISPL</strong>）。这些和其它功能尚未实现。</p>
 </td>
 </tr>
@@ -2208,7 +2208,7 @@
 </div>
 <div class="section" id="ddd">
 <h4>DDD<a class="headerlink" href="#ddd" title="永久链接至标题">¶</a></h4>
-<img alt="_images/ddd1.png" src="_images/ddd1.png" />
+<img alt="_images/ddd.png" src="_images/ddd.png" />
 <p>DDD包含两个与TCS相关的指示器。</p>
 <p>只要在HCU上选择IR/TV模式， <strong>DDD EL</strong> 表就会显示TCS LOS（瞄准线/视线）的当前高度。</p>
 <p><strong>IROT</strong> 灯会指示TCS的追踪状态。IROT的缩写是从TCS所替换的IRST继承而来的。</p>
@@ -4159,9 +4159,9 @@
 <h2>通讯系统<a class="headerlink" href="#communications-systems" title="永久链接至标题">¶</a></h2>
 <div class="section" id="antennas">
 <h3>天线<a class="headerlink" href="#antennas" title="永久链接至标题">¶</a></h3>
-<p>四个VHF/UHF/L波段双刀片天线为VHF/UHF语音，UHF数据链，TACAN和敌我识别系统/选择识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 语音通信使用其中一组天线; UHF 1 语音通信，数据链和IFF应答器使用另一组天线。 相关天线位置参阅总体布置图。 IFF询问器（APX-76）天线集成在AWG-9 WCS天线内。</p>
+<p>四个VHF/UHF/L波段刀状天线为VHF/UHF语音，UHF数据链，TACAN和敌我识别系统/选择识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 语音通信使用其中一组天线; UHF 1 语音通信，数据链和IFF应答机使用另一组天线。 相关天线位置参阅总体布置图。 IFF询问器（APX-76）天线集成在AWG-9 WCS天线内。</p>
 <p>每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自动作动功能，RIO必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT开关选择上部或下部天线。数据链（DIL）天线同样需要手动选择。通过DATA LINK控制面板上的ANTENNA开关来选择上部或下部天线。UHF 1 语音通信 ARC-159 天线与 DIL 天线系统共用，并且始终使用与ANTENNA开关选择相反的天线。</p>
-<p>上部 V/UHF 2/TACAN 天线是舱盖后机背上的第一个天线，下部天线嵌入左侧腹鳍的底部。一次只使用一个天线。 天线之间的自动切换可防止丢失TACAN信息。 如果信号丢失或太弱而无法保持接收器锁定，TACAN会每隔6秒自动在两个天线之间切换以寻求更强的信号。</p>
+<p>上部 V/UHF 2/TACAN 天线是舱盖后机背上的第一个天线，下部天线嵌入左侧腹鳍的底部。一次只使用一个天线。 天线之间的自动切换可防止丢失TACAN信息。如果信号丢失或太弱而无法保持接收机信号接收，TACAN会每隔6秒自动在两个天线之间切换以寻求更强的信号。</p>
 <p>在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF天线波瓣开关由RIO右侧控制台上的IFF ANT开关控制。AUTO档位，波瓣开关使收发器在上部下部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾斜; 下部天线略微向后倾斜。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -4674,9 +4674,9 @@
 <td><div class="first last line-block">
 <div class="line">OFF – 关闭 VHF/UHF 无线电，除非无线电模式旋钮设置到243。</div>
 <div class="line"><br /></div>
-<div class="line">T/R – 接通发送器和主接收机。</div>
+<div class="line">T/R – 接通发射器和主接收机。</div>
 <div class="line"><br /></div>
-<div class="line">T/R&amp;G – 接通发送器，主要和应急接收机。</div>
+<div class="line">T/R&amp;G – 接通发射器，主要和应急接收机。</div>
 <div class="line"><br /></div>
 <div class="line">DF – 从 108 至 399.975 MHz内提供自动测向。</div>
 <div class="line"><br /></div>

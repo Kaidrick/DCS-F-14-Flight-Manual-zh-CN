@@ -62,7 +62,7 @@ The manual piper is adjustable to enable selection of desired lead. The GUN ELEV
 The real-time gunsight mode is the standard gun mode when in the air-to-air mode with the gun selected.
 
 In RTGS the WCS computes the bullet trajectory and displays the location the bullets will pass through at 1,000 and 2,000 feet, if no target data is available from the WCS.
-The diamond representing bullet location at 1,000 feet and the pipper representing the bullet location at 2,000 feet.
+The pipper representing bullet location at 1,000 feet and the diamond representing the bullet location at 2,000 feet.
 
 .. image:: /images/weapons/gunhudrtgs.png
 
@@ -259,10 +259,8 @@ The AIM-9G introduced a seeker head capable of the Sidewinder expanded acquisiti
 The SEAM allows the missile seeker head to be uncaged to track a target within the seeker limits (40° from ADL) allowing the pilot to lead the target, improving missile performance.
 It also allows for the WCS on the F-14 to slave the seeker to a tracked target within 20° from ADL, allowing for off boresight acquisition.
 
-.. image:: /images/weapons/double-D.png
-
 The AIM-9 on the F-14 can still use the old boresight mode where the seeker head remains slaved to ADL (2.5° field of view) but normally SEAM is used to scan the seeker about either ADL or a tracked target.
-This seeker scan is along a back-to-back double-D scan pattern, basically a scan cone about 6° wide covered in around 3 seconds. (Pictured above.)
+This seeker scan is along a back-to-back double-D scan pattern, basically a scan cone about 6° wide covered in around 3 seconds, this is however not indicated visually to the pilot.
 Like in all Sidewinders target detection is indicated by an aural tone. That growling tone is present while scanning but increases in intensity while the seeker is looking at an IR-source.
 
 .. raw:: latex
@@ -545,7 +543,7 @@ The IP waypoint should be a terrain feature expected to be visually identifiable
 
 To set the CAP the RIO designates the location of the IP waypoint as per the other waypoints in the system. (See CAP heading under AN/AWG-9 in the General design and systems overview section or the Navigation systems heading in the same section)
 
-The message (function) IP TO TGT on the CAP under the TAC DATA category is then used with the prefixes ALT, RNG and BRG to readout and set the following datapoints:
+The message (function) IP TO TGT on the CAP under the SPL category is then used with the prefixes ALT, RNG and BRG to readout and set the following datapoints:
 *   ALT - Sets altitude difference of the target relative the IP waypoint.
 *   RNG - Sets range to target from the IP waypoint.
 *   BRG - Sets the bearing to the target from the IP waypoint.

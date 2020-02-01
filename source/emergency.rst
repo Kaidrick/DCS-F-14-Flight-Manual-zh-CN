@@ -41,6 +41,10 @@ Spooldown Airstart Checklist
 | 5. **ENG MODE SELECT** switch         | **PRI** if possible                                  |
 +---------------------------------------+------------------------------------------------------+
 
+.. raw:: latex
+
+    \newpage
+
 Cross-Bleed Airstart
 ====================
 

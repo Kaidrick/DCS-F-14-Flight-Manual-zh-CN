@@ -752,6 +752,8 @@ Displays engine RPM (High-pressure compressor rotor speed (N2)), EGT (Exhaust Ga
 
 :Note: Image shows TF-30 engine instruments, F110 EIG coming soon.
 
+:Note 2: FF is not indicated for the additional fuel used in afterburner.
+
 .. raw:: latex
 
     \newpage
@@ -1196,6 +1198,8 @@ Used to control aircraft roll and pitch. Also various other functions according 
     |                                                          | | With DLC engaged forward rotation extends spoilers and aft rotation retracts spoilers.                                         |
     |                                                          | |                                                                                                                                |
     |                                                          | | With gear and flaps up and DLC disengaged forward rotation retracts maneuvering flaps/slats and aft rotation extends them.     |
+    |                                                          | |                                                                                                                                |
+    |                                                          | | The logic behind the function being that pulling the wheel towards you increases lift and pushing it away decreases lift.      |
     +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
     | 5. DLC engage/disengage & countermeasure dispense button | | Momentary depression with flaps down, throttles less than MIL and no spoiler system failure engages DLC.                       |
     |                                                          | |                                                                                                                                |
@@ -2427,7 +2431,7 @@ The CAP is used to enter data into the WCS. The MESSAGE indicator drum and butto
 +-----------------------------------+--------------------------------------------------------------------------------+
 | 7. CATEGORY knob                  | Selector knob selecting current category in use on the MESSAGE indicator drum. |
 +-----------------------------------+--------------------------------------------------------------------------------+
-| 8. TNG (NBR)                      | Non-functional.                                                                |
+| 8. TUNE DSBL                      | Non-functional.                                                                |
 +-----------------------------------+--------------------------------------------------------------------------------+
 
 :Note: All of the buttons have indicator lights indicating operation depending on function.
@@ -2639,7 +2643,7 @@ Two switch hats on the center RIO hand hold used to initiate release of counterm
 
 Detail Data Display Panel
 -------------------------
-.. image:: /images/cockpit/detail/rio/ddd.png
+.. image:: /images/cockpit/detail/rio/DDD.png
 
 Main radar control panel.
 
@@ -3317,7 +3321,7 @@ AN/ALE-39 Control Panel
 |                                     | |                                                                                                                                                                   |
 |                                     | | OFF - Disables AN/ALE-39.                                                                                                                                         |
 +-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3. SALVO FLARES switch              | Enables parallel rapid firing of all flares while held in ON. Switch needs to be lifted to move to ON position.                                                     |
+| 3. SALVO FLARES switch              | Enables parallel rapid firing of all flares. Switch needs to be lifted to move to ON position.                                                                      |
 +-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 4. FLARE MODE switch                | | Switch selecting operational mode for launching flares. Also controls what countermeasure the DLC button on the pilot stick ejects while airborne.                |
 |                                     | |                                                                                                                                                                   |
