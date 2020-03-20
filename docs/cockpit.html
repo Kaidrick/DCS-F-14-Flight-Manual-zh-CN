@@ -1438,7 +1438,7 @@
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">图中展示的是 TF-30 发动机的仪表组，F110 发动机的 EIG 即将实装。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">FF is not indicated for the additional fuel used in afterburner.</td>
+<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">加力推力时 FF 不显示加力消耗的额外燃油。</td>
 </tr>
 </tbody>
 </table>
@@ -1745,7 +1745,7 @@
 <li>SEAM LOCK 注意灯</li>
 </ol>
 </td>
-<td>当“响尾蛇”导处于从属模式或瞄准线 SEAM 模式下，且引导头正进行搜索时，SEAM LOCK 灯会亮起。SEAM LOCK 灯会在 SEAM 尝试进行锁定的4.5秒期间内点亮，如果引导头成功锁定目标则继续保持亮起。</td>
+<td>当“响尾蛇”导处于隶属模式或瞄准线 SEAM 模式下，且引导头正进行搜索时，SEAM LOCK 灯会亮起。SEAM LOCK 灯会在 SEAM 尝试进行锁定的4.5秒期间内点亮，如果引导头成功锁定目标则继续保持亮起。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
 <li>COLLISION 注意灯</li>
@@ -2107,7 +2107,7 @@
 <div class="line"><br /></div>
 <div class="line">起落架和襟翼收起且 DLC 解除时，向前转动拨轮收起机动襟翼/缝翼，向后转动拨轮放下襟翼。</div>
 <div class="line"><br /></div>
-<div class="line">The logic behind the function being that pulling the wheel towards you increases lift and pushing it away decreases lift.</div>
+<div class="line">这个功能背后的逻辑是，向后拨动拨轮来增加升力，向前拨动拨轮来减小升力。</div>
 </div>
 </td>
 </tr>
@@ -2267,10 +2267,10 @@
 <li>二号方位指针</li>
 </ol>
 </td>
-<td>指向调定的 TACAN 基站的磁航向。</td>
+<td>指向调定的 TACAN 台的磁航向。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>罗盘表盘</li>
+<li>罗盘指针</li>
 </ol>
 </td>
 <td>显示当前飞机的磁航向。</td>
@@ -2279,13 +2279,13 @@
 <li>一号方位指针</li>
 </ol>
 </td>
-<td>指向调定的 UHF/ADF 基站的方位。</td>
+<td>指向调定的 UHF/ADF 电台的方位。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
 <li>距离计数器</li>
 </ol>
 </td>
-<td>显示本机至调定的 TACAN 基站的斜距（图中不可见）。</td>
+<td>显示本机至调定的 TACAN 台的斜距（图中不可见）。</td>
 </tr>
 </tbody>
 </table>
@@ -2698,7 +2698,7 @@
 <li>SYNC IND</li>
 </ol>
 </td>
-<td>这个指示器用于显示 AHRS 陀螺仪与磁方位角探测器之间是否同步。用于 SLAVED（从属）模式。</td>
+<td>这个指示器用于显示 AHRS 陀螺仪与磁方位角探测器之间是否同步。用于 SLAVED（隶属）模式。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
 <li>N-S 选择开关</li>
@@ -2719,11 +2719,11 @@
 <td><div class="first last line-block">
 <div class="line">用于选择 AHRS 航向信息来源。</div>
 <div class="line"><br /></div>
-<div class="line">COMP - 罗盘，直接使用磁方位角探测器，不通过方位陀螺仪稳定，仅用于紧急情况，且罗盘显示的读数自动使用手动录入的磁差信息。</div>
+<div class="line">COMP - 罗盘，直接使用磁方位角探测器，不通过航向陀螺稳定，仅用于紧急情况，且罗盘显示的读数自动使用手动输入的磁差。</div>
 <div class="line"><br /></div>
-<div class="line">SLAVED - 正常模式，使用由方位陀螺仪稳定的磁方位角检测器。</div>
+<div class="line">SLAVED - 正常模式，使用由航向陀螺仪稳定的磁方位角检测器。</div>
 <div class="line"><br /></div>
-<div class="line">DG - 方位陀螺仪模式。</div>
+<div class="line">DG - 航向陀螺仪模式。</div>
 </div>
 </td>
 </tr>
@@ -2734,7 +2734,7 @@
 <td><div class="first last line-block">
 <div class="line">航向选择旋钮，用于 DG 和 SLAVED 模式。</div>
 <div class="line"><br /></div>
-<div class="line">在 SLAVED 模式下，它用于同步方位陀螺仪和磁方位角探测器，以及设置 BDHI 上的磁航向。按下旋钮，直到同步完成，指示器指针超过空白标识。</div>
+<div class="line">在 SLAVED 模式下，它用于同步航向陀螺仪和磁方位角探测器，以及设置 BDHI 上的磁航向。按下旋钮，直到同步完成，指示器指针超过空白标识。</div>
 <div class="line"><br /></div>
 <div class="line">在 DG 模式下，按下并旋转旋钮来调定 BDHI 中的所需航向。</div>
 <div class="line"><br /></div>
@@ -3826,7 +3826,7 @@
 <li>SLAVE 开关</li>
 </ol>
 </td>
-<td>传感器从属控制开关，用于选择从属于另一个传感器的传感器。</td>
+<td>传感器隶属控制开关，用于选择隶属于另一个传感器的传感器。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="9">
 <li>ACQ 开关</li>
@@ -4679,9 +4679,9 @@
 <div class="line"><br /></div>
 <div class="line">RDR - 选择 STT 锁定模式雷达天线控制，如果雷达已经处于 STT 模式中，则返回搜索状态。选择后，DDD 屏幕右侧的俯仰角指示条会显示雷达天线当前的指令高度角。</div>
 <div class="line"><br /></div>
-<div class="line">DDD CURSOR - 选择 DDD 指针控制，用于在脉冲雷达模式下标记地理位置。</div>
+<div class="line">DDD CURSOR - 选择 DDD 光标控制，用于在脉冲雷达模式下标记地理位置。</div>
 <div class="line"><br /></div>
-<div class="line">TID CUROSR - 选择 TID 指针控制，用于勾选 TID 屏幕中的标识。</div>
+<div class="line">TID CURSOR - 选择 TID 光标控制，用于勾选 TID 屏幕中的标识。</div>
 </div>
 </td>
 </tr>
@@ -4859,10 +4859,10 @@
 <li>二号方位指针</li>
 </ol>
 </td>
-<td>指向调定的 TACAN 基站的磁航向。</td>
+<td>指向调定的 TACAN 台的磁航向。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>罗盘表盘</li>
+<li>罗盘指针</li>
 </ol>
 </td>
 <td>显示当前飞机的磁航向。</td>
@@ -4871,13 +4871,13 @@
 <li>一号方位指针</li>
 </ol>
 </td>
-<td>指向调定的 UHF/ADF 基站的方位。</td>
+<td>指向调定的 UHF/ADF 电台的方位。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
 <li>距离计数器</li>
 </ol>
 </td>
-<td>显示本机至调定的 TACAN 基站的斜距（图中不可见）。</td>
+<td>显示本机至调定的 TACAN 台的斜距（图中不可见）。</td>
 </tr>
 </tbody>
 </table>
@@ -4941,7 +4941,7 @@
 <td>“胶卷余量”提示灯，灯光亮起表示机载任务录像机胶片余量低。</td>
 </tr>
 <tr class="row-even"><td>IMU</td>
-<td>“惯性测量装置”提示灯，灯光亮起表示惯性测量装置故障，或导航系统处于 AHRS（姿态航向基准系统）/AM（大气质量）模式。</td>
+<td>“惯性测量装置”提示灯，灯光亮起表示惯性测量装置故障，或导航系统处于 AHRS（姿态航向基准系统）/AM（大气数据）模式。</td>
 </tr>
 <tr class="row-odd"><td>AHRS</td>
 <td>“姿态航向基准”提示灯，灯光亮起表示 AHRS 提供的姿态或航向信息不可靠。</td>
@@ -4996,13 +4996,13 @@
 <td>用于控制 RWR 显示的目标类型和优先级。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>模式选择开关</li>
+<li>MODE 选择开关</li>
 </ol>
 </td>
 <td>三档位弹簧开关，释放开关后，开关弹回中间（OFF）位置。将开关保持在 OFST（偏置）和 LMT（限制）位置可以启用对应的功能。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>测试开关</li>
+<li>TEST 开关</li>
 </ol>
 </td>
 <td>三档位弹簧开关，释放开关后，开关弹回中间位置。短暂地将开关置于 BIT 档位会开始 ALR-67 自检程序。自检程序第一页显示时，将开关拨至 SPL（特殊）档位会显示特殊 BIT 状态页，释放开关后，特殊 BIT 状态页会显示三秒然后消失。</td>
@@ -5303,7 +5303,7 @@
 <td>用于控制数据链应答，NORM（正常）档位传输数据链应答，CANC（取消）档位禁用数据链应答。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>模式选择开关</li>
+<li>MODE 选择开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">

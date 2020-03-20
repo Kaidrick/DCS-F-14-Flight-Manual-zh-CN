@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-02-01 23:48+0800\n"
+"PO-Revision-Date: 2020-03-13 18:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 # 翻译时：
 # 1. 段落标题尽量翻译成汉语，如有必要使用英文在括号内注释
@@ -649,7 +649,7 @@ msgstr "频率选择拨动开关，用于调定频率。"
 
 #: ../../source/cockpit.rst:293 ../../source/cockpit.rst:2236
 msgid "FREQ/(CHAN) display"
-msgstr "FREQ./(CHAN) 显示"
+msgstr "FREQ./(CHAN) 显示窗"
 
 #: ../../source/cockpit.rst:293 ../../source/cockpit.rst:2236
 msgid "Readout display showing selected frequency or channel."
@@ -665,7 +665,7 @@ msgstr "READ 开关"
 # Deflection of the switch causes the frequency display to read the preset channel frequency
 #: ../../source/cockpit.rst:295
 msgid "Button toggling display of selected channel while held."
-msgstr "读取控制开关，按住开关时，频率/（频道）显示器将显示预设频道的频率。"
+msgstr "读取控制开关，按住开关时，频率/（频道）显示窗将显示预设频道的频率。"
 
 #: ../../source/cockpit.rst:297 ../../source/cockpit.rst:2240
 msgid "BRT knob"
@@ -1610,7 +1610,7 @@ msgstr "注意"
 
 #: ../../source/cockpit.rst:755
 msgid "FF is not indicated for the additional fuel used in afterburner."
-msgstr ""
+msgstr "加力推力时 FF 不显示加力消耗的额外燃油。"
 
 #: ../../source/cockpit.rst:764 ../../source/cockpit.rst:2514
 msgid "Left Instrument Panel"
@@ -1745,12 +1745,12 @@ msgstr ""
 
 #: ../../source/cockpit.rst:815 ../../source/cockpit.rst:2535
 msgid "STBY flag"
-msgstr "STBY 标示旗"
+msgstr "STBY 标识旗"
 
 #: ../../source/cockpit.rst:815 ../../source/cockpit.rst:2535
 msgid ""
 "Red flag reading STBY that appears if system is in backup (stand-by) mode."
-msgstr "如果系统处于备用工作模式，表盘中会显示红色的标有 STBY 字样的标示旗。"
+msgstr "如果系统处于备用工作模式，表盘中会显示红色的标有 STBY 字样的标识旗。"
 
 #: ../../source/cockpit.rst:818 ../../source/cockpit.rst:2538
 msgid ""
@@ -2086,7 +2086,7 @@ msgid ""
 "SEAM acquisition attempt, and remains lit thereafter if the seeker has "
 "locked onto a target."
 msgstr ""
-"当“响尾蛇”导处于从属模式或瞄准线 SEAM 模式下，且引导头正进行搜索时，SEAM "
+"当“响尾蛇”导处于隶属模式或瞄准线 SEAM 模式下，且引导头正进行搜索时，SEAM "
 "LOCK 灯会亮起。SEAM LOCK 灯会在 SEAM 尝试进行锁定的4.5秒期间内点亮，如果引导"
 "头成功锁定目标则继续保持亮起。"
 
@@ -2219,7 +2219,7 @@ msgstr "主军械开关并不会禁用 ACM 和应急抛离功能。"
 
 #: ../../source/cockpit.rst:1024
 msgid "Station status flags"
-msgstr "挂架状态标示旗"
+msgstr "挂架状态标识旗"
 
 #: ../../source/cockpit.rst:0
 msgid "Shows indication of weapon status for the different stations."
@@ -2555,7 +2555,7 @@ msgstr "自检状态指示灯"
 msgid ""
 "Indicates failure in HSD by showing white flags. Reset by rotating it "
 "clockwise."
-msgstr "显示白色标示旗时，表示 HSD 故障。逆时针旋转旋钮来重置 HSD。"
+msgstr "显示白色标识旗时，表示 HSD 故障。逆时针旋转旋钮来重置 HSD。"
 
 #: ../../source/cockpit.rst:1137
 msgid ""
@@ -2684,7 +2684,7 @@ msgstr ""
 msgid ""
 "The logic behind the function being that pulling the wheel towards you "
 "increases lift and pushing it away decreases lift."
-msgstr ""
+msgstr "这个功能背后的逻辑是，向后拨动拨轮来增加升力，向前拨动拨轮来减小升力。"
 
 #: ../../source/cockpit.rst:1204
 msgid "DLC engage/disengage & countermeasure dispense button"
@@ -2862,7 +2862,7 @@ msgstr "独立工作的备用姿态仪。"
 
 #: ../../source/cockpit.rst:1303 ../../source/cockpit.rst:2584
 msgid "An OFF flag is visible on the left side when caged or when unpowered."
-msgstr "表盘左侧显示的 OFF 标示旗表示备用姿态仪锁定或未通电。"
+msgstr "表盘左侧显示的 OFF 标识旗表示备用姿态仪锁定或未通电。"
 
 #: ../../source/cockpit.rst:1305 ../../source/cockpit.rst:2586
 msgid ""
@@ -2933,11 +2933,11 @@ msgstr "二号方位指针"
 # BDHI cannot indicate "course"
 #: ../../source/cockpit.rst:1352 ../../source/cockpit.rst:2990
 msgid "Indicates magnetic course to tuned TACAN station."
-msgstr "指向调定的 TACAN 基站的磁航向。"
+msgstr "指向调定的 TACAN 台的磁航向。"
 
 #: ../../source/cockpit.rst:1354 ../../source/cockpit.rst:2992
 msgid "Compass rose"
-msgstr "罗盘表盘"
+msgstr "罗盘指针"
 
 #: ../../source/cockpit.rst:1354 ../../source/cockpit.rst:2992
 msgid "Shows current aircraft magnetic heading."
@@ -2949,7 +2949,7 @@ msgstr "一号方位指针"
 
 #: ../../source/cockpit.rst:1356 ../../source/cockpit.rst:2994
 msgid "Indicates bearing to tuned UHF/ADF station."
-msgstr "指向调定的 UHF/ADF 基站的方位。"
+msgstr "指向调定的 UHF/ADF 电台的方位。"
 
 #: ../../source/cockpit.rst:1358 ../../source/cockpit.rst:2996
 msgid "Distance counter"
@@ -2959,7 +2959,7 @@ msgstr "距离计数器"
 msgid ""
 "Indicates slant range to tuned TACAN station in nautical miles. (Not visible "
 "in this image.)"
-msgstr "显示本机至调定的 TACAN 基站的斜距（图中不可见）。"
+msgstr "显示本机至调定的 TACAN 台的斜距（图中不可见）。"
 
 #: ../../source/cockpit.rst:1369 ../../source/cockpit.rst:2886
 msgid "ALR-67 Indicator"
@@ -3525,7 +3525,7 @@ msgid ""
 "of power failure to the indicator. The indicator is tested through the INST "
 "mode on the MASTER TEST panel and should read 2 liters."
 msgstr ""
-"显示了剩余的液氧储备量。每个刻度代表 1 公升。电源故障时，表盘上显示 OFF 标示"
+"显示了剩余的液氧储备量。每个刻度代表 1 公升。电源故障时，表盘上显示 OFF 标识"
 "旗。通过主测试面板的 INST 模式来测试这个仪表，测试时，仪表读数应为 2 公升。"
 
 #: ../../source/cockpit.rst:1650
@@ -3547,7 +3547,7 @@ msgid ""
 "Indicator showing sync between AHRS gyro and magnetic azimuth detector. Used "
 "in SLAVED mode."
 msgstr ""
-"这个指示器用于显示 AHRS 陀螺仪与磁方位角探测器之间是否同步。用于 SLAVED（从"
+"这个指示器用于显示 AHRS 陀螺仪与磁方位角探测器之间是否同步。用于 SLAVED（隶"
 "属）模式。"
 
 #: ../../source/cockpit.rst:1660
@@ -3584,20 +3584,20 @@ msgid ""
 "stabilization from the directional gyro, used only for emergency operation "
 "and the displays automatically uses the manual magnetic variation."
 msgstr ""
-"COMP - 罗盘，直接使用磁方位角探测器，不通过方位陀螺仪稳定，仅用于紧急情况，且"
-"罗盘显示的读数自动使用手动录入的磁差信息。"
+"COMP - 罗盘，直接使用磁方位角探测器，不通过航向陀螺稳定，仅用于紧急情况，且罗"
+"盘显示的读数自动使用手动输入的磁差。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "SLAVED - Normal mode, uses the magnetic azimuth detector stabilized by the "
 "directional gyro."
-msgstr "SLAVED - 正常模式，使用由方位陀螺仪稳定的磁方位角检测器。"
+msgstr "SLAVED - 正常模式，使用由航向陀螺仪稳定的磁方位角检测器。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "DG - Directional gyro mode, uses only gyro and not the magnetic azimuth "
 "detector."
-msgstr "DG - 方位陀螺仪模式。"
+msgstr "DG - 航向陀螺仪模式。"
 
 #: ../../source/cockpit.rst:1672
 msgid "HDG knob/button"
@@ -3613,7 +3613,7 @@ msgid ""
 "azimuth detector and set magnetic heading on the BDHI. Button should be held "
 "until the syncronization indicator needle is over the null mark."
 msgstr ""
-"在 SLAVED 模式下，它用于同步方位陀螺仪和磁方位角探测器，以及设置 BDHI 上的磁"
+"在 SLAVED 模式下，它用于同步航向陀螺仪和磁方位角探测器，以及设置 BDHI 上的磁"
 "航向。按下旋钮，直到同步完成，指示器指针超过空白标识。"
 
 #: ../../source/cockpit.rst:0
@@ -5103,7 +5103,7 @@ msgstr "SLAVE 开关"
 
 #: ../../source/cockpit.rst:2393
 msgid "Selector switch selecting which sensor is slaved to the other."
-msgstr "传感器从属控制开关，用于选择从属于另一个传感器的传感器。"
+msgstr "传感器隶属控制开关，用于选择隶属于另一个传感器的传感器。"
 
 #: ../../source/cockpit.rst:2395
 msgid "ACQ switch"
@@ -6217,13 +6217,13 @@ msgstr ""
 msgid ""
 "DDD CURSOR - Selects control of DDD cursor used to mark a geographical "
 "position while in pulse radar mode."
-msgstr "DDD CURSOR - 选择 DDD 指针控制，用于在脉冲雷达模式下标记地理位置。"
+msgstr "DDD CURSOR - 选择 DDD 光标控制，用于在脉冲雷达模式下标记地理位置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "TID CURSOR - Selects control of TID cursor used to hook (select) symbols on "
 "the TID."
-msgstr "TID CUROSR - 选择 TID 指针控制，用于勾选 TID 屏幕中的标识。"
+msgstr "TID CURSOR - 选择 TID 光标控制，用于勾选 TID 屏幕中的标识。"
 
 #: ../../source/cockpit.rst:2842
 msgid "Left and Right Footwells"
@@ -6513,7 +6513,7 @@ msgid ""
 "the navigation system is in AHRS/AM mode."
 msgstr ""
 "“惯性测量装置”提示灯，灯光亮起表示惯性测量装置故障，或导航系统处于 AHRS（姿态"
-"航向基准系统）/AM（大气质量）模式。"
+"航向基准系统）/AM（大气数据）模式。"
 
 #: ../../source/cockpit.rst:3056
 msgid ""
@@ -6532,7 +6532,7 @@ msgid ""
 "operational, showing white flags when indicating a fail condition)."
 msgstr ""
 "ECMD 用于显示导航信息，它有一个亮度控制旋钮、一个测试按钮和一个自检（BIT）状"
-"态指示器（正常工作时状态指示器无显示， ECMD 故障时状态指示器显示白色标示"
+"态指示器（正常工作时状态指示器无显示， ECMD 故障时状态指示器显示白色标识"
 "旗）。"
 
 #: ../../source/cockpit.rst:3076
@@ -6565,7 +6565,7 @@ msgstr "用于控制 RWR 显示的目标类型和优先级。"
 
 #: ../../source/cockpit.rst:3102 ../../source/cockpit.rst:3292
 msgid "MODE switch"
-msgstr "模式选择开关"
+msgstr "MODE 选择开关"
 
 #: ../../source/cockpit.rst:3102
 msgid ""
@@ -6577,7 +6577,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3104
 msgid "TEST switch"
-msgstr "测试开关"
+msgstr "TEST 开关"
 
 # wording? and need more info on the BIT part
 #: ../../source/cockpit.rst:3104
