@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-03-13 18:18+0800\n"
+"PO-Revision-Date: 2020-04-17 15:44+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -368,7 +368,7 @@ msgid ""
 "Outer dial selects first two digits and inner dial selects last digit for "
 "TACAN channel selection."
 msgstr ""
-"使用外侧拨盘选择 TACAN 频道的前两位数字，使用内侧拨盘选择最后一位数字。"
+"使用外侧拨盘选择 TACAN 波道的前两位数字，使用内侧拨盘选择最后一位数字。"
 
 #: ../../source/cockpit.rst:171 ../../source/cockpit.rst:2155
 msgid "GO & NO-GO lights"
@@ -398,7 +398,7 @@ msgid ""
 "Switches mode for TACAN operation and selects X or Y channels. INVERSE mode "
 "not functional."
 msgstr ""
-"频道模式选择开关，用于切换 TACAN 工作频道，可以选择 X 或 Y 频道。INVERSE 模式"
+"波道模式选择开关，用于切换 TACAN 工作波道，可以选择 X 或 Y 波道。INVERSE 模式"
 "无功能。"
 
 #: ../../source/cockpit.rst:177 ../../source/cockpit.rst:207
@@ -560,7 +560,7 @@ msgstr "OFF - 功能关闭。"
 #: ../../source/cockpit.rst:0
 msgid ""
 "ACL - Automatic carrier landing mode. Engaged by NWS button on pilot stick."
-msgstr "ACL - 自动航降模式，这个模式通过飞行员驾驶杆上的 NWS 按钮激活。"
+msgstr "ACL - 自动助降模式，这个模式通过飞行员驾驶杆上的 NWS 按钮激活。"
 
 #: ../../source/cockpit.rst:256
 msgid "ALT switch"
@@ -653,7 +653,7 @@ msgstr "FREQ./(CHAN) 显示窗"
 
 #: ../../source/cockpit.rst:293 ../../source/cockpit.rst:2236
 msgid "Readout display showing selected frequency or channel."
-msgstr "频率 /（频道）显示窗，用于显示当前选中的频率或频道。"
+msgstr "频率 /（波道）显示窗，用于显示当前选中的频率或波道。"
 
 # This is anything but a button. It's a toggle switch.
 # ----
@@ -665,7 +665,7 @@ msgstr "READ 开关"
 # Deflection of the switch causes the frequency display to read the preset channel frequency
 #: ../../source/cockpit.rst:295
 msgid "Button toggling display of selected channel while held."
-msgstr "读取控制开关，按住开关时，频率/（频道）显示窗将显示预设频道的频率。"
+msgstr "读取控制开关，按住开关时，频率/（波道）显示窗将显示预设波道的频率。"
 
 #: ../../source/cockpit.rst:297 ../../source/cockpit.rst:2240
 msgid "BRT knob"
@@ -683,7 +683,7 @@ msgstr "LOAD 按钮"
 # 在选定的频道中载入选定频率？
 #: ../../source/cockpit.rst:299
 msgid "Button toggling load of set frequency to set channel."
-msgstr "加载按钮，用于加载预设频道的显示频率。"
+msgstr "加载按钮，用于加载预设波道的显示频率。"
 
 #: ../../source/cockpit.rst:301
 msgid "Function selector knob"
@@ -703,15 +703,15 @@ msgstr "CHAN SEL 旋钮"
 
 #: ../../source/cockpit.rst:305
 msgid "Selects preset channel to use."
-msgstr "频道选择旋钮，用于选择预设频道。"
+msgstr "波道选择旋钮，用于选择预设波道。"
 
 #: ../../source/cockpit.rst:307
 msgid "Preset channels chart"
-msgstr "预设频道表"
+msgstr "预设波道表"
 
 #: ../../source/cockpit.rst:307
 msgid "Chart used to record frequencies or use for preset channels."
-msgstr "用于记录频率或预设频道的作用。"
+msgstr "用于记录频率或预设波道的作用。"
 
 #: ../../source/cockpit.rst:309
 msgid "Mode selector knob"
@@ -969,7 +969,7 @@ msgid ""
 "autopilot while in ACL."
 msgstr ""
 "飞行员锁定模式按钮，用于选择 AWG-9 的 ACM 飞行员锁定模式。也用于在 ACL（自动"
-"航降）过程中解除自动驾驶。"
+"助降）过程中解除自动驾驶。"
 
 #: ../../source/cockpit.rst:433
 msgid "CAGE/SEAM button"
@@ -1010,7 +1010,7 @@ msgid ""
 "Switch allowing pilot to key one or both radios and intercommunication to "
 "RIO."
 msgstr ""
-"通过这个开关，飞行员可以选择在单频道或双频道 V/UHF 下通话，或与 RIO 对讲。"
+"通过这个开关，飞行员可以选择在单波道或双波道 V/UHF 下通话，或与 RIO 对讲。"
 
 #: ../../source/cockpit.rst:0
 msgid "ICS - Keys intercommunication to RIO."
@@ -2219,19 +2219,19 @@ msgstr "主军械开关并不会禁用 ACM 和应急抛离功能。"
 
 #: ../../source/cockpit.rst:1024
 msgid "Station status flags"
-msgstr "挂架状态标识旗"
+msgstr "挂点状态标识旗"
 
 #: ../../source/cockpit.rst:0
 msgid "Shows indication of weapon status for the different stations."
-msgstr "显示每个挂架的武器状态。"
+msgstr "显示每个挂点的武器状态。"
 
 #: ../../source/cockpit.rst:0
 msgid "BLACK - Station not loaded or weapon not ready."
-msgstr "黑色 - 挂架未挂载武器，或武器未就绪。"
+msgstr "黑色 - 挂点未挂载武器，或武器未就绪。"
 
 #: ../../source/cockpit.rst:0
 msgid "WHITE - Station and weapon ready."
-msgstr "白色 - 挂架和武器准备就绪。"
+msgstr "白色 - 挂点和武器准备就绪。"
 
 # loaded weapons are armed？
 #: ../../source/cockpit.rst:0
@@ -2240,8 +2240,8 @@ msgid ""
 "indicates that fuselage rails are up and locked and that loaded weapons are "
 "armed."
 msgstr ""
-"黑白相间的棋盘图案 - 该挂架上的武器被选中，且准备发射。在地面时，该图案表示机"
-"身导轨挂架升起并锁定，且挂载的武器已激活。"
+"黑白相间的棋盘图案 - 该挂点上的武器被选中，且准备发射。在地面时，该图案表示机"
+"身导轨挂点升起并锁定，且挂载的武器已激活。"
 
 #: ../../source/cockpit.rst:1032 ../../source/cockpit.rst:2958
 msgid "MASTER CAUTION light and button"
@@ -2446,7 +2446,7 @@ msgid ""
 "Warning light indicating CATCC not ready for ACL, switch to standard voice "
 "procedures."
 msgstr ""
-"报警灯，指示 CATCC 自动航降未就绪，切换至标准的基于音频通讯的进近流程。"
+"报警灯，指示 CATCC 自动助降未就绪，切换至标准的基于音频通讯的进近流程。"
 
 #: ../../source/cockpit.rst:1100
 msgid "A/P REF"
@@ -2648,7 +2648,7 @@ msgstr "SP / PH - 选择 AIM-7 或 AIM-54，按下开关来切换选中的导弹
 
 #: ../../source/cockpit.rst:0
 msgid "SW - Selects AIM-9, depression toggles between stations."
-msgstr "SW - 选择 AIM-9，按下开关来切换选中的 AIM-9 挂架。"
+msgstr "SW - 选择 AIM-9，按下开关来切换选中的 AIM-9 挂点。"
 
 #: ../../source/cockpit.rst:0
 msgid "GUN - Selects M-61A1 Vulcan gun."
@@ -2884,15 +2884,15 @@ msgid ""
 "and V/UHF 2 (AN/ARC-182)."
 msgstr ""
 "这个远程显示器用于显示 UHF 1（AN/ARC-159）和 V/UHF 2（AN/ARC-182）中调定的频"
-"率或频道。"
+"率或波道。"
 
 #: ../../source/cockpit.rst:1324
 msgid "UHF 1 remote channel/frequency indicator (pilot)"
-msgstr "UHF 1 远程频道/频率显示器（飞行员）"
+msgstr "UHF 1 远程波道/频率显示器（飞行员）"
 
 #: ../../source/cockpit.rst:0
 msgid "Displays a readout of the frequency or channel set for the UHF 1 radio."
-msgstr "显示 UHF 1 无线电台调定的频率或频道。"
+msgstr "显示 UHF 1 无线电台调定的频率或波道。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -2906,12 +2906,12 @@ msgstr "DIM - 用于控制显示器亮度。"
 
 #: ../../source/cockpit.rst:1330
 msgid "V/UHF 2 remote channel/frequency indicator (pilot)"
-msgstr "V/UHF 2 远程频道/频率指示器（飞行员）"
+msgstr "V/UHF 2 远程波道/频率指示器（飞行员）"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "Displays a readout of the frequency or channel set for the V/UHF 2 radio."
-msgstr "显示 V/UHF 2 无线电台调定的频率或频道。"
+msgstr "显示 V/UHF 2 无线电台调定的频率或波道。"
 
 #: ../../source/cockpit.rst:0
 msgid "BRT - Controls display brightness."
@@ -3261,7 +3261,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1525
 msgid "Displays Control Panel"
-msgstr "显示器控制面板"
+msgstr "显示控制面板"
 
 #: ../../source/cockpit.rst:1528
 msgid ""
@@ -3645,7 +3645,7 @@ msgstr "CHANNEL 选择开关"
 
 #: ../../source/cockpit.rst:1696
 msgid "Selector selecting one of 20 available ICLS channels."
-msgstr "频道选择开关，用于从 20 个可用的频道中选择 ICLS 频道。"
+msgstr "波道选择开关，用于从 20 个可用的波道中选择 ICLS 波道。"
 
 #: ../../source/cockpit.rst:1698
 msgid ""
@@ -4852,7 +4852,7 @@ msgstr "双层旋钮开关的外侧旋钮，用于选择频率模式。"
 
 #: ../../source/cockpit.rst:2246
 msgid "Inner dial on the knob, selects preset channel to use."
-msgstr "双层旋钮开关的内侧旋钮，用于选择预设频道。"
+msgstr "双层旋钮开关的内侧旋钮，用于选择预设波道。"
 
 #: ../../source/cockpit.rst:2249
 msgid "Have Quick anti-jam functionality not implemented in DCS."
@@ -5313,11 +5313,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2474
 msgid "Station 6 select switch"
-msgstr "挂架 6 选择开关"
+msgstr "挂点 6 选择开关"
 
 #: ../../source/cockpit.rst:2474
 msgid "Switch used to select station 6 for jettison or weapons A/G delivery."
-msgstr "选择挂架 6 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 6 挂载的武器，用于挂载抛离或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2476
 msgid "A/A LAUNCH button"
@@ -5341,7 +5341,7 @@ msgstr "导弹速度门限选择旋钮，用于设置导弹速度门限的位置
 
 #: ../../source/cockpit.rst:2480
 msgid "Station 8 select switch"
-msgstr "挂架 8 选择开关"
+msgstr "挂点 8 选择开关"
 
 #: ../../source/cockpit.rst:2480
 msgid ""
@@ -5349,8 +5349,8 @@ msgid ""
 "selects the lower pylon for release or jettison, the SW option is non-"
 "functional."
 msgstr ""
-"选择挂架 8 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼"
-"套下挂架，而 SW 档位无功能。"
+"选择挂点 8 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼"
+"套下挂点，而 SW 档位无功能。"
 
 #: ../../source/cockpit.rst:2482
 msgid "MSL OPTIONS switch"
@@ -5365,11 +5365,11 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2484
 msgid "Station 5 select switch"
-msgstr "挂架 5 选择开关"
+msgstr "挂点 5 选择开关"
 
 #: ../../source/cockpit.rst:2484
 msgid "Switch used to select station 5 for jettison or weapons A/G delivery."
-msgstr "选择挂架 5 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 5 挂载的武器，用于挂载抛离或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2486
 msgid "NEXT LAUNCH button"
@@ -5385,15 +5385,15 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2488
 msgid "Station 4 select switch"
-msgstr "挂架 4 选择开关"
+msgstr "挂点 4 选择开关"
 
 #: ../../source/cockpit.rst:2488
 msgid "Switch used to select station 4 for jettison or weapons A/G delivery."
-msgstr "选择挂架 4 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 4 挂载的武器，用于挂载抛离或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2490
 msgid "Station 1 select switch"
-msgstr "挂架 1 选择开关"
+msgstr "挂点 1 选择开关"
 
 #: ../../source/cockpit.rst:2490
 msgid ""
@@ -5401,32 +5401,32 @@ msgid ""
 "selects the lower pylon for release or jettison, the SW option is non-"
 "functional."
 msgstr ""
-"选择挂架 1 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼"
-"套下挂架，而 SW 档位无功能。"
+"选择挂点 1 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼"
+"套下挂点，而 SW 档位无功能。"
 
 #: ../../source/cockpit.rst:2492
 msgid "TANK JETT station 7 switch"
-msgstr "油箱抛离挂架 7 选择开关"
+msgstr "油箱抛离挂点 7 选择开关"
 
 #: ../../source/cockpit.rst:2492
 msgid "Switch selecting station 7 for tank jettison."
-msgstr "选择挂架 7 挂载的油箱来进行抛离。"
+msgstr "选择挂点 7 挂载的油箱来进行抛离。"
 
 #: ../../source/cockpit.rst:2494
 msgid "TANK JETT station 2 switch"
-msgstr "油箱抛离挂架 2 选择开关"
+msgstr "油箱抛离挂点 2 选择开关"
 
 #: ../../source/cockpit.rst:2494
 msgid "Switch selecting station 2 for tank jettison."
-msgstr "选择挂架 2 挂载的油箱来进行抛离。"
+msgstr "选择挂点 2 挂载的油箱来进行抛离。"
 
 #: ../../source/cockpit.rst:2496
 msgid "Station 3 select switch"
-msgstr "挂架 3 选择开关"
+msgstr "挂点 3 选择开关"
 
 #: ../../source/cockpit.rst:2496
 msgid "Switch used to select station 3 for jettison or weapons A/G delivery."
-msgstr "选择挂架 5 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 5 挂载的武器，用于挂载抛离或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2498
 msgid "JETT OPTIONS switch"
@@ -5438,7 +5438,7 @@ msgid ""
 "racks) in addition to weapons. Non-functional in modelled F-14B."
 msgstr ""
 "挂载抛离选择开关，用于选择挂载抛离时，只抛离 WPNS（武器）还是连同 MER/TER（武"
-"器挂架）一起抛离。DCS F-14B 中未模拟此开关功能。"
+"器挂点）一起抛离。DCS F-14B 中未模拟此开关功能。"
 
 #: ../../source/cockpit.rst:2500
 msgid "SEL JETT switch"
@@ -5449,7 +5449,7 @@ msgid ""
 "Selector switch used to jettison selected stations in normal (JETT) mode or "
 "AUX (backup) mode. The AUX position is guarded."
 msgstr ""
-"选择抛离开关，用于设定选中挂架的抛离模式，JETT（正常）模式或 AUX（备用）模"
+"选择抛离开关，用于设定选中挂点的抛离模式，JETT（正常）模式或 AUX（备用）模"
 "式。升起开关保护盖才可将开关拨至 AUX 模式。"
 
 #: ../../source/cockpit.rst:2502
@@ -5523,11 +5523,11 @@ msgstr "UHF 远程显示器"
 #: ../../source/cockpit.rst:2597
 msgid ""
 "Remote indicator displaying set frequency or channel on UHF 1 (AN/ARC-159)."
-msgstr "这个远程显示器用于显示 UHF 1（AN/ARC-159）中调定的频率或频道。"
+msgstr "这个远程显示器用于显示 UHF 1（AN/ARC-159）中调定的频率或波道。"
 
 #: ../../source/cockpit.rst:2602
 msgid "UHF 1 remote channel/frequency indicator"
-msgstr "UHF 1 远程频道/频率指示器"
+msgstr "UHF 1 远程波道/频率指示器"
 
 #: ../../source/cockpit.rst:2621
 msgid "Chaff/Flare Dispense Switches"
@@ -5733,7 +5733,7 @@ msgid ""
 "6-position wheel used to control missile channel used by AIM-7 or AIM-54. "
 "Currently non-functional in DCS."
 msgstr ""
-"导弹频道选择拨轮，共有6个档位，用于控制 AIM-7 或 AIM-54 使用的频道。目前在 "
+"导弹波道选择拨轮，共有6个档位，用于控制 AIM-7 或 AIM-54 使用的波道。目前在 "
 "DCS 中无功能。"
 
 #: ../../source/cockpit.rst:2692 ../../source/cockpit.rst:2757
@@ -6912,7 +6912,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3200
 msgid "Command to change data link channel."
-msgstr "切换数据链频道指令。"
+msgstr "切换数据链波道指令。"
 
 #: ../../source/cockpit.rst:3202
 msgid "HDG CHN"

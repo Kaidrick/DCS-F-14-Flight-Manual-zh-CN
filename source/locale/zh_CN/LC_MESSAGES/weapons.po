@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-03-18 13:28+0800\n"
+"PO-Revision-Date: 2020-04-05 23:30+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -163,8 +163,8 @@ msgid ""
 "line."
 msgstr ""
 "飞行员可以调整手动准星的位置来选择所需的抬高/下压量角度。通过飞行员右垂直控制"
-"台上的准星偏移量设置面板来调定所需抬高/下压量量，一般会将这个值设置为53毫弧"
-"度，以保持手动准星与航炮瞄准线位置对齐。"
+"台上的准星偏移量设置面板来调定所需抬高/下压量，一般会将这个值设置为53毫弧度，"
+"以保持手动准星与航炮瞄准线位置对齐。"
 
 #: ../../source/weapons.rst:58
 msgid "**Real-Time Gunsight (RTGS)**"
@@ -367,7 +367,7 @@ msgid ""
 "AIM-9 case it instead shows current AIM-9 seeker head line of sight."
 msgstr ""
 "如果雷达正以 STT 模式跟踪目标，随动准星会显示 TCS（电视摄像套件）的视线/瞄准"
-"线，选中 AIM-9时例外。选中 AIM-9 时随动准星则会指示 AIM-9 引导头的视线/瞄准"
+"线，选中 AIM-9时例外。选中 AIM-9 时随动准星则会指示 AIM-9 导引头的视线/瞄准"
 "线。"
 
 #: ../../source/weapons.rst:143
@@ -413,7 +413,7 @@ msgstr ""
 "弹。AIM-7 “麻雀”是一种中距空对空导弹，AIM-7E 最大射程最短为16海里（30千米）"
 "而 AIM-7F 和 AIM-7M 最大射程最短为38海里（70千米）。它的全天候能力来自于导弹"
 "雷达制导，更确切地说是半主动雷达制导（SARH）。这意味着“麻雀”只有依赖 AN/"
-"AWG-9 为其照射目标，它的引导头才能跟踪目标的雷达反射信号。"
+"AWG-9 为其照射目标，它的导引头才能跟踪目标的雷达反射信号。"
 
 #: ../../source/weapons.rst:160
 msgid ""
@@ -566,7 +566,7 @@ msgid ""
 "infrared seeker locking on to a targets IR signature making it capable of "
 "tracking a target both during daytime and at night."
 msgstr ""
-"AIM-9“响尾蛇”导弹是一种近距离空空导弹。它使用红外引导头来锁定目标的红外特征，"
+"AIM-9“响尾蛇”导弹是一种近距离空空导弹。它使用红外导引头来锁定目标的红外特征，"
 "使其无论昼间还是夜间都能跟踪目标。"
 
 #: ../../source/weapons.rst:231
@@ -599,13 +599,13 @@ msgid ""
 "missiles seeker head, the missile will immediately show ready but full "
 "seeker head performance will take at least 60 seconds."
 msgstr ""
-"发射 AIM-9 前需要启用引导头冷却。按下飞行员 ACM 面板的 SW COOL 按钮开关，或在"
-"相同面板选择 ACM 模式来启用引导头冷却。按下后会让引导头进行冷却，导弹状态会立"
-"刻显示就绪，但使引导头发挥全部性能需要进行至少60秒冷却。"
+"发射 AIM-9 前需要启用导引头冷却。按下飞行员 ACM 面板的 SW COOL 按钮开关，或在"
+"相同面板选择 ACM 模式来启用导引头冷却。按下后会让导引头进行冷却，导弹状态会立"
+"刻显示就绪，但使导引头发挥全部性能需要进行至少60秒冷却。"
 
 #: ../../source/weapons.rst:256
 msgid "Seeker Head Modes"
-msgstr "引导头模式"
+msgstr "导引头模式"
 
 # ？？？
 #: ../../source/weapons.rst:258
@@ -618,9 +618,9 @@ msgid ""
 "for the WCS on the F-14 to slave the seeker to a tracked target within 20° "
 "from ADL, allowing for off boresight acquisition."
 msgstr ""
-"AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的引导头，F-14 携带的后续所有"
-"响尾蛇导弹都能使用此模式。SEAM允许引导头解锁并在范围（离 ADL 40°）内跟踪目"
-"标，使得飞行员能引导目标，从而提升了导弹的性能。它还允许 F-14 上的WCS将引导头"
+"AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的导引头，F-14 携带的后续所有"
+"响尾蛇导弹都能使用此模式。SEAM允许导引头解锁并在范围（离 ADL 40°）内跟踪目"
+"标，使得飞行员能引导目标，从而提升了导弹的性能。它还允许 F-14 上的WCS将导引头"
 "隶属到 ADL 20° 内的目标进行跟踪，来实现偏离瞄准线锁定。"
 
 # ？？？
@@ -635,11 +635,11 @@ msgid ""
 "tone. That growling tone is present while scanning but increases in "
 "intensity while the seeker is looking at an IR-source."
 msgstr ""
-"F-14 上的 AIM-9 依然可以使用早期的瞄准线模式，该模式下引导头保持隶属于 "
-"ADL（2.5°视场），但通常会选用 SEAM 来扫描 ADL 周围或跟踪目标。引导头沿着背对"
+"F-14 上的 AIM-9 依然可以使用早期的瞄准线模式，该模式下导引头保持隶属于 "
+"ADL（2.5°视场），但通常会选用 SEAM 来扫描 ADL 周围或跟踪目标。导引头沿着背对"
 "背 双D 形式扫描线进行扫描，基本上就是大约3秒覆盖出一个宽6°的扫描锥，然而并没"
 "有可视化的标识给飞行员。就像所有响尾蛇导弹锁定目标一样，是根据音调提示的。搜"
-"索时会出现音调，当引导头指向红外源时，音调会升高。"
+"索时会出现音调，当导引头指向红外源时，音调会升高。"
 
 #: ../../source/weapons.rst:271 ../../source/weapons.rst:405
 msgid "Missile Operation"
@@ -684,8 +684,8 @@ msgid ""
 "sight, otherwise the missile will scan around the ADL."
 msgstr ""
 "如果未使用 BRSIT 按钮开关或 ACM 模式处于激活状态，AIM-9 将使用 SEAM ，并且使"
-"用 双D 形式扫描线扫描。如果 WCS 有锁定的目标，引导头会扫描雷达或 TCS 视线/瞄"
-"准线周围，否则导弹引导头会在 ADL 周围进行扫描。"
+"用 双D 形式扫描线扫描。如果 WCS 有锁定的目标，导引头会扫描雷达或 TCS 视线/瞄"
+"准线周围，否则导弹导引头会在 ADL 周围进行扫描。"
 
 #: ../../source/weapons.rst:290
 msgid ""
@@ -696,8 +696,8 @@ msgid ""
 "missile is again caged and the SEAM LOCK light is deactivated."
 msgstr ""
 "飞行员可以按下左油门握把上的 CAGE/SEAM 按钮来使用 SEAM 模式锁定目标。 ACM 面"
-"板的 SEAM LOCK 灯将会亮起并将引导头解锁4.5秒，允许它跟踪引导头视场内的目标。"
-"如果未探测到红外源，则导弹引导头会重新锁定，且 SEAM LOCK 灯熄灭。"
+"板的 SEAM LOCK 灯将会亮起并将导引头解锁4.5秒，允许它跟踪导引头视场内的目标。"
+"如果未探测到红外源，则导弹导引头会重新锁定，且 SEAM LOCK 灯熄灭。"
 
 #: ../../source/weapons.rst:294
 msgid ""
@@ -772,8 +772,8 @@ msgstr ""
 "AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄"
 "猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 "
 "火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 "
-"AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号引导头，而不是模拟信号引"
-"导头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。"
+"AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号导引头，而不是模拟信号导"
+"引头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。"
 
 #: ../../source/weapons.rst:328
 msgid ""
@@ -824,7 +824,7 @@ msgid ""
 "The seeker head used in the AIM-54 is capable of both semi-active radar "
 "homing (SARH) and active radar homing (ARH)."
 msgstr ""
-"AIM-54 的引导头能够使用半主动雷达制导（SARH）和主动雷达制导（ARH）来跟踪目"
+"AIM-54 的导引头能够使用半主动雷达制导（SARH）和主动雷达制导（ARH）来跟踪目"
 "标。"
 
 #: ../../source/weapons.rst:351
@@ -857,7 +857,7 @@ msgid ""
 msgstr ""
 "在 TWS（Track While Scan，边扫描边跟踪）模式下，AN/AWG-9 可以支持同时对6个不"
 "同目标发射6枚 AIM-54 导弹。在 AIM-54 跟踪的第一阶段，导弹接收由 AN/AWG-9 雷达"
-"发射的引导指令和目标的雷达反射波来进行半主动制导。当目标进入导弹引导头 ARH 模"
+"发射的引导指令和目标的雷达反射波来进行半主动制导。当目标进入导弹导引头 ARH 模"
 "式的范围内后，AN/AWG-9 会命令导弹切换至ARH。"
 
 #: ../../source/weapons.rst:362
@@ -890,7 +890,7 @@ msgid ""
 msgstr ""
 "在 PD STT（脉冲多普勒 单目标跟踪）模式下，AIM-54 全程使用 SARH 模式，相比 "
 "TWS 模式，导弹以会更高的频率接收雷达制导指令，并且由于使用单目标跟踪，目标会"
-"受到持续聚焦照射。使用 PD STT 可以略微增加 AIM-54 引导头的有效搜索距离。"
+"受到持续聚焦照射。使用 PD STT 可以略微增加 AIM-54 导引头的有效搜索距离。"
 
 #: ../../source/weapons.rst:374
 msgid "Active-Radar Homing (ARH)"
@@ -917,8 +917,8 @@ msgid ""
 "If the target is not detected actively by the seeker it will still fall back "
 "to SARH until the seeker can acquire on its own like in the two SARH modes."
 msgstr ""
-"与另外两种 SARH 模式下一样，如果导弹引导头未能主动截获到目标，导弹会返回 "
-"SARH 模式，直到引导头主动截获目标。"
+"与另外两种 SARH 模式下一样，如果导弹导引头未能主动截获到目标，导弹会返回 "
+"SARH 模式，直到导引头主动截获目标。"
 
 #: ../../source/weapons.rst:388
 msgid "ACM Active"
@@ -934,7 +934,7 @@ msgid ""
 msgstr ""
 "AIM-54 的最后一种工作模式是 ACM 主动模式，在这个模式下，导弹在发射前就已经接"
 "收指令开机，因此导弹在该模式下才是真正的射后不管。AIM-54 导弹除了在发射前接收"
-"开机指令外，还会从 WCS 额外接收一条预对准的指令，将引导头指向当前可用的 WCS "
+"开机指令外，还会从 WCS 额外接收一条预对准的指令，将导引头指向当前可用的 WCS "
 "跟踪目标。"
 
 # ACM模式指ACM面板左上角的红色保护盖，提起保护盖时，WCS进入ACM模式
@@ -955,7 +955,7 @@ msgstr ""
 "目标时进入 ACM 模式、使用非脉冲多普勒雷达或 TCS 跟踪模式时，导弹便会进入 ACM "
 "主动模式。无跟踪目标的情况下使用瞄准线模式或 ACM 主动模式时，导弹会沿着 ADL "
 "发射，并锁定它探测到的第一个目标，但如果使用非脉冲多普勒雷达跟踪目标，发射前"
-"引导头会提前对准跟踪目标。"
+"导引头会提前对准跟踪目标。"
 
 #: ../../source/weapons.rst:398
 msgid "ECM Mode"
@@ -968,8 +968,8 @@ msgid ""
 "track the target using SARH or ARH. This is done without crew action and is "
 "not indicated to the operator."
 msgstr ""
-"在所有引导模式中，如果受到干扰，引导头会自动切换至被动 ECM 寻的模式，通过干扰"
-"源方位角来跟踪目标，直到引导头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是"
+"在所有引导模式中，如果受到干扰，导引头会自动切换至被动 ECM 寻的模式，通过干扰"
+"源方位角来跟踪目标，直到导引头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是"
 "自动完成的，不需要机组操作，操作员也不会收到提示。"
 
 #: ../../source/weapons.rst:407
@@ -1264,7 +1264,7 @@ msgstr ""
 "设置机械引信和电子引信。使用 GBU 炸弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的炸"
 "弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 "
 "Mk-82 “蛇眼”炸弹时，选择 N 档位会使投放的炸弹自由下落，而选择 N/T 会启用炸弹"
-"尾部的高阻装置。"
+"尾部的增阻附件。"
 
 # 20/01/17 AG校对
 #: ../../source/weapons.rst:493
@@ -1328,7 +1328,6 @@ msgstr ""
 "模式使用WCS在 HUD 上指示挂载的命中点。它类似于新型战机中的 CCIP（连续计算命中"
 "点）模式。"
 
-# 待更正 下压角度可调
 #: ../../source/weapons.rst:506
 msgid ""
 "MAN - Manual, manual backup mode in which the HUD displays a pipper "
@@ -1572,7 +1571,7 @@ msgid ""
 "and Mk-82AIR (ballute) in DCS."
 msgstr ""
 "Mk-80 系列炸弹是美国海军与盟国的标准通用炸弹，这个系列的炸弹在越战期间首次投"
-"入使用。 Mk-82 还可装备高阻装置，使用折叠式高阻尾翼或减速伞尾部附件使炸弹减"
+"入使用。 Mk-82 还可装备增阻附件，使用折叠式高阻尾翼或减速伞尾部附件使炸弹减"
 "速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。 Mk-82炸弹的这些"
 "高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。"
 
@@ -1607,8 +1606,8 @@ msgid ""
 "should be used if retardation is needed."
 msgstr ""
 "所有的 Mk-80 炸弹都有头部引信，投放炸弹时，应使用 RIO 武器面板上的机械引信开"
-"关来设置启用头部引信（N）。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启动高"
-"阻装置，这意味着，如需使用高阻炸弹，应选择头部/尾部（N/T）机械引信。"
+"关来设置启用头部引信（N）。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启用增"
+"阻附件，这意味着，如需使用高阻炸弹，应选择头部/尾部（N/T）机械引信。"
 
 #: ../../source/weapons.rst:602
 msgid ""
@@ -1638,7 +1637,7 @@ msgid ""
 "bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14B, "
 "laser guided bombs to be more precise."
 msgstr ""
-"GBU 是加装了引导头单元和尾翼（控制）单元将 Mk-80 系列炸弹转换为精确制导炸弹。"
+"GBU 是加装了导引头单元和尾翼（控制）单元将 Mk-80 系列炸弹转换为精确制导炸弹。"
 "F-14B 挂载的 GBU （更准确地说是精确制导炸弹），分别是 GBU-10、GBU-12、GBU-16 "
 "和 GBU-24。"
 

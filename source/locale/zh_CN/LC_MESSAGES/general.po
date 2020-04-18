@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-03-19 23:09+0800\n"
+"PO-Revision-Date: 2020-04-17 16:46+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3963,7 +3963,7 @@ msgstr ""
 msgid ""
 "The caution lights relevant to engine operation are located on the pilot's "
 "caution - advisory panel,  and at the sides of the HUD."
-msgstr "前座的注意-提示警告灯面板和 HUD 的两侧分别装有数个发动机相关的告警灯。"
+msgstr "前座的注意-提示警报灯面板和 HUD 的两侧分别装有数个发动机相关的告警灯。"
 
 #: ../../source/general.rst:109
 msgid ""
@@ -4537,7 +4537,7 @@ msgid ""
 "indicate that the respective generator is not functioning correctly. Either "
 "because of a fault or because the engine driving the generator not running."
 msgstr ""
-"电力系统相关的警告灯和提示灯位于飞行员\\ :ref:`CAindicator`\\ 上。**L GEN** "
+"电力系统相关的警报灯和提示灯位于飞行员\\ :ref:`CAindicator`\\ 上。**L GEN** "
 "和 **R GEN** 指示灯亮起表示对应的发电机工作状态异常，这可能是由于系统出现故"
 "障，或驱动发电机的发动机没有运转。"
 
@@ -5044,7 +5044,7 @@ msgid ""
 "mode should then be used as the electrical system might not work."
 msgstr ""
 "两个机翼后掠通道都出现故障时，或使用应急机翼后掠模式时，VDI右侧的 **WING "
-"SWEEP** 告警灯将亮起。如果未使用应急模式，但该警告灯亮起，则表示电气系统可能"
+"SWEEP** 告警灯将亮起。如果未使用应急模式，但该警报灯亮起，则表示电气系统可能"
 "出现故障，应使用应急模式来控制机翼后掠系统。"
 
 #: ../../source/general.rst:490
@@ -5053,7 +5053,7 @@ msgid ""
 "illuminates when at least one electrical wing-sweep channel is inoperable."
 msgstr ""
 "当至少一个电动机翼后掠通道无法操作时，位于飞行员注意-提示灯光面板上的 **WING "
-"SWEEP** 警告灯将亮起。"
+"SWEEP** 警报灯将亮起。"
 
 #: ../../source/general.rst:494
 msgid "Wing-Sweep System Test"
@@ -5310,7 +5310,7 @@ msgid ""
 "ground track mode the **A/P REF** warning light will illuminate until the "
 "nosewheel steering button is depressed, enabling the mode."
 msgstr ""
-"**ALT** 开关用于选择高度保持模式，与地面轨迹模式中类似，**A/P REF** 警告灯亮"
+"**ALT** 开关用于选择高度保持模式，与地面轨迹模式中类似，**A/P REF** 警报灯亮"
 "起后，按下前轮转向按钮启来激活高度保持模式。"
 
 #: ../../source/general.rst:584
@@ -5336,8 +5336,8 @@ msgstr ""
 "最后一种自动驾驶模式是 ACL，也就是自动航降模式，这个模式将 Link 4 数据链路信"
 "息和机载雷达信标相结合进行自动航降。若要启用ACL，首先将 VEC/PCD 开关拨至 "
 "**ACL** 档位，等待 **A/P REF** 亮起。截获 ACL 下滑道，且 VDI 的 **ACL "
-"READY** 和 **A/P CPLR** 警告灯亮起后，按下操纵杆的前轮转向按钮来接通 ACL，让"
-"数据链路控制飞机进行着舰。ACL 模式激活后， **A/P REF** 警告灯将熄灭。"
+"READY** 和 **A/P CPLR** 警报灯亮起后，按下操纵杆的前轮转向按钮来接通 ACL，让"
+"数据链路控制飞机进行着舰。ACL 模式激活后， **A/P REF** 警报灯将熄灭。"
 
 #: ../../source/general.rst:591
 msgid ""
@@ -5615,8 +5615,8 @@ msgid ""
 "also possible to deactivate the system by depression of the nosewheel "
 "steering button."
 msgstr ""
-"机轮不承重（起飞）、供电故障或放下弹射牵引杆时，前轮转向会自动解除。前轮转向"
-"激活时，飞行员再次按下驾驶杆前轮转向按钮也可以将转向系统解除。"
+"机轮不承重（起飞）、供电故障或放下拖拽杆时，前轮转向会自动解除。前轮转向激活"
+"时，飞行员再次按下驾驶杆前轮转向按钮也可以将转向系统解除。"
 
 #: ../../source/general.rst:692
 msgid ""
@@ -5673,8 +5673,8 @@ msgid ""
 "parking brake applied, antiskid system fail or that the brakes are operating "
 "in the emergency mode (only when the pedals are depressed)."
 msgstr ""
-"HUD左侧的 **BRAKES** 警告灯表示停放刹车激活，也可能表示防滑系统故障或刹车在应"
-"急模式下工作（警告灯仅在踩下踏板时亮起）。"
+"HUD左侧的 **BRAKES** 警报灯表示停放刹车激活，也可能表示防滑系统故障或刹车在应"
+"急模式下工作（警报灯仅在踩下踏板时亮起）。"
 
 #: ../../source/general.rst:716
 msgid "Antiskid"
@@ -5738,7 +5738,7 @@ msgstr "F-14 的前起落架配有一套用于在航空母舰上作业时进行�
 msgid ""
 "The three components mounted in or on the nosegear are the nosewheel kneel "
 "functionality, the launch bar and the holdback fitting."
-msgstr "该系统的三个元件为前起落架支柱伸缩系统、弹射牵引杆和止动配件。"
+msgstr "该系统的三个部件为前起落架支柱伸缩系统、拖拽杆和止动配件。"
 
 #: ../../source/general.rst:740
 msgid ""
@@ -5756,13 +5756,13 @@ msgid ""
 "launch bar which can then be lowered manually by the deck crew or by turning "
 "the nosegear more than 10° from center."
 msgstr ""
-"这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。收缩动作完成后弹射牵"
-"引杆会解除锁定，随后可以由甲板工作人员手动放下或通过将前起落架偏转离中心超过"
-"10°来放下。"
+"这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。收缩动作完成后拖拽杆"
+"会解除锁定，随后可以由甲板工作人员手动放下或通过将前起落架偏转离中心超过10°来"
+"放下。"
 
 #: ../../source/general.rst:746
 msgid "In DCS the launch bar is automatically lowered with nosegear kneel."
-msgstr "在DCS中，弹射牵引杆会随着前起落架支柱的收缩自动放下。"
+msgstr "在DCS中，拖拽杆会随着前起落架支柱的收缩自动放下。"
 
 #: ../../source/general.rst:748
 msgid ""
@@ -5795,8 +5795,8 @@ msgid ""
 "aircraft. This also automatically raises the launch bar into its stowed "
 "position."
 msgstr ""
-"弹射器滑块完成冲程后，当弹射牵引杆从滑块脱离时，前起落架支柱存储的液压能量被"
-"释放以向飞机施加抬头力矩，同时也自动把弹射牵引杆抬升至收起位置。"
+"弹射器滑块完成冲程后，当拖拽杆从滑块脱离时，前起落架支柱存储的液压能量被释放"
+"以向飞机施加抬头力矩，同时也自动把拖拽杆抬升至收起位置。"
 
 #: ../../source/general.rst:758
 msgid ""
@@ -5808,11 +5808,11 @@ msgid ""
 "the nose strut hasn't fully extended, launch bar is not up and locked or "
 "nosewheel hasn't centered correctly. This inhibits nosegear retraction."
 msgstr ""
-":ref:`CAindicator` 的 **LAUNCH BAR** 提示灯会显示弹射牵引杆的位置状态。当机轮"
-"承受压力，弹射牵引杆未收起并锁定时提示灯亮起；当油门推至 **MIL** 时提示灯熄灭"
-"以表明飞机已经满足弹射条件。当机轮未承受压力时，前起落架支柱未完全伸展、弹射"
-"牵引杆没有收起并锁定或前轮没有正确回中都会导致 **LAUNCH BAR** 注意灯亮起。上"
-"述三种情况会阻碍前起落架收起。"
+":ref:`CAindicator` 的 **LAUNCH BAR** 提示灯会显示拖拽杆的位置状态。当机轮承受"
+"压力，拖拽杆未收起并锁定时提示灯亮起；当油门推至 **MIL** 时提示灯熄灭以表明飞"
+"机已经满足弹射条件。当机轮未承受压力时，前起落架支柱未完全伸展、拖拽杆没有收"
+"起并锁定或前轮没有正确回中都会导致 **LAUNCH BAR** 注意灯亮起。上述三种情况会"
+"阻碍前起落架收起。"
 
 #: ../../source/general.rst:763
 msgid ""
@@ -5822,8 +5822,8 @@ msgid ""
 "accomplished by another depression of the hookup key, default key **U**."
 msgstr ""
 ":ref:`launchbarabort` 包含 **LAUNCH BAR** 开关，该开关用于在弹射中止的情况下"
-"将飞机与弹射牵引杆分离。此功能尚未在DCS中实现，目前脱离弹射牵引杆需要再按一次"
-"连接键，默认为 **U** 。"
+"将飞机与拖拽杆分离。此功能尚未在DCS中实现，目前脱离拖拽杆需要再按一次连接键，"
+"默认为 **U** 。"
 
 #: ../../source/general.rst:768
 msgid "Arresting Gear"
@@ -5833,7 +5833,7 @@ msgstr "阻拦装置"
 msgid ""
 "The arresting hook located on the underside of the tail of the F-14 is used "
 "for arrested landings during carrier operations."
-msgstr "位于F-14尾部下方的阻拦钩用于在舰上作业时进行拦阻降落。"
+msgstr "位于F-14尾部下方的拦阻钩用于在舰上作业时进行拦阻降落。"
 
 #: ../../source/general.rst:772
 msgid ""
@@ -5853,8 +5853,8 @@ msgid ""
 "whenever the arresting hook position does not correspond with handle "
 "position."
 msgstr ""
-"系统通过 :ref:`arrhook` 面板的 **HOOK** 控制杆操作。**UP** 收起阻拦钩，"
-"**DN** 将阻拦钩放下至37°以在便正确执行航降时勾住阻拦索。在阻拦钩位置与控制杆"
+"系统通过 :ref:`arrhook` 面板的 **HOOK** 控制杆操作。**UP** 收起拦阻钩，"
+"**DN** 将拦阻钩放下至37°以在便正确执行航降时勾住阻拦索。在拦阻钩位置与控制杆"
 "位置不符的情况下，**HOOK** 控制杆旁边的过渡灯就会亮起。"
 
 #: ../../source/general.rst:778
@@ -5865,9 +5865,9 @@ msgid ""
 "releases the mechanical uplock and drain the hydraulic pressure keeping the "
 "hook up, thus lowering it."
 msgstr ""
-"当飞机发生故障导致阻拦钩无法正常放下时，可使用机械备份来放下阻拦钩。要激活机"
-"械备份，拉出控制杆并逆时针旋转90°。这将解开机械锁并释放使阻拦钩保持收起的液"
-"压，从而放下阻拦钩。"
+"当飞机发生故障导致拦阻钩无法正常放下时，可使用机械备份来放下拦阻钩。要激活机"
+"械备份，拉出控制杆并逆时针旋转90°。这将解开机械锁并释放使拦阻钩保持收起的液"
+"压，从而放下拦阻钩。"
 
 #: ../../source/general.rst:782
 msgid ""
@@ -5876,7 +5876,7 @@ msgid ""
 "back in and then setting it in the default **UP** position."
 msgstr ""
 "如果电力和液压都已恢复，则可顺时针旋转控制杆90°并推入原位，然后将控制杆放到 "
-"**UP** 位来收起阻拦钩。"
+"**UP** 位来收起拦阻钩。"
 
 #: ../../source/general.rst:784
 msgid ""
@@ -5884,7 +5884,7 @@ msgid ""
 "flash with gear down if hook is not also down. This feature can be disabled "
 "using the **HOOK BYPASS** switch on the :ref:`mlightctrlpanel`."
 msgstr ""
-"阻拦钩的位置也会影响座舱内和起落架上的进近迎角指示灯，起落架放下而阻拦钩未放"
+"拦阻钩的位置也会影响座舱内和起落架上的进近迎角指示灯，起落架放下而拦阻钩未放"
 "下会使指示灯闪烁。此功能可以通过 :ref:`mlightctrlpanel` 的 **HOOK BYPASS** 开"
 "关禁用。"
 
@@ -11559,7 +11559,7 @@ msgstr ""
 
 #: ../../source/general.rst:2727
 msgid "Warning Lights"
-msgstr "警告灯"
+msgstr "警报灯"
 
 # #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
 # #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
@@ -11586,8 +11586,8 @@ msgid ""
 "TID. The RIO warning light panel also contains lights for the AN/ALQ-126 and "
 "the IFF transponder, those are detailed under their respective section."
 msgstr ""
-"两名机组成员的前面板上有专用于显示特定威胁的警告灯。飞行员警告灯位于抬头显示"
-"器（HUD）右侧，RIO警告灯位于战术信息显示器（TID）右侧。RIO警示灯面板还包含AN/"
+"两名机组成员的前面板上有专用于显示特定威胁的警报灯。飞行员警报灯位于抬头显示"
+"器（HUD）右侧，RIO警报灯位于战术信息显示器（TID）右侧。RIO警示灯面板还包含AN/"
 "ALQ-126和IFF的指示灯，这些指示灯在各自章节中有详细说明。"
 
 # #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
@@ -11685,7 +11685,7 @@ msgstr ""
 msgid ""
 "During the tests the threat warning lights also illuminate for both the "
 "pilot and the RIO."
-msgstr "在测试过程中，飞行员和RIO的警告灯也会亮起。"
+msgstr "在测试过程中，飞行员和RIO的警报灯也会亮起。"
 
 #: ../../source/general.rst:2772
 msgid "Threat Symbology"
@@ -12363,7 +12363,7 @@ msgid ""
 msgstr ""
 "每个发射装置都具有两个部分，一个部分容纳10个干扰弹，另一部分则可容纳20个。虽"
 "然他们被称为左发射器和右发射器，但是实际上左发射器装在前部，右发射器装在后"
-"部，且两个发射器都装在着舰钩左侧，排成一行，称为左右发射器其实是沿用了早期"
+"部，且两个发射器都装在拦阻钩左侧，排成一行，称为左右发射器其实是沿用了早期"
 "F-14在尾部并排安装的AN/ALE-29发射器的称呼。"
 
 #: ../../source/general.rst:2957
@@ -12986,7 +12986,7 @@ msgid ""
 "The main components of the INS are the inertial measurement unit (IMU), the "
 "power supply unit and pilot and RIO navigation controls and displays."
 msgstr ""
-"INS 的主要元件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显"
+"INS 的主要部件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显"
 "示。"
 
 #: ../../source/general.rst:3140
@@ -13241,7 +13241,7 @@ msgid ""
 "inform the crew with advisory lights and appropriate acronyms displayed on "
 "the TID"
 msgstr ""
-"连续监测设备状态，并在发生故障时通过注意灯灯和在 TID 上显示失效元件对应的的缩"
+"连续监测设备状态，并在发生故障时通过注意灯灯和在 TID 上显示失效部件对应的的缩"
 "写来通知机组的能力"
 
 #: ../../source/general.rst:3215
@@ -13388,7 +13388,7 @@ msgid ""
 "panel."
 msgstr ""
 "如果 CSDC 检测到 IMU 失效，CSDC 将通知 WCS 计算机并在 TID 中显示指示 INS 失效"
-"元件的 IMU 缩写。RIO 注意-提示面板中，IMU 提示灯将亮起。"
+"部件的 IMU 缩写。RIO 注意-提示面板中，IMU 提示灯将亮起。"
 
 #: ../../source/general.rst:3276
 msgid "NAV COMP Light"
@@ -13508,7 +13508,7 @@ msgid ""
 "INS or IMU/AM available when in AHRS/AM. Wait for complete alignment or "
 "select mode as desired."
 msgstr ""
-"对准精度达到武器发射最低精度（TID屏幕上显示的第二个标记），选择了 AHRS/AM ，"
+"对准精度达到武器发射最低精度（TID 屏幕上显示的第二个标记），选择了 AHRS/AM ，"
 "IMU/AM 或 INS 已可用。等待对准完毕或选择所需模式。"
 
 #: ../../source/general.rst:3308
@@ -14783,7 +14783,7 @@ msgid ""
 "IMU indicator are only present on the RIO cockpit caution/advisory light "
 "panel."
 msgstr ""
-"导航系统主要元件的故障指示灯位于两个驾驶舱内的注意-提示面板上，但是 NAV COMP "
+"导航系统主要部件的故障指示灯位于两个驾驶舱内的注意-提示面板上，但是 NAV COMP "
 "和 IMU 提示灯仅在 RIO 驾驶舱中的注意-提示面板上显示。"
 
 #: ../../source/general.rst:3698
@@ -15387,7 +15387,7 @@ msgid ""
 "listening to the coded identifier tone in the headset."
 msgstr ""
 "要求用于更新的预存航路点的经纬度与 TACAN 台的 LAT 和 LONG 一致，才能执行 "
-"TACAN 导航更新。选择所需 TACAN 台的 TACAN 频道，并通过头戴收听莫尔斯代码单音"
+"TACAN 导航更新。选择所需 TACAN 台的 TACAN 波道，并通过头戴收听莫尔斯代码单音"
 "来验证是否选择了正确的塔康台。"
 
 #: ../../source/general.rst:3887
@@ -15408,7 +15408,7 @@ msgstr "按以下步骤执行 TACAN 更新："
 msgid ""
 "Select a TACAN channel whose latitude and longitude correspond to an update "
 "point."
-msgstr "选择一个更新点与塔康台经纬度相同的 TACAN 频道。"
+msgstr "选择一个更新点与塔康台经纬度相同的 TACAN 波道。"
 
 #: ../../source/general.rst:3894
 msgid "Hook desired update point (WAYPT 1, FIX PT, HOME BASE, etc.)."
@@ -15861,7 +15861,7 @@ msgid ""
 "up to 2 minutes to warm up, when turned on for the first time after a cold "
 "start."
 msgstr ""
-"系统在 2 个模式中每个模式都可提供 126 个运行频道。空对地模式中得频率接收范围"
+"系统在 2 个模式中每个模式都可提供 126 个运行波道。空对地模式中得频率接收范围"
 "为 962 - 1024 MHz 和 1151 - 1213 MHz，空对空模式则为 1025 - 1150 MHz。TACAN "
 "每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。"
 
@@ -16980,7 +16980,7 @@ msgid ""
 "additionally display TACAN information if the HSD is set to NAV mode on the "
 "PDCP."
 msgstr ""
-"然后 HUD 和 VDI 将提由 ICLS 驱动的供垂直（航向面）、横向（下滑面）精确航线矢"
+"然后 HUD 和 VDI 将提由 ICLS 驱动的供垂直（航向道）、横向（下滑道）精确航线矢"
 "量符号（交叉十字）。在 HUD 中，精确航线矢量的偏转不会超过2°。同样在 VDI 中偏"
 "转不超过1.5°。在 LDG 模式中 AWL/PCD 子模式下，如果 PDCP 中 HSD 设置为 NAV 档"
 "位，那么将会额外显示 TACAN 信息。"
@@ -17041,8 +17041,8 @@ msgid ""
 "interrogator (APX-76) antenna is an integral part of the AWG-9 WCS antenna."
 msgstr ""
 "四个 VHF/UHF/L 频段 刀状天线为 VHF/UHF 话音，UHF 数据链路，TACAN和敌我识别系"
-"统/选择识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 语音通信使用"
-"其中一组天线; UHF 1 语音通信，数据链路和 IFF 应答机使用另一组天线。 相关天线"
+"统/选择识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 话音通信使用"
+"其中一组天线; UHF 1 话音通信，数据链路和 IFF 应答机使用另一组天线。 相关天线"
 "位置参阅总体布置图。 IFF 问询器（APX-76）天线集成在 AWG-9 WCS 天线内。"
 
 #: ../../source/general.rst:4457
@@ -17060,7 +17060,7 @@ msgstr ""
 "每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自"
 "动作动功能，RIO必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT开关选择上部或"
 "下部天线。数据链路（DIL）天线同样需要手动选择。通过 DATA LINK 控制面板上的 "
-"ANTENNA 开关来选择上部或下部天线。UHF 1 语音通信 ARC-159 天线与 DIL 天线系统"
+"ANTENNA 开关来选择上部或下部天线。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统"
 "共用，并且始终使用与 ANTENNA 开关选择相反的天线。"
 
 #: ../../source/general.rst:4462
@@ -17121,7 +17121,7 @@ msgid ""
 "permits continued ICS operation."
 msgstr ""
 "ICS提供机组成员之间的正常、备用或应急通信。它还可以合并和放大从其他电子接收设"
-"备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电语音等）接收到的音频信号。飞"
+"备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞"
 "行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶"
 "舱有两个放大器，在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择 "
 "ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。这可使 ICS "
@@ -17605,8 +17605,8 @@ msgid ""
 "panel of the radio. The radio is located on the pilot left console."
 msgstr ""
 "UHF 1 (ARC-159)无线电提供空空和空面话音通信。无线电频率范围从 225.000 - "
-"399.975 Mhz。该设备允许在20个预设频道上的任意一个或在救生频率（243.000 MHz）"
-"上进行 AM 模式收发。救生频率可与其它任意已选频率同时监听。ARC-159 通过手动调"
+"399.975 Mhz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）"
+"上进行 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调"
 "整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率"
 "为10瓦。无线电的所有控制操作都在无线电台前面板上。无线电台位于飞行员左侧控制"
 "台上。"
@@ -17659,7 +17659,7 @@ msgid ""
 "Displays frequency when mode selector switch is in MANUAL and displays UHF "
 "channel when mode switch is in PRESET."
 msgstr ""
-"模式选择旋钮位于 MANUAL 时显示频率，位于 PRESET 档位时显示 UHF 预设频道。"
+"模式选择旋钮位于 MANUAL 时显示频率，位于 PRESET 档位时显示 UHF 预设波道。"
 
 #: ../../source/general.rst:4725
 msgid "READ switch"
@@ -17669,7 +17669,7 @@ msgstr "READ 开关"
 msgid ""
 "Deflection of the switch causes the frequency display to show the preset "
 "channel frequency."
-msgstr "拨动开关后显示窗将显示预设频道的频率。"
+msgstr "拨动开关后显示窗将显示预设波道的频率。"
 
 #: ../../source/general.rst:4729
 msgid "BRT/TEST control"
@@ -17687,7 +17687,7 @@ msgstr "LOAD 按钮"
 
 #: ../../source/general.rst:4733
 msgid "Depressing button saves displayed frequency to selected preset channel."
-msgstr "按下按钮将显示窗的频率保存至当前选择的预设频道。"
+msgstr "按下按钮将显示窗的频率保存至当前选择的预设波道。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17697,7 +17697,7 @@ msgstr "ADF – UHF 1 (ARC-159) 的 ADF 无功能；使用 V/UHF 2 ARC-182 的 D
 
 #: ../../source/general.rst:0
 msgid "BOTH – Energizes both the main transceiver and the guard receiver."
-msgstr "BOTH – 接通主无线电收发器和救生频道接收机。"
+msgstr "BOTH – 接通主无线电收发器和救生波道接收机。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -17719,7 +17719,7 @@ msgstr "CHAN SEL 旋钮"
 msgid ""
 "Selects one of 20 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr "当模式选择旋钮设置为PRESET时，用来选择20个预设频道中的任意一个。"
+msgstr "当模式选择旋钮设置为PRESET时，用来选择20个预设波道中的任意一个。"
 
 #: ../../source/general.rst:4751
 msgid "Frequency Chart"
@@ -17730,7 +17730,7 @@ msgid ""
 "Used to record preset channel frequencies. Frequencies preset in the mission "
 "editor will be automatically displayed here in DCS."
 msgstr ""
-"用来记录预设频道的频率。在DCS中，任务编辑器中预设的频率会自动显示在这里。"
+"用来记录预设波道的频率。在DCS中，任务编辑器中预设的频率会自动显示在这里。"
 
 #: ../../source/general.rst:4755
 msgid "Mode Selector switch"
@@ -17761,8 +17761,8 @@ msgid ""
 "PRESET channel selector. The selected channel is displayed in the readout "
 "window."
 msgstr ""
-"PRESET – 使用预设频道拨轮将收发器调谐至20个预设频道中的任一频道。显示窗将会显"
-"示已选的频道。"
+"PRESET – 使用预设波道拨轮将收发器调谐至20个预设波道中的任一波道。显示窗将会显"
+"示已选的波道。"
 
 #: ../../source/general.rst:4763
 msgid "TONE button"
@@ -17772,7 +17772,7 @@ msgstr "TONE 按钮"
 msgid ""
 "Depressing button causes a steady tone (1 020 Hz) to be transmitted on the "
 "frequency or channel selected."
-msgstr "按住按钮会在当前无线电频率或频道上发送一个单音（频率为1,020赫兹）"
+msgstr "按住按钮会在当前无线电频率或波道上发送一个单音（频率为1,020赫兹）"
 
 #: ../../source/general.rst:4767
 msgid ""
@@ -17812,9 +17812,9 @@ msgid ""
 "88, 108 to 156, 156 to 174, and 225 to 399.975 MHz on any of 11,960 channels "
 "(separated by 25 kHz)."
 msgstr ""
-"ARC-182 无线电台提供多模式，多频道，空空/空面话音及单音通信。ARC-182 控制面板"
+"ARC-182 无线电台提供多模式，多波道，空空/空面话音及单音通信。ARC-182 控制面板"
 "位于 RIO 左侧控制台上。无线电频率有四个频段，分别为 30 至 88 ，108 至 156 ，"
-"156 至 174 ，以及 225 至 399.975MHz 内 11960 个频道中的任一频道（使用 25 KHz"
+"156 至 174 ，以及 225 至 399.975MHz 内 11960 个波道中的任一波道（使用 25 KHz"
 "开关调整）"
 
 #: ../../source/general.rst:4778
@@ -17835,11 +17835,11 @@ msgid ""
 "the pilot instrument panel indicates the channel or frequency selected."
 msgstr ""
 "无线电台可以使用 AM 或 FM 进行收发。除了 225 至 399.975 频段（拨动开关）外，"
-"无线电将自动选择调制方式。30个预设频道可用。每个频段的救生频率可随其它已选的"
-"频率同时监听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。"
+"无线电将自动选择调制方式。30个预设波道可用。每个频段的救生频率可随其它已选的"
+"频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。"
 "ARC-182 使用保密话音设备运行（KY-28，KY-58 在DCS中尚未实现）。上部与下部天线"
 "在200海里内可提供可靠的视线内通信（根据高度与的大气条件而定）。飞行员仪表板上"
-"的远程显示器显示了选择频率或频道。"
+"的远程显示器显示了选择频率或波道。"
 
 #: ../../source/general.rst:4797
 msgid "Controls volume of RIO audio for V/UHF 2."
@@ -17857,7 +17857,7 @@ msgstr "FREQ/(CHAN)"
 msgid ""
 "Displays frequency when mode selector switch is in MAN and displays V/UHF "
 "channel when mode switch is in PRESET."
-msgstr "模式选择旋钮位于 MAN 档位时显示频率，位于 PRESET 时显示 V/UHF 频道。"
+msgstr "模式选择旋钮位于 MAN 档位时显示频率，位于 PRESET 时显示 V/UHF 波道。"
 
 #: ../../source/general.rst:4816
 msgid "UHF Mode switch"
@@ -17949,21 +17949,21 @@ msgid ""
 "display. Channels 31 through 40 are for Have Quick (antijam) use and are not "
 "implemented in DCS."
 msgstr ""
-"PRESET – 使用 CHAN SEL 旋钮选择40个预设工作频率中的任意一个。已选的频道将显示"
-"在 FREQ/(CHAN) 显示窗内。频道 31 - 40 为 Have Quick（反干扰）使用，DCS中尚未"
+"PRESET – 使用 CHAN SEL 旋钮选择40个预设工作频率中的任意一个。已选的波道将显示"
+"在 FREQ/(CHAN) 显示窗内。波道 31 - 40 为 Have Quick（反干扰）使用，DCS中尚未"
 "实现。"
 
 #: ../../source/general.rst:0
 msgid ""
 "READ – Displays the frequency (rather than channel) of preset channel "
 "selected."
-msgstr "READ – 显示已选预设频道的频率。"
+msgstr "READ – 显示已选预设波道的频率。"
 
 #: ../../source/general.rst:0
 msgid ""
 "LOAD – Automatically places the displayed frequency into the memory for the "
 "selected preset channel."
-msgstr "LOAD - 将显示窗的频率保存至当前预设频道。"
+msgstr "LOAD - 将显示窗的频率保存至当前预设波道。"
 
 #: ../../source/general.rst:4854
 msgid "CHAN SEL switch (Inner Dial)"
@@ -17973,12 +17973,12 @@ msgstr "CHAN SEL 旋钮（内侧旋钮）"
 msgid ""
 "Selects one of 40 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr "当频率模式选择旋钮设置为 PRESET 时，从40个预设频道中任选一个进行使用。"
+msgstr "当频率模式选择旋钮设置为 PRESET 时，从40个预设波道中任选一个进行使用。"
 
 # AG重新翻译
 #: ../../source/general.rst:4860
 msgid "Loading (saving) Preset Channel(s) on UHF 1 and V/UHF 2"
-msgstr "UHF 1 和 V/UHF 2 中读取（保存）预设频道"
+msgstr "UHF 1 和 V/UHF 2 中读取（保存）预设波道"
 
 #: ../../source/general.rst:4862
 msgid "MODE selection- T/R or T/R&G."
@@ -17990,7 +17990,7 @@ msgstr "频率模式选择旋钮 - PRESET。"
 
 #: ../../source/general.rst:4866
 msgid "CHAN SEL switch- Select desired channel."
-msgstr "CHAN SEL 旋钮 - 选择所需的频道。"
+msgstr "CHAN SEL 旋钮 - 选择所需的波道。"
 
 #: ../../source/general.rst:4868
 msgid "Frequency mode control- READ."
@@ -18004,7 +18004,7 @@ msgstr "频率选择选择旋钮 - 调到所需的频率。"
 msgid ""
 "Frequency mode control - LOAD (frequency is stored in memory for selected "
 "channel)."
-msgstr "频率模式选择旋钮 - LOAD（频率已存储到选择的频道中）。"
+msgstr "频率模式选择旋钮 - LOAD（频率已存储到选择的波道中）。"
 
 #: ../../source/general.rst:4874
 msgid "Frequency mode control- READ, Verify frequency display."
@@ -18012,7 +18012,7 @@ msgstr "频率模式选择旋钮 - READ，核实频率显示。"
 
 #: ../../source/general.rst:4876
 msgid "Repeat steps 2 through 7 for subsequent channels."
-msgstr "后续频道输入重复第二步至第七步。"
+msgstr "后续波道输入重复第二步至第七步。"
 
 # 12月02日之前由AG重新翻译
 #: ../../source/general.rst:4880
@@ -18175,16 +18175,16 @@ msgid ""
 "frequency of the radios. The pilot has remote displays for both UHF 1 and V/"
 "UHF 2 and the RIO only for UHF 1."
 msgstr ""
-"飞行员和 RIO 都拥有显示当前无线电频率或频道的的远程显示器。飞行员的显示器能够"
+"飞行员和 RIO 都拥有显示当前无线电频率或波道的的远程显示器。飞行员的显示器能够"
 "显示 UHF 1 及 V/UHF 2，而 RIO 的则只能显示 UHF 1。"
 
 #: ../../source/general.rst:4932
 msgid "UHF 1 Remote Channel/Frequency Indicator (Pilot)"
-msgstr "UHF 1 频道/频率远程显示器（飞行员）"
+msgstr "UHF 1 波道/频率远程显示器（飞行员）"
 
 #: ../../source/general.rst:0
 msgid "Displays a readout of the frequency or channel set for the UHF 1 radio."
-msgstr "用于显示 UHF 1 无线电的频率或所选频道。"
+msgstr "用于显示 UHF 1 无线电的频率或所选波道。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -18198,17 +18198,17 @@ msgstr "BRT - 控制显示亮度。"
 
 #: ../../source/general.rst:4938
 msgid "V/UHF 2 Remote Channel/Frequency Indicator (Pilot)"
-msgstr "V/UHF 2 频道/频率远程显示器（飞行员）"
+msgstr "V/UHF 2 波道/频率远程显示器（飞行员）"
 
 #: ../../source/general.rst:0
 msgid ""
 "Displays a readout of the frequency or channel set for the V/UHF 2 radio."
-msgstr "用于显示 V/UHF 2 无线电的频率或所选频道。"
+msgstr "用于显示 V/UHF 2 无线电的频率或所选波道。"
 
 # AG重新翻译至此
 #: ../../source/general.rst:4944
 msgid "UHF 1 Remote Channel/Frequency Indicator (RIO)"
-msgstr "UHF 1 频道/频率远程显示器（RIO）"
+msgstr "UHF 1 波道/频率远程显示器（RIO）"
 
 # AG进行校对和修改-12/10
 #: ../../source/general.rst:4952
@@ -18224,7 +18224,7 @@ msgid ""
 "line-of-sight range, varying with altitude."
 msgstr ""
 "UHF 自动测向仪被用于与 ARC-182 无线电台一起工作。ADF 能提供与地面信标或其他飞"
-"机的相对方位。它可以在30个预设频道中的任意一个或者是在 108 到 399.975 MHz 范"
+"机的相对方位。它可以在30个预设波道中的任意一个或者是在 108 到 399.975 MHz 范"
 "围内的任何手动设定频率上接收信号。该系统有视线内通信范围，随高度而变化。"
 
 # AG ADF校对完毕
@@ -18238,7 +18238,7 @@ msgid ""
 msgstr ""
 "该系统有五分钟的预热时间，在预热期间应忽略故障指示。系统使用 AS-909/ARA-48 "
 "ADF 天线。飞机与信标的相对方位将在 飞行员/RIO BDHI（一号指针），飞行员 HSD，"
-"以及 RIO 多功能显示指示器上显示。在 UHF 语音传输时，ADF 信号将中断。"
+"以及 RIO 多功能显示指示器上显示。在 UHF 话音传输时，ADF 信号将中断。"
 
 # AG修改校对-12/12
 #: ../../source/general.rst:4963
@@ -18476,7 +18476,7 @@ msgid ""
 msgstr ""
 "Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路"
 "网络。 然后，数据源（或者说，数据源的操作员）将为 F-14 提供目标跟踪，航路点和"
-"控制命令。 此外，它还用于自动航降系统（ACLS）。"
+"控制命令。 此外，它还用于自动助降系统（ACLS）。"
 
 #: ../../source/general.rst:5052
 msgid ""
