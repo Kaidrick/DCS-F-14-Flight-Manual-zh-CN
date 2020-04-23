@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-04-17 15:44+0800\n"
+"PO-Revision-Date: 2020-04-21 21:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1926,7 +1926,7 @@ msgid ""
 "If the HOOK BY-PASS switch is set to CARRIER the lights will flash if the "
 "arresting hook is up while the landing gear is down."
 msgstr ""
-"如果着舰钩旁路开关处于 CARRIER（着舰）位置，起落架放下，但着舰钩升起时，进近"
+"如果拦阻钩旁路开关处于 CARRIER（着舰）位置，起落架放下，但着舰钩升起时，进近"
 "迎角指示灯会闪烁。"
 
 #: ../../source/cockpit.rst:910
@@ -3200,11 +3200,11 @@ msgstr "右垂直控制台"
 
 #: ../../source/cockpit.rst:1497
 msgid "Arresting Hook Panel"
-msgstr "阻拦钩控制面板"
+msgstr "拦阻钩控制面板"
 
 #: ../../source/cockpit.rst:1500
 msgid "Panel controlling arrestor hook."
-msgstr "用于控制阻拦钩。"
+msgstr "用于控制拦阻钩。"
 
 #: ../../source/cockpit.rst:1505
 msgid "HOOK handle"
@@ -3212,31 +3212,31 @@ msgstr "HOOK 手柄"
 
 #: ../../source/cockpit.rst:0
 msgid "Arresting hook handle, selects arresting hook position."
-msgstr "阻拦钩控制手柄，用于选择阻拦钩的位置。"
+msgstr "拦阻钩控制手柄，用于选择拦阻钩的位置。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "UP - Electrically actuates hydraulic retractation of the hook and locks it "
 "in the uplock."
-msgstr "UP - 电动向液压系统增压，升起阻拦钩并上锁。"
+msgstr "UP - 电动向液压系统增压，升起拦阻钩并上锁。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "DOWN - Electrically releases hydraulic pressure allowing hook to extend via "
 "dashpot pressure and gravity."
-msgstr "DN - 电动向液压系统减压，使阻拦钩受缓冲器压力和自身重力展开。"
+msgstr "DN - 电动向液压系统减压，使拦阻钩受缓冲器压力和自身重力展开。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "EMERG DOWN - When handle is pulled and twisted counter-clockwise the hook is "
 "mechanically released for extention."
 msgstr ""
-"EMERG DOWN - 应急放钩，抽出并逆时针旋转手柄会释放阻拦钩锁定机构，使阻拦钩展"
+"EMERG DOWN - 应急放钩，抽出并逆时针旋转手柄会释放拦阻钩锁定机构，使拦阻钩展"
 "开。"
 
 #: ../../source/cockpit.rst:1513
 msgid "Hook transition light"
-msgstr "阻拦钩过渡指示灯"
+msgstr "拦阻钩过渡指示灯"
 
 #: ../../source/cockpit.rst:1513
 msgid ""
@@ -3244,8 +3244,8 @@ msgid ""
 "turn off until fully extended and may remain illuminated when lowered at "
 "high speeds due to hook blowback."
 msgstr ""
-"灯光亮起表示阻拦钩实际位置与阻拦钩手柄对应位置不符。高速飞行中放下阻拦钩时，"
-"由于空气向后吹动阻拦钩，使其无法展开，因此指示灯直到阻拦钩完全展开才会熄灭。"
+"灯光亮起表示拦阻钩实际位置与拦阻钩手柄对应位置不符。高速飞行中放下拦阻钩时，"
+"由于空气向后吹动拦阻钩，使其无法展开，因此指示灯直到拦阻钩完全展开才会熄灭。"
 
 #: ../../source/cockpit.rst:1515
 msgid "GUN"
@@ -4178,8 +4178,8 @@ msgid ""
 "Sets AOA lights to either FIELD or CARRIER mode, with the switch in CARRIER "
 "and wheels down the AOA lights flash if the hook isn't down."
 msgstr ""
-"阻拦钩旁路开关，用于设置进近迎角指示灯的 FIELD（机场）或 CARRIER（航母）模"
-"式，如果选择了 CARRIER 模式且起落架放下，但阻拦钩未降下时，指示灯会闪烁。"
+"拦阻钩旁路开关，用于设置进近迎角指示灯的 FIELD（机场）或 CARRIER（航母）模"
+"式，如果选择了 CARRIER 模式且起落架放下，但拦阻钩未降下时，指示灯会闪烁。"
 
 #: ../../source/cockpit.rst:1858
 msgid "TAXI switch"

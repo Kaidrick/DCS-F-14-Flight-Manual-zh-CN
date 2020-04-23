@@ -12,6 +12,10 @@
 
 .. _manual_lastest:
 
+2020年04月23日
+****************
+* 改进文件下载方式。Github 用户请勿使用镜像站本地下载
+
 2020年04月18日
 ****************
 * 部分用词统一至汉化组
@@ -128,8 +132,7 @@
 
 校对并修复了单人、多人、快速和训练任务中的文字错误。
 
-由于任务体积增加，弃用zip改用rar压缩，集合包分为\ :download:`part1 <download/F-14-localization-pack.part1.rar>` 和\ :download:`part2 <download/F-14-localization-pack.part2.rar>`\ 
-同时下载两者后方可正常解压。安装和使用说明详见\ :doc:`loc_other`\ 页面。
+由于任务体积增加，弃用zip改用rar压缩。
 
 2019年04月12日
 ****************

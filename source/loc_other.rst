@@ -15,13 +15,18 @@
 
 **包含所有目前可用的本地化文件。直接解压至DCS World安装目录中，并覆盖原文件。**
 
-**注意：Heatblur在任务中添加了语音，任务体积变大，压缩包体积超过Github lfs的100MB限制，原先的两个分包现改为三个**	
+**注意：Heatblur在任务中添加了语音，任务体积变大，压缩包体积超过Github lfs的100MB限制，现变更下载方式为镜像站本地下载+网盘下载，GITHUB 用户请勿使用镜像站下载**	
 
-:download:`part1 <download/F-14-localization-pack.part1.rar>`
+.. raw:: html
 
-:download:`part2 <download/F-14-localization-pack.part2.rar>`
+    <p><a class="reference download internal" download="" href="_downloads/test/F-14-localization-pack.rar"><code class="xref download docutils literal notranslate"><span class="pre">镜像站本地下载</span></code></a></p>
 
-:download:`part3 <download/F-14-localization-pack.part3.rar>`
+|
+
+.. raw:: html
+
+    <p><a class="reference download internal" download="" href="https://1drv.ms/u/s!Ao9NP8z9YoszuEUyQx_pmHX88XA7"><code class="xref download docutils literal notranslate"><span class="pre">OneDrive网盘下载</span></code></a></p>
+
 
 :注意: 如果下载了本集合包，则无需单独下载下文中的按键设置和驾驶舱提示和任务文件。
 
