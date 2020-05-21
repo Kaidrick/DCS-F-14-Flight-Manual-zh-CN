@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-04-21 21:18+0800\n"
+"PO-Revision-Date: 2020-05-08 19:27+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -318,7 +318,7 @@ msgstr "ALR-67 旋钮"
 
 #: ../../source/cockpit.rst:144
 msgid "Controls audio volume from the ALR-67 to the pilot."
-msgstr "用于控制飞行员驾驶舱内 ALR-67 的音量。"
+msgstr "用于控制飞行员头戴中 ALR-67 的音量。"
 
 #: ../../source/cockpit.rst:146
 msgid "SW knob"
@@ -326,8 +326,7 @@ msgstr "SW 旋钮"
 
 #: ../../source/cockpit.rst:146
 msgid "Controls volume of Sidewinder audio tone to the pilot."
-msgstr ""
-"“响尾蛇”（Sidewinder）音量旋钮，用于调节飞行员驾驶舱内 “响尾蛇” 导弹的音量。"
+msgstr "“响尾蛇”音量旋钮，用于调节飞行员头戴中“响尾蛇”导弹的音调音量。"
 
 #: ../../source/cockpit.rst:148
 msgid "V/UHF 2 knob"
@@ -335,7 +334,7 @@ msgstr "V/UHF 2 旋钮"
 
 #: ../../source/cockpit.rst:148
 msgid "Controls volume of audio from AN/ARC-182 to the pilot."
-msgstr "控制飞行员 AN/ARC-182 无线电台音频的音量。"
+msgstr "控制飞行员头戴中 AN/ARC-182 无线电台的音频音量。"
 
 #: ../../source/cockpit.rst:150 ../../source/cockpit.rst:2205
 msgid "TACAN CMD switch"
@@ -980,8 +979,8 @@ msgid ""
 "Button used to command CAGE/SEAM to AIM-9 initiating lockon. Also used to "
 "disengage APC when in use."
 msgstr ""
-"用于控制 AIM-9 导弹 CAGE（引导头解锁）/ SEAM（“响尾蛇”扩展搜索模式） 并启用 "
-"AIM-9 引导头锁定。如果启用了 APC（进近推力补偿器），则用于解除 APC。"
+"用于控制 AIM-9 导弹 CAGE（导引头解锁）/ SEAM（“响尾蛇”扩展搜索模式） 并启用 "
+"AIM-9 导引头锁定。如果启用了 APC（进近推力补偿器），则用于解除 APC。"
 
 #: ../../source/cockpit.rst:435
 msgid "Exterior light switch"
@@ -1205,7 +1204,7 @@ msgid ""
 "OFF/DUMP switch. Allows fuel dump when speed brakes are retracted, "
 "afterburner off and weight off wheels."
 msgstr ""
-"放油开关，用于开启或停止放油。减速板收起，机轮不承重且加力燃烧关闭时飞机可以"
+"放油开关，用于开启或停止放油。减速板收起，机轮不负重且加力燃烧关闭时飞机可以"
 "进行放油操作。"
 
 #: ../../source/cockpit.rst:530
@@ -1247,7 +1246,7 @@ msgstr "防滑和扰流板制动开关，用于选择和控制防滑系统和扰
 msgid ""
 "BOTH - Enables both anti-skid and spoiler brake function with weight on "
 "wheels."
-msgstr "BOTH - 机轮承重时，启用防滑系统和扰流板制动系统。"
+msgstr "BOTH - 机轮负重时，启用防滑系统和扰流板制动系统。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Turns off both systems."
@@ -1257,7 +1256,7 @@ msgstr "OFF - 关闭防滑系统和扰流板制动系统。"
 msgid ""
 "SPOILER BK - Spoiler brake, enables spoiler brake function with weight on "
 "wheels."
-msgstr "SPOILER BK - 扰流板制动，机轮承重时，启用扰流板制动功能。"
+msgstr "SPOILER BK - 扰流板制动，机轮负重时，启用扰流板制动功能。"
 
 #: ../../source/cockpit.rst:546
 msgid "MASTER RESET button"
@@ -1379,7 +1378,7 @@ msgid ""
 "Indicates weight on wheels when moved down by solenoid. Can be lifted up to "
 "override. Non-functional in DCS."
 msgstr ""
-"起落架放下锁定超控杆，被电磁铁移动至向下位置时指示机轮承重。可以升起至向上位"
+"起落架放下锁定超控杆，被电磁铁移动至向下位置时指示机轮负重。可以升起至向上位"
 "置来超控（起落架手柄锁定在 DOWN 位置）。DCS 中无功能。"
 
 #: ../../source/cockpit.rst:613
@@ -1580,7 +1579,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:736
 msgid "Exhaust Nozzle Position Indicator"
-msgstr "发动机喷口位置指示器"
+msgstr "发动机喷口位置表"
 
 #: ../../source/cockpit.rst:739
 msgid ""
@@ -1926,7 +1925,7 @@ msgid ""
 "If the HOOK BY-PASS switch is set to CARRIER the lights will flash if the "
 "arresting hook is up while the landing gear is down."
 msgstr ""
-"如果拦阻钩旁路开关处于 CARRIER（着舰）位置，起落架放下，但着舰钩升起时，进近"
+"如果拦阻钩旁路开关处于 CARRIER（着舰）位置，起落架放下，但拦阻钩升起时，进近"
 "迎角指示灯会闪烁。"
 
 #: ../../source/cockpit.rst:910
@@ -2086,8 +2085,8 @@ msgid ""
 "SEAM acquisition attempt, and remains lit thereafter if the seeker has "
 "locked onto a target."
 msgstr ""
-"当“响尾蛇”导处于隶属模式或瞄准线 SEAM 模式下，且引导头正进行搜索时，SEAM "
-"LOCK 灯会亮起。SEAM LOCK 灯会在 SEAM 尝试进行锁定的4.5秒期间内点亮，如果引导"
+"当“响尾蛇”导弹处于隶属模式或视轴 SEAM 模式下，且导引头正进行搜索时，SEAM "
+"LOCK 灯会亮起。SEAM LOCK 灯会在 SEAM 尝试进行锁定的4.5秒期间内亮起，如果导引"
 "头成功锁定目标则继续保持亮起。"
 
 #: ../../source/cockpit.rst:995
@@ -2176,7 +2175,7 @@ msgid ""
 "WCS when in ACM mode."
 msgstr ""
 "导弹模式选择开关，这是一个带有指示灯的按钮开关。用于选择导弹发射模式： "
-"NORM（正常）模式或 BRSIT（瞄准线）模式。在 ACM 模式下，导弹发射模式由 WCS 控"
+"NORM（正常）模式或 BRSIT（视轴）模式。在 ACM 模式下，导弹发射模式由 WCS 控"
 "制。"
 
 #: ../../source/cockpit.rst:1013
@@ -2718,11 +2717,11 @@ msgstr "自动驾驶接通和前轮转向按钮"
 # wording
 #: ../../source/cockpit.rst:0
 msgid "Button toggling nosewheel steering with weight on wheels."
-msgstr "机轮承重时，按下按钮来启用或关闭前轮转向系统。"
+msgstr "机轮负重时，按下按钮来启用或关闭前轮转向系统。"
 
 #: ../../source/cockpit.rst:0
 msgid "Without weight on wheels is used to engage enabled autopilot modes."
-msgstr "机轮不承重时，按下按钮来启用当前选定的自动驾驶模式。"
+msgstr "机轮不负重时，按下按钮来启用当前选定的自动驾驶模式。"
 
 #: ../../source/cockpit.rst:1214
 msgid "Autopilot emergency disengage paddle"
@@ -2740,7 +2739,7 @@ msgstr ""
 msgid ""
 "With weight on wheels additionally reverts throttle mode to MAN (manual) "
 "while depressed."
-msgstr "机轮承重时，按下紧急断开开关也会将油门模式退回 MAN（手动）模式。"
+msgstr "机轮负重时，按下紧急断开开关也会将油门模式退回 MAN（手动）模式。"
 
 #: ../../source/cockpit.rst:1218
 msgid "Weapon firing trigger"
@@ -2969,7 +2968,7 @@ msgstr "ALR-67 显示器"
 msgid ""
 "Indicator showing emitters detected by the ALR-67 RWR (radar warning "
 "receiver) set."
-msgstr "用于显示 ALR-67 RWR（雷达警告接收器）组件侦测到的辐射源。"
+msgstr "用于显示 ALR-67 RWR（雷达告警接收机）组件侦测到的辐射源。"
 
 #: ../../source/cockpit.rst:1377 ../../source/cockpit.rst:2897
 msgid "System status circle, area I"
@@ -3987,7 +3986,7 @@ msgid ""
 "Weight on wheels - Aircraft kneeled, either throttle below MIL and launch "
 "bar not up and locked."
 msgstr ""
-"机轮承重时 - 飞机机头高度降低，油门位置不超过 MIL 且弹射牵引杆未收起或未锁"
+"机轮负重时 - 飞机机头高度降低，油门位置不超过 MIL 且弹射牵引杆未收起或未锁"
 "定。"
 
 #: ../../source/cockpit.rst:0
@@ -3995,7 +3994,7 @@ msgid ""
 "Weight off wheels - Launch bar not up and locked, launch bar not within 15º "
 "off center (cocked nosegear) or nose strut not fully extended."
 msgstr ""
-"机轮不承重时 - 弹射牵引杆未收起或未锁定，弹射牵引杆偏离中心超过15度（前轮翘"
+"机轮不负重时 - 弹射牵引杆未收起或未锁定，弹射牵引杆偏离中心超过15度（前轮翘"
 "起）或前起落架支柱未完全伸展。"
 
 #: ../../source/cockpit.rst:1790
@@ -4129,7 +4128,7 @@ msgid ""
 "lights lights up steadily or flashes. With weight on wheels the "
 "supplementary lights are always steady."
 msgstr ""
-"航行灯开关，用于设置翼尖或机尾的附加灯和航行灯是稳定亮起还是闪烁。机轮承重"
+"航行灯开关，用于设置翼尖或机尾的附加灯和航行灯是稳定亮起还是闪烁。机轮负重"
 "时，补充灯光总是稳定亮起。"
 
 #: ../../source/cockpit.rst:1848
@@ -6429,7 +6428,7 @@ msgstr ""
 msgid ""
 "Caution light indicating that radar operation with weight on wheels is "
 "possible."
-msgstr "“雷达启用”注意灯，灯光亮起表示机轮承重时可以在地面上进行雷达操作。"
+msgstr "“雷达启用”注意灯，灯光亮起表示机轮负重时可以在地面上进行雷达操作。"
 
 #: ../../source/cockpit.rst:3044
 msgid "COOLING AIR"
@@ -6548,7 +6547,7 @@ msgstr "请查阅 :ref:`navigation` 中的相关章节来获取更多信息。"
 
 #: ../../source/cockpit.rst:3092
 msgid "Radar Warning Receiver Panel"
-msgstr "雷达警告接收器面板"
+msgstr "雷达告警接收机面板"
 
 #: ../../source/cockpit.rst:3098
 msgid "Switch controlling power to the ALR-67."
@@ -6587,8 +6586,8 @@ msgid ""
 "special BIT status page while held and then for 3 seconds when released."
 msgstr ""
 "三档位弹簧开关，释放开关后，开关弹回中间位置。短暂地将开关置于 BIT 档位会开"
-"始 ALR-67 自检程序。自检程序第一页显示时，将开关拨至 SPL（特殊）档位会显示特"
-"殊 BIT 状态页，释放开关后，特殊 BIT 状态页会显示三秒然后消失。"
+"始 ALR-67 自检程序。BIT 第一页显示时，将开关拨至 SPL（特殊）档位会显示特殊 "
+"BIT 状态页，释放开关后，特殊 BIT 状态页会显示三秒然后消失。"
 
 #: ../../source/cockpit.rst:3106
 msgid "Volume knob controlling ALR-67 audio to RIO."
@@ -7017,7 +7016,7 @@ msgstr "AUDIO 旋钮"
 
 #: ../../source/cockpit.rst:3242
 msgid "Volume knob, sets audio volume from AN/ALQ-126 to RIO headset."
-msgstr "音量控制旋钮，用于调节 RIO 头戴钟 AN/ALQ-126 的音频音量。"
+msgstr "音量控制旋钮，用于调节 RIO 头戴中 AN/ALQ-126 的音频音量。"
 
 #: ../../source/cockpit.rst:3252
 msgid "Data Link Control Panel"
@@ -7183,7 +7182,7 @@ msgid ""
 "Switch selecting operational mode for launching flares. Also controls what "
 "countermeasure the DLC button on the pilot stick ejects while airborne."
 msgstr ""
-"红外干扰弹发射模式选择开关，用于选择红外干扰弹发射器工作模式。也用于控制飞行"
+"红外干扰弹发射模式选择开关，用于选择红外干扰弹布撒器工作模式。也用于控制飞行"
 "员驾驶杆的 DLC 按钮发射哪种对抗措施。"
 
 #: ../../source/cockpit.rst:0
@@ -7193,7 +7192,7 @@ msgid ""
 "releases."
 msgstr ""
 "MULT - 齐射模式，每个红外干扰弹发射指令都会使 AN/ALE-39 从所有装载了红外干扰"
-"弹的发射器中分别发射一枚红外干扰弹。这个选项对手动发射模式和程序发射模式都有"
+"弹的布撒器中分别发射一枚红外干扰弹。这个选项对手动发射模式和程序发射模式都有"
 "效。"
 
 #: ../../source/cockpit.rst:0
@@ -7405,25 +7404,25 @@ msgid ""
 "Thumbwheels inputting into AN/ALE-39 what is loaded into each launcher "
 "subsection."
 msgstr ""
-"用于向 AN/ALE-39 中输入每个对抗措施发射器的分区中填充的措施类型（C - 箔条，F "
+"用于向 AN/ALE-39 中输入每个对抗措施布撒器的分区中填充的措施类型（C - 箔条，F "
 "- 红外干扰弹，J - 有源射频诱饵）。"
 
 # need reference
 #: ../../source/cockpit.rst:0
 msgid "L10 - Sets loaded countermeasure in Left 10 subsection."
-msgstr "L10 - 设置左（前）发射器10联装分区中填充的对抗措施类型。"
+msgstr "L10 - 设置左（前）布撒器10联装分区中填充的对抗措施类型。"
 
 #: ../../source/cockpit.rst:0
 msgid "L20 - Sets loaded countermeasure in Left 20 subsection."
-msgstr "L20 - 设置左（前）发射器20联装分区中填充的对抗措施类型。"
+msgstr "L20 - 设置左（前）布撒器20联装分区中填充的对抗措施类型。"
 
 #: ../../source/cockpit.rst:0
 msgid "R10 - Sets loaded countermeasure in Right 10 subsection."
-msgstr "R10 - 设置右（后）发射器10联装分区中填充的对抗措施类型。"
+msgstr "R10 - 设置右（后）布撒器10联装分区中填充的对抗措施类型。"
 
 #: ../../source/cockpit.rst:0
 msgid "R20 - Sets loaded countermeasure in Right 20 subsection."
-msgstr "R20 - 设置右（后）发射器20联装分区中填充的对抗措施类型。"
+msgstr "R20 - 设置右（后）布撒器20联装分区中填充的对抗措施类型。"
 
 #: ../../source/cockpit.rst:3425
 msgid "RESET switch"
