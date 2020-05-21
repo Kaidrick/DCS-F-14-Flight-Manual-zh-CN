@@ -51,7 +51,7 @@ Maneuvering and Flight Characteristics
 
 .. raw:: html
 
-	<iframe class="aspect-ratio" src="https://player.bilibili.com/player.html?aid=43561728&cid=76332715&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+	<iframe class="aspect-ratio" src="https://player.bilibili.com/player.html?aid=795627903&cid=190059084&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 |
 

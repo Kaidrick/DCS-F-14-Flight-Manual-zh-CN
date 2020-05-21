@@ -96,21 +96,21 @@ DCS: F-14 训练任务
 =====================    =====================  =============
 训练任务名称             翻译                   校对/校对完成
 =====================    =====================  =============
-空对空 M61航炮           Cai, Jiutian           
-空对地 计算机引导模式    Cai, Jiutian           
+空对空 M61航炮           Cai, Jiutian           AG/√
+空对地 计算机引导模式    Cai, Jiutian           AG/√
 空对地 M61航炮           Wang, Jiawei           AG/√
 AIM-9                    Wang, Jiawei           AG/√
-CASE I 航降              Cai, Jiutian           
-CASE I 弹射起飞          Cai, Jiutian           
-冷启动（飞行员）         Cai, Jiutian           
-导航                     Cai, Jiutian           
-岸基着陆                 Cai, Jiutian           
-岸基起飞                 Cai, Jiutian           
-AWG-9 课程1              Cai, Jiutian           
+CASE I 航降              Cai, Jiutian           AG/√
+CASE I 弹射起飞          Cai, Jiutian           AG/√
+冷启动（飞行员）         Cai, Jiutian           AG/√
+导航                     Cai, Jiutian           AG/√
+岸基航降                 Cai, Jiutian           AG/√
+岸基起飞                 Cai, Jiutian           AG/√
+AWG-9 课程1              Cai, Jiutian           AG/√
 AWG-9 课程2              Wang, Jiawei           AG/√
 AWG-9 课程3              Wang, Jiawei           AG/√
 AWG-9 课程4              Wang, Jiawei           AG/√
-冷启动（RIO）            Cai, Jiutian           
+冷启动（RIO）            Cai, Jiutian           AG/√
 =====================    =====================  =============
 	
 
