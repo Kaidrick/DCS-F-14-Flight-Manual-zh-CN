@@ -265,9 +265,9 @@
 <p><strong>手动空对地准星</strong></p>
 <a class="reference internal image-reference" href="_images/attkmode.png"><img alt="_images/attkmode.png" class="align-left" src="_images/attkmode.png" style="width: 290.0px; height: 259.5px;" /></a>
 <p>手动空对地准星的工作方式与手动空对空准星相同，只不过它是由 RIO 使用左侧垂直控制台上的武器控制面板 ATTK MODE 旋钮开关设置的。选择空对地模式时，通过 ATTK MODE 拨扭选择 MAN 档位， HUD 中会显示与空对空航炮准星相同的标识，唯一的区别是，HUD 右侧增加了当前雷达高度指示。航炮准星的偏移量需要考虑到空速、目标距离和俯冲角度，使用手动空对地模式进行攻击时，应根据这些数值，参考预制的航炮攻击参数进行对照设置。</p>
-<p><strong>计算机/飞行员模式</strong></p>
+<p><strong>计算机/引导模式</strong></p>
 <img alt="_images/guncomputerpilot.png" src="_images/guncomputerpilot.png" />
-<p>使用计算机/飞行员模式时，WCS 会连续计算航炮及其他空对地武器命中点。与手动空对地准星一样，计算机/飞行员模式是由 RIO 选择 ATTK MODE 旋钮开关上的 CMPTR-PLT 档位来启用的。</p>
+<p>使用计算机/引导式时，WCS 会连续计算航炮及其他空对地武器命中点。与手动空对地准星一样，计算机/引导模式是由 RIO 选择 ATTK MODE 旋钮开关上的 CMPTR-PLT 档位来启用的。</p>
 <p>此模式下，AN/AWG-9 雷达会隶属到武器命中点并对准武器命中点来进行精确测距并在 HUD 上显示命中点位置。</p>
 <p>HUD 上的十字准星指示武器实时命中点，菱形标识则代表超出武器射程。菱形消失表示十字准星指向的目标正处于航炮射程内。HUD 上的拉起提示符将根据飞机的高度垂直移动，当它高于武器命中点 (十字准星）位置时，则表示高度过低，须立刻拉起，避免撞击地面，或目标距离过近，无法保证投弹安全。</p>
 <p>HUD 右侧显示了气压高度标尺。</p>
@@ -296,12 +296,12 @@
 </div>
 <p>AIM-7“麻雀”空空导弹是一种超音速助推/滑翔导弹，它能在全天候条件下攻击飞机和导弹。AIM-7 “麻雀”是一种中距空对空导弹，AIM-7E 最大射程最短为16海里（30千米）而 AIM-7F 和 AIM-7M 最大射程最短为38海里（70千米）。它的全天候能力来自于导弹雷达制导，更确切地说是半主动雷达制导（SARH）。这意味着“麻雀”只有依赖 AN/AWG-9 为其照射目标，它的导引头才能跟踪目标的雷达反射信号。</p>
 <p>F-14 可以在机身上的四个专用保形挂架和左右翼套挂架上分别挂载一枚 AIM-7E、AIM-7F 或 AIM-7M 导弹。</p>
-<p>除了导弹射程，导引头和战斗部的各种改进之外，不同版本之间的主要区别在于 AIM-7F 及其改进型除了CW（连续波）外也可以通过脉冲多普勒进行制导。</p>
+<p>除了导弹射程，导引头和战斗部的各种改进之外，不同版本之间的主要区别在于 AIM-7F 及其改进型除了 CW（连续波）外也可以通过脉冲多普勒进行制导。</p>
 <div class="section" id="missile-preparation">
 <h4>导弹发射准备<a class="headerlink" href="#missile-preparation" title="永久链接至标题">¶</a></h4>
 <a class="reference internal image-reference" href="_images/mslprep.png"><img alt="_images/mslprep.png" class="align-left" src="_images/mslprep.png" style="width: 125px; height: 125px;" /></a>
-<p>发射 AIM-7 导弹前，需要在前座飞行员 ACM 面板上选择 MSL PREP-ON 按钮来开始准备程序。这个指令会让WCS开始准备 AIM-7 和 AIM-54 导弹。</p>
-<p>准备 AIM-7 发射程序时，WCS会为导弹预热电子元件和陀螺仪提供所需电力。它还会通过导弹导轨后端的发射器向导弹尾部的接收机输入CW雷达视频。此视频用于将 AIM-7 导弹调谐到 RIO 在 DDD 面板选定的CW频率上。当一枚导弹调谐并准备完毕时，ACM 面板对应的挂架状态标识旗将变成白色，表示对应挂架上的导弹已经准备完毕。</p>
+<p>发射 AIM-7 导弹前，需要在前座飞行员 ACM 面板上选择 MSL PREP-ON 按钮来开始准备程序。这个指令会让 WCS 开始准备 AIM-7 和 AIM-54 导弹。</p>
+<p>准备 AIM-7 发射程序时，WCS 会为导弹预热电子元件和陀螺仪提供所需电力。它还会通过导弹导轨后端的发射器向导弹尾部的接收机输入 CW 雷达视频。此视频用于将 AIM-7 导弹调谐到 RIO 在 DDD 面板选定的CW频率上。当一枚导弹调谐并准备完毕时，ACM 面板对应的挂架状态标识旗将变成白色，表示对应挂架上的导弹已经准备完毕。</p>
 </div>
 <div class="section" id="launch-modes">
 <h4>发射模式<a class="headerlink" href="#launch-modes" title="永久链接至标题">¶</a></h4>
@@ -312,7 +312,7 @@
 <a class="reference internal image-reference" href="_images/msloptionsp.png"><img alt="_images/msloptionsp.png" class="align-left" src="_images/msloptionsp.png" style="width: 185.5px; height: 161.35px;" /></a>
 <p>使用正常模式攻击 STT 目标时，WCS可以使用连续波或脉冲多普勒进行制导。在正常模式下使用 CW 时，AN/AWG-9 雷达使用专用 CW 天线，它能比泛指天线更直接地聚焦照射跟踪的目标。虽然 CW 是所有 AIM-7 型号的正常制导模式，但使用 AIM-7F 和 AIM-7M 导弹时，可以选择脉冲多普勒制导模式。</p>
 <p>RIO 可以在武器控制面板上将 MSL OPTIONS 开关设置到 SP PD（“麻雀”/ 多普勒）档位来切换至脉冲多普勒制导。选择此选项后，WCS 将使用脉冲多普勒照射引导“麻雀”导弹。</p>
-<p>无论采用哪种制导模式，WCS都会计算导弹的 LAR（发射允许区间），并在 VDI 和 TID 上显示导弹发射距离。HUD 显示菱形目标指定符、当前目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离），而 VDI、DDD 和 TID 显示攻击引导符号系统以及上述的导弹 LAR 指示。</p>
+<p>无论采用哪种制导模式，WCS 都会计算导弹的 LAR（发射允许区间），并在 VDI 和 TID 上显示导弹发射距离。HUD 显示菱形目标指定符、当前目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离），而 VDI、DDD 和 TID 显示攻击引导符号系统以及上述的导弹 LAR 指示。</p>
 </div>
 <div class="section" id="boresight-mode">
 <h5>视轴模式<a class="headerlink" href="#boresight-mode" title="永久链接至标题">¶</a></h5>
@@ -338,13 +338,13 @@
 <div class="section" id="seeker-head-modes">
 <h4>导引头模式<a class="headerlink" href="#seeker-head-modes" title="永久链接至标题">¶</a></h4>
 <p>AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的导引头，F-14 携带的后续所有响尾蛇导弹都能使用此模式。SEAM允许导引头解锁并在范围（离 ADL 40°）内跟踪目标，使得飞行员能引导目标，从而提升了导弹的性能。它还允许 F-14 上的 WCS 将导引头隶属到 ADL 20° 内的目标进行跟踪，来实现偏离视轴锁定。</p>
-<p>F-14 上的 AIM-9 依然可以使用早期的视轴模式，该模式下导引头保持隶属于 ADL（2.5°视场），但通常会选用 SEAM 来扫描 ADL 周围或跟踪目标。导引头沿着背对背 双D 形式扫描线进行扫描，基本上就是大约3秒覆盖出一个宽6°的扫描锥，然而并没有可视化的标识给飞行员。就像所有响尾蛇导弹锁定目标一样，是根据音调提示的。搜索时会出现音调，当导引头指向红外源时，音调会升高。</p>
+<p>F-14 上的 AIM-9 依然可以使用早期的视轴模式，该模式下导引头保持隶属于 ADL（2.5°视场），但通常会选用 SEAM 来扫描 ADL 周围或跟踪目标。导引头沿着背对背 双D 栅状扫描进行扫描，基本上就是大约3秒覆盖出一个宽6°的扫描锥，然而并没有可视化的标识给飞行员。就像所有响尾蛇导弹锁定目标一样，是根据音调提示的。搜索时会出现音调，当导引头指向红外源时，音调会升高。</p>
 </div>
 <div class="section" id="missile-operation">
 <h4>导弹操作<a class="headerlink" href="#missile-operation" title="永久链接至标题">¶</a></h4>
 <p>通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可以切换用于发射的 AIM-9 导弹，ACM 面板上相应的状态窗口中，标识旗指示了当前选中的导弹。使用 AIM-9 时，HUD 使用菱形标识指示跟踪的目标，使用准星（十字准线）指示当前导引头指向的位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离）。如果 WCS 有跟踪目标，则 VDI，DDD 和 TID 将显示攻击引导符。</p>
 <p>不激活 ACM 模式的情况下，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM 功能（无扫描功能）的基础视轴模式。在此模式中飞行员将 ADL 对准目标，当高频音调响起时开火。</p>
-<p>如果未使用 BRSIT 按钮开关或 ACM 模式处于激活状态，AIM-9 将使用 SEAM ，并且使用 双D 形式扫描线扫描。如果 WCS 有锁定的目标，导引头会扫描雷达或 TCS 视线周围，否则导弹导引头会在 ADL 周围进行扫描。</p>
+<p>如果未使用 BRSIT 按钮开关或 ACM 模式处于激活状态，AIM-9 将使用 SEAM ，并且使用 双D 栅状扫描。如果 WCS 有锁定的目标，导引头会扫描雷达或 TCS 视线周围，否则导弹导引头会在 ADL 周围进行扫描。</p>
 <a class="reference internal image-reference" href="_images/seamlock.png"><img alt="_images/seamlock.png" class="align-left" src="_images/seamlock.png" style="width: 100px; height: 100px;" /></a>
 <p>飞行员可以按下左油门握把上的 CAGE/SEAM 按钮来使用 SEAM 模式锁定目标。 ACM 面板的 SEAM LOCK 灯将会亮起并将导引头解锁4.5秒，允许它跟踪导引头视场内的目标。如果未探测到红外源，则导弹导引头会重新锁定，且 SEAM LOCK 灯熄灭。</p>
 <p>如果成功锁定，音调将持续响起，SEAM LOCK 灯保持亮起，飞行员按下驾驶杆扳机来发射导弹。发射后，将自动选中下一枚 AIM-9。</p>
@@ -370,8 +370,8 @@
 <p>AIM-54 “不死鸟”导弹是一种远程空空导弹，它本来是为流产的 F-111B 舰队防空战斗机计划而设计的。F-111B 计划以失败告终，使得 F-111B 的 AIM-54 导弹与配套的 AN/AWG-9 WCS 最终被用于装备 F-14。</p>
 <p>F-14 最多可携带6枚 AIM-54 导弹，左右翼套挂架上各搭载一枚，其余四枚搭载于机身导弹导轨上。由于导弹冷却系统的设计原因，两个机身前排挂架必须总是挂弹，这意味着如果前排挂架不挂载导弹，机身后排挂架便无法使用。而翼套挂架内置了单独的冷却系统。</p>
 <p>“不死鸟”导弹支持使用 STT（单目标跟踪）攻击单个目标和 TWS（边搜索边跟踪）攻击多个目标。</p>
-<p>AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 火箭发动机。装备这两种不同型号发动机的 AIM-54A 在有效射程上有些差异，而 AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号导引头，而不是模拟信号导引头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。</p>
-<p>使用 PD STT 模式攻击战斗机尺寸的高空目标时，AIM-54 的有效射程最小为60海里。而使用 TWS 攻击多目标时，射程缩短到约50海里。攻击大型目标时，有效射程会增加，反之，攻击小型目标时，有效射程会缩短。</p>
+<p>AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 火箭发动机。装备这两种不同型号发动机的 AIM-54A 在射程上有些差异，而 AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号导引头，而不是模拟信号导引头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。</p>
+<p>使用 PD STT 模式攻击战斗机尺寸的高空目标时，AIM-54 的射程最小为60海里。而使用 TWS 攻击多目标时，射程缩短到约50海里。攻击大型目标时，射程会增加，反之，攻击小型目标时，射程会缩短。</p>
 <p>如果使用主动发射模式，根据目标尺寸的大小射程也稍有差异，例如攻击战斗机尺寸的目标射程会缩短至大约 10 海里。需要注意的是，在 SARH 模式下使用 ACM 主动模式发射后，如果没有探测到目标则会返回 SARH。</p>
 <div class="section" id="id2">
 <h4>导弹发射准备<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h4>
@@ -385,7 +385,7 @@
 <div class="section" id="tws-sarh-arh">
 <h5>TWS SARH/ARH<a class="headerlink" href="#tws-sarh-arh" title="永久链接至标题">¶</a></h5>
 <p>在 TWS 模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 AIM-54 跟踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达反射波来进行半主动制导。当目标进入导弹导引头 ARH 模式的范围内后，AN/AWG-9 会命令导弹切换至 ARH。</p>
-<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式。然而，作为备用措施，AN/AWG-9会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并非发射后不管，但可以认为导弹进入 ARH 模式后能够自主攻击目标。</p>
+<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式。然而，作为备用措施，AN/AWG-9 会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并非发射后不管，但可以认为导弹进入 ARH 模式后能够自主攻击目标。</p>
 </div>
 <div class="section" id="pd-stt-sarh">
 <h5>PD STT SARH<a class="headerlink" href="#pd-stt-sarh" title="永久链接至标题">¶</a></h5>
@@ -410,7 +410,7 @@
 <div class="section" id="id4">
 <h4>导弹操作<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h4>
 <p>在飞行员驾驶杆上选择 SP/PH（麻雀/不死鸟）开关档位，然后按下选择开关来从 SP 切换至 PH 来选择 AIM-54 导弹。再次按下武器选择开关可以重新选择 SP。</p>
-<p>WCS 无跟踪目标的情况下使用视轴或 ACM 主动模式发射 AIM-54 时，除了用于瞄准导弹的 ADL 线外，HUD上不会显示任何标识。</p>
+<p>WCS 无跟踪目标的情况下使用视轴或 ACM 主动模式发射 AIM-54 时，除了用于瞄准导弹的 ADL 线外，HUD 上不会显示任何标识。</p>
 <p>在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示目标指示符，如果 TCS 也有跟踪目标，那么目标上会显示随动准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。HUD 右侧的距离标尺上指示了目标当前距离、R<sub>min</sub>和 R<sub>max</sub>，而 VDI、DDI 和 TID 上则显示了攻击引导标识。</p>
 <div class="section" id="tws">
 <span id="twsattk"></span><h5>TWS<a class="headerlink" href="#tws" title="永久链接至标题">¶</a></h5>
@@ -421,7 +421,7 @@
 <p>TID 标识信息详见 <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID上的符号信息</span></a> 。</p>
 <img alt="_images/TWS.png" src="_images/TWS.png" />
 <p>通过 CAP 设置可以强制 WCS 在发射序列中加入一个目标，还可以强制 WCS 排除某个目标，不对其进行攻击，同样也是在 CAP 面板上设置。此外，勾选一个目标并按下 RIO 武器控制面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先级目标。</p>
-<p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示转向点来指示 TWS 扫描方位角的中心点。</p>
+<p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示转向点来指示 TWS 栅状扫描的中心点。</p>
 <p>HUD 和 VDI 上显示了一个转向提示来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R<sub>min</sub> 和 R<sub>max</sub>。TID 上显示了完整的攻击符号标识，包括目标优先级序号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">边搜索边跟踪（TWS）</span></a>。</p>
 </div>
 </div>
@@ -435,7 +435,7 @@
 <h3>空对地武器设定<a class="headerlink" href="#air-to-ground-weapon-settings" title="永久链接至标题">¶</a></h3>
 <img alt="_images/armamentpanel1.png" src="_images/armamentpanel1.png" />
 <p>空对地武器投放是由 RIO 使用左侧垂直控制台中的武器控制面板来设置的。</p>
-<p>通过面板顶部的 WPN TYPE 拨轮来选择投放武器的类型，将其转动到对应的档位。这将为WCS配置所选弹药的正确投放参数。</p>
+<p>通过面板顶部的 WPN TYPE 拨轮来选择投放武器的类型，将其转动到对应的档位。这将为 WCS 配置所选弹药的正确投放参数。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -479,7 +479,7 @@
 <ul class="simple">
 <li>CMPTR TGT - 计算机目标模式，这是一种半自动计算机引导模式，类似于新型战机中的 CCRP（连续计算投放点）模式。</li>
 <li>CMPTR IP - 计算机起始点模式是 CMPTR TGT 模式的扩展模式，它使用一个已知的起始点（IP）作为挂载投放参考点。通常在预期目标难以被目视定位，但其附近有易于识别的参考点/地标的情况下使用。</li>
-<li>CMPTR PLT - 计算机引导模式，是一种由计算机引导、飞行员手动操控的导引模式，此模式使用WCS在 HUD 上指示挂载的命中点。它类似于新型战机中的 CCIP（连续计算命中点）模式。</li>
+<li>CMPTR PLT - 计算机引导模式，是一种由计算机引导、飞行员手动操控的导引模式，此模式使用 WCS 在 HUD 上指示挂载的命中点。它类似于新型战机中的 CCIP（连续计算命中点）模式。</li>
 <li>MAN - 手动，手动模式是备用模式。该模式下，HUD 上会显示一个由飞行员设置的下压角度可调的准星（十字准星）。用于系统出现故障，其他模式无法启用时。</li>
 <li>D/L BOMB - 数据链投弹模式是一种驾驶员通过数据链路的提示来操纵飞机，在远程数据链控制下完成挂载投放的自动模式（DCS中尚未实装此功能）。</li>
 </ul>
