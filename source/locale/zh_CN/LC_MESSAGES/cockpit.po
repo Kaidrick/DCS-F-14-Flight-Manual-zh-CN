@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-05-08 19:27+0800\n"
+"PO-Revision-Date: 2020-06-09 17:34+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 # 翻译时：
 # 1. 段落标题尽量翻译成汉语，如有必要使用英文在括号内注释
@@ -397,7 +397,7 @@ msgid ""
 "Switches mode for TACAN operation and selects X or Y channels. INVERSE mode "
 "not functional."
 msgstr ""
-"波道模式选择开关，用于切换 TACAN 工作波道，可以选择 X 或 Y 波道。INVERSE 模式"
+"波段模式选择开关，用于切换 TACAN 工作波段，可以选择 X 或 Y 波段。INVERSE 模式"
 "无功能。"
 
 #: ../../source/cockpit.rst:177 ../../source/cockpit.rst:207
@@ -489,7 +489,7 @@ msgstr "用于选择 ICS 的功能。"
 # override? override settings or simply replace radio audio?
 #: ../../source/cockpit.rst:0
 msgid "RADIO OVERRIDE - Makes ICS audio override radio audio."
-msgstr "RADIO OVERRIDE - 无线电台超控，让 ICS 音频替换无线电音频。"
+msgstr "RADIO OVERRIDE - 无线电台越控，让 ICS 音频替换无线电音频。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -1071,7 +1071,7 @@ msgid ""
 msgstr ""
 "襟翼控制杆的无级行程的最前段和最后段分别有两个应急档位，一个是应急收起，一个"
 "是应急放下。两个应急档位都有限动卡，襟翼控制杆移动至限动卡位置时，需向外推动"
-"才能继续移动至应急档位。应急收起档位会强行收起襟翼，超控正常襟翼控制逻辑。应"
+"才能继续移动至应急档位。应急收起档位会强行收起襟翼，越控正常襟翼控制逻辑。应"
 "急放下档位无功能。"
 
 #: ../../source/cockpit.rst:471
@@ -1173,7 +1173,7 @@ msgstr "机翼/外部油箱转移开关，用于控制机翼油箱和外部油�
 
 #: ../../source/cockpit.rst:0
 msgid "ORIDE - Override."
-msgstr "ORIDE - 超控。"
+msgstr "ORIDE - 越控。"
 
 #: ../../source/cockpit.rst:0
 msgid "AUTO - Normal position."
@@ -1378,8 +1378,8 @@ msgid ""
 "Indicates weight on wheels when moved down by solenoid. Can be lifted up to "
 "override. Non-functional in DCS."
 msgstr ""
-"起落架放下锁定超控杆，被电磁铁移动至向下位置时指示机轮负重。可以升起至向上位"
-"置来超控（起落架手柄锁定在 DOWN 位置）。DCS 中无功能。"
+"起落架放下锁定越控杆，被电磁铁移动至向下位置时指示机轮负重。可以升起至向上位"
+"置来越控（起落架手柄锁定在 DOWN 位置）。DCS 中无功能。"
 
 #: ../../source/cockpit.rst:613
 msgid "HYD ISOL"
@@ -1678,7 +1678,7 @@ msgstr "沿着表盘外沿移动的小三角形游标，它显示了设定的警
 
 #: ../../source/cockpit.rst:790
 msgid "Radio override does not disable low-altitude warning tone."
-msgstr "无线电台超控并不会禁用低高度警告的音频。"
+msgstr "无线电台越控并不会禁用低高度警告的音频。"
 
 # Servopneumatic
 # 气动伺服？
@@ -1976,7 +1976,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:931
 msgid "Caution light indicating that ACLS or autopilot is disengaged."
-msgstr "自动着舰系统/自动驾驶注意灯。注意灯亮起指示 ACLS 或自动驾驶已断开。"
+msgstr "自动助降系统/自动驾驶注意灯。注意灯亮起指示 ACLS 或自动驾驶已断开。"
 
 #: ../../source/cockpit.rst:933
 msgid "NWS ENGA"
@@ -2408,7 +2408,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1092
 msgid ""
 "Warning light indicating aircraft is under data link control for landing."
-msgstr "报警灯，指示飞机正由数据链路控制进行着陆。"
+msgstr "报警灯，指示飞机正由数据链路控制进行助降。"
 
 #: ../../source/cockpit.rst:1094
 msgid "10 SECONDS"
@@ -3268,7 +3268,7 @@ msgid ""
 "and ECM ORIDE which are not present in the modelled F-14B."
 msgstr ""
 "图像资料显示，装有整合 RWR 的 F-14 的 HSD 模式和还有第三种选项——ECM "
-"ORDIE（ECM超控），但 Heatblur 的F-14B并没有模拟此选项。"
+"ORDIE（ECM越控），但 Heatblur 的F-14B并没有模拟此选项。"
 
 #: ../../source/cockpit.rst:1530
 msgid "Control panel for front cockpit displays."
@@ -3381,7 +3381,7 @@ msgstr "VDI 模式选择开关，用于选择 VDI 显示何种数据。"
 
 #: ../../source/cockpit.rst:0
 msgid "TV - Displays video from TCS or LANTIRN on VDI."
-msgstr "TV - 在 VDI 上显示 TCS 或 LANTIRN 吊舱的视频图像。"
+msgstr "TV - 在 VDI 上显示 TCS 或 LANTIRN 吊舱的视频。"
 
 #: ../../source/cockpit.rst:0
 msgid "NORM - Displays normal VDI display."
@@ -3452,14 +3452,14 @@ msgstr "右侧控制台"
 # 超控？超控？
 #: ../../source/cockpit.rst:1614
 msgid "Spoiler Failure Override"
-msgstr "扰流板故障超控"
+msgstr "扰流板故障越控"
 
 #: ../../source/cockpit.rst:1617
 msgid ""
 "Contains controls to override failed spoiler sections, allowing the rest to "
 "continue to work after a MASTER RESET."
 msgstr ""
-"用于超控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机重"
+"用于越控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机重"
 "置）后继续正常工作。"
 
 #: ../../source/cockpit.rst:1622
@@ -3468,14 +3468,14 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "Inboard spoiler override switch."
-msgstr "内侧扰流板超控开关。"
+msgstr "内侧扰流板越控开关。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "ORIDE - Overrides inboard spoiler symmetry protection, allowing a functional "
 "inboard spoiler to continue to operate after a MASTER RESET if one fails."
 msgstr ""
-"ORIDE - 超控内侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
+"ORIDE - 越控内侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
 "常工作的内侧扰流板继续作动。"
 
 #: ../../source/cockpit.rst:0
@@ -3493,7 +3493,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "Outboard spoiler override switch."
-msgstr "外侧扰流板超控开关。"
+msgstr "外侧扰流板越控开关。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3501,7 +3501,7 @@ msgid ""
 "functional outboard spoiler to continue to operate after a MASTER RESET if "
 "one fails."
 msgstr ""
-"ORIDE - 超控外侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
+"ORIDE - 越控外侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
 "常工作的外侧扰流板继续作动。"
 
 #: ../../source/cockpit.rst:0
@@ -3650,7 +3650,7 @@ msgstr "波道选择开关，用于从 20 个可用的波道中选择 ICLS 波�
 msgid ""
 "Button used to test AN/ARA-63, displays landing symbology on the HUD and VDI "
 "if set up for ILS."
-msgstr "用于测试 AN/ARA-63。如果 VDI 设置就绪，HUD 中会显示着陆标识符。"
+msgstr "用于测试 AN/ARA-63。如果 VDI 设置就绪，HUD 中会显示助降标识符。"
 
 #: ../../source/cockpit.rst:1700
 msgid "POWER switch"
@@ -5094,7 +5094,7 @@ msgstr "TCS TRIM 旋钮"
 
 #: ../../source/cockpit.rst:2391
 msgid "Trim knobs used to calibrate TCS video in azimuth and elevation."
-msgstr "TCS 调整旋钮，用于校准 TCS 视频的方位和高度角。"
+msgstr "TCS 调整旋钮，用于校正 TCS 视频的方位和高度角。"
 
 #: ../../source/cockpit.rst:2393
 msgid "SLAVE switch"
@@ -5113,7 +5113,7 @@ msgid ""
 "Selector switch selecting acquisition mode for the TCS. AUTO, MAN or AUTO "
 "SRCH."
 msgstr ""
-"目标获取模式选择开关，用于从 AUTO、MAN 或 ATUO SRCH 中选择 TCS 的目标获取模"
+"目标捕获模式选择开关，用于从 AUTO、MAN 或 ATUO SRCH 中选择 TCS 的目标捕获模"
 "式。"
 
 #: ../../source/cockpit.rst:2397
@@ -5918,7 +5918,7 @@ msgstr "CONTRAST 旋钮"
 
 #: ../../source/cockpit.rst:2745
 msgid "Control knob that controls contrast of TCS video."
-msgstr "对比度控制旋钮，用于调节 TCS 图像的对比度。"
+msgstr "对比度控制旋钮，用于调节 TCS 视频的对比度。"
 
 #: ../../source/cockpit.rst:2747
 msgid "DATA READOUT drum"
@@ -6148,7 +6148,7 @@ msgid ""
 "Button selecting manual rapid lockon mode. Overrides all operational modes "
 "except PLM and VSL."
 msgstr ""
-"用于选择手动快速锁定模式。超控所有除 PLM（飞行员锁定模式）和 VSL（垂直扫描锁"
+"用于选择手动快速锁定模式。越控所有除 PLM（飞行员锁定模式）和 VSL（垂直扫描锁"
 "定）外的雷达工作模式。"
 
 #: ../../source/cockpit.rst:2818
@@ -6903,7 +6903,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3198
 msgid "Indicates aircraft under data link control for landing."
-msgstr "表示飞机正由数据链路控制进行着陆。"
+msgstr "表示飞机正由数据链路控制进行助降。"
 
 #: ../../source/cockpit.rst:3200
 msgid "CHG CHN"
@@ -7254,7 +7254,7 @@ msgstr "M4 ALARM OVERRIDE 开关"
 
 #: ../../source/cockpit.rst:3358
 msgid "Switch disabling the mode 4 tone alarm in the RIO headset."
-msgstr "MODE 4 警报超控开关，用于禁用 RIO 头戴中的 MODE 4 警告音。"
+msgstr "MODE 4 警报越控开关，用于禁用 RIO 头戴中的 MODE 4 警告音。"
 
 #: ../../source/cockpit.rst:3360
 msgid "TEST-CHAL CC switch"

@@ -214,7 +214,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#lantirn">LANTIRN</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#description">描述</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#controls-and-displays">控制和显示</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#lantirn-video-elements">LANTIRN 视频元件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lantirn-video-elements">LANTIRN 视频元素</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#control-panel">控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#control-stick">控制杆</a></li>
 </ul>
@@ -222,7 +222,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id4">操作</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#startup">启动</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#sensor-modes-and-operation">传感器模式和操作</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#a-g-target-engagement-and-designation">A/G目标攻击和指示</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#a-g-target-engagement-and-designation">A/G 目标攻击和指定</a></li>
 </ul>
 </li>
 </ul>
@@ -465,7 +465,7 @@
 <p>发动机启动开关（<strong>4</strong>）用于选择需要启动的发动机。外部气源或另一个已启动发动机的交叉引气会驱动空气涡轮启动器，使被选中的发动机 RPM 上升至 20% ，此时我们需要将相应一侧的油门握把从关断位移动到怠速位来给发动机点火。在发动机 RPM 上升至 50% 时，启动开关会自动中置。但如果开关未能自动回中，飞行员需要手动将其拨回中间位置，避免损坏空气涡轮启动器。</p>
 <p>油门握把移出关断位置时会接通主点火电路，但在主点火电路出现故障的情况下，<strong>BACK UP IGNITION</strong>（<strong>5</strong>）开关可用于启用备用点火系统。</p>
 <img alt="_images/externalenvironment1.png" src="_images/externalenvironment1.png" />
-<p>外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong>（<strong>2</strong>）开关用于控制发动机和进气道板除冰系统以及数个机外传感器探头加热器。选择 <strong>ORIDE</strong>（超控）档位会立刻启用加热系统，选择 <strong>AUTO</strong> 档位时，系统会在检测到结冰时自动启动，而选择 <strong>OFF</strong> 档位会禁用此系统。</p>
+<p>外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong>（<strong>2</strong>）开关用于控制发动机和进气道板除冰系统以及数个机外传感器探头加热器。选择 <strong>ORIDE</strong>（越控）档位会立刻启用加热系统，选择 <strong>AUTO</strong> 档位时，系统会在检测到结冰时自动启动，而选择 <strong>OFF</strong> 档位会禁用此系统。</p>
 <div class="section" id="engine-instrument-group-eig-related-indicators-and-caution-lights">
 <h4>发动机仪表组（EIG）及相关指示器和注意灯<a class="headerlink" href="#engine-instrument-group-eig-related-indicators-and-caution-lights" title="永久链接至标题">¶</a></h4>
 <img alt="_images/instrument-group1.png" src="_images/instrument-group1.png" />
@@ -803,7 +803,7 @@
 <p>数据链路引导航向 - 精准航线方向模式允许 Link 4 控制器远程控制飞机。该功能在 DCS 中未模拟。</p>
 <p>最后一种自动驾驶模式是 ACL，也就是自动航降模式，这个模式将 Link 4 数据链路信息和机载雷达信标相结合进行自动航降。若要启用ACL，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，等待 <strong>A/P REF</strong> 亮起。截获 ACL 下滑道，且 VDI 的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 警报灯亮起后，按下操纵杆的前轮转向按钮来接通 ACL，让数据链路控制飞机进行着舰。ACL 模式激活后， <strong>A/P REF</strong> 警报灯将熄灭。</p>
 <p>ACL 可以与 APC（详见<a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制</span></a>）结合使用来进行全自动降落。ACL 可以通过右油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 则通过左油门握把上的 <strong>CAGE/SEAM</strong> 按钮断开。</p>
-<p>所有自动驾驶模式都可以通过用力移动驾驶杆来超控，也可以通过自动驾驶应急断开开关来解除；这会将所有自动驾驶开关重置到关闭档位。</p>
+<p>所有自动驾驶模式都可以通过用力移动驾驶杆来越控，也可以通过自动驾驶应急断开开关来解除；这会将所有自动驾驶开关重置到关闭档位。</p>
 </div>
 </div>
 <div class="section" id="spoilers">
@@ -811,7 +811,7 @@
 <p>扰流板位于机翼上翼面，上文中的<a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a>内容中介绍了扰流板如何控制飞机滚转；扰流板也作为<a class="reference internal" href="#askid"><span class="std std-ref">防滑系统</span></a>系统的一部分，用于在地面提供制动；同时，扰流板也是 DLC 系统的一部分（详见下一个标题）。</p>
 <p>为了避免和机身冲突，扰流板仅能在翼掠角小于 62° 时展开。</p>
 <p>扰流板故障时，扰流板对称保护逻辑会禁用故障扰流板区域内的全部扰流板模块，无论是内侧还是外侧扰流板。如果发生这种情况，<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>中的 <strong>SPOILERS</strong> 注意灯会亮起。</p>
-<p>为应对这种情况，需将<a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障超控</span></a>中对应故障扰流板区域的控制开关保护盖升起，然后将开关拨至 <strong>ORIDE</strong> 档位，接着按下位于<a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>中的 <strong>MASTER RESET</strong> 按钮来进行超控。</p>
+<p>为应对这种情况，需将<a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障越控</span></a>中对应故障扰流板区域的控制开关保护盖升起，然后将开关拨至 <strong>ORIDE</strong> 档位，接着按下位于<a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>中的 <strong>MASTER RESET</strong> 按钮来进行越控。</p>
 <p><a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a>中显示了扰流板位置。</p>
 <div class="section" id="dlc-direct-lift-control">
 <h4>直接升力控制（DLC）<a class="headerlink" href="#dlc-direct-lift-control" title="永久链接至标题">¶</a></h4>
@@ -825,7 +825,7 @@
 <h3>襟翼和缝翼<a class="headerlink" href="#flaps-and-slats" title="永久链接至标题">¶</a></h3>
 <p>F-14 “雄猫” 的襟翼和缝翼可用于两种模式。</p>
 <p>普通控制模式下，<a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a>旁的 <strong>FLAP</strong> 控制杆可以控制襟翼和缝翼的正常伸展。通过控制杆，可以将襟翼调节至收起和完全展开之间的任意位置。襟翼最大展开角度是 35°，缝翼最大展开角度是 17°。辅助襟翼，即最内侧的襟翼，只有两个位置——收起和展开。当 <strong>FLAP</strong> 控制杆移动超过5°的位置时，辅助襟翼将完全展开。</p>
-<p>如果由于故障导致襟翼无法收起，则应将 <strong>FLAP</strong> 控制杆移至 <strong>UP</strong> 档位后，继续向外侧移动并向上推至 <strong>EMER UP</strong> 档位，以超控故障的互锁机构。</p>
+<p>如果由于故障导致襟翼无法收起，则应将 <strong>FLAP</strong> 控制杆移至 <strong>UP</strong> 档位后，继续向外侧移动并向上推至 <strong>EMER UP</strong> 档位，以越控故障的互锁机构。</p>
 <p>而另一种襟翼和缝翼的控制模式是机动襟翼模式，该模式下，CADC 自动使用襟翼和缝翼来提升飞机的机动性能。此模式下襟翼最大伸展至10°，缝翼最大伸展至7°，而最内侧部分的辅助襟翼则被禁用。</p>
 <p>虽然机动襟翼系统通常会自动控制襟翼，但是飞行员仍可以通过驾驶杆的 DLC 和机动襟翼控制拨轮来手动控制机动襟翼。向前转旋钮收起襟翼和缝翼，向后转旋钮展开襟翼和缝翼。</p>
 <p>机翼后掠时，襟翼收放会受限于机翼后掠位置。机翼后掠角大于21°时，辅助（内侧）襟翼会被收起并禁用。而机翼后掠角大于50°时，所有襟翼都会被收起并禁用。但机翼后掠不会限制缝翼收放。</p>
@@ -2191,57 +2191,57 @@
 <img alt="_images/tcs.png" src="_images/tcs.png" />
 <p class="caption"><span class="caption-text">照片由美国海军摄影师 Justin S. Osborne 拍摄（030418-N-0382O-591）</span></p>
 </div>
-<p>电视摄像套件，也称TCS，是为了替代早期F-14A战斗机所搭载的IRST而制造的。在军方发现IRST能力不足后，格鲁曼公司决定用TCS代替原有的IRST组件，以赋予F-14战机远程目视识别能力。</p>
-<p>TCS位于雷达天线罩的后下方，正好在前起落架前。它包含一个相对机身保持自稳定的高分辨率闭路电视摄像机。传感器有两种视场，宽视野(WFOV)和窄视野(NFOV)， 窄视野（NFOV）是0.44°视场或10倍放大倍率，宽视野(WFOV) 1.42°视场或4倍放大倍率。除向上的角度则被限制为11度外，其他方向的角度限制均为 ± 15度。TCS能够独立的探测并锁定目标，也可以隶属于AN/AWG-9雷达。</p>
-<p>TCS由RIO通过传感器控制面板、DDD、TID和HCU进行控制，传感器的视频可以显示在前座的VDI和后座的TID上。此外，该视频还可以用机载磁带录像机录制下来，供以后查看。(目前DCS中没有实现)</p>
+<p>电视摄像套件，或称为 TCS，是为了替代早期 F-14A 战斗机所搭载的 IRST 而制造的。在军方发现 IRST 能力不足后，决定使用 TCS 替换原有的 IRST，以赋予 F-14 战机远程目视识别能力。</p>
+<p>TCS 位于雷达天线罩的后下方，正好在前轮轮舱的前方。TCS 包含相对飞机稳定的高分辨率闭路电视摄像机（相对当时来说）。传感器有两种视场（FOV），第一种是窄视场（NFOV）——视场 0.44°或10X 放大率，以及宽视场（WFOV）视场为 1.42°或4X 放大率。除了向上角度限制为+11°外，环架运动的限制为 +/- 15°，并且 TCS 拥有单独的对比度锁定或隶属至 AN/AWG-9 雷达的能力。</p>
+<p>TCS 可由 RIO 通过传感器控制面板、DDD、TID 和 HCU 来控制。传感器的视频可以显示在 TID 以及前座的 VDI 中。此外，视频还可以通过机载磁带录像机来进行录制，以便事后观看。（DCS 中尚未实现）</p>
 <div class="section" id="tcs-controls-and-symbology">
 <h3>TCS 控制和标识<a class="headerlink" href="#tcs-controls-and-symbology" title="永久链接至标题">¶</a></h3>
-<p>TCS的控制器位于后座RIO座舱的传感器控制面板、DDD和HCU/TID。前座飞行员显示控制面板也包含一个允许在VDI上显示TCS视频的控制开关。</p>
+<p>TCS 的控制器位于 RIO 驾驶舱中的传感器控制面板上，DDD 和 HCU/TID 上。飞行员显示控制面板中包含了一个开关可允许选择在 VDI 中显示 TCS 视频。</p>
 <div class="section" id="id3">
 <h4>传感器控制面板<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h4>
 <img alt="_images/scp.png" src="_images/scp.png" />
-<p>传感器控制面板上用于控制TCS的装置有： TCS微调校准按钮、隶属（SLAVE）选择器、视野切换开关 FOV 、目标截获开关 ACQ 。</p>
-<p>TCS微调旋钮用来控制TCS瞄准线相对于AN/AWG-9雷达瞄准线进行校准，瞄准线也称为LOS（line of sight）。如果需要，这个微调旋钮可以用来微调TCS，使两个传感器的瞄准线（LOS）相重合。最简单的方法来检查和校准TCS的方法是 STT锁定一个友方目标，然后调整微调旋钮，直到TCS瞄准线瞄准了锁定的目标。</p>
-<p><strong>SLAVE</strong> 开关主要用来控制传感器的隶属控制关系。如果设置到 <strong>RDR</strong> ，当TCS锁定了某个目标，雷达将会从属于TCS直至TCS脱锁。如果设置为 <strong>INDEP</strong> ，则各传感器会独立工作。如果将TCS设置为 <strong>TCS</strong> ，当雷达STT锁定了一个目标，TCS就会从属于雷达。</p>
-<p><strong>FOV</strong> ，视场选择开关用来控制TCS的视场宽度。 <strong>WIDE</strong> 设置1.42度视角，四倍放大率的视野，而 <strong>NAR</strong> 设置0.44度窄视角，十倍放大率的视野。</p>
-<p>最后介绍 <strong>ACQ</strong> ，这个探测模式选择开关用来选择TCS截获目标的模式， <strong>AUTO SRCH</strong> 档位用来启用一种自动搜索模式，在此模式下TCS会截获距离飞机最近的目标，即便目标处于当前的视场之外。 <strong>MAN</strong> 档位则是手动使用HCU进行目标截获，此模式下需要手动控制将TCS视线指向目标。 <strong>AUTO</strong> 档位则是用来设置自动截获模式，在模式下TCS不会进行自动搜索，只会截获处于TCS FOV（视野）内的目标。</p>
+<p>传感器控制面板上用于控制 TCS 的控制器有： TCS 调整旋钮、SLAVE 开关、FOV 开关 、目标捕获开关 ACQ 。</p>
+<p><em>TCS TRIM*</em> 旋钮用于控制 TCS 传感器的视线（LOS），校正相对于 AN/AWG-9 雷达的视线。如果有需要，可以使用这个旋钮来调整 TCS，使得两个传感器的视线相重合。TCS 调整旋钮的运动范围为 ±2°，检查和校正 TCS 最简单的方法是使用 STT 锁定一个友方目标，并通过调整旋钮直到 TCS LOS 正确地瞄准了锁定的目标为止。</p>
+<p><strong>SLAVE</strong> 开关主要用来控制传感器的隶属关系。如果设置到 <strong>RDR</strong> 档位，雷达将会隶属至 TCS 直到光学跟踪丢失为止。如果设置为 <strong>INDEP</strong> ，则各传感器会独立工作。如果将开关设置为 <strong>TCS</strong> 档位，TCS 将隶属至雷达 LOS 直到 STT 脱锁为止。</p>
+<p><strong>FOV</strong> ，视场开关用于控制 TCS 使用哪种 FOV。<strong>WIDE</strong> 档位将视场设置为 1.42°，4X 放大率，而 <strong>NAR</strong> 档位将视场设置为 0.44°, 10X 放大率。</p>
+<p>最后—— <strong>ACQ</strong> 开关，捕获开关用于控制 TCS 使用的截获模式。选择 <strong>AUTO SRCH</strong> 档位将启用带有搜索模式的自动截获模式，此模式中即使目标在当前 FOV 外，也能够截获最近的目标。选择 <strong>MAN</strong> 档位则使用 HCU 纯手动直接指向所需的目标。选择 <strong>AUTO</strong> 档位将使用无搜索模式的自动截获模式，选择后将使得 TCS 捕获 FOV 内的目标。</p>
 </div>
 <div class="section" id="ddd">
 <h4>DDD<a class="headerlink" href="#ddd" title="永久链接至标题">¶</a></h4>
 <img alt="_images/ddd.png" src="_images/ddd.png" />
-<p>DDD包含两个与TCS相关的指示器。</p>
-<p>只要在HCU上选择IR/TV模式， <strong>DDD EL</strong> 表就会显示TCS LOS（瞄准线/视线）的当前高度。</p>
-<p><strong>IROT</strong> 灯会指示TCS的追踪状态。IROT的缩写是从TCS所替换的IRST继承而来的。</p>
+<p>DDD 中包含两个与 TCS 相关的指示器。</p>
+<p>只要在 HCU 上选择 IR/TV 模式， <strong>DDD EL</strong> 仪表就会显示 TCS LOS 的高度角。</p>
+<p><strong>IROT</strong> 灯指示 TCS 正在跟踪。缩写 IROT 是从被 TCS 所取代的 IRST 继承下来的。</p>
 </div>
 <div class="section" id="hcu-tid">
 <h4>HCU/TID<a class="headerlink" href="#hcu-tid" title="永久链接至标题">¶</a></h4>
 <img alt="_images/hcu2.png" src="_images/hcu2.png" />
-<p>HCU包含TCS的电源开关和指示灯，以及一个按钮，这个按钮会让系统以HCU来控制TCS。TID本身具有两个旋钮来调整TID上的TCS视频亮度和对比度。</p>
-<p><strong>IR/TV电源</strong> 开关位于HCU面板的左上角，用来控制TCS的电源。 <strong>OFF</strong> 关闭所有TCS电源。 <strong>STBY</strong> 为TCS的冷却风扇和加热器供电。 <strong>IR/TV</strong> 为TCS中的所有系统供电，TCS会需要1-2分钟来启动并开始工作，在TCS启动时TID上会显示TCS的界面（没有图像）。需要注意的是，不需要先选择STBY再选择IR/TV，直接切换到IR/TV即可。</p>
-<p>电源开关旁边的指示灯被点亮表示TCS进入了过热状态。如果出现这种情况，则应关闭TCS以防止系统损坏。</p>
-<p>使用HCU杆旁的 <strong>IR/TV</strong> 按钮，可以让HCU控制杆对TCS的传感器进行控制、按下扳机第一级来手动控制传感器的LOS，按下第二级扳机以截获目前LOS指向的目标。</p>
-<p>在TID显示控制界面， 将 <strong>TID MODE</strong> 选择开关设置到 <strong>TV</strong> 档位会让TCS的视频显示在TID上。同时，这也会使前座的HSD上无法显示TID图像。</p>
-<p>最后，可以通过使用TID上半部分的 <strong>对比度</strong> 和 <strong>亮度</strong> 旋钮来控制TID上显示的TCS视频的对比度与亮度。</p>
+<p>HCU 中包含了 TCS 的电源开关和指示器，以及一个用于选择使用 HCU 控制 TCS 的按钮，而 TID 中包含了一个用于在 TID 中显示 TCS 视频的控制旋钮以及用于控制 TID 中视频亮度与视频对比度的旋钮。</p>
+<p><strong>IR/TV</strong> 开关位于 HCU 面板的左上角，这个按钮用来控制 TCS 的电源。处于 <strong>OFF</strong> 档位将关闭 TCS 的电源。 <strong>STBY</strong> 档位将为 TCS 中的冷却风扇和加热器通电。 <strong>IR/TV</strong> 档位为 TCS 中所有系统通电，等待1-2分钟使 TCS 起旋（注：内部陀螺仪）并传输视频。但在另一方面，TID 中的 TCS 符号将会直接可用。同时也无需先选择 STBY 档位，直接将开关拨动至 IR/TV 档位即可。</p>
+<p>电源开关旁的指示灯亮起表示 TCS 超温。如果这个灯光亮起，应该关闭 TCS 的电源以防止系统损坏。</p>
+<p>HCU 控制杆一旁的 <strong>IR/TV</strong> 按钮用来启用 HCU 控制杆来操纵 TCS 传感器，按下扳机第一段来手动操纵传感器 LSO，按下扳机第二段来指令捕获目标。</p>
+<p>在 TID 控制面板上，转动 <strong>TID MODE</strong> 至 <strong>TV</strong> 档位将启用 TCS 视频显示在 TID 中。请注意，这同时会禁用 HSD 中的 TID 复显。</p>
+<p>最后，位于导航控制与数据读数面板上的 <strong>CONTRAST</strong> 和 <a href="#id1"><span class="problematic" id="id2">**</span></a>BRIGHTNESS**旋钮可用于控制显示在 TID 中的 TCS 视频。</p>
 </div>
 <div class="section" id="symbology">
 <h4>标识<a class="headerlink" href="#symbology" title="永久链接至标题">¶</a></h4>
 <img alt="_images/symbology.png" src="_images/symbology.png" />
-<p>在TID处于非TV模式时，TCS追踪的目标会在TID底部，TCS瞄准线对应角度上显示为一个1.5”英寸的频闪空心圆。</p>
-<p>来自TCS的视频信号上有FOV的指示器和两个十字准星， <strong>GACH</strong> 用来指示TCS LOS（视线）相对自身机体的位置， <strong>RACH</strong> 用来指示 AN/AWG-9 雷达视线相对于TCS视线的位置。另外，追踪窗口由4个小正方形表示，每个小正方形代表窗口的边角。</p>
-<p>宽FOV（视场）模式下，屏幕中会显示两条平行的垂直线段，也就是视场指示线，它们之间的区域可以看作一个假想的标识框，这个方框指示了镜头切换至窄FOV模式时，屏幕中显示区域的范围。</p>
-<p>框架方位角准星，也就是 <strong>GACH</strong> ，是一个实心十字标识，它显示了当前TCS的视线（LOS）相对飞机基准线（ADL）的偏移角度。GACH 准星位于屏幕中央时，表示 TCS 视线指向 ADL 方向，而准星十字偏向屏幕边缘时，则表示镜头正在偏转至最大偏转角度。</p>
-<p><strong>RACH</strong> ，雷达角度十字准线，是十字虚线，当雷达视线处于当前TCS视场内时指示雷达视线。当传感器相互隶属时，RACH和GACH会重合，形成一个十字实线。</p>
-<p>如果TCS已经获取了一个目标，跟踪窗口将指示当前TCS跟踪器锁定的区域。当TCS没有追踪任何目标时，这些窗口方块在手动模式下会被折叠为屏幕宽度的2%，而在自动模式下则会被折叠为屏幕宽度的5%。</p>
+<p>TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上位于末端的1.5英寸的频闪空心圆指示。</p>
+<p>TCS 输出视频中的标识符包括了 FOV 指示器和两个十字准星，十字准星分别指示了相对本机的 TCS LOS—— <strong>GACH</strong> ，以及相对于 AN/AWG-9 雷达 LOS 的 TCS LOS—— <strong>RACH</strong> 。此外，跟踪窗口由4个小正方形指示，每个小正方形对应跟踪窗口的一角。</p>
+<p>在宽 FOV 中将会显示视场线条，视场线条表示当切换为窄视场时可见区域的大小。视场线条由两条平行的线组成，这两条平行线构成了虚构“框”的边，这个虚构“框”用来指示窄 FOV 的大小。</p>
+<p>环架角度十字准星或称为 <strong>GACH</strong> ，这个十字准星为实线，用来指示相对于武器基准线（ADL）TCS LOS 的偏转。中心的 GACH 十字准星指示 TCS LOS 指向 ADL，GACH 向边缘偏转表示正在朝环架限制偏转，视频的边缘便是最大偏转角度。</p>
+<p><strong>RACH</strong> 或称为雷达角度十字准星（虚线十字准星），RACH 指示在 TCS FOV 中雷达天线的 LOS。当传感器隶属至另一方时，RACH 和 GACH 将会重合，并将形成一个线条为实线的十字准星。</p>
+<p>如果 TCS 已捕获了一个目标，那么跟踪窗口表示 TCS 对比度跟踪器当前锁定的区域。当没有跟踪目标时，跟踪窗口将归中至屏幕中心，在手动模式下将缩放为屏幕宽度的2%，在自动模式下则为5%。</p>
 </div>
 </div>
 <div class="section" id="tcs-operation">
 <h3>TCS 操作<a class="headerlink" href="#tcs-operation" title="永久链接至标题">¶</a></h3>
-<p>不论TCS处于何种截获模式，均可以使用HCU对TCS进行控制。选择HCU上的IR/TV按钮，可以使用HCU对TCS进行操控实，此时，DDD EL表(右指示灯)会显示当前TCS传感器的LOS高度。按下HCU扳机第一级来直接控制TCS的LOS，按下第二级扳机则命令TCS使用选择的截获模式进行目标截获。</p>
-<p>至于手动模式 <strong>MAN</strong> ，这种手动的TCS截获模式意味着需要按下HUC第一级扳机并将跟踪窗口置于目标上方，然后按下第二级扳机进行截获。如果成功截获目标，跟踪窗口将展开并框柱目标轮廓，然后开始跟踪。</p>
-<p>在自动模式，也就是 <strong>AUTO</strong> 探测模式下，HCU扳机第一级与手动模式下的工作原理相同，但在按下第二级扳机时，TCS将自动锁定当前视场中最靠近中心的目标。自动搜索模式 <strong>AUTO SRCH</strong> 进一步增强了上述模式，在该模式下，按下第二级扳机会使TCS围绕当前选中的视场进行搜索(传感器LOS会在搜索时移动)并截获第一个发现的目标。</p>
-<p>当使用TCS隶属于雷达时，在两种自动模式下，当雷达STT锁定了某个目标时，TCS会自动移动视线与雷达视线重合并尝试锁定目标。这意味着在此模式下TCS会自动锁定雷达STT跟踪的目标。此外，当雷达STT锁定目标后TCS会马上将自身的LOS同雷达的LOS作对比,以检查TCS是否锁定了正确的目标（雷达STT锁定的目标）。如果两个LOS在3秒的窗口内相差超过几度，TCS将尝试重新截获。手动模式下TCS LOS也将隶属于雷达LOS，但不会锁定目标，而只是单纯跟随雷达LOS移动。</p>
-<p>在TCS没有从属于雷达控制时如果要解除对一个目标的锁定，按下HCU扳机第一级并释放。</p>
-<p>关于雷达隶属与TCS的信息，请查看本章AN/AWG-9下的相关标题。</p>
+<p>TCS 的所有捕获模式都有一个共同点，那就是可以在 IR/TV 模式下使用 HCU 来控制 TCS。选择 HCU 中的 IR/TV 按钮将启用这个模式，同时将设置 DDD EL 指示器（右侧指示器）为显示当前 TCS 传感器 LOS 高度角。按下扳机第一段将启用 HCU 来直接控制 TCS LOS，按下扳机第二段将指令使用所选择捕获模式来进行目标捕获。</p>
+<p>手动 TCS 捕获模式—— <strong>MAN</strong> ，表示必须使用 HCU 按下扳机第一段来将跟踪窗口置于目标上方，然后按下扳机第二段。如果成功捕获到了目标，跟踪窗口将扩展来框住目标，并开始跟踪。</p>
+<p>自动捕获模式下—— <strong>AUTO</strong> ，按下扳机第一段和手动相同，但是当按下扳机第二段进行捕获时，TCS 将会自动尝试锁定在当前 FOV 中离中心最近的目标。自动搜索捕获模式—— <strong>AUTO SRCH</strong> ，通过启用在指令 FOV 周围的搜索模式（通过移动传感器 LOS）来捕获发现的第一个目标，以此来进一步增强自动捕获模式。</p>
+<p>当使用 TCS 隶属至雷达时，两个自动模式将会自动尝试锁定 STT 目标（一旦存在），TCS 将被转动至锁定的目标上，从而实现对 STT 锁定目标的全自动跟踪。此外，一旦从 STT 锁定中捕获了一个跟踪，TCS 将会对 TCS 自身的 LOS 和雷达的 LOS 进行比较来检查是否锁定了正确的目标，如果在3秒窗口内，两者的 LOS 相差超过一定读数，TCS 将会尝试新的捕获。手动模式下同样也会隶属至雷达，不过并不会锁定目标，而是仅跟随雷达的 LOS。</p>
+<p>当没有隶属至雷达时，如需解锁跟踪的目标，按下扳机第一段并释放。</p>
+<p>有关 RDR 隶属至 TCS 的信息，请参阅本章中 AN/AWG-9 部分下的相关介绍。</p>
 </div>
 </div>
 <div class="section" id="lantirn">
@@ -2255,13 +2255,13 @@
 <p>LANTIRN（夜间低空导航与红外瞄准吊舱）最初是作为瞄准和导航吊舱的结合体为 F-15E 和 F-16 战机研发的。当美国海军开始对使用 F-14 雄猫进行对地攻击任务开始感兴趣时，马丁-马利埃塔（Martin-Marietta，现已并入洛克希德）公司开始了它们自己的计划来证明 LANTIRN 可以快速适配 F-14。</p>
 <p>由于吊舱用于适配 F-14，所以移除了次要的导航吊舱，仅保留了瞄准吊舱。再由于 F-14 并没有安装完全集成进机内所需的 1553 总线，所以吊舱被连接到了其自身的控制面板中。控制面板被补丁连接至 TCS -&gt; TID 视频输出源中从而使得控制面板可以选择在 TID 和 VDI 中显示 TCS 或 LANTIRN 视频。</p>
 <p>虽然吊舱可以从 WCS 读取航路点和所选的武器，但吊舱自身具有 GPS 接收机并且吊舱是独立的，只能通过其控制面板进行操纵。除此之外，吊舱拥有独立的武器投放引导，从而无需耗费时间的将吊舱对准飞机。</p>
-<p>FLIR 传感器有三级不同的缩放等级或视场（FoV）。宽视场极限为5.9°并且最大移动速率为8.5°/s。窄视场极限为1.7°并且最大移动速率为1.8°/s。最后一种模式——扩展视场，扩展视场为窄视场的数码变焦，这表示在此模式下分辨率会变得更差。扩展视场的视场极限为0.8°以及最大移动速率0.7°每秒。</p>
+<p>FLIR 传感器有三级不同的变焦等级或视场（FoV）。宽视场极限为5.9°并且最大移动速率为8.5°/s。窄视场极限为1.7°并且最大移动速率为1.8°/s。最后一种模式——扩展视场，扩展视场为窄视场的数码变焦，这表示在此模式下分辨率会变得更差。扩展视场的视场极限为0.8°以及最大移动速率0.7°每秒。</p>
 </div>
 <div class="section" id="controls-and-displays">
 <h3>控制和显示<a class="headerlink" href="#controls-and-displays" title="永久链接至标题">¶</a></h3>
 <p>装备了吊舱时，LANTIRN 的所有控制都在自身的控制面板中，这个控制面板安装在 RIO 左侧控制台上，包括控制在 TV 模式中，显示在 TID 和 VDI 的输出源。</p>
 <div class="section" id="lantirn-video-elements">
-<h4>LANTIRN 视频元件<a class="headerlink" href="#lantirn-video-elements" title="永久链接至标题">¶</a></h4>
+<h4>LANTIRN 视频元素<a class="headerlink" href="#lantirn-video-elements" title="永久链接至标题">¶</a></h4>
 <p>LANTIRN 的 FLIR 视频输出源叠加了数据读数提供给机组使用。当在控制面板选择了 FLIR 源时，这个视频输出源就可以在 TID（在 TV 模式中）和 VDI（也是在 TV 模式中）中进行观看。</p>
 <p>除此之外，显示器还向机组显示了本机位置、目标位置以及瞄准提示。当使用 LANTIRN 用于 A/G 攻击时这些读数也用于瞄准和投放提示。</p>
 <img alt="_images/FLIR.png" src="_images/FLIR.png" />
@@ -2281,77 +2281,77 @@
 <p><strong>6</strong> 是显示跟踪位置的十字准星，在上图中还出现了一个指示框，这表示在点跟踪模式中当前处于跟踪的目标。最宽的两种变焦模式中会出现一个框，表示下一个较窄模式的视场。此外，还有一个小白色正方形（FLIR 指向提示）将四处移动，这个小白色正方形表示吊舱相对于飞机来说从上到下的当前的视线。在上图中，它正好在上下翻转的 ^ （顶部中央）的一侧，这表示吊舱正在看向飞机的正前方。如果正方形居中，表示吊舱正在朝正下方看，如果在中心以下，则表示吊舱在朝后看。</p>
 <p>最后， <strong>7</strong> 为飞向所选 Q 的转向引导，顶部的为指令航向，右侧垂直的为炸弹投放提示。</p>
 <p>在倒 ^ 的上方指令航向显示了当前飞机的航向，指令航向是作为当前飞机航向下方的横线（L 左或 R 右）的相对方位显示的。指令航向还通水平线上的短垂线来指示。</p>
-<p>位于右侧的是炸弹投放指示。只有将标识点指定为目标并选择有效武器的时候该指示才会出现。随着与目标距离的靠近，投放指示符号会向下移动，当到达短横线位置时，表示到达投弹位置。指示下方的TREL代表了到达投弹点的时间，投弹后该指示会变为TIMP，指示炸弹命中目标的剩余时间。</p>
-<p>围绕着画面的曲线是遮挡曲线，表示在什么角度下吊舱视线将会被飞机机体遮挡。当FLIR指示的小方块移动到遮挡曲线之外时，传感器视线将被机体遮挡。</p>
+<p>右侧——炸弹投放提示，仅在选择了 Q 为 QDES 和显示投放提示向下移动的垂线时显示。这个投放提示在已选择有效武器（炸弹）时显示，并且当投放提示抵达两个刻度标记时，则表示是时候投放了。在垂线下方的是秒为单位的 TREL（投放时间）指示，在投放后，这个指示将变更为 TIMP（命中时间）。</p>
+<p>这些元素周围的弧线为遮挡弧线，这个弧线指示在何种角度下吊舱将会被本机遮挡住（看向机身）。弧线是相对于 FLIR 指向提示的，当提示移动到遮挡弧线外时，传感器将会被机身遮挡。</p>
 </div>
 <div class="section" id="control-panel">
 <h4>控制面板<a class="headerlink" href="#control-panel" title="永久链接至标题">¶</a></h4>
-<p>控制面板上包含了吊舱的所有操作。</p>
+<p>控制面板包含了吊舱所有的控制，包括控制杆。</p>
 <img alt="_images/panel.png" src="_images/panel.png" />
-<p>LANTIRN吊舱的电源开关旋钮位于面板左上角（ <strong>1</strong> ）， <strong>OFF</strong> 位置时整个系统将不会供电， <strong>imu</strong> 位置（上图中被遮挡）时仅对LANTIRN IMU供电， <strong>POD</strong> 位置则会对整个系统供电。</p>
+<p>LANTIRN 吊舱的电源开关旋钮位于面板的左上角（ <strong>1</strong> ）， <strong>OFF</strong> 档位将不会为系统供电， <strong>imu</strong> 档位（在上图中被遮挡）时仅对 LANTIRN IMU 供电， <strong>POD</strong> 档位则会为整个系统供电。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">IMU选项在当前DCS中无功能。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">IMU 选项在 DCS 中无功能。</td>
 </tr>
 </tbody>
 </table>
-<p><strong>MODE</strong> 开关（ <strong>2</strong> ）可以控制吊舱传感器在 <strong>STBY</strong> （待机）和 <strong>OPER</strong> （工作）之间切换。</p>
-<p>可以通过 <strong>LASER</strong> 开关（ <strong>4</strong> ）将激光器设置为待机状态，（ARM或者SAFE位置）。当激光器处于待机状态时， <strong>LASER ARMED</strong> （ <strong>3</strong> ）灯会亮起。</p>
-<p>右下角的 <strong>VIDEO</strong> 开关（ <strong>5</strong> ）可以用来选择让TID和VDI显示哪个视频源，选择FLIR时会显示LANTIRN FLIR的图像，选择TCS时会显示TCS的图像。</p>
-<p>4个分组指示灯（ <strong>6</strong> ）用来指示LANTIRN系统中的各种故障。 <strong>IBIT</strong> 按钮（ <strong>7</strong> ）用来启动IBIT（初始化内置测试）。</p>
+<p><strong>MODE</strong> 按钮（ <strong>2</strong> ）可以控制 POD 传感器在 <strong>STBY</strong> （待机）和 <strong>OPER</strong> （运行）之间切换。</p>
+<p>当激光使用 <strong>LASER</strong> 开关（<strong>4</strong>）解除保险时，<strong>LASER ARMED</strong> （<strong>3</strong>）指示灯将会亮起。（ARM 和 SAFE 档位可用）。</p>
+<p>右下角的 <strong>VIDEO</strong> 按钮（ <strong>5</strong> ）用来控制 TID 和 VDI 的视频输出源，选择 FLIR 时会显示 LANTIRN FLIR 的视频，选择 TCS 时会显示 TCS 的视频。</p>
+<p>四盏分组指示灯（ <strong>6</strong> ）用来指示 LANTIRN 系统中的各种错误状态。 <strong>IBIT</strong> 按钮（ <strong>7</strong> ）用来启动 IBIT（已初始化机内自检）。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">IBIT和故障指示灯在当前DCS中未模拟。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">IBIT 和故障指示灯尚未实装进入 DCS。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="control-stick">
 <h4>控制杆<a class="headerlink" href="#control-stick" title="永久链接至标题">¶</a></h4>
-<p>LANTIRN控制杆用来操作LANTIRN传感器本身，控制杆本身无法移动，各种操作通过控制杆上的按钮和苦力帽完成。</p>
+<p>LANTIRN 的控制杆用来操控 LANTIRN 的传感器，请注意，尽管控制杆本身无法移动，但是控制杆上的按钮和苦力帽都是用于控制吊舱的。</p>
 <img alt="_images/stick1.png" src="_images/stick1.png" />
-<p>左侧的四方向苦力帽S3（ <strong>1</strong> ）可以用来选择QWP-和QWP+（循环切换航路点标识）（左/右）以及点跟踪模式（POINT）（向上）或者区域跟踪模式（AREA）（向下）。</p>
-<p>位于中间的苦力帽（ <strong>2</strong> ）可以用来控制传感器视线，按下这个苦力帽可以使传感器在白热（WHOT）和黑热（BHOT）之间切换。</p>
-<p>右侧的四方向苦力帽（ <strong>3</strong> ），S4，可以用来选择QADL/QHUD（标识移动至武器基准线/标标识移至平视显示器）（向上），QDES（标识移至目标指定）（向右），QSNO（标识移至雷达雪犁）（向下）。按下苦力帽会暂时隐藏一部分数据显示。通过操纵杆左侧的滑块会改变这个苦力帽的功能，详情请参阅下文。</p>
-<p>红色按钮（ <strong>4</strong> ）用于控制红外传感器在三个不同视场（缩放级别）之间循环切换。</p>
-<p>侧面的双向帽（ <strong>5</strong> ）用来控制吊舱在A/G和A/A模式之间切换。</p>
-<p>位于操纵杆左侧的双向滑块（ <strong>6</strong> ）可以改变右侧苦力帽的功能。这个滑块会在弹簧作用下自动返回中心。</p>
-<p>向前滑动允许选择手动增益，释放并再次向前滑动选择自动增益。 通过向前滑动开关并保持2秒，可以手动更改增益强度。 在这个状态下，右侧苦力帽的上/下会增加和减少增益，而左/右用来控制增益级别。</p>
-<p>向后移动滑动并释放后可以设置激光代码，将其向后滑动并保持住可以控制焦点。 当设置激光编码时，右侧四方向苦力帽的左右用来选择要更改的数字，并使用向上/向下增加和减少所选数字。 在焦点控制时上/下增加和减少焦点。</p>
-<p>位于控制杆前方的是一个二级扳机（ <strong>7</strong> ），按下扳机第一级可以启用手动激光照射，按下第二段扳机可以开启激光照射，并将当前传感器位置指定为QDES（目标标识点）。</p>
-<p>在杆的正面（ <strong>8</strong> ）是激光闩锁（latched）按钮。 按下它会激活激光照射60秒，可以通过按下并释放扳机第一段切换到手动激光进行超控。 重新按下激光闩锁按钮可将激光照射计时器重置为60秒，开始新的60秒倒计时。</p>
+<p>左侧的四向苦力帽——S3（ <strong>1</strong> ）用于选择 QWP- 和 QWP+（向左/向右）以及点跟踪模式（向上）或者区域跟踪模式（向下）。</p>
+<p>位于中间的苦力帽（ <strong>2</strong> ）用于控制传感器视线，按下这个苦力帽可以在白热（WHOT）传感器模式和黑热（BHOT）传感器模式之间切换。</p>
+<p>右侧的四向苦力帽——S4（<strong>3</strong>）可选择 QADL/QHUD（向上）、QDES（向右）、QSNO（向下）。除这些外，短暂按下苦力帽将会在不同简化等级之间循环。左侧的滑块还会变更右侧四向苦力帽的功能，详情见下。</p>
+<p>驾驶杆顶部的红色按钮（ <strong>4</strong> ）用于控制在 IR 传感器的三种不同的视场（变焦等级）之间循环。</p>
+<p>位于侧面的的两向帽（ <strong>5</strong> ）用来选择 A/G 或 A/A 吊舱运行模式。</p>
+<p>位于控制杆杆头左侧的两向滑块（ <strong>6</strong> ），滑块由弹簧归中。这个滑块用于变更右侧的四向苦力帽的功能。</p>
+<p>向前滑动滑块允许选择手动增益，而释放并再次向前滑动将重新选择自动增益。 选择了手动增益的话，可以通过向前滑动滑块并保持2秒来变更手动增益。在手动增益模式中，右侧的苦力帽向上/向下拨动用于增加或减少增益，而向左/向右用于增加或减少电平。</p>
+<p>向后移动滑动滑块可对使用的激光编码进行选择，而向后滑动滑块并按住可以对聚焦进行控制。当设置为变更激光编码时，右侧的四向苦力帽向上/向下用于加减激光编码的数字，向左/向右用于变更选择的数位。在聚焦控制中，苦力帽向上/向下则用于加减聚焦。</p>
+<p>位于控制杆前方的是一个二段式扳机（ <strong>7</strong> ），按下扳机第一段可以启用手动激光照射，而按下第二段扳机可以开启激光照射和指定当前传感器位置为 QDES。</p>
+<p>最后，位于控制杆正面的是锁扣式激光照射按钮（ <strong>8</strong> ）。按下这个按钮后激光将会照射60秒钟，可以通过按下后并释放扳机第一段来越控。再次按下锁扣式激光照射按钮将重置锁扣式激光照射计时器至60秒钟，开始新的60秒钟倒计时。</p>
 </div>
 </div>
 <div class="section" id="id4">
 <h3>操作<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
 <div class="section" id="startup">
 <h4>启动<a class="headerlink" href="#startup" title="永久链接至标题">¶</a></h4>
-<p>如果要冷启动LANTIRN系统，先将电源开关设置为POD位置， 这将给LANTIRN系统供电。系统启动需要8分钟时间，当系统准备就绪时，MODE开关将显示STBY。</p>
-<p>当系统处于STBY模式，按下MODE按钮可以切换到OPER（工作模式），经过30秒的初始化后系统将会开启LANTIRN传感器。</p>
-<p>最后，如果要显示来自LANTIRN FLIR的图像，需要将VIDEO开关拨到FLIR位置。</p>
+<p>如要从未启动的 LANTIRN 启动它，将电源旋钮转动至 POD 档位。在拨动至 POD 档位时将会启动 LANTIRN 通电序列，启动可能需要花费8分钟时间，MODE 开关显示 STBY 后则表示准备就绪。</p>
+<p>STBY 亮起时，按下 MODE 按钮开关系统将会切换至 OPER（运行），在30秒钟初始化之后启用 LANTIRN 传感器。</p>
+<p>最后，如需显示 LANTIRN FLIR 的视频，将 VIDEO 开关切换为 FLIR。</p>
 </div>
 <div class="section" id="sensor-modes-and-operation">
 <h4>传感器模式和操作<a class="headerlink" href="#sensor-modes-and-operation" title="永久链接至标题">¶</a></h4>
-<p>LANTIRN有两种“主”模式，A/A和A/G。两种模式工作原理相似，但针对不同类型的目标进行了优化。此外，A/G模式下可以投放制导炸弹。</p>
-<p>吊舱有两种主要的方式来控制传感器视线，通过对比度锁定（图像跟随）或通过隶属于Q（标识）指定。</p>
-<p>区域（Area）和点（Piont）跟踪模式是两种对比度锁定模式下的子模式，其中LANTIRN通过LANTIRN FLIR图像本身的对比度差异来锁定目标。 对比度跟踪模式下仅进行角度跟踪，其使用自己的飞机位置和吊舱视线来计算目标位置，从而提供不准确的测距。 但它可以允许系统跟踪移动目标。</p>
-<p>另一种跟踪模式是将传感器对准到存储的位置/方向，称为Q（标识点）。“位置Q点”允许引导本机至该位置，“方向Q点”则不能提供引导。</p>
-<p>QSNO和QADL / QHUD是“方向Q点”。 QSNO会将传感器指向本机正前方15海里处的地面。 QADL和QHUD将传感器隶属于ADL（A/A）或HUD上的飞机机翼符号（A/G）。</p>
-<p>位置Q有两个来源，通过控制杆左侧苦力帽左右控制的QWp-和QWp+可用于循环选择WCS内存储的航路点，允许RIO将传感器转换到不同的航路点进行导航和目标定位。</p>
-<p>另一个来源是通过吊舱指定。 通过按下LANTIRN控制杆上第二级扳机，可以选定当前传感器跟踪的目标或指向的位置并使用该位置数据生成一个Q点，称为QDES。QDES可以用于指定攻击目标，也也可以允许RIO在飞行中选择新位置以进行导航参考。 QDES无法自动传输到WCS，但RIO可以使用吊舱视频源中的目标位置信息进行手动输入。</p>
-<p>LANTIRN画面右下方的数据仅针对位置Qs启用，但即使传感器在区域或点跟踪模式下转移时也会保留。 然而，只要另一个Q被选择，它将更新到该位置，如果选择了方向Q则会将其移除。</p>
+<p>LANTIRN 有两种“主”模式，分别是 A/A 和 A/G。两种模式工作方式类似，但是不同的模式针对不同的目标类型进行了优化。此外，A/G 模式中还允许使用炸弹投放引导。</p>
+<p>吊舱有两种主要的方法来控制传感器视线，通过对比度锁定（图像跟踪）或通过隶属至一个 Q 指定点。</p>
+<p>区域（Area）和点（Point）跟踪模式为在 LANTIRN FLIR 本身的视频中 LANTIRN 以对比度差异来锁定的两种对比度锁定模式。对比度锁定本身只允许角度跟踪，对比度跟踪中将使用本机位置和吊舱视线来计算目标位置来给出不精确的测距。但是，它的可以允许系统跟踪移动目标。</p>
+<p>最后一种跟踪模式是将传感器隶属至预存的位置/方向，这种模式将其称之为 Q。方向 Q无法引导至某个位置，而位置 Q 则可以。</p>
+<p>QSNO 和 QADL/QHUD 为方向 Q。QSNO 为将传感器隶属至沿本机航向正前方15海里处的地面。QADL 和 QHUD 则隶属传感器至 ADL（A/A 模式中）或 HUD 中的飞机机翼符号（A/G 模式中）。</p>
+<p>位置 Q 有两个源，第一个源是使用控制杆左侧的苦力帽上的 QWp- 和 QWp+ 在 WCS 航路点之间循环，从而允许 RIO 隶属至不同的航路点进行导航或定位目标。</p>
+<p>另一个源则是通过吊舱指定。通过按下控制杆上扳机第二段，将照射当前传感器跟踪或位置，并使用指定点的数据存储为新位置。这个位置称为 QDES，QDES 用来指定用于攻击的目标并且允许 RIO 选择在飞行中用于导航参考的新的位置。但是，QDES 无法自动传输至 WCS，但是 RIO 可以使用吊舱视频输出源中的目标位置信息来手动输入它。</p>
+<p>视频右下角的数据块仅位置 Q 时启用，即使吊舱隶属为区域跟踪或点跟踪模式这个数据块也会保留。但是一旦选择了另一个 Q 的话，这个数据块将会更新至另一个 Q 的数据而不是移除，如果选择了方向 Q，那么数据块将会移除。</p>
 </div>
 <div class="section" id="a-g-target-engagement-and-designation">
-<h4>A/G目标攻击和指示<a class="headerlink" href="#a-g-target-engagement-and-designation" title="永久链接至标题">¶</a></h4>
-<p>当LANTIRN指向QDES或指定新的QDES时，LANTIRN用于地面目标攻击的转向提示符将自动启用。 即使选择了新的Q点，QDES本身也会保留，只要它存在，即使吊舱视线转向另一点，转向提示也会指向QDES。 这一点很重要，因为通常会认为转向提示是以当前传感器位置而不是QDES作为目标点。</p>
-<p>然而，激光照射点可以与QDES位置不同，激光总是指向当前视线位置。 如果需要，可以将吊舱视线快速切换回由QDES标记的目标。当攻击移动目标时，QDES应设置在撞击时间归零时的预估目标位置（需要由RIO通过经验预估），使用点跟踪模式或手动控制可以更精确地照射目标。</p>
-<p>要更改激光代码，请将控制杆左侧的滑块向后移动并松开，这会将右侧苦力帽（S4）更改为激光代码模式。 当前选择的数字将会闪烁，苦力帽向左/向右更改要设置的数字，向上/向下更改数字的值。最后将左侧滑块向后移动并松开退出激光代码模式。</p>
-<p>如果在激光代码模式下按下右侧S4苦力帽，将启用自动激光模式，数字左侧的M（手动）指示会变为A（自动）。重新按下苦力帽可以切换回手动模式。 激活自动模式后，吊舱会在TIMP剩余10秒钟时自动开始照射激光，直到TIMP倒数为0后还将继续照射4秒。</p>
-<p>炸弹投放指示仅在选择了有效武器（炸弹），且RIO已经在武器选择面板上的武器选择拨轮选择了对应的武器类型时出现。 炸弹投放可以使用飞行员投放模式（Computer Pilot，类似CCIP）或计算机目标模式（Computer Target 类似CCRP）完成，但建议使用手动模式。 在手动模式下，飞行员跟随VDI上LANTIRN视频画面中的提示，并在看到投弹提示时投放炸弹。</p>
+<h4>A/G 目标攻击和指定<a class="headerlink" href="#a-g-target-engagement-and-designation" title="永久链接至标题">¶</a></h4>
+<p>当 LANTIRN 隶属至 QDES 时或指定了新 QDES 时，LANTIRN 攻击地面目标的转向提示将会自动启用。即使选择了新的 Q，QDES 本身还是会保留的，并且只要 QDES 存在，即使隶属至了另一个点，转向提示也将会指向 QDES。记住这点非常重要，因为很容易混淆转向记成指令是指向当前传感器位置而不是 QDES。</p>
+<p>但是，激光指定本身可以指向一个不同于 QDES 的位置，因为激光的指向总是为当前跟踪。如有需要，可以用来通过 QDES 来快速变更回标记的目标，在照射移动中的目标时，QDES 应指向预计目标会抵达的位置（手动估计），接着可使用点跟踪模式或手动移动跟随来更准确的指定实际的目标。</p>
+<p>要变更激光编码，向后拨动控制杆左侧的滑块并释放，这将会变更右侧的苦力帽（S4）功能为激光编码模式。当前所选的数字将会闪烁，然后 S4 苦力帽将可用于设置编码。向左/向右将变更需要进行设置的数位，向上/向下将变更数字的值。重新向后拨动左侧的滑块将会退出激光编码模式。</p>
+<p>如果在激光编码模式中按下右侧的苦力帽（S4），那么将会启用自动照射模式，由编码数字左侧的 M（表示手动）变更为 A（自动照射）表示。再次按下来返回手动模式。激活自动照射后，自动照射模式将在 TIMP 剩余10秒时开始照射激光，直到 TIMP 为0秒+4秒为止。</p>
+<p>炸弹投放提示仅在选择了有效的武器（炸弹）后可见，所选的炸弹是通过 WCS 从 RIO 驾驶舱中武器控制面板上的 WPN TYPE 拨轮读取的。可以通过计算机引导模式或者计算机目标模式来实现炸弹投放，但是建议使用手动模式。在手动模式下，飞行员跟随输出到 VDI 中的 LANTIRN 视频中的提示并根据炸弹投放提示来投放炸弹。</p>
 </div>
 </div>
 </div>
@@ -2887,7 +2887,7 @@
 <p>威胁提示灯上的两个指示灯分别是 RCV (接收)和 XMIT (发射)。RCV 指示灯在系统探测并分析一个威胁时亮起，而 XMIT 指示灯在系统激活了主动干扰时亮起。</p>
 <p>控制面板本身包含一个 STANDBY 指示灯、一个模式选择旋钮和一个 AUDIO 音量控制旋钮。</p>
 <p>STANDBY 指示灯表示系统预热尚未完成，当系统预热完成时便会熄灭。在其他时候，指示灯亮起意味着系统重存在故障。</p>
-<p>AUDIO(音量)旋钮用于控制系统中的 RIO 声音音量。飞行员无法听到该音频。音频本身由接收到的威胁 PRF 直接生成，随后 PRF 会被转换为音频。</p>
+<p>AUDIO（音量）旋钮用于控制系统中的 RIO 声音音量。飞行员无法听到该音频。音频本身由接收到的威胁 PRF 直接生成，随后 PRF 会被转换为音频。</p>
 <p>模式选择旋钮用于控制系统的电源和运行模式。</p>
 <p><strong>OFF</strong> 用于关闭系统的电源， <strong>STBY</strong> 让系统进入预热状态，整体预热时间为5分钟。</p>
 <p><strong>TEST - HOLD 3 SEC</strong> 用于准备系统的 BIT，进入该模式3秒后，转动旋钮至 TEST-ACT 档位。</p>
@@ -2908,7 +2908,7 @@
 <span id="id7"></span><h2>导航<a class="headerlink" href="#navigation" title="永久链接至标题">¶</a></h2>
 <div class="section" id="navigation-system">
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
-<p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），该系统的代号为 AN/ASN-92。INS 通过测量惯性力（即加速度）以及旋转时的角速度并对其积分以计算飞机的位置以及线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全、可靠地返回到基地。当飞机被设计为在远离地面塔康台和目视参考点的大洋上执行任务时，这样的导航系统显得更加重要。</p>
+<p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），该系统的代号为 AN/ASN-92。INS 系统测量和积分测得的惯性力（加速度）以及旋转角速度来计算飞机的位置和线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全、可靠地返回到基地。当飞机被设计为在远离地面塔康台和目视参考点的大洋上执行任务时，这样的导航系统显得更加重要。</p>
 <p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、数/模转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 系统是也很相似——这也不是什么轻松的活。</p>
 <p>在 Heatblur ，我们决定开发一套全新的数学模型来模拟我们 F-14 的 AN/ASN-92。模型包括了所有导致设备最终精度偏差的潜在误差源，并重建了一个三环式三轴 INS 平台的特性行为。这一系列下来的结果是一组算法可以在 DCS 中真实还原 AN/ASN-92，但经过优化之后却能够做到几乎不影响 CPU 性能。</p>
 <p>INS 的主要部件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显示。</p>
@@ -3698,7 +3698,7 @@
 <li>在传感器控制面板上：<strong>STAB</strong> 开关 - IN 。<strong>EL BARS</strong> 旋钮 - 1。<strong>AZ SCAN</strong> 旋钮 - 按需。</li>
 <li>RDR FIX 按钮 - 按下。</li>
 <li>DDD CURSOR 按钮 - 按下。</li>
-<li>HCU 扳机 - 按下扳机第一级。</li>
+<li>HCU 扳机 - 按下扳机第一段。</li>
 <li>光标已经显示在 DDD 上。</li>
 <li>将 DDD 光标移动到雷达测绘地图的所需位置上。</li>
 <li>HCU 扳机 - 按下扳机第二段，然后释放扳机。（这将使 DDD 光标保持在选中的位置。）</li>
@@ -4046,7 +4046,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">打开 ACM 保护盖将超控除了 T.O. 和 LDG 模式外的所有模式。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">打开 ACM 保护盖将越控除了 T.O. 和 LDG 模式外的所有模式。</td>
 </tr>
 </tbody>
 </table>
@@ -4174,7 +4174,7 @@
 </div>
 <div class="section" id="ics-intercommunications-system">
 <h3>ICS - 机内通话系统<a class="headerlink" href="#ics-intercommunications-system" title="永久链接至标题">¶</a></h3>
-<p>ICS提供机组成员之间的正常、备用或应急通信。它还可以合并和放大从其他电子接收设备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶舱有两个放大器，在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择 ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。这可使 ICS 继续运行。</p>
+<p>ICS 提供机组成员之间的正常、备用或应急通信。它还可以合并和放大从其他电子接收设备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶舱有两个放大器，在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择 ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。这可使 ICS 继续运行。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -4185,7 +4185,7 @@
 </tr>
 </tbody>
 </table>
-<p>外部机内通话器连接处位于前轮轮舱中。当飞行员ICS开关设置为HOT MIC时，地面人员可以与驾驶舱内通话。 在DCS中，通过激活ICS PTT时在无线电通信菜单中选择地勤通信菜单来实现。</p>
+<p>外部机内通话器连接处位于前轮轮舱中。当飞行员 ICS 开关设置为 HOT MIC 时，地面人员可以与驾驶舱内通话。 在 DCS 中，通过激活 ICS PTT 时在无线电通信菜单中选择地勤通信菜单来实现。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="48%" />
@@ -4211,14 +4211,14 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td><ol class="first last arabic simple">
-<li>飞行员ICS 按键通话开关</li>
+<li>飞行员无线电台 ICS 开关</li>
 </ol>
 </td>
 <td><ul class="first last simple">
-<li>ICS – 在 ICS 控制开关上选择COLD MIC时允许机内通话。 超控 UHF / VHF 通信。</li>
-<li>Both – 同时使用两个电台通话。在DCS中无功能。</li>
-<li>UHF 1 – 使用 ARC-159 无线电台通话。</li>
-<li>UHF 2 – 使用 ARC-182 无线电台通话。</li>
+<li>ICS – 在 ICS 控制开关上选择 COLD MIC 时允许机内通话。 越控 UHF / VHF 通信。</li>
+<li>Both – 同时使用两个电台进行通信。在 DCS 中无功能。</li>
+<li>UHF 1 – 使用 ARC-159 无线电台进行通信。</li>
+<li>UHF 2 – 使用 ARC-182 无线电台进行通信。</li>
 </ul>
 </td>
 </tr>
@@ -4259,7 +4259,7 @@
 </td>
 </tr>
 <tr class="row-even"><td>RIO 的 ICS 按钮（左侧脚踏板）</td>
-<td>如果 ICS 控制开关选择了 COLD MIC，则可以进行机内通话。 超控 UHF 通信。</td>
+<td>如果 ICS 控制开关选择了 COLD MIC，则可以进行机内通话。 越控 UHF 通信。</td>
 </tr>
 <tr class="row-odd"><td>RIO 的 MIC 开关（右侧脚踏板）</td>
 <td>允许使用 通信/TACAN 指令面板 上选择的 UHF 1 或 UHF 2 无线电台进行传输。注意 BOTH 在 DCS 中无功能。</td>
@@ -4988,7 +4988,7 @@
 <h4>DCS 中的 Link 4<a class="headerlink" href="#link-4-in-dcs" title="永久链接至标题">¶</a></h4>
 <p>Heatblur DCS F-14 的 Link 4 模拟了 Link 4A 及 Link 4C 。</p>
 <p>若要使用 Link 4A，必须打开数据链路电源并设置为 Link 4A 模式（ON），且调谐至所需数据主机的正确数据链路频率，该频率可以在膝板上查看。若是在地面并设置为 CAINS/WAYPT 模式，数据链路将会接收ME中编辑好的航路点，如果在航母上则同时进行预存航向对准。使用 CAINS/WAYPT 不需要设置频率，因为地勤人员在真机设备上使用跳线设置该频率。</p>
-<p>当设置为 TAC 模式时，数据链路将接收由操作员发送的最高优先级的8个跟踪目标。Link 4A 还支持通过将航母设置为数据链路主机实现自动着舰的功能。</p>
+<p>当设置为 TAC 模式时，数据链路将接收由操作员发送的最高优先级的8个跟踪目标。Link 4A 还支持通过将航母设置为数据链路主机实现自动助降的功能。</p>
 <p>若要使用 Link 4C，数据链路模式应设置为 Link 4C（即AUX），参与组建数据链路的飞机应使用相同的频率。一个小队最多编入四架战机，四架战机应该设置不同的地址。由于地勤自动将小队的最高有效位设置为相同，因此数据链路只能在小队内使用。</p>
 <p>在 Link 4C 中，数据链路中的飞机最多共享4个跟踪目标以及本机位置，可由 RIO 使用 CAP 选择。 CAP 还允许 RIO 将本机 INS 位置更新到链路上的另一架飞机以同步目标跟踪的传输。</p>
 </div>
