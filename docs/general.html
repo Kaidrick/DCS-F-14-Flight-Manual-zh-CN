@@ -2176,11 +2176,11 @@
 </div>
 <div class="section" id="an-apx-76-iff-interrogator">
 <h2>AN/APX-76 IFF 问询器<a class="headerlink" href="#an-apx-76-iff-interrogator" title="永久链接至标题">¶</a></h2>
-<p>AN/APX-76 IFF(敌我识别系统）的问询器集成在AN/AWG-9中，而问询器天线则位于AN/AWG-9的天线框架平台上。</p>
-<p>IFF系统的工作原理是发射问询信号脉冲，然后监听友军传回的问询器脉冲信号。除了非加密民用模式外，AN/APX-76还可以在加密的军用模式（mode 4）下进行识别验证，这将可以确定目标在回应mode4问询信号时是否是友军。</p>
-<p>AN/APX-76可用于雷达搜索模式和雷达单目标跟踪模式。若要启用问询器的识别功能，需按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 上的IFF开关。只要按下开关，问询器便会启用，问询器每次启用，最多只工作10秒。</p>
-<p>启用 IFF 时，DDD会将接收到的 IFF 回应信号将覆盖显示在常规的AN/AWG-9雷达回波信号上方。一个友军单位将会被显示为两条短横，一条在标准雷达信号的上方，一条在标准雷达回波信号的下方。由于 AN/APX-76 实际上是一个单独的雷达，因此，有时IFF能探测到AWG-9未探测到的目标。在这种情况下，IFF 回应信号下不会显示目标的雷达回波。</p>
-<p>在搜索模式下，每个回应 IFF 的目标的标识上都会覆盖显示 IFF 回应信号，而雷达处于 STT（单目标跟踪）模式时，STT 目标标识上会显示 IFF 回应信号。此外，如果STT目标在TID上被选中，DDD将从一般显示距离切换到±10 NM的显示距离，以此来显示多个紧密编队目标的雷达信号回波。</p>
+<p>AN/APX-76 IFF（敌我识别系统）问询器集成进了 AN/AWG-9 运作之中。而问询器天线本身位于 AN/AWG-9 天线环架的平台上。</p>
+<p>IFF 系统的工作原理是发射一个问询脉冲，然后监听应答机传回的脉冲。除了非加密民用模式外，AN/APX-76 还可以在加密的军用模式（mode 4）下进行问询。由此一来，这将可以确定目标在 mode4 问询下进行应答的是友机。</p>
+<p>AN/APX-76 可以在搜索模式或 STT 模式中使用。如需启用问询，按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 中的 IFF 按钮，按下后将会启用问询器，按住 IFF 按钮最长只会启用问询器10秒。</p>
+<p>启用 IFF 后，收到的 IFF 返回脉冲将会叠加显示在 DDD 中 AN/WAG-9 雷达的正常接触上。友方目标将会显示两根横线，一个在正常雷达接触上方，一个在下方。由于 AN/APX-76 是一个独立雷达、是和 AWG-9 分隔开来的雷达，因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 返回中不会有雷达接触符号。</p>
+<p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从正常显示距离切换至 ±10 NM，从而使得密集编队目标的多个 IFF 返回。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/YG7sWweg2RQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -3853,7 +3853,7 @@
 <div class="section" id="tacan-system-an-arn-84">
 <h3>TACAN 系统（AN/ARN-84）<a class="headerlink" href="#tacan-system-an-arn-84" title="永久链接至标题">¶</a></h3>
 <p>TACAN 系统可以指示任何所选的地面/水面塔康台并且精度为斜距 0.1 NM，方位 0.5 度。空对空（A/A）模式提供空基塔康台的斜距。如果在视线内，通信距离约为 300 NM。</p>
-<p>系统在 2 个模式中每个模式都可提供 126 个运行波道。空对地模式中得频率接收范围为 962 - 1024 MHz 和 1151 - 1213 MHz，空对空模式则为 1025 - 1150 MHz。TACAN 每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。</p>
+<p>系统在 2 个模式中每个模式都可提供 126 个运行波道。空对地模式中的频率接收范围为 962 - 1024 MHz 和 1151 - 1213 MHz，空对空模式则为 1025 - 1150 MHz。TACAN 每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。</p>
 <div class="section" id="tacan-modes">
 <h4>TACAN 模式<a class="headerlink" href="#tacan-modes" title="永久链接至标题">¶</a></h4>
 <p>系统可以在 REC 或 T/R 模式中同时与其它 99 架飞机从地面台接收有效信号。</p>
@@ -3935,7 +3935,7 @@
 <h3>导航系统组成<a class="headerlink" href="#navigation-system-integration" title="永久链接至标题">¶</a></h3>
 <div class="section" id="navigational-modes">
 <h4>导航模式<a class="headerlink" href="#navigational-modes" title="永久链接至标题">¶</a></h4>
-<p>F-14 拥有3种导航模式。主要导航模式是惯性导航模式，它由 INS 使用IMU（和 PSU）以及 CSDC 来实现。INS 向机组乘员提供本机位置、速度、姿态以及航向信息。</p>
+<p>F-14 拥有3种导航模式。主要导航模式是惯性导航模式，它由 INS 使用 IMU（和 PSU）以及 CSDC 来实现。INS 向机组乘员提供本机位置、速度、姿态以及航向信息。</p>
 <p>第二种模式为惯性测量装置/大气数据（IMU/ AM）模式。它用作备用导航模式，且进入此模式后，INS 平台航向对准精度会永久降级。</p>
 <p>第三种模式则是 AHRS/大气数据（AHRS/AM）模式，此模式使用 AHRS 姿态和航向信息从而代替使用 IMU，并且也是用作 INS 模式和 IMU/AM 模式都失效时的额外备用模式。</p>
 <div class="section" id="inertial-navigation-mode">
