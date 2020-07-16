@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<html class="writer-html4" lang="zh-CN" >
 <head>
   <meta charset="utf-8">
   
@@ -12,6 +11,11 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+  
   
     <link rel="shortcut icon" href="_static/favicon.ico"/>
   
@@ -19,7 +23,9 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -32,11 +38,6 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="正常程序" href="procedures.html" />
@@ -54,7 +55,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> DCS: F-14 “雄猫” 中文飞行手册
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> DCS: F-14 “雄猫” 中文飞行手册
           
 
           
@@ -77,6 +78,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -166,6 +168,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -204,7 +207,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">文档</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>武器系统和武器使用总览</li>
     
@@ -220,10 +223,10 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="procedures.html" class="btn btn-neutral float-right" title="正常程序" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="procedures.html" class="btn btn-neutral float-right" title="正常程序" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="general.html" class="btn btn-neutral float-left" title="总体设计和系统概述" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="general.html" class="btn btn-neutral float-left" title="总体设计和系统概述" accesskey="p"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
       
   </div>
   
@@ -305,8 +308,8 @@
 </div>
 <div class="section" id="launch-modes">
 <h4>发射模式<a class="headerlink" href="#launch-modes" title="永久链接至标题">¶</a></h4>
-<p>F-14 上有两种可用发射模式用于 AIM-7 ，分别是正常模式和视轴模式。飞行员使用驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）档位来选择发射AIM-7。WCS将自动选择一枚用于发射的导弹。</p>
-<p>按下武器选择开关会将选定的武器从 SP 切换至 PH，反之亦然。如果武器控制系统有 STT 目标，那么，除非在 ACM 面板的 MSL MODE（导弹模式）开关上选择 BRSIT（视轴），否则WCS将自动使用正常模式进行发射。所有其他情况下将使用视轴模式发射导弹。</p>
+<p>F-14 上有两种可用发射模式用于 AIM-7 ，分别是正常模式和瞄准轴模式。飞行员使用驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）档位来选择发射AIM-7。WCS将自动选择一枚用于发射的导弹。</p>
+<p>按下武器选择开关会将选定的武器从 SP 切换至 PH，反之亦然。如果武器控制系统有 STT 目标，那么，除非在 ACM 面板的 MSL MODE（导弹模式）开关上选择 BRSIT（瞄准轴），否则 WCS 将自动使用正常模式进行发射。所有其他情况下将使用瞄准轴模式发射导弹。</p>
 <div class="section" id="normal-mode">
 <h5>正常模式<a class="headerlink" href="#normal-mode" title="永久链接至标题">¶</a></h5>
 <a class="reference internal image-reference" href="_images/msloptionsp.png"><img alt="_images/msloptionsp.png" class="align-left" src="_images/msloptionsp.png" style="width: 185.5px; height: 161.35px;" /></a>
@@ -315,8 +318,8 @@
 <p>无论采用哪种制导模式，WCS 都会计算导弹的 LAR（发射允许区间），并在 VDI 和 TID 上显示导弹发射距离。HUD 显示菱形目标指定符、当前目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离），而 VDI、DDD 和 TID 显示攻击引导符号系统以及上述的导弹 LAR 指示。</p>
 </div>
 <div class="section" id="boresight-mode">
-<h5>视轴模式<a class="headerlink" href="#boresight-mode" title="永久链接至标题">¶</a></h5>
-<p>视轴模式使用 AN/AWG-9 雷达上的 CW 泛指天线，使导弹跟踪泛指区内反射信号最强的目标。无论是在发射前还是在发射后，雷达将在目标丢失后切换到泛指模式，除非是在视轴模式下发射，飞行员可以通过将目标保持在泛指区域内来尝试继续引导导弹。</p>
+<h5>瞄准轴模式<a class="headerlink" href="#boresight-mode" title="永久链接至标题">¶</a></h5>
+<p>瞄准轴模式使用 AN/AWG-9 雷达上的 CW 泛指天线，使导弹跟踪泛指区内反射信号最强的目标。无论是在发射前还是在发射后，雷达将在目标丢失后切换到泛指模式，除非是在瞄准轴模式下发射，飞行员可以通过将目标保持在泛指区域内来尝试继续引导导弹。</p>
 <img alt="_images/cwflood.png" src="_images/cwflood.png" />
 </div>
 </div>
@@ -337,13 +340,13 @@
 </div>
 <div class="section" id="seeker-head-modes">
 <h4>导引头模式<a class="headerlink" href="#seeker-head-modes" title="永久链接至标题">¶</a></h4>
-<p>AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的导引头，F-14 携带的后续所有响尾蛇导弹都能使用此模式。SEAM允许导引头解锁并在范围（离 ADL 40°）内跟踪目标，使得飞行员能引导目标，从而提升了导弹的性能。它还允许 F-14 上的 WCS 将导引头隶属到 ADL 20° 内的目标进行跟踪，来实现偏离视轴锁定。</p>
-<p>F-14 上的 AIM-9 依然可以使用早期的视轴模式，该模式下导引头保持隶属于 ADL（2.5°视场），但通常会选用 SEAM 来扫描 ADL 周围或跟踪目标。导引头沿着背对背 双D 栅状扫描进行扫描，基本上就是大约3秒覆盖出一个宽6°的扫描锥，然而并没有可视化的标识给飞行员。就像所有响尾蛇导弹锁定目标一样，是根据音调提示的。搜索时会出现音调，当导引头指向红外源时，音调会升高。</p>
+<p>AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的导引头，F-14 携带的后续所有响尾蛇导弹都能使用此模式。SEAM允许导引头解锁并在范围（离 ADL 40°）内跟踪目标，使得飞行员能引导目标，从而提升了导弹的性能。它还允许 F-14 上的 WCS 将导引头隶属到 ADL 20° 内的目标进行跟踪，来实现偏离瞄准轴锁定。</p>
+<p>F-14 上的 AIM-9 依然可以使用早期的瞄准轴模式，该模式下导引头保持隶属于 ADL（2.5°视场），但通常会选用 SEAM 来扫描 ADL 周围或跟踪目标。导引头沿着背对背 双D 栅状扫描进行扫描，基本上就是大约3秒覆盖出一个宽6°的扫描锥，然而并没有可视化的标识给飞行员。就像所有响尾蛇导弹锁定目标一样，是根据音调提示的。搜索时会出现音调，当导引头指向红外源时，音调会升高。</p>
 </div>
 <div class="section" id="missile-operation">
 <h4>导弹操作<a class="headerlink" href="#missile-operation" title="永久链接至标题">¶</a></h4>
 <p>通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可以切换用于发射的 AIM-9 导弹，ACM 面板上相应的状态窗口中，标识旗指示了当前选中的导弹。使用 AIM-9 时，HUD 使用菱形标识指示跟踪的目标，使用准星（十字准线）指示当前导引头指向的位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离）。如果 WCS 有跟踪目标，则 VDI，DDD 和 TID 将显示攻击引导符。</p>
-<p>不激活 ACM 模式的情况下，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM 功能（无扫描功能）的基础视轴模式。在此模式中飞行员将 ADL 对准目标，当高频音调响起时开火。</p>
+<p>不激活 ACM 模式的情况下，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM 功能（无扫描功能）的基础瞄准轴模式。在此模式中飞行员将 ADL 对准目标，当高频音调响起时开火。</p>
 <p>如果未使用 BRSIT 按钮开关或 ACM 模式处于激活状态，AIM-9 将使用 SEAM ，并且使用 双D 栅状扫描。如果 WCS 有锁定的目标，导引头会扫描雷达或 TCS 视线周围，否则导弹导引头会在 ADL 周围进行扫描。</p>
 <a class="reference internal image-reference" href="_images/seamlock.png"><img alt="_images/seamlock.png" class="align-left" src="_images/seamlock.png" style="width: 100px; height: 100px;" /></a>
 <p>飞行员可以按下左油门握把上的 CAGE/SEAM 按钮来使用 SEAM 模式锁定目标。 ACM 面板的 SEAM LOCK 灯将会亮起并将导引头解锁4.5秒，允许它跟踪导引头视场内的目标。如果未探测到红外源，则导弹导引头会重新锁定，且 SEAM LOCK 灯熄灭。</p>
@@ -372,7 +375,7 @@
 <p>“不死鸟”导弹支持使用 STT（单目标跟踪）攻击单个目标和 TWS（边搜索边跟踪）攻击多个目标。</p>
 <p>AIM-54 有两个不同的型号——AIM-54A 和 AIM-54C。Heatblur Simulations 的 F-14B“雄猫”模拟了这两种型号的“不死鸟”，此外，我们为 AIM-54A 单独模拟了 Mk47 和 Mk60 火箭发动机。装备这两种不同型号发动机的 AIM-54A 在射程上有些差异，而 AIM-54C 和 AIM-54A 的主要区别则是 C 型使用了数字信号导引头，而不是模拟信号导引头，从而提升了性能。AIM-54C 还装有一个改进的无烟 Mk47 火箭发动机。</p>
 <p>使用 PD STT 模式攻击战斗机尺寸的高空目标时，AIM-54 的射程最小为60海里。而使用 TWS 攻击多目标时，射程缩短到约50海里。攻击大型目标时，射程会增加，反之，攻击小型目标时，射程会缩短。</p>
-<p>如果使用主动发射模式，根据目标尺寸的大小射程也稍有差异，例如攻击战斗机尺寸的目标射程会缩短至大约 10 海里。需要注意的是，在 SARH 模式下使用 ACM 主动模式发射后，如果没有探测到目标则会返回 SARH。</p>
+<p>如果使用主动模式发射，根据目标尺寸的大小射程也稍有差异，例如攻击战斗机尺寸的目标射程会缩短至大约 10 海里。需要注意的是，在 SARH 模式下使用 ACM 主动模式发射后，如果导引头没有探测到目标导弹则会返回 SARH。</p>
 <div class="section" id="id2">
 <h4>导弹发射准备<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h4>
 <p>选择飞行员 ACM 面板上的 MSL PREP 按钮开关或激活 ACM 模式开始 AIM-54 导弹的准备。这将接通导弹的电源和冷却系统，同时也会启动导弹的自检程序（BIT）。</p>
@@ -385,7 +388,7 @@
 <div class="section" id="tws-sarh-arh">
 <h5>TWS SARH/ARH<a class="headerlink" href="#tws-sarh-arh" title="永久链接至标题">¶</a></h5>
 <p>在 TWS 模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 AIM-54 跟踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达反射波来进行半主动制导。当目标进入导弹导引头 ARH 模式的范围内后，AN/AWG-9 会命令导弹切换至 ARH。</p>
-<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式。然而，作为备用措施，AN/AWG-9 会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明AIM-54本质上并非发射后不管，但可以认为导弹进入 ARH 模式后能够自主攻击目标。</p>
+<p>如果 AN/AWG-9 雷达不发送这条指令，导弹便无法切换至 ARH 模式。然而，作为备用措施，AN/AWG-9 会继续向导弹传输制导指令，以防导弹无法自主截获目标。这说明 AIM-54 本质上并非发射后不管，但可以认为导弹进入 ARH 模式后能够自主攻击目标。</p>
 </div>
 <div class="section" id="pd-stt-sarh">
 <h5>PD STT SARH<a class="headerlink" href="#pd-stt-sarh" title="永久链接至标题">¶</a></h5>
@@ -400,28 +403,28 @@
 <div class="section" id="acm-active">
 <h5>ACM 主动模式<a class="headerlink" href="#acm-active" title="永久链接至标题">¶</a></h5>
 <p>AIM-54 的最后一种工作模式是 ACM 主动模式，在这个模式下，导弹在发射前就已经接收指令开机，因此导弹在该模式下才是真正的射后不管。AIM-54 导弹除了在发射前接收开机指令外，还会从 WCS 额外接收一条预对准的指令，将导引头指向当前可用的 WCS 跟踪目标。</p>
-<p>在飞行员 ACM 面板上按下 MSL MODE 按钮开关选择 BRSIT（视轴）、在无 WCS 跟踪目标时进入 ACM 模式、使用非脉冲多普勒雷达或 TCS 跟踪模式时，导弹便会进入 ACM 主动模式。无跟踪目标的情况下使用视轴模式或 ACM 主动模式时，导弹会沿着 ADL 发射，并锁定它探测到的第一个目标，但如果使用非脉冲多普勒雷达跟踪目标，发射前导引头会提前对准跟踪目标。</p>
+<p>在飞行员 ACM 面板上按下 MSL MODE 按钮开关选择 BRSIT（瞄准轴）、在无 WCS 跟踪目标时进入 ACM 模式、使用非脉冲多普勒雷达或 TCS 跟踪模式时，导弹便会进入 ACM 主动模式。无跟踪目标的情况下使用瞄准轴模式或 ACM 主动模式时，导弹会沿着 ADL 发射，并锁定它探测到的第一个目标，但如果使用非脉冲多普勒雷达跟踪目标，发射前导引头会提前对准跟踪目标。</p>
 </div>
 <div class="section" id="ecm-mode">
 <h5>ECM 模式<a class="headerlink" href="#ecm-mode" title="永久链接至标题">¶</a></h5>
-<p>在所有引导模式中，如果受到干扰，导引头会自动切换至被动 ECM 寻的模式，通过干扰源方位角来跟踪目标，直到导引头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自动完成的，不需要机组操作，操作员也不会收到提示。</p>
+<p>在所有引导模式中，如果受到干扰，导引头会自动切换至被动 ECM 寻的模式，来角跟踪目标，直到导引头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自动完成的，不需要机组操作，操作员也不会收到提示。</p>
 </div>
 </div>
 <div class="section" id="id4">
 <h4>导弹操作<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h4>
 <p>在飞行员驾驶杆上选择 SP/PH（麻雀/不死鸟）开关档位，然后按下选择开关来从 SP 切换至 PH 来选择 AIM-54 导弹。再次按下武器选择开关可以重新选择 SP。</p>
-<p>WCS 无跟踪目标的情况下使用视轴或 ACM 主动模式发射 AIM-54 时，除了用于瞄准导弹的 ADL 线外，HUD 上不会显示任何标识。</p>
-<p>在 STT 模式下，且 WCS 有跟踪目标时，HUD上会显示目标指示符，如果 TCS 也有跟踪目标，那么目标上会显示随动准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。HUD 右侧的距离标尺上指示了目标当前距离、R<sub>min</sub>和 R<sub>max</sub>，而 VDI、DDI 和 TID 上则显示了攻击引导标识。</p>
+<p>WCS 无跟踪目标的情况下使用瞄准轴或 ACM 主动模式发射 AIM-54 时，除了用于瞄准导弹的 ADL 线外，HUD 上不会显示任何标识。</p>
+<p>在 STT 模式下，且 WCS 有跟踪目标时，HUD 上会显示目标指示符，如果 TCS 也有跟踪目标，那么目标上会显示随动准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视线。HUD 右侧的距离标尺上指示了目标当前距离、R<sub>min</sub>和 R<sub>max</sub>，而 VDI、DDI 和 TID 上则显示了攻击引导标识。</p>
 <div class="section" id="tws">
 <span id="twsattk"></span><h5>TWS<a class="headerlink" href="#tws" title="永久链接至标题">¶</a></h5>
-<p>在 TWS 模式下使用 AIM-54时，WCS 会自动分配跟踪目标的优先级，给每个目标指定一个发射序号，表示导弹的发射顺序。向第一个目标发射导弹后，目标上的发射序号会消失，所有其他目标的发射序号分别减少 1。</p>
+<p>在 TWS 模式下使用 AIM-54 时，WCS 会自动分配跟踪目标的优先级，给每个目标指定一个发射序号，表示导弹的发射顺序。向第一个目标发射导弹后，目标上的发射序号会消失，所有其他目标的发射序号分别减少 1。</p>
 <p>依次对每个目标按下一次扳机来继续攻击跟踪目标 2 至 6，等前一枚导弹离轨后再按下扳机，直到希望发射的导弹全部发射完毕。</p>
 <p>导弹发射后，跟踪目标右侧的发射优先级数字会被替换为 TTI，也就是预计命中时间，这是计算出的导弹命中目标所需的时间。此外，当 AN/AWG-9 向导弹发送开机指令时，TTI 数字会闪烁，表示跟踪目标的导弹已经接收主动模式开机指令。</p>
 <p>正被导弹攻击的目标会保持高亮，直到预计命中时间 + 15秒为止，超过预计命中时间 + 15秒后，VDI、DDD 和 TID 上会显示脱离 “X” 标识。</p>
-<p>TID 标识信息详见 <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID上的符号信息</span></a> 。</p>
+<p>TID 标识信息详见 <a class="reference internal" href="general.html#tidsymb"><span class="std std-ref">TID 标识符</span></a> 。</p>
 <img alt="_images/TWS.png" src="_images/TWS.png" />
 <p>通过 CAP 设置可以强制 WCS 在发射序列中加入一个目标，还可以强制 WCS 排除某个目标，不对其进行攻击，同样也是在 CAP 面板上设置。此外，勾选一个目标并按下 RIO 武器控制面板上的 NEXT LAUNCH 按钮，可以命令 WCS 将该目标作为发射序列 1 号优先级目标。</p>
-<p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示转向点来指示 TWS 栅状扫描的中心点。</p>
+<p>如果 WCS 不处于 TWS AUTO 模式，那么 WCS 会自动切换至该模式来接管 AN/AWG-9 雷达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示转向质心来指示 TWS 栅状扫描的中心点。</p>
 <p>HUD 和 VDI 上显示了一个转向提示来引导飞行员控制飞机，使雷达以最优条件照射目标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R<sub>min</sub> 和 R<sub>max</sub>。TID 上显示了完整的攻击符号标识，包括目标优先级序号和每个目标的最优发射距离，详见 <a class="reference internal" href="general.html#tws"><span class="std std-ref">边搜索边跟踪（TWS）</span></a>。</p>
 </div>
 </div>
@@ -524,7 +527,7 @@
 <img alt="_images/dumb.jpg" src="_images/dumb.jpg" />
 <p class="caption"><span class="caption-text">由美国海军摄影师 Justin S. Osborne 拍摄（030321-N-0382O-506）</span></p>
 </div>
-<p>Mk-80 系列炸弹是美国海军与盟国的标准通用炸弹，这个系列的炸弹在越战期间首次投入使用。 Mk-82 还可装备增阻附件，使用折叠式高阻尾翼或减速伞尾部附件使炸弹减速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。 Mk-82炸弹的这些高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。</p>
+<p>Mk-80 系列炸弹是美国海军与盟国的标准通用炸弹，这个系列的炸弹在越战期间首次投入使用。 Mk-82 还可装备增阻附件，使用折叠式高阻尾翼或减速伞尾部附件使炸弹减速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。 Mk-82 炸弹的这些高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。</p>
 <p>F-14B 能够携带 Mk-80 系列的各型炸弹，从 Mk-81 到 Mk-84 。尽管设计时并没有考虑使用 F-14 执行对地攻击任务，但这些炸弹从一开始就在 F-14 上进行了测试，并交付使用。</p>
 <p>F-14 使用“不死鸟”导弹导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载炸弹。导轨本身可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在“不死鸟”导轨侧面的挂点上，也可以安装在翼套挂架连接的 TER 上。</p>
 <p>所有的 Mk-80 炸弹都有头部引信，投放炸弹时，应使用 RIO 武器面板上的机械引信开关来设置启用头部引信（N）。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启用增阻附件，这意味着，如需使用高阻炸弹，应选择头部/尾部（N/T）机械引信。</p>
@@ -607,7 +610,7 @@
 <div class="section" id="smokewinder">
 <h3>拉烟吊舱<a class="headerlink" href="#smokewinder" title="永久链接至标题">¶</a></h3>
 <p>拉烟吊舱用于空中表演，它模拟了 AIM-9 导弹在飞机航电上的显示。</p>
-<p>选择 AIM-9 的视轴发射模式，然后通过飞行员驾驶杆上的武器选择开关选择相应的武器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，便可以按下扳机来开始或者停止拉烟。</p>
+<p>选择 AIM-9 的瞄准轴发射模式，然后通过飞行员驾驶杆上的武器选择开关选择相应的武器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，便可以按下扳机来开始或者停止拉烟。</p>
 </div>
 </div>
 <div class="section" id="pods-and-tanks">
@@ -621,7 +624,7 @@
 </div>
 <div class="section" id="tacts-pods">
 <h3>TACTS 吊舱<a class="headerlink" href="#tacts-pods" title="永久链接至标题">¶</a></h3>
-<p>TACTS是训练任务中安装在LAU-7导轨上代替AIM-9的分析吊舱，一般是 1A 和 8A 挂点上。通常会在飞机上成对携带 TACTS 吊舱，每侧一个。</p>
+<p>TACTS是训练任务中安装在 LAU-7 导轨上代替 AIM-9 的分析吊舱，一般是 1A 和 8A 挂点上。通常会在飞机上成对携带 TACTS 吊舱，每侧一个。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -1029,11 +1032,19 @@
 
   <div role="contentinfo">
     <p>
-        &#169; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留。
+        
+        &copy; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留
 
     </p>
   </div>
-  本文档基于<a href="http://sphinx-doc.org/">Sphinx</a>编写，使用<a href="https://readthedocs.org">Read the Docs</a>提供的<a href="https://github.com/rtfd/sphinx_rtd_theme">主题</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -1044,7 +1055,6 @@
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

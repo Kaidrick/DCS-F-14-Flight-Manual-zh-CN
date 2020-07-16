@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-06-15 00:34+0800\n"
+"PO-Revision-Date: 2020-07-09 18:26+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -549,8 +549,8 @@ msgid ""
 "VEC/PCD - Vector/PCD mode. Roll and pitch axis is controlled by data link. "
 "Engaged by NWS button on pilot stick."
 msgstr ""
-"VEC/PCD - 引导航向/精确航线方向模式。数据链控制飞机滚转和俯仰轴。这个模式通过"
-"飞行员驾驶杆上的 NWS（前轮转向）按钮激活。"
+"VEC/PCD - 引导航向/精确航线方向模式。数据链路控制飞机滚转和俯仰轴。这个模式通"
+"过飞行员驾驶杆上的 NWS（前轮转向）按钮激活。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Function off."
@@ -1111,7 +1111,7 @@ msgstr "燃油管理面板"
 msgid ""
 "Control panel for various fuel related systems, CADC master reset and the "
 "anti skid system."
-msgstr "这个面板用于控制诸多燃油相关系统、CADC 重置和防滑系统。"
+msgstr "这个面板用于控制诸多燃油相关系统、CADC 复位和防滑系统。"
 
 #: ../../source/cockpit.rst:508
 msgid "QTY SEL switch"
@@ -1221,7 +1221,7 @@ msgid ""
 "tanks. Also resets WING/EXT TRANS switch to AUTO."
 msgstr ""
 "ALL EXTD - 受油管移动至完全伸出位置，允许对所有（ALL）油箱加油。同时也会将机"
-"翼/外部油箱转移开关（WING/EXT TRANS）重置回 AUTO 档位。"
+"翼/外部油箱转移开关（WING/EXT TRANS）复位回 AUTO 档位。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -1264,7 +1264,7 @@ msgstr "MASTER RESET 按钮"
 
 #: ../../source/cockpit.rst:546
 msgid "Resets CADC failure detection system and associated fault displays."
-msgstr "CADC 主重置按钮，用于重置 CADC 故障检测系统及相关故障显示。"
+msgstr "CADC 主复位按钮，用于复位 CADC 故障检测系统及相关故障显示。"
 
 #: ../../source/cockpit.rst:548
 msgid "Control surface position indicator"
@@ -2251,7 +2251,7 @@ msgid ""
 "Flashes to indicate status change on the pilot caution/advisory panel. Press "
 "to reset and turn off light until next event."
 msgstr ""
-"主注意灯，灯光闪烁表示飞行员注意/提示灯面板上灯光状态发生变化。按下来重置主注"
+"主注意灯，灯光闪烁表示飞行员注意/提示灯面板上灯光状态发生变化。按下来复位主注"
 "意灯并熄灭灯光，直到下一个注意事件被触发。"
 
 #: ../../source/cockpit.rst:1034
@@ -2361,7 +2361,7 @@ msgstr "VDI 两侧安装的注意灯。详见下文图片和表格。"
 
 #: ../../source/cockpit.rst:1079
 msgid "Data link warning and caution lights situated at the VDI panel."
-msgstr "安装在 VDI 面板上的数据链警告和注意灯。"
+msgstr "安装在 VDI 面板上的数据链路警告和注意灯。"
 
 #: ../../source/cockpit.rst:1084 ../../source/cockpit.rst:3179
 msgid "ADJ A/C"
@@ -2433,8 +2433,8 @@ msgid ""
 "seconds during ACL. When not in ACL it indicates no data link messages "
 "during last 10 seconds."
 msgstr ""
-"报警灯，指示 ACL 过程中，未能接收数据链控制的时间超2秒。非 ACL 模式下，报警灯"
-"亮起表示过去的10秒内未接收任何数据链信息。"
+"报警灯，指示 ACL 过程中，未能接收数据链路控制的时间超2秒。非 ACL 模式下，报警"
+"灯亮起表示过去的10秒内未接收任何数据链路信息。"
 
 #: ../../source/cockpit.rst:1098 ../../source/cockpit.rst:3181
 msgid "VOICE"
@@ -2543,7 +2543,7 @@ msgid ""
 "Allows reset of the HSD to re-enable display if the overload protection is "
 "tripped. Also displays the HSD IR field test display on the HSD."
 msgstr ""
-"测试按钮，如果触发了过载保护，HSD 显示消失，则可以通过这个按钮来重置 HSD 显"
+"测试按钮，如果触发了过载保护，HSD 显示消失，则可以通过这个按钮来复位 HSD 显"
 "示。同时也用于在 HSD 上显示 HSD IR 现场测试。"
 
 #: ../../source/cockpit.rst:1134
@@ -2554,7 +2554,7 @@ msgstr "自检状态指示灯"
 msgid ""
 "Indicates failure in HSD by showing white flags. Reset by rotating it "
 "clockwise."
-msgstr "显示白色标识旗时，表示 HSD 故障。逆时针旋转旋钮来重置 HSD。"
+msgstr "显示白色标识旗时，表示 HSD 故障。逆时针旋转旋钮来复位 HSD。"
 
 #: ../../source/cockpit.rst:1137
 msgid ""
@@ -2687,7 +2687,7 @@ msgstr "这个功能背后的逻辑是，向后拨动拨轮来增加升力，向
 
 #: ../../source/cockpit.rst:1204
 msgid "DLC engage/disengage & countermeasure dispense button"
-msgstr "DLC 启用/解除和电子对抗措施布撒按钮"
+msgstr "DLC 启用/解除和电子对抗措施弹射按钮"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -2702,7 +2702,7 @@ msgid ""
 "With flaps up button sends command to ALE-39 to dispense chaff or flares "
 "according to RIO setting."
 msgstr ""
-"襟翼收起时，按下按钮会命令 ALE-39 根据 RIO 的设置抛射箔条和红外干扰弹。"
+"襟翼收起时，按下按钮会命令 ALE-39 根据 RIO 的设置弹射箔条和红外干扰弹。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -3170,7 +3170,7 @@ msgid ""
 msgstr ""
 "显示当前飞机过载值（沿飞机垂直轴的加速度）的仪表。它的显示范围是 -5G 至 "
 "+10G。 其中一个指针将显示当前 G 值，而另外两个指针指示飞行过程中受到的最大正 "
-"G 和负 G 过载值。 按下仪器左下角的重置按钮可以重置指针位置。"
+"G 和负 G 过载值。 按下仪器左下角的复位按钮可以复位指针位置。"
 
 #: ../../source/cockpit.rst:1476 ../../source/cockpit.rst:2873
 msgid "Clock"
@@ -3191,7 +3191,7 @@ msgstr ""
 msgid ""
 "The control on the upper right corner is used to start, stop and reset a 1-"
 "hour elapsed time counter."
-msgstr "右上角的按钮用于开始、停止和重置时长为1小时的计时器。"
+msgstr "右上角的按钮用于开始、停止和复位时长为1小时的计时器。"
 
 #: ../../source/cockpit.rst:1492 ../../source/cockpit.rst:3066
 msgid "Right Vertical Console"
@@ -3459,8 +3459,8 @@ msgid ""
 "Contains controls to override failed spoiler sections, allowing the rest to "
 "continue to work after a MASTER RESET."
 msgstr ""
-"用于越控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机重"
-"置）后继续正常工作。"
+"用于越控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机复"
+"位）后继续正常工作。"
 
 #: ../../source/cockpit.rst:1622
 msgid "INBD"
@@ -3475,7 +3475,7 @@ msgid ""
 "ORIDE - Overrides inboard spoiler symmetry protection, allowing a functional "
 "inboard spoiler to continue to operate after a MASTER RESET if one fails."
 msgstr ""
-"ORIDE - 越控内侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
+"ORIDE - 越控内侧扰流板对称保护，如果一侧扰流板故障，CADC 复位后，允许另一侧正"
 "常工作的内侧扰流板继续作动。"
 
 #: ../../source/cockpit.rst:0
@@ -3501,7 +3501,7 @@ msgid ""
 "functional outboard spoiler to continue to operate after a MASTER RESET if "
 "one fails."
 msgstr ""
-"ORIDE - 越控外侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正"
+"ORIDE - 越控外侧扰流板对称保护，如果一侧扰流板故障，CADC 复位后，允许另一侧正"
 "常工作的外侧扰流板继续作动。"
 
 #: ../../source/cockpit.rst:0
@@ -4068,7 +4068,7 @@ msgstr "NORM - 正常位置，启用发电机并将发电机连接至主总线�
 msgid ""
 "OFF/RESET - Disconnects and deactivates generator and resets tripped "
 "protection circuits."
-msgstr "OFF/RESET - 断开并关闭发电机，重置触发的保护电路。"
+msgstr "OFF/RESET - 断开并关闭发电机，复位触发的保护电路。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -4099,7 +4099,7 @@ msgid ""
 "OFF/RESET - Disconnects the generator from the essential buses regardless of "
 "main generator status. Resets protection circuits."
 msgstr ""
-"OFF/RESET - 无论主发电机状态如何，切断将应急发电机与应急总线间的连接，重置保"
+"OFF/RESET - 无论主发电机状态如何，切断将应急发电机与应急总线间的连接，复位保"
 "护电路。"
 
 #: ../../source/cockpit.rst:1836
@@ -4453,7 +4453,7 @@ msgstr "FLT GR UP - 测试外部油箱增压。"
 
 #: ../../source/cockpit.rst:0
 msgid "D/L RAD - Tests the data link converter."
-msgstr "D/L RAD - 测试数据链转换器。"
+msgstr "D/L RAD - 测试数据链路转换器。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -4909,7 +4909,7 @@ msgstr "SINGLE - 雷达信标回应单脉冲编码。"
 # DOUBLE — Beacon response to one of five double-pulse interrogations.
 #: ../../source/cockpit.rst:0
 msgid "DOUBLE - Enables beacon response to set double pulse code."
-msgstr "SINGLE - 雷达信标回应设定的双脉冲编码。"
+msgstr "DOUBLE - 雷达信标回应设定的双脉冲编码。"
 
 # 17.2.4 ACLS Beacon Augmentor (R-1623).
 # The beacon augmentor is a crossband receiver that extends the tracking capability of the AN/SPN-42 shipboard radar with the capability of operating with either or both channels of the AN/SPN42 without interference.
@@ -5058,7 +5058,7 @@ msgstr "EL CTR 旋钮"
 
 #: ../../source/cockpit.rst:2383
 msgid "Elevation control knob selecting center of elevation scan area."
-msgstr "扫描高度角控制旋钮，用于选择垂直扫描区域的中心。"
+msgstr "扫描仰角控制旋钮，用于选择垂直扫描区域的中心。"
 
 #: ../../source/cockpit.rst:2385
 msgid "VSL switch"
@@ -5086,7 +5086,7 @@ msgstr "EL BARS 旋钮"
 
 #: ../../source/cockpit.rst:2389
 msgid "Elevation bar knob selecting amount of bars to scan in elevation."
-msgstr "用于控制俯仰扫描线数。"
+msgstr "用于控制仰角中扫描线的数量。"
 
 #: ../../source/cockpit.rst:2391
 msgid "TCS TRIM knobs"
@@ -5094,7 +5094,7 @@ msgstr "TCS TRIM 旋钮"
 
 #: ../../source/cockpit.rst:2391
 msgid "Trim knobs used to calibrate TCS video in azimuth and elevation."
-msgstr "TCS 调整旋钮，用于校正 TCS 视频的方位和高度角。"
+msgstr "TCS 调整旋钮，用于校正 TCS 视频的方位和仰角。"
 
 #: ../../source/cockpit.rst:2393
 msgid "SLAVE switch"
@@ -5544,7 +5544,7 @@ msgstr "向上移动"
 
 #: ../../source/cockpit.rst:2629
 msgid "Initiates a single chaff release."
-msgstr "投放一组箔条。"
+msgstr "投放单发箔条。"
 
 #: ../../source/cockpit.rst:2631
 msgid "Down"
@@ -5560,7 +5560,7 @@ msgstr "向内移动"
 
 #: ../../source/cockpit.rst:2633
 msgid "Initiates set jammer release program."
-msgstr "启动设定的红外干扰弹投放程序。"
+msgstr "启动设定的有源干扰弹投放程序。"
 
 #: ../../source/cockpit.rst:2635
 msgid "Outboard"
@@ -5568,7 +5568,7 @@ msgstr "向外移动"
 
 #: ../../source/cockpit.rst:2635
 msgid "Initiates set flare release program."
-msgstr "投放一组红外干扰弹。"
+msgstr "启动设定的红外干扰弹投放程序。"
 
 #: ../../source/cockpit.rst:2645
 msgid "Detail Data Display Panel"
@@ -5644,7 +5644,7 @@ msgstr "ANT TRK - 指示雷达正在跟踪目标（相对本机）的角度。"
 msgid ""
 "RDROT - Indicates the target is within the range or rate gate and being "
 "tracked."
-msgstr "RDROT - 指示目标正处于探测距离和速度门限内，且雷达正在跟踪该目标。"
+msgstr "RDROT - 指示目标正处于距离和接近率门限内，且雷达正在跟踪该目标。"
 
 #: ../../source/cockpit.rst:0
 msgid "JAT - Indicates the radar is tracking a jamming source's angle."
@@ -5795,7 +5795,7 @@ msgid ""
 "Knob used to control the gain of the AWG-9 in pulse mode, normally left in "
 "detent unless needed because of clutter or jamming."
 msgstr ""
-"脉冲增益旋钮，用于控制 AWG-9 脉冲模式下的增益，通常将旋钮置于最左侧档位，除非"
+"脉冲增益旋钮，用于控制 AWG-9 脉冲模式下的增益，通常将旋钮置于锁定机构中，除非"
 "出现杂波或干扰。"
 
 #: ../../source/cockpit.rst:2704
@@ -5808,8 +5808,8 @@ msgid ""
 "pulse doppler modes and if to use edge or centroid tracking in pulse mode. "
 "These settings correspond to expected target aspect."
 msgstr ""
-"目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择脉"
-"冲模式下跟踪目标边缘回波或中心回波。这些设置对应了预计目标姿态。"
+"目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择在"
+"脉冲模式下跟踪目标回波边缘或回波质心。这些设置对应了预计目标姿态。"
 
 #: ../../source/cockpit.rst:2706
 msgid "EL indicator"
@@ -5822,9 +5822,9 @@ msgid ""
 "radar elevation while RDR is selected on HCU and TCS elevation while IR/TV "
 "is selected."
 msgstr ""
-"指示器中的指针位置对应了传感器的高度角。左侧指针指向当前实际雷达天线高度角。"
-"在 HCU 上选择 RDR（雷达）时，右侧指针指向指令雷达天线高度角，而当 HCU 上选择 "
-"IR/TV 时，右侧指针指向 TCS 镜头高度角。"
+"指示器中的指针位置对应了传感器的仰角。左侧指针指向当前实际雷达天线仰角。在 "
+"HCU 上选择 RDR（雷达）时，右侧指针指向指令雷达天线仰角，而当 HCU 上选择 IR/"
+"TV 时，右侧指针指向 TCS 镜头仰角。"
 
 #: ../../source/cockpit.rst:2709
 msgid "CCM MODES buttons"
@@ -5848,8 +5848,8 @@ msgid ""
 "Control knob used to set the threshold at which a radar return is considered "
 "a jamming target. Currently non-functional in DCS."
 msgstr ""
-"干扰源强度阈值控制旋钮，用于设置将雷达回波判断为干扰目标的阈值。 目前在DCS中"
-"无功能。"
+"干扰源强度阈值控制旋钮，用于设置将雷达回波判断为干扰目标的阈值。 目前在 DCS "
+"中无功能。"
 
 #: ../../source/cockpit.rst:2713
 msgid "ACM THRLD knob"
@@ -5929,8 +5929,8 @@ msgid ""
 "Readout drum indicating the source of the data displayed on the TID "
 "readouts. Might be blank for sources not having its own text on the drum."
 msgstr ""
-"显示数据滚筒指示器，用于指示 TID 中显示数据的来源。如果显示器内的滚筒上没有数"
-"据源对应的名称，则显示器无显示。"
+"显示数据滚筒指示器，用于在 TID 文本读数中指示数据的来源。如果显示器内的滚筒上"
+"没有数据源对应的名称，则显示器无显示。"
 
 #: ../../source/cockpit.rst:2749
 msgid "Control knob controlling TID brightness."
@@ -5992,7 +5992,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "DATA LINK - Toggles display of all data link tracks."
-msgstr "DATA LINK - 显示或隐藏所有数据链跟踪目标。"
+msgstr "DATA LINK - 显示或隐藏所有数据链路跟踪目标。"
 
 # jam strobe?
 #: ../../source/cockpit.rst:0
@@ -6097,7 +6097,7 @@ msgstr "PWR RESET 指示灯"
 
 #: ../../source/cockpit.rst:2808
 msgid "Light indicating one or more inoperative secondary power supplies."
-msgstr "电源重置指示灯，灯光亮起表示一个或多个不工作的二级电源。"
+msgstr "电源复位指示灯，灯光亮起表示一个或多个不工作的二次电源。"
 
 #: ../../source/cockpit.rst:2810
 msgid "PWR RESET button"
@@ -6109,7 +6109,7 @@ msgid ""
 "condition triggering the inoperational state remains the affected supplies "
 "will remain inoperational."
 msgstr ""
-"电源重置按钮，用于重置不工作的二级电源。但如果导致电源不工作的状况仍未解决，"
+"电源复位按钮，用于复位不工作的二级电源。但如果导致电源不工作的状况仍未解决，"
 "受影响的二级电源依旧无法正常工作。"
 
 #: ../../source/cockpit.rst:2812
@@ -6167,7 +6167,7 @@ msgstr "ELEV 拨轮"
 msgid ""
 "Thumbwheel used to fine-tune elevation of radar antenna for STT lockon "
 "acquisition."
-msgstr "用于微调 STT 锁定模式下的雷达天线高度角。"
+msgstr "用于微调 STT 锁定模式下的雷达天线仰角。"
 
 #: ../../source/cockpit.rst:2822
 msgid "HCU trigger"
@@ -6200,8 +6200,8 @@ msgid ""
 "IR/TV - Selects control of TCS azimuth, elevation and tracking. Enables "
 "display of TCS elevation on right elevation indicator on DDD."
 msgstr ""
-"IR/TV - 选择 TCS 方位角、高度角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条"
-"会显示 TCS 的高度角。"
+"IR/TV - 选择 TCS 方位角、仰角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会"
+"显示 TCS 的仰角。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -6210,7 +6210,7 @@ msgid ""
 "elevation on right elevation indicator on DDD."
 msgstr ""
 "RDR - 选择 STT 锁定模式雷达天线控制，如果雷达已经处于 STT 模式中，则返回搜索"
-"状态。选择后，DDD 屏幕右侧的俯仰角指示条会显示雷达天线当前的指令高度角。"
+"状态。选择后，DDD 屏幕右侧的俯仰角指示条会显示雷达天线当前的指令仰角。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -6288,7 +6288,7 @@ msgid ""
 "Flashes to indicate status change on the RIO caution/advisory panel. Press "
 "to reset and turn of light until next event."
 msgstr ""
-"主注意灯闪烁表示 RIO 注意/提示灯面板上灯光状态发生变化。按下来重置主注意灯，"
+"主注意灯闪烁表示 RIO 注意/提示灯面板上灯光状态发生变化。按下来复位主注意灯，"
 "熄灭灯光直到下一个注意事件被触发。"
 
 #: ../../source/cockpit.rst:2960
@@ -6551,7 +6551,7 @@ msgstr "雷达告警接收机面板"
 
 #: ../../source/cockpit.rst:3098
 msgid "Switch controlling power to the ALR-67."
-msgstr "用于控制 ALR-67的电源。"
+msgstr "用于控制 ALR-67 的电源。"
 
 #: ../../source/cockpit.rst:3100
 msgid "DISPLAY TYPE selector"
@@ -6600,7 +6600,7 @@ msgstr "数字数据显示面板（DDI）"
 #: ../../source/cockpit.rst:3119
 msgid ""
 "Digital data indicator used to display commands received via the data link."
-msgstr "数字数据显示面板用于显示通过数据链接收的指令。"
+msgstr "数字数据显示面板用于显示通过数据链路接收的指令。"
 
 #: ../../source/cockpit.rst:3124
 msgid "AFT VEC"
@@ -6608,7 +6608,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3124
 msgid "Aircraft is being vectored to approach target from the rear hemisphere."
-msgstr "飞机正接受数据链引导，从目标后方（后半球）接近目标。"
+msgstr "飞机正接受数据链路引导，从目标后方（后半球）接近目标。"
 
 #: ../../source/cockpit.rst:3126
 msgid "COL VEC"
@@ -6616,7 +6616,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3126
 msgid "Aircraft is being vectored on a collision course to target."
-msgstr "飞机正接受数据链引导，采用目标截击航线。"
+msgstr "飞机正接受数据链路引导，采用目标截击航线。"
 
 #: ../../source/cockpit.rst:3128
 msgid "NO MSG"
@@ -6624,7 +6624,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "No message at this time, indicates presence of data link communication"
-msgstr "无信息，表示数据链通信正常。"
+msgstr "无信息，表示数据链路通信正常。"
 
 #: ../../source/cockpit.rst:0
 msgid "while not receiving a command."
@@ -6745,12 +6745,12 @@ msgstr ""
 # need more info
 #: ../../source/cockpit.rst:0
 msgid "Command to release weapon in data link A/G attack,"
-msgstr "接收指令使用数据链进行对地攻击。"
+msgstr "接收指令使用数据链路进行对地攻击。"
 
 # need more info
 #: ../../source/cockpit.rst:0
 msgid "manually or automatically if in data link attack mode."
-msgstr "如果选用数据链攻击模式，则使用自动投放，否则采用手动投放。"
+msgstr "如果选用数据链路攻击模式，则使用自动投放，否则采用手动投放。"
 
 #: ../../source/cockpit.rst:3161
 msgid "BEAC OFF"
@@ -6784,7 +6784,8 @@ msgstr ""
 msgid ""
 "CATCC has data link channel available for AFCS, complete landing check list."
 msgstr ""
-"CATCC（母舰空中交通管制中心）有可用的 AFCS 数据链通道，机组应完成着舰检查单。"
+"CATCC（母舰空中交通管制中心）有可用的 AFCS 数据链路通道，机组应完成着舰检查"
+"单。"
 
 #: ../../source/cockpit.rst:3169
 msgid "ACL BEAC"
@@ -6844,8 +6845,8 @@ msgid ""
 "Indicates no data link message received in last 10 seconds. In ACL indicates "
 "no messages in last 2 seconds, will disengage AFCS."
 msgstr ""
-"表示在过去的10秒内未收到任何数据链信息。在 ACL 中，如果超过2秒未收到数据链信"
-"息，AFCS 会断开。"
+"表示在过去的10秒内未收到任何数据链路信息。在 ACL 中，如果超过2秒未收到数据链"
+"路信息，AFCS 会断开。"
 
 #: ../../source/cockpit.rst:3186
 msgid "CMD CHG"
@@ -6853,7 +6854,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3186
 msgid "Indicates imminent or recently changed command instructions."
-msgstr "表示即将收到或最近更变的数据链指令。"
+msgstr "表示即将收到或最近更变的数据链路指令。"
 
 #: ../../source/cockpit.rst:3188
 msgid "ALT CHG"
@@ -6861,7 +6862,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3188
 msgid "Indicates imminent or recently changed altitude command."
-msgstr "表示即将收到或最近更变的数据链高度指令。"
+msgstr "表示即将收到或最近更变的数据链路高度指令。"
 
 #: ../../source/cockpit.rst:3190
 msgid "MON ALT"
@@ -6870,7 +6871,7 @@ msgstr ""
 #: ../../source/cockpit.rst:3190
 msgid ""
 "Message indicating altitude command not being followed with enough precision."
-msgstr "表示本机未能以足够精度保持数据链指令高度。"
+msgstr "表示本机未能以足够精度保持数据链路指令高度。"
 
 #: ../../source/cockpit.rst:3192
 msgid "MANUAL"
@@ -6886,7 +6887,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3194
 msgid "Indicates imminent or recently changed speed command."
-msgstr "表示即将收到或最近更变的数据链速度指令。"
+msgstr "表示即将收到或最近更变的数据链路速度指令。"
 
 #: ../../source/cockpit.rst:3196
 msgid "MON SPD"
@@ -6895,7 +6896,7 @@ msgstr ""
 #: ../../source/cockpit.rst:3196
 msgid ""
 "Message indicating speed command not being followed with enough precision."
-msgstr "表示本机未能以足够精度保持数据链指令速度。"
+msgstr "表示本机未能以足够精度保持数据链路指令速度。"
 
 #: ../../source/cockpit.rst:3198
 msgid "CMD CTRL"
@@ -6911,7 +6912,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3200
 msgid "Command to change data link channel."
-msgstr "切换数据链波道指令。"
+msgstr "切换数据链路波道指令。"
 
 #: ../../source/cockpit.rst:3202
 msgid "HDG CHN"
@@ -6919,7 +6920,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:3202
 msgid "Indicates imminent or recently changed heading command."
-msgstr "表示即将收到或最近更变的数据链航向指令。"
+msgstr "表示即将收到或最近更变的数据链路航向指令。"
 
 #: ../../source/cockpit.rst:3204
 msgid "CANC RPY"
@@ -6936,7 +6937,7 @@ msgstr ""
 #: ../../source/cockpit.rst:3206
 msgid ""
 "Aircraft is being vectored to approach target from the front hemisphere."
-msgstr "飞机正接受数据链引导，从目标前方（前半球）接近目标。"
+msgstr "飞机正接受数据链路引导，从目标前方（前半球）接近目标。"
 
 #: ../../source/cockpit.rst:3209
 msgid ""
@@ -7020,11 +7021,11 @@ msgstr "音量控制旋钮，用于调节 RIO 头戴中 AN/ALQ-126 的音频音�
 
 #: ../../source/cockpit.rst:3252
 msgid "Data Link Control Panel"
-msgstr "数据链控制面板"
+msgstr "数据链路控制面板"
 
 #: ../../source/cockpit.rst:3255
 msgid "Control panel for the data link."
-msgstr "用于控制数据链。"
+msgstr "用于控制数据链路。"
 
 #: ../../source/cockpit.rst:3260
 msgid "Transmission mode switch"
@@ -7032,7 +7033,7 @@ msgstr "传输模式选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Sets data link tranmission mode."
-msgstr "用于设置数据链的传输模式。"
+msgstr "用于设置数据链路的传输模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "TEST - Starts system test."
@@ -7052,23 +7053,23 @@ msgstr "频率选择器"
 
 #: ../../source/cockpit.rst:3268
 msgid "Thumbwheels used to set data link frequency."
-msgstr "选择器上的拨轮用于设置数据链频率。"
+msgstr "选择器上的拨轮用于设置数据链路频率。"
 
 #: ../../source/cockpit.rst:3270
 msgid "Data link power switch"
-msgstr "数据链电源开关"
+msgstr "数据链路电源开关"
 
 #: ../../source/cockpit.rst:3270
 msgid "Enables power to data link, also used to set AUX (auxiliary) mode."
-msgstr "控制数据链电源，也用于设置数据链备用（AUX）模式。"
+msgstr "控制数据链路电源，也用于设置数据链路备用（AUX）模式。"
 
 #: ../../source/cockpit.rst:3280
 msgid "Data Link Reply and Antenna Control Panel"
-msgstr "数据链应答和天线控制面板"
+msgstr "数据链路应答和天线控制面板"
 
 #: ../../source/cockpit.rst:3283
 msgid "Panel used to control data link alignment, reply and antenna."
-msgstr "用于控制数据链对准、应答和天线的面板。"
+msgstr "用于控制数据链路对准、应答和天线的面板。"
 
 #: ../../source/cockpit.rst:3288
 msgid "ANTENNA switch"
@@ -7076,7 +7077,7 @@ msgstr "ANTENNA 选择开关"
 
 #: ../../source/cockpit.rst:3288
 msgid "Switch selecting antenna in use for UHF 1 and data link."
-msgstr "用于选择 UHF 1 和数据链使用的天线。"
+msgstr "用于选择 UHF 1 和数据链路使用的天线。"
 
 #: ../../source/cockpit.rst:3290
 msgid "REPLY switch"
@@ -7087,8 +7088,8 @@ msgid ""
 "Used to transmit data link reply, transmits in NORM (normal), disabled in "
 "CANC (cancelled)."
 msgstr ""
-"用于控制数据链应答，NORM（正常）档位传输数据链应答，CANC（取消）档位禁用数据"
-"链应答。"
+"用于控制数据链路应答，NORM（正常）档位传输数据链路应答，CANC（取消）档位禁用"
+"数据链路应答。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -7096,16 +7097,16 @@ msgid ""
 "and waypoint update."
 msgstr ""
 "弹簧开关，选择 CAINS/WAYPT 档位时，电磁铁将开关固定在该位置上。释放开关后，开"
-"关弹回 TAC 档位。这个开关用于启用数据链对准和航路点更新。"
+"关弹回 TAC 档位。这个开关用于启用数据链路对准和航路点更新。"
 
 #: ../../source/cockpit.rst:0
 msgid "CAINS/WAYPT - Enables data link alignment and waypoint update."
-msgstr "CAINS/WAYPT - 启用数据链对准和航路点更新。"
+msgstr "CAINS/WAYPT - 启用数据链路对准和航路点更新。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "TAC - Enables manual selection of frequencies, stops data link alignment."
-msgstr "TAC - 启用手动选择数据链频率，停止数据链对准。"
+msgstr "TAC - 启用手动选择数据链路频率，停止数据链路对准。"
 
 #: ../../source/cockpit.rst:3298
 msgid "ADRESS thumbwheel"
@@ -7118,7 +7119,7 @@ msgstr "ADDRESS 拨轮"
 msgid ""
 "Sets what data link address own aircraft uses. (Sets two least significant "
 "digits, others set by groundcrew.)"
-msgstr "设置本机使用的数据链地址（调定任务分配的数据链地址）。"
+msgstr "设置本机使用的数据链路地址（调定任务分配的数据链路地址）。"
 
 #: ../../source/cockpit.rst:3308
 msgid "AN/ALE-39 Control Panel"
@@ -7334,16 +7335,16 @@ msgstr "JAMR 拨轮（灰色）"
 # jammer？
 #: ../../source/cockpit.rst:0
 msgid "Thumbwheels used to set jammer release program."
-msgstr "用于设置有源射频诱饵发射程序。"
+msgstr "用于设置有源干扰弹发射程序。"
 
 #: ../../source/cockpit.rst:0
 msgid "QTY - Quantity, sets quantity of jammers to release in program."
-msgstr "QTY - 数量拨轮，用于设置程序投放的射频诱饵数量。"
+msgstr "QTY - 数量拨轮，用于设置程序投放的有源干扰弹数量。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "INTV - Interval, sets interval in seconds between jammer releases in program."
-msgstr "INTV - 间隔拨轮，用于设置程序投放射频诱饵的间隔，单位是秒。"
+msgstr "INTV - 间隔拨轮，用于设置程序投放有源干扰弹的间隔，单位是秒。"
 
 #: ../../source/cockpit.rst:3399
 msgid "CHAFF thumbwheels"
@@ -7442,7 +7443,7 @@ msgid ""
 "Switch loading programmed settings into AN/ALE-39 and resetting sequencer "
 "switches to their starting positions."
 msgstr ""
-"开关，用于向 AN/ALE-39 中载入设置程序，并重置所有电子序列器开关至初始位置。"
+"开关，用于向 AN/ALE-39 中载入设置程序，并复位所有电子序列器开关至初始位置。"
 
 #: ../../source/cockpit.rst:3435
 msgid "Interior Light Control Panel"

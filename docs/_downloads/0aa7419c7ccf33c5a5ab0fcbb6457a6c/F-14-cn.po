@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1.0 trunk\n"
 "AMAMAMReport-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2020-06-07 20:40+0800\n"
+"PO-Revision-Date: 2020-07-16 08:41+0800\n"
 "Last-Translator: uboats\n"
 "Language-Team: TODO\n"
 "MIME-Version: 1.0\n"
@@ -36,9 +36,6 @@ msgstr "航行灯闪烁"
 
 msgid "Jettison racks/weapons"
 msgstr "抛离挂架/武器"
-
-msgid "Weapon Quantity 10s"
-msgstr "武器投放数量 十位"
 
 msgid "HUD De-clutter On/Off"
 msgstr "HUD 防拥 开 / 关"
@@ -100,6 +97,9 @@ msgstr "雷达 显示距离50海里"
 msgid "Red Flood Light"
 msgstr "红色泛光灯"
 
+msgid "Jettison station 8"
+msgstr "挂架 8"
+
 msgid "Temp Auto / Man"
 msgstr "温度 自动/手动"
 
@@ -117,9 +117,6 @@ msgstr "导弹速度门限"
 
 msgid "HSD Selected Heading"
 msgstr "HSD 选定航向"
-
-msgid "IFF test (no function)"
-msgstr "IFF 检测 (未模拟)"
 
 msgid "RADAR pulse doppler single target track"
 msgstr "雷达 脉冲多普勒单目标跟踪"
@@ -158,7 +155,7 @@ msgid "UHF ARC-159 Squelch Switch"
 msgstr "UHF ARC-159 静噪开关"
 
 msgid "Record mode (no function)"
-msgstr "记录仪模式 (未模拟)"
+msgstr "录像机模式 (未模拟)"
 
 msgid "ACM Cover"
 msgstr "ACM 保护盖"
@@ -181,9 +178,6 @@ msgstr "选择抛离 备用模式保护盖"
 msgid "CAP btn 3"
 msgstr "CAP 按钮 3"
 
-msgid "CCM ALT DIFF (no function)"
-msgstr "CCM ALT DIFF (未模拟)"
-
 msgid "HUD Trim"
 msgstr "HUD 调节"
 
@@ -198,6 +192,9 @@ msgstr "LANTIRN 工作模式 (Unstow)"
 
 msgid "IFF M3 code --x- (no function)"
 msgstr "IFF M3 code --x- （无功能）"
+
+msgid "AoA Indexer Light Intensity"
+msgstr "进近迎角指示灯 亮度"
 
 msgid "Navigation Mode"
 msgstr "导航模式"
@@ -223,6 +220,9 @@ msgstr "供油开关 保护盖"
 msgid "Radar azimuth center"
 msgstr "雷达 方位角扫描中心"
 
+msgid "AN/ARA-63 Channel Knob"
+msgstr "AN/ARA-63 波道选择旋钮"
+
 msgid "Accelerometer Reset"
 msgstr "加速度计复位"
 
@@ -234,6 +234,9 @@ msgstr "AN/ALR-67 检测"
 
 msgid "Fuel Feed"
 msgstr "供油开关"
+
+msgid "TID Range"
+msgstr "TID 距离"
 
 msgid "RADAR track while scan auto"
 msgstr "雷达 边扫描边跟踪 自动"
@@ -271,6 +274,9 @@ msgstr "UHF ARC-159 频率选择 0.025MHz"
 msgid "UHF ARC-159 Function"
 msgstr "UHF ARC-159 功能"
 
+msgid "TID Non attack"
+msgstr "TID 不可攻击"
+
 msgid "Emergency Generator Switch"
 msgstr "应急发电机开关"
 
@@ -304,23 +310,17 @@ msgstr "雷达 脉冲搜索"
 msgid "HSD ECM Override"
 msgstr "HSD ECM 越控"
 
-msgid "TCS FOV"
-msgstr "TCS 视场"
+msgid "Compass N-S Hemisphere"
+msgstr "罗盘 北/南半球"
 
 msgid "AN/ALR-67 Display Brightness"
 msgstr "AN/ALR-67 显示亮度"
-
-msgid "Launch Bar Abort Switch Cover"
-msgstr "拖拽杆中止开关盖"
 
 msgid "Stabilize"
 msgstr "稳定"
 
 msgid "Datalink Antijam (no function)"
 msgstr "数据链路 反干扰 (未模拟)"
-
-msgid "VHF/UHF ARC-182 Squelch Switch"
-msgstr "VHF/UHF ARC-182 静噪开关"
 
 msgid "Air Source Left Engine"
 msgstr "气源 左发"
@@ -388,11 +388,11 @@ msgstr "CAP 纬度/1"
 msgid "UHF ARC-159 Load"
 msgstr "UHF ARC-159 载入"
 
+msgid "CCM ALT DIFF (no function)"
+msgstr "CCM ALT DIFF (未模拟)"
+
 msgid "TID Alt num"
 msgstr "TID 高度数值"
-
-msgid "CAP N+E"
-msgstr "CAP 北+东"
 
 msgid "Jettison left tank"
 msgstr "抛离左侧油箱"
@@ -400,11 +400,11 @@ msgstr "抛离左侧油箱"
 msgid "RADAR 5 NM"
 msgstr "雷达 显示距离5海里"
 
-msgid "AN/ALE-37 Chaff Salvo Interval"
-msgstr "AN/ALE-37 箔条齐投间隔"
-
 msgid "TCS Slave"
 msgstr "TCS 传感器隶属"
+
+msgid "AN/ALE-37 Chaff Salvo Interval"
+msgstr "AN/ALE-37 箔条齐射间隔"
 
 msgid "VHF/UHF Radio Remote Display Brightness"
 msgstr "VHF/UHF 远程显示器 亮度"
@@ -415,14 +415,14 @@ msgstr "拖拽杆中止"
 msgid "AN/ALE-37 Jammer Interval Hundreds"
 msgstr "AN/ALE-37 有源干扰弹间隔 (百位)"
 
-msgid "Pilot Oxygen On"
-msgstr "前舱供氧 开"
+msgid "VHF/UHF ARC-182 1MHz"
+msgstr "VHF/UHF ARC-182 频率选择 1MHz"
 
 msgid "Erase"
 msgstr "擦除强度"
 
-msgid "VHF/UHF ARC-182 1MHz"
-msgstr "VHF/UHF ARC-182 频率选择 1MHz"
+msgid "A/A Launch"
+msgstr "空对空发射按钮"
 
 msgid "HSD Test"
 msgstr "HSD 测试"
@@ -430,17 +430,17 @@ msgstr "HSD 测试"
 msgid "Parametric amplifier (no function)"
 msgstr "参数放大器 (未模拟)"
 
-msgid "A/A Launch"
-msgstr "空对空发射按钮"
+msgid "Pilot Oxygen On"
+msgstr "前舱供氧 开"
 
 msgid "HUD Cruise Mode"
 msgstr "HUD 巡航模式"
 
+msgid "Nose Strut Compression Switch"
+msgstr "前轮支柱伸缩开关"
+
 msgid "UHF ARC-159 Tone"
 msgstr "UHF ARC-159 单音"
-
-msgid "Nose Strut Compression Switch"
-msgstr "前起落架支柱伸缩开关"
 
 msgid "Canopy Jettison"
 msgstr "座舱盖抛离"
@@ -454,26 +454,35 @@ msgstr "机械引信"
 msgid "Console Light Intensity"
 msgstr "控制台灯亮度"
 
+msgid "TID track hold"
+msgstr "TID 跟踪保持"
+
 msgid "CCM SPL (no function)"
 msgstr "CCM SPL (未模拟)"
 
 msgid "HUD Landing Mode"
 msgstr "HUD 着陆模式"
 
+msgid "AN/ALR-67 Power"
+msgstr "AN/ALR-67 电源"
+
 msgid "Pulse gain"
 msgstr "脉冲增益"
 
-msgid "Compass Mode"
-msgstr "罗盘模式"
-
 msgid "Weapon Interval x10ms"
 msgstr "武器间隔 x10毫秒"
+
+msgid "Compass Mode"
+msgstr "罗盘模式"
 
 msgid "Brightness"
 msgstr "亮度"
 
 msgid "Datalink Power"
 msgstr "数据链路电源"
+
+msgid "VHF/UHF ARC-182 Squelch Switch"
+msgstr "VHF/UHF ARC-182 静噪开关"
 
 msgid "UHF ARC-159 0.1MHz"
 msgstr "UHF ARC-159 频率选择 0.1MHz"
@@ -496,9 +505,6 @@ msgstr "数据链路频率 1MHz"
 msgid "ACM Panel Light Intensity"
 msgstr "ACM 面板灯亮度"
 
-msgid "Missile option"
-msgstr "导弹发射选项"
-
 msgid "WCS switch"
 msgstr "WCS 控制开关"
 
@@ -508,23 +514,26 @@ msgstr "IFF M3 code ---x （无功能）"
 msgid "Airspeed Indicator Bug Knob"
 msgstr "空速表 游标调节旋钮"
 
-msgid "Aspect"
-msgstr "目标方位选择"
-
-msgid "HUD Power On/Off"
-msgstr "HUD 电源 开/关"
+msgid "CAP SPD 3"
+msgstr "CAP 速度/3"
 
 msgid "Throttle Temp"
 msgstr "油门计算机增益"
 
+msgid "HUD Power On/Off"
+msgstr "HUD 电源 开/关"
+
 msgid "AN/ALE-37 Jammer Interval Tens"
 msgstr "AN/ALE-37 有源干扰弹间隔 (十位)"
+
+msgid "VHF/UHF ARC-182 MODE"
+msgstr "VHF/UHF ARC-182 模式"
 
 msgid "HSD Brightness"
 msgstr "HSD 亮度"
 
-msgid "VHF/UHF ARC-182 MODE"
-msgstr "VHF/UHF ARC-182 模式"
+msgid "Aspect"
+msgstr "目标方位选择"
 
 msgid "Right Engine Fuel Cutoff"
 msgstr "右发燃油关断"
@@ -541,26 +550,29 @@ msgstr "TACAN 音量"
 msgid "DDD RADAR"
 msgstr "DDD 雷达显示器"
 
-msgid "AoA Indexer Light Intensity"
-msgstr "进近迎角指示灯 亮度"
-
 msgid "DDD Infrared (no function)"
 msgstr "DDD 红外 (未模拟)"
 
-msgid "Bomb step/ripple"
-msgstr "炸弹 逐个/连续"
+msgid "Radar azimuth scan"
+msgstr "雷达 扫描方位"
 
 msgid "ECMD Brightness"
 msgstr "ECMD 亮度"
 
 msgid "TID Jam strobe"
-msgstr "TID 干扰源"
+msgstr "TID 干扰源射线"
+
+msgid "KY-28 ZEROIZE Cover"
+msgstr "KY-28 擦除 (清零) 保护盖"
 
 msgid "RADAR 10 NM"
 msgstr "雷达 显示距离10海里"
 
 msgid "Compass HDG Slave Knob/nPush (Left Mouse Button) and rotate (Right Mouse Button)"
 msgstr "罗盘 航向隶属旋钮 - 按下(鼠标左键)并旋转(鼠标右键)"
+
+msgid "UHF Radio Remote Display Brightness"
+msgstr "UHF 远程显示器 亮度"
 
 msgid "Autopilot - Engage"
 msgstr "自动驾驶 - 开启"
@@ -569,7 +581,7 @@ msgid "VDI Landing Mode"
 msgstr "VDI 着陆模式"
 
 msgid "Gun Elevation Lead Adjustment"
-msgstr "航炮准星提前量设置"
+msgstr "航炮准星偏移量设置"
 
 msgid "RADAR pulse single target track"
 msgstr "雷达 脉冲单目标跟踪"
@@ -583,11 +595,17 @@ msgstr "AN/ALR-67 模式"
 msgid "CAP HDG 8"
 msgstr "CAP 航向/8"
 
+msgid "TCS FOV"
+msgstr "TCS 视场"
+
 msgid "Emergency Generator Switch Cover"
 msgstr "应急发电机开关 保护盖"
 
 msgid "Fuel Shutoff - Right"
 msgstr "燃油关断 - 右发"
+
+msgid "KY MODE Switch"
+msgstr "KY 模式开关"
 
 msgid "DDD filter"
 msgstr "DDD 滤镜"
@@ -595,14 +613,11 @@ msgstr "DDD 滤镜"
 msgid "CCM VGS (no function)"
 msgstr "CCM VGS (未模拟)"
 
-msgid "KY MODE Switch"
-msgstr "KY 模式开关"
+msgid "PD threshold clear (no function)"
+msgstr "PD 阈值清除 (未模拟)"
 
 msgid "CAP TNG NBR"
 msgstr "CAP 训练/数值"
-
-msgid "PD threshold clear (no function)"
-msgstr "PD 阈值清除 (未模拟)"
 
 msgid "Fire Ext Bottle - Left"
 msgstr "灭火器 - 左"
@@ -625,9 +640,6 @@ msgstr "VHF/UHF ARC-182 显示亮度"
 msgid "UHF ARC-159 Display Brightness"
 msgstr "UHF ARC-159 显示亮度"
 
-msgid "IR volume (no function)"
-msgstr "IR 音量 (未模拟)"
-
 msgid "Ram Air"
 msgstr "冲压空气"
 
@@ -646,20 +658,26 @@ msgstr "应急机翼后掠手柄保护盖"
 msgid "Air Source Off"
 msgstr "气源 关闭"
 
+msgid "CAP btn 5"
+msgstr "CAP 按钮 5"
+
 msgid "AN/ALE-37 Chaff Counter"
 msgstr "AN/ALE-37 箔条计数器"
-
-msgid "IFF M1 (no function)"
-msgstr "IFF M1 (未模拟)"
 
 msgid "ALR-67 Volume"
 msgstr "ALR-67 音量"
 
-msgid "Altimeter Mode Switch"
-msgstr "气压高度表模式开关"
+msgid "IFF M1 (no function)"
+msgstr "IFF M1 (未模拟)"
 
 msgid "Jettison right tank"
 msgstr "抛离右侧油箱"
+
+msgid "Altimeter Mode Switch"
+msgstr "气压高度表模式开关"
+
+msgid "Master Arm Cover"
+msgstr "主军械开关保护盖"
 
 msgid "TID Sym Elem"
 msgstr "TID 补充标识"
@@ -670,26 +688,29 @@ msgstr "TID 亮度"
 msgid "CAP ALT 4"
 msgstr "CAP 高度/4"
 
-msgid "CAP btn 5"
-msgstr "CAP 按钮 5"
-
 msgid "Stow Inlet Ramps Left Switch"
 msgstr "左进气道斜板开关"
 
-msgid "ECMD Test"
-msgstr "ECMD 测试"
+msgid "Datalink Antenna (no function)"
+msgstr "数据链路天线 (未模拟)"
 
 msgid "Autopilot - Altitude Hold"
 msgstr "自动驾驶 - 高度保持"
 
-msgid "Wing/Ext Trans"
-msgstr "机翼/副油箱 输油"
+msgid "Taxi Light"
+msgstr "滑行灯"
 
 msgid "Navigation Steer Commands: AWL PCD"
 msgstr "导航转向指令: 全天候助降/精确航线方向"
 
+msgid "Wing/Ext Trans"
+msgstr "机翼/副油箱 输油"
+
 msgid "UHF Radio Remote Display Test"
 msgstr "UHF 远程显示器 检测"
+
+msgid "CAP N+E"
+msgstr "CAP 北+东"
 
 msgid "IFF reply (no function)"
 msgstr "IFF 应答 (未模拟)"
@@ -703,6 +724,9 @@ msgstr "HSD 选定航线"
 msgid "V/UHF 2 ANT Switch"
 msgstr "V/UHF 2 ANT 开关"
 
+msgid "Record power (no function)"
+msgstr "录像机电源 (未模拟)"
+
 msgid "Inboard Spoiler Override"
 msgstr "内侧扰流板越控"
 
@@ -712,8 +736,14 @@ msgstr "外侧扰流板越控"
 msgid "VDI filter"
 msgstr "VDI 滤镜"
 
+msgid "UHF ARC-159 Read"
+msgstr "UHF ARC-159 读取"
+
 msgid "AN/ALE-37 Flare Quantity"
 msgstr "AN/ALE-37 红外干扰弹数量"
+
+msgid "IFF test (no function)"
+msgstr "IFF 检测 (未模拟)"
 
 msgid "ACLS test"
 msgstr "ACLS 检测"
@@ -730,11 +760,8 @@ msgstr "罗盘 纬度校正"
 msgid "TID Velocity vector"
 msgstr "TID 速度矢量"
 
-msgid "Jettison station 8"
-msgstr "挂架 8"
-
-msgid "Compass N-S Hemisphere"
-msgstr "罗盘 北/南半球"
+msgid "Air Source Right Engine"
+msgstr "气源 右发"
 
 msgid "TACAN Mode"
 msgstr "TACAN 模式"
@@ -754,44 +781,44 @@ msgstr "不对称推力限制器保护盖"
 msgid "Anti-Skid Spoiler BK Switch"
 msgstr "防滑和扰流板制动开关"
 
-msgid "Record power (no function)"
-msgstr "记录仪电源 (未模拟)"
+msgid "TID Data link"
+msgstr "TID 数据链路"
 
-msgid "BINGO Fuel Level Knob"
-msgstr "返航油量设置旋钮"
+msgid "HUD Air-to-Air Mode"
+msgstr "HUD 空对空模式"
 
 msgid "Cabin Pressure Dump"
 msgstr "座舱泄压"
 
+msgid "BINGO Fuel Level Knob"
+msgstr "返航油量设置旋钮"
+
 msgid "Engine Crank"
 msgstr "发动机启动"
-
-msgid "IFF audio/light (no function)"
-msgstr "IFF 音效/灯光 (未模拟)"
 
 msgid "Liquid cooling"
 msgstr "液冷"
 
+msgid "IFF audio/light (no function)"
+msgstr "IFF 音效/灯光 (未模拟)"
+
 msgid "Landing Gear Lever (RB emergency extend)"
 msgstr "起落架手柄 (右键应急放下)"
 
-msgid "Taxi Light"
-msgstr "滑行灯"
+msgid "Ejection CMD Lever"
+msgstr "弹射指令杆"
 
 msgid "Inboard Spoiler Override Cover"
 msgstr "内侧扰流板越控开关 保护盖"
 
-msgid "Ejection CMD Lever"
-msgstr "弹射指令杆"
+msgid "Hydraulic Emergency Flight Control Switch Cover"
+msgstr "液压 应急飞行液压控制开关保护盖"
 
 msgid "CAP btn 8"
 msgstr "CAP 按钮 8"
 
 msgid "Outboard Spoiler Override Cover"
 msgstr "外侧扰流板越控 保护盖"
-
-msgid "Hydraulic Emergency Flight Control Switch Cover"
-msgstr "液压 应急飞行液压控制开关保护盖"
 
 msgid "IFF Ident (no function)"
 msgstr "IFF 识别 (未模拟)"
@@ -820,11 +847,11 @@ msgstr "左发模式"
 msgid "Jettison station 1"
 msgstr "抛离 挂架 1"
 
-msgid "Record reset (no function)"
-msgstr "记录仪复位 (未模拟)"
-
 msgid "Left Engine Fuel Cutoff"
 msgstr "左发燃油关断"
+
+msgid "Record reset (no function)"
+msgstr "录像机复位 (未模拟)"
 
 msgid "CAP btn 2"
 msgstr "CAP 按钮 2"
@@ -838,20 +865,14 @@ msgstr "数据链路频率 100kHz"
 msgid "VHF/UHF ARC-182 Preset Channel Selector"
 msgstr "VHF/UHF ARC-182 预设波道选择开关"
 
-msgid "UHF Radio Remote Display Brightness"
-msgstr "UHF 远程显示器 亮度"
+msgid "CAP clear"
+msgstr "CAP 清除"
 
 msgid "Position Lights Wing"
 msgstr "机翼航行灯"
 
-msgid "CAP clear"
-msgstr "CAP 清除"
-
 msgid "LANTIRN Power"
 msgstr "LANTIRN 电源"
-
-msgid "CAP SPD 3"
-msgstr "CAP 速度/3"
 
 msgid "CAP PGM RSTRT"
 msgstr "CAP 程序重启"
@@ -868,14 +889,17 @@ msgstr "ICS 音量"
 msgid "Hydraulic Hand Pump"
 msgstr "手动液压泵"
 
-msgid "A/G gun mode"
-msgstr "A/G 航炮模式"
-
 msgid "Navigation Steer Commands: Manual"
 msgstr "导航转向指令: 手动"
 
+msgid "A/G gun mode"
+msgstr "A/G 航炮模式"
+
 msgid "KY-28 Radio Selector"
 msgstr "KY-28 无线电台选择开关"
+
+msgid "ECMD Test"
+msgstr "ECMD 测试"
 
 msgid "Datalink CAINS/TAC"
 msgstr "数据链路 CAINS/TAC"
@@ -919,9 +943,6 @@ msgstr "LANTIRN IBIT"
 msgid "Wind Shield Air"
 msgstr "风挡热风"
 
-msgid "IR gain (no function)"
-msgstr "IR 增益旋钮 (未模拟)"
-
 msgid "AN/ALE-37 Flare Interval"
 msgstr "AN/ALE-37 红外干扰弹间隔"
 
@@ -958,9 +979,6 @@ msgstr "JAM/JET 旋钮 (未模拟)"
 msgid "VDI Power On/Off"
 msgstr "VDI 电源 开/关"
 
-msgid "TID Data link"
-msgstr "TID 数据链路"
-
 msgid "Hydraulic Transfer Pump Switch Cover"
 msgstr "液压转移泵开关 保护盖"
 
@@ -970,11 +988,14 @@ msgstr "VHF/UHF ARC-182 频率选择 0.025MHz"
 msgid "AN/ALE-37 Jammer Dispense"
 msgstr "AN/ALE-37 有源干扰弹投放"
 
+msgid "IR gain (no function)"
+msgstr "IR 增益旋钮 (未模拟)"
+
 msgid "AN/ALR-67 Display Type"
 msgstr "AN/ALR-67 显示类型"
 
 msgid "collision steering"
-msgstr "拦截转向"
+msgstr "恒量角度拦截转向"
 
 msgid "Main Lobe Clutter filter"
 msgstr "主瓣杂波过滤器"
@@ -985,11 +1006,11 @@ msgstr "HUD 俯仰梯度亮度"
 msgid "Automatic Gain Control (no function)"
 msgstr "自动增益控制 (未模拟)"
 
+msgid "LANTIRN Laser Arm Switch"
+msgstr "LANTIRN 激光解除保险开关"
+
 msgid "Beacon Power"
 msgstr "信标电源"
-
-msgid "Destination Mode"
-msgstr "导航目标模式"
 
 msgid "TID Contrast"
 msgstr "TID 对比度"
@@ -1002,9 +1023,6 @@ msgstr "CAP 按钮 1"
 
 msgid "Flaps Lever"
 msgstr "襟翼控制杆"
-
-msgid "TID Reject Image Device disable (no function)"
-msgstr "TID 禁用图像抑制设备（未模拟）"
 
 msgid "IFF code (no function)"
 msgstr "IFF 编码 (未模拟)"
@@ -1021,14 +1039,11 @@ msgstr "塔康波道 拨轮 (十位)"
 msgid "Bomb single/pairs"
 msgstr "炸弹 单发/成对"
 
-msgid "HUD Air-to-Air Mode"
-msgstr "HUD 空对空模式"
-
 msgid "HUD Take-Off Mode"
 msgstr "HUD 起飞模式"
 
-msgid "Air Source Right Engine"
-msgstr "气源 右发"
+msgid "TID Reject Image Device disable (no function)"
+msgstr "TID 禁用图像抑制设备（未模拟）"
 
 msgid "ACM threshold (no function)"
 msgstr "ACM 阈值 (未模拟)"
@@ -1039,8 +1054,8 @@ msgstr "AN/ALE-37 L10 装载类型"
 msgid "RADAR range while scan"
 msgstr "雷达 边搜索边测距"
 
-msgid "UHF ARC-159 Read"
-msgstr "UHF ARC-159 读取"
+msgid "Weapon Quantity 10s"
+msgstr "武器投放数量 十位"
 
 msgid "Right Generator Switch"
 msgstr "右发电机开关"
@@ -1060,20 +1075,14 @@ msgstr "燃油关断 - 左发"
 msgid "VSL switch"
 msgstr "垂直扫描锁定开关"
 
-msgid "Master Arm Cover"
-msgstr "主军械开关保护盖"
-
 msgid "Anti-Collision Lights"
 msgstr "防撞灯"
-
-msgid "LANTIRN Laser Arm Switch"
-msgstr "LANTIRN 激光解除保险开关"
 
 msgid "Datalink address high"
 msgstr "数据链路地址 高位"
 
-msgid "Datalink Antenna (no function)"
-msgstr "数据链路天线 (未模拟)"
+msgid "IR volume (no function)"
+msgstr "IR 音量 (未模拟)"
 
 msgid "DECM ALQ-100 Volume"
 msgstr "DECM ALQ-100 音量"
@@ -1090,44 +1099,35 @@ msgstr "IFF M1 code x- （无功能）"
 msgid "AN/ARA-63 Power Switch"
 msgstr "AN/ARA-63 电源开关"
 
+msgid "Destination Mode"
+msgstr "导航目标模式"
+
 msgid "AN/ALE-37 L20 Load Type"
 msgstr "AN/ALE-37 L20 装载类型"
-
-msgid "KY-28 ZEROIZE Cover"
-msgstr "KY-28 擦除 (清零) 保护盖"
 
 msgid "Master Test Selector (LB to rotate, RB to pull/push)"
 msgstr "主测试选择开关 (左键旋转，右键推入/拉出)"
 
-msgid "Radar azimuth scan"
-msgstr "雷达 扫描方位"
+msgid "Bomb step/ripple"
+msgstr "炸弹 逐个/连续"
 
-msgid "TID Range"
-msgstr "TID 距离"
-
-msgid "AN/ARA-63 Channel Knob"
-msgstr "AN/ARA-63 波道选择旋钮"
+msgid "Missile option"
+msgstr "导弹发射选项"
 
 msgid "VHF/UHF ARC-182 FM/AM Switch"
 msgstr "VHF/UHF ARC-182 FM/AM 开关"
 
 msgid "AN/ALE-37 Chaff Salvo Quantity"
-msgstr "AN/ALE-37 箔条齐投数量"
+msgstr "AN/ALE-37 箔条齐射数量"
 
-msgid "TID Non attack"
-msgstr "TID 不可攻击"
+msgid "Launch Bar Abort Switch Cover"
+msgstr "拖拽杆中止开关盖"
 
 msgid "Datalink freq 10MHz"
 msgstr "数据链路频率 10MHz"
 
-msgid "AN/ALR-67 Power"
-msgstr "AN/ALR-67 电源"
-
 msgid "AN/ALE-37 Jammer Interval Units"
 msgstr "AN/ALE-37 有源干扰弹间隔 (个位)"
-
-msgid "TID track hold"
-msgstr "TID 跟踪保持"
 
 msgid "Pulse video"
 msgstr "脉冲多普勒图像"
@@ -1165,8 +1165,8 @@ msgstr "高度保持 切换"
 msgid "HUD Declutter Toggle"
 msgstr "HUD防拥 切换"
 
-msgid "AN/ALE-39 Jammer Interval Hundreds Dec"
-msgstr "AN/ALE-39 有源干扰弹间隔 (百位) 减小"
+msgid "NAV Mode: IMU"
+msgstr "导航模式: IMU"
 
 msgid "AN/ALE-39 Chaff Burst Interval Dec"
 msgstr "AN/ALE-39 箔条连投间隔 减小"
@@ -1197,6 +1197,9 @@ msgstr "HUD 电源 开"
 
 msgid "AN/ALE-39 Chaff SGL"
 msgstr "AN/ALE-39 箔条 发射单发"
+
+msgid "ILS"
+msgstr "ILS"
 
 msgid "Cockpit Mechanics"
 msgstr "驾驶舱设备"
@@ -1263,6 +1266,9 @@ msgstr "机械引信 弹头|弹尾/保险 切换"
 
 msgid "VHF/UHF ARC-182 Freq Mode Dec"
 msgstr "VHF/UHF ARC-182 频率模式 逆时针"
+
+msgid "Views"
+msgstr "视角"
 
 msgid "VHF/UHF ARC-182 Freq Mode LOAD"
 msgstr "VHF/UHF ARC-182 频率模式 载入"
@@ -1342,9 +1348,6 @@ msgstr "AN/ALE-39 红外干扰弹模式 顺时针"
 msgid "Hydraulic Transfer Pump Switch SHUTOFF else NORMAL"
 msgstr "液压输送泵 SHUTOFF/NORMAL"
 
-msgid "Jester Menu Down Right"
-msgstr "Jester 菜单 右下"
-
 msgid "RWR Power ON else OFF"
 msgstr "RWR 电源 开/关"
 
@@ -1381,6 +1384,9 @@ msgstr "受油管 伸出(全部油箱)/伸出(仅机身油箱)"
 msgid "ACM cover open/close (2pos)"
 msgstr "ACM 开关盖 开/关 (2段)"
 
+msgid "Auto Start"
+msgstr "自动开车"
+
 msgid "F-14B RIO"
 msgstr "F-14B 后舱"
 
@@ -1404,9 +1410,6 @@ msgstr "雷达俯仰 向下"
 
 msgid "VHF/UHF ARC-182 MODE Inc"
 msgstr "VHF/UHF ARC-182 模式 顺时针"
-
-msgid "Radar - Range 50"
-msgstr "雷达 - 显示距离50海里"
 
 msgid "HSD/ECM Power Off, else On"
 msgstr "HSD/ECM 电源 关/开"
@@ -1468,8 +1471,8 @@ msgstr "航向保持 GT/关"
 msgid "LANTIRN Slew X"
 msgstr "LANTIRN X轴控制"
 
-msgid "Trim Pitch Down"
-msgstr "配平 - 低头"
+msgid "HUD Power Off"
+msgstr "HUD 电源 关"
 
 msgid "Command 7"
 msgstr "指令 7"
@@ -1555,6 +1558,9 @@ msgstr "LANTIRN 向上移动"
 msgid "stab out"
 msgstr "雷达 增稳 关"
 
+msgid "Closure Velocity Scale x4 else norm"
+msgstr "接近率标尺 4倍/正常"
+
 msgid "VSL High"
 msgstr "垂直扫描锁定 高空"
 
@@ -1587,9 +1593,6 @@ msgstr "AFCS 偏航稳定 开"
 
 msgid "HUD Power Toggle"
 msgstr "HUD电源 切换"
-
-msgid "Eng/Probe Anti Ice ORIDE"
-msgstr "发动机/空速管 防冰 ORIDE"
 
 msgid "+/- 65 degree scan"
 msgstr "+/- 65度扫描"
@@ -1663,9 +1666,6 @@ msgstr "RWR 亮度 (前舱) 增加"
 msgid "ILS Channel Inc"
 msgstr "ILS 波道 顺时针"
 
-msgid "DECM Mode: OFF"
-msgstr "DECM 模式: OFF"
-
 msgid "Lights Formation Brightnes Up"
 msgstr "编队灯亮度 增加"
 
@@ -1697,7 +1697,7 @@ msgid "Nose strut extend"
 msgstr "前轮支柱 - 伸展"
 
 msgid "aspect tail else beam"
-msgstr "目标方位选择 追尾/侧对"
+msgstr "目标方位选择 尾追/侧对"
 
 msgid "Nav - Set Steerpoint Fixed Point"
 msgstr "导航 - 设置转向点: FP"
@@ -1705,8 +1705,8 @@ msgstr "导航 - 设置转向点: FP"
 msgid "Fueldump Dump"
 msgstr "放油 开始"
 
-msgid "Delivery Mode: Step"
-msgstr "投放模式: 逐个"
+msgid "ATTK Mode: MAN"
+msgstr "ATTK 模式: 手动"
 
 msgid "DLC Thumbwheel Aft"
 msgstr "DLC 指轮 向后"
@@ -1792,9 +1792,6 @@ msgstr "PLM 按钮"
 msgid "LANTIRN S4 HAT Up (QADL/QHUD/Code +/Gain+)"
 msgstr "LANTIRN S4 HAT 向上 (QADL/QHUD/编码+/增益+)"
 
-msgid "ILS Power Toggle"
-msgstr "ILS 电源 开/关 切换"
-
 msgid "CAP 9"
 msgstr "CAP 9"
 
@@ -1834,11 +1831,23 @@ msgstr "显示模式 巡航"
 msgid "Wing Sweep Auto Mode"
 msgstr "机翼后掠模式 自动"
 
+msgid "Datalink Frequency 10MHz up"
+msgstr "数据链路频率 10MHz 向上"
+
 msgid "Lights Anti Collision OFF"
 msgstr "防撞灯 关"
 
+msgid "Parking brake stow"
+msgstr "停放刹车 - 收起"
+
 msgid "Command 8"
 msgstr "指令 8"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "WCS XMIT, else Standby"
+msgstr "WCS XMIT/就绪"
 
 msgid "Inc KY-28 encryption key"
 msgstr "KY-28 加密密钥 顺时针"
@@ -1907,7 +1916,7 @@ msgid "CAP 8/Heading"
 msgstr "CAP 航向/8"
 
 msgid "aspect tail"
-msgstr "目标方位选择 追尾"
+msgstr "目标方位选择 尾追"
 
 msgid "Fast Backward"
 msgstr "快退"
@@ -1921,8 +1930,8 @@ msgstr "右侧舱壁"
 msgid "Fuel Feed AFT else NORM"
 msgstr "供油开关 AFT/NORM"
 
-msgid "VHF/UHF ARC-182 MODE DF"
-msgstr "VHF/UHF ARC-182 模式 定向"
+msgid "RWR Power OFF"
+msgstr "RWR 电源 关"
 
 msgid "MLC in else auto"
 msgstr "MLC 开/自动"
@@ -2020,6 +2029,9 @@ msgstr "机身灯光主开关 开"
 msgid "Trigger"
 msgstr "扳机"
 
+msgid "Emergency Wing Sweep Handle Cover OPEN"
+msgstr "应急机翼后掠手柄保护盖 开"
+
 msgid "FOV narrow, else wide"
 msgstr "视场 窄/宽"
 
@@ -2041,9 +2053,6 @@ msgstr "目标单位 排除"
 msgid "Custom Snap View 4"
 msgstr "自定义快捷视角 4"
 
-msgid "TID Destination: 3"
-msgstr "TID 目标: 3"
-
 msgid "Anti Skid Spoiler BK Switch BOTH, else OFF"
 msgstr "防滑和扰流板制动 两者/关"
 
@@ -2056,11 +2065,14 @@ msgstr "襟翼杆"
 msgid "Crank Right Engine"
 msgstr "右发启动"
 
-msgid "Jettison Right Tank: Safe"
-msgstr "抛离右侧油箱: 保险"
+msgid "Throttle Mode MAN"
+msgstr "油门模式 MAN"
 
 msgid "Left sidewall"
 msgstr "左侧墙板"
+
+msgid "Hand Control Unit"
+msgstr "HCU"
 
 msgid "XMTR SEL BOTH"
 msgstr "XMTR 选择两者"
@@ -2071,26 +2083,23 @@ msgstr "HSD/ECM 电源 关"
 msgid "Lights Hook Bypass FIELD"
 msgstr "拦阻钩旁通指示灯 机场"
 
-msgid "Hand Control Unit"
-msgstr "HCU"
-
 msgid "HCU DDD mode"
 msgstr "HCU DDD模式"
 
 msgid "VDI Mode Toggle"
 msgstr "VDI模式 切换"
 
+msgid "TACAN Function A/A"
+msgstr "塔康功能 空/空"
+
 msgid "Jettison Right Tank: Safe, else Select"
 msgstr "抛离右侧油箱: 保险/选择"
 
-msgid "Datalink Frequency 10MHz up"
-msgstr "数据链路频率 10MHz 向上"
+msgid "Fuel Feed Cover OPEN else CLOSE"
+msgstr "供油开关保护盖 开/关"
 
 msgid "TCS Off, else standby"
 msgstr "TCS 关/就绪"
-
-msgid "Fuel Feed Cover OPEN else CLOSE"
-msgstr "供油开关保护盖 开/关"
 
 msgid "AFCS Yaw Stabilisation Toggle"
 msgstr "AFCS偏航增稳 切换"
@@ -2104,17 +2113,14 @@ msgstr "DDD 雷达显示器"
 msgid "TCS Control Panel"
 msgstr "TCS 控制面板"
 
-msgid "AN/ALE-39 Right Data Dispenser Switch Up - Chaff Single"
-msgstr "AN/ALE-39 右数据布撒开关 向上 - 单发箔条"
-
 msgid "CAP 7"
 msgstr "CAP 7"
 
+msgid "AN/ALE-39 Right Data Dispenser Switch Up - Chaff Single"
+msgstr "AN/ALE-39 右数据布撒器开关 向上 - 单发箔条"
+
 msgid "stab in"
 msgstr "雷达 增稳 开"
-
-msgid "Crank Left Engine"
-msgstr "左发启动"
 
 msgid "Autopilot Off"
 msgstr "自动驾驶 关"
@@ -2122,11 +2128,11 @@ msgstr "自动驾驶 关"
 msgid "Fuel Feed AFT"
 msgstr "供油开关 AFT"
 
-msgid "DDD pulse gain"
-msgstr "DDD 脉冲增益"
-
 msgid "Weapon Selector press"
 msgstr "武器选择 按下"
+
+msgid "Radar azimuth control"
+msgstr "雷达方位控制"
 
 msgid "VHF/UHF ARC-182 Freq Mode G"
 msgstr "VHF/UHF ARC-182 频率模式 救生"
@@ -2134,17 +2140,17 @@ msgstr "VHF/UHF ARC-182 频率模式 救生"
 msgid "Heading Hold On"
 msgstr "航向保持 开"
 
-msgid "ICS Button ICS (Intercom) PTT (axis threshold) - SRS Only / No Menu"
-msgstr "ICS开关 ICS（对讲）按键通话（轴量阈值） - 仅用于SRS / 不显示无线电菜单"
-
 msgid "DDD erase"
 msgstr "DDD 擦除"
 
 msgid "Right Engine Cutoff"
 msgstr "右发关断"
 
-msgid "LANTIRN S3 HAT Y Axis (AREA, POINT)"
-msgstr "LANTIRN S3 HAT Y轴 (区域、点)"
+msgid "Hook Extend"
+msgstr "拦阻钩 放下"
+
+msgid "ICS Button ICS (Intercom) PTT (axis threshold) - SRS Only / No Menu"
+msgstr "ICS开关 ICS（对讲）按键通话（轴量阈值） - 仅用于SRS / 不显示无线电菜单"
 
 msgid "Change LGB laser code 2nd digit"
 msgstr "修改激光编码 第2位"
@@ -2155,23 +2161,23 @@ msgstr "TCS 视场 宽"
 msgid "DDD Range 20"
 msgstr "DDD 距离 20"
 
-msgid "Emergency Wing Sweep Handle Cover OPEN"
-msgstr "应急机翼后掠手柄保护盖 开"
-
 msgid "CAP S/W/-"
 msgstr "CAP 南/西/-"
-
-msgid "UHF ARC-159 0.1 MHz Switch Up"
-msgstr "UHF ARC-159 0.1MHz 开关 向上"
 
 msgid "VDI AWL ILS"
 msgstr "VDI AWL ILS"
 
+msgid "UHF ARC-159 0.1 MHz Switch Up"
+msgstr "UHF ARC-159 0.1MHz 开关 向上"
+
+msgid "LANTIRN Slew Y"
+msgstr "LANTIRN Y轴控制"
+
 msgid "Command 1"
 msgstr "指令 1"
 
-msgid "DECM Mode: Test STBY"
-msgstr "DECM 模式: 检测 STBY"
+msgid "ACQ Auto Search, else man "
+msgstr "ACQ 自动搜索/手动"
 
 msgid "Sidewinder Volume Dec"
 msgstr "响尾蛇 音量 减小"
@@ -2179,8 +2185,8 @@ msgstr "响尾蛇 音量 减小"
 msgid "HUD Power On, else Off"
 msgstr "HUD 电源 开/关"
 
-msgid "Mic Button ICS - SRS Only / No Menu"
-msgstr "ICS话筒开关 - 只用于SRS / 不显示无线电菜单"
+msgid "Info bar coordinate units toogle"
+msgstr "信息栏坐标单位 切换"
 
 msgid "HUD AWL ACL, else ILS"
 msgstr "HUD AWL ACL/ILS"
@@ -2188,47 +2194,59 @@ msgstr "HUD AWL ACL/ILS"
 msgid "HSD/ECM Power On"
 msgstr "HSD/ECM 电源 开"
 
-msgid "Altitude Hold On"
-msgstr "高度保持 开"
+msgid "Delivery Mode: Step, else Ripple"
+msgstr "投放模式: 逐个/连发"
 
 msgid "HSD ECM Override Off, else On"
 msgstr "HSD ECM越控 关闭/开启"
 
-msgid "ICS Amplifier B/U"
-msgstr "ICS 放大器 B/U"
+msgid "Altitude Hold On"
+msgstr "高度保持 开"
+
+msgid "Jettison Options: MER/TER"
+msgstr "抛离选项: MER/TER"
 
 msgid "HSD ECM Override Toggle"
 msgstr "HSD ECM越控 切换"
 
+msgid "Eng/Probe Anti Ice OFF, else AUTO"
+msgstr "发动机/空速管 防冰 OFF/AUTO"
+
+msgid "DECM Mode: OFF"
+msgstr "DECM 模式: OFF"
+
 msgid "Throttle Mode AUTO else BOOST"
 msgstr "油门模式开关 AUTO/BOOST"
 
-msgid "Delivery Mode: Single"
-msgstr "投放模式: 单发"
-
-msgid "Emergency Wing Sweep Handle Cover CLOSE"
-msgstr "应急机翼后掠手柄保护盖 关"
+msgid "Crank Left Engine"
+msgstr "左发启动"
 
 msgid "HSD ECM Override Off"
 msgstr "HSD ECM越控 关闭"
 
+msgid "Emergency Wing Sweep Handle Cover CLOSE"
+msgstr "应急机翼后掠手柄保护盖 关"
+
 msgid "HCU thumb down"
 msgstr "HCU 拇指开关 向下"
 
-msgid "Lights Taxi Toggle"
-msgstr "滑行灯 开/关 切换"
+msgid "Jettison Left Tank: Safe, else Select"
+msgstr "抛离左侧油箱: 保险/选择"
 
 msgid "ACM Panel"
 msgstr "ACM 面板"
+
+msgid "Mech Fuze Nose, else Safe"
+msgstr "机械引信 弹头/保险 切换"
+
+msgid "Record of mouse cursor in track On/Off"
+msgstr "在录像中记录鼠标轨迹"
 
 msgid "Compass Mode Inc"
 msgstr "罗盘模式 顺时针"
 
 msgid "Missile Speed Gate: Tail Quater"
 msgstr "导弹速度门限: 尾部四分之一范围"
-
-msgid "ICS Amplifier EMER"
-msgstr "ICS 放大器 应急"
 
 msgid "UHF ARC-159 Squelch OFF"
 msgstr "UHF ARC-159 静噪 关"
@@ -2242,11 +2260,8 @@ msgstr "驾驶杆"
 msgid "Lights White Flood BRT"
 msgstr "白色泛光灯 亮"
 
-msgid "Missile Option: normal"
-msgstr "导弹发射选项: 正常"
-
-msgid "Jettison Options: MER/TER"
-msgstr "抛离选项: MER/TER"
+msgid "Radar elevation up"
+msgstr "雷达俯仰 向上"
 
 msgid "Missile mode toggle"
 msgstr "导弹模式切换"
@@ -2260,11 +2275,11 @@ msgstr "机翼后掠 向后"
 msgid "ACM Cover Open, else Closed"
 msgstr "ACM 开关盖 开/关"
 
-msgid "RWR Display Mode LMT"
-msgstr "RWR 显示模式 LMT"
+msgid "Missile Speed Gate: Nose"
+msgstr "导弹速度门限: 前方"
 
-msgid "Toggle tracking fire weapon"
-msgstr "切换跟踪已发射武器"
+msgid "Missile Option: Sparrow Pulse Doppler else normal"
+msgstr "导弹发射选项: \"麻雀\" 脉冲多普勒/正常"
 
 msgid "AFCS Yaw Stabilisation Off, else On"
 msgstr "AFCS 偏航稳定 关/开"
@@ -2272,23 +2287,26 @@ msgstr "AFCS 偏航稳定 关/开"
 msgid "Selective jettison: JETT"
 msgstr "选择抛离: JETT"
 
-msgid "Nose strut kneel"
-msgstr "前轮支柱 - 收起"
+msgid "Display mode landing"
+msgstr "显示模式 着陆"
 
 msgid "Lights ACM Brightnes Up"
 msgstr "ACM 灯亮度 增加"
 
-msgid "Display mode landing"
-msgstr "显示模式 着陆"
+msgid "Toggle tracking fire weapon"
+msgstr "切换跟踪已发射武器"
 
 msgid "AFCS Yaw Stabilisation Off"
 msgstr "AFCS 偏航稳定 关"
 
+msgid "Nose strut kneel"
+msgstr "前轮支柱 - 收起"
+
 msgid "KY-28 ZEROIZE Cover Down"
 msgstr "KY-28 擦除 (清零) 保护盖 关"
 
-msgid "Other"
-msgstr "其他"
+msgid "Wing Sweep Bomb Mode"
+msgstr "机翼后掠模式 投弹"
 
 msgid "HCU vernier thumbwheel relative adjustment"
 msgstr "HCU 游标指轮 微调"
@@ -2296,8 +2314,8 @@ msgstr "HCU 游标指轮 微调"
 msgid "AN/ALE-39 Chaff Burst Quantity Inc"
 msgstr "AN/ALE-39 箔条连投数量 增大"
 
-msgid "Wing Sweep Bomb Mode"
-msgstr "机翼后掠模式 投弹"
+msgid "Nav - Set Steerpoint SP 1"
+msgstr "导航 - 设置转向点: SP 1"
 
 msgid "Objects switching direction reverse"
 msgstr "目标单位切换顺序 反向"
@@ -2308,14 +2326,14 @@ msgstr "TID 目标: ST"
 msgid "Altitude Hold Off"
 msgstr "高度保持 关"
 
-msgid "Nav - Set Steerpoint SP 1"
-msgstr "导航 - 设置转向点: SP 1"
-
 msgid "Display mode air to air"
 msgstr "显示模式 空对空"
 
 msgid "AN/ALE-39 Flare STBY"
 msgstr "AN/ALE-39 红外干扰弹 就绪"
+
+msgid "Nav - Set Steerpoint Man"
+msgstr "导航 - 设置转向点: 手动"
 
 msgid "Datalink Mode Down"
 msgstr "数据链路模式 向下"
@@ -2323,20 +2341,14 @@ msgstr "数据链路模式 向下"
 msgid "HCU half-action"
 msgstr "HCU 扳机按下一半"
 
-msgid "Nav - Set Steerpoint Man"
-msgstr "导航 - 设置转向点: 手动"
+msgid "Fueldump Off"
+msgstr "放油 停止"
 
 msgid "DECM"
 msgstr "DECM"
 
-msgid "Fueldump Off"
-msgstr "放油 停止"
-
 msgid "AN/ALE-39 Flare Mode Dec"
 msgstr "AN/ALE-39 红外干扰弹模式 逆时针"
-
-msgid "VHF/UHF ARC-182 CHAN SEL Inc"
-msgstr "VHF/UHF ARC-182 波道选择 顺时针"
 
 msgid "UHF ARC-159 CHAN SEL Inc"
 msgstr "UHF ARC-159 波道选择 顺时针"
@@ -2344,20 +2356,17 @@ msgstr "UHF ARC-159 波道选择 顺时针"
 msgid "HSD Mode NAV, else TID"
 msgstr "HSD 模式 NAV/TID"
 
-msgid "CAP 3/Speed"
-msgstr "CAP 速度/3"
+msgid "Radar - Range 25"
+msgstr "雷达 - 距离25"
 
 msgid "Custom Snap View 0"
 msgstr "自定义快捷视角 0"
 
-msgid "Radar - Range 25"
-msgstr "雷达 - 距离25"
+msgid "Radar - STT Lock Enemy Ahead"
+msgstr "雷达 - STT 锁定前方敌机"
 
 msgid "LANTIRN S3 HAT X Axis (WP-, WP+)"
 msgstr "LANTIRN S3 HAT X轴 (WP-, WP+)"
-
-msgid "Radar - STT Lock Enemy Ahead"
-msgstr "雷达 - STT 锁定前方敌机"
 
 msgid "Radar - Ground Stabilize"
 msgstr "雷达 - 对地稳定"
@@ -2367,6 +2376,9 @@ msgstr "雷达 - 相对飞机稳定"
 
 msgid "Radar - RWS Mode"
 msgstr "雷达 - RWS 模式"
+
+msgid "KY-28 ZEROIZE"
+msgstr "KY-28 擦除 (清零)"
 
 msgid "Heading Hold GT"
 msgstr "航向保持 GT"
@@ -2389,20 +2401,17 @@ msgstr "机身灯光主开关 关"
 msgid "TACAN CMD Button"
 msgstr "TACAN 指令按钮"
 
-msgid "KY-28 ZEROIZE"
-msgstr "KY-28 擦除 (清零)"
-
 msgid "Occupy Pilot Seat"
 msgstr "占据前舱位置"
+
+msgid "Hook Retract"
+msgstr "拦阻钩 收起"
 
 msgid "VHF/UHF ARC-182 Freq Mode Inc"
 msgstr "VHF/UHF ARC-182 频率模式 顺时针"
 
 msgid "Speed brake extend"
 msgstr "减速板 打开"
-
-msgid "Hook Retract"
-msgstr "拦阻钩 收起"
 
 msgid "Custom Snap View 3"
 msgstr "自定义快捷视角 3"
@@ -2411,10 +2420,7 @@ msgid "Jester Menu Up Right"
 msgstr "Jester 菜单 右上"
 
 msgid "Mic Button UHF1 (ARC-159) - SRS Only / No Menu"
-msgstr "UHF1（ARC-159）话筒开关 - 只用于SRS / 不显示无线电菜单"
-
-msgid "VHF/UHF ARC-182 Squelch OFF"
-msgstr "VHF/UHF ARC-182 静噪 关"
+msgstr "UHF1（ARC-159）传声器开关 - 只用于SRS / 不显示无线电菜单"
 
 msgid "Eng/Probe Anti Ice OFF"
 msgstr "发动机/空速管 防冰 OFF"
@@ -2422,11 +2428,11 @@ msgstr "发动机/空速管 防冰 OFF"
 msgid "Wheel Brake both"
 msgstr "左右机轮刹车"
 
-msgid "VHF/UHF ARC-182 UHF Modulation FM"
-msgstr "VHF/UHF ARC-182 UHF 调制 FM"
-
 msgid "Mic XMTR SEL Toggle"
 msgstr "对讲 XMTR 选择切换"
+
+msgid "VHF/UHF ARC-182 UHF Modulation FM"
+msgstr "VHF/UHF ARC-182 UHF 调制 FM"
 
 msgid "Toggle Arm Ejection Seat"
 msgstr "弹射座椅保险 安全/解除保险 切换"
@@ -2440,11 +2446,11 @@ msgstr "CAP 按钮 5"
 msgid "Control Stick Show/Hide"
 msgstr "显示/隐藏 操纵杆"
 
-msgid "TACAN Volume Inc"
-msgstr "塔康 音量 增大"
-
 msgid "VDI Power On"
 msgstr "VDI 电源 开"
+
+msgid "TACAN Volume Inc"
+msgstr "塔康 音量 增大"
 
 msgid "AN/ALE-39 Flare PRGM"
 msgstr "AN/ALE-39 红外干扰弹 程序"
@@ -2455,44 +2461,47 @@ msgstr "接近率标尺 低"
 msgid "Gears Toggle"
 msgstr "起落架 收/放 切换"
 
+msgid "RWR Display Type CW"
+msgstr "RWR 显示类型 CW"
+
 msgid "LANTIRN Trigger Axis (Latched, Lase, Designate)"
 msgstr "LANTIRN 扳机轴 (锁闭、照射、指定)"
-
-msgid "RWR Display Type UNK"
-msgstr "RWR 显示类型 UNK"
 
 msgid "Lights Position Tail OFF"
 msgstr "机尾航行灯 关"
 
+msgid "Radar - Range 50"
+msgstr "雷达 - 显示距离50海里"
+
+msgid "RWR Test SPL"
+msgstr "RWR 检测 SPL"
+
 msgid "Next launch"
 msgstr "NEXT LAUNCH 按钮"
-
-msgid "RWR Power Toggle"
-msgstr "RWR 电源 切换"
-
-msgid "AN/ALE-39 Right Data Dispenser Switch Down - Chaff Program"
-msgstr "AN/ALE-39 右数据布撒开关 向下 - 箔条程序"
-
-msgid "Radar - VSL High"
-msgstr "雷达 - 垂直扫描锁定 高空"
 
 msgid "Autopilot On"
 msgstr "自动驾驶 开"
 
-msgid "Heading Hold On, else Off"
-msgstr "航向保持 开/关"
-
 msgid "Control Stick Show, else Hide"
 msgstr "操纵杆 - 显示/隐藏"
 
-msgid "AG gun: Mixed"
-msgstr "空地航炮: 混合"
+msgid "Radar - VSL High"
+msgstr "雷达 - 垂直扫描锁定 高空"
+
+msgid "Radar - STT Lock Ahead"
+msgstr "雷达 - STT 锁定前方目标"
+
+msgid "Heading Hold On, else Off"
+msgstr "航向保持 开/关"
+
+msgid "AN/ALE-39 Right Data Dispenser Switch Down - Chaff Program"
+msgstr "AN/ALE-39 右数据布撒器开关 向下 - 箔条程序"
 
 msgid "Volume Up"
 msgstr "音量 提高"
 
-msgid "ICS Function HOT MIC"
-msgstr "ICS 功能 热麦"
+msgid "Datalink Frequency 1MHz down"
+msgstr "数据链路频率 1MHz 向下"
 
 msgid "Lights Anti Collision Toggle"
 msgstr "防撞灯 开/关 切换"
@@ -2500,26 +2509,35 @@ msgstr "防撞灯 开/关 切换"
 msgid "Lights Taxi OFF"
 msgstr "滑行灯 关"
 
+msgid "VDI AWL ACL"
+msgstr "VDI AWL ACL"
+
 msgid "Lights ACM Brightnes Down"
 msgstr "ACM 灯亮度 降低"
-
-msgid "Volume Down"
-msgstr "音量 降低"
 
 msgid "Weapon Selector Sparrow or Phoenix Missiles"
 msgstr "武器选择: \"麻雀\"/\"不死鸟\""
 
-msgid "AN/ALE-39 L10 Load Type Dec"
-msgstr "AN/ALE-39 L10 装载类型 逆时针"
+msgid "Volume Down"
+msgstr "音量 降低"
 
 msgid "HCU thumb re-center"
 msgstr "HCU 拇指开关 回中"
 
-msgid "VDI AWL ACL"
-msgstr "VDI AWL ACL"
+msgid "AN/ALE-39 L10 Load Type Dec"
+msgstr "AN/ALE-39 L10 装载类型 逆时针"
+
+msgid "AN/ALE-39 L10 Load Type Jammer"
+msgstr "AN/ALE-39 L10 装载类型 有源干扰弹"
 
 msgid "Lights Indexer Brightnes Up"
 msgstr "迎角指示灯亮度 增加"
+
+msgid "Compass N-S Hemisphere Switch Toggle"
+msgstr "罗盘 北-南半球 切换"
+
+msgid "Jester Menu Down Right"
+msgstr "Jester 菜单 右下"
 
 msgid "Radar - Range Auto"
 msgstr "雷达 - 显示距离自动"
@@ -2536,26 +2554,23 @@ msgstr "TID 符号: 数据链路"
 msgid "HUD AWL ILS, else ACL"
 msgstr "HUD AWL ILS/ACL"
 
-msgid "UHF ARC-159 Function Inc"
-msgstr "UHF ARC-159 功能 顺时针"
+msgid "Fuel Feed Cover OPEN"
+msgstr "供油开关保护盖 开"
+
+msgid "Radio"
+msgstr "无线电"
 
 msgid "NAV Mode: Off"
 msgstr "导航模式: 关"
 
-msgid "Radio"
-msgstr "无线电"
+msgid "Mic Button UHF2 (ARC-182)"
+msgstr "UHF2 (ARC-182) 对讲按钮"
 
 msgid "Hydraulic Transfer Pump Switch Cover CLOSE"
 msgstr "液压输送泵开关保护盖 关"
 
 msgid "Radar Control Panel"
 msgstr "雷达控制面板"
-
-msgid "Mic Button UHF2 (ARC-182)"
-msgstr "UHF2 (ARC-182) 对讲按钮"
-
-msgid "AN/ALE-39 Left Data Dispenser Switch Up - Chaff Single"
-msgstr "AN/ALE-39 左数据布撒开关 向上 - 单发箔条"
 
 msgid "AN/ALE-39 Flare Mode Pilot, else Norm "
 msgstr "AN/ALE-39 红外干扰弹模式 - 前舱/正常"
@@ -2584,29 +2599,32 @@ msgstr "AFCS 俯仰稳定 关/开"
 msgid "TCS/Radar independent"
 msgstr "TCS/雷达 解除隶属"
 
-msgid "AN/ALE-39 Flare Quantity Dec"
-msgstr "AN/ALE-39 红外干扰弹数量 减小"
-
 msgid "Lights White Flood OFF"
 msgstr "白色泛光灯 关"
-
-msgid "ICS Amplifier NORM"
-msgstr "ICS 放大器 正常"
 
 msgid "Wing/External Transfer Off"
 msgstr "机翼/副油箱 输油 关"
 
-msgid "RWR Display Mode OFST"
-msgstr "RWR 显示模式 OFST"
-
-msgid "Radar azimuth re-center"
-msgstr "雷达方位 回中"
+msgid "ICS Amplifier NORM"
+msgstr "ICS 放大器 正常"
 
 msgid "UHF ARC-159 1 MHz Switch Down"
 msgstr "UHF ARC-159 1MHz 开关 向下"
 
+msgid "ICS Function HOT MIC"
+msgstr "ICS 功能 热麦"
+
+msgid "Radar azimuth re-center"
+msgstr "雷达方位 回中"
+
 msgid "UHF ARC-159 Volume RIO Inc"
 msgstr "UHF ARC-159 音量 (后舱) 提高"
+
+msgid "RWR Display Type AAA"
+msgstr "RWR 显示类型 AAA"
+
+msgid "AG gun: Mixed"
+msgstr "空地航炮: 混合"
 
 msgid "AN/ALE-39 Flare Mode PILOT"
 msgstr "AN/ALE-39 红外干扰弹模式 - 前舱"
@@ -2623,17 +2641,14 @@ msgstr "配平 - 向右滚转"
 msgid "Loud and Clear"
 msgstr "一清二楚"
 
-msgid "Views"
-msgstr "视角"
+msgid "VHF/UHF ARC-182 Remote TEST"
+msgstr "VHF/UHF ARC-182 远程显示 检测"
 
 msgid "Lights Console Brightness Up"
 msgstr "控制台灯光亮度 增加"
 
-msgid "VHF/UHF ARC-182 Remote TEST"
-msgstr "VHF/UHF ARC-182 远程显示 检测"
-
-msgid "AN/ALE-39 Jammer Quantity Inc"
-msgstr "AN/ALE-39 有源干扰弹数量 增大"
+msgid "Radar - STT Lock Friendly Ahead"
+msgstr "雷达 - STT 锁定前方友机"
 
 msgid "CAP button 8"
 msgstr "CAP 按钮 8"
@@ -2641,14 +2656,14 @@ msgstr "CAP 按钮 8"
 msgid "DLC / Maneuver Flaps Retract"
 msgstr "DLC / 机动襟翼收起"
 
-msgid "Radar - STT Lock Friendly Ahead"
-msgstr "雷达 - STT 锁定前方友机"
-
 msgid "stab out, else in"
 msgstr "雷达 增稳 关/开"
 
 msgid "TACAN Channel 1 Inc"
 msgstr "塔康波道 个位 增大"
+
+msgid "AN/ALE-39 Jammer Interval Hundreds Inc"
+msgstr "AN/ALE-39 有源干扰弹间隔 (百位) 增大"
 
 msgid "Gears Down"
 msgstr "起落架 放下"
@@ -2656,23 +2671,17 @@ msgstr "起落架 放下"
 msgid "CAP category TAC"
 msgstr "CAP 类别 TAC"
 
-msgid "TACAN MODE Y"
-msgstr "塔康模式 Y"
-
 msgid "UHF ARC-159 Function MAIN"
 msgstr "UHF ARC-159 功能 主要"
 
 msgid "Emergency Jettison"
 msgstr "应急抛离"
 
-msgid "UHF ARC-159 Mode Inc"
-msgstr "UHF ARC-159 模式 顺时针"
-
 msgid "UHF ARC-159 Function ADF"
 msgstr "UHF ARC-159 功能 ADF"
 
-msgid "Tomcat Ball"
-msgstr "雄猫目视"
+msgid "AN/ALE-39 Flare Salvo ON"
+msgstr "AN/ALE-39 红外干扰弹齐射 开"
 
 msgid "Lights Position Tail Toggle"
 msgstr "机尾航行灯 亮/关 切换"
@@ -2686,11 +2695,11 @@ msgstr "LANTIRN 向左移动"
 msgid "Lights Console Brightnes Down"
 msgstr "控制台灯光亮度 降低"
 
-msgid "RWR Brightness RIO Dec"
-msgstr "RWR 亮度 (后舱) 降低"
-
 msgid "Hook Retract, else Extend"
 msgstr "拦阻钩 收起/放下"
+
+msgid "RWR Brightness RIO Dec"
+msgstr "RWR 亮度 (后舱) 降低"
 
 msgid "VHF/UHF ARC-182 Squelch Toggle"
 msgstr "VHF/UHF ARC-182 静噪 开/关 切换"
@@ -2704,11 +2713,8 @@ msgstr "AN/ALE-39 有源干扰弹间隔 (十位) 减小"
 msgid "Target designate down / VSL LO"
 msgstr "目标指定向下 / 垂直扫描锁定 低空"
 
-msgid "Lights Taxi ON"
-msgstr "滑行灯 开"
-
-msgid "Lights Instrument Brightnes Up"
-msgstr "仪表板灯光亮度 增加"
+msgid "ICS Amplifier B/U"
+msgstr "ICS 放大器 B/U"
 
 msgid "UHF ARC-159 Remote TEST"
 msgstr "UHF ARC-159 远程显示 检测"
@@ -2732,16 +2738,13 @@ msgid "Jester AI"
 msgstr "Jester AI"
 
 msgid "ICS Button MIC (UHF) PTT (axis threshold) - SRS Only / No Menu"
-msgstr "ICS开关 话筒（UHF）按键通话（轴量阈值） - 仅用于SRS / 不显示无线电菜单"
+msgstr "ICS开关 传声器（UHF）按键通话（轴量阈值） - 仅用于SRS / 不显示无线电菜单"
 
 msgid "HSD ECM Override On, else Off"
 msgstr "HSD ECM越控 开启/关闭"
 
-msgid "CAP category TGT"
-msgstr "CAP 类别 TGT"
-
-msgid "Radar elevation bars decrease"
-msgstr "雷达俯仰扫描线 减少"
+msgid "RWR Display Mode LMT"
+msgstr "RWR 显示模式 LMT"
 
 msgid "LANTIRN Trigger Half Action"
 msgstr "LANTIRN 扳机按下一半"
@@ -2749,14 +2752,14 @@ msgstr "LANTIRN 扳机按下一半"
 msgid "Display mode air to ground"
 msgstr "显示模式 空对地"
 
-msgid "ILS"
-msgstr "ILS"
-
-msgid "VHF/UHF ARC-182 BRT Dec"
-msgstr "VHF/UHF ARC-182 显示亮度 降低"
+msgid "Radar elevation bars decrease"
+msgstr "雷达俯仰扫描线 减少"
 
 msgid "UHF ARC-159 1 MHz Switch Up"
 msgstr "UHF ARC-159 1MHz 开关 向上"
+
+msgid "VHF/UHF ARC-182 BRT Dec"
+msgstr "VHF/UHF ARC-182 显示亮度 降低"
 
 msgid "TACAN Function OFF"
 msgstr "塔康功能 关"
@@ -2767,26 +2770,23 @@ msgstr "AN/ALE-39 R20 装载类型 有源干扰弹"
 msgid "TACAN Function BCN"
 msgstr "塔康功能 信标"
 
-msgid "Gears, brakes, and hook"
-msgstr "起落架、刹车和拦阻钩"
+msgid "MLC out else auto"
+msgstr "MLC 关/自动"
 
 msgid "AN/ALE-39 L20 Load Type Inc"
 msgstr "AN/ALE-39 L20 装载类型 顺时针"
 
-msgid "Cockpit camera roll"
-msgstr "驾驶舱摄像机 滚转"
-
 msgid "ACM cover close"
 msgstr "ACM 保护盖 关"
 
-msgid "AN/ALE-39 L20 Load Type Flare"
-msgstr "AN/ALE-39 L20 装载类型 红外干扰弹"
+msgid "Cockpit camera roll"
+msgstr "驾驶舱摄像机 滚转"
+
+msgid "AN/ALE-39 L20 Load Type Jammer"
+msgstr "AN/ALE-39 L20 装载类型 有源干扰弹"
 
 msgid "Autopilot Emergency Disconnect Paddle"
 msgstr "自动驾驶 应急断开踏板"
-
-msgid "Gears Up"
-msgstr "起落架 收起"
 
 msgid "Multiplayer chat - mode Allies"
 msgstr "联网聊天 - 友方模式"
@@ -2794,11 +2794,14 @@ msgstr "联网聊天 - 友方模式"
 msgid "RWR Power ON"
 msgstr "RWR 电源 开"
 
+msgid "Toggle TCS FOV"
+msgstr "TCS 视场 宽/窄 切换"
+
 msgid "TACAN Function REC"
 msgstr "塔康功能 接收"
 
-msgid "Toggle TCS FOV"
-msgstr "TCS 视场 宽/窄 切换"
+msgid "TACAN Channel 10 Dec"
+msgstr "塔康波道 十位 减小"
 
 msgid "A2A launch"
 msgstr "空对空 发射"
@@ -2806,8 +2809,8 @@ msgstr "空对空 发射"
 msgid "HSD Mode TID, else NAV"
 msgstr "HSD 模式 TID/NAV"
 
-msgid "TACAN Channel 10 Dec"
-msgstr "塔康波道 十位 减小"
+msgid "TACAN MODE X/Y Toggle"
+msgstr "塔康模式 X/Y 切换"
 
 msgid "KY-28 RAD-1"
 msgstr "KY-28 RAD-1"
@@ -2815,17 +2818,14 @@ msgstr "KY-28 RAD-1"
 msgid "TACAN Function Inc"
 msgstr "塔康功能 顺时针"
 
-msgid "TACAN MODE X"
-msgstr "塔康模式 X"
+msgid "AN/ALE-39 Jammer Counter Inc"
+msgstr "AN/ALE-39 有源干扰弹计数器 增大"
 
 msgid "Iceman AI"
 msgstr "Iceman AI"
 
-msgid "AN/ALE-39 Flare Counter Dec"
-msgstr "AN/ALE-39 红外干扰弹计数器 减小"
-
-msgid "Change LGB laser code 3rd digit"
-msgstr "修改激光编码 第3位"
+msgid "AN/ALE-39 Chaff Counter Inc"
+msgstr "AN/ALE-39 箔条计数器 增大"
 
 msgid "ILS Power OFF"
 msgstr "ILS 电源 关"
@@ -2835,6 +2835,9 @@ msgstr "VDI 电源 开/关"
 
 msgid "Nav - Set Steerpoint SP 3"
 msgstr "导航 - 设置转向点: SP 3"
+
+msgid "AN/ALE-39 Chaff STBY"
+msgstr "AN/ALE-39 箔条 就绪"
 
 msgid "AN/ALE-39 L20 Load Type Chaff"
 msgstr "AN/ALE-39 L20 装载类型 箔条"
@@ -2851,9 +2854,6 @@ msgstr "减速板 收放"
 msgid "Radar azimuth scan narrower"
 msgstr "雷达方位 宽扫描"
 
-msgid "AN/ALE-39 Power/Mode MAN"
-msgstr "AN/ALE-39 电源/模式 手动"
-
 msgid "VHF/UHF ARC-182 MODE Dec"
 msgstr "VHF/UHF ARC-182 模式 逆时针"
 
@@ -2861,7 +2861,10 @@ msgid "Compas HDG pushbutton"
 msgstr "罗盘航向按钮"
 
 msgid "AN/ALE-39 Right Data Dispenser Switch Left - Jammer Program"
-msgstr "AN/ALE-39 右数据布撒开关 向左 - 有源干扰弹程序"
+msgstr "AN/ALE-39 右数据布撒器开关 向左 - 有源干扰弹程序"
+
+msgid "DLC Thumbwheel Forward"
+msgstr "DLC 指轮 向前"
 
 msgid "LANTIRN Laser Arm Toggle"
 msgstr "LANTIRN 激光 解除/开启保险"
@@ -2878,20 +2881,17 @@ msgstr "自定义快捷视角 2"
 msgid "CAP category turn CW"
 msgstr "CAP 类别转到 CW"
 
-msgid "CAINS/WPT"
-msgstr "CAINS/WPT"
-
 msgid "+/- 20 degree scan"
 msgstr "+/- 20度扫描"
+
+msgid "TACAN Volume Dec"
+msgstr "塔康 音量 减小"
 
 msgid "Jester Menu Left"
 msgstr "Jester 菜单 向左"
 
 msgid "Compass N-S Hemisphere Switch: South"
 msgstr "罗盘 北-南半球 开关: 南"
-
-msgid "Radar - Break Lock"
-msgstr "雷达 - 脱锁"
 
 msgid "LANTIRN Slew Right"
 msgstr "LANTIRN 向右移动"
@@ -2902,8 +2902,8 @@ msgstr "主军械开关 开/关"
 msgid "DECM Mode: Test ACT"
 msgstr "DECM 模式: 检测 ACT"
 
-msgid "TACAN MODE X/Y Toggle"
-msgstr "塔康模式 X/Y 切换"
+msgid "TACAN MODE X"
+msgstr "塔康模式 X"
 
 msgid "DDD Range 100"
 msgstr "DDD 距离 100"
@@ -2916,6 +2916,9 @@ msgstr "VDI 电源 关"
 
 msgid "Autopilot On, else Off"
 msgstr "自动驾驶 开/关"
+
+msgid "ICS Volume Dec"
+msgstr "ICS 音量 减小"
 
 msgid "HCU TCS mode"
 msgstr "HCU TCS 模式"
@@ -2935,23 +2938,26 @@ msgstr "机翼航行灯 暗"
 msgid "Parking brake pull"
 msgstr "停放刹车 - 拉出"
 
-msgid "ICS Volume Dec"
-msgstr "ICS 音量 减小"
+msgid "Jettison Left Tank: Select, else Safe"
+msgstr "抛离左侧油箱: 选择/保险"
+
+msgid "Trim Pitch Down"
+msgstr "配平 - 低头"
 
 msgid "UHF ARC-159 Volume Pilot Inc"
 msgstr "UHF ARC-159 音量 (前舱) 提高"
 
-msgid "Jettison Left Tank: Select, else Safe"
-msgstr "抛离左侧油箱: 选择/保险"
-
 msgid "AN/ALE-39 Left Data Dispenser Switch Right - Jammer Program"
-msgstr "AN/ALE-39 左数据布撒开关 向右 - 有源干扰弹程序"
+msgstr "AN/ALE-39 左数据布撒器开关 向右 - 有源干扰弹程序"
+
+msgid "Autopilot Off, else On"
+msgstr "自动驾驶 关/开"
 
 msgid "Autopilot Vector VEC/PCD"
 msgstr "自动驾驶 引导航向VEC/PCD"
 
-msgid "Autopilot Off, else On"
-msgstr "自动驾驶 关/开"
+msgid "Nav - Set Steerpoint Surface Target"
+msgstr "导航 - 设置转向点: 地面目标"
 
 msgid "Master arm cover close"
 msgstr "主军械开关盖 关"
@@ -2959,8 +2965,8 @@ msgstr "主军械开关盖 关"
 msgid "AN/ALE-39 Chaff PRGM"
 msgstr "AN/ALE-39 箔条 程序"
 
-msgid "Nav - Set Steerpoint Surface Target"
-msgstr "导航 - 设置转向点: 地面目标"
+msgid "Trim Roll Left Wing Down"
+msgstr "配平 - 向左滚转"
 
 msgid "HCU forward"
 msgstr "HCU 向前"
@@ -2968,32 +2974,29 @@ msgstr "HCU 向前"
 msgid "ILS BIT pushbutton"
 msgstr "ILS BIT 按钮"
 
-msgid "Trim Roll Left Wing Down"
-msgstr "配平 - 向左滚转"
-
 msgid "TID Mode: ATTK"
 msgstr "TID 模式: ATTK"
-
-msgid "Radar elevation bars increase"
-msgstr "雷达俯仰扫描线 增多"
 
 msgid "TID Mode: AC STAB"
 msgstr "TID 模式: AC STAB"
 
-msgid "AN/ALE-39 Chaff Salvo Interval Dec"
-msgstr "AN/ALE-39 箔条齐投间隔 减小"
+msgid "Radar elevation bars increase"
+msgstr "雷达俯仰扫描线 增多"
 
 msgid "TID Mode: GND STAB"
 msgstr "TID 模式: GND STAB"
+
+msgid "AN/ALE-39 Chaff Salvo Interval Dec"
+msgstr "AN/ALE-39 箔条齐射间隔 减小"
+
+msgid "VHF/UHF ARC-182 MODE T/R"
+msgstr "VHF/UHF ARC-182 模式 发/收"
 
 msgid "Video Export Toggle"
 msgstr "视频输出 开/关 切换"
 
 msgid "ATTK Mode: Computer PLT"
 msgstr "ATTK 模式: 计算机PLT"
-
-msgid "VHF/UHF ARC-182 MODE T/R"
-msgstr "VHF/UHF ARC-182 模式 发/收"
 
 msgid "Asymmetric Thrust Limiter ON"
 msgstr "不对称推力限制器 开"
@@ -3016,29 +3019,38 @@ msgstr "CAP 按钮 2"
 msgid "Wing/External Transfer Auto"
 msgstr "机翼/副油箱 输油 自动"
 
+msgid "TID Destination: 3"
+msgstr "TID 目标: 3"
+
 msgid "HCU up/down"
 msgstr "HCU 向上/向下"
 
 msgid "ACM cover open"
 msgstr "ACM 开关盖 开"
 
-msgid "Lights Red Flood DIM"
-msgstr "红色泛光灯 暗"
+msgid "CAP 3/Speed"
+msgstr "CAP 速度/3"
 
 msgid "Computer Address Panel"
 msgstr "CAP"
 
+msgid "TID CLSN"
+msgstr "TID CLSN"
+
 msgid "HSD/ECM Power On, else Off"
 msgstr "HSD/ECM 电源 开/关"
 
-msgid "TID CLSN"
-msgstr "TID CLSN"
+msgid "Pilot Oxygen OFF"
+msgstr "前舱供氧 关"
 
 msgid "Play"
 msgstr "播放"
 
 msgid "Asymmetric Thrust Limiter Cover OPEN"
 msgstr "不对称推力限制器保护盖 开"
+
+msgid "LANTIRN OPER / STBY (Unstow)"
+msgstr "LANTIRN 工作模式 OPER/STBY (Unstow)"
 
 msgid "TACAN Channel 10 Inc"
 msgstr "塔康波道 十位 增大"
@@ -3052,11 +3064,11 @@ msgstr "VDI ACL/ILS 切换"
 msgid "TID range: 100"
 msgstr "TID 距离: 100"
 
-msgid "LANTIRN OPER / STBY (Unstow)"
-msgstr "LANTIRN 工作模式 OPER/STBY (Unstow)"
-
 msgid "4 bar scan"
 msgstr "4线扫描"
+
+msgid "LANTIRN Power IMU"
+msgstr "LANTIRN 电源 IMU"
 
 msgid "2 bar scan"
 msgstr "2线扫描"
@@ -3070,38 +3082,35 @@ msgstr "导弹速度门限: 窄"
 msgid "AFCS Pitch Stabilisation Off"
 msgstr "AFCS 俯仰稳定 关"
 
-msgid "LANTIRN Power IMU"
-msgstr "LANTIRN 电源 IMU"
-
 msgid "AFCS Roll Stabilisation Off"
 msgstr "AFCS 滚转稳定 关"
 
-msgid "Fuel Feed NORM"
-msgstr "供油开关 NORM"
+msgid "Jester Menu Up"
+msgstr "Jester 菜单 向上"
 
 msgid "LANTIRN Laser Arm SAFE"
 msgstr "LANTIRN 激光 开启保险"
 
+msgid "LANTIRN S4 HAT Press (Declutter/Lase Auto-Man/MGC)"
+msgstr "LANTIRN S4 HAT 按下 (防拥/Lase 自动-手动/手动增益控制)"
+
 msgid "RWR"
 msgstr "RWR"
 
-msgid "LANTIRN S4 HAT Press (Declutter/Lase Auto-Man/MGC)"
-msgstr "LANTIRN S4 HAT 按下 (防拥/Lase 自动-手动/手动增益控制)"
+msgid "Asymmetric Thrust Limiter Cover OPEN else CLOSED"
+msgstr "不对称推力限制器保护盖 开/关"
 
 msgid "HUD ACL/ILS Toggle"
 msgstr "HUD ACL/ILS 切换"
 
-msgid "Asymmetric Thrust Limiter Cover OPEN else CLOSED"
-msgstr "不对称推力限制器保护盖 开/关"
+msgid "LANTIRN Area Track"
+msgstr "LANTIRN 区域跟踪"
 
 msgid "TCS On"
 msgstr "TCS 开"
 
 msgid "Subtitle recording end"
 msgstr "记录结束"
-
-msgid "LANTIRN Area Track"
-msgstr "LANTIRN 区域跟踪"
 
 msgid "LANTIRN Point Track"
 msgstr "LANTIRN 点跟踪"
@@ -3176,7 +3185,7 @@ msgid "Radar - TWS Mode"
 msgstr "雷达 - TWS 模式"
 
 msgid "TID Symbology: Jam Strobe"
-msgstr "TID 符号: 干扰源"
+msgstr "TID 符号: 干扰源射线"
 
 msgid "AN/ALE-39 R20 Load Type Chaff"
 msgstr "AN/ALE-39 R20 装载类型 箔条"
@@ -3206,7 +3215,7 @@ msgid "TID range: 400"
 msgstr "TID 距离: 400"
 
 msgid "Mic Button UHF2 (ARC-182) - SRS Only / No Menu"
-msgstr "UHF2（ARC-182）话筒开关 - 只用于SRS / 不显示无线电菜单"
+msgstr "UHF2（ARC-182）传声器开关 - 只用于SRS / 不显示无线电菜单"
 
 msgid "DDD Interrogate Friend or Foe"
 msgstr "DDD 敌我识别"
@@ -3299,7 +3308,7 @@ msgid "Jettison Options: MER/TER, else Weapons"
 msgstr "抛离选项: MER/TER/武器"
 
 msgid "AN/ALE-39 Chaff Salvo Interval Inc"
-msgstr "AN/ALE-39 箔条齐投间隔 增大"
+msgstr "AN/ALE-39 箔条齐射间隔 增大"
 
 msgid "Closure Velocity Scale norm"
 msgstr "接近率标尺 正常"
@@ -3323,10 +3332,7 @@ msgid "Command 5"
 msgstr "指令 5"
 
 msgid "Mic Button UHF - SRS Only / No Menu"
-msgstr "UHF 话筒开关 - 只用于SRS / 不显示无线电菜单"
-
-msgid "LANTIRN Slew Y"
-msgstr "LANTIRN Y轴控制"
+msgstr "UHF 传声器开关 - 只用于SRS / 不显示无线电菜单"
 
 msgid "HUD AWL ILS"
 msgstr "HUD AWL ILS"
@@ -3352,9 +3358,6 @@ msgstr "HCU 向左/向右"
 msgid "Exterior Lights Master Switch ON (pressed) / OFF (released)"
 msgstr "机身灯光主开关 开(按下)/关(释放)"
 
-msgid "AN/ALE-39 Chaff Salvo Quantity Inc"
-msgstr "AN/ALE-39 箔条齐投数量 增大"
-
 msgid "UHF ARC-159 Remote BRT Dec"
 msgstr "UHF ARC-159 远程显示亮度 降低"
 
@@ -3366,6 +3369,9 @@ msgstr "塔康功能 逆时针"
 
 msgid "Toggle LANTIRN / TCS Select"
 msgstr "切换 LANTIRN/TCS 选择"
+
+msgid "VHF/UHF ARC-182 UHF Modulation Toggle"
+msgstr "VHF/UHF ARC-182 UHF 调制 AM/FM 切换"
 
 msgid "Wing/External Transfer Oride"
 msgstr "机翼/副油箱 输油 越控"
@@ -3433,8 +3439,8 @@ msgstr "UHF ARC-159 远程显示亮度 增加"
 msgid "CAP N/E/+"
 msgstr "CAP 北/东/+"
 
-msgid "Missile Speed Gate: Nose"
-msgstr "导弹速度门限: 前方"
+msgid "Altitude Hold Off, else On"
+msgstr "高度保持 关/开"
 
 msgid "Master arm cover open"
 msgstr "主军械开关盖 开"
@@ -3451,23 +3457,23 @@ msgstr "油门模式 BOOST"
 msgid "Closure Velocity Scale low else norm"
 msgstr "接近率标尺 低/正常"
 
-msgid "Datalink Frequency 100kHz up"
-msgstr "数据链路频率 100kHz 向上"
-
-msgid "Lights Position FLASH/STEADY Toggle"
-msgstr "航行灯 闪烁/常亮 切换"
+msgid "CAINS/WPT"
+msgstr "CAINS/WPT"
 
 msgid "CAP program restart"
 msgstr "CAP 程序重启"
 
 msgid "AN/ALE-39 Left Data Dispenser Switch Left - Flare Program"
-msgstr "AN/ALE-39 左数据布撒开关 向左 - 红外干扰弹程序"
+msgstr "AN/ALE-39 左数据布撒器开关 向左 - 红外干扰弹程序"
 
 msgid "TID range: 200"
 msgstr "TID 距离: 200"
 
 msgid "CAP category BIT"
 msgstr "CAP 类别 BIT"
+
+msgid "AN/ALE-39 Jammer Quantity Dec"
+msgstr "AN/ALE-39 有源干扰弹数量 减小"
 
 msgid "TID Symbology: Sym Elem"
 msgstr "TID 符号: 补充标识"
@@ -3502,8 +3508,8 @@ msgstr "TID 目标: FP"
 msgid "TID Symbology: Vel Vector"
 msgstr "TID 符号: 速度矢量"
 
-msgid "Pilot Oxygen OFF"
-msgstr "前舱供氧 关"
+msgid "Lights Red Flood DIM"
+msgstr "红色泛光灯 暗"
 
 msgid "NAV Mode: CVA ALIGN"
 msgstr "导航模式: CVA ALIGN"
@@ -3520,11 +3526,14 @@ msgstr "导航模式: CAT ALIGN"
 msgid "aspect nose else beam"
 msgstr "目标方位选择 迎头/侧对"
 
-msgid "NAV Mode: IMU"
-msgstr "导航模式: IMU"
+msgid "Gears Up"
+msgstr "起落架 收起"
 
-msgid "Jester Menu Up"
-msgstr "Jester 菜单 向上"
+msgid "Radar - Break Lock"
+msgstr "雷达 - 脱锁"
+
+msgid "Datalink Frequency 100kHz up"
+msgstr "数据链路频率 100kHz 向上"
 
 msgid "CAP button 7"
 msgstr "CAP 按钮 7"
@@ -3532,14 +3541,11 @@ msgstr "CAP 按钮 7"
 msgid "Check"
 msgstr "检查"
 
-msgid "DLC Thumbwheel Forward"
-msgstr "DLC 指轮 向前"
+msgid "AN/ALE-39 Power/Mode MAN"
+msgstr "AN/ALE-39 电源/模式 手动"
 
 msgid "Compass Mode Dec"
 msgstr "罗盘模式 逆时针"
-
-msgid "AN/ALE-39 Chaff STBY"
-msgstr "AN/ALE-39 箔条 就绪"
 
 msgid "Command 3"
 msgstr "指令 3"
@@ -3547,20 +3553,23 @@ msgstr "指令 3"
 msgid "AN/ALE-39 Flare Mode Mult, else Norm"
 msgstr "AN/ALE-39 红外干扰弹模式 - 多个/正常"
 
+msgid "Change LGB laser code 3rd digit"
+msgstr "修改激光编码 第3位"
+
 msgid "MASTER RESET"
 msgstr "主控复位"
 
-msgid "AN/ALE-39 Chaff Counter Inc"
-msgstr "AN/ALE-39 箔条计数器 增大"
+msgid "AN/ALE-39 Flare Counter Dec"
+msgstr "AN/ALE-39 红外干扰弹计数器 减小"
 
 msgid "XMTR SEL UHF1"
 msgstr "XMTR 选择 UHF1"
 
-msgid "AN/ALE-39 Jammer Counter Inc"
-msgstr "AN/ALE-39 有源干扰弹计数器 增大"
-
 msgid "AN/ALE-39 Jammer Counter Dec"
 msgstr "AN/ALE-39 有源干扰弹计数器 减小"
+
+msgid "Fuel Feed NORM"
+msgstr "供油开关 NORM"
 
 msgid "LANTIRN Mode NAV - A/A "
 msgstr "LANTIRN 模式 导航 - 空/空"
@@ -3568,26 +3577,23 @@ msgstr "LANTIRN 模式 导航 - 空/空"
 msgid "TID Destination: IP"
 msgstr "TID 目标: IP"
 
-msgid "KY-28 ZEROIZE Cover Up"
-msgstr "KY-28 擦除 (清零) 保护盖 开"
-
 msgid "AFCS Roll Stabilisation On"
 msgstr "AFCS 滚转稳定 开"
 
-msgid "AN/ALE-39 L20 Load Type Jammer"
-msgstr "AN/ALE-39 L20 装载类型 有源干扰弹"
+msgid "AN/ALE-39 L20 Load Type Flare"
+msgstr "AN/ALE-39 L20 装载类型 红外干扰弹"
+
+msgid "AN/ALE-39 Jammer Interval Hundreds Dec"
+msgstr "AN/ALE-39 有源干扰弹间隔 (百位) 减小"
 
 msgid "VHF/UHF ARC-182 Volume RIO Dec"
 msgstr "VHF/UHF ARC-182 音量 (后舱) 减小"
 
-msgid "MLC out else auto"
-msgstr "MLC 关/自动"
+msgid "Gears, brakes, and hook"
+msgstr "起落架、刹车和拦阻钩"
 
 msgid "TID Destination: HB"
 msgstr "TID 目标: HB"
-
-msgid "Altitude Hold Off, else On"
-msgstr "高度保持 关/开"
 
 msgid "VDI AWL ILS, else ACL"
 msgstr "VDI AWL ILS/ACL"
@@ -3595,38 +3601,47 @@ msgstr "VDI AWL ILS/ACL"
 msgid "DDD Range 10"
 msgstr "DDD 距离 10"
 
-msgid "Radar elevation relative adjustment"
-msgstr "雷达俯仰 微调"
+msgid "CAP category TGT"
+msgstr "CAP 类别 TGT"
+
+msgid "Lights Instrument Brightnes Up"
+msgstr "仪表板灯光亮度 增加"
 
 msgid "Jester Menu Down"
 msgstr "Jester 菜单 向下"
 
+msgid "Radar elevation relative adjustment"
+msgstr "雷达俯仰 微调"
+
 msgid "ICS Function RADIO OVERRIDE"
 msgstr "ICS 功能 无线电越控"
-
-msgid "RWR Brightness RIO Inc"
-msgstr "RWR 亮度 (后舱) 增加"
 
 msgid "AN/ALE-39 R10 Load Type Dec"
 msgstr "AN/ALE-39 R10 装载类型 逆时针"
 
+msgid "Tomcat Ball"
+msgstr "雄猫目视"
+
 msgid "RADAR Pulse Single Target Track"
 msgstr "雷达 脉冲单目标跟踪"
 
-msgid "AN/ALE-39 Flare Salvo ON"
-msgstr "AN/ALE-39 红外干扰弹齐射 开"
+msgid "UHF ARC-159 Mode Inc"
+msgstr "UHF ARC-159 模式 顺时针"
 
 msgid "Datalink Frequency 1MHz up"
 msgstr "数据链路频率 1MHz 向上"
 
+msgid "TACAN MODE Y"
+msgstr "塔康模式 Y"
+
 msgid "AN/ALE-39 Chaff Salvo Quantity Dec"
-msgstr "AN/ALE-39 箔条齐投数量 减小"
+msgstr "AN/ALE-39 箔条齐射数量 减小"
 
 msgid "VHF/UHF ARC-182 Volume RIO Inc"
 msgstr "VHF/UHF ARC-182 音量 (后舱) 提高"
 
-msgid "AN/ALE-39 Jammer Interval Hundreds Inc"
-msgstr "AN/ALE-39 有源干扰弹间隔 (百位) 增大"
+msgid "AN/ALE-39 Jammer Quantity Inc"
+msgstr "AN/ALE-39 有源干扰弹数量 增大"
 
 msgid "Master arm training"
 msgstr "主军械开关 训练"
@@ -3634,14 +3649,17 @@ msgstr "主军械开关 训练"
 msgid "Slave Radar"
 msgstr "雷达 隶属"
 
+msgid "DDD pulse gain"
+msgstr "DDD 脉冲增益"
+
 msgid "UHF ARC-159 TONE"
 msgstr "UHF ARC-159 音调"
 
 msgid "VHF/UHF ARC-182 UHF Modulation AM"
 msgstr "VHF/UHF ARC-182 UHF 调制 AM"
 
-msgid "RWR Test SPL"
-msgstr "RWR 检测 SPL"
+msgid "AN/ALE-39 Flare Quantity Dec"
+msgstr "AN/ALE-39 红外干扰弹数量 减小"
 
 msgid "Previous Waypoint"
 msgstr "前一个航路点"
@@ -3655,14 +3673,17 @@ msgstr "AN/ALE-39 R10 装载类型 有源干扰弹"
 msgid "Radar azimuth relative adjustment"
 msgstr "雷达方位 微调"
 
+msgid "RWR Power Toggle"
+msgstr "RWR 电源 切换"
+
 msgid "TID range: 25"
 msgstr "TID 距离: 25"
 
-msgid "Fuel Feed Cover OPEN"
-msgstr "供油开关保护盖 开"
+msgid "AN/ALE-39 Left Data Dispenser Switch Up - Chaff Single"
+msgstr "AN/ALE-39 左数据布撒器开关 向上 - 单发箔条"
 
-msgid "Compass N-S Hemisphere Switch Toggle"
-msgstr "罗盘 北-南半球 切换"
+msgid "UHF ARC-159 Function Inc"
+msgstr "UHF ARC-159 功能 顺时针"
 
 msgid "UHF ARC-159 READ"
 msgstr "UHF ARC-159 读取"
@@ -3670,11 +3691,8 @@ msgstr "UHF ARC-159 读取"
 msgid "Mouse cursor cockpit mode"
 msgstr "驾驶舱鼠标光标模式"
 
-msgid "AN/ALE-39 L10 Load Type Jammer"
-msgstr "AN/ALE-39 L10 装载类型 有源干扰弹"
-
 msgid "AN/ALE-39 Left Data Dispenser Switch Down - Chaff Program"
-msgstr "AN/ALE-39 左数据布撒开关 向下 - 箔条程序"
+msgstr "AN/ALE-39 左数据布撒器开关 向下 - 箔条程序"
 
 msgid "Jettison Options: Weapons"
 msgstr "抛离选项: 武器"
@@ -3682,23 +3700,23 @@ msgstr "抛离选项: 武器"
 msgid "Slave TCS"
 msgstr "隶属 TCS"
 
-msgid "Auto Start"
-msgstr "自动开车"
+msgid "RWR Display Mode OFST"
+msgstr "RWR 显示模式 OFST"
 
 msgid "CAP Clear"
 msgstr "CAP 清除"
 
-msgid "AN/ALE-39 Right Data Dispenser Switch Right - Flare Program"
-msgstr "AN/ALE-39 右数据布撒开关 向右 - 红外干扰弹程序"
+msgid "AN/ALE-39 Chaff Salvo Quantity Inc"
+msgstr "AN/ALE-39 箔条齐射数量 增大"
 
-msgid "Datalink Frequency 1MHz down"
-msgstr "数据链路频率 1MHz 向下"
+msgid "AN/ALE-39 Right Data Dispenser Switch Right - Flare Program"
+msgstr "AN/ALE-39 右数据布撒器开关 向右 - 红外干扰弹程序"
 
 msgid "Radar azimuth scan wider"
 msgstr "雷达方位 窄扫描"
 
-msgid "Radar - STT Lock Ahead"
-msgstr "雷达 - STT 锁定前方目标"
+msgid "Nose strut off"
+msgstr "前轮支柱 - 伸展"
 
 msgid "Lights Red Flood BRT"
 msgstr "红色泛光灯 亮"
@@ -3709,17 +3727,17 @@ msgstr "AFCS滚转增稳 切换"
 msgid "Trigger First Detent"
 msgstr "扣动一级扳机"
 
-msgid "RWR Display Type AAA"
-msgstr "RWR 显示类型 AAA"
+msgid "RWR Display Type UNK"
+msgstr "RWR 显示类型 UNK"
 
 msgid "AN/ALE-39 Flare Quantity Inc"
 msgstr "AN/ALE-39 红外干扰弹数量 增大"
 
+msgid "RWR Brightness RIO Inc"
+msgstr "RWR 亮度 (后舱) 增加"
+
 msgid "TACAN Channel 1 Dec"
 msgstr "塔康波道 个位 减小"
-
-msgid "RWR Display Type CW"
-msgstr "RWR 显示类型 CW"
 
 msgid "RWR Power OFF else ON"
 msgstr "RWR 电源 关/开"
@@ -3733,11 +3751,11 @@ msgstr "INS 导航模式 逆时针"
 msgid "AN/ALE-39 L10 Load Type Flare"
 msgstr "AN/ALE-39 L10 装载类型 红外干扰弹"
 
-msgid "HUD Power Off"
-msgstr "HUD 电源 关"
-
 msgid "AN/ALE-39 R10 Load Type Chaff"
 msgstr "AN/ALE-39 R10 装载类型 箔条"
+
+msgid "VHF/UHF ARC-182 Squelch OFF"
+msgstr "VHF/UHF ARC-182 静噪 关"
 
 msgid "AN/ALE-39 Jammer PRGM"
 msgstr "AN/ALE-39 有源干扰弹 程序"
@@ -3748,29 +3766,23 @@ msgstr "CAP 类别 NAV"
 msgid "Datalink Frequency 10MHz down"
 msgstr "数据链路频率 10MHz 向下"
 
-msgid "AN/ALE-39 Jammer Quantity Dec"
-msgstr "AN/ALE-39 有源干扰弹数量 减小"
+msgid "aspect nose"
+msgstr "目标方位选择 迎头"
 
 msgid "LANTIRN Slew Down"
 msgstr "LANTIRN 向下移动"
 
-msgid "aspect nose"
-msgstr "目标方位选择 迎头"
-
 msgid "ICS Button ICS (Intercom) PTT (axis threshold)"
 msgstr "ICS 按钮 ICS (对讲) PTT (轴阈值)"
-
-msgid "VHF/UHF ARC-182 UHF Modulation Toggle"
-msgstr "VHF/UHF ARC-182 UHF 调制 AM/FM 切换"
 
 msgid "VHF/UHF ARC-182 BRT Inc"
 msgstr "VHF/UHF ARC-182 显示亮度 增加"
 
-msgid "NAV Mode: AHRS"
-msgstr "导航模式: AHRS"
-
 msgid "VHF/UHF ARC-182 MODE OFF"
 msgstr "VHF/UHF ARC-182 模式 关"
+
+msgid "NAV Mode: AHRS"
+msgstr "导航模式: AHRS"
 
 msgid "RWR Brightness Pilot Dec"
 msgstr "RWR 亮度 (前舱) 增加"
@@ -3778,17 +3790,17 @@ msgstr "RWR 亮度 (前舱) 增加"
 msgid "VHF/UHF ARC-182 Freq Mode MAN"
 msgstr "VHF/UHF ARC-182 频率模式 手动"
 
+msgid "VHF/UHF ARC-182 CHAN SEL Inc"
+msgstr "VHF/UHF ARC-182 波道选择 顺时针"
+
 msgid "Autopilot Vector Toggle VEC/PCD"
 msgstr "自动驾驶引导航向 切换 VEC/PCD"
 
 msgid "Tape Player"
 msgstr "磁带播放机"
 
-msgid "Missile Option: Sparrow Pulse Doppler else normal"
-msgstr "导弹发射选项: \"麻雀\" 脉冲多普勒/正常"
-
-msgid "TACAN Volume Dec"
-msgstr "塔康 音量 减小"
+msgid "Lights Position FLASH/STEADY Toggle"
+msgstr "航行灯 闪烁/常亮 切换"
 
 msgid "KY-28 POWER-MODE C"
 msgstr "KY-28 电源/模式 C"
@@ -3799,11 +3811,14 @@ msgstr "KY-28 电源/模式 切换"
 msgid "KY-28 RAD Toggle"
 msgstr "KY-28 RAD 切换"
 
+msgid "Eng/Probe Anti Ice ORIDE"
+msgstr "发动机/空速管 防冰 ORIDE"
+
+msgid "KY-28 ZEROIZE Cover Up"
+msgstr "KY-28 擦除 (清零) 保护盖 开"
+
 msgid "KY-28 RAD-2"
 msgstr "KY-28 RAD-2"
-
-msgid "HCU MRL"
-msgstr "HCU MRL"
 
 msgid "MLC auto"
 msgstr "MLC 自动"
@@ -3814,11 +3829,14 @@ msgstr "AN/ALE-39 L10 装载类型 箔条"
 msgid "Gear Up, else Down"
 msgstr "起落架 收/放"
 
+msgid "Missile Option: Phoenix Active else normal"
+msgstr "导弹发射选项: \"不死鸟\" 主动/正常"
+
 msgid "UHF ARC-159 BRT Dec"
 msgstr "UHF ARC-159 亮度 降低"
 
-msgid "Missile Option: Phoenix Active else normal"
-msgstr "导弹发射选项: \"不死鸟\" 主动/正常"
+msgid "Missile Option: normal"
+msgstr "导弹发射选项: 正常"
 
 msgid "VDI Power Off, else On"
 msgstr "VDI 电源 关/开"
@@ -3826,17 +3844,17 @@ msgstr "VDI 电源 关/开"
 msgid "Lights Red Flood Toggle"
 msgstr "红色泛光灯 开/关 切换"
 
-msgid "Radar elevation up"
-msgstr "雷达俯仰 向上"
+msgid "ICS Amplifier EMER"
+msgstr "ICS 放大器 应急"
 
 msgid "ILS Power ON"
 msgstr "ILS 电源 开"
 
-msgid "Record of mouse cursor in track On/Off"
-msgstr "在录像中记录鼠标轨迹"
+msgid "Delivery Mode: Single"
+msgstr "投放模式: 单发"
 
-msgid "Mech Fuze Nose, else Safe"
-msgstr "机械引信 弹头/保险 切换"
+msgid "Delivery Mode: Step"
+msgstr "投放模式: 逐个"
 
 msgid "AFCS Roll Stabilisation Off, else On"
 msgstr "AFCS 滚转稳定 关/开"
@@ -3844,32 +3862,29 @@ msgstr "AFCS 滚转稳定 关/开"
 msgid "Compass Mode DG"
 msgstr "罗盘模式 航向陀螺"
 
-msgid "Delivery Mode: Step, else Ripple"
-msgstr "投放模式: 逐个/连发"
-
-msgid "Eng/Probe Anti Ice OFF, else AUTO"
-msgstr "发动机/空速管 防冰 OFF/AUTO"
-
-msgid "Fuelsystem Control Panel"
-msgstr "燃油系统控制面板"
-
-msgid "ATTK Mode: MAN"
-msgstr "ATTK 模式: 手动"
-
-msgid "Jettison Left Tank: Safe, else Select"
-msgstr "抛离左侧油箱: 保险/选择"
-
-msgid "Store Release"
-msgstr "挂载释放"
+msgid "Mic Button ICS - SRS Only / No Menu"
+msgstr "ICS传声器开关 - 只用于SRS / 不显示无线电菜单"
 
 msgid "HSD ECM Override On"
 msgstr "HSD ECM 越控 开启"
 
-msgid "Info bar coordinate units toogle"
-msgstr "信息栏坐标单位 切换"
+msgid "Fuelsystem Control Panel"
+msgstr "燃油系统控制面板"
 
-msgid "ACQ Auto Search, else man "
-msgstr "ACQ 自动搜索/手动"
+msgid "DECM Mode: Test STBY"
+msgstr "DECM 模式: 检测 STBY"
+
+msgid "Store Release"
+msgstr "挂载释放"
+
+msgid "Lights Taxi Toggle"
+msgstr "滑行灯 开/关 切换"
+
+msgid "LANTIRN S3 HAT Y Axis (AREA, POINT)"
+msgstr "LANTIRN S3 HAT Y轴 (区域、点)"
+
+msgid "Fuel Feed FWD"
+msgstr "供油开关 FWD"
 
 msgid "LANTIRN S4 HAT Down (QSNO/Code -/Gain-)"
 msgstr "LANTIRN S4 HAT 向下 (QSNO/编码-/增益-)"
@@ -3880,20 +3895,14 @@ msgstr "雷达 边扫描边跟踪 自动"
 msgid "UHF ARC-159 Mode PRESET"
 msgstr "UHF ARC-159 模式 预设"
 
-msgid "Hook Extend"
-msgstr "拦阻钩 放下"
-
 msgid "Lights Indexer Brightnes Down"
 msgstr "迎角指示灯亮度 降低"
 
-msgid "Fuel Feed FWD"
-msgstr "供油开关 FWD"
+msgid "Lights Taxi ON"
+msgstr "滑行灯 开"
 
 msgid "NAV Mode: INS"
 msgstr "导航模式: INS"
-
-msgid "Radar azimuth control"
-msgstr "雷达方位控制"
 
 msgid "LANTIRN Control Panel"
 msgstr "LANTIRN 控制面板"
@@ -3904,11 +3913,11 @@ msgstr "VHF/UHF ARC-182 模式 检测"
 msgid "Autopilot Heading Toggle On"
 msgstr "自动驾驶航向保持 切换 开"
 
+msgid "ILS Power Toggle"
+msgstr "ILS 电源 开/关 切换"
+
 msgid "CAP category D/L"
 msgstr "CAP 类别 D/L"
-
-msgid "AN/ALE-39 Programmer Reset"
-msgstr "AN/ALE-39 编程器复位"
 
 msgid "Autopilot Vector Off"
 msgstr "自动驾驶 引导航向 关"
@@ -3916,20 +3925,20 @@ msgstr "自动驾驶 引导航向 关"
 msgid "Mech Fuze Safe"
 msgstr "机械引信 保险"
 
-msgid "AN/ALE-39 Chaff Counter Dec"
-msgstr "AN/ALE-39 箔条计数器 减小"
+msgid "AN/ALE-39 Programmer Reset"
+msgstr "AN/ALE-39 编程器复位"
 
 msgid "Autopilot Reference / Nosewheel Steering Toggle"
 msgstr "自动驾驶 / 前轮转向 切换"
 
-msgid "TACAN Function A/A"
-msgstr "塔康功能 空/空"
-
-msgid "STEER CMD VEC"
-msgstr "转向指令 - 引导航向"
+msgid "AN/ALE-39 Chaff Counter Dec"
+msgstr "AN/ALE-39 箔条计数器 减小"
 
 msgid "ICS Volume Inc"
 msgstr "ICS 音量 增大"
+
+msgid "STEER CMD VEC"
+msgstr "转向指令 - 引导航向"
 
 msgid "AN/ALE-39 Jammer STBY"
 msgstr "AN/ALE-39 干扰 就绪"
@@ -3937,17 +3946,8 @@ msgstr "AN/ALE-39 干扰 就绪"
 msgid "VHF/UHF ARC-182 10 MHz Switch Up"
 msgstr "VHF/UHF ARC-182 10MHz 开关 向上"
 
-msgid "Parking brake stow"
-msgstr "停放刹车 - 收起"
-
-msgid "WCS XMIT, else Standby"
-msgstr "WCS XMIT/就绪"
-
-msgid "Throttle Mode MAN"
-msgstr "油门模式 MAN"
-
-msgid "Closure Velocity Scale x4 else norm"
-msgstr "接近率标尺 4倍/正常"
+msgid "Jettison Right Tank: Safe"
+msgstr "抛离右侧油箱: 保险"
 
 msgid "Lights Position FLASH"
 msgstr "航行灯闪烁"
@@ -3964,14 +3964,17 @@ msgstr "DECM 模式: 检测 (按住3秒)"
 msgid "Master Caution Reset"
 msgstr "主注意灯复位"
 
-msgid "RWR Power OFF"
-msgstr "RWR 电源 关"
+msgid "VHF/UHF ARC-182 MODE DF"
+msgstr "VHF/UHF ARC-182 模式 定向"
 
 msgid "HCU full action"
 msgstr "HCU 扳机完全按下"
 
 msgid "VHF/UHF ARC-182 0.025 MHz Switch Up"
 msgstr "VHF/UHF ARC-182 0.025MHz 开关 向上"
+
+msgid "HCU MRL"
+msgstr "HCU MRL"
 
 msgid "AN/ALE-39 L20 Load Type Dec"
 msgstr "AN/ALE-39 L20 装载类型 逆时针"
@@ -4081,11 +4084,11 @@ msgstr "连接SRS时，不要使用默认的PTT（无线电菜单）按钮来通
 msgid "Allows using your head movement for selection of menu items."
 msgstr "允许玩家通过头部运动来进行菜单项选择。"
 
+msgid "Air to Air - Guns Guns Guns"
+msgstr "空对空 - 航炮"
+
 msgid "BFM Lion and Sun"
 msgstr "空战格斗 狮子和太阳"
-
-msgid "Case 3 CVN-72 - requires Supercarrier Module"
-msgstr "Case 3 CVN-72 - 需要超级航母模组"
 
 msgid "Basics - Carrier Case-1 Trap"
 msgstr "基础 - Case I 航降"
@@ -4123,9 +4126,6 @@ msgstr "空中加油"
 msgid "AN/AWG-9 - Pulse Modes"
 msgstr "AN/AWG-9 - 脉冲模式"
 
-msgid "Dissimilar Air Combat Training - Fox 2s"
-msgstr "与众不同的空战训练 - Fox-2"
-
 msgid "Watching the Devildog - Laser Guided Bombs"
 msgstr "恶犬出没——激光制导炸弹"
 
@@ -4138,23 +4138,23 @@ msgstr "基础 - 航母 Case I 起飞"
 msgid "Case 1 CVN-72 - requires Supercarrier Module"
 msgstr "Case 1 CVN-72 - 需要超级航母模组"
 
-msgid "Normandy Case 1 Carrier recovery"
-msgstr "Case I 航降"
+msgid "Case 3 CVN-73 - requires Supercarrier Module"
+msgstr "Case 3 CVN-73 - 需要超级航母模组"
 
-msgid "Take off from Nellis"
-msgstr "从内利斯起飞"
+msgid "Nellis Landing"
+msgstr "内利斯着陆"
+
+msgid "Free Flight"
+msgstr "自由飞行"
 
 msgid "Air to Ground - Computer Pilot (CCIP)"
 msgstr "空对地 - CCIP"
 
-msgid "Operation Constant Peg - Gen III fighters"
-msgstr "“永恒的佩格” - 第三代战斗机"
-
 msgid "AN/AWG-9 - MRL and IFF"
 msgstr "AN/AWG-9 - MRL和IFF"
 
-msgid "Persian Gulf Case I Recovery"
-msgstr "Case I 航降"
+msgid "Case 1 CVN-73 - requires Supercarrier Module"
+msgstr "Case 1 CVN-73 - 需要超级航母模组"
 
 msgid "Hormuz Rocket Run"
 msgstr "霍尔木兹 火箭弹攻击"
@@ -4171,11 +4171,14 @@ msgstr "机场起飞程序相关教程"
 msgid "Carrier Quals CVN-73 - requires Supercarrier Module"
 msgstr "航母资质 CVN-73 - 需要超级航母模组"
 
+msgid "Dissimilar Air Combat Training - Fox 2s"
+msgstr "与众不同的空战训练 - Fox-2"
+
 msgid "Refuel Fight Recover"
 msgstr "空中加油、作战并回收"
 
-msgid "Air to Air - Guns Guns Guns"
-msgstr "空对空 - 航炮"
+msgid "Tutorial covering basic navigation in the F-14."
+msgstr "基础导航相关教程"
 
 msgid "Tutorial covering employment of the Computer Pilot (CCIP) mode."
 msgstr "CCIP模式相关教程"
@@ -4191,6 +4194,9 @@ msgstr "Case I 起飞程序教程"
 
 msgid "Basics - Navigation"
 msgstr "基础 - 导航"
+
+msgid "Tutorial covering Air to Ground employment of the M61 Vulcan Cannon"
+msgstr "空对地M61航炮相关教程"
 
 msgid "Air to Air Refueling Practice"
 msgstr "空中加油练习"
@@ -4225,14 +4231,11 @@ msgstr "起飞"
 msgid "Operation Constant Peg - Gen IV fighters"
 msgstr "“永恒的佩格”- 第四代战斗机"
 
-msgid "Tutorial covering basic navigation in the F-14."
-msgstr "基础导航相关教程"
+msgid "Case 3 CVN-72 - requires Supercarrier Module"
+msgstr "Case 3 CVN-72 - 需要超级航母模组"
 
 msgid "Beyond Visual Range"
 msgstr "超视距"
-
-msgid "Tutorial covering Air to Ground employment of the M61 Vulcan Cannon"
-msgstr "空对地M61航炮相关教程"
 
 msgid "AN/AWG-9 - Introduction"
 msgstr "AN/AWG-9 - 简介"
@@ -4240,23 +4243,23 @@ msgstr "AN/AWG-9 - 简介"
 msgid "Dissimilar Air Combat Training - Guns only"
 msgstr "与众不同的空战训练 - 航炮"
 
+msgid "Persian Gulf Case I Recovery"
+msgstr "Case I 航降"
+
 msgid "Tutorial introducing the AN/AWG-9 radar and detailing the relevant controls and panels."
 msgstr "AN/AWG-9雷达和相关控制以及面板的介绍教程"
-
-msgid "Case 1 CVN-73 - requires Supercarrier Module"
-msgstr "Case 1 CVN-73 - 需要超级航母模组"
 
 msgid "Tutorial detailing the MRL and the IFF system."
 msgstr "MRL和IFF系统的详细教程"
 
-msgid "Free Flight"
-msgstr "自由飞行"
+msgid "Operation Constant Peg - Gen III fighters"
+msgstr "“永恒的佩格” - 第三代战斗机"
 
-msgid "Nellis Landing"
-msgstr "内利斯着陆"
+msgid "Take off from Nellis"
+msgstr "从内利斯起飞"
 
-msgid "Case 3 CVN-73 - requires Supercarrier Module"
-msgstr "Case 3 CVN-73 - 需要超级航母模组"
+msgid "Normandy Case 1 Carrier recovery"
+msgstr "Case I 航降"
 
 msgid "Cold Start"
 msgstr "冷启动"
@@ -4267,8 +4270,8 @@ msgstr "AHRS: 陀螺平台"
 msgid "F-14B AI"
 msgstr "F-14B AI"
 
-msgid "CADC: Rudder Authority Command"
-msgstr "CADC: 方向舵效能指令"
+msgid "RWR: 135 Quad Receiver/Antenna"
+msgstr "RWR: 135方位接收机/天线"
 
 msgid "20 Flares / 40 Chaff"
 msgstr "20发红外干扰弹/40发箔条"
@@ -4282,11 +4285,8 @@ msgstr "塔康: 收发器"
 msgid "HUD: Total"
 msgstr "HUD: 全部"
 
-msgid "Y"
-msgstr ""
-
-msgid "AIM-7F"
-msgstr "AIM-7F"
+msgid "X"
+msgstr "X"
 
 msgid "Pilot"
 msgstr "飞行员"
@@ -4307,7 +4307,7 @@ msgid "AIM-54A-Mk47"
 msgstr "AIM-54A-Mk47 空空导弹"
 
 msgid "Countermeasures: Right Dispenser"
-msgstr "对抗措施: 右侧释放装置"
+msgstr "对抗措施: 右布撒器"
 
 msgid "50 Flares / 10 Chaff"
 msgstr "50发红外干扰弹/10发箔条"
@@ -4375,17 +4375,14 @@ msgstr "CADC: 机翼后掠角通道1"
 msgid "RWR: 315 Quad Receiver/Antenna"
 msgstr "RWR: 315方位接收机/天线"
 
-msgid "AIM-7M"
-msgstr "AIM-7M 空空导弹"
-
 msgid "RWR: Computer"
 msgstr "RWR: 计算机"
 
 msgid "Mk-82AIR"
 msgstr "Mk-82 AIR 高阻炸弹"
 
-msgid "0 Flares / 60 Chaff"
-msgstr "0发红外干扰弹/60发箔条"
+msgid "Channel 7"
+msgstr "波道 7"
 
 msgid "Channel 14"
 msgstr "波道 14"
@@ -4400,13 +4397,7 @@ msgid "DDD: Total"
 msgstr "DDD: 全部"
 
 msgid "AM"
-msgstr ""
-
-msgid "KY-28 Encryption Key"
-msgstr "KY-28 加密密钥"
-
-msgid "F-14B"
-msgstr "F-14B"
+msgstr "AM"
 
 msgid "Fuel tank 300 gal (empty)"
 msgstr "300 加仑油箱 (空)"
@@ -4435,9 +4426,6 @@ msgstr "波道 25"
 msgid "VHF/UHF AN/ARC-182: Transceiver"
 msgstr "VHF/UHF AN/ARC-182: 收发器"
 
-msgid "X"
-msgstr ""
-
 msgid "Channel 1"
 msgstr "波道 1"
 
@@ -4450,12 +4438,6 @@ msgstr "CADC: 迎角信号"
 msgid "Channel 29"
 msgstr "波道 29"
 
-msgid "Laser Code 4th Digit"
-msgstr "激光编码 第4位"
-
-msgid "Channel 22"
-msgstr "波道 22"
-
 msgid "CADC: Total"
 msgstr "CADC: 全部"
 
@@ -4466,13 +4448,13 @@ msgid "VHF/UHF AN/ARC-182: Antenna"
 msgstr "VHF/UHF AN/ARC-182: 天线"
 
 msgid "AIM-7MH"
-msgstr ""
-
-msgid "Channel 20"
-msgstr "波道 20"
+msgstr "AIM-7MH"
 
 msgid "ILS: Decoder"
 msgstr "ILS: 解码器"
+
+msgid "Channel 20"
+msgstr "波道 20"
 
 msgid "RWR: Control Box"
 msgstr "RWR: 控制盒"
@@ -4483,8 +4465,8 @@ msgstr "UHF AN/ARC-159: 全部"
 msgid "Channel 12"
 msgstr "波道 12"
 
-msgid "VHF/UHF AN/ARC-182: Display"
-msgstr "VHF/UHF AN/ARC-182: 显示"
+msgid "Countermeasures: Left Dispenser"
+msgstr "对抗措施: 左布撒器"
 
 msgid "10 Flares / 50 Chaff"
 msgstr "10发红外干扰弹/50发箔条"
@@ -4510,12 +4492,6 @@ msgstr "20毫米 曳光弹"
 msgid "Hydraulics: Left Engine Pump"
 msgstr "液压: 左发液压泵"
 
-msgid "Laser Code 3rd Digit"
-msgstr "激光编码 第3位"
-
-msgid "Laser Code 1st Digit"
-msgstr "激光编码 第1位"
-
 msgid "AIM-9M"
 msgstr "AIM-9M 空空导弹"
 
@@ -4525,11 +4501,14 @@ msgstr "RWR: 全部"
 msgid "VDI: Total"
 msgstr "VDI: 全部"
 
-msgid "ILS Channel Presel"
-msgstr "ILS 面板预选"
+msgid "Y"
+msgstr "Y"
 
 msgid "UHF AN/ARC-159: Remote Display RIO"
 msgstr "UHF AN/ARC-159: 远程显示 (后舱)"
+
+msgid "ILS Channel Presel"
+msgstr "ILS 面板预选"
 
 msgid "VHF/UHF AN/ARC-182: Remote Display"
 msgstr "VHF/UHF AN/ARC-182: 远程显示"
@@ -4543,17 +4522,14 @@ msgstr "波道 16"
 msgid "TACAN Band"
 msgstr "塔康波段"
 
-msgid "Manual"
-msgstr "手动模式"
-
 msgid "RWR: Display RIO"
 msgstr "RWR: 显示 (后舱)"
 
+msgid "Manual"
+msgstr "手动模式"
+
 msgid "UHF AN/ARC-159: Remote Display Pilot"
 msgstr "UHF AN/ARC-159: 远程显示 (前舱)"
-
-msgid "RWR: 135 Quad Receiver/Antenna"
-msgstr "RWR: 135方位接收机/天线"
 
 msgid "ICS: Amplifier RIO Backup"
 msgstr "ICS: 备份放大器 (后舱)"
@@ -4561,11 +4537,11 @@ msgstr "ICS: 备份放大器 (后舱)"
 msgid "IMU: Total"
 msgstr "IMU: 全部"
 
-msgid "Burst 200"
-msgstr "连射 200"
-
 msgid "CADC: Digital output to CSDC"
 msgstr "CADC: 至CSDC的数字输出"
+
+msgid "Burst 200"
+msgstr "连射 200"
 
 msgid "INS Reference Alignment Stored"
 msgstr "INS 参考对准已存储"
@@ -4578,6 +4554,9 @@ msgstr "波道 6"
 
 msgid "M55A2 20mm TP"
 msgstr "M55A2 20毫米 训练弹"
+
+msgid "Channel 22"
+msgstr "波道 22"
 
 msgid "Wings: Right Sweep Failure"
 msgstr "机翼: 右侧机翼失效"
@@ -4627,6 +4606,9 @@ msgstr "连射 50"
 msgid "AHRS: Magnetic Azimuth Detector"
 msgstr "AHRS: 磁方位角探测器"
 
+msgid "Laser Code 4th Digit"
+msgstr "激光编码 第4位"
+
 msgid "ICS: Amplifier RIO"
 msgstr "ICS: 放大器 (后舱)"
 
@@ -4654,6 +4636,12 @@ msgstr "波道 19"
 msgid "Radar: Total"
 msgstr "雷达: 全部"
 
+msgid "AIM-7M"
+msgstr "AIM-7M 空空导弹"
+
+msgid "CADC: Rudder Authority Command"
+msgstr "CADC: 方向舵效能指令"
+
 msgid "RWR: Interference Blanker"
 msgstr "RWR: 干扰消除器"
 
@@ -4669,6 +4657,9 @@ msgstr "波道 11"
 msgid "Fuel tank 300 gal"
 msgstr "300加仑副油箱"
 
+msgid "Hydraulics: Transfer Pump-Motor"
+msgstr "液压: 传输泵-电动机"
+
 msgid "GBU-12"
 msgstr "GBU-12 炸弹"
 
@@ -4681,17 +4672,11 @@ msgstr "波道 18"
 msgid "20mm API"
 msgstr "20毫米 穿甲燃烧弹"
 
-msgid "Hydraulics: Transfer Pump-Motor"
-msgstr "液压: 传输泵-电动机"
-
 msgid "60 Flares / 0 Chaff"
 msgstr "60发红外干扰弹/0发箔条"
 
 msgid "Hydraulics: Right Engine Pump"
 msgstr "液压: 右发液压泵"
-
-msgid "Channel 7"
-msgstr "波道 7"
 
 msgid "AIM-9L"
 msgstr "AIM-9L 空空导弹"
@@ -4701,6 +4686,12 @@ msgstr "CADC: 机翼后掠角指示器"
 
 msgid "20mm HEI"
 msgstr "20毫米 高爆燃烧弹"
+
+msgid "Laser Code 1st Digit"
+msgstr "激光编码 第1位"
+
+msgid "Laser Code 3rd Digit"
+msgstr "激光编码 第3位"
 
 msgid "AIM-54A-Mk60"
 msgstr "AIM-54A-Mk60 空空导弹"
@@ -4714,9 +4705,6 @@ msgstr "CADC: 机翼后掠角通道2"
 msgid "Jester: Incapacitated"
 msgstr "Jester: 失能"
 
-msgid "Countermeasures: Left Dispenser"
-msgstr "对抗措施: 左侧释放装置"
-
 msgid "Radar Intercept Officer"
 msgstr "雷达拦截官"
 
@@ -4729,17 +4717,32 @@ msgstr "GBU-16 炸弹"
 msgid "VHF/UHF AN/ARC-182: Total"
 msgstr "VHF/UHF AN/ARC-182: 全部"
 
+msgid "VHF/UHF AN/ARC-182: Display"
+msgstr "VHF/UHF AN/ARC-182: 显示"
+
 msgid "ICS: Amplifier Pilot"
 msgstr "ICS: 放大器 (前舱)"
 
 msgid "TID: Total"
 msgstr "TID: 全部"
 
-msgid "Channel 26"
-msgstr "波道 26"
+msgid "0 Flares / 60 Chaff"
+msgstr "0发红外干扰弹/60发箔条"
 
 msgid "Channel 17"
 msgstr "波道 17"
+
+msgid "KY-28 Encryption Key"
+msgstr "KY-28 加密密钥"
+
+msgid "F-14B"
+msgstr "F-14B"
+
+msgid "Channel 26"
+msgstr "波道 26"
+
+msgid "AIM-7F"
+msgstr "AIM-7F"
 
 msgid "50 Flares / 10 Chaffs"
 msgstr "50发红外干扰弹/10发箔条"
@@ -4762,8 +4765,8 @@ msgstr "10海里"
 msgid "50 NM"
 msgstr "50海里"
 
-msgid "40 NM"
-msgstr "40海里"
+msgid "5 NM"
+msgstr "5海里"
 
 msgid "Reconnaissance"
 msgstr "侦查"
@@ -4774,11 +4777,14 @@ msgstr "地面气源"
 msgid "Salute!"
 msgstr "敬礼！"
 
+msgid "Wheel chocks"
+msgstr "轮挡"
+
+msgid "30 Flares / 30 Chaffs"
+msgstr "30发红外干扰弹/30发箔条"
+
 msgid "10 Flares / 50 Chaffs"
 msgstr "10发红外干扰弹/50发箔条"
-
-msgid "Mission and RTB"
-msgstr "执行任务，完成后返航"
 
 msgid "Load KYK-28 key 7"
 msgstr "加载KYK-28密钥7"
@@ -4786,17 +4792,14 @@ msgstr "加载KYK-28密钥7"
 msgid "40 Flares / 20 Chaffs"
 msgstr "40发红外干扰弹/20发箔条"
 
-msgid "Load KYK-28 key 5"
-msgstr "加载KYK-28密钥5"
-
 msgid "Load KYK-28 key 6"
 msgstr "加载KYK-28密钥6"
 
 msgid "AN/ALE-39 Loadouts"
 msgstr "AN/ALE-39 装载"
 
-msgid "5 NM"
-msgstr "5海里"
+msgid "Request Launch"
+msgstr "请求弹射起飞"
 
 msgid "0 Flares / 60 Chaffs"
 msgstr "0发红外干扰弹/60发箔条"
@@ -4810,20 +4813,11 @@ msgstr "断开"
 msgid "Connect"
 msgstr "连接"
 
-msgid "30 Flares / 30 Chaffs"
-msgstr "30发红外干扰弹/30发箔条"
-
 msgid "Load KYK-28 key 4"
 msgstr "加载KYK-28密钥4"
 
-msgid "Select AN/ALE-39 Loadout"
-msgstr "选择AN/ALE-39装载"
-
 msgid "KY-28 Encryption"
 msgstr "KY-28 加密"
-
-msgid "Request Launch"
-msgstr "请求弹射起飞"
 
 msgid "High"
 msgstr ""
@@ -4837,8 +4831,17 @@ msgstr "加载KYK-28密钥1"
 msgid "Mission and Rejoin"
 msgstr "执行任务，完成后返回编队"
 
-msgid "Wheel chocks"
-msgstr "轮挡"
+msgid "Load KYK-28 key 5"
+msgstr "加载KYK-28密钥5"
+
+msgid "40 NM"
+msgstr "40海里"
+
+msgid "Mission and RTB"
+msgstr "执行任务，完成后返航"
+
+msgid "Select AN/ALE-39 Loadout"
+msgstr "选择AN/ALE-39装载"
 
 msgid "Load KYK-28 key 8"
 msgstr "加载KYK-28密钥8"
@@ -4848,6 +4851,9 @@ msgstr "60发红外干扰弹/0发箔条"
 
 msgid "Load KYK-28 key 2"
 msgstr "加载KYK-28密钥2"
+
+msgid "AIM-7M*4, AIM-9L*4, XT*2"
+msgstr "AIM-7M*4, AIM-9L*4, XT*2"
 
 msgid "AIM-54A-MK47*4, AIM-9M*2, AIM-9L*2, XT*2"
 msgstr "AIM-54A-MK47*4, AIM-9M*2, AIM-9L*2, XT*2"
@@ -4882,6 +4888,9 @@ msgstr "Mk-82*14"
 msgid "AIM-54A-MK60*2, AIM-7M*1, AIM-9M*4, XT*2"
 msgstr "AIM-54A-MK60*2, AIM-7M*1, AIM-9M*4, XT*2"
 
+msgid "AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"
+msgstr "AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"
+
 msgid "GBU-24*2"
 msgstr "GBU-24*2"
 
@@ -4891,11 +4900,11 @@ msgstr "AIM-54A-MK47*2, AIM-7M*1, AIM-9M*4, XT*2"
 msgid "Zuni*12"
 msgstr "Zuni*12"
 
+msgid "AIM-54A-MK60*6, AIM-9M*2, XT*2"
+msgstr "AIM-54A-MK60*6, AIM-9M*2, XT*2"
+
 msgid "AIM-7M*6, AIM-9L*2, XT*2"
 msgstr "AIM-7M*6, AIM-9L*2, XT*2"
-
-msgid "AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"
-msgstr "AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"
 
 msgid "Zuni*28"
 msgstr "Zuni*28"
@@ -4903,23 +4912,14 @@ msgstr "Zuni*28"
 msgid "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-82*2"
 msgstr "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-82*2"
 
-msgid "XT*2"
-msgstr "XT*2"
-
 msgid "BDU-33*14"
 msgstr "BDU-33*14"
-
-msgid "AIM-7M*4, AIM-9L*4, XT*2"
-msgstr "AIM-7M*4, AIM-9L*4, XT*2"
-
-msgid "AIM-54A-MK60*6, AIM-9M*2, XT*2"
-msgstr "AIM-54A-MK60*6, AIM-9M*2, XT*2"
 
 msgid "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-82*2, LANTIRN"
 msgstr "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-82*2, LANTIRN"
 
-msgid "AIM-54A-MK47*4, AIM-7M*2, AIM-9L*2, XT*2"
-msgstr "AIM-54A-MK47*4, AIM-7M*2, AIM-9L*2, XT*2"
+msgid "Mk-83*4"
+msgstr "Mk-83*4"
 
 msgid "Mk-82*4"
 msgstr "Mk-82*4"
@@ -4932,9 +4932,6 @@ msgstr "AIM-54A-MK47*2, AIM-7M*1, AIM-9M*2, AIM-9L*2, XT*2"
 
 msgid "Mk-20*4"
 msgstr "Mk-20*4"
-
-msgid "BDU-33*12"
-msgstr "BDU-33*12"
 
 msgid "AIM-54C-MK47*2, AIM-7M*1, AIM-9M*4, XT*2"
 msgstr "AIM-54C-MK47*2, AIM-7M*1, AIM-9M*4, XT*2"
@@ -4957,11 +4954,14 @@ msgstr "AIM-7M*6, AIM-9M*2, XT*2"
 msgid "AIM-54A-MK60*4, AIM-9M*4, XT*2"
 msgstr "AIM-54A-MK60*4, AIM-9M*4, XT*2"
 
+msgid "XT*2"
+msgstr "XT*2"
+
 msgid "AIM-54A-MK47*6, AIM-9L*2, XT*2"
 msgstr "AIM-54A-MK47*6, AIM-9L*2, XT*2"
 
-msgid "Mk-83*4"
-msgstr "Mk-83*4"
+msgid "AIM-54A-MK47*4, AIM-7M*2, AIM-9L*2, XT*2"
+msgstr "AIM-54A-MK47*4, AIM-7M*2, AIM-9L*2, XT*2"
 
 msgid "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-20*2, LANTIRN"
 msgstr "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-20*2, LANTIRN"
@@ -4981,11 +4981,14 @@ msgstr "AIM-7M*1, AIM-9M*2, XT*2, GBU-12*2, LANTIRN"
 msgid "GBU-12*4"
 msgstr "GBU-12*4"
 
-msgid "Mk-84*4"
-msgstr "Mk-84*4"
+msgid "BDU-33*12"
+msgstr "BDU-33*12"
 
 msgid "AIM-54A-MK47*4, AIM-7M*2, AIM-9M*2, XT*2"
 msgstr "AIM-54A-MK47*4, AIM-7M*2, AIM-9M*2, XT*2"
+
+msgid "Mk-84*4"
+msgstr "Mk-84*4"
 
 msgid "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-20*2"
 msgstr "AIM-54A-MK60*1, AIM-7M*1, AIM-9M*2, XT*2, Mk-20*2"
@@ -4994,7 +4997,7 @@ msgid "Radar total failure"
 msgstr "雷达完全故障"
 
 msgid "CADC: Transient Failure"
-msgstr "CADC：瞬态故障"
+msgstr "CADC：暂态故障"
 
 msgid "HUD total failure"
 msgstr "HUD完全故障"

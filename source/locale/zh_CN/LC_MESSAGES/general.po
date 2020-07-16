@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-06-14 13:17+0800\n"
+"PO-Revision-Date: 2020-07-15 21:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -6639,6 +6639,7 @@ msgstr ""
 "没有任何一种抛离模式可以抛离ITER或者ITER上面的挂载，这些挂载需要通过正常投放"
 "的方式抛弃，可以按需设置是否为这些挂载设置引信。"
 
+# 2020/06/19 AG 校对完毕
 #: ../../source/general.rst:1035
 msgid "CADC Central Air Data Computer"
 msgstr "中央大气数据计算机（CADC）"
@@ -6652,10 +6653,11 @@ msgid ""
 "limited by that same schedule."
 msgstr ""
 "中央大气数据计算机（CADC）就像蜘蛛网中心的蜘蛛一样接收绝大多数飞机飞行传感器"
-"收集的信息，并将这些信息传递给所有需要这些信息的系统。同时，CADC也通过机翼后"
-"掠控制调度程序控制后掠翼。此外，CADC也能控制襟翼以及前缘缝翼。襟翼和前缘缝翼"
-"被同一套控制调度程序限制。"
+"收集的信息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC 通过机翼"
+"后掠调度来控制机翼后掠，同时 CADC 还控制襟翼和前缘缝翼，并且还受到相同调度的"
+"限制。"
 
+# 2020/06/23 AG 开始校对 -- 2020/07/15 AG 校对完毕
 #: ../../source/general.rst:1042
 msgid "AN/AWG-9 Weapon Control System (WCS)"
 msgstr "AN/AWG-9 武器控制系统（WCS）"
@@ -6666,12 +6668,12 @@ msgid ""
 "the F-14's main sensors and computer providing detection, tracking and "
 "engagement of targets in the air-to-air and air-to-ground roles."
 msgstr ""
-"AN/AWG-9武器控制系统（WCS）是一个综合系统，其中包含了F-14的主要传感器和计算"
-"机，该系统可以完成空对空和空对地任务中对目标的探测、跟踪和交战。"
+"AN/AWG-9 武器控制系统（WCS）是一个包含了 F-14 的主要传感器和计算机的综合系"
+"统，WCS 系统在空对空任务和空对地任务中提供了目标探测、跟踪和攻击的能力。"
 
 #: ../../source/general.rst:1048
 msgid "Detail Data Display (DDD) and Panel"
-msgstr "详细数据显示器（DDD）及控制板"
+msgstr "详细数据显示器（DDD）及控制面板"
 
 #: ../../source/general.rst:1051
 msgid ""
@@ -6679,12 +6681,12 @@ msgid ""
 "AWG-9 system. It contains all the controls for the radar except the scan "
 "volume and stabilization controls which are on the sensor control panel."
 msgstr ""
-"DDD及其控制面板是AN/AWG-9系统雷达部分的主显示器和控制面板。除了传感器控制面板"
-"上的扫描区域设置和雷达天线增稳开关外它包含雷达的所有控制选项。"
+"DDD 是 AN/AWG-9 系统中雷达部分的主要显示器和主要控制面板。除了位于传感器控制"
+"面板上的扫描范围和相对地面稳定控制器以外，DDD 中包括了所有雷达的控制器。"
 
 #: ../../source/general.rst:1054
 msgid "**TGTS, MLC, AGC and PARAMP Switches**"
-msgstr "**TGTS开关, MLC开关, AGC开关 和 PARAMP 开关**"
+msgstr "**TGTS 开关，MLC 开关，AGC 开关 和 PARAMP 开关**"
 
 #: ../../source/general.rst:1056
 msgid ""
@@ -6692,10 +6694,10 @@ msgid ""
 "controling amplification, mainlobe clutter (MLC) suppression and target size "
 "parameters."
 msgstr ""
-"位于DDD面板左上方的4个开关（ **1 - 4** ）分别是目标尺寸选择开关（TGTS），雷达"
-"主瓣杂波过滤器开关（MLC），自动增益控制开关（AGC），着雷达参数信号放大器"
-"（PARAMP）。"
+"位于 DDD 面板左上部分包含有4个开关（ **1 - 4** ），它们分别用于控制参数放大，"
+"主瓣杂波（MLC）抑制和目标大小参数。"
 
+# 到底有没有功能。按键内为无功能。
 #: ../../source/general.rst:1058
 msgid ""
 "The **TGTS** (targets) switch selects expected target size which is used by "
@@ -6703,10 +6705,11 @@ msgid ""
 "tracking in the radar. The selected position of this switch might negatively "
 "affect target tracking and engagement if set incorrectly."
 msgstr ""
-"**TGTS** （目标）开关可以选择预计目标的大小，WCS会根据设置的目标大小计算导弹"
-"发射距离，并在雷达上设置目标的跟踪参数。如果开关选择的预计目标大小错误，就有"
-"可能会影响到雷达对目标跟踪和导弹命中率。"
+"**TGTS** （目标）开关可以选择预计目标的大小，WCS 会根据设置的目标大小来计算导"
+"弹发射区，并设置雷达中目标跟踪的参数。如果开关选择的预计目标大小错误，就有可"
+"能会对目标跟踪和攻击产生负面影响。"
 
+# 第三句错误，If the MLC switch on the DDD panel is in AUTO the radar will automatically turn off the MLC filter if looking more than 3 degrees above the horizon.
 #: ../../source/general.rst:1060
 msgid ""
 "The **MLC** switch controls how the system supresses the MLC in the radar "
@@ -6714,10 +6717,11 @@ msgid ""
 "while the IN position enables it. The AUTO position automatically enables "
 "the MLC filter if the antenna look-up angle is greater than 3°."
 msgstr ""
-"**MLC** 开关可以控制主瓣杂波过滤器，该装置可以用于抑制雷达在脉冲多普勒模式工"
-"作时产生的主瓣杂波。开关在OUT位置时这个装置将被关闭，IN位置则会开启这个系统。"
-"如果开关在AUTO位置，这个装置将会在雷达天线与地平线的夹角超过3°时自动关闭。"
+"**MLC** 开关用于控制在脉冲多普勒模式下系统如何抑制雷达系统中的主瓣杂波"
+"（MLC）。OUT 档位将关闭抑制系统，IN 档位则开启。在 AUTO 档位中，如果雷达天线"
+"仰角高于地平线3°以上，那么将会自动禁用 MLC 滤波器。"
 
+# NORM 档位？
 #: ../../source/general.rst:1062
 msgid ""
 "The **AGC** switch controls the automatic gain control and is used in the "
@@ -6728,11 +6732,11 @@ msgid ""
 "time constant to mitigate these factors but this setting can also make the "
 "radar less sensitive to real targets."
 msgstr ""
-"**AGC** 开关控制着雷达在脉冲多普勒模式下的自动增益系统，它可以调整用于自动增"
-"益控制的时间常数。一般情况下（开关在NORM位置）AGC（自动增益控制系统）用较长的"
-"时间常数来计算用于增益的平均值。如果雷达在有电子干扰或严重杂波的环境中工作，"
-"可以将自动增益控制设置为使用更快的时间常数来缓解这些不利因素，但是这样设置也"
-"会降低雷达探测目标的敏感度。"
+"**AGC** 开关用于控制在脉冲多普勒模式下的自动增益控制，使用这个开关来控制用于 "
+"AGC（自动增益控制）的时间常数。一般情况下（NORM 档位）AGC 使用更长的时间常数"
+"来计算用于放大的平均值。如果雷达在有干扰的环境中或者有严重杂波的情况下，将 "
+"AGC 设置为更快的时间常数来缓解这些因素，但设置为快速同时也会使得雷达对真目标"
+"的灵敏度降低。"
 
 #: ../../source/general.rst:1064
 msgid ""
@@ -6743,19 +6747,20 @@ msgid ""
 "to lessen the effect from background noise. If set to off manually it "
 "lessens the detection range by approximately 35%."
 msgstr ""
-"**PARAMP** ,参数放大器开关可以控制参数放大器，其可以在所有雷达模式下放大雷达"
-"回波较弱的目标参数。通常情况下，WCS会根据目标距离自主决定在什么时候使用参数放"
-"大器，但在跟踪回波异常强大的目标时，可以通过这个开关禁用参数放大器以减少背景"
-"噪声的影响。如果将这个开关手动设置为关闭（OFF），雷达探测范围会缩小35％。"
+"**PARAMP** ，参数放大器开关可以手动控制参数放大器，参数放大器用于在所有雷达模"
+"式下放大回波较弱的目标。通常来说，WCS 控制器会根据距离来决定何时使用 PARAMP，"
+"但是如果跟踪了一个回波异常强的目标，那么可使用开关来禁用 PARAMP 来减轻背景噪"
+"声的影响。如果将开关手动设置为关闭，那么探测距离会缩短大约35%左右。"
 
 #: ../../source/general.rst:1066
 msgid "AGC and PARAMP switches currently not implemented."
-msgstr "目前AGC和PARAMP开关在DCS中无功能。"
+msgstr "目前 AGC 开关和 PARAMP 开关在 DCS 中无功能。"
 
 #: ../../source/general.rst:1069
 msgid "**AWG-9 Range Selection and Tracking Indication**"
-msgstr "**AWG - 9雷达扫描距离和跟踪指示**"
+msgstr "**AWG - 9 雷达距离选择和跟踪指示**"
 
+# 06/23 校对至此
 #: ../../source/general.rst:1071
 msgid ""
 "In the upper central part of the DDD panel are located the controls and "
@@ -6763,8 +6768,9 @@ msgid ""
 "also present the indicators for radar tracking while in the single target "
 "track (STT) modes."
 msgstr ""
-"在DDD面板的上部中央部分，有用于在搜索模式中设置雷达扫描距离的按钮和显示目前扫"
-"描距离的指示器。下面还显示了在单目标跟踪（STT）模式下雷达跟踪状态指示灯。"
+"在 DDD 面板中的上部中央部分，包含了用于在搜索模式下设置雷达距离的控制器以及指"
+"示器。在这些控制器和指示器的下方还拥有在单目标跟踪（STT）模式下的雷达跟踪指示"
+"器。"
 
 #: ../../source/general.rst:1074
 msgid ""
@@ -6775,11 +6781,11 @@ msgid ""
 "search this setting affects the PRF of the radar and the scale on the DDD "
 "and if set to 20nm or greater range it also enables pulse compression."
 msgstr ""
-"分别标记了5、10、20、50、100和200这些数字的六个圆形按钮（ **8** ），用于在脉"
-"冲模式下和进行IFF识别时选择所需的雷达扫描距离，在该面板上的选择同样会影响前座"
-"目标距离指示器的显示范围。这六个按钮仅能同时按下一个。在脉冲搜索模式，通过上"
-"述按钮进行选择会影响雷达的 PRF 和 DDD 的显示范围，如果选择了20海里或更远的距"
-"离，则会启用脉冲压缩。"
+"六个圆形按钮（ **8** ）分别标记了 **5, 10, 20, 50, 100 和 200** ，这些按钮用"
+"于在脉冲模式和在 IFF 问询时选择所需的雷达显示距离，这些按钮的设置同时会影响飞"
+"行员目标距离显示的尺度。这六个按钮互斥，因为一次只能选择一个显示距离。在脉冲"
+"搜索模式下，通过上述按钮进行选择会影响雷达的 PRF 以及 DDD 中的显示尺度，如果"
+"设置为20海里及以上的显示距离，那么将会启用脉冲压缩。"
 
 #: ../../source/general.rst:1078
 msgid ""
@@ -6787,53 +6793,58 @@ msgid ""
 "the DDD for the pulse modes and is blank when using pulse-doppler. It can "
 "also show ±10 for when using the IFF interrogator in the STT modes."
 msgstr ""
-"**距离指示器** （ **7** ）上显示了雷达在脉冲模式下当前选定的雷达扫描距离，雷"
-"达处于脉冲多普勒模式下时这个指示器显示为空白 。在STT模式下进行敌我识别时，这"
-"个指示器会显示±10。"
+"**距离显示滚筒** （ **7** ），距离显示滚筒中显示了雷达在脉冲模式下当前 DDD 中"
+"的雷达显示尺度，使用脉冲多普勒模式时滚筒为空白。在 STT 模式下进行 IFF 问询"
+"时，这个指示器还将显示±10。"
 
 #: ../../source/general.rst:1081
 msgid ""
 "Below these are the four radar track indicator lights which are used to "
 "indicate how the radar tracks the target in STT."
 msgstr ""
-"在这个指示器的两边是4个雷达跟踪指示灯，用于指示雷达在进行STT时的跟踪状态。"
+"在距离显示滚筒下方的是四个雷达跟踪指示灯，这些指示灯用来指示雷达在 STT 模式下"
+"如何跟踪目标。"
 
+# 逻辑错误，雷达不能跟踪目标角度，因为雷达是通过多普勒原理根据目标回波来实现目标跟踪。
+# 目标不能返回“角度”，逻辑对象错误。
 #: ../../source/general.rst:1083
 msgid ""
 "The **ANT TRK**, antenna track, light indicates that the radar is tracking "
 "the target angle (direction) in azimuth and elevation."
 msgstr ""
-"**ANT TRK** ,天线跟踪，这个指示灯亮起表示雷达正在对目标进行方位角和俯仰角测量"
-"并追踪目标。"
+"**ANT TRK** （天线跟踪指示灯），指示灯亮起表示雷达正在跟踪目标来获得目标的方"
+"位和仰角的角度（方向）。"
 
 #: ../../source/general.rst:1084
 msgid ""
 "The **RDROT**, radar on target, light indicates that the target is in the "
 "range or rate gate and is being tracked in range or rate."
 msgstr ""
-"**RDROT** ，雷达发现目标，这个指示灯亮起表示目标在雷达的扫描刷新范围内并且被"
-"持续跟踪。"
+"**RDROT** （雷达截获目标指示灯），指示灯亮起表示目标在距离内或接近率门限内，"
+"并且目标已锁定。"
 
+# 逻辑错误
 #: ../../source/general.rst:1085
 msgid ""
 "The **JAT**, jam angle track, indicates that the antenna is tracking a "
 "jamming source's angle in azimuth and elevation."
 msgstr ""
-"**JAT** 干扰源角度跟踪，这个指示灯亮起表示表示雷达正在通过测量与干扰源的方位"
-"角和俯仰角对其进行跟踪。"
+"**JAT** （干扰源角跟踪指示灯），这个指示灯亮起表示天线正在跟踪干扰源的方位和"
+"仰角的角度。"
 
+# 逻辑错误
 #: ../../source/general.rst:1086
 msgid ""
 "The **IROT**, IR on target, light indicates that target angle in azimuth and "
 "elevation is being tracked via the TCS, the name is inherited from the "
 "earlier IRST system of early -A F-14s."
 msgstr ""
-"**IROT** 光电探头发现目标，这个指示灯亮起表示TCS正在测量目标的方位角和俯仰角"
-"并跟踪目标，这个开关的名字来自早期装备了IRST系统的F-14A。"
+"**IROT** （红外捕获目标指示灯），指示灯亮起表示系统正在通过 TCS 跟踪目标来获"
+"得目标方位和仰角的角度，IROT 名称是早期 F-14A 中的 IRST 系统继承而来。"
 
 #: ../../source/general.rst:1089
 msgid "**IR AUDIO Controls**"
-msgstr "**IR AUDIO控制**"
+msgstr "**IR AUDIO 控制**"
 
 #: ../../source/general.rst:1092
 msgid ""
@@ -6841,13 +6852,15 @@ msgid ""
 "panel were used with the IR sensor but as this is replaced by the TCS in the "
 "F-14B these are non-functional."
 msgstr ""
-"**IR AUDIO** 控制旋钮（ **10 - 12** ）位于DDD面板的右上部，用来控制红外传感"
-"器，由于在F-14B上红外传感器已经被TCS取代，所以这几个旋钮是没有功能的。"
+"**IR AUDIO** 控制旋钮（ **10 - 12** ）位于 DDD 面板的右上部，这些控制旋钮被用"
+"于与红外传感器一起使用，但由于在 F-14B 上红外传感器被 TCS 取代，所以这几个旋"
+"钮是没有功能的。"
 
 #: ../../source/general.rst:1095
 msgid "**Radar and Missile Frequency Selectors**"
-msgstr "**雷达、导弹频率选择器**"
+msgstr "**雷达和导弹频率选择拨轮**"
 
+# 14没有加粗
 #: ../../source/general.rst:1097
 msgid ""
 "The thumbwheels in the upper rightmost part of the DDD panel are used to "
@@ -6859,20 +6872,21 @@ msgid ""
 "channel after this will not affect a change unless the preparation sequence "
 "is restarted."
 msgstr ""
-"DDD面板右上角的指轮用于控制AN/AWG-9雷达发射器频率（ **13** ）和AIM-7与"
-"AIM-54（14）导弹的直波信道频率。通过对这些频率的设置，可以避免收到来自其它搭"
-"载了相同雷达系统与导弹的飞机的干扰及其他的外来干扰。WCS在准备导弹时读取AIM-7"
-"信道频率，因为它们需要调谐，WCS读取信道后再改变频率将不会起作用，除非重新开始"
-"导弹发射准备程序。"
+"DDD 面板右上角的拨轮用于控制 AN/AWG-9 雷达发射极的频率（ **13** ），导弹控制"
+"波道则用于与 AIM-7 和 AIM-54 一起使用（ **14** ）。调整这些拨轮来避免受到其它"
+"装备了 AN/AWG-9 飞机的或其它外部干扰源的干扰。由于导弹需要进行调谐，在 AIM-7 "
+"准备好后，WCS 将会读取 AIM-7 的导弹波道，在准备好 AIM-7 后变更波道不会起到任"
+"何作用，除非重新开始导弹的准备程序。"
 
 #: ../../source/general.rst:1101
 msgid "Non-functional in DCS currently."
-msgstr "目前在DCS中这个功能未被模拟。"
+msgstr "目前在 DCS 中尚未模拟。"
 
 #: ../../source/general.rst:1104
 msgid "**Radar Mode Selectors**"
-msgstr "**雷达模式选择器**"
+msgstr "**雷达模式选择按钮**"
 
+# The display mode buttons (**15**) selects what mode is currently selected for display on the DDD.禁止套娃
 #: ../../source/general.rst:1106
 msgid ""
 "In the lower right part of the DDD panel are located the controls for "
@@ -6883,12 +6897,13 @@ msgid ""
 "IFF interrogator in one of its two operational modes, for more detail see "
 "the IFF section in the General design and systems overview chapter."
 msgstr ""
-"该控制器位于DDD面板的右下角，控制着DDD显示模式，雷达模式以及雷达模式指示器。"
-"显示模式按钮（ **15** ）用来选择当前DDD的显示模式。 **RDR** ：雷达模式，是最"
-"常用的模式。由于未安装红外系统，红外模式无法使用。IFF按钮可以控制IFF的两种工"
-"作模式中的一种模式，有关更多详细信息，请参阅总体设计和系统总览章节中的IFF部"
-"分。"
+"DDD 面板的右下部包含有显示模式、雷达模式和 DDD 本身滚筒指示器的控制开关与按"
+"钮。显示模式按钮 （**15**）用于选择当前 DDD 所选的显示模式。 **RDR** （雷达模"
+"式），此模式为一般的所选模式。 **IR** 模式由于没有安装 IR 系统，所以是无功能"
+"的。 **IFF** 按钮按下后将在 IFF 本身的两种运行模式下的其中一种来启用 IFF 问询"
+"器，详情参见总体设计和系统概述的 IFF 部分。"
 
+# relevant what?
 #: ../../source/general.rst:1112
 msgid ""
 "The radar mode buttons (**16**) selects the operational mode of the AN/AWG-9 "
@@ -6902,14 +6917,14 @@ msgid ""
 "selects their respective TWS modes for use in the radar. The pulse search "
 "button (**PULSE SRCH**) selects the pulse search mode of the radar."
 msgstr ""
-"雷达模式按钮（ **16** ）用来选择AN/AWG-9雷达的当前工作模式。两个STT按钮分别为"
-"脉冲多普勒单目标跟踪（ **PD STT** ）和脉冲单目标跟踪（ **P STT** ），当符合"
-"STT条件时，按下对应的按钮会启用单目标跟踪模式，雷达会自动尝试以选定的STT模式"
-"锁定在TID上选定的目标。这两个按钮也可以用来在STT中切换这两种STT模式。脉冲多普"
-"勒搜索按钮（ **PD SRCH** ）用来选择雷达的PD搜索模式。边测距边跟踪搜索按钮"
-"（ **RWS** ）用来选择雷达的RWS模式。两个边跟踪边扫描按钮（ **TWS AUTO** and "
-"**TWS MAN** ）可以选择雷达的两种TWS模式。脉冲搜索按钮（ **PULSE SRCH** ）用来"
-"选择雷达的脉冲搜索模式。"
+"雷达模式按钮（ **16** ）用来选择 AN/AWG-9 雷达的运行模式。两个 STT 按钮——脉冲"
+"多普勒单目标跟踪（ **PD STT** ）和脉冲单目标跟踪（ **P STT** ）——如果可用，这"
+"两个按钮可用来选择 STT 的模式。同时这两个按钮还用于自动尝试锁定至 TID 中选中"
+"的目标或用于在两个 STT 模式之间进行切换。脉冲多普勒搜索按钮（ **PD SRCH** ）"
+"用于选择雷达 PD SEARCH 模式。边搜索边测距按钮（ **RWS** ）用于选择雷达 RWS 模"
+"式。两个边扫描边跟踪按钮（ **TWS AUTO** 和 **TWS MAN** ）用于选择雷达使用与之"
+"对应的 TWS 模式运行。脉冲搜索按钮（ **PULSE SRCH** ）用于选择雷达脉冲搜索模"
+"式。"
 
 #: ../../source/general.rst:1120
 msgid ""
@@ -6920,15 +6935,15 @@ msgid ""
 "search and pulse STT), PD (for both pulse dopple search and PD STT) and PAL "
 "(pilot automatic lockon mode)."
 msgstr ""
-"**模式指示器** （ **17** ）显示了当前选定的雷达模式。除了TWS MAN, TWS AUTO, "
-"RWS这些模式外，它还可以显示MRL（手动快速锁定）、A-G （空对地）、VSL（垂直扫描"
-"锁定）、OPTTRK（TCS跟踪）、PLM（飞行员锁定模式）、PULSE（脉冲搜索模式和脉冲"
-"STT模式）、PD（指脉冲多普勒搜索模式和脉冲多普勒STT模式）和PAL（飞行员自动锁定"
-"模式）。"
+"**滚筒指示器** （ **17** ），滚筒指示器指示了当前所选的雷达模式。除了显示 "
+"TWS MAN，TWS AUTO，RWS 指代各自的模式外，滚筒指示器还可以显示 MRL（手动快速锁"
+"定）、A-G （空对地）、VSL（垂直扫描锁定）、OPTTRK（TCS 跟踪）、PLM（飞行员锁"
+"定模式）、PULSE（脉冲搜索模式和脉冲 STT 模式）、PD（脉冲多普勒搜索模式和脉冲"
+"多普勒 STT 模式）和PAL（飞行员自动锁定模式）。"
 
 #: ../../source/general.rst:1124
 msgid "**Aspect and Vc Switches**"
-msgstr "**Aspect和Vc开关**"
+msgstr "**Aspect 和 Vc 开关**"
 
 #: ../../source/general.rst:1126
 msgid ""
@@ -6938,11 +6953,12 @@ msgid ""
 "closing, NORM sets the scale to 200 knots opening to 1,000 knots closing and "
 "VID sets the scale to 50 knots opening to 250 knots closing."
 msgstr ""
-"在DDD的两边是ASPECT开关和VC开关。 **VC** 开关（ **18** ）控制着脉冲多普勒模式"
-"下DDD上显示的目标接近率标尺。开关拨到X4位置时，接近率标尺区间被设置为800节到"
-"4000节，NORM位置时接近率标尺区间被设置为200节到1000节。VID上显示的接近率标尺"
-"区间被设置为50节到250节。"
+"在 DDD 的两边是 ASPECT 开关和 VC 开关。 **VC** 开关（ **18** ）用于控制在脉冲"
+"多普勒模式下 DDD 上显示的目标接近率尺度。开关拨到 X-4 档位时，接近率标尺区间"
+"被设置为800节离开到4000节接近，拨到 NORM 档位时，接近率尺度将设置为200节离开"
+"至1000节接近，VID 档位则将接近率尺度设置为50节离开至250节接近。"
 
+# centroid 统一叫质心，避免重心和转向中心误解。
 #: ../../source/general.rst:1130
 msgid ""
 "The **ASPECT** switch (**21**) controls two different things depending on "
@@ -6953,16 +6969,16 @@ msgid ""
 "switch sets the system tracking mode to the corresponding echo edge or "
 "centroid to counteract countermeasures like chaff and specific jammer modes."
 msgstr ""
-"**ASPECT** 开关（ **21** ）根据雷达模式的不同控制着两种不同的功能。在脉冲多普"
-"勒模式中它控制着该模式下雷达在不同情况下对目标的处理速率范围，开关在NOSE位置"
-"时会对迎头600节工作到1800节接近率的目标进行处理，BEAM位置时会对侧视1200节以内"
-"接近率的目标进行处理，TAIL位置是会对尾追1800节到600节的接近率目标进行处理。在"
-"短脉冲STT模式中，这个开关可以用来选择跟踪目标边缘回波或者中心回波，以减轻箔条"
-"等对抗措施带来的影响。"
+"**ASPECT** 开关（ **21** ）将根据雷达模式控制两种不同的功能。在脉冲多普勒搜索"
+"模式中，ASPECT 开关用来控制雷达的接近率处理窗口，NOSE 档位将设置为600节离开至"
+"1800节接近，BEAM 档位将设置为1200节接近至1200节离开，TAIL 档位将设置为1800节"
+"离开至600节接近。在短脉冲 STT 模式下，开关不同的档位将系统跟踪模式设置为对应"
+"的回波边缘和回波质心来减轻对抗措施对例如箔条和特定干扰模式的影响。"
 
+# 06/24 AG 校对至此
 #: ../../source/general.rst:1136
 msgid "**Elevation Indicator**"
-msgstr "**角度指示器**"
+msgstr "**仰角指示器**"
 
 #: ../../source/general.rst:1138
 msgid ""
@@ -6971,8 +6987,9 @@ msgid ""
 "elevation. This indicator will move with the antenna in the radar search "
 "modes."
 msgstr ""
-"角度指示器度 **EL** （ **22** ）用于指示传感器俯仰角度。左侧（ **RDR** ）指针"
-"指示当前实际雷达天线角度。该指针在雷达搜索模式下将随雷达天线移动。"
+"仰角指示器尺度—— **EL** （ **22** ）——这个指示器用于指示传感器的仰角。左侧"
+"（ **RDR** ）的指针指示当前实际的雷达天线的仰角。左侧的指针将会随天线在雷达搜"
+"索模式下的移动而移动。"
 
 #: ../../source/general.rst:1141
 msgid ""
@@ -6981,20 +6998,19 @@ msgid ""
 "it enables the RIO to set the antenna elevation center to use when you "
 "eventually revert to search."
 msgstr ""
-"如果使用HCU选择当前模式为雷达模式，右侧指针（IR/TV/EC）会显示雷达当前扫描模式"
-"下的中心角度。这在STT模式中很有用，因为RIO可以通过它来设置一个中心角度，以便"
-"返回搜索模式时使用。"
+"如果将 HCU 设置为 RDR 模式，右侧（IR/TV/EC）指针将指示当前设置的天线栅状扫描"
+"的仰角中心。由于可使 RIO 在最终返回到搜索模式时设置需要使用的天线的仰角中心，"
+"这个指针在 STT 模式下显得十分有用。"
 
 #: ../../source/general.rst:1144
 msgid ""
 "If the HCU is set to IR/TV the right needle instead displays current TCS "
 "elevation."
-msgstr ""
-"如果使用HCU选择当前模式为IR/TV模式，那么右侧指针会显示当前TCS的俯仰角。"
+msgstr "如果设置 HCU 为 IR/TV 模式，那么右侧指针会显示当前 TCS 的仰角。"
 
 #: ../../source/general.rst:1147
 msgid "**Counter-Countermeasure Mode Controls**"
-msgstr "**反对抗模式控制**"
+msgstr "**反干扰模式控制器**"
 
 #: ../../source/general.rst:1149
 msgid ""
@@ -7002,12 +7018,12 @@ msgid ""
 "mode buttons. These controls functionality to counter different jammers "
 "affecting the system. (Not currently implemented)"
 msgstr ""
-"最左下角有三个反对抗模式按钮。可以控制反对抗系统反制不同的干扰机。（目前未模"
-"拟）"
+"面板的左下角含有三个反干扰模式按钮。这些按钮的功能用于反制各种影响系统的干"
+"扰。（尚未实装）"
 
 #: ../../source/general.rst:1152
 msgid "**Radar and DDD Control Knobs**"
-msgstr "**雷达和DDD控制旋钮**"
+msgstr "**雷达和 DDD 控制旋钮**"
 
 #: ../../source/general.rst:1154
 msgid ""
@@ -7017,9 +7033,9 @@ msgid ""
 "on the DDD for the pulse modes. It affects only the DDD display, not the "
 "radar itself."
 msgstr ""
-"在DDD面板上有八个旋钮用来控制DDD和雷达的不同功能。脉冲图像控制旋钮（ **5** ）"
-"位于DDD的左上方，它用来控制DDD上图像的脉冲强度，这只会影响DDD的显示效果，而不"
-"影响雷达本身。"
+"在 DDD 面板上有八个不同的旋钮，它们各自用来控制 DDD 的和雷达的不同功能。坐落"
+"于 DDD 左上角的是 **PULSE VIDEO** 控制旋钮（ **5** ），这个旋钮用来控制 DDD "
+"在脉冲模式下的视频强度。旋钮只对 DDD 产生影响，不会影响雷达本身。"
 
 #: ../../source/general.rst:1158
 msgid ""
@@ -7027,16 +7043,9 @@ msgid ""
 "(**9**) which adjusts a polarized filter which allows for mechanical control "
 "of the brightness of the DDD, mainly used in low light conditions."
 msgstr ""
-"亮度控制旋钮（ **9** ）位于DDD的右上方，它通过调节偏振滤光片来实现对DDD的亮度"
-"控制，主要用于低亮度环境下。"
+"位于 DDD 右上方的是 **BRIGHT** 控制旋钮（ **9** ），它通过调节偏振滤光镜来机"
+"械控制 DDD 的亮度，主要用于低亮度条件下。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "On the lower left side of the DDD is located the **PULSE GAIN** control "
-# | "knob (**20**) which controls the radar gain in the pulse modes. This "
-# | "control affects the gain of the radar directly. Normally left in the "
-# | "detent at the fully counter-clockwise position which allows the WCS to "
-# | "control it automatically."
 #: ../../source/general.rst:1160
 msgid ""
 "On the lower left side of the DDD is located the **PULSE GAIN** control knob "
@@ -7044,9 +7053,9 @@ msgid ""
 "affects the gain of the radar directly. Normally left in the detent at the "
 "fully clockwise position which allows the WCS to control it automatically."
 msgstr ""
-"**PULSE GAIN**\\ （脉冲增益）控制旋钮位于DDD的左下侧，它可以控制脉冲模式下的"
-"雷达增益。这个旋钮会直接控制雷达本身的增益，一般情况下保持在NORM位置，由WCS自"
-"动对雷达增益进行控制。"
+"位于 DDD 的左下方的是 **PULSE GAIN** 控制旋钮（ **20** ），这个旋钮用来控制在"
+"脉冲模式下的雷达增益。这个旋钮会直接影响雷达的增益。一般情况，将旋钮保持在顺"
+"时针旋转最大档位的锁定机构中，这样可使得 WCS 来自动控制脉冲增益。"
 
 #: ../../source/general.rst:1163
 msgid ""
@@ -7055,20 +7064,12 @@ msgid ""
 "beam is what erases the indications continually on the DDD and thus affects "
 "how long the after-image of the detected targets will remain."
 msgstr ""
-"**ERASE** 控制旋钮（ **9** ）位于DDD的右下侧，它用于控制DDD上擦除光束的强度。"
-"擦除光束会连续清除DDD上的目标指示，因此这个设置会影响到目标余像在DDD上的残留"
-"时间。"
+"位于 DDD 的右下方的是 **ERASE** 控制旋钮（ **19** ），这个旋钮用来控制 DDD 中"
+"擦除射束的强度。擦除射束会连续擦除 DDD 上的目标指示，因此这个旋钮的设置将会影"
+"响到探测到的目标的余像在 DDD 上的残留时间。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "On the left side of the DDD panel are located the PD THRLD (**26**), JAM/"
-# | "JET (**24**) and ACM THRLD (**25**) control knobs. The pulse-doppler "
-# | "threshold knobs (**PD THRLD**) controls the threshold at which an echo is "
-# | "regarded as a contact, displayed on the DDD and tracked on the TID in RWS "
-# | "and TWS. The **CLEAR** knob controls the clear region threshold (upper "
-# | "half of the DDD) and the **CLUTTER** knob controls the clutter region "
-# | "(lower half of the DDD). Normally left in the counter-clockwise detents, "
-# | "letting the WCS automatically control them."
+# 逻辑错误，tracked on the TID。
+# clear到底实装了没？（按键内描述是无功能）
 #: ../../source/general.rst:1166
 msgid ""
 "On the left side of the DDD panel are located the PD THRLD (**26**), JAM/JET "
@@ -7080,12 +7081,15 @@ msgid ""
 "DDD). Normally left in the clockwise NORM detents, letting the WCS "
 "automatically control them."
 msgstr ""
-"PD THRLD（**26**）、JAM/JET（**24**）和 ACM THRLD（**25**）控制旋钮位于DDD面"
-"板的左侧。脉冲多普勒阈值旋钮（PD THRLD）控制着接受回波的阈值，阈值内的回波会"
-"作为目标显示在DDD上，RWS和TWS模式下该目标还会在TID上被跟踪。CLEAR旋钮控制着"
-"CLEAR区域阈值（DDD的上半部分），CLUTTER旋钮控制着CLUTTER区域的阈值。一般情况"
-"下这两个旋钮保持在NORM位置，由WCS自动控制。"
+"位于 DDD 面板的左侧的分别是 PD THRLD（ **26** ）、JAM/JET（ **24** ）和 ACM "
+"THRLD（ **25** ）控制旋钮。脉冲多普勒阈值旋钮（PD THRLD）用于控制一个回波视为"
+"一个接触的阈值，接触将会显示在 DDD 中，并在 RWS 模式和 TWS 模式下，在 TID 中"
+"显示出接触。**CLEAR** 旋钮控制着 CLEAR 区域（回波净区）阈值（DDD 的上半部"
+"分），**CLUTTER** 旋钮控制着 CLUTTER 区域（杂波区）的阈值（DDD 的下半部分）。"
+"在一般情况下，将旋钮顺时针转动到位于 NORM 档位的锁定机构中，使 WCS 自动控制阈"
+"值。"
 
+# regard this signal(echo) as a target?
 #: ../../source/general.rst:1171
 msgid ""
 "The **JAM/JET** control knob selects the threshold of what jamming intensity "
@@ -7094,13 +7098,14 @@ msgid ""
 "for what to regard as a target at ACM ranges. Normally left in the counter-"
 "clockwise detent, letting the WCS automatically control it."
 msgstr ""
-"**JAM/JET** 旋钮可以用来设置干扰强度阈值，高于这个值的发射器将被视为干扰源显"
-"示在TID上。 **ACM THRLD** 旋钮可以用来设置ACM模式下的目标阈值，通常保持在逆时"
-"针初始位置，由WCS自动控制。"
+"**JAM/JET** 旋钮用来设置干扰强度的阈值，高于设定值的发射极将被视为干扰机并在 "
+"TID 中使用干扰源射线将其指示出来。 **ACM THRLD** 旋钮可以用来设置 ACM 距离内"
+"将回波视为目标的阈值。在一般情况下，将旋钮逆时针转动至锁定机构中，使 WCS 自动"
+"控制阈值。"
 
 #: ../../source/general.rst:1174
 msgid "JAM/JET and ACM THRLD not currently implemented in DCS."
-msgstr "JAM/JET和ACM THRLD旋钮的功能在当前DCS中未被模拟。"
+msgstr "JAM/JET 和 ACM THRLD 旋钮的功能尚未实装至 DCS 中。"
 
 #: ../../source/general.rst:1180
 msgid "**Detail Data Display**"
@@ -7118,7 +7123,9 @@ msgstr "脉冲多普勒"
 msgid ""
 "The **DDD** screen itself shows either only radar return data or radar "
 "returns combined with symbology depending on radar mode."
-msgstr "**DDD** 屏幕会根据雷达模式显示不同的数据和符号组合。"
+msgstr ""
+"根据雷达模式的不同， **DDD** 屏幕本身可以显示仅雷达回波数据或雷达回波及其标识"
+"符。"
 
 #: ../../source/general.rst:1198
 msgid ""
@@ -7128,10 +7135,12 @@ msgid ""
 "on the bottom showing supposed jamming intensity of the detected targets. "
 "The screen shows rate vs azimuth in these modes."
 msgstr ""
-"在脉冲搜索模式下，显示屏仅显示雷达回波以及雷达回波的刷新与擦除动作，屏幕上的"
-"横轴与竖轴分别代表角度和距离。在脉冲多普勒模式下，屏幕底部添加自动增益跟踪，"
-"还会显示被探测目标的预测干扰强度，屏幕上的横轴与竖轴为方位角与接近率。"
+"在脉冲搜索模式下，屏幕中仅显示雷达回波以及可视化雷达扫掠与擦除扫掠。在此模式"
+"下，屏幕中会显示距离与方位。在脉冲多普勒模式下，屏幕底部还会增加一个 AGC "
+"TRACE，AGC TRACE 显示了探测到的目标的预测干扰强度。在此模式下，屏幕中会显示接"
+"近率与方位。"
 
+# 根据下文 HCU 部分推断，gate 门指雷达截获的门，而不是符号。
 #: ../../source/general.rst:1201
 msgid ""
 "In the two STT modes the display shows, in addition to the return from the "
@@ -7139,8 +7148,8 @@ msgid ""
 "indication on the right side and the attack symbology if in air-to-air mode "
 "and a missile is selected."
 msgstr ""
-"在两种STT模式下，除了显示目标回波外，还会显示追踪门的模式，目标的接近率（屏幕"
-"右侧），如果在空对空模式下且已经选择了一枚导弹，还会出现攻击指示符号。"
+"在两种 STT 模式下，除了目标的回波外，屏幕还将显示跟踪门（距离或接近率门）、位"
+"于右侧的接近率指示和攻击标识符（如果在空对空模式下并且已选择了导弹）。"
 
 #: ../../source/general.rst:1204
 msgid ""
@@ -7150,14 +7159,14 @@ msgid ""
 "doppler STT the AGC TRACE is added as well to give an indication of jamming "
 "strength. For information about the attack symbology see the VDIG section."
 msgstr ""
-"在脉冲STT模式中，目标符号会在屏幕上显示在与其真实位置对应的距离和方位角上。而"
-"在脉冲多普勒STT模式中目标距离指示移动到了屏幕的左侧，而生成的目标符号则位于正"
-"确的方位角上。在脉冲多普勒STT模式中还增加了自动增益控制轨迹，可以显示干扰强"
-"度。有关攻击符号的信息，请参阅VDIG部分。"
+"在脉冲 STT 模式下，目标标识显示在正确的方位和距离上，而在脉冲多普勒 STT 模式"
+"下，目标标识将移动至屏幕左侧，而不是在正确的方位上生成目标标识。在脉冲多普勒 "
+"STT 模式下，还增加显示了 AGC TRACE 来表示干扰强度。有关攻击标识符，详情参阅 "
+"VDIG 部分。"
 
 #: ../../source/general.rst:1208
 msgid "AGC TRACE not yet implemented."
-msgstr "自动增益控制目前还未模拟。"
+msgstr "AGC TRACE 尚未实装。"
 
 #: ../../source/general.rst:1210
 msgid ""
@@ -7168,15 +7177,15 @@ msgid ""
 "hooked on the TID the DDD switches to a ±10 scale centered on the target "
 "while the IFF returns are shown."
 msgstr ""
-"当使用IFF进行敌我识别时，如果雷达处于脉冲搜索模式，敌我识别信息将叠加在正常雷"
-"达图像上。当雷达处于脉冲多普勒搜索模式时，在显示敌我识别信息的同时，DDD会在之"
-"前设定的距离标尺下切显示距离（竖轴）与方位角（横轴）。在PD STT模式下，如果目"
-"标在TID上被“钩住”，则DDD会显示以目标为中心±10度的雷达图像，并显示敌我识别信"
-"息。"
+"在脉冲搜索模式下，当 IFF 问询器启动后，IFF 信息将会叠加显示在一般雷达回波上。"
+"在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示尺度将切换至先前设置距离尺"
+"度来显示距离和方位，在 PD STT 模式下，如果在 TID 选中了目标，当显示 IFF 返回"
+"时，那么 DDD 显示尺度将切换至目标为中心 ±10 尺度。"
 
+# 2020/06/25 AG 校对至此
 #: ../../source/general.rst:1218
 msgid "Tactical Information Display (TID) and Associated Controls"
-msgstr "战术信息显示器（TID）与相关控制"
+msgstr "战术信息显示器（TID）与相关控制器"
 
 #: ../../source/general.rst:1221
 msgid ""
@@ -7188,14 +7197,15 @@ msgid ""
 "secondary roles as a display for entering data into the WCS, for navigation, "
 "for INS alignment and for the on board checkout, OBC."
 msgstr ""
-"TID是WCS系统的主要数据显示器。它会向RIO显示战术信息，可以用来识别和选择目标并"
-"向目标发射远距离空对空武器。你可以把它想象成一张战场信息的俯视图，显示所有的"
-"轨迹和符号的相对位置，只不过不显示地表特征。它还可以作为显示屏用于WCS和导航系"
-"统数据输入，INS校准以及机上检查。"
+"TID 是 WCS 的主要数据显示器。TID 向 RIO 显示战术信息，显示的战术信息用来识别"
+"和选择用于 F-14 “雄猫”上的远程武器的目标。将 TID 想象成一张俯视地图，所有显示"
+"出的跟踪以及符号都会以相对应的坐标显示在这张地图中，但是 TID 不会显示出地面/"
+"水面地物（地图）。同时 TID 还作为次要角色用于显示输入数据至 WCS、导航、INS 对"
+"准和机上检查（OBC）。"
 
 #: ../../source/general.rst:1226
 msgid "**TID Display Control Knobs**"
-msgstr "**TID显示控制旋钮**"
+msgstr "**TID 显示控制旋钮**"
 
 #: ../../source/general.rst:1228
 msgid ""
@@ -7204,18 +7214,21 @@ msgid ""
 "the overall brightness of the TID. Both settings will depend on user "
 "preference and ambient lighting."
 msgstr ""
-"在TID的上方边缘处有两个显示控制旋钮（ **2 & 4** ）。左边的旋钮控制TCS的显示对"
-"比度，右边的旋钮控制TID的整体亮度，一般根据使用习惯和当前环境亮度来调整。"
+"在 TID 的上方边缘处包含有两个显示控制旋钮（ **2 & 4** ）。左边的旋钮用于控制 "
+"TCS 的显示对比度，右边的旋钮用来控制 TID 的整体亮度。一般根据使用习惯和当前环"
+"境亮度来调整。"
 
 #: ../../source/general.rst:1232
 msgid "**INS and Navigational Controls**"
-msgstr "**INS和导航控制**"
+msgstr "**INS 和导航控制器**"
 
 #: ../../source/general.rst:1234
 msgid ""
 "On the upper left corner of the TID is the status display for the INS "
 "(**1**), used to indicate status of the INS and its alignment."
-msgstr "INS状态指示灯位于TID左上角（ **1** ），用来指示INS状态和校准。"
+msgstr ""
+"位于 TID 左上角的是 INS 状态指示器（ **1** ），状态指示器用来指示 INS 的状态"
+"和对准状态。"
 
 #: ../../source/general.rst:1236
 msgid ""
@@ -7223,8 +7236,8 @@ msgid ""
 "side (**12**) controls and selects the INS or AHRS mode to use. It also "
 "allows for INS alignment."
 msgstr ""
-"TID的两侧有两个旋钮。左侧的旋钮（ **12** ）控制着INS和AHRS（姿态航向基准系"
-"统）模式，可以使用它来切换到INS校准模式。"
+"TID 的两侧包含有两个旋钮。左侧的旋钮（ **12** ）用来控制和选择使用 INS 或 "
+"AHRS（姿态航向基准系统）模式。同时这个旋钮还用于进行 INS 对准。"
 
 #: ../../source/general.rst:1239
 msgid ""
@@ -7233,9 +7246,9 @@ msgid ""
 "different waypoints stored in the WCS. MAN position is used only for "
 "aircraft with TARPS mounted."
 msgstr ""
-"当前座驾驶员选择RIO设置的航路点作为转向点时，右侧的旋钮（ **6** ）可以用来选"
-"择存储在WCS中的不同航路点作为当前转向点，需要注意的是MAN选项只适用于装备了"
-"TARPS的飞机。"
+"右侧的旋钮（ **6** ）用来控制在飞行员选择目标点转向时，转向的目标。旋钮用来在"
+"存储在 WCS 中的不同的航路点之间进行选择。MAN 档位仅用于在飞机挂载了 TARPS 时"
+"使用。"
 
 #: ../../source/general.rst:1242
 msgid ""
@@ -7243,9 +7256,11 @@ msgid ""
 "TID (**5**). It's used to indicate the type of steering information "
 "currently displayed to the pilot."
 msgstr ""
-"与这个旋钮相邻的是TID右上方边缘的指示器（ **5** ）它可以指示当前显示给飞行员"
-"的转向信息的类型。"
+"在 TID 右上方位于边缘处、右侧旋钮一旁的是读数滚筒（ **5** ）。读数滚筒用于指"
+"示当前提供给飞行员的转向信息的类型。"
 
+# 计算出的拦截转向（LD CLSN） -- 参见 TWS-A 文章
+# 恒定角度拦截转向（CLSN） -- NATOPS
 #: ../../source/general.rst:1245
 msgid ""
 "Possible steering type shown are: destination (DEST), data link command "
@@ -7253,13 +7268,13 @@ msgid ""
 "(CLSN), lead pursuit steering (LD PURST), pursuit steering (PURST), TACAN "
 "radial (TACAN) and manually set commanded heading (MAN)."
 msgstr ""
-"这个指示器可以显示的信息类型有：目标（DEST），数据链路指令航向（D/L），方位导"
-"引拦截转向（LD CLSN），拦截转向（CLSN），导引跟踪转向（LD PURST），跟踪转向"
-"（PURST），塔康径向（TACAN）和手动设置指令航向（MAN）。"
+"读数滚筒可显示的转向信息类型有：目标（DEST）、数据链路指令航向（D/L）、计算出"
+"的拦截转向（LD CLSN）、恒定角度拦截转向（CLSN），计算出的导引转向（LD "
+"PURST），纯追逐导引转向（PURST），塔康（TACAN）和手动设置指令航向（MAN）。"
 
 #: ../../source/general.rst:1249
 msgid "**TID Data Readout Drum**"
-msgstr "**TID数据读取指示器**"
+msgstr "**TID 数据读数滚筒**"
 
 #: ../../source/general.rst:1251
 msgid ""
@@ -7269,9 +7284,9 @@ msgid ""
 "(WAY PT, ST, FIX PT, IP and HB), own aircraft (OWN A/C), first priority "
 "target (TGT 1) and SYMBOL."
 msgstr ""
-"在TID的正上方是数据读取指示器（ **3** ）。它用于指示在TID上显示数据的数据来"
-"源。它可以显示的不同信息有：导航系统中的不同航路点（WAY PT、ST、FIX PT、IP "
-"和 HB），本机（OWN A/C），首要目标（TGT 1）和SYMBOL。"
+"在 TID 的上方是数据读数指示器滚筒（ **3** ）。数据读数指示器用于在 TID 文本读"
+"数中指示数据的来源。可显示的读数分别为：导航系统中不同的航路点（WAY PT、ST、"
+"FIX PT、IP 和 HB）、本机（OWN A/C）、首要目标（TGT 1）和 SYMBOL。"
 
 #: ../../source/general.rst:1254
 msgid ""
@@ -7280,19 +7295,23 @@ msgid ""
 "show a blank face to indicate the data source as one not having its own "
 "indicator text and which has no symbol on the TID."
 msgstr ""
-"当显示SYMBOL时表示在指示器中没有与TID上被勾选的标识的数据来源类型相对应的文"
-"字。在上述情况下，指示器上也会显示为空白，TID上也不会显示任何符号。"
+"当在 TID 中选中一个符号，但数据读数指示器中显示 SYMBOL 时，则表示选中的符号在"
+"滚筒中没有其对应的指示器文字。在上述情况下，指示器上也会显示为空白，TID 上也"
+"不会显示任何符号。数据源没有对应的指示器文字以及在 TID 中没有对应符号时，滚筒"
+"显示为空白。"
 
 #: ../../source/general.rst:1258
 msgid "**TRACK HOLD and CLSN buttons**"
-msgstr "**TRACK HOLD按钮与CLSN按钮**"
+msgstr "**TRACK HOLD 按钮与 CLSN 按钮**"
 
 #: ../../source/general.rst:1260
 msgid ""
 "Below the selector knobs on the sides of the TID are two buttons with "
 "indicator lights, one on each side. The lights illuminates green to indicate "
 "selection."
-msgstr "在TID的两侧旋钮的下方也两个带有指示灯的按钮，按下后会亮起绿色指示灯。"
+msgstr ""
+"在上述 TID 两侧选择旋钮下方的是两个带有指示灯光的按钮，TID 每侧各一个按钮。绿"
+"色灯光亮起表示已选择按钮。"
 
 #: ../../source/general.rst:1262
 msgid ""
@@ -7302,10 +7321,11 @@ msgid ""
 "minutes for all tracks. If disabled it reverts to the standard 14 second "
 "period, whereafter the targets will be dropped if no new observations occur."
 msgstr ""
-"在左侧的是 **TRACK HOLD** 按钮（ **11** ）该按钮用于启用“目标保留”功能。通"
-"常，在TWS模式下，TID上显示的目标会符号在最后被发现的位置保留14秒，按下这个按"
-"钮会使这个时间会被延长至2分钟。如果再次按下按钮会关闭这个功能，如果没有被再次"
-"扫描到，TID上的目标符号将会在14秒后消失。"
+"在 TID 左侧的是 **TRACK HOLD** 按钮（ **11** ），TRACK HOLD 按钮用于启用跟踪"
+"保持功能。通常，在 TWS 模式下，TID 中的目标会在最后一次观测到后开始保留在屏幕"
+"中14秒。按下跟踪保持功能会将所有目标保留的时间延长至2分钟。如果再次按下 "
+"TRACK HOLD 按钮，那么保留的时间将会恢复至标准的14秒一个周期，在14秒过后如果没"
+"再次观测到目标，那么目标将会被丢弃。"
 
 #: ../../source/general.rst:1265
 msgid ""
@@ -7314,13 +7334,13 @@ msgid ""
 "the current steering information presented to the pilot with the collision "
 "steering, only exception being if the pilot selects the ACM."
 msgstr ""
-"在右侧的是 **CLSN** 按钮（ **7** ），该按钮会为当前正在TWS模式下跟踪的目标设"
-"置拦截航线并为飞行员提供导航信息，除非在ACM模式下，否则该导航信息会覆盖之前的"
-"导航信息。"
+"在 TID 右侧的是 **CLSN** 按钮（ **7** ），CLSN 按钮用于启用恒量角度拦截转向至"
+"当前跟踪的目标或重心（如果在 TWS 模式下时）。除了飞行员选择了 ACM 模式外，按"
+"下按钮恒量角度拦截转向将会越控当前提供给飞行员的转向信息。"
 
 #: ../../source/general.rst:1269
 msgid "**TID Control Panel**"
-msgstr "**TID控制面板**"
+msgstr "**TID 控制面板**"
 
 #: ../../source/general.rst:1271
 msgid ""
@@ -7329,9 +7349,9 @@ msgid ""
 "active. It also contains two selector knobs controlling display scale and "
 "TID mode. The buttons are:"
 msgstr ""
-"在TID的下方是TID控制面板（ **8** ）。这个面板上有8个按钮，分别控制着在TID上显"
-"示的符号，按钮激活时会亮起绿灯。按钮下方还有两个分别控制着显示刻度和TID模式的"
-"旋钮。这些按钮的功能分别是："
+"在 TID 的下方是 TID 控制面板（ **8** ）。TID 控制面板上有8个按钮，分别用于选"
+"择在 TID 中显示的标识符，绿色灯光亮起表示已启用按钮。TID 控制面板上还包含有两"
+"个选择旋钮，分别控制这显示尺度和 TID 模式。这些按钮分别是："
 
 #: ../../source/general.rst:1278 ../../source/general.rst:4499
 #: ../../source/general.rst:4602 ../../source/general.rst:4648
@@ -7352,103 +7372,79 @@ msgstr "功能"
 
 #: ../../source/general.rst:1280
 msgid "RID DISABLE"
-msgstr "禁用RID"
+msgstr "禁用 RID"
 
 #: ../../source/general.rst:1280
 msgid "Not implemented."
-msgstr "未模拟。"
+msgstr "尚未实装。"
 
 #: ../../source/general.rst:1282
 msgid "ALT NUM"
-msgstr ""
+msgstr "ALT NUM"
 
 #: ../../source/general.rst:0
 msgid ""
 "Altitude numerals, enables display of track altitudes on the left side of "
 "track symbols."
-msgstr "高度数字按钮，激活这个按钮后会在目标符号的左侧显示目标高度。"
+msgstr "高度数字按钮，启用显示跟踪符号左侧的跟踪高度。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Altitude numerals, enables display of track altitudes on the left side of "
-# | "track symbols. Shows a single digit representing ten-thousands of feet, 1 "
-# | "as an example indicating an altitude of between 5 000 and 15 000 feet."
 #: ../../source/general.rst:0
 msgid ""
 "Shows a single digit representing ten-thousands of feet, 1 as an example "
 "indicating an altitude of between 5 000 and 15 000 feet."
 msgstr ""
-"目标高度数值以万英尺为单位。比如说显示数字为1，表示目标高度在5000到15000 英尺"
-"之间。"
+"目标高度数值单位为万英尺，比如说显示数字为1，表示目标高度在5000到15000英尺之"
+"间。"
 
 #: ../../source/general.rst:1285
 msgid "SYM ELEM"
-msgstr ""
+msgstr "SYM ELEM"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Symbology elements, enables display of all supplementary symbology of "
-# | "tracks and waypoints. If deselected all tracks and waypoints are "
-# | "represented only as dots on the TID."
 #: ../../source/general.rst:0
 msgid ""
 "Symbology elements, enables display of all supplementary symbology of tracks "
 "and waypoints."
-msgstr "符号按钮，激活这个按钮会让TID上显示目标和航路点的补充符号。"
+msgstr "符号补充标识，启用显示所有用于跟踪和航路点的补充标识符。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Symbology elements, enables display of all supplementary symbology of "
-# | "tracks and waypoints. If deselected all tracks and waypoints are "
-# | "represented only as dots on the TID."
 #: ../../source/general.rst:0
 msgid ""
 "If deselected all tracks and waypoints are represented only as dots on the "
 "TID."
-msgstr "如果关闭这个按钮，TID上的目标和航路点都会显示为一样的点。"
+msgstr "如果关闭这个按钮，那么所有跟踪和航路点都将在 TID 中以一个点显示出来。"
 
 #: ../../source/general.rst:1288
 msgid "DATA LINK"
-msgstr ""
+msgstr "DATA LINK"
 
 #: ../../source/general.rst:1288
 msgid "Enables display of data link tracks."
-msgstr "数据链路按钮，激活这个按钮会在TID上显示来自数据链路的目标信息。"
+msgstr "数据链路按钮，启用显示数据链路跟踪。"
 
 #: ../../source/general.rst:1290
 msgid "JAM STROBE"
-msgstr ""
+msgstr "JAM STROBE"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid "Enables display of data link tracks."
 #: ../../source/general.rst:0
 msgid "Enables display of jam strobes on the TID."
-msgstr "干扰源按钮，用于在 TID 中显示干扰源。"
+msgstr "干扰源射线按钮，启用在 TID 中显示干扰源射线。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Enables display of jam strobes on the TID. Jamming targets exceeding the "
-# | "JAM/JET setting on the DDD are shown if enabled. Not yet implemented."
 #: ../../source/general.rst:0
 msgid ""
 "Jamming targets exceeding the JAM/JET setting on the DDD are shown if "
 "enabled. Not yet implemented."
 msgstr ""
-"激活该按钮可以在TID上显示超过DDD面板设置的JAM/JET阈值的干扰源，未模拟。"
+"启用后，将显示超出 DDD 中设定的 JAM/JET 阈值的对雷达进行干扰的目标。尚未实"
+"装。"
 
 #: ../../source/general.rst:1293
 msgid "NON-ATTK"
-msgstr ""
+msgstr "NON-ATTK"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Non-attack, enables or disables display of targets which aren't possible "
-# | "to engage. Friendly targets being an example."
 #: ../../source/general.rst:0
 msgid ""
 "Non-attack, enables or disables display of targets which aren't possible to "
 "engage."
-msgstr "激活该按钮会在TID上显示你不能攻击的目标。"
+msgstr "不可攻击按钮，用来启用和禁用显示不能攻击的目标。"
 
 #: ../../source/general.rst:0
 msgid "Friendly targets being an example."
@@ -7456,35 +7452,29 @@ msgstr "如，友军飞机。"
 
 #: ../../source/general.rst:1296
 msgid "VEL VECTOR"
-msgstr ""
+msgstr "VEL VECTOR"
 
 #: ../../source/general.rst:1296
 msgid "Velocity vector, enables display of velocity vectors on tracks."
-msgstr "速度矢量按钮，激活该按钮可以在TID上显示目标的速度矢量。"
+msgstr "速度矢量按钮，启用显示目标的垂直速率。"
 
 #: ../../source/general.rst:1298
 msgid "LAUNCH ZONE"
-msgstr ""
+msgstr "LAUNCH ZONE"
 
 #: ../../source/general.rst:0
 msgid ""
 "Enables display of weapon launch zones depending on selected missile type."
-msgstr "发射距离按钮，根据选定的导弹类型来显示相应的武器发射区间。"
+msgstr "发射区按钮，根据所选的导弹的类型启用显示武器发射区。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid ""
-# | "Enables display of weapon launch zones depending on selected missile "
-# | "type. These replace the velocity vectors on relevant targets. This "
-# | "function is automatically enabled by the WCS 60 seconds prior to a target "
-# | "entering maximum launch range."
 #: ../../source/general.rst:0
 msgid ""
 "These replace the velocity vectors on relevant targets. This function is "
 "automatically enabled by the WCS 60 seconds prior to a target entering "
 "maximum launch range."
 msgstr ""
-"发射距离符号会替代目标的速度矢量符号。在目标进入最大发射距离前60秒，WCS会自动"
-"启动该功能。"
+"发射区代替了相关目标中的速度矢量。这项功能会由 WCS 在目标进入最大发射距离前60"
+"时自动启用。"
 
 #: ../../source/general.rst:1302
 msgid ""
@@ -7499,13 +7489,14 @@ msgid ""
 "the TCS for display on the TID. Disables normal tactical presentation on the "
 "TID and on the HSD."
 msgstr ""
-"TID模式控制旋钮（ **10** ）位于面板左侧。 **GND STAB** （对地稳定）模式下，"
-"TID显示器以地面为参照物，可以被视为一个地图，屏幕上方就是正北方向，当飞机图标"
-"在显示器上移动时，显示器背景是固定的。 **A/C STAB** （相对飞机稳定）模式下，"
-"TID显示器以飞机本身为参照物，飞机图标固定于显示器下方中心，正上方永远是当前飞"
-"行航向。 **ATTK** （攻击）模式下TID显示器的显示逻辑与A/C STAB相同，但是叠加了"
-"攻击指示符号的显示。 **TV** 模式下，TID和HSD会暂时停止显示战术信息，而显示TCS"
-"的图像。"
+"TID 面板中左侧选择旋钮用来控制 TID 显示模式（ **10** ）。 **GND STAB** （相对"
+"地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，"
+"显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 **A/C STAB** （相对"
+"飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，"
+"本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。"
+"**ATTK** （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。"
+"**TV** 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD "
+"上的一般战术信息。"
 
 #: ../../source/general.rst:1308
 msgid ""
@@ -7514,13 +7505,14 @@ msgid ""
 "200 and 400 nautical miles, the greater ranges being useful to show data "
 "link information outside of own radar range."
 msgstr ""
-"右侧的旋钮（ **9** ）可以用来设置TID的显示范围，选择不同的数字可以将TID的显示"
-"范围分别设置为25、50、100、200和400海里。较大的显示范围可以用来显示雷达探测距"
-"离之外的数据链路信息。"
+"右侧的选择旋钮用来设置 TID 的显示尺度，设置所选的距离为显示直径。可用的显示距"
+"离分别为25海里、50海里、100海里、200海里和400海里，更大的显示距离可用于显示雷"
+"达探测距离外的数据链路信息。"
 
+# 2020/06/26 AG 校对至此
 #: ../../source/general.rst:1313
 msgid "TID Data Readouts"
-msgstr "TID数据显示"
+msgstr "TID 数据读数"
 
 #: ../../source/general.rst:1318
 msgid "Indicator"
@@ -7535,68 +7527,74 @@ msgid ""
 "Shows data that the RIO is currently entering into the WCS. Comparable to a "
 "scratchpad in newer aircraft. Functionality further expanded upon in the CAP "
 "section."
-msgstr "显示当前RIO正在输入WCS的数据。该功能会在CAP部分有进一步的说明。"
+msgstr ""
+"显示当前 RIO 正在输入至 WCS 中的数据。该功能在 CAP 部分有进一步的说明。"
 
 #: ../../source/general.rst:1322
 msgid "Data Readouts"
-msgstr "数据信息"
+msgstr "数据读数"
 
+# Readouts showing data selected for readout from the WCS can be, as example, data from hooked tracks or own aircraft.
 #: ../../source/general.rst:1322
 msgid ""
 "Readouts showing data selected for readout from the WCS. Can be, as "
 "examples, data from hooked tracks or own aircraft. Functionality further "
 "expanded upon in the CAP section."
 msgstr ""
-"显示为从WCS中选择的读取数据。比如说选中的目标信息或本机数据。该功能在CAP部分"
-"有进一步的说明。"
+"读数为显示 WCS 中的数据用于读数，例如，显示的读数可以是选中的跟踪的或本机的数"
+"据。这个功能在 CAP 部分有进一步的描述。"
 
 #: ../../source/general.rst:1324
 msgid "Computer Run Indicators"
-msgstr "计算机运行读数"
+msgstr "计算机运行指示器"
 
+# 有歧义
+#  program,cycles running?
+#  program cycles, is running?
 #: ../../source/general.rst:1324
 msgid ""
 "Readouts showing WCS program cycles running. Should continuously cycle "
 "numbers, if not this indicates a freeze or lockup in the WCS computer."
 msgstr ""
-"显示着WCS程序中循环运行的读数。这个读数应该是连续循环变化的，如果不是，则表示"
-"WCS计算机被锁定或者死机。"
+"读数显示 WCS 程序正在循环运行着。这个读数应该是连续地循环地数字，如果不是，则"
+"表示 WCS 计算机锁死或者死机。"
 
 #: ../../source/general.rst:1326
 msgid "Antenna Elevation"
-msgstr "雷达天线角度"
+msgstr "雷达天线仰角"
 
 #: ../../source/general.rst:1326
 msgid ""
 "Shows current AN/AWG-9 radar antenna elevation if in STT or scan pattern "
 "elevation center if in a search mode."
 msgstr ""
-"该读数在STT模式中显示当前AN/AWG-9雷达天线角度，在搜索模式中显示当前天线扫描的"
-"中心角度。"
+"这个读数，如果在 STT 模式中，那么将显示当前 AN/AWG-9 雷达天线的仰角，或是如果"
+"在搜索模式下，则将显示栅状扫描仰角的中心。"
 
 #: ../../source/general.rst:1328
 msgid "Scan Pattern Limits"
-msgstr "雷达扫描高度区间"
+msgstr "栅状扫描极限"
 
 #: ../../source/general.rst:1328
 msgid ""
 "Shows altitude limits of currently selected scan pattern at set TID display "
 "range in thousands of feet."
-msgstr ""
-"以千英尺为单位在TID上显示当前TID显示范围下的雷达扫描的高度上限与高度下限。"
+msgstr "读数显示在设定的 TID 显示距离中，当前所选栅状扫描的高度极限。"
 
 #: ../../source/general.rst:1330
 msgid "Navigation Status"
 msgstr "导航系统状态"
 
+# IM for INS 错误。IN ✔
+# differs from不严谨。
 #: ../../source/general.rst:1330
 msgid ""
 "Shows current status of the navigation system, IM for INS, AH for AHRS and "
 "an alternating MV if the manual magnetic variation differs from calculated "
 "magnetic variation."
 msgstr ""
-"显示导航系统的当前状态，IN表示INS，AH表示AHRS，如果手动设置的磁偏量与计算的磁"
-"偏量不同，则显示MV。"
+"读数显示当前导航系统的状态，IN 表示 INS，AH 表示 AHRS，如果手动输入的磁差和计"
+"算出的磁差的差超过一定值，那么 MV 将会和当前的状态交替显示。"
 
 #: ../../source/general.rst:1332
 msgid "Target Closing Rate"
@@ -7608,12 +7606,12 @@ msgid ""
 "tenth of knots. A plus sign indicates that the track is closing and a minus "
 "that the track is opening the distance to own aircraft."
 msgstr ""
-"以节为单位显示STT锁定的目标或者TWS模式下选中的目标的接近率，数字前方的＋号代"
-"表目标正在靠近，﹣号代表目标正在远离。"
+"读数以接近率最近的10节的倍数显示 STT 目标的或 TWS 模式下选中的目标的接近率。"
+"数字旁的＋号代表跟踪正在接近本机，﹣号代表跟踪正在离开本机。"
 
 #: ../../source/general.rst:1334
 msgid "Selected Weapon"
-msgstr "空对空武器类型"
+msgstr "选定的武器"
 
 #: ../../source/general.rst:1334
 msgid ""
@@ -7622,21 +7620,21 @@ msgid ""
 "number of missiles of the selected type that are ready for launch. Display "
 "is blank in air-to-ground mode."
 msgstr ""
-"显示当前选择的空对空武器类型，G表示机炮，SW表示响尾蛇导弹，SP表示麻雀导弹，PH"
-"表示不死鸟导弹。SP和PH后面的数字指示已经准备好发射的相应导弹数目。在空对地模"
-"式下这个位置不显示符号。"
+"读数显示当前选择的空对空武器，G 表示机炮，SW 表示\"响尾蛇\"导弹，SP 表示\"麻"
+"雀\"导弹，PH 表示\"不死鸟\"导弹。SP 和 PH 同时还将指示所选的导弹类型，准备好"
+"发射的数量。在空对地模式下，读数为空白。"
 
 #: ../../source/general.rst:1345
 msgid "TID Symbology"
-msgstr "TID上的符号信息"
+msgstr "TID 标识符"
 
 #: ../../source/general.rst:1348
 msgid "Element"
-msgstr "名称"
+msgstr "标识"
 
 #: ../../source/general.rst:1348
 msgid "Shape"
-msgstr "图标"
+msgstr "形状"
 
 #: ../../source/general.rst:1350
 msgid "Center Dot"
@@ -7646,11 +7644,12 @@ msgstr "中心点"
 msgid ""
 "Marks coordinates of symbol, basic component of all symbols representing a "
 "coordinate."
-msgstr "用来标记位置的符号，是TID显示的符号中最基础的。"
+msgstr "用于标记符号的坐标，所有符号最基本的组成部分，用于对应一个坐标。"
 
+# 2020/06/27 AG 校对至此
 #: ../../source/general.rst:1354
 msgid "Own Aircraft"
-msgstr "本机符号"
+msgstr "本机"
 
 #: ../../source/general.rst:1354
 msgid ""
@@ -7662,25 +7661,26 @@ msgid ""
 "aircraft symbol. This can occur due to the TID offset function or due to the "
 "symbol moving on the display in the ground stabilized display mode."
 msgstr ""
-"代表自己飞机的符号，这个符号还会显示本机的天线扫描限制与干扰频闪。在GND STAB"
-"模式下这个符号会在TID上移动并显示速度矢量。在 A/C STAB模式和ATTK模式下这个符"
-"号是固定不动的。如果在GND STAB模式下或者操作TID位移功能使这个符号移动出了TID"
-"显示范围，那么显示屏上会出现一条从中心到符号位置的连线来指示其位置。"
+"代表本机的符号。天线扫描极限和干扰源射线都从这个符号延伸。在 GND STAB 模式"
+"下，符号会在 TID 中移动并显示速度矢量。在 A/C STAB 模式和 ATTK 模式下这个符号"
+"是固定不动的。如果本机符号移动到了 TID 显示距离外，那么显示器的中心将延伸出一"
+"条线至屏幕边缘，来指示本机符号的方向。显示延伸线可能是 TID 偏置功能或由于本机"
+"符号在相对地面稳定模式下在屏幕中移动导致的。"
 
 #: ../../source/general.rst:1359
 msgid "TID Cursor"
-msgstr "TID光标"
+msgstr "TID 光标"
 
 #: ../../source/general.rst:0
 msgid "Circle used as a hook cursor. Controlled by the HCU when in TID mode."
-msgstr "用于选择数据信息的圆形光标，在TID模式下由HCU控制。"
+msgstr "用作选中光标的圆环。在 TID 模式下，由 HUC 控制。"
 
 #: ../../source/general.rst:0
 msgid ""
 "Half-action on the HCU enables display of the symbol and also enables the "
 "HCU stick to move the cursor."
 msgstr ""
-"按下HCU控制杆扳机的第一段可以激活此光标，同时使用HCU控制杆来控制光标的移动。"
+"按下扳机第一段启用符号显示，按下扳机第一段同时还将启用 HCU 来移动光标。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -7688,8 +7688,8 @@ msgid ""
 "deflection of the stick always represents the same location on the TID "
 "allowing the RIO to train muscle memory for higher symbol hook speeds."
 msgstr ""
-"光标的位置由控制杆的偏转量控制，这意味着HCU控制杆的固定偏转量总是对应相同的位"
-"置。所以熟练的RIO可以通过肌肉记忆更快的将光标移动至所需位置。"
+"光标的位置是通过偏转控制杆来设置的。这表示控制杆偏转的位置始终对应光标在 TID "
+"中的位置，这使得 RIO 可以通过肌肉记忆来提高选中符号的速度。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -7699,25 +7699,25 @@ msgid ""
 "dropped at that location and brightens to indicate that a position hook has "
 "occured."
 msgstr ""
-"完全按下HCU控制杆的扳机会选择位于光标中心0.125英寸范围内最近的符号，被选择的"
-"符号会高亮显示。如果周围没有符号，那么光标会在此位置高亮显示以表示选择了该位"
-"置，此时光标将无法继续移动。"
+"如果一个符号位于光标中心0.125英寸的范围内，按下 HCU 扳机第二段将选中一个最近"
+"的符号。选中的符号将会高亮来指示已选中。如果不是选中符号而是空白，那么光标将"
+"会固定在选中的位置并高亮来指示选中了光标所处的位置。"
 
 #: ../../source/general.rst:0
 msgid ""
 "To re-enable cursor usage after a position hook (or to release position "
 "hook) half-action is selected and released."
 msgstr ""
-"如果想要让光标可以继续移动，需要再次按下HCU控制杆扳机第一段，可以释放对符号的"
-"选定。"
+"如需在选中了空白位置（或释放选中的位置）后重新启用光标选中功能，按下扳机第一"
+"段并释放。"
 
 #: ../../source/general.rst:1368
 msgid "TWS Steering Centroid"
-msgstr "TWS拦截点"
+msgstr "TWS 转向质心"
 
 #: ../../source/general.rst:1368
 msgid "Steering centroid of TWS tracks selected by WCS for weapons engagement."
-msgstr "TWS模式计算机计算的目标拦截点。"
+msgstr "TWS 跟踪的转向质心由 WCS 选择来用于武器攻击。"
 
 #: ../../source/general.rst:1373
 msgid "**Onboard Sensor Targets**"
@@ -7725,63 +7725,64 @@ msgstr "**机载传感器目标**"
 
 #: ../../source/general.rst:1375 ../../source/general.rst:1412
 msgid "Unknown"
-msgstr "未知"
+msgstr "不明"
 
 #: ../../source/general.rst:1375
 msgid "Unknown sensor track in RWS, TWS and STT modes."
-msgstr "来自RWS，TWS，STT模式下的未知目标。"
+msgstr "RWS、TWS 和 STT 模式下的不明传感器跟踪。"
 
 #: ../../source/general.rst:1380 ../../source/general.rst:1417
 msgid "Hostile"
-msgstr "敌对目标"
+msgstr "敌机"
 
 #: ../../source/general.rst:1380
 msgid "Track in TWS and STT modes designated as hostile by RIO."
-msgstr "在TWS或者STT模式下被跟踪并被RIO标记为敌人的目标。"
+msgstr "TWS 和 STT 模式下，由 RIO 指定为敌机的跟踪。"
 
 #: ../../source/general.rst:1385 ../../source/general.rst:1422
 msgid "Friend"
-msgstr "友军目标"
+msgstr "友机"
 
 #: ../../source/general.rst:1385
 msgid "Track in TWS and STT modes designated as friendly by RIO."
-msgstr "在TWS或者STT模式下被跟踪并被RIO标记为友军的目标。"
+msgstr "TWS 或 STT 模式下，由 RIO 标记为友机的跟踪。"
 
+# 2020/06/28 AG 校对至此
 #: ../../source/general.rst:1390
 msgid "Angle-Tracked Radar Target"
-msgstr "仅进行角度跟踪的雷达目标"
+msgstr "角跟踪的雷达目标"
 
 #: ../../source/general.rst:1390
 msgid "Radar target tracked only in angle (jamming target)."
-msgstr "雷达仅能对其测角，而不能测距的目标（自带干扰的目标）。"
+msgstr "仅能够角跟踪的目标（干扰中的目标）。"
 
 #: ../../source/general.rst:1395
 msgid "Angle-Tracked Radar Target with Altitude Difference Ranging"
-msgstr "由高度差测距的角度跟踪雷达目标"
+msgstr "带有通过高度差测距的，角跟踪的雷达目标"
 
 #: ../../source/general.rst:1395
 msgid ""
 "Radar target being tracked in angle only and range being computed by "
 "altitude difference ranging."
-msgstr "雷达仅跟踪目标角度，距离通过高度差测距计算。"
+msgstr "仅角跟踪的雷达目标，通过高度差测距来计算离本机的距离。"
 
 #: ../../source/general.rst:1400
 msgid "TCS-Angle Tracked Target"
-msgstr "TCS角度跟踪目标"
+msgstr "TCS 角跟踪目标"
 
 #: ../../source/general.rst:1400
 msgid "Target being tracked in angle by TCS."
-msgstr "由TCS跟踪角度的目标。"
+msgstr "通过 TCS 角跟踪的目标。"
 
 #: ../../source/general.rst:1405
 msgid "TCS-Angle Tracked Target with Altitude Difference Ranging"
-msgstr "由高度差测距的TCS角度跟踪目标"
+msgstr "带有高度差测距的 TCS 角跟踪的目标"
 
 #: ../../source/general.rst:1405
 msgid ""
 "Target being tracked in angle by TCS and range being computed by angle "
 "difference ranging."
-msgstr "TCS跟踪目标角度，距离通过高度差测距计算。"
+msgstr "通过 TCS 进行角跟踪的目标，通过角度差测距计算离本机的距离。"
 
 #: ../../source/general.rst:1410
 msgid "**Data Link Targets**"
@@ -7789,19 +7790,19 @@ msgstr "**数据链路目标**"
 
 #: ../../source/general.rst:1412
 msgid "Data link track identified as unknown by source."
-msgstr "来自数据链路的未知目标。"
+msgstr "数据源识别为不明的数据链路跟踪。"
 
 #: ../../source/general.rst:1417
 msgid "Data link track identified as hostile by source."
-msgstr "来自数据链路且被识别为敌军的目标。"
+msgstr "数据源识别为敌机的数据链路跟踪。"
 
 #: ../../source/general.rst:1422
 msgid "Data link track identified as friendly by source."
-msgstr "来自数据链路且被识别为友军的目标。"
+msgstr "数据源识别为友机的数据链路跟踪。"
 
 #: ../../source/general.rst:1427
 msgid "**Manually Entered Reference Points**"
-msgstr "**手动输入的航路点**"
+msgstr "**手动输入的参考点**"
 
 #: ../../source/general.rst:1429
 msgid "Home base"
@@ -7819,7 +7820,7 @@ msgstr "航路点"
 msgid ""
 "WCS navigational waypoint, supplanted by number indicating waypoint 1, 2 or "
 "3."
-msgstr "WCS导航路点，一般表示为航路点1，2和3。"
+msgstr "WCS 导航航路点，由数字指示航路点1、2和3。"
 
 #: ../../source/general.rst:1439
 msgid "Defended Point"
@@ -7827,11 +7828,12 @@ msgstr "防御点"
 
 #: ../../source/general.rst:1439
 msgid "Waypoint used to show area to protect."
-msgstr "用来显示需要保护区域的航路点。"
+msgstr "用来显示需要保护的区域的航路点。"
 
+# fixed point
 #: ../../source/general.rst:1444
 msgid "Fix Point"
-msgstr "定点"
+msgstr "固定点"
 
 #: ../../source/general.rst:1444
 msgid "Generic fix-point waypoint."
@@ -7859,7 +7861,7 @@ msgstr "IP"
 
 #: ../../source/general.rst:1459
 msgid "Waypoint used for air-to-ground engagement, see :ref:`CIP`."
-msgstr "用于空对地攻击的航路点，详情参考\\ :ref:`CIP`\\ 。"
+msgstr "用于空对地攻击的航路点，详情参考 :ref:`CIP` 。"
 
 #: ../../source/general.rst:1464
 msgid "**Data Link Reference Points**"
@@ -7879,7 +7881,7 @@ msgstr "数据链路通用航路点。"
 
 #: ../../source/general.rst:1476
 msgid "Data Link Fix Point"
-msgstr "数据链路固定航路点"
+msgstr "数据链路固定点"
 
 #: ../../source/general.rst:1476
 msgid "Data link waypoint representing a fixed point."
@@ -7887,11 +7889,11 @@ msgstr "表示固定的数据链路航路点。"
 
 #: ../../source/general.rst:1481
 msgid "Data link waypoint representing a surface target."
-msgstr "指示地面目标的数据链路航路点。"
+msgstr "表示地面/水面目标的数据链路航路点。"
 
 #: ../../source/general.rst:1486
 msgid "**Position Symbol Modifiers**"
-msgstr "**附加符号信息**"
+msgstr "**位置符号修饰符**"
 
 #: ../../source/general.rst:1488
 msgid "Mandatory Attack"
@@ -7903,12 +7905,12 @@ msgid ""
 "selected as mandatory attack by the RIO. Only one target can be designated "
 "thusly and always receives an engagment priority number."
 msgstr ""
-"该附加符号（符号上有一条穿过中心点的水平线）表示在TWS模式下被RIO选择的强制攻"
-"击目标，只能指定一个目标为强制攻击目标而且该目标会优先获得数字标识。"
+"通过 RIO 选择强制攻击一个 TWS 跟踪时的附加标识符（穿过中心点的一根横线）。仅"
+"能通过这种方式指定一个目标为强制攻击，强制攻击的目标始终会被分配发射序号。"
 
 #: ../../source/general.rst:1493
 msgid "Data link Destroy"
-msgstr "来自数据链路的待摧毁目标"
+msgstr "数据链路待摧毁目标"
 
 #: ../../source/general.rst:1493
 msgid ""
@@ -7916,8 +7918,8 @@ msgid ""
 "dot) designated to be destroyed by data link source. Does not affect target "
 "prioritization in WCS."
 msgstr ""
-"该附加符号（符号上有一条穿过中心点的水平线）表示这个来自数据链路的目标需要被"
-"摧毁。该符号不会影响WCS系统中的目标优先级。"
+"由数据链路数据源指定为待摧毁的数据链路跟踪上的附加标识符（穿过中心点的一根横"
+"线）。不会影响 WCS 中的目标优先级。"
 
 #: ../../source/general.rst:1498
 msgid "Do Not Attack"
@@ -7929,9 +7931,9 @@ msgid ""
 "center dot) designated as do not attack (by RIO) or disengage (via data "
 "link). If set by RIO removes target from WCS target prioritization."
 msgstr ""
-"该附加符号（符号上有一条穿过中心点的垂直线）表示这个来自雷达TWS或者数据链路的"
-"目标被RIO或者数据链路设置为禁止攻击目标。如果是由RIO设置的，那么该目标将会被"
-"从WCS系统优先级中删除。"
+"一个 TWS 跟踪或数据链路跟踪上的附加标识符（穿过中心点的垂线），附加符号表示跟"
+"踪被指定为禁止攻击（通过 RIO）或取消攻击（通过数据链路）。如果是由 RIO 设置的"
+"话，那么将从 WCS 目标的优先级中移除该目标。"
 
 #: ../../source/general.rst:1503
 msgid "Multiple Targets"
@@ -7943,8 +7945,8 @@ msgid ""
 "side of symbol) indicating that the track represents multiple targets. Can "
 "be set manually by RIO or recieved via data link."
 msgstr ""
-"该附加符号（符号左侧有一对水平线）表示这个目标符号代表着多个目标。可以通过数"
-"据链路接受这个信息或者由RIO手动设置。"
+"表示一个 TWS 跟踪或数据链路跟踪中有多个目标的附加标识符。可以通过数据链路接收"
+"或者通过 RIO 手动设置。"
 
 #: ../../source/general.rst:1508
 msgid "Data Link Challenge"
@@ -7954,7 +7956,9 @@ msgstr "需要目视识别"
 msgid ""
 "Additional symbology on a data link track (small V with apex at center dot) "
 "representing data link command to visually identify target."
-msgstr "该附加符号（符号中心有一个v型标志）表示数据链路指示目标需要目视识别。"
+msgstr ""
+"一个数据链路跟踪上由数据链路指令进行目视识别目标的附加标识符（顶点位于中心的"
+"的小 V）。"
 
 #: ../../source/general.rst:1513
 msgid "Track Extrapolated"
@@ -7966,31 +7970,30 @@ msgid ""
 "indicating that no update to target has occured within 8 seconds. Track will "
 "be deleted after 14 seconds or 2 minutes if track hold function is enabled."
 msgstr ""
-"这个附加符号（符号中心有一个x标志）表示在STT或者TWS模式下已经超过8秒没有跟踪"
-"到这个目标。若这个目标没有在14秒内被雷达再次搜索到，则该表示将被删除。如果启"
-"用了目标持续追踪功能（TRACK HOLD）则删除时间延长为2分钟。"
+"TWS 或 STT 跟踪上的附加标识符（中心位于中心点的小 X），符号表示在8秒内目标没"
+"有更新。跟踪将在14秒后或2分钟后（如果启用跟踪保持功能）删除。"
 
 #: ../../source/general.rst:1518
 msgid "Hooked Symbol"
-msgstr "符号被选择"
+msgstr "选中的符号"
 
 #: ../../source/general.rst:1518
 msgid "Symbol brightens"
-msgstr "高亮显示"
+msgstr "符号高亮"
 
 #: ../../source/general.rst:1518
 msgid ""
 "When a symbol is hooked by HCU or CAP functions it brightens to indicate "
 "hook."
-msgstr "当TID上的符号被HCU或者CAP选择时，它便会高亮显示。"
+msgstr "当通过 HCU 或 CAP 选中符号时，符号高亮表示已选中。"
 
 #: ../../source/general.rst:1520
 msgid "Target Under Missile Attack"
-msgstr "导弹攻击的目标"
+msgstr "导弹正在攻击的目标"
 
 #: ../../source/general.rst:1520
 msgid "Target track symbol brightens"
-msgstr "目标符号高亮显示"
+msgstr "跟踪符号高亮"
 
 #: ../../source/general.rst:1520
 msgid ""
@@ -7998,24 +8001,24 @@ msgid ""
 "during computed missile flight time plus 15 seconds to indicate missile "
 "engagement in progress."
 msgstr ""
-"在TWS或者STT模式下用导弹攻击目标时，目标符号会在预计导弹飞行时间加15秒内高亮"
-"显示以表示该目标正在被导弹攻击。"
+"TWS 和 STT 模式下，在计算出的导弹飞行时间+15秒内，本机攻击的跟踪符号将高亮显"
+"示表示正在用导弹攻击目标。"
 
 #: ../../source/general.rst:1522
 msgid "Target in Optimum Missile Launch Zone"
-msgstr "目标位于最佳导弹发射区间"
+msgstr "目标位于最佳导弹发射区内"
 
 #: ../../source/general.rst:1522
 msgid "Target track symbol blinks"
-msgstr "目标符号闪烁"
+msgstr "跟踪符号闪烁"
 
 #: ../../source/general.rst:1522
 msgid ""
 "In TWS and STT symbols, launch zones and firing order numerics of target "
 "tracks blink when time to optimum missile range is less than 8 seconds."
 msgstr ""
-"在TWS或者STT模式下，当飞机到达最佳导弹发射区间所需要的时间小于8秒时，目标符号"
-"和开火次序数字会开始闪烁。"
+"TWS 模式或 STT 模式下的符号中，当到最佳导弹发射区时间小于8秒时跟踪的发射区和"
+"发射序号将会闪烁。"
 
 #: ../../source/general.rst:1524
 msgid "Altitude Numerics"
@@ -8028,13 +8031,13 @@ msgid ""
 "number four as an examples indicate an altitude between 35,000 and 45,000 "
 "feet. Available on radar and data link tracks."
 msgstr ""
-"当开启高度显示时，目标符号的左侧会出现一个以10000英尺为单位指示目标高度的数"
-"字，比如说，数字4代表该目标高度在35000英尺到45000英尺之间。通过雷达和数据链路"
-"获取的目标都可以显示该信息。"
+"当选择在跟踪符号左侧显示高度数字时，高度数字用来指示跟踪的高度（高度显示为跟"
+"踪最近的万英尺高度）。以数字4为例，4表示跟踪高度在35000英尺到45000英尺之间。"
+"高度数字在雷达或数据链路跟踪符号中可用。"
 
 #: ../../source/general.rst:1529
 msgid "Firing Order Numerics"
-msgstr "开火次序"
+msgstr "发射序号"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8043,28 +8046,29 @@ msgid ""
 "number from that track to advance the other 5 track numbers one step to "
 "prepare for next launch."
 msgstr ""
-"在TWS模式下，WCS会以1到6为编号给AIM-54不死鸟导弹设置目标优先级（开火顺序），"
-"第一发导弹攻击1号目标，以此类推。发射后目标符号上的编号会消失，余下的目标优先"
-"级自动前进一位（数字减1），以便为之后的导弹发射做准备。"
+"当在 TWS 模式下，序号用于表示 AIM-54 “不死鸟”的目标优先级。下一枚发射的导弹目"
+"标为1号优先级跟踪，导弹发射后跟踪的需要将被移除来让其它5个跟踪的序号前进一来"
+"为下一次发射做好准备。"
 
 #: ../../source/general.rst:0
 msgid ""
 "Mandatory attack selection on a target forces the WCS to always include that "
 "target in the prioritization."
-msgstr "如果设置了强制攻击目标，该目标将始终被包含在攻击优先级序列内。"
+msgstr ""
+"如果设置了目标为强制攻击，那么将强制 WCS 始终将强制的目标算入优先级内。"
 
 #: ../../source/general.rst:0
 msgid ""
 "Next launch selection automatically sets hooked target as number one in the "
 "prioritization queue."
-msgstr ""
-"按下NEXT LAUNCH 开关（位于武器控制面板）会将当前“钩住”的目标自动设为优先级队"
-"列的第一位。"
+msgstr "按下 NEXT LAUNCH 开关将自动设置选中的目标为1号优先级目标。"
 
 #: ../../source/general.rst:1535
 msgid "Time-to-Impact (TTI)"
-msgstr "撞击时间（TTI）"
+msgstr "命中时间（TTI）"
 
+# 不严谨 showing WCS calculated 【time until missile intercepts the target track】
+# 句尾加进入主动雷达制导避免歧义。
 #: ../../source/general.rst:1535
 msgid ""
 "After AIM-54 launch the firing order number on a track is replaced with the "
@@ -8072,10 +8076,12 @@ msgid ""
 "intercepts the target track. When the AIM-54 active command is sent the TTI "
 "numbers flash to indicate this."
 msgstr ""
-"在AIM-54发射后，目标符号左侧的开火顺序数字会被TTI（撞击时间指示）替换，这个时"
-"间代表着WCS计算的导弹命中目标前的剩余时间。当发出激活AIM-54主动导引头的指令"
-"时，TTI数字会闪烁。"
+"AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间替代，TTI 显示了 WCS 计算"
+"出的导弹拦截目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁"
+"表示导引头已开机。（注：这里的导引头开机表示从半主动雷达制导至主动雷达制"
+"导）。"
 
+# 2020/06/29 AG 校对至此
 #: ../../source/general.rst:1540
 msgid "Velocity Vector"
 msgstr "速度矢量"
@@ -8084,24 +8090,23 @@ msgstr "速度矢量"
 msgid ""
 "Velocity vector emanating from center dot of tracks when velocity vector "
 "display is selected."
-msgstr ""
-"当开启速度矢量显示时，会在目标符号中心增加一个显示该目标速度矢量的符号。"
+msgstr "当启用显示速度矢量时，速度矢量将从跟踪的中心点延伸出来。"
 
 #: ../../source/general.rst:0
 msgid ""
 "Vector direction represents track heading and length represents track speed "
 "so that the max indicated speed (1 800 knots) is 1.5 inches on the TID."
 msgstr ""
-"该矢量符号的方向代表了目标当前航向，符号长度代表了目标速度。该符号可以指示的"
-"最大长度为1.5英寸（1800节）。"
+"速度矢量的方向表示跟踪的航向，速度矢量线的长度表示跟踪的速度，可指示的最高速"
+"度为1800节，TID 中线的长度为1.5英寸。"
 
 #: ../../source/general.rst:0
 msgid ""
 "In TID ground stabilized mode the vector direction represents track true "
 "heading and the vector length represents track ground speed."
 msgstr ""
-"在TID处于GND STAB模式下时，矢量符号方向表示目标的真航向，矢量长度表示目标的地"
-"速。"
+"TID 显示模式在相对地面稳定模式下时，速度矢量的方向表示跟踪的真航向，速度矢量"
+"中线的长度表示跟踪的地速。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8109,20 +8114,20 @@ msgid ""
 "track relative heading (to own aircraft) and the vector length represents "
 "track speed relative to own aircraft."
 msgstr ""
-"在TID处于A/C STAB模式或者攻击模式时，矢量方向表示目标相对于本机的相对航向，矢"
-"量速度表示目标与本机之间的相对速度。"
+"TID 显示模式在相对飞机稳定模式和攻击模式下时，速度矢量的方向表示跟踪的相对航"
+"向（相对本机），速度矢量线的长度表示跟踪相对本机的速度。"
 
 #: ../../source/general.rst:1548
 msgid "Launch Zone Vectors"
-msgstr "发射距离矢量"
+msgstr "发射区矢量"
 
 #: ../../source/general.rst:1552
 msgid ""
 "TUMR (Time Until Minimum Range), TUOR (Time Until Optimum Range) and TUIR "
 "(Time Until In-Range/Maximum Range)"
 msgstr ""
-"TUMR（到达最小发射距离的时间），TUOR（到达最佳发射距离的时间）和TUIR（到达最"
-"大发射距离的时间）"
+"TUMR（到最小发射距离的时间），TUOR（到最佳发射距离的时间）和 TUIR（到发射距离"
+"内/最大发射距离的时间）"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8130,8 +8135,8 @@ msgid ""
 "maximum launch range is less than 60 seconds and replaces the normal track "
 "velocity vectors."
 msgstr ""
-"发射距离矢量符号的显示会在到达最大发射距离的时间小于60秒时自动激活，也可以由"
-"RIO手动开启。这个符号会替换正常的速度矢量符号。"
+"发射区矢量标识符由 RIO 手动启用或当到最大发射距离的时间小于60秒时启用，标识符"
+"启用后将替换正常跟踪速度矢量。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8141,9 +8146,10 @@ msgid ""
 "shorten and move towards the center dot on the target (which represents "
 "Rmin). If the vector becomes zero length, you are at AIM-54 Rmin."
 msgstr ""
-"该矢量符号的长度表示到达最小发射距离的时间，最大值为180秒（显示长度为1.5英"
-"寸）。当到达最小发射距离的时间不足180秒时，这个符号会向目标中心缩短长度，当长"
-"度为0时，表示该目标当前距离小于AIM-54的最小射程。"
+"在发射区矢量中，跟踪符号的速度矢量线的长度表示到 Rmin 的时间，到 Rmin 最长时"
+"间限制为180秒（速度矢量线显示的长度为1.5英寸）。当到 Rmin 时间少于180秒时，速"
+"度矢量线的长度缩短，同时向跟踪的中心点移动（代表 Rmin）。如果速度矢量线的长度"
+"为0，则表示到达 AIM-54 的 Rmin。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8154,10 +8160,11 @@ msgid ""
 "The dot disappears when you are closer than Rmax to the target (i.e. time-"
 "until-Rmax, a.k.a. time-until-in-range is now essentially negative)."
 msgstr ""
-"该矢量符号上有另一个加粗的点（原本符号中心表示目标的点之外），矢量线到点的距"
-"离代表到达最大发射距离的时间。当矢量线长度缩短至该点时表示目标位于导弹最大射"
-"程，随着目标的继续靠近矢量线会继续缩短，当到目标的距离小于最大射程时，这个点"
-"将不再显示。"
+"同时还有第二个点在这条速度矢量线中，速度矢量线的末端到第二个点的距离表示到 "
+"Rmax 的时间（又称为到发射距离内时间）。也就是说，当速度矢量线缩短至第二个点时"
+"（速度矢量末端到达第二个点），则表示你处在 Rmax 了（到目标的最大发射距离）。"
+"当你超过 Rmax（即，到 Rmax 的时间，又称为到发射距离内时间为负数）后，第二个点"
+"将会消失。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8165,22 +8172,24 @@ msgid ""
 "optimum missile launch range. When the vector end reaches the bar the time "
 "until in optimal range is 8 seconds."
 msgstr ""
-"该矢量符号上的加粗部分表示了导弹的最佳发射距离，当符号缩短至加粗部分时，表示"
-"目标离到达最佳发射距离的时间还有8秒。"
+"发射区速度矢量中的粗线条（框）表示最佳导弹发射距离。当速度矢量末端到达这跟粗"
+"线时，表示到最佳发射距离的时间还剩8秒。"
 
 #: ../../source/general.rst:1564
 msgid "Jamming Strobe"
-msgstr "干扰源指示"
+msgstr "干扰源射线"
 
 #: ../../source/general.rst:1564
 msgid ""
 "Line extending from own aircraft symbol to edge of TID to indicate a jammer "
 "exceeding the set JAM/JET threshold."
-msgstr "由本机延伸出的一条指示线指向超出设定的JAM/JET阈值的干扰源。"
+msgstr ""
+"从本机符号延伸至 TID 屏幕边缘的线，线条用来指示超过设定的 JAM/JET 阈值的干扰"
+"机。"
 
 #: ../../source/general.rst:1569
 msgid "Radar Antenna Scan Pattern Azimuth Limits"
-msgstr "雷达天线扫描角度指示"
+msgstr "雷达天线栅状扫描方位角限制"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -8188,38 +8197,38 @@ msgid ""
 "lines extending from own aircraft symbol. Each dash and space represent 20 "
 "nautical miles each in all radar modes."
 msgstr ""
-"由本机符号向前方两侧延申出的V字虚线，代表了当前雷达扫描角度范围。在所有雷达模"
-"式下，每段虚线代表的距离为20海里。"
+"表示雷达栅状扫描中，扫描方位角的限制，在屏幕中由两条从本机符号延伸出的虚线表"
+"示。在所有雷达模式下，每根虚线中的单根实线和实线之间间断部分都表示为20海里。"
 
 #: ../../source/general.rst:0
 msgid ""
 "In STT the two lines converge to a single tracking strobe to indicate that "
 "the antenna tracks a single target."
-msgstr ""
-"在STT模式下，这两条虚线会汇聚为一条线指向当前正在跟踪的目标，同时闪烁以表示雷"
-"达正在跟踪单个目标。"
+msgstr "在 STT 模式下，两条线将汇聚为单个跟踪射线来指示天线正在跟踪单个目标。"
 
 #: ../../source/general.rst:1574
 msgid "Data Link Jamming Strobe"
-msgstr "数据链路干扰源指示"
+msgstr "数据链路干扰源射线"
 
 #: ../../source/general.rst:1574
 msgid ""
 "Jamming strobe received via data link indicated by a line emanating from a "
 "data link point towards the jammers direction."
 msgstr ""
-"由数据链路节点发出的指示线，指向该数据链路节点目前所受到干扰的干扰源方向。"
+"通过数据链路接收到的干扰源射线，数据链路干扰源射线由数据链路点指向干扰机方向"
+"的线条指示。"
 
 #: ../../source/general.rst:1579
 msgid "Data Link Pointer"
-msgstr "数据链路目标标记"
+msgstr "数据链路光标"
 
 #: ../../source/general.rst:1579
 msgid ""
 "Brightened cursor (circle) around a data link track used to indicate data "
 "link operator concern about the specific track."
 msgstr ""
-"在数据链路目标周围出现一圈高亮标记的光标（光圈），表示该目标需要特别关注。"
+"在数据链路跟踪周围的高亮光标（光环），高亮光标用来指示数据链路的操作员对特定"
+"的跟踪十分关注。"
 
 #: ../../source/general.rst:1584
 msgid "Data link Priority Kill"
@@ -8230,12 +8239,12 @@ msgid ""
 "Additional symbology on a data link track indicating a target that must be "
 "destroyed. Will not by itself affect WCS prioritization."
 msgstr ""
-"这个附加符号表示这个来自数据链路的目标必须被摧毁，不过这个符号不会影响WCS系统"
-"中的目标优先级。"
+"数据链路跟踪中附加的标识符，这个标识符用于指示必须被摧毁的目标。标识符不会影"
+"响 WCS 中的优先级序号。"
 
 #: ../../source/general.rst:1589
 msgid "**Attack Display Symbols**"
-msgstr "**攻击符号信息**"
+msgstr "**攻击模式显示的符号**"
 
 #: ../../source/general.rst:1591
 msgid "Artificial Horizon"
@@ -8246,12 +8255,12 @@ msgid ""
 "Artificial horizon on TID representing aircraft roll and pitch. Angle of the "
 "line represents roll and vertical deflection on display represents pitch."
 msgstr ""
-"TID上的人工地平线用来指示飞机的俯仰姿态与滚转姿态，人工地平线的角度表示飞机此"
-"时的滚转角度，在TID显示屏上的垂直位移表示飞机的俯仰角。"
+"TID 中的人工地平线符号表示飞机的滚转和俯仰。线有偏转角度则表示滚转，在显示器"
+"中垂直偏转则表示俯仰。"
 
 #: ../../source/general.rst:1596
 msgid "Steering Guidance Symbol"
-msgstr "转向提示符"
+msgstr "转向引导符号"
 
 #: ../../source/general.rst:1596
 msgid ""
@@ -8259,39 +8268,42 @@ msgid ""
 "Should be placed by the pilot as near as possible to the center of the ASE "
 "circle and at launch should be inside of that same circle."
 msgstr ""
-"指示最佳导弹发射方向的符号。在进行导弹攻击时应尽量将该符号靠近ASE圆的圆心，在"
-"发射导弹时应该将该符号保持在ASE圆内。"
+"转向引导符号表示最佳导弹发射方向的转向误差。飞行员应尽可能将这个符号保持在 "
+"ASE 圆环的中心，并在发射导弹时也将这个符号保持在 ASE 圆环内。"
 
 #: ../../source/general.rst:1601
 msgid "Allowable Steering Error Circle"
-msgstr "允许转向误差圆"
+msgstr "允许转向误差圆环"
 
 #: ../../source/general.rst:1601
 msgid ""
 "ASE circle used to indicate the allowable steering error for missile launch. "
 "Size varies with attack geometry, mode and selected missile."
 msgstr ""
-"ASE圆用于指示导弹发射允许的转向误差。它的大小随攻击路线、模式和所选则的导弹而"
-"变化。"
+"ASE 圆环用于指示发射导弹的允许转向误差。圆环的大小随攻击路线、模式和所选的导"
+"弹而变化。"
 
 #: ../../source/general.rst:1606
 msgid "Breakaway Indication"
 msgstr "脱离指示"
 
+# 不光只是导弹会出现，有歧义。
 #: ../../source/general.rst:1606
 msgid ""
 "Large cross appearing in the center of the TID when target range is less "
 "than minimum missile launch range."
-msgstr "当目标距离小于导弹最小发射距离时，TID中心会出现此符号。"
+msgstr "当目标的距离小于最小发射距离时，TID 中心会出现一个大叉。"
 
 #: ../../source/general.rst:1612
 msgid "Some of these symbols pertain to functions not yet implemented in DCS."
-msgstr "一些符号所相关的功能在DCS中尚未实现。"
+msgstr "上述的一些符号与尚未实装至 DCS 的功能有关。"
 
+# 2020/06/30 AG 校对至此
 #: ../../source/general.rst:1618
 msgid "Navigation Command and Control Grid (NAV GRID)"
 msgstr "导航指令与控制网格（NAV GRID）"
 
+# TID readout what？hooked？
 #: ../../source/general.rst:1622
 msgid ""
 "The Navigation Command and Control Grid or **NAV GRID** was designed to "
@@ -8305,11 +8317,13 @@ msgid ""
 "originates."
 msgstr ""
 "导航指令与控制网格或称为 **NAV GRID** 旨在从共同的固定参考点更简单的导航或进"
-"行 CAP 任务。它可以显示TID中被设定好参考点的方位与距离，称为 **YY** 。NAV "
-"GRID启用时，在TID中显示的距离与方位用于选中并且本机标识是相对于 **YY** 的。此"
-"外，它还会显示出一个网格，网格由从 YY 延伸至威胁的轴线构成。网格本身就是为了"
-"快速获取位置参考，同时对选中的目标精确读数。这就是 NAV GRID 命名的由来。"
+"行 CAP 任务。NAV GRID 可使 TID 显示选中/跟踪相对被设定好的参考点的方位和距"
+"离，这个参考点称为 **YY** 。当 NAV GRID 启用时，对于选中和本机来说，显示的距"
+"离和方位都是相对于 **YY** 的。此外，它还会显示出一个网格，网格由从 YY 延伸至"
+"设定的威胁轴线构成。网格本身就是为了快速获取位置参考，同时对选中的目标精确读"
+"数。这就是 NAV GRID 命名的由来。"
 
+# range，A--0-49,B--50-100,etc
 #: ../../source/general.rst:1629
 msgid ""
 "Lastly it also allows for display of something called **Voice Codes**. These "
@@ -8319,9 +8333,10 @@ msgid ""
 "range. **A** would indicate 0-50nm while **B** indicates 50-100nm and so on "
 "for consecutive letters."
 msgstr ""
-"最后，它还能够显示称为 **Voice Codes** 的东西。如果选择了 **ALT NUM** 则 TID "
-"中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 **YY** 方位"
-"（15为方位150）后面的字母表示距离。A表示0-50海里，B表示50-100海里，依此类推。"
+"最后，它还能够显示称为 **Voice Codes** 的东西。如果选择了 **ALT NUM** ，那么 "
+"TID 中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 **YY** "
+"方位（15为方位150）后面的字母表示距离。A表示0-50海里，B表示50-100海里，依此类"
+"推。"
 
 #: ../../source/general.rst:1632
 msgid ""
@@ -8331,9 +8346,9 @@ msgid ""
 "addition to the normal functionality the **Ownship Symbol** will always "
 "display its **Voice Code**."
 msgstr ""
-"标准的 NAV GRID 显示模式为 **GND STAB** 并且此模式使得网格可见。如果选择 **A/"
-"C STAB** 或 **ATTK** 显示模式，则仅显示 **Voice Code**，但除了常规功能外， "
-"**Ownship Symbol** 将始终显示其 **Voice Code** 。"
+"标准的 NAV GRID 显示模式为 **GND STAB** 并且在此模式下可使得网格可见。如果选"
+"择 **A/C STAB** 或 **ATTK** 显示模式，则仅显示 **Voice Code**，但除了常规功能"
+"外， **本机符号** 将始终显示其 **Voice Code** 。"
 
 #: ../../source/general.rst:1635
 msgid ""
@@ -8346,10 +8361,11 @@ msgid ""
 "sectors. Along the sector demarkation lines are drawn range indicator marks "
 "at 50nm intervals, the 50nm marks being shorter than the even 100nm markers."
 msgstr ""
-"默认情况下网格原点 **YY** 位于TID的边缘，向威胁延伸出轴线。网格可以设置显示1"
-"到6个扇区，并且都有轮廓，一个扇区由两条线组成，则6个扇区为7条线。扇区的大小取"
-"决于全部网格覆盖范围，最高可达180度，然后根据选择的扇区数划分。沿着扇区分界线"
-"每间隔50海里有个提示符标记，50海里的标记比100海里的稍短一点。"
+"默认情况下网格原点 **YY** 被置于 TID 屏幕的边缘，并朝设定的威胁轴线向外延伸。"
+"网格可以设置显示1到6个扇区，并且每个扇区都有轮廓线，这就表示一个扇区将显示两"
+"根轮廓线来指示扇区的极限，6个扇区则有7根轮廓线。扇区的大小取决于全部网格覆盖"
+"范围，覆盖范围最高可达180度，然后根据选择的扇区数来划分。沿着扇区分界线每间隔"
+"50海里有个刻度标记，50海里的标记比100海里的稍短一点。"
 
 #: ../../source/general.rst:1640
 msgid ""
@@ -8357,8 +8373,8 @@ msgid ""
 "via the HCU. To reset the offset, cycle to any aircraft stabilized mode and "
 "back to **GND STAB**."
 msgstr ""
-"RIO 可以通过 HCU 偏置对地稳定视图及网格。要重置偏置的话，转至任何稳定模式然后"
-"返回 **GND STAB** 。"
+"RIO 可以正常的通过 HCU 来偏置相对地面稳定视图及网格。要重置偏置的话，转至任何"
+"相对稳定模式然后返回 **GND STAB** 。"
 
 #: ../../source/general.rst:1642
 msgid ""
@@ -8367,11 +8383,9 @@ msgid ""
 "**YY** set to the bulls-eye. The only real limitation being the grid only "
 "displaying along the threat axis and not all around."
 msgstr ""
-"虽然此功能最初的目的是为了舰队防御，但在DCS中将 **YY** 设为靶眼时，可以很好的"
-"作为一个参考。唯一真正限制网格的是仅显示威胁轴线，而不是周围。"
+"虽然此功能最初的目的是为了舰队防御，但在 DCS 中将 **YY** 设为靶眼时，可以很好"
+"的作为一个参考。唯一真正的显示是，网格仅沿威胁轴线显示，而不是屏幕。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# | msgid "TCS Operation"
 #: ../../source/general.rst:1647 ../../source/general.rst:2588
 msgid "Operation"
 msgstr "操作"
@@ -8394,18 +8408,18 @@ msgstr "选择 **CAP MESSAGE** 按钮对应 **NAV GRID** 。"
 
 #: ../../source/general.rst:1659
 msgid "Enter grid coverage angle using the **ALT/4** button on the CAP."
-msgstr "在CAP上使用 **ALT/4** 按钮输入网格角度覆盖范围。"
+msgstr "在 CAP 中使用 **ALT/4** 按钮输入网格覆盖范围的角度。"
 
 #: ../../source/general.rst:1659
 msgid ""
 "Press **CLEAR**, **ALT/4** and enter desired grid coverage angle followed by "
 "**ENTER**."
 msgstr ""
-"点击 **CLEAR** ， **ALT/4** 并输入网格角度覆盖范围接着按下 **ENTER** 。"
+"点击 **CLEAR** ， **ALT/4** 并输入网格覆盖范围的角度接着按下 **ENTER** 。"
 
 #: ../../source/general.rst:1661
 msgid "Enter numbers of grid sectors using the **NBR/2** button on the CAP."
-msgstr "使用CAP上的 **NBR/2** 按钮输入网格扇区数。"
+msgstr "使用 CAP 中的 **NBR/2** 按钮输入网格扇区数。"
 
 #: ../../source/general.rst:1661
 msgid ""
@@ -8413,26 +8427,30 @@ msgid ""
 "**ENTER**."
 msgstr "按下 **CLEAR** ， **NBR/2** 接着输入扇区数，然后按下 **ENTER** 。"
 
+# missing RNG/BRG 0 Enter range and bearing of YY from own aircraft.
 #: ../../source/general.rst:1663
 msgid ""
 "Enter **YY** location using the **LAT/1** and **LONG/6** or **RNG/5** and "
 "**BRG/0** CAP buttons."
 msgstr ""
-"使用 **LAT/1** 和 **LONG/6** 或 **RNG/5** 和 **BRG/0** CAP按钮来输入 **YY** "
-"坐标。"
+"使用 **LAT/1** 和 **LONG/6** 或 **RNG/5** 和 **BRG/0** CAP 按钮来输入 **YY** "
+"的位置。"
 
 #: ../../source/general.rst:1663
 msgid ""
 "Press **CLEAR**, **LAT/1** and enter desired latitude followed by **ENTER**."
 msgstr "按下 **CLEAR** ， **LAT/1** 然后输入纬度，接着按下 **ENTER** 。"
 
+# or
+# RNG/BRG - Enter range and bearing of YY from own aircraft.？
+# instead of用错了。
 #: ../../source/general.rst:1665
 msgid ""
 "Repeat for longitude using **LONG/6** or use **RNG/5** and **BRG/0** instead "
 "of both for **YY** location referenced from own aircraft position."
 msgstr ""
-"同上使用 **LONG/6** 输入经度，或使用 **RNG/5** 和 **BRG/0** 从本机输入 "
-"**YY** 的距离与方位。"
+"同上使用 **LONG/6** 输入经度，或使用 **RNG/5** 和 **BRG/0** 从本机位置输入 "
+"**YY** 相对本机的距离和方位。"
 
 #: ../../source/general.rst:1667
 msgid "Enter the threat axis using the **HDG/8** CAP button."
@@ -8453,16 +8471,17 @@ msgid ""
 "display and data entry and not enters new data into a previous readout "
 "instead. This is further detailed under :ref:`CAP`."
 msgstr ""
-"首先按下 **CLEAR** 以确保重置先前选择的读数，以便随后按下前缀可以设置新读数用"
-"于显示和输入数据，而不是将新数据输入至之前的读数。详情请参阅 :ref:`CAP` 。"
+"首先按下 **CLEAR** 以确保重置先前选择的读数，这是为了方便随后按下前缀可以设置"
+"新读数用于显示和输入数据，而不是将新数据输入至之前选择的读数中。详情请参阅 :"
+"ref:`CAP` 。"
 
 #: ../../source/general.rst:1672
 msgid ""
 "Modification and display of the **NAV GRID** readouts are available **in NAV "
 "GRID** with no hook present, i.e. **OWN A/C** as hook."
 msgstr ""
-"在 **NAV GRID** 无显示数据源时 **NAV GRID** 的读数也可以修改和显示，例如 "
-"**OWN A/C** 为选中数据源。"
+"**在 NAV GRID 中** 没有任何选中时， **NAV GRID** 的读数也可以修改和显示，即 "
+"**OWN A/C** 为选中。"
 
 #: ../../source/general.rst:0
 msgid "Note 3"
@@ -8473,9 +8492,10 @@ msgid ""
 "Enter **NAV GRID** from the tactical display (**GND STAB**), do not attempt "
 "to enter it during alignment."
 msgstr ""
-"从战术信息显示器（ **GND STAB** ）输入 **NAV GRID** ，请勿尝试在对准过程中输"
+"从战术信息显示器（ **GND STAB** ）进入 **NAV GRID** ，请勿尝试在对准过程中进"
 "入。"
 
+# 2020/07/01 AG 校对至此
 #: ../../source/general.rst:1678
 msgid "NAV GRID exit"
 msgstr "NAV GRID 退出"
@@ -8485,7 +8505,7 @@ msgid ""
 "To exit **NAV GRID** deselect the **CAP MESSAGE** button corresponding to "
 "**NAV GRID** under the **D/L** category on the **CAP**."
 msgstr ""
-"要退出 **NAV GRID** ，取消选择CAP上 **D/L** CATEGORY对应的 **CAP MESSAGE** 按"
+"如需退出 **NAV GRID** ，取消选择 CAP 中 **D/L** 类对应的 **CAP MESSAGE** 按"
 "钮 **NAV GRID** 。"
 
 #: ../../source/general.rst:1684
@@ -8511,17 +8531,16 @@ msgid ""
 "parameters via the Jester wheel. He can enter **YY** using the same methods "
 "available for waypoints as well as entering a waypoint's location as **YY**."
 msgstr ""
-"Jester冷启动时必须通过指令菜单来让他调整这些参数。他可以用输入航路点同样的方"
-"法来输入 **YY** 。"
+"和 Jester 一起冷启动时必须通过指令菜单来让他调整这些参数。他可以用和输入航路"
+"点同样的方法来输入 **YY** 。"
 
-# NAV GRID标题到此需校对
 #: ../../source/general.rst:1691
 msgid "With a human RIO he/she will have to enter it manually."
-msgstr "人类RIO他/她必须手动输入它。"
+msgstr "人类 RIO 他/她必须手动输入 YY。"
 
 #: ../../source/general.rst:1701
 msgid "Hand Control Unit (HCU)"
-msgstr "HCU控制器（HCU）"
+msgstr "手控装置（HCU）"
 
 #: ../../source/general.rst:1704
 msgid ""
@@ -8529,12 +8548,13 @@ msgid ""
 "input controlling the RIO WCS displays. It contains the power controls and "
 "indicators for the WCS and TCS in addition to the stick and it's controls."
 msgstr ""
-"HUC主要由操作杆和相关的开关组成。RIO主要通过HUC对WCS进行控制，其除了上述的操"
-"作杆和开关之外，还包括WCS和TCS的电源开关及指示器。"
+"手控装置（HCU）控制杆和面板上相应的控制器是控制 RIO WCS 显示器的主要输入元"
+"件。除了控制杆和面板上的控制器外，HCU 面板中还包括了 WCS 的和 TCS 的电源控制"
+"以及指示灯。"
 
 #: ../../source/general.rst:1707
 msgid "**HCU Power Controls and Indicators**"
-msgstr "**HCU电源控制和指示器**"
+msgstr "**HCU 电源控制和指示灯**"
 
 #: ../../source/general.rst:1709
 msgid ""
@@ -8550,14 +8570,14 @@ msgid ""
 "turn off until the radar startup timer times out. To reset radar cycle to "
 "standby and back to on."
 msgstr ""
-"位于HCU上部边缘指示灯分别是IR/TV过热指示灯（ **2** ），电源复位指示灯"
-"（ **4** ）和WCS电源指示灯（ **6** ）。当位于STBY或者ON POSITION位置时，IR/TV"
-"电源指示灯亮起表明TCS还未准备就绪。当TCS准备就绪后，如果处于STBY模式，该指示"
-"灯将保持点亮状态；若处于ON POSITION则该指示灯将会熄灭。电源复位指示灯亮起表示"
-"一个或多个二级电源因为故障使其保护电路跳闸而无法工作。WCS电源指示灯亮起表示"
-"WCS系统当前处于待机状态，或者处于工作状态但雷达还未准备好工作。在启动过程中，"
-"在超过雷达启动时间之前，该指示灯将熄灭。若要重置该灯，先将雷达开关旋转至"
-"standby在旋转回on位。"
+"位于 HCU 面板上部边缘的是 IR/TV 超温指示灯（ **2** ）、电源复位指示灯"
+"（ **4** ）和 WCS 电源指示灯（ **6** ）。当 IR/TV 开关处于 STBY 档位或者 ON "
+"档位时，IR/TV 电源指示灯亮起表示 TCS 还未准备就绪，当 TCS 准备就绪后，如果开"
+"关仍处于 STBY 档位，那么指示灯将保持亮起，如果将开关拨动到 ON 档位，那么则指"
+"示灯将会熄灭。电源复位指示灯亮起表示一个或多个二次电源因为故障使电源保护回路"
+"跳闸而无法工作。WCS 电源指示灯亮起表示 WCS 系统当前处于待机或者开关处于 ON 档"
+"位但雷达还未准备好进行发射。在启动过程中，在雷达启动计时器计时结束前，指示灯"
+"将保持熄灭。如需重置雷达，将开关拨动至 STANDBY 档位再拨动至 ON。"
 
 #: ../../source/general.rst:1714
 msgid ""
@@ -8572,14 +8592,14 @@ msgid ""
 "minutes of warmup for operation. The on position enable radar transmission "
 "if weight on wheels is not present and radar timeout (warmup) is complete."
 msgstr ""
-"位于HCU左上角的 **IR/TV** 开关（ **1** ）控制着TCS的电源。当开关拨到待机位置"
-"（STBY）时，系统供电，但是传感器并不启动。拨到打开位置后传感器启动。需要注意"
-"的是，只有当WCS控制开关处于STBY或者XMT位置时，TCS开关才会被启用。 **WCS "
-"XMT** 开关 (**7**)控制着WCS计算机系统和相应显示器（DDD和TID）的电源，以及抑制"
-"或允许雷达工作。当开关位于待机位置（STBY）时，WCS的所有系统会开始供电，雷达也"
-"会开始预热。显示器启动需要30秒的预热时间，雷达则需要3分钟预热后才能开始工作。"
-"当起落架上没有负载且雷达已经预热完成时，将开关拨到XMT位置时，雷达就会开始工"
-"作。"
+"位于 HCU 左上角的 **IR/TV** 开关（ **1** ）控制着 TCS 的电源。当开关拨到"
+"（STBY）档位时，启动系统但是不开启传感器。开关拨动至 ON 档位时启用传感器运"
+"行。需要注意的是，只有当 WCS 控制开关处于 STBY 档位或者 XMT 档位时，才能启用 "
+"IR/TV 开关。 **WCS XMT** 开关（ **7** ）控制着 WCS 计算机系统和系统相应的显示"
+"器（DDD 和 TID）的电源，以及禁止或允许雷达发射。当开关拨至 STBY 档位时将会开"
+"始向所有包括显示器在内的 WCS 系统供电，同时开始雷达预热程序。显示器预热需要30"
+"秒钟，雷达需要3分钟预热后才可以运行。在机轮不负重、雷达计时结束（预热）的情况"
+"下，WCS 控制开关拨至 ON 档位将启用雷达发射。"
 
 #: ../../source/general.rst:1719
 msgid ""
@@ -8591,15 +8611,16 @@ msgid ""
 "indicator light is on, if the fault tripping the circuits remain the "
 "protection circuits and the indicator light will remain on."
 msgstr ""
-"在HCU中上部的两个按钮分别是 **灯光测试** （ **3** ）和 **电源复位** "
-"（ **5** ）按钮。按下灯光测试按钮后会激活WCS系统的所有指示灯来检查它们是否正"
-"常。按下电源复位按钮会复位二级电源的保护电路，还可以重置导弹供电，需要注意的"
-"是，只有在电源故障，电源复位指示灯亮起的情况下，才能按下此按钮。若导故障未被"
-"排除，则保护电路及相关指示灯将维持运作。"
+"在 HCU 面板中上部的两个按钮分别是 **灯光测试** （ **3** ）和 **电源复位** "
+"（ **5** ）按钮。按下灯光测试（LIGHT TEST）按钮后会启用所有 WCS 系统的灯光与"
+"指示器进行测试。电源复位（PWR RESER）按钮按下后将复位二次电源的保护电路来重新"
+"启用二次电源，同时电源复位按钮还可以复位导弹供电。需要注意的是，只有在保护回"
+"路中故障保护跳闸仍然存在、电源复位指示灯亮起时才按下此按钮。"
 
+# 2020/07/02 AG 校对至此
 #: ../../source/general.rst:1725
 msgid "**HCU Mode buttons**"
-msgstr "**HCU模式按钮**"
+msgstr "**HCU 模式按钮**"
 
 #: ../../source/general.rst:1727
 msgid ""
@@ -8617,18 +8638,20 @@ msgid ""
 "allowing the HCU stick and controls to control the TID cursor used to hook "
 "(select) symbology on the TID for symbology control and data readout."
 msgstr ""
-"HCU模式按钮是在HCU左侧的4个带有指示灯的按钮（ **12** ），这些按钮是互斥的，同"
-"时只能按下一个，当按下按钮后按钮上的指示灯会亮起以指示当前状态。按下 **IR/"
-"TV** 按钮后会进入TCS模式，同时可以使用HCU控制杆控制TCS。按下 **RDR** 按钮会进"
-"入雷达模式，可以使用HCU控制杆来控制DDD上的雷达光标，同时允许从搜索模式转换为"
-"STT模式。按下 **DDD CURSOR** 按钮可以进入DDD光标模式，可以使HCU控制杆在雷达对"
-"地面进行测绘时控制光标标记地面坐标，这可以用于雷达导航定位或者直接在DDD显示器"
-"上选择一个位置作为航路点。按下 **TID CURSOR** 按钮可以进入TID光标模式，可以使"
-"用HUC控制杆控制TID光标选择TID上的符号，以控制符号系统和数据读取与输入。"
+"HCU 控制杆左侧的是四个带有指示灯的、互斥的 HCU 模式按钮（ **12** ），模式按钮"
+"中的绿色灯光亮起表示已启用选择的模式。按下 **IR/TV** 按钮后会进入 TCS 模式，"
+"进入 TCS 模式从而使用 HCU 控制杆和控制器来控制 TCS。按下 **RDR** 按钮将进入雷"
+"达模式，进入雷达模式后可以使用 HCU 控制杆来控制 DDD 中的雷达截获光标，使用雷"
+"达截获光标来从雷达搜索模式转换至 STT 模式。按下 **DDD CURSOR** 按钮将进入 "
+"DDD 光标模式，在 DDD 光标模式下，使用 HCU 控制杆和控制器来控制 DDD 光标，当使"
+"用雷达进行地形测绘时，使用 DDD 光标来指示地面坐标。DDD 光标模式用于雷达导航更"
+"新或在 DDD 雷达显示器中选择一个用作为航路点的位置。按下 **TID CURSOR** 按钮将"
+"进入 TID 光标模式，在 TID 光标模式下，使用 HCU 控制杆和控制器来控制 TID 光标"
+"选中（选择）TID 中的标识符用于标识符控制和数据读数。"
 
 #: ../../source/general.rst:1734
 msgid "**HCU Control Stick**"
-msgstr "**HCU控制杆**"
+msgstr "**HCU 控制杆**"
 
 #: ../../source/general.rst:1736
 msgid ""
@@ -8647,16 +8670,17 @@ msgid ""
 "current cursor position or, in the case of the TID mode, tries to hook a "
 "symbol if present within 0.125 inches on the display."
 msgstr ""
-"在HCU控制杆上的操控按键有：扳机（ **11** ），扫描角度控制（ **10** ），OFFSET"
-"按钮（ **9** ）和MRL按钮（ **8** ）。扳机拥有两个段位，按下第一段可以激活对应"
-"模式的游标并可以使用控制杆控制它的移动，但在TCS模式下，按下第一段扳机会激活控"
-"制杆对TCS俯仰角与方位角的控制。如果处于雷达模式下，按下第一段扳机还会开启超级"
-"搜索模式（super search acqusition mode in the radar，详情请参阅有关雷达过渡模"
-"式的章节）。关于扳机第二段，在TCS模式中，移动控制杆使目标处于截获门内，并按下"
-"第二段扳机会使TCS锁定该目标。如果在雷达模式下，按下第二段扳机会让雷达尝试锁定"
-"当前选定的方位角上处于雷达距离/接近率门内的目标。在DDD或TID模式下，按下第二段"
-"扳机会标记当前光标位置，在TID模式下，按下第二段扳机还会尝试钩住（选择）择位于"
-"光标中心0.125英寸范围内最近的符号。"
+"在 HCU 控制杆上的控制器包括：扳机（ **11** ）、仰角游标控制（ **10** ）、"
+"OFFSET 按钮（ **9** ）和 MRL 按钮（ **8** ）。HCU 控制杆的扳机有两个档位，按"
+"下扳机第一段和按下扳机第二段。 **按下扳机第一段** ，按下扳机第一段将启用在所"
+"选模式下的光标显示，但当模式按钮选择 TCS，也就是 IR/TV 模式时除外，在 IR/TV "
+"模式下，按下扳机第一段将启用控制杆控制 TCS 仰角和方位控制。在雷达模式下，除了"
+"显示光标外，按下扳机第一段还启用了超级搜索截获模式（详情参阅雷达过渡模式）。 "
+"**按下扳机第二段** ，如果目标在 TCS 的截获门内，那么按下扳机第二段将告知 TCS "
+"锁定 TCS 模式下的目标。在雷达模式下，按下按下扳机第二段将告知雷达尝试锁定在设"
+"定的方位下，处在雷达距离门/接近率门内的目标。在 DDD 和 TID 模式下，按下扳机第"
+"二段将标记当前光标的位置，或是如果在 TID 模式下，将尝试选中在显示器中距离光标"
+"中心0.125英寸内的符号（如果符号存在）。"
 
 #: ../../source/general.rst:1741
 msgid ""
@@ -8672,13 +8696,13 @@ msgid ""
 "enable the manual rapid lockon mode (MRL) for target acquisition. See :ref:"
 "`MRL` for more information."
 msgstr ""
-"**扫描角度控制** 是一个位于HCU控制杆左上部的滚轮，它可以在TCS或者雷达模式下在"
-"已经设定的传感器扫描角度的基础上进行±4°的角度微调。控制杆顶部的 **OFFSET** 按"
-"钮可以用来控制TID显示器图像的整体位移，比如说可以将本机符号或者其他目标符号移"
-"动到当前TID光标的位置，并重置相关的符号关联，要重置TID显示并退出这个功能，先"
-"将TID调整至另一模式再切换回来，所有符号将会回到原来的位置。位于HUC控制杆右侧"
-"的 **MRL** 按钮可以用来开启手动快速锁定模式（MRL）关于此模式的详细信息请参"
-"阅 :ref:`MRL` 。"
+"**仰角游标** 控制是一个位于 HCU 控制杆左侧的一个拨轮，拨轮用于在 TCS 或者雷达"
+"模式下，±4° 微调传感器仰角来截获目标，微调是基于一般传感器仰角控制进行偏转"
+"的。控制杆顶部的 **OFFSET** 按钮用来偏置任何 TID 中的显示，移动本机符号至光标"
+"选中点的话（如果存在），那么其余的符号将会相对本机符号一并移动。通过选择另一"
+"个 TID 显示模式再返回原来的显示模式来复位偏置功能，所有符号将会返回原位。位"
+"于 HUC 控制杆右侧的 **MRL** 按钮可以用来启用用于目标截获的手动快速锁定模式"
+"（MRL），详情参阅 :ref:`MRL` 。"
 
 #: ../../source/general.rst:1745
 msgid ""
@@ -8692,13 +8716,14 @@ msgid ""
 "in a similar fashion. In the two cursor modes X controls up/down of the "
 "cursor on the respective screen and Y controls left/right of the same."
 msgstr ""
-"**控制杆** 的功能在HCU选择不同的模式下是不同的，不过在所有模式下，只有在按下"
-"第一段扳机的时候才会接通控制杆的控制，并且控制杆的杆量对应的传感器以及光标位"
-"置是始终固定且绝对不会改变的。在TCS模式下，控制杆的X轴（上/下）控制着TCS传感"
-"器的俯仰角，Y轴（左/右）控制着TCS传感器的方位角。在雷达模式下，控制杆X轴控制"
-"着DDD上扫描的距离或接近率，Y轴控制着扫描方位角。在两种光标模式下，控制杆X轴控"
-"制着光标的左右移动，Y轴控制着光标的上下移动。"
+"根据 HCU 模式的不同 **控制杆** 的功能也有所不同。不变的是只有在按下扳机第一段"
+"才启用控制杆，并且所有模式下控制杆控制传感器或光标的绝对位置，这表示传感器或"
+"光标始终会移动至控制杆偏转的位置。在 TCS 模式下，控制杆的 X 轴（上/下）控制"
+"着 TCS 视线的仰角，Y 轴（左/右）控制着 TCS 视线的方位。在雷达模式下，控制杆 "
+"X 轴控制着 DDD 雷达截获门的距离或接近率，Y 轴控制着雷达截获的方位门。在两种光"
+"标模式下，控制杆 X 轴控制着光标的上/下移动，Y 轴控制着光标的左/右移动。"
 
+# 2020/07/03 AG 校对至此
 #: ../../source/general.rst:1754
 msgid "Computer Address Panel (CAP)"
 msgstr "计算机位址面板（CAP）"
@@ -8708,13 +8733,14 @@ msgid ""
 "The computer address panel (CAP) is the RIO's main interface for controlling "
 "and entering/reading data into/from the WCS computer."
 msgstr ""
-"计算机位址面板（CAP）是RIO的主操作面板，用于向 WCS（武器控制系统）计算机输入"
-"数据和读取相关数据信息。"
+"计算机位址面板（CAP）是 RIO 用于控制和输入数据至/从 WCS 计算机读数的主要接"
+"口。"
 
 #: ../../source/general.rst:1760
 msgid "**Numeric Keypad** (**3**)"
 msgstr "**数字键盘** （ **3** ）"
 
+# flor-for?
 #: ../../source/general.rst:1762
 msgid ""
 "The upper part of the CAP contains a numeric keypad with additional buttons "
@@ -8723,9 +8749,10 @@ msgid ""
 "an additional function selecting a prefix for data display and/or entry. The "
 "keys containing functions and what those are:"
 msgstr ""
-"CAP的上半部分有一个数字键盘，还包含了四个额外的功能按钮：清除输入（CLEAR），"
-"确认输入（ENTER）以及两个用于选择坐标输入前缀的S/W和N/E按钮。一些带有前缀的数"
-"字键还具有额外的功能，他们的功能是："
+"CAP 的上半部分包含了一个数字键盘，以及用于清除输入（CLEAR）、确认输入"
+"（ENTER）以及两个用于选择坐标的前缀的 S/W 和 N/E 按钮。一些数字键还有附加的功"
+"能，带有附加功能都按键用来选择用于数据显示和/或输入的前缀。包含附加功能的按键"
+"及其表示的含义分别为："
 
 #: ../../source/general.rst:1767
 msgid "Key"
@@ -8734,74 +8761,74 @@ msgstr "数字键"
 #: ../../source/general.rst:1769 ../../source/general.rst:2067
 #: ../../source/general.rst:3780 ../../source/general.rst:0
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../source/general.rst:1769
 msgid "LAT - Latitude, selects latitude for display and entry."
-msgstr "LAT - 纬度，选择纬度进行显示和输入。"
+msgstr "LAT - 纬度——选择纬度用于显示和输入。"
 
 #: ../../source/general.rst:1771 ../../source/general.rst:2069
 #: ../../source/general.rst:2890 ../../source/general.rst:3782
 #: ../../source/general.rst:0
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../source/general.rst:1771
 msgid "NBR - Number, used for IFT and BITs."
-msgstr "NBR - 数字，用于IFT（空中飞行训练）和BIT（自检）。"
+msgstr "NBR - 数字——用于 IFT（空中飞行训练）和 BIT（机内自检）。"
 
 #: ../../source/general.rst:1773 ../../source/general.rst:2071
 #: ../../source/general.rst:2892 ../../source/general.rst:3784
 #: ../../source/general.rst:0
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../source/general.rst:1773
 msgid "SPD - Speed, selects speed for display and entry."
-msgstr "SPD - 速度，选择速度进行显示和输入。"
+msgstr "SPD - 速度——选择速度用于显示和输入。"
 
 #: ../../source/general.rst:1775 ../../source/general.rst:2073
 #: ../../source/general.rst:3786
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../source/general.rst:1775
 msgid "ALT - Altitude, selects altitude for display and entry."
-msgstr "ALT - 海拔高度，选择海拔高度进行显示和输入。"
+msgstr "ALT - 海拔高度——选择海拔高度用于显示和输入。"
 
 #: ../../source/general.rst:1777 ../../source/general.rst:2075
 #: ../../source/general.rst:3788
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../source/general.rst:1777
 msgid "RNG - Range, selects range for display and entry."
-msgstr "RNG - 距离，选择距离进行显示和输入。"
+msgstr "RNG - 距离——选择距离用于显示和输入。"
 
 #: ../../source/general.rst:1779 ../../source/general.rst:2077
 #: ../../source/general.rst:2894
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../source/general.rst:1779
 msgid "LONG - Longitude, selects longitude for display and entry."
-msgstr "LONG - 经度，选择经度进行显示和输入。"
+msgstr "LONG - 经度——选择经度用于显示和输入。"
 
 #: ../../source/general.rst:1781 ../../source/general.rst:2896
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../source/general.rst:1781
 msgid "HDG - Heading, selects heading for display and entry."
-msgstr "HDG - 航向，选择航向进行显示和输入。"
+msgstr "HDG - 航向——选择航向用于显示和输入。"
 
 #: ../../source/general.rst:1783
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../source/general.rst:1783
 msgid "BRG - Bearing, selects bearing for display and entry."
-msgstr "BRG - 方位，选择方位进行显示和输入。"
+msgstr "BRG - 方位——选择方位用于显示和输入。"
 
 #: ../../source/general.rst:1786
 msgid ""
@@ -8810,14 +8837,14 @@ msgid ""
 "also makes the readout display LONG but entry affects LAT only, SPD and HDG "
 "are another example of the same thing."
 msgstr ""
-"其中的一些按键还会在TID上显示相应的其他数据，但是输入数据只会对其前缀代表的相"
-"应功能起效果。举例来说，按下LAT（纬度）按键同样会使LONG（经度）一同显示，但使"
-"用键盘仅会向LAT（纬度）项下输入内容，SPD（速度）和HDG（航向）是另一个相同的例"
-"子。"
+"其中的一些附加功能的按键还会将对应的其他数据显示在 TID 中，但输入的数据只会影"
+"响所选的前缀。举例来说，按下 LAT 按键同时显示 LONG 读数，但输入数据只会影响 "
+"LAT，另一个例子是 SPD 和 HDG。"
 
+# Matrix 是分开的矩阵，表示多个message，以下显示出的 MESSAGE 表示一个大块也就是 矩阵，MESSAGE 按钮表示单独的一个功能。
 #: ../../source/general.rst:1789
 msgid "**CAP Message Matrix Indicator Drum and buttons**"
-msgstr "**MESSAGE 滚动指示器和按钮**"
+msgstr "**CAP MESSAGE 滚筒指示器和按钮**"
 
 #: ../../source/general.rst:1791
 msgid ""
@@ -8827,9 +8854,9 @@ msgid ""
 "a screen the drum is used to display the current functionality of the "
 "buttons."
 msgstr ""
-"位于CAP面板中下部的是MESSAGE 滚动指示器，MESSAGE按钮以及CATEGORY 选择开关。他"
-"们的功能与新式飞机装备的 MFD（多功能显示器）类似，只不过滚动显示器取代了屏幕"
-"用以显示MESSAGE按钮的当前功能。"
+"CAP 的中下部分包含了 MESSAGE 按钮和滚筒指示器及其 CATEGORY（类别）选择旋钮。"
+"滚筒指示器和更现代系统中的 MFD 中的按钮有些相似，但与 MFD 不同的是，滚筒指示"
+"器用一个滚筒来代替屏幕来显示当前按钮的功能。"
 
 #: ../../source/general.rst:1793
 msgid ""
@@ -8839,41 +8866,43 @@ msgid ""
 "or symbol hook is in use the corresponding message button illuminates to "
 "indicate activation."
 msgstr ""
-"通过CATEGORY 选择开关可以用来选择MESSAGE按钮的当前功能，开关转动的同时指示器"
-"上的内容也会转换以显示所选模式的当前功能。当一个功能正在使用中时，对应的"
-"MASSAGE按钮会亮起以表示激活。"
+"当前按钮的功能是通过类别选择旋钮转动到不同类别来选择的，转动类别选择旋钮也将"
+"会转动滚筒指示器来指示所选类别的按钮的功能。当使用一个功能或选中符号时，功能"
+"或选中符号对应的 MESSAGE 阿牛将会亮起表示已启用。"
 
 #: ../../source/general.rst:1796
 msgid ""
 "The matrixes and corresponding functionality of the different categories are "
 "as follows:"
-msgstr "CATEGORY选择不同模式的功能如下："
+msgstr "不同类别中，显示出的 MESSAGE 和 MESSAGE 对应的功能如下："
 
 #: ../../source/general.rst:1799
 msgid "**BIT** (Built in Test)"
-msgstr "**BIT**\\ （自检）"
+msgstr "**BIT** （机内自检）"
 
+# 2020/07/06 AG 校对至此
+# These might be functions normally run during OBC, during startup, or (in) separate tests only available from here.
 #: ../../source/general.rst:1803
 msgid ""
 "The BIT category contains message button functions pertaining to BIT "
 "initiation of different aircraft systems. These might be functions normally "
 "run during OBC during startup or separate tests only available from here."
 msgstr ""
-"BIT模式下MASSAGE按钮控制着多个飞机自检程序。这些自检程序一般在飞机启动期间和"
-"机上检查时运行，当然也可以在这里选择相应自检程序单独运行。"
+"BIT 类别包含了不同飞机系统的 BIT 启用相关的 MESSAGE 按钮。这些 MESSAGE 功能可"
+"能通常在 OBC 期间和起动期间运行或从 MESSAGE 功能运行单独的测试。"
 
 #: ../../source/general.rst:1805
 msgid ""
 "This will be detailed in a separate chapter about on board tests and BIT "
 "when implemented, not currently implemented in this simulation."
 msgstr ""
-"这些内容会在甲板测试和检查这个章节详细说明，但是相关功能目前还未在DCS中模拟。"
+"当机上测试和 BIT 实装后，将会在单独的章节详细介绍机内自检和机上检查，在当前的"
+"模拟中尚未实装。"
 
 #: ../../source/general.rst:1809
 msgid "**SPL** (Special)"
-msgstr "**SPL**\\ （特殊）"
+msgstr "**SPL** （特殊）"
 
-# 需校对
 #: ../../source/general.rst:1813
 msgid ""
 "The SPL category contains various message button functions not contained "
@@ -8881,8 +8910,8 @@ msgid ""
 "implemented and used for the Computer Initial Point air to ground mode, see :"
 "ref:`CIP`"
 msgstr ""
-"SPL CATEGORY包含其他CATEGORY中没有的各种MESSAGE按钮功能。当前只有 **IP TO "
-"TGT** 功能可用并且用于计算机起始点模式，参见 :ref:`CIP`"
+"SPL 类别包含了其它类别中没有的 MESSAGE 功能按钮。当前仅 **IP TO TGT** 功能可"
+"用并且用于计算机起始点模式，详情参见 :ref:`CIP`"
 
 #: ../../source/general.rst:1815
 msgid ""
@@ -8891,20 +8920,21 @@ msgid ""
 "button for clearing the latest OBC results (**OBC DISPL**). These and the "
 "other functions are not yet implemented."
 msgstr ""
-"同时这个模式下还有用于手动启动OBC程序（**OBC位**）的按钮、一个用于显示最新OBC"
-"结果的按钮（**MAINT DISPL**）和一个用于清除最新OBC结果的按钮（**OBC "
-"DISPL**）。这些和其它功能尚未实现。"
+"这个类别中还包含了用于手动起动 OBC 程序的按钮（ **OBC BIT** ）、一个用于显示"
+"最新 OBC 结果的按钮（ **MAINT DISPL** ）和一个用于清除最新 OBC 结果的按钮"
+"（**OBC DISPL**）。这些和其它功能尚未实装。"
 
 #: ../../source/general.rst:1819
 msgid "**NAV** (Navigation)"
-msgstr "**NAV**\\ （导航）"
+msgstr "**NAV** （导航）"
 
 #: ../../source/general.rst:1823
 msgid ""
 "The NAV category contains message button functions used for navigational "
 "fixes and updating data used by for INS operation and alignment."
 msgstr ""
-"NAV模式下MASSAGE按钮的功能用于导航修复及更新INS信息以用于INS运行和校准。"
+"NAV 类别中包含了用于导航更新和更新 INS 运行和对准所使用的数据的 MESSAGE 按"
+"钮。"
 
 #: ../../source/general.rst:1825
 msgid ""
@@ -8914,28 +8944,27 @@ msgid ""
 "altitude (and heading and speed if on a moving carrier) and can also be used "
 "for readout of the various data available about own aircraft."
 msgstr ""
-"**OWN A/C** （本机）按钮用来选择对本机数据进行输入和读取，与在TID上选择本机符"
-"号相同。它用于输入对惯导系统至关重要的数据，例如飞机的当前坐标和高度（如果在"
-"移动的航母上的话还需要输入当前航向和速度），也可以用于读取有关自己飞机的各种"
-"可用数据。"
+"**OWN A/C** （本机）按钮用来选择对本机进行数据读数和数据输入，在 TID 中选中本"
+"机符号按下按钮功能相同。本机按钮用来输入对于对准来说至关重要的数据，例如本机"
+"坐标和海拔高度（如果在航母上还有航向和速度），还可用于读数关于本机的可用的不"
+"同数据。"
 
-# 需校对
 #: ../../source/general.rst:1827
 msgid ""
 "The **STORED HDG ALIGN** button is used to store and indicate if a stored "
 "heading align is available. It also allows deselection of the function "
 "resulting in a normal alignment."
 msgstr ""
-"**STORED HDG ALIGN** 按钮用于储存和指示预存航向对准是否可用。同时它也能在正常"
-"对准中取消选择这个功能。"
+"**STORED HDG ALIGN** 按钮用于存储和指示预存航向对准是否可用。同时按钮也可以取"
+"消选择这个功能来进入正常对准。"
 
 #: ../../source/general.rst:1829
 msgid ""
 "The **WIND SPD HDG** button selects entry and display of wind data, can also "
 "be used to enter wind speed and heading manually for backup navigation."
 msgstr ""
-"**WIND SPD HDG** 按钮用于选择输入和显示风向风速信息，可以用于为备用导航手动输"
-"入风速风向。"
+"**WIND SPD HDG** 按钮用于选择输入和显示风向风速信息，按钮还可以用于手动输入在"
+"备用导航中使用的风向风速。"
 
 #: ../../source/general.rst:1831
 msgid ""
@@ -8951,18 +8980,18 @@ msgid ""
 "**FIX ENABLE** to enter it into the system. Full procedures for these fixes "
 "can be found in the navigational section in this chapter."
 msgstr ""
-"**TACAN FIX** ， **RDR FIX** （雷达）， **VIS FIX** （目视）和 **FIX "
-"ENABLE** 这四个FIX按钮用于更新飞机当前位置以校准INS偏移。基本操作是通过前几个"
-"按钮选择想要通过什么方法对准INS，然后按下FIX ENABLE确认将其输入系统。完整操作"
-"可以在本章导航部分找到。"
+"**TACAN FIX** 、 **RDR FIX** （雷达）、 **VIS FIX** （目视）和 **FIX "
+"ENABLE** 这四个 FIX 按钮用于更新飞机的位置来修正 INS 漂移。基本功能是选择更新"
+"的方式，然后按下 **FIX ENABLE** 将差值输入至系统中。导航更新的完成程序可在本"
+"章的导航部分查看。"
 
 #: ../../source/general.rst:1835
 msgid "The two TARPS buttons are non-functional in a non TARPS aircraft."
-msgstr "两个TARPS按钮在没有挂载TARPS的飞机上无功能。"
+msgstr "两个 TARPS 按钮在没有挂载 TARPS 的飞机上无功能。"
 
 #: ../../source/general.rst:1839
 msgid "**TAC DATA** (Tactical Data)"
-msgstr "**TAC DATA**\\ （战术数据）"
+msgstr "**TAC DATA** （战术数据）"
 
 #: ../../source/general.rst:1843
 msgid ""
@@ -8971,9 +9000,9 @@ msgid ""
 "system. The same hook can be made via HCU hook on the TID. Hooking the "
 "waypoints enables them to be updated via the CAP keypad."
 msgstr ""
-"战术数据模式下可以通过MASSAGE按钮选择WCS导航系统中的不同导航点，可以通过使用"
-"HCU在TID上钩住想选择的导航点来达到同样的效果。钩住/选择航路点后可以使用CAP键"
-"盘对其进行编辑/更新。"
+"TAC DATA 类别中包含了 MESSAGE 功能按钮，可用于选中/选择 WCS 导航系统中可用的"
+"不同的航路点。可以通过 HCU 在 TID 中选中来达到和通过功能按钮一样的效果。选中"
+"航路点将启用通过 CAP 数字键盘来更新被选中的航路点。"
 
 #: ../../source/general.rst:1845
 msgid "The **PT TO PT** button is non-functional."
@@ -8981,8 +9010,9 @@ msgstr "**PT TO PT** 按钮无功能。"
 
 #: ../../source/general.rst:1849
 msgid "**DATA LINK**"
-msgstr "**DATA LINK**\\ （数据链路）"
+msgstr "**DATA LINK** （数据链路）"
 
+# 2020/07/07 AG 校对至此
 #: ../../source/general.rst:1853
 msgid ""
 "The DATA LINK category contains message button functionality for RIO data "
@@ -8992,28 +9022,28 @@ msgid ""
 "hooked track sent to the controller for special attention. **ENGAGE** "
 "likewise indicates own intention to engage a hooked track."
 msgstr ""
-"DATA LINK模式下的MASSAGE按钮可以让RIO对来自数据链路控制端的命令进行回应。"
-"**WILCO** （可以执行）按钮和 **CANTCO** （无法执行）按钮可以用来表示当前本机"
-"能否执行命令。**POINT** 按钮可以把当前RIO标记的一个目标发送到数据链路控制端以"
-"表示这个目标需要特别关注。 **ENGAGE** 表示本机正在与被标记的目标交战。"
+"DATA LINK 类别包含了用于 RIO 数据链路回应数据链路操作员指令的 MESSAGE 功能按"
+"钮。**WILCO** （可以执行）按钮和 **CANTCO** （无法执行） MESSAGE 按钮用来告知"
+"操作员本机是否可以执行指令。**POINT** MESSAGE 按钮允许 RIO 标记选中的跟踪发送"
+"给操作员表示这个跟踪需要特别关注。 **ENGAGE** 表示本机有意攻击选中的跟踪。"
 
 #: ../../source/general.rst:1856
 msgid ""
 "The **NAV GRID** button enables the NAV GRID functionality on the TID, see :"
 "ref:`NAVGRID`"
-msgstr "**NAV GRID** 按钮用于在TID中启用NAV GRID功能，参见 :ref:`NAVGRID`"
+msgstr "**NAV GRID** 按钮用于启用 TID 中的 NAV GRID 功能，参见 :ref:`NAVGRID`"
 
 #: ../../source/general.rst:1858
 msgid ""
 "The **TID AVIA** button enables the AVIA display on the TID. Not yet "
 "implemented."
-msgstr "**TID AVIA** 按钮用于在TID中显示AVIA。尚未实现此功能。"
+msgstr "**TID AVIA** 按钮用于启用 TID 中的 AVIA 显示。尚未实装。"
 
 #: ../../source/general.rst:1860
 msgid ""
 "The **F/F NAV UPDATE** allows for Link-4C fighter to fighter navigational "
 "updates. See the navigation chapter."
-msgstr "**F/F NAV UPDATE** 允许Link-4C战机间导航更新。参见导航章节。"
+msgstr "**F/F NAV UPDATE** 按钮允许 Link-4C 战机间导航更新。参见导航章节。"
 
 #: ../../source/general.rst:1862
 msgid "Remaining buttons are non-functional."
@@ -9021,7 +9051,7 @@ msgstr "其它按钮皆无功能。"
 
 #: ../../source/general.rst:1866
 msgid "**TARGET DATA**"
-msgstr "**TARGET DATA**\\ （目标数据）"
+msgstr "**TARGET DATA** （目标数据）"
 
 #: ../../source/general.rst:1870
 msgid ""
@@ -9031,16 +9061,18 @@ msgid ""
 "mark a hooked symbol as the respective category (multiple target can be set "
 "in addition to the other three)."
 msgstr ""
-"目标数据模式下的MASSAGE按钮可以用来修改目标符号类型，RIO可以通过它将目标标记"
-"为 **FRIEND** （友军）， **UNK** （未知目标）， **HOST** （带有敌意的目标）"
-"和 **MULT TGT** （多目标）（多目标符号也可以叠加标记到其他三个类型的目标"
-"上）。"
+"TARGET DATA 类别下包含的 MASSAGE 功能按钮用来修改选中的跟踪符号。 "
+"**FRIEND** 、 **UNK** （不明）、 **HOST** （敌机）和 **MULT TGT** （多目标）"
+"功能按钮用来标记选中的符号为对应的类别（多目标可以在其他三个跟踪符号类型上进"
+"行设置）。"
 
 #: ../../source/general.rst:1872
 msgid ""
 "The **DO NOT ATTK** button sets a target as a do not attack target, removing "
 "it from the WCS firing order."
-msgstr "**DO NOT ATTK** 按钮将目标设置为禁止攻击目标，从WCS开火指令中移除。"
+msgstr ""
+"**DO NOT ATTK** 按钮用来将目标设置为禁止攻击的目标，将目标从 WCS 开火指令中移"
+"除。"
 
 #: ../../source/general.rst:1874
 msgid ""
@@ -9049,16 +9081,17 @@ msgid ""
 "WCS to better use both data sources to track the target. The strobe needs to "
 "be hooked before the symbol. Currently not implemented."
 msgstr ""
-"**DATA TRANS** （数据传输）功能允许RIO将一个干扰源目标与其他数据源的符号相关"
-"联，以便允许WCS通过两个数据源来更好的跟踪目标。当前尚未实现此功能。"
+"**DATA TRANS** （数据传输）功能启用一个选中的干扰源射线关联另一个选中的跟踪符"
+"号。这个按钮用于允许 WCS 更好地使用两个数据源来跟踪目标。必须在选中符号前先选"
+"中射线。尚未实装。"
 
 #: ../../source/general.rst:1876
 msgid ""
 "**TEST TGT** (Test Target) calls up a simulated test target in the WCS for "
 "test purposes. Currently not implemented."
 msgstr ""
-"**TEST TGT** （目标测试）在WCS中设置一个模拟目标用于测试。当前尚未实现此功"
-"能。"
+"**TEST TGT** （测试目标）按钮按下后在 WCS 中设置一个模拟目标用于测试。当前尚"
+"未实现此功能。"
 
 #: ../../source/general.rst:1878
 msgid ""
@@ -9066,8 +9099,8 @@ msgid ""
 "track or waypoint from the TID if no longer relevant. Own aircraft and data "
 "link track symbols can not be removed."
 msgstr ""
-"**SYM DELETE** （符号删除）允许RIO在不在需要的情况下从TID中删除目标符号或者航"
-"路点。不能删除本机符号和来自数据链路的符号。"
+"**SYM DELETE** （符号删除）按钮允许 RIO 从 TID 中手动丢弃/删除一个跟踪或航路"
+"点（如果不再需要）。不能删除本机符号和数据链路跟踪符号。"
 
 #: ../../source/general.rst:1880
 msgid "**IFT AUX LAUNCH** and **GND MAP** are non-functional."
@@ -9085,22 +9118,22 @@ msgid ""
 "the computer run indicator digits on the TID stops cycling. The last button "
 "is the **TUNE DSBL** button which is non-functional in this F-14 version."
 msgstr ""
-"在CAP面板下部两侧有最后两个按钮，**PRGM RESTRT** （程序重启）按钮用来在WCS计"
-"算机死机的时候重启当前程序，当TID上的计算机运行读数停止循环变化时，就代表计算"
-"机死机了。最后一个按钮是 **TUNE DSBL** 按钮，在当前F-14版本中不起作用。"
+"MESSAGE 滚筒指示器和按钮下方的是面板中最后两个按钮。 **PRGM RESTRT** （程序重"
+"启）按钮用来在当 WCS 计算机意外停机时复位当前运行中的程序。当 TID 中的计算机"
+"运行指示器数字停止循环变化时，就代表计算机意外停机了。最后一个按钮是 **TUNE "
+"DSBL** 按钮，在模拟的 F-14 版本中不起作用。"
 
 #: ../../source/general.rst:1891
 msgid "Data Readout/Entry Procedure"
 msgstr "数据读数/输入程序"
 
-# 需校对
 #: ../../source/general.rst:1893
 msgid ""
 "Data readout and entry on the TID always follows the following sequence: "
 "Selection of symbol/function -> Prefix selection for display -> Data entry."
 msgstr ""
-"TID上的数据读取和输入始终遵循以下顺序：选择符号/功能 -> 选择数据的前缀 -> 数"
-"据输入。"
+"TID 中的数据读数和输入始终遵循以下顺序：选择符号/功能 ->选择用于显示的前缀 -"
+"> 输入数据。"
 
 #: ../../source/general.rst:1896
 msgid ""
@@ -9108,9 +9141,10 @@ msgid ""
 "hook** or via the **CAP MESSAGE** buttons available under the different "
 "categories on the **CAP DRUM**."
 msgstr ""
-"**CAP DRUM** 上不同的模式可以通过 **TID选中** 或 **CAP MESSAGE** 按钮来选择所"
-"需的符号或功能。"
+"通过 **TID 选中** 或在 **CAP DRUM** 中不同的类别下，使用 **CAP MESSAGE** 按钮"
+"来选择所需的符号或功能。"
 
+# on -- only?
 #: ../../source/general.rst:1898
 msgid ""
 "Most data readout prefixes displays multiple readouts, as an example calling "
@@ -9118,10 +9152,10 @@ msgid ""
 "displays bearing and vice versa but the selected prefix is the on used for "
 "data entry."
 msgstr ""
-"大多数数据读数前缀不止显示一个，例如调出经度或纬度都会显示两者的读数，调出距"
-"离的同时也显示了方位，只能对被选中的前缀输入数据。"
+"大多数用于数据读数的前缀不仅仅显示一个读数，例如，调出经度或纬度中的任意一"
+"个，都会显示另外一个的读数，调出距离的同时还显示了方位，反之亦然，但是仅对所"
+"选的前缀输入数据。"
 
-# 校对到此
 #: ../../source/general.rst:1900
 msgid ""
 "To select another prefix for data readout without reselecting the message "
@@ -9132,10 +9166,11 @@ msgid ""
 "prefix. This makes the recommended sequence: Selection of symbol/function -> "
 "**CLEAR** -> Prefix selection for display -> Data entry."
 msgstr ""
-"要选择另一个数据读数的前缀可以按下CAP上的 **CLEAR** 键，这样就无需重新选择"
-"message功能，按下后将会重置读数并可以选择新的前缀。如果已选择了前缀，再次按下"
-"按键可能视为输入数据，建议在重新选择前缀前使用 **CLEAR** 来重置。推荐按照以下"
-"顺序：选择符号/功能 -> **CLEAR** -> 选择显示的前缀 -> 数据输入。"
+"如需不重新选择 MESSAGE 按钮来选择另一个用于数据读数的前缀，可以按下 CAP 上的 "
+"**CLEAR** 键，按下后将复位读数并允许选择新的前缀，这样一来就无需重新选择 "
+"MESSAGE 功能。如果已选择了前缀，那么再次按下按键可能会被视为输入数据，通常建"
+"议在重新选择新的前缀前使用 **CLEAR** 键来复位。这样一来就形成了以下建议顺序："
+"选择符号/功能 -> **CLEAR** -> 选择用于显示的前缀 -> 输入数据。"
 
 #: ../../source/general.rst:1904
 msgid ""
@@ -9144,10 +9179,11 @@ msgid ""
 "key. The TID readout is then updated with the new data. To clear the data "
 "without entering it, instead use the **CLEAR** key."
 msgstr ""
-"如果想要输入数据，RIO需要先选择所需功能的前缀，检查是否正确然后输入数据按 "
-"**ENTER** 键确认。然后新数据会更新TID读数。如果想要清除数据而不是输入它，按 "
-"**CLEAR** 键清除。"
+"如需输入新的数据至所选的前缀中，RIO 需要在选择了前缀后输入所需的数据，检查输"
+"入的数据是否正确然后按下 **ENTER** 键输入。TID 中的读数将会更新为新的数据。如"
+"需清除数据而不是输入它，按 **CLEAR** 键清除。"
 
+# 2020/07/08 AG校对至此
 #: ../../source/general.rst:1909 ../../source/general.rst:2335
 msgid "Sensor Control Panel"
 msgstr "传感器控制面板"
@@ -9159,13 +9195,13 @@ msgid ""
 "allowing the RIO to slave the radar to the TCS and vice versa and controls "
 "for the airborne video tape recorder (AVTR)."
 msgstr ""
-"传感器控制面板主要可以对AN/AWG-9雷达天线扫描模式进行控制，该面板上还包含TCS的"
-"控制开关，RIO可以通过此面板将雷达隶属TCS的目标，或将TCS隶属至雷达目标。此外，"
-"该面板还控制着机载磁带录像机（AVTR）。"
+"传感器控制面板包含用于 AN/AWG-9 雷达天线栅状扫描的控制器。传感器控制面板上还"
+"包含了各种 TCS 控制器，RIO 可以通过面板中的控制器来将雷达隶属于 TCS ，或将 "
+"TCS 隶属于雷达，以及包含了机载录像机（AVTR）控制器。"
 
 #: ../../source/general.rst:1915
 msgid "**Antenna Search Pattern Selection**"
-msgstr "**天线搜索模式选择**"
+msgstr "**天线栅状扫描选择**"
 
 #: ../../source/general.rst:1917
 msgid ""
@@ -9186,18 +9222,20 @@ msgid ""
 "elevation. It can move from -76° to +54°. Both control knobs have marked "
 "centerpoints, being aircraft centerline and zero elevation respectively."
 msgstr ""
-"面板的上半部分是对于雷达扫描模式的控制。 **STAB**\\ （增稳）开关用来控制雷达"
-"天线扫描模式的基准线时候是否相对于地平线（IN）稳定。如果开关在OUT位置表示雷达"
-"扫描模式的基准线随动于F-14的武器基准线(ADL)。在必要的时候，WCS会覆盖此设置。 "
-"**AZ CTR**\\ （方位角控制）和 **EL CTR**\\ （俯仰角控制）旋钮用来设置天线扫描"
-"模式的方位角与俯仰角中心点。 **方位角控制** 可以在以飞机中心线的65°范围内设置"
-"雷达天线的方位扫描角中心，如果将雷达扫描宽度设置为±65°，那么该设置将会被禁"
-"用，因为当前扫描范围已经包括所有可用方位角。不要将天线的扫描方位角设置到以机"
-"身为中心线的65°以外，因为这会引起天线机械结构碰撞从而损坏天线。 **俯仰角控制"
-"** 旋钮控制着雷达天线相对于飞机机身水平线的俯仰角，可以从-76°到+54°设置天线在"
-"俯仰角上的扫描中心角度。刚刚所讲的两个旋钮都有一个中心点标记，用来表示飞机中"
-"心线和机身水平线。"
+"传感器控制面板中，上半部分包含了雷达天线栅状扫描的控制器。 **STAB** （稳定）"
+"开关用来控制雷达天线栅状扫描是否相对于地平线（IN）稳定。如果 STAB 开关位于 "
+"OUT 档位，那么就表示，栅状扫描是相对 F-14 飞机的武器基准线稳定的。WCS 计算机"
+"在必要时会越控这个设置。 **AZ CTR** （方位角控制）和 **EL CTR** （仰角控制）"
+"旋钮用来设置天线栅状扫描中仰角和方位角的中心点。 **方位角控制** 旋钮用来在飞"
+"机中心线65°内移动扫描方位角的中心，如果扫描方位角宽设置为±65°的话，那么这个功"
+"能将会被禁用，这是因为设置为±65°已经扫描了最大的方位角角度。请勿移动栅状扫描"
+"至65°极限外，因为这样可能会使天线撞到天线方位角停止器导致损坏天线。 **仰角控"
+"制** 旋钮用来控制相对0°仰角，栅状扫描仰角底部的扫描线的俯仰位置。仰角可从 "
+"-76° 移动至 +54° 。上述的仰角控制和方位角控制旋钮都含有标记出的中心点，分别是"
+"飞机中心线和0°仰角。"
 
+# 这句话没谓语。being应该变成is。
+# 1 bar being 2.3°, 2 bars 3.6°, 4 bars 6.3° and 8 bars 11.5° ,The reason for the elevation coverage not equalling one bar times the number of bars being that the bars overlap slightly.✔
 #: ../../source/general.rst:1926
 msgid ""
 "The **AZ SCAN** (azimuth scan) and **EL BARS** (elevation bars) selector "
@@ -9208,11 +9246,11 @@ msgid ""
 "equalling one bar times the number of bars being that the bars overlap "
 "slightly."
 msgstr ""
-"**AZ SCAN** （方位扫描）和 **EL BARS** （水平扫描行线）选择旋钮用来控制天线扫"
-"描范围的大小。AZ SCAN旋钮有4个位置，±10°，±20°，±40°和±65°。ELBARS旋钮也有4个"
-"位置，1行扫描,2行扫描,4行扫描和8行扫描。1行的扫描俯仰范围为2.3°，2行为3.6°，4"
-"行为6.3°，8行为11.5°。俯仰扫描范围之所不是每行宽度之和是因为在进行扫描时，每"
-"行所覆盖的范围会有一些重叠。"
+"**AZ SCAN** （扫描方位角）和 **EL BARS** （仰角扫描线数）选择旋钮用来控制天线"
+"栅状扫描的大小。AZ SCAN 选择旋钮有4个档位，分别是：±10°、±20°、±40°和±65°。"
+"EL BARS 选择旋钮也有4个档位，分别是：1、2、4或8线扫描。扫描线仰角覆盖角度分别"
+"为：1线2.3°、2线3.6°、4线6.3° 和 8线11.5°，之所以仰角覆盖角度不是扫描线数乘以"
+"1线的覆盖角度是因为，扫描线之间覆盖角度略有重叠。"
 
 #: ../../source/general.rst:1930
 msgid ""
@@ -9220,8 +9258,8 @@ msgid ""
 "selection of VSL HIGH or LOW activates the vertical scan lockon acquisition "
 "mode (VSL). (See :ref:`VSL`)"
 msgstr ""
-"最后一个雷达控制是面板上的VSL开关。可以把这个开关拨到HIGH或者LOW位置直接开启"
-"垂直扫描锁定模式（VSL）。详情参阅 :ref:`VSL` 。"
+"传感器控制面板中最后一个雷达控制器是 **VSL** 开关。短暂拨动开关至 VSL HIGH "
+"或 VSL LOW 将启用垂直扫描截获模式。详情参阅 :ref:`VSL` 。"
 
 #: ../../source/general.rst:1933
 msgid "**TCS Controls**"
@@ -9237,10 +9275,11 @@ msgid ""
 "allow a sensor to guide a sensor to lock onto whatever the other sensor is "
 "currently tracking."
 msgstr ""
-"位于面板右侧的 **SLAVE** 开关可以用来将一个传感器隶属于另一个传感器。开关在中"
-"心位置时，两个传感器相互独立。当开关位于RDR位置时，雷达会在TCS锁定目标的情况"
-"下隶属于TCS。开关在TCS位置时，如果雷达处于STT或者JAT模式，TCS会隶属于雷达。两"
-"种模式都可以让传感器引导被隶属的传感器锁定其当前正在跟踪的目标。"
+"在传感器面板右侧的 **SLAVE** 开关用来控制从属的传感器，或者互相独立。开关在中"
+"间档位时，两个传感器相互独立移动。当开关位于 RDR 档位时，当 TCS 锁定了一个目"
+"标时，雷达将会隶属至 TCS 视线。开关在 TCS 档位时，如果雷达处在 STT 或 JAT 模"
+"式，那么 TCS 将隶属至雷达视线。两种从属模式都可以使传感器引导传感器锁定至另一"
+"个传感器正在跟踪的目标。"
 
 #: ../../source/general.rst:1938
 msgid ""
@@ -9250,10 +9289,11 @@ msgid ""
 "STT, setting slave to TCS and then fine-tuning the calibration knobs until "
 "the TCS looks directly at the locked target."
 msgstr ""
-"**TCS TRIM** 旋钮可以调整TCS的方位角（AZ）和俯仰角（EL）可以用来校准TCS。一般"
-"的校准方法是先通过雷达STT锁定目标后将TCS隶属于雷达，然后微调旋钮直到目标位于"
-"TCS锁定正中心。"
+"**TCS TRIM** 旋钮用来校正 TCS 的方位（AZ）和仰角（EL）。TCS TRIM 旋钮用来校"
+"正 TCS 视线对准雷达视线。通常通过以下方式来完成校正：使用 STT 锁定一个目标，"
+"设置从属为 TCS，接着微调校正旋钮直到 TCS 视线对准锁定的目标。"
 
+# should be IR/TV mode
 #: ../../source/general.rst:1941
 msgid ""
 "The last two switches controlling the TCS are the ACQ (acquisition) and FOV "
@@ -9265,11 +9305,11 @@ msgid ""
 "**FOV** switch sets whether the WIDE or NAR (narrow) field of view is used "
 "by the TCS."
 msgstr ""
-"最后两个关于TCS控制的开关是ACQ（获取）开关和FOV（视场）开关。 **ACQ** 开关可"
-"以控制TCS如何锁定目标。AUTO SRCH意味着TCS传感器会在有限范围内自行移动，试图找"
-"到目标。MAN（手动）表示只能通过HCU在TCS模式下手动锁定目标。AUTO（自动）表示"
-"TCS会自动尝试锁定进入其视野的目标。 **FOV** 开关可以用来控制TCS视场在WIDE（宽"
-"视野）和NAR（窄视野）之间切换。"
+"最后两个用于控制 TCS 的开关是 ACQ（捕获）开关和 FOV（视场）开关。 **ACQ** 开"
+"关可以控制 TCS 如何锁定目标。当处于 AUTO SRCH 档位时 TCS 传感器会在有限扫描模"
+"式中移动尝试找到目标。MAN（手动）档位只能通过 HCU 在 IR/TV 模式下手动锁定目"
+"标，AUTO（自动）档位下 TCS 将自动尝试锁定进入视场内的目标。 **FOV** 开关可以"
+"用来控制 TCS 使用 WIDE（宽）或 NAR（窄）视场。"
 
 #: ../../source/general.rst:1945
 msgid ""
@@ -9277,13 +9317,15 @@ msgid ""
 "recorder (AVTR) controlling and indicating power mode and time remaining on "
 "tape. This is currently not modelled in DCS."
 msgstr ""
-"传感器控制面板的最下部分是机载磁带录像机（AVTR）的相关控制开关和指示AVTR电源"
-"状态和剩余录像时间的指示器，当前版本对此还没有建模。"
+"传感器控制面板的下半部分包含了机载录像机（AVTR）的控制器，这些控制器用来控制"
+"和指示电源模式和磁带的剩余录像时间。尚未在 DCS 中对其进行建模。"
 
+# 2020/07/09 AG 校对至此
 #: ../../source/general.rst:1949
 msgid "AN/AWG-9 Radar"
 msgstr "AN/AWG-9雷达"
 
+#  track while scan in f-14 is track while search
 #: ../../source/general.rst:1951
 msgid ""
 "The AN/AWG-9 radar in the F-14 is an all-weather, multi-mode pulse doppler "
@@ -9295,12 +9337,12 @@ msgid ""
 "this mission transitioned more towards the anti-fighter side, a mission for "
 "which it was very well adapted."
 msgstr ""
-"F-14所装备的AN/AWG-9雷达是一部工作在X波段（8 - 12 GHZ）下的全天候，多模式脉冲"
-"多普勒雷达。该雷达专为远距离交战而设计，可以在边扫描边跟踪（TWS）模式下同时引"
-"导6枚AIM-54不死鸟导弹攻击不同的目标。在最初的设想中，F-14将为舰队提供远距离空"
-"中防御，拦截俄罗斯轰炸机和其他威胁舰队的敌机。在F-14的服役后期，该机型的任务"
-"重心由截击敌方轰炸机转为对抗敌放战斗机以抢占制空权。事实证明，F-14同样很擅长"
-"这项任务。"
+"F-14 所装备的 AN/AWG-9 雷达是一部工作在 X 波段（8 - 12 GHZ）下的全天候，多模"
+"式脉冲多普勒雷达。AWG-9 雷达专为远程攻击而设计，可以在边搜索边跟踪（TWS）模式"
+"下同时引导6枚 AIM-54 “不死鸟”导弹攻击不同的目标。在最初的设想中，F-14 用作为"
+"远程舰队守卫者拦截俄罗斯轰炸机和其他威胁到舰队的敌机。在 F-14 服役生涯的后"
+"期，F-14 的任务重心由拦截敌方轰炸机转为对抗敌方战斗机。事实证明，F-14 同样很"
+"擅长这项任务。"
 
 #: ../../source/general.rst:1954
 msgid ""
@@ -9308,9 +9350,9 @@ msgid ""
 "each with its own pros and cons. Below is a table listing function, weapons "
 "capability, expected range and target data available."
 msgstr ""
-"AN/AWG-9雷达有两种基本工作模式：脉冲模式和脉冲多普勒模式，两种模式各有其优缺"
-"点。下表列出了两种基础模式下的不同功能，武器投放能力，扫描范围和可用目标数"
-"据。"
+"AN/AWG-9 雷达有两种基本的工作模式：脉冲模式和脉冲多普勒模式，两种模式各有其优"
+"缺点。下表列出了两种模式下的不同功能，可用的武器投放方式、预期探测距离和目标"
+"数据。"
 
 #: ../../source/general.rst:1958 ../../source/general.rst:4897
 msgid "Mode"
@@ -9318,11 +9360,11 @@ msgstr "模式"
 
 #: ../../source/general.rst:1958
 msgid "Weapons capability"
-msgstr "可用武器"
+msgstr "武器投放"
 
 #: ../../source/general.rst:1958
 msgid "Detection-range"
-msgstr "扫描范围"
+msgstr "探测距离"
 
 #: ../../source/general.rst:1960 ../../source/general.rst:1994
 msgid "Pulse Search"
@@ -9330,11 +9372,11 @@ msgstr "脉冲搜索"
 
 #: ../../source/general.rst:1960
 msgid "Medium range search and detection, secondary air-to-ground."
-msgstr "中距离对空搜索，以及有限的对地搜索能力。"
+msgstr "中程搜索和探测，以及有限的对地搜索能力。"
 
 #: ../../source/general.rst:1960 ../../source/general.rst:1964
 msgid "Boresight missiles."
-msgstr "可以以瞄准线模式发射导弹。"
+msgstr "瞄准轴模式发射导弹。"
 
 #: ../../source/general.rst:1960
 msgid "60nm"
@@ -9342,15 +9384,15 @@ msgstr "60海里"
 
 #: ../../source/general.rst:1962
 msgid "Pulse STT"
-msgstr "脉冲STT"
+msgstr "脉冲 STT"
 
 #: ../../source/general.rst:1962
 msgid "Short to medium range single target track and missile launch."
-msgstr "中短距离单目标跟踪和有限的导弹制导。"
+msgstr "中短程单目标跟踪和导弹制导。"
 
 #: ../../source/general.rst:1962
 msgid "Gun and missiles, AIM-7 in CW and AIM-54 in active launch."
-msgstr "可使用机炮和使用连续波制导的AIM-7以及使用主动模式发射的AIM-54。"
+msgstr "可使用机炮和使用 CW 为 AIM-7 制导以及使用主动模式发射的 AIM-54。"
 
 #: ../../source/general.rst:1962
 msgid "50nm"
@@ -9366,7 +9408,7 @@ msgstr "脉冲多普勒搜索"
 
 #: ../../source/general.rst:1964
 msgid "Long range search and detection."
-msgstr "远距离搜索。"
+msgstr "远程搜索和探测。"
 
 #: ../../source/general.rst:1964
 msgid "110nm"
@@ -9378,7 +9420,7 @@ msgstr "边搜索边测距"
 
 #: ../../source/general.rst:1966
 msgid "Long range search, detection and ranging."
-msgstr "远距离搜索和测距。"
+msgstr "远程搜索、探测和测距。"
 
 #: ../../source/general.rst:1966 ../../source/general.rst:1968
 #: ../../source/general.rst:1970
@@ -9392,15 +9434,15 @@ msgstr "边搜索边跟踪"
 #: ../../source/general.rst:1968
 msgid ""
 "Long range search, detection, multiple target track and missile guidance."
-msgstr "远距离搜索，多目标跟踪，导弹制导。"
+msgstr "远程搜索、探测、多目标跟踪，导弹制导。"
 
 #: ../../source/general.rst:1968
 msgid "AIM-54, multiple target capability."
-msgstr "引导AIM-54同时攻击多个目标。"
+msgstr "AIM-54，多目标攻击能力。"
 
 #: ../../source/general.rst:1970
 msgid "Pulse Doppler STT"
-msgstr "脉冲多普勒STT"
+msgstr "脉冲多普勒 STT"
 
 #: ../../source/general.rst:1970
 msgid "Long range single target track and missile guidance."
@@ -9408,12 +9450,15 @@ msgstr "远程单目标跟踪以及导弹制导。"
 
 #: ../../source/general.rst:1970
 msgid "Gun and all missiles. AIM-7 in PD and CW and AIM-54 in PD and active."
-msgstr "可以使用机炮和AIM-7与AIM-54在内的所有导弹。"
+msgstr ""
+"机炮和所有导弹。使用 PD 和 CW 为 AIM-7 提供制导，使用 PD 和主动模式为 AIM-54 "
+"提供制导。"
 
 #: ../../source/general.rst:1973
 msgid "Detection-range approximation for a 5m²-target."
-msgstr "上表的扫描范围以雷达反射截面积（RCS）为5平方米的目标作为参考。"
+msgstr "探测距离参考为雷达截面积（RCS）5平方米的目标。"
 
+# 2020/07/10 AG 校对至此
 #: ../../source/general.rst:1983
 msgid "Pulse Mode"
 msgstr "脉冲模式"
@@ -9432,23 +9477,24 @@ msgid ""
 "without doppler filtering means that the range in the pulse modes are less "
 "than in the pulse doppler modes."
 msgstr ""
-"在脉冲模式下，AN/AWG-9不使用脉冲多普勒滤波器，这意味着它可以用于探测各个方向"
-"的目标，也可以用于基本的地面测绘。该模式的优点是，由于在该模式下目标不需要与"
-"本机有一定的相对速度才会被识别为目标（相对速度过低的目标将会被多普勒滤波器滤"
-"除），因此目标机使用3/9线机动并不会使该雷达失去对该目标的跟踪。该模式的缺点是"
-"难以区分地面杂波与真实目标回波，这意味着敌机可以利用地形产生的杂波来隐藏自"
-"己。同时，由于缺少多普勒滤波器，区分真实目标与地面背景噪音可谓难上加难。因为"
-"这个缺点，脉冲模式的有效扫描范围明显小于脉冲多普勒模式的扫描范围。"
+"在脉冲模式下，AN/AWG-9 不使用脉冲多普勒滤波器，这意味着脉冲模式可以用于探测各"
+"个方位的目标，也可以用于基本的地形测绘。脉冲模式的优点是，目标不需要与本机有"
+"一定的相对速度才会被视为目标，因此目标进行3/9线机动并不会使雷达失去对目标的跟"
+"踪。但脉冲模式的缺点是雷达难以区分地面杂波与真实目标回波，这意味着敌机可以利"
+"用地形隐蔽在杂波之中。由于没有多普勒滤波器，区分背景噪声和真实目标的难度大大"
+"增加，这就导致了脉冲模式的探测距离要比脉冲多普勒模式缩短不少。"
 
 #: ../../source/general.rst:1990
 msgid ""
 "The radar has two pulse modes, pulse search and pulse single target track (P "
 "STT)."
-msgstr "脉冲模式又分为脉冲搜索模式和脉冲单目标跟踪（P STT）两种子模式。"
+msgstr ""
+"AN/AWG-9 雷达拥有两个脉冲模式，分别是：脉冲搜索模式和脉冲单目标跟踪（P STT）"
+"模式。"
 
 #: ../../source/general.rst:1997
 msgid "Pulse search is used to search for and find airborne targets at range."
-msgstr "脉冲模式主要用于对空搜索。"
+msgstr "脉冲搜索模式主要用于搜索和寻找探测距离内的空中目标。"
 
 #: ../../source/general.rst:1999
 msgid ""
@@ -9458,9 +9504,9 @@ msgid ""
 "that the radar is not built with this as its main function and that a real "
 "air-to-ground radar will outperform it handily."
 msgstr ""
-"也可以将这种雷达模式用于基本的地面测绘，这对导航和导航修正（INS修正）很有用，"
-"也可以在紧急情况下用于探测更大的地面目标，如船舶。请记住，对面搜索并不是雷达"
-"的主要功能，真正的空对面雷达的性能要比它好得多。"
+"脉冲模式可以用作为基本的地形测绘模式，地形测绘对于导航和导航更新来说十分有"
+"用，同时，地形测绘也可以在紧急情况下用于探测更大的地面/水面目标，例如舰船。请"
+"记住，AWG-9 雷达并非为了地形测绘而生，真正的空对面雷达的性能远胜于 AWG-9。"
 
 #: ../../source/general.rst:2001
 msgid ""
@@ -9469,8 +9515,8 @@ msgid ""
 "anything on the TID. This also means that pulse search is not capable of "
 "guiding missiles."
 msgstr ""
-"在此模式下，雷达本身区分目标并建立追踪，这意味着WCS不会生成显示在TID上的目标"
-"符号，也意味着该模式下雷达无法引导导弹攻击。"
+"在脉冲模式下，雷达无法区分目标并生成跟踪符号，这表示 WCS 不会生成跟踪文件并显"
+"示任何符号在 TID 中。同样，在脉冲搜索模式下是无法为导弹提供制导的。"
 
 #: ../../source/general.rst:2003
 msgid ""
@@ -9480,8 +9526,10 @@ msgid ""
 "aircraft stabilized modes of operation using the STAB switch on the sensor "
 "control panel."
 msgstr ""
-"在该模式下DDD将显示雷达图像，显示指定方位与范围内的目标，并且使用HCU控制器切"
-"换到P STT模式。在传感器面板可以控制雷达天线的对地增稳模式。"
+"在脉冲模式下，DDD 将会在所选的尺度显示雷达成像来指示目标的方位和距离，在搜索"
+"模式下可以通过选择 HCU 控制杆功能为 RDR 模式以及 HCU 控制杆来转换至 P STT 模"
+"式。脉冲模式下，可以使用传感器控制面板中的 STAB 开关来选择相对地面或相对飞机"
+"稳定模式。"
 
 #: ../../source/general.rst:2008
 msgid "Pulse Single Target Track (P STT)"
@@ -9496,12 +9544,12 @@ msgid ""
 "ground that the ground return enters the range gates would be likely to "
 "shake the lock."
 msgstr ""
-"脉冲单目标跟踪模式下雷达会跟踪单个目标。同脉冲搜索模式相同，此时目标机无法通"
-"过3/9线机动来躲避雷达探测，但地面杂波会对雷达产生干扰。事实上，任何STT模式均"
-"使用“门”来跟踪目标，在脉冲单目标跟踪模式下，雷达使用距离门来跟踪目标，因此地"
-"面杂波对雷达的干扰相对较小，但如果目标足够贴近地面，则目标仍会被淹没在地面杂"
-"波中进而导致雷达脱锁。"
+"脉冲单目标跟踪模式用于跟踪单个目标，与脉冲搜索模式相同，此时目标不易受到3/9线"
+"机动的影响，但是对地面杂波敏感。STT 模式下，雷达使用距离门来跟踪目标，这意味"
+"着雷达不易受地面杂波的影响，但是目标太接近地面的话，地面回波进入距离门中很可"
+"能会导致锁定震荡。"
 
+# 参见 ASPECT 回波质心
 #: ../../source/general.rst:2014
 msgid ""
 "As it is only in the pulse doppler modes that the missile guidance commands "
@@ -9513,12 +9561,12 @@ msgid ""
 "radar weights its track towards the targets leading edge (nose) away from "
 "the chaff being launched behind the target."
 msgstr ""
-"因为只有在脉冲多普勒模式下，才能对导弹进行全面引导，所以在脉冲单目标锁定模式"
-"下只能用连续波制导AIM-7，以及使用主动模式发射AIM-54，这些因素都限制了导弹的射"
-"程。在近距离以及空战格斗（ACM）距离内，可以使用ASPECT开关来控制对目标的跟踪位"
-"置（如机头/机尾）来对抗不同的干扰措施，比如说如果将开关设置为NOSE，则箔条对雷"
-"达的干扰将会降低，因为雷达天线会指向目标前缘（机鼻）从而远离目标后方发射的箔"
-"条。"
+"由于只能在脉冲多普勒模式下发送导弹制导指令，脉冲 STT 模式仅限于使用 CW 模式发"
+"射 AIM-7，以及以主动模式发射 AIM-54 导弹，从而限制了导弹的射程。在 ACM 距离"
+"内，脉冲模式可以使用 ASPECT 开关来设置从目标的那个方位进行跟踪，ASPECT 开关只"
+"是为了应对不同的对抗措施而进行设置。例如，如果将 ASPECT 开关设置为 NOSE 的"
+"话，雷达将回波质心设置在目标前部（机头），远离发射到目标后发的箔条，从而不易"
+"受到箔条的干扰。"
 
 #: ../../source/general.rst:2017
 msgid ""
@@ -9530,11 +9578,11 @@ msgid ""
 "instead of the RDROT. When range tracking is again possible at closer ranges "
 "the radar will transition to that instead."
 msgstr ""
-"如果DDD面板上的ANT TRK和RDROT指示灯亮起，则表示成功锁定目标，雷达天线正在跟"
-"踪，目标处于雷达跟踪波门内。如果目标身上带有足够强度的干扰，导致雷达无法对其"
-"进行测距，那么RDROT指示灯将不会亮起，取而代之的是JAT指示灯亮起，表示雷达正在"
-"跟踪干扰源角度。当目标接近到足够近，雷达可以重新对其进行测距时（雷达烧穿干"
-"扰），JAT灯将会熄灭，RDROT灯将亮起。"
+"如果 DDD 面板上的 ANT TRK 和 RDROT 指示灯亮起表示雷达成功锁定目标，这意味着雷"
+"达天线正在跟踪这个目标且目标处于跟踪门内。如果目标干扰的强度足够，导致无法进"
+"行距离跟踪，那么雷达将转换为干扰源角跟踪，干扰源角跟踪时，DDD 中 JAT 指示灯将"
+"会亮起，RDROT 指示灯将会熄灭。当在足够近的距离雷达可以再次进行距离跟踪后，雷"
+"达将会转换为距离跟踪。"
 
 #: ../../source/general.rst:2021
 msgid ""
@@ -9543,9 +9591,9 @@ msgid ""
 "will show the range gates around the target, a closing rate symbol at the "
 "right scale and applicable attack symbology if a valid missile is selected."
 msgstr ""
-"在此模式下DDD的显示类似于脉冲搜索模式，不过雷达天线将不在进行周期性扫描而是锁"
-"定到一个目标上。如果选择了可以使用的导弹，DDD上将显示导弹的发射距离范围，正确"
-"比例的目标接近率符号以及对应的攻击指示符号。"
+"在 P STT 模式下，DDD 的显示类似于脉冲搜索模式，只不过天线是锁定目标而不是进行"
+"扫描。此外，如果选择了有效的导弹，DDD 还将在目标的周围显示距离门、右侧尺度中"
+"的接近率符号和可用于 P STT 的攻击符号。"
 
 #: ../../source/general.rst:2025
 msgid "Pulse Doppler Mode"
@@ -9562,13 +9610,14 @@ msgid ""
 "susceptible to notching as a target returning zero relative speed will be "
 "filtered out."
 msgstr ""
-"在脉冲多普勒模式中，AN/AWG-9雷达使用多普勒滤波器过滤掉不需要的回波，增强对目"
-"标的探测，从而增加有效探测距离。该模式的优点在前文已有提及：可以在更远距离上"
-"探测到目标、基本消除了地面杂波的影响、可以向AIM-7和AIM-54导弹发送制导命令。"
-"AIM-54在TWS模式和STT模式中都能使用，AIM-7只能在STT模式中使用。这种模式最大的"
-"缺点是会被目标机使用3/9线机动摆脱雷达的探测，当目标的接近率接近为0的时候，雷"
-"达会很难探测到目标。"
+"在脉冲多普勒模式下，AN/AWG-9 雷达使用多普勒滤波器过滤掉不需要的回波来增强对目"
+"标的探测，从而提高探测的距离。脉冲多普勒模式的有点在上述中已经提到：可以探测"
+"到距离更远的目标、几乎不受地面回波影响和向 AIM-7 和 AIM-54 发送制导指令。"
+"AIM-54 可以在 TWS 和 STT 模式下发射，而 AIM-7 只能在 STT 模式下发射。PD 模式"
+"最大的缺点是容易受到目标使用3/9线机动的影响，当目标的接近率接近为0的时候，目"
+"标将会被过滤。"
 
+# should be range while search.
 #: ../../source/general.rst:2032
 msgid ""
 "The pulse doppler modes of the AN/AWG-9 are, pulse doppler search, range "
@@ -9577,12 +9626,11 @@ msgid ""
 "search has a slightly better range as the other two modes need to process FM-"
 "ranging to enable range indication of tracked targets."
 msgstr ""
-"AN/AWG-9雷达脉冲多普勒模式的子模式有：脉冲多普勒搜索，边搜索边测距，边搜索边"
-"跟踪以及脉冲多普勒STT模式。三种搜索模式有相同的DDD显示界面，主要区别在于脉冲"
-"多普勒搜索的扫描距离稍微远一点，因为其他两种搜索模式需要处理调频测距以实现对"
-"跟踪目标的距离显示。"
+"AN/AWG-9 雷达的脉冲多普勒模式有：脉冲多普勒搜索，边搜索边测距，边搜索边跟踪以"
+"及脉冲多普勒 STT 模式。三种搜索模式有相同的 DDD 符号显示，三种模式的区别在"
+"于，脉冲多普勒搜索模式的探测距离略胜于另外两种模式，这是因为其他两种搜索模式"
+"需要处理 FM 测距来启用跟踪目标的距离指示。"
 
-# 改动过
 #: ../../source/general.rst:2037
 msgid ""
 "The DDD in the pulse doppler search modes displays returns at azimuth versus "
@@ -9595,12 +9643,13 @@ msgid ""
 "the radar itself only reads relative airspeed which is then modified by "
 "subtracting own airspeed for display on the DDD."
 msgstr ""
-"脉冲多普勒搜索模式中DDD显示目标的方位角以及接近率，这意味着RIO通过读取DDD只能"
-"获得这两种目标信息。需要注意的是DDD显示屏显示的目标接近率是相对于地面的（减去"
-"本机的空速），而不是与本机的相对接近率。这意味着目标正对向雷达飞来，将会显示"
-"其真空速，这个速度会随着目标方位角和雷达天线的方位角的变化而变化。"
+"脉冲多普勒搜索模式下，DDD 以方位和接近率（接近速度）显示回波，这表示仅在 DDD "
+"进行读数的话，RIO 只能识别目标的接近速度和方位。需要注意的是 DDD 屏幕中显示的"
+"目标接近率是相对于地面的（减去本机的空速），而不是相对本机的接近率。这就意味"
+"着正前方的目标笔直向雷达移动，DDD 将显示目标真空速，目标空速随目标方位和雷达"
+"天线的方位变化。这样做的原因是由于雷达本身只读取相对空速，之后再通过减去本机"
+"空速修改显示在 DDD 中。"
 
-# 改动过
 #: ../../source/general.rst:2042
 msgid ""
 "At the bottom edge of the DDD the AGC-trace is displayed indicating radar "
@@ -9608,9 +9657,10 @@ msgid ""
 "strength. The jamming targets are shown as jamming strobes on the TID if "
 "they exceed the set jamming threshold (set by the JAM/JET knob on the DDD)."
 msgstr ""
-"在DDD显示器的下缘，会显示自动增益控制轨迹，指示雷达回波强度，RIO可以通过这个"
-"来识别干扰目标。如果干扰目标的干扰强度超过设置的干扰阈值（由DDD面板上的JAM/"
-"JET旋钮设置），则会在TID上显示为干扰源。"
+"用来指示雷达回波强度的 AGC 轨迹将显示在 DDD 显示屏底部边缘处，从而使 RIO 通过"
+"回波的强度来识别正在对雷达进行干扰的目标。如果一个目标的干扰强度超过设定的干"
+"扰阈值的话（通过 DDD 中的 JAM/JET 旋钮设定），那么在 TID 中会显示干扰源射线来"
+"指示正在对雷达进行干扰的目标。"
 
 #: ../../source/general.rst:2044
 msgid ""
@@ -9625,15 +9675,19 @@ msgid ""
 "doppler filters for a known target closing speed and this affects the whole "
 "radar processing unlike the Vc switch which only affects the DDD."
 msgstr ""
-"DDD面板上的Vc开关可以用来设置DDD上显示的目标接近率标尺。开关拨到X4位置时，接"
-"近率标尺区间被设置为800节到4000节，NORM位置时接近率标尺区间被设置为200节到"
-"1000节。VID上显示的接近率标尺区间被设置为50节到250节。多普勒滤波器的工作区间"
-"也可以通过同一面板是的ASPECT开关进行设置，开关在NOSE位置时会对迎头600节工作到"
-"1800节接近率的目标进行处理，BEAM位置时会对侧视±1200节左右接近率的目标进行处"
-"理，TAIL位置是会对尾追-1800节到600节的接近率目标进行处理。通过这个开关RIO可以"
-"根据已知目标的接近率来优化多普勒滤波器的工作，这个设置将会影响到整个雷达的工"
-"作，而Vc开关只会对DDD的显示有影响。"
+"DDD 面板中的 Vc 开关可以用来设置 DDD 中显示的尺度（显示的接近率区域）。开关拨"
+"到 X-4 档位时，接近率尺度被设置为800节离开到4000节接近。拨动开关至 NORM 档位"
+"则会将接近率标尺区间设置为200节离开到1000节接近。开关拨动到 VID 档位则会将尺"
+"度设置为50节离开到250节接近。多普勒滤波器的工作区间也可以通过位于同一面板中"
+"的 ASPECT 开关进行设置，开关在 NOSE 档位时，接近率处理窗口为600节离开到1800节"
+"接近，BEAM 档位为1200节离开到1200节接近，TAIL 档位为1800节离开到600节接近。"
+"ASPECT 开关可使 RIO 在已知目标接近率的情况下对多普勒滤波器进行最佳处理，"
+"ASPECT 开关会影响到整个雷达的滤波处理，而 Vc 开关不会，Vc 开关只影响 DDD 的显"
+"示。"
 
+# those returning with zero groundspeed is one of them and is 266 knots wide
+# ？those不能作为先行词。语法错误
+# 地速为0的回波？？？？
 #: ../../source/general.rst:2048
 msgid ""
 "Because of the way the radar operates the doppler filters it will have two "
@@ -9652,16 +9706,16 @@ msgid ""
 "whichever case, with the MLC filter off, the target cannot notch the AN/"
 "AWG-9 if it is above the radar."
 msgstr ""
-"由于雷达多普勒滤波器的工作机制，雷达会有两个盲区。主瓣杂波（MLC）区包含了大部"
-"分地面杂波，0地速目标回波也会被包含在这个范围内，本机地速±133节的266节速度区"
-"间内的目标同样会被包含在内。这就是为什么目标机可以通过3/9线机动摆脱雷达的搜"
-"索，在进行上述机动时，目标相对本机的相对速度与本机地速相近，故会被作为地面杂"
-"波滤除。当然，这种情况只会出现在雷达下视时中，因为当雷达天线仰视天空时不会有"
-"地面杂波，滤波器可以被关闭。所以如果DDD面板上的MLC滤波器开关位于AUTO位置时，"
-"当雷达天线角度处于地平线上方3°以上时，雷达会自动关闭MLC滤波器。滤波器也可以由"
-"RIO手动关闭，但如果关闭该滤波器后使用雷达下视搜索，RWS与TWS将无法使用，因为计"
-"算机会处理所有的的地面回波。不论在何种情形下，如果目标在雷达上方，那它便无法"
-"使用3/9线机动逃过AN/AWG-9的跟踪。"
+"由于雷达操作多普勒滤波器的机制，雷达会有两个盲区。包含了大部分地速为零的地面"
+"物体的回波——主瓣杂波（MLC）区是其中一个盲区，MLC 滤波为以本机地速为中心，滤波"
+"区间宽266节（±133节）。这就是为什么目标可以通过3/9线机动摆脱雷达的搜索，当目"
+"标在进行上述机动时，目标的相对地速为0，故会被作为地面杂波滤除。但是，这种情况"
+"只会出现在雷达下视中，因为当雷达天线上视天空时不会出现地面回波，因此可以关闭"
+"滤波器。如果 DDD 面板中的 MLC 滤波器开关位于 AUTO 档位，且雷达天线仰角高于地"
+"平线3°以上时，那么雷达将会自动关闭 MLC 滤波器。滤波器也可以由 RIO 手动关闭，"
+"但是如果天线下视，在 RWS 和 TWS 模式下，可能会导致显示器无法使用，这是因为所"
+"有地面回波将会发送至计算机用于跟踪。无论在哪种情况，一旦关闭 MLC 滤波器且目标"
+"位于雷达上方，那么目标将无法使用3/9线机动来摆脱 AN/AWG-9 雷达的探测。"
 
 #: ../../source/general.rst:2053
 msgid ""
@@ -9675,11 +9729,12 @@ msgid ""
 "the radar. This means that when chasing a fleeing target it may very well be "
 "necessary to use the pulse modes instead."
 msgstr ""
-"雷达的第二个滤波器是零多普勒效应滤波器，也代表着雷达的第二个盲区，这个盲区意"
-"味着当目标正在以与本机地速接近的速度飞离本机时，雷达无法探测到该目标。该盲区"
-"的产生是由于多普勒模式的工作机制所致，因为如果目标没有多普勒频移就不会被探测"
-"到，这个盲区的区间为200节，这意味着雷达将无法跟踪为速度为本机地速±100节并在远"
-"离本机的目标，在这种情况下应该切换至脉冲模式。"
+"第二个滤波器，也就是第二个盲区——零多普勒滤波器。零多普勒滤波盲区以本机地速的"
+"负接近率周围为中心，这表示滤波区域内的目标正以和本机相同的速度离开。零多普勒"
+"盲区是因为硬件限制而导致的，如果没有多普勒频移的话，多普勒雷达就无法探测到目"
+"标。零多普勒导致的结果是，盲区的区间宽200节，这意味着雷达无法探测到相对本机地"
+"速±100节的目标（目标飞离本机）。这就表示在追逐飞离本机的目标时，可能需要使用"
+"脉冲模式。"
 
 #: ../../source/general.rst:2057
 msgid ""
@@ -9690,25 +9745,28 @@ msgid ""
 "DDD as the observed speed of the returning ground returns will vary with "
 "azimuth."
 msgstr ""
-"由于目标的相对速度会随着方位角的变化而变化，所以这两个滤波器都会随着目标方位"
-"角的变化而变化。比如说位于45° 的目标的相对速度将会小于位于0°的目标，因为其自"
-"身的速度矢量会有略微偏离。这就是为什么DDD上显示的主瓣杂波轨迹会呈现为曲线的原"
-"因。"
+"由于本机相对目标的空速随方位变化，上述的两个滤波器滤波区间随方位变化。比如说"
+"位于45° 的目标的相对空速将会小于位于0°的目标，这是因为本机的速度矢量会略微偏"
+"离目标。由于地面回波的观测速度随方位的变化而变化，这就是为什么 DDD 中主瓣杂波"
+"轨迹会呈现为曲线的原因。"
 
+# ？？
 #: ../../source/general.rst:2062
 msgid ""
 "Target groundspeed 900 knots, own airspeed 1200 knots. See table below for "
 "details, line of sight rate is the sum of target and own aircraft relative "
 "rate."
-msgstr "目标地速为900节，空速为1200节。详细信息参照下表。"
+msgstr ""
+"目标地速为900节，本机空速为1200节。详细信息参照下表，视线转率是目标与本机的相"
+"对转率之和。"
 
 #: ../../source/general.rst:2065
 msgid "Look Angle"
-msgstr "方位角"
+msgstr "视线角"
 
 #: ../../source/general.rst:2065
 msgid "Line of Sight Rate"
-msgstr "视线角速度"
+msgstr "视线转率"
 
 #: ../../source/general.rst:2065
 msgid "Target Heading"
@@ -9716,67 +9774,68 @@ msgstr "目标航向"
 
 #: ../../source/general.rst:2067
 msgid "1490"
-msgstr ""
+msgstr "1490"
 
 #: ../../source/general.rst:2067
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: ../../source/general.rst:2069 ../../source/general.rst:2077
 msgid "45°"
-msgstr ""
+msgstr "45°"
 
 #: ../../source/general.rst:2069
 msgid "1500"
-msgstr ""
+msgstr "1500"
 
 #: ../../source/general.rst:2069
 msgid "120°"
-msgstr ""
+msgstr "120°"
 
 #: ../../source/general.rst:2071 ../../source/general.rst:2075
 msgid "30°"
-msgstr ""
+msgstr "30°"
 
 #: ../../source/general.rst:2071
 msgid "1428"
-msgstr ""
+msgstr "1428"
 
 #: ../../source/general.rst:2071
 msgid "100°"
-msgstr ""
+msgstr "100°"
 
 #: ../../source/general.rst:2073 ../../source/general.rst:2079
 msgid "0°"
-msgstr ""
+msgstr "0°"
 
 #: ../../source/general.rst:2073
 msgid "1200"
-msgstr ""
+msgstr "1200"
 
 #: ../../source/general.rst:2073
 msgid "90°"
-msgstr ""
+msgstr "90°"
 
 #: ../../source/general.rst:2075
 msgid "672"
-msgstr ""
+msgstr "672"
 
 #: ../../source/general.rst:2075
 msgid "80°"
-msgstr ""
+msgstr "80°"
 
 #: ../../source/general.rst:2077
 msgid "210"
-msgstr ""
+msgstr "210"
 
 #: ../../source/general.rst:2079
 msgid "7"
-msgstr ""
+msgstr "7"
 
+# 2020/07/11 AG 校对至此
 #: ../../source/general.rst:2079
 msgid "-300"
-msgstr ""
+msgstr "-300"
 
 #: ../../source/general.rst:2082
 msgid ""
@@ -9784,16 +9843,16 @@ msgid ""
 "dissappear inside the MLC filter or MLC ground return. In a look up "
 "situation with the MLC filter disabled the target would still be visible."
 msgstr ""
-"位置4的目标有可能处于侧对或正在进行3/9线机动，所以其被MLC滤波器筛除了。如果禁"
-"用MLC滤波器，且雷达上视目标，则该目标将有可能被显示。"
+"位置4的目标正在侧对本机或正在进行3/9线机动，使其消失在 MLC 滤波或者 MLC 地面"
+"回波内。在禁用 MLC 滤波器且雷达上视的情况下，目标将会可见。"
 
 #: ../../source/general.rst:2084
 msgid ""
 "Additionally all pulse doppler search modes use ground stabilization "
 "exclusively and thus the STAB switch is inoperative."
 msgstr ""
-"此外，在所有的脉冲多普勒搜索模式中，雷达天线增稳只能使用GROUND模式，所以STAB"
-"开关在这些模式中将不起作用。"
+"此外，在所有脉冲多普勒搜索模式下，雷达仅使用相对地面稳定，因此 STAB 开关在脉"
+"冲多普勒搜索模式下是无效的。"
 
 #: ../../source/general.rst:2090
 msgid ""
@@ -9802,9 +9861,9 @@ msgid ""
 "display no range to the RIO, only closure rate. For this reason the TID can "
 "display no track information."
 msgstr ""
-"脉冲多普勒搜索模式主要被作为一种预警模式。它是所有搜索模式中探测范围最大的，"
-"但是该模式下只能显示目标的接近率而不能显示目标距离。所以TID上不会显示任何目标"
-"跟踪信息。"
+"脉冲多普勒搜索模式主要作为预警模式使用。脉冲多普勒搜索模式是所有搜索模式下，"
+"探测距离最远的搜索模式，但是在脉冲多普勒搜索模式下无法向 RIO 提供距离，只能显"
+"示接近率。所以 TID 中不会显示任何跟踪信息。"
 
 #: ../../source/general.rst:2096
 msgid "Range While Search (RWS)"
@@ -9823,13 +9882,15 @@ msgid ""
 "azimuth at which time it is removed unless detected again. Maximum number of "
 "concurrently shown tracks are 48."
 msgstr ""
-"在RWS 模式中，增加了频率测量测距功能（FM 测距），可以使雷达在该模式下除了测量"
-"目标接近率外还可以测量目标的距离。然而这一额外的数据处理意味着雷达的有效扫描"
-"距离会小一些。此模式下DDD上的显示界面与脉冲多普勒搜索模式下基本相同，但是TID"
-"也会在此模式下显示目标，并在雷达扫描到目标的同时显示目标的距离，位置和高度。"
-"TID上的目标标志最长留存2秒，当天线再次扫描这一区域时，除非再次扫描到目标，否"
-"则将会从TID上删除目标标识。可以在TID上同时显示的最大目标数量为48个。"
+"在边搜索边测距模式下，增加了频率调制测距模式（FM 测距），这可使雷达能够测量除"
+"接目标近率外还可测量跟踪目标的距离。但是，这种额外的数据测量意味着雷达有效探"
+"测距离会要缩短一些。DDD 中的成像显示与脉冲多普勒搜索模式下一致，但不同的是，"
+"在 RWS 模式下，TID 也将会显示跟踪符号，这是因为目标在被雷达扫描到时将会立刻被"
+"作为一个跟踪，并显示其位置和高度。DDD 中的目标最多显示两秒，或显示目标直到天"
+"线再次以相同的扫描线和在同样的方位扫描到目标+2秒为止，如果目标没有被再次探测"
+"到，目标将会被移除。DDD 中最多可显示48个跟踪。"
 
+# track while search
 #: ../../source/general.rst:2107
 msgid "Track While Scan (TWS)"
 msgstr "边搜索边跟踪（TWS）"
@@ -9842,9 +9903,10 @@ msgid ""
 "and tracks up to 24 targets concurrently of which 18 can be shown on the TID "
 "at any given time."
 msgstr ""
-"与脉冲多普勒搜索模式相比，TWS模式使用与RWS模式相同的FM测距方式，因此探测距离"
-"的减益也与RWS模式相同，DDD的显示内容也基本相同。该模式下计算机会建立跟踪文件"
-"并同时跟踪最高可达24个目标，其中18个目标可以在任何时候显示在TID上。"
+"边搜索边跟踪模式同 RWS 模式一样使用 FM 测距，所以相对脉冲多普勒搜索模式的探测"
+"距离缩减是一样的，并且 DDD 显示也和脉冲多普勒搜索一致。和 RWS 模式的主要区别"
+"在于，在 TWS 模式下，计算机可以建立跟踪文件并同时跟踪最多24个目标，并在 TID "
+"中显示最多18个跟踪。"
 
 #: ../../source/general.rst:2112
 msgid ""
@@ -9855,10 +9917,10 @@ msgid ""
 "volumes unless those are set to ±40° 2 bars in which case that is used "
 "instead."
 msgstr ""
-"由于计算目标位置的计算机程序需要设置2秒的目标刷新时间，所以该模式下雷达的可用"
-"方位角扫描范围与俯仰角扫描线被限制为±20°4线扫描或者±40°2线扫描。当选择TWS模式"
-"时，计算机会自动选择±20°4线扫描，并忽略RIO之前在其他模式下设置的扫描范围，除"
-"非设置的是±40°2线扫描，在这种情况下，计算机将会使用RIO设置的扫描范围。"
+"由于计算这些跟踪的计算机程序需要将跟踪刷新时间设置为2秒，所以在 TWS 模式下雷"
+"达的可用的扫描方位角与扫描线数为 2-线扫描 ±40° 或 4-线扫描 ±20°。进入 TWS "
+"时，计算机将会自动选择 4-线扫描 ±20°，计算机不会考虑 RIO 设置的扫描范围，除非"
+"将扫描范围设置为 2-线扫描 ±40°。"
 
 #: ../../source/general.rst:2115
 msgid ""
@@ -9867,8 +9929,9 @@ msgid ""
 "the computer starts assigning them a missile priority number according to "
 "optimal missile firing sequence."
 msgstr ""
-"TWS模式也是允许为AIM-54提供引导以同时攻击多个目标（最多6个）的唯一模式。一旦"
-"检测到可以攻击的目标，计算机就会开始根据最佳导弹发射顺序为目标分配开火顺序。"
+"TWS 模式也是唯一一个可以为 AIM-54 提供制导来攻击多个目标的模式（最多六个目"
+"标），并且一旦雷达探测到可攻击的目标，计算机将会根据最佳导弹发射顺序来为目标"
+"分配导弹优先级序号。"
 
 #: ../../source/general.rst:2117
 msgid ""
@@ -9881,11 +9944,12 @@ msgid ""
 "maximised. If not selected before launch the WCS overrides as soon as the "
 "first AIM-54 is launched and selects TWS Auto."
 msgstr ""
-"在TWS下有两个子模式，分别是TWS AUTO（自动）和TWS MANUAL（手动）。RIO可以通过"
-"DDD面板上的相应按钮选择其中一个子模式。两个子模式的区别在于，在TWS AUTO模式"
-"中，一旦目标被雷达跟踪，计算机就会接手控制雷达的扫描范围以及扫描方位角和俯仰"
-"角，并自动优化以便最大限度的跟踪优先目标。如果在启动TWS模式的时候未选择子模"
-"式，那么在发射第一枚AIM-54的时候，WCS就会自动选择TWS AUTO模式。"
+"TWS 包含有两个子模式，它们分别是 TWS AUTO（自动）和 TWS MANUAL（手动），两个"
+"子模式由 RIO 在 DDD 面板上通过对应的按钮进行选择。两个字模式的区别在于，在 "
+"TWS AUTO 模式下，一旦目标跟踪存在，扫描范围和栅状扫描的方位和高度将由计算机接"
+"管。WCS 计算机将会自动尝试最佳化扫描范围和方位以便最大限度的跟踪优先的目标。"
+"如果在发射 AIM-54 前未选择 TWS AUTO 模式，那么 WCS 将会在第一枚 AIM-54 发射后"
+"越控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。"
 
 #: ../../source/general.rst:2122
 msgid ""
@@ -9893,22 +9957,21 @@ msgid ""
 "via the navigational cues and this centroid is also displayed on the TID as "
 "a small x-shaped cross."
 msgstr ""
-"在TWS模式中，飞行员可以通过导航提示被引导向计算机计算出的目标拦截点，该拦截点"
-"也会在TID上被显示为小X符号。"
+"TWS 模式下，飞行员通过导航提示转向至跟踪目标的计算出的质心，并且这个质心同样"
+"会以 小X 状的十字显示在 TID 中。"
 
 #: ../../source/general.rst:2124
 msgid ""
 "For additional information about TWS symbology and missile guidance see :ref:"
 "`TWSATTK` and :ref:`TIDSYMB`."
 msgstr ""
-"有关TWS符号和导弹制导的更多信息，请参阅\\ :ref:`TWSATTK`\\ 和\\ :ref:"
-"`TIDSYMB`\\ 。"
+"更多有关 TWS 标识符和导弹引导的信息，详情参见 :ref:`TWSATTK` 和 :ref:"
+"`TIDSYMB` 。"
 
-# 改动过
 #: ../../source/general.rst:2126
 msgid ""
 "The TWS AUTO mode is currently not implemented, will be added during EA."
-msgstr "TWS AUTO模式尚未实现，将在EA中加入。"
+msgstr "TWS AUTO 模式尚未实装，将在 EA 中加入。"
 
 #: ../../source/general.rst:2130
 msgid "Pulse Doppler Single Target Track (PD STT)"
@@ -9922,9 +9985,10 @@ msgid ""
 "while much better at tracking a target close to the ground it is however "
 "vulnerable to notching."
 msgstr ""
-"脉冲多普勒STT模式与脉冲STT模式相似。不过与脉冲STT模式相比，它既有优点，也有缺"
-"点。虽然该模式更适合跟踪接近地面的目标，但是目标飞机可以通过3/9线机动来摆脱雷"
-"达跟踪。"
+"脉冲多普勒 STT 模式与脉冲 STT 模式相似。就像其它脉冲多普勒模式对比脉冲模式一"
+"样，脉冲多普勒 STT 相比脉冲 STT 来说，既有优点也有缺点。这意味着，虽然脉冲多"
+"普勒 STT 模式可以更好的跟踪接近地面的目标，但是这个模式容易收到3/9线机动的影"
+"响。"
 
 #: ../../source/general.rst:2136
 msgid ""
@@ -9936,10 +10000,11 @@ msgid ""
 "shows closure rate. The other symbology on the DDD in this mode are the same "
 "as in pulse STT."
 msgstr ""
-"脉冲多普勒STT在DDD上的显示界面与脉冲STT类似，只是目标距离指示和天线角度显示移"
-"动到了屏幕的左侧，而生成的目标符号则位于正确的方位角上。与其他只显示接近率的"
-"脉冲多普勒子模式不同的是在该模式下还可以显示目标的距离。此模式下DDD上的其他符"
-"号与脉冲STT模式中的符号相同。"
+"DDD 中的脉冲多普勒 STT 显示和脉冲 STT 显示相似，除了在脉冲多普勒 STT 模式下，"
+"目标回波将和天线方位被移动到了屏幕左侧，并且生成出的合成目标标记是显示在正确"
+"的方位上的。这样一来，就和其他仅显示接近率的脉冲多普勒模式不同，合成目标的距"
+"离还可以被显示出来。在脉冲多普勒 STT 模式下， DDD 中的其它标识符和脉冲 STT 模"
+"式下的一致。"
 
 #: ../../source/general.rst:2140
 msgid ""
@@ -9949,9 +10014,9 @@ msgid ""
 "with the disadvantage, in the case of the AIM-54, of only being able to "
 "engage one target at a time."
 msgstr ""
-"与脉冲STT不同的是，在脉冲多普勒STT模式下AN/AWG-9可以向导弹发送制导指令，从而"
-"在这个模式下为AIM-7和AIM-54提供制导。在此模式下导弹可以达到最大射程，但在使用"
-"AIM-54时，仅能同时攻击一个目标。"
+"不像脉冲 STT 模式，AN/AWG-9 雷达可以在脉冲多普勒 STT 模式下向导弹发送制导指"
+"令，从而使 AIM-7 和 AIM-54 在脉冲多普勒模式下发射。脉冲多普勒 STT 模式是导弹"
+"发射距离最远的模式，但缺点是，AIM-54 在这个模式下发射，一次只能攻击一个目标。"
 
 #: ../../source/general.rst:2145
 msgid "Transitional Modes"
@@ -9963,12 +10028,12 @@ msgid ""
 "target tracks from the search modes, ACM modes, via TCS or between the two "
 "STT modes."
 msgstr ""
-"该模式指雷达从搜索模、ACM模式、或通过隶属于TCS而进入STT模式或者在两种STT模式"
-"之间过渡的模式。"
+"过渡模式是用于从搜索模式、ACM 模式、通过 TCS 或两个 STT 模式之间过渡的模式。"
 
+# 2020/07/13 AG 校对至此
 #: ../../source/general.rst:2151
 msgid "HCU Stick in Radar Mode"
-msgstr "雷达模式下的HCU控制杆"
+msgstr "RDR 模式下的 HCU 控制杆"
 
 #: ../../source/general.rst:2153
 msgid ""
@@ -9976,8 +10041,8 @@ msgid ""
 "manually use the HCU stick with radar mode selected to select a target on "
 "the DDD for STT lock."
 msgstr ""
-"当AN/AWG-9雷达工作在不同搜索模式下时，可以手动使用HCU控制杆在DDD上选择目标并"
-"进行STT锁定。"
+"当在不同搜索模式下使用 AN/AWG-9 雷达时，在 HCU 功能按钮选择 RDR 模式时可以使"
+"用 HCU 手动选定 DDD 中的目标来 STT 锁定。"
 
 #: ../../source/general.rst:2155
 msgid ""
@@ -9986,9 +10051,9 @@ msgid ""
 "In supersearch mode the antenna does a ±10° search pattern at the selected "
 "amount of bars around the acquisition gates."
 msgstr ""
-"在雷达模式下按下HCU控制杆扳机的第一段，会在DDD上显示雷达游标，并启动雷达的超"
-"级搜索模式。在这个模式下，天线会在雷达游标周围选定的扫描行数（bar）上进行±10°"
-"的扫描。"
+"当 HCU 功能按键选择 RDR 模式下，按下 HCU 扳机第一段将会在 DDD 中显示截获门，"
+"并启用雷达超级搜索模式。在超级搜索模式下，天线在截获门周围以选定的扫描线数和"
+"±10°扫描方位角进行栅状扫描。"
 
 #: ../../source/general.rst:2158
 msgid ""
@@ -10000,11 +10065,11 @@ msgid ""
 "time the RIO can then select full-action on the HCU trigger, commanding the "
 "radar to attempt a lockon at the commanded azimuth, range/rate and elevation."
 msgstr ""
-"同时，HCU可以控制目标扫描的位置，控制杆的X轴用于控制方位角，Y轴用于控制扫描距"
-"离或者接近率，具体功能取决于当前处于脉冲模式还是脉冲多普勒模式。然后使用HCU控"
-"制杆上的扫描角度控制旋钮对天线角度进行微调，直到在雷达游标内可以看到目标回"
-"波。此时按下控制杆扳机的第二段，可以命令雷达在当前方位角，俯仰角和距离/速率上"
-"尝试锁定。"
+"截获门可以通过 HCU 偏转至探测到的目标上，控制杆向左/向右控制截获门方位偏转，"
+"控制杆向上/向下根据选择的是脉冲或还是脉冲多普勒模式，用来控制距离或接近率偏"
+"转。接着，使用 HCU 控制杆中的 ELEV 拨轮来微调天线仰角，直到将截获门置于目标回"
+"波上方。届时 RIO 可以按下 HCU 扳机第二段来指令雷达在指定的方位门、距离门/接近"
+"率门和仰角尝试锁定。"
 
 #: ../../source/general.rst:2162
 msgid ""
@@ -10013,13 +10078,13 @@ msgid ""
 "transitioning from pulse search and pulse doppler STT if transitioning from "
 "any of the pulse doppler search modes."
 msgstr ""
-"如果雷达成功锁定目标，则会切换到相应的STT模式，并且DDD面板上指示雷达锁定的指"
-"示灯会亮起。如果是在脉冲搜索模式，则会转换为脉冲STT，如果在任意一个脉冲多普勒"
-"搜索模式，则会转换为脉冲多普勒STT。"
+"如果雷达成功锁定一个目标，那么雷达将会转换至相应的 STT 模式，DDD 中对应的指示"
+"灯也将会亮起。如果从脉冲搜索转换至 STT，那么将使用脉冲 STT 模式；如果从任何脉"
+"冲多普勒搜索模式转换至 STT，那么将使用脉冲多普勒 STT。"
 
 #: ../../source/general.rst:2166
 msgid "TWS STT Acquisition"
-msgstr "TWS STT 获取目标"
+msgstr "TWS STT 截获"
 
 #: ../../source/general.rst:2168
 msgid ""
@@ -10029,17 +10094,18 @@ msgid ""
 "tracks azimuth, range/rate and elevation and attemps a lockon if a target is "
 "detected."
 msgstr ""
-"在TWS模式中，可以通过在TID上选择一个目标，然后在DDD面板上选择脉冲STT或者脉冲"
-"多普勒STT来尝试锁定该目标。WCS计算机会命令雷达天线转向该目标的方位，距离和高"
-"度并进入超级搜索模式，并尝试锁定。"
+"在 TWS 模式下，RIO 可以通过在 TID 中选中一个跟踪，接着在 DDD 面板中按下脉冲 "
+"STT 按钮或脉冲多普勒 STT 按钮来尝试进行 STT 锁定。按下脉冲 STT 按钮或脉冲多普"
+"勒 STT 按钮后 WCS 计算机将指令天线以超级搜索模式在选中目标的方位门、距离门/接"
+"近率门和仰角上尝试锁定目标（前提是雷达探测到目标）。"
 
 #: ../../source/general.rst:2171
 msgid ""
 "Unlike in a manual HCU acquisition this process is completely automated but "
 "its success rate is also less than a manual transition."
 msgstr ""
-"与手动操作HCU锁定目标不同，这个过程是完全自动的，但是其锁定目标的成功率也低于"
-"手动操作。"
+"与手动控制 HCU 来锁定目标不同，这个过程是完全自动的，但是其锁定目标的成功率也"
+"低于手动控制 HCU 来锁定目标。"
 
 #: ../../source/general.rst:2175
 msgid "ACM Modes"
@@ -10050,8 +10116,8 @@ msgid ""
 "The AN/AWG-9 has three distinct ACM acquisition modes. Pilot lockon mode "
 "(PLM), vertical scan lockon (VSL) and manual rapid lockon (MRL)."
 msgstr ""
-"AN/AWG-9雷达拥有三种不同的ACM获取目标方式。飞行员锁定模式（PLM）、垂直扫描锁"
-"定模式（VSL）和手动快速锁定（MRL）。"
+"AN/AWG-9 雷达拥有三种不同的 ACM 截获模式。飞行员锁定模式（PLM）、垂直扫描锁定"
+"模式（VSL）和手动快速锁定（MRL）。"
 
 #: ../../source/general.rst:2179
 msgid ""
@@ -10060,8 +10126,9 @@ msgid ""
 "overrides VSL and lower modes and VSL overrides PAL and lower modes but not "
 "PLM and so on."
 msgstr ""
-"ACM模式会以优先级顺序排列，优先级较高的模式会被优先使用。这意味着PLM模式总是"
-"被优先使用的，PLM优先于VSL；VSL优先于PAL；PAL优先于PLM之外的其他模式。"
+"ACM 模式是以优先级顺序列出的，优先级较高的模式会越控其它优先级较低的模式。这"
+"意味着 PLM 模式始终越控 VSL 以及优先级更低的模式，VSL 模式越控 PAL 和优先级更"
+"低的模式，但是不会越控 PLM，依此类推。"
 
 #: ../../source/general.rst:2182
 msgid ""
@@ -10069,8 +10136,8 @@ msgid ""
 "on the HCU except PLM which will be in effect until the pilot releases the "
 "PLM button."
 msgstr ""
-"除了PLM模式以外，所有的模式都可以通过RIO在HCU控制杆上按下第一段扳机并松开来退"
-"出，PLM模式则需要飞行员松开PLM按钮来退出。"
+"除了 PLC 模式外，所有 ACM 模式可以通过 RIO 按下并释放 HCU 扳机第一段来退出，"
+"PLM 模式将一直启用直到飞行员释放 PLM 按钮。"
 
 #: ../../source/general.rst:2192
 msgid "Pilot Lockon Mode (PLM)"
@@ -10084,8 +10151,9 @@ msgid ""
 "to the armament datum line (ADL) and causese it to lock onto the first "
 "target seen out to 5 NM."
 msgstr ""
-"PLM是优先级最高的ACM模式，飞行员按下右油门杆前面的PLM按钮可以启用这个模式。该"
-"模式下可以将雷达天线隶属于武器基准线（ADL），并尝试锁定5海里内的第一个目标。"
+"PLM 是 ACM 模式中优先级最高的模式，PLM 模式始终会越控其它雷达模式，当飞行员按"
+"下右发油门上的 PLM 按钮时将启用 PLM 模式。按下 PLM 按钮将会指令天线对准武器基"
+"准线（ADL），并使雷达尝试锁定5海里内的第一个看到的目标。"
 
 #: ../../source/general.rst:2198
 msgid ""
@@ -10095,9 +10163,9 @@ msgid ""
 "STT occurs or the PLM button is released making the radar transition to "
 "pulse search instead."
 msgstr ""
-"该模式下飞行员需要将ADL标记对准目标上方，然后按住PLM按钮直到锁定目标。锁定目"
-"标后会自动转换到脉冲STT模式。若未锁定目标，松开PLM按钮会退出该模式，雷达将转"
-"换到脉冲搜索模式。"
+"因此，使用 PLM 的方法就是飞行员将 HUD 中的 ADL 标记置于目标上方，然后按下 "
+"PLM 按钮直到目标锁定。PLM 将会保持启用直到探测到目标并转换至脉冲 STT，或直到"
+"飞行员释放 PLM 按钮使雷达转换回脉冲搜索。"
 
 #: ../../source/general.rst:2205
 msgid "Vertical Scan Lockon (VSL)"
@@ -10113,10 +10181,11 @@ msgid ""
 "VSL HI or LO by selecting UP or DN respectively on the target designate "
 "switch when not in A/G mode."
 msgstr ""
-"VSL模式可以由飞行员或者RIO启动，用于锁定飞机当前航向下纵向-15°到+55°的目标。"
-"RIO可以使用传感器控制面板上的VSL开关选择低目标（LO）或者高目标（HI）这两个子"
-"模式。当不处于A/G模式时，驾驶员可以使用目标选择开关的上/下来选择VSL高（HI）和"
-"VSL低（LO）"
+"VSL 模式可以由飞行员或者 RIO 启用，VSL 模式用于锁定飞机当前航向上仰角-15°到"
+"+55°的目标。RIO 可以使用传感器控制面板上 VSL 开关选择 VSL 模式。RIO 可以通过"
+"将传感器控制面板中的 VSL 开关拨至 VSL HI（高目标）档位或 VSL LO（低目标）档位"
+"并释放来选择这两个子模式。在 A/G 以外的模式下，飞行员可以使用目标指定开关 UP "
+"或 DN 分别启用 VSL HI 或 VSL LO。"
 
 #: ../../source/general.rst:2215
 msgid ""
@@ -10126,18 +10195,18 @@ msgid ""
 "on the HUD by the diamond moving with antenna line of sight indicating its "
 "current position."
 msgstr ""
-"该模式下天线的扫描宽度为5°，如果处于高目标模式（HI），将扫描垂直范围内+15°到"
-"+55°的目标，如果处于低目标模式（LO），则会扫描-15°到+25°范围内的目标。当处于"
-"VSL模式下进行搜索时，HUD上会显示一个菱形符号，该符号会随着雷达天线的视线移"
-"动。"
+"启用 VSL 将命令天线以宽5°的圆形扫描覆盖范围进行垂直扫描。如果启用 VSL HI （高"
+"目标），那么扫描的垂直覆盖范围为+15°到+55°；如果启用 VSL LO（低目标），那么扫"
+"描的垂直覆盖范围为-15°到+25°。VSL 通过随天线视线移动的菱形在 HUD 中指示出来，"
+"菱形用来指示天线视线当前的位置。"
 
 #: ../../source/general.rst:2218
 msgid ""
 "When a target is detected within 5 NM the radar transitions into pulse STT, "
 "otherwise it continues in VSL until another mode is selected."
 msgstr ""
-"当在5海里内锁定目标时，雷达会切换为脉冲STT模式，否则将继续VSL搜索，直到选择另"
-"一种模式。"
+"当探测到5海里内的目标时，雷达将转换至脉冲 STT 模式，否则将继续执行 VSL 直到选"
+"择其他模式。"
 
 #: ../../source/general.rst:2222
 msgid "Pilot Automatic Lockon (PAL)"
@@ -10148,7 +10217,7 @@ msgid ""
 "PAL is enabled by the pilot selecting DES on the target designate switch "
 "when not in A/G mode."
 msgstr ""
-"当不在A/G模式下时，飞行员可以通过选择目标指定开关上的DES来启动PAL模式。"
+"在 A/G 模式以外时，飞行员可通过使用目标指定开关选择 DES 档位来启用 PAL 模式。"
 
 #: ../../source/general.rst:2226
 msgid ""
@@ -10156,9 +10225,10 @@ msgid ""
 "target detected out to 15 NM. This mode is indicated by the diamond on the "
 "HUD following current antenna line of sight."
 msgstr ""
-"PAL模式下天线会进行±20度的8线扫描，并锁定15海里内探测到的第一个目标，该模式下"
-"HUD上会显示一个随雷达天线视线移动的菱形。"
+"PAL 模式将指令天线进行8线 ±20°栅状扫描，并锁定15海里内探测到的第一个目标。"
+"PAL 模式由 HUD 中，随天线视线移动的菱形指示，菱形用来指示天线实现当前的位置。"
 
+# 2020/07/14 AG 校对至此
 #: ../../source/general.rst:2233
 msgid "Manual Rapid Lockon (MRL)"
 msgstr "手动快速锁定（MRL）"
@@ -10170,10 +10240,11 @@ msgid ""
 "right side of the HCU stick is depressed it commands the radar to start a "
 "one-bar supersearch pattern out to 5 NM."
 msgstr ""
-"手动快速锁定模式（MRL）允许RIO在天线扫描范围内快速锁定一个5海里内的目标，当"
-"RIO按下HCU控制杆右侧的MRL按钮时，雷达会启动一个扫描距离为5海里，俯仰角为1线的"
-"超级搜索模式。"
+"手动快速锁定模式（MRL）允许 RIO 在天线环架极限内快速锁定一个5海里内的目标。按"
+"下 HCU 控制杆右侧的 MRL 按钮将会命令雷达启用1线、锁定距离为5海里内的目标的超"
+"级搜索。"
 
+# 1bar=天线的仰角
 #: ../../source/general.rst:2241
 msgid ""
 "The HCU stick controls the supersearch pattern in azimuth and elevation "
@@ -10182,9 +10253,9 @@ msgid ""
 "tick marks are shown at the edge of the scan pattern indicating current "
 "elevation."
 msgstr ""
-"此时可以通过HCU控制杆控制这个超级搜索模式的扫描方位角与俯仰角（X轴控制方位"
-"角，Y轴控制俯仰角）。DDD会以5海里的距离显示当前的超级搜索模式，扫描模式的边缘"
-"还有两条用来指示当前扫描角度的刻度线。"
+"HCU 控制杆用来控制超级搜索栅状扫描的方位和仰角（X 轴控制方位，Y 轴控制仰"
+"角）。DDD 中将会显示超级搜索的栅状扫描，DDD 显示的尺度为5海里，并且在栅状扫描"
+"的边缘处还显示了两个刻度标记，刻度标记用来指示当前天线的仰角。"
 
 #: ../../source/general.rst:2244
 msgid ""
@@ -10192,12 +10263,12 @@ msgid ""
 "target and transfer to pulse STT. If only half-action is commanded  after "
 "entering into MRL and then released the radar transfers back to pulse search."
 msgstr ""
-"当发现目标时，RIO可以按下HCU控制杆扳机第二段来锁定目标并切换到脉冲STT模式。如"
-"何进入MRL模式后按下控制杆扳机第一段并松开，雷达将会返回脉冲搜索模式。"
+"当 DDD 中显示出目标时，RIO 可按下扳机第二段来截获目标并转换至脉冲 STT。如果在"
+"进入 MRL 后 RIO 仅按下扳机第一段并释放，那么雷达将会返回脉冲搜索模式。"
 
 #: ../../source/general.rst:2249
 msgid "TCS Slave Radar Acquisition"
-msgstr "雷达隶属于TCS获取目标"
+msgstr "雷达隶属于 TCS 截获目标"
 
 #: ../../source/general.rst:2251
 msgid ""
@@ -10207,9 +10278,9 @@ msgid ""
 "will still be active but pointing in the direction of the TCS line of sight "
 "while the TCS has an active track instead of scanning."
 msgstr ""
-"TCS可以在雷达进行正常搜索目标的时候独立进行测角并跟踪目标。当通过传感器控制面"
-"板选择将雷达隶属于TCS（SLAVE开关位于RDR位置）时，雷达天线将指向TCS当前视线的"
-"方向。"
+"TCS 可用于对目标进行角跟踪并同时使用雷达对目标距离和接近率进行跟踪。当通过传"
+"感器控制面板开关设置雷达隶属于 TCS 视线时（SLAVE 开关设置为 RDR 档位），雷达"
+"仍启用但是当 TCS 正在跟踪一个目标时，雷达将指向 TCS 视线，而不是进行扫描。"
 
 #: ../../source/general.rst:2254
 msgid ""
@@ -10219,10 +10290,13 @@ msgid ""
 "previous radar mode. It is also possible to switch using the P STT and PD "
 "STT button on the DDD panel."
 msgstr ""
-"此时可以先按下HCU控制杆扳机第一段操作TCS锁定目标，然后按下扳机第二段，此时雷"
-"达会尝试锁定TCS目标并切换到脉冲STT模式或者脉冲多普勒STT模式（取决于之前正在运"
-"行的模式）。也可以使用DDD面板上的P STT按钮和PD STT按钮进行切换。"
+"此时可以按下 HCU 控制杆扳机第一段，然后将捕获门置于目标上方，接着按下扳机第二"
+"段。根据先前所选的搜索模式，按下扳机第二段后将会使雷达以脉冲多普勒模式或脉冲"
+"模式隶属至目标。可以使用 DDD 面板中的 P STT 按钮和 PD STT 按钮来切换 STT 模"
+"式。"
 
+# The resulting submode entered is equivalent to an STT mode.
+# how enter submode?What do you say and say half of it?
 #: ../../source/general.rst:2257
 msgid ""
 "The resulting submode entered is equivalent to an STT mode where the TCS is "
@@ -10231,9 +10305,10 @@ msgid ""
 "instead of the ANT ROT, IROT relating to ir tracking which has been replaced "
 "by the TCS in the F-14B."
 msgstr ""
-"值得一提的是这个模式下由TCS而非雷达对目标进行测角。雷达仍然用于跟踪目标距离和"
-"速率，DDD面板上IROT指示灯取代ANT ROT指示灯亮起。IROT指红外跟踪，在F-14B上IROT"
-"已经被TCS所取代。"
+"雷达进入子模式的结果是和 STT 模式一致的，在这个子模式下，TCS 代替雷达本身用来"
+"对目标进行角跟踪。雷达仍然可用于对目标进行距离和接近率跟踪，在 DDD 中，IROT "
+"将代替 ANT ROT 亮起，IROT 和红外跟踪有关，但是 F-14B 中红外跟踪已被 TCS 替"
+"代。"
 
 #: ../../source/general.rst:2260
 msgid ""
@@ -10242,13 +10317,14 @@ msgid ""
 "mode the system reverts to true pulse STT or pulse doppler STT depending on "
 "current mode."
 msgstr ""
-"该模式下可以对导弹进行制导，根据当前的雷达模式的不同（脉冲STT模式或者脉冲多普"
-"勒STT模式），可以使用的武器也有不同。如果在此时将SLAVE开关拨到INDEP位置，雷达"
-"系统将会根据当前模式恢复为脉冲STT或者脉冲多普勒STT模式，并独立运行。"
+"雷达隶属于 TCS 子模式可以为导弹提供制导，雷达在脉冲模式下使用主动模式发射和连"
+"续波模式来为导弹制导，在脉冲多普勒模式下则为 PD 模式为导弹提供制导。如果从子"
+"模式将 SLAVE 设置为 INDEP 档位，那么系统将会根据当前的 STT 模式恢复至真脉冲 "
+"STT 或真脉冲多普勒 STT。"
 
 #: ../../source/general.rst:2265
 msgid "Transition Between the Two STT Modes"
-msgstr "两种STT模式之间的切换"
+msgstr "两种 STT 模式之间的转换"
 
 #: ../../source/general.rst:2267
 msgid ""
@@ -10257,9 +10333,9 @@ msgid ""
 "the radar reverts to the respective search mode of the commanded STT mode. "
 "(pulse search if pulse STT was selected and vice versa.)"
 msgstr ""
-"在有需要的情况下，可以按下相应按钮在脉冲STT和脉冲多普勒STT之间切换，如果切换"
-"失败，雷达会恢复到与其对应的搜索模式。（如果选择切换到脉冲STT模式，失败后会恢"
-"复为脉冲搜索模式，反之亦然。）"
+"在有需要的情况下，可以按下相应按钮在脉冲 STT 和脉冲多普勒 STT 之间切换。如果"
+"切换失败，雷达会恢复到 STT 相应的搜索模式。（如果选择切换到脉冲 STT 模式，失"
+"败后会恢复为脉冲搜索模式，反之亦然。）"
 
 #: ../../source/general.rst:2272
 msgid "Transition Back to Search"
@@ -10271,9 +10347,9 @@ msgid ""
 "action and releases it causing the radar to return to pulse search if in "
 "pulse STT and pulse doppler search if in pulse doppler STT."
 msgstr ""
-"如果RIO希望返回搜索模式，他可以按下HCU控制杆扳机第一段并松开，雷达将返回脉冲"
-"搜索模式（如果在脉冲STT模式中）或者脉冲多普勒搜索模式（如果在脉冲多普勒STT模"
-"式中）。"
+"如果 RIO 向切换回搜索模式，那么 RIO 需要按下扳机第一段并释放，这将会使雷达返"
+"回脉冲搜索模式（如果在脉冲 STT 模式下）和脉冲多普勒模式（如果在脉冲多普勒 "
+"STT 下）。"
 
 #: ../../source/general.rst:2276
 msgid ""
@@ -10281,8 +10357,8 @@ msgid ""
 "the respective search mode as when the RIO transitions manually via half-"
 "action."
 msgstr ""
-"如果雷达在STT模式中丢失目标并且无法重新锁定，则会返回相应的搜索模式，就像RIO"
-"手动切换回搜索模式那样。"
+"如果雷达在 STT 模式下失去目标锁定并且无法重新截获的话，就像 RIO 通过按下扳机"
+"第一段一样，雷达将返回 STT 相应的搜索模式。"
 
 #: ../../source/general.rst:2278
 msgid ""
@@ -10291,9 +10367,9 @@ msgid ""
 "and transition to pulse STT or the pilot selecting the PLM button again "
 "telling the radar to return to pulse search."
 msgstr ""
-"VSL和MRL模式下也可以通过这个方法返回搜索模式，但是因为PLM优先级最高，所以退出"
-"PLM模式的唯一方法是锁定目标后切换到脉冲STT模式，或者（在没有锁定任何目标的情"
-"况下）飞行员再次按下PLM按钮来让雷达返回脉冲搜索模式。"
+"当处在 VSL 或 MRL 模式时也可以通过这个方法来返回搜索模式，由于 PLM 优先级最"
+"高，所以取消选择 PLM 模式的唯一方法是锁定目标后切换到脉冲 STT 模式然后返回搜"
+"索模式或者飞行员再次按下 PLM 按钮来告知雷达返回脉冲搜索模式。"
 
 # 2020/06/13 AG校对完毕
 #: ../../source/general.rst:2282
@@ -10341,8 +10417,8 @@ msgid ""
 "sometimes also detect targets not detected by the AWG-9. In this case the "
 "IFF return will not have a radar echo inside it."
 msgstr ""
-"启用 IFF 后，收到的 IFF 返回脉冲将会叠加显示在 DDD 中 AN/WAG-9 雷达的正常接触"
-"上。友方目标将会显示两根横线，一个在正常雷达接触上方，一个在下方。由于 AN/"
+"启用 IFF 后，收到的 IFF 返回脉冲将会叠加显示在 DDD 中 AN/WAG-9 雷达的一般接触"
+"上。友方目标将会显示两根横线，一个在一般雷达接触上方，一个在下方。由于 AN/"
 "APX-76 是一个独立雷达、是和 AWG-9 分隔开来的雷达，因此 IFF 可时不时探测到 "
 "AWG-9 没有探测到的目标。在这种情况下， IFF 返回中不会有雷达接触符号。"
 
@@ -10354,7 +10430,7 @@ msgid ""
 "display of multiple returns in case of closely grouped targets."
 msgstr ""
 "在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示"
-"在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从正常显示距离"
+"在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从一般显示距离"
 "切换至 ±10 NM，从而使得密集编队目标的多个 IFF 返回。"
 
 # 06/05 AG校对
@@ -10404,8 +10480,8 @@ msgid ""
 "tape recorder for later review. (Not currently implemented in DCS.)"
 msgstr ""
 "TCS 可由 RIO 通过传感器控制面板、DDD、TID 和 HCU 来控制。传感器的视频可以显示"
-"在 TID 以及前座的 VDI 中。此外，视频还可以通过机载磁带录像机来进行录制，以便"
-"事后观看。（DCS 中尚未实现）"
+"在 TID 以及前座的 VDI 中。此外，视频还可以通过机载录像机来进行录制，以便事后"
+"观看。（DCS 中尚未实现）"
 
 #: ../../source/general.rst:2329
 msgid "TCS Controls and Symbology"
@@ -10438,7 +10514,7 @@ msgid ""
 "target in STT and adjust the knobs until the TCS LOS is correctly aimed at "
 "the locked target."
 msgstr ""
-"*TCS TRIM** 旋钮用于控制 TCS 传感器的视线（LOS），校正相对于 AN/AWG-9 雷达的"
+"**TCS TRIM** 旋钮用于控制 TCS 传感器的视线（LOS），校正相对于 AN/AWG-9 雷达的"
 "视线。如果有需要，可以使用这个旋钮来调整 TCS，使得两个传感器的视线相重合。"
 "TCS 调整旋钮的运动范围为 ±2°，检查和校正 TCS 最简单的方法是使用 STT 锁定一个"
 "友方目标，并通过调整旋钮直到 TCS LOS 正确地瞄准了锁定的目标为止。"
@@ -10451,7 +10527,7 @@ msgid ""
 "And if set to **TCS** the TCS is slaved to radar LOS as long as an STT track "
 "exists."
 msgstr ""
-"**SLAVE** 开关主要用来控制传感器的隶属关系。如果设置到 **RDR** 档位，雷达将会"
+"**SLAVE** 开关主要用来控制传感器的从属关系。如果设置到 **RDR** 档位，雷达将会"
 "隶属至 TCS 直到光学跟踪丢失为止。如果设置为 **INDEP** ，则各传感器会独立工"
 "作。如果将开关设置为 **TCS** 档位，TCS 将隶属至雷达 LOS 直到 STT 脱锁为止。"
 
@@ -10474,11 +10550,11 @@ msgid ""
 "without a search pattern making the TCS snap to a target as long as it's "
 "inside the TCS FOV."
 msgstr ""
-"最后—— **ACQ** 开关，捕获开关用于控制 TCS 使用的截获模式。选择 **AUTO SRCH** "
-"档位将启用带有搜索模式的自动截获模式，此模式中即使目标在当前 FOV 外，也能够截"
+"最后—— **ACQ** 开关，捕获开关用于控制 TCS 使用的捕获模式。选择 **AUTO SRCH** "
+"档位将启用带有搜索模式的自动捕获模式，此模式中即使目标在当前 FOV 外，也能够捕"
 "获最近的目标。选择 **MAN** 档位则使用 HCU 纯手动直接指向所需的目标。选择 "
-"**AUTO** 档位将使用无搜索模式的自动截获模式，选择后将使得 TCS 捕获 FOV 内的目"
-"标。"
+"**AUTO** 档位将使用无搜索模式的自动捕获模式，选择后将使得 TCS 可以自动捕获 "
+"FOV 内的目标。"
 
 #: ../../source/general.rst:2358
 msgid "DDD"
@@ -10493,14 +10569,15 @@ msgid ""
 "The **DDD EL** meter shows current elevation of the TCS sensor LOS as long "
 "as the IR/TV mode is selected on the HCU."
 msgstr ""
-"只要在 HCU 上选择 IR/TV 模式， **DDD EL** 仪表就会显示 TCS LOS 的高度角。"
+"只要在 HCU 上选择 IR/TV 模式， **DDD EL** 仪表就会显示 TCS LOS 的仰角。"
 
 #: ../../source/general.rst:2366
 msgid ""
 "The **IROT** light indicates the presence of a TCS track. The IROT acronym "
 "is inherited from the IRST which the TCS replaced."
 msgstr ""
-"**IROT** 灯指示 TCS 正在跟踪。缩写 IROT 是从被 TCS 所取代的 IRST 继承下来的。"
+"**IROT** 指示灯亮起表示 TCS 正在跟踪目标。缩写 IROT 是从被 TCS 所取代的 IRST "
+"继承下来的。"
 
 #: ../../source/general.rst:2370
 msgid "HCU/TID"
@@ -10565,8 +10642,8 @@ msgid ""
 "Finally the **CONTRAST** and **BRIGHTNESS** knobs on the upper part of the "
 "TID can be used to control the TCS video shown on the TID."
 msgstr ""
-"最后，位于导航控制与数据读数面板上的 **CONTRAST** 和 **BRIGHTNESS**旋钮可用于"
-"控制显示在 TID 中的 TCS 视频。"
+"最后，位于导航控制与数据读数面板上的 **CONTRAST** 和 **BRIGHTNESS** 旋钮可用"
+"于控制显示在 TID 中的 TCS 视频。"
 
 # 06/05 AG校对至此
 #: ../../source/general.rst:2392
@@ -10578,8 +10655,7 @@ msgid ""
 "On the TID in non TV mode a TCS track is indicated by a 1.5\" strobe at TCS "
 "LOS azimuth with a hollow circle at the end."
 msgstr ""
-"TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上位于末端的1.5英寸的频闪空心圆指"
-"示。"
+"TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上的1.5英寸长的射线和空心圆指示。"
 
 #: ../../source/general.rst:2398
 msgid ""
@@ -10651,7 +10727,7 @@ msgid ""
 msgstr ""
 "TCS 的所有捕获模式都有一个共同点，那就是可以在 IR/TV 模式下使用 HCU 来控制 "
 "TCS。选择 HCU 中的 IR/TV 按钮将启用这个模式，同时将设置 DDD EL 指示器（右侧指"
-"示器）为显示当前 TCS 传感器 LOS 高度角。按下扳机第一段将启用 HCU 来直接控制 "
+"示器）为显示当前 TCS 传感器 LOS 仰角。按下扳机第一段将启用 HCU 来直接控制 "
 "TCS LOS，按下扳机第二段将指令使用所选择捕获模式来进行目标捕获。"
 
 #: ../../source/general.rst:2420
@@ -10694,7 +10770,7 @@ msgstr ""
 "当使用 TCS 隶属至雷达时，两个自动模式将会自动尝试锁定 STT 目标（一旦存在），"
 "TCS 将被转动至锁定的目标上，从而实现对 STT 锁定目标的全自动跟踪。此外，一旦"
 "从 STT 锁定中捕获了一个跟踪，TCS 将会对 TCS 自身的 LOS 和雷达的 LOS 进行比较"
-"来检查是否锁定了正确的目标，如果在3秒窗口内，两者的 LOS 相差超过一定读数，"
+"来检查是否锁定了正确的目标，如果在3秒窗口内，两者的 LOS 相差超过一定度数，"
 "TCS 将会尝试新的捕获。手动模式下同样也会隶属至雷达，不过并不会锁定目标，而是"
 "仅跟随雷达的 LOS。"
 
@@ -10841,7 +10917,7 @@ msgid ""
 "heading). Below that is current UTC time and then IBIT codes below that."
 msgstr ""
 "左下角的数据（ **3** ）显示的是吊舱信息，SR——斜距（视线距离）、AZ 和 EL 为吊"
-"舱视线相对 ADL 的方位和高度角（AZ 则有字母 L 或 R 表示视线在飞机航向左侧或右"
+"舱视线相对 ADL 的方位和仰角（AZ 则由字母 L 或 R 表示视线在飞机航向左侧或右"
 "侧）。位于AZ 和 EL 下方的是当前的 UTC 时间，再向下为 IBIT 代码。"
 
 #: ../../source/general.rst:2493
@@ -11302,7 +11378,7 @@ msgstr ""
 "机目标模式来实现炸弹投放，但是建议使用手动模式。在手动模式下，飞行员跟随输出"
 "到 VDI 中的 LANTIRN 视频中的提示并根据炸弹投放提示来投放炸弹。"
 
-# 05/08 由 AG 校对
+# 2020/05/08 由 AG 校对
 #: ../../source/general.rst:2656
 msgid "AN/ALR-67 RWR"
 msgstr "AN/ALR-67 雷达告警接收机（RWR）"
@@ -12281,7 +12357,7 @@ msgstr ""
 # 05/06 AG 重新翻译
 #: ../../source/general.rst:2948
 msgid "AN/ALE-39 Countermeasures Dispensing Set"
-msgstr "AN/ALE-39 对抗布撒套件"
+msgstr "AN/ALE-39 对抗弹射套件"
 
 #: ../../source/general.rst:2950
 msgid ""
@@ -12289,7 +12365,7 @@ msgid ""
 "in this simulation. It controls its own set of launchers located between the "
 "engine nozzles on the underside of the so called beaver-tail."
 msgstr ""
-"DCS 中模拟的 F-14B 搭载的是 AN/ALE-39 对抗布撒套件。AN/ALE-39 控制着位于发动"
+"DCS 中模拟的 F-14B 搭载的是 AN/ALE-39 对抗弹射套件。AN/ALE-39 控制着位于发动"
 "机喷口之间“河狸尾巴”下方的布撒器的套件。"
 
 #: ../../source/general.rst:2953
@@ -12315,7 +12391,7 @@ msgid ""
 msgstr ""
 "系统中总共可装填60发干扰弹，每个部分必须装填同一种类型的干扰弹，也就是说只要"
 "每种类型的干扰弹只要是10的倍数，那么任何组合都是可能的。系统本身不知道填装了"
-"哪种干扰弹，因此错误的编程可能使得系统布撒错误的干扰弹类型。"
+"哪种干扰弹，因此错误的编程可能使得系统弹射错误的干扰弹类型。"
 
 #: ../../source/general.rst:2960
 msgid ""
@@ -12328,9 +12404,9 @@ msgid ""
 "the AN/ALE-39 control panel."
 msgstr ""
 "系统本身可由 RIO 驾驶舱中的控制面板或当襟翼控制杆处于收起档位时通过飞行员驾驶"
-"杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行布撒，布撒程序可由 "
+"杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行弹射，弹射程序可由 "
 "RIO 从控制面板或 DDD 上方握把中的苦力帽来启动。另外，如果在 AN/ALE-39 控制面"
-"板正确地设置了箔条布撒程序，那么 AN/ALE-67 也可以启动箔条布撒程序。"
+"板正确地设置了箔条弹射程序，那么 AN/ALE-67 也可以启动箔条弹射程序。"
 
 #: ../../source/general.rst:2966
 msgid "Controls and Operation"
@@ -12357,7 +12433,7 @@ msgid ""
 "where and to set up the different ejection programmes. The panel is located "
 "on the right horizontal console of the RIO cockpit."
 msgstr ""
-"编程面板用来设置干扰弹的填装位置与类型，并且设置不同的干扰弹布撒程序。程面板"
+"编程面板用来设置干扰弹的填装位置与类型，并且设置不同的干扰弹弹射程序。程面板"
 "位于 RIO 驾驶舱中的右侧控制台上。"
 
 #: ../../source/general.rst:2979
@@ -12365,7 +12441,7 @@ msgid ""
 "The left side of the programmer holds the controls (thumbwheels) for the "
 "different ejection programmes, one section for each type of cartridge."
 msgstr ""
-"编程面板左侧有用于设置不同布撒程序的控制器（拨轮），每种类型干扰弹都有一部分"
+"编程面板左侧有用于设置不同弹射程序的控制器（拨轮），每种类型干扰弹都有一部分"
 "用于设置。"
 
 #: ../../source/general.rst:2981
@@ -12374,8 +12450,8 @@ msgid ""
 "sequences are programmed to launch a number of salvoes, each consisting of a "
 "burst of a set amount of cartridges."
 msgstr ""
-"在投射程序中， **CHAFF** 部分用来控制如何布撒箔条。箔条程序是编程为齐射的数"
-"量，每次布撒由设定的干扰弹数量组成。"
+"在投射程序中， **CHAFF** 部分用来控制如何弹射箔条。箔条程序是编程为齐射的数"
+"量，每次弹射由设定的干扰弹数量组成。"
 
 #: ../../source/general.rst:2982
 msgid ""
@@ -12383,7 +12459,7 @@ msgid ""
 "1-4 cartridges and C for continuous and R for random (4-6 cartridges) "
 "possible."
 msgstr ""
-"**B QTY** 控制每次布撒中投放干扰弹的数量，可以选择1-4发干扰弹或 C（连续）和 "
+"**B QTY** 控制每次弹射中投放干扰弹的数量，可以选择1-4发干扰弹或 C（连续）和 "
 "R（随机）。"
 
 #: ../../source/general.rst:2983
@@ -12392,7 +12468,7 @@ msgid ""
 "ejection in each burst, possible settings being .1 (0.125), .2 (0.25), .5 "
 "(0.5), .7 (0.75), 1 and R for random."
 msgstr ""
-"**B INTV** 设置每次干扰弹布撒之间的时间间隔（精度为秒），可以设置为 .1 "
+"**B INTV** 设置每次干扰弹弹射之间的时间间隔（精度为秒），可以设置为 .1 "
 "(0.125)、 .2 (0.25)、 .5 (0.5)、 .7 (0.75)、 1 和 R（随机）。"
 
 #: ../../source/general.rst:2984
@@ -12400,7 +12476,7 @@ msgid ""
 "**S QTY** controls how many salvoes of bursts to eject in each program, "
 "settings available are 1, 2, 4, 6, 8, 10 and 15."
 msgstr ""
-"**S QTY** 用来控制进行多少轮布撒程序。可以设置为：1、2、4、6、8、10和15。"
+"**S QTY** 用来控制进行多少轮弹射程序。可以设置为：1、2、4、6、8、10和15。"
 
 #: ../../source/general.rst:2985
 msgid ""
@@ -12422,8 +12498,8 @@ msgid ""
 "Ejection disregards the S settings and continue until all cartridges are "
 "ejected."
 msgstr ""
-"**B 在 C QTY 和 R INTV** 将设置前三发干扰弹以0.125秒间隔布撒，其余的干扰弹布"
-"撒间隔将为0.25至4秒内随机布撒。布撒将忽略 S 开头设置，并且继续布撒直到布撒完"
+"**B 在 C QTY 和 R INTV** 将设置前三发干扰弹以0.125秒间隔弹射，其余的干扰弹弹"
+"射间隔将为0.25至4秒内随机弹射。弹射将忽略 S 开头设置，并且继续弹射直到弹射完"
 "所有干扰弹。"
 
 #: ../../source/general.rst:2989
@@ -12432,8 +12508,8 @@ msgid ""
 "to eject at random intervals between 0.25 to 4 seconds. The first burst in a "
 "salvo will always launch the first 3 cartridges at 0.125 second intervals."
 msgstr ""
-"**B 在 R QTY 和 R INTV** 将设置为每次布撒中投放4-6发干扰弹并以0.25至4秒间隔内"
-"随机投放。一轮齐射中的首次布撒始终为投放3发干扰弹、间隔0.125秒。"
+"**B 在 R QTY 和 R INTV** 将设置为每次弹射中投放4-6发干扰弹并以0.25至4秒间隔内"
+"随机投放。一轮齐射中的首次弹射始终为投放3发干扰弹、间隔0.125秒。"
 
 #: ../../source/general.rst:2990
 msgid ""
@@ -12441,22 +12517,22 @@ msgid ""
 "cartridges at set interval. First burst will always launch first 3 "
 "cartridges at 0.125 sec interval."
 msgstr ""
-"**B 在 R QTY 和 INTV 为设置的数量** 将设置为每次布撒将以设置的间隔投放4-6发干"
-"扰弹。首次布撒始终为投放3发干扰弹、0.125秒间隔。"
+"**B 在 R QTY 和 INTV 为设置的数量** 将设置为每次弹射将以设置的间隔投放4-6发干"
+"扰弹。首次弹射始终为投放3发干扰弹、0.125秒间隔。"
 
 #: ../../source/general.rst:2991
 msgid ""
 "**B at fixed QTY and R INTV** sets each burst to eject one cartridge "
 "disregarding B QTY."
 msgstr ""
-"**B 在 固定的 QTY 和 R INTV** 将设置为每次布撒中投放一发干扰弹，无视 B QTY 设"
+"**B 在 固定的 QTY 和 R INTV** 将设置为每次弹射中投放一发干扰弹，无视 B QTY 设"
 "置。"
 
 #: ../../source/general.rst:2993
 msgid ""
 "The **JAMMER** section controls the ejection of jammer cartridges in "
 "programmed mode."
-msgstr "**JAMMER** 部分用于控制在程序模式中有源干扰弹的布撒。"
+msgstr "**JAMMER** 部分用于控制在程序模式中有源干扰弹的弹射。"
 
 #: ../../source/general.rst:2994
 msgid ""
@@ -12479,13 +12555,13 @@ msgstr "有源干扰弹尚未实装进 DCS 中。"
 #: ../../source/general.rst:2999
 msgid ""
 "The **FLARE** section controls ejection of flares when using programmed mode."
-msgstr "**FLARE** 部分用于控制在程序模式中红外干扰弹的布撒。"
+msgstr "**FLARE** 部分用于控制在程序模式中红外干扰弹的弹射。"
 
 #: ../../source/general.rst:3000
 msgid ""
 "**QTY** sets amount of flare cartridges to eject, possible settings being 2, "
 "3, 4, 6, 8 and 10."
-msgstr "**QTY** 将设置红外干扰弹布撒的数量，可以设置为2、3、4、6、8和10。"
+msgstr "**QTY** 将设置红外干扰弹弹射的数量，可以设置为2、3、4、6、8和10。"
 
 #: ../../source/general.rst:3001
 msgid ""
@@ -12513,7 +12589,7 @@ msgstr ""
 msgid ""
 "Incorrectly setting type of cartridge loaded can result in the launch of the "
 "wrong type of cartridge."
-msgstr "错误地设置填装的干扰弹类型可能导致布撒错误的干扰弹。"
+msgstr "错误地设置填装的干扰弹类型可能导致弹射错误的干扰弹。"
 
 #: ../../source/general.rst:3009
 msgid ""
@@ -12602,7 +12678,7 @@ msgstr ""
 "置为 F 的部分投放一发红外干扰弹。 **注意** 这表示如果四个部分的填装都为红外干"
 "扰弹将导致每发送一次红外干扰弹投放脉冲将有四发红外干扰弹被投放。 **NORM** 将"
 "设置正常红外干扰弹投放脉冲行为。 **PILOT** 启用每按下一次 DLC 按钮投放一发红"
-"外干扰弹。仍然可用正常投放红外干扰弹。如果开关设置在 **PILOT 以外** 的档位，"
+"外干扰弹。正常投放红外干扰弹仍然可用。如果开关设置在 **PILOT 以外** 的档位，"
 "那么DLC 按钮将会指令投放一发箔条。"
 
 #: ../../source/general.rst:3038
@@ -12642,7 +12718,7 @@ msgstr ""
 # 05/03 AG校对
 #: ../../source/general.rst:3054
 msgid "LAU-138"
-msgstr ""
+msgstr "LAU-138"
 
 #: ../../source/general.rst:3056
 msgid ""
@@ -12690,9 +12766,9 @@ msgid ""
 "impulse ejects the equivalent of two chaff cartridges in total and that a "
 "total of 40 ejections are available from the launchers."
 msgstr ""
-"如上所述，每个布撒器可以挂载160枚箔条包以及每个布撒脉冲都会从布撒器中布撒四枚"
-"箔条包，每枚箔条包的大小约为正常箔条的1/4。这将会导致每个布撒脉冲将会相当于布"
-"撒两发箔条（注：相当于正常大小箔条），并且布撒器总共可以布撒40次。"
+"如上所述，每个布撒器可以挂载160枚箔条包以及每个弹射脉冲都会从布撒器中弹射四枚"
+"箔条包，每枚箔条包的大小约为正常箔条的1/4。这将会导致每个弹射脉冲将会相当于弹"
+"射两发箔条，并且布撒器总共可以弹射40次。"
 
 #: ../../source/general.rst:3069
 msgid ""
@@ -12704,9 +12780,9 @@ msgid ""
 "available. The last ejection will still work though."
 msgstr ""
 "当布撒器使用编程面板上的 R10 时，安装了两个 LAU-138 意味着你需要在面板上将箔"
-"条计数器设置为40。仅挂载箔条的话可以布撒多达100次，但这对于计数器来说多了点，"
+"条计数器设置为40。仅挂载箔条的话可以弹射多达100次，但这对于计数器来说多了点，"
 "并且计数器显示的有效次数比真实有效次数少一枚箔条（也就是最大设置为99）。但是"
-"少显示的那一次布撒也是可以进行布撒的。"
+"少显示的那一次弹射也是可以进行弹射的。"
 
 #: ../../source/general.rst:3073
 msgid ""
@@ -12716,14 +12792,14 @@ msgid ""
 "loadout and that the R10 section should always be set to C for chaff when "
 "mounted."
 msgstr ""
-"总而言之，这代表你在使用 LAU-138 时，可以使用额外的40次箔条布撒，与 AN/"
-"ALE-39 组合使用时布撒的次数可增加到100次，以及正常挂载的40次箔条布撒和60发红"
+"总而言之，这代表你在使用 LAU-138 时，可以使用额外的40次箔条弹射，与 AN/"
+"ALE-39 组合使用时弹射的次数可增加到100次，以及正常挂载的40次箔条弹射和60发红"
 "外干扰弹，当安装了 LAU-138 后，应始终将 R10 设置为 C（箔条）。"
 
 # 04/30 AG 校对完毕
 #: ../../source/general.rst:3078
 msgid "AN/ALQ-126 DECM"
-msgstr ""
+msgstr "AN/ALQ-126 DECM"
 
 #: ../../source/general.rst:3080
 msgid ""
@@ -12887,7 +12963,7 @@ msgid ""
 msgstr ""
 "设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、"
 "对准、地球自转、惯性力、热稳定性、数/模转换器精度、各种类型的校正以保证设备长"
-"时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 系统是也很相似——"
+"时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 平台是也很相似——"
 "这也不是什么轻松的活。"
 
 #: ../../source/general.rst:3134
@@ -14240,7 +14316,7 @@ msgid ""
 "acronym (O) or a stalled alignment has been noticed, the RIO can use any of "
 "the following methods:"
 msgstr ""
-"要在精对准阶段初始化对准，如果看见缩写（O）或注意到对准暂停，RIO可以使用以下"
+"要在精对准阶段初始化对准，如果看见缩写（O）或注意到对准暂停，RIO 可以使用以下"
 "任意一种方法来初始化："
 
 #: ../../source/general.rst:3553
@@ -14330,7 +14406,7 @@ msgid ""
 "into own-aircraft file after GND ALIGN has been selected."
 msgstr ""
 "参考对准可以使用机载或外部电源完成。要进行参考对准，通过 CAP 输入经纬度至本机"
-"文件中。这可通过再选择 GND ALIGN 前从基地自动转发至本机，或在选择 GND ALIGN "
+"文件中。这可通过在选择 GND ALIGN 前从基地自动转发至本机，或在选择 GND ALIGN "
 "后输入至本机文件中。"
 
 #: ../../source/general.rst:3582
@@ -15493,7 +15569,7 @@ msgid ""
 "potentially introduce a larger error into your own INS. Both aircraft will "
 "share the same error though."
 msgstr ""
-"如果从所选飞机的 INS 更新，所选飞机的 校正/飘移 可能给本机的 INS 引入更大的误"
+"如果从所选飞机的 INS 更新，所选飞机的 校正/漂移 可能给本机的 INS 引入更大的误"
 "差。但是，两机的误差也将会同步。"
 
 #: ../../source/general.rst:3949
@@ -16431,6 +16507,9 @@ msgstr ""
 "尽管当 IMU 失效时导航模式自动切换至 AHRS，STBY 和 READY 注意灯也会保持亮起直"
 "到 RIO 使用 NAV MODE 旋钮选择了 AHRS/AM 模式。"
 
+# altitude rate？
+# 是由垂直加速度和气压高度的变化率。
+# refer：https://books.google.co.jp/books?id=1KLTUWLz8jcC&pg=PA407&lpg=PA407&dq=altitude+rate&source=bl&ots=6kpJYgkl14&sig=ACfU3U0viqVnHG3uHsU3JrU53I2TT-SMig&hl=en&sa=X&ved=2ahUKEwie0eCmlaLqAhW7xIsBHQDGBnwQ6AEwDXoECAwQAQ#v=onepage&q=altitude%20rate&f=false
 #: ../../source/general.rst:4260
 msgid ""
 "When AHRS/AM is selected on the NAV MODE switch, the AHRS provides heading "
@@ -16439,9 +16518,9 @@ msgid ""
 "the IMU/ AM mode. To update wind speed and direction and magnetic variation, "
 "use the CAP."
 msgstr ""
-"使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将提供代替 IMU 平台的 DR 导航所需"
-"的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直加速度 和真空速。使"
-"用 CAP 来更新风向风速以及磁差。"
+"使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将提供代替 IMU 平台的 DR（航位推"
+"算）导航所需的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直速率和真"
+"空速。使用 CAP 来更新风向风速以及磁差。"
 
 #: ../../source/general.rst:4263
 msgid ""
@@ -16600,7 +16679,7 @@ msgstr "TACAN（TACAN）"
 
 #: ../../source/general.rst:4312
 msgid "Destination (DEST)"
-msgstr "目的地（DEST）"
+msgstr "目标（DEST）"
 
 #: ../../source/general.rst:4313
 msgid "AWL/PCD"
@@ -16981,8 +17060,8 @@ msgid ""
 "from the one selected by the ANTENNA switch."
 msgstr ""
 "每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自"
-"动作动功能，RIO必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT开关选择上部或"
-"下部天线。数据链路（DIL）天线同样需要手动选择。通过 DATA LINK 控制面板上的 "
+"动作动功能，RIO 必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT 开关选择上部"
+"或下部天线。数据链路（DIL）天线同样需要手动选择。通过 DATA LINK 控制面板上的 "
 "ANTENNA 开关来选择上部或下部天线。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统"
 "共用，并且始终使用与 ANTENNA 开关选择相反的天线。"
 
@@ -17010,10 +17089,10 @@ msgid ""
 "is used to receive and transmit signals. The upper antenna pattern has a "
 "slight forward tilt; the lower pattern a slight aft tilt."
 msgstr ""
-"在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF天线波瓣开关"
-"由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下部"
-"天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向"
-"前倾斜; 下部天线略微向后倾斜。"
+"在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF 天线波瓣开"
+"关由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下"
+"部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微"
+"向前倾斜; 下部天线略微向后倾斜。"
 
 #: ../../source/general.rst:4470
 msgid ""
@@ -17063,7 +17142,7 @@ msgid ""
 "the volume of the audio you listen to."
 msgstr ""
 "通过选择在各自 ICS 控制面板上的 EMER 档位来使用其他机组成员的放大器，你可以收"
-"听通常仅在另一驾驶舱播放的音频 (如响尾蛇音调或ALQ-126 PRF)，但您无法控制收听"
+"听通常仅在另一驾驶舱播放的音频 (如响尾蛇音调或 ALQ-126 PRF)，但您无法控制收听"
 "音频的音量。"
 
 #: ../../source/general.rst:4489
@@ -17143,8 +17222,8 @@ msgid ""
 "engine stall/overtemperature and Sidewinder tones will not be available to "
 "the pilot."
 msgstr ""
-"当前驾驶舱放大器选择旋钮位于EMER档位时，飞行员将无法听到发动机失速/超温警告音"
-"和响尾蛇音调。"
+"当前驾驶舱放大器选择旋钮位于 EMER 档位时，飞行员将无法听到发动机失速/超温警告"
+"音和响尾蛇音调。"
 
 #: ../../source/general.rst:4525 ../../source/general.rst:4737
 msgid "Function selector"
@@ -17491,7 +17570,7 @@ msgstr "LWR - 为 V/UHF 2 选择下部天线。"
 
 #: ../../source/general.rst:4666
 msgid "Non-functional in DCS."
-msgstr "在DCS中无功能。"
+msgstr "在 DCS 中无功能。"
 
 #: ../../source/general.rst:4674
 msgid "UHF 1 VOL control"
@@ -17499,11 +17578,11 @@ msgstr "UHF 1 VOL 控制旋钮"
 
 #: ../../source/general.rst:4674
 msgid "Controls volume of RIO audio from UHF 1 (AN/ARC-159)."
-msgstr "控制RIO头戴中的UHF 1（AN/ARC-159）音频音量。"
+msgstr "控制 RIO 头戴中的 UHF 1（AN/ARC-159）音频音量。"
 
 #: ../../source/general.rst:4678
 msgid "5 KY MODE switch"
-msgstr "5 KY MODE开关"
+msgstr "5 KY MODE 开关"
 
 # AG 12/24校对完毕
 #: ../../source/general.rst:4678
@@ -17513,7 +17592,7 @@ msgstr "KY-28 无功能。"
 # AG重新翻译
 #: ../../source/general.rst:4684
 msgid "AN/ARC-159 (UHF 1) Radio"
-msgstr "AN/ARC-159 (UHF 1) 无线电台"
+msgstr "AN/ARC-159（UHF 1）无线电台"
 
 #: ../../source/general.rst:4686
 msgid ""
@@ -17527,7 +17606,7 @@ msgid ""
 "output of 10 watts. All controls for operation of the radio are on the front "
 "panel of the radio. The radio is located on the pilot left console."
 msgstr ""
-"UHF 1 (ARC-159)无线电提供空空和空面话音通信。无线电频率范围从 225.000 - "
+"UHF 1（ARC-159）无线电提供空空和空面话音通信。无线电频率范围从 225.000 - "
 "399.975 Mhz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）"
 "上进行 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调"
 "整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率"
@@ -17632,7 +17711,7 @@ msgstr ""
 
 #: ../../source/general.rst:0
 msgid "OFF – Secures UHF 1 radio."
-msgstr "OFF – 关闭 UHF 1无线电台。"
+msgstr "OFF – 关闭 UHF 1 无线电台。"
 
 #: ../../source/general.rst:4747
 msgid "CHAN SEL control"
@@ -17642,7 +17721,7 @@ msgstr "CHAN SEL 旋钮"
 msgid ""
 "Selects one of 20 preset frequency channels to use when the tuning selector "
 "switch is set to PRESET."
-msgstr "当模式选择旋钮设置为PRESET时，用来选择20个预设波道中的任意一个。"
+msgstr "当模式选择旋钮设置为 PRESET 时，用来选择20个预设波道中的任意一个。"
 
 #: ../../source/general.rst:4751
 msgid "Frequency Chart"
@@ -17653,7 +17732,8 @@ msgid ""
 "Used to record preset channel frequencies. Frequencies preset in the mission "
 "editor will be automatically displayed here in DCS."
 msgstr ""
-"用来记录预设波道的频率。在DCS中，任务编辑器中预设的频率会自动显示在这里。"
+"用来记录预设波道的频率。在 DCS 中，任务编辑器中预设的频率会自动显示在频率表"
+"中。"
 
 #: ../../source/general.rst:4755
 msgid "Mode Selector switch"
@@ -17742,7 +17822,7 @@ msgstr ""
 
 #: ../../source/general.rst:4778
 msgid "The “Have Quick” anti-jam function is not implemented in DCS."
-msgstr "在DCS中，“Have Quick”反干扰功能未实现。"
+msgstr "在 DCS 中，“Have Quick”反干扰功能未实现。"
 
 #: ../../source/general.rst:4780
 msgid ""
@@ -17758,11 +17838,11 @@ msgid ""
 "the pilot instrument panel indicates the channel or frequency selected."
 msgstr ""
 "无线电台可以使用 AM 或 FM 进行收发。除了 225 至 399.975 频段（拨动开关）外，"
-"无线电将自动选择调制方式。30个预设波道可用。每个频段的救生频率可随其它已选的"
-"频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。"
-"ARC-182 使用保密话音设备运行（KY-28，KY-58 在DCS中尚未实现）。上部与下部天线"
-"在200海里内可提供可靠的视线内通信（根据高度与的大气条件而定）。飞行员仪表板上"
-"的远程显示器显示了选择频率或波道。"
+"无线电台将自动选择调制方式。无线电台中有30个预设波道可用。每个频段的救生频率"
+"可随其它已选的频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测"
+"向（ADF）。ARC-182 使用保密话音设备运行（KY-28，KY-58 在DCS中尚未实现）。上部"
+"与下部天线在200海里内可提供可靠的视线内通信（根据高度与的大气条件而定）。飞行"
+"员仪表板上的远程显示器显示了选择频率或波道。"
 
 #: ../../source/general.rst:4797
 msgid "Controls volume of RIO audio for V/UHF 2."
@@ -17849,7 +17929,7 @@ msgid ""
 "VOL SQL and BAT are disabled."
 msgstr ""
 "243 – 打开收发器（越级控制运行模式旋钮）并使主收发器和应急接收机调谐至 "
-"243.000 MHz（UHF救生频率）。除了 VOL SQL 和 BAT 功能外其它功能禁用。"
+"243.000 MHz（UHF 救生频率）。除了 VOL SQL 和 BAT 功能外其它功能禁用。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -18312,8 +18392,8 @@ msgid ""
 "seconds. When this tone is heard, the equipment is ready to cipher "
 "transmission."
 msgstr ""
-"再次按下PTT并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设备"
-"已准备好进行保密话音传输。"
+"再次按下 PTT 并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设"
+"备已准备好进行保密话音传输。"
 
 #: ../../source/general.rst:5017
 msgid ""
@@ -18369,7 +18449,7 @@ msgid ""
 "Note: If ZEROIZE has been pressed and the POWER MODE switch is in C, both "
 "crewmembers will be warned by a continuing beeping sound."
 msgstr ""
-"注：若 POWER MODE 旋钮位于 C 档位时按下 ZEROIZE 开关，则飞行员和RIO 均将听到"
+"注：若 POWER MODE 旋钮位于 C 档位时按下 ZEROIZE 开关，则飞行员和 RIO 均将听到"
 "连续的嘟嘟警告音。"
 
 # 12-16 AG重新翻译/校对
@@ -18386,8 +18466,8 @@ msgid ""
 "also Link 4C, unique to the F-14, which is a fighter to fighter data link."
 msgstr ""
 "F-14 雄猫配备了 Link 4 数据链路系统，可以用于传输和接收目标跟踪，航点信息和转"
-"向命令。 Link 4 有两个版本，第一个是 Link 4A，它允许水面舰艇或AWACS控制飞机，"
-"还有 Link 4C，它是 F-14 所独有的战机间数据链路。"
+"向命令。 Link 4 有两个版本，第一个是 Link 4A，它允许水面舰艇或 AWACS 控制飞"
+"机，还有 Link 4C，它是 F-14 所独有的战机间数据链路。"
 
 #: ../../source/general.rst:5048
 msgid ""
@@ -18415,8 +18495,8 @@ msgid ""
 "transmitter and receiver are used for both A and C links. The Link 4 system "
 "itself, operates using the UHF radio band at 5,000 bits per second."
 msgstr ""
-"因为 Link 4A 与 Link 4C 使用同一个收发器，所以系统不允许同时使用4A与4C。Link "
-"4C 系统使用 UHF 频段工作，传输速率为5000bit/s。"
+"因为 Link 4A 与 Link 4C 使用同一个收发器，所以系统不允许同时使用 4A 与 4C。"
+"Link 4C 系统使用 UHF 频段工作，传输速率为5000bit/s。"
 
 #: ../../source/general.rst:5057
 msgid ""
@@ -18573,8 +18653,6 @@ msgstr ""
 "机应使用相同的频率。一个小队最多编入四架战机，四架战机应该设置不同的地址。由"
 "于地勤自动将小队的最高有效位设置为相同，因此数据链路只能在小队内使用。"
 
-# #-#-#-#-#  general.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-#-#
-# 有点问题
 #: ../../source/general.rst:5105
 msgid ""
 "In Link 4C the participating aircraft shares up to 4 target tracks, selected "

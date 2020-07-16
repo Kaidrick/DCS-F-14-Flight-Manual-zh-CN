@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<html class="writer-html4" lang="zh-CN" >
 <head>
   <meta charset="utf-8">
   
@@ -12,6 +11,11 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+  
   
     <link rel="shortcut icon" href="_static/favicon.ico"/>
   
@@ -19,7 +23,9 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -32,11 +38,6 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="武器系统和武器使用总览" href="weapons.html" />
@@ -54,7 +55,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> DCS: F-14 “雄猫” 中文飞行手册
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> DCS: F-14 “雄猫” 中文飞行手册
           
 
           
@@ -77,6 +78,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -177,14 +179,14 @@
 <li class="toctree-l2"><a class="reference internal" href="#jettison-system">抛离系统</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#cadc-central-air-data-computer">中央大气数据计算机（CADC）</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#an-awg-9-weapon-control-system-wcs">AN/AWG-9 武器控制系统（WCS）</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#detail-data-display-ddd-and-panel">详细数据显示器（DDD）及控制板</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tactical-information-display-tid-and-associated-controls">战术信息显示器（TID）与相关控制</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#tid-data-readouts">TID数据显示</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#tid-symbology">TID上的符号信息</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detail-data-display-ddd-and-panel">详细数据显示器（DDD）及控制面板</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tactical-information-display-tid-and-associated-controls">战术信息显示器（TID）与相关控制器</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#tid-data-readouts">TID 数据读数</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tid-symbology">TID 标识符</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#navigation-command-and-control-grid-nav-grid">导航指令与控制网格（NAV GRID）</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#hand-control-unit-hcu">HCU控制器（HCU）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hand-control-unit-hcu">手控装置（HCU）</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#computer-address-panel-cap">计算机位址面板（CAP）</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#data-readout-entry-procedure">数据读数/输入程序</a></li>
 </ul>
@@ -237,7 +239,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#threat-symbology">威胁符号</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#an-ale-39-countermeasures-dispensing-set">AN/ALE-39 对抗布撒套件</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#an-ale-39-countermeasures-dispensing-set">AN/ALE-39 对抗弹射套件</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#controls-and-operation">控制和运作</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#programmer">编程面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#id6">控制面板</a></li>
@@ -319,7 +321,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#audio-warning-signals">音频警告信号</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#pilot-volume-tacan-command-panel">飞行员音量 / TACAN 指令面板</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#rio-communication-tacan-command-panel">RIO 通信/ TACAN 指令面板</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#an-arc-159-uhf-1-radio">AN/ARC-159 (UHF 1) 无线电台</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#an-arc-159-uhf-1-radio">AN/ARC-159（UHF 1）无线电台</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-arc-182-v-uhf-2-radio">AN/ARC-182 (V/UHF 2) 无线电台</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#loading-saving-preset-channel-s-on-uhf-1-and-v-uhf-2">UHF 1 和 V/UHF 2 中读取（保存）预设波道</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-arc-182-bit-built-in-test">AN/ARC-182 BIT（机内自检）</a></li>
@@ -363,6 +365,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -401,7 +404,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">文档</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>总体设计和系统概述</li>
     
@@ -417,10 +420,10 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="cockpit.html" class="btn btn-neutral float-left" title="驾驶舱简介" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="cockpit.html" class="btn btn-neutral float-left" title="驾驶舱简介" accesskey="p"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
       
   </div>
   
@@ -1074,77 +1077,77 @@
 </div>
 <div class="section" id="cadc-central-air-data-computer">
 <h2>中央大气数据计算机（CADC）<a class="headerlink" href="#cadc-central-air-data-computer" title="永久链接至标题">¶</a></h2>
-<p>中央大气数据计算机（CADC）就像蜘蛛网中心的蜘蛛一样接收绝大多数飞机飞行传感器收集的信息，并将这些信息传递给所有需要这些信息的系统。同时，CADC也通过机翼后掠控制调度程序控制后掠翼。此外，CADC也能控制襟翼以及前缘缝翼。襟翼和前缘缝翼被同一套控制调度程序限制。</p>
+<p>中央大气数据计算机（CADC）就像蜘蛛网中心的蜘蛛一样接收绝大多数飞机飞行传感器收集的信息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC 通过机翼后掠调度来控制机翼后掠，同时 CADC 还控制襟翼和前缘缝翼，并且还受到相同调度的限制。</p>
 </div>
 <div class="section" id="an-awg-9-weapon-control-system-wcs">
 <h2>AN/AWG-9 武器控制系统（WCS）<a class="headerlink" href="#an-awg-9-weapon-control-system-wcs" title="永久链接至标题">¶</a></h2>
-<p>AN/AWG-9武器控制系统（WCS）是一个综合系统，其中包含了F-14的主要传感器和计算机，该系统可以完成空对空和空对地任务中对目标的探测、跟踪和交战。</p>
+<p>AN/AWG-9 武器控制系统（WCS）是一个包含了 F-14 的主要传感器和计算机的综合系统，WCS 系统在空对空任务和空对地任务中提供了目标探测、跟踪和攻击的能力。</p>
 <div class="section" id="detail-data-display-ddd-and-panel">
-<h3>详细数据显示器（DDD）及控制板<a class="headerlink" href="#detail-data-display-ddd-and-panel" title="永久链接至标题">¶</a></h3>
+<h3>详细数据显示器（DDD）及控制面板<a class="headerlink" href="#detail-data-display-ddd-and-panel" title="永久链接至标题">¶</a></h3>
 <img alt="_images/dddpanel.png" src="_images/dddpanel.png" />
-<p>DDD及其控制面板是AN/AWG-9系统雷达部分的主显示器和控制面板。除了传感器控制面板上的扫描区域设置和雷达天线增稳开关外它包含雷达的所有控制选项。</p>
-<p><strong>TGTS开关, MLC开关, AGC开关 和 PARAMP 开关</strong></p>
-<p>位于DDD面板左上方的4个开关（ <strong>1 - 4</strong> ）分别是目标尺寸选择开关（TGTS），雷达主瓣杂波过滤器开关（MLC），自动增益控制开关（AGC），着雷达参数信号放大器（PARAMP）。</p>
-<p><strong>TGTS</strong> （目标）开关可以选择预计目标的大小，WCS会根据设置的目标大小计算导弹发射距离，并在雷达上设置目标的跟踪参数。如果开关选择的预计目标大小错误，就有可能会影响到雷达对目标跟踪和导弹命中率。</p>
-<p><strong>MLC</strong> 开关可以控制主瓣杂波过滤器，该装置可以用于抑制雷达在脉冲多普勒模式工作时产生的主瓣杂波。开关在OUT位置时这个装置将被关闭，IN位置则会开启这个系统。如果开关在AUTO位置，这个装置将会在雷达天线与地平线的夹角超过3°时自动关闭。</p>
-<p><strong>AGC</strong> 开关控制着雷达在脉冲多普勒模式下的自动增益系统，它可以调整用于自动增益控制的时间常数。一般情况下（开关在NORM位置）AGC（自动增益控制系统）用较长的时间常数来计算用于增益的平均值。如果雷达在有电子干扰或严重杂波的环境中工作，可以将自动增益控制设置为使用更快的时间常数来缓解这些不利因素，但是这样设置也会降低雷达探测目标的敏感度。</p>
-<p><strong>PARAMP</strong> ,参数放大器开关可以控制参数放大器，其可以在所有雷达模式下放大雷达回波较弱的目标参数。通常情况下，WCS会根据目标距离自主决定在什么时候使用参数放大器，但在跟踪回波异常强大的目标时，可以通过这个开关禁用参数放大器以减少背景噪声的影响。如果将这个开关手动设置为关闭（OFF），雷达探测范围会缩小35％。</p>
+<p>DDD 是 AN/AWG-9 系统中雷达部分的主要显示器和主要控制面板。除了位于传感器控制面板上的扫描范围和相对地面稳定控制器以外，DDD 中包括了所有雷达的控制器。</p>
+<p><strong>TGTS 开关，MLC 开关，AGC 开关 和 PARAMP 开关</strong></p>
+<p>位于 DDD 面板左上部分包含有4个开关（ <strong>1 - 4</strong> ），它们分别用于控制参数放大，主瓣杂波（MLC）抑制和目标大小参数。</p>
+<p><strong>TGTS</strong> （目标）开关可以选择预计目标的大小，WCS 会根据设置的目标大小来计算导弹发射区，并设置雷达中目标跟踪的参数。如果开关选择的预计目标大小错误，就有可能会对目标跟踪和攻击产生负面影响。</p>
+<p><strong>MLC</strong> 开关用于控制在脉冲多普勒模式下系统如何抑制雷达系统中的主瓣杂波（MLC）。OUT 档位将关闭抑制系统，IN 档位则开启。在 AUTO 档位中，如果雷达天线仰角高于地平线3°以上，那么将会自动禁用 MLC 滤波器。</p>
+<p><strong>AGC</strong> 开关用于控制在脉冲多普勒模式下的自动增益控制，使用这个开关来控制用于 AGC（自动增益控制）的时间常数。一般情况下（NORM 档位）AGC 使用更长的时间常数来计算用于放大的平均值。如果雷达在有干扰的环境中或者有严重杂波的情况下，将 AGC 设置为更快的时间常数来缓解这些因素，但设置为快速同时也会使得雷达对真目标的灵敏度降低。</p>
+<p><strong>PARAMP</strong> ，参数放大器开关可以手动控制参数放大器，参数放大器用于在所有雷达模式下放大回波较弱的目标。通常来说，WCS 控制器会根据距离来决定何时使用 PARAMP，但是如果跟踪了一个回波异常强的目标，那么可使用开关来禁用 PARAMP 来减轻背景噪声的影响。如果将开关手动设置为关闭，那么探测距离会缩短大约35%左右。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">目前AGC和PARAMP开关在DCS中无功能。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">目前 AGC 开关和 PARAMP 开关在 DCS 中无功能。</td>
 </tr>
 </tbody>
 </table>
-<p><strong>AWG - 9雷达扫描距离和跟踪指示</strong></p>
-<p>在DDD面板的上部中央部分，有用于在搜索模式中设置雷达扫描距离的按钮和显示目前扫描距离的指示器。下面还显示了在单目标跟踪（STT）模式下雷达跟踪状态指示灯。</p>
-<p>分别标记了5、10、20、50、100和200这些数字的六个圆形按钮（ <strong>8</strong> ），用于在脉冲模式下和进行IFF识别时选择所需的雷达扫描距离，在该面板上的选择同样会影响前座目标距离指示器的显示范围。这六个按钮仅能同时按下一个。在脉冲搜索模式，通过上述按钮进行选择会影响雷达的 PRF 和 DDD 的显示范围，如果选择了20海里或更远的距离，则会启用脉冲压缩。</p>
-<p><strong>距离指示器</strong> （ <strong>7</strong> ）上显示了雷达在脉冲模式下当前选定的雷达扫描距离，雷达处于脉冲多普勒模式下时这个指示器显示为空白 。在STT模式下进行敌我识别时，这个指示器会显示±10。</p>
-<p>在这个指示器的两边是4个雷达跟踪指示灯，用于指示雷达在进行STT时的跟踪状态。</p>
+<p><strong>AWG - 9 雷达距离选择和跟踪指示</strong></p>
+<p>在 DDD 面板中的上部中央部分，包含了用于在搜索模式下设置雷达距离的控制器以及指示器。在这些控制器和指示器的下方还拥有在单目标跟踪（STT）模式下的雷达跟踪指示器。</p>
+<p>六个圆形按钮（ <strong>8</strong> ）分别标记了 <strong>5, 10, 20, 50, 100 和 200</strong> ，这些按钮用于在脉冲模式和在 IFF 问询时选择所需的雷达显示距离，这些按钮的设置同时会影响飞行员目标距离显示的尺度。这六个按钮互斥，因为一次只能选择一个显示距离。在脉冲搜索模式下，通过上述按钮进行选择会影响雷达的 PRF 以及 DDD 中的显示尺度，如果设置为20海里及以上的显示距离，那么将会启用脉冲压缩。</p>
+<p><strong>距离显示滚筒</strong> （ <strong>7</strong> ），距离显示滚筒中显示了雷达在脉冲模式下当前 DDD 中的雷达显示尺度，使用脉冲多普勒模式时滚筒为空白。在 STT 模式下进行 IFF 问询时，这个指示器还将显示±10。</p>
+<p>在距离显示滚筒下方的是四个雷达跟踪指示灯，这些指示灯用来指示雷达在 STT 模式下如何跟踪目标。</p>
 <ul class="simple">
-<li><strong>ANT TRK</strong> ,天线跟踪，这个指示灯亮起表示雷达正在对目标进行方位角和俯仰角测量并追踪目标。</li>
-<li><strong>RDROT</strong> ，雷达发现目标，这个指示灯亮起表示目标在雷达的扫描刷新范围内并且被持续跟踪。</li>
-<li><strong>JAT</strong> 干扰源角度跟踪，这个指示灯亮起表示表示雷达正在通过测量与干扰源的方位角和俯仰角对其进行跟踪。</li>
-<li><strong>IROT</strong> 光电探头发现目标，这个指示灯亮起表示TCS正在测量目标的方位角和俯仰角并跟踪目标，这个开关的名字来自早期装备了IRST系统的F-14A。</li>
+<li><strong>ANT TRK</strong> （天线跟踪指示灯），指示灯亮起表示雷达正在跟踪目标来获得目标的方位和仰角的角度（方向）。</li>
+<li><strong>RDROT</strong> （雷达截获目标指示灯），指示灯亮起表示目标在距离内或接近率门限内，并且目标已锁定。</li>
+<li><strong>JAT</strong> （干扰源角跟踪指示灯），这个指示灯亮起表示天线正在跟踪干扰源的方位和仰角的角度。</li>
+<li><strong>IROT</strong> （红外捕获目标指示灯），指示灯亮起表示系统正在通过 TCS 跟踪目标来获得目标方位和仰角的角度，IROT 名称是早期 F-14A 中的 IRST 系统继承而来。</li>
 </ul>
-<p><strong>IR AUDIO控制</strong></p>
-<p><strong>IR AUDIO</strong> 控制旋钮（ <strong>10 - 12</strong> ）位于DDD面板的右上部，用来控制红外传感器，由于在F-14B上红外传感器已经被TCS取代，所以这几个旋钮是没有功能的。</p>
-<p><strong>雷达、导弹频率选择器</strong></p>
-<p>DDD面板右上角的指轮用于控制AN/AWG-9雷达发射器频率（ <strong>13</strong> ）和AIM-7与AIM-54（14）导弹的直波信道频率。通过对这些频率的设置，可以避免收到来自其它搭载了相同雷达系统与导弹的飞机的干扰及其他的外来干扰。WCS在准备导弹时读取AIM-7信道频率，因为它们需要调谐，WCS读取信道后再改变频率将不会起作用，除非重新开始导弹发射准备程序。</p>
+<p><strong>IR AUDIO 控制</strong></p>
+<p><strong>IR AUDIO</strong> 控制旋钮（ <strong>10 - 12</strong> ）位于 DDD 面板的右上部，这些控制旋钮被用于与红外传感器一起使用，但由于在 F-14B 上红外传感器被 TCS 取代，所以这几个旋钮是没有功能的。</p>
+<p><strong>雷达和导弹频率选择拨轮</strong></p>
+<p>DDD 面板右上角的拨轮用于控制 AN/AWG-9 雷达发射极的频率（ <strong>13</strong> ），导弹控制波道则用于与 AIM-7 和 AIM-54 一起使用（ <strong>14</strong> ）。调整这些拨轮来避免受到其它装备了 AN/AWG-9 飞机的或其它外部干扰源的干扰。由于导弹需要进行调谐，在 AIM-7 准备好后，WCS 将会读取 AIM-7 的导弹波道，在准备好 AIM-7 后变更波道不会起到任何作用，除非重新开始导弹的准备程序。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">目前在DCS中这个功能未被模拟。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">目前在 DCS 中尚未模拟。</td>
 </tr>
 </tbody>
 </table>
-<p><strong>雷达模式选择器</strong></p>
-<p>该控制器位于DDD面板的右下角，控制着DDD显示模式，雷达模式以及雷达模式指示器。显示模式按钮（ <strong>15</strong> ）用来选择当前DDD的显示模式。 <strong>RDR</strong> ：雷达模式，是最常用的模式。由于未安装红外系统，红外模式无法使用。IFF按钮可以控制IFF的两种工作模式中的一种模式，有关更多详细信息，请参阅总体设计和系统总览章节中的IFF部分。</p>
-<p>雷达模式按钮（ <strong>16</strong> ）用来选择AN/AWG-9雷达的当前工作模式。两个STT按钮分别为脉冲多普勒单目标跟踪（ <strong>PD STT</strong> ）和脉冲单目标跟踪（ <strong>P STT</strong> ），当符合STT条件时，按下对应的按钮会启用单目标跟踪模式，雷达会自动尝试以选定的STT模式锁定在TID上选定的目标。这两个按钮也可以用来在STT中切换这两种STT模式。脉冲多普勒搜索按钮（ <strong>PD SRCH</strong> ）用来选择雷达的PD搜索模式。边测距边跟踪搜索按钮（ <strong>RWS</strong> ）用来选择雷达的RWS模式。两个边跟踪边扫描按钮（ <strong>TWS AUTO</strong> and <strong>TWS MAN</strong> ）可以选择雷达的两种TWS模式。脉冲搜索按钮（ <strong>PULSE SRCH</strong> ）用来选择雷达的脉冲搜索模式。</p>
-<p><strong>模式指示器</strong> （ <strong>17</strong> ）显示了当前选定的雷达模式。除了TWS MAN, TWS AUTO, RWS这些模式外，它还可以显示MRL（手动快速锁定）、A-G （空对地）、VSL（垂直扫描锁定）、OPTTRK（TCS跟踪）、PLM（飞行员锁定模式）、PULSE（脉冲搜索模式和脉冲STT模式）、PD（指脉冲多普勒搜索模式和脉冲多普勒STT模式）和PAL（飞行员自动锁定模式）。</p>
-<p><strong>Aspect和Vc开关</strong></p>
-<p>在DDD的两边是ASPECT开关和VC开关。 <strong>VC</strong> 开关（ <strong>18</strong> ）控制着脉冲多普勒模式下DDD上显示的目标接近率标尺。开关拨到X4位置时，接近率标尺区间被设置为800节到4000节，NORM位置时接近率标尺区间被设置为200节到1000节。VID上显示的接近率标尺区间被设置为50节到250节。</p>
-<p><strong>ASPECT</strong> 开关（ <strong>21</strong> ）根据雷达模式的不同控制着两种不同的功能。在脉冲多普勒模式中它控制着该模式下雷达在不同情况下对目标的处理速率范围，开关在NOSE位置时会对迎头600节工作到1800节接近率的目标进行处理，BEAM位置时会对侧视1200节以内接近率的目标进行处理，TAIL位置是会对尾追1800节到600节的接近率目标进行处理。在短脉冲STT模式中，这个开关可以用来选择跟踪目标边缘回波或者中心回波，以减轻箔条等对抗措施带来的影响。</p>
-<p><strong>角度指示器</strong></p>
-<p>角度指示器度 <strong>EL</strong> （ <strong>22</strong> ）用于指示传感器俯仰角度。左侧（ <strong>RDR</strong> ）指针指示当前实际雷达天线角度。该指针在雷达搜索模式下将随雷达天线移动。</p>
-<p>如果使用HCU选择当前模式为雷达模式，右侧指针（IR/TV/EC）会显示雷达当前扫描模式下的中心角度。这在STT模式中很有用，因为RIO可以通过它来设置一个中心角度，以便返回搜索模式时使用。</p>
-<p>如果使用HCU选择当前模式为IR/TV模式，那么右侧指针会显示当前TCS的俯仰角。</p>
-<p><strong>反对抗模式控制</strong></p>
-<p>最左下角有三个反对抗模式按钮。可以控制反对抗系统反制不同的干扰机。（目前未模拟）</p>
-<p><strong>雷达和DDD控制旋钮</strong></p>
-<p>在DDD面板上有八个旋钮用来控制DDD和雷达的不同功能。脉冲图像控制旋钮（ <strong>5</strong> ）位于DDD的左上方，它用来控制DDD上图像的脉冲强度，这只会影响DDD的显示效果，而不影响雷达本身。</p>
-<p>亮度控制旋钮（ <strong>9</strong> ）位于DDD的右上方，它通过调节偏振滤光片来实现对DDD的亮度控制，主要用于低亮度环境下。</p>
-<p><strong>PULSE GAIN</strong>（脉冲增益）控制旋钮位于DDD的左下侧，它可以控制脉冲模式下的雷达增益。这个旋钮会直接控制雷达本身的增益，一般情况下保持在NORM位置，由WCS自动对雷达增益进行控制。</p>
-<p><strong>ERASE</strong> 控制旋钮（ <strong>9</strong> ）位于DDD的右下侧，它用于控制DDD上擦除光束的强度。擦除光束会连续清除DDD上的目标指示，因此这个设置会影响到目标余像在DDD上的残留时间。</p>
-<p>PD THRLD（<strong>26</strong>）、JAM/JET（<strong>24</strong>）和 ACM THRLD（<strong>25</strong>）控制旋钮位于DDD面板的左侧。脉冲多普勒阈值旋钮（PD THRLD）控制着接受回波的阈值，阈值内的回波会作为目标显示在DDD上，RWS和TWS模式下该目标还会在TID上被跟踪。CLEAR旋钮控制着CLEAR区域阈值（DDD的上半部分），CLUTTER旋钮控制着CLUTTER区域的阈值。一般情况下这两个旋钮保持在NORM位置，由WCS自动控制。</p>
-<p><strong>JAM/JET</strong> 旋钮可以用来设置干扰强度阈值，高于这个值的发射器将被视为干扰源显示在TID上。 <strong>ACM THRLD</strong> 旋钮可以用来设置ACM模式下的目标阈值，通常保持在逆时针初始位置，由WCS自动控制。</p>
+<p><strong>雷达模式选择按钮</strong></p>
+<p>DDD 面板的右下部包含有显示模式、雷达模式和 DDD 本身滚筒指示器的控制开关与按钮。显示模式按钮 （<strong>15</strong>）用于选择当前 DDD 所选的显示模式。 <strong>RDR</strong> （雷达模式），此模式为一般的所选模式。 <strong>IR</strong> 模式由于没有安装 IR 系统，所以是无功能的。 <strong>IFF</strong> 按钮按下后将在 IFF 本身的两种运行模式下的其中一种来启用 IFF 问询器，详情参见总体设计和系统概述的 IFF 部分。</p>
+<p>雷达模式按钮（ <strong>16</strong> ）用来选择 AN/AWG-9 雷达的运行模式。两个 STT 按钮——脉冲多普勒单目标跟踪（ <strong>PD STT</strong> ）和脉冲单目标跟踪（ <strong>P STT</strong> ）——如果可用，这两个按钮可用来选择 STT 的模式。同时这两个按钮还用于自动尝试锁定至 TID 中选中的目标或用于在两个 STT 模式之间进行切换。脉冲多普勒搜索按钮（ <strong>PD SRCH</strong> ）用于选择雷达 PD SEARCH 模式。边搜索边测距按钮（ <strong>RWS</strong> ）用于选择雷达 RWS 模式。两个边扫描边跟踪按钮（ <strong>TWS AUTO</strong> 和 <strong>TWS MAN</strong> ）用于选择雷达使用与之对应的 TWS 模式运行。脉冲搜索按钮（ <strong>PULSE SRCH</strong> ）用于选择雷达脉冲搜索模式。</p>
+<p><strong>滚筒指示器</strong> （ <strong>17</strong> ），滚筒指示器指示了当前所选的雷达模式。除了显示 TWS MAN，TWS AUTO，RWS 指代各自的模式外，滚筒指示器还可以显示 MRL（手动快速锁定）、A-G （空对地）、VSL（垂直扫描锁定）、OPTTRK（TCS 跟踪）、PLM（飞行员锁定模式）、PULSE（脉冲搜索模式和脉冲 STT 模式）、PD（脉冲多普勒搜索模式和脉冲多普勒 STT 模式）和PAL（飞行员自动锁定模式）。</p>
+<p><strong>Aspect 和 Vc 开关</strong></p>
+<p>在 DDD 的两边是 ASPECT 开关和 VC 开关。 <strong>VC</strong> 开关（ <strong>18</strong> ）用于控制在脉冲多普勒模式下 DDD 上显示的目标接近率尺度。开关拨到 X-4 档位时，接近率标尺区间被设置为800节离开到4000节接近，拨到 NORM 档位时，接近率尺度将设置为200节离开至1000节接近，VID 档位则将接近率尺度设置为50节离开至250节接近。</p>
+<p><strong>ASPECT</strong> 开关（ <strong>21</strong> ）将根据雷达模式控制两种不同的功能。在脉冲多普勒搜索模式中，ASPECT 开关用来控制雷达的接近率处理窗口，NOSE 档位将设置为600节离开至1800节接近，BEAM 档位将设置为1200节接近至1200节离开，TAIL 档位将设置为1800节离开至600节接近。在短脉冲 STT 模式下，开关不同的档位将系统跟踪模式设置为对应的回波边缘和回波质心来减轻对抗措施对例如箔条和特定干扰模式的影响。</p>
+<p><strong>仰角指示器</strong></p>
+<p>仰角指示器尺度—— <strong>EL</strong> （ <strong>22</strong> ）——这个指示器用于指示传感器的仰角。左侧（ <strong>RDR</strong> ）的指针指示当前实际的雷达天线的仰角。左侧的指针将会随天线在雷达搜索模式下的移动而移动。</p>
+<p>如果将 HCU 设置为 RDR 模式，右侧（IR/TV/EC）指针将指示当前设置的天线栅状扫描的仰角中心。由于可使 RIO 在最终返回到搜索模式时设置需要使用的天线的仰角中心，这个指针在 STT 模式下显得十分有用。</p>
+<p>如果设置 HCU 为 IR/TV 模式，那么右侧指针会显示当前 TCS 的仰角。</p>
+<p><strong>反干扰模式控制器</strong></p>
+<p>面板的左下角含有三个反干扰模式按钮。这些按钮的功能用于反制各种影响系统的干扰。（尚未实装）</p>
+<p><strong>雷达和 DDD 控制旋钮</strong></p>
+<p>在 DDD 面板上有八个不同的旋钮，它们各自用来控制 DDD 的和雷达的不同功能。坐落于 DDD 左上角的是 <strong>PULSE VIDEO</strong> 控制旋钮（ <strong>5</strong> ），这个旋钮用来控制 DDD 在脉冲模式下的视频强度。旋钮只对 DDD 产生影响，不会影响雷达本身。</p>
+<p>位于 DDD 右上方的是 <strong>BRIGHT</strong> 控制旋钮（ <strong>9</strong> ），它通过调节偏振滤光镜来机械控制 DDD 的亮度，主要用于低亮度条件下。</p>
+<p>位于 DDD 的左下方的是 <strong>PULSE GAIN</strong> 控制旋钮（ <strong>20</strong> ），这个旋钮用来控制在脉冲模式下的雷达增益。这个旋钮会直接影响雷达的增益。一般情况，将旋钮保持在顺时针旋转最大档位的锁定机构中，这样可使得 WCS 来自动控制脉冲增益。</p>
+<p>位于 DDD 的右下方的是 <strong>ERASE</strong> 控制旋钮（ <strong>19</strong> ），这个旋钮用来控制 DDD 中擦除射束的强度。擦除射束会连续擦除 DDD 上的目标指示，因此这个旋钮的设置将会影响到探测到的目标的余像在 DDD 上的残留时间。</p>
+<p>位于 DDD 面板的左侧的分别是 PD THRLD（ <strong>26</strong> ）、JAM/JET（ <strong>24</strong> ）和 ACM THRLD（ <strong>25</strong> ）控制旋钮。脉冲多普勒阈值旋钮（PD THRLD）用于控制一个回波视为一个接触的阈值，接触将会显示在 DDD 中，并在 RWS 模式和 TWS 模式下，在 TID 中显示出接触。<strong>CLEAR</strong> 旋钮控制着 CLEAR 区域（回波净区）阈值（DDD 的上半部分），<strong>CLUTTER</strong> 旋钮控制着 CLUTTER 区域（杂波区）的阈值（DDD 的下半部分）。在一般情况下，将旋钮顺时针转动到位于 NORM 档位的锁定机构中，使 WCS 自动控制阈值。</p>
+<p><strong>JAM/JET</strong> 旋钮用来设置干扰强度的阈值，高于设定值的发射极将被视为干扰机并在 TID 中使用干扰源射线将其指示出来。 <strong>ACM THRLD</strong> 旋钮可以用来设置 ACM 距离内将回波视为目标的阈值。在一般情况下，将旋钮逆时针转动至锁定机构中，使 WCS 自动控制阈值。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">JAM/JET和ACM THRLD旋钮的功能在当前DCS中未被模拟。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">JAM/JET 和 ACM THRLD 旋钮的功能尚未实装至 DCS 中。</td>
 </tr>
 </tbody>
 </table>
@@ -1167,41 +1170,41 @@
 </tr>
 </tbody>
 </table>
-<p><strong>DDD</strong> 屏幕会根据雷达模式显示不同的数据和符号组合。</p>
-<p>在脉冲搜索模式下，显示屏仅显示雷达回波以及雷达回波的刷新与擦除动作，屏幕上的横轴与竖轴分别代表角度和距离。在脉冲多普勒模式下，屏幕底部添加自动增益跟踪，还会显示被探测目标的预测干扰强度，屏幕上的横轴与竖轴为方位角与接近率。</p>
-<p>在两种STT模式下，除了显示目标回波外，还会显示追踪门的模式，目标的接近率（屏幕右侧），如果在空对空模式下且已经选择了一枚导弹，还会出现攻击指示符号。</p>
-<p>在脉冲STT模式中，目标符号会在屏幕上显示在与其真实位置对应的距离和方位角上。而在脉冲多普勒STT模式中目标距离指示移动到了屏幕的左侧，而生成的目标符号则位于正确的方位角上。在脉冲多普勒STT模式中还增加了自动增益控制轨迹，可以显示干扰强度。有关攻击符号的信息，请参阅VDIG部分。</p>
+<p>根据雷达模式的不同， <strong>DDD</strong> 屏幕本身可以显示仅雷达回波数据或雷达回波及其标识符。</p>
+<p>在脉冲搜索模式下，屏幕中仅显示雷达回波以及可视化雷达扫掠与擦除扫掠。在此模式下，屏幕中会显示距离与方位。在脉冲多普勒模式下，屏幕底部还会增加一个 AGC TRACE，AGC TRACE 显示了探测到的目标的预测干扰强度。在此模式下，屏幕中会显示接近率与方位。</p>
+<p>在两种 STT 模式下，除了目标的回波外，屏幕还将显示跟踪门（距离或接近率门）、位于右侧的接近率指示和攻击标识符（如果在空对空模式下并且已选择了导弹）。</p>
+<p>在脉冲 STT 模式下，目标标识显示在正确的方位和距离上，而在脉冲多普勒 STT 模式下，目标标识将移动至屏幕左侧，而不是在正确的方位上生成目标标识。在脉冲多普勒 STT 模式下，还增加显示了 AGC TRACE 来表示干扰强度。有关攻击标识符，详情参阅 VDIG 部分。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">自动增益控制目前还未模拟。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">AGC TRACE 尚未实装。</td>
 </tr>
 </tbody>
 </table>
-<p>当使用IFF进行敌我识别时，如果雷达处于脉冲搜索模式，敌我识别信息将叠加在正常雷达图像上。当雷达处于脉冲多普勒搜索模式时，在显示敌我识别信息的同时，DDD会在之前设定的距离标尺下切显示距离（竖轴）与方位角（横轴）。在PD STT模式下，如果目标在TID上被“钩住”，则DDD会显示以目标为中心±10度的雷达图像，并显示敌我识别信息。</p>
+<p>在脉冲搜索模式下，当 IFF 问询器启动后，IFF 信息将会叠加显示在一般雷达回波上。在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示尺度将切换至先前设置距离尺度来显示距离和方位，在 PD STT 模式下，如果在 TID 选中了目标，当显示 IFF 返回时，那么 DDD 显示尺度将切换至目标为中心 ±10 尺度。</p>
 </div>
 <div class="section" id="tactical-information-display-tid-and-associated-controls">
-<span id="tid"></span><h3>战术信息显示器（TID）与相关控制<a class="headerlink" href="#tactical-information-display-tid-and-associated-controls" title="永久链接至标题">¶</a></h3>
+<span id="tid"></span><h3>战术信息显示器（TID）与相关控制器<a class="headerlink" href="#tactical-information-display-tid-and-associated-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/tid1.png" src="_images/tid1.png" />
-<p>TID是WCS系统的主要数据显示器。它会向RIO显示战术信息，可以用来识别和选择目标并向目标发射远距离空对空武器。你可以把它想象成一张战场信息的俯视图，显示所有的轨迹和符号的相对位置，只不过不显示地表特征。它还可以作为显示屏用于WCS和导航系统数据输入，INS校准以及机上检查。</p>
-<p><strong>TID显示控制旋钮</strong></p>
-<p>在TID的上方边缘处有两个显示控制旋钮（ <strong>2 &amp; 4</strong> ）。左边的旋钮控制TCS的显示对比度，右边的旋钮控制TID的整体亮度，一般根据使用习惯和当前环境亮度来调整。</p>
-<p><strong>INS和导航控制</strong></p>
-<p>INS状态指示灯位于TID左上角（ <strong>1</strong> ），用来指示INS状态和校准。</p>
-<p>TID的两侧有两个旋钮。左侧的旋钮（ <strong>12</strong> ）控制着INS和AHRS（姿态航向基准系统）模式，可以使用它来切换到INS校准模式。</p>
-<p>当前座驾驶员选择RIO设置的航路点作为转向点时，右侧的旋钮（ <strong>6</strong> ）可以用来选择存储在WCS中的不同航路点作为当前转向点，需要注意的是MAN选项只适用于装备了TARPS的飞机。</p>
-<p>与这个旋钮相邻的是TID右上方边缘的指示器（ <strong>5</strong> ）它可以指示当前显示给飞行员的转向信息的类型。</p>
-<p>这个指示器可以显示的信息类型有：目标（DEST），数据链路指令航向（D/L），方位导引拦截转向（LD CLSN），拦截转向（CLSN），导引跟踪转向（LD PURST），跟踪转向（PURST），塔康径向（TACAN）和手动设置指令航向（MAN）。</p>
-<p><strong>TID数据读取指示器</strong></p>
-<p>在TID的正上方是数据读取指示器（ <strong>3</strong> ）。它用于指示在TID上显示数据的数据来源。它可以显示的不同信息有：导航系统中的不同航路点（WAY PT、ST、FIX PT、IP 和 HB），本机（OWN A/C），首要目标（TGT 1）和SYMBOL。</p>
-<p>当显示SYMBOL时表示在指示器中没有与TID上被勾选的标识的数据来源类型相对应的文字。在上述情况下，指示器上也会显示为空白，TID上也不会显示任何符号。</p>
-<p><strong>TRACK HOLD按钮与CLSN按钮</strong></p>
-<p>在TID的两侧旋钮的下方也两个带有指示灯的按钮，按下后会亮起绿色指示灯。</p>
-<p>在左侧的是 <strong>TRACK HOLD</strong> 按钮（ <strong>11</strong> ）该按钮用于启用“目标保留”功能。通常，在TWS模式下，TID上显示的目标会符号在最后被发现的位置保留14秒，按下这个按钮会使这个时间会被延长至2分钟。如果再次按下按钮会关闭这个功能，如果没有被再次扫描到，TID上的目标符号将会在14秒后消失。</p>
-<p>在右侧的是 <strong>CLSN</strong> 按钮（ <strong>7</strong> ），该按钮会为当前正在TWS模式下跟踪的目标设置拦截航线并为飞行员提供导航信息，除非在ACM模式下，否则该导航信息会覆盖之前的导航信息。</p>
-<p><strong>TID控制面板</strong></p>
-<p>在TID的下方是TID控制面板（ <strong>8</strong> ）。这个面板上有8个按钮，分别控制着在TID上显示的符号，按钮激活时会亮起绿灯。按钮下方还有两个分别控制着显示刻度和TID模式的旋钮。这些按钮的功能分别是：</p>
+<p>TID 是 WCS 的主要数据显示器。TID 向 RIO 显示战术信息，显示的战术信息用来识别和选择用于 F-14 “雄猫”上的远程武器的目标。将 TID 想象成一张俯视地图，所有显示出的跟踪以及符号都会以相对应的坐标显示在这张地图中，但是 TID 不会显示出地面/水面地物（地图）。同时 TID 还作为次要角色用于显示输入数据至 WCS、导航、INS 对准和机上检查（OBC）。</p>
+<p><strong>TID 显示控制旋钮</strong></p>
+<p>在 TID 的上方边缘处包含有两个显示控制旋钮（ <strong>2 &amp; 4</strong> ）。左边的旋钮用于控制 TCS 的显示对比度，右边的旋钮用来控制 TID 的整体亮度。一般根据使用习惯和当前环境亮度来调整。</p>
+<p><strong>INS 和导航控制器</strong></p>
+<p>位于 TID 左上角的是 INS 状态指示器（ <strong>1</strong> ），状态指示器用来指示 INS 的状态和对准状态。</p>
+<p>TID 的两侧包含有两个旋钮。左侧的旋钮（ <strong>12</strong> ）用来控制和选择使用 INS 或 AHRS（姿态航向基准系统）模式。同时这个旋钮还用于进行 INS 对准。</p>
+<p>右侧的旋钮（ <strong>6</strong> ）用来控制在飞行员选择目标点转向时，转向的目标。旋钮用来在存储在 WCS 中的不同的航路点之间进行选择。MAN 档位仅用于在飞机挂载了 TARPS 时使用。</p>
+<p>在 TID 右上方位于边缘处、右侧旋钮一旁的是读数滚筒（ <strong>5</strong> ）。读数滚筒用于指示当前提供给飞行员的转向信息的类型。</p>
+<p>读数滚筒可显示的转向信息类型有：目标（DEST）、数据链路指令航向（D/L）、计算出的拦截转向（LD CLSN）、恒定角度拦截转向（CLSN），计算出的导引转向（LD PURST），纯追逐导引转向（PURST），塔康（TACAN）和手动设置指令航向（MAN）。</p>
+<p><strong>TID 数据读数滚筒</strong></p>
+<p>在 TID 的上方是数据读数指示器滚筒（ <strong>3</strong> ）。数据读数指示器用于在 TID 文本读数中指示数据的来源。可显示的读数分别为：导航系统中不同的航路点（WAY PT、ST、FIX PT、IP 和 HB）、本机（OWN A/C）、首要目标（TGT 1）和 SYMBOL。</p>
+<p>当在 TID 中选中一个符号，但数据读数指示器中显示 SYMBOL 时，则表示选中的符号在滚筒中没有其对应的指示器文字。在上述情况下，指示器上也会显示为空白，TID 上也不会显示任何符号。数据源没有对应的指示器文字以及在 TID 中没有对应符号时，滚筒显示为空白。</p>
+<p><strong>TRACK HOLD 按钮与 CLSN 按钮</strong></p>
+<p>在上述 TID 两侧选择旋钮下方的是两个带有指示灯光的按钮，TID 每侧各一个按钮。绿色灯光亮起表示已选择按钮。</p>
+<p>在 TID 左侧的是 <strong>TRACK HOLD</strong> 按钮（ <strong>11</strong> ），TRACK HOLD 按钮用于启用跟踪保持功能。通常，在 TWS 模式下，TID 中的目标会在最后一次观测到后开始保留在屏幕中14秒。按下跟踪保持功能会将所有目标保留的时间延长至2分钟。如果再次按下 TRACK HOLD 按钮，那么保留的时间将会恢复至标准的14秒一个周期，在14秒过后如果没再次观测到目标，那么目标将会被丢弃。</p>
+<p>在 TID 右侧的是 <strong>CLSN</strong> 按钮（ <strong>7</strong> ），CLSN 按钮用于启用恒量角度拦截转向至当前跟踪的目标或重心（如果在 TWS 模式下时）。除了飞行员选择了 ACM 模式外，按下按钮恒量角度拦截转向将会越控当前提供给飞行员的转向信息。</p>
+<p><strong>TID 控制面板</strong></p>
+<p>在 TID 的下方是 TID 控制面板（ <strong>8</strong> ）。TID 控制面板上有8个按钮，分别用于选择在 TID 中显示的标识符，绿色灯光亮起表示已启用按钮。TID 控制面板上还包含有两个选择旋钮，分别控制这显示尺度和 TID 模式。这些按钮分别是：</p>
 <table border="1" class="longtable docutils">
 <colgroup>
 <col width="7%" />
@@ -1213,56 +1216,56 @@
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>禁用RID</td>
-<td>未模拟。</td>
+<tr class="row-even"><td>禁用 RID</td>
+<td>尚未实装。</td>
 </tr>
 <tr class="row-odd"><td>ALT NUM</td>
 <td><div class="first last line-block">
-<div class="line">高度数字按钮，激活这个按钮后会在目标符号的左侧显示目标高度。</div>
-<div class="line">目标高度数值以万英尺为单位。比如说显示数字为1，表示目标高度在5000到15000 英尺之间。</div>
+<div class="line">高度数字按钮，启用显示跟踪符号左侧的跟踪高度。</div>
+<div class="line">目标高度数值单位为万英尺，比如说显示数字为1，表示目标高度在5000到15000英尺之间。</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td>SYM ELEM</td>
 <td><div class="first last line-block">
-<div class="line">符号按钮，激活这个按钮会让TID上显示目标和航路点的补充符号。</div>
-<div class="line">如果关闭这个按钮，TID上的目标和航路点都会显示为一样的点。</div>
+<div class="line">符号补充标识，启用显示所有用于跟踪和航路点的补充标识符。</div>
+<div class="line">如果关闭这个按钮，那么所有跟踪和航路点都将在 TID 中以一个点显示出来。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td>DATA LINK</td>
-<td>数据链路按钮，激活这个按钮会在TID上显示来自数据链路的目标信息。</td>
+<td>数据链路按钮，启用显示数据链路跟踪。</td>
 </tr>
 <tr class="row-even"><td>JAM STROBE</td>
 <td><div class="first last line-block">
-<div class="line">干扰源按钮，用于在 TID 中显示干扰源。</div>
-<div class="line">激活该按钮可以在TID上显示超过DDD面板设置的JAM/JET阈值的干扰源，未模拟。</div>
+<div class="line">干扰源射线按钮，启用在 TID 中显示干扰源射线。</div>
+<div class="line">启用后，将显示超出 DDD 中设定的 JAM/JET 阈值的对雷达进行干扰的目标。尚未实装。</div>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td>NON-ATTK</td>
 <td><div class="first last line-block">
-<div class="line">激活该按钮会在TID上显示你不能攻击的目标。</div>
+<div class="line">不可攻击按钮，用来启用和禁用显示不能攻击的目标。</div>
 <div class="line">如，友军飞机。</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td>VEL VECTOR</td>
-<td>速度矢量按钮，激活该按钮可以在TID上显示目标的速度矢量。</td>
+<td>速度矢量按钮，启用显示目标的垂直速率。</td>
 </tr>
 <tr class="row-odd"><td>LAUNCH ZONE</td>
 <td><div class="first last line-block">
-<div class="line">发射距离按钮，根据选定的导弹类型来显示相应的武器发射区间。</div>
-<div class="line">发射距离符号会替代目标的速度矢量符号。在目标进入最大发射距离前60秒，WCS会自动启动该功能。</div>
+<div class="line">发射区按钮，根据所选的导弹的类型启用显示武器发射区。</div>
+<div class="line">发射区代替了相关目标中的速度矢量。这项功能会由 WCS 在目标进入最大发射距离前60时自动启用。</div>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
-<p>TID模式控制旋钮（ <strong>10</strong> ）位于面板左侧。 <strong>GND STAB</strong> （对地稳定）模式下，TID显示器以地面为参照物，可以被视为一个地图，屏幕上方就是正北方向，当飞机图标在显示器上移动时，显示器背景是固定的。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID显示器以飞机本身为参照物，飞机图标固定于显示器下方中心，正上方永远是当前飞行航向。 <strong>ATTK</strong> （攻击）模式下TID显示器的显示逻辑与A/C STAB相同，但是叠加了攻击指示符号的显示。 <strong>TV</strong> 模式下，TID和HSD会暂时停止显示战术信息，而显示TCS的图像。</p>
-<p>右侧的旋钮（ <strong>9</strong> ）可以用来设置TID的显示范围，选择不同的数字可以将TID的显示范围分别设置为25、50、100、200和400海里。较大的显示范围可以用来显示雷达探测距离之外的数据链路信息。</p>
+<p>TID 面板中左侧选择旋钮用来控制 TID 显示模式（ <strong>10</strong> ）。 <strong>GND STAB</strong> （相对地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。<strong>ATTK</strong> （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。<strong>TV</strong> 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD 上的一般战术信息。</p>
+<p>右侧的选择旋钮用来设置 TID 的显示尺度，设置所选的距离为显示直径。可用的显示距离分别为25海里、50海里、100海里、200海里和400海里，更大的显示距离可用于显示雷达探测距离外的数据链路信息。</p>
 <div class="section" id="tid-data-readouts">
-<h4>TID数据显示<a class="headerlink" href="#tid-data-readouts" title="永久链接至标题">¶</a></h4>
+<h4>TID 数据读数<a class="headerlink" href="#tid-data-readouts" title="永久链接至标题">¶</a></h4>
 <img alt="_images/tidindicators.png" src="_images/tidindicators.png" />
 <table border="1" class="docutils">
 <colgroup>
@@ -1276,34 +1279,34 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>缓冲寄存器</td>
-<td>显示当前RIO正在输入WCS的数据。该功能会在CAP部分有进一步的说明。</td>
+<td>显示当前 RIO 正在输入至 WCS 中的数据。该功能在 CAP 部分有进一步的说明。</td>
 </tr>
-<tr class="row-odd"><td>数据信息</td>
-<td>显示为从WCS中选择的读取数据。比如说选中的目标信息或本机数据。该功能在CAP部分有进一步的说明。</td>
+<tr class="row-odd"><td>数据读数</td>
+<td>读数为显示 WCS 中的数据用于读数，例如，显示的读数可以是选中的跟踪的或本机的数据。这个功能在 CAP 部分有进一步的描述。</td>
 </tr>
-<tr class="row-even"><td>计算机运行读数</td>
-<td>显示着WCS程序中循环运行的读数。这个读数应该是连续循环变化的，如果不是，则表示WCS计算机被锁定或者死机。</td>
+<tr class="row-even"><td>计算机运行指示器</td>
+<td>读数显示 WCS 程序正在循环运行着。这个读数应该是连续地循环地数字，如果不是，则表示 WCS 计算机锁死或者死机。</td>
 </tr>
-<tr class="row-odd"><td>雷达天线角度</td>
-<td>该读数在STT模式中显示当前AN/AWG-9雷达天线角度，在搜索模式中显示当前天线扫描的中心角度。</td>
+<tr class="row-odd"><td>雷达天线仰角</td>
+<td>这个读数，如果在 STT 模式中，那么将显示当前 AN/AWG-9 雷达天线的仰角，或是如果在搜索模式下，则将显示栅状扫描仰角的中心。</td>
 </tr>
-<tr class="row-even"><td>雷达扫描高度区间</td>
-<td>以千英尺为单位在TID上显示当前TID显示范围下的雷达扫描的高度上限与高度下限。</td>
+<tr class="row-even"><td>栅状扫描极限</td>
+<td>读数显示在设定的 TID 显示距离中，当前所选栅状扫描的高度极限。</td>
 </tr>
 <tr class="row-odd"><td>导航系统状态</td>
-<td>显示导航系统的当前状态，IN表示INS，AH表示AHRS，如果手动设置的磁偏量与计算的磁偏量不同，则显示MV。</td>
+<td>读数显示当前导航系统的状态，IN 表示 INS，AH 表示 AHRS，如果手动输入的磁差和计算出的磁差的差超过一定值，那么 MV 将会和当前的状态交替显示。</td>
 </tr>
 <tr class="row-even"><td>目标接近率</td>
-<td>以节为单位显示STT锁定的目标或者TWS模式下选中的目标的接近率，数字前方的＋号代表目标正在靠近，﹣号代表目标正在远离。</td>
+<td>读数以接近率最近的10节的倍数显示 STT 目标的或 TWS 模式下选中的目标的接近率。数字旁的＋号代表跟踪正在接近本机，﹣号代表跟踪正在离开本机。</td>
 </tr>
-<tr class="row-odd"><td>空对空武器类型</td>
-<td>显示当前选择的空对空武器类型，G表示机炮，SW表示响尾蛇导弹，SP表示麻雀导弹，PH表示不死鸟导弹。SP和PH后面的数字指示已经准备好发射的相应导弹数目。在空对地模式下这个位置不显示符号。</td>
+<tr class="row-odd"><td>选定的武器</td>
+<td>读数显示当前选择的空对空武器，G 表示机炮，SW 表示”响尾蛇”导弹，SP 表示”麻雀”导弹，PH 表示”不死鸟”导弹。SP 和 PH 同时还将指示所选的导弹类型，准备好发射的数量。在空对地模式下，读数为空白。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="tid-symbology">
-<span id="tidsymb"></span><h4>TID上的符号信息<a class="headerlink" href="#tid-symbology" title="永久链接至标题">¶</a></h4>
+<span id="tidsymb"></span><h4>TID 标识符<a class="headerlink" href="#tid-symbology" title="永久链接至标题">¶</a></h4>
 <table border="1" class="docutils">
 <colgroup>
 <col width="14%" />
@@ -1311,8 +1314,8 @@
 <col width="73%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">名称</th>
-<th class="head">图标</th>
+<tr class="row-odd"><th class="head">标识</th>
+<th class="head">形状</th>
 <th class="head">功能</th>
 </tr>
 </thead>
@@ -1320,91 +1323,91 @@
 <tr class="row-even"><td>中心点</td>
 <td><a class="first last reference internal image-reference" href="_images/1.png"><img alt="_images/1.png" class="align-center" src="_images/1.png" style="width: 10px;" /></a>
 </td>
-<td>用来标记位置的符号，是TID显示的符号中最基础的。</td>
+<td>用于标记符号的坐标，所有符号最基本的组成部分，用于对应一个坐标。</td>
 </tr>
-<tr class="row-odd"><td>本机符号</td>
+<tr class="row-odd"><td>本机</td>
 <td><a class="first last reference internal image-reference" href="_images/2.png"><img alt="_images/2.png" class="align-center" src="_images/2.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>代表自己飞机的符号，这个符号还会显示本机的天线扫描限制与干扰频闪。在GND STAB模式下这个符号会在TID上移动并显示速度矢量。在 A/C STAB模式和ATTK模式下这个符号是固定不动的。如果在GND STAB模式下或者操作TID位移功能使这个符号移动出了TID显示范围，那么显示屏上会出现一条从中心到符号位置的连线来指示其位置。</td>
+<td>代表本机的符号。天线扫描极限和干扰源射线都从这个符号延伸。在 GND STAB 模式下，符号会在 TID 中移动并显示速度矢量。在 A/C STAB 模式和 ATTK 模式下这个符号是固定不动的。如果本机符号移动到了 TID 显示距离外，那么显示器的中心将延伸出一条线至屏幕边缘，来指示本机符号的方向。显示延伸线可能是 TID 偏置功能或由于本机符号在相对地面稳定模式下在屏幕中移动导致的。</td>
 </tr>
-<tr class="row-even"><td>TID光标</td>
+<tr class="row-even"><td>TID 光标</td>
 <td><a class="first last reference internal image-reference" href="_images/26.png"><img alt="_images/26.png" class="align-center" src="_images/26.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td><div class="first last line-block">
-<div class="line">用于选择数据信息的圆形光标，在TID模式下由HCU控制。</div>
+<div class="line">用作选中光标的圆环。在 TID 模式下，由 HUC 控制。</div>
 <div class="line"><br /></div>
-<div class="line">按下HCU控制杆扳机的第一段可以激活此光标，同时使用HCU控制杆来控制光标的移动。</div>
-<div class="line">光标的位置由控制杆的偏转量控制，这意味着HCU控制杆的固定偏转量总是对应相同的位置。所以熟练的RIO可以通过肌肉记忆更快的将光标移动至所需位置。</div>
+<div class="line">按下扳机第一段启用符号显示，按下扳机第一段同时还将启用 HCU 来移动光标。</div>
+<div class="line">光标的位置是通过偏转控制杆来设置的。这表示控制杆偏转的位置始终对应光标在 TID 中的位置，这使得 RIO 可以通过肌肉记忆来提高选中符号的速度。</div>
 <div class="line"><br /></div>
-<div class="line">完全按下HCU控制杆的扳机会选择位于光标中心0.125英寸范围内最近的符号，被选择的符号会高亮显示。如果周围没有符号，那么光标会在此位置高亮显示以表示选择了该位置，此时光标将无法继续移动。</div>
+<div class="line">如果一个符号位于光标中心0.125英寸的范围内，按下 HCU 扳机第二段将选中一个最近的符号。选中的符号将会高亮来指示已选中。如果不是选中符号而是空白，那么光标将会固定在选中的位置并高亮来指示选中了光标所处的位置。</div>
 <div class="line"><br /></div>
-<div class="line">如果想要让光标可以继续移动，需要再次按下HCU控制杆扳机第一段，可以释放对符号的选定。</div>
+<div class="line">如需在选中了空白位置（或释放选中的位置）后重新启用光标选中功能，按下扳机第一段并释放。</div>
 </div>
 </td>
 </tr>
-<tr class="row-odd"><td>TWS拦截点</td>
+<tr class="row-odd"><td>TWS 转向质心</td>
 <td><a class="first last reference internal image-reference" href="_images/27.png"><img alt="_images/27.png" class="align-center" src="_images/27.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>TWS模式计算机计算的目标拦截点。</td>
+<td>TWS 跟踪的转向质心由 WCS 选择来用于武器攻击。</td>
 </tr>
 <tr class="row-even"><td>&#160;</td>
 <td colspan="2"><strong>机载传感器目标</strong></td>
 </tr>
-<tr class="row-odd"><td>未知</td>
+<tr class="row-odd"><td>不明</td>
 <td><a class="first last reference internal image-reference" href="_images/3.png"><img alt="_images/3.png" class="align-center" src="_images/3.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>来自RWS，TWS，STT模式下的未知目标。</td>
+<td>RWS、TWS 和 STT 模式下的不明传感器跟踪。</td>
 </tr>
-<tr class="row-even"><td>敌对目标</td>
+<tr class="row-even"><td>敌机</td>
 <td><a class="first last reference internal image-reference" href="_images/4.png"><img alt="_images/4.png" class="align-center" src="_images/4.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>在TWS或者STT模式下被跟踪并被RIO标记为敌人的目标。</td>
+<td>TWS 和 STT 模式下，由 RIO 指定为敌机的跟踪。</td>
 </tr>
-<tr class="row-odd"><td>友军目标</td>
+<tr class="row-odd"><td>友机</td>
 <td><a class="first last reference internal image-reference" href="_images/5.png"><img alt="_images/5.png" class="align-center" src="_images/5.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>在TWS或者STT模式下被跟踪并被RIO标记为友军的目标。</td>
+<td>TWS 或 STT 模式下，由 RIO 标记为友机的跟踪。</td>
 </tr>
-<tr class="row-even"><td>仅进行角度跟踪的雷达目标</td>
+<tr class="row-even"><td>角跟踪的雷达目标</td>
 <td><a class="first last reference internal image-reference" href="_images/6.png"><img alt="_images/6.png" class="align-center" src="_images/6.png" style="width: 25px; height: 40px;" /></a>
 </td>
-<td>雷达仅能对其测角，而不能测距的目标（自带干扰的目标）。</td>
+<td>仅能够角跟踪的目标（干扰中的目标）。</td>
 </tr>
-<tr class="row-odd"><td>由高度差测距的角度跟踪雷达目标</td>
+<tr class="row-odd"><td>带有通过高度差测距的，角跟踪的雷达目标</td>
 <td><a class="first last reference internal image-reference" href="_images/7.png"><img alt="_images/7.png" class="align-center" src="_images/7.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>雷达仅跟踪目标角度，距离通过高度差测距计算。</td>
+<td>仅角跟踪的雷达目标，通过高度差测距来计算离本机的距离。</td>
 </tr>
-<tr class="row-even"><td>TCS角度跟踪目标</td>
+<tr class="row-even"><td>TCS 角跟踪目标</td>
 <td><a class="first last reference internal image-reference" href="_images/10.png"><img alt="_images/10.png" class="align-center" src="_images/10.png" style="width: 25px; height: 40px;" /></a>
 </td>
-<td>由TCS跟踪角度的目标。</td>
+<td>通过 TCS 角跟踪的目标。</td>
 </tr>
-<tr class="row-odd"><td>由高度差测距的TCS角度跟踪目标</td>
+<tr class="row-odd"><td>带有高度差测距的 TCS 角跟踪的目标</td>
 <td><a class="first last reference internal image-reference" href="_images/11.png"><img alt="_images/11.png" class="align-center" src="_images/11.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>TCS跟踪目标角度，距离通过高度差测距计算。</td>
+<td>通过 TCS 进行角跟踪的目标，通过角度差测距计算离本机的距离。</td>
 </tr>
 <tr class="row-even"><td>&#160;</td>
 <td colspan="2"><strong>数据链路目标</strong></td>
 </tr>
-<tr class="row-odd"><td>未知</td>
+<tr class="row-odd"><td>不明</td>
 <td><a class="first last reference internal image-reference" href="_images/12.png"><img alt="_images/12.png" class="align-center" src="_images/12.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>来自数据链路的未知目标。</td>
+<td>数据源识别为不明的数据链路跟踪。</td>
 </tr>
-<tr class="row-even"><td>敌对目标</td>
+<tr class="row-even"><td>敌机</td>
 <td><a class="first last reference internal image-reference" href="_images/13.png"><img alt="_images/13.png" class="align-center" src="_images/13.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>来自数据链路且被识别为敌军的目标。</td>
+<td>数据源识别为敌机的数据链路跟踪。</td>
 </tr>
-<tr class="row-odd"><td>友军目标</td>
+<tr class="row-odd"><td>友机</td>
 <td><a class="first last reference internal image-reference" href="_images/14.png"><img alt="_images/14.png" class="align-center" src="_images/14.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>来自数据链路且被识别为友军的目标。</td>
+<td>数据源识别为友机的数据链路跟踪。</td>
 </tr>
 <tr class="row-even"><td>&#160;</td>
-<td colspan="2"><strong>手动输入的航路点</strong></td>
+<td colspan="2"><strong>手动输入的参考点</strong></td>
 </tr>
 <tr class="row-odd"><td>基地</td>
 <td><a class="first last reference internal image-reference" href="_images/15.png"><img alt="_images/15.png" class="align-center" src="_images/15.png" style="width: 50px; height: 50px;" /></a>
@@ -1414,14 +1417,14 @@
 <tr class="row-even"><td>航路点</td>
 <td><a class="first last reference internal image-reference" href="_images/16.png"><img alt="_images/16.png" class="align-center" src="_images/16.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>WCS导航路点，一般表示为航路点1，2和3。</td>
+<td>WCS 导航航路点，由数字指示航路点1、2和3。</td>
 </tr>
 <tr class="row-odd"><td>防御点</td>
 <td><a class="first last reference internal image-reference" href="_images/17.png"><img alt="_images/17.png" class="align-center" src="_images/17.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>用来显示需要保护区域的航路点。</td>
+<td>用来显示需要保护的区域的航路点。</td>
 </tr>
-<tr class="row-even"><td>定点</td>
+<tr class="row-even"><td>固定点</td>
 <td><a class="first last reference internal image-reference" href="_images/18.png"><img alt="_images/18.png" class="align-center" src="_images/18.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>通用的固定航路点。</td>
@@ -1439,7 +1442,7 @@
 <tr class="row-odd"><td>IP</td>
 <td><a class="first last reference internal image-reference" href="_images/21.png"><img alt="_images/21.png" class="align-center" src="_images/21.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>用于空对地攻击的航路点，详情参考<a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机起始点模式</span></a>。</td>
+<td>用于空对地攻击的航路点，详情参考 <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机起始点模式</span></a> 。</td>
 </tr>
 <tr class="row-even"><td>&#160;</td>
 <td colspan="2"><strong>数据链路航路点</strong></td>
@@ -1454,7 +1457,7 @@
 </td>
 <td>数据链路通用航路点。</td>
 </tr>
-<tr class="row-odd"><td>数据链路固定航路点</td>
+<tr class="row-odd"><td>数据链路固定点</td>
 <td><a class="first last reference internal image-reference" href="_images/24.png"><img alt="_images/24.png" class="align-center" src="_images/24.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td>表示固定的数据链路航路点。</td>
@@ -1462,159 +1465,159 @@
 <tr class="row-even"><td>地面/水面目标</td>
 <td><a class="first last reference internal image-reference" href="_images/25.png"><img alt="_images/25.png" class="align-center" src="_images/25.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>指示地面目标的数据链路航路点。</td>
+<td>表示地面/水面目标的数据链路航路点。</td>
 </tr>
 <tr class="row-odd"><td>&#160;</td>
-<td colspan="2"><strong>附加符号信息</strong></td>
+<td colspan="2"><strong>位置符号修饰符</strong></td>
 </tr>
 <tr class="row-even"><td>强制攻击</td>
 <td><a class="first last reference internal image-reference" href="_images/28.png"><img alt="_images/28.png" class="align-center" src="_images/28.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>该附加符号（符号上有一条穿过中心点的水平线）表示在TWS模式下被RIO选择的强制攻击目标，只能指定一个目标为强制攻击目标而且该目标会优先获得数字标识。</td>
+<td>通过 RIO 选择强制攻击一个 TWS 跟踪时的附加标识符（穿过中心点的一根横线）。仅能通过这种方式指定一个目标为强制攻击，强制攻击的目标始终会被分配发射序号。</td>
 </tr>
-<tr class="row-odd"><td>来自数据链路的待摧毁目标</td>
+<tr class="row-odd"><td>数据链路待摧毁目标</td>
 <td><a class="first last reference internal image-reference" href="_images/29.png"><img alt="_images/29.png" class="align-center" src="_images/29.png" style="width: 50px; height: 30px;" /></a>
 </td>
-<td>该附加符号（符号上有一条穿过中心点的水平线）表示这个来自数据链路的目标需要被摧毁。该符号不会影响WCS系统中的目标优先级。</td>
+<td>由数据链路数据源指定为待摧毁的数据链路跟踪上的附加标识符（穿过中心点的一根横线）。不会影响 WCS 中的目标优先级。</td>
 </tr>
 <tr class="row-even"><td>禁止攻击</td>
 <td><a class="first last reference internal image-reference" href="_images/30.png"><img alt="_images/30.png" class="align-center" src="_images/30.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>该附加符号（符号上有一条穿过中心点的垂直线）表示这个来自雷达TWS或者数据链路的目标被RIO或者数据链路设置为禁止攻击目标。如果是由RIO设置的，那么该目标将会被从WCS系统优先级中删除。</td>
+<td>一个 TWS 跟踪或数据链路跟踪上的附加标识符（穿过中心点的垂线），附加符号表示跟踪被指定为禁止攻击（通过 RIO）或取消攻击（通过数据链路）。如果是由 RIO 设置的话，那么将从 WCS 目标的优先级中移除该目标。</td>
 </tr>
 <tr class="row-odd"><td>多目标</td>
 <td><a class="first last reference internal image-reference" href="_images/31.png"><img alt="_images/31.png" class="align-center" src="_images/31.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>该附加符号（符号左侧有一对水平线）表示这个目标符号代表着多个目标。可以通过数据链路接受这个信息或者由RIO手动设置。</td>
+<td>表示一个 TWS 跟踪或数据链路跟踪中有多个目标的附加标识符。可以通过数据链路接收或者通过 RIO 手动设置。</td>
 </tr>
 <tr class="row-even"><td>需要目视识别</td>
 <td><a class="first last reference internal image-reference" href="_images/32.png"><img alt="_images/32.png" class="align-center" src="_images/32.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>该附加符号（符号中心有一个v型标志）表示数据链路指示目标需要目视识别。</td>
+<td>一个数据链路跟踪上由数据链路指令进行目视识别目标的附加标识符（顶点位于中心的的小 V）。</td>
 </tr>
 <tr class="row-odd"><td>目标脱锁</td>
 <td><a class="first last reference internal image-reference" href="_images/33.png"><img alt="_images/33.png" class="align-center" src="_images/33.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>这个附加符号（符号中心有一个x标志）表示在STT或者TWS模式下已经超过8秒没有跟踪到这个目标。若这个目标没有在14秒内被雷达再次搜索到，则该表示将被删除。如果启用了目标持续追踪功能（TRACK HOLD）则删除时间延长为2分钟。</td>
+<td>TWS 或 STT 跟踪上的附加标识符（中心位于中心点的小 X），符号表示在8秒内目标没有更新。跟踪将在14秒后或2分钟后（如果启用跟踪保持功能）删除。</td>
 </tr>
-<tr class="row-even"><td>符号被选择</td>
-<td>高亮显示</td>
-<td>当TID上的符号被HCU或者CAP选择时，它便会高亮显示。</td>
+<tr class="row-even"><td>选中的符号</td>
+<td>符号高亮</td>
+<td>当通过 HCU 或 CAP 选中符号时，符号高亮表示已选中。</td>
 </tr>
-<tr class="row-odd"><td>导弹攻击的目标</td>
-<td>目标符号高亮显示</td>
-<td>在TWS或者STT模式下用导弹攻击目标时，目标符号会在预计导弹飞行时间加15秒内高亮显示以表示该目标正在被导弹攻击。</td>
+<tr class="row-odd"><td>导弹正在攻击的目标</td>
+<td>跟踪符号高亮</td>
+<td>TWS 和 STT 模式下，在计算出的导弹飞行时间+15秒内，本机攻击的跟踪符号将高亮显示表示正在用导弹攻击目标。</td>
 </tr>
-<tr class="row-even"><td>目标位于最佳导弹发射区间</td>
-<td>目标符号闪烁</td>
-<td>在TWS或者STT模式下，当飞机到达最佳导弹发射区间所需要的时间小于8秒时，目标符号和开火次序数字会开始闪烁。</td>
+<tr class="row-even"><td>目标位于最佳导弹发射区内</td>
+<td>跟踪符号闪烁</td>
+<td>TWS 模式或 STT 模式下的符号中，当到最佳导弹发射区时间小于8秒时跟踪的发射区和发射序号将会闪烁。</td>
 </tr>
 <tr class="row-odd"><td>高度数字</td>
 <td><a class="first last reference internal image-reference" href="_images/34.png"><img alt="_images/34.png" class="align-center" src="_images/34.png" style="width: 50px; height: 25px;" /></a>
 </td>
-<td>当开启高度显示时，目标符号的左侧会出现一个以10000英尺为单位指示目标高度的数字，比如说，数字4代表该目标高度在35000英尺到45000英尺之间。通过雷达和数据链路获取的目标都可以显示该信息。</td>
+<td>当选择在跟踪符号左侧显示高度数字时，高度数字用来指示跟踪的高度（高度显示为跟踪最近的万英尺高度）。以数字4为例，4表示跟踪高度在35000英尺到45000英尺之间。高度数字在雷达或数据链路跟踪符号中可用。</td>
 </tr>
-<tr class="row-even"><td>开火次序</td>
+<tr class="row-even"><td>发射序号</td>
 <td><a class="first last reference internal image-reference" href="_images/35.png"><img alt="_images/35.png" class="align-center" src="_images/35.png" style="width: 50px; height: 25px;" /></a>
 </td>
 <td><div class="first last line-block">
-<div class="line">在TWS模式下，WCS会以1到6为编号给AIM-54不死鸟导弹设置目标优先级（开火顺序），第一发导弹攻击1号目标，以此类推。发射后目标符号上的编号会消失，余下的目标优先级自动前进一位（数字减1），以便为之后的导弹发射做准备。</div>
+<div class="line">当在 TWS 模式下，序号用于表示 AIM-54 “不死鸟”的目标优先级。下一枚发射的导弹目标为1号优先级跟踪，导弹发射后跟踪的需要将被移除来让其它5个跟踪的序号前进一来为下一次发射做好准备。</div>
 <div class="line"><br /></div>
-<div class="line">如果设置了强制攻击目标，该目标将始终被包含在攻击优先级序列内。</div>
+<div class="line">如果设置了目标为强制攻击，那么将强制 WCS 始终将强制的目标算入优先级内。</div>
 <div class="line"><br /></div>
-<div class="line">按下NEXT LAUNCH 开关（位于武器控制面板）会将当前“钩住”的目标自动设为优先级队列的第一位。</div>
+<div class="line">按下 NEXT LAUNCH 开关将自动设置选中的目标为1号优先级目标。</div>
 </div>
 </td>
 </tr>
-<tr class="row-odd"><td>撞击时间（TTI）</td>
+<tr class="row-odd"><td>命中时间（TTI）</td>
 <td><a class="first last reference internal image-reference" href="_images/47.png"><img alt="_images/47.png" class="align-center" src="_images/47.png" style="width: 50px; height: 20px;" /></a>
 </td>
-<td>在AIM-54发射后，目标符号左侧的开火顺序数字会被TTI（撞击时间指示）替换，这个时间代表着WCS计算的导弹命中目标前的剩余时间。当发出激活AIM-54主动导引头的指令时，TTI数字会闪烁。</td>
+<td>AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间替代，TTI 显示了 WCS 计算出的导弹拦截目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁表示导引头已开机。（注：这里的导引头开机表示从半主动雷达制导至主动雷达制导）。</td>
 </tr>
 <tr class="row-even"><td>速度矢量</td>
 <td><a class="first last reference internal image-reference" href="_images/36.png"><img alt="_images/36.png" class="align-center" src="_images/36.png" style="width: 50px; height: 30px;" /></a>
 </td>
 <td><div class="first last line-block">
-<div class="line">当开启速度矢量显示时，会在目标符号中心增加一个显示该目标速度矢量的符号。</div>
+<div class="line">当启用显示速度矢量时，速度矢量将从跟踪的中心点延伸出来。</div>
 <div class="line"><br /></div>
-<div class="line">该矢量符号的方向代表了目标当前航向，符号长度代表了目标速度。该符号可以指示的最大长度为1.5英寸（1800节）。</div>
+<div class="line">速度矢量的方向表示跟踪的航向，速度矢量线的长度表示跟踪的速度，可指示的最高速度为1800节，TID 中线的长度为1.5英寸。</div>
 <div class="line"><br /></div>
-<div class="line">在TID处于GND STAB模式下时，矢量符号方向表示目标的真航向，矢量长度表示目标的地速。</div>
+<div class="line">TID 显示模式在相对地面稳定模式下时，速度矢量的方向表示跟踪的真航向，速度矢量中线的长度表示跟踪的地速。</div>
 <div class="line"><br /></div>
-<div class="line">在TID处于A/C STAB模式或者攻击模式时，矢量方向表示目标相对于本机的相对航向，矢量速度表示目标与本机之间的相对速度。</div>
+<div class="line">TID 显示模式在相对飞机稳定模式和攻击模式下时，速度矢量的方向表示跟踪的相对航向（相对本机），速度矢量线的长度表示跟踪相对本机的速度。</div>
 </div>
 </td>
 </tr>
-<tr class="row-odd"><td>发射距离矢量</td>
+<tr class="row-odd"><td>发射区矢量</td>
 <td><a class="first last reference internal image-reference" href="_images/37.png"><img alt="_images/37.png" class="align-center" src="_images/37.png" style="width: 50px; height: 100px;" /></a>
 </td>
 <td><div class="first figure align-center" id="id11">
 <a class="reference internal image-reference" href="_images/lzv.png"><img alt="_images/lzv.png" src="_images/lzv.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">TUMR（到达最小发射距离的时间），TUOR（到达最佳发射距离的时间）和TUIR（到达最大发射距离的时间）</span></p>
+<p class="caption"><span class="caption-text">TUMR（到最小发射距离的时间），TUOR（到最佳发射距离的时间）和 TUIR（到发射距离内/最大发射距离的时间）</span></p>
 </div>
 <div class="last line-block">
-<div class="line">发射距离矢量符号的显示会在到达最大发射距离的时间小于60秒时自动激活，也可以由RIO手动开启。这个符号会替换正常的速度矢量符号。</div>
+<div class="line">发射区矢量标识符由 RIO 手动启用或当到最大发射距离的时间小于60秒时启用，标识符启用后将替换正常跟踪速度矢量。</div>
 <div class="line"><br /></div>
-<div class="line">该矢量符号的长度表示到达最小发射距离的时间，最大值为180秒（显示长度为1.5英寸）。当到达最小发射距离的时间不足180秒时，这个符号会向目标中心缩短长度，当长度为0时，表示该目标当前距离小于AIM-54的最小射程。</div>
+<div class="line">在发射区矢量中，跟踪符号的速度矢量线的长度表示到 Rmin 的时间，到 Rmin 最长时间限制为180秒（速度矢量线显示的长度为1.5英寸）。当到 Rmin 时间少于180秒时，速度矢量线的长度缩短，同时向跟踪的中心点移动（代表 Rmin）。如果速度矢量线的长度为0，则表示到达 AIM-54 的 Rmin。</div>
 <div class="line"><br /></div>
-<div class="line">该矢量符号上有另一个加粗的点（原本符号中心表示目标的点之外），矢量线到点的距离代表到达最大发射距离的时间。当矢量线长度缩短至该点时表示目标位于导弹最大射程，随着目标的继续靠近矢量线会继续缩短，当到目标的距离小于最大射程时，这个点将不再显示。</div>
+<div class="line">同时还有第二个点在这条速度矢量线中，速度矢量线的末端到第二个点的距离表示到 Rmax 的时间（又称为到发射距离内时间）。也就是说，当速度矢量线缩短至第二个点时（速度矢量末端到达第二个点），则表示你处在 Rmax 了（到目标的最大发射距离）。当你超过 Rmax（即，到 Rmax 的时间，又称为到发射距离内时间为负数）后，第二个点将会消失。</div>
 <div class="line"><br /></div>
-<div class="line">该矢量符号上的加粗部分表示了导弹的最佳发射距离，当符号缩短至加粗部分时，表示目标离到达最佳发射距离的时间还有8秒。</div>
+<div class="line">发射区速度矢量中的粗线条（框）表示最佳导弹发射距离。当速度矢量末端到达这跟粗线时，表示到最佳发射距离的时间还剩8秒。</div>
 </div>
 </td>
 </tr>
-<tr class="row-even"><td>干扰源指示</td>
+<tr class="row-even"><td>干扰源射线</td>
 <td><a class="first last reference internal image-reference" href="_images/38.png"><img alt="_images/38.png" class="align-center" src="_images/38.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>由本机延伸出的一条指示线指向超出设定的JAM/JET阈值的干扰源。</td>
+<td>从本机符号延伸至 TID 屏幕边缘的线，线条用来指示超过设定的 JAM/JET 阈值的干扰机。</td>
 </tr>
-<tr class="row-odd"><td>雷达天线扫描角度指示</td>
+<tr class="row-odd"><td>雷达天线栅状扫描方位角限制</td>
 <td><a class="first last reference internal image-reference" href="_images/39.png"><img alt="_images/39.png" class="align-center" src="_images/39.png" style="width: 50px; height: 40px;" /></a>
 </td>
 <td><div class="first last line-block">
-<div class="line">由本机符号向前方两侧延申出的V字虚线，代表了当前雷达扫描角度范围。在所有雷达模式下，每段虚线代表的距离为20海里。</div>
+<div class="line">表示雷达栅状扫描中，扫描方位角的限制，在屏幕中由两条从本机符号延伸出的虚线表示。在所有雷达模式下，每根虚线中的单根实线和实线之间间断部分都表示为20海里。</div>
 <div class="line"><br /></div>
-<div class="line">在STT模式下，这两条虚线会汇聚为一条线指向当前正在跟踪的目标，同时闪烁以表示雷达正在跟踪单个目标。</div>
+<div class="line">在 STT 模式下，两条线将汇聚为单个跟踪射线来指示天线正在跟踪单个目标。</div>
 </div>
 </td>
 </tr>
-<tr class="row-even"><td>数据链路干扰源指示</td>
+<tr class="row-even"><td>数据链路干扰源射线</td>
 <td><a class="first last reference internal image-reference" href="_images/40.png"><img alt="_images/40.png" class="align-center" src="_images/40.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>由数据链路节点发出的指示线，指向该数据链路节点目前所受到干扰的干扰源方向。</td>
+<td>通过数据链路接收到的干扰源射线，数据链路干扰源射线由数据链路点指向干扰机方向的线条指示。</td>
 </tr>
-<tr class="row-odd"><td>数据链路目标标记</td>
+<tr class="row-odd"><td>数据链路光标</td>
 <td><a class="first last reference internal image-reference" href="_images/41.png"><img alt="_images/41.png" class="align-center" src="_images/41.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>在数据链路目标周围出现一圈高亮标记的光标（光圈），表示该目标需要特别关注。</td>
+<td>在数据链路跟踪周围的高亮光标（光环），高亮光标用来指示数据链路的操作员对特定的跟踪十分关注。</td>
 </tr>
 <tr class="row-even"><td>数据链路优先攻击目标</td>
 <td><a class="first last reference internal image-reference" href="_images/42.png"><img alt="_images/42.png" class="align-center" src="_images/42.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>这个附加符号表示这个来自数据链路的目标必须被摧毁，不过这个符号不会影响WCS系统中的目标优先级。</td>
+<td>数据链路跟踪中附加的标识符，这个标识符用于指示必须被摧毁的目标。标识符不会影响 WCS 中的优先级序号。</td>
 </tr>
 <tr class="row-odd"><td>&#160;</td>
-<td colspan="2"><strong>攻击符号信息</strong></td>
+<td colspan="2"><strong>攻击模式显示的符号</strong></td>
 </tr>
 <tr class="row-even"><td>人工地平线</td>
 <td><a class="first last reference internal image-reference" href="_images/43.png"><img alt="_images/43.png" class="align-center" src="_images/43.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>TID上的人工地平线用来指示飞机的俯仰姿态与滚转姿态，人工地平线的角度表示飞机此时的滚转角度，在TID显示屏上的垂直位移表示飞机的俯仰角。</td>
+<td>TID 中的人工地平线符号表示飞机的滚转和俯仰。线有偏转角度则表示滚转，在显示器中垂直偏转则表示俯仰。</td>
 </tr>
-<tr class="row-odd"><td>转向提示符</td>
+<tr class="row-odd"><td>转向引导符号</td>
 <td><a class="first last reference internal image-reference" href="_images/44.png"><img alt="_images/44.png" class="align-center" src="_images/44.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>指示最佳导弹发射方向的符号。在进行导弹攻击时应尽量将该符号靠近ASE圆的圆心，在发射导弹时应该将该符号保持在ASE圆内。</td>
+<td>转向引导符号表示最佳导弹发射方向的转向误差。飞行员应尽可能将这个符号保持在 ASE 圆环的中心，并在发射导弹时也将这个符号保持在 ASE 圆环内。</td>
 </tr>
-<tr class="row-even"><td>允许转向误差圆</td>
+<tr class="row-even"><td>允许转向误差圆环</td>
 <td><a class="first last reference internal image-reference" href="_images/45.png"><img alt="_images/45.png" class="align-center" src="_images/45.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>ASE圆用于指示导弹发射允许的转向误差。它的大小随攻击路线、模式和所选则的导弹而变化。</td>
+<td>ASE 圆环用于指示发射导弹的允许转向误差。圆环的大小随攻击路线、模式和所选的导弹而变化。</td>
 </tr>
 <tr class="row-odd"><td>脱离指示</td>
 <td><a class="first last reference internal image-reference" href="_images/27.png"><img alt="_images/27.png" class="align-center" src="_images/27.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td>当目标距离小于导弹最小发射距离时，TID中心会出现此符号。</td>
+<td>当目标的距离小于最小发射距离时，TID 中心会出现一个大叉。</td>
 </tr>
 </tbody>
 </table>
@@ -1622,7 +1625,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">一些符号所相关的功能在DCS中尚未实现。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">上述的一些符号与尚未实装至 DCS 的功能有关。</td>
 </tr>
 </tbody>
 </table>
@@ -1630,12 +1633,12 @@
 <div class="section" id="navigation-command-and-control-grid-nav-grid">
 <span id="navgrid"></span><h4>导航指令与控制网格（NAV GRID）<a class="headerlink" href="#navigation-command-and-control-grid-nav-grid" title="永久链接至标题">¶</a></h4>
 <img alt="_images/navgrid.png" src="_images/navgrid.png" />
-<p>导航指令与控制网格或称为 <strong>NAV GRID</strong> 旨在从共同的固定参考点更简单的导航或进行 CAP 任务。它可以显示TID中被设定好参考点的方位与距离，称为 <strong>YY</strong> 。NAV GRID启用时，在TID中显示的距离与方位用于选中并且本机标识是相对于 <strong>YY</strong> 的。此外，它还会显示出一个网格，网格由从 YY 延伸至威胁的轴线构成。网格本身就是为了快速获取位置参考，同时对选中的目标精确读数。这就是 NAV GRID 命名的由来。</p>
-<p>最后，它还能够显示称为 <strong>Voice Codes</strong> 的东西。如果选择了 <strong>ALT NUM</strong> 则 TID 中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 <strong>YY</strong> 方位（15为方位150）后面的字母表示距离。A表示0-50海里，B表示50-100海里，依此类推。</p>
-<p>标准的 NAV GRID 显示模式为 <strong>GND STAB</strong> 并且此模式使得网格可见。如果选择 <strong>A/C STAB</strong> 或 <strong>ATTK</strong> 显示模式，则仅显示 <strong>Voice Code</strong>，但除了常规功能外， <strong>Ownship Symbol</strong> 将始终显示其 <strong>Voice Code</strong> 。</p>
-<p>默认情况下网格原点 <strong>YY</strong> 位于TID的边缘，向威胁延伸出轴线。网格可以设置显示1到6个扇区，并且都有轮廓，一个扇区由两条线组成，则6个扇区为7条线。扇区的大小取决于全部网格覆盖范围，最高可达180度，然后根据选择的扇区数划分。沿着扇区分界线每间隔50海里有个提示符标记，50海里的标记比100海里的稍短一点。</p>
-<p>RIO 可以通过 HCU 偏置对地稳定视图及网格。要重置偏置的话，转至任何稳定模式然后返回 <strong>GND STAB</strong> 。</p>
-<p>虽然此功能最初的目的是为了舰队防御，但在DCS中将 <strong>YY</strong> 设为靶眼时，可以很好的作为一个参考。唯一真正限制网格的是仅显示威胁轴线，而不是周围。</p>
+<p>导航指令与控制网格或称为 <strong>NAV GRID</strong> 旨在从共同的固定参考点更简单的导航或进行 CAP 任务。NAV GRID 可使 TID 显示选中/跟踪相对被设定好的参考点的方位和距离，这个参考点称为 <strong>YY</strong> 。当 NAV GRID 启用时，对于选中和本机来说，显示的距离和方位都是相对于 <strong>YY</strong> 的。此外，它还会显示出一个网格，网格由从 YY 延伸至设定的威胁轴线构成。网格本身就是为了快速获取位置参考，同时对选中的目标精确读数。这就是 NAV GRID 命名的由来。</p>
+<p>最后，它还能够显示称为 <strong>Voice Codes</strong> 的东西。如果选择了 <strong>ALT NUM</strong> ，那么 TID 中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 <strong>YY</strong> 方位（15为方位150）后面的字母表示距离。A表示0-50海里，B表示50-100海里，依此类推。</p>
+<p>标准的 NAV GRID 显示模式为 <strong>GND STAB</strong> 并且在此模式下可使得网格可见。如果选择 <strong>A/C STAB</strong> 或 <strong>ATTK</strong> 显示模式，则仅显示 <strong>Voice Code</strong>，但除了常规功能外， <strong>本机符号</strong> 将始终显示其 <strong>Voice Code</strong> 。</p>
+<p>默认情况下网格原点 <strong>YY</strong> 被置于 TID 屏幕的边缘，并朝设定的威胁轴线向外延伸。网格可以设置显示1到6个扇区，并且每个扇区都有轮廓线，这就表示一个扇区将显示两根轮廓线来指示扇区的极限，6个扇区则有7根轮廓线。扇区的大小取决于全部网格覆盖范围，覆盖范围最高可达180度，然后根据选择的扇区数来划分。沿着扇区分界线每间隔50海里有个刻度标记，50海里的标记比100海里的稍短一点。</p>
+<p>RIO 可以正常的通过 HCU 来偏置相对地面稳定视图及网格。要重置偏置的话，转至任何相对稳定模式然后返回 <strong>GND STAB</strong> 。</p>
+<p>虽然此功能最初的目的是为了舰队防御，但在 DCS 中将 <strong>YY</strong> 设为靶眼时，可以很好的作为一个参考。唯一真正的显示是，网格仅沿威胁轴线显示，而不是屏幕。</p>
 <div class="section" id="operation">
 <h5>操作<a class="headerlink" href="#operation" title="永久链接至标题">¶</a></h5>
 <div class="section" id="nav-grid-entry">
@@ -1665,23 +1668,23 @@
 <td>&#160;</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="4">
-<li>在CAP上使用 <strong>ALT/4</strong> 按钮输入网格角度覆盖范围。</li>
+<li>在 CAP 中使用 <strong>ALT/4</strong> 按钮输入网格覆盖范围的角度。</li>
 </ol>
 </td>
-<td>点击 <strong>CLEAR</strong> ， <strong>ALT/4</strong> 并输入网格角度覆盖范围接着按下 <strong>ENTER</strong> 。</td>
+<td>点击 <strong>CLEAR</strong> ， <strong>ALT/4</strong> 并输入网格覆盖范围的角度接着按下 <strong>ENTER</strong> 。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="5">
-<li>使用CAP上的 <strong>NBR/2</strong> 按钮输入网格扇区数。</li>
+<li>使用 CAP 中的 <strong>NBR/2</strong> 按钮输入网格扇区数。</li>
 </ol>
 </td>
 <td>按下 <strong>CLEAR</strong> ， <strong>NBR/2</strong> 接着输入扇区数，然后按下 <strong>ENTER</strong> 。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="6">
-<li>使用 <strong>LAT/1</strong> 和 <strong>LONG/6</strong> 或 <strong>RNG/5</strong> 和 <strong>BRG/0</strong> CAP按钮来输入 <strong>YY</strong> 坐标。</li>
+<li>使用 <strong>LAT/1</strong> 和 <strong>LONG/6</strong> 或 <strong>RNG/5</strong> 和 <strong>BRG/0</strong> CAP 按钮来输入 <strong>YY</strong> 的位置。</li>
 </ol>
 </td>
 <td><p class="first">按下 <strong>CLEAR</strong> ， <strong>LAT/1</strong> 然后输入纬度，接着按下 <strong>ENTER</strong> 。</p>
-<p class="last">同上使用 <strong>LONG/6</strong> 输入经度，或使用 <strong>RNG/5</strong> 和 <strong>BRG/0</strong> 从本机输入 <strong>YY</strong> 的距离与方位。</p>
+<p class="last">同上使用 <strong>LONG/6</strong> 输入经度，或使用 <strong>RNG/5</strong> 和 <strong>BRG/0</strong> 从本机位置输入 <strong>YY</strong> 相对本机的距离和方位。</p>
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="7">
@@ -1696,25 +1699,25 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">首先按下 <strong>CLEAR</strong> 以确保重置先前选择的读数，以便随后按下前缀可以设置新读数用于显示和输入数据，而不是将新数据输入至之前的读数。详情请参阅 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">首先按下 <strong>CLEAR</strong> 以确保重置先前选择的读数，这是为了方便随后按下前缀可以设置新读数用于显示和输入数据，而不是将新数据输入至之前选择的读数中。详情请参阅 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">在 <strong>NAV GRID</strong> 无显示数据源时 <strong>NAV GRID</strong> 的读数也可以修改和显示，例如 <strong>OWN A/C</strong> 为选中数据源。</td>
+<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body"><strong>在 NAV GRID 中</strong> 没有任何选中时， <strong>NAV GRID</strong> 的读数也可以修改和显示，即 <strong>OWN A/C</strong> 为选中。</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">注意 3:</th><td class="field-body">从战术信息显示器（ <strong>GND STAB</strong> ）输入 <strong>NAV GRID</strong> ，请勿尝试在对准过程中输入。</td>
+<tr class="field-odd field"><th class="field-name">注意 3:</th><td class="field-body">从战术信息显示器（ <strong>GND STAB</strong> ）进入 <strong>NAV GRID</strong> ，请勿尝试在对准过程中进入。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="nav-grid-exit">
 <h6>NAV GRID 退出<a class="headerlink" href="#nav-grid-exit" title="永久链接至标题">¶</a></h6>
-<p>要退出 <strong>NAV GRID</strong> ，取消选择CAP上 <strong>D/L</strong> CATEGORY对应的 <strong>CAP MESSAGE</strong> 按钮 <strong>NAV GRID</strong> 。</p>
+<p>如需退出 <strong>NAV GRID</strong> ，取消选择 CAP 中 <strong>D/L</strong> 类对应的 <strong>CAP MESSAGE</strong> 按钮 <strong>NAV GRID</strong> 。</p>
 </div>
 </div>
 <div class="section" id="nav-grid-in-dcs">
 <h5>DCS 中的 NAV GIRD<a class="headerlink" href="#nav-grid-in-dcs" title="永久链接至标题">¶</a></h5>
 <p>在 DCS 中热车重生时， <strong>YY</strong> 将会设置为任务中您加入阵营的靶眼，并且按以下顺序设置威胁轴线从 <strong>YY</strong> 延伸到第一个有效航路点： <strong>HA</strong> ， <strong>DP</strong> ， <strong>ST</strong> ， <strong>FP</strong> ， <strong>3</strong> ， <strong>2</strong> ， <strong>1</strong> 和 <strong>HB</strong> 或如果当前没有上述航路点的话，就会设置到本机重生位置。</p>
-<p>Jester冷启动时必须通过指令菜单来让他调整这些参数。他可以用输入航路点同样的方法来输入 <strong>YY</strong> 。</p>
-<p>人类RIO他/她必须手动输入它。</p>
+<p>和 Jester 一起冷启动时必须通过指令菜单来让他调整这些参数。他可以用和输入航路点同样的方法来输入 <strong>YY</strong> 。</p>
+<p>人类 RIO 他/她必须手动输入 YY。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/KWsd5muVWxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -1722,26 +1725,26 @@
 </div>
 </div>
 <div class="section" id="hand-control-unit-hcu">
-<h3>HCU控制器（HCU）<a class="headerlink" href="#hand-control-unit-hcu" title="永久链接至标题">¶</a></h3>
+<h3>手控装置（HCU）<a class="headerlink" href="#hand-control-unit-hcu" title="永久链接至标题">¶</a></h3>
 <img alt="_images/hcu1.png" src="_images/hcu1.png" />
-<p>HUC主要由操作杆和相关的开关组成。RIO主要通过HUC对WCS进行控制，其除了上述的操作杆和开关之外，还包括WCS和TCS的电源开关及指示器。</p>
-<p><strong>HCU电源控制和指示器</strong></p>
-<p>位于HCU上部边缘指示灯分别是IR/TV过热指示灯（ <strong>2</strong> ），电源复位指示灯（ <strong>4</strong> ）和WCS电源指示灯（ <strong>6</strong> ）。当位于STBY或者ON POSITION位置时，IR/TV电源指示灯亮起表明TCS还未准备就绪。当TCS准备就绪后，如果处于STBY模式，该指示灯将保持点亮状态；若处于ON POSITION则该指示灯将会熄灭。电源复位指示灯亮起表示一个或多个二级电源因为故障使其保护电路跳闸而无法工作。WCS电源指示灯亮起表示WCS系统当前处于待机状态，或者处于工作状态但雷达还未准备好工作。在启动过程中，在超过雷达启动时间之前，该指示灯将熄灭。若要重置该灯，先将雷达开关旋转至standby在旋转回on位。</p>
-<p>位于HCU左上角的 <strong>IR/TV</strong> 开关（ <strong>1</strong> ）控制着TCS的电源。当开关拨到待机位置（STBY）时，系统供电，但是传感器并不启动。拨到打开位置后传感器启动。需要注意的是，只有当WCS控制开关处于STBY或者XMT位置时，TCS开关才会被启用。 <strong>WCS XMT</strong> 开关 (<strong>7</strong>)控制着WCS计算机系统和相应显示器（DDD和TID）的电源，以及抑制或允许雷达工作。当开关位于待机位置（STBY）时，WCS的所有系统会开始供电，雷达也会开始预热。显示器启动需要30秒的预热时间，雷达则需要3分钟预热后才能开始工作。当起落架上没有负载且雷达已经预热完成时，将开关拨到XMT位置时，雷达就会开始工作。</p>
-<p>在HCU中上部的两个按钮分别是 <strong>灯光测试</strong> （ <strong>3</strong> ）和 <strong>电源复位</strong> （ <strong>5</strong> ）按钮。按下灯光测试按钮后会激活WCS系统的所有指示灯来检查它们是否正常。按下电源复位按钮会复位二级电源的保护电路，还可以重置导弹供电，需要注意的是，只有在电源故障，电源复位指示灯亮起的情况下，才能按下此按钮。若导故障未被排除，则保护电路及相关指示灯将维持运作。</p>
-<p><strong>HCU模式按钮</strong></p>
-<p>HCU模式按钮是在HCU左侧的4个带有指示灯的按钮（ <strong>12</strong> ），这些按钮是互斥的，同时只能按下一个，当按下按钮后按钮上的指示灯会亮起以指示当前状态。按下 <strong>IR/TV</strong> 按钮后会进入TCS模式，同时可以使用HCU控制杆控制TCS。按下 <strong>RDR</strong> 按钮会进入雷达模式，可以使用HCU控制杆来控制DDD上的雷达光标，同时允许从搜索模式转换为STT模式。按下 <strong>DDD CURSOR</strong> 按钮可以进入DDD光标模式，可以使HCU控制杆在雷达对地面进行测绘时控制光标标记地面坐标，这可以用于雷达导航定位或者直接在DDD显示器上选择一个位置作为航路点。按下 <strong>TID CURSOR</strong> 按钮可以进入TID光标模式，可以使用HUC控制杆控制TID光标选择TID上的符号，以控制符号系统和数据读取与输入。</p>
-<p><strong>HCU控制杆</strong></p>
-<p>在HCU控制杆上的操控按键有：扳机（ <strong>11</strong> ），扫描角度控制（ <strong>10</strong> ），OFFSET按钮（ <strong>9</strong> ）和MRL按钮（ <strong>8</strong> ）。扳机拥有两个段位，按下第一段可以激活对应模式的游标并可以使用控制杆控制它的移动，但在TCS模式下，按下第一段扳机会激活控制杆对TCS俯仰角与方位角的控制。如果处于雷达模式下，按下第一段扳机还会开启超级搜索模式（super search acqusition mode in the radar，详情请参阅有关雷达过渡模式的章节）。关于扳机第二段，在TCS模式中，移动控制杆使目标处于截获门内，并按下第二段扳机会使TCS锁定该目标。如果在雷达模式下，按下第二段扳机会让雷达尝试锁定当前选定的方位角上处于雷达距离/接近率门内的目标。在DDD或TID模式下，按下第二段扳机会标记当前光标位置，在TID模式下，按下第二段扳机还会尝试钩住（选择）择位于光标中心0.125英寸范围内最近的符号。</p>
-<p><strong>扫描角度控制</strong> 是一个位于HCU控制杆左上部的滚轮，它可以在TCS或者雷达模式下在已经设定的传感器扫描角度的基础上进行±4°的角度微调。控制杆顶部的 <strong>OFFSET</strong> 按钮可以用来控制TID显示器图像的整体位移，比如说可以将本机符号或者其他目标符号移动到当前TID光标的位置，并重置相关的符号关联，要重置TID显示并退出这个功能，先将TID调整至另一模式再切换回来，所有符号将会回到原来的位置。位于HUC控制杆右侧的 <strong>MRL</strong> 按钮可以用来开启手动快速锁定模式（MRL）关于此模式的详细信息请参阅 <a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a> 。</p>
-<p><strong>控制杆</strong> 的功能在HCU选择不同的模式下是不同的，不过在所有模式下，只有在按下第一段扳机的时候才会接通控制杆的控制，并且控制杆的杆量对应的传感器以及光标位置是始终固定且绝对不会改变的。在TCS模式下，控制杆的X轴（上/下）控制着TCS传感器的俯仰角，Y轴（左/右）控制着TCS传感器的方位角。在雷达模式下，控制杆X轴控制着DDD上扫描的距离或接近率，Y轴控制着扫描方位角。在两种光标模式下，控制杆X轴控制着光标的左右移动，Y轴控制着光标的上下移动。</p>
+<p>手控装置（HCU）控制杆和面板上相应的控制器是控制 RIO WCS 显示器的主要输入元件。除了控制杆和面板上的控制器外，HCU 面板中还包括了 WCS 的和 TCS 的电源控制以及指示灯。</p>
+<p><strong>HCU 电源控制和指示灯</strong></p>
+<p>位于 HCU 面板上部边缘的是 IR/TV 超温指示灯（ <strong>2</strong> ）、电源复位指示灯（ <strong>4</strong> ）和 WCS 电源指示灯（ <strong>6</strong> ）。当 IR/TV 开关处于 STBY 档位或者 ON 档位时，IR/TV 电源指示灯亮起表示 TCS 还未准备就绪，当 TCS 准备就绪后，如果开关仍处于 STBY 档位，那么指示灯将保持亮起，如果将开关拨动到 ON 档位，那么则指示灯将会熄灭。电源复位指示灯亮起表示一个或多个二次电源因为故障使电源保护回路跳闸而无法工作。WCS 电源指示灯亮起表示 WCS 系统当前处于待机或者开关处于 ON 档位但雷达还未准备好进行发射。在启动过程中，在雷达启动计时器计时结束前，指示灯将保持熄灭。如需重置雷达，将开关拨动至 STANDBY 档位再拨动至 ON。</p>
+<p>位于 HCU 左上角的 <strong>IR/TV</strong> 开关（ <strong>1</strong> ）控制着 TCS 的电源。当开关拨到（STBY）档位时，启动系统但是不开启传感器。开关拨动至 ON 档位时启用传感器运行。需要注意的是，只有当 WCS 控制开关处于 STBY 档位或者 XMT 档位时，才能启用 IR/TV 开关。 <strong>WCS XMT</strong> 开关（ <strong>7</strong> ）控制着 WCS 计算机系统和系统相应的显示器（DDD 和 TID）的电源，以及禁止或允许雷达发射。当开关拨至 STBY 档位时将会开始向所有包括显示器在内的 WCS 系统供电，同时开始雷达预热程序。显示器预热需要30秒钟，雷达需要3分钟预热后才可以运行。在机轮不负重、雷达计时结束（预热）的情况下，WCS 控制开关拨至 ON 档位将启用雷达发射。</p>
+<p>在 HCU 面板中上部的两个按钮分别是 <strong>灯光测试</strong> （ <strong>3</strong> ）和 <strong>电源复位</strong> （ <strong>5</strong> ）按钮。按下灯光测试（LIGHT TEST）按钮后会启用所有 WCS 系统的灯光与指示器进行测试。电源复位（PWR RESER）按钮按下后将复位二次电源的保护电路来重新启用二次电源，同时电源复位按钮还可以复位导弹供电。需要注意的是，只有在保护回路中故障保护跳闸仍然存在、电源复位指示灯亮起时才按下此按钮。</p>
+<p><strong>HCU 模式按钮</strong></p>
+<p>HCU 控制杆左侧的是四个带有指示灯的、互斥的 HCU 模式按钮（ <strong>12</strong> ），模式按钮中的绿色灯光亮起表示已启用选择的模式。按下 <strong>IR/TV</strong> 按钮后会进入 TCS 模式，进入 TCS 模式从而使用 HCU 控制杆和控制器来控制 TCS。按下 <strong>RDR</strong> 按钮将进入雷达模式，进入雷达模式后可以使用 HCU 控制杆来控制 DDD 中的雷达截获光标，使用雷达截获光标来从雷达搜索模式转换至 STT 模式。按下 <strong>DDD CURSOR</strong> 按钮将进入 DDD 光标模式，在 DDD 光标模式下，使用 HCU 控制杆和控制器来控制 DDD 光标，当使用雷达进行地形测绘时，使用 DDD 光标来指示地面坐标。DDD 光标模式用于雷达导航更新或在 DDD 雷达显示器中选择一个用作为航路点的位置。按下 <strong>TID CURSOR</strong> 按钮将进入 TID 光标模式，在 TID 光标模式下，使用 HCU 控制杆和控制器来控制 TID 光标选中（选择）TID 中的标识符用于标识符控制和数据读数。</p>
+<p><strong>HCU 控制杆</strong></p>
+<p>在 HCU 控制杆上的控制器包括：扳机（ <strong>11</strong> ）、仰角游标控制（ <strong>10</strong> ）、OFFSET 按钮（ <strong>9</strong> ）和 MRL 按钮（ <strong>8</strong> ）。HCU 控制杆的扳机有两个档位，按下扳机第一段和按下扳机第二段。 <strong>按下扳机第一段</strong> ，按下扳机第一段将启用在所选模式下的光标显示，但当模式按钮选择 TCS，也就是 IR/TV 模式时除外，在 IR/TV 模式下，按下扳机第一段将启用控制杆控制 TCS 仰角和方位控制。在雷达模式下，除了显示光标外，按下扳机第一段还启用了超级搜索截获模式（详情参阅雷达过渡模式）。 <strong>按下扳机第二段</strong> ，如果目标在 TCS 的截获门内，那么按下扳机第二段将告知 TCS 锁定 TCS 模式下的目标。在雷达模式下，按下按下扳机第二段将告知雷达尝试锁定在设定的方位下，处在雷达距离门/接近率门内的目标。在 DDD 和 TID 模式下，按下扳机第二段将标记当前光标的位置，或是如果在 TID 模式下，将尝试选中在显示器中距离光标中心0.125英寸内的符号（如果符号存在）。</p>
+<p><strong>仰角游标</strong> 控制是一个位于 HCU 控制杆左侧的一个拨轮，拨轮用于在 TCS 或者雷达模式下，±4° 微调传感器仰角来截获目标，微调是基于一般传感器仰角控制进行偏转的。控制杆顶部的 <strong>OFFSET</strong> 按钮用来偏置任何 TID 中的显示，移动本机符号至光标选中点的话（如果存在），那么其余的符号将会相对本机符号一并移动。通过选择另一个 TID 显示模式再返回原来的显示模式来复位偏置功能，所有符号将会返回原位。位于 HUC 控制杆右侧的 <strong>MRL</strong> 按钮可以用来启用用于目标截获的手动快速锁定模式（MRL），详情参阅 <a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a> 。</p>
+<p>根据 HCU 模式的不同 <strong>控制杆</strong> 的功能也有所不同。不变的是只有在按下扳机第一段才启用控制杆，并且所有模式下控制杆控制传感器或光标的绝对位置，这表示传感器或光标始终会移动至控制杆偏转的位置。在 TCS 模式下，控制杆的 X 轴（上/下）控制着 TCS 视线的仰角，Y 轴（左/右）控制着 TCS 视线的方位。在雷达模式下，控制杆 X 轴控制着 DDD 雷达截获门的距离或接近率，Y 轴控制着雷达截获的方位门。在两种光标模式下，控制杆 X 轴控制着光标的上/下移动，Y 轴控制着光标的左/右移动。</p>
 </div>
 <div class="section" id="computer-address-panel-cap">
 <span id="cap"></span><h3>计算机位址面板（CAP）<a class="headerlink" href="#computer-address-panel-cap" title="永久链接至标题">¶</a></h3>
 <img alt="_images/cap1.png" src="_images/cap1.png" />
-<p>计算机位址面板（CAP）是RIO的主操作面板，用于向 WCS（武器控制系统）计算机输入数据和读取相关数据信息。</p>
+<p>计算机位址面板（CAP）是 RIO 用于控制和输入数据至/从 WCS 计算机读数的主要接口。</p>
 <p><strong>数字键盘</strong> （ <strong>3</strong> ）</p>
-<p>CAP的上半部分有一个数字键盘，还包含了四个额外的功能按钮：清除输入（CLEAR），确认输入（ENTER）以及两个用于选择坐标输入前缀的S/W和N/E按钮。一些带有前缀的数字键还具有额外的功能，他们的功能是：</p>
+<p>CAP 的上半部分包含了一个数字键盘，以及用于清除输入（CLEAR）、确认输入（ENTER）以及两个用于选择坐标的前缀的 S/W 和 N/E 按钮。一些数字键还有附加的功能，带有附加功能都按键用来选择用于数据显示和/或输入的前缀。包含附加功能的按键及其表示的含义分别为：</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="8%" />
@@ -1754,38 +1757,38 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>1</td>
-<td>LAT - 纬度，选择纬度进行显示和输入。</td>
+<td>LAT - 纬度——选择纬度用于显示和输入。</td>
 </tr>
 <tr class="row-odd"><td>2</td>
-<td>NBR - 数字，用于IFT（空中飞行训练）和BIT（自检）。</td>
+<td>NBR - 数字——用于 IFT（空中飞行训练）和 BIT（机内自检）。</td>
 </tr>
 <tr class="row-even"><td>3</td>
-<td>SPD - 速度，选择速度进行显示和输入。</td>
+<td>SPD - 速度——选择速度用于显示和输入。</td>
 </tr>
 <tr class="row-odd"><td>4</td>
-<td>ALT - 海拔高度，选择海拔高度进行显示和输入。</td>
+<td>ALT - 海拔高度——选择海拔高度用于显示和输入。</td>
 </tr>
 <tr class="row-even"><td>5</td>
-<td>RNG - 距离，选择距离进行显示和输入。</td>
+<td>RNG - 距离——选择距离用于显示和输入。</td>
 </tr>
 <tr class="row-odd"><td>6</td>
-<td>LONG - 经度，选择经度进行显示和输入。</td>
+<td>LONG - 经度——选择经度用于显示和输入。</td>
 </tr>
 <tr class="row-even"><td>8</td>
-<td>HDG - 航向，选择航向进行显示和输入。</td>
+<td>HDG - 航向——选择航向用于显示和输入。</td>
 </tr>
 <tr class="row-odd"><td>0</td>
-<td>BRG - 方位，选择方位进行显示和输入。</td>
+<td>BRG - 方位——选择方位用于显示和输入。</td>
 </tr>
 </tbody>
 </table>
-<p>其中的一些按键还会在TID上显示相应的其他数据，但是输入数据只会对其前缀代表的相应功能起效果。举例来说，按下LAT（纬度）按键同样会使LONG（经度）一同显示，但使用键盘仅会向LAT（纬度）项下输入内容，SPD（速度）和HDG（航向）是另一个相同的例子。</p>
-<p><strong>MESSAGE 滚动指示器和按钮</strong></p>
-<p>位于CAP面板中下部的是MESSAGE 滚动指示器，MESSAGE按钮以及CATEGORY 选择开关。他们的功能与新式飞机装备的 MFD（多功能显示器）类似，只不过滚动显示器取代了屏幕用以显示MESSAGE按钮的当前功能。</p>
-<p>通过CATEGORY 选择开关可以用来选择MESSAGE按钮的当前功能，开关转动的同时指示器上的内容也会转换以显示所选模式的当前功能。当一个功能正在使用中时，对应的MASSAGE按钮会亮起以表示激活。</p>
-<p>CATEGORY选择不同模式的功能如下：</p>
+<p>其中的一些附加功能的按键还会将对应的其他数据显示在 TID 中，但输入的数据只会影响所选的前缀。举例来说，按下 LAT 按键同时显示 LONG 读数，但输入数据只会影响 LAT，另一个例子是 SPD 和 HDG。</p>
+<p><strong>CAP MESSAGE 滚筒指示器和按钮</strong></p>
+<p>CAP 的中下部分包含了 MESSAGE 按钮和滚筒指示器及其 CATEGORY（类别）选择旋钮。滚筒指示器和更现代系统中的 MFD 中的按钮有些相似，但与 MFD 不同的是，滚筒指示器用一个滚筒来代替屏幕来显示当前按钮的功能。</p>
+<p>当前按钮的功能是通过类别选择旋钮转动到不同类别来选择的，转动类别选择旋钮也将会转动滚筒指示器来指示所选类别的按钮的功能。当使用一个功能或选中符号时，功能或选中符号对应的 MESSAGE 阿牛将会亮起表示已启用。</p>
+<p>不同类别中，显示出的 MESSAGE 和 MESSAGE 对应的功能如下：</p>
 <table border="1" class="colwidths-given docutils" id="id12">
-<caption><span class="caption-text"><strong>BIT</strong>（自检）</span><a class="headerlink" href="#id12" title="永久链接至表格">¶</a></caption>
+<caption><span class="caption-text"><strong>BIT</strong> （机内自检）</span><a class="headerlink" href="#id12" title="永久链接至表格">¶</a></caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -1793,14 +1796,14 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/bit.png" class="first last" src="_images/bit.png" />
 </td>
-<td><p class="first">BIT模式下MASSAGE按钮控制着多个飞机自检程序。这些自检程序一般在飞机启动期间和机上检查时运行，当然也可以在这里选择相应自检程序单独运行。</p>
-<p class="last">这些内容会在甲板测试和检查这个章节详细说明，但是相关功能目前还未在DCS中模拟。</p>
+<td><p class="first">BIT 类别包含了不同飞机系统的 BIT 启用相关的 MESSAGE 按钮。这些 MESSAGE 功能可能通常在 OBC 期间和起动期间运行或从 MESSAGE 功能运行单独的测试。</p>
+<p class="last">当机上测试和 BIT 实装后，将会在单独的章节详细介绍机内自检和机上检查，在当前的模拟中尚未实装。</p>
 </td>
 </tr>
 </tbody>
 </table>
 <table border="1" class="colwidths-given docutils" id="spl">
-<caption><span class="caption-text"><strong>SPL</strong>（特殊）</span><a class="headerlink" href="#spl" title="永久链接至表格">¶</a></caption>
+<caption><span class="caption-text"><strong>SPL</strong> （特殊）</span><a class="headerlink" href="#spl" title="永久链接至表格">¶</a></caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -1808,14 +1811,14 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/spl.png" class="first last" src="_images/spl.png" />
 </td>
-<td><p class="first">SPL CATEGORY包含其他CATEGORY中没有的各种MESSAGE按钮功能。当前只有 <strong>IP TO TGT</strong> 功能可用并且用于计算机起始点模式，参见 <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机起始点模式</span></a></p>
-<p class="last">同时这个模式下还有用于手动启动OBC程序（<strong>OBC位</strong>）的按钮、一个用于显示最新OBC结果的按钮（<strong>MAINT DISPL</strong>）和一个用于清除最新OBC结果的按钮（<strong>OBC DISPL</strong>）。这些和其它功能尚未实现。</p>
+<td><p class="first">SPL 类别包含了其它类别中没有的 MESSAGE 功能按钮。当前仅 <strong>IP TO TGT</strong> 功能可用并且用于计算机起始点模式，详情参见 <a class="reference internal" href="weapons.html#cip"><span class="std std-ref">计算机起始点模式</span></a></p>
+<p class="last">这个类别中还包含了用于手动起动 OBC 程序的按钮（ <strong>OBC BIT</strong> ）、一个用于显示最新 OBC 结果的按钮（ <strong>MAINT DISPL</strong> ）和一个用于清除最新 OBC 结果的按钮（<strong>OBC DISPL</strong>）。这些和其它功能尚未实装。</p>
 </td>
 </tr>
 </tbody>
 </table>
 <table border="1" class="colwidths-given docutils" id="nav">
-<caption><span class="caption-text"><strong>NAV</strong>（导航）</span><a class="headerlink" href="#nav" title="永久链接至表格">¶</a></caption>
+<caption><span class="caption-text"><strong>NAV</strong> （导航）</span><a class="headerlink" href="#nav" title="永久链接至表格">¶</a></caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -1823,19 +1826,19 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/nav.png" class="first last" src="_images/nav.png" />
 </td>
-<td><p class="first">NAV模式下MASSAGE按钮的功能用于导航修复及更新INS信息以用于INS运行和校准。</p>
-<p><strong>OWN A/C</strong> （本机）按钮用来选择对本机数据进行输入和读取，与在TID上选择本机符号相同。它用于输入对惯导系统至关重要的数据，例如飞机的当前坐标和高度（如果在移动的航母上的话还需要输入当前航向和速度），也可以用于读取有关自己飞机的各种可用数据。</p>
-<p><strong>STORED HDG ALIGN</strong> 按钮用于储存和指示预存航向对准是否可用。同时它也能在正常对准中取消选择这个功能。</p>
-<p><strong>WIND SPD HDG</strong> 按钮用于选择输入和显示风向风速信息，可以用于为备用导航手动输入风速风向。</p>
+<td><p class="first">NAV 类别中包含了用于导航更新和更新 INS 运行和对准所使用的数据的 MESSAGE 按钮。</p>
+<p><strong>OWN A/C</strong> （本机）按钮用来选择对本机进行数据读数和数据输入，在 TID 中选中本机符号按下按钮功能相同。本机按钮用来输入对于对准来说至关重要的数据，例如本机坐标和海拔高度（如果在航母上还有航向和速度），还可用于读数关于本机的可用的不同数据。</p>
+<p><strong>STORED HDG ALIGN</strong> 按钮用于存储和指示预存航向对准是否可用。同时按钮也可以取消选择这个功能来进入正常对准。</p>
+<p><strong>WIND SPD HDG</strong> 按钮用于选择输入和显示风向风速信息，按钮还可以用于手动输入在备用导航中使用的风向风速。</p>
 <p><strong>MAG VAR（HDG)</strong> 按钮用于选择输入和显示导航系统所使用的磁差。</p>
-<p><strong>TACAN FIX</strong> ， <strong>RDR FIX</strong> （雷达）， <strong>VIS FIX</strong> （目视）和 <strong>FIX ENABLE</strong> 这四个FIX按钮用于更新飞机当前位置以校准INS偏移。基本操作是通过前几个按钮选择想要通过什么方法对准INS，然后按下FIX ENABLE确认将其输入系统。完整操作可以在本章导航部分找到。</p>
-<p class="last">两个TARPS按钮在没有挂载TARPS的飞机上无功能。</p>
+<p><strong>TACAN FIX</strong> 、 <strong>RDR FIX</strong> （雷达）、 <strong>VIS FIX</strong> （目视）和 <strong>FIX ENABLE</strong> 这四个 FIX 按钮用于更新飞机的位置来修正 INS 漂移。基本功能是选择更新的方式，然后按下 <strong>FIX ENABLE</strong> 将差值输入至系统中。导航更新的完成程序可在本章的导航部分查看。</p>
+<p class="last">两个 TARPS 按钮在没有挂载 TARPS 的飞机上无功能。</p>
 </td>
 </tr>
 </tbody>
 </table>
 <table border="1" class="colwidths-given docutils" id="tac-data">
-<caption><span class="caption-text"><strong>TAC DATA</strong>（战术数据）</span><a class="headerlink" href="#tac-data" title="永久链接至表格">¶</a></caption>
+<caption><span class="caption-text"><strong>TAC DATA</strong> （战术数据）</span><a class="headerlink" href="#tac-data" title="永久链接至表格">¶</a></caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -1843,14 +1846,14 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/tacdata.png" class="first last" src="_images/tacdata.png" />
 </td>
-<td><p class="first">战术数据模式下可以通过MASSAGE按钮选择WCS导航系统中的不同导航点，可以通过使用HCU在TID上钩住想选择的导航点来达到同样的效果。钩住/选择航路点后可以使用CAP键盘对其进行编辑/更新。</p>
+<td><p class="first">TAC DATA 类别中包含了 MESSAGE 功能按钮，可用于选中/选择 WCS 导航系统中可用的不同的航路点。可以通过 HCU 在 TID 中选中来达到和通过功能按钮一样的效果。选中航路点将启用通过 CAP 数字键盘来更新被选中的航路点。</p>
 <p class="last"><strong>PT TO PT</strong> 按钮无功能。</p>
 </td>
 </tr>
 </tbody>
 </table>
 <table border="1" class="colwidths-given docutils" id="data-link">
-<caption><span class="caption-text"><strong>DATA LINK</strong>（数据链路）</span><a class="headerlink" href="#data-link" title="永久链接至表格">¶</a></caption>
+<caption><span class="caption-text"><strong>DATA LINK</strong> （数据链路）</span><a class="headerlink" href="#data-link" title="永久链接至表格">¶</a></caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -1858,17 +1861,17 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/dl.png" class="first last" src="_images/dl.png" />
 </td>
-<td><p class="first">DATA LINK模式下的MASSAGE按钮可以让RIO对来自数据链路控制端的命令进行回应。<strong>WILCO</strong> （可以执行）按钮和 <strong>CANTCO</strong> （无法执行）按钮可以用来表示当前本机能否执行命令。<strong>POINT</strong> 按钮可以把当前RIO标记的一个目标发送到数据链路控制端以表示这个目标需要特别关注。 <strong>ENGAGE</strong> 表示本机正在与被标记的目标交战。</p>
-<p><strong>NAV GRID</strong> 按钮用于在TID中启用NAV GRID功能，参见 <a class="reference internal" href="#navgrid"><span class="std std-ref">导航指令与控制网格（NAV GRID）</span></a></p>
-<p><strong>TID AVIA</strong> 按钮用于在TID中显示AVIA。尚未实现此功能。</p>
-<p><strong>F/F NAV UPDATE</strong> 允许Link-4C战机间导航更新。参见导航章节。</p>
+<td><p class="first">DATA LINK 类别包含了用于 RIO 数据链路回应数据链路操作员指令的 MESSAGE 功能按钮。<strong>WILCO</strong> （可以执行）按钮和 <strong>CANTCO</strong> （无法执行） MESSAGE 按钮用来告知操作员本机是否可以执行指令。<strong>POINT</strong> MESSAGE 按钮允许 RIO 标记选中的跟踪发送给操作员表示这个跟踪需要特别关注。 <strong>ENGAGE</strong> 表示本机有意攻击选中的跟踪。</p>
+<p><strong>NAV GRID</strong> 按钮用于启用 TID 中的 NAV GRID 功能，参见 <a class="reference internal" href="#navgrid"><span class="std std-ref">导航指令与控制网格（NAV GRID）</span></a></p>
+<p><strong>TID AVIA</strong> 按钮用于启用 TID 中的 AVIA 显示。尚未实装。</p>
+<p><strong>F/F NAV UPDATE</strong> 按钮允许 Link-4C 战机间导航更新。参见导航章节。</p>
 <p class="last">其它按钮皆无功能。</p>
 </td>
 </tr>
 </tbody>
 </table>
 <table border="1" class="colwidths-given docutils" id="target-data">
-<caption><span class="caption-text"><strong>TARGET DATA</strong>（目标数据）</span><a class="headerlink" href="#target-data" title="永久链接至表格">¶</a></caption>
+<caption><span class="caption-text"><strong>TARGET DATA</strong> （目标数据）</span><a class="headerlink" href="#target-data" title="永久链接至表格">¶</a></caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -1876,45 +1879,45 @@
 <tbody valign="top">
 <tr class="row-odd"><td><img alt="_images/tgtdata.png" class="first last" src="_images/tgtdata.png" />
 </td>
-<td><p class="first">目标数据模式下的MASSAGE按钮可以用来修改目标符号类型，RIO可以通过它将目标标记为 <strong>FRIEND</strong> （友军）， <strong>UNK</strong> （未知目标）， <strong>HOST</strong> （带有敌意的目标）和 <strong>MULT TGT</strong> （多目标）（多目标符号也可以叠加标记到其他三个类型的目标上）。</p>
-<p><strong>DO NOT ATTK</strong> 按钮将目标设置为禁止攻击目标，从WCS开火指令中移除。</p>
-<p><strong>DATA TRANS</strong> （数据传输）功能允许RIO将一个干扰源目标与其他数据源的符号相关联，以便允许WCS通过两个数据源来更好的跟踪目标。当前尚未实现此功能。</p>
-<p><strong>TEST TGT</strong> （目标测试）在WCS中设置一个模拟目标用于测试。当前尚未实现此功能。</p>
-<p><strong>SYM DELETE</strong> （符号删除）允许RIO在不在需要的情况下从TID中删除目标符号或者航路点。不能删除本机符号和来自数据链路的符号。</p>
+<td><p class="first">TARGET DATA 类别下包含的 MASSAGE 功能按钮用来修改选中的跟踪符号。 <strong>FRIEND</strong> 、 <strong>UNK</strong> （不明）、 <strong>HOST</strong> （敌机）和 <strong>MULT TGT</strong> （多目标）功能按钮用来标记选中的符号为对应的类别（多目标可以在其他三个跟踪符号类型上进行设置）。</p>
+<p><strong>DO NOT ATTK</strong> 按钮用来将目标设置为禁止攻击的目标，将目标从 WCS 开火指令中移除。</p>
+<p><strong>DATA TRANS</strong> （数据传输）功能启用一个选中的干扰源射线关联另一个选中的跟踪符号。这个按钮用于允许 WCS 更好地使用两个数据源来跟踪目标。必须在选中符号前先选中射线。尚未实装。</p>
+<p><strong>TEST TGT</strong> （测试目标）按钮按下后在 WCS 中设置一个模拟目标用于测试。当前尚未实现此功能。</p>
+<p><strong>SYM DELETE</strong> （符号删除）按钮允许 RIO 从 TID 中手动丢弃/删除一个跟踪或航路点（如果不再需要）。不能删除本机符号和数据链路跟踪符号。</p>
 <p class="last"><strong>IFT AUX LAUNCH</strong> 与 <strong>GND MAP</strong> 皆无功能。</p>
 </td>
 </tr>
 </tbody>
 </table>
 <p><strong>程序重启按钮</strong></p>
-<p>在CAP面板下部两侧有最后两个按钮，<strong>PRGM RESTRT</strong> （程序重启）按钮用来在WCS计算机死机的时候重启当前程序，当TID上的计算机运行读数停止循环变化时，就代表计算机死机了。最后一个按钮是 <strong>TUNE DSBL</strong> 按钮，在当前F-14版本中不起作用。</p>
+<p>MESSAGE 滚筒指示器和按钮下方的是面板中最后两个按钮。 <strong>PRGM RESTRT</strong> （程序重启）按钮用来在当 WCS 计算机意外停机时复位当前运行中的程序。当 TID 中的计算机运行指示器数字停止循环变化时，就代表计算机意外停机了。最后一个按钮是 <strong>TUNE DSBL</strong> 按钮，在模拟的 F-14 版本中不起作用。</p>
 <div class="section" id="data-readout-entry-procedure">
 <h4>数据读数/输入程序<a class="headerlink" href="#data-readout-entry-procedure" title="永久链接至标题">¶</a></h4>
-<p>TID上的数据读取和输入始终遵循以下顺序：选择符号/功能 -&gt; 选择数据的前缀 -&gt; 数据输入。</p>
-<p><strong>CAP DRUM</strong> 上不同的模式可以通过 <strong>TID选中</strong> 或 <strong>CAP MESSAGE</strong> 按钮来选择所需的符号或功能。</p>
-<p>大多数数据读数前缀不止显示一个，例如调出经度或纬度都会显示两者的读数，调出距离的同时也显示了方位，只能对被选中的前缀输入数据。</p>
-<p>要选择另一个数据读数的前缀可以按下CAP上的 <strong>CLEAR</strong> 键，这样就无需重新选择message功能，按下后将会重置读数并可以选择新的前缀。如果已选择了前缀，再次按下按键可能视为输入数据，建议在重新选择前缀前使用 <strong>CLEAR</strong> 来重置。推荐按照以下顺序：选择符号/功能 -&gt; <strong>CLEAR</strong> -&gt; 选择显示的前缀 -&gt; 数据输入。</p>
-<p>如果想要输入数据，RIO需要先选择所需功能的前缀，检查是否正确然后输入数据按 <strong>ENTER</strong> 键确认。然后新数据会更新TID读数。如果想要清除数据而不是输入它，按 <strong>CLEAR</strong> 键清除。</p>
+<p>TID 中的数据读数和输入始终遵循以下顺序：选择符号/功能 -&gt;选择用于显示的前缀 -&gt; 输入数据。</p>
+<p>通过 <strong>TID 选中</strong> 或在 <strong>CAP DRUM</strong> 中不同的类别下，使用 <strong>CAP MESSAGE</strong> 按钮来选择所需的符号或功能。</p>
+<p>大多数用于数据读数的前缀不仅仅显示一个读数，例如，调出经度或纬度中的任意一个，都会显示另外一个的读数，调出距离的同时还显示了方位，反之亦然，但是仅对所选的前缀输入数据。</p>
+<p>如需不重新选择 MESSAGE 按钮来选择另一个用于数据读数的前缀，可以按下 CAP 上的 <strong>CLEAR</strong> 键，按下后将复位读数并允许选择新的前缀，这样一来就无需重新选择 MESSAGE 功能。如果已选择了前缀，那么再次按下按键可能会被视为输入数据，通常建议在重新选择新的前缀前使用 <strong>CLEAR</strong> 键来复位。这样一来就形成了以下建议顺序：选择符号/功能 -&gt; <strong>CLEAR</strong> -&gt; 选择用于显示的前缀 -&gt; 输入数据。</p>
+<p>如需输入新的数据至所选的前缀中，RIO 需要在选择了前缀后输入所需的数据，检查输入的数据是否正确然后按下 <strong>ENTER</strong> 键输入。TID 中的读数将会更新为新的数据。如需清除数据而不是输入它，按 <strong>CLEAR</strong> 键清除。</p>
 </div>
 </div>
 <div class="section" id="sensor-control-panel">
 <h3>传感器控制面板<a class="headerlink" href="#sensor-control-panel" title="永久链接至标题">¶</a></h3>
 <img alt="_images/radarircontrol1.png" src="_images/radarircontrol1.png" />
-<p>传感器控制面板主要可以对AN/AWG-9雷达天线扫描模式进行控制，该面板上还包含TCS的控制开关，RIO可以通过此面板将雷达隶属TCS的目标，或将TCS隶属至雷达目标。此外，该面板还控制着机载磁带录像机（AVTR）。</p>
-<p><strong>天线搜索模式选择</strong></p>
-<p>面板的上半部分是对于雷达扫描模式的控制。 <strong>STAB</strong>（增稳）开关用来控制雷达天线扫描模式的基准线时候是否相对于地平线（IN）稳定。如果开关在OUT位置表示雷达扫描模式的基准线随动于F-14的武器基准线(ADL)。在必要的时候，WCS会覆盖此设置。 <strong>AZ CTR</strong>（方位角控制）和 <strong>EL CTR</strong>（俯仰角控制）旋钮用来设置天线扫描模式的方位角与俯仰角中心点。 <strong>方位角控制</strong> 可以在以飞机中心线的65°范围内设置雷达天线的方位扫描角中心，如果将雷达扫描宽度设置为±65°，那么该设置将会被禁用，因为当前扫描范围已经包括所有可用方位角。不要将天线的扫描方位角设置到以机身为中心线的65°以外，因为这会引起天线机械结构碰撞从而损坏天线。 <strong>俯仰角控制</strong> 旋钮控制着雷达天线相对于飞机机身水平线的俯仰角，可以从-76°到+54°设置天线在俯仰角上的扫描中心角度。刚刚所讲的两个旋钮都有一个中心点标记，用来表示飞机中心线和机身水平线。</p>
-<p><strong>AZ SCAN</strong> （方位扫描）和 <strong>EL BARS</strong> （水平扫描行线）选择旋钮用来控制天线扫描范围的大小。AZ SCAN旋钮有4个位置，±10°，±20°，±40°和±65°。ELBARS旋钮也有4个位置，1行扫描,2行扫描,4行扫描和8行扫描。1行的扫描俯仰范围为2.3°，2行为3.6°，4行为6.3°，8行为11.5°。俯仰扫描范围之所不是每行宽度之和是因为在进行扫描时，每行所覆盖的范围会有一些重叠。</p>
-<p>最后一个雷达控制是面板上的VSL开关。可以把这个开关拨到HIGH或者LOW位置直接开启垂直扫描锁定模式（VSL）。详情参阅 <a class="reference internal" href="#vsl"><span class="std std-ref">垂直扫描锁定模式（VSL）</span></a> 。</p>
+<p>传感器控制面板包含用于 AN/AWG-9 雷达天线栅状扫描的控制器。传感器控制面板上还包含了各种 TCS 控制器，RIO 可以通过面板中的控制器来将雷达隶属于 TCS ，或将 TCS 隶属于雷达，以及包含了机载录像机（AVTR）控制器。</p>
+<p><strong>天线栅状扫描选择</strong></p>
+<p>传感器控制面板中，上半部分包含了雷达天线栅状扫描的控制器。 <strong>STAB</strong> （稳定）开关用来控制雷达天线栅状扫描是否相对于地平线（IN）稳定。如果 STAB 开关位于 OUT 档位，那么就表示，栅状扫描是相对 F-14 飞机的武器基准线稳定的。WCS 计算机在必要时会越控这个设置。 <strong>AZ CTR</strong> （方位角控制）和 <strong>EL CTR</strong> （仰角控制）旋钮用来设置天线栅状扫描中仰角和方位角的中心点。 <strong>方位角控制</strong> 旋钮用来在飞机中心线65°内移动扫描方位角的中心，如果扫描方位角宽设置为±65°的话，那么这个功能将会被禁用，这是因为设置为±65°已经扫描了最大的方位角角度。请勿移动栅状扫描至65°极限外，因为这样可能会使天线撞到天线方位角停止器导致损坏天线。 <strong>仰角控制</strong> 旋钮用来控制相对0°仰角，栅状扫描仰角底部的扫描线的俯仰位置。仰角可从 -76° 移动至 +54° 。上述的仰角控制和方位角控制旋钮都含有标记出的中心点，分别是飞机中心线和0°仰角。</p>
+<p><strong>AZ SCAN</strong> （扫描方位角）和 <strong>EL BARS</strong> （仰角扫描线数）选择旋钮用来控制天线栅状扫描的大小。AZ SCAN 选择旋钮有4个档位，分别是：±10°、±20°、±40°和±65°。EL BARS 选择旋钮也有4个档位，分别是：1、2、4或8线扫描。扫描线仰角覆盖角度分别为：1线2.3°、2线3.6°、4线6.3° 和 8线11.5°，之所以仰角覆盖角度不是扫描线数乘以1线的覆盖角度是因为，扫描线之间覆盖角度略有重叠。</p>
+<p>传感器控制面板中最后一个雷达控制器是 <strong>VSL</strong> 开关。短暂拨动开关至 VSL HIGH 或 VSL LOW 将启用垂直扫描截获模式。详情参阅 <a class="reference internal" href="#vsl"><span class="std std-ref">垂直扫描锁定模式（VSL）</span></a> 。</p>
 <p><strong>TCS 控制</strong></p>
-<p>位于面板右侧的 <strong>SLAVE</strong> 开关可以用来将一个传感器隶属于另一个传感器。开关在中心位置时，两个传感器相互独立。当开关位于RDR位置时，雷达会在TCS锁定目标的情况下隶属于TCS。开关在TCS位置时，如果雷达处于STT或者JAT模式，TCS会隶属于雷达。两种模式都可以让传感器引导被隶属的传感器锁定其当前正在跟踪的目标。</p>
-<p><strong>TCS TRIM</strong> 旋钮可以调整TCS的方位角（AZ）和俯仰角（EL）可以用来校准TCS。一般的校准方法是先通过雷达STT锁定目标后将TCS隶属于雷达，然后微调旋钮直到目标位于TCS锁定正中心。</p>
-<p>最后两个关于TCS控制的开关是ACQ（获取）开关和FOV（视场）开关。 <strong>ACQ</strong> 开关可以控制TCS如何锁定目标。AUTO SRCH意味着TCS传感器会在有限范围内自行移动，试图找到目标。MAN（手动）表示只能通过HCU在TCS模式下手动锁定目标。AUTO（自动）表示TCS会自动尝试锁定进入其视野的目标。 <strong>FOV</strong> 开关可以用来控制TCS视场在WIDE（宽视野）和NAR（窄视野）之间切换。</p>
-<p>传感器控制面板的最下部分是机载磁带录像机（AVTR）的相关控制开关和指示AVTR电源状态和剩余录像时间的指示器，当前版本对此还没有建模。</p>
+<p>在传感器面板右侧的 <strong>SLAVE</strong> 开关用来控制从属的传感器，或者互相独立。开关在中间档位时，两个传感器相互独立移动。当开关位于 RDR 档位时，当 TCS 锁定了一个目标时，雷达将会隶属至 TCS 视线。开关在 TCS 档位时，如果雷达处在 STT 或 JAT 模式，那么 TCS 将隶属至雷达视线。两种从属模式都可以使传感器引导传感器锁定至另一个传感器正在跟踪的目标。</p>
+<p><strong>TCS TRIM</strong> 旋钮用来校正 TCS 的方位（AZ）和仰角（EL）。TCS TRIM 旋钮用来校正 TCS 视线对准雷达视线。通常通过以下方式来完成校正：使用 STT 锁定一个目标，设置从属为 TCS，接着微调校正旋钮直到 TCS 视线对准锁定的目标。</p>
+<p>最后两个用于控制 TCS 的开关是 ACQ（捕获）开关和 FOV（视场）开关。 <strong>ACQ</strong> 开关可以控制 TCS 如何锁定目标。当处于 AUTO SRCH 档位时 TCS 传感器会在有限扫描模式中移动尝试找到目标。MAN（手动）档位只能通过 HCU 在 IR/TV 模式下手动锁定目标，AUTO（自动）档位下 TCS 将自动尝试锁定进入视场内的目标。 <strong>FOV</strong> 开关可以用来控制 TCS 使用 WIDE（宽）或 NAR（窄）视场。</p>
+<p>传感器控制面板的下半部分包含了机载录像机（AVTR）的控制器，这些控制器用来控制和指示电源模式和磁带的剩余录像时间。尚未在 DCS 中对其进行建模。</p>
 </div>
 <div class="section" id="an-awg-9-radar">
 <h3>AN/AWG-9雷达<a class="headerlink" href="#an-awg-9-radar" title="永久链接至标题">¶</a></h3>
-<p>F-14所装备的AN/AWG-9雷达是一部工作在X波段（8 - 12 GHZ）下的全天候，多模式脉冲多普勒雷达。该雷达专为远距离交战而设计，可以在边扫描边跟踪（TWS）模式下同时引导6枚AIM-54不死鸟导弹攻击不同的目标。在最初的设想中，F-14将为舰队提供远距离空中防御，拦截俄罗斯轰炸机和其他威胁舰队的敌机。在F-14的服役后期，该机型的任务重心由截击敌方轰炸机转为对抗敌放战斗机以抢占制空权。事实证明，F-14同样很擅长这项任务。</p>
-<p>AN/AWG-9雷达有两种基本工作模式：脉冲模式和脉冲多普勒模式，两种模式各有其优缺点。下表列出了两种基础模式下的不同功能，武器投放能力，扫描范围和可用目标数据。</p>
+<p>F-14 所装备的 AN/AWG-9 雷达是一部工作在 X 波段（8 - 12 GHZ）下的全天候，多模式脉冲多普勒雷达。AWG-9 雷达专为远程攻击而设计，可以在边搜索边跟踪（TWS）模式下同时引导6枚 AIM-54 “不死鸟”导弹攻击不同的目标。在最初的设想中，F-14 用作为远程舰队守卫者拦截俄罗斯轰炸机和其他威胁到舰队的敌机。在 F-14 服役生涯的后期，F-14 的任务重心由拦截敌方轰炸机转为对抗敌方战斗机。事实证明，F-14 同样很擅长这项任务。</p>
+<p>AN/AWG-9 雷达有两种基本的工作模式：脉冲模式和脉冲多普勒模式，两种模式各有其优缺点。下表列出了两种模式下的不同功能，可用的武器投放方式、预期探测距离和目标数据。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="7%" />
@@ -1926,40 +1929,40 @@
 <thead valign="bottom">
 <tr class="row-odd"><th class="head" colspan="2">模式</th>
 <th class="head">功能</th>
-<th class="head">可用武器</th>
-<th class="head">扫描范围</th>
+<th class="head">武器投放</th>
+<th class="head">探测距离</th>
 </tr>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td rowspan="2">脉冲</td>
 <td>脉冲搜索</td>
-<td>中距离对空搜索，以及有限的对地搜索能力。</td>
-<td>可以以瞄准线模式发射导弹。</td>
+<td>中程搜索和探测，以及有限的对地搜索能力。</td>
+<td>瞄准轴模式发射导弹。</td>
 <td>60海里</td>
 </tr>
-<tr class="row-odd"><td>脉冲STT</td>
-<td>中短距离单目标跟踪和有限的导弹制导。</td>
-<td>可使用机炮和使用连续波制导的AIM-7以及使用主动模式发射的AIM-54。</td>
+<tr class="row-odd"><td>脉冲 STT</td>
+<td>中短程单目标跟踪和导弹制导。</td>
+<td>可使用机炮和使用 CW 为 AIM-7 制导以及使用主动模式发射的 AIM-54。</td>
 <td>50海里</td>
 </tr>
 <tr class="row-even"><td rowspan="4">脉冲多普勒</td>
 <td>脉冲多普勒搜索</td>
-<td>远距离搜索。</td>
-<td rowspan="2">可以以瞄准线模式发射导弹。</td>
+<td>远程搜索和探测。</td>
+<td rowspan="2">瞄准轴模式发射导弹。</td>
 <td>110海里</td>
 </tr>
 <tr class="row-odd"><td>边搜索边测距</td>
-<td>远距离搜索和测距。</td>
+<td>远程搜索、探测和测距。</td>
 <td>90海里</td>
 </tr>
 <tr class="row-even"><td>边搜索边跟踪</td>
-<td>远距离搜索，多目标跟踪，导弹制导。</td>
-<td>引导AIM-54同时攻击多个目标。</td>
+<td>远程搜索、探测、多目标跟踪，导弹制导。</td>
+<td>AIM-54，多目标攻击能力。</td>
 <td>90海里</td>
 </tr>
-<tr class="row-odd"><td>脉冲多普勒STT</td>
+<tr class="row-odd"><td>脉冲多普勒 STT</td>
 <td>远程单目标跟踪以及导弹制导。</td>
-<td>可以使用机炮和AIM-7与AIM-54在内的所有导弹。</td>
+<td>机炮和所有导弹。使用 PD 和 CW 为 AIM-7 提供制导，使用 PD 和主动模式为 AIM-54 提供制导。</td>
 <td>90海里</td>
 </tr>
 </tbody>
@@ -1968,7 +1971,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">上表的扫描范围以雷达反射截面积（RCS）为5平方米的目标作为参考。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">探测距离参考为雷达截面积（RCS）5平方米的目标。</td>
 </tr>
 </tbody>
 </table>
@@ -1977,39 +1980,39 @@
 </div>
 <div class="section" id="pulse-mode">
 <h4>脉冲模式<a class="headerlink" href="#pulse-mode" title="永久链接至标题">¶</a></h4>
-<p>在脉冲模式下，AN/AWG-9不使用脉冲多普勒滤波器，这意味着它可以用于探测各个方向的目标，也可以用于基本的地面测绘。该模式的优点是，由于在该模式下目标不需要与本机有一定的相对速度才会被识别为目标（相对速度过低的目标将会被多普勒滤波器滤除），因此目标机使用3/9线机动并不会使该雷达失去对该目标的跟踪。该模式的缺点是难以区分地面杂波与真实目标回波，这意味着敌机可以利用地形产生的杂波来隐藏自己。同时，由于缺少多普勒滤波器，区分真实目标与地面背景噪音可谓难上加难。因为这个缺点，脉冲模式的有效扫描范围明显小于脉冲多普勒模式的扫描范围。</p>
-<p>脉冲模式又分为脉冲搜索模式和脉冲单目标跟踪（P STT）两种子模式。</p>
+<p>在脉冲模式下，AN/AWG-9 不使用脉冲多普勒滤波器，这意味着脉冲模式可以用于探测各个方位的目标，也可以用于基本的地形测绘。脉冲模式的优点是，目标不需要与本机有一定的相对速度才会被视为目标，因此目标进行3/9线机动并不会使雷达失去对目标的跟踪。但脉冲模式的缺点是雷达难以区分地面杂波与真实目标回波，这意味着敌机可以利用地形隐蔽在杂波之中。由于没有多普勒滤波器，区分背景噪声和真实目标的难度大大增加，这就导致了脉冲模式的探测距离要比脉冲多普勒模式缩短不少。</p>
+<p>AN/AWG-9 雷达拥有两个脉冲模式，分别是：脉冲搜索模式和脉冲单目标跟踪（P STT）模式。</p>
 <div class="section" id="pulse-search">
 <h5>脉冲搜索<a class="headerlink" href="#pulse-search" title="永久链接至标题">¶</a></h5>
 <img alt="_images/PSEARCH.png" src="_images/PSEARCH.png" />
-<p>脉冲模式主要用于对空搜索。</p>
-<p>也可以将这种雷达模式用于基本的地面测绘，这对导航和导航修正（INS修正）很有用，也可以在紧急情况下用于探测更大的地面目标，如船舶。请记住，对面搜索并不是雷达的主要功能，真正的空对面雷达的性能要比它好得多。</p>
-<p>在此模式下，雷达本身区分目标并建立追踪，这意味着WCS不会生成显示在TID上的目标符号，也意味着该模式下雷达无法引导导弹攻击。</p>
-<p>在该模式下DDD将显示雷达图像，显示指定方位与范围内的目标，并且使用HCU控制器切换到P STT模式。在传感器面板可以控制雷达天线的对地增稳模式。</p>
+<p>脉冲搜索模式主要用于搜索和寻找探测距离内的空中目标。</p>
+<p>脉冲模式可以用作为基本的地形测绘模式，地形测绘对于导航和导航更新来说十分有用，同时，地形测绘也可以在紧急情况下用于探测更大的地面/水面目标，例如舰船。请记住，AWG-9 雷达并非为了地形测绘而生，真正的空对面雷达的性能远胜于 AWG-9。</p>
+<p>在脉冲模式下，雷达无法区分目标并生成跟踪符号，这表示 WCS 不会生成跟踪文件并显示任何符号在 TID 中。同样，在脉冲搜索模式下是无法为导弹提供制导的。</p>
+<p>在脉冲模式下，DDD 将会在所选的尺度显示雷达成像来指示目标的方位和距离，在搜索模式下可以通过选择 HCU 控制杆功能为 RDR 模式以及 HCU 控制杆来转换至 P STT 模式。脉冲模式下，可以使用传感器控制面板中的 STAB 开关来选择相对地面或相对飞机稳定模式。</p>
 </div>
 <div class="section" id="pulse-single-target-track-p-stt">
 <h5>脉冲单目标跟踪（P STT）<a class="headerlink" href="#pulse-single-target-track-p-stt" title="永久链接至标题">¶</a></h5>
 <img alt="_images/PSTT.png" src="_images/PSTT.png" />
-<p>脉冲单目标跟踪模式下雷达会跟踪单个目标。同脉冲搜索模式相同，此时目标机无法通过3/9线机动来躲避雷达探测，但地面杂波会对雷达产生干扰。事实上，任何STT模式均使用“门”来跟踪目标，在脉冲单目标跟踪模式下，雷达使用距离门来跟踪目标，因此地面杂波对雷达的干扰相对较小，但如果目标足够贴近地面，则目标仍会被淹没在地面杂波中进而导致雷达脱锁。</p>
-<p>因为只有在脉冲多普勒模式下，才能对导弹进行全面引导，所以在脉冲单目标锁定模式下只能用连续波制导AIM-7，以及使用主动模式发射AIM-54，这些因素都限制了导弹的射程。在近距离以及空战格斗（ACM）距离内，可以使用ASPECT开关来控制对目标的跟踪位置（如机头/机尾）来对抗不同的干扰措施，比如说如果将开关设置为NOSE，则箔条对雷达的干扰将会降低，因为雷达天线会指向目标前缘（机鼻）从而远离目标后方发射的箔条。</p>
-<p>如果DDD面板上的ANT TRK和RDROT指示灯亮起，则表示成功锁定目标，雷达天线正在跟踪，目标处于雷达跟踪波门内。如果目标身上带有足够强度的干扰，导致雷达无法对其进行测距，那么RDROT指示灯将不会亮起，取而代之的是JAT指示灯亮起，表示雷达正在跟踪干扰源角度。当目标接近到足够近，雷达可以重新对其进行测距时（雷达烧穿干扰），JAT灯将会熄灭，RDROT灯将亮起。</p>
-<p>在此模式下DDD的显示类似于脉冲搜索模式，不过雷达天线将不在进行周期性扫描而是锁定到一个目标上。如果选择了可以使用的导弹，DDD上将显示导弹的发射距离范围，正确比例的目标接近率符号以及对应的攻击指示符号。</p>
+<p>脉冲单目标跟踪模式用于跟踪单个目标，与脉冲搜索模式相同，此时目标不易受到3/9线机动的影响，但是对地面杂波敏感。STT 模式下，雷达使用距离门来跟踪目标，这意味着雷达不易受地面杂波的影响，但是目标太接近地面的话，地面回波进入距离门中很可能会导致锁定震荡。</p>
+<p>由于只能在脉冲多普勒模式下发送导弹制导指令，脉冲 STT 模式仅限于使用 CW 模式发射 AIM-7，以及以主动模式发射 AIM-54 导弹，从而限制了导弹的射程。在 ACM 距离内，脉冲模式可以使用 ASPECT 开关来设置从目标的那个方位进行跟踪，ASPECT 开关只是为了应对不同的对抗措施而进行设置。例如，如果将 ASPECT 开关设置为 NOSE 的话，雷达将回波质心设置在目标前部（机头），远离发射到目标后发的箔条，从而不易受到箔条的干扰。</p>
+<p>如果 DDD 面板上的 ANT TRK 和 RDROT 指示灯亮起表示雷达成功锁定目标，这意味着雷达天线正在跟踪这个目标且目标处于跟踪门内。如果目标干扰的强度足够，导致无法进行距离跟踪，那么雷达将转换为干扰源角跟踪，干扰源角跟踪时，DDD 中 JAT 指示灯将会亮起，RDROT 指示灯将会熄灭。当在足够近的距离雷达可以再次进行距离跟踪后，雷达将会转换为距离跟踪。</p>
+<p>在 P STT 模式下，DDD 的显示类似于脉冲搜索模式，只不过天线是锁定目标而不是进行扫描。此外，如果选择了有效的导弹，DDD 还将在目标的周围显示距离门、右侧尺度中的接近率符号和可用于 P STT 的攻击符号。</p>
 </div>
 </div>
 <div class="section" id="pulse-doppler-mode">
 <h4>脉冲多普勒模式<a class="headerlink" href="#pulse-doppler-mode" title="永久链接至标题">¶</a></h4>
-<p>在脉冲多普勒模式中，AN/AWG-9雷达使用多普勒滤波器过滤掉不需要的回波，增强对目标的探测，从而增加有效探测距离。该模式的优点在前文已有提及：可以在更远距离上探测到目标、基本消除了地面杂波的影响、可以向AIM-7和AIM-54导弹发送制导命令。AIM-54在TWS模式和STT模式中都能使用，AIM-7只能在STT模式中使用。这种模式最大的缺点是会被目标机使用3/9线机动摆脱雷达的探测，当目标的接近率接近为0的时候，雷达会很难探测到目标。</p>
-<p>AN/AWG-9雷达脉冲多普勒模式的子模式有：脉冲多普勒搜索，边搜索边测距，边搜索边跟踪以及脉冲多普勒STT模式。三种搜索模式有相同的DDD显示界面，主要区别在于脉冲多普勒搜索的扫描距离稍微远一点，因为其他两种搜索模式需要处理调频测距以实现对跟踪目标的距离显示。</p>
+<p>在脉冲多普勒模式下，AN/AWG-9 雷达使用多普勒滤波器过滤掉不需要的回波来增强对目标的探测，从而提高探测的距离。脉冲多普勒模式的有点在上述中已经提到：可以探测到距离更远的目标、几乎不受地面回波影响和向 AIM-7 和 AIM-54 发送制导指令。AIM-54 可以在 TWS 和 STT 模式下发射，而 AIM-7 只能在 STT 模式下发射。PD 模式最大的缺点是容易受到目标使用3/9线机动的影响，当目标的接近率接近为0的时候，目标将会被过滤。</p>
+<p>AN/AWG-9 雷达的脉冲多普勒模式有：脉冲多普勒搜索，边搜索边测距，边搜索边跟踪以及脉冲多普勒 STT 模式。三种搜索模式有相同的 DDD 符号显示，三种模式的区别在于，脉冲多普勒搜索模式的探测距离略胜于另外两种模式，这是因为其他两种搜索模式需要处理 FM 测距来启用跟踪目标的距离指示。</p>
 <img alt="_images/PDSEARCH.png" src="_images/PDSEARCH.png" />
-<p>脉冲多普勒搜索模式中DDD显示目标的方位角以及接近率，这意味着RIO通过读取DDD只能获得这两种目标信息。需要注意的是DDD显示屏显示的目标接近率是相对于地面的（减去本机的空速），而不是与本机的相对接近率。这意味着目标正对向雷达飞来，将会显示其真空速，这个速度会随着目标方位角和雷达天线的方位角的变化而变化。</p>
-<p>在DDD显示器的下缘，会显示自动增益控制轨迹，指示雷达回波强度，RIO可以通过这个来识别干扰目标。如果干扰目标的干扰强度超过设置的干扰阈值（由DDD面板上的JAM/JET旋钮设置），则会在TID上显示为干扰源。</p>
-<p>DDD面板上的Vc开关可以用来设置DDD上显示的目标接近率标尺。开关拨到X4位置时，接近率标尺区间被设置为800节到4000节，NORM位置时接近率标尺区间被设置为200节到1000节。VID上显示的接近率标尺区间被设置为50节到250节。多普勒滤波器的工作区间也可以通过同一面板是的ASPECT开关进行设置，开关在NOSE位置时会对迎头600节工作到1800节接近率的目标进行处理，BEAM位置时会对侧视±1200节左右接近率的目标进行处理，TAIL位置是会对尾追-1800节到600节的接近率目标进行处理。通过这个开关RIO可以根据已知目标的接近率来优化多普勒滤波器的工作，这个设置将会影响到整个雷达的工作，而Vc开关只会对DDD的显示有影响。</p>
-<p>由于雷达多普勒滤波器的工作机制，雷达会有两个盲区。主瓣杂波（MLC）区包含了大部分地面杂波，0地速目标回波也会被包含在这个范围内，本机地速±133节的266节速度区间内的目标同样会被包含在内。这就是为什么目标机可以通过3/9线机动摆脱雷达的搜索，在进行上述机动时，目标相对本机的相对速度与本机地速相近，故会被作为地面杂波滤除。当然，这种情况只会出现在雷达下视时中，因为当雷达天线仰视天空时不会有地面杂波，滤波器可以被关闭。所以如果DDD面板上的MLC滤波器开关位于AUTO位置时，当雷达天线角度处于地平线上方3°以上时，雷达会自动关闭MLC滤波器。滤波器也可以由RIO手动关闭，但如果关闭该滤波器后使用雷达下视搜索，RWS与TWS将无法使用，因为计算机会处理所有的的地面回波。不论在何种情形下，如果目标在雷达上方，那它便无法使用3/9线机动逃过AN/AWG-9的跟踪。</p>
-<p>雷达的第二个滤波器是零多普勒效应滤波器，也代表着雷达的第二个盲区，这个盲区意味着当目标正在以与本机地速接近的速度飞离本机时，雷达无法探测到该目标。该盲区的产生是由于多普勒模式的工作机制所致，因为如果目标没有多普勒频移就不会被探测到，这个盲区的区间为200节，这意味着雷达将无法跟踪为速度为本机地速±100节并在远离本机的目标，在这种情况下应该切换至脉冲模式。</p>
-<p>由于目标的相对速度会随着方位角的变化而变化，所以这两个滤波器都会随着目标方位角的变化而变化。比如说位于45° 的目标的相对速度将会小于位于0°的目标，因为其自身的速度矢量会有略微偏离。这就是为什么DDD上显示的主瓣杂波轨迹会呈现为曲线的原因。</p>
+<p>脉冲多普勒搜索模式下，DDD 以方位和接近率（接近速度）显示回波，这表示仅在 DDD 进行读数的话，RIO 只能识别目标的接近速度和方位。需要注意的是 DDD 屏幕中显示的目标接近率是相对于地面的（减去本机的空速），而不是相对本机的接近率。这就意味着正前方的目标笔直向雷达移动，DDD 将显示目标真空速，目标空速随目标方位和雷达天线的方位变化。这样做的原因是由于雷达本身只读取相对空速，之后再通过减去本机空速修改显示在 DDD 中。</p>
+<p>用来指示雷达回波强度的 AGC 轨迹将显示在 DDD 显示屏底部边缘处，从而使 RIO 通过回波的强度来识别正在对雷达进行干扰的目标。如果一个目标的干扰强度超过设定的干扰阈值的话（通过 DDD 中的 JAM/JET 旋钮设定），那么在 TID 中会显示干扰源射线来指示正在对雷达进行干扰的目标。</p>
+<p>DDD 面板中的 Vc 开关可以用来设置 DDD 中显示的尺度（显示的接近率区域）。开关拨到 X-4 档位时，接近率尺度被设置为800节离开到4000节接近。拨动开关至 NORM 档位则会将接近率标尺区间设置为200节离开到1000节接近。开关拨动到 VID 档位则会将尺度设置为50节离开到250节接近。多普勒滤波器的工作区间也可以通过位于同一面板中的 ASPECT 开关进行设置，开关在 NOSE 档位时，接近率处理窗口为600节离开到1800节接近，BEAM 档位为1200节离开到1200节接近，TAIL 档位为1800节离开到600节接近。ASPECT 开关可使 RIO 在已知目标接近率的情况下对多普勒滤波器进行最佳处理，ASPECT 开关会影响到整个雷达的滤波处理，而 Vc 开关不会，Vc 开关只影响 DDD 的显示。</p>
+<p>由于雷达操作多普勒滤波器的机制，雷达会有两个盲区。包含了大部分地速为零的地面物体的回波——主瓣杂波（MLC）区是其中一个盲区，MLC 滤波为以本机地速为中心，滤波区间宽266节（±133节）。这就是为什么目标可以通过3/9线机动摆脱雷达的搜索，当目标在进行上述机动时，目标的相对地速为0，故会被作为地面杂波滤除。但是，这种情况只会出现在雷达下视中，因为当雷达天线上视天空时不会出现地面回波，因此可以关闭滤波器。如果 DDD 面板中的 MLC 滤波器开关位于 AUTO 档位，且雷达天线仰角高于地平线3°以上时，那么雷达将会自动关闭 MLC 滤波器。滤波器也可以由 RIO 手动关闭，但是如果天线下视，在 RWS 和 TWS 模式下，可能会导致显示器无法使用，这是因为所有地面回波将会发送至计算机用于跟踪。无论在哪种情况，一旦关闭 MLC 滤波器且目标位于雷达上方，那么目标将无法使用3/9线机动来摆脱 AN/AWG-9 雷达的探测。</p>
+<p>第二个滤波器，也就是第二个盲区——零多普勒滤波器。零多普勒滤波盲区以本机地速的负接近率周围为中心，这表示滤波区域内的目标正以和本机相同的速度离开。零多普勒盲区是因为硬件限制而导致的，如果没有多普勒频移的话，多普勒雷达就无法探测到目标。零多普勒导致的结果是，盲区的区间宽200节，这意味着雷达无法探测到相对本机地速±100节的目标（目标飞离本机）。这就表示在追逐飞离本机的目标时，可能需要使用脉冲模式。</p>
+<p>由于本机相对目标的空速随方位变化，上述的两个滤波器滤波区间随方位变化。比如说位于45° 的目标的相对空速将会小于位于0°的目标，这是因为本机的速度矢量会略微偏离目标。由于地面回波的观测速度随方位的变化而变化，这就是为什么 DDD 中主瓣杂波轨迹会呈现为曲线的原因。</p>
 <div class="figure" id="id13">
 <img alt="_images/pd.png" src="_images/pd.png" />
-<p class="caption"><span class="caption-text">目标地速为900节，空速为1200节。详细信息参照下表。</span></p>
+<p class="caption"><span class="caption-text">目标地速为900节，本机空速为1200节。详细信息参照下表，视线转率是目标与本机的相对转率之和。</span></p>
 </div>
 <table border="1" class="docutils">
 <colgroup>
@@ -2020,8 +2023,8 @@
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">&#160;</th>
-<th class="head">方位角</th>
-<th class="head">视线角速度</th>
+<th class="head">视线角</th>
+<th class="head">视线转率</th>
 <th class="head">目标航向</th>
 </tr>
 </thead>
@@ -2067,32 +2070,32 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">位置4的目标有可能处于侧对或正在进行3/9线机动，所以其被MLC滤波器筛除了。如果禁用MLC滤波器，且雷达上视目标，则该目标将有可能被显示。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">位置4的目标正在侧对本机或正在进行3/9线机动，使其消失在 MLC 滤波或者 MLC 地面回波内。在禁用 MLC 滤波器且雷达上视的情况下，目标将会可见。</td>
 </tr>
 </tbody>
 </table>
-<p>此外，在所有的脉冲多普勒搜索模式中，雷达天线增稳只能使用GROUND模式，所以STAB开关在这些模式中将不起作用。</p>
+<p>此外，在所有脉冲多普勒搜索模式下，雷达仅使用相对地面稳定，因此 STAB 开关在脉冲多普勒搜索模式下是无效的。</p>
 <div class="section" id="pulse-doppler-search">
 <h5>脉冲多普勒搜索<a class="headerlink" href="#pulse-doppler-search" title="永久链接至标题">¶</a></h5>
-<p>脉冲多普勒搜索模式主要被作为一种预警模式。它是所有搜索模式中探测范围最大的，但是该模式下只能显示目标的接近率而不能显示目标距离。所以TID上不会显示任何目标跟踪信息。</p>
+<p>脉冲多普勒搜索模式主要作为预警模式使用。脉冲多普勒搜索模式是所有搜索模式下，探测距离最远的搜索模式，但是在脉冲多普勒搜索模式下无法向 RIO 提供距离，只能显示接近率。所以 TID 中不会显示任何跟踪信息。</p>
 </div>
 <div class="section" id="range-while-search-rws">
 <h5>边搜索边测距（RWS）<a class="headerlink" href="#range-while-search-rws" title="永久链接至标题">¶</a></h5>
-<p>在RWS 模式中，增加了频率测量测距功能（FM 测距），可以使雷达在该模式下除了测量目标接近率外还可以测量目标的距离。然而这一额外的数据处理意味着雷达的有效扫描距离会小一些。此模式下DDD上的显示界面与脉冲多普勒搜索模式下基本相同，但是TID也会在此模式下显示目标，并在雷达扫描到目标的同时显示目标的距离，位置和高度。TID上的目标标志最长留存2秒，当天线再次扫描这一区域时，除非再次扫描到目标，否则将会从TID上删除目标标识。可以在TID上同时显示的最大目标数量为48个。</p>
+<p>在边搜索边测距模式下，增加了频率调制测距模式（FM 测距），这可使雷达能够测量除接目标近率外还可测量跟踪目标的距离。但是，这种额外的数据测量意味着雷达有效探测距离会要缩短一些。DDD 中的成像显示与脉冲多普勒搜索模式下一致，但不同的是，在 RWS 模式下，TID 也将会显示跟踪符号，这是因为目标在被雷达扫描到时将会立刻被作为一个跟踪，并显示其位置和高度。DDD 中的目标最多显示两秒，或显示目标直到天线再次以相同的扫描线和在同样的方位扫描到目标+2秒为止，如果目标没有被再次探测到，目标将会被移除。DDD 中最多可显示48个跟踪。</p>
 </div>
 <div class="section" id="track-while-scan-tws">
 <span id="tws"></span><h5>边搜索边跟踪（TWS）<a class="headerlink" href="#track-while-scan-tws" title="永久链接至标题">¶</a></h5>
-<p>与脉冲多普勒搜索模式相比，TWS模式使用与RWS模式相同的FM测距方式，因此探测距离的减益也与RWS模式相同，DDD的显示内容也基本相同。该模式下计算机会建立跟踪文件并同时跟踪最高可达24个目标，其中18个目标可以在任何时候显示在TID上。</p>
-<p>由于计算目标位置的计算机程序需要设置2秒的目标刷新时间，所以该模式下雷达的可用方位角扫描范围与俯仰角扫描线被限制为±20°4线扫描或者±40°2线扫描。当选择TWS模式时，计算机会自动选择±20°4线扫描，并忽略RIO之前在其他模式下设置的扫描范围，除非设置的是±40°2线扫描，在这种情况下，计算机将会使用RIO设置的扫描范围。</p>
-<p>TWS模式也是允许为AIM-54提供引导以同时攻击多个目标（最多6个）的唯一模式。一旦检测到可以攻击的目标，计算机就会开始根据最佳导弹发射顺序为目标分配开火顺序。</p>
-<p>在TWS下有两个子模式，分别是TWS AUTO（自动）和TWS MANUAL（手动）。RIO可以通过DDD面板上的相应按钮选择其中一个子模式。两个子模式的区别在于，在TWS AUTO模式中，一旦目标被雷达跟踪，计算机就会接手控制雷达的扫描范围以及扫描方位角和俯仰角，并自动优化以便最大限度的跟踪优先目标。如果在启动TWS模式的时候未选择子模式，那么在发射第一枚AIM-54的时候，WCS就会自动选择TWS AUTO模式。</p>
-<p>在TWS模式中，飞行员可以通过导航提示被引导向计算机计算出的目标拦截点，该拦截点也会在TID上被显示为小X符号。</p>
-<p>有关TWS符号和导弹制导的更多信息，请参阅<a class="reference internal" href="weapons.html#twsattk"><span class="std std-ref">TWS</span></a>和<a class="reference internal" href="#tidsymb"><span class="std std-ref">TID上的符号信息</span></a>。</p>
+<p>边搜索边跟踪模式同 RWS 模式一样使用 FM 测距，所以相对脉冲多普勒搜索模式的探测距离缩减是一样的，并且 DDD 显示也和脉冲多普勒搜索一致。和 RWS 模式的主要区别在于，在 TWS 模式下，计算机可以建立跟踪文件并同时跟踪最多24个目标，并在 TID 中显示最多18个跟踪。</p>
+<p>由于计算这些跟踪的计算机程序需要将跟踪刷新时间设置为2秒，所以在 TWS 模式下雷达的可用的扫描方位角与扫描线数为 2-线扫描 ±40° 或 4-线扫描 ±20°。进入 TWS 时，计算机将会自动选择 4-线扫描 ±20°，计算机不会考虑 RIO 设置的扫描范围，除非将扫描范围设置为 2-线扫描 ±40°。</p>
+<p>TWS 模式也是唯一一个可以为 AIM-54 提供制导来攻击多个目标的模式（最多六个目标），并且一旦雷达探测到可攻击的目标，计算机将会根据最佳导弹发射顺序来为目标分配导弹优先级序号。</p>
+<p>TWS 包含有两个子模式，它们分别是 TWS AUTO（自动）和 TWS MANUAL（手动），两个子模式由 RIO 在 DDD 面板上通过对应的按钮进行选择。两个字模式的区别在于，在 TWS AUTO 模式下，一旦目标跟踪存在，扫描范围和栅状扫描的方位和高度将由计算机接管。WCS 计算机将会自动尝试最佳化扫描范围和方位以便最大限度的跟踪优先的目标。如果在发射 AIM-54 前未选择 TWS AUTO 模式，那么 WCS 将会在第一枚 AIM-54 发射后越控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。</p>
+<p>TWS 模式下，飞行员通过导航提示转向至跟踪目标的计算出的质心，并且这个质心同样会以 小X 状的十字显示在 TID 中。</p>
+<p>更多有关 TWS 标识符和导弹引导的信息，详情参见 <a class="reference internal" href="weapons.html#twsattk"><span class="std std-ref">TWS</span></a> 和 <a class="reference internal" href="#tidsymb"><span class="std std-ref">TID 标识符</span></a> 。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">TWS AUTO模式尚未实现，将在EA中加入。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">TWS AUTO 模式尚未实装，将在 EA 中加入。</td>
 </tr>
 </tbody>
 </table>
@@ -2100,77 +2103,77 @@
 <div class="section" id="pulse-doppler-single-target-track-pd-stt">
 <h5>脉冲多普勒单目标跟踪（PD STT）<a class="headerlink" href="#pulse-doppler-single-target-track-pd-stt" title="永久链接至标题">¶</a></h5>
 <img alt="_images/PDSTT.png" src="_images/PDSTT.png" />
-<p>脉冲多普勒STT模式与脉冲STT模式相似。不过与脉冲STT模式相比，它既有优点，也有缺点。虽然该模式更适合跟踪接近地面的目标，但是目标飞机可以通过3/9线机动来摆脱雷达跟踪。</p>
-<p>脉冲多普勒STT在DDD上的显示界面与脉冲STT类似，只是目标距离指示和天线角度显示移动到了屏幕的左侧，而生成的目标符号则位于正确的方位角上。与其他只显示接近率的脉冲多普勒子模式不同的是在该模式下还可以显示目标的距离。此模式下DDD上的其他符号与脉冲STT模式中的符号相同。</p>
-<p>与脉冲STT不同的是，在脉冲多普勒STT模式下AN/AWG-9可以向导弹发送制导指令，从而在这个模式下为AIM-7和AIM-54提供制导。在此模式下导弹可以达到最大射程，但在使用AIM-54时，仅能同时攻击一个目标。</p>
+<p>脉冲多普勒 STT 模式与脉冲 STT 模式相似。就像其它脉冲多普勒模式对比脉冲模式一样，脉冲多普勒 STT 相比脉冲 STT 来说，既有优点也有缺点。这意味着，虽然脉冲多普勒 STT 模式可以更好的跟踪接近地面的目标，但是这个模式容易收到3/9线机动的影响。</p>
+<p>DDD 中的脉冲多普勒 STT 显示和脉冲 STT 显示相似，除了在脉冲多普勒 STT 模式下，目标回波将和天线方位被移动到了屏幕左侧，并且生成出的合成目标标记是显示在正确的方位上的。这样一来，就和其他仅显示接近率的脉冲多普勒模式不同，合成目标的距离还可以被显示出来。在脉冲多普勒 STT 模式下， DDD 中的其它标识符和脉冲 STT 模式下的一致。</p>
+<p>不像脉冲 STT 模式，AN/AWG-9 雷达可以在脉冲多普勒 STT 模式下向导弹发送制导指令，从而使 AIM-7 和 AIM-54 在脉冲多普勒模式下发射。脉冲多普勒 STT 模式是导弹发射距离最远的模式，但缺点是，AIM-54 在这个模式下发射，一次只能攻击一个目标。</p>
 </div>
 </div>
 <div class="section" id="transitional-modes">
 <h4>过渡模式<a class="headerlink" href="#transitional-modes" title="永久链接至标题">¶</a></h4>
-<p>该模式指雷达从搜索模、ACM模式、或通过隶属于TCS而进入STT模式或者在两种STT模式之间过渡的模式。</p>
+<p>过渡模式是用于从搜索模式、ACM 模式、通过 TCS 或两个 STT 模式之间过渡的模式。</p>
 <div class="section" id="hcu-stick-in-radar-mode">
-<h5>雷达模式下的HCU控制杆<a class="headerlink" href="#hcu-stick-in-radar-mode" title="永久链接至标题">¶</a></h5>
-<p>当AN/AWG-9雷达工作在不同搜索模式下时，可以手动使用HCU控制杆在DDD上选择目标并进行STT锁定。</p>
-<p>在雷达模式下按下HCU控制杆扳机的第一段，会在DDD上显示雷达游标，并启动雷达的超级搜索模式。在这个模式下，天线会在雷达游标周围选定的扫描行数（bar）上进行±10°的扫描。</p>
-<p>同时，HCU可以控制目标扫描的位置，控制杆的X轴用于控制方位角，Y轴用于控制扫描距离或者接近率，具体功能取决于当前处于脉冲模式还是脉冲多普勒模式。然后使用HCU控制杆上的扫描角度控制旋钮对天线角度进行微调，直到在雷达游标内可以看到目标回波。此时按下控制杆扳机的第二段，可以命令雷达在当前方位角，俯仰角和距离/速率上尝试锁定。</p>
-<p>如果雷达成功锁定目标，则会切换到相应的STT模式，并且DDD面板上指示雷达锁定的指示灯会亮起。如果是在脉冲搜索模式，则会转换为脉冲STT，如果在任意一个脉冲多普勒搜索模式，则会转换为脉冲多普勒STT。</p>
+<h5>RDR 模式下的 HCU 控制杆<a class="headerlink" href="#hcu-stick-in-radar-mode" title="永久链接至标题">¶</a></h5>
+<p>当在不同搜索模式下使用 AN/AWG-9 雷达时，在 HCU 功能按钮选择 RDR 模式时可以使用 HCU 手动选定 DDD 中的目标来 STT 锁定。</p>
+<p>当 HCU 功能按键选择 RDR 模式下，按下 HCU 扳机第一段将会在 DDD 中显示截获门，并启用雷达超级搜索模式。在超级搜索模式下，天线在截获门周围以选定的扫描线数和±10°扫描方位角进行栅状扫描。</p>
+<p>截获门可以通过 HCU 偏转至探测到的目标上，控制杆向左/向右控制截获门方位偏转，控制杆向上/向下根据选择的是脉冲或还是脉冲多普勒模式，用来控制距离或接近率偏转。接着，使用 HCU 控制杆中的 ELEV 拨轮来微调天线仰角，直到将截获门置于目标回波上方。届时 RIO 可以按下 HCU 扳机第二段来指令雷达在指定的方位门、距离门/接近率门和仰角尝试锁定。</p>
+<p>如果雷达成功锁定一个目标，那么雷达将会转换至相应的 STT 模式，DDD 中对应的指示灯也将会亮起。如果从脉冲搜索转换至 STT，那么将使用脉冲 STT 模式；如果从任何脉冲多普勒搜索模式转换至 STT，那么将使用脉冲多普勒 STT。</p>
 </div>
 <div class="section" id="tws-stt-acquisition">
-<h5>TWS STT 获取目标<a class="headerlink" href="#tws-stt-acquisition" title="永久链接至标题">¶</a></h5>
-<p>在TWS模式中，可以通过在TID上选择一个目标，然后在DDD面板上选择脉冲STT或者脉冲多普勒STT来尝试锁定该目标。WCS计算机会命令雷达天线转向该目标的方位，距离和高度并进入超级搜索模式，并尝试锁定。</p>
-<p>与手动操作HCU锁定目标不同，这个过程是完全自动的，但是其锁定目标的成功率也低于手动操作。</p>
+<h5>TWS STT 截获<a class="headerlink" href="#tws-stt-acquisition" title="永久链接至标题">¶</a></h5>
+<p>在 TWS 模式下，RIO 可以通过在 TID 中选中一个跟踪，接着在 DDD 面板中按下脉冲 STT 按钮或脉冲多普勒 STT 按钮来尝试进行 STT 锁定。按下脉冲 STT 按钮或脉冲多普勒 STT 按钮后 WCS 计算机将指令天线以超级搜索模式在选中目标的方位门、距离门/接近率门和仰角上尝试锁定目标（前提是雷达探测到目标）。</p>
+<p>与手动控制 HCU 来锁定目标不同，这个过程是完全自动的，但是其锁定目标的成功率也低于手动控制 HCU 来锁定目标。</p>
 </div>
 <div class="section" id="acm-modes">
 <h5>ACM 模式<a class="headerlink" href="#acm-modes" title="永久链接至标题">¶</a></h5>
-<p>AN/AWG-9雷达拥有三种不同的ACM获取目标方式。飞行员锁定模式（PLM）、垂直扫描锁定模式（VSL）和手动快速锁定（MRL）。</p>
-<p>ACM模式会以优先级顺序排列，优先级较高的模式会被优先使用。这意味着PLM模式总是被优先使用的，PLM优先于VSL；VSL优先于PAL；PAL优先于PLM之外的其他模式。</p>
-<p>除了PLM模式以外，所有的模式都可以通过RIO在HCU控制杆上按下第一段扳机并松开来退出，PLM模式则需要飞行员松开PLM按钮来退出。</p>
+<p>AN/AWG-9 雷达拥有三种不同的 ACM 截获模式。飞行员锁定模式（PLM）、垂直扫描锁定模式（VSL）和手动快速锁定（MRL）。</p>
+<p>ACM 模式是以优先级顺序列出的，优先级较高的模式会越控其它优先级较低的模式。这意味着 PLM 模式始终越控 VSL 以及优先级更低的模式，VSL 模式越控 PAL 和优先级更低的模式，但是不会越控 PLM，依此类推。</p>
+<p>除了 PLC 模式外，所有 ACM 模式可以通过 RIO 按下并释放 HCU 扳机第一段来退出，PLM 模式将一直启用直到飞行员释放 PLM 按钮。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/Ujk4hL_EnUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
 </div>
 <div class="section" id="pilot-lockon-mode-plm">
 <h6>飞行员锁定模式（PLM）<a class="headerlink" href="#pilot-lockon-mode-plm" title="永久链接至标题">¶</a></h6>
 <img alt="_images/plm.png" src="_images/plm.png" />
-<p>PLM是优先级最高的ACM模式，飞行员按下右油门杆前面的PLM按钮可以启用这个模式。该模式下可以将雷达天线隶属于武器基准线（ADL），并尝试锁定5海里内的第一个目标。</p>
-<p>该模式下飞行员需要将ADL标记对准目标上方，然后按住PLM按钮直到锁定目标。锁定目标后会自动转换到脉冲STT模式。若未锁定目标，松开PLM按钮会退出该模式，雷达将转换到脉冲搜索模式。</p>
+<p>PLM 是 ACM 模式中优先级最高的模式，PLM 模式始终会越控其它雷达模式，当飞行员按下右发油门上的 PLM 按钮时将启用 PLM 模式。按下 PLM 按钮将会指令天线对准武器基准线（ADL），并使雷达尝试锁定5海里内的第一个看到的目标。</p>
+<p>因此，使用 PLM 的方法就是飞行员将 HUD 中的 ADL 标记置于目标上方，然后按下 PLM 按钮直到目标锁定。PLM 将会保持启用直到探测到目标并转换至脉冲 STT，或直到飞行员释放 PLM 按钮使雷达转换回脉冲搜索。</p>
 </div>
 <div class="section" id="vertical-scan-lockon-vsl">
 <span id="vsl"></span><h6>垂直扫描锁定模式（VSL）<a class="headerlink" href="#vertical-scan-lockon-vsl" title="永久链接至标题">¶</a></h6>
 <a class="reference internal image-reference" href="_images/vsl.png"><img alt="_images/vsl.png" src="_images/vsl.png" style="width: 500px; height: 800px;" /></a>
-<p>VSL模式可以由飞行员或者RIO启动，用于锁定飞机当前航向下纵向-15°到+55°的目标。RIO可以使用传感器控制面板上的VSL开关选择低目标（LO）或者高目标（HI）这两个子模式。当不处于A/G模式时，驾驶员可以使用目标选择开关的上/下来选择VSL高（HI）和VSL低（LO）</p>
-<p>该模式下天线的扫描宽度为5°，如果处于高目标模式（HI），将扫描垂直范围内+15°到+55°的目标，如果处于低目标模式（LO），则会扫描-15°到+25°范围内的目标。当处于VSL模式下进行搜索时，HUD上会显示一个菱形符号，该符号会随着雷达天线的视线移动。</p>
-<p>当在5海里内锁定目标时，雷达会切换为脉冲STT模式，否则将继续VSL搜索，直到选择另一种模式。</p>
+<p>VSL 模式可以由飞行员或者 RIO 启用，VSL 模式用于锁定飞机当前航向上仰角-15°到+55°的目标。RIO 可以使用传感器控制面板上 VSL 开关选择 VSL 模式。RIO 可以通过将传感器控制面板中的 VSL 开关拨至 VSL HI（高目标）档位或 VSL LO（低目标）档位并释放来选择这两个子模式。在 A/G 以外的模式下，飞行员可以使用目标指定开关 UP 或 DN 分别启用 VSL HI 或 VSL LO。</p>
+<p>启用 VSL 将命令天线以宽5°的圆形扫描覆盖范围进行垂直扫描。如果启用 VSL HI （高目标），那么扫描的垂直覆盖范围为+15°到+55°；如果启用 VSL LO（低目标），那么扫描的垂直覆盖范围为-15°到+25°。VSL 通过随天线视线移动的菱形在 HUD 中指示出来，菱形用来指示天线视线当前的位置。</p>
+<p>当探测到5海里内的目标时，雷达将转换至脉冲 STT 模式，否则将继续执行 VSL 直到选择其他模式。</p>
 </div>
 <div class="section" id="pilot-automatic-lockon-pal">
 <h6>飞行员自动锁定模式（PAL）<a class="headerlink" href="#pilot-automatic-lockon-pal" title="永久链接至标题">¶</a></h6>
-<p>当不在A/G模式下时，飞行员可以通过选择目标指定开关上的DES来启动PAL模式。</p>
-<p>PAL模式下天线会进行±20度的8线扫描，并锁定15海里内探测到的第一个目标，该模式下HUD上会显示一个随雷达天线视线移动的菱形。</p>
+<p>在 A/G 模式以外时，飞行员可通过使用目标指定开关选择 DES 档位来启用 PAL 模式。</p>
+<p>PAL 模式将指令天线进行8线 ±20°栅状扫描，并锁定15海里内探测到的第一个目标。PAL 模式由 HUD 中，随天线视线移动的菱形指示，菱形用来指示天线实现当前的位置。</p>
 </div>
 <div class="section" id="manual-rapid-lockon-mrl">
 <span id="mrl"></span><h6>手动快速锁定（MRL）<a class="headerlink" href="#manual-rapid-lockon-mrl" title="永久链接至标题">¶</a></h6>
 <a class="reference internal image-reference" href="_images/mrl.png"><img alt="_images/mrl.png" src="_images/mrl.png" style="width: 400px; height: 300px;" /></a>
-<p>手动快速锁定模式（MRL）允许RIO在天线扫描范围内快速锁定一个5海里内的目标，当RIO按下HCU控制杆右侧的MRL按钮时，雷达会启动一个扫描距离为5海里，俯仰角为1线的超级搜索模式。</p>
-<p>此时可以通过HCU控制杆控制这个超级搜索模式的扫描方位角与俯仰角（X轴控制方位角，Y轴控制俯仰角）。DDD会以5海里的距离显示当前的超级搜索模式，扫描模式的边缘还有两条用来指示当前扫描角度的刻度线。</p>
-<p>当发现目标时，RIO可以按下HCU控制杆扳机第二段来锁定目标并切换到脉冲STT模式。如何进入MRL模式后按下控制杆扳机第一段并松开，雷达将会返回脉冲搜索模式。</p>
+<p>手动快速锁定模式（MRL）允许 RIO 在天线环架极限内快速锁定一个5海里内的目标。按下 HCU 控制杆右侧的 MRL 按钮将会命令雷达启用1线、锁定距离为5海里内的目标的超级搜索。</p>
+<p>HCU 控制杆用来控制超级搜索栅状扫描的方位和仰角（X 轴控制方位，Y 轴控制仰角）。DDD 中将会显示超级搜索的栅状扫描，DDD 显示的尺度为5海里，并且在栅状扫描的边缘处还显示了两个刻度标记，刻度标记用来指示当前天线的仰角。</p>
+<p>当 DDD 中显示出目标时，RIO 可按下扳机第二段来截获目标并转换至脉冲 STT。如果在进入 MRL 后 RIO 仅按下扳机第一段并释放，那么雷达将会返回脉冲搜索模式。</p>
 </div>
 </div>
 <div class="section" id="tcs-slave-radar-acquisition">
-<h5>雷达隶属于TCS获取目标<a class="headerlink" href="#tcs-slave-radar-acquisition" title="永久链接至标题">¶</a></h5>
-<p>TCS可以在雷达进行正常搜索目标的时候独立进行测角并跟踪目标。当通过传感器控制面板选择将雷达隶属于TCS（SLAVE开关位于RDR位置）时，雷达天线将指向TCS当前视线的方向。</p>
-<p>此时可以先按下HCU控制杆扳机第一段操作TCS锁定目标，然后按下扳机第二段，此时雷达会尝试锁定TCS目标并切换到脉冲STT模式或者脉冲多普勒STT模式（取决于之前正在运行的模式）。也可以使用DDD面板上的P STT按钮和PD STT按钮进行切换。</p>
-<p>值得一提的是这个模式下由TCS而非雷达对目标进行测角。雷达仍然用于跟踪目标距离和速率，DDD面板上IROT指示灯取代ANT ROT指示灯亮起。IROT指红外跟踪，在F-14B上IROT已经被TCS所取代。</p>
-<p>该模式下可以对导弹进行制导，根据当前的雷达模式的不同（脉冲STT模式或者脉冲多普勒STT模式），可以使用的武器也有不同。如果在此时将SLAVE开关拨到INDEP位置，雷达系统将会根据当前模式恢复为脉冲STT或者脉冲多普勒STT模式，并独立运行。</p>
+<h5>雷达隶属于 TCS 截获目标<a class="headerlink" href="#tcs-slave-radar-acquisition" title="永久链接至标题">¶</a></h5>
+<p>TCS 可用于对目标进行角跟踪并同时使用雷达对目标距离和接近率进行跟踪。当通过传感器控制面板开关设置雷达隶属于 TCS 视线时（SLAVE 开关设置为 RDR 档位），雷达仍启用但是当 TCS 正在跟踪一个目标时，雷达将指向 TCS 视线，而不是进行扫描。</p>
+<p>此时可以按下 HCU 控制杆扳机第一段，然后将捕获门置于目标上方，接着按下扳机第二段。根据先前所选的搜索模式，按下扳机第二段后将会使雷达以脉冲多普勒模式或脉冲模式隶属至目标。可以使用 DDD 面板中的 P STT 按钮和 PD STT 按钮来切换 STT 模式。</p>
+<p>雷达进入子模式的结果是和 STT 模式一致的，在这个子模式下，TCS 代替雷达本身用来对目标进行角跟踪。雷达仍然可用于对目标进行距离和接近率跟踪，在 DDD 中，IROT 将代替 ANT ROT 亮起，IROT 和红外跟踪有关，但是 F-14B 中红外跟踪已被 TCS 替代。</p>
+<p>雷达隶属于 TCS 子模式可以为导弹提供制导，雷达在脉冲模式下使用主动模式发射和连续波模式来为导弹制导，在脉冲多普勒模式下则为 PD 模式为导弹提供制导。如果从子模式将 SLAVE 设置为 INDEP 档位，那么系统将会根据当前的 STT 模式恢复至真脉冲 STT 或真脉冲多普勒 STT。</p>
 </div>
 <div class="section" id="transition-between-the-two-stt-modes">
-<h5>两种STT模式之间的切换<a class="headerlink" href="#transition-between-the-two-stt-modes" title="永久链接至标题">¶</a></h5>
-<p>在有需要的情况下，可以按下相应按钮在脉冲STT和脉冲多普勒STT之间切换，如果切换失败，雷达会恢复到与其对应的搜索模式。（如果选择切换到脉冲STT模式，失败后会恢复为脉冲搜索模式，反之亦然。）</p>
+<h5>两种 STT 模式之间的转换<a class="headerlink" href="#transition-between-the-two-stt-modes" title="永久链接至标题">¶</a></h5>
+<p>在有需要的情况下，可以按下相应按钮在脉冲 STT 和脉冲多普勒 STT 之间切换。如果切换失败，雷达会恢复到 STT 相应的搜索模式。（如果选择切换到脉冲 STT 模式，失败后会恢复为脉冲搜索模式，反之亦然。）</p>
 </div>
 </div>
 <div class="section" id="transition-back-to-search">
 <h4>切换回搜索模式<a class="headerlink" href="#transition-back-to-search" title="永久链接至标题">¶</a></h4>
-<p>如果RIO希望返回搜索模式，他可以按下HCU控制杆扳机第一段并松开，雷达将返回脉冲搜索模式（如果在脉冲STT模式中）或者脉冲多普勒搜索模式（如果在脉冲多普勒STT模式中）。</p>
-<p>如果雷达在STT模式中丢失目标并且无法重新锁定，则会返回相应的搜索模式，就像RIO手动切换回搜索模式那样。</p>
-<p>VSL和MRL模式下也可以通过这个方法返回搜索模式，但是因为PLM优先级最高，所以退出PLM模式的唯一方法是锁定目标后切换到脉冲STT模式，或者（在没有锁定任何目标的情况下）飞行员再次按下PLM按钮来让雷达返回脉冲搜索模式。</p>
+<p>如果 RIO 向切换回搜索模式，那么 RIO 需要按下扳机第一段并释放，这将会使雷达返回脉冲搜索模式（如果在脉冲 STT 模式下）和脉冲多普勒模式（如果在脉冲多普勒 STT 下）。</p>
+<p>如果雷达在 STT 模式下失去目标锁定并且无法重新截获的话，就像 RIO 通过按下扳机第一段一样，雷达将返回 STT 相应的搜索模式。</p>
+<p>当处在 VSL 或 MRL 模式时也可以通过这个方法来返回搜索模式，由于 PLM 优先级最高，所以取消选择 PLM 模式的唯一方法是锁定目标后切换到脉冲 STT 模式然后返回搜索模式或者飞行员再次按下 PLM 按钮来告知雷达返回脉冲搜索模式。</p>
 </div>
 </div>
 </div>
@@ -2179,8 +2182,8 @@
 <p>AN/APX-76 IFF（敌我识别系统）问询器集成进了 AN/AWG-9 运作之中。而问询器天线本身位于 AN/AWG-9 天线环架的平台上。</p>
 <p>IFF 系统的工作原理是发射一个问询脉冲，然后监听应答机传回的脉冲。除了非加密民用模式外，AN/APX-76 还可以在加密的军用模式（mode 4）下进行问询。由此一来，这将可以确定目标在 mode4 问询下进行应答的是友机。</p>
 <p>AN/APX-76 可以在搜索模式或 STT 模式中使用。如需启用问询，按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 中的 IFF 按钮，按下后将会启用问询器，按住 IFF 按钮最长只会启用问询器10秒。</p>
-<p>启用 IFF 后，收到的 IFF 返回脉冲将会叠加显示在 DDD 中 AN/WAG-9 雷达的正常接触上。友方目标将会显示两根横线，一个在正常雷达接触上方，一个在下方。由于 AN/APX-76 是一个独立雷达、是和 AWG-9 分隔开来的雷达，因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 返回中不会有雷达接触符号。</p>
-<p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从正常显示距离切换至 ±10 NM，从而使得密集编队目标的多个 IFF 返回。</p>
+<p>启用 IFF 后，收到的 IFF 返回脉冲将会叠加显示在 DDD 中 AN/WAG-9 雷达的一般接触上。友方目标将会显示两根横线，一个在一般雷达接触上方，一个在下方。由于 AN/APX-76 是一个独立雷达、是和 AWG-9 分隔开来的雷达，因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 返回中不会有雷达接触符号。</p>
+<p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从一般显示距离切换至 ±10 NM，从而使得密集编队目标的多个 IFF 返回。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/YG7sWweg2RQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -2193,7 +2196,7 @@
 </div>
 <p>电视摄像套件，或称为 TCS，是为了替代早期 F-14A 战斗机所搭载的 IRST 而制造的。在军方发现 IRST 能力不足后，决定使用 TCS 替换原有的 IRST，以赋予 F-14 战机远程目视识别能力。</p>
 <p>TCS 位于雷达天线罩的后下方，正好在前轮轮舱的前方。TCS 包含相对飞机稳定的高分辨率闭路电视摄像机（相对当时来说）。传感器有两种视场（FOV），第一种是窄视场（NFOV）——视场 0.44°或10X 放大率，以及宽视场（WFOV）视场为 1.42°或4X 放大率。除了向上角度限制为+11°外，环架运动的限制为 +/- 15°，并且 TCS 拥有单独的对比度锁定或隶属至 AN/AWG-9 雷达的能力。</p>
-<p>TCS 可由 RIO 通过传感器控制面板、DDD、TID 和 HCU 来控制。传感器的视频可以显示在 TID 以及前座的 VDI 中。此外，视频还可以通过机载磁带录像机来进行录制，以便事后观看。（DCS 中尚未实现）</p>
+<p>TCS 可由 RIO 通过传感器控制面板、DDD、TID 和 HCU 来控制。传感器的视频可以显示在 TID 以及前座的 VDI 中。此外，视频还可以通过机载录像机来进行录制，以便事后观看。（DCS 中尚未实现）</p>
 <div class="section" id="tcs-controls-and-symbology">
 <h3>TCS 控制和标识<a class="headerlink" href="#tcs-controls-and-symbology" title="永久链接至标题">¶</a></h3>
 <p>TCS 的控制器位于 RIO 驾驶舱中的传感器控制面板上，DDD 和 HCU/TID 上。飞行员显示控制面板中包含了一个开关可允许选择在 VDI 中显示 TCS 视频。</p>
@@ -2201,17 +2204,17 @@
 <h4>传感器控制面板<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h4>
 <img alt="_images/scp.png" src="_images/scp.png" />
 <p>传感器控制面板上用于控制 TCS 的控制器有： TCS 调整旋钮、SLAVE 开关、FOV 开关 、目标捕获开关 ACQ 。</p>
-<p><em>TCS TRIM*</em> 旋钮用于控制 TCS 传感器的视线（LOS），校正相对于 AN/AWG-9 雷达的视线。如果有需要，可以使用这个旋钮来调整 TCS，使得两个传感器的视线相重合。TCS 调整旋钮的运动范围为 ±2°，检查和校正 TCS 最简单的方法是使用 STT 锁定一个友方目标，并通过调整旋钮直到 TCS LOS 正确地瞄准了锁定的目标为止。</p>
-<p><strong>SLAVE</strong> 开关主要用来控制传感器的隶属关系。如果设置到 <strong>RDR</strong> 档位，雷达将会隶属至 TCS 直到光学跟踪丢失为止。如果设置为 <strong>INDEP</strong> ，则各传感器会独立工作。如果将开关设置为 <strong>TCS</strong> 档位，TCS 将隶属至雷达 LOS 直到 STT 脱锁为止。</p>
+<p><strong>TCS TRIM</strong> 旋钮用于控制 TCS 传感器的视线（LOS），校正相对于 AN/AWG-9 雷达的视线。如果有需要，可以使用这个旋钮来调整 TCS，使得两个传感器的视线相重合。TCS 调整旋钮的运动范围为 ±2°，检查和校正 TCS 最简单的方法是使用 STT 锁定一个友方目标，并通过调整旋钮直到 TCS LOS 正确地瞄准了锁定的目标为止。</p>
+<p><strong>SLAVE</strong> 开关主要用来控制传感器的从属关系。如果设置到 <strong>RDR</strong> 档位，雷达将会隶属至 TCS 直到光学跟踪丢失为止。如果设置为 <strong>INDEP</strong> ，则各传感器会独立工作。如果将开关设置为 <strong>TCS</strong> 档位，TCS 将隶属至雷达 LOS 直到 STT 脱锁为止。</p>
 <p><strong>FOV</strong> ，视场开关用于控制 TCS 使用哪种 FOV。<strong>WIDE</strong> 档位将视场设置为 1.42°，4X 放大率，而 <strong>NAR</strong> 档位将视场设置为 0.44°, 10X 放大率。</p>
-<p>最后—— <strong>ACQ</strong> 开关，捕获开关用于控制 TCS 使用的截获模式。选择 <strong>AUTO SRCH</strong> 档位将启用带有搜索模式的自动截获模式，此模式中即使目标在当前 FOV 外，也能够截获最近的目标。选择 <strong>MAN</strong> 档位则使用 HCU 纯手动直接指向所需的目标。选择 <strong>AUTO</strong> 档位将使用无搜索模式的自动截获模式，选择后将使得 TCS 捕获 FOV 内的目标。</p>
+<p>最后—— <strong>ACQ</strong> 开关，捕获开关用于控制 TCS 使用的捕获模式。选择 <strong>AUTO SRCH</strong> 档位将启用带有搜索模式的自动捕获模式，此模式中即使目标在当前 FOV 外，也能够捕获最近的目标。选择 <strong>MAN</strong> 档位则使用 HCU 纯手动直接指向所需的目标。选择 <strong>AUTO</strong> 档位将使用无搜索模式的自动捕获模式，选择后将使得 TCS 可以自动捕获 FOV 内的目标。</p>
 </div>
 <div class="section" id="ddd">
 <h4>DDD<a class="headerlink" href="#ddd" title="永久链接至标题">¶</a></h4>
 <img alt="_images/ddd.png" src="_images/ddd.png" />
 <p>DDD 中包含两个与 TCS 相关的指示器。</p>
-<p>只要在 HCU 上选择 IR/TV 模式， <strong>DDD EL</strong> 仪表就会显示 TCS LOS 的高度角。</p>
-<p><strong>IROT</strong> 灯指示 TCS 正在跟踪。缩写 IROT 是从被 TCS 所取代的 IRST 继承下来的。</p>
+<p>只要在 HCU 上选择 IR/TV 模式， <strong>DDD EL</strong> 仪表就会显示 TCS LOS 的仰角。</p>
+<p><strong>IROT</strong> 指示灯亮起表示 TCS 正在跟踪目标。缩写 IROT 是从被 TCS 所取代的 IRST 继承下来的。</p>
 </div>
 <div class="section" id="hcu-tid">
 <h4>HCU/TID<a class="headerlink" href="#hcu-tid" title="永久链接至标题">¶</a></h4>
@@ -2221,12 +2224,12 @@
 <p>电源开关旁的指示灯亮起表示 TCS 超温。如果这个灯光亮起，应该关闭 TCS 的电源以防止系统损坏。</p>
 <p>HCU 控制杆一旁的 <strong>IR/TV</strong> 按钮用来启用 HCU 控制杆来操纵 TCS 传感器，按下扳机第一段来手动操纵传感器 LSO，按下扳机第二段来指令捕获目标。</p>
 <p>在 TID 控制面板上，转动 <strong>TID MODE</strong> 至 <strong>TV</strong> 档位将启用 TCS 视频显示在 TID 中。请注意，这同时会禁用 HSD 中的 TID 复显。</p>
-<p>最后，位于导航控制与数据读数面板上的 <strong>CONTRAST</strong> 和 <a href="#id1"><span class="problematic" id="id2">**</span></a>BRIGHTNESS**旋钮可用于控制显示在 TID 中的 TCS 视频。</p>
+<p>最后，位于导航控制与数据读数面板上的 <strong>CONTRAST</strong> 和 <strong>BRIGHTNESS</strong> 旋钮可用于控制显示在 TID 中的 TCS 视频。</p>
 </div>
 <div class="section" id="symbology">
 <h4>标识<a class="headerlink" href="#symbology" title="永久链接至标题">¶</a></h4>
 <img alt="_images/symbology.png" src="_images/symbology.png" />
-<p>TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上位于末端的1.5英寸的频闪空心圆指示。</p>
+<p>TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上的1.5英寸长的射线和空心圆指示。</p>
 <p>TCS 输出视频中的标识符包括了 FOV 指示器和两个十字准星，十字准星分别指示了相对本机的 TCS LOS—— <strong>GACH</strong> ，以及相对于 AN/AWG-9 雷达 LOS 的 TCS LOS—— <strong>RACH</strong> 。此外，跟踪窗口由4个小正方形指示，每个小正方形对应跟踪窗口的一角。</p>
 <p>在宽 FOV 中将会显示视场线条，视场线条表示当切换为窄视场时可见区域的大小。视场线条由两条平行的线组成，这两条平行线构成了虚构“框”的边，这个虚构“框”用来指示窄 FOV 的大小。</p>
 <p>环架角度十字准星或称为 <strong>GACH</strong> ，这个十字准星为实线，用来指示相对于武器基准线（ADL）TCS LOS 的偏转。中心的 GACH 十字准星指示 TCS LOS 指向 ADL，GACH 向边缘偏转表示正在朝环架限制偏转，视频的边缘便是最大偏转角度。</p>
@@ -2236,10 +2239,10 @@
 </div>
 <div class="section" id="tcs-operation">
 <h3>TCS 操作<a class="headerlink" href="#tcs-operation" title="永久链接至标题">¶</a></h3>
-<p>TCS 的所有捕获模式都有一个共同点，那就是可以在 IR/TV 模式下使用 HCU 来控制 TCS。选择 HCU 中的 IR/TV 按钮将启用这个模式，同时将设置 DDD EL 指示器（右侧指示器）为显示当前 TCS 传感器 LOS 高度角。按下扳机第一段将启用 HCU 来直接控制 TCS LOS，按下扳机第二段将指令使用所选择捕获模式来进行目标捕获。</p>
+<p>TCS 的所有捕获模式都有一个共同点，那就是可以在 IR/TV 模式下使用 HCU 来控制 TCS。选择 HCU 中的 IR/TV 按钮将启用这个模式，同时将设置 DDD EL 指示器（右侧指示器）为显示当前 TCS 传感器 LOS 仰角。按下扳机第一段将启用 HCU 来直接控制 TCS LOS，按下扳机第二段将指令使用所选择捕获模式来进行目标捕获。</p>
 <p>手动 TCS 捕获模式—— <strong>MAN</strong> ，表示必须使用 HCU 按下扳机第一段来将跟踪窗口置于目标上方，然后按下扳机第二段。如果成功捕获到了目标，跟踪窗口将扩展来框住目标，并开始跟踪。</p>
 <p>自动捕获模式下—— <strong>AUTO</strong> ，按下扳机第一段和手动相同，但是当按下扳机第二段进行捕获时，TCS 将会自动尝试锁定在当前 FOV 中离中心最近的目标。自动搜索捕获模式—— <strong>AUTO SRCH</strong> ，通过启用在指令 FOV 周围的搜索模式（通过移动传感器 LOS）来捕获发现的第一个目标，以此来进一步增强自动捕获模式。</p>
-<p>当使用 TCS 隶属至雷达时，两个自动模式将会自动尝试锁定 STT 目标（一旦存在），TCS 将被转动至锁定的目标上，从而实现对 STT 锁定目标的全自动跟踪。此外，一旦从 STT 锁定中捕获了一个跟踪，TCS 将会对 TCS 自身的 LOS 和雷达的 LOS 进行比较来检查是否锁定了正确的目标，如果在3秒窗口内，两者的 LOS 相差超过一定读数，TCS 将会尝试新的捕获。手动模式下同样也会隶属至雷达，不过并不会锁定目标，而是仅跟随雷达的 LOS。</p>
+<p>当使用 TCS 隶属至雷达时，两个自动模式将会自动尝试锁定 STT 目标（一旦存在），TCS 将被转动至锁定的目标上，从而实现对 STT 锁定目标的全自动跟踪。此外，一旦从 STT 锁定中捕获了一个跟踪，TCS 将会对 TCS 自身的 LOS 和雷达的 LOS 进行比较来检查是否锁定了正确的目标，如果在3秒窗口内，两者的 LOS 相差超过一定度数，TCS 将会尝试新的捕获。手动模式下同样也会隶属至雷达，不过并不会锁定目标，而是仅跟随雷达的 LOS。</p>
 <p>当没有隶属至雷达时，如需解锁跟踪的目标，按下扳机第一段并释放。</p>
 <p>有关 RDR 隶属至 TCS 的信息，请参阅本章中 AN/AWG-9 部分下的相关介绍。</p>
 </div>
@@ -2267,7 +2270,7 @@
 <img alt="_images/FLIR.png" src="_images/FLIR.png" />
 <p>本机数据显示在左上角（ <strong>1</strong> ），显示位置、高度、地速以及俯仰角（dive）。</p>
 <p>视频左侧（ <strong>2</strong> ），显示当前吊舱正在使用白热还是黑热（WHOT 和 BHOT），以及是否使用了 AGC（自动增益控制）或 MGC（手动增益控制）。</p>
-<p>左下角的数据（ <strong>3</strong> ）显示的是吊舱信息，SR——斜距（视线距离）、AZ 和 EL 为吊舱视线相对 ADL 的方位和高度角（AZ 则有字母 L 或 R 表示视线在飞机航向左侧或右侧）。位于AZ 和 EL 下方的是当前的 UTC 时间，再向下为 IBIT 代码。</p>
+<p>左下角的数据（ <strong>3</strong> ）显示的是吊舱信息，SR——斜距（视线距离）、AZ 和 EL 为吊舱视线相对 ADL 的方位和仰角（AZ 则由字母 L 或 R 表示视线在飞机航向左侧或右侧）。位于AZ 和 EL 下方的是当前的 UTC 时间，再向下为 IBIT 代码。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -2778,11 +2781,11 @@
 </div>
 </div>
 <div class="section" id="an-ale-39-countermeasures-dispensing-set">
-<h2>AN/ALE-39 对抗布撒套件<a class="headerlink" href="#an-ale-39-countermeasures-dispensing-set" title="永久链接至标题">¶</a></h2>
-<p>DCS 中模拟的 F-14B 搭载的是 AN/ALE-39 对抗布撒套件。AN/ALE-39 控制着位于发动机喷口之间“河狸尾巴”下方的布撒器的套件。</p>
+<h2>AN/ALE-39 对抗弹射套件<a class="headerlink" href="#an-ale-39-countermeasures-dispensing-set" title="永久链接至标题">¶</a></h2>
+<p>DCS 中模拟的 F-14B 搭载的是 AN/ALE-39 对抗弹射套件。AN/ALE-39 控制着位于发动机喷口之间“河狸尾巴”下方的布撒器的套件。</p>
 <p>每个布撒器包含两个部分，一个中含有10发干扰弹，另外一个部分则为20发。布撒器被称为左布撒器和右布撒器，即使实际上是前后布撒器，两个布撒器安装在拦阻钩的左侧。这实际上是沿用了 F-14 早期型号中 AN/ALE-29 的叫法。</p>
-<p>系统中总共可装填60发干扰弹，每个部分必须装填同一种类型的干扰弹，也就是说只要每种类型的干扰弹只要是10的倍数，那么任何组合都是可能的。系统本身不知道填装了哪种干扰弹，因此错误的编程可能使得系统布撒错误的干扰弹类型。</p>
-<p>系统本身可由 RIO 驾驶舱中的控制面板或当襟翼控制杆处于收起档位时通过飞行员驾驶杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行布撒，布撒程序可由 RIO 从控制面板或 DDD 上方握把中的苦力帽来启动。另外，如果在 AN/ALE-39 控制面板正确地设置了箔条布撒程序，那么 AN/ALE-67 也可以启动箔条布撒程序。</p>
+<p>系统中总共可装填60发干扰弹，每个部分必须装填同一种类型的干扰弹，也就是说只要每种类型的干扰弹只要是10的倍数，那么任何组合都是可能的。系统本身不知道填装了哪种干扰弹，因此错误的编程可能使得系统弹射错误的干扰弹类型。</p>
+<p>系统本身可由 RIO 驾驶舱中的控制面板或当襟翼控制杆处于收起档位时通过飞行员驾驶杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行弹射，弹射程序可由 RIO 从控制面板或 DDD 上方握把中的苦力帽来启动。另外，如果在 AN/ALE-39 控制面板正确地设置了箔条弹射程序，那么 AN/ALE-67 也可以启动箔条弹射程序。</p>
 <div class="section" id="controls-and-operation">
 <h3>控制和运作<a class="headerlink" href="#controls-and-operation" title="永久链接至标题">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
@@ -2796,24 +2799,24 @@
 <div class="section" id="programmer">
 <h4>编程面板<a class="headerlink" href="#programmer" title="永久链接至标题">¶</a></h4>
 <img alt="_images/programmer.png" src="_images/programmer.png" />
-<p>编程面板用来设置干扰弹的填装位置与类型，并且设置不同的干扰弹布撒程序。程面板位于 RIO 驾驶舱中的右侧控制台上。</p>
-<p>编程面板左侧有用于设置不同布撒程序的控制器（拨轮），每种类型干扰弹都有一部分用于设置。</p>
+<p>编程面板用来设置干扰弹的填装位置与类型，并且设置不同的干扰弹弹射程序。程面板位于 RIO 驾驶舱中的右侧控制台上。</p>
+<p>编程面板左侧有用于设置不同弹射程序的控制器（拨轮），每种类型干扰弹都有一部分用于设置。</p>
 <div class="line-block">
-<div class="line">在投射程序中， <strong>CHAFF</strong> 部分用来控制如何布撒箔条。箔条程序是编程为齐射的数量，每次布撒由设定的干扰弹数量组成。</div>
-<div class="line"><strong>B QTY</strong> 控制每次布撒中投放干扰弹的数量，可以选择1-4发干扰弹或 C（连续）和 R（随机）。</div>
-<div class="line"><strong>B INTV</strong> 设置每次干扰弹布撒之间的时间间隔（精度为秒），可以设置为 .1 (0.125)、 .2 (0.25)、 .5 (0.5)、 .7 (0.75)、 1 和 R（随机）。</div>
-<div class="line"><strong>S QTY</strong> 用来控制进行多少轮布撒程序。可以设置为：1、2、4、6、8、10和15。</div>
+<div class="line">在投射程序中， <strong>CHAFF</strong> 部分用来控制如何弹射箔条。箔条程序是编程为齐射的数量，每次弹射由设定的干扰弹数量组成。</div>
+<div class="line"><strong>B QTY</strong> 控制每次弹射中投放干扰弹的数量，可以选择1-4发干扰弹或 C（连续）和 R（随机）。</div>
+<div class="line"><strong>B INTV</strong> 设置每次干扰弹弹射之间的时间间隔（精度为秒），可以设置为 .1 (0.125)、 .2 (0.25)、 .5 (0.5)、 .7 (0.75)、 1 和 R（随机）。</div>
+<div class="line"><strong>S QTY</strong> 用来控制进行多少轮弹射程序。可以设置为：1、2、4、6、8、10和15。</div>
 <div class="line"><strong>S INT</strong> 用于设置齐射程序之间的时间间隔（精度为秒），可以设置为2, 4, 6, 8 和 10。</div>
 </div>
 <div class="line-block">
 <div class="line">使用 R 和 C 设置时，可启用 B 特殊设置。</div>
-<div class="line"><strong>B 在 C QTY 和 R INTV</strong> 将设置前三发干扰弹以0.125秒间隔布撒，其余的干扰弹布撒间隔将为0.25至4秒内随机布撒。布撒将忽略 S 开头设置，并且继续布撒直到布撒完所有干扰弹。</div>
-<div class="line"><strong>B 在 R QTY 和 R INTV</strong> 将设置为每次布撒中投放4-6发干扰弹并以0.25至4秒间隔内随机投放。一轮齐射中的首次布撒始终为投放3发干扰弹、间隔0.125秒。</div>
-<div class="line"><strong>B 在 R QTY 和 INTV 为设置的数量</strong> 将设置为每次布撒将以设置的间隔投放4-6发干扰弹。首次布撒始终为投放3发干扰弹、0.125秒间隔。</div>
-<div class="line"><strong>B 在 固定的 QTY 和 R INTV</strong> 将设置为每次布撒中投放一发干扰弹，无视 B QTY 设置。</div>
+<div class="line"><strong>B 在 C QTY 和 R INTV</strong> 将设置前三发干扰弹以0.125秒间隔弹射，其余的干扰弹弹射间隔将为0.25至4秒内随机弹射。弹射将忽略 S 开头设置，并且继续弹射直到弹射完所有干扰弹。</div>
+<div class="line"><strong>B 在 R QTY 和 R INTV</strong> 将设置为每次弹射中投放4-6发干扰弹并以0.25至4秒间隔内随机投放。一轮齐射中的首次弹射始终为投放3发干扰弹、间隔0.125秒。</div>
+<div class="line"><strong>B 在 R QTY 和 INTV 为设置的数量</strong> 将设置为每次弹射将以设置的间隔投放4-6发干扰弹。首次弹射始终为投放3发干扰弹、0.125秒间隔。</div>
+<div class="line"><strong>B 在 固定的 QTY 和 R INTV</strong> 将设置为每次弹射中投放一发干扰弹，无视 B QTY 设置。</div>
 </div>
 <div class="line-block">
-<div class="line"><strong>JAMMER</strong> 部分用于控制在程序模式中有源干扰弹的布撒。</div>
+<div class="line"><strong>JAMMER</strong> 部分用于控制在程序模式中有源干扰弹的弹射。</div>
 <div class="line"><strong>QTY</strong> 用来设置有源干扰弹的投放数量，可以设置为1-4。</div>
 <div class="line"><strong>INTV</strong> 使用三个指示拨轮来设置程序中投放的时间间隔（精度为秒）。 可每秒逐步增加从1至299。</div>
 </div>
@@ -2826,8 +2829,8 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line"><strong>FLARE</strong> 部分用于控制在程序模式中红外干扰弹的布撒。</div>
-<div class="line"><strong>QTY</strong> 将设置红外干扰弹布撒的数量，可以设置为2、3、4、6、8和10。</div>
+<div class="line"><strong>FLARE</strong> 部分用于控制在程序模式中红外干扰弹的弹射。</div>
+<div class="line"><strong>QTY</strong> 将设置红外干扰弹弹射的数量，可以设置为2、3、4、6、8和10。</div>
 <div class="line"><strong>INTV</strong> 将设置投放的时间间隔（精度为秒），可以设置为2、4、6、8和10。</div>
 </div>
 <p>编程面板右侧的为每个部分装填的干扰弹类型，以及用于填装了新干扰弹后使用的重置开关（reset switch）。</p>
@@ -2836,7 +2839,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">错误地设置填装的干扰弹类型可能导致布撒错误的干扰弹。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">错误地设置填装的干扰弹类型可能导致弹射错误的干扰弹。</td>
 </tr>
 </tbody>
 </table>
@@ -2849,7 +2852,7 @@
 <p>面板上部的机械计数器用于指示各种类型干扰弹的剩余数量。计数器需要使用每个计数器下方的旋钮手动设置，但是在每次发射干扰弹投放脉冲过后计数将会自动减少。因为计数器是手动来设置的，因此可能会碰到计数器指示的数量为0的情况（但实际还有干扰弹），但是这不会影响其它干扰弹的使用。在这种情况下投放脉冲仍然会发送但是计数器不会继续减少。</p>
 <p>在每种类型干扰弹的计数器下方都包含有开关，这些开关用于手动投放指令。这个开关为瞬态和弹簧归中的，每个开关都有三个档位。 <strong>PRGM</strong> 启动对应的投放程序， <strong>SGL</strong> 用于单发投放对应类型的干扰弹以及 <strong>STBY</strong> 默认归中档位（无手动投放指令）。</p>
 <p><strong>PWR/MODE</strong> 开关用于为 AN/ALE-39 提供电力，以及启动自动投放（通过 AN/ALR-67 RWR）。 <strong>AUTO (CHAFF) / MAN</strong> 档位用于接通系统电源，并且允许 AN/ALR-67 来启动设定的箔条投放程序，但要注意的是，红外干扰弹投放仍然为手动。当 RWR 探测到一个威胁主动攻击本机时将会启动箔条投放，探测的威胁仍然存在的话，在启动下一个程序前存在30秒冷却时间。手动投放仍然可正常使用。 <strong>MAN</strong> 档位用于接通系统电源，并且允许手动启动所有功能。 <strong>OFF</strong> 档位用于关闭系统。</p>
-<p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何投放并且同时设置了飞行员驾驶杆种 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收起档位来启用 DLC 按钮干扰弹投放。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个投放脉冲将从编程面板中设置为 F 的部分投放一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹投放脉冲将有四发红外干扰弹被投放。 <strong>NORM</strong> 将设置正常红外干扰弹投放脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮投放一发红外干扰弹。仍然可用正常投放红外干扰弹。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令投放一发箔条。</p>
+<p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何投放并且同时设置了飞行员驾驶杆种 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收起档位来启用 DLC 按钮干扰弹投放。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个投放脉冲将从编程面板中设置为 F 的部分投放一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹投放脉冲将有四发红外干扰弹被投放。 <strong>NORM</strong> 将设置正常红外干扰弹投放脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮投放一发红外干扰弹。正常投放红外干扰弹仍然可用。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令投放一发箔条。</p>
 <p>最后是 <strong>SALVO FLARES</strong> 开关，用于启动以0.125秒间隔快速投放所有红外干扰弹。正常档位为弹簧归中至 <strong>OFF</strong> 档位。一旦启动就无法停止。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -2871,9 +2874,9 @@
 <p>为了应对军方挂载更多箔条的需求，工程师团队研发了 LAU-138 箔条布撒器。布撒器本身由瑞典的 CelciusTech 公司开发，布撒器作为一个箔条布撒器集成在导轨中，这个导轨旨在代替 LAU-7 “响尾蛇”导弹导轨。每个导轨可以挂载多达160枚箔条包，每个箔条包的尺寸要比正常箔条小一些，但可以在挂载更多箔条的同时在导轨上安装一枚 AIM-9 “响尾蛇”。</p>
 <p>在 F-14 中，LAU-138 安装在 1A 和 8A 挂点上。虽然从技术上来说也可以安装在 B 挂点上，但是如果安装在 B 挂点的话那么就无法重新装填布撒器了，因此不安装在 B 挂点上。</p>
 <p>当安装了 LAU-138 挂架后，布撒器中的 R10 和 R20 部分都会连接到 R20，并且 R10 连接到 LAU-138 挂架。这意味着编程面板上的 R20 的干扰弹类型设置同时控制着 R10 和 R20，并且 R10 干扰弹类型设置应该保持为 C（箔条）。</p>
-<p>如上所述，每个布撒器可以挂载160枚箔条包以及每个布撒脉冲都会从布撒器中布撒四枚箔条包，每枚箔条包的大小约为正常箔条的1/4。这将会导致每个布撒脉冲将会相当于布撒两发箔条（注：相当于正常大小箔条），并且布撒器总共可以布撒40次。</p>
-<p>当布撒器使用编程面板上的 R10 时，安装了两个 LAU-138 意味着你需要在面板上将箔条计数器设置为40。仅挂载箔条的话可以布撒多达100次，但这对于计数器来说多了点，并且计数器显示的有效次数比真实有效次数少一枚箔条（也就是最大设置为99）。但是少显示的那一次布撒也是可以进行布撒的。</p>
-<p>总而言之，这代表你在使用 LAU-138 时，可以使用额外的40次箔条布撒，与 AN/ALE-39 组合使用时布撒的次数可增加到100次，以及正常挂载的40次箔条布撒和60发红外干扰弹，当安装了 LAU-138 后，应始终将 R10 设置为 C（箔条）。</p>
+<p>如上所述，每个布撒器可以挂载160枚箔条包以及每个弹射脉冲都会从布撒器中弹射四枚箔条包，每枚箔条包的大小约为正常箔条的1/4。这将会导致每个弹射脉冲将会相当于弹射两发箔条，并且布撒器总共可以弹射40次。</p>
+<p>当布撒器使用编程面板上的 R10 时，安装了两个 LAU-138 意味着你需要在面板上将箔条计数器设置为40。仅挂载箔条的话可以弹射多达100次，但这对于计数器来说多了点，并且计数器显示的有效次数比真实有效次数少一枚箔条（也就是最大设置为99）。但是少显示的那一次弹射也是可以进行弹射的。</p>
+<p>总而言之，这代表你在使用 LAU-138 时，可以使用额外的40次箔条弹射，与 AN/ALE-39 组合使用时弹射的次数可增加到100次，以及正常挂载的40次箔条弹射和60发红外干扰弹，当安装了 LAU-138 后，应始终将 R10 设置为 C（箔条）。</p>
 </div>
 </div>
 <div class="section" id="an-alq-126-decm">
@@ -2909,7 +2912,7 @@
 <div class="section" id="navigation-system">
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
 <p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），该系统的代号为 AN/ASN-92。INS 系统测量和积分测得的惯性力（加速度）以及旋转角速度来计算飞机的位置和线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全、可靠地返回到基地。当飞机被设计为在远离地面塔康台和目视参考点的大洋上执行任务时，这样的导航系统显得更加重要。</p>
-<p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、数/模转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 系统是也很相似——这也不是什么轻松的活。</p>
+<p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、数/模转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 平台是也很相似——这也不是什么轻松的活。</p>
 <p>在 Heatblur ，我们决定开发一套全新的数学模型来模拟我们 F-14 的 AN/ASN-92。模型包括了所有导致设备最终精度偏差的潜在误差源，并重建了一个三环式三轴 INS 平台的特性行为。这一系列下来的结果是一组算法可以在 DCS 中真实还原 AN/ASN-92，但经过优化之后却能够做到几乎不影响 CPU 性能。</p>
 <p>INS 的主要部件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显示。</p>
 <p>尽管对于机组来说，INS 主要用于导航，但其对其他机载设备的正常运行也是必不可少的。例如，雷达就需要从 INS 获取飞机的姿态。一些武器投放模式（特别是那些长距离投放模式），需要获取姿态以及本机位置信息。更令机组痛苦的是，INS 的完全失效使得例如 AIM-7 或 AIM-54 的某些高级模式无法使用。</p>
@@ -3254,7 +3257,7 @@
 </div>
 <div class="section" id="reinitialization">
 <h5>重新初始化<a class="headerlink" href="#reinitialization" title="永久链接至标题">¶</a></h5>
-<p>要在精对准阶段初始化对准，如果看见缩写（O）或注意到对准暂停，RIO可以使用以下任意一种方法来初始化：</p>
+<p>要在精对准阶段初始化对准，如果看见缩写（O）或注意到对准暂停，RIO 可以使用以下任意一种方法来初始化：</p>
 <ol class="arabic simple">
 <li>将 NAV MODE 旋钮和 WCS 控制开关设置为 OFF。等待 TID 显示内容消失。之后执行正常启动流程。</li>
 <li>将 NAV MODE 旋钮设置为 OFF。然后将旋钮转至所需的对准模式。</li>
@@ -3275,7 +3278,7 @@
 </tr>
 </tbody>
 </table>
-<p>参考对准可以使用机载或外部电源完成。要进行参考对准，通过 CAP 输入经纬度至本机文件中。这可通过再选择 GND ALIGN 前从基地自动转发至本机，或在选择 GND ALIGN 后输入至本机文件中。</p>
+<p>参考对准可以使用机载或外部电源完成。要进行参考对准，通过 CAP 输入经纬度至本机文件中。这可通过在选择 GND ALIGN 前从基地自动转发至本机，或在选择 GND ALIGN 后输入至本机文件中。</p>
 <p>飞机的经纬度可以输入到基地文件，并通过以下步骤转发至本机文件中：</p>
 <ol class="arabic simple">
 <li>将 NAV MODE 旋钮转至 GND ALIGN。</li>
@@ -3430,7 +3433,7 @@
 </div>
 <div class="section" id="navigational-controls">
 <h4>导航控制<a class="headerlink" href="#navigational-controls" title="永久链接至标题">¶</a></h4>
-<p>使用导航控制、数据读数面板和计算机位址面板来控制 INS。详见 <a class="reference internal" href="#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制</span></a> 、相关控制和 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</p>
+<p>使用导航控制、数据读数面板和计算机位址面板来控制 INS。详见 <a class="reference internal" href="#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制器</span></a> 、相关控制和 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</p>
 <p>所需运行模式、对准模式和目标点都可以在导航控制与数据读数面板（注：TID 屏幕的边框）进行选择。CAP 可以用来输入导航数据并将所选的信息显示在 TID 中。CAP 下方的 CATEGORY 旋钮的档位决定 MESSAGE 按钮的功能。用于导航的类为 NAV 和 TAC DATA。导航控制与数据读数面板中的 STBY/READY 注意灯指示对准程序和导航系统的状态。</p>
 <p>导航系统主要部件的故障指示灯位于两个驾驶舱内的注意-提示面板上，但是 NAV COMP 和 IMU 提示灯仅在 RIO 驾驶舱中的注意-提示面板上显示。</p>
 <p>飞行员显示器控制面板或多功能显示指示器控制面板来控制飞行员的显示器（HUD, VDI 和 HSD）和 RIO 的多功能显示指示器。</p>
@@ -3770,7 +3773,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果从所选飞机的 INS 更新，所选飞机的 校正/飘移 可能给本机的 INS 引入更大的误差。但是，两机的误差也将会同步。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果从所选飞机的 INS 更新，所选飞机的 校正/漂移 可能给本机的 INS 引入更大的误差。但是，两机的误差也将会同步。</td>
 </tr>
 </tbody>
 </table>
@@ -4009,7 +4012,7 @@
 </tr>
 </tbody>
 </table>
-<p>使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将提供代替 IMU 平台的 DR 导航所需的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直加速度 和真空速。使用 CAP 来更新风向风速以及磁差。</p>
+<p>使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将提供代替 IMU 平台的 DR（航位推算）导航所需的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直速率和真空速。使用 CAP 来更新风向风速以及磁差。</p>
 <p>AHRS 可以使用罗盘控制面板来选择三个模式中任意一个子航向模式来运行：</p>
 <ol class="arabic simple">
 <li>SLAVED - 磁北为基准（磁通量），航向陀螺隶属磁通量，可靠的磁航向基准可用时使用。</li>
@@ -4054,7 +4057,7 @@
 <p>在各个飞行模式中，飞行员可以选择以下五个中任意一个转向指令：</p>
 <ol class="arabic simple">
 <li>TACAN（TACAN）</li>
-<li>目的地（DEST）</li>
+<li>目标（DEST）</li>
 <li>AWL/PCD</li>
 <li>引导航向（VEC）</li>
 <li>手动（MAN）</li>
@@ -4160,9 +4163,9 @@
 <div class="section" id="antennas">
 <h3>天线<a class="headerlink" href="#antennas" title="永久链接至标题">¶</a></h3>
 <p>四个 VHF/UHF/L 波段 刀状天线为 VHF/UHF 话音，UHF 数据链路，TACAN 和敌我识别系统/选择识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 话音通信使用其中一组天线; UHF 1 话音通信，数据链路和 IFF 应答机使用另一组天线。 相关天线位置参阅总体布置图。 IFF 问询器（APX-76）天线集成在 AWG-9 WCS 天线内。</p>
-<p>每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自动作动功能，RIO必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT开关选择上部或下部天线。数据链路（DIL）天线同样需要手动选择。通过 DATA LINK 控制面板上的 ANTENNA 开关来选择上部或下部天线。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统共用，并且始终使用与 ANTENNA 开关选择相反的天线。</p>
+<p>每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自动作动功能，RIO 必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT 开关选择上部或下部天线。数据链路（DIL）天线同样需要手动选择。通过 DATA LINK 控制面板上的 ANTENNA 开关来选择上部或下部天线。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统共用，并且始终使用与 ANTENNA 开关选择相反的天线。</p>
 <p>上部 V/UHF 2/TACAN 天线是座舱盖后龟甲上的第一个天线，下部天线嵌入左侧腹鳍的底部。一次只使用一个天线。 天线之间的自动切换可防止丢失 TACAN 信息。如果信号丢失或太弱而无法保持接收机信号接收，TACAN 会每隔6秒自动在两个天线之间切换以寻求更强的信号。</p>
-<p>在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF天线波瓣开关由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾斜; 下部天线略微向后倾斜。</p>
+<p>在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF 天线波瓣开关由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾斜; 下部天线略微向后倾斜。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -4181,7 +4184,7 @@
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果一个驾驶舱内的两个放大器同时失效, 则无法进行机内通话。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">通过选择在各自 ICS 控制面板上的 EMER 档位来使用其他机组成员的放大器，你可以收听通常仅在另一驾驶舱播放的音频 (如响尾蛇音调或ALQ-126 PRF)，但您无法控制收听音频的音量。</td>
+<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">通过选择在各自 ICS 控制面板上的 EMER 档位来使用其他机组成员的放大器，你可以收听通常仅在另一驾驶舱播放的音频 (如响尾蛇音调或 ALQ-126 PRF)，但您无法控制收听音频的音量。</td>
 </tr>
 </tbody>
 </table>
@@ -4241,7 +4244,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">当前驾驶舱放大器选择旋钮位于EMER档位时，飞行员将无法听到发动机失速/超温警告音和响尾蛇音调。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">当前驾驶舱放大器选择旋钮位于 EMER 档位时，飞行员将无法听到发动机失速/超温警告音和响尾蛇音调。</td>
 </tr>
 </tbody>
 </table>
@@ -4459,7 +4462,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中无功能。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在 DCS 中无功能。</td>
 </tr>
 </tbody>
 </table>
@@ -4475,17 +4478,17 @@
 <li>UHF 1 VOL 控制旋钮</li>
 </ol>
 </td>
-<td>控制RIO头戴中的UHF 1（AN/ARC-159）音频音量。</td>
+<td>控制 RIO 头戴中的 UHF 1（AN/ARC-159）音频音量。</td>
 </tr>
-<tr class="row-even"><td>5 KY MODE开关</td>
+<tr class="row-even"><td>5 KY MODE 开关</td>
 <td>KY-28 无功能。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="an-arc-159-uhf-1-radio">
-<h3>AN/ARC-159 (UHF 1) 无线电台<a class="headerlink" href="#an-arc-159-uhf-1-radio" title="永久链接至标题">¶</a></h3>
-<p>UHF 1 (ARC-159)无线电提供空空和空面话音通信。无线电频率范围从 225.000 - 399.975 Mhz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）上进行 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率为10瓦。无线电的所有控制操作都在无线电台前面板上。无线电台位于飞行员左侧控制台上。</p>
+<h3>AN/ARC-159（UHF 1）无线电台<a class="headerlink" href="#an-arc-159-uhf-1-radio" title="永久链接至标题">¶</a></h3>
+<p>UHF 1（ARC-159）无线电提供空空和空面话音通信。无线电频率范围从 225.000 - 399.975 Mhz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）上进行 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率为10瓦。无线电的所有控制操作都在无线电台前面板上。无线电台位于飞行员左侧控制台上。</p>
 <p>注意：在模拟的F-14版本中 UHF 1 (ARC-159) 的 ADF 档位无功能；使用 V/UHF 2 ARC-182 的 DF 模式。</p>
 <img alt="_images/arc-1591.png" src="_images/arc-1591.png" />
 <table border="1" class="longtable docutils">
@@ -4552,7 +4555,7 @@
 <div class="line"><br /></div>
 <div class="line">MAIN – 主收发器已接通并且可以正常收发。用传声器按键通话开关选择传输和接收。</div>
 <div class="line"><br /></div>
-<div class="line">OFF – 关闭 UHF 1无线电台。</div>
+<div class="line">OFF – 关闭 UHF 1 无线电台。</div>
 </div>
 </td>
 </tr>
@@ -4560,13 +4563,13 @@
 <li>CHAN SEL 旋钮</li>
 </ol>
 </td>
-<td>当模式选择旋钮设置为PRESET时，用来选择20个预设波道中的任意一个。</td>
+<td>当模式选择旋钮设置为 PRESET 时，用来选择20个预设波道中的任意一个。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="10">
 <li>频率表</li>
 </ol>
 </td>
-<td>用来记录预设波道的频率。在DCS中，任务编辑器中预设的频率会自动显示在这里。</td>
+<td>用来记录预设波道的频率。在 DCS 中，任务编辑器中预设的频率会自动显示在频率表中。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="11">
 <li>模式选择旋钮</li>
@@ -4607,11 +4610,11 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中，“Have Quick”反干扰功能未实现。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在 DCS 中，“Have Quick”反干扰功能未实现。</td>
 </tr>
 </tbody>
 </table>
-<p>无线电台可以使用 AM 或 FM 进行收发。除了 225 至 399.975 频段（拨动开关）外，无线电将自动选择调制方式。30个预设波道可用。每个频段的救生频率可随其它已选的频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。ARC-182 使用保密话音设备运行（KY-28，KY-58 在DCS中尚未实现）。上部与下部天线在200海里内可提供可靠的视线内通信（根据高度与的大气条件而定）。飞行员仪表板上的远程显示器显示了选择频率或波道。</p>
+<p>无线电台可以使用 AM 或 FM 进行收发。除了 225 至 399.975 频段（拨动开关）外，无线电台将自动选择调制方式。无线电台中有30个预设波道可用。每个频段的救生频率可随其它已选的频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。ARC-182 使用保密话音设备运行（KY-28，KY-58 在DCS中尚未实现）。上部与下部天线在200海里内可提供可靠的视线内通信（根据高度与的大气条件而定）。飞行员仪表板上的远程显示器显示了选择频率或波道。</p>
 <img alt="_images/arc-1821.png" src="_images/arc-1821.png" />
 <table border="1" class="longtable docutils">
 <colgroup>
@@ -4689,7 +4692,7 @@
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">243 – 打开收发器（越级控制运行模式旋钮）并使主收发器和应急接收机调谐至 243.000 MHz（UHF救生频率）。除了 VOL SQL 和 BAT 功能外其它功能禁用。</div>
+<div class="line">243 – 打开收发器（越级控制运行模式旋钮）并使主收发器和应急接收机调谐至 243.000 MHz（UHF 救生频率）。除了 VOL SQL 和 BAT 功能外其它功能禁用。</div>
 <div class="line"><br /></div>
 <div class="line">MAN（人工） – 允许通过使用频率调谐开关人工选择一个频率。频率变更期间禁用收发器。</div>
 <div class="line"><br /></div>
@@ -4943,7 +4946,7 @@
 <li>若需对设备进行地面测试，请与另一台合适的无线电台建立双向明文无线电通信并请求通信检查。在 DCS 中这需要与另一名玩家配合。</li>
 <li>在两分钟预热之后，选择密文后通过头戴收听一段稳定、连续的单音，随后是两个间断的单音。</li>
 <li>选择适当的通信频率进行传输，按下PTT大约2秒后然后松开。间断的单音将会停止，且之后将不会播放声音。</li>
-<li>再次按下PTT并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设备已准备好进行保密话音传输。</li>
+<li>再次按下 PTT 并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设备已准备好进行保密话音传输。</li>
 <li>听见嘟的单音后，与地面电台建立双向 UHF 保密话音无线电通信来检查可读性和信号强度。</li>
 <li>根据战术情况自行设定电源模式及无线电选择旋钮。</li>
 </ol>
@@ -4960,15 +4963,15 @@
 <li>ZEROIZE 开关 - ZEROIZE（按简报要求）。</li>
 <li>电源开关 - OFF。</li>
 </ol>
-<p>注：若 POWER MODE 旋钮位于 C 档位时按下 ZEROIZE 开关，则飞行员和RIO 均将听到连续的嘟嘟警告音。</p>
+<p>注：若 POWER MODE 旋钮位于 C 档位时按下 ZEROIZE 开关，则飞行员和 RIO 均将听到连续的嘟嘟警告音。</p>
 </div>
 </div>
 <div class="section" id="link-4a-c-data-link">
 <h3>Link 4A &amp; C 数据链路<a class="headerlink" href="#link-4a-c-data-link" title="永久链接至标题">¶</a></h3>
-<p>F-14 雄猫配备了 Link 4 数据链路系统，可以用于传输和接收目标跟踪，航点信息和转向命令。 Link 4 有两个版本，第一个是 Link 4A，它允许水面舰艇或AWACS控制飞机，还有 Link 4C，它是 F-14 所独有的战机间数据链路。</p>
+<p>F-14 雄猫配备了 Link 4 数据链路系统，可以用于传输和接收目标跟踪，航点信息和转向命令。 Link 4 有两个版本，第一个是 Link 4A，它允许水面舰艇或 AWACS 控制飞机，还有 Link 4C，它是 F-14 所独有的战机间数据链路。</p>
 <p>Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路网络。 然后，数据源（或者说，数据源的操作员）将为 F-14 提供目标跟踪，航路点和控制命令。 此外，它还用于自动助降系统（ACLS）。</p>
 <p>另一方面，Link 4C 最大允许4架 F-14 雄猫战机建立数据链路并共享目标跟踪来协同作战。</p>
-<p>因为 Link 4A 与 Link 4C 使用同一个收发器，所以系统不允许同时使用4A与4C。Link 4C 系统使用 UHF 频段工作，传输速率为5000bit/s。</p>
+<p>因为 Link 4A 与 Link 4C 使用同一个收发器，所以系统不允许同时使用 4A 与 4C。Link 4C 系统使用 UHF 频段工作，传输速率为5000bit/s。</p>
 <p>Link 4数据链路系统由数据链路控制面板、数据链路应答和天线控制面板控制。接收到的控制信号将在飞行员VDI（<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>）以及RIO DDI面板（<a class="reference internal" href="cockpit.html#ddi"><span class="std std-ref">数字数据显示面板（DDI）</span></a>）上显示。</p>
 <div class="section" id="link-4-controls">
 <h4>Link 4 控制<a class="headerlink" href="#link-4-controls" title="永久链接至标题">¶</a></h4>
@@ -5016,11 +5019,19 @@
 
   <div role="contentinfo">
     <p>
-        &#169; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留。
+        
+        &copy; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留
 
     </p>
   </div>
-  本文档基于<a href="http://sphinx-doc.org/">Sphinx</a>编写，使用<a href="https://readthedocs.org">Read the Docs</a>提供的<a href="https://github.com/rtfd/sphinx_rtd_theme">主题</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -5031,7 +5042,6 @@
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

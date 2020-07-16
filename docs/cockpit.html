@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<html class="writer-html4" lang="zh-CN" >
 <head>
   <meta charset="utf-8">
   
@@ -12,6 +11,11 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+  
   
     <link rel="shortcut icon" href="_static/favicon.ico"/>
   
@@ -19,7 +23,9 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -32,11 +38,6 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="总体设计和系统概述" href="general.html" />
@@ -54,7 +55,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> DCS: F-14 “雄猫” 中文飞行手册
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> DCS: F-14 “雄猫” 中文飞行手册
           
 
           
@@ -77,6 +78,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -260,8 +262,8 @@
 <li class="toctree-l4"><a class="reference internal" href="#radar-warning-receiver-panel">雷达告警接收机面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#digital-data-indicator-ddi">数字数据显示面板（DDI）</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#decm-control-panel">防御性电子对抗（DECM）控制面板</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#data-link-control-panel">数据链控制面板</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#data-link-reply-and-antenna-control-panel">数据链应答和天线控制面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-link-control-panel">数据链路控制面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#data-link-reply-and-antenna-control-panel">数据链路应答和天线控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#an-ale-39-control-panel">AN/ALE-39 控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#aa1-control-panel">AAI 控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#an-ale-39-programmer">AN/ALE-39 编程面板</a></li>
@@ -301,6 +303,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -339,7 +342,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">文档</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>驾驶舱简介</li>
     
@@ -355,10 +358,10 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="general.html" class="btn btn-neutral float-right" title="总体设计和系统概述" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="general.html" class="btn btn-neutral float-right" title="总体设计和系统概述" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="intro.html" class="btn btn-neutral float-left" title="简介" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="intro.html" class="btn btn-neutral float-left" title="简介" accesskey="p"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
       
   </div>
   
@@ -713,7 +716,7 @@
 <td><div class="first last line-block">
 <div class="line">用于切换自动驾驶远程控制模式。</div>
 <div class="line"><br /></div>
-<div class="line">VEC/PCD - 引导航向/精确航线方向模式。数据链控制飞机滚转和俯仰轴。这个模式通过飞行员驾驶杆上的 NWS（前轮转向）按钮激活。</div>
+<div class="line">VEC/PCD - 引导航向/精确航线方向模式。数据链路控制飞机滚转和俯仰轴。这个模式通过飞行员驾驶杆上的 NWS（前轮转向）按钮激活。</div>
 <div class="line"><br /></div>
 <div class="line">OFF - 功能关闭。</div>
 <div class="line"><br /></div>
@@ -1097,7 +1100,7 @@
 <div class="section" id="fuel-management-panel">
 <span id="fuelmgmtpanel"></span><h4>燃油管理面板<a class="headerlink" href="#fuel-management-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/fuel.png" src="_images/fuel.png" />
-<p>这个面板用于控制诸多燃油相关系统、CADC 重置和防滑系统。</p>
+<p>这个面板用于控制诸多燃油相关系统、CADC 复位和防滑系统。</p>
 <table border="1" class="longtable docutils">
 <colgroup>
 <col width="23%" />
@@ -1164,7 +1167,7 @@
 <td><div class="first last line-block">
 <div class="line">受油管开关，用于伸出或收起受油管。</div>
 <div class="line"><br /></div>
-<div class="line">ALL EXTD - 受油管移动至完全伸出位置，允许对所有（ALL）油箱加油。同时也会将机翼/外部油箱转移开关（WING/EXT TRANS）重置回 AUTO 档位。</div>
+<div class="line">ALL EXTD - 受油管移动至完全伸出位置，允许对所有（ALL）油箱加油。同时也会将机翼/外部油箱转移开关（WING/EXT TRANS）复位回 AUTO 档位。</div>
 <div class="line"><br /></div>
 <div class="line">FUS EXTD - 受油管移动至完全伸出位置，只允许对机身（FUS）油箱加油。</div>
 <div class="line"><br /></div>
@@ -1191,7 +1194,7 @@
 <li>MASTER RESET 按钮</li>
 </ol>
 </td>
-<td>CADC 主重置按钮，用于重置 CADC 故障检测系统及相关故障显示。</td>
+<td>CADC 主复位按钮，用于复位 CADC 故障检测系统及相关故障显示。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="9">
 <li>控制面位置指示器</li>
@@ -1836,7 +1839,7 @@
 <li>MASTER CAUTION 按钮灯</li>
 </ol>
 </td>
-<td>主注意灯，灯光闪烁表示飞行员注意/提示灯面板上灯光状态发生变化。按下来重置主注意灯并熄灭灯光，直到下一个注意事件被触发。</td>
+<td>主注意灯，灯光闪烁表示飞行员注意/提示灯面板上灯光状态发生变化。按下来复位主注意灯并熄灭灯光，直到下一个注意事件被触发。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="13">
 <li>L FIRE 和 R FIRE 报警灯</li>
@@ -1930,7 +1933,7 @@
 </tbody>
 </table>
 <img alt="_images/vdicaution.png" src="_images/vdicaution.png" />
-<p>安装在 VDI 面板上的数据链警告和注意灯。</p>
+<p>安装在 VDI 面板上的数据链路警告和注意灯。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="7%" />
@@ -1961,7 +1964,7 @@
 <td>报警灯，指示 ACL 着舰过程中，数据链路的下滑道信息和指令正根据母舰的持续运动进行调整。在其他模式下则表示距离进近航线钟的下一个检查点还有10秒钟。</td>
 </tr>
 <tr class="row-even"><td>TILT</td>
-<td>报警灯，指示 ACL 过程中，未能接收数据链控制的时间超2秒。非 ACL 模式下，报警灯亮起表示过去的10秒内未接收任何数据链信息。</td>
+<td>报警灯，指示 ACL 过程中，未能接收数据链路控制的时间超2秒。非 ACL 模式下，报警灯亮起表示过去的10秒内未接收任何数据链路信息。</td>
 </tr>
 <tr class="row-odd"><td>VOICE</td>
 <td>报警灯，指示 CATCC 自动助降未就绪，切换至标准的基于音频通讯的进近流程。</td>
@@ -2021,13 +2024,13 @@
 <li>TEST 按钮</li>
 </ol>
 </td>
-<td>测试按钮，如果触发了过载保护，HSD 显示消失，则可以通过这个按钮来重置 HSD 显示。同时也用于在 HSD 上显示 HSD IR 现场测试。</td>
+<td>测试按钮，如果触发了过载保护，HSD 显示消失，则可以通过这个按钮来复位 HSD 显示。同时也用于在 HSD 上显示 HSD IR 现场测试。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
 <li>自检状态指示灯</li>
 </ol>
 </td>
-<td>显示白色标识旗时，表示 HSD 故障。逆时针旋转旋钮来重置 HSD。</td>
+<td>显示白色标识旗时，表示 HSD 故障。逆时针旋转旋钮来复位 HSD。</td>
 </tr>
 </tbody>
 </table>
@@ -2035,7 +2038,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">请查阅 <a class="reference internal" href="general.html#navigation"><span class="std std-ref">导航</span></a> 和 <a class="reference internal" href="general.html#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制</span></a> 中的相关章节来获取更多相关信息。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">请查阅 <a class="reference internal" href="general.html#navigation"><span class="std std-ref">导航</span></a> 和 <a class="reference internal" href="general.html#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制器</span></a> 中的相关章节来获取更多相关信息。</td>
 </tr>
 </tbody>
 </table>
@@ -2112,13 +2115,13 @@
 </td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li>DLC 启用/解除和电子对抗措施布撒按钮</li>
+<li>DLC 启用/解除和电子对抗措施弹射按钮</li>
 </ol>
 </td>
 <td><div class="first last line-block">
 <div class="line">襟翼放下，油门不超过 MIL（军用推力）位置，且扰流板系统无故障时，短按按钮来启用 DLC。</div>
 <div class="line"><br /></div>
-<div class="line">襟翼收起时，按下按钮会命令 ALE-39 根据 RIO 的设置抛射箔条和红外干扰弹。</div>
+<div class="line">襟翼收起时，按下按钮会命令 ALE-39 根据 RIO 的设置弹射箔条和红外干扰弹。</div>
 <div class="line"><br /></div>
 <div class="line">再次按下按钮，或收起襟翼，或将油门推至超过 MIL 位置，DLC 便会解除。</div>
 </div>
@@ -2431,14 +2434,14 @@
 <div class="section" id="accelerometer">
 <span id="acc"></span><h4>加速度表<a class="headerlink" href="#accelerometer" title="永久链接至标题">¶</a></h4>
 <img alt="_images/accelerometer.png" src="_images/accelerometer.png" />
-<p>显示当前飞机过载值（沿飞机垂直轴的加速度）的仪表。它的显示范围是 -5G 至 +10G。 其中一个指针将显示当前 G 值，而另外两个指针指示飞行过程中受到的最大正 G 和负 G 过载值。 按下仪器左下角的重置按钮可以重置指针位置。</p>
+<p>显示当前飞机过载值（沿飞机垂直轴的加速度）的仪表。它的显示范围是 -5G 至 +10G。 其中一个指针将显示当前 G 值，而另外两个指针指示飞行过程中受到的最大正 G 和负 G 过载值。 按下仪器左下角的复位按钮可以复位指针位置。</p>
 </div>
 <div class="section" id="clock">
 <span id="pclock"></span><h4>时钟<a class="headerlink" href="#clock" title="永久链接至标题">¶</a></h4>
 <img alt="_images/clock.png" src="_images/clock.png" />
 <p>机械发条时钟。</p>
 <p>左下角的旋钮用于上紧时钟发条，顺时针旋转旋钮，然后抽出旋钮来设置时针和分针。</p>
-<p>右上角的按钮用于开始、停止和重置时长为1小时的计时器。</p>
+<p>右上角的按钮用于开始、停止和复位时长为1小时的计时器。</p>
 </div>
 </div>
 <div class="section" id="right-vertical-console">
@@ -2633,7 +2636,7 @@
 <div class="section" id="spoiler-failure-override">
 <span id="spoilfailover"></span><h4>扰流板故障越控<a class="headerlink" href="#spoiler-failure-override" title="永久链接至标题">¶</a></h4>
 <img alt="_images/spoiler.png" src="_images/spoiler.png" />
-<p>用于越控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机重置）后继续正常工作。</p>
+<p>用于越控部分故障的扰流板，使其余扰流板在进行 MASTER RESET（大气数据计算机复位）后继续正常工作。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="5%" />
@@ -2652,7 +2655,7 @@
 <td><div class="first last line-block">
 <div class="line">内侧扰流板越控开关。</div>
 <div class="line"><br /></div>
-<div class="line">ORIDE - 越控内侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正常工作的内侧扰流板继续作动。</div>
+<div class="line">ORIDE - 越控内侧扰流板对称保护，如果一侧扰流板故障，CADC 复位后，允许另一侧正常工作的内侧扰流板继续作动。</div>
 <div class="line"><br /></div>
 <div class="line">NORM - 正常模式（保护开关锁定），该模式下，如果一侧的内扰流板故障无法升起，其余扰流板会降下，且注意灯面板 SPOILERS 灯亮起。</div>
 </div>
@@ -2665,7 +2668,7 @@
 <td><div class="first last line-block">
 <div class="line">外侧扰流板越控开关。</div>
 <div class="line"><br /></div>
-<div class="line">ORIDE - 越控外侧扰流板对称保护，如果一侧扰流板故障，CADC 重置后，允许另一侧正常工作的外侧扰流板继续作动。</div>
+<div class="line">ORIDE - 越控外侧扰流板对称保护，如果一侧扰流板故障，CADC 复位后，允许另一侧正常工作的外侧扰流板继续作动。</div>
 <div class="line"><br /></div>
 <div class="line">NORM - 正常模式（保护开关锁定），该模式下，如果一侧的外扰流板故障无法升起，其余扰流板会降下，且注意灯面板 SPOILERS 灯亮起。</div>
 </div>
@@ -2947,7 +2950,7 @@
 <div class="line"><br /></div>
 <div class="line">NORM - 正常位置，启用发电机并将发电机连接至主总线。</div>
 <div class="line"><br /></div>
-<div class="line">OFF/RESET - 断开并关闭发电机，重置触发的保护电路。</div>
+<div class="line">OFF/RESET - 断开并关闭发电机，复位触发的保护电路。</div>
 <div class="line"><br /></div>
 <div class="line">TEST - 启用发电机，但不与主总线连接，只用于测试。</div>
 </div>
@@ -2962,7 +2965,7 @@
 <div class="line"><br /></div>
 <div class="line">NORM - 正常模式，如果主发电机故障，应急发电机将自动与应急总线连接。</div>
 <div class="line"><br /></div>
-<div class="line">OFF/RESET - 无论主发电机状态如何，切断将应急发电机与应急总线间的连接，重置保护电路。</div>
+<div class="line">OFF/RESET - 无论主发电机状态如何，切断将应急发电机与应急总线间的连接，复位保护电路。</div>
 </div>
 </td>
 </tr>
@@ -3189,7 +3192,7 @@
 <div class="line"><br /></div>
 <div class="line">FLT GR UP - 测试外部油箱增压。</div>
 <div class="line"><br /></div>
-<div class="line">D/L RAD - 测试数据链转换器。</div>
+<div class="line">D/L RAD - 测试数据链路转换器。</div>
 <div class="line"><br /></div>
 <div class="line">STICK SW - 检查左、右扰流板对称性，将操纵杆向各方向移动1英寸以检查横向增稳。</div>
 </div>
@@ -3671,7 +3674,7 @@
 <div class="line"><br /></div>
 <div class="line">SINGLE - 雷达信标回应单脉冲编码。</div>
 <div class="line"><br /></div>
-<div class="line">SINGLE - 雷达信标回应设定的双脉冲编码。</div>
+<div class="line">DOUBLE - 雷达信标回应设定的双脉冲编码。</div>
 <div class="line"><br /></div>
 <div class="line">ACLS - 启用 ACLS 信标增强装置，用于着舰时为 CATCC 雷达锁定提供信号源。</div>
 </div>
@@ -3796,7 +3799,7 @@
 <li>EL CTR 旋钮</li>
 </ol>
 </td>
-<td>扫描高度角控制旋钮，用于选择垂直扫描区域的中心。</td>
+<td>扫描仰角控制旋钮，用于选择垂直扫描区域的中心。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
 <li>VSL 控制开关</li>
@@ -3814,13 +3817,13 @@
 <li>EL BARS 旋钮</li>
 </ol>
 </td>
-<td>用于控制俯仰扫描线数。</td>
+<td>用于控制仰角中扫描线的数量。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
 <li>TCS TRIM 旋钮</li>
 </ol>
 </td>
-<td>TCS 调整旋钮，用于校正 TCS 视频的方位和高度角。</td>
+<td>TCS 调整旋钮，用于校正 TCS 视频的方位和仰角。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
 <li>SLAVE 开关</li>
@@ -4270,16 +4273,16 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>向上移动</td>
-<td>投放一组箔条。</td>
+<td>投放单发箔条。</td>
 </tr>
 <tr class="row-odd"><td>向下移动</td>
 <td>启动设定的箔条投放程序。</td>
 </tr>
 <tr class="row-even"><td>向内移动</td>
-<td>启动设定的红外干扰弹投放程序。</td>
+<td>启动设定的有源干扰弹投放程序。</td>
 </tr>
 <tr class="row-odd"><td>向外移动</td>
-<td>投放一组红外干扰弹。</td>
+<td>启动设定的红外干扰弹投放程序。</td>
 </tr>
 </tbody>
 </table>
@@ -4338,7 +4341,7 @@
 <div class="line"><br /></div>
 <div class="line">ANT TRK - 指示雷达正在跟踪目标（相对本机）的角度。</div>
 <div class="line"><br /></div>
-<div class="line">RDROT - 指示目标正处于探测距离和速度门限内，且雷达正在跟踪该目标。</div>
+<div class="line">RDROT - 指示目标正处于距离和接近率门限内，且雷达正在跟踪该目标。</div>
 <div class="line"><br /></div>
 <div class="line">JAT - 指示雷达正跟踪干扰源（相对本机）的角度。</div>
 <div class="line"><br /></div>
@@ -4428,19 +4431,19 @@
 <li>PULSE GAIN 旋钮</li>
 </ol>
 </td>
-<td>脉冲增益旋钮，用于控制 AWG-9 脉冲模式下的增益，通常将旋钮置于最左侧档位，除非出现杂波或干扰。</td>
+<td>脉冲增益旋钮，用于控制 AWG-9 脉冲模式下的增益，通常将旋钮置于锁定机构中，除非出现杂波或干扰。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="21">
 <li>ASPECT 选择开关</li>
 </ol>
 </td>
-<td>目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择脉冲模式下跟踪目标边缘回波或中心回波。这些设置对应了预计目标姿态。</td>
+<td>目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择在脉冲模式下跟踪目标回波边缘或回波质心。这些设置对应了预计目标姿态。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="22">
 <li>EL 指示器</li>
 </ol>
 </td>
-<td>指示器中的指针位置对应了传感器的高度角。左侧指针指向当前实际雷达天线高度角。在 HCU 上选择 RDR（雷达）时，右侧指针指向指令雷达天线高度角，而当 HCU 上选择 IR/TV 时，右侧指针指向 TCS 镜头高度角。</td>
+<td>指示器中的指针位置对应了传感器的仰角。左侧指针指向当前实际雷达天线仰角。在 HCU 上选择 RDR（雷达）时，右侧指针指向指令雷达天线仰角，而当 HCU 上选择 IR/TV 时，右侧指针指向 TCS 镜头仰角。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="23">
 <li>CCM MODES 按钮</li>
@@ -4452,7 +4455,7 @@
 <li>JAM/JET 旋钮</li>
 </ol>
 </td>
-<td>干扰源强度阈值控制旋钮，用于设置将雷达回波判断为干扰目标的阈值。 目前在DCS中无功能。</td>
+<td>干扰源强度阈值控制旋钮，用于设置将雷达回波判断为干扰目标的阈值。 目前在 DCS 中无功能。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="25">
 <li>ACM THRLD 旋钮</li>
@@ -4509,7 +4512,7 @@
 <li>DATA READOUT 指示器</li>
 </ol>
 </td>
-<td>显示数据滚筒指示器，用于指示 TID 中显示数据的来源。如果显示器内的滚筒上没有数据源对应的名称，则显示器无显示。</td>
+<td>显示数据滚筒指示器，用于在 TID 文本读数中指示数据的来源。如果显示器内的滚筒上没有数据源对应的名称，则显示器无显示。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
 <li>BRIGHT 旋钮</li>
@@ -4548,7 +4551,7 @@
 <div class="line"><br /></div>
 <div class="line">SYM ELEM - 显示或隐藏跟踪目标的所有补充标识。未选中时，TID 将只显示一个表示跟踪目标的圆点。</div>
 <div class="line"><br /></div>
-<div class="line">DATA LINK - 显示或隐藏所有数据链跟踪目标。</div>
+<div class="line">DATA LINK - 显示或隐藏所有数据链路跟踪目标。</div>
 <div class="line"><br /></div>
 <div class="line">JAM STROBE - 显示或隐藏干扰信号源。</div>
 <div class="line"><br /></div>
@@ -4624,13 +4627,13 @@
 <li>PWR RESET 指示灯</li>
 </ol>
 </td>
-<td>电源重置指示灯，灯光亮起表示一个或多个不工作的二级电源。</td>
+<td>电源复位指示灯，灯光亮起表示一个或多个不工作的二次电源。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="5">
 <li>PWR RESET 按钮</li>
 </ol>
 </td>
-<td>电源重置按钮，用于重置不工作的二级电源。但如果导致电源不工作的状况仍未解决，受影响的二级电源依旧无法正常工作。</td>
+<td>电源复位按钮，用于复位不工作的二级电源。但如果导致电源不工作的状况仍未解决，受影响的二级电源依旧无法正常工作。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="6">
 <li>WCS 指示灯</li>
@@ -4660,7 +4663,7 @@
 <li>ELEV 拨轮</li>
 </ol>
 </td>
-<td>用于微调 STT 锁定模式下的雷达天线高度角。</td>
+<td>用于微调 STT 锁定模式下的雷达天线仰角。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="11">
 <li>HCU 扳机</li>
@@ -4675,9 +4678,9 @@
 <td><div class="first last line-block">
 <div class="line">带有指示灯的按钮，用于选择 HCU 控制杆的功能。开关之间互斥（只能选中一个开关）。</div>
 <div class="line"><br /></div>
-<div class="line">IR/TV - 选择 TCS 方位角、高度角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会显示 TCS 的高度角。</div>
+<div class="line">IR/TV - 选择 TCS 方位角、仰角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会显示 TCS 的仰角。</div>
 <div class="line"><br /></div>
-<div class="line">RDR - 选择 STT 锁定模式雷达天线控制，如果雷达已经处于 STT 模式中，则返回搜索状态。选择后，DDD 屏幕右侧的俯仰角指示条会显示雷达天线当前的指令高度角。</div>
+<div class="line">RDR - 选择 STT 锁定模式雷达天线控制，如果雷达已经处于 STT 模式中，则返回搜索状态。选择后，DDD 屏幕右侧的俯仰角指示条会显示雷达天线当前的指令仰角。</div>
 <div class="line"><br /></div>
 <div class="line">DDD CURSOR - 选择 DDD 光标控制，用于在脉冲雷达模式下标记地理位置。</div>
 <div class="line"><br /></div>
@@ -4709,7 +4712,7 @@
 <img alt="_images/clock1.png" src="_images/clock1.png" />
 <p>机械发条时钟。</p>
 <p>左下角的旋钮用于上紧时钟发条，顺时针旋转旋钮，然后抽出旋钮来设置时针和分针。</p>
-<p>右上角的按钮用于开始、停止和重置时长为1小时的计时器。</p>
+<p>右上角的按钮用于开始、停止和复位时长为1小时的计时器。</p>
 </div>
 <div class="section" id="ralr67ind">
 <span id="id15"></span><h4>ALR-67 显示器<a class="headerlink" href="#ralr67ind" title="永久链接至标题">¶</a></h4>
@@ -4814,7 +4817,7 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>MASTER CAUTION 按钮灯</td>
-<td>主注意灯闪烁表示 RIO 注意/提示灯面板上灯光状态发生变化。按下来重置主注意灯，熄灭灯光直到下一个注意事件被触发。</td>
+<td>主注意灯闪烁表示 RIO 注意/提示灯面板上灯光状态发生变化。按下来复位主注意灯，熄灭灯光直到下一个注意事件被触发。</td>
 </tr>
 <tr class="row-odd"><td>IFF</td>
 <td>敌我识别提示灯，灯光亮起表示接收到 MODE 4 询问，但 IFF 系统未应答。</td>
@@ -4987,7 +4990,7 @@
 <li>PWR 开关</li>
 </ol>
 </td>
-<td>用于控制 ALR-67的电源。</td>
+<td>用于控制 ALR-67 的电源。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
 <li>显示类型选择开关</li>
@@ -5019,7 +5022,7 @@
 <div class="section" id="digital-data-indicator-ddi">
 <span id="ddi"></span><h4>数字数据显示面板（DDI）<a class="headerlink" href="#digital-data-indicator-ddi" title="永久链接至标题">¶</a></h4>
 <img alt="_images/ddi.png" src="_images/ddi.png" />
-<p>数字数据显示面板用于显示通过数据链接收的指令。</p>
+<p>数字数据显示面板用于显示通过数据链路接收的指令。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="8%" />
@@ -5032,14 +5035,14 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>AFT VEC</td>
-<td>飞机正接受数据链引导，从目标后方（后半球）接近目标。</td>
+<td>飞机正接受数据链路引导，从目标后方（后半球）接近目标。</td>
 </tr>
 <tr class="row-odd"><td>COL VEC</td>
-<td>飞机正接受数据链引导，采用目标截击航线。</td>
+<td>飞机正接受数据链路引导，采用目标截击航线。</td>
 </tr>
 <tr class="row-even"><td>NO MSG</td>
 <td><div class="first last line-block">
-<div class="line">无信息，表示数据链通信正常。</div>
+<div class="line">无信息，表示数据链路通信正常。</div>
 <div class="line">但未接受指令。</div>
 </div>
 </td>
@@ -5089,8 +5092,8 @@
 </tr>
 <tr class="row-even"><td>DROP</td>
 <td><div class="first last line-block">
-<div class="line">接收指令使用数据链进行对地攻击。</div>
-<div class="line">如果选用数据链攻击模式，则使用自动投放，否则采用手动投放。</div>
+<div class="line">接收指令使用数据链路进行对地攻击。</div>
+<div class="line">如果选用数据链路攻击模式，则使用自动投放，否则采用手动投放。</div>
 </div>
 </td>
 </tr>
@@ -5104,7 +5107,7 @@
 <td>复飞，同时 AFCS（自动飞行控制系统，也就是自动驾驶）将自动解除。</td>
 </tr>
 <tr class="row-even"><td>LAND CHECK</td>
-<td>CATCC（母舰空中交通管制中心）有可用的 AFCS 数据链通道，机组应完成着舰检查单。</td>
+<td>CATCC（母舰空中交通管制中心）有可用的 AFCS 数据链路通道，机组应完成着舰检查单。</td>
 </tr>
 <tr class="row-odd"><td>ACL BEAC</td>
 <td>CATCC 请求本机开启 AN/APN-154 信标。</td>
@@ -5133,40 +5136,40 @@
 <td>指示 ACL 不可用，切换至标准的基于音频通讯的进近流程。</td>
 </tr>
 <tr class="row-odd"><td>TILT</td>
-<td>表示在过去的10秒内未收到任何数据链信息。在 ACL 中，如果超过2秒未收到数据链信息，AFCS 会断开。</td>
+<td>表示在过去的10秒内未收到任何数据链路信息。在 ACL 中，如果超过2秒未收到数据链路信息，AFCS 会断开。</td>
 </tr>
 <tr class="row-even"><td>CMD CHG</td>
-<td>表示即将收到或最近更变的数据链指令。</td>
+<td>表示即将收到或最近更变的数据链路指令。</td>
 </tr>
 <tr class="row-odd"><td>ALT CHG</td>
-<td>表示即将收到或最近更变的数据链高度指令。</td>
+<td>表示即将收到或最近更变的数据链路高度指令。</td>
 </tr>
 <tr class="row-even"><td>MON ALT</td>
-<td>表示本机未能以足够精度保持数据链指令高度。</td>
+<td>表示本机未能以足够精度保持数据链路指令高度。</td>
 </tr>
 <tr class="row-odd"><td>MANUAL</td>
 <td>表示本机应解除自动驾驶。</td>
 </tr>
 <tr class="row-even"><td>SPD CHG</td>
-<td>表示即将收到或最近更变的数据链速度指令。</td>
+<td>表示即将收到或最近更变的数据链路速度指令。</td>
 </tr>
 <tr class="row-odd"><td>MON SPD</td>
-<td>表示本机未能以足够精度保持数据链指令速度。</td>
+<td>表示本机未能以足够精度保持数据链路指令速度。</td>
 </tr>
 <tr class="row-even"><td>CMD CTRL</td>
 <td>表示飞机正由数据链路控制进行助降。</td>
 </tr>
 <tr class="row-odd"><td>CHG CHN</td>
-<td>切换数据链波道指令。</td>
+<td>切换数据链路波道指令。</td>
 </tr>
 <tr class="row-even"><td>HDG CHN</td>
-<td>表示即将收到或最近更变的数据链航向指令。</td>
+<td>表示即将收到或最近更变的数据链路航向指令。</td>
 </tr>
 <tr class="row-odd"><td>CANC RPY</td>
 <td>TDS（战术数据系统）取消发送应答信息。</td>
 </tr>
 <tr class="row-even"><td>FWD VEC</td>
-<td>飞机正接受数据链引导，从目标前方（前半球）接近目标。</td>
+<td>飞机正接受数据链路引导，从目标前方（前半球）接近目标。</td>
 </tr>
 </tbody>
 </table>
@@ -5231,9 +5234,9 @@
 </table>
 </div>
 <div class="section" id="data-link-control-panel">
-<span id="dlctrlpanel"></span><h4>数据链控制面板<a class="headerlink" href="#data-link-control-panel" title="永久链接至标题">¶</a></h4>
+<span id="dlctrlpanel"></span><h4>数据链路控制面板<a class="headerlink" href="#data-link-control-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/datalink.png" src="_images/datalink.png" />
-<p>用于控制数据链。</p>
+<p>用于控制数据链路。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="30%" />
@@ -5250,7 +5253,7 @@
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">用于设置数据链的传输模式。</div>
+<div class="line">用于设置数据链路的传输模式。</div>
 <div class="line"><br /></div>
 <div class="line">TEST - 开始系统测试。</div>
 <div class="line"><br /></div>
@@ -5264,21 +5267,21 @@
 <li>频率选择器</li>
 </ol>
 </td>
-<td>选择器上的拨轮用于设置数据链频率。</td>
+<td>选择器上的拨轮用于设置数据链路频率。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>数据链电源开关</li>
+<li>数据链路电源开关</li>
 </ol>
 </td>
-<td>控制数据链电源，也用于设置数据链备用（AUX）模式。</td>
+<td>控制数据链路电源，也用于设置数据链路备用（AUX）模式。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="data-link-reply-and-antenna-control-panel">
-<span id="dlrepant"></span><h4>数据链应答和天线控制面板<a class="headerlink" href="#data-link-reply-and-antenna-control-panel" title="永久链接至标题">¶</a></h4>
+<span id="dlrepant"></span><h4>数据链路应答和天线控制面板<a class="headerlink" href="#data-link-reply-and-antenna-control-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/datalinkantenna.png" src="_images/datalinkantenna.png" />
-<p>用于控制数据链对准、应答和天线的面板。</p>
+<p>用于控制数据链路对准、应答和天线的面板。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="17%" />
@@ -5294,24 +5297,24 @@
 <li>ANTENNA 选择开关</li>
 </ol>
 </td>
-<td>用于选择 UHF 1 和数据链使用的天线。</td>
+<td>用于选择 UHF 1 和数据链路使用的天线。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
 <li>REPLY 开关</li>
 </ol>
 </td>
-<td>用于控制数据链应答，NORM（正常）档位传输数据链应答，CANC（取消）档位禁用数据链应答。</td>
+<td>用于控制数据链路应答，NORM（正常）档位传输数据链路应答，CANC（取消）档位禁用数据链路应答。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
 <li>MODE 选择开关</li>
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">弹簧开关，选择 CAINS/WAYPT 档位时，电磁铁将开关固定在该位置上。释放开关后，开关弹回 TAC 档位。这个开关用于启用数据链对准和航路点更新。</div>
+<div class="line">弹簧开关，选择 CAINS/WAYPT 档位时，电磁铁将开关固定在该位置上。释放开关后，开关弹回 TAC 档位。这个开关用于启用数据链路对准和航路点更新。</div>
 <div class="line"><br /></div>
-<div class="line">CAINS/WAYPT - 启用数据链对准和航路点更新。</div>
+<div class="line">CAINS/WAYPT - 启用数据链路对准和航路点更新。</div>
 <div class="line"><br /></div>
-<div class="line">TAC - 启用手动选择数据链频率，停止数据链对准。</div>
+<div class="line">TAC - 启用手动选择数据链路频率，停止数据链路对准。</div>
 </div>
 </td>
 </tr>
@@ -5319,7 +5322,7 @@
 <li>ADDRESS 拨轮</li>
 </ol>
 </td>
-<td>设置本机使用的数据链地址（调定任务分配的数据链地址）。</td>
+<td>设置本机使用的数据链路地址（调定任务分配的数据链路地址）。</td>
 </tr>
 </tbody>
 </table>
@@ -5481,11 +5484,11 @@
 </ol>
 </td>
 <td><div class="first last line-block">
-<div class="line">用于设置有源射频诱饵发射程序。</div>
+<div class="line">用于设置有源干扰弹发射程序。</div>
 <div class="line"><br /></div>
-<div class="line">QTY - 数量拨轮，用于设置程序投放的射频诱饵数量。</div>
+<div class="line">QTY - 数量拨轮，用于设置程序投放的有源干扰弹数量。</div>
 <div class="line"><br /></div>
-<div class="line">INTV - 间隔拨轮，用于设置程序投放射频诱饵的间隔，单位是秒。</div>
+<div class="line">INTV - 间隔拨轮，用于设置程序投放有源干扰弹的间隔，单位是秒。</div>
 </div>
 </td>
 </tr>
@@ -5540,7 +5543,7 @@
 <li>RESET 开关</li>
 </ol>
 </td>
-<td>开关，用于向 AN/ALE-39 中载入设置程序，并重置所有电子序列器开关至初始位置。</td>
+<td>开关，用于向 AN/ALE-39 中载入设置程序，并复位所有电子序列器开关至初始位置。</td>
 </tr>
 </tbody>
 </table>
@@ -5867,11 +5870,19 @@
 
   <div role="contentinfo">
     <p>
-        &#169; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留。
+        
+        &copy; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留
 
     </p>
   </div>
-  本文档基于<a href="http://sphinx-doc.org/">Sphinx</a>编写，使用<a href="https://readthedocs.org">Read the Docs</a>提供的<a href="https://github.com/rtfd/sphinx_rtd_theme">主题</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -5882,7 +5893,6 @@
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

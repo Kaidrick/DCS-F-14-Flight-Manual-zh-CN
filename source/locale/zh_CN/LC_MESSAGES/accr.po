@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2020-05-15 19:08+0800\n"
+"PO-Revision-Date: 2020-07-09 23:17+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -292,7 +292,7 @@ msgstr ""
 
 #: ../../source/accr.rst:44
 msgid "__Airborne Video Tape Recorder"
-msgstr "机载磁带录像系统"
+msgstr "机载录像机"
 
 #: ../../source/accr.rst:46
 msgid "AWL"
@@ -368,7 +368,7 @@ msgstr ""
 
 #: ../../source/accr.rst:63
 msgid "__Boresight"
-msgstr "瞄准线"
+msgstr "瞄准轴"
 
 #: ../../source/accr.rst:65
 msgid "BRU"
@@ -670,7 +670,7 @@ msgstr ""
 
 #: ../../source/accr.rst:125
 msgid "__Data Link"
-msgstr "数据链"
+msgstr "数据链路"
 
 #: ../../source/accr.rst:127
 msgid "DLC"
@@ -963,7 +963,7 @@ msgstr ""
 # ref?
 #: ../../source/accr.rst:192
 msgid "__Gimbal Angle Crosshair"
-msgstr "框架方位角准星"
+msgstr "环架角度十字准星"
 
 #: ../../source/accr.rst:194
 msgid "GCI"
@@ -1067,7 +1067,7 @@ msgstr ""
 
 #: ../../source/accr.rst:215
 msgid "__Hand Control Unit"
-msgstr "手控单元（控制器）"
+msgstr "手控装置（控制器）"
 
 #: ../../source/accr.rst:217
 msgid "HDG"
@@ -1264,7 +1264,7 @@ msgstr ""
 
 #: ../../source/accr.rst:254
 msgid "__Intertial Measurement Unit"
-msgstr "惯性测量单元"
+msgstr "惯性测量装置"
 
 #: ../../source/accr.rst:256
 msgid "INS"
@@ -1313,7 +1313,7 @@ msgstr ""
 # can't find any reference
 #: ../../source/accr.rst:262
 msgid "__IR Angle Tracking"
-msgstr "红外方位角跟踪"
+msgstr "红外角跟踪"
 
 #: ../../source/accr.rst:264
 msgid "ITER"
@@ -1325,7 +1325,7 @@ msgstr ""
 
 #: ../../source/accr.rst:264
 msgid "__Improved Triple Ejector Rack"
-msgstr "改良型三联装挂架"
+msgstr "改良型三联式挂弹架"
 
 #: ../../source/accr.rst:266
 msgid "ITS"
@@ -1365,7 +1365,7 @@ msgstr ""
 
 #: ../../source/accr.rst:277
 msgid "__Jam Angle Track"
-msgstr "干扰源方位角跟踪"
+msgstr "干扰源角跟踪"
 
 #: ../../source/accr.rst:281
 msgid "K"
@@ -2032,13 +2032,14 @@ msgstr "标识移至平视显示器"
 msgid "QSNO"
 msgstr ""
 
+# 探地？
 #: ../../source/accr.rst:432
 msgid "Cue-to-snowplow"
 msgstr ""
 
 #: ../../source/accr.rst:432
 msgid "__Cue-to-snowplow"
-msgstr "标识移至雷达雪犁"
+msgstr "标识移至雷达探地"
 
 #: ../../source/accr.rst:434
 msgid "QWP"
@@ -2066,7 +2067,7 @@ msgstr ""
 
 #: ../../source/accr.rst:443
 msgid "__Radar Angle Crosshair"
-msgstr "雷达方位角准星"
+msgstr "雷达角度十字准星"
 
 #: ../../source/accr.rst:445
 msgid "RDR"
@@ -2739,7 +2740,7 @@ msgstr ""
 
 #: ../../source/accr.rst:579
 msgid "__Video Tape Recorder"
-msgstr "磁带录像系统"
+msgstr "录像机"
 
 #: ../../source/accr.rst:583
 msgid "W"
