@@ -114,7 +114,6 @@
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loc_jester.html">Jester AI指令菜单</a></li>
 </ul>
 <p class="caption"><span class="caption-text">中文本地化：</span></p>
 <ul>
@@ -202,11 +201,11 @@
 <div class="section" id="engine-airstart">
 <h2>发动机空中启动<a class="headerlink" href="#engine-airstart" title="永久链接至标题">¶</a></h2>
 <p>两台 F110-GE-400 发动机可以依次或同时进行空中启动。</p>
-<p>三种可能的重启类型包括：脱机自转重启、交叉引气重启、风车重启。这三种重启应在选定的 AFTC 发动机模式下进行。一般情况下应该选定 AFTC 主要（PRI）模式，但是如果 AFTC 已经选定次要模式则次要（SEC）模式应当用于首次重启尝试。</p>
+<p>三种可能的重启类型包括：脱机自转重启、交叉引气重启、风车重启。这三种重启应在 AFTC 选定的发动机模式下进行。一般情况下应该选定为主要（PRI）模式，但是如果 AFTC 已经选定次要模式，那么次要（SEC）模式应当用于首次重启尝试。</p>
 <div class="section" id="spooldown-airstart">
 <h3>脱机自转空中启动<a class="headerlink" href="#spooldown-airstart" title="永久链接至标题">¶</a></h3>
 <p>发动机停车之后，应在发动机转速显著降低之前尝试脱机自转重启。这是重启发动机最快的方法。</p>
-<p>根据发动机当时的转速，可能需要多达10秒的时间才能观察到转速的增加，而转速达到指定转速可能需要多达90秒。如果 AFTC 发动机模式选定为 PRI ，可以选定 SEC 后再进行一次尝试。</p>
+<p>根据发动机当时的转速，可能需要多达10秒的时间才能观察到转速的增加，而发动机达到指定转速可能需要多达90秒。如果 AFTC 选定发动机模式为 PRI ，可以选定 SEC 后再进行一次尝试。</p>
 <div class="section" id="spooldown-airstart-checklist">
 <h4>脱机自转空中启动检查单<a class="headerlink" href="#spooldown-airstart-checklist" title="永久链接至标题">¶</a></h4>
 <table border="1" class="docutils">
@@ -221,7 +220,7 @@
 </td>
 <td><strong>IDLE</strong> 或以上</td>
 </tr>
-<tr class="row-even"><td colspan="2">如果没有重新点火</td>
+<tr class="row-even"><td colspan="2">如果没有重新点火：</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
 <li>油门</li>
@@ -229,7 +228,7 @@
 </td>
 <td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果仍未重新点火</td>
+<tr class="row-even"><td colspan="2">如果仍未重新点火：</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="3">
 <li><strong>ENG MODE SELECT</strong> 开关</li>
@@ -241,7 +240,7 @@
 <li>油门</li>
 </ol>
 </td>
-<td>如果选择模式后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td>如果模式切换后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></td>
 </tr>
 <tr class="row-odd"><td colspan="2"><strong>SEC</strong> 模式下重新启动后：</td>
 </tr>
@@ -249,7 +248,7 @@
 <li><strong>ENG MODE SELECT</strong> 开关</li>
 </ol>
 </td>
-<td>可能的话调定 <strong>PRI</strong></td>
+<td>可能的话将模式调定为 <strong>PRI</strong></td>
 </tr>
 </tbody>
 </table>
@@ -257,7 +256,7 @@
 </div>
 <div class="section" id="cross-bleed-airstart">
 <h3>交叉引气空中启动<a class="headerlink" href="#cross-bleed-airstart" title="永久链接至标题">¶</a></h3>
-<p>当仍有一台发动机正常工作，脱机自转重启失败或者发动机已经/即将进入风车状态时，可以尝试使用交叉引气进行重启</p>
+<p>当仍有一台发动机正常工作，脱机自转重启失败或者发动机已经/即将进入风车状态时，可以尝试使用交叉引气进行重启。</p>
 <div class="section" id="cross-bleed-airstart-checklist">
 <h4>交叉引气空中启动检查单<a class="headerlink" href="#cross-bleed-airstart-checklist" title="永久链接至标题">¶</a></h4>
 <table border="1" class="docutils">
@@ -267,19 +266,19 @@
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td><ol class="first last arabic simple">
-<li>故障发动机的油门</li>
+<li>故障发动机侧的油门握把</li>
 </ol>
 </td>
 <td><strong>OFF</strong></td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="2">
-<li><strong>FUEL SHUT OFF</strong> 把手</li>
+<li><strong>FUEL SHUT OFF</strong> 手柄</li>
 </ol>
 </td>
 <td>确认手柄位置</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="3">
-<li>正常发动机的油门</li>
+<li>正常运转中的发动机的油门握把</li>
 </ol>
 </td>
 <td>最低 80% RPM</td>
@@ -297,7 +296,7 @@
 <td>调定到故障发动机</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="6">
-<li>故障发动机的油门</li>
+<li>故障发动机侧的油门握把</li>
 </ol>
 </td>
 <td>在 <strong>ENG CRANK</strong> 开启之后迅速 <strong>IDLE</strong></td>
@@ -305,7 +304,7 @@
 <tr class="row-odd"><td colspan="2">如果没有启动：</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>故障发动机的油门</li>
+<li>故障发动机侧的油门握把</li>
 </ol>
 </td>
 <td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
@@ -319,12 +318,12 @@
 <td><strong>SEC</strong></td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="9">
-<li>故障发动机的油门</li>
+<li>故障发动机侧的油门握把</li>
 </ol>
 </td>
 <td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
 </tr>
-<tr class="row-even"><td colspan="2">空中启动成功之后</td>
+<tr class="row-even"><td colspan="2">空中启动成功之后：</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="10">
 <li><strong>BACK UP IGNITION</strong> 开关</li>
@@ -336,7 +335,7 @@
 <li><strong>ENG MODE SELECT</strong> 开关</li>
 </ol>
 </td>
-<td>可能的话调定 <strong>PRI</strong></td>
+<td>可能的话将模式调定为 <strong>PRI</strong></td>
 </tr>
 </tbody>
 </table>
@@ -344,7 +343,7 @@
 </div>
 <div class="section" id="windmill-airstart">
 <h3>风车空中启动<a class="headerlink" href="#windmill-airstart" title="永久链接至标题">¶</a></h3>
-<p>风车空中启动利用飞机运动产生的风带动发动机涡轮转动而重启发动机。风车空中启动至少需要450节以上的空速且仅可在高度和速度条件允许的情况下尝试。</p>
+<p>风车空中启动利用飞机运动产生的风带动发动机涡轮转动来重启发动机。风车空中启动至少需要450节以上的空速且仅可在高度和速度条件允许的情况下进行尝试。</p>
 <div class="section" id="windmill-airstart-checklist">
 <h4>风车空中启动检查单<a class="headerlink" href="#windmill-airstart-checklist" title="永久链接至标题">¶</a></h4>
 <table border="1" class="docutils">
@@ -357,7 +356,7 @@
 <li>空速</li>
 </ol>
 </td>
-<td>示空速至少450节以上</td>
+<td>至少在450节指示空速及以上</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="2">
 <li>油门</li>
@@ -371,7 +370,7 @@
 </td>
 <td><strong>ON</strong></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果没有重新点火</td>
+<tr class="row-even"><td colspan="2">如果没有重新点火：</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="4">
 <li>油门</li>
@@ -379,7 +378,7 @@
 </td>
 <td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果仍未重新点火</td>
+<tr class="row-even"><td colspan="2">如果仍未重新点火：</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="5">
 <li><strong>ENG MODE SELECT</strong> 开关</li>
@@ -391,9 +390,9 @@
 <li>油门</li>
 </ol>
 </td>
-<td>如果选择模式后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td>如果模式切换后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></td>
 </tr>
-<tr class="row-odd"><td colspan="2">空中启动成功之后</td>
+<tr class="row-odd"><td colspan="2">空中启动成功之后：</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
 <li><strong>BACK UP IGNITION</strong> 开关</li>
@@ -405,7 +404,7 @@
 <li><strong>ENG MODE SELECT</strong> 开关</li>
 </ol>
 </td>
-<td>可能的话调定 <strong>PRI</strong></td>
+<td>可能的话将模式调定为 <strong>PRI</strong></td>
 </tr>
 </tbody>
 </table>
