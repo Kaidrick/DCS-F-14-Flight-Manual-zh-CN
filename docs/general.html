@@ -91,8 +91,8 @@
 <li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱简介</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">总体设计和系统概述</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#engines-and-throttle-controls">发动机和油门控制</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#throttle-controls">油门控制</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#engines-and-throttle-controls">发动机和油门控制器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#throttle-controls">油门控制器</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#engine-and-throttle-control-switches-and-indicators">发动机和油门控制开关以及指示器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#engine-instrument-group-eig-related-indicators-and-caution-lights">发动机仪表组（EIG）及相关指示器和注意灯</a></li>
 </ul>
@@ -106,20 +106,20 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#fire-detection-and-suppression-system">火灾报警和灭火系统</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#fire-detection-system">火灾报警系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fire-detection-and-suppression-system">火焰检测和灭火系统</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fire-detection-system">火焰检测系统</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fire-suppression-system">灭火系统</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#fire-detection-and-suppression-system-test">火灾报警和灭火系统测试</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fire-detection-and-suppression-system-test">火焰检测和灭火系统测试</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#electrical-power-system">电力系统</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#emergency-power">应急动力</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">控制和指示器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#emergency-power">应急电力</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">控制器和指示器</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#circuit-breakers">断路器</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#hydraulic-system">液压系统</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">控制和指示器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">控制器和指示器</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#wing-sweep-system">机翼后掠系统</a><ul>
@@ -127,7 +127,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#oversweep">机翼停放后掠</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">控制和指示器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">控制器和指示器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#wing-sweep-system-test">机翼后掠系统测试</a></li>
 </ul>
 </li>
@@ -155,16 +155,16 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#catapult-launch-and-arresting-gear">弹射和阻拦装置</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#nosegear-catapult-system">前起落架弹射系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#catapult-launch-and-arresting-gear">弹射起飞和阻拦装置</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#nosegear-catapult-system">前轮弹射起飞系统</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#arresting-gear">阻拦装置</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#ecs-environmental-control-system">环境控制系统（ECS）</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#air-source-and-cockpit-air-controls">气源和座舱引气控制</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#windshield-anti-ice-and-defogging">风挡除冰和除雾</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#air-source-and-cockpit-air-controls">气源和驾驶舱引气控制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#windshield-anti-ice-and-defogging">风挡加温和除雾</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#an-awg-9-and-aim-54-cooling">AN/AWG-9 和 AIM-54 冷却</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#external-ecs-air-supply">外部 ECS 供气</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#external-ecs-air-supply">外部 ECS 气源</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#oxygen-system">供氧系统</a></li>
@@ -172,8 +172,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#canopy">座舱盖</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ejection-system">弹射系统</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#lighting-system">灯光系统</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#internal-lighting">机内灯光</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#external-lighting">机外灯光</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#internal-lighting">机内照明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#external-lighting">机外照明</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#jettison-system">抛离系统</a></li>
@@ -277,7 +277,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#navigational-controls-and-displays">导航控制和显示器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#navigational-displays">导航显示器</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#navigational-controls">导航控制</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#navigational-caution-lights">导航提示灯</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#navigational-caution-lights">导航注意灯</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#navigation-fix-update">导航更新</a><ul>
@@ -349,7 +349,6 @@
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loc_jester.html">Jester AI指令菜单</a></li>
 </ul>
 <p class="caption"><span class="caption-text">中文本地化：</span></p>
 <ul>
@@ -435,44 +434,44 @@
   <div class="section" id="general-design-and-systems-overview">
 <h1>总体设计和系统概述<a class="headerlink" href="#general-design-and-systems-overview" title="永久链接至标题">¶</a></h1>
 <div class="section" id="engines-and-throttle-controls">
-<h2>发动机和油门控制<a class="headerlink" href="#engines-and-throttle-controls" title="永久链接至标题">¶</a></h2>
-<p>为 F-14B 提供动力的两台 F110-GE-400 发动机由 AFTC（增推扇叶温度控制器）控制。AFTC 可以看作是更先进的现代发动机上使用的FADEC（全权限数字式发动机控制）的前身。</p>
-<p>AFTC 除了可以控制发动机本身，还能控制发动机喷口开闭。 除此之外，AICS（进气控制系统）通过控制通过可变几何进气道——更确切地说，是通过进气道中的可变斜板——改变进入发动机的气流，使发动机获得稳定的亚音速气流。</p>
-<p>ATFC 和 AICS 通过相应的传感器来获得数据，然后根据设定的程序来控制发动机运行。</p>
-<p>此外，两台发动机分别驱动相互独立的供油系统、液压系统和发电机，以此来增加系统余度。</p>
-<p>在 AFTC 发生故障的情况下，MEC（发动机主控）可以提供直接机械控制来继续来控制发动机。 正常模式，即 AFTC 模式，是发动机的主要模式（PRI），而使用机械控制的 MEC 模式则是次要（SEC）模式。 AFTC 故障时，飞机会自动选择次要模式，但飞行员也可以手动选择次要模式。在次要式下，发动机会禁用加力燃烧室，并会将发动机喷口收至最小位置并固定，这些举措会使发动机性能下降。</p>
+<h2>发动机和油门控制器<a class="headerlink" href="#engines-and-throttle-controls" title="永久链接至标题">¶</a></h2>
+<p>为 F-14B 提供动力的两台 F110-GE-400 带加力燃烧室涡轮风扇发动机由 AFTC（增推扇叶温度控制装置）进行控制。AFTC 类似于较新发动机中所使用的早期版 FADEC（全权数字发动机控制）。</p>
+<p>AFTC 控制发动机本身以及发动机排气的喷口的开闭。 除此之外，AICS（进气控制系统）通过控制进入发动机的气流来为发动机进口提供均匀的亚音速气流。AICS 是通过可调进气道——更准确地说，是通过进气道中的可调斜板来完成对气流的控制的。</p>
+<p>这些控制都是通过 AFTC 和 AICS 使用合适的传感器输入，然后 AFTC 和 AICS 根据制度（注：调定程序）来控制发动机运行来实现的。</p>
+<p>此外，两台发动机还将分别驱动的供油系统、液压系统和发电机，以此来增加余度。</p>
+<p>在 AFTC 发生故障的情况下，MEC（主发动机控制）可以对发动机进行控制以提供备份机械控制。正常模式——AFTC——将其称为发动机的主要模式（PRI），而备份 MEC 称为次要（SEC）模式。如果 AFTC 中发生故障，那么次要模式或主要模式将被自动选用，但也可以手动选择次要或主要模式。值得一提的是，在次要模式下，除了加力燃烧被禁用外，喷口还将完全闭合并被禁用，两者都被禁用将导致发动机性能下降。</p>
 <div class="section" id="throttle-controls">
-<span id="throttlecontrols"></span><h3>油门控制<a class="headerlink" href="#throttle-controls" title="永久链接至标题">¶</a></h3>
+<span id="throttlecontrols"></span><h3>油门控制器<a class="headerlink" href="#throttle-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/throttles-schem1.png" src="_images/throttles-schem1.png" />
-<p>F-14 的油门杆行程中有数个限位机构，以防止发动机意外启动或关闭发动机，或意外启用加力燃烧室。此外，系统会根据油门握把的位置来控制几个不同的系统，如上图所示。这些系统中，最重要的是就是发动机燃油关断和点火系统。</p>
-<p>油门杆有三种操作模式：</p>
-<p>第一种模式是 MAN（手动模式）模式是，这是一种机械操作模式。该模式下，油门杆通过机械连接直接控制发动机。由于采用直接机械连接，手动模式下的控制精确度并不高，因此手动模式通常只作为备份模式使用。</p>
-<p>第二种模式是 BOOST（助力）模式，该模式是油门的正常工作模式。在这个模式下，油门杆通过传感器电路控制作动器，使用与机械连接相同的控制元件来操作发动机。但与机械模式不同的是，此模式下操控油门握把所需要的力度更小，且控制精度更高。</p>
-<p>第三种模式是 AUTO（自动）模式，即进近推力补偿模式。启用该模式时，飞机在进近期间会自动控制油门以保持最佳进近迎角。</p>
-<p>油门模式的选择开关位于油门杆旁边的进气道斜板 / 油门控制面板上。开关内的电磁铁将这个弹簧开关保持在选定位置，但如果飞行参数和系统状态无法满足自动油门接通条件，自动油门控制就会解除，且开关弹回 BOOST 档位。</p>
-<p>启用自动油门需满足下列条件：油门当前位置可保持发动机 RPM（转速）在75%至90％的区间内，起落架手柄放下并且机轮不承重。 如果飞机当前状态不再满足自动油门的接通条件，用力推动油门杆，或按下左油门握把上的 CAGE / SEAM 按钮，开关内的电磁铁就会释放开关，使其弹回助力模式。</p>
-<p>此外，飞行员还可以使用进气道斜板 / 油门控制面板上的油门温控开关来调节标准油门计算机增益。这个开关有 HOT、NORM 和 COLD 三个档位，HOT 档位增大标准油门计算机增益（和有效推力），COLD 档位减小标准油门计算机增益。 这些设置通常对应外部气温的“冷”和“热”，但飞行员应根据实际油门情况进行设置。</p>
-<p>RATS，即做航降减推系统，会限制着陆后的发动机推力，使着舰后的发动机推力减小至适合舰上作业的程度（以减少阻拦设备的损耗）。任意一个主起落架负重就会启动该系统。如果打开加力燃烧室，RATS 会自动禁用。</p>
-<p>最后值得一提的是，F110-GE-400 发动机上实现并应用了不对称推力限制系统（ASYM LIMITER）。油门选择加力推力时，如果只有一侧发动机的加力燃烧室启动，那么推力限制器就会将这一侧发动机保持在最小加力推力，直到另一侧的发动机加力燃烧室启动。</p>
+<p>F-14 的油门行程中含有数个限位机构以防止发动机意外启动或关闭发动机，或意外启用加力燃烧室。此外，如上图所示，油门还用来控制数个根据油门位置运作的不同的系统。这些系统中，其中最重要的是就是发动机燃油关断和点火系统。</p>
+<p>油门有三种操作模式：</p>
+<p>MAN（手动模式）为机械操作模式，在手动模式下，油门通过机械传动机构直接连接到发动机来对其进行控制。手动模式被设计为备用模式，并且由于机械控制的特性，这种模式下对发动机的控制并不准确。</p>
+<p>BOOST（助力）模式，助力模式是油门的正常操作模式，在这个模式下，油门通过电力控制作动器来移动与机械传动机构相同的发动机控制器，但与手动模式不同的是，助力模式对发动机控制更加准确并且控制油门所需要的力更小。</p>
+<p>第三种模式是进近推力补偿模式或称为自动油门模式，在自动油门模式下，自动油门控制系统允许使用自动油门控制来在进近中保持最佳迎角。</p>
+<p>油门模式的控制开关位于主油门一旁的进气道斜板/油门控制面板中，控制开关可用来选择全部三种油门模式。使用 AUTO 模式时，开关将由螺线管固定在 AUTO 档位，如果不满足自动控制的条件，那么开关将恢复至助力模式。</p>
+<p>如需选择自动油门模式，必须将油门置于处于75%到90% RPM 之间、起落架手柄位于放下档位以及机轮不负重。如果再不满足前述条件，那么可以用力移动油门来手动越控或按下左油门握把中的 CAGE/SEAM 按钮，按下后螺线管将释放开关并恢复至助力模式。</p>
+<p>此外，飞行员还可以在进气道斜板 / 油门控制面板中设置自动油门系统的增益。增益设置分别为 HOT、NORM 和 COLD ，HOT 档位增加一般油门计算机增益（和有效推力），COLD 档位减小一般油门计算机增益。控制开关设置对应外部气温的“冷”和“热”，但飞行员应根据实际油门控制进行设置。</p>
+<p>RATS 或称为航降减推系统，航降减推系统将在触舰后限制发动机推力至适合舰上环境的水平。主起落架任意一侧机轮负重都将启用航降减推系统，并且可以通过推动油门选择加力燃烧来禁用 RATS。</p>
+<p>最后，F110-GE-400 发动机上装备了不对称推力限制器（ASYM LIMITER），如果只有一侧发动机启用加力燃烧，那么不对称推力限制器将限制加力燃烧在最小加力推力直到另一侧发动机也启用加力燃烧来防止使用不对称加力燃烧。</p>
 </div>
 <div class="section" id="engine-and-throttle-control-switches-and-indicators">
 <h3>发动机和油门控制开关以及指示器<a class="headerlink" href="#engine-and-throttle-control-switches-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/asym1.png" src="_images/asym1.png" />
-<p><strong>ASYM LIMITER</strong>（<strong>1</strong>）开关位于不对称推力限制器 / 发动机模式选择面板上。开关带有保护盖，且默认位置为 ON，飞行员可以通过这个开关来启用或禁用不对称推力限制器。</p>
-<p>这个面板上还包括两个 <strong>ENG</strong>（发动机）<strong>MODE SELECT</strong>（模式选择）开关（<strong>2</strong>），它们分别用于选择左发动机（<strong>L ENG</strong>）和右发动机（<strong>R ENG</strong>）的 <strong>PRI</strong> 模式或者 <strong>SEC</strong> 模式。</p>
+<p><strong>ASYM LIMITER</strong> （ <strong>1</strong> ）开关位于不对称推力限制器 / 发动机模式选择面板中，ASYM LIMITER 开关用来启用或禁用不对称加力推力限制器。开关默认位置为 <strong>ON</strong> 档位，保护盖关闭时将开关固定在 ON 档位。</p>
+<p>同一面板中的其他两个开关为 <strong>ENG MODE SELECT</strong> （发动机模式选择）开关（<strong>2</strong>），两个开关分别用来设置左发动机（<strong>L ENG</strong>）和右发动机（<strong>R ENG</strong>）为 <strong>PRI</strong> （主要）模式或者 <strong>SEC</strong> （次要）模式。</p>
 <img alt="_images/inlet1.png" src="_images/inlet1.png" />
-<p>进气道斜板 / 油门控制面板包含了大多数与发动机相关的控制。</p>
-<p><strong>THROTTLE MODE</strong>（<strong>1</strong>）开关是一个可以由内置的电磁铁保持位置的弹簧开关，释放开关后，开关弹回 BOOST 档位。飞行员可以通过它来设置油门的三个模式： <strong>AUTO</strong>、<strong>BOOST</strong>、<strong>MAN</strong> 模式。</p>
-<p>THROTTLE MODE 开关右边的 <strong>THROTTLE TEMP</strong>（<strong>2</strong>）开关可以用来设置标准油门计算机增益。</p>
-<p>最上方的 <strong>INLET RAMPS</strong>（<strong>3</strong>）开关用于控制进气道斜板；将开关拨至自动（<strong>AUTO</strong>）档位来启用自动斜板控制，或者直接选择收起（<strong>STOW</strong>）档位来收起进气道斜板。</p>
-<p>发动机启动开关（<strong>4</strong>）用于选择需要启动的发动机。外部气源或另一个已启动发动机的交叉引气会驱动空气涡轮启动器，使被选中的发动机 RPM 上升至 20% ，此时我们需要将相应一侧的油门握把从关断位移动到怠速位来给发动机点火。在发动机 RPM 上升至 50% 时，启动开关会自动中置。但如果开关未能自动回中，飞行员需要手动将其拨回中间位置，避免损坏空气涡轮启动器。</p>
-<p>油门握把移出关断位置时会接通主点火电路，但在主点火电路出现故障的情况下，<strong>BACK UP IGNITION</strong>（<strong>5</strong>）开关可用于启用备用点火系统。</p>
+<p>进气道斜板 / 油门控制面板包含了大多数其它与发动机相关的控制开关。</p>
+<p><strong>THROTTLE MODE</strong> （<strong>1</strong>）开关分别用来将油门模式设置为 <strong>AUTO</strong> 、 <strong>BOOST</strong> 或 <strong>MAN</strong> 模式，开关由弹簧归中至 BOOST 助力模式，如上所述，开关可由螺线管固定在 AUTO 档位。</p>
+<p><strong>THROTTLE TEMP</strong> 开关也如上所述，用来控制自动油门系统的增益。</p>
+<p><strong>INLET RAMPS</strong> （ <strong>3</strong> ）开关用来启用（ <strong>AUTO</strong> ）或禁用，也就是收上（ <strong>STOW</strong> ）可调进气道斜板。</p>
+<p>发动机起动开关（<strong>4</strong>）用于起动发动机至 20% rpm，转速到达 20% rpm 后可通过将对应的油门握把从 cut-off（关断）移动至 idle（慢车位）来起动发动机。如果飞机连接了外部气源，那么发动机则使用外部气源提供的空气来起动，如果没有连接外部气源则使用另一侧发动机提供的空气。当发动机转速到达 50% rpm 时，起动开关将自动回到关闭/归中档位。如果起动开关在转速到达 50% rpm 时没有自动归中，那么必须手动将其设置为归中（关闭）档位来防止损坏空气涡轮起动机。</p>
+<p><strong>BACK UP IGNITION</strong> （ <strong>5</strong> ）开关用来在主点火回路失效的情况下启用备用点火系统，通常通过将油门握把移动出 cut-off 档位来启用点火系统。</p>
 <img alt="_images/externalenvironment1.png" src="_images/externalenvironment1.png" />
-<p>外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong>（<strong>2</strong>）开关用于控制发动机和进气道板除冰系统以及数个机外传感器探头加热器。选择 <strong>ORIDE</strong>（越控）档位会立刻启用加热系统，选择 <strong>AUTO</strong> 档位时，系统会在检测到结冰时自动启动，而选择 <strong>OFF</strong> 档位会禁用此系统。</p>
+<p>外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong> （<strong>2</strong>）开关除了启用各个皮托管加热外，同时还启用发动机除冰以及进气道斜板除冰。开关拨至 <strong>ORIDE</strong> 将启用系统，开关拨动至 <strong>AUTO</strong> 档位时，如果检测到结冰，系统将被启用，开关拨至 <strong>OFF</strong> 档位将禁用系统。</p>
 <div class="section" id="engine-instrument-group-eig-related-indicators-and-caution-lights">
 <h4>发动机仪表组（EIG）及相关指示器和注意灯<a class="headerlink" href="#engine-instrument-group-eig-related-indicators-and-caution-lights" title="永久链接至标题">¶</a></h4>
 <img alt="_images/instrument-group1.png" src="_images/instrument-group1.png" />
-<p><strong>发动机仪表组</strong> 可以让飞行员随时监控 <strong>RPM</strong>（发动机转速）、<strong>EGT</strong>（涡轮排气温度）以及 <strong>FF</strong>（燃油流量）。</p>
+<p><strong>ENGINE INSTRUMENT GROUP</strong> （发动机仪表组）向飞行员显示 <strong>RPM</strong> （发动机转速）、 <strong>EGT</strong> （排气温度）以及 <strong>FF</strong> （燃油流量）以便监视发动机运转状态。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -482,25 +481,25 @@
 </tbody>
 </table>
 <img alt="_images/exhaust1.png" src="_images/exhaust1.png" />
-<p>发动机喷口位置表显示各个发动机当前的喷口位置：0 表示喷口完全收起（喉部面积小），顺时针旋转到头表示喷口完全打开（喉部面积大）。</p>
+<p>发动机喷口位置表显示相应发动机喷口当前的位置：0 表示喷口完全闭合，指针顺时针转动到最大值表示喷口完全张开。</p>
 <img alt="_images/oil1.png" src="_images/oil1.png" />
-<p>油压表会显示对应一侧的发动机机油压力，用于检查发动机油压是否处于正常水平。</p>
-<p>前座的注意-提示警报灯面板和 HUD 的两侧分别装有数个发动机相关的告警灯。</p>
-<p>一旦检测到发动机压气机失速，告警灯就会以 3Hz 的频率闪烁，左侧的告警灯代表左发动机失速，右边的告警灯代表右发动机失速。在告警灯闪烁的同时还伴有频率为 320 Hz 的告警音。</p>
-<p>如果自动油门系统通过其他途径断开，而不是通过油门模式开关断开，那么左侧发动机失速告警灯的下方的 <strong>AUTO THROT</strong>（自动油门）注意灯会亮起 10 秒来提醒飞行员注意。</p>
-<p>主注意和提示灯面板上装有下列这些发动机相关的提示和告警灯：</p>
+<p>油压表中显示相应发动机中的滑油压力从而允许飞行员能够检查发动机中的滑油压力是否在正常水平。</p>
+<p>与发动机运转相关的注意灯位于飞行员驾驶舱中，注意 - 提示灯面板中以及 HUD 两侧。</p>
+<p>位于 HUD 两侧的提示灯为发动机失速报警灯，当检测到发动机失速时，报警灯将以 3Hz 的速率闪烁。HUD 左侧的报警灯用于指示左发压气机失速，右侧的报警灯则指示右发压气机失速。报警灯亮起的同时还将伴随调制出的 320Hz 的单音警告音。</p>
+<p>左发压气机失速报警灯下方的指示灯中，其中一个指示灯为 <strong>AUTO THROT</strong> （自动油门）注意灯，当自动油门系统通过除使用油门模式开关以外的方法断开时，注意灯将会亮起10秒钟。</p>
+<p>注意 - 提示灯面板中，发动机相关的注意灯和报警灯分别为：</p>
 <ul class="simple">
-<li><strong>INLET ICE</strong> - 指示灯亮起表示探测到左发动机进气道结冰。</li>
-<li><strong>L INLET</strong> 和 <strong>R INLET</strong> - 指示灯亮起表示对应进气道的 AICS 系统出现了故障。</li>
-<li><strong>OIL PRESS</strong> - 指示灯亮起表示一台发动机的油压过低。</li>
-<li><strong>BLEED DUCT</strong> - 指示灯亮起表示一台发动机中出现了高温气流泄漏。</li>
-<li><strong>L RAMPS</strong> 和 <strong>R RAMPS</strong> - 指示灯亮起表示对应侧的进气道斜板没有锁定到指定位置。</li>
-<li><strong>START VALVE</strong> - 指示灯亮起表示发动机启动阀开启。如果发动机启动后指示灯仍亮起，需控制发动机启动开关，将其拨回中间位置。</li>
-<li><strong>L ENG SEC</strong> 和 <strong>R ENG SEC</strong> - 指示灯亮起表示其对应的发动机正在次级模式下运行。</li>
-<li><strong>L GEN</strong> 和 <strong>R GEN</strong> - 指示灯亮起表示其对应的发动机发电机故障。</li>
-<li><strong>L OIL HOT</strong> 和 <strong>R OIL HOT</strong> - 指示灯亮起表示其对应的发动机机油过热。</li>
-<li><strong>L FUEL PRES</strong> 和 <strong>R FUEL PRES</strong> - 指示灯亮起表示其对应的发动机燃油增压泵中的压强低于9 psi。</li>
-<li><strong>RATS</strong> - 指示灯亮起表示RATS（航降减推系统）已经启动。</li>
+<li><strong>INLET ICE</strong> - 注意灯亮起表示探测到左发动机进气道结冰。</li>
+<li><strong>L INLET 和 R INLET</strong> - 注意灯亮起表示对应可调进气道系统的 AICS 系统出现了故障。</li>
+<li><strong>OIL PRESS</strong> - 注意灯亮起表示一侧发动机中的滑油压力过低。</li>
+<li><strong>BLEED DUCT</strong> - 注意灯亮起表示一侧发动机中出现高温空气泄漏。</li>
+<li><strong>L RAMPS 和 R RAMPS</strong> - 注意灯亮起表示对应的发动机进气道斜板没有锁定在指定的位置。</li>
+<li><strong>START VALVE</strong> - 注意灯亮起表示发动机起动机阀门开启。如果发动机起动后指示灯仍亮起，拨动发动机起动开关至归中位置。</li>
+<li><strong>L ENG SEC 和 R ENG SEC</strong> - 注意灯亮起表示其对应的发动机正在次要模式下运转。</li>
+<li><strong>L GEN 和 R GEN</strong> - 注意灯亮起表示其对应发动机的发电机不工作。</li>
+<li><strong>L OIL HOT 和 R OIL HOT</strong> - 注意灯亮起表示其对应的发动机中的滑油过热。</li>
+<li><strong>L FUEL PRESS 和 R FUEL PRESS</strong> - 注意灯亮起表示其对应发动机中，燃油泵的出口油压低于9 psi。</li>
+<li><strong>RATS</strong> - 注意灯亮起表示 RATS（航降减推系统）已启用。</li>
 </ul>
 </div>
 </div>
@@ -509,37 +508,37 @@
 <h2>燃油系统<a class="headerlink" href="#fuel-system" title="永久链接至标题">¶</a></h2>
 <div class="figure" id="id9">
 <img alt="_images/tanks.png" src="_images/tanks.png" />
-<p class="caption"><span class="caption-text">1 - 受油管（空中加油），2 - 地面加油口（右侧），3 - 前机身油箱，4 - 左侧外部副油箱，5 - 左侧翼箱油箱，6 - 左侧机翼油箱，7 - 通气油箱，8 - 放油装置，9 - 后机身油箱，10 - 右侧翼箱油箱，11 - 右侧机翼油箱，12 - 右侧外部副油箱。</span></p>
+<p class="caption"><span class="caption-text">1 - 受油管（空中加油），2 - 地面加油口（右侧），3 - 前机身油箱，4 - 左副油箱，5 - 左盒形梁油箱，6 - 左翼油箱，7 - 通气油箱，8 - 放油装置，9 - 后机身油箱，10 - 右盒形梁油箱，11 - 右机翼油箱，12 - 右副油箱。</span></p>
 </div>
-<p>F-14 的主要燃油储存设备由两组供油系统组成，每个系统分别对应一个发动机。右发动机供油系统的燃油来自右侧机翼油箱、右侧翼箱油箱和机身前部油箱，而左发动机供油系统的燃油来自机身后部油箱、左侧机翼油箱和左侧翼箱油箱。所以在读出油量表读数时，务必记住这一点。</p>
-<p>F-14 的最大可用燃油量约为 20,000 磅，每个油箱的容量如下表所示。</p>
+<p>F-14 中主要用于储存燃油的为两个燃油供给系统，每台发动机各一个燃油供给系统。右发动机燃油供给系统由右机翼油箱、右盒形梁油箱和前机身油箱组成，而左发动机燃油供给系统由左翼油箱、左盒形梁油箱以及后机身副油箱。所以在进行油量表读数时，务必记住这一点。</p>
+<p>如下表所示，飞机的可用燃油总量约为 20000 磅。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="69%" />
 <col width="31%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">油箱群组</th>
-<th class="head">容量（磅）</th>
+<tr class="row-odd"><th class="head">油箱分组</th>
+<th class="head">磅</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>前部油箱</td>
+<tr class="row-even"><td>前机身油箱</td>
 <td>4,700</td>
 </tr>
-<tr class="row-odd"><td>后部油箱</td>
+<tr class="row-odd"><td>后机身油箱</td>
 <td>4,400</td>
 </tr>
-<tr class="row-even"><td>右供油油箱</td>
+<tr class="row-even"><td>右供油油箱组</td>
 <td>1,600</td>
 </tr>
-<tr class="row-odd"><td>左供油油箱</td>
+<tr class="row-odd"><td>左供油油箱组</td>
 <td>1,500</td>
 </tr>
-<tr class="row-even"><td>机翼内油箱</td>
+<tr class="row-even"><td>机翼油箱</td>
 <td>4,000</td>
 </tr>
-<tr class="row-odd"><td>外部油箱</td>
+<tr class="row-odd"><td>副油箱</td>
 <td>3,600</td>
 </tr>
 </tbody>
@@ -547,35 +546,35 @@
 <div class="section" id="fuel-quantity-indicators-and-controls">
 <h3>燃油量指示器和控制<a class="headerlink" href="#fuel-quantity-indicators-and-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/fuelquantity1.png" src="_images/fuelquantity1.png" />
-<p>位于右膝仪表板上的燃油量显示器显示了机内油箱的燃油剩余量和外挂副油箱中的燃油剩余量。</p>
-<p>燃油量显示器最上方的计数器（<strong>1</strong>）显示了当前设置的 <strong>BINGO</strong> 油量，也就是返航油量。飞行员可以通过旁边的旋钮（<strong>5</strong>）来调定所需的返航提醒油量值。当剩余燃油总量低于设定值时，BINGO 油量注意灯就会亮起。</p>
-<p>中间的 <strong>TOTAL</strong> 燃油量计数器（<strong>2</strong>）显示了剩余的全部燃油重量。</p>
-<p>使用燃油管理面板上的滑动弹簧开关的对应档位来使 <strong>L</strong> 和 <strong>R</strong> 燃油量计数器中显示各个机翼油箱（<strong>WING</strong>）中的燃油量或者外部油箱（<strong>EXT</strong>）中的燃油量，松开开关后，开关会弹回显示供油油箱（ <strong>FEED</strong> ）油量的档位。当显示机翼油箱或外部油箱油量时，左机翼或左外部油箱油量显示在 L 显示器上，右机翼或右外部油箱显示在 R 显示器上。</p>
-<p><strong>FUS</strong>（机身油箱）和 <strong>FEED</strong>（供油油箱）显示器以千磅为单位分别显示了 <strong>AFT</strong>（后机身油箱）和 <strong>L</strong>（左供油油箱）和 <strong>FWD</strong>（前机身油箱）和 <strong>R</strong>（右供油油箱）的剩余燃油量。</p>
-<p>另外，RIO 驾驶舱右仪表板上也显示了燃油总量。而且这个显示器只能显示燃油总量（详见<a class="reference internal" href="cockpit.html#rfuelqtytot"><span class="std std-ref">燃油总量表</span></a>）。</p>
+<p>位于飞行员驾驶舱中右膝仪表板上的燃油量指示器用于指示飞机内部油箱和副油箱中的燃油量。</p>
+<p>燃油量指示器中，最上方的指示器（ <strong>1</strong> ）显示当前设置的 <strong>BINGO</strong> （反航）油量，通过转动指示器旁边的旋钮（ <strong>5</strong> ）来设定所需的值。当剩余的燃油总量低于指示器中设定的值时，BINGO 注意灯就会亮起。</p>
+<p><strong>TOTAL</strong> （<strong>2</strong>）指示器显示飞机所有油箱中的燃油总量。</p>
+<p>一般情况下， <strong>L</strong> 和 <strong>R</strong> （ <strong>3</strong> ）分别显示左/右供油油箱组的燃油量。燃油管理面板中的摇臂开关用于选择显示机翼油箱（<strong>WING</strong>）或副油箱（<strong>EXT</strong>）的燃油量，但摇臂开关由弹簧归中显示供油油箱组（<strong>FEED</strong>）的燃油量。当指示器显示机翼油箱或副油箱油量时，L（左侧）计数器将指示左翼油箱或左侧副油箱中的燃油量，R（右侧）计数器则指示右翼油箱或右侧副油箱的燃油量。</p>
+<p><strong>FUS &amp; FEED</strong> 条状指示器（机身油箱和供油油箱组）以千磅为单位显示 <strong>AFT &amp; L</strong> （后机身油箱和左供油油箱组）以及 <strong>FWD &amp; R</strong> （前机身油箱和右供油油箱组）的燃油量。</p>
+<p>另外，RIO 驾驶舱中也含有一个燃油量指示器，指示器位于右仪表板中。这个指示器只能显示所有油箱的燃油总量（详见 <a class="reference internal" href="cockpit.html#rfuelqtytot"><span class="std std-ref">燃油总量表</span></a>）。</p>
 <img alt="_images/fuel2.png" src="_images/fuel2.png" />
-<p>飞行员可以在左侧垂直控制台的燃油管理面板上对燃油系统进行控制。</p>
-<p><strong>QTY SEL</strong>（<strong>1</strong>）滑动弹簧开关在上文关于油量表中的 L 和 R 燃料显示器的描述中有详细说明。</p>
-<p>单发停车或供油油路故障可能会使得两侧油箱重量不平衡，这种情况下，飞行员可以使用 <strong>FEED</strong> 开关选择 <strong>FWD</strong> （前机身油箱和右侧油箱）或者 <strong>AFT</strong> （后机身油箱和左侧油箱），使被选中的油箱直接向两侧的发动机供油，而不再给其对应的发动机单独供油，从而使油箱中的燃油量平衡。当保护盖关闭时，这个开关会被锁定在 NORM 档位。</p>
-<p><strong>WING/EXT TRANS</strong> 开关用于控制机翼油箱和外部油箱之间的燃油转移。开关位于 <strong>AUTO</strong> 档位时，起落架收起后，机翼油箱和外部油箱之间的燃油转移就会自动开启。当开关位于 <strong>ORIDE</strong> 位置时，无论起落架处于什么位置，机翼油箱和外部油箱之间的燃油转移都会开启。通常来说，在地面，或者在电气系统出现故障时需要选择该档位，以绕过起落架收回检测对燃油转移的限制。开关位于 <strong>OFF</strong> 档位时，机翼油箱和外部油箱之间的燃油转移就会被完全禁用，但是如果在 MASTER TEST（主测试）面板上进行 INST 测试，或受油管开关置于 ALL EXTD 档位，或者放油开关开启时，<strong>WING/EXT TRANS</strong> 开关会自动回到 AUTO 档位。</p>
-<p>使用 <strong>DUMP</strong>（<strong>5</strong>）开关可以通过放油装置来释放燃油，同时它还会启用所有燃油输送系统，这样一来机翼和外部油箱中的燃油也可以通过放油装置释放。如果起落架负重，或者减速板未完全收起，那么放油控制电路将被禁用。</p>
+<p>位于飞行员驾驶舱中左侧垂直控制台上包含有适用于燃油系统的控制开关和按钮。</p>
+<p><strong>QTY SEL</strong> （<strong>1</strong>）摇臂开关在上文关于 L &amp; R 燃油量指示带的介绍中有详细说明。</p>
+<p>飞行员可以使用 <strong>FEED</strong> 开关来通过选择 <strong>FWD</strong> 档位（前机身油箱和剩余右发供油所使用的油箱）或 <strong>AFT</strong> 档位（后机身油箱和剩余左发供油所使用的油箱）修正由于单发停车或燃油供给管路故障所导致两侧油箱燃油量不平衡，而不像 <strong>NORM</strong> 档位中左/右发动机燃油供给分别向对应的发动机输送燃油。当保护盖关闭时，这个开关会被锁定在 NORM 档位。</p>
+<p><strong>WING/EXT TRANS</strong> 开关用来控制机翼到发动机供油系统以及副油箱到发动机供油系统的燃油传输。一般情况下使用的 <strong>AUTO</strong> 档位将在起落架收上后立刻启用机翼/副油箱燃油传输。开关拨动至 <strong>ORIDE</strong> 档位时，无论起落架当前的位置，机翼/副油箱的燃油传输都将被启用，绕过起落架收上检测从而允许当飞机处于地面或在输油系统中发生电气故障时启用机翼/副油箱燃油传输。此外，开关位于 <strong>OFF</strong> 将禁用机翼/副油箱传输，但是当在 MTS（主测试）面板中选择 INST 档位进行测试、受油管设置为 ALL EXTD 或放油时，开关将被自动越控至 AUTO 档位。</p>
+<p>使用 <strong>DUMP</strong> （<strong>5</strong>）开关可以通过河狸尾巴放油装置来将燃油放出，同时开关还会启用所有输油系统，使得除了机身油箱外，还能将机翼和副油箱中的燃油放出。如果机轮负重或者减速板未完全收起，那么放油将被禁止。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">尽管从技术上来说，放油过程中是可以开启加力燃烧室的，但是这样有可能会点燃放出的燃油，因此禁止在加力时进行放油操作。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">尽管从技术上来说，放油过程中是可以开启加力燃烧室的，但是这样有可能会点燃放出的燃油，因此禁止在放油时进行加力燃烧。</td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="in-flight-refueling">
 <h4>空中加油<a class="headerlink" href="#in-flight-refueling" title="永久链接至标题">¶</a></h4>
-<p>上文所讲的燃油管理面板上还可以控制空中加油系统。</p>
-<p><strong>REFUEL PROBE</strong>（<strong>6</strong>）开关用于控制受油管并选择接收燃油的油箱。标有 <strong>EXTD</strong> 标志的两个档位都会使受油管移动至完全伸出位置并接收燃油，区别是，选择 <strong>ALL</strong> 档位时，燃油系统允许对包括机翼油箱，外部油箱和机身油箱在内的所有油箱加油，但如果选择 <strong>FUS</strong> 档位，则只允许对机身油箱加油。将开关向下拨到 <strong>RET</strong>（收回）位置，就可以收起受油管并且让燃油系统回到正常的运行模式。</p>
+<p>上文所讲的燃油管理面板还可以对空中加油系统进行控制。</p>
+<p><strong>REFUEL PROBE</strong> （<strong>6</strong>）开关用于控制受油管伸出以及设置燃油系统来进行接收。两个伸出档位（<strong>EXTD</strong>）分别为 <strong>ALL</strong> 档位——启用对所有油箱进行加油，包括机翼油箱和副油箱， <strong>FUS</strong> 档位——启用对机身油箱进行加油。开关位于 <strong>ALL</strong> 档位时，机翼和副油箱的输油将被禁用从而能够向这两个油箱加油。开关位于 <strong>RET</strong> （收起）档位时，受油管收回并恢复一般燃油系统运作。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">选择 <strong>EXTD ALL</strong> 档位时， <strong>WING/EXT TRANS</strong> 开关会自动回到 <strong>AUTO</strong> 档位。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">开关拨至 <strong>EXTD ALL</strong> 将复位 <strong>WING/EXT TRANS</strong> 开关至 <strong>AUTO</strong> 档位。</td>
 </tr>
 </tbody>
 </table>
@@ -586,12 +585,12 @@
 </div>
 </div>
 <div class="section" id="fire-detection-and-suppression-system">
-<h2>火灾报警和灭火系统<a class="headerlink" href="#fire-detection-and-suppression-system" title="永久链接至标题">¶</a></h2>
+<h2>火焰检测和灭火系统<a class="headerlink" href="#fire-detection-and-suppression-system" title="永久链接至标题">¶</a></h2>
 <div class="section" id="fire-detection-system">
-<h3>火灾报警系统<a class="headerlink" href="#fire-detection-system" title="永久链接至标题">¶</a></h3>
-<p>F-14 的火灾探测系统有两个火灾传感回路，每个发动机各有一个。</p>
-<p>如果整个回路中每一处检测温度都超过 600°F（约 316°C），或在任意一个 6 英寸的范围内检测到超过 1,000°F（约 538°C）的高温，回路便会触发火灾告警电路。左探测回路点亮<a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>面板上的左火警灯，而右探测回路点亮右火警灯。</p>
-<p>此外，F-14 中设计有多个用于探测发动机热气流泄露的传感器，如果检测高于575 °F （约302 °C）的高温，传感器将点亮飞行员的<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>上的 BLEED DUCT 告警灯。</p>
+<h3>火焰检测系统<a class="headerlink" href="#fire-detection-system" title="永久链接至标题">¶</a></h3>
+<p>F-14 的火焰检测系统含有两个火焰感测回路，每台发动机各一个。</p>
+<p>如果整个回路中每一处检测温度都超过 600°F（约 316°C），或在任意 6 英寸范围内检测到温度超过 1,000°F（约 538°C）便会触发火焰检测回路。触发左检测回路使 ACM 面板中左发起火报警灯亮起，触发右检测回路使右发起火报警灯亮起，详情 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 。</p>
+<p>此外，F-14 中还有多个设计用于检测发动机内热空气泄露的传感器，如果检测空气温度高于575 °F （约302 °C），飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 BLEED DUCT 注意灯将亮起。</p>
 </div>
 <div class="section" id="fire-suppression-system">
 <h3>灭火系统<a class="headerlink" href="#fire-suppression-system" title="永久链接至标题">¶</a></h3>
@@ -608,79 +607,79 @@
 </tr>
 </tbody>
 </table>
-<p>F-14 的灭火系统包含两个装有灭火剂的储液瓶，飞行员可以将这些灭火剂注入指定的发动机中。虽然该系统包含两瓶灭火剂，但是两瓶会同时向发动机中注入灭火剂，因此，该系统是一个只能扑灭单个发动机火灾的一次性系统。</p>
-<p>由于灭火剂的有效性取决于它在发动机中存留的时长，因此，在较低的空速下注入灭火剂可以提升灭火效率，因为低速下，灭火剂被气流吹出发动机需要更长的时间。灭火剂本身是一种低腐蚀制剂，能在有效灭火的前提下尽可能减少对发动机造成的损伤。</p>
-<p>飞行员可以抽出与起火侧发动机相对应的 <strong>FUEL SHUT OFF</strong> 手柄（见上图），并按下该手柄后面的灭火器按钮来激活灭火系统。拉起手柄将切断对应一侧的发动机供油，而灭火器按钮则将灭火剂注入到发动机中。</p>
-<p>灭火系统连接了两个提示灯，分别指示对应的灭火剂瓶状态。<strong>ENG FIRE EXT</strong> 表示主瓶低压， <strong>AUX FIRE EXT</strong> 表示辅瓶低压。两者都位于飞行员警告-提示面板，详见<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>。</p>
-<p>指示灯亮起表示成功启用了灭火系统，但也可能表示由于故障导致灭火剂泄露，瓶内压强降低。</p>
+<p>F-14 的灭火系统包含两个装有灭火剂的灭火瓶，灭火剂可以被注入飞行员选择的发动机中。虽然系统包含两瓶灭火瓶，但是两瓶灭火瓶会同时注入灭火剂使得灭火系统成为一次性系统，一次只能扑灭一台发动机中的火灾。</p>
+<p>由于灭火剂的有效性取决于在火被熄灭前留在发动机内的时长，因此，在飞机空速较低的情况下，灭火剂的灭火效果更佳，这是因为在低速下，需要更长的时间来将灭火剂从发动机中吹出。灭火剂毒性低，旨在有效灭火的前提下尽可能减少对发动机造成的损伤。</p>
+<p>飞行员可以抽出起火发动机相应的 <strong>FUEL SHUT OFF</strong> 手柄（见上图），并按下该手柄后面的灭火器按钮来激活灭火系统。拉起手柄将切断对应发动机的燃油供给，而灭火器按钮则将释放灭火剂注入到发动机中。</p>
+<p>还有两个提示灯连接到灭火系统中，每个提示灯用来指示其中一个灭火瓶中的压力较低。 <strong>ENG FIRE EXT</strong> 表示主灭火瓶中压力较低， <strong>AUX FIRE EXT</strong> 表示辅助灭火瓶中压力较低。两个提示灯都位于飞行员驾驶舱中注意-提示面板上，详见 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 。</p>
+<p>成功启用灭火系统后系统的两个提示灯将会亮起，并且还将指示是否错误释放瓶中的压力。</p>
 </div>
 <div class="section" id="fire-detection-and-suppression-system-test">
-<h3>火灾报警和灭火系统测试<a class="headerlink" href="#fire-detection-and-suppression-system-test" title="永久链接至标题">¶</a></h3>
-<p>这两个系统都可以通过选择至主测试面板开关上的 <strong>FIRE DET/EXT</strong> 位进行测试（详见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a>）。如果它们各自的回路正常工作，ACM 面板上的两个火警警示灯将亮起。如果灭火系统正常工作，主测试面板上的 <strong>GO</strong> 灯将亮起。 如果 <strong>NO GO</strong> 亮起或没有指示灯亮起，则表明灭火系统或火灾探测电路异常。</p>
+<h3>火焰检测和灭火系统测试<a class="headerlink" href="#fire-detection-and-suppression-system-test" title="永久链接至标题">¶</a></h3>
+<p>这两个系统都可以通过选择位于主测试面板中的 <strong>FIRE DET/EXT</strong> 档位来进行测试（详见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> ）。测试中，如果各自的回路正常工作，那么 ACM 面板中的两个起火报警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 <strong>GO</strong> 指示灯将会亮起。如果在测试中，主测试面板中 <strong>NO GO</strong> 或没有指示灯亮起，那么表示灭火系统或测试电路存在问题。</p>
 </div>
 </div>
 <div class="section" id="electrical-power-system">
 <h2>电力系统<a class="headerlink" href="#electrical-power-system" title="永久链接至标题">¶</a></h2>
-<p>F-14 的所有主要电力均由两个发动机驱动的交流发电机提供。 每个连接到发动机齿轮箱的发电机都能够产生足够的电力来单独驱动所有机载系统。</p>
-<p>F-14 装备了两个变压整流器来提供 28V 直流电，而且每个变压整流器都可以单独驱动所有机载直流电设备。</p>
-<p>F-14 在前起落架后方有一个外部交流电源插座，它能够驱动机载交流电与直流电（通过变压整流器）设备。发动机启动且内部发电机正常工作后，外部电源将自动切断与飞机电力系统的连接。</p>
+<p>F-14 中所有主要的电力都由两台发动机驱动的 AC（交流）发电机来提供。连接到发动机减速箱的每台发电机都能发出足够的电力来驱动飞机中的所有系统。</p>
+<p>F-14 装备了两台整流变压器来作为 DC（直流）发电为系统提供 28V DC（直流电），同样每台整流变压器都可以单独驱动飞机中所有需要用到 DC 的设备。</p>
+<p>F-14 在前轮后方包含有一个使用 AC 电源的外部电源插座，外部电源插座能够为飞机提供 AC 和 DC（通过整流变压器）。当一台内部发电机正常工作时，外部电源将自动从飞机电力系统中断开。</p>
 <div class="section" id="emergency-power">
-<h3>应急动力<a class="headerlink" href="#emergency-power" title="永久链接至标题">¶</a></h3>
-<p>F-14 的联合液压系统可以驱动一个作用有限的应急发电机来作为交流/直流电源。如果系统失去主发电机提供的电力，应急发电机将在1秒内接管关键飞行系统的供电。</p>
+<h3>应急电力<a class="headerlink" href="#emergency-power" title="永久链接至标题">¶</a></h3>
+<p>F-14 中包含有一台由联合液压系统驱动的应急发电机，应急发电机可以发出有限的电力来提供 AC （交流电）和 DC（直流电）。如果系统失去由两台主发电机提供的电力，应急发电机将在1秒内接管关键飞行系统的供电。</p>
 </div>
 <div class="section" id="controls-and-indicators">
-<h3>控制和指示器<a class="headerlink" href="#controls-and-indicators" title="永久链接至标题">¶</a></h3>
+<h3>控制器和指示器<a class="headerlink" href="#controls-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/generator1.png" src="_images/generator1.png" />
-<p>电气系统的控制开关位于主发电机控制面板上。</p>
-<p><strong>MASTER GEN</strong>（<strong>1</strong>）开关控制主发电机与电气总线的连接。开关的 <strong>NORM</strong> 档位用于将对应一侧的发电机连接到总线。<strong>OFF/RESET</strong> 档位用于断开发电机与总线的连接，并且复位任何由于电源超出正常限制而切入的保护电路。<strong>TEST</strong> 档位将启动发电机，但不会将其连接到电力总线，这样可以在不影响其他飞机系统的情况下测试发电机。选择 NORM 档位后，开关会被锁定在 NORM 档位，提起开关后才能将其拨回 OFF/RESET 档位。</p>
-<p><strong>EMERG</strong>（<strong>2</strong>）开关用于控制应急发电机。开关位于 <strong>NORM</strong> 档位时，如果主发电机发生故障，应急发电机将自动连接到应急总线。<strong>OFF/RESET</strong> 档位将禁用应急发电机，并在复位相关的保护电路。此开关被保护盖固定在 NORM 档位，首先需要升起保护盖，然后才能将开关拨至 OFF/RESET。</p>
-<p>电力系统相关的警报灯和提示灯位于飞行员<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>上。<strong>L GEN</strong> 和 <strong>R GEN</strong> 指示灯亮起表示对应的发电机工作状态异常，这可能是由于系统出现故障，或驱动发电机的发动机没有运转。</p>
-<p><strong>TRANS/RECT</strong> 提示灯亮起表示至少有一个变压整流器故障。</p>
-<p>应急发电机可以通过选择<a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a>上的 <strong>MASTER TEST</strong> 开关的 <strong>EMERG GEN</strong> 档位来测试。<strong>GO</strong> 灯亮起表示测试通过，而 <strong>NO GO</strong> 灯亮起表示测试未通过。</p>
+<p>电力系统的控制开关位于主发电机控制面板上。</p>
+<p><strong>MASTER GEN</strong> （ <strong>1</strong> ）开关控制主发电机到电力总线的连接。 <strong>NORM</strong> 档位用于将对应一侧的发电机连接到总线。 <strong>OFF/RESET</strong> 档位用于断开发电机与总线的连接，并且复位任何由于供电超出正常限制而切断的保护电路。<strong>TEST</strong> 档位用于起动发电机，但不会将发电机连接到电力总线，从而在不影响其他飞机系统的情况下对发电机进行测试。开关被锁定在 NORM 档位，提起开关后才能将其拨回 OFF/RESET 档位。</p>
+<p><strong>EMERG</strong> （ <strong>2</strong> ）开关用于控制应急发电机。开关位于 <strong>NORM</strong> 档位时，如果主发电机发生故障，应急发电机将自动连接到应急总线。<strong>OFF/RESET</strong> 档位将禁用应急发电机，同时还复位相关保护电路（如果发生跳闸）。此开关被保护盖固定在 NORM 档位，需要升起保护盖才能将开关拨至 OFF/RESET 档位。</p>
+<p>电力系统相关的注意/提示灯位于飞行员驾驶舱 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中。<strong>L GEN</strong> 和 <strong>R GEN</strong> 指示灯亮起表示对应的发电机没有正常工作。可能是由于发电机故障或驱动发电机的发动机没有运转。</p>
+<p><strong>TRANS/RECT</strong> 提示灯亮起表示一个或全部整流变压器没有正常工作。</p>
+<p>应急发电机可以通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 中的 <strong>MASTER TEST</strong> 开关，选择 <strong>EMERG GEN</strong> 档位对发电机进行测试。<strong>GO</strong> 指示灯亮起表示测试完成。 发生故障时， <strong>NO GO</strong> 指示灯将会亮起。</p>
 </div>
 <div class="section" id="circuit-breakers">
 <h3>断路器<a class="headerlink" href="#circuit-breakers" title="永久链接至标题">¶</a></h3>
-<p>F-14 的断路器位于飞行员的左/右膝仪表板以及 RIO 座椅后部的左侧和右侧。断路器弹出时回将对应的系统从电路中隔离，以保护机载系统免受过大电流影响。断路器处于弹出位置时，可以看见断路器上的白线标识。 按下断路器来将其复位；抽出断路器也可以从电路中手动隔离相应的系统。</p>
-<p>DCS 中实装 F-14 的断路器功能后，我们会在此处详细描述各个断路器的功能。</p>
+<p>F-14 的断路器位于飞行员的左/右膝仪表板以及 RIO 座椅后部的左侧和右侧。通过弹出断路器来从过电流中保护飞机的系统并隔离消耗太多电流的系统。断路器弹出时，断路器中将会出现一根白线表示已弹出。可以通过按下断路器来将断路器复位，也可以手动抽出断路器。</p>
+<p>断路器实装至 DCS 时，我们会在此处详细描述各个断路器的功能。</p>
 </div>
 </div>
 <div class="section" id="hydraulic-system">
 <h2>液压系统<a class="headerlink" href="#hydraulic-system" title="永久链接至标题">¶</a></h2>
 <p>F-14 有两个独立的液压系统，分别是飞行液压系统和联合液压系统。</p>
-<p>两个系统分别由两个发动机连接的液压泵驱动，飞行液压系统由右侧发动机驱动，联合液压系统由左侧发动机驱动。两个液压系统的正常工作压强约为 3000 psi（磅力每平方英寸）。</p>
-<p>飞行操纵面由这两个液压系统共同驱动，而联合液压系统同时也向一些二级系统提供压力，例如襟翼、起落架和受油管。这使得两个系统可以在另一个系统发生故障的情况下相互独立地驱动操纵面。</p>
-<p>此外，通过起落架手柄旁边的开关可以从液压系统中隔离那些飞行不相关的系统。隔离后，这些与飞行操控不直接关联的系统受损时，并不会导致联合液压系统压强降低或液压液泄露。可以从联合液压系统中隔离的系统分别是：起落架、机轮刹车和受油管。起落架手柄放下时，这个开关被机械固定在关闭档位，以避免意外隔离起落架和制动系统。</p>
-<p>如果飞行液压系统或联合液压系统中的一个液压泵失效，另一侧仍能正常工作的液压系统可以通过液压传输泵继续对该系统加压。液压传输泵是一种全向液压驱动泵，可以由一个液压系统驱动来供应另一个液压系统。如果驱动（液压传输泵的）系统中的压强保持在在 3,000 psi 左右，那么通过液压传输泵可以保持另一侧液压系统压强处于 2,400 和 2,600 psi 之间。如果其中一个液压系统的压强低于 500 psi ，传输泵将切断，以防止泵损坏，避免另一个正常工作的液压系统的压强降低。飞行员也可以手动关闭液压传输泵。</p>
-<p>在两个液压泵都发生故障的情况下，飞行液压系统可以由一个电动泵驱动，这个电动泵被称为应急飞行液压泵。应急飞行液压泵能独立驱动尾部的操纵面，即使主液压系统中无压力，飞机也能通过应急液压返回基地并着陆。如果两个主液压系统中的压强降至 2,100 psi 以下，那么电动泵会自动启用；如果压强重新达到 2,400 psi，则电动泵会关闭。电动泵自动激活后会使系统进入低速模式（LOW，使用备用动力模块），但飞行员也可以按需切换高速模式或低速模式。飞行液压系统由电动泵时，操纵面的偏转率会降低，且低速模式下偏转率比高速模式下更低。</p>
-<p>如果联合液压系统中没有无足够压强，飞行员可以通过手动液压泵对受油管和机轮刹车蓄能器加压。此方法主要用于地面无动力操作，但在空中可作为备用。</p>
+<p>两个系统都由连接到每台发动机的液压泵提供动力，飞行液压系统由右侧发动机提供动力，联合液压系统由左侧发动机提供动力。在正常运行时，两个液压系统的中的油液压力将被液压泵加压至大约 3000 psi。</p>
+<p>两个液压系统为所有飞行操纵面提供动力，而联合液压系统同时也向一些二级系统提供动力，例如襟翼、起落架和受油管。由此一来，两个系统就可以在另外一个系统发生故障的情况下独立地驱动操纵面运动。</p>
+<p>此外，当升空时，可以通过起落架手柄旁的开关来从液压系统中隔离无关系统的液压。这样一来，即使被隔离的系统损坏，也不会影响到联合液压系统中压力或造成油液泄漏。可以从联合液压系统中隔离开来的系统分别是：起落架、机轮刹车和受油管系统。起落架手柄处于放下档位时，这个开关将被机械锁定在关闭隔离档位。</p>
+<p>如果只有一个液压泵失效，那么可以通过液压输送泵从没有失效的液压泵来对失效侧系统的液压进行加压。液压输送泵是一种双向液压泵，液压输送泵可以用来对另一侧系统中的油液进行加压，如果向另一侧加压的系统中的油液压力（压强）在 3,000 psi 左右，那么通过液压输送泵可以将失效侧系统的油液压力保持在 2,400 和 2,600 psi 之间。如果其中一个液压系统的油液压力低于 500 psi，那么传输泵将被关断以防止泵损坏，以及避免另一个正常工作的液压系统压力降低。液压输送泵可由飞行员手动关断。</p>
+<p>如果两个液压泵都发生故障，那么飞行液压系统可以由一个被称为应急飞行液压泵的电动液压泵提供动力。应急飞行液压泵能独立地驱动飞机尾部的操纵面，即使在两个主液压系统压力为零的情况下，应急飞行液压泵也能让飞机返回基地并着陆。如果两个主液压系统中的油液压力降低至 2,100 psi 以下，那么电动液压泵将会自动启用，如果两个主液压系统中油液压力重新达到 2,400 psi，那么电动液压泵将会关断。自动启用电动液压泵时，备用飞行控制系统将以低速模式运行，但飞行员也可以手动切换至高速模式或低速模式。如果操纵面由应急飞行液压泵驱动，那么操纵面的偏转率会降低，且在低速模式下偏转率比高速模式下更低。</p>
+<p>如果联合液压系统中的压力为零，那么飞行员可以通过手动液压泵来对受油管和机轮刹车蓄压器进行充压。这种方法主要用于在无动力地面作业时使用，但仍可作为备用液压泵在空中使用。</p>
 <div class="section" id="id1">
-<h3>控制和指示器<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
+<h3>控制器和指示器<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
 <img alt="_images/hydraulic1.png" src="_images/hydraulic1.png" />
-<p><strong>HYD PRESS</strong>（液压指示器）由两个仪表组成：<strong>COMB</strong> 表示联合液压系统，<strong>FLT</strong> 表示飞行液压系统，读数单位为千 psi，每一格刻度代表 1000 psi 。液压泵正常工作时，两个指针应指向标注了 3,000 psi 压强值的标尺上。</p>
-<p>仪表下方的 <strong>SPOIL</strong> 标识旗显示了液压系统是否能驱动扰流板，<strong>EMER FLT</strong> 标识旗显示了应急飞行液压的工作模式。<strong>HI</strong> 标识旗表示高速模式，<strong>LOW</strong> 标识旗标识低速模式。</p>
+<p><strong>HYD PRESS</strong> （液压指示器）由两个仪表组成： <strong>COMB</strong> ——联合液压系统，<strong>FLT</strong> ——飞行液压系统，液压读数单位为千 psi。尺度中包含液压泵造成影响时的公称压力 3000 psi 标记。</p>
+<p>位于两个仪表下方的为标识旗，标识旗用来指示扰流板 <strong>SPOIL</strong> 的液压是否可用和应急飞行液压泵 <strong>EMER FLT</strong> 是否工作。<strong>HI</strong> 标识旗表示应急飞行液压泵以高速模式运行，<strong>LOW</strong> 标识旗表示应急飞行液压泵以低速模式运行。</p>
 <img alt="_images/brakepressure1.png" src="_images/brakepressure1.png" />
-<p><strong>制动压力</strong>表显示了制动蓄能器中的可用压强。 <strong>PARK</strong> 表示停放刹车压强，<strong>AUX</strong> 表示机轮刹车压强。绿色区域表示约 2,150 psi 至 3,000 psi 的压强，红色区域标识当前可用压强低于 2,150 psi 。</p>
+<p><strong>BRAKE PRESSURE</strong> 应急刹车压力表显示了机轮刹车蓄压器中可用的油液压力。 <strong>PARK</strong> 指示停放刹车压力，<strong>AUX</strong> 指示机轮刹车压力。绿色区域对应的压力范围大约 2,150 psi 至 3,000 psi，红色区域表示压力低于 2150 psi。</p>
 <img alt="_images/hydraulictransferpump1.png" src="_images/hydraulictransferpump1.png" />
-<p><strong>HYD TRANSFER PUMP</strong> ，也就是液压传输泵开关，位于飞行员右侧控制台的面板上。通过这个开关可以手动关闭液压传输泵（<strong>SHUTOFF</strong> 档位），但开关通常处于 <strong>NORMAL</strong> 档位，使液压传输泵在一侧液压泵出现故障时自动启动。此开关被保护盖固定在 NORMAL 档位。</p>
-<p>紧急飞行液压泵控制开关位于<a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a>上，它带有一个保护盖。保护盖关闭时，开关固定在 <strong>(AUTO)LOW</strong> 档位，这将允许电动泵自动激活。如前文所述，升起开关保护盖后，飞行员可以手动选择 <strong>HIGH</strong>（高速模式）和 <strong>LOW</strong>（低速模式）两个档位。</p>
-<p><a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>中唯一与液压系统相关的注意灯是 <strong>HYD PRESS</strong> 灯，任何一个主液压系统压力低于 2,100 psi 时，注意灯会亮起。而当两个液压系统中的压强再次高于 2,400 ps I时，注意灯熄灭。</p>
+<p><strong>HYD TRANSFER PUMP</strong> ——液压输送泵开关——位于飞行员驾驶舱中右侧控制台的液压输送泵开关面板上。液压输送泵开关可以用来手动关断液压输送泵（ <strong>SHUTOFF</strong>  档位），但开关通常位于 <strong>NORMAL</strong> 档位来使液压输送泵在任意一侧液压泵出现故障时自动启动。开关被保护盖固定在 NORMAL 档位。</p>
+<p>应急飞行液压泵通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 中的带保护盖开关来控制。保护盖关闭时，开关固定在 <strong>(AUTO)LOW</strong> 档位，选择 (AUTO)LOW 档位将允许应急飞行液压泵如上文所述自动启用，其它两个档位—— <strong>HIGH</strong> 和 <strong>LOW</strong> 档位——当保护盖升起时，这两个档位可用来手动起动应急飞行液压泵低速模式或高速模式。</p>
+<p><a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中唯一与液压系统相关的注意灯为 <strong>HYD PRESS</strong> 注意灯，注意灯亮起表示其中一个主液压系统中的油液压力低于 2100 psi。当两个主液压系统中的油液压力再次高于 2,400 psi 时，注意灯将熄灭。</p>
 </div>
 </div>
 <div class="section" id="wing-sweep-system">
 <h2>机翼后掠系统<a class="headerlink" href="#wing-sweep-system" title="永久链接至标题">¶</a></h2>
 <div class="figure" id="id10">
 <img alt="_images/sweepschedule.png" src="_images/sweepschedule.png" />
-<p class="caption"><span class="caption-text">基于马赫数的机翼后掠控制规律及襟翼互锁机制。</span></p>
+<p class="caption"><span class="caption-text">机翼后掠制度根据马赫数和襟翼互锁来控制。</span></p>
 </div>
-<p>机翼后掠系统控制 F-14 机翼的几何形状，使机翼能够在空中改变后掠角，从 20 度移动到 68 度。在甲板上，75° 的停放后掠角可以将 F-14 的翼展进一步减少至33英尺（约10米）。</p>
-<p>机翼由液压机械螺旋作动器移动，且作动器之间的机械互联确保机翼同步收放。两个主液压系统正常工作时，最大机翼后掠变化率大约为 15° 每秒。但负 G 或大量正 G 机动会影响实际的变化率。</p>
-<p>在正常操作中，CADC，即中央大气数据计算机，通过机翼后掠程序根据当前的马赫数来控制机翼后掠位置，这被称为 <strong>AUTO</strong> 模式。飞行员还可以手动选择机翼后掠位置，也可以选择 <strong>BOMB</strong>（投弹）模式，控制程序会按需将机翼后掠角设置为 55° 或更大。简而言之，CADC 机翼后掠程序确定了机翼的最大前移位置（最小后掠角度）。所有这些控制都是由电动指令通过两个独立通道（以增加控制余度）控制机翼后掠作动器来完成的。</p>
-<p>ACM 面板旁的机翼后掠指示器中显示了当前指令后掠位置、CADC程序设定的机翼位置以及实际机翼位置。</p>
+<p>机翼后掠系统控制着 F-14 机翼的几何形状，机翼后掠可使机翼在空中从 20 度移动到 68 度。当在甲板上时，75° 的停放后掠可以让 F-14 的翼展进一步缩短至33英尺（约10米）。</p>
+<p>机翼由液压-机械螺旋千斤顶作动器进行移动，且作动器之间为机械互联确保机翼之间保持同步。两个主液压系统正常工作时，机翼后掠的最大变化速率大约为 15° 每秒。但负 G 或大量正 G 机动会影响实际的变化速率。</p>
+<p>在正常工作时，CADC（中央大气数据计算机）根据当前马赫数通过机翼后掠程序来控制机翼的位置，这种工作模式被称为 <strong>AUTO</strong> 模式。飞行员还可以手动选择机翼后掠的位置或选择 <strong>BOMB</strong> 模式，选择 BOMB 模式将设置机翼后掠至55°或根据机翼后掠程序更进一步后掠。简而言之，CADC 机翼后掠程序决定了机翼的最小后掠角度。所有 CADC 后掠控制都通过电信号以及连接至机翼后掠作动器的两个独立通道（以增加控制余度）来完成。</p>
+<p>ACM 面板旁的机翼后掠指示器用于指示当前指令的机翼后掠位置、CADC 程序设定的机翼后掠位置以及实际的机翼后掠位置。</p>
 <div class="section" id="emergency-mode">
 <span id="wingsweepemerg"></span><h3>应急模式<a class="headerlink" href="#emergency-mode" title="永久链接至标题">¶</a></h3>
-<p>机翼后掠系统的正常模式可以电动控制机翼后掠，但作为备用，也可以通过应急模式，以机械链接来直接控制机翼后掠。这是通过油门弧座右侧的应急机翼后掠手柄完成的。该手柄作为备份机械控制，与机翼后掠系统中的液压阀直接相连。</p>
-<p>正常模式下，机翼后掠程序控制手柄下方的伺服机构来移动手柄，确保它的位置与机翼实际后掠位置相符。为了解除电动控制并启用应急模式，首先打开手柄上保护盖，然后抽出手柄以获得额外的力矩。随后可以将手柄从电动伺服系统的随动限位器中移出，从而实现手动控制机翼后掠位置。</p>
-<p>在此模式下，飞行员必须确保遵循下表中的控制规律以避免损坏机翼：</p>
+<p>在正常模式下，机翼后掠通过电信号对机翼后掠进行控制，但在应急模式下，作为备用，仍然可以通过机械连接来控制机翼后掠。机械控制通过油门右侧的应急机翼后掠手柄来完成。应急机翼后掠手柄与机翼后掠系统中的液压阀机械连接，从而提供机械备份控制。</p>
+<p>通常，应急机翼后掠手柄由位于下方的伺服装置根据电子机翼后掠程序进行移动，来确保手柄处于正确的机翼后掠位置上。如需断开电子系统并启用应急模式，首先需要打开手柄上保护盖，然后抽出手柄以获得额外的杠杆作用力。随后可以将手柄从连接到电力伺服装置的随动限位器中移出，移出限位器后使用手柄来手动控制机翼后掠的位置。</p>
+<p>在应急模式下，飞行员必须确保遵循下表中的制度以避免损坏机翼：</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="47%" />
@@ -688,7 +687,7 @@
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">速度（指示马赫数）</th>
-<th class="head">机翼向前最大位置（最小后掠角度）</th>
+<th class="head">最小后掠角度</th>
 </tr>
 </thead>
 <tbody valign="top">
@@ -709,55 +708,55 @@
 </tr>
 </tbody>
 </table>
-<p>若要返回正常操作模式，应将手柄调整到所需位置并按下，然后关闭保护盖。 最后按下燃油管理面板上的 <strong>MASTER RESET</strong> 按钮，并将机翼后掠系统的指令位置设置在与手柄相同的位置。这时，电动伺服装置会移动到指令位置并重新起用随动限位器，恢复正常操作模式。</p>
+<p>如需返回正常工作模式，飞行员应将手柄调整到所需位置并按下，然后关闭保护盖。 接着，飞行员应该按下燃油管理面板中的 <strong>MASTER RESET</strong> 按钮，机翼后掠系统将设置后掠位置与手柄的位置保持一致。这时，伺服装置将驱动至指令的位置，然后重新将手柄接入随动限位器内以恢复正常运行模式。</p>
 <div class="section" id="oversweep">
 <h4>机翼停放后掠<a class="headerlink" href="#oversweep" title="永久链接至标题">¶</a></h4>
-<p>紧急机翼后掠手柄也用于选择机翼的停放后掠位置。停放后掠仅在地面使用，其目的是为了减小翼展，便于在甲板上停放飞机。当机翼将掠过水平尾翼时，水平尾翼控制系统会通过限制平尾的偏转，以防机翼和安定面相互碰撞而损坏。</p>
-<p>使用应急机翼后掠手柄，将其移动至 68° 的位置并保持在展开位置来将机翼移动至停放后掠位置。这会让翼根的保形气囊放气并解除水平尾翼控制系统，并使 <strong>HZ TAIL AUTH</strong> 注意灯亮起。当 <strong>HZ TAIL AUTH</strong> 注意灯熄灭，且机翼后掠指示器上显示 <strong>OVER</strong> 标识旗时，互锁会解除，这时可以将手柄移动至 75° 的位置并按下，然后关闭手柄保护盖。</p>
-<p>为了使机翼退出停机后掠，将手柄抽出并向前移动至 68° 的位置。这将再次使 <strong>HZ TAIL AUTH</strong> 注意灯亮起。当机翼完全离开停放后掠范围后，注意灯熄灭，且机翼后掠指示器中的 <strong>OVER</strong> 标识旗消失。</p>
-<p>接下来的操作步骤与从紧急模式返回正常模式相同：将手柄移动至随动限位器的位置上，然后按下 <strong>MASTER RESET</strong> 按钮。</p>
+<p>紧急机翼后掠手柄还用于选择机翼的停放后掠位置。停放后掠仅在位于地面时使用，选择停放后掠其目的是为了减小翼展，便于在甲板上停放飞机。由于机翼会掠过水平安定面上方，因此水平安定面权限系统将被启用并通过限制水平安定面的偏转来避免机翼和水平安定面相撞导致损坏。</p>
+<p>如需将机翼设置为停放后掠，飞行员应将应急机翼后掠手柄移动至68°的位置，然后将手柄保持在抽出的位置。将手柄保持在最大后掠位置将使机翼密封气囊放气，并激活水平安定面权限系统， <strong>HZ TAIL AUTH</strong> 注意灯亮起表示权限系统已激活。当 <strong>HZ TAIL AUTH</strong> 注意灯熄灭，并且机翼后掠指示器种 <strong>OVER</strong> 标识旗出现时，停放后掠互锁将会解除，这时可以将手柄移动至 75° 并按下。</p>
+<p>如需将机翼移出停放后掠，抽出手柄并向前移动至68°的位置处。这将使 <strong>HZ TAIL AUTH</strong> 注意灯再次亮起。当机翼移出停放后掠时，注意灯以及机翼后掠指示器中的 <strong>OVER</strong> 标识旗将消失。</p>
+<p>与一般应急模式操作相同，将手柄移动至与随动限位器相同的位置上，然后按下 <strong>MASTER RESET</strong> 按钮。</p>
 </div>
 </div>
 <div class="section" id="id2">
-<h3>控制和指示器<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
-<p>用于控制机翼后掠系统的机翼后掠开关（电动控制）位于右油门握把上，而应急机翼后掠手柄（机械控制）位于油门弧座右侧。详见<a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a>和<a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a>。</p>
-<p>右油门握把上的机翼后掠苦力帽开关通常处于 <strong>AUTO</strong> 档位，即苦力帽开关向上。这使 CADC 可以根据机翼后掠程序来调节机翼的后掠角。而将苦力帽开关向下拨至 <strong>BOMB</strong> 档位会选择投弹模式，机翼会根据 CADC 选择的控制规律，移动至 55° 或更向后的位置。</p>
-<p>苦力帽开关的 <strong>AFT</strong>（向后）和 <strong>FWD</strong>（向前）档位用于手动调节机翼位置，但不能超过 CADC 设定的最小机翼后掠角度（也就是机翼向前移动的最大位置）。</p>
-<p>油门弧座右侧的应急后掠手柄用于控制机械应急模式，详细见上文中的紧急模式。</p>
+<h3>控制器和指示器<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
+<p>用于控制机翼后掠系统的控制器（电力）位于右侧油门握把以及右侧油门握把右边（机械）。详见 <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a> 和 <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a> 。</p>
+<p>右侧油门握把上的机翼后掠苦力帽开关通常设置到 <strong>AUTO</strong> 档位，选择 AUTO 档位来启用 CADC 对机翼进行控制，AUTO 档位为苦力帽向上。向下拨动苦力帽将机翼设置为 <strong>BOMB</strong> 档位，机翼将后掠到55°或往后。</p>
+<p>苦力帽 <strong>AFT</strong> （向后）和 <strong>FWD</strong> （向前）档位用来从 CADC 制度的位置手动移动襟翼。</p>
+<p>油门弧座右侧的应急机翼后掠手柄用于控制机械操控的应急模式，详细见上文中的紧急模式。</p>
 <img alt="_images/wingsweep1.png" src="_images/wingsweep1.png" />
-<p>ACM 面板右侧的机翼后掠指示器用于指示当前的机翼后掠位置。 左侧的指针指示了 CADC 设定的机翼位置。左右两个垂直的条形指示器分别指示了机翼当前的指令位置和实际位置。</p>
-<p>最右侧的五个垂直排列的显示窗：</p>
+<p>ACM 面板右侧的机翼后掠指示器用于指示当前的机翼后掠位置。 左侧的指针指示了 CADC 制度的机翼后掠位置。左右两个垂直的指示条分别指示了机翼当前的指令位置和实际位置。</p>
+<p>右侧的五个显示窗分别指示：</p>
 <ul class="simple">
 <li><strong>OFF</strong> - 关闭，系统无法操作。</li>
-<li><strong>AUTO</strong> - 自动，机翼后掠由 CADC 控制。</li>
-<li><strong>MAN</strong> - 手动，机翼由右油门握把上的苦力帽开关控制。</li>
-<li><strong>EMER</strong> - 应急，机翼由应急机翼后掠手柄控制。</li>
-<li><strong>OVER</strong> - 停放后掠，机翼处于停机后掠状态。</li>
+<li><strong>AUTO</strong> - 自动，由 CADC 控制机翼后掠。</li>
+<li><strong>MAN</strong> - 手动，通过右侧油门握把中的苦力帽手动控制机翼后掠。</li>
+<li><strong>EMER</strong> - 应急，通过应急机翼后掠手柄控制机翼后掠。</li>
+<li><strong>OVER</strong> - 停放后掠，机翼处于停机后掠位置。</li>
 </ul>
-<p>相关的告警灯与提示灯位于<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>和飞行员<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>上。</p>
-<p>两个机翼后掠通道都出现故障时，或使用应急机翼后掠模式时，VDI右侧的 <strong>WING SWEEP</strong> 告警灯将亮起。如果未使用应急模式，但该警报灯亮起，则表示电气系统可能出现故障，应使用应急模式来控制机翼后掠系统。</p>
-<p>当至少一个电动机翼后掠通道无法操作时，位于飞行员注意-提示灯光面板上的 <strong>WING SWEEP</strong> 警报灯将亮起。</p>
+<p>相关的报警灯与提示灯位于 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 和飞行员驾驶舱 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中。</p>
+<p>当两个机翼后掠电气通道都无法操作机翼后掠或使用应急机翼后掠模式时，VDI 右侧的 <strong>WING SWEEP</strong> 报警灯将亮起。如果未使用应急机翼后掠模式，但报警灯亮起，那么就表示电力系统可能不正常工作，此时应使用应急机翼后掠模式。</p>
+<p>当至少一个电气机翼后掠通道无法使用时，飞行员驾驶从注意-提示灯光面板中的 <strong>WING SWEEP</strong> 提示灯将亮起。</p>
 <div class="section" id="wing-sweep-system-test">
 <h4>机翼后掠系统测试<a class="headerlink" href="#wing-sweep-system-test" title="永久链接至标题">¶</a></h4>
-<p>起飞前，可通过<a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a>，在不移动机翼的情况下对机翼后掠系统进行测试。</p>
-<p>若要进行测试，需将机翼后掠模式设置为 <strong>AUTO</strong>，然后按下 <strong>MASTER RESET</strong> 按钮。接下来，将（主测试面板的） <strong>MASTER TEST</strong> 开关拨至 <strong>WG SWP</strong> 档位。</p>
-<p>机翼后掠指示器上的CADC指令位置指示器将移动至 44° 的位置。飞行员<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>上的 <strong>WING SWEEP</strong> 和 <strong>FLAP</strong> 提示灯以及<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>上的 <strong>REDUCE SPEED</strong> 告警灯将亮起。</p>
+<p>起飞前，可通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 在不移动机翼的情况下对机翼后掠系统进行测试。</p>
+<p>如需进行测试，将机翼后掠模式设置为 <strong>AUTO</strong>，然后按下 <strong>MASTER RESET</strong> 按钮。设置 <strong>MASTER TEST</strong> 旋钮拨至 <strong>WG SWP</strong> 档位。</p>
+<p>机翼后掠指示器中的 CADC 指令后掠位置指示带将移动至 44° 的位置。飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 <strong>WING SWEEP</strong> 和 <strong>FLAP</strong> 注意/提示灯以及 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 中的 <strong>REDUCE SPEED</strong> 报警灯将亮起。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><strong>WING SWEEP</strong> 提示灯将在测试开始3秒后亮起，然后关闭。测试进行8秒后，该提示灯会再次亮起。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><strong>WING SWEEP</strong> 提示灯将在测试开始3秒后亮起，然后熄灭，然后在测试开始8秒后再次亮起。</td>
 </tr>
 </tbody>
 </table>
-<p>当 CADC 指令位置指示器向前移动到 20° 位置时，测试结束，上述指示灯将熄灭。现在将 <strong>MASTER TEST</strong> 开关拨至 <strong>OFF</strong> 档位来结束测试。整个测试过程大约需要25秒。</p>
+<p>当 CADC 指令后掠位置指示带向前移动到 20° 位置时，就表示测试结束，上述指示灯将熄灭。现在 <strong>MASTER TEST</strong> 开关可以拨至 <strong>OFF</strong> 档位，并且测试已经完成。测试大约需要25秒来完成。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">测试过程中，<strong>RUDDER AUTH</strong> 和 <strong>MACH TRIM</strong> 灯可能会同时亮起或亮起其中一个，且驾驶杆可能会移动。这些是正常现象，可以忽略。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">测试过程中，<strong>RUDDER AUTH</strong> 和/或 <strong>MACH TRIM</strong> 提示灯可能会亮起，且驾驶杆可能会移动。这些是正常现象，可以忽略。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">主测试面板上的 WG SWP 测试尚未实装。</td>
+<tr class="field-even field"><th class="field-name">注意 2:</th><td class="field-body">主测试面板上的 WG SWP 测试尚未实装。</td>
 </tr>
 </tbody>
 </table>
@@ -766,16 +765,16 @@
 </div>
 <div class="section" id="flight-control-system">
 <span id="fcs"></span><h2>飞行控制系统<a class="headerlink" href="#flight-control-system" title="永久链接至标题">¶</a></h2>
-<p>F-14 “雄猫” 的飞行控制系统由两个主液压管路驱动，这两个液压系统分别由对应的发动机液压泵驱动。</p>
-<p>飞控系统进行纵向（俯仰）控制时，两侧的水平尾翼偏转角度一致，其作动方式与传统升降舵相同。</p>
-<p>然而，进行侧向（滚转）控制时，水平尾翼和扰流板一同作动。为了使飞机进行滚转，两侧的水平尾翼彼此相对地偏转，与滚转方向的一侧的扰流板一起作动，从来起到副翼的作用。</p>
-<p>F-14 的方向舵是标准的双垂直尾翼方向舵。</p>
-<p><a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a>中会指示飞行操纵面的位置，它也可以用于检查驾驶杆回中时的操纵面配平位置。</p>
+<p>F-14 “雄猫” 的飞行控制系统由两个主液压回路驱动，液压由连接到每个发动机的液压泵提供动力。</p>
+<p>在进行纵向（俯仰）控制时，机尾两侧的水平安定面的偏转角度保持一致，其作动方式与传统升降舵相同。</p>
+<p>横向（滚转）控制由水平安定面和扰流板一同作动。为了使飞机进行滚转，机尾两侧的水平安定面将会向相反的方向偏转并配合使用滚转方向的扰流板来达到副翼的效果。</p>
+<p>尽管 F-14 安装有两个垂直安定面和两个方向舵，但这仍然是标准舵面配置。</p>
+<p>操纵面的位置 将在 <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">操纵面位置指示器</span></a> 中指示出来，操纵面位置指示器也可以用于检查驾驶杆位于归中位置时，操纵面配平位置。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在大于15单位 AOA 时，由于经过飞行操纵面的气流发生变化，应使用方向舵来控制飞机进行侧向（滚转）运动。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在 AOA 超过15个单位时，由于沿操纵面流过的气流发生变化，所以飞行员应使用方向舵来进行横向（滚转）控制。</td>
 </tr>
 </tbody>
 </table>
@@ -784,141 +783,141 @@
 </div>
 <div class="section" id="trim">
 <h3>配平<a class="headerlink" href="#trim" title="永久链接至标题">¶</a></h3>
-<p>飞行员可以通过<a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a>上的配平开关进行纵向和横向配平。按下配平开关会改变驾驶杆的回中位置，以此来配平飞机。方向舵由<a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">进气道斜板 / 油门控制面板</span></a>上的 <strong>RUDDER TRIM</strong> 配平，同理，这个配平开关会改变方向舵回中位置。</p>
-<p>马赫数配平和 ITS（综合配平系统）会自动补偿纵向配平变化。马赫数配平系统可补偿跨音速和超音速配平变化，而 ITS 会补偿由于减速板展开和襟翼放下导致的配平变化。</p>
+<p>飞行员可以通过 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 中的配平开关进行俯仰和滚转配平。按下配平开关会改变驾驶杆的归中位置，从而配平飞机。方向舵通过 <a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">进气道斜板 / 油门控制面板</span></a> 中的 <strong>RUDDER TRIM</strong> 开关进行配平，使用这个开关进行配平同样会改变脚蹬板的归中位置。</p>
+<p>马赫数配平和 ITS（综合配平系统）会自动进行配平以补偿俯仰配平带来的变化。马赫数配平系统可以补偿在跨声速和超声速时的配平变化，而 ITS 将补偿由于减速板以及襟翼位置变化带来的配平变化。</p>
 </div>
 <div class="section" id="afcs-automatic-flight-control-system">
 <h3>AFCS 自动飞行控制系统<a class="headerlink" href="#afcs-automatic-flight-control-system" title="永久链接至标题">¶</a></h3>
-<p>AFCS，也就是自动飞行控制系统，能通过 AFCS 传感器生成的自动操纵面指令来为飞机提供额外稳定性（SAS，增稳系统）。<a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS 控制面板</span></a>中的三个开关分别用于控制 AFCS 的仰俯、滚转和偏航增稳通道。</p>
-<p>其中，仰俯和滚转通道开关是弹簧开关，释放开关时，开关会弹回关闭档位，但开启增稳时，开关内的电磁铁会将开关保持在开启档位。也就是说，如果系统关闭或者不可操作，开关将自动回到关闭档位。而偏航开关是纯机械结构的开关。</p>
-<p>当飞行迎角超过15个 AOA 单位时，应关闭滚转 SAS，因此，战斗机动中需关闭此开关。</p>
-<p>按下驾驶杆杆上的自动驾驶应急断开开关时，仰俯和滚转通道将会断开。</p>
+<p>AFCS（自动飞行控制系统）可通过从 AFCS 传感器生成的自动操纵面指令来为飞机提供额外的稳定性（SAS 或增稳系统 ）。通过 <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS 控制面板</span></a> 中的三个开关分别控制 AFCS 的仰俯、滚转和偏航增稳，每个增稳开关都可以单独进行设置。</p>
+<p>俯仰和滚转增稳开关由弹簧归中，但是一般情况下通过为螺线管通电来使其保持在 ON 档位，这意味着，如果系统关闭或或无法进行操作，那么开关将会弹回 OFF 档位。偏航增稳开关是纯机械结构的开关。</p>
+<p>当 AOA 超过15个单位时，不得使用滚转 SAS，以此应该在格斗机动中将 ROLL SAS 设置为关闭。</p>
+<p>按下驾驶杆中的自动驾驶应急断开手柄会将滚转和俯仰增稳开关退回 OFF 档位。</p>
 <div class="section" id="autopilot">
 <h4>自动驾驶<a class="headerlink" href="#autopilot" title="永久链接至标题">¶</a></h4>
-<p>除了飞行控制增稳，AFCS 还提供了自动驾驶功能。若要使用自动驾驶，则必须启用所有三个增稳通道。</p>
-<p>自动驾驶系统的控制开关位于<a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS 控制面板</span></a>。</p>
-<p>可用的自动驾驶模式包括姿态保持、航向保持、地面轨迹、高度保持、VECTOR/PCD（引导航向/精确航线方向）和 ACL（自动航母着陆）模式。</p>
-<p>将自动驾驶的 <strong>ENGAGE</strong> 开关开启即可接通姿态保持，AFCS 会保持飞机当前的飞行姿态。飞机会自动在仰俯30°和滚转60°的范围限制内移动。当前的飞行姿态可以通过移动驾驶杆来调整，松开驾驶杆后，AFCS 会继续保持选定的。</p>
-<p>注意，启用其他自动驾驶模式前，首先需要开启 <strong>ENGAGE</strong> 开关。</p>
-<p>航向保持开关的 <strong>HDG</strong> 档位用于启用航向保持。操纵飞机至所需的航向，接通后如果飞机坡度小于5°的话即可保持航向。</p>
-<p>选择航向保持开关的 <strong>GT</strong> 档位会启用地面轨迹模式。选择该模式后，等待<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>左侧的 <strong>A/P REF</strong> 告警灯亮起，然后按下驾驶杆上的前轮转向按钮。此时，<strong>A/P REF</strong> 告警灯将熄灭，地面轨迹模式启用，自动驾驶仪会补偿飞机风偏以尽可能跟随地面轨迹（保持飞机相对于地面的轨迹是指向当前航向的一条直线）。</p>
-<p><strong>ALT</strong> 开关用于选择高度保持模式，与地面轨迹模式中类似，<strong>A/P REF</strong> 警报灯亮起后，按下前轮转向按钮启来激活高度保持模式。</p>
-<p>数据链路引导航向 - 精准航线方向模式允许 Link 4 控制器远程控制飞机。该功能在 DCS 中未模拟。</p>
-<p>最后一种自动驾驶模式是 ACL，也就是自动航降模式，这个模式将 Link 4 数据链路信息和机载雷达信标相结合进行自动航降。若要启用ACL，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，等待 <strong>A/P REF</strong> 亮起。截获 ACL 下滑道，且 VDI 的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 警报灯亮起后，按下操纵杆的前轮转向按钮来接通 ACL，让数据链路控制飞机进行着舰。ACL 模式激活后， <strong>A/P REF</strong> 警报灯将熄灭。</p>
-<p>ACL 可以与 APC（详见<a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制</span></a>）结合使用来进行全自动降落。ACL 可以通过右油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 则通过左油门握把上的 <strong>CAGE/SEAM</strong> 按钮断开。</p>
-<p>所有自动驾驶模式都可以通过用力移动驾驶杆来越控，也可以通过自动驾驶应急断开开关来解除；这会将所有自动驾驶开关重置到关闭档位。</p>
+<p>出了增稳外，AFCS 还用于为飞行员提供自动驾驶功能。如需使用自动驾驶功能，必须先启用所有三个增稳通道。</p>
+<p>自动驾驶系统的控制开关位于 <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS 控制面板</span></a> 中。</p>
+<p>可用的自动驾驶模式包括：姿态保持、航向保持、地面航迹、高度保持、VECTOR/PCD（精确航线方向）和 ACL（自动助降）模式。</p>
+<p>将自动驾驶的 <strong>ENGAGE</strong> 开关拨至 ON 即可接通姿态保持，并保持飞机当前的姿态。姿态保持的限制为30°俯仰和60°滚转，超出这个范围，飞机将自动移动至限制范围内。飞机当前的姿态可以通过操纵驾驶杆来变更，当释放驾驶杆时，自动驾驶将会保持释放驾驶杆时的姿态。</p>
+<p>注意，在启用其它自动驾驶模式前，首先需要打开 <strong>ENGAGE</strong> 开关。</p>
+<p>HDG 开关的 <strong>HDG</strong> 档位用来启用航向保持，操纵飞机转向至所需的航向，并将飞机坡度保持在5°以内来接通航向保持。</p>
+<p>将 HDG 开关设置到 <strong>GT</strong> 档位时自动驾驶将进入地面航迹模式，等待 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>A/P REF</strong> 报警灯亮起，之后按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 <strong>A/P REF</strong> 报警灯将熄灭，接着地面航迹模式将被启用，接通后将设置自动驾驶补偿飞机的风偏来跟随地面航迹。</p>
+<p><strong>ALT</strong> 高度开关用于选择高度保持模式，与地面航迹模式相似，<strong>A/P REF</strong> 报警灯亮起后，按下前轮转向按钮启来接通高度保持模式。</p>
+<p>数据链路引导航向 - 精确航线方向模式用于允许 Link 4 操作员远程操纵飞机。该功能没有在 DCS 中进行模拟。</p>
+<p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式用于联合 Link 4 数据链路和机载雷达信标来进行自动助降。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 报警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 报警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 报警灯将熄灭。</p>
+<p>ACL 可以与 APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制器</span></a> ）结合使用来进行全自动助降。ACL 可以通过右侧油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 可以通过左侧油门握把上的 <strong>CAGE/SEAM</strong> 按钮来断开。</p>
+<p>所有自动驾驶模式都可以通过用力移动驾驶杆来越控或可以通过自动驾驶应急断开手柄来解除自动驾驶，按下手柄后所有自动驾驶开关将复位至 OFF 档位。</p>
 </div>
 </div>
 <div class="section" id="spoilers">
 <h3>扰流板<a class="headerlink" href="#spoilers" title="永久链接至标题">¶</a></h3>
-<p>扰流板位于机翼上翼面，上文中的<a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a>内容中介绍了扰流板如何控制飞机滚转；扰流板也作为<a class="reference internal" href="#askid"><span class="std std-ref">防滑系统</span></a>系统的一部分，用于在地面提供制动；同时，扰流板也是 DLC 系统的一部分（详见下一个标题）。</p>
-<p>为了避免和机身冲突，扰流板仅能在翼掠角小于 62° 时展开。</p>
-<p>扰流板故障时，扰流板对称保护逻辑会禁用故障扰流板区域内的全部扰流板模块，无论是内侧还是外侧扰流板。如果发生这种情况，<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>中的 <strong>SPOILERS</strong> 注意灯会亮起。</p>
-<p>为应对这种情况，需将<a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障越控</span></a>中对应故障扰流板区域的控制开关保护盖升起，然后将开关拨至 <strong>ORIDE</strong> 档位，接着按下位于<a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>中的 <strong>MASTER RESET</strong> 按钮来进行越控。</p>
-<p><a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">控制面位置指示器</span></a>中显示了扰流板位置。</p>
+<p>扰流板位于机翼的上翼面，上文中（ <a class="reference internal" href="#fcs"><span class="std std-ref">飞行控制系统</span></a> ）详细介绍了扰流板用于控制滚转，以及作为 <a class="reference internal" href="#askid"><span class="std std-ref">防滑系统</span></a> 系统的一部分用于在地面进行制动，同时扰流板也是 DLC 系统的一部分（详见下一个标题）。</p>
+<p>为了避免和机身冲突，扰流板仅能在机翼后掠角度小于 62° 时伸出。</p>
+<p>如果扰流板发送故障，无论是内侧还是外侧扰流板，扰流板对称保护逻辑将会禁用与故障扰流板位于同一部分中的所有扰流板。如果扰流板故障， <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中的 <strong>SPOILERS</strong> 注意灯将会亮起。</p>
+<p>如需越控对称保护，升起保护盖并将 <a class="reference internal" href="cockpit.html#spoilfailover"><span class="std std-ref">扰流板故障越控</span></a> 中相应部分所对应的开关拨动至 <strong>ORIDE</strong> 档位，接着按下 <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a> 中的 <strong>MASTER RESET</strong> 按钮来越控对称保护。</p>
+<p>扰流板的位置可以在 <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">操纵面位置指示器</span></a> 中查看。</p>
 <div class="section" id="dlc-direct-lift-control">
 <h4>直接升力控制（DLC）<a class="headerlink" href="#dlc-direct-lift-control" title="永久链接至标题">¶</a></h4>
-<p>直接升力控制（DLC）无需控制仰俯和油门输入即可调整飞机下滑道。DLC 使用两边内侧扰流板并微调水平尾翼来调整升力。</p>
-<p>襟翼和起落架放下时，按下操纵杆的DLC开关即可接通 DLC 。这会使内侧扰流板向上展开一半，飞行员可以通过驾驶杆上的 DLC 和机动襟翼控制拨轮来调节扰流板开闭。</p>
-<p>向前转旋钮使扰流板向最大位置展开，减少升力并降低下滑道。向后转旋钮使扰流板收回到与机翼平齐的位置，增加升力并提高下滑道。</p>
+<p>直接升力控制（DLC）用于在无俯仰输入和油门调整的情况下控制飞机的下滑道。DLC 使用机翼两侧的内侧扰流板并联合小幅调整水平安定面来控制升力。</p>
+<p>襟翼和起落架放下时，按下驾驶杆中的 DLC 开关即可接通 DLC 。接通 DLC 将会使内侧扰流板伸出一半，并允许通过驾驶杆中的 DLC 和机动襟翼控制拨轮来对 DLC 进行控制。</p>
+<p>向前转动拨轮将使扰流板完全伸出，这将导致升力减小并使下滑道降低。向后转动拨轮将使扰流板收起到机翼表面，这将导致升力增加并使下滑道升高。</p>
 <p>再次按下 DLC 开关会断开 DLC 系统。</p>
 </div>
 </div>
 <div class="section" id="flaps-and-slats">
 <h3>襟翼和缝翼<a class="headerlink" href="#flaps-and-slats" title="永久链接至标题">¶</a></h3>
-<p>F-14 “雄猫” 的襟翼和缝翼可用于两种模式。</p>
-<p>普通控制模式下，<a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a>旁的 <strong>FLAP</strong> 控制杆可以控制襟翼和缝翼的正常伸展。通过控制杆，可以将襟翼调节至收起和完全展开之间的任意位置。襟翼最大展开角度是 35°，缝翼最大展开角度是 17°。辅助襟翼，即最内侧的襟翼，只有两个位置——收起和展开。当 <strong>FLAP</strong> 控制杆移动超过5°的位置时，辅助襟翼将完全展开。</p>
-<p>如果由于故障导致襟翼无法收起，则应将 <strong>FLAP</strong> 控制杆移至 <strong>UP</strong> 档位后，继续向外侧移动并向上推至 <strong>EMER UP</strong> 档位，以越控故障的互锁机构。</p>
-<p>而另一种襟翼和缝翼的控制模式是机动襟翼模式，该模式下，CADC 自动使用襟翼和缝翼来提升飞机的机动性能。此模式下襟翼最大伸展至10°，缝翼最大伸展至7°，而最内侧部分的辅助襟翼则被禁用。</p>
-<p>虽然机动襟翼系统通常会自动控制襟翼，但是飞行员仍可以通过驾驶杆的 DLC 和机动襟翼控制拨轮来手动控制机动襟翼。向前转旋钮收起襟翼和缝翼，向后转旋钮展开襟翼和缝翼。</p>
-<p>机翼后掠时，襟翼收放会受限于机翼后掠位置。机翼后掠角大于21°时，辅助（内侧）襟翼会被收起并禁用。而机翼后掠角大于50°时，所有襟翼都会被收起并禁用。但机翼后掠不会限制缝翼收放。</p>
-<p><a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a>上指示了襟翼和缝翼的位置。</p>
-<p>飞行员<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a>中的 <strong>FLAP</strong> 灯亮起表示襟翼系统出现故障，襟翼处于非对称位置。<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>左侧的 <strong>REDUCE SPEED</strong> 告警灯表示空速超过225节但襟翼仍未收起。</p>
+<p>F-14 “雄猫” 的襟翼和缝翼可在两种模式下使用。</p>
+<p>襟翼和前缘缝翼的放下一般通过 <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a> 旁的 <strong>FLAP</strong> 控制杆来控制。襟翼可以调节至收上和完全放下之间的任何位置，襟翼最大偏转角度为35°，前缘缝翼则为17°。辅助襟翼——最内侧部分的襟翼，辅助襟翼只有两个位置——收上和完全放下。当 <strong>FLAP</strong> 控制杆移动超过5°的位置时，辅助襟翼将完全放下。</p>
+<p>如果存在故障使得襟翼无法被收上，那么飞行员应将 <strong>FLAP</strong> 控制杆移至 <strong>UP</strong> 档位后，接着向外侧移动并向上推至 <strong>EMER UP</strong> 档位来越控故障的互锁机构。</p>
+<p>另一种模式为 CADC 在机动襟翼系统中自动使用襟翼和前缘缝翼来改善飞机的飞行性能。在这个模式下，襟翼最大偏转至10°，前缘缝翼最大偏转至7°，禁用最内侧的辅助襟翼。</p>
+<p>一般来说，在自动模式下，机动襟翼系统仍然可以通过驾驶杆中的 DLC 和机动襟翼控制拨轮来手动控制机动襟翼。向前转动旋钮收起襟翼和前缘缝翼，向后转动旋钮放下襟翼和前缘缝翼。</p>
+<p>机翼后掠时，襟翼将受限于机翼后掠的位置。机翼后掠角大于21°时，辅助（内侧襟翼）襟翼将被禁用。机翼后掠角大于50°时，所有襟翼将被禁用。前缘缝翼不会由于机翼后掠而被禁用。</p>
+<p>襟翼和缝翼的位置在 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> 中指示。</p>
+<p>飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 <strong>FLAP</strong> 灯亮起表示襟翼系统中发生故障，并且襟翼位置不对称。 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>REDUCE SPEED</strong> 报警灯表示指示空速超过225节但襟翼仍未收回。</p>
 </div>
 <div class="section" id="speedbrakes">
 <h3>减速板<a class="headerlink" href="#speedbrakes" title="永久链接至标题">¶</a></h3>
-<p>F-14 “雄猫” 的减速板安装在机尾，由位于左右发动机之间的三个挡板组成。这些减速板收放所需的动力由联合液压系统提供。</p>
-<p>减速板开关位于右<a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a>，开关保持在展开档位上的时长决定了减速板展开的位置。选择开关的收起档位时，减速板总是会完全收起。</p>
-<p>为了避免减速板受损，空速超过400节后，它们会随着速度的增加逐渐收起。此外，选择 <strong>MIL</strong>（军用推力）或更大的推力时，减速板会自动收起。</p>
-<p>由于展开的减速板会扰动机尾附近的气流，为了避免放油时燃油溅到飞机上，减速板展开时，放油电路会被禁止。</p>
-<p><a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a>中显示了减速板的位置。</p>
+<p>F-14 “雄猫” 中的减速板由三个独立的操纵面组成，减速板位于飞机尾部，两台发动机之间，操纵面由联合液压系统提供动力。</p>
+<p>减速板控制开关位于右侧 <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a> 中，根据控制开关保持在展开档位的时间，飞行员可以将减速板设置到所需的位置。收起减速板始终会直接完全收起。</p>
+<p>为了避免减速板受损，空速超过400节后，减速板将会逐渐收回，并且使用 <strong>MIL</strong> （军用推力）或更大的推力时，减速板会被自动收回。</p>
+<p>由于减速板展开会扰动机尾附近的气流，为了避免放油时燃油溅到飞机上，减速板展开时，放油将会被禁止。</p>
+<p>减速板的位置可以在 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> 中查看。</p>
 </div>
 </div>
 <div class="section" id="landing-gear-system">
 <h2>起落架系统<a class="headerlink" href="#landing-gear-system" title="永久链接至标题">¶</a></h2>
-<p>F-14 “雄猫” 采用可完全收起的前三点式起落架，起落架设计得足够结实，以应对航降时对机身带来的巨大冲击。起落架的收放由联合液压系统提供动力，起落架也连接了一个起落架应急放下系统。应急系统使用一个氮气瓶来提供一次性动力。应急系统触发后，需要由地面技术人员复位之后才能正常收回。</p>
-<p>相关的控制和指示器的信息，详见<a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a>和<a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a>。</p>
+<p>F-14 “雄猫” 采用可完全收起的前三点式起落架，起落架被设计得足够结实以应对着舰时的严酷考验。起落架的收起和放下由联合液压系统提供动力，以及起落架还拥有应急放下系统。应急放下系统中含有一个氮气瓶，氮气瓶可用于为单次应急放下提供动力。应急系统被触发后，需要由地面技术人员复位应急放下系统后才能进一步正常收回起落架。</p>
+<p>有关控制器和指示器的其它信息，详见 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> （控制器）和 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> （指示器）。</p>
 <div class="section" id="nosewheel-steering">
 <h3>前轮转向<a class="headerlink" href="#nosewheel-steering" title="永久链接至标题">¶</a></h3>
-<p>前轮转向系统可以在机轮承重，由飞行员按下<a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a>上的前轮转向按钮激活。HUD左侧的 <strong>NWS ENGA</strong> 注意灯亮起表示前轮转向系统激活，详见<a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">机轮警告/刹车警告/ ACLS 和 AP 注意/ NWS 启用注意/自动油门注意灯</span></a>。</p>
-<p>机轮不承重（起飞）、供电故障或放下拖拽杆时，前轮转向会自动解除。前轮转向激活时，飞行员再次按下驾驶杆前轮转向按钮也可以将转向系统解除。</p>
-<p>系统接通时，前轮通过方向舵脚蹬控制。前轮最大偏转角度可达到70°，也就是说，采用最小转弯半径转向时，转弯内侧的机轮实际上会向后转动。</p>
+<p>当机轮负重时，飞行员可以通过按下 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 中的前轮转向按钮激活 F-14 中的前轮转向系统。位于 HUD 左侧的 <strong>NWS ENGA</strong> 注意灯亮起表示前轮转向系统已激活，详见 <a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">机轮警告/刹车警告/ ACLS 和 AP 注意/ NWS 启用注意/自动油门注意灯</span></a> 。</p>
+<p>机轮不负重（起飞）、电源故障或放下弹射杆都将导致前轮转向自动断开。同时还可以通过按下驾驶杆中的前轮转向按钮来断开前轮转向。</p>
+<p>前轮转向系统激活时，飞行员通过脚蹬板来控制前轮进行转向。前轮最大偏转角度可达到70°，也就是说，只要转动到最大角度，转向内侧的机轮实际上会后移动。</p>
 </div>
 <div class="section" id="wheelbrakes">
 <h3>机轮刹车<a class="headerlink" href="#wheelbrakes" title="永久链接至标题">¶</a></h3>
-<p>踩压方向舵脚蹬的上部，使它向偏转来激活机轮刹车。也可以通过<a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a>面板的停放刹激活刹车。</p>
-<p>无论停放刹车是否开启，都可以通过方向舵踏板逐渐增加刹车力度。</p>
-<p>停放刹车和机轮制动系统通常都是由联合液压系统提供的，但如果联合液压系统减压，制动系统则会自动切换到备用聚能器。<a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压强表</span></a>显示应急聚能器的当前压力。</p>
-<p>辅助聚能器完全加压后能提供大约13到14次脚蹬刹车制动，或至少3次停放刹车制动。辅助聚能器通过<a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a>加压。</p>
-<p>HUD左侧的 <strong>BRAKES</strong> 警报灯表示停放刹车激活，也可能表示防滑系统故障或刹车在应急模式下工作（警报灯仅在踩下踏板时亮起）。</p>
+<p>机轮刹车可以通过踩下脚蹬板来启用。另一种方法是通过 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 中的停放刹车手柄来启用。</p>
+<p>无论停放刹车是否开启，飞行员都可以通过踩下脚蹬板逐渐增加刹车力度。</p>
+<p>一般情况下，两个机轮刹车系统中的液压都由联合液压系统来提供，但如果联合液压系统中的油液压力降低，那么机轮刹车系统将自动切换使用机轮刹车蓄压器。 <a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压力表</span></a> 显示了当前机轮刹车蓄压器内的压力。</p>
+<p>辅助刹车蓄压器内的油压最大时最多可提供大约13到14次刹车制动，停放刹车蓄压器最少可提供3次停放制动。机轮刹车蓄压器可以通过 <a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a> 来重新充压。</p>
+<p>HUD 左侧的 <strong>BRAKES</strong> 报警灯用来指示停放刹车是否激活、防滑系统故障或指示制动正在应急模式下运行（仅踩下脚蹬板时亮起）。</p>
 <div class="section" id="antiskid">
 <span id="askid"></span><h4>防滑系统<a class="headerlink" href="#antiskid" title="永久链接至标题">¶</a></h4>
-<p>防滑系统根据需要来机轮刹车，以防止飞机在地面打滑。在空中启用防滑系统时，系统将禁用刹车，直到两个主起落架机轮都已经接地并开始旋转。此外，滑行速度低于15节时，该系统不会运作。</p>
-<p>防滑系统还控制扰流板减速系统，在地面将油门收到 <strong>IDLE</strong> 档位时，扰流板会作为减速板展开。</p>
+<p>防滑系统调节机轮刹车以防止飞机在地面上打滑。在空中启用防滑系统时，系统不会进行制动，直到两个主起落架机轮触地并开始旋转。此外，滑行速度低于15节时，防滑系统不会工作。</p>
+<p>防滑系统还控制着扰流板制动系统，当飞机处在地面上且油门位于 <strong>IDLE</strong> 档位时，扰流板会作为刹车系统伸出。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">滑行时应该关闭防滑系统，因为滑行速度低于15节时，系统可能会干扰刹车正常激活，尽管防滑系统在这个速度下并不工作。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">滑行期间应该关闭防滑系统，这是因为滑行速度低于15节时，即使在低于这个速度下防滑功能并不会工作，但防滑系统仍有可能干扰一般刹车制动。</td>
 </tr>
 </tbody>
 </table>
-<p><a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a>中的 <strong>ANTI SKID SPOILER BK</strong> 开关用于控制此系统。 <strong>OFF</strong> 档位禁用系统， <strong>BOTH</strong> 档位启用防滑和扰流板减速系统，而  <strong>SPOILER BK</strong> 档位只启用扰流板减速系统。</p>
+<p>位于 <a class="reference internal" href="cockpit.html#fuelmgmtpanel"><span class="std std-ref">燃油管理面板</span></a> 中的 <strong>ANTI SKID SPOILER BK</strong> 开关用于控制防滑系统。开关位于 <strong>OFF</strong> 档位将禁用系统，位于 <strong>BOTH</strong> 档位时将启用防滑和扰流板制动系统，位于 <strong>SPOILER BK</strong> 档位时仅启用扰流板制动系统。</p>
 </div>
 </div>
 </div>
 <div class="section" id="catapult-launch-and-arresting-gear">
-<h2>弹射和阻拦装置<a class="headerlink" href="#catapult-launch-and-arresting-gear" title="永久链接至标题">¶</a></h2>
+<h2>弹射起飞和阻拦装置<a class="headerlink" href="#catapult-launch-and-arresting-gear" title="永久链接至标题">¶</a></h2>
 <div class="section" id="nosegear-catapult-system">
-<h3>前起落架弹射系统<a class="headerlink" href="#nosegear-catapult-system" title="永久链接至标题">¶</a></h3>
-<p>F-14 的前起落架配有一套用于在航空母舰上作业时进行弹射起飞的系统。</p>
-<p>该系统的三个部件为前起落架支柱伸缩系统、拖拽杆和止动配件。</p>
-<p>运用该系统进行弹射起飞时，先使用 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>NOSE STRUT</strong> 开关来收缩前起落架支柱。把开关保持在 <strong>KNEEL</strong> 位直到收缩动作停止即可。</p>
-<p>这样可以从避震器中排出液压油，将前起落架支柱缩短14英寸。收缩动作完成后拖拽杆会解除锁定，随后可以由甲板工作人员手动放下或通过将前起落架偏转离中心超过10°来放下。</p>
+<h3>前轮弹射起飞系统<a class="headerlink" href="#nosegear-catapult-system" title="永久链接至标题">¶</a></h3>
+<p>F-14 的前轮配有一套用于舰上作业时进行弹射起飞的系统。</p>
+<p>安装在或在前轮中的三个部件分别为前轮伸缩功能、弹射杆和限位杆连接件。</p>
+<p>如需启用用于弹射起飞的系统，需要先使用 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 中的 <strong>NOSE STRUT</strong> 开关来收缩前轮支柱。将开关保持在 <strong>KNEEL</strong> 档位直到收缩动作停止来完成前轮支柱收缩。</p>
+<p>收缩前轮支柱时液压油将从减震器中排出从而使前轮支柱收缩14英寸。收缩完成后还将释放弹射杆的锁定机构，随后弹射杆可以由甲板人员手动放下或通过偏转前轮10°以上来放下。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在DCS中，拖拽杆会随着前起落架支柱的收缩自动放下。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在 DCS 中，弹射杆会随前轮支柱的收缩自动放下。</td>
 </tr>
 </tbody>
 </table>
-<p>此时，飞机可以被引导至弹射起并通过按下DCS中的默认按键 <strong>U</strong> 将飞机与弹射器滑块连接。目前DCS未模拟止动杆。</p>
+<p>放下弹射杆后，飞机将被引导至弹射器中，然后连接至往复车，在 DCS 中，连接往复车的默认按键为 <strong>U</strong> 。目前 DCS 未模拟限位杆。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在移动到弹射器滑块并连接之前应关闭前轮转向以避免错位。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">飞行员应该在最后移动至往复车并钩挂往复车前取消前轮转向来避免偏心。</td>
 </tr>
 </tbody>
 </table>
-<p>在正确的完成前述程序之后，弹射起飞的最后一步是向“shooter” 或指挥弹射作业的军官敬礼，DCS中默认按键为 <strong>左Shift + U</strong> 。</p>
-<p>弹射器滑块完成冲程后，当拖拽杆从滑块脱离时，前起落架支柱存储的液压能量被释放以向飞机施加抬头力矩，同时也自动把拖拽杆抬升至收起位置。</p>
-<p><a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 的 <strong>LAUNCH BAR</strong> 提示灯会显示拖拽杆的位置状态。当机轮承受压力，拖拽杆未收起并锁定时提示灯亮起；当油门推至 <strong>MIL</strong> 时提示灯熄灭以表明飞机已经满足弹射条件。当机轮未承受压力时，前起落架支柱未完全伸展、拖拽杆没有收起并锁定或前轮没有正确回中都会导致 <strong>LAUNCH BAR</strong> 注意灯亮起。上述三种情况会阻碍前起落架收起。</p>
-<p><a class="reference internal" href="cockpit.html#launchbarabort"><span class="std std-ref">弹射牵引杆中止面板</span></a> 包含 <strong>LAUNCH BAR</strong> 开关，该开关用于在弹射中止的情况下将飞机与拖拽杆分离。此功能尚未在DCS中实现，目前脱离拖拽杆需要再按一次连接键，默认为 <strong>U</strong> 。</p>
+<p>在完成正确的程序后，弹射起飞的最后一步是向 “shooter” 或弹射官敬礼，在 DCS 中，敬礼的默认按键为 <strong>左 Shift + U</strong> 。</p>
+<p>当完成弹射滑跑距离，弹射杆脱离往复车时，存储的液压能量被释放回减震器，此时将会向飞机施加抬头力矩。向飞机施加抬头力矩的同时，弹射杆将自动升起至收上位置。</p>
+<p><a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中的 <strong>LAUNCH BAR</strong> 提示灯用来指示弹射杆的状态。当机轮负重且当弹射杆放下时，提示灯就会亮起；如果将油门推至 <strong>MIL</strong> 档位，那么提示灯将会熄灭来表示是否满足弹射起飞标准。当机轮不负重时，如果前轮支柱没有完全伸展、弹射杆未收起并锁定或前轮转向超过15°，那么 <strong>LAUNCH BAR</strong> 提示灯将会亮起。满足前述任一条件时前轮收起都将被禁止。</p>
+<p><a class="reference internal" href="cockpit.html#launchbarabort"><span class="std std-ref">弹射杆中止面板</span></a> 中包含了 <strong>LAUNCH BAR</strong> 开关，LAUNCH BAR 开关用于在中止弹射起飞时使弹射杆与往复车分离。这个功能尚未在 DCS 中实现，如需将弹射杆分离往复车需要再按一次钩挂键，默认按键为 <strong>U</strong> 。</p>
 </div>
 <div class="section" id="arresting-gear">
 <h3>阻拦装置<a class="headerlink" href="#arresting-gear" title="永久链接至标题">¶</a></h3>
-<p>位于F-14尾部下方的拦阻钩用于在舰上作业时进行拦阻降落。</p>
-<p>系统使用来自飞控和联合液压系统的液压动力，且由电子系统进行控制，因此需要电力以正常运作。</p>
-<p>系统通过 <a class="reference internal" href="cockpit.html#arrhook"><span class="std std-ref">拦阻钩控制面板</span></a> 面板的 <strong>HOOK</strong> 控制杆操作。<strong>UP</strong> 收起拦阻钩，<strong>DN</strong> 将拦阻钩放下至37°以在便正确执行航降时勾住阻拦索。在拦阻钩位置与控制杆位置不符的情况下，<strong>HOOK</strong> 控制杆旁边的过渡灯就会亮起。</p>
-<p>当飞机发生故障导致拦阻钩无法正常放下时，可使用机械备份来放下拦阻钩。要激活机械备份，拉出控制杆并逆时针旋转90°。这将解开机械锁并释放使拦阻钩保持收起的液压，从而放下拦阻钩。</p>
-<p>如果电力和液压都已恢复，则可顺时针旋转控制杆90°并推入原位，然后将控制杆放到 <strong>UP</strong> 位来收起拦阻钩。</p>
+<p>位于 F-14 尾部下方的拦阻钩用于在舰上作业时进行拦阻着舰。</p>
+<p>系统使用来自飞行液压系统和联合液压系统的液压动力，并且系统是由电力进行控制的，因此系统也需要电力。</p>
+<p>通过 <a class="reference internal" href="cockpit.html#arrhook"><span class="std std-ref">拦阻钩控制面板</span></a> 中的 <strong>HOOK</strong> 手柄来对系统进行操作。手柄位于 <strong>UP</strong> 档位时将收起拦阻钩，位于 <strong>DN</strong> 档位时，拦阻钩将被放下至37°从而使拦阻钩在着舰期间钩挂甲板阻拦索。当拦阻钩的位置与 HOOK 手柄的位置不一致时，位于 <strong>HOOK</strong> 手柄一旁的过渡指示灯就会亮起。</p>
+<p>当机上发生故障导致拦阻钩无法正常放下时，飞行员可使用机械备份来放下拦阻钩。如需激活机械备份，抽出 HOOK 手柄并逆时针旋转手柄90°。激活机械备份将解开机械锁定并释放使拦阻钩保持收起的液压，从而放下拦阻钩。</p>
+<p>如果电力和液压动力都已恢复，那么可以顺时针旋转手柄90°并推回手柄，然后将手柄置于 <strong>UP</strong> 档位来收起拦阻钩。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">拦阻钩的位置也会影响座舱内和起落架上的进近迎角指示灯，起落架放下而拦阻钩未放下会使指示灯闪烁。此功能可以通过 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 的 <strong>HOOK BYPASS</strong> 开关禁用。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">拦阻钩的位置同样会影响 AoA 指示灯和进近灯，如果起落架放下时未放下拦阻钩，那么 AoA 指示灯和进近灯将会闪烁。飞行员可以使用 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 中的 <strong>HOOK BYPASS</strong> 开关来禁用指示灯闪烁功能。</td>
 </tr>
 </tbody>
 </table>
@@ -926,54 +925,54 @@
 </div>
 <div class="section" id="ecs-environmental-control-system">
 <h2>环境控制系统（ECS）<a class="headerlink" href="#ecs-environmental-control-system" title="永久链接至标题">¶</a></h2>
-<p>ECS（环境控制系统）控制座舱温度以及舱内气压，同时为机载设备及武器提供冷却。</p>
-<p>空气源来自于飞机的一个或者两个发动机，在必要时也可以由机身的右机翼翼套内的紧急冲压气门获得空气源。</p>
-<p>ECS使用空气用于座舱加压、座舱盖密封、抗荷服充气、机组飞行服通风、座椅缓冲垫通风、前挡风玻璃除冰以及除雾。</p>
-<p>ECS也可为舱外系统提供空气，用于外部可抛弃油箱加压、机翼气囊密封、机载电子设备冷却及通过气/液热交换器对AN/AWG-9雷达和AIM-54导弹冷却。</p>
+<p>ECS（环境控制系统）为驾驶舱系统提供温度控制和压力调节，同时还为电子设备和武器提供冷却。</p>
+<p>环控系统使用的气源来自发动机，可使用单发或双发引气，或使用机身右下部，右翼套挂架内侧的应急冲压空气进气门提供气源。</p>
+<p>驾驶舱中使用 ECS 气源的系统分别为：驾驶舱增压、座舱盖密封装置、抗荷服充气、机组抗荷服通风、坐垫通风以及风挡加温和除雾。</p>
+<p>其它使用 ECS 气源的驾驶舱外的系统分别为：副油箱增压、机翼密封气囊、电子设备冷却和 AN/AWG-9 雷达以及 AIM-54 导弹冷却（通过空气/液体换热器来冷却）。</p>
 <div class="section" id="air-source-and-cockpit-air-controls">
-<h3>气源和座舱引气控制<a class="headerlink" href="#air-source-and-cockpit-air-controls" title="永久链接至标题">¶</a></h3>
-<p>ECS气源的控制位于 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">空调控制面板</span></a>。</p>
-<p><strong>L ENG</strong> 表示使用左发动机作为气源；<strong>R ENG</strong> 表示使用右发动机作为气源；<strong>BOTH</strong> 表示同时使用两个发动机作为气源；正常情况下同时使用两个发动机作为气源。</p>
-<p><strong>RAM</strong> 和 <strong>OFF</strong> 都能启动紧急冲压气门，但是 <strong>OFF</strong> 会关闭舱内加压和加热。</p>
-<p>正常运行时，舱内温度由 <strong>TEMP</strong> 开关及同面板上的拨盘控制。若 <strong>TEMP</strong> 处于 <strong>AUTO</strong> 位，系统将自动维持拨盘选定的温度挡位。若 <strong>TEMP</strong> 开关处于 <strong>MAN</strong> 位，即手动模式，需要根据飞机的高度和速度使用拨盘手动维持适合的温度。</p>
-<p><strong>CABIN PRESS**开关用于控制座舱安全阀，而座舱安全阀决定座舱是否进行加压。若开关置于 **NORM</strong> 位，座舱气压将会维持在8000英尺至23000英尺之间，当高度超过23000英尺，则舱内气压将比外环境气压高出5psi。若开关置于 <strong>DUMP</strong> 位，座舱安全阀将会打开，使得座舱释压。</p>
-<p>当气源选择为 <strong>RAM</strong> 时，<strong>RAM AIR</strong> 开关通过开启和关闭紧急冲压气门以调节座舱空气温度。在该模式下，空气直接与发动机热引气混合从而获得热气源。 <strong>INCR</strong> 意为“增高”，该档位下会打开冲压气门从而降低舱内温度。 <strong>DECR</strong> 意为“降低”，该档位下会关闭冲压气门从而增加舱内温度。调节完毕后开关会跳回中间档位。</p>
+<h3>气源和驾驶舱引气控制<a class="headerlink" href="#air-source-and-cockpit-air-controls" title="永久链接至标题">¶</a></h3>
+<p>ECS 的气源通过 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">空调控制面板</span></a> 中的控制器来设置。</p>
+<p>选择 <strong>L ENG</strong> 档位将使用左发动机作为气源；选择 <strong>R ENG</strong> 档位将使用右发动机作为气源；选择 <strong>BOTH</strong> 档位将同时使用两个发动机作为气源；一般情况下使用 BOTH 档位。</p>
+<p>选择 <strong>RAM</strong> 和 <strong>OFF</strong> 档位都将启用应急冲压空气进气门，但是选择 <strong>OFF</strong> 档位将关闭加温系统和伺服系统的增压。</p>
+<p>正常运行时，驾驶舱的温度由 <strong>TEMP</strong> 开关及同一面板中的拨轮来控制。如果将 <strong>TEMP</strong> 开关拨至 <strong>AUTO</strong> 档位，环控系统将通过调节温度控制阀门来自动保持所选的驾驶舱温度。如果 <strong>TEMP</strong> 开关设置为 <strong>MAN</strong> 档位——手动——在这个档位时，飞行员需要根据高度和空速变化调整拨轮来保持驾驶舱和抗荷服中的气温。</p>
+<p><strong>CABIN PRESS</strong> 开关用于控制驾驶舱安全阀，而安全阀控制着驾驶舱是否增压。如果开关位于 <strong>NORM</strong> 档位，那么驾驶舱气压将保持在8000英尺至23000英尺之间，当高度超过23000英尺后，调节器会将压差保持在对应高度5-psi 内。若开关位于 <strong>DUMP</strong> 档位，驾驶舱安全阀打开，驾驶舱泄压。</p>
+<p><strong>RAM AIR</strong> 开关用于当使用应急冲压空气进气门时，手动调节冲压空气进气门和座舱以及电子设备舱的供气量。在 RAM 模式下，空气将直接与发动机的高温引气混合。 <strong>INCR</strong> ——增加进气量——选择这个档位将打开冲压空气进气门来降低温度， <strong>DECR</strong> ——减小进气量——选择这个档位将关闭进气门来增加温度。RAM AIR 开关由弹簧归中。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">选择 <strong>RAM</strong> 或者 <strong>OFF</strong> 将使得机炮无法开火。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">选择 <strong>RAM</strong> 或者 <strong>OFF</strong> 档位将禁用机炮开火。</td>
 </tr>
 </tbody>
 </table>
-<p>当前舱内气压所对应的高度可以在驾驶杆后的面板上的 <a class="reference internal" href="cockpit.html#cabpressalt"><span class="std std-ref">座舱压力高度表</span></a> 看到。</p>
-<p><strong>CABIN PRESS</strong> 告警灯位于飞机后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> ，用于提示座舱气压低于5psi或者高于27000英尺的对应气压。在同一个面板下还有 <strong>COOLING AIR</strong> 提示灯，该提示灯告知航电冷却系统中出现过热情况，ECS存在故障，可能导致航电设备损坏。</p>
-<p>抗荷服加压可以通过<a class="reference internal" href="cockpit.html#gvalve"><span class="std std-ref">飞行服抗荷充气检测按钮</span></a>测试，通过<a class="reference internal" href="cockpit.html#rgvalve"><span class="std std-ref">飞行服抗荷充气检测按钮</span></a>测试后座RIO的抗荷服。气流穿过抗荷服或穿过座椅（未穿着抗荷服时）的选择由位于前舱飞行员处的<a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a>和位于后座RIO的<a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a>的 <strong>VENT AIRFLOW</strong> 拨轮控制。</p>
+<p>当前座舱气压高度可在驾驶杆前方的 <a class="reference internal" href="cockpit.html#cabpressalt"><span class="std std-ref">座舱压力高度表</span></a> 中查看。</p>
+<p><strong>CABIN PRESS</strong> 注意灯位于 RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 内，注意灯亮起则表示座舱气压低于 5-psi 绝对气压或座舱其他高度高于27000英尺。在同一个面板中还有 <strong>COOLING AIR</strong> 提示灯，提示灯亮起表示电子设备冷却系统超温，以及指示 ECS 中存在故障，故障可能会导致电子设备损坏。</p>
+<p>对于飞行员来说，抗荷服充气可以通过 <a class="reference internal" href="cockpit.html#gvalve"><span class="std std-ref">抗荷服充气检测按钮</span></a> 来测试，RIO 则可以通过 <a class="reference internal" href="cockpit.html#rgvalve"><span class="std std-ref">飞行服抗荷充气检测按钮</span></a> 来测试。通过抗荷服或坐垫（如果没有穿着抗荷服）的气流分别由位于飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> 面板上和位于 RIO 驾驶舱中 <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> 面板上的 <strong>VENT AIRFLOW</strong> 拨轮来控制。</p>
 </div>
 <div class="section" id="windshield-anti-ice-and-defogging">
-<h3>风挡除冰和除雾<a class="headerlink" href="#windshield-anti-ice-and-defogging" title="永久链接至标题">¶</a></h3>
-<p>风挡除冰和除雾通过 <a class="reference internal" href="cockpit.html#extenvctrlpanel"><span class="std std-ref">外部环境控制面板</span></a> 和 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 控制。</p>
-<p><strong>WSHLD</strong> 风挡开关位于外部环境面板，它用于控制向风挡外侧提供热气流进行除冰和除水。<strong>AIR</strong> 位开启热气流，<strong>OFF</strong> 位关闭热气流。</p>
-<p>前舱飞行员处的 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#rcandefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 用于设置通过座舱盖散流器的空气流量以达到座舱除雾的效果。若将把手完全置于 <strong>CANOPY DEFOG</strong> 位，全部座舱气流将会流入座舱盖散流器；若将把手置于 <strong>CABIN AIR</strong> 位，只有30%的空气流入座舱盖散流器，余下的空气将进入座舱散流器。</p>
-<p>位于前座驾驶员处的<a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a><strong>WSHLD HOT</strong> 提示灯会在风挡的温度已达 300° F (149° C)时亮起。该提示灯亮起时，气阀自动关闭从而使热空气不再吹向风挡直到风挡冷却。</p>
+<h3>风挡加温和除雾<a class="headerlink" href="#windshield-anti-ice-and-defogging" title="永久链接至标题">¶</a></h3>
+<p>风挡加温和除雾通过 <a class="reference internal" href="cockpit.html#extenvctrlpanel"><span class="std std-ref">外部环境控制面板</span></a> 和 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 来控制。</p>
+<p><strong>WSHLD</strong> ——风挡——开关位于外部环境控制面板中， WIND SHIELD 开关用来控制使用高温引气来对风挡玻璃进行除冰或除雨。<strong>AIR</strong> 档位将启用吹送高温空气，<strong>OFF</strong> 档位将关闭吹送。</p>
+<p>飞行员驾驶舱中的 <a class="reference internal" href="cockpit.html#candefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 和 RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#rcandefogairlev"><span class="std std-ref">座舱盖除雾 / 座舱通风气流调节拉杆</span></a> 用来控制通过座舱盖空气散流器的空气流量，从座舱盖空气散流器中吹出的空气将用于座舱盖除雾。将手柄置于 <strong>CANOPY DEFOG</strong> 档位时，全部的驾驶舱空气将会通过座舱盖空气散流器；手柄置于 <strong>CABIN AIR</strong> 档位时，只有30%的空气通过座舱盖空气散流器，余下的空气将进入驾驶舱空气散流器。</p>
+<p>当风挡温度高于 300° F （149° C）时，飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中的 <strong>WSHLD HOT</strong> 提示灯将会亮起。WSHLD HOT 提示灯亮起时，阀门将被自动关闭，并停止向风挡送风，直到风挡冷却。</p>
 </div>
 <div class="section" id="an-awg-9-and-aim-54-cooling">
 <h3>AN/AWG-9 和 AIM-54 冷却<a class="headerlink" href="#an-awg-9-and-aim-54-cooling" title="永久链接至标题">¶</a></h3>
-<p>AN/AWG-9雷达和AIM-54导弹均通过液冷的方式冷却，冷却液通过独立的液/气热交换器冷却，冷却气体由ECS提供。</p>
-<p><a class="reference internal" href="cockpit.html#liqcool"><span class="std std-ref">液冷控制面板</span></a> 开关用于控制这些冷却系统，在没有携带AIM-54导弹的情况下，应该选择 <strong>AWG-9</strong> ，这样液冷系统将只启动AN/AWG-9冷却器。若携带有AIM-54导弹，应该选择 <strong>AWG-9/AIM-54</strong> 来同时为雷达和导弹提供冷却。<strong>OFF</strong> 位将不为任何设备提供冷却，在设备启用时不可以选择该档位，否则设备将会过热。</p>
-<p>后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 包含这些系统的指示灯。 <strong>AWG-9 COND</strong> 指示灯表示AN/AWG-9雷达冷却系统过热，在这种情况下继续使用AN/AWG-9雷达将会导致雷达损坏。 <strong>MSL COND</strong> 指示灯表示AIM-54冷却系统过热或者在挂载了AIM-54导弹且启动了WCS的同时没有将液冷开关置于<strong>AWG-9/AIM-54</strong> 位。</p>
+<p>AN/AWG-9 雷达和 AIM-54 导弹都通过液体来进行冷却，冷却导弹和雷达的液体则通过独立的液/气换热器经由 ECS 空气来进行热交换冷却。</p>
+<p><a class="reference internal" href="cockpit.html#liqcool"><span class="std std-ref">液冷控制面板</span></a> 开关用于控制这些冷却系统，并且在没有携带 AIM-54 “不死鸟”导弹的情况下，应该选择 <strong>AWG-9</strong> 档位来只启用 AN/AWG-9 冷却泵。若携带了 AIM-54 导弹，则应该选择 <strong>AWG-9/AIM-54</strong> 来启用 AWG-9 和 AIM-54 的冷却泵。开关 <strong>OFF</strong> 档位时将关闭 AWG-9 和 AIM-54 的冷却泵，正在使用系统时不可选择 OFF 档位，否则系统将会超温。</p>
+<p>RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 上包含了这些系统的提示灯。 <strong>AWG-9 COND</strong> 提示灯用来指示 AN/AWG-9 雷达冷却系统超温，冷却系统超温后继续使用 AN/AWG-9 雷达可能会导致雷达损坏。 <strong>MSL COND</strong> 提示灯指示 AIM-54 冷却系统超温或 WCS 正在挂载了 AIM-54 且 LIQ COOLING 开关未处于 <strong>AWG-9/AIM-54</strong> 档位的情况下运行。</p>
 </div>
 <div class="section" id="external-ecs-air-supply">
-<h3>外部 ECS 供气<a class="headerlink" href="#external-ecs-air-supply" title="永久链接至标题">¶</a></h3>
-<p>为了使系统正常运行，可以连接地面或者舰上的外部ECS气源进行冷却。</p>
-<p>通常使用的气源不足以同时为所有系统提供冷却，因此需要设置哪些系统需要冷却。这个设置由位于后座RIO右侧控制台的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 面板上的 <strong>GND CLG</strong> 开关控制。 <strong>OBC/CABIN</strong> 位提供外部ECS气源用于舱内和所有气冷机载设备的冷却。由于冷却空气不足，该挡位会关闭AN/AWG-9雷达的收发机。 <strong>AWG-9/AIM-54</strong> 挡位为AN/AWG-9雷达和AIM-54导弹以及相关航电设备的热交换器提供外部ECS气源。<strong>OFF</strong> 位关闭外部ECS气源。在正常情况下，发动机运行时应该使用 <strong>OFF</strong> 位。</p>
+<h3>外部 ECS 气源<a class="headerlink" href="#external-ecs-air-supply" title="永久链接至标题">¶</a></h3>
+<p>对于在地面或甲板上运行需要进行冷却的系统，可以通过接通外部 ECS 气源来冷却这些所需的系统。</p>
+<p>但是，一般所使用的外部气源无法同时为所有系统提供冷却，以此必须设置需要进行冷却的系统。通过 RIO 右侧控制台中的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 上的 <strong>GND CLG</strong> 开关来控制需要冷却的系统。开关拨动至 <strong>OBC/CABIN</strong> 档位将为座舱和所有空气冷却的电子设备提供外部 ECS 气源。由于热交换的冷却空气不足，开关设置到 OBC/CABIN 档位将会禁用 AN/AWG-9 发射器。开关设置到 <strong>AWG-9/AIM-54</strong> 档位将为 AN/AWG-9 雷达和 AIM-54 换热器以及相关电子设备提供外部 ECS 气源。开关拨至 <strong>OFF</strong> 档位将关闭外部 ECS 气源，OFF 档位是当发动机运转时所使用的一般模式。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><strong>GND CLG</strong> 上除了 <strong>OFF</strong> 位均不应在发动机运行时使用。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">在发动机运转期间， <strong>GND CLG</strong> 开关不应设置为 <strong>OFF</strong> 以外的任何档位。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">在由 Heatblur 为 DCS 开发的 F-14B 上外部ECS供气与发动机启动所使用的外部气源将会同时连接。</td>
+<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">对于 DCS 中的 Heatblur F-14B 来说，外部 ECS 气源同样通过接通发动机起动机气源的命令来连接。</td>
 </tr>
 </tbody>
 </table>
@@ -981,103 +980,103 @@
 </div>
 <div class="section" id="oxygen-system">
 <h2>供氧系统<a class="headerlink" href="#oxygen-system" title="永久链接至标题">¶</a></h2>
-<p>F-14携带1瓶或2瓶10公升液态氧气瓶，在必要时为机组提供氧气。</p>
-<p>氧气供应分别由前座飞行员处的 <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> 以及后座RIO处的 <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> 控制。2个面板均包含一个 <strong>OXYGEN</strong> 开关用于 <strong>ON</strong> 或者 <strong>OFF</strong> 氧气供应。</p>
-<p>剩余液氧容量在位于飞行员右侧控制台的 <a class="reference internal" href="cockpit.html#liqoxyqtyind"><span class="std std-ref">液氧储量表</span></a> 显示。该仪表显示剩余液氧的容量，仪表显示的最大值为20公升（在安装有2个氧气瓶的情况下）。指示仪表由电驱动，若该仪表无供电，则仪表将会竖起 <strong>OFF</strong> 警告旗且显示剩余氧气量为0公升。</p>
-<p>除此之外，后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 包含一个 <strong>OXY LOW</strong> 告警灯，该告警灯在剩余液氧容量低于2公升时亮起。</p>
-<p>在 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 的 <strong>INST</strong> 自检过程中，液态氧气指示表将显示2公升，同时 <strong>OXY LOW</strong> 告警灯将会亮起。</p>
+<p>F-14 携带一瓶或两瓶10公升液态氧气瓶，液氧在需要时将为机组提供氧气。</p>
+<p>氧气供应分别由飞行员驾驶舱中的 <a class="reference internal" href="cockpit.html#oxygen"><span class="std std-ref">供氧-通风控制面板</span></a> 以及 RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#roxyvent"><span class="std std-ref">供氧-通风控制面板</span></a> 来控制。两个面板中均包含一个 <strong>OXYGEN</strong> 开关，将开关拨至 <strong>ON</strong> 或 <strong>OFF</strong> 档位来设置氧气供应。</p>
+<p>液氧余量将在飞行员驾驶舱中，右侧控制台上的 <a class="reference internal" href="cockpit.html#liqoxyqtyind"><span class="std std-ref">液氧储量表</span></a> 显示出来。液氧储量表显示剩余的液氧储备量，显示的最大值为20公升（如果安装了两瓶液氧瓶）。液氧储量表由电力驱动的，如果仪表没有通电的话，那么 <strong>OFF</strong> 旗帜将会显示出来，并且剩余储备量将显示为零公升。</p>
+<p>除此之外，RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 包含了 <strong>OXY LOW</strong> 注意灯，当剩余液氧储备量低于2公升时，注意灯将亮起。</p>
+<p>在 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 进行 <strong>INST</strong> 测试过程中，液氧储量表将显示储备量为2公升，同时 <strong>OXY LOW</strong> 注意灯将会亮起。</p>
 </div>
 <div class="section" id="flight-instruments">
 <h2>飞行仪表<a class="headerlink" href="#flight-instruments" title="永久链接至标题">¶</a></h2>
-<p>除了VDIG（平视显示器和垂直显示指示器），F-14还装备了：</p>
+<p>除了 VDIG（HUD 和 VDI）外，F-14 还装备了：</p>
 <ul class="simple">
-<li>2个  <a class="reference internal" href="cockpit.html#stbyattind"><span class="std std-ref">备用姿态仪</span></a> (以及 <a class="reference internal" href="cockpit.html#rstbyattind"><span class="std std-ref">备用姿态仪</span></a>)</li>
-<li>2个 <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">空速马赫表</span></a> (以及 <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">空速马赫表</span></a>)</li>
-<li>2个 <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">气动伺服高度表</span></a> (以及 <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">气动伺服高度表</span></a>)</li>
+<li>2个 <a class="reference internal" href="cockpit.html#stbyattind"><span class="std std-ref">备用姿态仪</span></a> （以及 <a class="reference internal" href="cockpit.html#rstbyattind"><span class="std std-ref">备用姿态仪</span></a> ）</li>
+<li>2个 <a class="reference internal" href="cockpit.html#pspeedmachind"><span class="std std-ref">空速马赫表</span></a> （以及 <a class="reference internal" href="cockpit.html#rspeedmachind"><span class="std std-ref">空速马赫表</span></a> ）</li>
+<li>2个 <a class="reference internal" href="cockpit.html#pservopneualt"><span class="std std-ref">气动伺服高度表</span></a> （以及 <a class="reference internal" href="cockpit.html#rservopneualt"><span class="std std-ref">气动伺服高度表</span></a> ）</li>
 <li>1个 <a class="reference internal" href="cockpit.html#vertvelind"><span class="std std-ref">垂直速率表</span></a></li>
 <li>一个转弯侧滑指示器（在 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 上）</li>
 <li>1个 <a class="reference internal" href="cockpit.html#acc"><span class="std std-ref">加速度表</span></a></li>
 <li>1个 <a class="reference internal" href="cockpit.html#pstbycomp"><span class="std std-ref">备用罗盘</span></a></li>
-<li>以及2个机械时钟(<a class="reference internal" href="cockpit.html#pclock"><span class="std std-ref">时钟</span></a> 和 <a class="reference internal" href="cockpit.html#rclock"><span class="std std-ref">时钟</span></a>)。</li>
+<li>以及2个机械时钟（ <a class="reference internal" href="cockpit.html#pclock"><span class="std std-ref">时钟</span></a> 和 <a class="reference internal" href="cockpit.html#rclock"><span class="std std-ref">时钟</span></a> ）。</li>
 </ul>
-<p>安装数量为2的仪表分别安装在前座飞行员和后座RIO的仪表面板上。</p>
-<p>所有由电力驱动的仪表均连接至飞机的重要汇流条，这意味着在主发电机失效后，应急发电机能够为这些仪表供电。</p>
-<p>关于仪表的更多信息，可以通过上面的链接查看它们所对应的座舱面板描述。</p>
+<p>安装数量为2的仪表分别安装在前座飞行员驾驶舱中的仪表面板和后座 RIO 驾驶舱中的仪表面板上。</p>
+<p>所有需要电力的仪表都被连接到应急总线，这表示当主发电机失效时，应急发电机可以为仪表提供所需的电力。</p>
+<p>关于仪表的更多信息，可以通过上面的链接查看它们所对应的驾驶舱面板的描述。</p>
 </div>
 <div class="section" id="canopy">
 <h2>座舱盖<a class="headerlink" href="#canopy" title="永久链接至标题">¶</a></h2>
-<p>F-14的后开式座舱盖由液压及压缩空气驱动。前座飞行员和后座RIO均能控制。</p>
+<p>F-14 的后铰链座舱盖由液压-气动驱动。前座飞行员和后座 RIO 驾驶舱中都含有座舱盖控制器。</p>
 <p>座舱盖控制可前往 <a class="reference internal" href="cockpit.html#pcanopylever"><span class="std std-ref">座舱盖控制手柄</span></a> 或者 <a class="reference internal" href="cockpit.html#rcanopylever"><span class="std std-ref">座舱盖控制手柄</span></a> 查看。</p>
-<p><strong>CANOPY</strong> 告警灯同时位于前座飞行员处的 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 和后座RIO处的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a>。该告警灯亮起表示座舱盖未处于关闭且锁死的安全位置。</p>
+<p>飞行员驾驶舱中的 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 和后座 RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#cauadvpanel"><span class="std std-ref">注意-提示面板</span></a> 都含有 <strong>CANOPY</strong> 注意灯，注意灯亮起表示座舱盖未处于关闭、锁定的安全位置。</p>
 </div>
 <div class="section" id="ejection-system">
 <h2>弹射系统<a class="headerlink" href="#ejection-system" title="永久链接至标题">¶</a></h2>
-<p>F-14雄猫装备了2台Martin-Baker GRU-7A 火箭助推弹射座椅，一台供飞行员使用，另一台则供RIO使用。弹射座椅具备零-零弹射功能，能够在速度为零、静止、或者在地面时将机组成员成功弹射出机舱。</p>
-<p>F-14作为双座飞机，除弹射手柄和保险解除系统外还具有额外的操纵杆，即弹射控制操纵杆。该杆位于后座RIO处。可以选择在后座RIO进行弹射时是否也将飞行员弹射出舱。</p>
-<p>弹射控制操纵杆位于传感器控制面板旁，见 <a class="reference internal" href="cockpit.html#ejectcmdlev"><span class="std std-ref">弹射指令控制杆</span></a>。当设置到 <strong>PILOT</strong> 位时，飞行员拉下弹射手柄可将2名机组成员一起弹出，而RIO拉下弹射手柄仅能将自己弹出。当设置到 <strong>MCO</strong> 位时，任意机组成员拉下手柄均可将2人一起弹射出机舱。</p>
-<p>由于仅留下后座RIO在飞机中是不合适的，该系统不允许仅飞行员1人弹射。</p>
-<p>飞行员可以在 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 看到弹射控制操纵杆所处位置， <strong>EJECT CMD</strong> 指示器在操纵杆位于飞行员位时指示 <strong>PILOT</strong> ，位于MCO位时指示 <strong>MCO</strong> 。</p>
-<p>当启动弹射程序，但座舱盖并没有抛离时，我们仍可以通过位于前座飞行员处的 <a class="reference internal" href="cockpit.html#pcanjett"><span class="std std-ref">座舱盖抛离手柄</span></a> 或者后座RIO处 <a class="reference internal" href="cockpit.html#rcanjett"><span class="std std-ref">座舱盖抛离手柄</span></a> 手动抛离座舱盖。如果座舱盖并未抛离并抑制弹射程序进行，那么手动抛离座舱盖将有大概率重启弹射程序。由于在水平螺旋中弹射需要更大的空间，我们建议在上述情形下需要进行弹射时先手动弹射座舱盖，这样可以给弹射出去的座舱盖充足的时间远离飞机并为启动弹射程序创造安全的环境。</p>
+<p>F-14 “雄猫”配备了2台 Martin-Baker GRU-7A 火箭助推弹射座椅，一台飞行员使用，另一台 RIO 使用。弹射系统为零-零弹射，即——能够在零空速、零高度条件下，成功将机组成员弹射出驾驶舱。</p>
+<p>由于 F-14 作为双座飞机，因此除了弹射手柄和保险系统外，弹射系统还有额外的控制器，换句话说就是弹射指令控制杆。弹射指令控制杆位于 RIO 驾驶舱中，控制杆可以选择在 RIO 弹射时是否也将飞行员弹射出驾驶舱。</p>
+<p>弹射指令控制杆位于传感器控制面板旁，见 <a class="reference internal" href="cockpit.html#ejectcmdlev"><span class="std std-ref">弹射指令控制杆</span></a>。当设置到 <strong>PILOT</strong> 档位时，飞行员弹射时两名机组成员都将弹射出去，而 RIO 弹射仅会将自己弹射出去。当设置到 <strong>MCO</strong> 档位时，任何一名机组弹射都会将另一名机组成员弹射出去。</p>
+<p>系统不允许仅飞行员一人弹射出驾驶舱，因为让 RIO 孤零零留在驾驶舱内似乎不太好。</p>
+<p>飞行员可以在 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 中查看弹射指令控制杆设置的档位， <strong>EJECT CMD</strong> 翻转指示器在弹射指令控制杆位于飞行员档位时将显示 <strong>PILOT</strong> ，位于 MCO 档位时将显示为 <strong>MCO</strong> 。</p>
+<p>当启动弹射程序时，如果座舱盖没有抛离，那么可以通过位于飞行员驾驶舱中的 <a class="reference internal" href="cockpit.html#pcanjett"><span class="std std-ref">座舱盖抛离手柄</span></a> 或者后座 RIO 驾驶舱中的 <a class="reference internal" href="cockpit.html#rcanjett"><span class="std std-ref">座舱盖抛离手柄</span></a> 手动抛离座舱盖。如果座舱盖在启动弹射后没有抛离，那么手动抛离座舱盖可能会重启弹射程序。如果要在尾旋期间弹射的话，还建议在启动弹射程序前手动抛离座舱盖，这是因为在尾旋时座舱盖需要更长时间来远离飞机。</p>
 </div>
 <div class="section" id="lighting-system">
 <h2>灯光系统<a class="headerlink" href="#lighting-system" title="永久链接至标题">¶</a></h2>
-<p>F-14雄猫灯光系统包含内部灯光系统和外部灯光系统。</p>
-<p>内部灯光系统包括红色仪表板灯和控制台灯，2个机组位置均配置有红白泛光灯和可调节位置的通用工作灯。</p>
-<p>外部灯光系统包括航行灯、防撞灯、编队灯、滑行灯、进近灯和空中加油管灯。</p>
+<p>F-14 “雄猫”照明系统包含机内照明和机外照明。</p>
+<p>机内照明为红色仪表面板灯光和红色控制台灯光、红色和白色泛光灯以及两个驾驶舱中的可移动通用/地图照明灯。</p>
+<p>机外照明包括了航行灯、防撞灯、编队灯、滑行灯、进近灯和受油管灯。</p>
 <div class="section" id="internal-lighting">
-<h3>机内灯光<a class="headerlink" href="#internal-lighting" title="永久链接至标题">¶</a></h3>
-<p>红色的仪表板和控制台灯光一般在夜间启用，这些灯光以背光灯的形式为所有的仪表和控制台提供照明。同时，背光灯也能最大程度地降低使用夜视仪时的影响。</p>
-<p>泛光灯为座舱面板提供额外的照明，但是注意避免其对夜视仪的影响。</p>
-<p>通用工作灯是可动的，因此它可以照亮特定的位置并被用作地图灯或阅读灯。</p>
-<p>内部灯光的控制面板位于前座飞行员处的 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 以及后座RIO处的 <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">驾驶舱灯光控制面板</span></a> ，前座和后座分别控制各自区域的舱内灯光。</p>
+<h3>机内照明<a class="headerlink" href="#internal-lighting" title="永久链接至标题">¶</a></h3>
+<p>红色仪表面板和红色控制台灯光主要在夜间使用，所有仪表和控制器使用背光进行照明，从而最大程度降低在照明时对使用夜视仪的影响。</p>
+<p>泛光灯为驾驶舱中的面板提供额外的照明，但是注意避免影响到夜视仪的使用。</p>
+<p>通用/地图照明灯是可移动的，因此它可以照亮特定的位置并被用作地图灯或阅读灯。</p>
+<p>机内照明的控制面板位于前座飞行员的 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 中以及后座 RIO 的 <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">机内照明控制面板</span></a> 中，前座和后座分别控制各自区驾驶舱中的照明。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">通用工作灯的功能并未在DCS中实现。但是手电筒功能，默认按键左Alt+L，可以随鼠标光标移动并作为通用工作灯功能的替代。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">通用/地图照明灯的功能并未在 DCS 中进行建模，但可以使用手电筒功能，默认按键左 Alt+L，可以随鼠标移动来提供类似的照明功能。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="external-lighting">
-<h3>机外灯光<a class="headerlink" href="#external-lighting" title="永久链接至标题">¶</a></h3>
-<p>F-14的航行灯位于两侧机翼翼尖（左侧为红色，右侧为绿色），机身左侧垂尾后部（白色），翼套上下两侧（左侧为红色，右侧为绿色）。翼套灯被当作翼尖灯的补充。当机翼向前展开至25度时，那么翼尖灯将会激活；当机翼向前展开不足25度时，那么对应的，翼套灯会激活。</p>
-<p>在起落架放下，机翼向前展开25度且航行灯处于长亮模式时，翼尖灯和翼套灯会同时亮起。当防撞灯处于开启位置时，航行灯只能在长亮模式下亮起。</p>
-<p>防撞灯位于机鼻吊舱或者说TCS吊舱处及机身左垂尾顶部前面和右侧垂尾顶部的后面位置。防撞灯均为红色频闪灯。机鼻吊舱低点处安装的防撞灯只在起落架舱门关闭时工作。</p>
-<p>编队灯为低亮度绿色灯，被用于编队飞行，编队灯能够逐渐调暗。编队灯位于机鼻（就在雷达罩后面），机翼翼尖，机身后部机翼下面和机身垂尾顶部边缘。所有编队灯都是对称存在的。</p>
-<p>滑行灯是一个固定的照明灯，位于前起落架支柱上。滑行灯在开启的情况下，如果起落架收起，则滑行灯将会自动关闭。</p>
-<p>进近灯同样位于前起落架支架上，进近灯会和AOA指示灯展示同样的灯光，在航母降落时为LSO提供参考信息。</p>
-<p>加油管灯用于照亮加油管，该灯在加油管伸出时自动点亮。</p>
-<p>除了左节流阀的外部灯光开关外（ <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a> ），其他所有外部灯光控制位于 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 。可以关闭或者启动除进近灯以外的外部灯光。</p>
+<h3>机外照明<a class="headerlink" href="#external-lighting" title="永久链接至标题">¶</a></h3>
+<p>F-14 中的的航行灯位于两侧机翼翼尖（左侧为红色，右侧为绿色）、左侧垂直安定面后上部（白色）以及扇翼上下两侧（左侧挂架为红色，右侧挂架为绿色）处。扇翼上下两侧的灯光作为翼尖灯的补充。当机翼后掠小于25°时，翼尖的航行灯将会亮起，当机翼后掠角度大于25°时，扇翼灯将会代替翼尖航行灯亮起。</p>
+<p>在起落架放下，机翼后掠小于25°且航行灯处于稳定亮起时，翼尖灯和扇翼灯会同时亮起。当防撞灯处于开启档位时，航行灯只能在稳定亮起模式下工作。</p>
+<p>防撞灯位于 TCS 吊舱、左垂直安定面前上部以及右垂直安定面后上部处。防撞灯均为红色频闪灯。位于 TCS 吊舱中的防撞灯仅在前轮轮舱关闭后工作。</p>
+<p>编队灯为低亮度绿色灯光，在编队飞行时使用编队灯，编队灯的亮度可以逐渐调暗。编队灯位于机头（就在雷达罩后面）、机翼翼尖、机翼后方机身处和垂直安定面顶部边缘处。</p>
+<p>滑行灯是一个固定的前灯，滑行灯位于前轮支柱上。滑行灯将会随起落架收上自动关闭（如果设置为打开）。</p>
+<p>进近灯同样位于前轮支柱上，进近灯将复显 AoA 指示灯来让 LSO 在着舰期间通过观察灯光来判断飞机的 AOA。</p>
+<p>受油管灯光用于照亮受油管，灯光随受油管伸出自动开启。</p>
+<p>除了左侧油门握把上的机外照明开关外（ <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a> ），其他所有机外照明控制拨轮/开关都位于 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 处，油门握把中的机外照明开关可以关闭或者启动除进近灯以外的所有外部照明灯光。</p>
 </div>
 </div>
 <div class="section" id="jettison-system">
 <h2>抛离系统<a class="headerlink" href="#jettison-system" title="永久链接至标题">¶</a></h2>
-<p>抛离系统由4个模式构成：紧急抛离 、ACM、可选择抛离和辅助抛离。</p>
-<p><strong>紧急抛离</strong></p>
-<p>紧急抛离通过在位于 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>EMERG STORES JETT</strong> 选择。选择紧急抛离将导致位于前座飞行员处 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 的 <strong>EMERG JETT</strong> 告警灯亮起。</p>
-<p>紧急抛离在机轮没有任何负重（军械开关关闭）的情况下才能启动，并会抛离除了AIM-9响尾蛇导弹之外的全部挂载。</p>
+<p>抛离系统中包含四个工作模式，分别是：应急抛离 、ACM、选择抛离和辅助抛离。</p>
+<p><strong>应急抛离</strong></p>
+<p>应急抛离通过位于 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 的 <strong>EMERG STORES JETT</strong> 按钮来选择。按下应急抛离按钮将使位于前座飞行员 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中的 <strong>EMERG JETT</strong> 注意灯亮起。</p>
+<p>应急抛离在指示机轮不负重（无需主军械打开）的情况下就可以启动，应急抛离会抛离除了 AIM-9 “响尾蛇”导弹之外飞机上的全部挂载。</p>
 <p><strong>ACM 抛离</strong></p>
-<p>ACM抛离在<a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a>上通过ACM 保护盖下的 <strong>ACM JETT</strong> 按钮选择。</p>
-<p>ACM抛离，就像紧急抛离一样，要求关闭军械开关。不同的是，ACM抛离需要起落架手柄处于收起状态。和紧急抛离不一样的是，ACM抛离仅会抛离由后座RIO通过 <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">武器控制面板</span></a> 选择的挂载（设置 <strong>SEL</strong> 或 <strong>B</strong> 选择1和8号挂架）。</p>
-<p><strong>可选择抛离</strong></p>
-<p>可选择抛离由后座RIO在 <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">武器控制面板</span></a> 设置和执行。该抛离模式要求起落架手柄处于收起位置且军械开关开启。</p>
-<p>可选择抛离模式下的抛离程序是将需要抛离的挂架选择到 <strong>SEL</strong>，然后保持 <strong>SEL JETT</strong> 开关处于 <strong>JETT</strong> 位置。</p>
+<p>ACM 抛离通过 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 中， ACM 保护盖下的 <strong>ACM JETT</strong> 按钮进行选择。</p>
+<p>ACM 抛离——就像应急抛离一样，不需要主军械打开，但是需要起落架手柄位于收上档位。与应急抛离不同，ACM 抛离仅会抛离 RIO 在 <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">武器控制面板</span></a> 中所选挂点的挂载（1号和8号挂点设置为 <strong>SEL</strong> 或 <strong>B</strong> 档位来抛离）。</p>
+<p><strong>选择抛离</strong></p>
+<p>选择抛离由后座 RIO 在 <a class="reference internal" href="cockpit.html#armpanel"><span class="std std-ref">武器控制面板</span></a> 设置和执行。选择抛离模式要求起落架手柄处于收上档位且主军械开关打开。</p>
+<p>选择抛离模式的抛离程序为：将需要抛离的挂载的挂点开关拨至 <strong>SEL</strong> 档位，然后拨动 <strong>SEL JETT</strong> 开关并保持在 <strong>JETT</strong> 档位。</p>
 <p><strong>辅助抛离</strong></p>
-<p>辅助抛离作为备用模式在其他抛离模式故障时使用。和可选择抛离模式一样，辅助抛离需要起落架手柄处于收起状态且军械开关开启。</p>
-<p>该模式通过驱动正常释放钩抛离挂载（只能抛离空对地武器挂载）。这意味着飞机必须水平直飞，因为挂载不是被抛离而是在重力的作用下自行离开挂架。</p>
+<p>辅助抛离模式作为备用模式在其他抛离模式失效时使用。和选择抛离模式一样，辅助抛离需要起落架手柄处于收上档位且主军械开关打开。</p>
+<p>辅助抛离模式只能抛离空对地挂载，并且是通过作动正常投放挂钩来抛离它们的。这意味着飞机必须水平直线飞行，这是因为挂载不是被强行抛离，而是靠重力投放并离开挂架。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">没有任何一种抛离模式可以抛离ITER或者ITER上面的挂载，这些挂载需要通过正常投放的方式抛弃，可以按需设置是否为这些挂载设置引信。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">所有抛离模式都无法抛离 ITER 或挂载在 ITER 中的挂载，因此，无论挂载是否装有引信，ITER 上的挂载必须像正常投放武器一样来抛离。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="cadc-central-air-data-computer">
 <h2>中央大气数据计算机（CADC）<a class="headerlink" href="#cadc-central-air-data-computer" title="永久链接至标题">¶</a></h2>
-<p>中央大气数据计算机（CADC）就像蜘蛛网中心的蜘蛛一样接收绝大多数飞机飞行传感器收集的信息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC 通过机翼后掠调度来控制机翼后掠，同时 CADC 还控制襟翼和前缘缝翼，并且还受到相同调度的限制。</p>
+<p>中央大气数据计算机（CADC）就像蜘蛛网中心的蜘蛛一样接收绝大多数飞机飞行传感器收集的信息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC 通过机翼后掠制度来控制机翼后掠，同时 CADC 还控制襟翼和前缘缝翼，并且还受到相同调度的限制。</p>
 </div>
 <div class="section" id="an-awg-9-weapon-control-system-wcs">
 <h2>AN/AWG-9 武器控制系统（WCS）<a class="headerlink" href="#an-awg-9-weapon-control-system-wcs" title="永久链接至标题">¶</a></h2>
@@ -1114,7 +1113,7 @@
 <p><strong>IR AUDIO 控制</strong></p>
 <p><strong>IR AUDIO</strong> 控制旋钮（ <strong>10 - 12</strong> ）位于 DDD 面板的右上部，这些控制旋钮被用于与红外传感器一起使用，但由于在 F-14B 上红外传感器被 TCS 取代，所以这几个旋钮是没有功能的。</p>
 <p><strong>雷达和导弹频率选择拨轮</strong></p>
-<p>DDD 面板右上角的拨轮用于控制 AN/AWG-9 雷达发射极的频率（ <strong>13</strong> ），导弹控制波道则用于与 AIM-7 和 AIM-54 一起使用（ <strong>14</strong> ）。调整这些拨轮来避免受到其它装备了 AN/AWG-9 飞机的或其它外部干扰源的干扰。由于导弹需要进行调谐，在 AIM-7 准备好后，WCS 将会读取 AIM-7 的导弹波道，在准备好 AIM-7 后变更波道不会起到任何作用，除非重新开始导弹的准备程序。</p>
+<p>DDD 面板右上角的拨轮用于控制 AN/AWG-9 雷达发射的频率（ <strong>13</strong> ），导弹控制波道则用于与 AIM-7 和 AIM-54 一起使用（ <strong>14</strong> ）。调整这些拨轮来避免受到其它装备了 AN/AWG-9 飞机的或其它外部干扰源的干扰。由于导弹需要进行调谐，在 AIM-7 准备好后，WCS 将会读取 AIM-7 的导弹波道，在准备好 AIM-7 后变更波道不会起到任何作用，除非重新开始导弹的准备程序。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -1139,10 +1138,10 @@
 <p><strong>雷达和 DDD 控制旋钮</strong></p>
 <p>在 DDD 面板上有八个不同的旋钮，它们各自用来控制 DDD 的和雷达的不同功能。坐落于 DDD 左上角的是 <strong>PULSE VIDEO</strong> 控制旋钮（ <strong>5</strong> ），这个旋钮用来控制 DDD 在脉冲模式下的视频强度。旋钮只对 DDD 产生影响，不会影响雷达本身。</p>
 <p>位于 DDD 右上方的是 <strong>BRIGHT</strong> 控制旋钮（ <strong>9</strong> ），它通过调节偏振滤光镜来机械控制 DDD 的亮度，主要用于低亮度条件下。</p>
-<p>位于 DDD 的左下方的是 <strong>PULSE GAIN</strong> 控制旋钮（ <strong>20</strong> ），这个旋钮用来控制在脉冲模式下的雷达增益。这个旋钮会直接影响雷达的增益。一般情况，将旋钮保持在顺时针旋转最大档位的锁定机构中，这样可使得 WCS 来自动控制脉冲增益。</p>
+<p>位于 DDD 的左下方的是 <strong>PULSE GAIN</strong> 控制旋钮（ <strong>20</strong> ），这个旋钮用来控制在脉冲模式下的雷达增益。调整旋钮会直接影响雷达的增益。一般情况，将旋钮保持在顺时针旋转最大档位的限位机构，转动到限位机构来使 WCS 来自动控制脉冲增益。</p>
 <p>位于 DDD 的右下方的是 <strong>ERASE</strong> 控制旋钮（ <strong>19</strong> ），这个旋钮用来控制 DDD 中擦除射束的强度。擦除射束会连续擦除 DDD 上的目标指示，因此这个旋钮的设置将会影响到探测到的目标的余像在 DDD 上的残留时间。</p>
-<p>位于 DDD 面板的左侧的分别是 PD THRLD（ <strong>26</strong> ）、JAM/JET（ <strong>24</strong> ）和 ACM THRLD（ <strong>25</strong> ）控制旋钮。脉冲多普勒阈值旋钮（PD THRLD）用于控制一个回波视为一个接触的阈值，接触将会显示在 DDD 中，并在 RWS 模式和 TWS 模式下，在 TID 中显示出接触。<strong>CLEAR</strong> 旋钮控制着 CLEAR 区域（回波净区）阈值（DDD 的上半部分），<strong>CLUTTER</strong> 旋钮控制着 CLUTTER 区域（杂波区）的阈值（DDD 的下半部分）。在一般情况下，将旋钮顺时针转动到位于 NORM 档位的锁定机构中，使 WCS 自动控制阈值。</p>
-<p><strong>JAM/JET</strong> 旋钮用来设置干扰强度的阈值，高于设定值的发射极将被视为干扰机并在 TID 中使用干扰源射线将其指示出来。 <strong>ACM THRLD</strong> 旋钮可以用来设置 ACM 距离内将回波视为目标的阈值。在一般情况下，将旋钮逆时针转动至锁定机构中，使 WCS 自动控制阈值。</p>
+<p>位于 DDD 面板的左侧的分别是 PD THRLD（ <strong>26</strong> ）、JAM/JET（ <strong>24</strong> ）和 ACM THRLD（ <strong>25</strong> ）控制旋钮。脉冲多普勒阈值旋钮（PD THRLD）用于控制一个回波视为一个接触的阈值，接触将会显示在 DDD 中，并在 RWS 模式和 TWS 模式下，在 TID 中显示出接触。<strong>CLEAR</strong> 旋钮控制着 CLEAR 区域（回波净区）阈值（DDD 的上半部分），<strong>CLUTTER</strong> 旋钮控制着 CLUTTER 区域（杂波区）的阈值（DDD 的下半部分）。在一般情况下，将旋钮顺时针转动到位于 NORM 档位的限位机构中，使 WCS 自动控制阈值。</p>
+<p><strong>JAM/JET</strong> 旋钮用来设置干扰强度的阈值，高于设定值的辐射源将被视为干扰机并在 TID 中使用干扰源射线将其指示出来。 <strong>ACM THRLD</strong> 旋钮可以用来设置 ACM 距离内将回波视为目标的阈值。在一般情况下，将旋钮逆时针转动至限位机构中，使 WCS 自动控制阈值。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -1195,7 +1194,7 @@
 <p>TID 的两侧包含有两个旋钮。左侧的旋钮（ <strong>12</strong> ）用来控制和选择使用 INS 或 AHRS（姿态航向基准系统）模式。同时这个旋钮还用于进行 INS 对准。</p>
 <p>右侧的旋钮（ <strong>6</strong> ）用来控制在飞行员选择目标点转向时，转向的目标。旋钮用来在存储在 WCS 中的不同的航路点之间进行选择。MAN 档位仅用于在飞机挂载了 TARPS 时使用。</p>
 <p>在 TID 右上方位于边缘处、右侧旋钮一旁的是读数滚筒（ <strong>5</strong> ）。读数滚筒用于指示当前提供给飞行员的转向信息的类型。</p>
-<p>读数滚筒可显示的转向信息类型有：目标（DEST）、数据链路指令航向（D/L）、计算出的拦截转向（LD CLSN）、恒定角度拦截转向（CLSN），计算出的导引转向（LD PURST），纯追逐导引转向（PURST），塔康（TACAN）和手动设置指令航向（MAN）。</p>
+<p>读数滚筒可显示的转向信息类型有：目标（DEST）、数据链路指令航向（D/L）、计算出的拦截转向（LD CLSN）、恒定角度拦截转向（CLSN），计算出的导引转向（LD PURST），追踪转向（PURST），塔康（TACAN）和手动设置指令航向（MAN）。</p>
 <p><strong>TID 数据读数滚筒</strong></p>
 <p>在 TID 的上方是数据读数指示器滚筒（ <strong>3</strong> ）。数据读数指示器用于在 TID 文本读数中指示数据的来源。可显示的读数分别为：导航系统中不同的航路点（WAY PT、ST、FIX PT、IP 和 HB）、本机（OWN A/C）、首要目标（TGT 1）和 SYMBOL。</p>
 <p>当在 TID 中选中一个符号，但数据读数指示器中显示 SYMBOL 时，则表示选中的符号在滚筒中没有其对应的指示器文字。在上述情况下，指示器上也会显示为空白，TID 上也不会显示任何符号。数据源没有对应的指示器文字以及在 TID 中没有对应符号时，滚筒显示为空白。</p>
@@ -1637,8 +1636,8 @@
 <p>最后，它还能够显示称为 <strong>Voice Codes</strong> 的东西。如果选择了 <strong>ALT NUM</strong> ，那么 TID 中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 <strong>YY</strong> 方位（15为方位150）后面的字母表示距离。A表示0-50海里，B表示50-100海里，依此类推。</p>
 <p>标准的 NAV GRID 显示模式为 <strong>GND STAB</strong> 并且在此模式下可使得网格可见。如果选择 <strong>A/C STAB</strong> 或 <strong>ATTK</strong> 显示模式，则仅显示 <strong>Voice Code</strong>，但除了常规功能外， <strong>本机符号</strong> 将始终显示其 <strong>Voice Code</strong> 。</p>
 <p>默认情况下网格原点 <strong>YY</strong> 被置于 TID 屏幕的边缘，并朝设定的威胁轴线向外延伸。网格可以设置显示1到6个扇区，并且每个扇区都有轮廓线，这就表示一个扇区将显示两根轮廓线来指示扇区的极限，6个扇区则有7根轮廓线。扇区的大小取决于全部网格覆盖范围，覆盖范围最高可达180度，然后根据选择的扇区数来划分。沿着扇区分界线每间隔50海里有个刻度标记，50海里的标记比100海里的稍短一点。</p>
-<p>RIO 可以正常的通过 HCU 来偏置相对地面稳定视图及网格。要重置偏置的话，转至任何相对稳定模式然后返回 <strong>GND STAB</strong> 。</p>
-<p>虽然此功能最初的目的是为了舰队防御，但在 DCS 中将 <strong>YY</strong> 设为靶眼时，可以很好的作为一个参考。唯一真正的显示是，网格仅沿威胁轴线显示，而不是屏幕。</p>
+<p>RIO 可以正常的通过 HCU 来偏置相对地面稳定视图及网格。要复位偏置的话，转至任何相对稳定模式然后返回 <strong>GND STAB</strong> 。</p>
+<p>虽然此功能最初的目的是为了舰队防御，但在 DCS 中将 <strong>YY</strong> 设为靶眼时，可以很好的作为一个参考。唯一真正的限制是，网格仅沿威胁轴线显示，而不显示 GRID 周围。</p>
 <div class="section" id="operation">
 <h5>操作<a class="headerlink" href="#operation" title="永久链接至标题">¶</a></h5>
 <div class="section" id="nav-grid-entry">
@@ -1699,9 +1698,9 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">首先按下 <strong>CLEAR</strong> 以确保重置先前选择的读数，这是为了方便随后按下前缀可以设置新读数用于显示和输入数据，而不是将新数据输入至之前选择的读数中。详情请参阅 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">首先按下 <strong>CLEAR</strong> 以确保复位先前选择的读数，这是为了方便随后按下前缀可以设置新读数用于显示和输入数据，而不是将新数据输入至之前选择的读数中。详情请参阅 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body"><strong>在 NAV GRID 中</strong> 没有任何选中时， <strong>NAV GRID</strong> 的读数也可以修改和显示，即 <strong>OWN A/C</strong> 为选中。</td>
+<tr class="field-even field"><th class="field-name">注意 2:</th><td class="field-body"><strong>在 NAV GRID 中</strong> 没有任何选中时， <strong>NAV GRID</strong> 的读数也可以修改和显示，即 <strong>OWN A/C</strong> 为选中。</td>
 </tr>
 <tr class="field-odd field"><th class="field-name">注意 3:</th><td class="field-body">从战术信息显示器（ <strong>GND STAB</strong> ）进入 <strong>NAV GRID</strong> ，请勿尝试在对准过程中进入。</td>
 </tr>
@@ -1729,7 +1728,7 @@
 <img alt="_images/hcu1.png" src="_images/hcu1.png" />
 <p>手控装置（HCU）控制杆和面板上相应的控制器是控制 RIO WCS 显示器的主要输入元件。除了控制杆和面板上的控制器外，HCU 面板中还包括了 WCS 的和 TCS 的电源控制以及指示灯。</p>
 <p><strong>HCU 电源控制和指示灯</strong></p>
-<p>位于 HCU 面板上部边缘的是 IR/TV 超温指示灯（ <strong>2</strong> ）、电源复位指示灯（ <strong>4</strong> ）和 WCS 电源指示灯（ <strong>6</strong> ）。当 IR/TV 开关处于 STBY 档位或者 ON 档位时，IR/TV 电源指示灯亮起表示 TCS 还未准备就绪，当 TCS 准备就绪后，如果开关仍处于 STBY 档位，那么指示灯将保持亮起，如果将开关拨动到 ON 档位，那么则指示灯将会熄灭。电源复位指示灯亮起表示一个或多个二次电源因为故障使电源保护回路跳闸而无法工作。WCS 电源指示灯亮起表示 WCS 系统当前处于待机或者开关处于 ON 档位但雷达还未准备好进行发射。在启动过程中，在雷达启动计时器计时结束前，指示灯将保持熄灭。如需重置雷达，将开关拨动至 STANDBY 档位再拨动至 ON。</p>
+<p>位于 HCU 面板上部边缘的是 IR/TV 超温指示灯（ <strong>2</strong> ）、电源复位指示灯（ <strong>4</strong> ）和 WCS 电源指示灯（ <strong>6</strong> ）。当 IR/TV 开关处于 STBY 档位或者 ON 档位时，IR/TV 电源指示灯亮起表示 TCS 还未准备就绪，当 TCS 准备就绪后，如果开关仍处于 STBY 档位，那么指示灯将保持亮起，如果将开关拨动到 ON 档位，那么则指示灯将会熄灭。电源复位指示灯亮起表示一个或多个二次电源因为故障使电源保护回路跳闸而无法工作。WCS 电源指示灯亮起表示 WCS 系统当前处于待机或者开关处于 ON 档位但雷达还未准备好进行发射。在启动过程中，在雷达启动计时器计时结束前，指示灯将保持熄灭。如需复位雷达，将开关拨动至 STANDBY 档位再拨动至 ON。</p>
 <p>位于 HCU 左上角的 <strong>IR/TV</strong> 开关（ <strong>1</strong> ）控制着 TCS 的电源。当开关拨到（STBY）档位时，启动系统但是不开启传感器。开关拨动至 ON 档位时启用传感器运行。需要注意的是，只有当 WCS 控制开关处于 STBY 档位或者 XMT 档位时，才能启用 IR/TV 开关。 <strong>WCS XMT</strong> 开关（ <strong>7</strong> ）控制着 WCS 计算机系统和系统相应的显示器（DDD 和 TID）的电源，以及禁止或允许雷达发射。当开关拨至 STBY 档位时将会开始向所有包括显示器在内的 WCS 系统供电，同时开始雷达预热程序。显示器预热需要30秒钟，雷达需要3分钟预热后才可以运行。在机轮不负重、雷达计时结束（预热）的情况下，WCS 控制开关拨至 ON 档位将启用雷达发射。</p>
 <p>在 HCU 面板中上部的两个按钮分别是 <strong>灯光测试</strong> （ <strong>3</strong> ）和 <strong>电源复位</strong> （ <strong>5</strong> ）按钮。按下灯光测试（LIGHT TEST）按钮后会启用所有 WCS 系统的灯光与指示器进行测试。电源复位（PWR RESER）按钮按下后将复位二次电源的保护电路来重新启用二次电源，同时电源复位按钮还可以复位导弹供电。需要注意的是，只有在保护回路中故障保护跳闸仍然存在、电源复位指示灯亮起时才按下此按钮。</p>
 <p><strong>HCU 模式按钮</strong></p>
@@ -1881,7 +1880,7 @@
 </td>
 <td><p class="first">TARGET DATA 类别下包含的 MASSAGE 功能按钮用来修改选中的跟踪符号。 <strong>FRIEND</strong> 、 <strong>UNK</strong> （不明）、 <strong>HOST</strong> （敌机）和 <strong>MULT TGT</strong> （多目标）功能按钮用来标记选中的符号为对应的类别（多目标可以在其他三个跟踪符号类型上进行设置）。</p>
 <p><strong>DO NOT ATTK</strong> 按钮用来将目标设置为禁止攻击的目标，将目标从 WCS 开火指令中移除。</p>
-<p><strong>DATA TRANS</strong> （数据传输）功能启用一个选中的干扰源射线关联另一个选中的跟踪符号。这个按钮用于允许 WCS 更好地使用两个数据源来跟踪目标。必须在选中符号前先选中射线。尚未实装。</p>
+<p><strong>DATA TRANS</strong> （数据传输）功能启用一个选中的干扰源射线关联另一个选中的跟踪符号。这个按钮用于使得 WCS 更好地使用两个数据源来跟踪目标。必须在选中符号前先选中射线。尚未实装。</p>
 <p><strong>TEST TGT</strong> （测试目标）按钮按下后在 WCS 中设置一个模拟目标用于测试。当前尚未实现此功能。</p>
 <p><strong>SYM DELETE</strong> （符号删除）按钮允许 RIO 从 TID 中手动丢弃/删除一个跟踪或航路点（如果不再需要）。不能删除本机符号和数据链路跟踪符号。</p>
 <p class="last"><strong>IFT AUX LAUNCH</strong> 与 <strong>GND MAP</strong> 皆无功能。</p>
@@ -2268,9 +2267,9 @@
 <p>LANTIRN 的 FLIR 视频输出源叠加了数据读数提供给机组使用。当在控制面板选择了 FLIR 源时，这个视频输出源就可以在 TID（在 TV 模式中）和 VDI（也是在 TV 模式中）中进行观看。</p>
 <p>除此之外，显示器还向机组显示了本机位置、目标位置以及瞄准提示。当使用 LANTIRN 用于 A/G 攻击时这些读数也用于瞄准和投放提示。</p>
 <img alt="_images/FLIR.png" src="_images/FLIR.png" />
-<p>本机数据显示在左上角（ <strong>1</strong> ），显示位置、高度、地速以及俯仰角（dive）。</p>
+<p>本机数据显示在视频左上角（ <strong>1</strong> ），显示位置、高度、地速以及俯仰角（dive）。</p>
 <p>视频左侧（ <strong>2</strong> ），显示当前吊舱正在使用白热还是黑热（WHOT 和 BHOT），以及是否使用了 AGC（自动增益控制）或 MGC（手动增益控制）。</p>
-<p>左下角的数据（ <strong>3</strong> ）显示的是吊舱信息，SR——斜距（视线距离）、AZ 和 EL 为吊舱视线相对 ADL 的方位和仰角（AZ 则由字母 L 或 R 表示视线在飞机航向左侧或右侧）。位于AZ 和 EL 下方的是当前的 UTC 时间，再向下为 IBIT 代码。</p>
+<p>视频左下角的数据（ <strong>3</strong> ）显示的是吊舱信息，SR——斜距（视线距离）、AZ 和 EL 为吊舱视线相对 ADL 的方位和仰角（AZ 则由字母 L 或 R 表示视线在飞机航向左侧或右侧）。位于AZ 和 EL 下方的是当前的 UTC 时间，再向下为 IBIT 代码。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -2279,19 +2278,19 @@
 </tr>
 </tbody>
 </table>
-<p>视频下部中间（ <strong>4</strong> ）左侧显示了当前吊舱的模式（A/A 或 A/G）、跟踪模式（AREA，POINT 和 Q 指定）。右侧显示当前所选的武器和在其上方的激光编码，当激光保险激活后将在中间显示字母 L，并且当激光照射时字母 L 将会开始闪烁。</p>
+<p>视频下部中间（ <strong>4</strong> ）左侧显示了当前吊舱的模式（A/A 或 A/G）、跟踪模式（AREA，POINT 和 Q 指定）。视频右侧显示当前所选的武器和在其上方的激光编码，当激光解除保险后将在视频中间显示字母 L，并且当激光照射时字母 L 将会开始闪烁。</p>
 <p>视频右下角（<strong>5</strong>）显示除 QSNO、QADL 和 QHUD 以外的当前所选 Q（隶属点）的数据，TTG 为到所选 Q 顶部的剩余时间，下面一行是到 Q 的方位和距离，ELEV 指示 Q 的高度（单位为英尺），下方的则为 Q 的位置。</p>
 <p><strong>6</strong> 是显示跟踪位置的十字准星，在上图中还出现了一个指示框，这表示在点跟踪模式中当前处于跟踪的目标。最宽的两种变焦模式中会出现一个框，表示下一个较窄模式的视场。此外，还有一个小白色正方形（FLIR 指向提示）将四处移动，这个小白色正方形表示吊舱相对于飞机来说从上到下的当前的视线。在上图中，它正好在上下翻转的 ^ （顶部中央）的一侧，这表示吊舱正在看向飞机的正前方。如果正方形居中，表示吊舱正在朝正下方看，如果在中心以下，则表示吊舱在朝后看。</p>
 <p>最后， <strong>7</strong> 为飞向所选 Q 的转向引导，顶部的为指令航向，右侧垂直的为炸弹投放提示。</p>
 <p>在倒 ^ 的上方指令航向显示了当前飞机的航向，指令航向是作为当前飞机航向下方的横线（L 左或 R 右）的相对方位显示的。指令航向还通水平线上的短垂线来指示。</p>
 <p>右侧——炸弹投放提示，仅在选择了 Q 为 QDES 和显示投放提示向下移动的垂线时显示。这个投放提示在已选择有效武器（炸弹）时显示，并且当投放提示抵达两个刻度标记时，则表示是时候投放了。在垂线下方的是秒为单位的 TREL（投放时间）指示，在投放后，这个指示将变更为 TIMP（命中时间）。</p>
-<p>这些元素周围的弧线为遮挡弧线，这个弧线指示在何种角度下吊舱将会被本机遮挡住（看向机身）。弧线是相对于 FLIR 指向提示的，当提示移动到遮挡弧线外时，传感器将会被机身遮挡。</p>
+<p>这些元素周围的弧线为遮挡弧线，这个弧线指示在何种角度下吊舱将会被本机遮挡住（看向机身）。弧线是相对于 FLIR 指向提示的，当指向提示移动到遮挡弧线外时，传感器将会被机身遮挡。</p>
 </div>
 <div class="section" id="control-panel">
 <h4>控制面板<a class="headerlink" href="#control-panel" title="永久链接至标题">¶</a></h4>
 <p>控制面板包含了吊舱所有的控制，包括控制杆。</p>
 <img alt="_images/panel.png" src="_images/panel.png" />
-<p>LANTIRN 吊舱的电源开关旋钮位于面板的左上角（ <strong>1</strong> ）， <strong>OFF</strong> 档位将不会为系统供电， <strong>imu</strong> 档位（在上图中被遮挡）时仅对 LANTIRN IMU 供电， <strong>POD</strong> 档位则会为整个系统供电。</p>
+<p>LANTIRN 吊舱的电源开关旋钮位于面板的左上角（ <strong>1</strong> ）， <strong>OFF</strong> 档位将不会为系统供电， <strong>IMU</strong> 档位（在上图中被遮挡）时仅向 LANTIRN IMU 供电， <strong>POD</strong> 档位则会为整个系统供电。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -2323,10 +2322,10 @@
 <p>驾驶杆顶部的红色按钮（ <strong>4</strong> ）用于控制在 IR 传感器的三种不同的视场（变焦等级）之间循环。</p>
 <p>位于侧面的的两向帽（ <strong>5</strong> ）用来选择 A/G 或 A/A 吊舱运行模式。</p>
 <p>位于控制杆杆头左侧的两向滑块（ <strong>6</strong> ），滑块由弹簧归中。这个滑块用于变更右侧的四向苦力帽的功能。</p>
-<p>向前滑动滑块允许选择手动增益，而释放并再次向前滑动将重新选择自动增益。 选择了手动增益的话，可以通过向前滑动滑块并保持2秒来变更手动增益。在手动增益模式中，右侧的苦力帽向上/向下拨动用于增加或减少增益，而向左/向右用于增加或减少电平。</p>
+<p>向前滑动滑块允许选择手动增益，而释放并再次向前滑动将重新选择自动增益。 选择了手动增益的话，可以通过向前滑动滑块并保持2秒来变更手动增益。在手动增益模式中，右侧的苦力帽向上/向下拨动用于增加或减少增益，而向左/向右用于增加或减少色阶。</p>
 <p>向后移动滑动滑块可对使用的激光编码进行选择，而向后滑动滑块并按住可以对聚焦进行控制。当设置为变更激光编码时，右侧的四向苦力帽向上/向下用于加减激光编码的数字，向左/向右用于变更选择的数位。在聚焦控制中，苦力帽向上/向下则用于加减聚焦。</p>
 <p>位于控制杆前方的是一个二段式扳机（ <strong>7</strong> ），按下扳机第一段可以启用手动激光照射，而按下第二段扳机可以开启激光照射和指定当前传感器位置为 QDES。</p>
-<p>最后，位于控制杆正面的是锁扣式激光照射按钮（ <strong>8</strong> ）。按下这个按钮后激光将会照射60秒钟，可以通过按下后并释放扳机第一段来越控。再次按下锁扣式激光照射按钮将重置锁扣式激光照射计时器至60秒钟，开始新的60秒钟倒计时。</p>
+<p>最后，位于控制杆正面的是锁扣式激光照射按钮（ <strong>8</strong> ）。按下这个按钮后激光将会照射60秒钟，可以通过按下后并释放扳机第一段来越控。再次按下锁扣式激光照射按钮将复位锁扣式激光照射计时器至60秒钟，开始新的60秒钟倒计时。</p>
 </div>
 </div>
 <div class="section" id="id4">
@@ -2341,8 +2340,8 @@
 <h4>传感器模式和操作<a class="headerlink" href="#sensor-modes-and-operation" title="永久链接至标题">¶</a></h4>
 <p>LANTIRN 有两种“主”模式，分别是 A/A 和 A/G。两种模式工作方式类似，但是不同的模式针对不同的目标类型进行了优化。此外，A/G 模式中还允许使用炸弹投放引导。</p>
 <p>吊舱有两种主要的方法来控制传感器视线，通过对比度锁定（图像跟踪）或通过隶属至一个 Q 指定点。</p>
-<p>区域（Area）和点（Point）跟踪模式为在 LANTIRN FLIR 本身的视频中 LANTIRN 以对比度差异来锁定的两种对比度锁定模式。对比度锁定本身只允许角度跟踪，对比度跟踪中将使用本机位置和吊舱视线来计算目标位置来给出不精确的测距。但是，它的可以允许系统跟踪移动目标。</p>
-<p>最后一种跟踪模式是将传感器隶属至预存的位置/方向，这种模式将其称之为 Q。方向 Q无法引导至某个位置，而位置 Q 则可以。</p>
+<p>区域（Area）和点（Point）跟踪模式为在 LANTIRN FLIR 本身的视频中 LANTIRN 以对比度差异来锁定的两种对比度锁定模式。对比度锁定本身只允许角跟踪，对比度跟踪中将使用本机位置和吊舱视线来计算目标位置来给出不精确的测距。但是，它的可以允许系统跟踪移动目标。</p>
+<p>最后一种跟踪模式是将传感器隶属至预存的位置/方向，这种模式将其称之为 Q。方向 Q 无法引导至某个位置，而位置 Q 则可以。</p>
 <p>QSNO 和 QADL/QHUD 为方向 Q。QSNO 为将传感器隶属至沿本机航向正前方15海里处的地面。QADL 和 QHUD 则隶属传感器至 ADL（A/A 模式中）或 HUD 中的飞机机翼符号（A/G 模式中）。</p>
 <p>位置 Q 有两个源，第一个源是使用控制杆左侧的苦力帽上的 QWp- 和 QWp+ 在 WCS 航路点之间循环，从而允许 RIO 隶属至不同的航路点进行导航或定位目标。</p>
 <p>另一个源则是通过吊舱指定。通过按下控制杆上扳机第二段，将照射当前传感器跟踪或位置，并使用指定点的数据存储为新位置。这个位置称为 QDES，QDES 用来指定用于攻击的目标并且允许 RIO 选择在飞行中用于导航参考的新的位置。但是，QDES 无法自动传输至 WCS，但是 RIO 可以使用吊舱视频输出源中的目标位置信息来手动输入它。</p>
@@ -2362,19 +2361,19 @@
 <h2>AN/ALR-67 雷达告警接收机（RWR）<a class="headerlink" href="#an-alr-67-rwr" title="永久链接至标题">¶</a></h2>
 <div class="section" id="id5">
 <h3>描述<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
-<p>AN/ALR-67 雷达告警接收机（RWR）旨在在通常区域内通知和警告机组乘员雷达辐射。它同样还设计用于通过指示雷达跟踪和雷达制导武器的攻击来帮助机组乘员进行防御。</p>
-<p>AN/ALR-67 作为 A+/B 开发计划的一部分并且首先是作为独立的系统被集成进 F-14B 中。但是，RWR 连接了 AN/ALQ-126 从而允许 RWR 发送威胁辐射信息至干扰机并将干扰的目标显示在 ALR-67 的显示器中。它能够触发 AN/ALE-39 中预编程的对抗程序。</p>
+<p>AN/ALR-67 雷达告警接收机（RWR）旨在在通常区域内通知和警告机组乘员雷达辐射。它同样还设计用于通过指示雷达跟踪和雷达制导武器的攻击来帮助机组进行防御。</p>
+<p>AN/ALR-67 作为 A+/B 开发计划的一部分并且首先是作为独立的系统被集成进 F-14B 中。但是，RWR 连接了 AN/ALQ-126 从而允许 RWR 发送威胁辐射信息至干扰机并将干扰的目标显示在 ALR-67 的显示器中。AN/ALR-67 还能够触发 AN/ALE-39 中预编程的对抗程序。</p>
 <p>在后续包括 PTID 升级的 F-14B 中，AN/ALR-67 同样也被集成进 MDIG 显示系统中从而允许在 ECMD 中更详细地显示威胁。</p>
-<p>F-14B 中的 AN/ALR-67 带有四根小型螺旋状高波段天线，四个宽带高波段分角接收机以及低波段阵列。连接到这些天线的是一个窄带超外差接收机，接收机分析接收到的信号并且使用两个显示器将威胁和辐射在显示器中指示出来，每个驾驶舱中都有一个显示器并且向两名机组乘员的 ICS 播放音频信号。</p>
+<p>F-14B 中的 AN/ALR-67 带有四根小型螺旋状高波段天线，四个宽带高波段分角接收机以及低波段阵列。连接到这些天线的是一个窄带超外差接收机，接收机分析接收到的信号并且使用两个显示器将威胁和辐射在显示器中指示出来，每个驾驶舱中都有一个显示器并且向两名机组的 ICS 播放音频信号。</p>
 </div>
 <div class="section" id="controls">
 <h3>控制<a class="headerlink" href="#controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/control1.png" src="_images/control1.png" />
 <p>AN/ALR-67 RWR 由 RIO 右侧控制台上的控制面板控制。</p>
 <p>PWR（电源）开关控制 RWR 的电源，并应设置为 ON 以为系统供电。</p>
-<p>VOL（音量）控制旋钮可用于调整 RIO 的 RWR 音频信号音量。在飞行员的 音量 / TACAN 指令面板中也有一个对应的旋钮可以调整飞行员的 RWR 音频信号音量。</p>
-<p>TEST （测试）开关有两个可选择的模式，未拨动时开关由弹簧归中。短暂拨动开关至 BIT 档位将启动 AN/ALR-67 机内自检，BIT 第一页显示时，将开关拨至 SPL（特殊）档位会显示特殊 BIT 状态页。</p>
-<p>MODE（模式）开关也有两个可选择的模式，当波动到对应的档位时将会进入，不拨动开关时由弹簧回中。如果未激活任意一种模式则启用正常运行模式，拨动开关至 OFST 将会启用偏置模式，拨动至 LMT 的话将启用限制模式。偏置模式由显示器内状态环中的字母 O 指示，在这个模式下，重叠的威胁符号将会被分隔开来，以牺牲方位精度为代价来换取更加清楚的威胁显示。限制模式由显示器内状态环中的字母 L 指示，在这个模式下，将会限制显示器仅显示最多六个最高优先级威胁的威胁符号。</p>
+<p>VOL（音量）控制旋钮可用于调整 RIO 的 RWR 音频信号音量。在飞行员的音量 / TACAN 指令面板中也有一个对应的旋钮可以调整飞行员的 RWR 音频信号音量。</p>
+<p>TEST （测试）开关有两个可选择的模式，未拨动时开关由弹簧归中。短暂拨动开关至 BIT 档位将启动 AN/ALR-67 机内自检，当 BIT 第一页显示时，只要将开关保持在 SPL（特殊）档位，RWR 就将会显示特殊 BIT 状态页。</p>
+<p>MODE（模式）开关也有两个可选择的模式，当开关拨动至对应的档位时将会进入，不拨动开关时由弹簧归中。如果未激活任意一种模式，那么将启用正常运行模式，拨动开关至 OFST 将会启用偏置模式，拨动至 LMT 的话将启用限制模式。偏置模式由显示器内状态环中的字母 O 指示，在这个模式下，重叠的威胁符号将会被分隔开来，以牺牲方位精度为代价来换取更加清楚的威胁显示。限制模式由显示器内状态环中的字母 L 指示，在这个模式下，将会限制显示器仅显示最多六个最高优先级威胁的威胁符号。</p>
 <p>DISPLAY TYPE 旋钮可设置在 RWR 上优先显示的威胁。</p>
 <p>NORM - 正常模式由状态环中的字母 N 指示，在这个模式下，威胁符号将会根据预载的威胁库内的符号显示出来。</p>
 <p>AI - 空基拦截器由状态环中的字母 I 指示，空基拦截器优先于其他所有威胁。</p>
@@ -2386,7 +2385,7 @@
 <h3>显示<a class="headerlink" href="#displays" title="永久链接至标题">¶</a></h3>
 <img alt="_images/display.png" src="_images/display.png" />
 <p>两名机组乘员驾驶舱中的 RWR 显示器位置都是相同的，并且显示器使用三个区域（圆环）来划分显示出的威胁符号的威胁等级。</p>
-<p>最外层——严重威胁区显示的辐射源威胁符号表示对本机构成严重危险，这些威胁可能是锁定并跟踪你的雷达或是探测到主动攻击本机的雷达。探测到的一个跟踪（注：正在跟踪你的辐射源）主动攻击本机的话，这个跟踪的威胁符号将会闪烁闪烁以提高辨识度。</p>
+<p>最外层——严重威胁区显示的辐射源威胁符号表示对本机构成严重危险，这些威胁可能是锁定并跟踪你的雷达或是探测到主动攻击本机的雷达。探测到的一个跟踪（注：正在跟踪你的辐射源）主动攻击本机的话，这个跟踪的威胁符号将会闪烁以提高辨识度。</p>
 <p>中部——致命威胁区显示的辐射源威胁符号表示辐射源被 ALR-67 认定为在飞机的致命威胁区内，但没有跟踪或攻击本机。</p>
 <p>内层——非致命威胁区显示的辐射源威胁符号表示辐射源没有攻击本机的能力或者辐射源可以攻击但不认为本机在攻击的范围内。</p>
 <p>威胁区的内侧（注：圆心处）为系统状态环，这个状态环指示系统的运行模式或显示故障。左上角象限显示设定的显示类型（N、I、A、U 或 F），右上角象限在系统处于限制模式时将显示 L，下半部分可以显示表示系统处于偏置模式的 O，显示 B 表示 BIT 出现故障或显示 T 表示系统过载（过热）。</p>
@@ -2783,16 +2782,16 @@
 <div class="section" id="an-ale-39-countermeasures-dispensing-set">
 <h2>AN/ALE-39 对抗弹射套件<a class="headerlink" href="#an-ale-39-countermeasures-dispensing-set" title="永久链接至标题">¶</a></h2>
 <p>DCS 中模拟的 F-14B 搭载的是 AN/ALE-39 对抗弹射套件。AN/ALE-39 控制着位于发动机喷口之间“河狸尾巴”下方的布撒器的套件。</p>
-<p>每个布撒器包含两个部分，一个中含有10发干扰弹，另外一个部分则为20发。布撒器被称为左布撒器和右布撒器，即使实际上是前后布撒器，两个布撒器安装在拦阻钩的左侧。这实际上是沿用了 F-14 早期型号中 AN/ALE-29 的叫法。</p>
-<p>系统中总共可装填60发干扰弹，每个部分必须装填同一种类型的干扰弹，也就是说只要每种类型的干扰弹只要是10的倍数，那么任何组合都是可能的。系统本身不知道填装了哪种干扰弹，因此错误的编程可能使得系统弹射错误的干扰弹类型。</p>
-<p>系统本身可由 RIO 驾驶舱中的控制面板或当襟翼控制杆处于收起档位时通过飞行员驾驶杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行弹射，弹射程序可由 RIO 从控制面板或 DDD 上方握把中的苦力帽来启动。另外，如果在 AN/ALE-39 控制面板正确地设置了箔条弹射程序，那么 AN/ALE-67 也可以启动箔条弹射程序。</p>
+<p>每个布撒器包含两个部分，一个部分中含有10发抛放弹（注：干扰弹），另外一个部分则为20发。布撒器被称为左布撒器和右布撒器，即使实际上是前后布撒器，两个布撒器安装在拦阻钩的左侧。这实际上是沿用了 F-14 早期型号中 AN/ALE-29 的叫法。</p>
+<p>系统中总共可装填60发抛放弹，每个部分必须装填同一种类型的抛放弹，也就是说只要每种类型的抛放弹只要是10的倍数，那么任何组合都是可能的。系统本身不知道填装了哪种抛放弹，因此错误的编程可能使得系统弹射错误的抛放弹类型。</p>
+<p>系统本身可由 RIO 驾驶舱中的控制面板或当襟翼控制杆处于收上档位时通过飞行员驾驶杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行弹射，弹射程序可由 RIO 从控制面板或 DDD 上方握把中的苦力帽来启动。另外，如果在 AN/ALE-39 控制面板正确地设置了箔条弹射程序，那么 AN/ALE-67 也可以启动箔条弹射程序。</p>
 <div class="section" id="controls-and-operation">
 <h3>控制和运作<a class="headerlink" href="#controls-and-operation" title="永久链接至标题">¶</a></h3>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">DCS 中，F-14B 对抗填装是在任务编辑器中设置的，参阅 <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> 或通过无线电菜单中地勤页面下进行控制。如果使用无线电菜单填装的话将会绕过任务编辑器中的默认设置。在膝板中查看实际的填装。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">DCS 中，F-14B 对抗措施填装是在任务编辑器中设置的，参阅 <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> 或通过无线电菜单中地勤页面下进行控制。如果使用无线电菜单填装的话将会绕过任务编辑器中的默认设置。在膝板中查看实际的填装。</td>
 </tr>
 </tbody>
 </table>
@@ -2805,20 +2804,20 @@
 <div class="line">在投射程序中， <strong>CHAFF</strong> 部分用来控制如何弹射箔条。箔条程序是编程为齐射的数量，每次弹射由设定的干扰弹数量组成。</div>
 <div class="line"><strong>B QTY</strong> 控制每次弹射中投放干扰弹的数量，可以选择1-4发干扰弹或 C（连续）和 R（随机）。</div>
 <div class="line"><strong>B INTV</strong> 设置每次干扰弹弹射之间的时间间隔（精度为秒），可以设置为 .1 (0.125)、 .2 (0.25)、 .5 (0.5)、 .7 (0.75)、 1 和 R（随机）。</div>
-<div class="line"><strong>S QTY</strong> 用来控制进行多少轮弹射程序。可以设置为：1、2、4、6、8、10和15。</div>
+<div class="line"><strong>S QTY</strong> 用来控制进行多少轮弹射程序。可以设置为：1、2、4、6、8、10 和 15。</div>
 <div class="line"><strong>S INT</strong> 用于设置齐射程序之间的时间间隔（精度为秒），可以设置为2, 4, 6, 8 和 10。</div>
 </div>
 <div class="line-block">
 <div class="line">使用 R 和 C 设置时，可启用 B 特殊设置。</div>
 <div class="line"><strong>B 在 C QTY 和 R INTV</strong> 将设置前三发干扰弹以0.125秒间隔弹射，其余的干扰弹弹射间隔将为0.25至4秒内随机弹射。弹射将忽略 S 开头设置，并且继续弹射直到弹射完所有干扰弹。</div>
-<div class="line"><strong>B 在 R QTY 和 R INTV</strong> 将设置为每次弹射中投放4-6发干扰弹并以0.25至4秒间隔内随机投放。一轮齐射中的首次弹射始终为投放3发干扰弹、间隔0.125秒。</div>
-<div class="line"><strong>B 在 R QTY 和 INTV 为设置的数量</strong> 将设置为每次弹射将以设置的间隔投放4-6发干扰弹。首次弹射始终为投放3发干扰弹、0.125秒间隔。</div>
-<div class="line"><strong>B 在 固定的 QTY 和 R INTV</strong> 将设置为每次弹射中投放一发干扰弹，无视 B QTY 设置。</div>
+<div class="line"><strong>B 在 R QTY 和 R INTV</strong> 将设置为每次弹射中弹射4-6发干扰弹并以0.25至4秒间隔内随机弹射。一轮齐射中的首次弹射始终为投放3发干扰弹、间隔0.125秒。</div>
+<div class="line"><strong>B 在 R QTY 和 INTV 为设置的数量</strong> 将设置为每次弹射将以设置的间隔弹射4-6发干扰弹。首次弹射始终为弹射3发干扰弹、0.125秒间隔。</div>
+<div class="line"><strong>B 在 固定的 QTY 和 R INTV</strong> 将设置为每次弹射中弹射一发干扰弹，无视 B QTY 设置。</div>
 </div>
 <div class="line-block">
 <div class="line"><strong>JAMMER</strong> 部分用于控制在程序模式中有源干扰弹的弹射。</div>
-<div class="line"><strong>QTY</strong> 用来设置有源干扰弹的投放数量，可以设置为1-4。</div>
-<div class="line"><strong>INTV</strong> 使用三个指示拨轮来设置程序中投放的时间间隔（精度为秒）。 可每秒逐步增加从1至299。</div>
+<div class="line"><strong>QTY</strong> 用来设置有源干扰弹的弹射数量，可以设置为1-4。</div>
+<div class="line"><strong>INTV</strong> 使用三个指示拨轮来设置程序中弹射的时间间隔（精度为秒）。 可每秒逐步增加从1至299。</div>
 </div>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -2829,11 +2828,11 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line"><strong>FLARE</strong> 部分用于控制在程序模式中红外干扰弹的弹射。</div>
+<div class="line"><strong>FLARE</strong> 部分用于控制在程序模式下红外干扰弹的弹射。</div>
 <div class="line"><strong>QTY</strong> 将设置红外干扰弹弹射的数量，可以设置为2、3、4、6、8和10。</div>
-<div class="line"><strong>INTV</strong> 将设置投放的时间间隔（精度为秒），可以设置为2、4、6、8和10。</div>
+<div class="line"><strong>INTV</strong> 将设置弹射的时间间隔（精度为秒），可以设置为2、4、6、8和10。</div>
 </div>
-<p>编程面板右侧的为每个部分装填的干扰弹类型，以及用于填装了新干扰弹后使用的重置开关（reset switch）。</p>
+<p>编程面板右侧的为每个部分装填的干扰弹类型，以及用于填装了新干扰弹后使用的复位开关（reset switch）。</p>
 <p><strong>L10，L20，R10 和 R20</strong> 拨轮可以设置为 C（箔条）、J（有源干扰弹）或者 F（红外干扰弹），以此来设置布撒器中每一部分填装的干扰弹类型。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -2843,22 +2842,22 @@
 </tr>
 </tbody>
 </table>
-<p>在填装了新的干扰弹至布撒器后，需要使用 <strong>RESET</strong> 开关来重置系统内部计数器。RESET 开关需要保持至少5秒来重置系统。</p>
+<p>在填装了新的干扰弹至布撒器后，需要使用 <strong>RESET</strong> 开关来复位系统内部计数器。RESET 开关需要保持至少5秒来复位系统。</p>
 </div>
 <div class="section" id="id6">
 <h4>控制面板<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h4>
 <img alt="_images/controller.png" src="_images/controller.png" />
-<p>控制面板用于控制系统电源、设置自动投放以及手动投放干扰弹，并且控制面板同样位于 RIO 右侧控制台上。</p>
-<p>面板上部的机械计数器用于指示各种类型干扰弹的剩余数量。计数器需要使用每个计数器下方的旋钮手动设置，但是在每次发射干扰弹投放脉冲过后计数将会自动减少。因为计数器是手动来设置的，因此可能会碰到计数器指示的数量为0的情况（但实际还有干扰弹），但是这不会影响其它干扰弹的使用。在这种情况下投放脉冲仍然会发送但是计数器不会继续减少。</p>
-<p>在每种类型干扰弹的计数器下方都包含有开关，这些开关用于手动投放指令。这个开关为瞬态和弹簧归中的，每个开关都有三个档位。 <strong>PRGM</strong> 启动对应的投放程序， <strong>SGL</strong> 用于单发投放对应类型的干扰弹以及 <strong>STBY</strong> 默认归中档位（无手动投放指令）。</p>
-<p><strong>PWR/MODE</strong> 开关用于为 AN/ALE-39 提供电力，以及启动自动投放（通过 AN/ALR-67 RWR）。 <strong>AUTO (CHAFF) / MAN</strong> 档位用于接通系统电源，并且允许 AN/ALR-67 来启动设定的箔条投放程序，但要注意的是，红外干扰弹投放仍然为手动。当 RWR 探测到一个威胁主动攻击本机时将会启动箔条投放，探测的威胁仍然存在的话，在启动下一个程序前存在30秒冷却时间。手动投放仍然可正常使用。 <strong>MAN</strong> 档位用于接通系统电源，并且允许手动启动所有功能。 <strong>OFF</strong> 档位用于关闭系统。</p>
-<p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何投放并且同时设置了飞行员驾驶杆种 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收起档位来启用 DLC 按钮干扰弹投放。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个投放脉冲将从编程面板中设置为 F 的部分投放一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹投放脉冲将有四发红外干扰弹被投放。 <strong>NORM</strong> 将设置正常红外干扰弹投放脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮投放一发红外干扰弹。正常投放红外干扰弹仍然可用。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令投放一发箔条。</p>
-<p>最后是 <strong>SALVO FLARES</strong> 开关，用于启动以0.125秒间隔快速投放所有红外干扰弹。正常档位为弹簧归中至 <strong>OFF</strong> 档位。一旦启动就无法停止。</p>
+<p>控制面板用于控制系统电源、设置自动弹射以及手动弹射干扰弹，并且控制面板同样位于 RIO 右侧控制台上。</p>
+<p>面板上部的机械计数器用于指示各种类型干扰弹的剩余数量。计数器需要使用每个计数器下方的旋钮手动设置，但是在每次发射干扰弹弹射脉冲过后计数将会自动减少。因为计数器是手动来设置的，因此可能会碰到计数器指示的数量为0的情况（但实际还有干扰弹），但是这不会影响其它干扰弹的使用。在这种情况下弹射脉冲仍然会发送但是计数器不会继续减少。</p>
+<p>在每种类型干扰弹的计数器下方都包含有开关，这些开关用于手动弹射指令。这个开关为瞬态和弹簧归中的，每个开关都有三个档位。 <strong>PRGM</strong> 启动对应的弹射程序， <strong>SGL</strong> 用于单发弹射对应类型的干扰弹以及 <strong>STBY</strong> 默认归中档位（无手动弹射指令）。</p>
+<p><strong>PWR/MODE</strong> 开关用于为 AN/ALE-39 提供电力，以及启动自动弹射（通过 AN/ALR-67 RWR）。 <strong>AUTO (CHAFF) / MAN</strong> 档位用于接通系统电源，并且允许 AN/ALR-67 来启动设定的箔条弹射程序，但要注意的是，红外干扰弹弹射仍然为手动。当 RWR 探测到一个威胁主动攻击本机时将会启动箔条弹射，探测的威胁仍然存在的话，在启动下一个程序前存在30秒冷却时间。手动弹射仍然可正常使用。 <strong>MAN</strong> 档位用于接通系统电源，并且允许手动启动所有功能。 <strong>OFF</strong> 档位用于关闭系统。</p>
+<p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何弹射并且同时设置了飞行员驾驶杆种 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收上档位来启用 DLC 按钮干扰弹弹射。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个弹射脉冲将从编程面板中设置为 F 的部分弹射一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹弹射脉冲将有四发红外干扰弹被弹射。 <strong>NORM</strong> 将设置正常红外干扰弹弹射脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮弹射一发红外干扰弹。正常弹射红外干扰弹仍然可用。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令弹射一发箔条。</p>
+<p>最后是 <strong>SALVO FLARES</strong> 开关，用于启动以0.125秒间隔快速弹射所有红外干扰弹。正常档位为弹簧归中至 <strong>OFF</strong> 档位。一旦启动就无法停止。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">当机轮承重时，所有对抗干扰弹投放都为禁止的，从而防止对抗在地面上投放。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">当机轮负重时，所有对抗干扰弹弹射都被禁止，从而防止在地面上弹射干扰弹。</td>
 </tr>
 </tbody>
 </table>
@@ -2866,28 +2865,28 @@
 <div class="section" id="rio-hand-hold-switches">
 <h4>RIO 握把控制开关<a class="headerlink" href="#rio-hand-hold-switches" title="永久链接至标题">¶</a></h4>
 <img alt="_images/cmhats1.png" src="_images/cmhats1.png" />
-<p>两个四向苦力帽安装在 DDD 上方的 RIO 握把上，这两个苦力帽可以让 RIO 快速使用对抗投放。两个苦力冒的功能是相同的的， <strong>UP</strong> （向上）用于投放一发箔条， <strong>DOWN</strong> （向下）用于启用箔条投放程序， <strong>INBOARD</strong> （向内）用于启用有源干扰弹的投放程序， <strong>OUTBOARD</strong> （向外）用于启用红外干扰弹的投放程序。</p>
+<p>两个四向苦力帽安装在 DDD 上方的 RIO 握把上，这两个苦力帽可以让 RIO 快速使用对抗弹射。两个苦力冒的功能是相同的的， <strong>UP</strong> （向上）用于弹射一发箔条， <strong>DOWN</strong> （向下）用于启用箔条弹射程序， <strong>INBOARD</strong> （向内）用于启用有源干扰弹的弹射程序， <strong>OUTBOARD</strong> （向外）用于启用红外干扰弹的弹射程序。</p>
 </div>
 </div>
 <div class="section" id="lau-138">
 <h3>LAU-138<a class="headerlink" href="#lau-138" title="永久链接至标题">¶</a></h3>
-<p>为了应对军方挂载更多箔条的需求，工程师团队研发了 LAU-138 箔条布撒器。布撒器本身由瑞典的 CelciusTech 公司开发，布撒器作为一个箔条布撒器集成在导轨中，这个导轨旨在代替 LAU-7 “响尾蛇”导弹导轨。每个导轨可以挂载多达160枚箔条包，每个箔条包的尺寸要比正常箔条小一些，但可以在挂载更多箔条的同时在导轨上安装一枚 AIM-9 “响尾蛇”。</p>
+<p>为了应对军方挂载更多箔条的需求，工程师团队研发了 LAU-138 箔条布撒器。布撒器本身由瑞典的 CelciusTech 公司开发，布撒器作为一个箔条布撒器集成在导轨中，这个导轨旨在代替 LAU-7 “响尾蛇”导弹导轨。每个导轨可以填装多达160枚箔条包，每个箔条包的尺寸要比正常箔条小一些，但可以在挂载更多箔条的同时在导轨上安装一枚 AIM-9 “响尾蛇”。</p>
 <p>在 F-14 中，LAU-138 安装在 1A 和 8A 挂点上。虽然从技术上来说也可以安装在 B 挂点上，但是如果安装在 B 挂点的话那么就无法重新装填布撒器了，因此不安装在 B 挂点上。</p>
-<p>当安装了 LAU-138 挂架后，布撒器中的 R10 和 R20 部分都会连接到 R20，并且 R10 连接到 LAU-138 挂架。这意味着编程面板上的 R20 的干扰弹类型设置同时控制着 R10 和 R20，并且 R10 干扰弹类型设置应该保持为 C（箔条）。</p>
-<p>如上所述，每个布撒器可以挂载160枚箔条包以及每个弹射脉冲都会从布撒器中弹射四枚箔条包，每枚箔条包的大小约为正常箔条的1/4。这将会导致每个弹射脉冲将会相当于弹射两发箔条，并且布撒器总共可以弹射40次。</p>
-<p>当布撒器使用编程面板上的 R10 时，安装了两个 LAU-138 意味着你需要在面板上将箔条计数器设置为40。仅挂载箔条的话可以弹射多达100次，但这对于计数器来说多了点，并且计数器显示的有效次数比真实有效次数少一枚箔条（也就是最大设置为99）。但是少显示的那一次弹射也是可以进行弹射的。</p>
-<p>总而言之，这代表你在使用 LAU-138 时，可以使用额外的40次箔条弹射，与 AN/ALE-39 组合使用时弹射的次数可增加到100次，以及正常挂载的40次箔条弹射和60发红外干扰弹，当安装了 LAU-138 后，应始终将 R10 设置为 C（箔条）。</p>
+<p>当安装了 LAU-138 挂架后，挂架布撒器中的 R10 和 R20 部分都会连接到 R20 部分，并且 R10 部分连接到 LAU-138 挂架。这意味着编程面板上的 R20 的干扰弹类型设置同时控制着 R10 和 R20，并且 R10 干扰弹类型设置应该始终保持为 C（箔条）。</p>
+<p>如上所述，每个挂架布撒器可以挂载160枚箔条包以及每个弹射脉冲都会从挂架布撒器中弹射四枚箔条包，每枚箔条包的大小约为正常箔条的1/4。这将会导致每个弹射脉冲将弹射相当于两发箔条，并且挂架布撒器总共可以弹射40次。</p>
+<p>当挂架布撒器使用编程面板上的 R10 时，安装了两个 LAU-138 意味着你需要在面板上将箔条计数器设置为40。仅挂载箔条的话可以弹射多达100次，但这对于计数器来说多了点，并且计数器显示的有效次数比真实有效次数少一枚箔条（也就是最大设置为99）。但是少显示的那一次弹射也是可以进行弹射的。</p>
+<p>总而言之，这代表你在使用 LAU-138 时，可以使用额外的40次箔条弹射，与 AN/ALE-39 组合使用时弹射的次数可增加到100次，以及正常填装的40次箔条弹射和60发红外干扰弹，当安装了 LAU-138 后，应始终将 R10 设置为 C（箔条）。</p>
 </div>
 </div>
 <div class="section" id="an-alq-126-decm">
 <h2>AN/ALQ-126 DECM<a class="headerlink" href="#an-alq-126-decm" title="永久链接至标题">¶</a></h2>
-<p>AN/ALQ-126 欺骗性干扰机用于探测雷达威胁、分析威胁、选择可用的最佳对抗技术并加以应用。现有的干扰技术包括主瓣匿隐、逆圆锥扫描干扰、距离门拖离干扰和扫掠方波干扰模式。</p>
+<p>AN/ALQ-126 欺骗性干扰机用于探测雷达威胁、分析威胁、选择可用的最佳对抗技术并加以应用。可用的干扰技术包括主瓣匿隐、逆圆锥扫描干扰、距离门拖离干扰和扫掠方波干扰模式。</p>
 <p>在 DCS 中，由于游戏引擎的限制，这一功能被建模成一个简单的噪声干扰机，但可以根据 DECM 逻辑来控制干扰机何时打开或关闭。</p>
 <div class="section" id="an-alq-126-controls-and-indicators">
 <h3>AN/ALQ-126 控制和指示器<a class="headerlink" href="#an-alq-126-controls-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/control2.png" src="_images/control2.png" />
 <p>AN/ALQ-126 DECM 的控制面板位于 RIO 驾驶舱内的右侧控制台上，面板如图所示。此外，在 TID 的右侧，还有两个与 RWR 威胁指示器处于同个位置的指示灯。</p>
-<p>威胁提示灯上的两个指示灯分别是 RCV (接收)和 XMIT (发射)。RCV 指示灯在系统探测并分析一个威胁时亮起，而 XMIT 指示灯在系统激活了主动干扰时亮起。</p>
+<p>威胁提示灯上的两个指示灯分别是 RCV (接收)和 XMIT（发射）。RCV 指示灯在系统探测并分析一个威胁时亮起，而当系统开启，正在干扰威胁时 XMIT 指示灯将会亮起。</p>
 <p>控制面板本身包含一个 STANDBY 指示灯、一个模式选择旋钮和一个 AUDIO 音量控制旋钮。</p>
 <p>STANDBY 指示灯表示系统预热尚未完成，当系统预热完成时便会熄灭。在其他时候，指示灯亮起意味着系统重存在故障。</p>
 <p>AUDIO（音量）旋钮用于控制系统中的 RIO 声音音量。飞行员无法听到该音频。音频本身由接收到的威胁 PRF 直接生成，随后 PRF 会被转换为音频。</p>
@@ -2896,7 +2895,7 @@
 <p><strong>TEST - HOLD 3 SEC</strong> 用于准备系统的 BIT，进入该模式3秒后，转动旋钮至 TEST-ACT 档位。</p>
 <p><strong>TEST - ACT</strong> 用于启动系统的 BIT。整个 BIT 程序需要大约30秒，并且 RCV 指示灯会亮起，而 XMIT 指示灯会闪烁两次。如果 STANDBY 指示灯亮起，则表示“NO-GO”条件存在于系统中。</p>
 <p><strong>REC</strong> 用来将系统设置为仅接收模式，在这个模式下系统可以进行威胁分析和播放威胁音频。</p>
-<p><strong>RPT</strong> 用于启用系统的完整功能，除了 REC 外，系统还将尝试根据选择的方法来干扰威胁。</p>
+<p><strong>RPT</strong> 用于启用系统的完整功能，除了 REC 外，系统还将尝试根据选定的方法来干扰威胁。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -2936,7 +2935,7 @@
 <p>有三种导航数据模式源可用于通用导航：</p>
 <p><strong>1. INS</strong>：IMU 对准完成后，由 RIO 设置的主要导航模式。 IMU 是提供速度数据的主要传感器，用于计算所有惯性输出。此模式中 IMU 为俯仰和滚转数据的数据源。</p>
 <p><strong>2. IMU/AM</strong>：可以由 RIO 选择或在 CSDC 认为 IMU 惯性速度数据不可靠时自动进入的备用模式。在此模式中，来自 CADC 的真空速和输入或预存的风速/风向组合起来提供给通用导航所需的地速和真航向。此模式中 IMU 为俯仰和滚转数据的数据源。</p>
-<p><strong>3. AHRS/AM</strong>：一种更进一步的降级模式，可以由 RIO 选择，或在 CSDC 检测到 INS 完全失效时自动进入。在此模式下，航向是从磁航向加减上输入或存储的磁差（MAG VAR）得出的。 前述的航向，CADC 的 TAS（真空速），以及输入或存储的风速/风向都用于通用导航。 此模式中 AHRS 是俯仰和滚转数据的数据源。</p>
+<p><strong>3. AHRS/AM</strong>：一种更进一步的降级模式，可以由 RIO 选择，或在 CSDC 检测到 INS 完全失效时自动进入。在此模式下，航向是从磁航向加减上输入或存储的磁差（MAG VAR）得出的。前述的航向，CADC 的 TAS（真空速），以及输入或存储的风速/风向都用于通用导航。 此模式中 AHRS 是俯仰和滚转数据的数据源。</p>
 </div>
 </div>
 <div class="section" id="navigation-computations">
@@ -2951,7 +2950,7 @@
 <li>距离，方位，指令航线，指令航向和到所选目标的剩余时间</li>
 <li>计算出的风速和风向</li>
 <li>计算出的磁差</li>
-<li>连续监测设备状态，并在发生故障时通过注意灯灯和在 TID 上显示失效部件对应的的缩写来通知机组的能力</li>
+<li>连续监测设备状态，并在发生故障时通过提示灯和在 TID 上显示失效部件对应的的缩写来通知机组的能力</li>
 <li>部分系统失效后的备用导航模式</li>
 <li>备用本机当前位置</li>
 </ul>
@@ -2985,7 +2984,7 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
-<li>当 INS 模式下发生 IMU 量化器失效时，系统将自动选择 IMU/AM 模式，STBY/READY 注意灯和 NAV COMP 提示灯将亮起。RIO 应该将 NAV MODE 旋钮从 INS 转动至 IMU/AM 档位。 STBY/READY 注意灯将熄灭——但 NAV COMP 提示将保持亮起。</li>
+<li>当 INS 模式下发生 IMU 量化器失效时，系统将自动选择 IMU/AM 模式，STBY/READY 提示灯和 NAV COMP 提示灯将亮起。RIO 应该将 NAV MODE 旋钮从 INS 转动至 IMU/AM 档位。 STBY/READY 提示灯将熄灭——但 NAV COMP 提示灯将保持亮起。</li>
 <li>当 TID 中显示 CSI ACRO 并且 NAV COMP 提示灯亮起时，HUD 或 VDI 不会自动切换至备用姿态源，RIO 也无法手动切换到任何备用模式。</li>
 </ul>
 </td>
@@ -3003,8 +3002,8 @@
 <col width="86%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">STBY 注意灯</th>
-<th class="head">READY 注意灯</th>
+<tr class="row-odd"><th class="head">STBY 提示灯</th>
+<th class="head">READY 提示灯</th>
 <th class="head">描述</th>
 </tr>
 </thead>
@@ -3039,12 +3038,12 @@
 </tr>
 <tr class="row-odd"><td>OFF</td>
 <td>闪烁</td>
-<td>如果在系统对准时将旋钮转至 IMU/AM，则 READY 注意灯将闪烁 5 秒，指示应重新选择 INS 档位。五秒钟后对准进度将丢失。</td>
+<td>如果在系统对准时将旋钮转至 IMU/AM，则 READY 提示灯将闪烁 5 秒，指示应重新选择 INS 档位。五秒钟后对准进度将丢失。</td>
 </tr>
 </tbody>
 </table>
 <p><strong>警告：</strong>在 RIO 因系统故障选择 IMU/AM 后，若之后又发生 IMU 完全失效，系统将向飞行员显示错误的姿态信息。CSDC 既不会自动从 IMU/AM 退出切换到 AHRS/AM 模式（若 AHRS 工作正常），也不会移除 VDIG/TID/DDD 姿态显示。RIO应手动切换到 AHRS/AM 模式。</p>
-<p>每当 NAV COMP 提示灯亮起时，机组应注意姿态显示并经常交叉参考 VDIG/TID/DDD 和备用姿态仪，特别是在 非VFR 条件下，警惕 IMU 故障。如果 IMU 提示灯亮起，OBC 连续监测器中显示缩写 IMU 的话，移除 TID 姿态基准数据源缓冲器中 IM 开头的缩写，并且 NAV COMP 提示灯熄灭，RIO 应该将 NAV MODE 旋钮从 IMU/AM 转动至 ASRH/AM 并忽略 READY 注意灯。如果AHRS 可用，将显示 AHRS 姿态信息，否则 VDIG/TID/DDD 姿态显示将被移除。</p>
+<p>每当 NAV COMP 提示灯亮起时，机组应注意姿态显示并经常交叉参考 VDIG/TID/DDD 和备用姿态仪，特别是在 非VFR 条件下，警惕 IMU 故障。如果 IMU 提示灯亮起，OBC 连续监测器中显示缩写 IMU 的话，移除 TID 姿态基准数据源缓冲器中 IM 开头的缩写，并且 NAV COMP 提示灯熄灭，RIO 应该将 NAV MODE 旋钮从 IMU/AM 转动至 ASRH/AM 并忽略 READY 提示灯。如果AHRS 可用，将显示 AHRS 姿态信息，否则 VDIG/TID/DDD 姿态显示将被移除。</p>
 </div>
 <div class="section" id="ahrs-light">
 <h4>AHRS 提示灯<a class="headerlink" href="#ahrs-light" title="永久链接至标题">¶</a></h4>
@@ -3080,7 +3079,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">任何对准初始化时都需要设置停放刹车。在粗对准期间释放停放刹车时，STBY 注意灯和 READY 注意灯闪烁，对准程序将重新初始化。如果在精对准期间松开停放刹车，则暂停对准信号将发送到 CSDC，STBY 注意灯或 READY 注意灯闪烁，且 TID 上的对准倒计时停止。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">任何对准初始化时都需要设置停放刹车。在粗对准期间释放停放刹车时，STBY 提示灯和 READY 提示灯闪烁，对准程序将重新初始化。如果在精对准期间松开停放刹车，则暂停对准信号将发送到 CSDC，STBY 提示灯或 READY 提示灯闪烁，且 TID 上的对准倒计时停止。</td>
 </tr>
 </tbody>
 </table>
@@ -3098,10 +3097,10 @@
 </tr>
 </tbody>
 </table>
-<p>在初始化时，TID将显示一个 0.7 的对准经过时间。42 到 45秒后，位于注意-提示灯光面板上的 NAV COMP 提示灯将熄灭，表示 IMU 已进入就绪状态；READY 注意灯也将熄灭。对准程序将从计算对准参数开始。</p>
+<p>在初始化期间，TID 将显示一个对准经过时间——0.7。初始化开始 42 到 45秒后，位于注意-提示灯光面板上的 NAV COMP 提示灯将熄灭，表示 IMU 已进入就绪状态；READY 提示灯也将熄灭。对准程序将从计算对准参数开始。</p>
 <p>此时，一个对准状态指示符——插入符（v）将开始从左向右移动。对准状态由三个刻度上方的插入符位置指示。 第一个刻度指示称为粗对准完成标记，第二个刻度指示是武器发射最低精度标记，第三个刻度指示是精对准完成标记。计时器显示分钟为单位的对准经过时间，精度 0.1 分钟。</p>
 <p>计时器将从 0.7 开始显示，并在 42 秒钟的延迟后开始计时。在 9.9 分钟后，计时器将经过零并从零开始继续计时。如果对准暂停（释放停放刹车），计时器将停止计时，直到恢复对准。</p>
-<p>在第一个和第二个刻度之间的是状态指示器，指示了当前四个系统中某一个系统的故障：C = 校正数据失效；T = 温度警告（ IMU 温度过低 ）；S = SINS数据无效；O = 观测误差（对准数据无效，比如 LAT，LONG，SPEED 等等）。显示的字母代表其对应的系统出现了故障。</p>
+<p>在第一个和第二个刻度之间的是状态指示器，指示了当前四个系统中某一个系统的故障：C = 校正数据失效；T = 温度警告（ IMU 温度过低 ）；S = SINS 数据无效；O = 观测误差（对准数据无效，比如 LAT，LONG，SPEED 等等）。显示的字母代表其对应的系统出现了故障。</p>
 <p>如显示 C ，就代表 IMU 和 CSDC 之间的校正数据传输失败，对准无法继续进行。</p>
 <p>T 通常在对准刚开始时出现，在 IMU 达到工作温度后消失。若 T 没有消失，这意味着系统出现故障并且不会进行非预存航向对准。</p>
 <p>舰上对准开始时，无论在那种模式下，TID 上都可能会出现一个 S 标识，不久后就会消失。如果 S 没有消失，系统出现故障，将得到错误的对准结果。若输入的 SINS 数据无效，S 也会显示，在这种情况下对准结果不可靠。</p>
@@ -3117,9 +3116,9 @@
 </tr>
 </tbody>
 </table>
-<p>在粗对准过程中，对准插入符的移动是根据漂移角的误差大小来定的。如果在该阶段中释放停放刹车，那么对准将会被重置。</p>
+<p>在粗对准过程中，对准插入符的移动是根据漂移角的误差大小来定的。如果在该阶段中释放停放刹车，那么对准将会被复位。</p>
 <p>粗对准完成后，插入符 V 会移动到第一个刻度上方 。当对准程序进入精对准阶段之后，插入符号会变成菱形符号，这意味着在完成 OBC 之后飞行员可以松开停机刹车（这将暂停对准）并开始滑行。重新设置停放刹车后，菱形符号会随着对准精度提升继续向右移动。</p>
-<p>插入符抵达第二个刻度则代表对准精度达到武器使用最低精度，此时 STBY 注意灯将熄灭并且 READY 注意灯亮起。此时可以进入 INS 模式用于导航。如果没有选择 INS 模式的话，菱形符号将继续向右移动。插入符抵达第三个刻度时，表示精对准已经完成，且菱形符号中会出现一个点。</p>
+<p>插入符抵达第二个刻度则代表对准精度达到武器使用最低精度，此时 STBY 提示灯将熄灭并且 READY 提示灯亮起。此时可以进入 INS 模式用于导航。如果没有选择 INS 模式的话，菱形符号将继续向右移动。插入符抵达第三个刻度时，表示精对准已经完成，且菱形符号中会出现一个点。</p>
 <p>即使精对准完成了，你也可以让系统留在对准模式，这将提供更加精确的对准。精对准完成后，进一步增加对准精度的多少取决于初始的对准质量。某些情况下这种提升非常小，但是，如果能进一步足够长时间的对准，还是会有一定程度的改善。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -3138,13 +3137,13 @@
 </tr>
 </tbody>
 </table>
-<p>使用旋钮选择 INS 模式后 READY 注意灯将会熄灭，中止对准并显示战术信息，同时通用导航显示将可用。</p>
+<p>使用旋钮选择 INS 模式后 READY 提示灯将会熄灭，中止对准并显示战术信息，同时通用导航显示将可用。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body"><ul class="first last simple">
-<li>NAV MODE 旋钮转动到 INS 档位时，CSDC 进入导航模式，READY 注意灯也会熄灭。</li>
+<li>NAV MODE 旋钮转动到 INS 档位时，CSDC 进入导航模式，READY 提示灯也会熄灭。</li>
 <li>选择 INS 导航模式后，AWG-9 在进入 INS 前会继续对准程序大约 3 个对准数据循环（18秒）。同样适用于在起飞后选择 INS。</li>
 </ul>
 </td>
@@ -3196,7 +3195,7 @@
 </tr>
 </tbody>
 </table>
-<p>将 NAV MODE 旋钮转到 INS 档位来完成对准。STBY 和 READY 注意灯亮起，TID 中的导航系统状态显示缩写 IN，就表示 INS 对准成功。</p>
+<p>将 NAV MODE 旋钮转到 INS 档位来完成对准。STBY 和 READY 提示灯亮起，TID 中的导航系统状态显示缩写 IN，就表示 INS 对准成功。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -3224,7 +3223,7 @@
 </div>
 <div class="section" id="handset-alignment">
 <h6>手动对准<a class="headerlink" href="#handset-alignment" title="永久链接至标题">¶</a></h6>
-<p>HS 对准模式是舰上对准的手动对准选项，如果自 RF 数据链路和 线缆 的 SINS 数据不可用、不准确或中断（由 DDI 上的 TILT 注意灯 和/或精对准完成刻度标记向左移动 0.75 英寸指示）。HS 模式和 GND ALIGN 很相似，但是 RIO 需要输入比 GND ALIGN 模式更多数据，并且由于母舰的移动，计算机需要更长的时间去处理。</p>
+<p>HS 对准模式是舰上对准的手动对准选项，如果自 RF 数据链路和 线缆 的 SINS 数据不可用、不准确或中断（由 DDI 上的 TILT 报警灯和/或精对准完成刻度标记向左移动 0.75 英寸指示）。HS 模式和 GND ALIGN 很相似，但是 RIO 需要输入比 GND ALIGN 模式更多数据，并且由于母舰的移动，计算机需要更长的时间去处理。</p>
 <p>如果使用 NAV MODE 旋钮选择了 CAV ALIGN 但没有可用 SINS 数据，TID 中将会显示闪烁的缩写 HS。每次在对准开始前 TID 中缩写 HS 闪烁，RIO 选择使用手动对准来对准系统的话，她/他必须按以下顺序输入对应的母舰数据：</p>
 <ol class="arabic simple">
 <li>航母的航速</li>
@@ -3234,7 +3233,7 @@
 <li>实际高度。</li>
 </ol>
 <p>如果在粗对准期间数据链路断开（RF 或 线缆）或是预存航向对准任何阶段断开，对准将会重新初始化并且显示闪烁的缩写 HS。然后可以使用手动对准按照上述的步骤继续进行对准。</p>
-<p>如果在预存航向对准的精对准阶段重新初始化对准，那么则必须先关闭 AWG-9 6秒来重置 CSDC 对准程序。</p>
+<p>如果在预存航向对准的精对准阶段重新初始化对准，那么则必须先关闭 AWG-9 6秒来复位 CSDC 对准程序。</p>
 <p>如果在正常精对准阶段时数据链路断开，那么将会自动输入 HS，缩写 HS 也不会闪烁，并且将会自动继续对准。如果重新连上数据链路，缩写 HS 将会消失并且正常 CVA 对准（RF 或 线缆 数据链路对准）将会继续进行。重新连上数据链路后，缩写可能持续显示 8 秒。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -3274,12 +3273,12 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">应检查 STBY/READY 注意灯是否同时亮起。如果在 42 到 45 秒后同时亮起，表示故障发生导致对准将重新开始，并可能导致错误的对准结果。RIO 必须将 NAV MODE 旋钮转至 OFF 档位 1 秒，接着按照正常地面对准或舰上对准程序重新开始对准。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">应检查 STBY/READY 提示灯是否同时亮起。如果在 42 到 45 秒后同时亮起，表示故障发生导致对准将重新开始，并可能导致错误的对准结果。RIO 必须将 NAV MODE 旋钮转至 OFF 档位 1 秒，接着按照正常地面对准或舰上对准程序重新开始对准。</td>
 </tr>
 </tbody>
 </table>
-<p>参考对准可以使用机载或外部电源完成。要进行参考对准，通过 CAP 输入经纬度至本机文件中。这可通过在选择 GND ALIGN 前从基地自动转发至本机，或在选择 GND ALIGN 后输入至本机文件中。</p>
-<p>飞机的经纬度可以输入到基地文件，并通过以下步骤转发至本机文件中：</p>
+<p>参考对准可以使用机载或外部电源完成。要进行参考对准，通过 CAP 输入经纬度至本机文件中。这可通过在选择 GND ALIGN 前从基地自动传输至本机，或在选择 GND ALIGN 后输入至本机文件中。</p>
+<p>飞机的经纬度可以输入到基地文件，并通过以下步骤传输至本机文件中：</p>
 <ol class="arabic simple">
 <li>将 NAV MODE 旋钮转至 GND ALIGN。</li>
 <li>选择 CAP 类为 TAC DATA。</li>
@@ -3313,7 +3312,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">电流不稳定或暂时断电会导致取消选择 CAINS，并由闪烁的缩写 HS 指示。即使通过手动对准继续来完成精对准，也无法完成参考对准。为了成功完成参考对准，飞机在参考航向存储前必须保持静止并且不能释放/设置停放刹车。要使参考对准生效，无需将 NAV MODE 旋钮转至 INS 档位，而是直接将其从 CVA 或 GND ALIGN 转至 OFF。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">电流不稳定或暂时断电会导致取消选择 CAINS，并由闪烁的缩写 HS 指示。即使通过手动对准继续来完成精对准，也无法完成参考对准。为了成功完成参考对准，飞机在参考航向存储前必须保持静止并且不能循环释放/设置停放刹车。要使参考对准生效，无需将 NAV MODE 旋钮转至 INS 档位，而是直接将其从 CVA 或 GND ALIGN 转至 OFF。</td>
 </tr>
 </tbody>
 </table>
@@ -3348,7 +3347,7 @@
 <td>HSD, BDHI</td>
 <td>MDI, BDHI</td>
 </tr>
-<tr class="row-even"><td>正确气压高度</td>
+<tr class="row-even"><td>修正后的气压高度</td>
 <td>HUD，高度表</td>
 <td>TID</td>
 </tr>
@@ -3434,9 +3433,9 @@
 <div class="section" id="navigational-controls">
 <h4>导航控制<a class="headerlink" href="#navigational-controls" title="永久链接至标题">¶</a></h4>
 <p>使用导航控制、数据读数面板和计算机位址面板来控制 INS。详见 <a class="reference internal" href="#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制器</span></a> 、相关控制和 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</p>
-<p>所需运行模式、对准模式和目标点都可以在导航控制与数据读数面板（注：TID 屏幕的边框）进行选择。CAP 可以用来输入导航数据并将所选的信息显示在 TID 中。CAP 下方的 CATEGORY 旋钮的档位决定 MESSAGE 按钮的功能。用于导航的类为 NAV 和 TAC DATA。导航控制与数据读数面板中的 STBY/READY 注意灯指示对准程序和导航系统的状态。</p>
+<p>所需运行模式、对准模式和目标点都可以在导航控制与数据读数面板（注：TID 屏幕的边框）进行选择。CAP 可以用来输入导航数据并将所选的信息显示在 TID 中。CAP 下方的 CATEGORY 旋钮的档位决定 MESSAGE 按钮的功能。用于导航的类为 NAV 和 TAC DATA。导航控制与数据读数面板中的 STBY/READY 提示灯指示对准程序和导航系统的状态。</p>
 <p>导航系统主要部件的故障指示灯位于两个驾驶舱内的注意-提示面板上，但是 NAV COMP 和 IMU 提示灯仅在 RIO 驾驶舱中的注意-提示面板上显示。</p>
-<p>飞行员显示器控制面板或多功能显示指示器控制面板来控制飞行员的显示器（HUD, VDI 和 HSD）和 RIO 的多功能显示指示器。</p>
+<p>飞行员显示器控制面板或多功能显示指示器控制面板来控制飞行员的显示器（HUD、VDI 和 HSD）和 RIO 的多功能显示指示器。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -3506,7 +3505,7 @@
 </tbody>
 </table>
 <p>每个窗口都有其对应的按钮。按下按钮后会告知 WCS 计算机使用滚筒上的哪一个功能。如果按下 OWN A/C，WIND 或 MAG VAR 的话，那么数据可以输入或将其显示出来。</p>
-<p>TID 屏幕中显示了本机空速和磁航向。如果使用 TID 光标选中本机数据文件，显示航向将为磁航向。如果通过 CAP 选择（选中） OWN A/C 按钮，那么你可以按下相应的前缀按钮将 本机真航向，航速（地速），高度，或指针 显示在 TID 中，例如：</p>
+<p>TID 屏幕中显示了本机空速和磁航向。如果使用 TID 光标选中本机数据文件，显示航向将为磁航向。如果通过 CAP 选择（选中） OWN A/C 按钮，那么你可以按下相应的前缀按钮将 本机真航向、航速（地速）、高度或航线显示在 TID 中，例如：</p>
 <ol class="arabic simple">
 <li>按下 LAT 或 LONG 按钮将显示本机经纬度。</li>
 <li>按下 SPD 按钮显示地速和磁航线。</li>
@@ -3677,8 +3676,8 @@
 </div>
 </div>
 <div class="section" id="navigational-caution-lights">
-<h4>导航提示灯<a class="headerlink" href="#navigational-caution-lights" title="永久链接至标题">¶</a></h4>
-<p>除了上面提到的 NAV COMP、AHRS 和 IMU 提示灯外，RIO 提示/注意灯面板还包含两个与导航系统运行有关的注意灯——C&amp;D HOT 和 AWG-9 COND。这两个中任意一个亮起都可能意味着导航降级运行，并且需要对 WCS 做进一步的调查。</p>
+<h4>导航注意灯<a class="headerlink" href="#navigational-caution-lights" title="永久链接至标题">¶</a></h4>
+<p>除了上面提到的 NAV COMP、AHRS 和 IMU 提示灯外，RIO 注意/提示灯面板还包含两个与导航系统运行有关的提示灯——C&amp;D HOT 和 AWG-9 COND。这两个中任意一个亮起都可能意味着导航降级运行，并且需要对 WCS 做进一步的调查。</p>
 </div>
 </div>
 <div class="section" id="navigation-fix-update">
@@ -3690,7 +3689,7 @@
 <li>检查 TID 中存储的经纬度读数。</li>
 <li>将 <strong>CATEGORY</strong> 旋钮转至 NAV 类并选择所需的更新类型。</li>
 </ol>
-<p>请注意，更新 INS 位置可能导致引入比先前更大的位置误差，但是引入的误差对于 IMU 来说较小，特别是使用雷达更新来更新导航系统。使用目视更新或 TACAN 更新来提供更准确地更新（假设在 TACAN 更新中 MAG VAR 正确）。通过导航更新来更新你的导航系统应主要在使用 AHRS 模式时进行。</p>
+<p>请注意，特别是使用雷达更新来更新导航系统，更新 INS 位置可能导致引入比先前更大的位置误差，但是引入的误差对于 IMU 来说较小。使用目视更新或 TACAN 更新来提供更准确地更新（假设在 TACAN 更新中 MAG VAR 正确）。通过导航更新来更新你的导航系统应主要在使用 AHRS 模式时进行。</p>
 <div class="section" id="radar-update">
 <h4>雷达更新<a class="headerlink" href="#radar-update" title="永久链接至标题">¶</a></h4>
 <p>可以在 DDD CURSOR 标记完毕前或标记完后选择 RDR FIX。按下 RDR FIX 后，计算机通过测量相对所选更新点的距离与方位来计算飞机当前的位置。飞机计算机位置和 INS 决定的修正后的位置的差将显示在 TID 中。如果需要将这个差输入到导航计算中，按下 FIX ENABLE 按钮。如果差值看起来不太对，可以按下 RDR FIX 按钮来清理计算机和读数。然后可以再次尝试。RIO 还应该定时检查本机系统高度并在必要时更新高度。</p>
@@ -3780,7 +3779,7 @@
 </div>
 <div class="section" id="position-marking">
 <h4>位置标记<a class="headerlink" href="#position-marking" title="永久链接至标题">¶</a></h4>
-<p>使用 TAC DATA 类中的 SURF TGT 来标记脉冲雷达目标、目视目标或 TACAN 台 并将它们显示在 TID 中 。显示在 TID 后，经纬度、距离、方位以及转向数据可通过 CAP 或 DEST 旋钮 或两者一起来控制。</p>
+<p>使用 TAC DATA 类中的 SURF TGT 来标记脉冲雷达目标、目视目标或 TACAN 台并将它们显示在 TID 中 。显示在 TID 后，经纬度、距离、方位以及转向数据可通过 CAP 或 DEST 旋钮 或两者一起来控制。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -3814,7 +3813,7 @@
 </tr>
 </tbody>
 </table>
-<p>AHRS 的主要组件为 二自由度陀螺（俯仰和方位）、电子控制放大器、罗盘控制器、磁方位角探测器 和 电子补偿器。</p>
+<p>AHRS 的主要组件为 二自由度陀螺（俯仰和方位）、电子控制放大器、罗盘控制器、磁方位探测器和电子补偿器。</p>
 <p>IMU 失效时，CSDC 将会自动选择 AHRS 姿态信息来用于显示和自动驾驶控制。SLAVED 模式中航向陀螺用于平滑化磁流瓣航向信号，或在 DG 模式直接提供基准航向。最终航向将传输至 BDHI、CSDC 和 WCS。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -3836,37 +3835,37 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果 IMU 和 AHRS 都失效了，那么 HUD、TID 和 DDD上的姿态指示将会被移除，并且 IMU 和 AHRS 注意灯会亮起。在罗盘控制面板选择 COMP 模式，来将有效的磁航向信息恢复显示在 HUD、VDI 和 HSD 中，恢复后 AHRS 注意灯将熄灭。忽略恢复到 HUD 和 VDI 中的无效俯仰和滚转姿态信息。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果 IMU 和 AHRS 都失效了，那么 HUD、TID 和 DDD上的姿态指示将会被移除，并且 IMU 和 AHRS 提示灯会亮起。在罗盘控制面板选择 COMP 模式，来将有效的磁航向信息恢复显示在 HUD、VDI 和 HSD 中，恢复后 AHRS 提示灯将熄灭。忽略恢复到 HUD 和 VDI 中的无效俯仰和滚转姿态信息。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="ahrs-operation">
 <h4>AHRS 工作模式<a class="headerlink" href="#ahrs-operation" title="永久链接至标题">¶</a></h4>
-<p>作为罗盘，AHRS以三种模式工作：</p>
+<p>作为罗盘，AHRS 在三种模式下工作：</p>
 <ul class="simple">
 <li>航向陀螺（DG，Directional Gyro ）模式提供一个经过地球自转修正的自由陀螺仪作为基准航向。</li>
 <li>SLAVED （隶属）模式提供陀螺稳定磁航向</li>
 <li>罗盘（COMP）模式仅提供来自罗盘发射器的应急磁航向。</li>
 </ul>
 <p>如果选择了 COMP 模式，那么 AFCS 将会自动断开以防止出现不稳定的转向指令。COMP 模式不能为 AFCS 操作提供足够稳定的航向信号，只能用于紧急情况。在罗盘控制面板按住 HDG 旋钮/按钮（按下 3 分钟，释放 1 分钟 为一个循环），直到同步指示器指针归中至零位标记。</p>
-<p>如果 NAV MDOE 旋钮位于为 INS 或 IMU/AM 档位，那么在超过 AHRS 俯仰极限 82° 后姿态显示将会继续正确指示飞机姿态，但是所有磁航向显示可能会出现误差，并且注意灯可能会、也有可能不会亮起。如果遇到这种情况，那么你可以通过计算机位址面板输入正确的 MAG VAR，立刻恢复 HUD、VDI、HSD、TID 和 多功能显示指示器 正确、稳定的磁航向显示。</p>
+<p>如果 NAV MDOE 旋钮位于为 INS 或 IMU/AM 档位，那么在超过 AHRS 俯仰极限 82° 后姿态显示将会继续正确指示飞机姿态，但是所有磁航向显示可能会出现误差，并且提示灯可能会、也有可能不会亮起。如果遇到这种情况，那么你可以通过计算机位址面板输入正确的 MAG VAR，立刻恢复 HUD、VDI、HSD、TID 和 多功能显示指示器 正确、稳定的磁航向显示。</p>
 </div>
 </div>
 <div class="section" id="tacan-system-an-arn-84">
 <h3>TACAN 系统（AN/ARN-84）<a class="headerlink" href="#tacan-system-an-arn-84" title="永久链接至标题">¶</a></h3>
 <p>TACAN 系统可以指示任何所选的地面/水面塔康台并且精度为斜距 0.1 NM，方位 0.5 度。空对空（A/A）模式提供空基塔康台的斜距。如果在视线内，通信距离约为 300 NM。</p>
-<p>系统在 2 个模式中每个模式都可提供 126 个运行波道。空对地模式中的频率接收范围为 962 - 1024 MHz 和 1151 - 1213 MHz，空对空模式则为 1025 - 1150 MHz。TACAN 每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。</p>
+<p>系统在 2 个模式中每个模式都可提供 126 个运行波道。空对地模式中的频率接收范围为 962 - 1024 MHz 和 1151 - 1213 MHz，空对空模式则为 1025 - 1150 MHz。TACAN 每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。注意，在冷启动后第一次开启 TACAN 时，TACAN 最多可能2分钟进行预热。</p>
 <div class="section" id="tacan-modes">
 <h4>TACAN 模式<a class="headerlink" href="#tacan-modes" title="永久链接至标题">¶</a></h4>
 <p>系统可以在 REC 或 T/R 模式中同时与其它 99 架飞机从地面台接收有效信号。</p>
 <p>在 A/A 模式中，系统可以对五架合作飞机进行应答，向合作飞机显示斜距，但是每次只能问询和锁定一架飞机。</p>
-<p>飞行员和 RIO 在左侧控制台上的 TACAN 控制面板相同。飞行员和 RIO 左侧控制台上的 TACAN CMD 按钮用来交换 飞行员和 RIO 的 TACAN 控制权。每个驾驶舱中的触发指示器指示 TACAN 控制权，指示器显示 PLT（飞行员） 或 RIO。两名机组乘员都可以调整音量来识别信号。有关 TACAN 控制面板描述，详见 <a class="reference internal" href="cockpit.html#tacancontrol"><span class="std std-ref">TACAN 控制面板</span></a>。</p>
+<p>飞行员和 RIO 在左侧控制台上的 TACAN 控制面板相同。飞行员和 RIO 左侧控制台上的 TACAN CMD 按钮用来交换 飞行员和 RIO 的 TACAN 控制权。每个驾驶舱中的翻转指示器用来指示 TACAN 控制权，指示器显示 PLT（飞行员） 或 RIO。两名机组都可以调整识别信号的音量。有关 TACAN 控制面板描述，详见 <a class="reference internal" href="cockpit.html#tacancontrol"><span class="std std-ref">TACAN 控制面板</span></a>。</p>
 </div>
 <div class="section" id="tacan-displays">
 <h4>TACAN 显示<a class="headerlink" href="#tacan-displays" title="永久链接至标题">¶</a></h4>
 <p>TACAN 台的距离和方位显示在 BDHI、HSD 和 多功能显示指示器中。TACAN 台的偏差显示在 HUD 与 VDI（VDIG）以及 HSD、多功能显示指示器中。</p>
-<p>TACAN 方位标记、偏差指针、TACAN 台的距离以及航线显示在 MDIG 中。HUD 和 VDI 可提供 TACAN 偏差指针显示，显示出来是经过编码的，在 HUD 中：实线——TO 塔康台，虚线——FROM 塔康台，在 VDI 中：高亮线——TO 塔康台，黑线——FROM 塔康台。</p>
+<p>TACAN 方位标记、偏差指针、TACAN 台的距离以及航线显示在 MDIG 中。HUD 和 VDI 可提供 TACAN 偏差指针显示，显示出来是经过编码的，在 HUD 中：实线——TO（朝向）塔康台，虚线——FROM（离开）塔康台，在 VDI 中：高亮线——TO 塔康台，黑线——FROM 塔康台。</p>
 <p>TACAN 信息同时也显示在飞行员和 RIO 的 BDHI 中。当 TACAN 模式旋钮设置为 T/R 档位时，BDHI 的方位和距离显示将可用。在 REC 和 T/R 模式中，二号（较大的）指针用于指示磁方位，当方位信息不可靠时，指针将会解除锁定并进入搜索模式（旋转）。</p>
 <p>在 T/R 和 A/A 模式中接收到的距离信息将显示在距离计数器中，单位为海里。如果距离信息不可靠或不可用，则 OFF 旗将覆盖计数器窗口。在其它导航模式中，TACAN 信息也将显示在飞行员 HSD、HUD 和 VDI 中，以及 RIO 的多功能显示指示器中。</p>
 </div>
@@ -3908,10 +3907,10 @@
 </div>
 <div class="section" id="radar-altimeter-system-an-apn-194">
 <h3>雷达高度计系统（AN/APN-194）<a class="headerlink" href="#radar-altimeter-system-an-apn-194" title="永久链接至标题">¶</a></h3>
-<p>雷达高度计为测量飞机下方地面/水面或地形间距的低空（0到5000英尺）、脉冲、测距雷达。通过从发射天线发射到地球表面的短 RF 脉宽以及测量 RF 能量返回接收天线的时间来获取高度信息。高度以英尺 AGL 为单位连续的显示在仪表中以供飞行员查看。如果在 PDCD 中选择了 LDG 或 T.O. 模式，那么雷达高度将会显示在 HUD 中（显示范围为 0到1400英尺）。</p>
+<p>雷达高度计为测量飞机下方地面/水面或地形间距的低空（0到5000英尺）、脉冲、测距雷达。通过从发射天线发射到地球表面的短 RF 脉宽以及测量 RF 能量返回接收天线的时间来获取高度信息。高度以英尺 AGL 为单位连续的显示在仪表中以供飞行员查看。如果在 PDCP 中选择了 LDG 或 T.O. 模式，那么雷达高度将会显示在 HUD 中（显示范围为 0到1400英尺）。</p>
 <p>雷达高度计有两种运行模式。在搜索模式中，系统将连续检查距离增量，直到在高度范围内搜索到返回信号。当探测到返回信号时，系统将切换至跟踪模式并且跟踪返回的信号以便提供不间断的高度信息。</p>
-<p>如果离开跟踪模式，那么雷达高度计将会显示OFF 警示旗并且指针会隐藏在遮盖下方。高度计停止工作直到接收到返回信号，在接收到信号后高度表将重新显示离地高度。系统可靠的运行高度范围是0到5000英尺，这使得低空高度控制更精确。除非反射的信号太弱，否则系统可以在 45° 坡度以及俯仰角内正常运行。</p>
-<p>雷达高度计系统包括高度指示器（高度表）、指示器中的状态灯、低高度警告音、前舱下方的雷达收发器、位于机身蒙皮上 TCS 两侧的两根天线（发射和接收）。在下降高度过程中，如果飞机越过设定的警报高度时，会听到警告音。当飞机低于这个高度，在雷达高度表中的低高度报警灯常亮。</p>
+<p>如果离开跟踪模式，那么雷达高度计将会显示 OFF 警示旗并且指针会隐藏在遮盖下方。高度计停止工作直到接收到返回信号，在接收到信号后高度表将重新显示离地高度。系统可靠的运行高度范围是0到5000英尺，这使得位于低空时高度控制更精确。除非反射的信号太弱，否则系统可以在 45° 坡度以及俯仰角内正常运行。</p>
+<p>雷达高度计系统包括高度指示器（高度表）、指示器中的状态灯、低高度警告音、前舱下方的雷达收发器、位于机身蒙皮上 TCS 两侧的两根天线（发射和接收）。在下降高度过程中，如果飞机越过设定的警报高度时，机组将会听到警告音。当飞机低于这个高度，位于雷达高度表中的低高度报警灯将会保持亮起。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -3923,15 +3922,15 @@
 <p>雷达高度计有3分钟最短预热时间。在预热期间，应忽略故障指示和错误读数。</p>
 <div class="section" id="radar-altimeter">
 <h4>雷达高度计<a class="headerlink" href="#radar-altimeter" title="永久链接至标题">¶</a></h4>
-<p>该系统唯一的控件位于飞行员仪表板处的 <a class="reference internal" href="cockpit.html#radalt"><span class="std std-ref">雷达高度表</span></a> 。指示计在一个单匝圈上显示高于地表雷达高度。雷达高度表通过刻度盘来显示离地球表面高度，刻度范围在0-5000英尺，并且高度越低刻度划分约精细，以便在低空提供更精确的读数。高度表左下方的旋钮为集电源开关、自检开关 和 低高度限制游标控制 为一体的控制旋钮。</p>
+<p>该系统唯一的控件位于飞行员仪表板处的 <a class="reference internal" href="cockpit.html#radalt"><span class="std std-ref">雷达高度计</span></a> 。指示计在一个单匝圈上显示高于地表雷达高度。雷达高度表通过刻度盘来显示离地球表面高度，刻度范围在0-5000英尺，并且高度越低刻度划分约精细，以便在低空提供更精确的读数。高度表左下方的旋钮为集电源开关、自检开关 和 低高度限制游标控制 为一体的控制旋钮。</p>
 </div>
 <div class="section" id="altimeter-bit">
 <h4>高度计自检<a class="headerlink" href="#altimeter-bit" title="永久链接至标题">¶</a></h4>
-<p>按住控制旋钮来接通自检回路，按下后绿色自检灯将亮起，此时高度表的读数在 100 ± 10英尺，HUD 中的高度标尺应显示在100英尺左右。如果高度指针低于低高度限制游标，则会触发音频和视觉警告。只需再次释放控制旋钮即可恢复正常运行。</p>
+<p>按住控制旋钮来接通自检回路，按下后绿色自检灯将亮起，此时高度表的读数在 100 ± 10英尺，HUD 中的高度标尺应显示在100英尺左右。如果高度指针低于低高度限制游标，那么将会触发音频和视觉警告。只需再次释放控制旋钮即可恢复正常运行。</p>
 </div>
 <div class="section" id="low-altitude-audio-warning">
 <h4>低高度警告音频<a class="headerlink" href="#low-altitude-audio-warning" title="永久链接至标题">¶</a></h4>
-<p>低高度警告音为 1000 Hz 的单音，调制为每秒脉冲数为二，持续3秒的警告音。当飞机下降到低高度限制游标下时，两名机组乘员都将会听到这个单音。</p>
+<p>低高度警告音为 1000 Hz 的单音，调制为每秒脉冲数为二，持续3秒的警告音。当飞机下降到低高度限制游标下时，两名机组成员都将会听到这个单音。</p>
 </div>
 </div>
 <div class="section" id="navigation-system-integration">
@@ -3943,7 +3942,7 @@
 <p>第三种模式则是 AHRS/大气数据（AHRS/AM）模式，此模式使用 AHRS 姿态和航向信息从而代替使用 IMU，并且也是用作 INS 模式和 IMU/AM 模式都失效时的额外备用模式。</p>
 <div class="section" id="inertial-navigation-mode">
 <h5>惯性导航模式<a class="headerlink" href="#inertial-navigation-mode" title="永久链接至标题">¶</a></h5>
-<p>应在执行对准后进入 INS 模式。READY 注意灯在 GND 和 CVA 对准模式亮起，并且如果位于 CAT 对准模式，在弹射后也将保持亮起，则表示对准已完成。如果选择了 INS 模式的话，那么 STBY 和 READY 注意灯都将会熄灭。但是，如果在插入符变成菱形符号前选择了 INS 模式，那么 STBY 和 READY 注意灯将亮起并且系统将恢复到 IMU/AM 备用模式。</p>
+<p>应在执行对准后进入 INS 模式。READY 提示灯在 GND 和 CVA 对准模式亮起，并且如果位于 CAT 对准模式，在弹射后也将保持亮起，则表示对准已完成。如果选择了 INS 模式的话，那么 STBY 和 READY 提示灯都将会熄灭。但是，如果在插入符变成菱形符号前选择了 INS 模式，那么 STBY 和 READY 提示灯将亮起并且系统将恢复到 IMU/AM 备用模式。</p>
 <p>在 INS 模式中，IMU 和 CSDC 提供以下输出：</p>
 <ol class="arabic simple">
 <li>飞机经纬度</li>
@@ -3969,14 +3968,14 @@
 </div>
 <div class="section" id="imu-am-navigation-mode">
 <h5>IMU/AM 导航模式<a class="headerlink" href="#imu-am-navigation-mode" title="永久链接至标题">¶</a></h5>
-<p>如果 CSDC 中的导航计算机部分失效或是检测到 IMU 某个故障，那么将会自动进入 IMU/AM 模式。故障指示由 STBY 和 READY 注意灯亮起以及 RIO CAUTION/ADVISORY 面板中的 NAV COMP 提示灯指示。</p>
-<p>TID 和 HSD 中的缩写 IN 变换为 IM 表示已切换至 IMU/AM 模式。RIO 应使用 NAV MODE 旋钮选择 IMU/AM 模式来使 STBY 和 READY 注意灯熄灭。可以通过 NAV MODE 旋钮选择 IMU/AM 手动进入 IMU/AM 模式。</p>
+<p>如果 CSDC 中的导航计算机部分失效或是检测到 IMU 某个故障，那么将会自动进入 IMU/AM 模式。故障指示由 STBY 和 READY 提示灯亮起以及 RIO CAUTION/ADVISORY 面板中的 NAV COMP 提示灯指示。</p>
+<p>TID 和 HSD 中的缩写 IN 变换为 IM 表示已切换至 IMU/AM 模式。RIO 应使用 NAV MODE 旋钮选择 IMU/AM 模式来使 STBY 和 READY 提示灯熄灭。可以通过 NAV MODE 旋钮选择 IMU/AM 手动进入 IMU/AM 模式。</p>
 <p>如果在选择 IMU/AM 模式前旋钮转至 OFF 档位，那么计算机大约在3到5分钟内无法进入 IMU/AM 模式。在关闭后为了让 IMU 调平，这是必要的。在这3到5分钟的时间内，飞机必须在地面保持静止或水平匀速飞行。在 IMU 调平前，计算机将会使用 AHRS/AM 模式。如果 IMU 调平完毕（即，粗对准完成），那么选择 IMU/AM 模式后将会立刻进入该模式。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果 RIO 在未达到粗对准时并且无 NAV COMP 故障选择了 IMU/AM，那么 READY 注意灯将会闪烁，READY 注意灯闪烁表示如果未在5秒内返回 INS 模式的话，在没有完成新的对准前无法重新进入 INS 模式。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果 RIO 在对准进度超过粗对准时并且无 NAV COMP 故障选择了 IMU/AM，那么 READY 提示灯将会闪烁，READY 提示灯闪烁表示如果未在5秒内返回 INS 模式的话，在没有完成新的对准前无法重新进入 INS 模式。</td>
 </tr>
 </tbody>
 </table>
@@ -3991,7 +3990,7 @@
 </tbody>
 </table>
 <div class="section" id="imu-reset-procedure">
-<h6>IMU 重置流程<a class="headerlink" href="#imu-reset-procedure" title="永久链接至标题">¶</a></h6>
+<h6>IMU 复位流程<a class="headerlink" href="#imu-reset-procedure" title="永久链接至标题">¶</a></h6>
 <ol class="arabic simple">
 <li>NAV MODE 旋钮 - OFF，等待几秒。</li>
 <li>NAV MODE 旋钮 - IMU。</li>
@@ -4002,13 +4001,13 @@
 </div>
 <div class="section" id="ahrs-air-mass-mode">
 <h5>AHRS/大气数据 模式<a class="headerlink" href="#ahrs-air-mass-mode" title="永久链接至标题">¶</a></h5>
-<p>AHRS/AM 为另一种备用导航模式。它通过导航计算机数值或 RIO 手动输入数据来获取飞机最后已知位置并使用。使用 NAV MODE 旋钮切换至 AHRS/AM 档位或当 IMU 失效时自动进入 AHRS/AM。STBY 和 READY 注意灯和 IMU 注意灯亮起表示 IMU 故障。此外，TID 中的导航系统状态缩写将改变为 AH。</p>
-<p><strong>警告:</strong> 当导航系统处于 IMU/AM 模式时，即使 IMU 量化器故障和 NAV COMP 注意灯亮起，IMU 失效时系统也不会自动切换至 AHRS/AM 模式。因为 VDIG/TID/DDD 正在显示无效的 IMU 姿态，所以 RIO 应将 NAV MODE 旋钮转至 AHRS/AM 模式。</p>
+<p>AHRS/AM 为另一种备用导航模式。它通过导航计算机数值或 RIO 手动输入数据来获取飞机最后已知位置并使用。使用 NAV MODE 旋钮切换至 AHRS/AM 档位或当 IMU 失效时自动进入 AHRS/AM。STBY 和 READY 提示灯和 IMU 提示灯亮起表示 IMU 故障。此外，TID 中的导航系统状态缩写将改变为 AH。</p>
+<p><strong>警告:</strong> 当导航系统处于 IMU/AM 模式时，即使 IMU 量化器故障和 NAV COMP 提示灯亮起，IMU 失效时系统也不会自动切换至 AHRS/AM 模式。因为 VDIG/TID/DDD 正在显示无效的 IMU 姿态，所以 RIO 应将 NAV MODE 旋钮转至 AHRS/AM 模式。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">尽管当 IMU 失效时导航模式自动切换至 AHRS，STBY 和 READY 注意灯也会保持亮起直到 RIO 使用 NAV MODE 旋钮选择了 AHRS/AM 模式。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">尽管当 IMU 失效时导航模式自动切换至 AHRS，STBY 和 READY 提示灯也会保持亮起直到 RIO 使用 NAV MODE 旋钮选择了 AHRS/AM 模式。</td>
 </tr>
 </tbody>
 </table>
@@ -4028,7 +4027,7 @@
 </tr>
 </tbody>
 </table>
-<p>当平台已对准并且选择了 AHRS/AM 导航模式，SYBT 注意灯熄灭，但 READY 保持亮起，这表示可按需选择惯导模式。用于显示的功能和输出的计算与 INS 模式中一样，只是由于一些计算中使用了不同的输入，可能会出现导航性能降低。</p>
+<p>当平台已对准并且选择了 AHRS/AM 导航模式，SYBT 提示灯熄灭，但 READY 保持亮起，这表示可按需选择惯导模式。用于显示的功能和输出的计算与 INS 模式中一样，只是由于一些计算中使用了不同的输入，可能会出现导航性能降低。</p>
 </div>
 </div>
 <div class="section" id="steering">
@@ -4162,9 +4161,9 @@
 <h2>通信系统<a class="headerlink" href="#communications-systems" title="永久链接至标题">¶</a></h2>
 <div class="section" id="antennas">
 <h3>天线<a class="headerlink" href="#antennas" title="永久链接至标题">¶</a></h3>
-<p>四个 VHF/UHF/L 波段 刀状天线为 VHF/UHF 话音，UHF 数据链路，TACAN 和敌我识别系统/选择识别装置（APX-72）运行提供全方位覆盖。 TACAN 和 VHF/UHF 2 话音通信使用其中一组天线; UHF 1 话音通信，数据链路和 IFF 应答机使用另一组天线。 相关天线位置参阅总体布置图。 IFF 问询器（APX-76）天线集成在 AWG-9 WCS 天线内。</p>
-<p>每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适部分。飞机没有自动作动功能，RIO 必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT 开关选择上部或下部天线。数据链路（DIL）天线同样需要手动选择。通过 DATA LINK 控制面板上的 ANTENNA 开关来选择上部或下部天线。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统共用，并且始终使用与 ANTENNA 开关选择相反的天线。</p>
-<p>上部 V/UHF 2/TACAN 天线是座舱盖后龟甲上的第一个天线，下部天线嵌入左侧腹鳍的底部。一次只使用一个天线。 天线之间的自动切换可防止丢失 TACAN 信息。如果信号丢失或太弱而无法保持接收机信号接收，TACAN 会每隔6秒自动在两个天线之间切换以寻求更强的信号。</p>
+<p>四个 VHF/UHF/L 波段 刀状天线为 VHF/UHF 话音，UHF 数据链路，TACAN 和敌我识别系统/选择识别装置（APX-72）运行提供全方位覆盖。TACAN 和 VHF/UHF 2 话音通信使用其中一组天线; UHF 1 话音通信，数据链路和 IFF 应答机使用另一组天线。相关天线位置参阅总体布置图。IFF 问询器（APX-76）天线集成在 AWG-9 WCS 天线内。</p>
+<p>每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适的部分。飞机没有自动作动功能，RIO 必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT 开关选择上部或下部天线。数据链路（DIL）天线同样需要手动选择。数据链路所使用的上部或下部天线是通过 DATA LINK 控制面板中的 ANTENNA 开关来选择的。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统共用，并且 UHF 1 话音始终使用与 ANTENNA 开关选择相反的天线。</p>
+<p>上部 V/UHF 2/TACAN 天线是座舱盖后龟甲上的第一根天线，下部天线嵌入左侧腹鳍的底部。一次只使用一个天线。 在天线之间自动切换可防止丢失 TACAN 信息。如果信号丢失或太弱而无法保持接收机信号接收，TACAN 会每隔6秒自动在两个天线之间切换以寻求更强的信号。</p>
 <p>在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF 天线波瓣开关由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾斜; 下部天线略微向后倾斜。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -4177,18 +4176,18 @@
 </div>
 <div class="section" id="ics-intercommunications-system">
 <h3>ICS - 机内通话系统<a class="headerlink" href="#ics-intercommunications-system" title="永久链接至标题">¶</a></h3>
-<p>ICS 提供机组成员之间的正常、备用或应急通信。它还可以合并和放大从其他电子接收设备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶舱有两个放大器，在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择 ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。这可使 ICS 继续运行。</p>
+<p>ICS 提供机组成员之间的正常、备用或应急通信。ICS 还可以合并和放大从其他电子接收设备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶舱中有两个放大器，ICS 在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择 ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。选择备用和应急档位可使 ICS 继续运行。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果一个驾驶舱内的两个放大器同时失效, 则无法进行机内通话。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">如果一个驾驶舱内的两个放大器同时失效, 那么将无法进行机内通话。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">通过选择在各自 ICS 控制面板上的 EMER 档位来使用其他机组成员的放大器，你可以收听通常仅在另一驾驶舱播放的音频 (如响尾蛇音调或 ALQ-126 PRF)，但您无法控制收听音频的音量。</td>
+<tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">通过选择在各自 ICS 控制面板上的 EMER 档位来使用另一机组成员的放大器，你可以收听通常仅在另一驾驶舱播放的音频 (如响尾蛇音调或 ALQ-126 PRF)，但您无法控制收听音频的音量。</td>
 </tr>
 </tbody>
 </table>
-<p>外部机内通话器连接处位于前轮轮舱中。当飞行员 ICS 开关设置为 HOT MIC 时，地面人员可以与驾驶舱内通话。 在 DCS 中，通过激活 ICS PTT 时在无线电通信菜单中选择地勤通信菜单来实现。</p>
+<p>外部机内通话器连接处位于前轮轮舱中。当飞行员 ICS 开关设置为 HOT MIC 时，地面人员可以与驾驶舱内进行通话。 在 DCS 中，通过激活 ICS PTT 时，在无线电通信菜单中选择地勤通信菜单来实现与地勤联系。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="48%" />
@@ -4257,7 +4256,7 @@
 <td><ul class="first last simple">
 <li>RADIO OVERRIDE – 减小非关键无线电音量，以便在紧急情况下强化机内通话。</li>
 <li>HOT MIC – 无需按键的机内通话。</li>
-<li>COLD MIC – 仅当飞行员按下内侧油门握把上的ICS开关或RIO踩下左侧脚踏板上的开关时，才进行机内通话。</li>
+<li>COLD MIC – 仅当飞行员按下内侧油门握把上的 ICS 开关或 RIO 踩下左侧脚踏板上的开关时，才进行机内通话。</li>
 </ul>
 </td>
 </tr>
@@ -4265,7 +4264,7 @@
 <td>如果 ICS 控制开关选择了 COLD MIC，则可以进行机内通话。 越控 UHF 通信。</td>
 </tr>
 <tr class="row-odd"><td>RIO 的 MIC 开关（右侧脚踏板）</td>
-<td>允许使用 通信/TACAN 指令面板 上选择的 UHF 1 或 UHF 2 无线电台进行传输。注意 BOTH 在 DCS 中无功能。</td>
+<td>允许使用 通信/TACAN 指令面板 中选择的 UHF 1 或 UHF 2 无线电台进行传输。注意 BOTH 档位在 DCS 中无功能。</td>
 </tr>
 </tbody>
 </table>
@@ -4273,15 +4272,15 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">玩家在DCS中为两个 RIO 踏板绑定轴控制后，便可使用脚舵外设触发上述功能。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">玩家在 DCS 中为两个 RIO 踏板绑定轴控制后，便可使用脚舵外设触发上述功能。</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="audio-warning-signals">
 <h3>音频警告信号<a class="headerlink" href="#audio-warning-signals" title="永久链接至标题">¶</a></h3>
-<p>来自武器系统的音频警告信号可通过 ICS 播放给任何一个或两个机组成员。每个信号都有不同的音调。面板提示伴随着音频信号，机组人员仅通过警告音的音调便能理解警告含义。如果不需要的话，大多数音频信号可以被减小或关闭，从而使机组能够专注于更危急的音调。</p>
-<p>任何 ICS 运行模式都不能减小危急警告音。下表提供了机载武器系统内可用的音频警告信号词汇。为了达到正常的工作温度，系统需要大约1分钟时间预热。</p>
+<p>来自武器系统的音频警告信号可通过 ICS 播放给任何一个或两个机组成员。每个信号都有不同的音调。面板提示大多都伴随着音频信号，因此机组人员仅通过警告音的音调便能理解警告含义。如果不需要的话，大多数音频信号可以被减小或关闭，从而使机组能够专注于更危急的音调。</p>
+<p>任何 ICS 运行模式都不能减小危急警告音。下表提供了机载武器系统内可用的音频警告信号词汇表。为了达到正常的工作温度，系统需要大约1分钟时间预热。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="13%" />
@@ -4345,7 +4344,7 @@
 <td>飞行员</td>
 <td>无</td>
 <td>检测到发动机失速 &amp; 排气温度超温警告</td>
-<td>播放320 Hz单音最长10秒或直到之前的故障被排除。</td>
+<td>播放320 Hz单音最长10秒或直到10秒前将故障排除。</td>
 </tr>
 </tbody>
 </table>
@@ -4403,22 +4402,22 @@
 </tr>
 </tbody>
 </table>
-<p>V/UHF 2 ANT 开关允许选择使用上部或下部天线来尽可能减少两个无线电台或与数据链路之间的干扰。 建议选用相反的天线、频率间隔大于55 MHz 或关闭其中一个无线电台。此外，UHF 1 和 DIL运行使用上部或下部天线可以在 DATA LINK 面板选择。</p>
+<p>V/UHF 2 ANT 开关允许选择使用上部或下部天线来尽可能减少两个无线电台或与数据链路之间的干扰。建议选用相反的天线、频率间隔大于55 MHz 或关闭其中一个无线电台。此外，RIO 可以在 DATA LINK 面板中选择 UHF 1 和 DIL 运行所使用的上部或下部天线。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">天线切换在DCS中无功能。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">天线切换在 DCS 中无功能。</td>
 </tr>
 </tbody>
 </table>
-<p>TACAN CMD按钮用于在飞行员和RIO之间移交TACAN控制权。被选中时，拥有控制权的机组成员（飞行员或RIO）相应的指示灯会亮起。</p>
-<p>UHF 1 VOL 控制旋钮允许 RIO 调节头戴中ARC 159 UHF 1 无线电台的音量。KY MODE 开关只在安装了 KY-58 时有效。</p>
+<p>TACAN CMD 按钮用于在飞行员和 RIO 之间移交 TACAN 控制权。选择对 TACAN 进行控制时，拥有控制权的机组成员（飞行员或 RIO）的指示灯将会亮起。</p>
+<p>UHF 1 VOL 控制旋钮允许 RIO 调节头戴中 ARC 159 UHF 1 无线电台的音量。KY MODE 开关只在安装了 KY-58 时有效。</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Heatblur 所开发的 F-14B 仅装备 KY-28。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">Heatblur 所开发的 F-14B 版本使用 KY-28。</td>
 </tr>
 </tbody>
 </table>
@@ -4441,9 +4440,9 @@
 <td><div class="first last line-block">
 <div class="line">选择用于通信的 VHF/UHF 无线电台。</div>
 <div class="line"><br /></div>
-<div class="line">UHF 1 - 选择ARC-159 UHF 1 无线电台。</div>
+<div class="line">UHF 1 - 选择 ARC-159 UHF 1 无线电台。</div>
 <div class="line"><br /></div>
-<div class="line">V/UHF 2 - 选择ARC-182 VHF/UHF 无线电台.</div>
+<div class="line">V/UHF 2 - 选择 ARC-182 VHF/UHF 无线电台.</div>
 <div class="line"><br /></div>
 <div class="line">Both - 同时选择两台无线电。（在DCS中无功能）</div>
 </div>
@@ -4488,8 +4487,8 @@
 </div>
 <div class="section" id="an-arc-159-uhf-1-radio">
 <h3>AN/ARC-159（UHF 1）无线电台<a class="headerlink" href="#an-arc-159-uhf-1-radio" title="永久链接至标题">¶</a></h3>
-<p>UHF 1（ARC-159）无线电提供空空和空面话音通信。无线电频率范围从 225.000 - 399.975 Mhz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）上进行 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率为10瓦。无线电的所有控制操作都在无线电台前面板上。无线电台位于飞行员左侧控制台上。</p>
-<p>注意：在模拟的F-14版本中 UHF 1 (ARC-159) 的 ADF 档位无功能；使用 V/UHF 2 ARC-182 的 DF 模式。</p>
+<p>UHF 1（ARC-159）无线电台提供空空和空面话音通信。UHF 1 无线电台的频率为 225.000 - 399.975 MHz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）上以 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率为10瓦。所有用于无线电台操作的控制开关/旋钮位于无线电台前方的面板中。无线电台位于飞行员驾驶舱中左侧控制台上。</p>
+<p>注意：在模拟的 F-14 版本中 UHF 1 (ARC-159) 的 ADF 档位无功能；使用 V/UHF 2 ARC-182 的 DF 模式。</p>
 <img alt="_images/arc-1591.png" src="_images/arc-1591.png" />
 <table border="1" class="longtable docutils">
 <colgroup>
@@ -4515,7 +4514,7 @@
 <td>开启或关闭无线电静噪（未收到载波时消除杂音）</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>频率拨动开关（弹簧复位）</li>
+<li>频率拨动开关（弹簧归中）</li>
 </ol>
 </td>
 <td>当模式选择旋钮设置为 MANUAL 时使用四个频率拨动开关来调谐收发器。左边的开关控制百位和十位数，从左往右第二位控制个位，右侧开关分别控制百分之一和千分之一。开关向前拨动频率增加，向后拨动则会减少。</td>
@@ -4578,9 +4577,9 @@
 <td><div class="first last line-block">
 <div class="line">GUARD – 接通主无线电收发器，并转到救生频率243.0 MHz进行传输和接收.。在这个档位，预设与手动选择频率将不可用。</div>
 <div class="line"><br /></div>
-<div class="line">MANUAL – 频率拨动开关用来将主收发器调谐至频率范围内的任一频率（7000个可用）。所选的频率将显示在显示窗中。在这个档位，PRESET选择为不可用。</div>
+<div class="line">MANUAL – 频率拨动开关用来将主收发器调谐至频率范围内的任一频率（7000个可用）。所选的频率将显示在显示窗中。在这个档位，PRESET 选择不可用。</div>
 <div class="line"><br /></div>
-<div class="line">PRESET – 使用预设波道拨轮将收发器调谐至20个预设波道中的任一波道。显示窗将会显示已选的波道。</div>
+<div class="line">PRESET – 使用 CHAN SEL 旋钮将收发器调谐至20个预设波道中的任一波道。显示窗将会显示已选的波道。</div>
 </div>
 </td>
 </tr>
@@ -4588,7 +4587,7 @@
 <li>TONE 按钮</li>
 </ol>
 </td>
-<td>按住按钮会在当前无线电频率或波道上发送一个单音（频率为1,020赫兹）</td>
+<td>按住按钮将会在当前无线电频率或波道上发送一个单音（频率为 1020 Hz）。</td>
 </tr>
 </tbody>
 </table>
@@ -4596,7 +4595,7 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">UHF 通信会干扰 D/L 可能导致 TILT 报警灯亮起、自动驾驶中 ACL 或 VEC/PCD 模式断开。数据链路对 UHF 的干扰可能导致在 D/L 回复信息时听见啁啾。注意：尽管DCS中未实现切换天线，但仍然建议使用频率的间隔大于55MHz，必要时关闭 UHF 1或 V/UHF 2无线电台中的一个，以免互相干扰。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">UHF 通信会干扰 D/L，这可能导致 TILT 报警灯亮起、自动驾驶中 ACL 或 VEC/PCD 模式断开。数据链路对 UHF 的干扰可能导致在 D/L 回复信息时听见啁啾。注意：尽管DCS中未实现切换天线，但仍然建议使用频率的间隔大于55MHz，必要时关闭 UHF 1或 V/UHF 2无线电台中的一个，以免互相干扰。</td>
 </tr>
 <tr class="field-even field"><th class="field-name">注意2:</th><td class="field-body">UHF 1和 V/UHF 2 无线电台在同频率下工作传输时可能导致出现干扰哨声。有此反馈是正常情况，这是由于两个无线电台过于接近且工作在同一频率，RF 互相干扰引起的。</td>
 </tr>
@@ -4605,7 +4604,7 @@
 </div>
 <div class="section" id="an-arc-182-v-uhf-2-radio">
 <h3>AN/ARC-182 (V/UHF 2) 无线电台<a class="headerlink" href="#an-arc-182-v-uhf-2-radio" title="永久链接至标题">¶</a></h3>
-<p>ARC-182 无线电台提供多模式，多波道，空空/空面话音及单音通信。ARC-182 控制面板位于 RIO 左侧控制台上。无线电频率有四个频段，分别为 30 至 88 ，108 至 156 ，156 至 174 ，以及 225 至 399.975MHz 内 11960 个波道中的任一波道（使用 25 KHz开关调整）</p>
+<p>ARC-182 无线电台提供多模式，多波道，空空/空面话音及单音通信。ARC-182 控制面板位于 RIO 左侧控制台上。无线电频率有四个频段，分别为 30 至 88 ，108 至 156 ，156 至 174 ，以及 225 至 399.975MHz 内 11960 个波道中的任一波道（使用 25 KHz 开关调整）</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -4614,7 +4613,7 @@
 </tr>
 </tbody>
 </table>
-<p>无线电台可以使用 AM 或 FM 进行收发。除了 225 至 399.975 频段（拨动开关）外，无线电台将自动选择调制方式。无线电台中有30个预设波道可用。每个频段的救生频率可随其它已选的频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。ARC-182 使用保密话音设备运行（KY-28，KY-58 在DCS中尚未实现）。上部与下部天线在200海里内可提供可靠的视线内通信（根据高度与的大气条件而定）。飞行员仪表板上的远程显示器显示了选择频率或波道。</p>
+<p>无线电台可以使用 AM 或 FM 模式进行收发。除了 225 至 399.975 频段（拨动开关）外，无线电台将自动选择调制方式。无线电台中有30个预设波道可用。每个频段的救生频率可随其它已选的频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自动测向（ADF）。ARC-182 使用保密话音设备运行（KY-28，KY-58 在 DCS 中尚未实装）。上部与下部天线可在200海里内提供可靠的视线内通信（根据高度与的大气条件而定）。飞行员仪表板上的远程显示器显示了选择的频率或波道。</p>
 <img alt="_images/arc-1821.png" src="_images/arc-1821.png" />
 <table border="1" class="longtable docutils">
 <colgroup>
@@ -4640,7 +4639,7 @@
 <td>开启或关闭无线电静噪（未收到载波时消除杂音）</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
-<li>频率拨动开关（弹簧复位）</li>
+<li>频率拨动开关（弹簧归中）</li>
 </ol>
 </td>
 <td>当模式选择旋钮设置为 MANUAL 时使用四个频率拨动开关来调谐收发器。左边的开关控制百位和十位数，从左往右第二位控制个位，右侧开关分别控制百分之一和千分之一。开关向前拨动频率增加，向后拨动则会减少。</td>
@@ -4694,7 +4693,7 @@
 <td><div class="first last line-block">
 <div class="line">243 – 打开收发器（越级控制运行模式旋钮）并使主收发器和应急接收机调谐至 243.000 MHz（UHF 救生频率）。除了 VOL SQL 和 BAT 功能外其它功能禁用。</div>
 <div class="line"><br /></div>
-<div class="line">MAN（人工） – 允许通过使用频率调谐开关人工选择一个频率。频率变更期间禁用收发器。</div>
+<div class="line">MAN – 允许通过使用频率调谐开关手动选择一个频率。频率变更期间禁用收发器。</div>
 <div class="line"><br /></div>
 <div class="line">G – 将收发器调谐至无线电最后使用频段的救生频率。</div>
 <div class="line"><br /></div>
@@ -4702,7 +4701,7 @@
 <div class="line"><br /></div>
 <div class="line">READ – 显示已选预设波道的频率。</div>
 <div class="line"><br /></div>
-<div class="line">LOAD - 将显示窗的频率保存至当前预设波道。</div>
+<div class="line">LOAD - 将显示窗中的频率保存至当前预设波道。</div>
 </div>
 </td>
 </tr>
@@ -4730,7 +4729,7 @@
 </div>
 <div class="section" id="an-arc-182-bit-built-in-test">
 <h3>AN/ARC-182 BIT（机内自检）<a class="headerlink" href="#an-arc-182-bit-built-in-test" title="永久链接至标题">¶</a></h3>
-<p>自检隔离了AN/ARC-182 的故障。如果 FREQ/(CHAN) 显示窗空白，或显示错误读数，则需要开始机内自检。</p>
+<p>自检隔离了AN/ARC-182 的故障。如果 FREQ/(CHAN) 显示窗空白，或显示错误读数，那么需要开始机内自检。</p>
 <p>按以下步骤进行：</p>
 <ol class="arabic simple">
 <li>MODE 选择旋钮 - 测试。</li>
@@ -4806,7 +4805,7 @@
 </div>
 <div class="section" id="an-arc-159-and-an-arc-182-remote-displays">
 <h3>AN/ARC-159 和 AN/ARC-182 远程显示器<a class="headerlink" href="#an-arc-159-and-an-arc-182-remote-displays" title="永久链接至标题">¶</a></h3>
-<p>飞行员和 RIO 都拥有显示当前无线电频率或波道的的远程显示器。飞行员的显示器能够显示 UHF 1 及 V/UHF 2，而 RIO 的则只能显示 UHF 1。</p>
+<p>飞行员和 RIO 都拥有显示当前无线电频率或波道的的远程显示器。飞行员驾驶舱中的包含 UHF 1 及 V/UHF 2 的远程显示器，而 RIO 驾驶舱中只有 UHF 1 远程显示器。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="48%" />
@@ -4838,7 +4837,7 @@
 <td><div class="first last line-block">
 <div class="line">用于显示 UHF 1 无线电的频率或所选波道。</div>
 <div class="line"><br /></div>
-<div class="line">TEST - 启动显示器的测试，若无故障则显示888.888。</div>
+<div class="line">TEST - 启动显示器的测试，若无故障那么将显示888.888。</div>
 <div class="line"><br /></div>
 <div class="line">BRT - 控制显示亮度。</div>
 </div>
@@ -4851,7 +4850,7 @@
 <td><div class="first last line-block">
 <div class="line">用于显示 V/UHF 2 无线电的频率或所选波道。</div>
 <div class="line"><br /></div>
-<div class="line">TEST - 启动显示器的测试，若无故障则显示888.888。</div>
+<div class="line">TEST - 启动显示器的测试，若无故障那么将显示888.888。</div>
 <div class="line"><br /></div>
 <div class="line">BRT - 控制显示亮度。</div>
 </div>
@@ -4864,7 +4863,7 @@
 <td><div class="first last line-block">
 <div class="line">用于显示 UHF 1 无线电的频率或所选波道。</div>
 <div class="line"><br /></div>
-<div class="line">TEST - 启动显示器的测试，若无故障则显示888.888。</div>
+<div class="line">TEST - 启动显示器的测试，若无故障那么将显示888.888。</div>
 <div class="line"><br /></div>
 <div class="line">BRT - 控制显示亮度。</div>
 </div>
@@ -4875,12 +4874,12 @@
 </div>
 <div class="section" id="an-ara-50-uhf-automatic-direction-finder">
 <h3>AN/ARA-50 UHF 自动测向仪<a class="headerlink" href="#an-ara-50-uhf-automatic-direction-finder" title="永久链接至标题">¶</a></h3>
-<p>UHF 自动测向仪被用于与 ARC-182 无线电台一起工作。ADF 能提供与地面信标或其他飞机的相对方位。它可以在30个预设波道中的任意一个或者是在 108 到 399.975 MHz 范围内的任何手动设定频率上接收信号。该系统有视线内通信范围，随高度而变化。</p>
-<p>该系统有五分钟的预热时间，在预热期间应忽略故障指示。系统使用 AS-909/ARA-48 ADF 天线。飞机与信标的相对方位将在 飞行员/RIO BDHI（一号指针），飞行员 HSD，以及 RIO 多功能显示指示器上显示。在 UHF 话音传输时，ADF 信号将中断。</p>
+<p>UHF 自动测向仪被用于与 ARC-182 无线电台一起工作。ADF 提供地面信标或其他飞机的相对方位。ADF 可以在30个预设波道中的任意一个或者是在 108 到 399.975 MHz 范围内的任何手动设定频率上接收信号。系统有视线内通信范围，随高度而变化。</p>
+<p>ADF 系统有五分钟的预热时间，在预热期间应忽略故障指示。系统使用 AS-909/ARA-48 ADF 天线。信标的方位将在 飞行员/RIO BDHI（一号指针）、飞行员 HSD 以及 RIO 多功能显示指示器中显示。在 UHF 话音传输时，ADF 信号将会中断。</p>
 </div>
 <div class="section" id="tsec-ky-28-voice-security-equipment">
 <h3>TSEC/KY-28 保密话音设备<a class="headerlink" href="#tsec-ky-28-voice-security-equipment" title="永久链接至标题">¶</a></h3>
-<p>该保密话音设备已集成进 VHF/UHF 2 和 UHF 1 通信系统中并与两个无线电台协同运行以在敌对环境中提供保密话音通信。驾驶舱中唯一一个控制 KY-28 的密文或明文模式的是位于 RIO 左侧控制台的 KY-28 控制面板。</p>
+<p>保密话音设备已集成进 VHF/UHF 2 和 UHF 1 通信系统中并与两个无线电台协同运行以在敌对环境中提供保密话音通信。驾驶舱中唯一一个控制 KY-28 的密文或明文模式的是位于 RIO 左侧控制台的 KY-28 控制面板。</p>
 <p>KY-28 有两种基本的工作模式：明文（P）或密文（C）。在正常的 UHF 通信下使用明文模式。当需要保密话音时则使用密文模式。无线电台必须位于 ON 以实现加密操作。接收机也应配备正确的设备来接收特定密文模式的传输。</p>
 <img alt="_images/ky-281.png" src="_images/ky-281.png" />
 <table border="1" class="docutils">
@@ -4945,7 +4944,7 @@
 <li>无线电台选择开关 - RAD-1 或 RAD-2。</li>
 <li>若需对设备进行地面测试，请与另一台合适的无线电台建立双向明文无线电通信并请求通信检查。在 DCS 中这需要与另一名玩家配合。</li>
 <li>在两分钟预热之后，选择密文后通过头戴收听一段稳定、连续的单音，随后是两个间断的单音。</li>
-<li>选择适当的通信频率进行传输，按下PTT大约2秒后然后松开。间断的单音将会停止，且之后将不会播放声音。</li>
+<li>选择适当的通信频率进行传输，按下 PTT 大约2秒后然后松开。间断的单音将会停止，且之后将不会播放声音。</li>
 <li>再次按下 PTT 并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设备已准备好进行保密话音传输。</li>
 <li>听见嘟的单音后，与地面电台建立双向 UHF 保密话音无线电通信来检查可读性和信号强度。</li>
 <li>根据战术情况自行设定电源模式及无线电选择旋钮。</li>
@@ -4954,8 +4953,8 @@
 </div>
 <div class="section" id="postlaunch">
 <h4>起飞后<a class="headerlink" href="#postlaunch" title="永久链接至标题">¶</a></h4>
-<p>保密话音设备应按照简报所要求操作。</p>
-<p>注：若在飞行中按下了 ZEROIZE 开关，则无法进行密文通信。密匙只能在降落后通过地勤通信菜单进行重置或更改。</p>
+<p>保密话音设备应按照简报进行操作。</p>
+<p>注：若在飞行中按下了 ZEROIZE 开关，则无法进行密文通信。密匙只能在降落后通过地勤通信菜单进行复位或变更。</p>
 </div>
 <div class="section" id="after-landing">
 <h4>降落后<a class="headerlink" href="#after-landing" title="永久链接至标题">¶</a></h4>
@@ -4968,32 +4967,32 @@
 </div>
 <div class="section" id="link-4a-c-data-link">
 <h3>Link 4A &amp; C 数据链路<a class="headerlink" href="#link-4a-c-data-link" title="永久链接至标题">¶</a></h3>
-<p>F-14 雄猫配备了 Link 4 数据链路系统，可以用于传输和接收目标跟踪，航点信息和转向命令。 Link 4 有两个版本，第一个是 Link 4A，它允许水面舰艇或 AWACS 控制飞机，还有 Link 4C，它是 F-14 所独有的战机间数据链路。</p>
+<p>F-14 雄猫配备了 Link 4 数据链路系统，可以用于传输和接收目标跟踪、航路点信息和转向命令。 Link 4 有两个版本，第一个是 Link 4A，它允许水面舰艇或 AWACS 控制飞机，还有 Link 4C，它是 F-14 所独有的战机间数据链路。</p>
 <p>Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路网络。 然后，数据源（或者说，数据源的操作员）将为 F-14 提供目标跟踪，航路点和控制命令。 此外，它还用于自动助降系统（ACLS）。</p>
 <p>另一方面，Link 4C 最大允许4架 F-14 雄猫战机建立数据链路并共享目标跟踪来协同作战。</p>
 <p>因为 Link 4A 与 Link 4C 使用同一个收发器，所以系统不允许同时使用 4A 与 4C。Link 4C 系统使用 UHF 频段工作，传输速率为5000bit/s。</p>
-<p>Link 4数据链路系统由数据链路控制面板、数据链路应答和天线控制面板控制。接收到的控制信号将在飞行员VDI（<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>）以及RIO DDI面板（<a class="reference internal" href="cockpit.html#ddi"><span class="std std-ref">数字数据显示面板（DDI）</span></a>）上显示。</p>
+<p>Link 4 数据链路系统通过数据链路控制面板、数据链路应答和天线控制面板进行控制。接收到的控制信号将在飞行员VDI（<a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a>）以及RIO DDI面板（<a class="reference internal" href="cockpit.html#ddi"><span class="std std-ref">数字数据显示面板（DDI）</span></a>）上显示。</p>
 <div class="section" id="link-4-controls">
 <h4>Link 4 控制<a class="headerlink" href="#link-4-controls" title="永久链接至标题">¶</a></h4>
 <img alt="_images/datalink1.png" src="_images/datalink1.png" />
 <p>数据链路控制面板上包括了主 Link 4 系统的电源开关以及频率选择拨轮。</p>
-<p>第一个开关（<strong>1</strong>）控制Link 4的机内自检，并同时激活Link 4的抗干扰功能（<strong>A-J</strong>），此模式在DCS中无功能，故该开关应被置于 <strong>NORMAL</strong> 位。</p>
+<p>第一个开关（<strong>1</strong>）控制 Link 4 的机内自检，并同时激活 Link 4 的抗干扰功能（<strong>A-J</strong>），此模式在 DCS 中无功能，故该开关应被置于 <strong>NORMAL</strong> 位。</p>
 <p>频率拨轮（<strong>2</strong>）用来设定所使用的数据链路频率，需要注意的是，第一个拨轮前的第一位数字（3）已被设置并无法更改，故系统所允许的频率范围为 300MHz 至 324.9MHz。</p>
-<p>第三个开关（<strong>3</strong>）控制 Link 4 的电源以及工作模式。<strong>ON</strong> 将通电并启动 Link 4A 数据链路，<strong>OFF</strong> 将关闭系统电源，而 <strong>AUX</strong> 将启动 Link 4C 数据链路。</p>
+<p>第三个开关（<strong>3</strong>）控制 Link 4 的电源以及工作模式。<strong>ON</strong> 将通电并启动 Link 4A 数据链路，<strong>OFF</strong> 将关闭系统电源，而 <strong>AUX</strong> 将启用 Link 4C 数据链路。</p>
 <img alt="_images/datalinkantenna1.png" src="_images/datalinkantenna1.png" />
-<p>数据链路应答和天线控制面板用于选择使用什么天线，本机数据链路地址，是否传输以及Link 4A的使用模式。</p>
-<p><strong>ANTENNA</strong> 开关（<strong>1</strong>）控制数据链路使用上部或下部天线。由于和UHF 1（AN/ARC-159）所使用的天线相同，因此会自动让UHF 1使用另一根天线。</p>
+<p>数据链路应答和天线控制面板用于选择使用什么天线，本机数据链路地址，是否进行传输以及 Link 4A 使用的模式。</p>
+<p><strong>ANTENNA</strong> 开关（<strong>1</strong>）控制数据链路使用上部或下部天线。由于和 UHF 1（AN/ARC-159）所使用的天线相同，因此会自动设置 UHF 1 使用另一根天线。</p>
 <p><strong>REPLY</strong> 开关（<strong>2</strong>）设置本机是否应答数据链路信息。<strong>NORM</strong> 为正常工作，而 <strong>CANC</strong> 将关闭发射器并将数据链路设置为仅接收。</p>
-<p><strong>MODE</strong> 开关（ <strong>3</strong> ）控制 Link 4A 是以正常的 <strong>TAC</strong> （战术）模式运行还是以 <strong>CAINS / WAYPT</strong> （Carrier Aircraft Inertial Navigation System / Waypoint，舰载机惯性导航系统/航路点）模式运行。TAC 模式是正常的空中运行模式，而 CAINS/WAYPT 模式用于在母舰上时从航母的 INS 系统中接收飞行计划与 INS 对准信息。这个开关由电磁铁固定以及弹簧复位至 TAC 档位，如果数据链路接收信号丢失或系统失电，开关将自动返回 TAC 模式，强制将正在对准的 INS 进程切换至备用手动模式。若飞机起飞时开关仍处于 CAINS/WAYPT 档位，机轮承重传感器也会释放开关使其回跳至 TAC 位。</p>
+<p><strong>MODE</strong> 开关（ <strong>3</strong> ）控制 Link 4A 是以正常的 <strong>TAC</strong> （战术）模式运行还是以 <strong>CAINS / WAYPT</strong> （Carrier Aircraft Inertial Navigation System / Waypoint，舰载机惯性导航系统/航路点）模式运行。TAC 模式是正常的空中运行模式，而 CAINS/WAYPT 模式用于在母舰上时从航母的 INS 系统中接收飞行计划与 INS 对准信息。这个开关由螺线管固定以及弹簧归中至 TAC 档位，如果数据链路接收信号丢失或系统失电，开关将自动返回 TAC 模式，强制将正在对准的 INS 进程切换至备用手动模式。若飞机起飞时开关仍处于 CAINS/WAYPT 档位，机轮负重传感器也会释放开关使其回跳至 TAC 位。</p>
 <p>两个地址拨轮用于设置本机使用的数据链路地址的最低有效位（最低的两位数字），而其余部分必须由地勤人员设置。</p>
 </div>
 <div class="section" id="link-4-in-dcs">
 <h4>DCS 中的 Link 4<a class="headerlink" href="#link-4-in-dcs" title="永久链接至标题">¶</a></h4>
 <p>Heatblur DCS F-14 的 Link 4 模拟了 Link 4A 及 Link 4C 。</p>
-<p>若要使用 Link 4A，必须打开数据链路电源并设置为 Link 4A 模式（ON），且调谐至所需数据主机的正确数据链路频率，该频率可以在膝板上查看。若是在地面并设置为 CAINS/WAYPT 模式，数据链路将会接收ME中编辑好的航路点，如果在航母上则同时进行预存航向对准。使用 CAINS/WAYPT 不需要设置频率，因为地勤人员在真机设备上使用跳线设置该频率。</p>
+<p>若要使用 Link 4A，必须打开数据链路电源并设置为 Link 4A 模式（ON），且调谐至所需数据主机的正确数据链路频率，该频率可以在膝板上查看。若是处在地面并设置为 CAINS/WAYPT 模式，数据链路将会接收 ME 中编辑好的航路点，如果在航母上则同时进行预存航向对准。使用 CAINS/WAYPT 不需要设置频率，因为地勤人员在真机设备上使用跳线设置该频率。</p>
 <p>当设置为 TAC 模式时，数据链路将接收由操作员发送的最高优先级的8个跟踪目标。Link 4A 还支持通过将航母设置为数据链路主机实现自动助降的功能。</p>
-<p>若要使用 Link 4C，数据链路模式应设置为 Link 4C（即AUX），参与组建数据链路的飞机应使用相同的频率。一个小队最多编入四架战机，四架战机应该设置不同的地址。由于地勤自动将小队的最高有效位设置为相同，因此数据链路只能在小队内使用。</p>
-<p>在 Link 4C 中，数据链路中的飞机最多共享4个跟踪目标以及本机位置，可由 RIO 使用 CAP 选择。 CAP 还允许 RIO 将本机 INS 位置更新到链路上的另一架飞机以同步目标跟踪的传输。</p>
+<p>若要使用 Link 4C，数据链路模式应设置为 Link 4C（即 AUX），参与组建数据链路的飞机应使用调谐至相同的频率。一个小队最多编入四架战机，四架战机应该设置不同的地址。由于地勤将会自动将小队的前两位最高有效位设置为相同，因此 Link 4C 数据链路只能在小队内使用。</p>
+<p>在 Link 4C 中，参与组建数据链路的飞机最多可共享4个跟踪目标以及本机位置，共享目标由 RIO 通过 CAP 来进行选择。CAP 同时还允许 RIO 将本机 INS 位置更新到链路上的另一架飞机以同步目标跟踪的传输。</p>
 </div>
 </div>
 </div>

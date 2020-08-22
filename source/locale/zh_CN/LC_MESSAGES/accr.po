@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2020-07-09 23:17+0800\n"
+"PO-Revision-Date: 2020-08-10 18:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4\n"
 
 #: ../../source/accr.rst:2
 msgid "Acronyms and Abbreviations"
@@ -1519,7 +1519,7 @@ msgstr ""
 
 #: ../../source/accr.rst:322
 msgid "__Magnetic Azimuth Detector"
-msgstr "磁方位角探测器"
+msgstr "磁方位探测器"
 
 #: ../../source/accr.rst:324
 msgid "MAG VAR"
@@ -1582,7 +1582,7 @@ msgstr ""
 # NATOPS Figure 2-16. Engine Fuel System
 #: ../../source/accr.rst:332
 msgid "__Main Engine Control"
-msgstr "发动机主控"
+msgstr "主发动机控制"
 
 #: ../../source/accr.rst:334
 msgid "MIL"
@@ -1655,7 +1655,7 @@ msgstr ""
 
 #: ../../source/accr.rst:344
 msgid "__Multiple Mode Gun Sight"
-msgstr "多模式瞄准具"
+msgstr "多模式瞄准星"
 
 #: ../../source/accr.rst:346
 msgid "MRL"
