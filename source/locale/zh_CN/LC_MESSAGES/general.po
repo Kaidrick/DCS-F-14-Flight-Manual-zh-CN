@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-08-19 17:43+0800\n"
+"PO-Revision-Date: 2020-08-26 18:11+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3802,7 +3802,7 @@ msgid ""
 "releases the switch and it reverts to boost."
 msgstr ""
 "如需选择自动油门模式，必须将油门置于处于75%到90% RPM 之间、起落架手柄位于放下"
-"档位以及机轮不负重。如果再不满足前述条件，那么可以用力移动油门来手动越控或按"
+"档位以及机轮不负重。如果再不满足前述条件，那么可以用力移动油门来手动超控或按"
 "下左油门握把中的 CAGE/SEAM 按钮，按下后螺线管将释放开关并恢复至助力模式。"
 
 # 自动油门系统是闭路系统统称，没问题。
@@ -3938,7 +3938,7 @@ msgid ""
 msgstr ""
 "外部环境控制面板上的 **ENG/PROBE ANTI-ICE** （**2**）开关除了启用各个皮托管加"
 "热外，同时还启用发动机除冰以及进气道斜板除冰。开关拨至 **ORIDE** 将启用系统，"
-"开关拨动至 **AUTO** 档位时，如果检测到结冰，系统将被启用，开关拨至 **OFF** 档"
+"开关拨动至 **AUTO** 档位时，如果探测到结冰，系统将被启用，开关拨至 **OFF** 档"
 "位将禁用系统。"
 
 #: ../../source/general.rst:91
@@ -4017,11 +4017,12 @@ msgid ""
 "warnings lights are:"
 msgstr "注意 - 提示灯面板中，发动机相关的注意灯和报警灯分别为："
 
+# ref - Indicates ice accumulated on ice detector with ENG/PROBE ANTI−ICE switch in AUTO or ORIDE selected.
 #: ../../source/general.rst:117
 msgid ""
 "**INLET ICE** - Caution light indicating ice detection on the detector in "
 "the left engine inlet."
-msgstr "**INLET ICE** - 注意灯亮起表示探测到左发动机进气道结冰。"
+msgstr "**INLET ICE** - 注意灯亮起表示结冰信号器探测到结冰。"
 
 #: ../../source/general.rst:118
 msgid ""
@@ -4104,9 +4105,9 @@ msgid ""
 "Wing Tank, 7 - Vent Tank, 8 - Fuel Dump Mast, 9 - Aft Fuselage Tank, 10 - "
 "Right Box Beam Tank, 11 - Right Wing Tank, 12 - Right External Drop Tank."
 msgstr ""
-"1 - 受油管（空中加油），2 - 地面加油口（右侧），3 - 前机身油箱，4 - 左副油"
-"箱，5 - 左盒形梁油箱，6 - 左翼油箱，7 - 通气油箱，8 - 放油装置，9 - 后机身油"
-"箱，10 - 右盒形梁油箱，11 - 右机翼油箱，12 - 右副油箱。"
+"1 - 受油管，2 - 地面受油口（右侧），3 - 前机身油箱，4 - 左副油箱，5 - 左盒形"
+"梁油箱，6 - 左翼油箱，7 - 通气油箱，8 - 放油装置，9 - 后机身油箱，10 - 右盒形"
+"梁油箱，11 - 右机翼油箱，12 - 右副油箱。"
 
 #: ../../source/general.rst:138
 msgid ""
@@ -4302,7 +4303,7 @@ msgstr ""
 "油传输都将被启用，绕过起落架收上检测从而允许当飞机处于地面或在输油系统中发生"
 "电气故障时启用机翼/副油箱燃油传输。此外，开关位于 **OFF** 将禁用机翼/副油箱传"
 "输，但是当在 MTS（主测试）面板中选择 INST 档位进行测试、受油管设置为 ALL "
-"EXTD 或放油时，开关将被自动越控至 AUTO 档位。"
+"EXTD 或放油时，开关将被自动超控至 AUTO 档位。"
 
 #: ../../source/general.rst:195
 msgid ""
@@ -4325,14 +4326,15 @@ msgstr ""
 "尽管从技术上来说，放油过程中是可以开启加力燃烧室的，但是这样有可能会点燃放出"
 "的燃油，因此禁止在放油时进行加力燃烧。"
 
+# 空中受油系统	aerial refuelling system
 #: ../../source/general.rst:202
 msgid "In-Flight Refueling"
-msgstr "空中加油"
+msgstr "空中受油"
 
 #: ../../source/general.rst:204
 msgid ""
 "The above panel also contains the control for the in-flight refueling system."
-msgstr "上文所讲的燃油管理面板还可以对空中加油系统进行控制。"
+msgstr "上文所讲的燃油管理面板还可以对空中受油系统进行控制。"
 
 #: ../../source/general.rst:206
 msgid ""
@@ -4346,10 +4348,10 @@ msgid ""
 "system operation."
 msgstr ""
 "**REFUEL PROBE** （**6**）开关用于控制受油管伸出以及设置燃油系统来进行接收。"
-"两个伸出档位（**EXTD**）分别为 **ALL** 档位——启用对所有油箱进行加油，包括机翼"
-"油箱和副油箱， **FUS** 档位——启用对机身油箱进行加油。开关位于 **ALL** 档位"
-"时，机翼和副油箱的输油将被禁用从而能够向这两个油箱加油。开关位于 **RET** （收"
-"起）档位时，受油管收回并恢复一般燃油系统运作。"
+"两个伸出档位（**EXTD**）分别为 **ALL** 档位——启用所有油箱受油，包括机翼油箱和"
+"副油箱， **FUS** 档位——启用仅机身油箱受油。开关位于 **ALL** 档位时，机翼和副"
+"油箱的输油将被禁用从而使所有油箱受油。开关位于 **RET** （收起）档位时，受油管"
+"收回并恢复一般燃油系统运作。"
 
 #: ../../source/general.rst:211
 msgid ""
@@ -4359,17 +4361,17 @@ msgstr "开关拨至 **EXTD ALL** 将复位 **WING/EXT TRANS** 开关至 **AUTO*
 # 2020/08/01 AG 校对完毕
 #: ../../source/general.rst:221
 msgid "Fire Detection and Suppression System"
-msgstr "火焰检测和灭火系统"
+msgstr "失火探测和灭火系统"
 
 #: ../../source/general.rst:224
 msgid "Fire Detection System"
-msgstr "火焰检测系统"
+msgstr "失火探测系统"
 
 #: ../../source/general.rst:226
 msgid ""
 "The fire detection system in the F-14 has two fire sensing loops, one in "
 "each engine."
-msgstr "F-14 的火焰检测系统含有两个火焰感测回路，每台发动机各一个。"
+msgstr "F-14 的失火探测系统含有两个火焰感测回路，每台发动机各一个。"
 
 #: ../../source/general.rst:228
 msgid ""
@@ -4379,9 +4381,9 @@ msgid ""
 "the left fire warning light on the ACM panel and the right detection loop "
 "illuminates the right fire warning light, see :ref:`ACMpanel`."
 msgstr ""
-"如果整个回路中每一处检测温度都超过 600°F（约 316°C），或在任意 6 英寸范围内检"
-"测到温度超过 1,000°F（约 538°C）便会触发火焰检测回路。触发左检测回路使 ACM 面"
-"板中左发起火报警灯亮起，触发右检测回路使右发起火报警灯亮起，详情 :ref:"
+"如果整个回路中每一处都探测到温度都超过 600°F（约 316°C），或在任意 6 英寸范围"
+"内探测到温度超过 1,000°F（约 538°C）便会触发失火探测回路。触发左探测回路使 "
+"ACM 面板中左发失火报警灯亮起，触发右探测回路使右发起火报警灯亮起，详情 :ref:"
 "`ACMpanel` 。"
 
 #: ../../source/general.rst:231
@@ -4391,7 +4393,7 @@ msgid ""
 "advisory indicator (see :ref:`CAindicator`) if temperatures above 575 °F "
 "(about 302 °C) are detected."
 msgstr ""
-"此外，F-14 中还有多个设计用于检测发动机内热空气泄露的传感器，如果检测空气温度"
+"此外，F-14 中还有多个设计用于探测发动机内热空气泄露的传感器，如果探测空气温度"
 "高于575 °F （约302 °C），飞行员驾驶舱中 :ref:`CAindicator` 上的 BLEED DUCT 注"
 "意灯将亮起。"
 
@@ -4432,7 +4434,7 @@ msgid ""
 "the fuel to the connected engine and the button behind it releases the fire "
 "suppression agent into that engine."
 msgstr ""
-"飞行员可以抽出起火发动机相应的 **FUEL SHUT OFF** 手柄（见上图），并按下该手柄"
+"飞行员可以抽出失火发动机相应的 **FUEL SHUT OFF** 手柄（见上图），并按下该手柄"
 "后面的灭火器按钮来激活灭火系统。拉起手柄将切断对应发动机的燃油供给，而灭火器"
 "按钮则将释放灭火剂注入到发动机中。"
 
@@ -4460,7 +4462,7 @@ msgstr ""
 
 #: ../../source/general.rst:260
 msgid "Fire Detection and Suppression System Test"
-msgstr "火焰检测和灭火系统测试"
+msgstr "失火探测和灭火系统测试"
 
 #: ../../source/general.rst:262
 msgid ""
@@ -4473,14 +4475,14 @@ msgid ""
 msgstr ""
 "这两个系统都可以通过选择位于主测试面板中的 **FIRE DET/EXT** 档位来进行测试"
 "（详见 :ref:`MTPanel` ）。测试中，如果各自的回路正常工作，那么 ACM 面板中的两"
-"个起火报警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 **GO** "
+"个失火报警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 **GO** "
 "指示灯将会亮起。如果在测试中，主测试面板中 **NO GO** 或没有指示灯亮起，那么表"
 "示灭火系统或测试电路存在问题。"
 
 # 2020/08/01 AG 校对完毕
 #: ../../source/general.rst:268
 msgid "Electrical Power System"
-msgstr "电力系统"
+msgstr "电气系统"
 
 #: ../../source/general.rst:270
 msgid ""
@@ -4490,7 +4492,7 @@ msgid ""
 "all aircraft systems."
 msgstr ""
 "F-14 中所有主要的电力都由两台发动机驱动的 AC（交流）发电机来提供。连接到发动"
-"机减速箱的每台发电机都能发出足够的电力来驱动飞机中的所有系统。"
+"机减速箱的每台发电机都能发出足够的电力来驱动飞机中所有的系统。"
 
 #: ../../source/general.rst:273
 msgid ""
@@ -4510,7 +4512,7 @@ msgid ""
 msgstr ""
 "F-14 在前轮后方包含有一个使用 AC 电源的外部电源插座，外部电源插座能够为飞机提"
 "供 AC 和 DC（通过整流变压器）。当一台内部发电机正常工作时，外部电源将自动从飞"
-"机电力系统中断开。"
+"机电气系统中断开。"
 
 #: ../../source/general.rst:280
 msgid "Emergency Power"
@@ -4536,7 +4538,7 @@ msgstr "控制器和指示器"
 msgid ""
 "The controls for the electrical systems are located on the master generator "
 "control panel."
-msgstr "电力系统的控制开关位于主发电机控制面板上。"
+msgstr "电气系统的控制开关全部位于主发电机控制面板中。"
 
 #: ../../source/general.rst:293
 msgid ""
@@ -4577,7 +4579,7 @@ msgid ""
 "indicate that the respective generator is not functioning correctly. Either "
 "because of a fault or because the engine driving the generator not running."
 msgstr ""
-"电力系统相关的注意/提示灯位于飞行员驾驶舱 :ref:`CAindicator` 中。**L GEN** "
+"电气系统相关的注意/提示灯位于飞行员驾驶舱 :ref:`CAindicator` 中。**L GEN** "
 "和 **R GEN** 指示灯亮起表示对应的发电机没有正常工作。可能是由于发电机故障或驱"
 "动发电机的发动机没有运转。"
 
@@ -5101,7 +5103,7 @@ msgid ""
 msgstr ""
 "当两个机翼后掠电气通道都无法操作机翼后掠或使用应急机翼后掠模式时，VDI 右侧的 "
 "**WING SWEEP** 报警灯将亮起。如果未使用应急机翼后掠模式，但报警灯亮起，那么就"
-"表示电力系统可能不正常工作，此时应使用应急机翼后掠模式。"
+"表示电气系统可能不正常工作，此时应使用应急机翼后掠模式。"
 
 # ONLY warning and advisory lights in wing sweep.
 #: ../../source/general.rst:490
@@ -5423,7 +5425,7 @@ msgid ""
 "stick or by depression of the autopilot emergency disengagement paddle, "
 "automatically resetting all autopilot switches to off."
 msgstr ""
-"所有自动驾驶模式都可以通过用力移动驾驶杆来越控或可以通过自动驾驶应急断开手柄"
+"所有自动驾驶模式都可以通过用力移动驾驶杆来超控或可以通过自动驾驶应急断开手柄"
 "来解除自动驾驶，按下手柄后所有自动驾驶开关将复位至 OFF 档位。"
 
 # 2020/07/23 AG 校对至此
@@ -5465,9 +5467,9 @@ msgid ""
 "the switch to **ORIDE** and then depressing the **MASTER RESET** button on "
 "the :ref:`fuelmgmtpanel`."
 msgstr ""
-"如需越控对称保护，升起保护盖并将 :ref:`spoilfailover` 中相应部分所对应的开关"
+"如需超控对称保护，升起保护盖并将 :ref:`spoilfailover` 中相应部分所对应的开关"
 "拨动至 **ORIDE** 档位，接着按下 :ref:`fuelmgmtpanel` 中的 **MASTER RESET** 按"
-"钮来越控对称保护。"
+"钮来超控对称保护。"
 
 #: ../../source/general.rst:611
 msgid "Spoiler position can be seen on the :ref:`controlsurface`."
@@ -5542,7 +5544,7 @@ msgid ""
 "UP** position, overriding faulty interlocks."
 msgstr ""
 "如果存在故障使得襟翼无法被收上，那么飞行员应将 **FLAP** 控制杆移至 **UP** 档"
-"位后，接着向外侧移动并向上推至 **EMER UP** 档位来越控故障的互锁机构。"
+"位后，接着向外侧移动并向上推至 **EMER UP** 档位来超控故障的互锁机构。"
 
 #: ../../source/general.rst:640
 msgid ""
@@ -5962,9 +5964,9 @@ msgid ""
 "flash with gear down if hook is not also down. This feature can be disabled "
 "using the **HOOK BYPASS** switch on the :ref:`mlightctrlpanel`."
 msgstr ""
-"拦阻钩的位置同样会影响 AoA 指示灯和进近灯，如果起落架放下时未放下拦阻钩，那"
-"么 AoA 指示灯和进近灯将会闪烁。飞行员可以使用 :ref:`mlightctrlpanel` 中的 "
-"**HOOK BYPASS** 开关来禁用指示灯闪烁功能。"
+"拦阻钩的位置同样会影响进近迎角分度器和进近灯，如果起落架放下时未放下拦阻钩，"
+"那么进近迎角分度器和进近灯将会闪烁。飞行员可以使用 :ref:`mlightctrlpanel` 中"
+"的 **HOOK BYPASS** 开关来禁用指示灯闪烁功能。"
 
 # 2020/07/20 AG 校对完毕
 #: ../../source/general.rst:788
@@ -6100,7 +6102,7 @@ msgid ""
 msgstr ""
 "**CABIN PRESS** 注意灯位于 RIO 驾驶舱中的 :ref:`cauadvpanel` 内，注意灯亮起则"
 "表示座舱气压低于 5-psi 绝对气压或座舱其他高度高于27000英尺。在同一个面板中还"
-"有 **COOLING AIR** 提示灯，提示灯亮起表示电子设备冷却系统超温，以及指示 ECS "
+"有 **COOLING AIR** 提示灯，提示灯亮起表示电子设备冷却系统过热，以及指示 ECS "
 "中存在故障，故障可能会导致电子设备损坏。"
 
 #: ../../source/general.rst:827
@@ -6184,7 +6186,7 @@ msgstr ""
 "情况下，应该选择 **AWG-9** 档位来只启用 AN/AWG-9 冷却泵。若携带了 AIM-54 导"
 "弹，则应该选择 **AWG-9/AIM-54** 来启用 AWG-9 和 AIM-54 的冷却泵。开关 "
 "**OFF** 档位时将关闭 AWG-9 和 AIM-54 的冷却泵，正在使用系统时不可选择 OFF 档"
-"位，否则系统将会超温。"
+"位，否则系统将会过热。"
 
 #: ../../source/general.rst:853
 msgid ""
@@ -6196,7 +6198,7 @@ msgid ""
 "AIM-54**."
 msgstr ""
 "RIO 驾驶舱中的 :ref:`cauadvpanel` 上包含了这些系统的提示灯。 **AWG-9 COND** "
-"提示灯用来指示 AN/AWG-9 雷达冷却系统超温，冷却系统超温后继续使用 AN/AWG-9 雷"
+"提示灯用来指示 AN/AWG-9 雷达冷却系统过热，冷却系统超温后继续使用 AN/AWG-9 雷"
 "达可能会导致雷达损坏。 **MSL COND** 提示灯指示 AIM-54 冷却系统超温或 WCS 正在"
 "挂载了 AIM-54 且 LIQ COOLING 开关未处于 **AWG-9/AIM-54** 档位的情况下运行。"
 
@@ -6602,8 +6604,8 @@ msgid ""
 "The approach lights are also located on the nosewheel strut and replicate "
 "the AoA indexer for the LSOs during carrier traps."
 msgstr ""
-"进近灯同样位于前轮支柱上，进近灯将复显 AoA 指示灯来让 LSO 在着舰期间通过观察"
-"灯光来判断飞机的 AOA。"
+"进近灯同样位于前轮支柱上，进近灯将复显进近迎角分度器来让 LSO 在着舰期间通过观"
+"察灯光来判断飞机的 AOA。"
 
 #: ../../source/general.rst:988
 msgid ""
@@ -7429,7 +7431,7 @@ msgid ""
 msgstr ""
 "在 TID 右侧的是 **CLSN** 按钮（ **7** ），CLSN 按钮用于启用恒量角度拦截转向至"
 "当前跟踪的目标或重心（如果在 TWS 模式下时）。除了飞行员选择了 ACM 模式外，按"
-"下按钮恒量角度拦截转向将会越控当前提供给飞行员的转向信息。"
+"下按钮恒量角度拦截转向将会超控当前提供给飞行员的转向信息。"
 
 #: ../../source/general.rst:1269
 msgid "**TID Control Panel**"
@@ -9318,7 +9320,7 @@ msgstr ""
 "传感器控制面板中，上半部分包含了雷达天线栅状扫描的控制器。 **STAB** （稳定）"
 "开关用来控制雷达天线栅状扫描是否相对于地平线（IN）稳定。如果 STAB 开关位于 "
 "OUT 档位，那么就表示，栅状扫描是相对 F-14 飞机的武器基准线稳定的。WCS 计算机"
-"在必要时会越控这个设置。 **AZ CTR** （方位角控制）和 **EL CTR** （仰角控制）"
+"在必要时会超控这个设置。 **AZ CTR** （方位角控制）和 **EL CTR** （仰角控制）"
 "旋钮用来设置天线栅状扫描中仰角和方位角的中心点。 **方位角控制** 旋钮用来在飞"
 "机中心线65°内移动扫描方位角的中心，如果扫描方位角宽设置为±65°的话，那么这个功"
 "能将会被禁用，这是因为设置为±65°已经扫描了最大的方位角角度。请勿移动栅状扫描"
@@ -10042,7 +10044,7 @@ msgstr ""
 "TWS AUTO 模式下，一旦目标跟踪存在，扫描范围和栅状扫描的方位和高度将由计算机接"
 "管。WCS 计算机将会自动尝试最佳化扫描范围和方位以便最大限度的跟踪优先的目标。"
 "如果在发射 AIM-54 前未选择 TWS AUTO 模式，那么 WCS 将会在第一枚 AIM-54 发射后"
-"越控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。"
+"超控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。"
 
 #: ../../source/general.rst:2122
 msgid ""
@@ -10219,9 +10221,9 @@ msgid ""
 "overrides VSL and lower modes and VSL overrides PAL and lower modes but not "
 "PLM and so on."
 msgstr ""
-"ACM 模式是以优先级顺序列出的，优先级较高的模式会越控其它优先级较低的模式。这"
-"意味着 PLM 模式始终越控 VSL 以及优先级更低的模式，VSL 模式越控 PAL 和优先级更"
-"低的模式，但是不会越控 PLM，依此类推。"
+"ACM 模式是以优先级顺序列出的，优先级较高的模式会超控其它优先级较低的模式。这"
+"意味着 PLM 模式始终超控 VSL 以及优先级更低的模式，VSL 模式超控 PAL 和优先级更"
+"低的模式，但是不会超控 PLM，依此类推。"
 
 #: ../../source/general.rst:2182
 msgid ""
@@ -10244,7 +10246,7 @@ msgid ""
 "to the armament datum line (ADL) and causese it to lock onto the first "
 "target seen out to 5 NM."
 msgstr ""
-"PLM 是 ACM 模式中优先级最高的模式，PLM 模式始终会越控其它雷达模式，当飞行员按"
+"PLM 是 ACM 模式中优先级最高的模式，PLM 模式始终会超控其它雷达模式，当飞行员按"
 "下右发油门上的 PLM 按钮时将启用 PLM 模式。按下 PLM 按钮将会指令天线对准武器基"
 "准线（ADL），并使雷达尝试锁定5海里内的第一个看到的目标。"
 
@@ -11276,7 +11278,7 @@ msgid ""
 "beginning a new 60 second countdown."
 msgstr ""
 "最后，位于控制杆正面的是锁扣式激光照射按钮（ **8** ）。按下这个按钮后激光将会"
-"照射60秒钟，可以通过按下后并释放扳机第一段来越控。再次按下锁扣式激光照射按钮"
+"照射60秒钟，可以通过按下后并释放扳机第一段来超控。再次按下锁扣式激光照射按钮"
 "将复位锁扣式激光照射计时器至60秒钟，开始新的60秒钟倒计时。"
 
 #: ../../source/general.rst:2591
@@ -13446,7 +13448,7 @@ msgstr ""
 "仪测量其敏感轴的旋转角度，并且是有关飞机姿态信息的数据源。它们还负责稳定整个"
 "平台并保持加速度计相对于地面（重力）的垂直的方向。两个加速度计负责测量水平方"
 "向的加速度，而第三个加速度计负责测量垂直方向的加速度。加速度计的敏感轴相互正"
-"交。力矩器线圈能检测质量块的轴向位移并产生一个放大信号，这个信号然后发送给力"
+"交。力矩器线圈能探测质量块的轴向位移并产生一个放大信号，这个信号然后发送给力"
 "矩器，将质量块恢复到零位。当前所需的力矩大小和加速度成正比。测得的加速度信号"
 "在计算机内进行积分，并用于从起始点计算飞机的速度和位移。平台的姿态也不断修正"
 "来消除地球自转和设备误差相关的影响。"
@@ -16469,7 +16471,7 @@ msgid ""
 "The failures are indicated by the STBY and READY lights illuminating and the "
 "NAV COMP light illuminating on the RIO CAUTION/ ADVISORY panel."
 msgstr ""
-"如果 CSDC 中的导航计算机部分失效或是检测到 IMU 某个故障，那么将会自动进入 "
+"如果 CSDC 中的导航计算机部分失效或是探测到 IMU 某个故障，那么将会自动进入 "
 "IMU/AM 模式。故障指示由 STBY 和 READY 提示灯亮起以及 RIO CAUTION/ADVISORY 面"
 "板中的 NAV COMP 提示灯指示。"
 
@@ -16752,7 +16754,7 @@ msgstr "降落（LDG）"
 #: ../../source/general.rst:4304
 msgid ""
 "ACM cover open selection overrides all modes, except the T.O. and LDG modes."
-msgstr "打开 ACM 保护盖将越控除了 T.O. 和 LDG 模式外的所有模式。"
+msgstr "打开 ACM 保护盖将超控除了 T.O. 和 LDG 模式外的所有模式。"
 
 #: ../../source/general.rst:4306
 msgid ""
@@ -17263,7 +17265,7 @@ msgid ""
 "ICS – Permits intercommunication when COLD MIC is selected on function "
 "selector. Overrides UHF/VHF communications."
 msgstr ""
-"ICS – 在 ICS 控制开关上选择 COLD MIC 时允许机内通话。 越控 UHF / VHF 通信。"
+"ICS – 在 ICS 控制开关上选择 COLD MIC 时允许机内通话。 超控 UHF / VHF 通信。"
 
 #: ../../source/general.rst:4504
 msgid "Both – Keys both radios for operation. Not functional in DCS."
@@ -17353,7 +17355,7 @@ msgstr "RIO 的 ICS 按钮（左侧脚踏板）"
 msgid ""
 "Permits intercommunication if COLD MIC is selected on the function selector "
 "control. Overrides UHF communication."
-msgstr "如果 ICS 控制开关选择了 COLD MIC，则可以进行机内通话。 越控 UHF 通信。"
+msgstr "如果 ICS 控制开关选择了 COLD MIC，则可以进行机内通话。 超控 UHF 通信。"
 
 #: ../../source/general.rst:4536
 msgid "RIO’s MIC button (Right Foot Rest)"

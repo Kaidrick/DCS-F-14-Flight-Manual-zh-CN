@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0 trunk\n"
-"AMAMAMAMReport-Msgid-Bugs-To: \n"
+"AMAMAMAMAMReport-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2020-08-20 00:10+0800\n"
+"PO-Revision-Date: 2020-08-27 20:59+0800\n"
 "Last-Translator: uboats\n"
 "Language-Team: TODO\n"
 "MIME-Version: 1.0\n"
@@ -290,7 +290,7 @@ msgid "IFF M3/A (no function)"
 msgstr "IFF M3/A (未模拟)"
 
 msgid "Engine/Probe Anti-Ice"
-msgstr "发动机/全静压系统 防冰"
+msgstr "发动机/皮托管 防冰"
 
 msgid "TID track hold"
 msgstr "TID 跟踪保持"
@@ -305,7 +305,7 @@ msgid "RADAR pulse search"
 msgstr "雷达 脉冲搜索"
 
 msgid "HSD ECM Override"
-msgstr "HSD ECM 越控"
+msgstr "HSD ECM 超控"
 
 msgid "TCS FOV"
 msgstr "TCS 视场"
@@ -314,7 +314,7 @@ msgid "AN/ALR-67 Display Brightness"
 msgstr "AN/ALR-67 显示亮度"
 
 msgid "Launch Bar Abort Switch Cover"
-msgstr "拖拽杆中止开关盖"
+msgstr "弹射杆中止开关盖"
 
 msgid "Stabilize"
 msgstr "稳定"
@@ -401,7 +401,7 @@ msgid "VHF/UHF Radio Remote Display Brightness"
 msgstr "VHF/UHF 远程显示器 亮度"
 
 msgid "Launch Bar Abort"
-msgstr "拖拽杆中止"
+msgstr "弹射杆中止"
 
 msgid "AN/ALE-37 Jammer Interval Hundreds"
 msgstr "AN/ALE-37 有源干扰弹间隔 (百位)"
@@ -701,7 +701,7 @@ msgid "AN/ALE-37 Jammer Counter"
 msgstr "AN/ALE-37 干扰计数器"
 
 msgid "Outboard Spoiler Override"
-msgstr "外侧扰流板越控"
+msgstr "外侧扰流板超控"
 
 msgid "VDI filter"
 msgstr "VDI 滤镜"
@@ -716,7 +716,7 @@ msgid "IFF test (no function)"
 msgstr "IFF 检测 (未模拟)"
 
 msgid "Inboard Spoiler Override"
-msgstr "内侧扰流板越控"
+msgstr "内侧扰流板超控"
 
 msgid "Record power (no function)"
 msgstr "录像机电源 (未模拟)"
@@ -779,7 +779,7 @@ msgid "Ejection CMD Lever"
 msgstr "弹射指令杆"
 
 msgid "Inboard Spoiler Override Cover"
-msgstr "内侧扰流板越控开关 保护盖"
+msgstr "内侧扰流板超控开关 保护盖"
 
 msgid "Hydraulic Emergency Flight Control Switch Cover"
 msgstr "液压 应急飞行液压控制开关保护盖"
@@ -800,7 +800,7 @@ msgid "CAP btn 8"
 msgstr "CAP 按钮 8"
 
 msgid "Outboard Spoiler Override Cover"
-msgstr "外侧扰流板越控 保护盖"
+msgstr "外侧扰流板超控 保护盖"
 
 msgid "Weapon Interval x100ms"
 msgstr "武器间隔 x100毫秒"
@@ -833,7 +833,7 @@ msgid "Record reset (no function)"
 msgstr "录像机复位 (未模拟)"
 
 msgid "HUD AWL Mode"
-msgstr "HUD 全天候航降模式"
+msgstr "HUD 全天候助降模式"
 
 msgid "Datalink freq 100kHz"
 msgstr "数据链路频率 100kHz"
@@ -1100,7 +1100,7 @@ msgid "Bomb step/ripple"
 msgstr "炸弹 逐个/连续"
 
 msgid "AoA Indexer Light Intensity"
-msgstr "进近迎角指示灯 亮度"
+msgstr "接近迎角分度器 亮度"
 
 msgid "Missile option"
 msgstr "导弹发射选项"
@@ -1508,7 +1508,7 @@ msgid "LANTIRN S4 HAT Y Axis (QSNO, QHUD)"
 msgstr "LANTIRN S4 HAT Y轴 (QSNO, QHUD)"
 
 msgid "LANTIRN S4 HAT Right (QDES/Digit Right/Level+)"
-msgstr "LANTIRN S4 HAT 向右 (QDES/数位向右/色阶+)"
+msgstr "LANTIRN S4 HAT 向右 (QDES/数位向右/电平+)"
 
 msgid "UHF ARC-159 Squelch SQL"
 msgstr "UHF ARC-159 静噪 开"
@@ -1937,7 +1937,7 @@ msgid "MLC in else auto"
 msgstr "MLC 开/自动"
 
 msgid "Wing/External Transfer Oride, else Auto"
-msgstr "机翼/副油箱 输油 越控/自动"
+msgstr "机翼/副油箱 输油 超控/自动"
 
 msgid "Delivery Mode: Pairs, else Single"
 msgstr "投放模式: 成对/单发"
@@ -2183,19 +2183,19 @@ msgid "DDD Range 20"
 msgstr "DDD 距离 20"
 
 msgid "HSD ECM Override Off, else On"
-msgstr "HSD ECM越控 关闭/开启"
+msgstr "HSD ECM超控 关闭/开启"
 
 msgid "UHF ARC-159 0.1 MHz Switch Up"
 msgstr "UHF ARC-159 0.1MHz 开关 向上"
 
 msgid "HSD ECM Override On"
-msgstr "HSD ECM 越控 开启"
+msgstr "HSD ECM 超控 开启"
 
 msgid "Command 1"
 msgstr "指令 1"
 
 msgid "HSD ECM Override Toggle"
-msgstr "HSD ECM越控 切换"
+msgstr "HSD ECM超控 切换"
 
 msgid "Sidewinder Volume Dec"
 msgstr "响尾蛇 音量 减小"
@@ -2210,7 +2210,7 @@ msgid "AN/ALE-39 Programmer Reset"
 msgstr "AN/ALE-39 编程器复位"
 
 msgid "HSD ECM Override Off"
-msgstr "HSD ECM越控 关闭"
+msgstr "HSD ECM超控 关闭"
 
 msgid "ACM Panel"
 msgstr "ACM 面板"
@@ -3113,7 +3113,7 @@ msgid "RWR"
 msgstr "RWR"
 
 msgid "LANTIRN S4 HAT Left (Digit Left/Level-)"
-msgstr "LANTIRN S4 HAT 向左 (数位向左/色阶-)"
+msgstr "LANTIRN S4 HAT 向左 (数位向左/电平-)"
 
 msgid "HUD ACL/ILS Toggle"
 msgstr "HUD ACL/ILS 切换"
@@ -3398,7 +3398,7 @@ msgid "Asymmetric Thrust Limiter Cover OPEN else CLOSED"
 msgstr "不对称推力限制器保护盖 开/关"
 
 msgid "Wing/External Transfer Oride"
-msgstr "机翼/副油箱 输油 越控"
+msgstr "机翼/副油箱 输油 超控"
 
 msgid "LANTIRN S4 HAT Press (Declutter/Lase Auto-Man/MGC)"
 msgstr "LANTIRN S4 HAT 按下 (防拥/Lase 自动-手动/手动增益控制)"
@@ -3638,7 +3638,7 @@ msgid "Radar elevation relative adjustment"
 msgstr "雷达俯仰 微调"
 
 msgid "ICS Function RADIO OVERRIDE"
-msgstr "ICS 功能 无线电越控"
+msgstr "ICS 功能 无线电超控"
 
 msgid "RADAR Pulse Single Target Track"
 msgstr "雷达 脉冲单目标跟踪"
@@ -3752,7 +3752,7 @@ msgid "VHF/UHF ARC-182 Squelch OFF"
 msgstr "VHF/UHF ARC-182 静噪 关"
 
 msgid "HSD ECM Override On, else Off"
-msgstr "HSD ECM越控 开启/关闭"
+msgstr "HSD ECM超控 开启/关闭"
 
 msgid "aspect nose"
 msgstr "目标方位选择 迎头"
@@ -4571,7 +4571,7 @@ msgid "TACAN Band"
 msgstr "塔康波段"
 
 msgid "Hydraulics: Transfer Pump-Motor"
-msgstr "液压: 传输泵-电动机"
+msgstr "液压: 输送泵-电动机"
 
 msgid "Manual"
 msgstr "手动模式"

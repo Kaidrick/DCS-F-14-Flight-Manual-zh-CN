@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 18:03+0800\n"
-"PO-Revision-Date: 2020-08-11 12:30+0800\n"
+"PO-Revision-Date: 2020-08-26 09:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 
 # 2020/08/10 开始总校对
 # 2020/08/11 校对完毕
@@ -335,7 +335,7 @@ msgstr "ELEV LEAD 旋钮 - 调定。"
 
 #: ../../source/procedures.rst:125
 msgid "INBD and OUTBD spoiler switches - NORM (guard down)."
-msgstr "扰流板越控 INBD / OUTBD 开关 - NORM（保护盖关闭）"
+msgstr "扰流板超控 INBD / OUTBD 开关 - NORM（保护盖关闭）"
 
 #: ../../source/procedures.rst:127
 msgid "L and R generator switches - NORM."
