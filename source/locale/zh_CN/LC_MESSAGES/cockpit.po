@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:52+0800\n"
-"PO-Revision-Date: 2020-08-26 18:09+0800\n"
+"PO-Revision-Date: 2020-09-22 22:16+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -590,7 +590,7 @@ msgstr "OFF - 关闭航向保持模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "GT - Ground track mode, engaged by NWS button on pilot stick."
-msgstr "GT - 启用地面轨迹模式，通过飞行员驾驶杆上的 NWS 按钮激活。"
+msgstr "GT - 启用地面航迹模式，通过飞行员驾驶杆上的 NWS 按钮激活。"
 
 #: ../../source/cockpit.rst:266
 msgid "ENGAGE switch"
@@ -1352,7 +1352,7 @@ msgstr "起落架控制面板"
 
 #: ../../source/cockpit.rst:599
 msgid "Control panel for the main landing gear and emergency stores jettison."
-msgstr "这个面板用于控制主起落架和应急挂载抛离。"
+msgstr "这个面板用于控制主起落架和应急挂载抛弃。"
 
 #: ../../source/cockpit.rst:607
 msgid "LDG GEAR"
@@ -1431,7 +1431,7 @@ msgstr "EMERG STORES 按钮"
 #: ../../source/cockpit.rst:623
 msgid ""
 "Emergency stores jettison. Illuminates to indicate activation when pressed."
-msgstr "应急挂载抛离按钮，按下时会亮起，表示激活应急抛离。"
+msgstr "应急挂载抛弃按钮，按下时会亮起，表示激活应急抛弃。"
 
 #: ../../source/cockpit.rst:625
 msgid "NOSE STRUT switch"
@@ -1568,15 +1568,15 @@ msgstr ""
 
 #: ../../source/cockpit.rst:727
 msgid "Oil Pressure Indicator"
-msgstr "油压表"
+msgstr "滑油压力表"
 
 #: ../../source/cockpit.rst:730
 msgid ""
 "Displays oil pressure for each engine. Range is 0 - 100 psi, normal range is "
 "25 - 65 psi, varying with engine rpm."
 msgstr ""
-"显示每个发动机的油压。显示范围是 0 到 100 psi，正常范围是 25 至 65 psi，随发"
-"动机转速而变化。"
+"显示每个发动机的滑油压力。显示范围是 0 到 100 psi，正常范围是 25 至 65 psi，"
+"随发动机转速而变化。"
 
 #: ../../source/cockpit.rst:736
 msgid "Exhaust Nozzle Position Indicator"
@@ -2062,19 +2062,19 @@ msgstr "ACM 开关 / 保护盖"
 msgid ""
 "Lifting the ACM (Air combat maneuver) cover actives the ACM mode and allows "
 "access to the ACM jettison button."
-msgstr "升起 ACM（空战格斗）保护盖会激活 ACM 模式并允许使用 ACM 抛离按钮。"
+msgstr "升起 ACM（空战格斗）保护盖会激活 ACM 模式并允许使用 ACM 抛弃按钮。"
 
 #: ../../source/cockpit.rst:990
 msgid "ACM JETT button"
-msgstr "ACM 抛离按钮"
+msgstr "ACM 抛弃按钮"
 
 #: ../../source/cockpit.rst:990
 msgid ""
 "Button under the ACM cover that enables jettison of stores selected on the "
 "RIO's ARMAMENT panel. Will not jettison Sidewinders regardless if selected."
 msgstr ""
-"ACM 保护盖开关下的抛离按钮用于抛离 RIO 武器控制面板上选择的挂载。按下抛离按钮"
-"并不会抛离“响尾蛇”导弹，即使 RIO 选择了“响尾蛇”。"
+"ACM 保护盖开关下的抛弃按钮用于抛弃 RIO 武器控制面板上选择的挂载。按下抛弃按钮"
+"并不会抛弃“响尾蛇”导弹，即使 RIO 选择了“响尾蛇”。"
 
 #: ../../source/cockpit.rst:992
 msgid "SEAM LOCK light"
@@ -2184,7 +2184,7 @@ msgstr "MASTER ARM 开关"
 
 #: ../../source/cockpit.rst:0
 msgid "Enables weapons release and selective and auxiliary jettison."
-msgstr "主军械开关，开启主军械开关将允许武器发射和挂载选择抛离。"
+msgstr "主军械开关，开启主军械开关将允许武器发射和挂载选择抛弃。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Disables electrical power to release circuitry."
@@ -2206,7 +2206,7 @@ msgid ""
 "disabling all releases except emergency jettison while the gear is down."
 msgstr ""
 "MASTER ARM（主军械）总线控制与起落架控制手柄互锁，起落架放下时，将禁用除紧急"
-"抛离以外的所有发射电路。"
+"抛弃以外的所有发射电路。"
 
 #: ../../source/cockpit.rst:0
 msgid "Note2"
@@ -2214,7 +2214,7 @@ msgstr "注意"
 
 #: ../../source/cockpit.rst:1022
 msgid "The ACM and Emergency jettison are not disabled by the MASTER ARM."
-msgstr "主军械开关并不会禁用 ACM 和应急抛离功能。"
+msgstr "主军械开关并不会禁用 ACM 和应急抛弃功能。"
 
 #: ../../source/cockpit.rst:1024
 msgid "Station status flags"
@@ -2922,7 +2922,7 @@ msgstr "方位距离航向指示器（BDHI）"
 
 #: ../../source/cockpit.rst:1347 ../../source/cockpit.rst:2985
 msgid "Display indicating azimuth and bearing information."
-msgstr "用于显示方位角和航向信息。"
+msgstr "用于显示方位和航向信息。"
 
 #: ../../source/cockpit.rst:1352 ../../source/cockpit.rst:2990
 msgid "No. 2 bearing pointer"
@@ -3724,7 +3724,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1728
 msgid "Caution light indicating activation of EMERG STORES JETT button."
 msgstr ""
-"“应急抛离” 注意灯，指示灯亮起表示 EMERG STORES JETT（应急挂载抛离）按钮按下。"
+"“应急抛弃” 注意灯，指示灯亮起表示 EMERG STORES JETT（应急挂载抛弃）按钮按下。"
 
 #: ../../source/cockpit.rst:1730
 msgid "LADDER"
@@ -5330,7 +5330,7 @@ msgstr "挂点 6 选择开关"
 
 #: ../../source/cockpit.rst:2474
 msgid "Switch used to select station 6 for jettison or weapons A/G delivery."
-msgstr "选择挂点 6 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 6 挂载的武器，用于挂载抛弃或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2476
 msgid "A/A LAUNCH button"
@@ -5362,7 +5362,7 @@ msgid ""
 "selects the lower pylon for release or jettison, the SW option is non-"
 "functional."
 msgstr ""
-"选择挂点 8 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼"
+"选择挂点 8 挂载的武器，用于挂载抛弃或空对地模式武器投放。开关的 B 档位选择翼"
 "套下挂点，而 SW 档位无功能。"
 
 #: ../../source/cockpit.rst:2482
@@ -5382,7 +5382,7 @@ msgstr "挂点 5 选择开关"
 
 #: ../../source/cockpit.rst:2484
 msgid "Switch used to select station 5 for jettison or weapons A/G delivery."
-msgstr "选择挂点 5 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 5 挂载的武器，用于挂载抛弃或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2486
 msgid "NEXT LAUNCH button"
@@ -5402,7 +5402,7 @@ msgstr "挂点 4 选择开关"
 
 #: ../../source/cockpit.rst:2488
 msgid "Switch used to select station 4 for jettison or weapons A/G delivery."
-msgstr "选择挂点 4 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 4 挂载的武器，用于挂载抛弃或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2490
 msgid "Station 1 select switch"
@@ -5414,24 +5414,24 @@ msgid ""
 "selects the lower pylon for release or jettison, the SW option is non-"
 "functional."
 msgstr ""
-"选择挂点 1 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼"
+"选择挂点 1 挂载的武器，用于挂载抛弃或空对地模式武器投放。开关的 B 档位选择翼"
 "套下挂点，而 SW 档位无功能。"
 
 #: ../../source/cockpit.rst:2492
 msgid "TANK JETT station 7 switch"
-msgstr "油箱抛离挂点 7 选择开关"
+msgstr "油箱抛弃挂点 7 选择开关"
 
 #: ../../source/cockpit.rst:2492
 msgid "Switch selecting station 7 for tank jettison."
-msgstr "选择挂点 7 挂载的油箱来进行抛离。"
+msgstr "选择挂点 7 挂载的油箱来进行抛弃。"
 
 #: ../../source/cockpit.rst:2494
 msgid "TANK JETT station 2 switch"
-msgstr "油箱抛离挂点 2 选择开关"
+msgstr "油箱抛弃挂点 2 选择开关"
 
 #: ../../source/cockpit.rst:2494
 msgid "Switch selecting station 2 for tank jettison."
-msgstr "选择挂点 2 挂载的油箱来进行抛离。"
+msgstr "选择挂点 2 挂载的油箱来进行抛弃。"
 
 #: ../../source/cockpit.rst:2496
 msgid "Station 3 select switch"
@@ -5439,7 +5439,7 @@ msgstr "挂点 3 选择开关"
 
 #: ../../source/cockpit.rst:2496
 msgid "Switch used to select station 3 for jettison or weapons A/G delivery."
-msgstr "选择挂点 5 挂载的武器，用于挂载抛离或空对地模式武器投放。"
+msgstr "选择挂点 5 挂载的武器，用于挂载抛弃或空对地模式武器投放。"
 
 #: ../../source/cockpit.rst:2498
 msgid "JETT OPTIONS switch"
@@ -5450,8 +5450,8 @@ msgid ""
 "Switch selecting whether to jettison only WPNS (weapons) or MER/TER (weapon "
 "racks) in addition to weapons. Non-functional in modelled F-14B."
 msgstr ""
-"挂载抛离选择开关，用于选择挂载抛离时，只抛离 WPNS（武器）还是连同 MER/TER（武"
-"器挂点）一起抛离。DCS F-14B 中未模拟此开关功能。"
+"挂载抛弃选择开关，用于选择挂载抛弃时，只抛弃 WPNS（武器）还是连同 MER/TER（武"
+"器挂点）一起抛弃。DCS F-14B 中未模拟此开关功能。"
 
 #: ../../source/cockpit.rst:2500
 msgid "SEL JETT switch"
@@ -5462,7 +5462,7 @@ msgid ""
 "Selector switch used to jettison selected stations in normal (JETT) mode or "
 "AUX (backup) mode. The AUX position is guarded."
 msgstr ""
-"选择抛离开关，用于设定选中挂点的抛离模式，JETT（正常）模式或 AUX（备用）模"
+"选择抛弃开关，用于设定选中挂点的抛弃模式，JETT（正常）模式或 AUX（备用）模"
 "式。升起开关保护盖才可将开关拨至 AUX 模式。"
 
 #: ../../source/cockpit.rst:2502
@@ -5601,8 +5601,8 @@ msgid ""
 "Switch selecting target size for missile launch zones and WCS track "
 "calculations."
 msgstr ""
-"目标尺寸选择开关，用于切换目标尺寸，目标尺寸用于计算导弹发射区间和设定 WCS 目"
-"标跟踪参数。"
+"目标大小选择开关，用于切换目标的大小，目标大小用于计算导弹发射区间和设定 WCS "
+"目标跟踪参数。"
 
 #: ../../source/cockpit.rst:2658
 msgid "MLC switch"
@@ -5681,7 +5681,7 @@ msgid ""
 "blank if no range scale is used on the DDD."
 msgstr ""
 "距离显示窗，用于显示当前选定的雷达搜索距离的滚筒指示器。如果 DDD 中未选用任何"
-"距离标尺，则无显示。"
+"距离标度，则无显示。"
 
 #: ../../source/cockpit.rst:2678
 msgid "RANGE buttons"
@@ -5785,7 +5785,7 @@ msgid ""
 "Switch used to select different closing velocity scales on the DDD in PD "
 "modes."
 msgstr ""
-"接近率标尺选择开关，用于选择 PD（脉冲多普勒）模式下 DDD 显示的接近率标尺。"
+"接近率标度选择开关，用于选择 PD（脉冲多普勒）模式下 DDD 显示的接近率标度。"
 
 #: ../../source/cockpit.rst:2700
 msgid "ERASE knob"
@@ -6040,7 +6040,7 @@ msgstr "RANGE 选择开关"
 msgid ""
 "Selector switch selecting current scale of the TID. Corresponds to the "
 "distance the diameter represents."
-msgstr "TID 显示距离标尺选择开关，用于选择 TID 屏幕直径当前对应的显示距离。"
+msgstr "TID 显示距离标度选择开关，用于选择 TID 屏幕直径当前对应的显示距离。"
 
 #: ../../source/cockpit.rst:2777
 msgid "TID MODE selector"
@@ -6215,8 +6215,8 @@ msgid ""
 "IR/TV - Selects control of TCS azimuth, elevation and tracking. Enables "
 "display of TCS elevation on right elevation indicator on DDD."
 msgstr ""
-"IR/TV - 选择 TCS 方位角、仰角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会"
-"显示 TCS 的仰角。"
+"IR/TV - 选择 TCS 方位、仰角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会显"
+"示 TCS 的仰角。"
 
 #: ../../source/cockpit.rst:0
 msgid ""

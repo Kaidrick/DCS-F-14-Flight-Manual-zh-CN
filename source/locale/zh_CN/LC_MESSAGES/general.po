@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-08-26 18:11+0800\n"
+"PO-Revision-Date: 2020-09-23 22:06+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3945,6 +3945,7 @@ msgstr ""
 msgid "Engine Instrument Group (EIG), Related Indicators and Caution Lights"
 msgstr "发动机仪表组（EIG）及相关指示器和注意灯"
 
+# 图中是TF-30EIG，B的数字EIG是EGT没错。
 #: ../../source/general.rst:95
 msgid ""
 "The **ENGINE INSTRUMENT GROUP** displays engine **RPM**, **EGT** (exhaust "
@@ -3976,8 +3977,8 @@ msgid ""
 "The oil pressure indicators display respective engine oil pressure allowing "
 "the pilot to check that engine oil pressure is at acceptable levels."
 msgstr ""
-"油压表中显示相应发动机中的滑油压力从而允许飞行员能够检查发动机中的滑油压力是"
-"否在正常水平。"
+"滑油压力表中显示相应发动机中的滑油压力从而允许飞行员能够检查发动机中的滑油压"
+"力是否在正常水平。"
 
 #: ../../source/general.rst:107
 msgid ""
@@ -4277,9 +4278,9 @@ msgid ""
 msgstr ""
 "飞行员可以使用 **FEED** 开关来通过选择 **FWD** 档位（前机身油箱和剩余右发供油"
 "所使用的油箱）或 **AFT** 档位（后机身油箱和剩余左发供油所使用的油箱）修正由于"
-"单发停车或燃油供给管路故障所导致两侧油箱燃油量不平衡，而不像 **NORM** 档位中"
-"左/右发动机燃油供给分别向对应的发动机输送燃油。当保护盖关闭时，这个开关会被锁"
-"定在 NORM 档位。"
+"单发停车或燃油供给管路故障所导致两侧油箱燃油量不平衡，而不是像 **NORM** 档位"
+"一样——左/右发动机燃油供给分别向对应的发动机输送燃油。当保护盖关闭时，这个开关"
+"会被保护盖锁定在 NORM 档位。"
 
 # The **WING/EXT TRANS** switch controls fuel transfer from the wing and external tanks into the fuselage feed systems.
 # engine fuel feed system才是正确的。
@@ -4492,7 +4493,7 @@ msgid ""
 "all aircraft systems."
 msgstr ""
 "F-14 中所有主要的电力都由两台发动机驱动的 AC（交流）发电机来提供。连接到发动"
-"机减速箱的每台发电机都能发出足够的电力来驱动飞机中所有的系统。"
+"机齿轮箱的每台发电机都能发出足够的电力来驱动飞机中所有的系统。"
 
 #: ../../source/general.rst:273
 msgid ""
@@ -4733,7 +4734,7 @@ msgid ""
 "pressure when the pumps are operating normally."
 msgstr ""
 "**HYD PRESS** （液压指示器）由两个仪表组成： **COMB** ——联合液压系统，"
-"**FLT** ——飞行液压系统，液压读数单位为千 psi。尺度中包含液压泵造成影响时的公"
+"**FLT** ——飞行液压系统，液压读数单位为千 psi。标度中包含液压泵造成影响时的公"
 "称压力 3000 psi 标记。"
 
 #: ../../source/general.rst:363
@@ -5486,8 +5487,8 @@ msgid ""
 "uses the two inboard spoiler sections in conjunction with small corrections "
 "on the tail stabilizers to control lift."
 msgstr ""
-"直接升力控制（DLC）用于在无俯仰输入和油门调整的情况下控制飞机的下滑道。DLC 使"
-"用机翼两侧的内侧扰流板并联合小幅调整水平安定面来控制升力。"
+"直接升力控制（DLC）用于在无俯仰输入和油门调整的情况下控制飞机在下滑道上的位"
+"置。DLC 使用机翼两侧的内侧扰流板并联合小幅调整水平安定面来控制升力。"
 
 # wrong,DLC is engaged when Flaps down greater than 25°
 #: ../../source/general.rst:620
@@ -6576,8 +6577,8 @@ msgid ""
 "pod mounted lower light only operates while the nosegear wheel door is "
 "closed."
 msgstr ""
-"防撞灯位于 TCS 吊舱、左垂直安定面前上部以及右垂直安定面后上部处。防撞灯均为红"
-"色频闪灯。位于 TCS 吊舱中的防撞灯仅在前轮轮舱关闭后工作。"
+"防撞灯位于下巴吊舱（TCS 吊舱）、左垂直安定面前上部以及右垂直安定面后上部处。"
+"防撞灯均为红色频闪灯。位于 TCS 吊舱中的防撞灯仅在前轮轮舱关闭后工作。"
 
 #: ../../source/general.rst:981
 msgid ""
@@ -6626,18 +6627,18 @@ msgstr ""
 # 2020/07/17 AG 校对完毕
 #: ../../source/general.rst:994
 msgid "Jettison System"
-msgstr "抛离系统"
+msgstr "抛弃系统"
 
 #: ../../source/general.rst:996
 msgid ""
 "The Jettison system has four modes of operation: emergency, ACM, selective "
 "and auxiliary."
 msgstr ""
-"抛离系统中包含四个工作模式，分别是：应急抛离 、ACM、选择抛离和辅助抛离。"
+"抛弃系统中包含四个工作模式，分别是：应急抛弃 、ACM、选择抛弃和辅助抛弃。"
 
 #: ../../source/general.rst:999
 msgid "**Emergency Jettison**"
-msgstr "**应急抛离**"
+msgstr "**应急抛弃**"
 
 #: ../../source/general.rst:1001
 msgid ""
@@ -6645,8 +6646,8 @@ msgid ""
 "`gearcontrol`. Selection causes the **EMERG JETT** caution light to "
 "illuminate on the pilot :ref:`CAindicator`."
 msgstr ""
-"应急抛离通过位于 :ref:`gearcontrol` 的 **EMERG STORES JETT** 按钮来选择。按下"
-"应急抛离按钮将使位于前座飞行员 :ref:`CAindicator` 中的 **EMERG JETT** 注意灯"
+"应急抛弃通过位于 :ref:`gearcontrol` 的 **EMERG STORES JETT** 按钮来选择。按下"
+"应急抛弃按钮将使位于前座飞行员 :ref:`CAindicator` 中的 **EMERG JETT** 注意灯"
 "亮起。"
 
 #: ../../source/general.rst:1004
@@ -6654,19 +6655,19 @@ msgid ""
 "The emergency jettison requires only no weight on wheels indicated (no "
 "master arm) and ejects all stores except for Sidewinders."
 msgstr ""
-"应急抛离在指示机轮不负重（无需主军械打开）的情况下就可以启动，应急抛离会抛离"
+"应急抛弃在指示机轮不负重（无需主军械打开）的情况下就可以启动，应急抛弃会抛弃"
 "除了 AIM-9 “响尾蛇”导弹之外飞机上的全部挂载。"
 
 #: ../../source/general.rst:1007
 msgid "**ACM Jettison**"
-msgstr "**ACM 抛离**"
+msgstr "**ACM 抛弃**"
 
 #: ../../source/general.rst:1009
 msgid ""
 "The ACM jettison is selected via the **ACM JETT** button under the ACM cover/"
 "switch on the :ref:`ACMpanel`."
 msgstr ""
-"ACM 抛离通过 :ref:`ACMpanel` 中， ACM 保护盖下的 **ACM JETT** 按钮进行选择。"
+"ACM 抛弃通过 :ref:`ACMpanel` 中， ACM 保护盖下的 **ACM JETT** 按钮进行选择。"
 
 # 1 and 8 set to B or SW?no SEL symbol on s1 and s8
 #: ../../source/general.rst:1011
@@ -6676,13 +6677,13 @@ msgid ""
 "jettison the ACM jettison only ejects those stations selected by the RIO on "
 "the :ref:`armpanel` (set to **SEL** or **B** for stations 1 and 8)."
 msgstr ""
-"ACM 抛离——就像应急抛离一样，不需要主军械打开，但是需要起落架手柄位于收上档"
-"位。与应急抛离不同，ACM 抛离仅会抛离 RIO 在 :ref:`armpanel` 中所选挂点的挂载"
-"（1号和8号挂点设置为 **SEL** 或 **B** 档位来抛离）。"
+"ACM 抛弃——就像应急抛弃一样，不需要主军械打开，但是需要起落架手柄位于收上档"
+"位。与应急抛弃不同，ACM 抛弃仅会抛弃 RIO 在 :ref:`armpanel` 中所选挂点的挂载"
+"（1号和8号挂点设置为 **SEL** 或 **B** 档位来抛弃）。"
 
 #: ../../source/general.rst:1015
 msgid "**Selective Jettison**"
-msgstr "**选择抛离**"
+msgstr "**选择抛弃**"
 
 #: ../../source/general.rst:1017
 msgid ""
@@ -6690,7 +6691,7 @@ msgid ""
 "`armpanel`. This mode of jettisoning requires the landing gear handle to be "
 "in the up position and the master arm to be on."
 msgstr ""
-"选择抛离由后座 RIO 在 :ref:`armpanel` 设置和执行。选择抛离模式要求起落架手柄"
+"选择抛弃由后座 RIO 在 :ref:`armpanel` 设置和执行。选择抛弃模式要求起落架手柄"
 "处于收上档位且主军械开关打开。"
 
 #: ../../source/general.rst:1020
@@ -6698,12 +6699,12 @@ msgid ""
 "The procedure for jettison in selective mode is to set the desired station "
 "switches to **SEL** and hold the **SEL JETT** switch to **JETT**."
 msgstr ""
-"选择抛离模式的抛离程序为：将需要抛离的挂载的挂点开关拨至 **SEL** 档位，然后拨"
+"选择抛弃模式的抛弃程序为：将需要抛弃的挂载的挂点开关拨至 **SEL** 档位，然后拨"
 "动 **SEL JETT** 开关并保持在 **JETT** 档位。"
 
 #: ../../source/general.rst:1023
 msgid "**Auxiliary Jettison**"
-msgstr "**辅助抛离**"
+msgstr "**辅助抛弃**"
 
 #: ../../source/general.rst:1025
 msgid ""
@@ -6711,8 +6712,8 @@ msgid ""
 "have failed. Like the selective jettison mode it requires the landing gear "
 "handle to be up and the master arm to be on."
 msgstr ""
-"辅助抛离模式作为备用模式在其他抛离模式失效时使用。和选择抛离模式一样，辅助抛"
-"离需要起落架手柄处于收上档位且主军械开关打开。"
+"辅助抛弃模式作为备用模式在其他抛弃模式失效时使用。和选择抛弃模式一样，辅助抛"
+"弃需要起落架手柄处于收上档位且主军械开关打开。"
 
 #: ../../source/general.rst:1028
 msgid ""
@@ -6721,8 +6722,8 @@ msgid ""
 "and level as the stores are not ejected forcefully but instead just released "
 "and cleared using gravity."
 msgstr ""
-"辅助抛离模式只能抛离空对地挂载，并且是通过作动正常投放挂钩来抛离它们的。这意"
-"味着飞机必须水平直线飞行，这是因为挂载不是被强行抛离，而是靠重力投放并离开挂"
+"辅助抛弃模式只能抛弃空对地挂载，并且是通过作动正常投放挂钩来抛弃它们的。这意"
+"味着飞机必须水平直线飞行，这是因为挂载不是被强行抛弃，而是靠重力投放并离开挂"
 "架。"
 
 #: ../../source/general.rst:1031
@@ -6730,8 +6731,8 @@ msgid ""
 "No jettison mode can jettison ITERs or stores loaded on those, they need to "
 "be dropped like normal, with or without the fuzes armed."
 msgstr ""
-"所有抛离模式都无法抛离 ITER 或挂载在 ITER 中的挂载，因此，无论挂载是否装有引"
-"信，ITER 上的挂载必须像正常投放武器一样来抛离。"
+"所有抛弃模式都无法抛弃 ITER 或挂载在 ITER 中的挂载，因此，无论挂载是否装有引"
+"信，ITER 上的挂载必须像正常投放武器一样来抛弃。"
 
 # 2020/06/19 AG 校对完毕
 #: ../../source/general.rst:1035
@@ -6748,7 +6749,7 @@ msgid ""
 msgstr ""
 "中央大气数据计算机（CADC）就像蜘蛛网中心的蜘蛛一样接收绝大多数飞机飞行传感器"
 "收集的信息，并将这些信息传递给所有需要这些信息的系统。除此之外，CADC 通过机翼"
-"后掠制度来控制机翼后掠，同时 CADC 还控制襟翼和前缘缝翼，并且还受到相同调度的"
+"后掠制度来控制机翼后掠，同时 CADC 还控制襟翼和前缘缝翼，并且还受到相同制度的"
 "限制。"
 
 # 2020/06/23 AG 开始校对 -- 2020/07/15 AG 校对完毕
@@ -6877,8 +6878,8 @@ msgid ""
 msgstr ""
 "六个圆形按钮（ **8** ）分别标记了 **5, 10, 20, 50, 100 和 200** ，这些按钮用"
 "于在脉冲模式和在 IFF 问询时选择所需的雷达显示距离，这些按钮的设置同时会影响飞"
-"行员目标距离显示的尺度。这六个按钮互斥，因为一次只能选择一个显示距离。在脉冲"
-"搜索模式下，通过上述按钮进行选择会影响雷达的 PRF 以及 DDD 中的显示尺度，如果"
+"行员目标距离显示的标度。这六个按钮互斥，因为一次只能选择一个显示距离。在脉冲"
+"搜索模式下，通过上述按钮进行选择会影响雷达的 PRF 以及 DDD 中的显示标度，如果"
 "设置为20海里及以上的显示距离，那么将会启用脉冲压缩。"
 
 #: ../../source/general.rst:1078
@@ -6888,7 +6889,7 @@ msgid ""
 "also show ±10 for when using the IFF interrogator in the STT modes."
 msgstr ""
 "**距离显示滚筒** （ **7** ），距离显示滚筒中显示了雷达在脉冲模式下当前 DDD 中"
-"的雷达显示尺度，使用脉冲多普勒模式时滚筒为空白。在 STT 模式下进行 IFF 问询"
+"的雷达显示标度，使用脉冲多普勒模式时滚筒为空白。在 STT 模式下进行 IFF 问询"
 "时，这个指示器还将显示±10。"
 
 #: ../../source/general.rst:1081
@@ -7016,7 +7017,7 @@ msgstr ""
 "两个按钮可用来选择 STT 的模式。同时这两个按钮还用于自动尝试锁定至 TID 中选中"
 "的目标或用于在两个 STT 模式之间进行切换。脉冲多普勒搜索按钮（ **PD SRCH** ）"
 "用于选择雷达 PD SEARCH 模式。边搜索边测距按钮（ **RWS** ）用于选择雷达 RWS 模"
-"式。两个边扫描边跟踪按钮（ **TWS AUTO** 和 **TWS MAN** ）用于选择雷达使用与之"
+"式。两个边搜索边跟踪按钮（ **TWS AUTO** 和 **TWS MAN** ）用于选择雷达使用与之"
 "对应的 TWS 模式运行。脉冲搜索按钮（ **PULSE SRCH** ）用于选择雷达脉冲搜索模"
 "式。"
 
@@ -7048,9 +7049,9 @@ msgid ""
 "VID sets the scale to 50 knots opening to 250 knots closing."
 msgstr ""
 "在 DDD 的两边是 ASPECT 开关和 VC 开关。 **VC** 开关（ **18** ）用于控制在脉冲"
-"多普勒模式下 DDD 上显示的目标接近率尺度。开关拨到 X-4 档位时，接近率标尺区间"
-"被设置为800节离开到4000节接近，拨到 NORM 档位时，接近率尺度将设置为200节离开"
-"至1000节接近，VID 档位则将接近率尺度设置为50节离开至250节接近。"
+"多普勒模式下 DDD 上显示的目标接近率标度。开关拨到 X-4 档位时，接近率标尺区间"
+"被设置为800节离开到4000节接近，拨到 NORM 档位时，接近率标度将设置为200节离开"
+"至1000节接近，VID 档位则将接近率标度设置为50节离开至250节接近。"
 
 # centroid 统一叫质心，避免重心和转向中心误解。
 #: ../../source/general.rst:1130
@@ -7081,7 +7082,7 @@ msgid ""
 "elevation. This indicator will move with the antenna in the radar search "
 "modes."
 msgstr ""
-"仰角指示器尺度—— **EL** （ **22** ）——这个指示器用于指示传感器的仰角。左侧"
+"仰角指示器标度—— **EL** （ **22** ）——这个指示器用于指示传感器的仰角。左侧"
 "（ **RDR** ）的指针指示当前实际的雷达天线的仰角。左侧的指针将会随天线在雷达搜"
 "索模式下的移动而移动。"
 
@@ -7272,9 +7273,9 @@ msgid ""
 "while the IFF returns are shown."
 msgstr ""
 "在脉冲搜索模式下，当 IFF 问询器启动后，IFF 信息将会叠加显示在一般雷达回波上。"
-"在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示尺度将切换至先前设置距离尺"
+"在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示标度将切换至先前设置距离标"
 "度来显示距离和方位，在 PD STT 模式下，如果在 TID 选中了目标，当显示 IFF 返回"
-"时，那么 DDD 显示尺度将切换至目标为中心 ±10 尺度。"
+"时，那么 DDD 显示标度将切换至目标为中心 ±10 标度。"
 
 # 2020/06/25 AG 校对至此
 #: ../../source/general.rst:1218
@@ -7446,7 +7447,7 @@ msgid ""
 msgstr ""
 "在 TID 的下方是 TID 控制面板（ **8** ）。TID 控制面板上有8个按钮，分别用于选"
 "择在 TID 中显示的标识符，绿色灯光亮起表示已启用按钮。TID 控制面板上还包含有两"
-"个选择旋钮，分别控制这显示尺度和 TID 模式。这些按钮分别是："
+"个选择旋钮，分别控制这显示标度和 TID 模式。这些按钮分别是："
 
 #: ../../source/general.rst:1278 ../../source/general.rst:4499
 #: ../../source/general.rst:4602 ../../source/general.rst:4648
@@ -7600,7 +7601,7 @@ msgid ""
 "200 and 400 nautical miles, the greater ranges being useful to show data "
 "link information outside of own radar range."
 msgstr ""
-"右侧的选择旋钮用来设置 TID 的显示尺度，设置所选的距离为显示直径。可用的显示距"
+"右侧的选择旋钮用来设置 TID 的显示标度，设置所选的距离为显示直径。可用的显示距"
 "离分别为25海里、50海里、100海里、200海里和400海里，更大的显示距离可用于显示雷"
 "达探测距离外的数据链路信息。"
 
@@ -8870,7 +8871,7 @@ msgstr "2"
 
 #: ../../source/general.rst:1771
 msgid "NBR - Number, used for IFT and BITs."
-msgstr "NBR - 数字——用于 IFT（空中飞行训练）和 BIT（机内自检）。"
+msgstr "NBR - 数字——用于 IFT（飞行训练）和 BIT（机内自检）。"
 
 #: ../../source/general.rst:1773 ../../source/general.rst:2071
 #: ../../source/general.rst:2892 ../../source/general.rst:3784
@@ -9621,7 +9622,7 @@ msgid ""
 "aircraft stabilized modes of operation using the STAB switch on the sensor "
 "control panel."
 msgstr ""
-"在脉冲模式下，DDD 将会在所选的尺度显示雷达成像来指示目标的方位和距离，在搜索"
+"在脉冲模式下，DDD 将会在所选的标度显示雷达成像来指示目标的方位和距离，在搜索"
 "模式下可以通过选择 HCU 控制杆功能为 RDR 模式以及 HCU 控制杆来转换至 P STT 模"
 "式。脉冲模式下，可以使用传感器控制面板中的 STAB 开关来选择相对地面或相对飞机"
 "稳定模式。"
@@ -9687,7 +9688,7 @@ msgid ""
 "right scale and applicable attack symbology if a valid missile is selected."
 msgstr ""
 "在 P STT 模式下，DDD 的显示类似于脉冲搜索模式，只不过天线是锁定目标而不是进行"
-"扫描。此外，如果选择了有效的导弹，DDD 还将在目标的周围显示距离门、右侧尺度中"
+"扫描。此外，如果选择了有效的导弹，DDD 还将在目标的周围显示距离门、右侧标度中"
 "的接近率符号和可用于 P STT 的攻击符号。"
 
 #: ../../source/general.rst:2025
@@ -9770,9 +9771,9 @@ msgid ""
 "doppler filters for a known target closing speed and this affects the whole "
 "radar processing unlike the Vc switch which only affects the DDD."
 msgstr ""
-"DDD 面板中的 Vc 开关可以用来设置 DDD 中显示的尺度（显示的接近率区域）。开关拨"
-"到 X-4 档位时，接近率尺度被设置为800节离开到4000节接近。拨动开关至 NORM 档位"
-"则会将接近率标尺区间设置为200节离开到1000节接近。开关拨动到 VID 档位则会将尺"
+"DDD 面板中的 Vc 开关可以用来设置 DDD 中显示的标度（显示的接近率区域）。开关拨"
+"到 X-4 档位时，接近率标度被设置为800节离开到4000节接近。拨动开关至 NORM 档位"
+"则会将接近率标尺区间设置为200节离开到1000节接近。开关拨动到 VID 档位则会将标"
 "度设置为50节离开到250节接近。多普勒滤波器的工作区间也可以通过位于同一面板中"
 "的 ASPECT 开关进行设置，开关在 NOSE 档位时，接近率处理窗口为600节离开到1800节"
 "接近，BEAM 档位为1200节离开到1200节接近，TAIL 档位为1800节离开到600节接近。"
@@ -9852,8 +9853,8 @@ msgid ""
 "details, line of sight rate is the sum of target and own aircraft relative "
 "rate."
 msgstr ""
-"目标地速为900节，本机空速为1200节。详细信息参照下表，视线转率是目标与本机的相"
-"对转率之和。"
+"目标地速为900节，本机空速为1200节。详细信息参照下表，视线角速度是目标与本机的"
+"相对角速度之和。"
 
 #: ../../source/general.rst:2065
 msgid "Look Angle"
@@ -10349,7 +10350,7 @@ msgid ""
 "elevation."
 msgstr ""
 "HCU 控制杆用来控制超级搜索栅状扫描的方位和仰角（X 轴控制方位，Y 轴控制仰"
-"角）。DDD 中将会显示超级搜索的栅状扫描，DDD 显示的尺度为5海里，并且在栅状扫描"
+"角）。DDD 中将会显示超级搜索的栅状扫描，DDD 显示的标度为5海里，并且在栅状扫描"
 "的边缘处还显示了两个刻度标记，刻度标记用来指示当前天线的仰角。"
 
 #: ../../source/general.rst:2244
@@ -12519,6 +12520,9 @@ msgstr ""
 "线电菜单中地勤页面下进行控制。如果使用无线电菜单填装的话将会绕过任务编辑器中"
 "的默认设置。在膝板中查看实际的填装。"
 
+# burst 连投
+# slavoes 齐射
+# program 弹射程序
 #: ../../source/general.rst:2972
 msgid "Programmer"
 msgstr "编程面板"
@@ -12546,8 +12550,8 @@ msgid ""
 "sequences are programmed to launch a number of salvoes, each consisting of a "
 "burst of a set amount of cartridges."
 msgstr ""
-"在投射程序中， **CHAFF** 部分用来控制如何弹射箔条。箔条程序是编程为齐射的数"
-"量，每次弹射由设定的干扰弹数量组成。"
+"在投射程序中， **CHAFF** 部分用来控制如何弹射箔条。箔条程序被编程为以齐射的轮"
+"数进行弹射，每次弹射程序由设定的干扰弹连投数量组成。"
 
 #: ../../source/general.rst:2982
 msgid ""
@@ -12555,7 +12559,7 @@ msgid ""
 "1-4 cartridges and C for continuous and R for random (4-6 cartridges) "
 "possible."
 msgstr ""
-"**B QTY** 控制每次弹射中投放干扰弹的数量，可以选择1-4发干扰弹或 C（连续）和 "
+"**B QTY** 控制每次弹射中干扰弹连投的数量，可以选择1-4发干扰弹或 C（连续）和 "
 "R（随机）。"
 
 #: ../../source/general.rst:2983
@@ -12564,23 +12568,24 @@ msgid ""
 "ejection in each burst, possible settings being .1 (0.125), .2 (0.25), .5 "
 "(0.5), .7 (0.75), 1 and R for random."
 msgstr ""
-"**B INTV** 设置每次干扰弹弹射之间的时间间隔（精度为秒），可以设置为 .1 "
-"(0.125)、 .2 (0.25)、 .5 (0.5)、 .7 (0.75)、 1 和 R（随机）。"
+"**B INTV** 设置干扰弹连投的时间间隔（精度为秒），可以设置为 .1 (0.125)、 .2 "
+"(0.25)、 .5 (0.5)、 .7 (0.75)、 1 和 R（随机）。"
 
 #: ../../source/general.rst:2984
 msgid ""
 "**S QTY** controls how many salvoes of bursts to eject in each program, "
 "settings available are 1, 2, 4, 6, 8, 10 and 15."
 msgstr ""
-"**S QTY** 用来控制进行多少轮弹射程序。可以设置为：1、2、4、6、8、10 和 15。"
+"**S QTY** 用来控制一次弹射程序中，连投的齐射轮数。可以设置为：1、2、4、6、8、"
+"10 和 15。"
 
 #: ../../source/general.rst:2985
 msgid ""
 "**S INT** sets the time in seconds between each salvo in the program, "
 "available settings are 2, 4, 6, 8 and 10."
 msgstr ""
-"**S INT** 用于设置齐射程序之间的时间间隔（精度为秒），可以设置为2, 4, 6, 8 "
-"和 10。"
+"**S INT** 用于设置一次弹射程序中，齐射轮数之间的时间间隔（精度为秒），可以设"
+"置为2, 4, 6, 8 和 10。"
 
 #: ../../source/general.rst:2987
 msgid ""
@@ -12604,8 +12609,8 @@ msgid ""
 "to eject at random intervals between 0.25 to 4 seconds. The first burst in a "
 "salvo will always launch the first 3 cartridges at 0.125 second intervals."
 msgstr ""
-"**B 在 R QTY 和 R INTV** 将设置为每次弹射中弹射4-6发干扰弹并以0.25至4秒间隔内"
-"随机弹射。一轮齐射中的首次弹射始终为投放3发干扰弹、间隔0.125秒。"
+"**B 在 R QTY 和 R INTV** 将设置为每次连投中弹射4-6发干扰弹并以0.25至4秒间隔内"
+"随机弹射。一轮齐射中的连投，始终将首先以间隔0.125秒弹射3发干扰弹。"
 
 #: ../../source/general.rst:2990
 msgid ""
@@ -12613,15 +12618,15 @@ msgid ""
 "cartridges at set interval. First burst will always launch first 3 "
 "cartridges at 0.125 sec interval."
 msgstr ""
-"**B 在 R QTY 和 INTV 为设置的数量** 将设置为每次弹射将以设置的间隔弹射4-6发干"
-"扰弹。首次弹射始终为弹射3发干扰弹、0.125秒间隔。"
+"**B 在 R QTY 和 INTV 为设定的数值** 将设置为每次连投将以设置的间隔弹射4-6发干"
+"扰弹。首次连投始终将首先以间隔0.125秒弹射3发干扰弹。"
 
 #: ../../source/general.rst:2991
 msgid ""
 "**B at fixed QTY and R INTV** sets each burst to eject one cartridge "
 "disregarding B QTY."
 msgstr ""
-"**B 在 固定的 QTY 和 R INTV** 将设置为每次弹射中弹射一发干扰弹，无视 B QTY 设"
+"**B 在 固定的 QTY 和 R INTV** 将设置为每次连投中弹射一发干扰弹，无视 B QTY 设"
 "置。"
 
 #: ../../source/general.rst:2993
@@ -12641,8 +12646,8 @@ msgid ""
 "each ejection in the program. Settings from 1 to 299 possible in 1 second "
 "increments."
 msgstr ""
-"**INTV** 使用三个指示拨轮来设置程序中弹射的时间间隔（精度为秒）。 可每秒逐步"
-"增加从1至299。"
+"**INTV** 使用三个指示拨轮来设置程序中弹射的时间间隔（精度为秒）。可每秒逐步增"
+"加从1至299。"
 
 #: ../../source/general.rst:2997
 msgid "Jammer cartridges not currently implemented in DCS."
@@ -12850,9 +12855,10 @@ msgid ""
 "R10 and R20 and the R10 section type setting should always be set to C for "
 "chaff."
 msgstr ""
-"当安装了 LAU-138 挂架后，挂架布撒器中的 R10 和 R20 部分都会连接到 R20 部分，"
-"并且 R10 部分连接到 LAU-138 挂架。这意味着编程面板上的 R20 的干扰弹类型设置同"
-"时控制着 R10 和 R20，并且 R10 干扰弹类型设置应该始终保持为 C（箔条）。"
+"当安装了 LAU-138 挂架后，布撒器中的 R10 和 R20 部分都会连接到 R20 部分，并且 "
+"R10 部分连接到 LAU-138 挂架。这意味着编程面板上的 R20 的干扰弹类型设置同时控"
+"制着 R10 和 R20（注：ALE-39 原来的部分），并且 R10 干扰弹类型设置应该始终保持"
+"为 C（箔条）。"
 
 #: ../../source/general.rst:3066
 msgid ""
@@ -13705,7 +13711,7 @@ msgid ""
 "successful completion of this phase requires a minimum local level error in "
 "the IMU platform to proceed to the fine alignment phase."
 msgstr ""
-"粗对准在初始化序列完成后开始，并对 IMU 平台漂移角进行初始粗略估量。当 IMU 平"
+"粗对准在初始化序列完成后开始，并对 IMU 平台漂移角进行初始粗略估计。当 IMU 平"
 "台达到最小当地水平误差后本阶段对准完成，对准将进入精对准阶段。"
 
 #: ../../source/general.rst:3345
@@ -13728,7 +13734,7 @@ msgid ""
 "torquing correction signals."
 msgstr ""
 "当 NPS 和 IMU 通电时，大容量存储磁带中的 SMAL 程序将被读入 WCS 计算机的非写保"
-"护内存。对准程序将估量漂移角度，速度误差以及陀螺施矩修正信号。"
+"护内存。对准程序将估计漂移角度，速度误差以及陀螺施矩修正信号。"
 
 #: ../../source/general.rst:3352
 msgid ""
@@ -17918,7 +17924,7 @@ msgid ""
 "(separated by 25 kHz)."
 msgstr ""
 "ARC-182 无线电台提供多模式，多波道，空空/空面话音及单音通信。ARC-182 控制面板"
-"位于 RIO 左侧控制台上。无线电频率有四个频段，分别为 30 至 88 ，108 至 156 ，"
+"位于 RIO 左侧控制台上。无线电频率有四个波段，分别为 30 至 88 ，108 至 156 ，"
 "156 至 174 ，以及 225 至 399.975MHz 内 11960 个波道中的任一波道（使用 25 KHz "
 "开关调整）"
 
@@ -17939,8 +17945,8 @@ msgid ""
 "NM (depending on altitude and atmospheric conditions). A remote indicator on "
 "the pilot instrument panel indicates the channel or frequency selected."
 msgstr ""
-"无线电台可以使用 AM 或 FM 模式进行收发。除了 225 至 399.975 频段（拨动开关）"
-"外，无线电台将自动选择调制方式。无线电台中有30个预设波道可用。每个频段的救生"
+"无线电台可以使用 AM 或 FM 模式进行收发。除了 225 至 399.975 波段（拨动开关）"
+"外，无线电台将自动选择调制方式。无线电台中有30个预设波道可用。每个波段的救生"
 "频率可随其它已选的频率同时守听。无线电被用于与 ARA-50 一起使用，提供信标的自"
 "动测向（ADF）。ARC-182 使用保密话音设备运行（KY-28，KY-58 在 DCS 中尚未实"
 "装）。上部与下部天线可在200海里内提供可靠的视线内通信（根据高度与的大气条件而"
@@ -18044,7 +18050,7 @@ msgstr ""
 msgid ""
 "G – Tunes the transceiver to the guard frequency in the band to which the "
 "radio was last tuned."
-msgstr "G – 将收发器调谐至无线电最后使用频段的救生频率。"
+msgstr "G – 将收发器调谐至无线电最后使用波段的救生频率。"
 
 #: ../../source/general.rst:0
 msgid ""
@@ -18576,9 +18582,9 @@ msgid ""
 "control commands. Additionally, it's also used for the carrier automatic "
 "landing system (ACLS)."
 msgstr ""
-"Link 4A 或 TADIL C 数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路"
-"网络。 然后，数据源（或者说，数据源的操作员）将为 F-14 提供目标跟踪，航路点和"
-"控制命令。 此外，它还用于自动助降系统（ACLS）。"
+"Link 4A（TADIL C）数据链路允许 F-14 连接到由水面舰艇或 AWACS 控制的数据链路网"
+"络。 然后，数据源（或者说，数据源的操作员）将为 F-14 提供目标跟踪，航路点和控"
+"制命令。 此外，它还用于自动助降系统（ACLS）。"
 
 #: ../../source/general.rst:5052
 msgid ""
@@ -18595,7 +18601,7 @@ msgid ""
 "itself, operates using the UHF radio band at 5,000 bits per second."
 msgstr ""
 "因为 Link 4A 与 Link 4C 使用同一个收发器，所以系统不允许同时使用 4A 与 4C。"
-"Link 4C 系统使用 UHF 频段工作，传输速率为5000bit/s。"
+"Link 4C 系统使用 UHF 波段工作，传输速率为5000bit/s。"
 
 #: ../../source/general.rst:5057
 msgid ""

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-08-10 18:46+0800\n"
+"PO-Revision-Date: 2020-09-14 23:25+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -26,7 +26,7 @@ msgstr ""
 "#\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 "#-#-#-#-#  weapons_wl.po (DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1)  #-#-#-"
 "#-#\n"
 "Generated-By: Babel 2.6.0\n"
@@ -48,6 +48,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
 
+# 2020/09/03 AG 精校对开始
+# 2020/09/14 AG 精校对完毕
 #: ../../source/weapons.rst:4
 msgid "Weapons and Weapons Employment Overview"
 msgstr "武器系统和武器使用总览"
@@ -78,15 +80,15 @@ msgid ""
 "cases after the rounds have been fired."
 msgstr ""
 "M-61 安装在 F-14 驾驶舱下方的机身内，炮口位于机身的左下侧。航炮的弹鼓内携带"
-"了 676 发 20 毫米炮弹，并且会保留航炮射击后留下的药筒。"
+"了 676 发 20 毫米炮弹，并且航炮会保留射击后留下的药筒。"
 
 #: ../../source/weapons.rst:17
 msgid ""
 "The gun itself is mounted to be elevated slightly more than 3° from the ADL "
 "to provide built-in lead for dog-fight situations."
 msgstr ""
-"航炮安装的角度，比武器基准线（ADL）略高3度，F-14 在狗斗中进行前置射击时便能体"
-"现这样安装航炮的先天优势。"
+"航炮安装的角度比武器基准线（ADL）略高3度，F-14 在狗斗中进行提前射击时便能体现"
+"这样安装航炮的先天优势。"
 
 #: ../../source/weapons.rst:19
 msgid ""
@@ -129,10 +131,10 @@ msgid ""
 msgstr ""
 "航炮的两种模式对应的射击速率分别是每分钟 4000 发和每分钟 6000 发。低射速模式"
 "通常用于对地攻击，高射速模式用于对空攻击。可以通过 ACM 面板上的 GUN RATE（航"
-"炮射速）开关切换，面板上也会显示当前选定的模式。选择 ACM 模式会自动选择航炮高"
-"射速模式。虽然航炮射击不经过 WCS，但 WCS 可以在 HUD 中显示射击标识来辅助飞行"
-"员瞄准，以提升命中率。空对空和空对地模式下都有两种可用准星。空对空模式下的两"
-"种可用准星分别是手动准星和 RTGS（实时航炮准星）。"
+"炮射速）开关切换，面板上也会显示当前选定的模式。选择 ACM 模式将会自动选择航炮"
+"高射速模式。虽然航炮射击不经过 WCS，但 WCS 可以在 HUD 中显示射击标识来辅助飞"
+"行员瞄准，以提升命中率。空对空和空对地模式下都有两种可用准星。空对空模式下的"
+"两种可用准星分别是手动准星和 RTGS（实时航炮准星）。"
 
 #: ../../source/weapons.rst:43
 msgid "**Manual Air-to-Air Sight**"
@@ -148,8 +150,8 @@ msgid ""
 "deflection needs to be estimated by the pilot."
 msgstr ""
 "在手动模式下，HUD 上显示了 ADL、武器标识以及手动准星。在空对空模式下选择航炮"
-"后，按下左油门握把上的 CAGE/SEAM 按钮来进入此模式。该模式下飞行员使用手动准星"
-"作为参考，手动控制飞机来击中目标。实际目标距离和抬高/下压量需要飞行员自己估"
+"后，按下左油门握把上的 CAGE/SEAM 按钮来进入此模式。在手动模式下飞行员使用手动"
+"准星作为参考，操纵飞机来击中目标。实际目标距离和抬高/下压量需要飞行员自己估"
 "算。"
 
 # GUN ELEV panel
@@ -187,7 +189,6 @@ msgstr ""
 "飞行1000英尺和2000英尺后将会通过的位置。十字准星指示1000英尺处炮弹通过的位"
 "置，而菱形标识则指示2000英尺处炮弹通过的位置。"
 
-# 替代显示的飞行轨迹待验证
 #: ../../source/weapons.rst:69
 msgid ""
 "If target data is available from the WCS (target tracked in an STT mode) the "
@@ -197,8 +198,8 @@ msgid ""
 "should fly the aircraft to place the pipper over the target to hit it."
 msgstr ""
 "如果 WCS 可以（使用 STT 模式跟踪目标）获取目标数据，当目标当前距离4000英尺内"
-"时，准星会替代显示的飞行轨迹。菱形标识则显示雷达的视线（也就是目标位置）。这"
-"意味着飞行员需要控制飞机将十字准星对准目标来击落它。"
+"时，准星会替代显示的炮弹通过的位置。菱形标识则显示雷达的视线（也就是目标的位"
+"置）。这意味着飞行员需要控制飞机将十字准星对准目标来击落它。"
 
 #: ../../source/weapons.rst:73
 msgid ""
@@ -224,8 +225,8 @@ msgid ""
 "target, blinking, indicating that the bullets passed through the target's "
 "location."
 msgstr ""
-"利用这个标识便可以判断出，为了击中目标，炮弹需要通过的位置。如果航炮成功命中"
-"目标，菱形标识应正好位于目标上方并闪烁，表示炮弹穿过了目标位置。"
+"利用这个标识便可以判断出，要击中目标，炮弹需要通过的位置。如果航炮成功命中目"
+"标，菱形标识应正好位于目标上方并闪烁，表示炮弹穿过了目标位置。"
 
 #: ../../source/weapons.rst:84
 msgid "**Manual Air-to-Ground Sight**"
@@ -263,9 +264,9 @@ msgid ""
 "the RIO on the ATTK MODE selector, as for manual air-to-ground sight, by "
 "selecting CMPTR-PLT."
 msgstr ""
-"使用计算机/引导式时，WCS 会连续计算航炮及其他空对地武器命中点。与手动空对地准"
-"星一样，计算机/引导模式是由 RIO 选择 ATTK MODE 旋钮开关上的 CMPTR-PLT 档位来"
-"启用的。"
+"使用计算机/引导模式时，WCS 会连续计算航炮及其他空对地武器命中点。与手动空对地"
+"准星一样，计算机/引导模式是由 RIO 选择 ATTK MODE 旋钮开关上的 CMPTR-PLT 档位"
+"来启用的。"
 
 #: ../../source/weapons.rst:103
 msgid ""
@@ -273,8 +274,8 @@ msgid ""
 "accurate range measurements and enable the HUD display of that same impact "
 "point."
 msgstr ""
-"此模式下，AN/AWG-9 雷达会隶属到武器命中点并对准武器命中点来进行精确测距并在 "
-"HUD 上显示命中点位置。"
+"在此模式下，AN/AWG-9 雷达会隶属到武器命中点并对准武器命中点来进行精确测距并"
+"在 HUD 上显示命中点位置。"
 
 #: ../../source/weapons.rst:105
 msgid ""
@@ -287,12 +288,12 @@ msgid ""
 msgstr ""
 "HUD 上的十字准星指示武器实时命中点，菱形标识则代表超出武器射程。菱形消失表示"
 "十字准星指向的目标正处于航炮射程内。HUD 上的拉起提示符将根据飞机的高度垂直移"
-"动，当它高于武器命中点 (十字准星）位置时，则表示高度过低，须立刻拉起，避免撞"
-"击地面，或目标距离过近，无法保证投弹安全。"
+"动，当拉起提示符高于/处在武器命中点 (十字准星）的位置时，则表示高度过低，飞行"
+"员需要立刻拉起避免撞击地面以及目标过近无法保证安全的进行攻击。"
 
 #: ../../source/weapons.rst:108
 msgid "The right side of the HUD displays the barometric altitude scale."
-msgstr "HUD 右侧显示了气压高度标尺。"
+msgstr "HUD 右侧显示了气压高度标度。"
 
 #: ../../source/weapons.rst:111
 msgid "**Mixed Gun Mode**"
@@ -309,12 +310,11 @@ msgid ""
 "the HUD."
 msgstr ""
 "在选择了其他空对地武器的情况下，将武器控制面板（在 RIO 左侧垂直控制台上）的 "
-"A/G GUN 开关拨至 MIXED 档位，便可以同时使用航炮和其他武器。如此设置后，按下扳"
-"机可发射航炮，但是 HUD 中将不会显示航炮瞄准标识，因为 HUD 标识正被用于显示当"
-"前选中武器的投放数据。使用航炮混合模式时，HUD 中的 ADL 是航炮唯一的参考标识，"
-"飞行员需要自行估算炮弹命中点。"
+"A/G GUN 开关拨至 MIXED 档位，便可以同时使用航炮和其他武器。在设置为 MIXED 档"
+"位后，按下扳机可发射航炮，但是 HUD 中将不会显示航炮瞄准标识，因为 HUD 标识正"
+"被用于显示当前选中武器的投放数据。使用航炮混合模式时，HUD 中的 ADL 是航炮唯一"
+"的参考标识，飞行员需要自行估算炮弹命中点。"
 
-# 01/26 AG校对 - 01/31校对完毕
 #: ../../source/weapons.rst:123
 msgid "Air-to-Air Weapons"
 msgstr "空对空武器"
@@ -335,8 +335,8 @@ msgid ""
 "of knots, from -200 to +1,000 knots. Current closure rate as displayed by a "
 "**<**."
 msgstr ""
-"作为标准，HUD 左侧显示了以百节为单位的 **接近率** ，范围从-200节到+1000节。“ "
-"**<** ”符号指示了当前接近率。"
+"作为标准，HUD 左侧显示了以百节为单位的 **接近率** ，范围从-200节到+1000节。 "
+"**<** 符号指示当前的接近率。"
 
 #: ../../source/weapons.rst:135
 msgid ""
@@ -346,19 +346,18 @@ msgid ""
 "a **>** and selected weapon max and minimum ranges as indicated by the "
 "dashes (**-**)."
 msgstr ""
-"另外，HUD 右侧显示的 **目标距离标尺** ，根据标尺比例显示目标距离，如上图所"
-"示，当前距离标尺为10海里。标尺上的 **>** 符号指示当前目标的距离，短横（ **-"
+"另外，HUD 右侧显示的 **目标距离标度** ，根据标度比例显示目标距离，如上图所"
+"示，当前距离标度为10海里。标度上的 **>** 符号指示当前目标的距离，短横（ **-"
 "** ）符号分别指示当前选中武器的最大和最小发射距离。"
 
-# 随动准星？
 #: ../../source/weapons.rst:138
 msgid ""
 "The **Movable Reticle** (called pipper for air to ground and gun employment) "
 "and the **Target Designator** can show different things depending on current "
 "situation."
 msgstr ""
-"随动准星（空对地模式和使用航炮时被称为十字准星）和 **目标指示符** 标识根据不"
-"同情况有不同含义。"
+"**随动准星** （空对地模式和使用航炮时被称为十字准星）和 **目标指示符** 标识根"
+"据不同情况有不同含义。"
 
 #: ../../source/weapons.rst:140
 msgid ""
@@ -383,10 +382,9 @@ msgid ""
 "reticle or the target designator depending on if a radar STT is also present "
 "and if a radar STT is present with AIM-9 selected it's not shown at all."
 msgstr ""
-"因此，TCS 的视线可以由随动准星或目标指定符指示，这取决于雷达是否有 STT 目标，"
+"因此，TCS 的视线可以由随动准星或目标指示符指示，这取决于雷达是否有 STT 目标，"
 "而在选中 AIM-9 的情况下则完全不显示（TCS 视线）。"
 
-# 01/27 AG校对完毕
 #: ../../source/weapons.rst:150
 msgid "AIM-7 Sparrow"
 msgstr "AIM-7“麻雀”导弹"
@@ -409,10 +407,10 @@ msgid ""
 "and following the radar emissions being reflected off the target."
 msgstr ""
 "AIM-7“麻雀”空空导弹是一种超音速助推/滑翔导弹，它能在全天候条件下攻击飞机和导"
-"弹。AIM-7 “麻雀”是一种中距空对空导弹，AIM-7E 最大射程最短为16海里（30千米）"
-"而 AIM-7F 和 AIM-7M 最大射程最短为38海里（70千米）。它的全天候能力来自于导弹"
-"雷达制导，更确切地说是半主动雷达制导（SARH）。这意味着“麻雀”只有依赖 AN/"
-"AWG-9 为其照射目标，它的导引头才能跟踪目标的雷达反射信号。"
+"弹。AIM-7 “麻雀”是一种中程空对空导弹，AIM-7E 最大射程超过16海里（30千米）而 "
+"AIM-7F 和 AIM-7M 最大射程超过38海里（70千米）。AIM-7 的全天候能力来自于导弹使"
+"用雷达制导，更确切地说是半主动雷达制导（SARH）。这意味着“麻雀”只有依赖 AN/"
+"AWG-9 为其照射目标，其导引头才能跟踪目标的雷达反射信号。"
 
 #: ../../source/weapons.rst:160
 msgid ""
@@ -432,6 +430,7 @@ msgstr ""
 "除了导弹射程，导引头和战斗部的各种改进之外，不同版本之间的主要区别在于 "
 "AIM-7F 及其改进型除了 CW（连续波）外也可以通过脉冲多普勒进行制导。"
 
+# 2020/09/04 AG 校对至此
 #: ../../source/weapons.rst:167 ../../source/weapons.rst:240
 #: ../../source/weapons.rst:337
 msgid "Missile Preparation"
@@ -444,7 +443,7 @@ msgid ""
 "missile preparation for the AIM-7 and AIM-54."
 msgstr ""
 "发射 AIM-7 导弹前，需要在前座飞行员 ACM 面板上选择 MSL PREP-ON 按钮来开始准备"
-"程序。这个指令会让 WCS 开始准备 AIM-7 和 AIM-54 导弹。"
+"程序。这将指令 WCS 开始准备 AIM-7 和 AIM-54 导弹。"
 
 #: ../../source/weapons.rst:177
 msgid ""
@@ -456,10 +455,11 @@ msgid ""
 "individual missiles are tuned and ready the corresponding missile status "
 "windows turns white to indicate a ready missile."
 msgstr ""
-"准备 AIM-7 发射程序时，WCS 会为导弹预热电子元件和陀螺仪提供所需电力。它还会通"
-"过导弹导轨后端的发射器向导弹尾部的接收机输入 CW 雷达视频。此视频用于将 AIM-7 "
-"导弹调谐到 RIO 在 DDD 面板选定的CW频率上。当一枚导弹调谐并准备完毕时，ACM 面"
-"板对应的挂架状态标识旗将变成白色，表示对应挂架上的导弹已经准备完毕。"
+"按下导弹发射准备按钮时，对于 AIM-7 来说，WCS 将为导弹提供预热电子元件和陀螺仪"
+"所需的电力。WCS 还将会通过导弹导轨后端的发射器向导弹尾部的接收机输入 CW 雷达"
+"视频。此视频用于将 AIM-7 导弹调谐到 RIO 在 DDD 面板中选定的 CW 频率上。当一枚"
+"导弹调谐并准备完毕时，ACM 面板对应的挂架状态标识旗将变成白色，表示对应挂架上"
+"的导弹已经准备完毕。"
 
 #: ../../source/weapons.rst:184 ../../source/weapons.rst:347
 msgid "Launch Modes"
@@ -473,8 +473,8 @@ msgid ""
 "which Sparrow to launch is done automatically by the WCS."
 msgstr ""
 "F-14 上有两种可用发射模式用于 AIM-7 ，分别是正常模式和瞄准轴模式。飞行员使用"
-"驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）档位来选择发射AIM-7。WCS将自动"
-"选择一枚用于发射的导弹。"
+"驾驶杆武器选择开关上的 SP/PH（“麻雀”/“不死鸟”）档位来选择发射 AIM-7。WCS 将自"
+"动选择一枚“麻雀”来发射。"
 
 #: ../../source/weapons.rst:190
 msgid ""
@@ -516,7 +516,7 @@ msgid ""
 "guide the sparrow missiles using pulse doppler illumination instead."
 msgstr ""
 "RIO 可以在武器控制面板上将 MSL OPTIONS 开关设置到 SP PD（“麻雀”/ 多普勒）档位"
-"来切换至脉冲多普勒制导。选择此选项后，WCS 将使用脉冲多普勒照射引导“麻雀”导"
+"来切换至脉冲多普勒制导。选择 SP PD 将使 WCS 采用脉冲多普勒照射来引导“麻雀”导"
 "弹。"
 
 #: ../../source/weapons.rst:209
@@ -545,11 +545,11 @@ msgid ""
 "launch, enabling the pilot to try and save the shot by keeping the target "
 "within the flood area."
 msgstr ""
-"瞄准轴模式使用 AN/AWG-9 雷达上的 CW 泛指天线，使导弹跟踪泛指区内反射信号最强"
-"的目标。无论是在发射前还是在发射后，雷达将在目标丢失后切换到泛指模式，除非是"
-"在瞄准轴模式下发射，飞行员可以通过将目标保持在泛指区域内来尝试继续引导导弹。"
+"瞄准轴模式使用 AN/AWG-9 雷达上的 CW 泛指天线并使导弹跟踪泛指区内反射信号最强"
+"的目标。除了在瞄准轴模式下发射外，无论是在发射前还是在发射后，雷达同样还将在"
+"目标丢失后切换到泛指模式，飞行员可以通过将目标保持在泛指区域内来尝试继续引导"
+"导弹。"
 
-# 01/28 AG校对完毕
 #: ../../source/weapons.rst:223
 msgid "AIM-9 Sidewinder"
 msgstr "AIM-9“响尾蛇”导弹"
@@ -566,8 +566,8 @@ msgid ""
 "infrared seeker locking on to a targets IR signature making it capable of "
 "tracking a target both during daytime and at night."
 msgstr ""
-"AIM-9“响尾蛇”导弹是一种近距离空空导弹。它使用红外导引头来锁定目标的红外特征，"
-"使其无论昼间还是夜间都能跟踪目标。"
+"AIM-9“响尾蛇”导弹是一种近程空空导弹。它使用红外导引头来锁定目标的红外特征，使"
+"其无论昼间还是夜间都能跟踪目标。"
 
 #: ../../source/weapons.rst:231
 msgid ""
@@ -600,8 +600,8 @@ msgid ""
 "seeker head performance will take at least 60 seconds."
 msgstr ""
 "发射 AIM-9 前需要启用导引头冷却。按下飞行员 ACM 面板的 SW COOL 按钮开关，或在"
-"相同面板选择 ACM 模式来启用导引头冷却。按下后会让导引头进行冷却，导弹状态会立"
-"刻显示就绪，但使导引头发挥全部性能需要进行至少60秒冷却。"
+"相同面板选择 ACM 模式来启用导引头冷却。按下后会指令冷却导弹导引头，挂点状态标"
+"识旗立刻显示就绪，但使导引头发挥全部性能需要进行至少60秒冷却。"
 
 #: ../../source/weapons.rst:256
 msgid "Seeker Head Modes"
@@ -618,9 +618,9 @@ msgid ""
 "from ADL, allowing for off boresight acquisition."
 msgstr ""
 "AIM-9G 换装了能够进行响尾蛇扩展搜索模式（SEAM）的导引头，F-14 携带的后续所有"
-"响尾蛇导弹都能使用此模式。SEAM 允许导引头解锁并在范围（离 ADL 40°）内跟踪目"
-"标，使得飞行员能引导目标，从而提升了导弹的性能。它还允许 F-14 上的 WCS 将导引"
-"头隶属到 ADL 20° 内的目标进行跟踪，来实现偏离瞄准轴锁定。"
+"响尾蛇导弹都能使用此模式。SEAM 允许导引头解锁并在导引头限制（离 ADL 40°）内跟"
+"踪目标，使得飞行员能提前瞄准目标，从而提升导弹的性能。它还允许 F-14 中的 WCS "
+"将导引头隶属到 ADL 20° 内已锁定目标进行跟踪，来实现偏离瞄准轴锁定。"
 
 #: ../../source/weapons.rst:262
 msgid ""
@@ -658,9 +658,9 @@ msgstr ""
 "通过飞行员驾驶杆上的武器选择开关来选择 AIM-9 “响尾蛇”导弹。按下武器选择开关可"
 "以切换用于发射的 AIM-9 导弹，ACM 面板上相应的状态窗口中，标识旗指示了当前选中"
 "的导弹。使用 AIM-9 时，HUD 使用菱形标识指示跟踪的目标，使用准星（十字准线）指"
-"示当前导引头指向的位置。如果 WCS 有跟踪目标测距信息，则 HUD 还显示目标距离、R"
-"\\ :sub:`min`\\ （最小发射距离）和 R\\ :sub:`max`\\ （最大发射距离）。如果 "
-"WCS 有跟踪目标，则 VDI，DDD 和 TID 将显示攻击引导符。"
+"示当前导引头指向的位置。如果 WCS 跟踪目标包含距离信息，那么 HUD 还将显示目标"
+"距离、R\\ :sub:`min`\\ （最小发射距离）和 R\\ :sub:`max`\\ （最大发射距离）。"
+"如果 WCS 有跟踪目标，那么 VDI，DDD 和 TID 将显示攻击引导符。"
 
 #: ../../source/weapons.rst:279
 msgid ""
@@ -669,9 +669,8 @@ msgid ""
 "having the ACM mode active. In this mode the pilot puts the target at ADL "
 "and fires when the aural tone is present."
 msgstr ""
-"不激活 ACM 模式的情况下，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM 功能"
-"（无扫描功能）的基础瞄准轴模式。在此模式中飞行员将 ADL 对准目标，当高频音调响"
-"起时开火。"
+"不激活 ACM 模式的情况下，按下飞行员 ACM 面板的 BRSIT 开关来选择无 SEAM（不扫"
+"描）的基础瞄准轴模式。在此模式中飞行员将 ADL 对准目标，当高频音调响起时开火。"
 
 #: ../../source/weapons.rst:282
 msgid ""
@@ -681,7 +680,7 @@ msgid ""
 "sight, otherwise the missile will scan around the ADL."
 msgstr ""
 "如果未使用 BRSIT 按钮开关或 ACM 模式处于激活状态，AIM-9 将使用 SEAM ，并且使"
-"用 双D 栅状扫描。如果 WCS 有锁定的目标，导引头会扫描雷达或 TCS 视线周围，否则"
+"用 双D 扫描模式。如果 WCS 有锁定的目标，导引头会扫描雷达或 TCS 视线周围，否则"
 "导弹导引头会在 ADL 周围进行扫描。"
 
 #: ../../source/weapons.rst:290
@@ -692,9 +691,9 @@ msgid ""
 "target present in the seeker field of view. If no IR sources is found the "
 "missile is again caged and the SEAM LOCK light is deactivated."
 msgstr ""
-"飞行员可以按下左油门握把上的 CAGE/SEAM 按钮来使用 SEAM 模式锁定目标。 ACM 面"
-"板的 SEAM LOCK 灯将会亮起并将导引头解锁4.5秒，允许它跟踪导引头视场内的目标。"
-"如果未探测到红外源，则导弹导引头会重新锁定，且 SEAM LOCK 灯熄灭。"
+"飞行员可以按下左油门握把上的 CAGE/SEAM 按钮来使用 SEAM 模式锁定目标。ACM 面板"
+"的 SEAM LOCK 指示灯将会亮起并将导引头解锁4.5秒，并允许导引头跟踪处在视场内的"
+"目标。如果未探测到红外源，则导弹导引头会重新锁定，且 SEAM LOCK 指示灯熄灭。"
 
 #: ../../source/weapons.rst:294
 msgid ""
@@ -705,7 +704,6 @@ msgstr ""
 "如果成功锁定，音调将持续响起，SEAM LOCK 灯保持亮起，飞行员按下驾驶杆扳机来发"
 "射导弹。发射后，下一枚 AIM-9 将会被自动选中。"
 
-# 01/29 AG校对
 #: ../../source/weapons.rst:308
 msgid "AIM-54 Phoenix"
 msgstr "AIM-54“不死鸟”导弹"
@@ -732,9 +730,10 @@ msgid ""
 "corresponding AN/AWG-9 WCS eventually found its way to the F-14 instead."
 msgstr ""
 "AIM-54 “不死鸟”导弹是一种远程空空导弹，它本来是为流产的 F-111B 舰队防空战斗机"
-"计划而设计的。F-111B 计划以失败告终，使得 F-111B 的 AIM-54 导弹与配套的 AN/"
-"AWG-9 WCS 最终被用于装备 F-14。"
+"计划而设计的。F-111B 计划以失败告终，F-111B 的 AIM-54 导弹与配套的 AN/AWG-9 "
+"WCS 最终被用于装备在 F-14 身上。"
 
+# rails = 武器导轨，see NATOPS
 #: ../../source/weapons.rst:318
 msgid ""
 "The F-14 is capable of carrying up to 6 AIM-54 missiles, four on rails on "
@@ -744,9 +743,9 @@ msgid ""
 "present. The glove pylons contain their own cooling systems."
 msgstr ""
 "F-14 最多可携带6枚 AIM-54 导弹，左右翼套挂架上各搭载一枚，其余四枚搭载于机身"
-"导弹导轨上。由于导弹冷却系统的设计原因，两个机身前排挂架必须总是挂弹，这意味"
-"着如果前排挂架不挂载导弹，机身后排挂架便无法使用。而翼套挂架内置了单独的冷却"
-"系统。"
+"武器导轨上。由于导弹冷却系统的设计原因，两个机身前排挂架必须总是挂载导弹，这"
+"意味着如果前排挂架不挂载导弹，机身后排挂架便无法使用。而翼套挂架内置了单独的"
+"冷却系统。"
 
 #: ../../source/weapons.rst:322
 msgid ""
@@ -779,7 +778,7 @@ msgid ""
 "multiple targets this drops to about 50 NM. It has a greater range against "
 "large targets and vice versa against smaller targets."
 msgstr ""
-"使用 PD STT 模式攻击战斗机尺寸的高空目标时，AIM-54 的射程最小为60海里。而使"
+"使用 PD STT 模式在高空攻击战斗机大小的目标时，AIM-54 的射程超过60海里。而使"
 "用 TWS 攻击多目标时，射程缩短到约50海里。攻击大型目标时，射程会增加，反之，攻"
 "击小型目标时，射程会缩短。"
 
@@ -790,9 +789,9 @@ msgid ""
 "missile will revert to SARH mode if no target is detected if selected for "
 "active launch in a SARH mode."
 msgstr ""
-"如果使用主动模式发射，根据目标尺寸的大小射程也稍有差异，例如攻击战斗机尺寸的"
-"目标射程会缩短至大约 10 海里。需要注意的是，在 SARH 模式下使用 ACM 主动模式发"
-"射后，如果导引头没有探测到目标导弹则会返回 SARH。"
+"如果使用主动模式发射，根据目标的大小射程也会稍有差异，例如攻击战斗机大小的目"
+"标射程会缩短至大约 10 海里。需要注意的是，在 SARH 模式下使用 ACM 主动模式发射"
+"后，如果导引头没有探测到目标，那么导弹将会返回 SARH 模式。"
 
 #: ../../source/weapons.rst:339
 msgid ""
@@ -802,7 +801,7 @@ msgid ""
 "missile (BIT)."
 msgstr ""
 "选择飞行员 ACM 面板上的 MSL PREP 按钮开关或激活 ACM 模式开始 AIM-54 导弹的准"
-"备。这将接通导弹的电源和冷却系统，同时也会启动导弹的自检程序（BIT）。"
+"备。这将接通导弹的电源和冷却系统，同时也会启动导弹的机内自检（BIT）。"
 
 #: ../../source/weapons.rst:342
 msgid ""
@@ -812,7 +811,7 @@ msgid ""
 "minutes at which time the AIM-54 missiles are indicated ready in the "
 "corresponding missile status windows on the pilot ACM."
 msgstr ""
-"与 AIM-7 一样，在发射 AIM-54 前，需要通过装在导弹导轨末端的发射器向导弹尾部的"
+"与 AIM-7 一样，在发射 AIM-54 前，需要通过装在武器导轨末端的发射器向导弹尾部的"
 "接收机发送调谐数据。整个导弹准备周期大约需要2分钟来完成，完成后飞行员 ACM 面"
 "板上相应的状态标识旗窗口会指示 AIM-54 准备完毕。"
 
@@ -821,8 +820,7 @@ msgid ""
 "The seeker head used in the AIM-54 is capable of both semi-active radar "
 "homing (SARH) and active radar homing (ARH)."
 msgstr ""
-"AIM-54 的导引头能够使用半主动雷达制导（SARH）和主动雷达制导（ARH）来跟踪目"
-"标。"
+"AIM-54 的导引头能够使用半主动雷达制导（SARH）和主动雷达制导（ARH）模式。"
 
 #: ../../source/weapons.rst:351
 msgid ""
@@ -838,7 +836,6 @@ msgstr ""
 # SARH - Semi-active radar guidance
 # 半主动雷达制导
 # 主动雷达制导
-# AG 01/29校对至此
 #: ../../source/weapons.rst:356
 msgid "TWS SARH/ARH"
 msgstr "TWS SARH/ARH"
@@ -853,8 +850,8 @@ msgid ""
 "seeker's ARH mode the AN/AWG-9 commands the missile to switch to ARH."
 msgstr ""
 "在 TWS 模式下，AN/AWG-9 可以支持同时对6个不同目标发射6枚 AIM-54 导弹。在 "
-"AIM-54 跟踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的引导指令和目标的雷达反射"
-"波来进行半主动制导。当目标进入导弹导引头 ARH 模式的范围内后，AN/AWG-9 会命令"
+"AIM-54 跟踪的第一阶段，导弹接收由 AN/AWG-9 雷达发射的制导指令和目标的雷达反射"
+"波来进行半主动制导。当目标进入导弹导引头 ARH 模式的距离内后，AN/AWG-9 会命令"
 "导弹切换至 ARH。"
 
 #: ../../source/weapons.rst:362
@@ -887,7 +884,7 @@ msgid ""
 msgstr ""
 "在 PD STT（脉冲多普勒 单目标跟踪）模式下，AIM-54 全程使用 SARH 模式，相比 "
 "TWS 模式，导弹以会更高的频率接收雷达制导指令，并且由于使用单目标跟踪，目标会"
-"受到持续聚焦照射。使用 PD STT 可以略微增加 AIM-54 导引头的有效搜索距离。"
+"受到持续聚焦照射。使用 PD STT 可以略微增加 AIM-54 导引头的有效探测距离。"
 
 #: ../../source/weapons.rst:374
 msgid "Active-Radar Homing (ARH)"
@@ -965,9 +962,9 @@ msgid ""
 "track the target using SARH or ARH. This is done without crew action and is "
 "not indicated to the operator."
 msgstr ""
-"在所有引导模式中，如果受到干扰，导引头会自动切换至被动 ECM 寻的模式，来角跟踪"
-"目标，直到导引头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自动完成的，不"
-"需要机组操作，操作员也不会收到提示。"
+"在所有引导模式中，如果受到干扰，导引头会自动切换至被动 ECM 寻的模式，来对目标"
+"进行角跟踪，直到导引头能重新使用 SARH 或 ARH 跟踪目标。这个切换过程是自动完成"
+"的，不需要机组操作，操作员也不会收到提示。"
 
 #: ../../source/weapons.rst:407
 msgid ""
@@ -985,7 +982,7 @@ msgid ""
 "any symbology apart from the ADL which is used to aim the missile."
 msgstr ""
 "WCS 无跟踪目标的情况下使用瞄准轴或 ACM 主动模式发射 AIM-54 时，除了用于瞄准导"
-"弹的 ADL 线外，HUD 上不会显示任何标识。"
+"弹的 ADL 外，HUD 上不会显示任何标识。"
 
 #: ../../source/weapons.rst:412
 msgid ""
@@ -998,12 +995,11 @@ msgid ""
 msgstr ""
 "在 STT 模式下，且 WCS 有跟踪目标时，HUD 上会显示目标指示符，如果 TCS 也有跟踪"
 "目标，那么目标上会显示随动准星。前者指示了 WCS 跟踪目标，后者指示了 TCS 的视"
-"线。HUD 右侧的距离标尺上指示了目标当前距离、R\\ :sub:`min`\\ 和 R\\ :sub:"
+"线。HUD 右侧的距离标度上指示了目标当前距离、R\\ :sub:`min`\\ 和 R\\ :sub:"
 "`max`\\ ，而 VDI、DDI 和 TID 上则显示了攻击引导标识。"
 
-# Track While Scan
-# 注意翻译成汉语的语序：边扫描边跟踪
-# 01/30校对至此 AG
+# Track While Scan - in F-14,TWS should be Track While Search.
+# 注意翻译成汉语的语序：边搜索边跟踪
 #: ../../source/weapons.rst:419
 msgid "TWS"
 msgstr ""
@@ -1027,7 +1023,7 @@ msgid ""
 "missiles are away."
 msgstr ""
 "依次对每个目标按下一次扳机来继续攻击跟踪目标 2 至 6，等前一枚导弹离轨后再按下"
-"扳机，直到希望发射的导弹全部发射完毕。"
+"扳机，依此类推直到所需发射的导弹全部发射完毕。"
 
 #: ../../source/weapons.rst:426
 msgid ""
@@ -1040,7 +1036,8 @@ msgid ""
 msgstr ""
 "导弹发射后，跟踪目标右侧的发射优先级数字会被替换为 TTI，也就是预计命中时间，"
 "这是计算出的导弹命中目标所需的时间。此外，当 AN/AWG-9 向导弹发送开机指令时，"
-"TTI 数字会闪烁，数字闪烁表示跟踪目标的导弹已经接收主动模式开机指令。"
+"TTI 数字将会闪烁，数字闪烁表示跟踪目标的导弹已经接收指令使用主动雷达制导模式"
+"对目标进行跟踪。"
 
 #: ../../source/weapons.rst:429
 msgid ""
@@ -1081,7 +1078,6 @@ msgstr ""
 "达，照射所有攻击目标。除了跟踪目标数字编号外，TID 也会显示转向质心来指示 TWS "
 "栅状扫描的中心点。"
 
-# 01/31校对至此 by AG
 #: ../../source/weapons.rst:442
 msgid ""
 "The HUD and VDI displays a steering cue guiding the pilot towards optimal "
@@ -1093,9 +1089,8 @@ msgstr ""
 "HUD 和 VDI 上显示了一个转向提示来引导飞行员控制飞机，使雷达以最优条件照射目"
 "标，同时 HUD 和 VDI 上也显示了本机至 1 号目标的距离、R\\ :sub:`min`\\  和 R"
 "\\ :sub:`max`\\ 。TID 上显示了完整的攻击符号标识，包括目标优先级序号和每个目"
-"标的最优发射距离，详见 :ref:`TWS`。"
+"标的最佳发射距离，详见 :ref:`TWS`。"
 
-# 01/22 AG校对 - 01/25校对完毕
 #: ../../source/weapons.rst:447
 msgid "Air-to-Ground Weapons"
 msgstr "空对地武器"
@@ -1120,7 +1115,7 @@ msgid ""
 "guided versions."
 msgstr ""
 "随着 F-14 的作战职能逐渐转变为对地精确打击任务，它也可以挂载几种安装了炸弹制"
-"导单元（GBU）的 Mk-80 系列炸弹，准确的说，是这些炸弹的激光制导型号。"
+"导装置（GBU）的 Mk-80 系列炸弹，准确的说，是这些炸弹的激光制导型号。"
 
 #: ../../source/weapons.rst:456
 msgid "Air-to-Ground Weapon Settings"
@@ -1199,7 +1194,7 @@ msgid ""
 "both fuses."
 msgstr ""
 "使用 MECH FUSE 开关来选择挂载启用哪种机械引信。NOSE 启用头部引信，SAFE 禁止引"
-"信激活，而 NOSE/TAIL 同时启用头部引信和尾部引信。"
+"信解除保险，而 NOSE/TAIL 同时启用头部引信和尾部引信。"
 
 #: ../../source/weapons.rst:477
 msgid ""
@@ -1213,7 +1208,7 @@ msgstr "SAFE - 禁用炸弹电子引信。"
 
 #: ../../source/weapons.rst:480
 msgid "VT - Sets air-burst mode at preset burst height for compatible stores."
-msgstr "VT - 为支持近炸的挂载设置爆炸高度。"
+msgstr "VT - 为支持空爆模式的挂载设置爆炸高度。"
 
 #: ../../source/weapons.rst:481
 msgid "INST - Sets instantaneous burst mode."
@@ -1244,10 +1239,10 @@ msgid ""
 "Stations 1 and 8 should be set to B for selection, SW was used to jettison "
 "AIM-9 Sidewinders but is now inoperable."
 msgstr ""
-"最后，6 个 STA SEL（挂点选择）开关用于选择投放挂载（或抛离挂载）的挂架。将挂"
+"最后，6 个 STA SEL（挂点选择）开关用于选择投放挂载（或抛弃挂载）的挂架。将挂"
 "架对应的开关拨至 SEL 档位来选择这个挂架进行投放。然而，选择 1 号挂点和 8 号挂"
-"点时，应将对应的开关拨至 B 档位。开关的 SW 档位曾用于抛离 AIM-9 “响尾蛇”导"
-"弹，但现已无法使用。"
+"点时，应将对应的开关拨至 B 档位。开关的 SW 档位曾用于抛弃 AIM-9 “响尾蛇”导"
+"弹，但现已无法操作。"
 
 #: ../../source/weapons.rst:490
 msgid ""
@@ -1256,13 +1251,18 @@ msgid ""
 "the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) "
 "and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T."
 msgstr ""
-"在DCS中，可以认为 F-14 挂载的所有类型的炸弹都拥有两种引信，所以投放炸弹时需要"
-"设置机械引信和电子引信。使用 GBU 炸弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的炸"
-"弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 "
+"在 DCS 中，可以认为 F-14 挂载的所有类型的炸弹都拥有两种引信，所以投放炸弹时需"
+"要设置机械引信和电子引信。使用 GBU 炸弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的"
+"炸弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 "
 "Mk-82 “蛇眼”炸弹时，选择 N 档位会使投放的炸弹自由下落，而选择 N/T 会启用炸弹"
-"尾部的增阻附件。"
+"尾部的增阻部件。"
 
-# 20/01/17 AG校对
+# wing/tail assembly - 尾部组件
+# Phoenix rails or missile rail x
+# weapon rails ✔
+# pylon - 挂架
+# station - 挂点
+# substation  - 扩展挂加（TER等）
 #: ../../source/weapons.rst:493
 msgid "Air-to-Ground Weapon Delivery"
 msgstr "空对地武器投放"
@@ -1274,7 +1274,7 @@ msgid ""
 "initiates the Air-to-ground mode and enables relevant symbology on the "
 "displays."
 msgstr ""
-"飞行员在显示控制面板上选择了 A/G 模式后飞机就会进入空对地投放模式。在磁带数据"
+"飞行员在显示控制面板中选择了 A/G 模式后飞机就会进入空对地投放模式。在磁带数据"
 "读入（需约30秒）完成后，WCS 将进入空对地模式并且在显示器上显示相关的符号。"
 
 # original sentence makes no sense
@@ -1292,7 +1292,7 @@ msgid ""
 "The available attack modes in the F-14B are set by the ATTK MODE selector in "
 "the RIO pit and are:"
 msgstr ""
-"RIO 驾驶舱内的 ATTK MODE 选择旋钮用于选择攻击模式，F-14B中可用的攻击模式分别"
+"RIO 驾驶舱内的 ATTK MODE 选择旋钮用于选择攻击模式，F-14B 中可用的攻击模式分别"
 "是："
 
 #: ../../source/weapons.rst:503
@@ -1339,10 +1339,9 @@ msgid ""
 "via data-link cues for remotely controlled store delivery. (Not implemented "
 "in DCS at this point in time.)"
 msgstr ""
-"D/L BOMB - 数据链投弹模式是一种驾驶员通过数据链路的提示来操纵飞机，在远程数据"
-"链控制下完成挂载投放的自动模式（DCS中尚未实装此功能）。"
+"D/L BOMB - 数据链投弹模式是一种驾驶员通过数据链路的提示来操纵飞机，在远程操纵"
+"下完成挂载投放的自动模式（DCS中尚未实装此功能）。"
 
-# 01/17 12点校对至此
 #: ../../source/weapons.rst:511
 msgid "Computer Target"
 msgstr "计算机目标模式"
@@ -1374,8 +1373,8 @@ msgid ""
 "pressing the target designate switch to DES."
 msgstr ""
 "飞行员调整飞机航向，将目标置于 BFL 上来指定目标。 然后，用飞行员驾驶舱壁上的"
-"目标指定开关的 UP / DN 来调整目标指示符位置，直到指示符覆盖目标。这时，按下目"
-"标指定开关至 DES 位置来指定目标。"
+"目标指定开关的 UP/DN 来调整目标指示符位置，直到指示符覆盖目标。这时，按下目标"
+"指定开关至 DES 档位来指定目标。"
 
 #: ../../source/weapons.rst:523
 msgid ""
@@ -1386,9 +1385,9 @@ msgid ""
 "aircraft movements. In addition the HUD now displays the upper and lower "
 "solution cues on the BFL."
 msgstr ""
-"指定目标后，菱形目标指定符会相对地面稳定，并且 AN / AWG-9 会指向目标进行测"
-"距。 BFL 会保持在指定的目标上，而十字准星和飞机速度矢量继续跟随飞机移动。 此"
-"外，HUD 会在 BFL 上分别显示高低投放标识。"
+"指定目标后，菱形目标指定符会相对地面稳定，并且 AN/AWG-9 会指向指定的位置进行"
+"测距。 BFL 会保持在指定的目标上，而十字准星和飞机速度矢量继续跟随飞机移动。 "
+"此外，HUD 会在 BFL 上分别显示高低投放标识。"
 
 #: ../../source/weapons.rst:527
 msgid ""
@@ -1402,7 +1401,7 @@ msgid ""
 msgstr ""
 "现在飞行员需要控制飞机，将速度矢量和十字准星置于 BFL 上，直到两个投放标识接近"
 "速度矢量符和准星。低投放标识穿过速度矢量符时，表示即将投弹，此时飞行员应按下"
-"并按住炸弹投放按钮，授权 WCS 进行投弹。当高投放标识与速度矢量符位置重合时，如"
+"并按住炸弹投放按钮，授权 WCS 投放挂载。当高投放标识与速度矢量符位置重合时，如"
 "果投放按钮处于按下状态，WCS 将自动投放选定的挂载。"
 
 #: ../../source/weapons.rst:531
@@ -1442,8 +1441,8 @@ msgid ""
 "General design and systems overview section or the Navigation systems "
 "heading in the same section)"
 msgstr ""
-"RIO 使用 CAP 面板来设置 IP 航路点，操作与设置导航系统中其他航路点相同。 （参"
-"见“一般设计和系统概述”中 AN / AWG-9 下的 CAP 部分，或本章节中的导航系统部分）"
+"RIO 使用 CAP 来设置 IP 航路点，操作与设置导航系统中其他航路点相同。（参见“一"
+"般设计和系统概述”中 AN/AWG-9 下的 CAP 部分，或本章节中的导航系统部分）"
 
 #: ../../source/weapons.rst:546
 msgid ""
@@ -1453,9 +1452,9 @@ msgid ""
 "waypoint. *   RNG - Sets range to target from the IP waypoint. *   BRG - "
 "Sets the bearing to the target from the IP waypoint."
 msgstr ""
-"CAP 上 SPL 类中的 IP TO TGT message（功能）与前缀按钮ALT、RNG 和 BRG 一起使用"
-"用来读数和设置以下数据点：* ALT - 设置目标与 IP 航路点之间的高度差。* RNG - "
-"设置目标相对 IP 航路点的距离。* BRG - 设置目标相对 IP 航路点的方位。"
+"CAP 上 SPL 类别中的 IP TO TGT message（功能）与前缀按钮 ALT、RNG 和 BRG 一起"
+"使用用来读数和设置以下数据点：* ALT - 设置目标与 IP 航路点之间的高度差。* "
+"RNG - 设置目标相对 IP 航路点的距离。* BRG - 设置目标相对 IP 航路点的方位。"
 
 #: ../../source/weapons.rst:551
 msgid ""
@@ -1465,8 +1464,8 @@ msgid ""
 "towards the real target location."
 msgstr ""
 "飞行员在 HUD 上目视指定 IP 点后，WCS 会根据 CAP 中 IP TO TGT 功能所设置的数据"
-"重新计算目标位置，并将菱形目标指示符移动到计算位置，使 HUD 显示的引导标识从 "
-"IP 航路点位置切换至目标实际位置。"
+"重新计算目标位置，并将菱形目标指示符移动到计算出的位置，使 HUD 显示的引导标识"
+"从 IP 航路点位置切换至目标实际位置。"
 
 #: ../../source/weapons.rst:553
 msgid ""
@@ -1502,7 +1501,7 @@ msgid ""
 "To correctly engage the desired target the pilot flies the impact point "
 "pipper on the HUD over the target and then depresses the bomb release button."
 msgstr ""
-"飞行员需要控制飞机，将 HUD 中的命中点准星置于目标上，并按下武器发射扳机来攻击"
+"飞行员需要操纵飞机，将 HUD 中的命中点准星置于目标上，并按下武器发射扳机来攻击"
 "目标。"
 
 #: ../../source/weapons.rst:568
@@ -1514,6 +1513,7 @@ msgstr ""
 "使用火箭弹攻击时，飞行员应该等到准星上的菱形消失，这表示命中点在火箭弹的射程"
 "内，然后使用扳机发射火箭弹。"
 
+# 2020/09/06 AG校对至此
 #: ../../source/weapons.rst:572
 msgid "Manual"
 msgstr "手动模式"
@@ -1522,7 +1522,7 @@ msgstr "手动模式"
 msgid ""
 "The manual Air-to-ground mode is used as a back-up when the other modes are "
 "unavailable."
-msgstr "其他模式不可用时，需要使用手动模式用作备用模式。"
+msgstr "其他模式不可用时，手动模式将作为备用模式使用。"
 
 #: ../../source/weapons.rst:577
 msgid ""
@@ -1533,10 +1533,9 @@ msgid ""
 "altitude."
 msgstr ""
 "手动模式与计算机引导模式的基本原理相同，飞行员应控制飞机，将准星置于目标上"
-"方。虽然手动模式下 WCS 不会更新准星位置，但 WCS 会根据调定的攻击速度、俯冲角"
-"度和投放高度来设置十字准星相对 ADL（武器基准线）的偏移量。"
+"方。虽然手动模式下 WCS 不会更新准星的位置，但可以根据所需的攻击速度、俯冲角度"
+"和投放高度来设置十字准星相对 ADL（武器基准线）的偏移量。"
 
-# 01/19校对至此
 #: ../../source/weapons.rst:580
 msgid ""
 "This is set using the elevation lead panel on the pilot right side vertical "
@@ -1545,7 +1544,6 @@ msgstr ""
 "这个偏移量是由飞行员估算或根据投弹数据表，然后在右侧垂直控制台中的准星提前量"
 "设置面板上调定的。"
 
-# 12/29 AG校对
 #: ../../source/weapons.rst:584
 msgid "Mk-81, 82, 83 and 84 GP Bombs"
 msgstr "Mk-81、Mk-82、Mk-83 和 Mk-84 通用航空炸弹"
@@ -1567,8 +1565,8 @@ msgid ""
 "and Mk-82AIR (ballute) in DCS."
 msgstr ""
 "Mk-80 系列炸弹是美国海军与盟国的标准通用炸弹，这个系列的炸弹在越战期间首次投"
-"入使用。 Mk-82 还可装备增阻附件，使用折叠式高阻尾翼或减速伞尾部附件使炸弹减"
-"速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。 Mk-82 炸弹的这些"
+"入使用。Mk-82 还能够装备增阻部件——使用折叠式高阻尾翼或减速伞尾部组件使炸弹减"
+"速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。Mk-82 炸弹的这些"
 "高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。"
 
 #: ../../source/weapons.rst:593
@@ -1578,9 +1576,9 @@ msgid ""
 "for the F-14 in the navy it was tested for and cleared to deliver these "
 "weapons from the start."
 msgstr ""
-"F-14B 能够携带 Mk-80 系列的各型炸弹，从 Mk-81 到 Mk-84 。尽管设计时并没有考虑"
-"使用 F-14 执行对地攻击任务，但这些炸弹从一开始就在 F-14 上进行了测试，并交付"
-"使用。"
+"F-14B 能够携带 Mk-80 系列中的各型炸弹——从 Mk-81 到 Mk-84 。尽管设计时并没有考"
+"虑使用 F-14 执行对地攻击任务，但这些炸弹从一开始就在 F-14 上进行了测试，并交"
+"付使用。"
 
 #: ../../source/weapons.rst:596
 msgid ""
@@ -1589,10 +1587,12 @@ msgid ""
 "variants while the 81 to 83 can also be mounted on substations along the "
 "sides of the phoenix rails as well as on TERs on the glove pylons."
 msgstr ""
-"F-14 使用“不死鸟”导弹导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载炸弹。"
-"导轨本身可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在“不死"
-"鸟”导轨侧面的挂点上，也可以安装在翼套挂架连接的 TER 上。"
+"F-14 使用武器导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载炸弹。导轨本身"
+"可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在我要去导轨侧面的"
+"挂点上，也可以安装在翼套挂架连接的 TER 上。"
 
+# All of the Mk-80 bombs has nose fuzes only
+# NO,NWP 3-22.5-F14ABD - A2G Tactical Manual - Volume III P-2-4
 #: ../../source/weapons.rst:599
 msgid ""
 "All of the Mk-80 bombs has nose fuzes only and should be dropped with the "
@@ -1601,9 +1601,9 @@ msgid ""
 "bomb retardation meaning that the nose/tail (N/T) mechanical fuze option "
 "should be used if retardation is needed."
 msgstr ""
-"所有的 Mk-80 炸弹都有头部引信，投放炸弹时，应使用 RIO 武器面板上的机械引信开"
-"关来设置启用头部引信（N）。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启用增"
-"阻附件，这意味着，如需使用高阻炸弹，应选择头部/尾部（N/T）机械引信。"
+"所有的 Mk-80 炸弹仅含有头部引信，投放炸弹时，应将 RIO 武器控制面板中的 MECH "
+"FUSE 开关设置到 NOSE（N）档位。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启"
+"用增阻部件，这意味着，如需使用增阻部件，应选择使用头部/尾部（N/T）机械引信。"
 
 #: ../../source/weapons.rst:602
 msgid ""
@@ -1613,8 +1613,8 @@ msgid ""
 "themselves. For more info see the F-14 loadout diagrams."
 msgstr ""
 "F-14 可挂载的不同炸弹的总量取决于武器重量以及导轨上挂载的间距，实际载弹数量从"
-"18枚 Mk-81 或 Mk-82 到4枚 Mk-84 不等，因为 Mk-84 只能直接安装在导轨上。详细的"
-"挂载信息请参考下文中的 F-14 挂载示意图。"
+"18枚 Mk-81 或 Mk-82 到4枚 Mk-84 不等，这是因为 Mk-84 只能直接安装在导轨上。详"
+"细的挂载信息请参考下文中的 F-14 挂载示意图。"
 
 #: ../../source/weapons.rst:607
 msgid "GBU-10, 12, 16 and 24"
@@ -1626,6 +1626,7 @@ msgid ""
 "N-9742R-001)"
 msgstr "由美国海军摄影师 Milosz Reterski 拍摄（040105-N-9742R-001）"
 
+# fin(control)为前部舵面，参考A2G tactical manual
 #: ../../source/weapons.rst:612
 msgid ""
 "The GBU (guided bomb unit) are bombs from the Mk-80s series with an attached "
@@ -1633,9 +1634,9 @@ msgid ""
 "bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14B, "
 "laser guided bombs to be more precise."
 msgstr ""
-"GBU 是加装了导引头单元和尾翼（控制）单元将 Mk-80 系列炸弹转换为精确制导炸弹。"
-"F-14B 挂载的 GBU （更准确地说是精确制导炸弹），分别是 GBU-10、GBU-12、GBU-16 "
-"和 GBU-24。"
+"GBU 是加装了导引头装置和制导舵面（控制）装置将 Mk-80 系列炸弹转换为精确制导炸"
+"弹。F-14B 挂载的 GBU （更准确地说是精确制导炸弹），分别是 GBU-10、GBU-12、"
+"GBU-16 和 GBU-24。"
 
 #: ../../source/weapons.rst:614
 msgid ""
@@ -1645,8 +1646,8 @@ msgid ""
 "onto a laser designation from another aircraft or ground source."
 msgstr ""
 "获得搭载和使用 LANTIRN 吊舱的能力后，F-14B 也通过了挂载 Mk-80 系列 GBU 衍生型"
-"号炸弹的测试。GBU 可以通过 F-14 携带的 LANTIRN 吊舱进行制导，也可由其他飞机或"
-"地面单位提供激光照射。"
+"号炸弹的测试。GBU 可以通过 F-14 携带的 LANTIRN 吊舱来照射，也可由其他飞机或地"
+"面单位提供激光照射来摧毁目标。"
 
 #: ../../source/weapons.rst:617
 msgid ""
@@ -1658,12 +1659,12 @@ msgid ""
 "front rail and one back rail as they need to be carried on opposite sides of "
 "the aircraft due to the larger wing assembly."
 msgstr ""
-"F-14 挂载的 GBU 直接安装在“不死鸟”3号挂点到6号挂点的导轨上，因为 GBU 相较常"
-"规 Mk-80 炸弹尺寸有所增加，所以 GBU 炸弹无法适配扩展挂架。如果挂载 GBU-16 或"
-"其他尺寸小于 GBU-16 的 GBU，则每个“不死鸟”挂架都可挂载一枚。如果需要挂载两枚 "
-"GBU-10 或 GBU-24，GBU-10 可以挂在两个前部导轨（3号挂点和 6号挂点），而两枚 "
-"GBU-24 必须分别挂在前部导轨的一侧和后部导轨的另一侧上，因为 GBU-24 的尾部附件"
-"的尾翼尺寸更大。"
+"F-14 挂载的 GBU 直接安装在武器导轨3号挂点到6号挂点的导轨上，这是因为 GBU 相较"
+"常规 Mk-80 炸弹来说，其大小有所增加，所以 GBU 炸弹无法适配扩展挂架并安装在导"
+"轨上。如果挂载 GBU-16 或 GBU-16 大小以下的激光制导炸弹的话，那么每个武器导轨"
+"上都可以携带一枚炸弹。如果需要挂载两枚 GBU-10 或 GBU-24，GBU-10 可以挂在两个"
+"前部导轨（3号挂点和 6号挂点），而两枚 GBU-24 必须分别挂在前部导轨的一侧和后部"
+"导轨的另一侧上，因为 GBU-24 的尾翼部件更大。"
 
 #: ../../source/weapons.rst:620
 msgid "GBU laser codes are set as per :ref:`MESET` or via the kneeboard."
@@ -1682,9 +1683,9 @@ msgid ""
 "the submunitions are dispersed over a large area for greater effect."
 msgstr ""
 "Mk-20“石眼”和 Mk-80 系列炸弹一样，是一种常规自由落体炸弹，但它携带的不是常规"
-"弹药，而是反坦克子母弹。“石眼”集束炸弹包含 247 枚反坦克子弹药，使用雷达高度计"
-"在设定的高度释放子弹药，这种设计是为了将子弹药分散到更广的区域，增加杀伤效"
-"果。"
+"弹药，而是反坦克子母弹。“石眼”集束炸弹中包含 247 枚这种反坦克子弹药，Mk-20 使"
+"用雷达高度计在设定的高度释放子弹药，这种设计是为了将子弹药分散到更广的区域，"
+"增加杀伤效果。"
 
 #: ../../source/weapons.rst:630
 msgid ""
@@ -1700,8 +1701,8 @@ msgid ""
 "The F-14B can carry up to 10 Mk-20 Rockeyes using the Phoenix rails and "
 "substations as well as TERs on the glove pylons."
 msgstr ""
-"F-14B 可以使用“不死鸟”导弹导轨、扩展挂架和翼套挂架连接的 TER 携带最多 10 枚 "
-"Mk-20“石眼”。"
+"F-14B 可以使用武器导轨、扩展挂架和翼套挂架连接的 TER 携带多达 10 枚 Mk-20“石"
+"眼”。"
 
 #: ../../source/weapons.rst:635
 msgid ""
@@ -1768,8 +1769,8 @@ msgid ""
 "general purpose bomb for training purposes. They can be carried three to a "
 "TER on each of station 3, 4, 5 and 6 on the F-14B Tomcat."
 msgstr ""
-"BDU-33 训练弹是一种用于模拟 Mk-82 通用航空炸弹的训练弹。F-14B 中 BDU-33可以挂"
-"在挂点3-6的TER上。"
+"BDU-33 训练弹是一种用于模拟 Mk-82 通用航空炸弹的训练弹。F-14B 中 BDU-33 可以"
+"挂在挂点3-6的 TER 上。"
 
 #: ../../source/weapons.rst:665
 msgid "They are set up for release as with the real general purpose bombs."
@@ -1815,8 +1816,8 @@ msgid ""
 "The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through "
 "6, using a TER each to gain separation from the aircraft fuselage."
 msgstr ""
-"F-14B 最多可携带4枚 ADM-141 战术空射诱饵，3号至6号挂点可分别挂载一枚，每个挂"
-"架都需要连接 TER 来增加 TALD 和飞机机身的间距。"
+"F-14B 最多可携带4枚 ADM-141 TALD，3号至6号挂点可分别挂载一枚，每个挂架都需要"
+"连接 TER 来增加 TALD 和飞机机身的间距。"
 
 #: ../../source/weapons.rst:684
 msgid ""
@@ -1842,7 +1843,7 @@ msgid ""
 "on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers "
 "in order not to conflict with the fuselage."
 msgstr ""
-"F-14B 可以携带多达16个 LUU-2 照明弹，4号和5号挂点上连接 TER 时最多可挂载 4 "
+"F-14B 可以携带多达16枚 LUU-2 照明弹，4号和5号挂点上连接 TER 时最多可挂载 4 "
 "个 SUU-25 照明弹吊舱，其中每个 TER 最多能携带2个吊舱，以免与机身冲突。"
 
 #: ../../source/weapons.rst:694
@@ -1869,8 +1870,8 @@ msgid ""
 "pull of the trigger enables or disable the Smokewinder discharging smoke."
 msgstr ""
 "选择 AIM-9 的瞄准轴发射模式，然后通过飞行员驾驶杆上的武器选择开关选择相应的武"
-"器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，便可以按下扳机来开始或"
-"者停止拉烟。"
+"器挂点来启用和禁用拉烟吊舱。设置完成后，当主军械开启，飞行员便可以按下扳机来"
+"开始或者停止拉烟。"
 
 #: ../../source/weapons.rst:707
 msgid "Pods and Tanks"
@@ -1887,9 +1888,9 @@ msgid ""
 "countermeasures. The chaff launcher is unusual in that it doesn't use "
 "pyrotechnics to fire the chaff packages but instead uses a mechanical action."
 msgstr ""
-"LAU-138 箔条适配器 （也称为 BOL 导轨）由瑞典的 Celcius Tech 公司设计，旨在增"
-"强战机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于箔条是通过机械动作"
-"布撒，而不是使用火药来发射的。"
+"LAU-138 箔条适配器 （也称为 BOL 导轨）由瑞典的 Celcius Tech 公司设计，"
+"LAU-138 旨在增强战机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于箔条"
+"是通过机械动作布撒，而不是使用火药来发射的。"
 
 #: ../../source/weapons.rst:715
 msgid ""
@@ -1899,7 +1900,7 @@ msgid ""
 "This means that the pair of LAU-138s ejects in total 8 chaff packages per "
 "impulse and that 40 dispensation cycles are available."
 msgstr ""
-"虽然每个适配器可以携带最多160包箔条，但他们并不是标准尺寸的箔条包，因此，弹射"
+"虽然每个适配器可以携带最多160包箔条，但它们并不是标准大小的箔条包，因此，弹射"
 "箔条时，每个挂架布撒器总共会弹射4包箔条。两个一组的 LAU-138 适配器每次弹射8包"
 "箔条，一共可以弹射40次。"
 
@@ -1922,7 +1923,7 @@ msgid ""
 "For more information about the LAU-138 and its use, see the section about "
 "the AN/ALE-29 and 39 under the General design and systems overview chapter."
 msgstr ""
-"更多关于LAU-138 箔条适配器的信息以及使用，请查阅总体设计和系统总览章节下的 "
+"更多关于 LAU-138 箔条适配器的信息以及使用，请查阅总体设计和系统总览章节下的 "
 "AN/ALE-29 和 AN/ALE-39 部分。"
 
 #: ../../source/weapons.rst:726
@@ -1936,7 +1937,7 @@ msgid ""
 "They are normally carried as a pair of two, one on each side."
 msgstr ""
 "TACTS 是训练任务中安装在 LAU-7 导轨上代替 AIM-9 的分析吊舱，一般是 1A 和 8A "
-"挂点上。通常会在飞机上成对携带 TACTS 吊舱，每侧一个。"
+"挂点上。通常会在飞机上成对携带 TACTS 吊舱，每侧各一个。"
 
 #: ../../source/weapons.rst:731
 msgid "In DCS their functionality is purely cosmetic."
@@ -1952,8 +1953,8 @@ msgid ""
 "each engine nacelle. They each carry up to 2 000 pounds of fuel and can be "
 "jettisoned in the same way as other stores using the normal procedures."
 msgstr ""
-"FPU-1 油箱安装在 F-14B “雄猫”发动机整流罩下方的2号和7号挂点。每个油箱能携带多"
-"达 2,000 磅燃油，与其他挂载一样可以使用正常程序抛离。"
+"FPU-1 油箱安装在 F-14B “雄猫”发动机短舱下方的2号和7号挂点。每个油箱能携带多"
+"达 2,000 磅燃油，并且与其他挂载一样可以使用正常程序抛弃。"
 
 #: ../../source/weapons.rst:742 ../../source/weapons.rst:813
 msgid "LANTIRN"
@@ -1981,8 +1982,8 @@ msgid ""
 "the TID/VDI."
 msgstr ""
 "Heatblur DCS F-14B“雄猫”上装备的是最早的集成在 F-14 上的 LANTIRN 吊舱，吊舱只"
-"能安装在 8B 挂点上，通过电路硬连线到 RIO 驾驶舱中的控制面板，将视频输入 TID/"
-"VDI 。"
+"能安装在 8B 挂点上，通过电路硬连线到 RIO 驾驶舱中的控制面板，以及硬连线至 "
+"TID/VDI 的视频输出源中。"
 
 #: ../../source/weapons.rst:752
 msgid ""
