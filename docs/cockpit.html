@@ -122,7 +122,7 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#left-knee-panel">左膝仪表板</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#hydraulic-pressure-indicator">液压指示器</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#oil-pressure-indicator">油压表</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#oil-pressure-indicator">滑油压力表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#exhaust-nozzle-position-indicator">发动机喷口位置表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#electronic-instrument-group">电子仪表组</a></li>
 </ul>
@@ -287,6 +287,7 @@
 <li class="toctree-l1"><a class="reference internal" href="dcs.html">DCS 特定功能</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accr.html">首字母缩写和简称</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loc_jester.html">Jester AI指令菜单</a></li>
 </ul>
 <p class="caption"><span class="caption-text">中文本地化：</span></p>
 <ul>
@@ -740,7 +741,7 @@
 <div class="line"><br /></div>
 <div class="line">OFF - 关闭航向保持模式。</div>
 <div class="line"><br /></div>
-<div class="line">GT - 启用地面轨迹模式，通过飞行员驾驶杆上的 NWS 按钮激活。</div>
+<div class="line">GT - 启用地面航迹模式，通过飞行员驾驶杆上的 NWS 按钮激活。</div>
 </div>
 </td>
 </tr>
@@ -1257,7 +1258,7 @@
 <div class="section" id="landing-gear-control-panel">
 <span id="gearcontrol"></span><h4>起落架控制面板<a class="headerlink" href="#landing-gear-control-panel" title="永久链接至标题">¶</a></h4>
 <img alt="_images/gear.png" src="_images/gear.png" />
-<p>这个面板用于控制主起落架和应急挂载抛离。</p>
+<p>这个面板用于控制主起落架和应急挂载抛弃。</p>
 <table border="1" class="longtable docutils">
 <colgroup>
 <col width="17%" />
@@ -1315,7 +1316,7 @@
 <li>EMERG STORES 按钮</li>
 </ol>
 </td>
-<td>应急挂载抛离按钮，按下时会亮起，表示激活应急抛离。</td>
+<td>应急挂载抛弃按钮，按下时会亮起，表示激活应急抛弃。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="7">
 <li>NOSE STRUT 开关</li>
@@ -1421,9 +1422,9 @@
 <p>显示联合液压系统和飞行液压系统的油液压力。SPOIL（扰流板）ON/OFF 警示旗指示外侧扰流板模块加压。选中 EMER FLT（应急飞行液压）HI 或 LOW 时，EMER FLT 标识下方的 HI 和 LOW 对应的 ON/OFF 警示旗分别指示备用飞行液压系统是否启用。</p>
 </div>
 <div class="section" id="oil-pressure-indicator">
-<span id="oilpressind"></span><h4>油压表<a class="headerlink" href="#oil-pressure-indicator" title="永久链接至标题">¶</a></h4>
+<span id="oilpressind"></span><h4>滑油压力表<a class="headerlink" href="#oil-pressure-indicator" title="永久链接至标题">¶</a></h4>
 <img alt="_images/oil.png" src="_images/oil.png" />
-<p>显示每个发动机的油压。显示范围是 0 到 100 psi，正常范围是 25 至 65 psi，随发动机转速而变化。</p>
+<p>显示每个发动机的滑油压力。显示范围是 0 到 100 psi，正常范围是 25 至 65 psi，随发动机转速而变化。</p>
 </div>
 <div class="section" id="exhaust-nozzle-position-indicator">
 <span id="exnozzind"></span><h4>发动机喷口位置表<a class="headerlink" href="#exhaust-nozzle-position-indicator" title="永久链接至标题">¶</a></h4>
@@ -1735,13 +1736,13 @@
 <li>ACM 开关 / 保护盖</li>
 </ol>
 </td>
-<td>升起 ACM（空战格斗）保护盖会激活 ACM 模式并允许使用 ACM 抛离按钮。</td>
+<td>升起 ACM（空战格斗）保护盖会激活 ACM 模式并允许使用 ACM 抛弃按钮。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>ACM 抛离按钮</li>
+<li>ACM 抛弃按钮</li>
 </ol>
 </td>
-<td>ACM 保护盖开关下的抛离按钮用于抛离 RIO 武器控制面板上选择的挂载。按下抛离按钮并不会抛离“响尾蛇”导弹，即使 RIO 选择了“响尾蛇”。</td>
+<td>ACM 保护盖开关下的抛弃按钮用于抛弃 RIO 武器控制面板上选择的挂载。按下抛弃按钮并不会抛弃“响尾蛇”导弹，即使 RIO 选择了“响尾蛇”。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="3">
 <li>SEAM LOCK 注意灯</li>
@@ -1799,7 +1800,7 @@
 </ol>
 </td>
 <td><div class="first line-block">
-<div class="line">主军械开关，开启主军械开关将允许武器发射和挂载选择抛离。</div>
+<div class="line">主军械开关，开启主军械开关将允许武器发射和挂载选择抛弃。</div>
 <div class="line"><br /></div>
 <div class="line">OFF - 切断武器发射电路的电源。</div>
 <div class="line"><br /></div>
@@ -1811,9 +1812,9 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">MASTER ARM（主军械）总线控制与起落架控制手柄互锁，起落架放下时，将禁用除紧急抛离以外的所有发射电路。</td>
+<tr class="field-odd field"><th class="field-name">注意:</th><td class="field-body">MASTER ARM（主军械）总线控制与起落架控制手柄互锁，起落架放下时，将禁用除紧急抛弃以外的所有发射电路。</td>
 </tr>
-<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">主军械开关并不会禁用 ACM 和应急抛离功能。</td>
+<tr class="field-even field"><th class="field-name">注意:</th><td class="field-body">主军械开关并不会禁用 ACM 和应急抛弃功能。</td>
 </tr>
 </tbody>
 </table>
@@ -2253,7 +2254,7 @@
 <div class="section" id="bearing-distance-heading-indicator-bdhi">
 <span id="bdhiindicator"></span><h4>方位距离航向指示器（BDHI）<a class="headerlink" href="#bearing-distance-heading-indicator-bdhi" title="永久链接至标题">¶</a></h4>
 <img alt="_images/bdhi.png" src="_images/bdhi.png" />
-<p>用于显示方位角和航向信息。</p>
+<p>用于显示方位和航向信息。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="29%" />
@@ -2817,7 +2818,7 @@
 <td>“偏航增稳失效” 注意灯，指示灯亮起表示两个偏航通道不可用（横向增稳故障）。</td>
 </tr>
 <tr class="row-even"><td>EMERG JETT</td>
-<td>“应急抛离” 注意灯，指示灯亮起表示 EMERG STORES JETT（应急挂载抛离）按钮按下。</td>
+<td>“应急抛弃” 注意灯，指示灯亮起表示 EMERG STORES JETT（应急挂载抛弃）按钮按下。</td>
 </tr>
 <tr class="row-odd"><td>LADDER</td>
 <td>“登机梯” 注意灯，指示灯亮起表示登机梯未正确折叠收起。</td>
@@ -4001,7 +4002,7 @@
 <li>挂点 6 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 6 挂载的武器，用于挂载抛离或空对地模式武器投放。</td>
+<td>选择挂点 6 挂载的武器，用于挂载抛弃或空对地模式武器投放。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
 <li>A/A LAUNCH 按钮</li>
@@ -4019,7 +4020,7 @@
 <li>挂点 8 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 8 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼套下挂点，而 SW 档位无功能。</td>
+<td>选择挂点 8 挂载的武器，用于挂载抛弃或空对地模式武器投放。开关的 B 档位选择翼套下挂点，而 SW 档位无功能。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="11">
 <li>MSL OPTIONS 开关</li>
@@ -4031,7 +4032,7 @@
 <li>挂点 5 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 5 挂载的武器，用于挂载抛离或空对地模式武器投放。</td>
+<td>选择挂点 5 挂载的武器，用于挂载抛弃或空对地模式武器投放。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="13">
 <li>NEXT LAUNCH 按钮</li>
@@ -4043,43 +4044,43 @@
 <li>挂点 4 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 4 挂载的武器，用于挂载抛离或空对地模式武器投放。</td>
+<td>选择挂点 4 挂载的武器，用于挂载抛弃或空对地模式武器投放。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="15">
 <li>挂点 1 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 1 挂载的武器，用于挂载抛离或空对地模式武器投放。开关的 B 档位选择翼套下挂点，而 SW 档位无功能。</td>
+<td>选择挂点 1 挂载的武器，用于挂载抛弃或空对地模式武器投放。开关的 B 档位选择翼套下挂点，而 SW 档位无功能。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="16">
-<li>油箱抛离挂点 7 选择开关</li>
+<li>油箱抛弃挂点 7 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 7 挂载的油箱来进行抛离。</td>
+<td>选择挂点 7 挂载的油箱来进行抛弃。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="17">
-<li>油箱抛离挂点 2 选择开关</li>
+<li>油箱抛弃挂点 2 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 2 挂载的油箱来进行抛离。</td>
+<td>选择挂点 2 挂载的油箱来进行抛弃。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="18">
 <li>挂点 3 选择开关</li>
 </ol>
 </td>
-<td>选择挂点 5 挂载的武器，用于挂载抛离或空对地模式武器投放。</td>
+<td>选择挂点 5 挂载的武器，用于挂载抛弃或空对地模式武器投放。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="19">
 <li>JETT OPTIONS 开关</li>
 </ol>
 </td>
-<td>挂载抛离选择开关，用于选择挂载抛离时，只抛离 WPNS（武器）还是连同 MER/TER（武器挂点）一起抛离。DCS F-14B 中未模拟此开关功能。</td>
+<td>挂载抛弃选择开关，用于选择挂载抛弃时，只抛弃 WPNS（武器）还是连同 MER/TER（武器挂点）一起抛弃。DCS F-14B 中未模拟此开关功能。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="20">
 <li>SEL JETT 开关</li>
 </ol>
 </td>
-<td>选择抛离开关，用于设定选中挂点的抛离模式，JETT（正常）模式或 AUX（备用）模式。升起开关保护盖才可将开关拨至 AUX 模式。</td>
+<td>选择抛弃开关，用于设定选中挂点的抛弃模式，JETT（正常）模式或 AUX（备用）模式。升起开关保护盖才可将开关拨至 AUX 模式。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="21">
 <li>MECH FUSE 开关</li>
@@ -4305,7 +4306,7 @@
 <li>TGTS 开关</li>
 </ol>
 </td>
-<td>目标尺寸选择开关，用于切换目标尺寸，目标尺寸用于计算导弹发射区间和设定 WCS 目标跟踪参数。</td>
+<td>目标大小选择开关，用于切换目标的大小，目标大小用于计算导弹发射区间和设定 WCS 目标跟踪参数。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="2">
 <li>MLC 开关</li>
@@ -4352,7 +4353,7 @@
 <li>RANGE 显示窗</li>
 </ol>
 </td>
-<td>距离显示窗，用于显示当前选定的雷达搜索距离的滚筒指示器。如果 DDD 中未选用任何距离标尺，则无显示。</td>
+<td>距离显示窗，用于显示当前选定的雷达搜索距离的滚筒指示器。如果 DDD 中未选用任何距离标度，则无显示。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="8">
 <li>RANGE 按钮</li>
@@ -4418,7 +4419,7 @@
 <li>Vc 选择开关</li>
 </ol>
 </td>
-<td>接近率标尺选择开关，用于选择 PD（脉冲多普勒）模式下 DDD 显示的接近率标尺。</td>
+<td>接近率标度选择开关，用于选择 PD（脉冲多普勒）模式下 DDD 显示的接近率标度。</td>
 </tr>
 <tr class="row-even"><td><ol class="first last arabic simple" start="19">
 <li>ERASE 旋钮</li>
@@ -4566,7 +4567,7 @@
 <li>RANGE 选择开关</li>
 </ol>
 </td>
-<td>TID 显示距离标尺选择开关，用于选择 TID 屏幕直径当前对应的显示距离。</td>
+<td>TID 显示距离标度选择开关，用于选择 TID 屏幕直径当前对应的显示距离。</td>
 </tr>
 <tr class="row-odd"><td><ol class="first last arabic simple" start="10">
 <li>TID MODE 选择开关</li>
@@ -4677,7 +4678,7 @@
 <td><div class="first last line-block">
 <div class="line">带有指示灯的按钮，用于选择 HCU 控制杆的功能。开关之间互斥（只能选中一个开关）。</div>
 <div class="line"><br /></div>
-<div class="line">IR/TV - 选择 TCS 方位角、仰角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会显示 TCS 的仰角。</div>
+<div class="line">IR/TV - 选择 TCS 方位、仰角和跟踪控制。选择后，DDD 屏幕右侧的俯仰角指示条会显示 TCS 的仰角。</div>
 <div class="line"><br /></div>
 <div class="line">RDR - 选择 STT 锁定模式雷达天线控制，如果雷达已经处于 STT 模式中，则返回搜索状态。选择后，DDD 屏幕右侧的俯仰角指示条会显示雷达天线当前的指令仰角。</div>
 <div class="line"><br /></div>
@@ -4845,7 +4846,7 @@
 <div class="section" id="rbdhi">
 <span id="id16"></span><h4>方位距离航向指示器（BDHI）<a class="headerlink" href="#rbdhi" title="永久链接至标题">¶</a></h4>
 <img alt="_images/bdhi1.png" src="_images/bdhi1.png" />
-<p>用于显示方位角和航向信息。</p>
+<p>用于显示方位和航向信息。</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="29%" />
