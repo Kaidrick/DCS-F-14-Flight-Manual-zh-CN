@@ -42,7 +42,10 @@ DCS: F-14 “雄猫” 中文飞行手册（第二版）
 
 	:其他:
 		感谢学姐协助处理手册以及战役的图片。
-		Su, Xin   `“衣柜上的学姐” <https://space.bilibili.com/384159>`_
+		Su, Xin   `“衣柜上的学姐” <https://space.bilibili.com/384159>`_”
+		
+		感谢北欧制作新 Jester 汉化菜单
+		Cai, Jiutian   “`北欧式的简单 <https://space.bilibili.com/829536>`_”
 
   **“再次特别鸣谢”**
 
@@ -88,7 +91,7 @@ DCS: F-14 “雄猫” 中文飞行手册（初版）
 
 
 	:项目管理:
-		Cai, Jiutian   “`北欧式的简单 <http://space.bilibili.com/829536>`_”
+		Cai, Jiutian   “`北欧式的简单 <https://space.bilibili.com/829536>`_”
 
 	:其他:
 		感谢学姐协助处理手册中的图片。
