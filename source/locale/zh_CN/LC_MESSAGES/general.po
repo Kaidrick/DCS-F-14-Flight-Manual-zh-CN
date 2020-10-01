@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 17:41+0800\n"
-"PO-Revision-Date: 2020-09-23 22:06+0800\n"
+"PO-Revision-Date: 2020-09-30 19:31+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10722,7 +10722,7 @@ msgid ""
 "command target acquisition."
 msgstr ""
 "HCU 控制杆一旁的 **IR/TV** 按钮用来启用 HCU 控制杆来操纵 TCS 传感器，按下扳机"
-"第一段来手动操纵传感器 LSO，按下扳机第二段来指令捕获目标。"
+"第一段来手动操纵传感器 LOS，按下扳机第二段来指令捕获目标。"
 
 #: ../../source/general.rst:2386
 msgid ""
@@ -11522,8 +11522,8 @@ msgid ""
 msgstr ""
 "F-14B 中的 AN/ALR-67 带有四根小型螺旋状高波段天线，四个宽带高波段分角接收机以"
 "及低波段阵列。连接到这些天线的是一个窄带超外差接收机，接收机分析接收到的信号"
-"并且使用两个显示器将威胁和辐射在显示器中指示出来，每个驾驶舱中都有一个显示器"
-"并且向两名机组的 ICS 播放音频信号。"
+"并且通过使用两个显示器将辐射和威胁向飞行员和 RIO 指示出来，每个驾驶舱中都包含"
+"有一个显示器并且向两名机组的 ICS 播放音频信号。"
 
 #: ../../source/general.rst:2675 ../../source/general.rst:4556
 msgid "Controls"
@@ -11600,7 +11600,7 @@ msgid ""
 "AI - Airborne interceptor is indicated by an I in the status ring on the "
 "display and prioritizes all airborne interceptor threats above all other "
 "threats."
-msgstr "AI - 空基拦截器由状态环中的字母 I 指示，空基拦截器优先于其他所有威胁。"
+msgstr "AI - 机载雷达由状态环中的字母 I 指示，机载雷达优先于其他所有威胁。"
 
 #: ../../source/general.rst:2696
 msgid ""
@@ -18518,7 +18518,7 @@ msgstr "根据战术情况自行设定电源模式及无线电选择旋钮。"
 msgid ""
 "Note: The above procedures may be used to perform an in-flight check of the "
 "equipment."
-msgstr "注：上述步骤同样可用于设备的空中检查。"
+msgstr "注意：上述步骤同样可用于设备的空中检查。"
 
 #: ../../source/general.rst:5025
 msgid "Postlaunch"
@@ -18534,8 +18534,8 @@ msgid ""
 "possible. The code can only be reset (or changed) through the ground crew "
 "communications menu after landing."
 msgstr ""
-"注：若在飞行中按下了 ZEROIZE 开关，则无法进行密文通信。密匙只能在降落后通过地"
-"勤通信菜单进行复位或变更。"
+"注意：若在飞行中按下了 ZEROIZE 开关，则无法进行密文通信。密匙只能在降落后通过"
+"地勤通信菜单进行复位或变更。"
 
 #: ../../source/general.rst:5033
 msgid "After Landing"
@@ -18554,8 +18554,8 @@ msgid ""
 "Note: If ZEROIZE has been pressed and the POWER MODE switch is in C, both "
 "crewmembers will be warned by a continuing beeping sound."
 msgstr ""
-"注：若 POWER MODE 旋钮位于 C 档位时按下 ZEROIZE 开关，则飞行员和 RIO 均将听到"
-"连续的嘟嘟警告音。"
+"注意：若 POWER MODE 旋钮位于 C 档位时按下 ZEROIZE 开关，则飞行员和 RIO 均将听"
+"到连续的嘟嘟警告音。"
 
 # 12-16 AG重新翻译/校对
 #: ../../source/general.rst:5043
