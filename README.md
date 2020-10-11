@@ -20,11 +20,6 @@ https://kaidrick.github.io/DCS-F-14-Flight-Manual-zh-CN/
 https://kaidrick.github.io/DCS-F-14-Flight-Manual-zh-CN/
 
 
-访问Github不畅的用户可以考虑下列镜像站点（内容可能不是最新）：
-
-http://f14.dof.cn/
-
-
 **在此特别感谢Heatblur Simulations公开了翻译所需的文件，也感谢所有参与此项目翻译、校对、技术支持和镜像分流的玩家个人/群体。**
 
 
