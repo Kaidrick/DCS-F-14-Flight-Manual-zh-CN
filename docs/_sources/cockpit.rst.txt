@@ -5,8 +5,8 @@ Cockpit Overview
 
     \newpage
 
-F-14B Cockpit Layout
-********************
+F-14 Cockpit Layout
+*******************
 
 .. _pilotlayout:
 
@@ -90,8 +90,8 @@ RIO Cockpit Layout
 
     \newpage
 
-F-14B Pilot Cockpit
-*******************
+F-14 Pilot Cockpit
+******************
 
 .. _lsc:
 
@@ -319,8 +319,8 @@ UHF radio 1. Radio and controls.
 
 .. _asymlimit:
 
-ASYM Limiter/Engine Mode Select
--------------------------------
+ASYM Limiter/Engine Mode Select (F-14B only)
+--------------------------------------------
 .. image:: /images/cockpit/detail/pilot/asym.png
 
 Control panel for the asymmetric thrust limiter system and the control mode of each engine.
@@ -1525,7 +1525,7 @@ Displays Control Panel
 ----------------------
 .. image:: /images/cockpit/detail/pilot/displays.png
 
-:Note: Image shows F-14 with integrated RWR having a third option on the HSD MODE and ECM ORIDE which are not present in the modelled F-14B.
+:Note: Image shows an F-14A with AN/ALR-45 having a third option on the HSD MODE and an ECM ORIDE which are not present in aircraft with the AN/ALR-67.
 
 Control panel for front cockpit displays.
 
@@ -1584,10 +1584,14 @@ Control panel for front cockpit displays.
     |                           | | NAV - Navigational display, shows steering information depending on selected steering command source.                                                                                   |
     |                           | |                                                                                                                                                                                         |
     |                           | | TID - Display repeating the RIO TID information. If RIO has TID set to TV the screen will be blank.                                                                                     |
+    |                           | |                                                                                                                                                                                         |
+    |                           | | ECM - Display ECM information from AN/ALR-45 and AN/ALR-50. (F-14A with AN/ALR-45 only.)                                                                                                |
     +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     | 8. POWER switches         | Power switches for VDI, HUD and HSD/ECMD.                                                                                                                                                 |
     +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     | 9. PITCH LAD BRT knob     | Controls brightness of pitch ladder on HUD.                                                                                                                                               |
+    +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | 10. HSD ECM oride switch  | Sets if the ECM is allowed to override the current display on the HSD if a threat is detected. **ORIDE** allows override and **OFF** disables it. Only present in aircraft with AN/ALR-45.|
     +---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. raw:: latex
@@ -1751,9 +1755,13 @@ Main pilot caution panel.
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | L & R RAMPS      | Caution lights indicating ramps not locked in position during critical flight conditions.                                                      |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| START VALVE      | Caution light indicating that the starter solenoid air valve is open after start.                                                              |
+| START VALVE      | Caution light indicating that the starter solenoid air valve is open after start. (F-14B only.)                                                |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| L & R ENG SEC    | Caution lights indicating that respective engine AFTC is in secondary mode.                                                                    |
+| OXY LOW          | Caution light indicating low oxygen pressure or less than 2 liters of oxygen remaining. (F-14A only.)                                          |
++------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| L & R ENG SEC    | Caution lights indicating that respective engine AFTC is in secondary mode. (F-14B only.)                                                      |
++------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| L & R OVSP/VALVE | Caution lights indicating enginge starter system malfunction or N1 rotor overspeed in respective engine. (F-14A only.)                         |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | L & R GEN        | Caution lights indicating respective engine generator is inoperative.                                                                          |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1773,7 +1781,7 @@ Main pilot caution panel.
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | WING SWEEP       | Advisory light indicating failure of a single channel in wing-sweep system.                                                                    |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| RATS             | Advisory light indicating RATS enabled.                                                                                                        |
+| RATS             | Advisory light indicating RATS enabled. (F-14B only.)                                                                                          |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | TRANS/RECT       | Advisory light indicating failure in one or both transformer-rectifiers.                                                                       |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1785,7 +1793,7 @@ Main pilot caution panel.
 |                  | |                                                                                                                                              |
 |                  | | Weight on wheels - Aircraft kneeled, either throttle below MIL and launch bar not up and locked.                                             |
 |                  | |                                                                                                                                              |
-|                  | | Weight off wheels - Launch bar not up and locked, launch bar not within 15º off center (cocked nosegear) or nose strut not fully extended.   |
+|                  | | Weight off wheels - Launch bar not up and locked, launch bar not within 15º of center (cocked nosegear) or nose strut not fully extended.    |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | INTEG TRIM       | Advisory light indicating failure in trim system or computer failure.                                                                          |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1795,6 +1803,8 @@ Main pilot caution panel.
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | AUX FIRE EXT     | Advisory light indicating low pressure in the auxiliary fire extinguishing container (90 psi below nominal 600 psi).                           |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
+:Note: F-14A specific lights not yet implemented.
 
 .. raw:: latex
 
@@ -2090,8 +2100,8 @@ The canopy control handle is duplicated in the RIO cockpit.
 
     \newpage
 
-F-14B RIO Cockpit
-*****************
+F-14 RIO Cockpit
+****************
 
 .. _rlsc:
 
@@ -2210,7 +2220,7 @@ Panel controlling ICS radio settings and crewmember in control of TACAN.
 | 5. KY MODE switch     | Functional only with KY-58 installed.                      |
 +-----------------------+------------------------------------------------------------+
 
-:Note: As the DCS F-14B is modelled with KY-28 the KY MODE switch is non-functional in DCS.
+:Note: As the DCS F-14 is modelled with KY-28 the KY MODE switch is non-functional in DCS.
 
 .. raw:: latex
 
@@ -2495,7 +2505,7 @@ Main armament control panel in the RIO cockpit.
     +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     | 18. Station 3 select switch    | Switch used to select station 3 for jettison or weapons A/G delivery.                                                                                                                                  |
     +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-    | 19. JETT OPTIONS switch        | Switch selecting whether to jettison only WPNS (weapons) or MER/TER (weapon racks) in addition to weapons. Non-functional in modelled F-14B.                                                           |
+    | 19. JETT OPTIONS switch        | Switch selecting whether to jettison only WPNS (weapons) or MER/TER (weapon racks) in addition to weapons. Non-functional in modelled F-14 .                                                           |
     +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     | 20. SEL JETT switch            | Selector switch used to jettison selected stations in normal (JETT) mode or AUX (backup) mode. The AUX position is guarded.                                                                            |
     +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -3071,9 +3081,7 @@ Electronic Countermeasures Display (ECMD)
 -----------------------------------------
 .. image:: /images/cockpit/detail/rio/mdi.png
 
-Display used for navigational information. Has a brightness control knob, test button and a BIT indicator showing status of display (solid black when operational, showing white flags when indicating a fail condition).
-
-Called ECMD as the F-14A and later PMDIG F-14B used this display for RWR presentation as well.
+Display used for navigational information and AN/ALR-45 ECM (only in F-14A with AN/ALR-45). Has a brightness control knob, test button and a BIT indicator showing status of display (solid black when operational, showing white flags when indicating a fail condition).
 
 :Note: For more information see relevant chapters under :ref:`navigation`.
 
@@ -3581,6 +3589,22 @@ Panel containing controls for IFF antenna, tests and ground cooling.
 .. raw:: latex
 
     \newpage
+
+
+Mid Compression Bypass Test Panel (F-14A only)
+----------------------------------------------
+.. image:: /images/cockpit/detail/rio/mcb.png
+
+Panel containing control and indicators used to verify Mid Compression Bypass (MCB) circuit functionality.
+
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Control                       | Function                                                                                                                              |
++===============================+=======================================================================================================================================+
+| 1. Left and Right test lights | Indicators illuminating with MCB Test switch activation to indicate left and right successful MCB circuit test respectively.          |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| 2. MCB Test switch            | Test switch activating MCB circuit test to verify MCB circuit functionality.                                                          |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+
 
 .. _elecpowsystest:
 

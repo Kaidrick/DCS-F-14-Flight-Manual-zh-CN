@@ -34,7 +34,7 @@ Heatblur DCS F-14 Tomcat
    loc_about
    loc_credit
    loc_changelog
-   
+   loc_devupdate
 .. toctree::
    :caption: Other Files:
    :hidden:

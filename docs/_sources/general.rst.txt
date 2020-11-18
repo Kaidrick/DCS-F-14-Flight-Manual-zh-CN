@@ -4,22 +4,23 @@ General Design and Systems Overview
 Engines and Throttle Controls
 *****************************
 
-The two F110-GE-400 afterburning turbo-fans powering the F-14B are controlled by the AFTC (Augmenter Fan Temperature Control unit).
-The AFTC is akin to an early version of a FADEC (Full Authority Digital Engine Control) used on newer turbine engines.
+The F-14A is powered by two Pratt & Whitney TF30-P-414A while the F-14B is powered by two General Electrics F110-GE-400, both of which are afterburning turbofan engines.
 
-The AFTC controls both the engine itself as well as the variable exhaust nozzles controlling the engine exhaust gases.
-Additionally, the AICS (Air Inlet Control System) helps by controlling the engine airflow for an even subsonic airflow to the engine inlets.
-This is done through the variable geometry intakes, more precisely the variable ramps in the intakes.
+To provide the engines with an even subsonic airflow the F-14 has the AICS or Air Inlet Control System. This system controls the variable geometry intakes by moving the variable ramps mounted in them to slow the airflow. This is accomplished using various sensor inputs run through a calculation using set schedules which decides the positions of the ramps.
 
-All this is achieved by the AFTC and AICS using appropriate sensor inputs which then control engine operations according to programmed schedules.
+In addition, the TF30 uses two systems to improve reliable operation, the Mid Compression Bypass System (MCB) and the Mach Lever.
+
+The MCB helps mitigate high angle of attack airflow onto the compressor fans to reduce the risk of an engine stall. This system vents air from the compressor section to bypass duct to stabilize the airflow for later compressor stages. Normally this system uses angle of attack and Mach number sensor data to activate, but with the landing gear handle in the down position this it is only activated with zone 5 afterburner. Additionally the WCS commands the MCB to activate with extension of the refuelling probe as well as when launching AIM-7 or AIM-9 missiles, air to ground rockets or firing the M61 Vulcan gun. 
+
+The Mach Lever also mitigates the risk of an engine stall by controlling min and max rpm allowed as a function of Mach number. In addition it also increases the minimum rpm in high angle of attack regimes while subsonic.
+
+The two F110s in F-14B, on the other hand, are controlled by the AFTC (Augmenter Fan Temperature Control unit). The AFTC is an early engine control computer akin to an early version of a FADEC (Full Authority Digital Engine Control) used on newer turbine engines. This system controls both the engine itself as well as the variable exhaust nozzles controlling the engine exhaust gases and removes the need for the MCB and Mach Lever for the F110. The lack of such a system in the F-14A controlling its TF30s is one of the reasons for them being deemed less reliable than the F110s.
+
+In case of a failure in the AFTC the MEC (Main engine control) is capable of assuming control of the engines to provide a fall-back, mechanical control. The normal mode, AFTC, is the primary mode (PRI) and called as such while the fall-back MEC is the secondary (SEC) mode. The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be manually selected. Of note is that in secondary mode the engine nozzles are fully closed and disabled in addition to the afterburners being disabled with a corresponding loss of engine performance.
 
 In addition both engines also drive separate fuel, hydraulic and electric generators to create redundancy.
 
-In case of a failure in the AFTC the MEC (Main engine control) is capable of assuming control of the engines to provide a fall-back, mechanical control.
-The normal mode, AFTC, is the primary mode (PRI) and called as such while the fall-back MEC is the secondary (SEC) mode.
-The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be manually selected.
-Of note is that in secondary mode the engine nozzles are fully closed and disabled in addition to the afterburners being disabled with a corresponding loss of engine performance.
-
+:Note: The main difference between the TF30 and F110 engines (apart from lesser thrust in the TF30s) is that the TF30s are more sensitive to the quality of the airflow entering the compressor face. In general it is wise to avoid anything less than military power or afterburner while in high angle of attack maneuvers as well as avoiding large rudder inputs or asymmetric engine throttle settings. That said, the TF30s in the HB F-14A module have been extensively tuned using available data and SME expertise, resulting in an accurate modelling of an engine undeserving of its bad reputation. One "advantage" of the TF30's mechanical fuel control is its high speed thrust, resulting in higher top speeds than the F110 can achieve. If flown within normal parameters, the TF30 engines behave well if a tad underpowered compared to the F110s.
 
 .. _throttlecontrols:
 
@@ -53,17 +54,11 @@ These settings correspond to cold or hot external temperatures but should be set
 The RATS or reduced arrestment thrust system is a system limiting engine thrust after touchdown to limit it to levels appropriate for carrier environments.
 The system is enabled by weight on either main landing gear and is disabled by selection of afterburner on the throttles.
 
-Finally, and implemented on the F110-GE-400, is the asymmetric limiter, preventing asymmetric afterburner engagement if only one afterburner lights by keeping that afterburner at minimum afterburner thrust until the other afterburner also lights.
+Finally, and implemented only for the F110-GE-400, is the asymmetric limiter, preventing asymmetric afterburner engagement if only one afterburner lights by keeping that afterburner at minimum afterburner thrust until the other afterburner also lights.
 
 
 Engine and Throttle Control Switches and Indicators
 ===================================================
-
-.. image:: /images/general/engine/asym.png
-
-The **ASYM LIMITER** (**1**) on the ASYM limiter/engine mode select panel enables or disables the asymmetric afterburner thrust limiter. Default position is **ON** and the switch has a guard cover keeping it in that position.
-
-The other switches on that same panel are the **ENG** (engine) **MODE SELECT** switches (**2**), setting the left (**L ENG**) and right (**R ENG**) to **PRI**, primary or **SEC**, secondary modes respectively.
 
 .. image:: /images/general/engine/inlet.png
 
@@ -81,6 +76,21 @@ At 50% rpm the crank switch automatically returns to off/center position. If thi
 
 The **BACK UP IGNITION** (**5**) switch enables the backup ignition system in case of a failure in the main ignition circuits that are normally enabled by moving the throttles out of the cut-off position.
 
+.. image:: /images/general/engine/asym.png
+
+:Note: F-14B only.
+
+The **ASYM LIMITER** (**1**) on the ASYM limiter/engine mode select panel enables or disables the asymmetric afterburner thrust limiter. Default position is **ON** and the switch has a guard cover keeping it in that position.
+
+The other switches on that same panel are the **ENG** (engine) **MODE SELECT** switches (**2**), setting the left (**L ENG**) and right (**R ENG**) to **PRI**, primary or **SEC**, secondary modes respectively.
+
+.. image:: /images/general/engine/mcb.png
+
+:Note: F-14A only.
+
+The MCB Test Panel, located in the RIO pit on the right horisontal panel, is used to test if the MCB system functions.
+The **TEST** switch (**2**) set to the **TEST** position activates the test circuit which lights the two test lights (**1**) for the left and right engine respectively if their MCB circuits function.
+
 .. image:: /images/general/engine/externalenvironment.png
 
 The **ENG/PROBE ANTI-ICE** (**2**) switch on the external environmental control panel enables the engine anti-ice and intake ramp anti-ice mode in addition to the various probe heaters.
@@ -92,13 +102,14 @@ Engine Instrument Group (EIG), Related Indicators and Caution Lights
 
 .. image:: /images/general/engine/instrument-group.png
 
-The **ENGINE INSTRUMENT GROUP** displays engine **RPM**, **EGT** (exhaust gas temperature) and **FF** (fuel flow) to the pilot to allow for engine monitoring.
+The **ENGINE INSTRUMENT GROUP** displays engine **RPM**, **TIT** (Turbine Inlet Temperature, F-14A) or **EGT** (Exhaust Gas Temperature, F14B) and **FF** (fuel flow) to the pilot to allow for engine monitoring.
 
 :Note: Pictured above are the TF30 engine indicators, F110 EIG coming soon.
 
 .. image:: /images/general/engine/exhaust.png
 
 The exhaust nozzle position indicators display respective engine's current engine exhaust nozzle position, with zero being fully closed and full clockwise rotation being fully open.
+The F-14A indicates 0 to 6 units while the F-14B indicates 0 to 100 percent open (tens indicaed on gauge).
 
 .. image:: /images/general/engine/oil.png
 
@@ -119,12 +130,21 @@ On the main caution - advisory panel the relevant engine caution and warnings li
 * **OIL PRESS** - Caution light indicating low oil pressure in either engine.
 * **BLEED DUCT** - Caution light indicating hot air leekage in either engine.
 * **L & R RAMPS** - Caution lights indicating respective engine intake ramp not being locked into position when supposed to.
-* **START VALVE** - Caution light indicating that the starter valve is open. Control engine crank position if lit after engine start completion.
-* **L & R ENG SEC** - Caution lights indicating that respective engine is operating in secondary mode.
 * **L & R GEN** - Caution lights indicating that respective engine generator is inoperative.
 * **L & R OIL HOT** - Caution lights indicating that respective engine oil is too hot.
 * **L & R FUEL PRES** - Caution lights indicating engine fuel pressure below 9 psi in respective engine fuel boost pump.
+
+F-14A TF30-P-414A only lights:
+
+* **L & R OVSP/VALVE** - Caution lights indicating enginge starter system malfunction or N1 rotor overspeed in respective engine.
+
+F-14B F110-GE-400 only lights:
+
+* **START VALVE** - Caution light indicating that the starter valve is open. Control engine crank position if lit after engine start completion.
+* **L & R ENG SEC** - Caution lights indicating that respective engine is operating in secondary mode.
 * **RATS** - Caution light indicating that RATS (reduced arrestment thrust system) is enabled.
+
+:Note: F-14A specific lights not yet implemented.
 
 
 Fuel System
@@ -259,7 +279,7 @@ The advisory lights will both illuminate after a successfull application of the 
 Fire Detection and Suppression System Test
 ==========================================
 
-Both systems can be tested by selection of the **FIRE DET/EXT** position on the master test panel switch. (see :ref:`MTPanel`) 
+Both systems can be tested by selection of the **FIRE DET/EXT** position on the master test panel switch. (See :ref:`MTPanel`.) 
 This will illuminate both fire warning lights on the ACM panel if their respective loop is functional and the **GO** light on the master test panel will illuminate if the suppression system is functional.
 If the **NO GO** or no lights illuminate there's a problem in either the suppression system or the test circuitry.
 
@@ -334,7 +354,7 @@ This is so that both systems can drive the control surfaces independently from e
 
 Additionally, the hydraulic systems related to systems not necessary while airborne can be isolated by a switch next to the landing gear handle.
 This is so that damage to those systems won't affect the combined system pressure and cause fluid loss.
-The systems that can be isolated are the landing gear, wheel brakes and refueling probe.
+The systems that can be isolated are the landing gear, wheel brakes, anti-skid and nosewheel steering.
 This switch is mechanically locked to not isolating these systems by the landing gear handle when it's in the down position.
 
 If only one of the hydraulic pumps fail it's possible to pressurize that system from the other pump via the hydraulic transfer pump.
@@ -484,7 +504,7 @@ The five windows on the right side show:
 
 The relevant warning and advisory lights are located on the :ref:`VDI` and the pilot :ref:`CAindicator`.
 
-The **WING SWEEP** warning light on the right side of the VDI illuminates when both wing-sweep electrical channels are inoperable or the emergency mode is in use.
+The **WING SWEEP** advisory light on the right side of the VDI illuminates when both wing-sweep electrical channels are inoperable or the emergency mode is in use.
 If it illuminates without the emergency mode being used that mode should then be used as the electrical system might not work.
 
 The **WING SWEEP** caution light on the pilot caution - advisory indicator illuminates when at least one electrical wing-sweep channel is inoperable.
@@ -579,7 +599,7 @@ The **HDG** position on the HDG switch enables heading hold, maneuver the aircra
 The ground track mode is entered by setting the HDG switch to **GT**, wait for the **A/P REF** warning light on the left side of the :ref:`VDI` to illuminate and then press the nosewheel steering button on the control stick.
 The **A/P REF** warning light will then turn off and the ground track mode will be enabled, setting the autopilot to follow a ground track by compensating for aircraft wind drift.
 
-The altitude hold mode is set via the **ALT**, altitude switch and like the ground track mode the **A/P REF** warning light will illuminate until the nosewheel steering button is depressed, enabling the mode.
+The altitude hold mode is set via the **ALT**, altitude, switch and like the ground track mode the **A/P REF** warning light will illuminate until the nosewheel steering button is depressed, enabling the mode.
 
 The Data Link Vector - Precision Course Direction mode is used to allow a Link 4 controller to remotely control the aircraft. This is not modelled in DCS.
 
@@ -769,7 +789,7 @@ Arresting Gear
 
 The arresting hook located on the underside of the tail of the F-14 is used for arrested landings during carrier operations.
 
-To system uses hydraulic power from both flight and combined hydraulic systems and is controlled electrically, thus requiring electrical power as well.
+The system uses hydraulic power from both flight and combined hydraulic systems and is controlled electrically, thus requiring electrical power as well.
 
 Operation of the system is via the arresting **HOOK** handle on the :ref:`arrhook`.
 **UP** raises the arresting hook and **DN**, down, lowers it to 37° allowing it to catch the wire during a correctly executed carrier "trap".
@@ -868,7 +888,7 @@ This is controlled by the **GND CLG** switch on the :ref:`iffant` panel at the R
 
 :Note: Any setting on the **GND CLG** other than **OFF** should not be used when the engines are running.
 
-:Note2: For the Heatblur F-14B in DCS the external ECS air supply is connected via the same command as the engine starter air.
+:Note2: For the Heatblur F-14 in DCS the external ECS air supply is connected via the same command as the engine starter air.
 
 
 Oxygen System
@@ -880,7 +900,7 @@ The oxygen supply is controlled on the pilot :ref:`oxygen` and RIO :ref:`roxyven
 Both panels contain an **OXYGEN** switch that sets oxygen supply to **ON** or **OFF**.
 
 Liquid oxygen remaining is shown on the :ref:`liqoxyqtyind` on the pilot's right side console.
-The gauge shows remaining liters of liquid oxygen up to 20 liters. (If two bottles are installed)
+The gauge shows remaining liters of liquid oxygen up to 20 liters (if two bottles are installed).
 The indicator is electrically driven and if it receives no power an **OFF** flag will be visible and it will display 0 liters remaining.
 
 Additionally the RIO :ref:`cauadvpanel` has the **OXY LOW** caution light which illuminates when the liquid oxygen quantity is below 2 liters.
@@ -1057,13 +1077,13 @@ The upper left part of the DDD panel contains four switches (**1-4**) controling
 
 The **TGTS** (targets) switch selects expected target size which is used by the WCS to calculate missile launch zones and set parameters for target tracking in the radar. The selected position of this switch might negatively affect target tracking and engagement if set incorrectly.
 
-The **MLC** switch controls how the system supresses the MLC in the radar system while in pulse doppler mode. The OUT position disables the system while the IN position enables it. The AUTO position automatically enables the MLC filter if the antenna look-up angle is greater than 3°.
+The **MLC** switch controls how the system supresses the MLC in the radar system while in pulse doppler mode. The OUT position disables the system while the IN position enables it. The AUTO position automatically enables the MLC filter if the antenna look-up angle is less than 3°.
 
 The **AGC** switch controls the automatic gain control and is used in the pulse doppler modes to allow control of the time constant used for the AGC. Normally (NORM position) the AGC uses a longer time constant to calculate a mean value used for amplification. If the radar is operating in a jammed environment or heavy clutter is present the AGC can be set to use a faster time constant to mitigate these factors but this setting can also make the radar less sensitive to real targets.
 
 The **PARAMP**, parametric amplifier switch allows for manual control of the parametric amplifier which is used to amplify weaker targets in all radar modes. Normally the WCS controls when to use the PARAMP depending on range but if tracking an unusually strong target it can be used to disable PARAMP to lessen the effect from background noise. If set to off manually it lessens the detection range by approximately 35%.
 
-:Note: AGC and PARAMP switches currently not implemented.
+:Note: AGC, PARAMP and TGTS switches currently not implemented.
 
 
 **AWG-9 Range Selection and Tracking Indication**
@@ -1089,12 +1109,12 @@ Below these are the four radar track indicator lights which are used to indicate
 **IR AUDIO Controls**
 
 
-The **IR AUDIO** controls (**10-12**) in the upper right part of the DDD panel were used with the IR sensor but as this is replaced by the TCS in the F-14B these are non-functional.
+The **IR AUDIO** controls (**10-12**) in the upper right part of the DDD panel were used with the original IR-sensor and are non-functional in modelled F-14 versions.
 
 
 **Radar and Missile Frequency Selectors**
 
-The thumbwheels in the upper rightmost part of the DDD panel are used to control the AN/AWG-9 radar emitter's frequency (**13**) and the missile control channel used with the AIM-7 and AIM-54 (14).
+The thumbwheels in the upper rightmost part of the DDD panel are used to control the AN/AWG-9 radar emitter's frequency (**13**) and the missile control channel used with the AIM-7 and AIM-54 (**14**).
 Adjustment of these might be needed to avoid interference from other AN/AWG-9 equipped aircraft or other external sources.
 The WCS reads the missile channel for the AIM-7 as the missiles are prepared as they need to be tuned and changing the channel after this will not affect a change unless the preparation sequence is restarted.
 
@@ -1327,7 +1347,7 @@ TID Data Readouts
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Scan Pattern Limits      | Shows altitude limits of currently selected scan pattern at set TID display range in thousands of feet.                                                                                                                                              |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Navigation Status        | Shows current status of the navigation system, IM for INS, AH for AHRS and an alternating MV if the manual magnetic variation differs from calculated magnetic variation.                                                                            |
+| Navigation Status        | Shows current status of the navigation system, IN for INS, AH for AHRS and an alternating MV if the manual magnetic variation differs from calculated magnetic variation.                                                                            |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Target Closing Rate      | Shows STT target or TWS hooked target closing rate to the closest whole tenth of knots. A plus sign indicates that the track is closing and a minus that the track is opening the distance to own aircraft.                                          |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1603,7 +1623,7 @@ TID Symbology
 |                                                             |    :height: 50 px                                    |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :align: center                                    |                                                                                                                                                                                                                                                                                                                              |
 +-------------------------------------------------------------+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Breakaway Indication                                        | .. image:: /images/general/awg-9/tidsymbology/27.png | Large cross appearing in the center of the TID when target range is less than minimum missile launch range.                                                                                                                                                                                                                  |
+| Breakaway Indication                                        | .. image:: /images/general/awg-9/tidsymbology/27.png | Large cross appearing in the center of the TID when target range is less than minimum missile launch range or gun firing range.                                                                                                                                                                                              |
 |                                                             |    :width: 50 px                                     |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :height: 50 px                                    |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :align: center                                    |                                                                                                                                                                                                                                                                                                                              |
@@ -1759,7 +1779,7 @@ The computer address panel (CAP) is the RIO's main interface for controlling and
 
 **Numeric Keypad** (**3**)
 
-The upper part of the CAP contains a numeric keypad with additional buttons flor clearing input (CLEAR), entering input (ENTER) and two buttons for selecting S/W and N/E prefixes for coordinates.
+The upper part of the CAP contains a numeric keypad with additional buttons for clearing input (CLEAR), entering input (ENTER) and two buttons for selecting S/W and N/E prefixes for coordinates.
 Some of the number keys has an additional function selecting a prefix for data display and/or entry.
 The keys containing functions and what those are:
 
@@ -1895,7 +1915,7 @@ Selection of symbol/function -> Prefix selection for display -> Data entry.
 
 Selection of desired symbol or function can be achieved either via **TID hook** or via the **CAP MESSAGE** buttons available under the different categories on the **CAP DRUM**.
 
-Most data readout prefixes displays multiple readouts, as an example calling up either latitude and longitude shows both and calling up range also displays bearing and vice versa but the selected prefix is the on used for data entry.
+Most data readout prefixes displays multiple readouts, as an example calling up either latitude and longitude shows both and calling up range also displays bearing and vice versa but the selected prefix is the one used for data entry.
 
 To select another prefix for data readout without reselecting the message function the **CLEAR** key on the CAP is used, this resets the readout and allows for selection of a new prefix.
 As it's possible that depression of a prefix button is read as a data entry if a prefix is already selected it's normally recommended to reset using **CLEAR** before reselecting a new prefix.
@@ -2029,7 +2049,7 @@ The pros of this mode being that, as said, targets can be detected at greater ra
 The AIM-54 both in TWS and STT and the AIM-7 in STT only.
 The biggest con of this mode being that it is susceptible to notching as a target returning zero relative speed will be filtered out.
 
-The pulse doppler modes of the AN/AWG-9 are, pulse doppler search, range while scan, track while scan and pulse doppler STT.
+The pulse doppler modes of the AN/AWG-9 are, pulse doppler search, range while search, track while scan and pulse doppler STT.
 The three search modes have a common DDD display, the main difference being that pulse doppler search has a slightly better range as the other two modes need to process FM-ranging to enable range indication of tracked targets.
 
 .. image:: /images/general/awg-9/PDSEARCH.png
@@ -2045,7 +2065,7 @@ The scale shown on the DDD (what rate region is shown) can be set by the Vc swit
 The operating range of the doppler filters can also be configured by the ASPECT switch on the same panel, NOSE sets 600 knots opening to 1 800 knots closing, BEAM sets 1200 knots closing to 1200 knots opening and TAIL sets 1 800 knots opening to 600 knots closing.
 This allows the RIO to optime the doppler filters for a known target closing speed and this affects the whole radar processing unlike the Vc switch which only affects the DDD.
 
-Because of the way the radar operates the doppler filters it will have two blind ranges. The main lobe clutter (MLC) region which contains most of the ground returns, those returning with zero groundspeed is one of them and is 266 knots wide, centered around own aircraft groundspeed  (133 knots slower and 133 knots faster).
+Because of the way the radar operates the doppler filters it will have two blind ranges. The main lobe clutter (MLC) region which contains most of the ground returns, including those returning with zero groundspeed and is 266 knots wide, centered around own aircraft groundspeed  (133 knots slower and 133 knots faster).
 This is the reason that the radar can be notched as a target with the same relative groundspeed as the ground will also be filtered out. This is however only true for look-down conditions as when the radar antenna looks up into the sky this filter isn't necessary and can be turned off.
 If the MLC switch on the DDD panel is in AUTO the radar will automatically turn off the MLC filter if looking more than 3 degrees above the horizon. It can also be turned off manually by the RIO but if the antenna looks down this can make the displays unusable in RWS and TWS as all of the ground returns will be sent to the computer for tracking.
 In whichever case, with the MLC filter off, the target cannot notch the AN/AWG-9 if it is above the radar.
@@ -2255,7 +2275,7 @@ From this state it is possible to command half-action and then position the acqu
 This will result in either pulse doppler slaved or pulse slaved mode depending on previous radar mode. It is also possible to switch using the P STT and PD STT button on the DDD panel.
 
 The resulting submode entered is equivalent to an STT mode where the TCS is instead used to track the targets angle rather than the radar itself.
-The radar is still used to track range and rate, on the DDD the IROT lights instead of the ANT ROT, IROT relating to ir tracking which has been replaced by the TCS in the F-14B.
+The radar is still used to track range and rate, on the DDD the IROT lights instead of the ANT ROT, IROT relating to ir tracking which has been replaced by the TCS in the modelled F-14 versions.
 
 This mode can be used to guide missiles, active and cw modes if in pulse and in PD if in pulse doppler.
 If the SLAVE switch is set to INDEP from this mode the system reverts to true pulse STT or pulse doppler STT depending on current mode.
@@ -2293,7 +2313,7 @@ To enable interrogation the IFF switch is depressed on the :ref:`dddp` which the
 
 When enabled IFF received IFF returns are then overlaid on the normal AN/AWG-9 radar returns on the DDD.
 A friendly target will be indicated with two bars, one above and one below the normal radar return.
-As the AN/APX-76 is a separate radar, secondary mode, radar apart from the AWG-9 the IFF can sometimes also detect targets not detected by the AWG-9.
+As the AN/APX-76 is a secondary mode radar (transponder radar) apart from the AWG-9 the IFF can sometimes also detect targets not detected by the AWG-9.
 In this case the IFF return will not have a radar echo inside it.
 
 In the search mode this is overlaid over each target replying and in STT over the STT target.
@@ -2357,7 +2377,7 @@ Lastly the **ACQ**, acquire switch controls the acquisition mode in use in the T
 DDD
 ---
 
-.. image:: /images/general/tcs/ddd.png
+.. image:: /images/general/tcs/tcsddd.png
 
 The DDD contains two indicators pertaining to the TCS.
 
@@ -2658,10 +2678,10 @@ AN/ALR-67 RWR
 Description
 ===========
 
-The AN/ALR-67 radar warning receiver (RWR) is designed to inform and alert the F-14B crew about radar emitters in their general area.
+The AN/ALR-67 radar warning receiver (RWR) is designed to inform and alert the F-14 crew about radar emitters in their general area.
 It's also designed to help the crew defend themselves from hostile threats by indicate radar tracking and engagement by radar guided weapons.
 
-The AN/ALR-67 was integrated into the F-14B Tomcat as part of the A+/B programme and at first as a standalone system.
+The AN/ALR-67 was integrated in the F-14 to replace the ageing AN/ALR-45 and AN/ALR-50, at first for the F-14B and later on for parts of the F-14A fleet. Until the advent of the PMDIG upgrade the AN/ALR-67 used its own stand-alone display system only.
 The RWR is however connected to the AN/ALQ-126 allowing it to send info on threat emitters to the jammer and also display jammed targets on its own display.
 It can also trigger preprogrammed countermeasure programs set up in the AN/ALE-39 system.
 
@@ -2720,7 +2740,7 @@ and the lower half indicating either the use of the offset display mode by indic
 
 On the lower right side is a knob controlling display intensity on display it's attached to.
 
-:Note: The ordering of the three threat bands has changed at least once since the introduction of the AN/ALR-67, as the modelled F-14B represents one of the earlier versions we've chosen the present order.
+:Note: The ordering of the three threat bands has changed at least once since the introduction of the AN/ALR-67, and as the modelled AN/ALR-67 represents one of the earlier versions we've chosen the present order.
 
 
 Warning Lights
@@ -2751,7 +2771,7 @@ A slow warbling, alternating tone is used to indicate the presence of a threat i
 A fast warbling, alternating tone is used to indicate that a threat is actively engaging own aircraft.
 
 A special four tone audio signal, pitch decreasing with each tone, is used to indicate a special event as programmed by the threat library.
-In the Heatblur DCS F-14B this represents a new threat tied to a system capable of silently engaging own aircraft, i.e. it can engage own aircraft without causing it's threat symbol to move to the critical band and thus no additional audio warning tones.
+In the Heatblur DCS F-14 this represents a new threat tied to a system capable of silently engaging own aircraft, i.e. it can engage own aircraft without causing it's threat symbol to move to the critical band and thus no additional audio warning tones.
 This capability is either because of that the launching aircraft is capable of launching missiles in a TWS mode or that a launching SAM system can guide missiles by other means than radar and thus not giving further warning of an active engagement.
 
 
@@ -2771,7 +2791,7 @@ During the tests the threat warning lights also illuminate for both the pilot an
 Threat Symbology
 ================
 
-The following table details the threat symbols used by the Heatblur DCS F-14B.
+The following table details the threat symbols used by the Heatblur DCS F-14 with the AN/ALR-67.
 
 +---------------+-----------------------------------------------------------------------+---------------------+
 | Threat symbol | Platform/Sensor                                                       | Special Tone        |
@@ -2813,21 +2833,13 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 +---------------+-----------------------------------------------------------------------+---------------------+
 | Aircraft                                                                                                    |
 +---------------+-----------------------------------------------------------------------+---------------------+
-| 13            | C-130                                                                 |                     |
-+---------------+-----------------------------------------------------------------------+---------------------+
-| 17            | C-17A                                                                 |                     |
-+---------------+-----------------------------------------------------------------------+---------------------+
-| 37            | AJS-37                                                                |                     |
-+---------------+-----------------------------------------------------------------------+---------------------+
-| 50            | A-50                                                                  |                     |
-+---------------+-----------------------------------------------------------------------+---------------------+
-| 52            | B-52                                                                  |                     |
-+---------------+-----------------------------------------------------------------------+---------------------+
 | 14            | F-14A/B                                                               | Yes                 |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 15            | F-15C/E                                                               | Yes                 |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 16            | F-16C                                                                 | Yes                 |
++---------------+-----------------------------------------------------------------------+---------------------+
+| 17            | JF-17                                                                 | Yes                 |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 18            | F/A-18C                                                               | Yes                 |
 +---------------+-----------------------------------------------------------------------+---------------------+
@@ -2849,7 +2861,13 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 34            | Su-34                                                                 | Yes                 |
 +---------------+-----------------------------------------------------------------------+---------------------+
+| 37            | AJS-37                                                                |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
 | 39            | Su-25TM (Su-39)                                                       | Yes                 |
++---------------+-----------------------------------------------------------------------+---------------------+
+| 50            | A-50                                                                  |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
+| 52            | B-52                                                                  |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | AN            | AN-26B and AN-30M                                                     |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
@@ -2885,6 +2903,10 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 +---------------+-----------------------------------------------------------------------+---------------------+
 | SH            | SH-60B                                                                |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
+| TO            | Tornado                                                               |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
+| TR            | C-130 and C-17A                                                       |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
 | Air Defense                                                                                                 |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 2             | S-75 TR SNR (Fan Song)                                                |                     |
@@ -2892,6 +2914,8 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 | 3             | S-125 TR SNR-125 (SA-3/Low Blow)                                      |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 6             | Kub SA-6                                                              |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
+| 7             | HQ-7 TR                                                               |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | 8             | OSA (SA-8)                                                            |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
@@ -2909,6 +2933,8 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 +---------------+-----------------------------------------------------------------------+---------------------+
 | BB            | S-300PS 64H6E SR (SA-10/Big Bird)                                     |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
+| BF            | Rapier Blindfire TR                                                   |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
 | CS            | S-300PS 5N66M SR (SA-10/Clam Shell)                                   |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | DE            | Sborka (Dog Ear)                                                      |                     |
@@ -2921,9 +2947,13 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 +---------------+-----------------------------------------------------------------------+---------------------+
 | HK            | Hawk TR                                                               |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
+| HQ            | HQ-7 SR                                                               |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
 | PT            | Patriot                                                               |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | RO            | Roland                                                                |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
+| RP            | Rapier SR                                                             |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | S             | 1L13 and 55G6 EWR                                                     |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
@@ -2933,7 +2963,7 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 +---------------+-----------------------------------------------------------------------+---------------------+
 | Missiles                                                                                                    |
 +---------------+-----------------------------------------------------------------------+---------------------+
-| M             | MICA-EM, R-37, R-77, AIM-54 and AIM-120                               |                     |
+| M             | AIM-54, AIM-120, MICA-EM, R-37, R-77 and SD-10                        |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | ATC (Air Traffic Control)                                                                                   |
 +---------------+-----------------------------------------------------------------------+---------------------+
@@ -2947,7 +2977,7 @@ The following table details the threat symbols used by the Heatblur DCS F-14B.
 AN/ALE-39 Countermeasures Dispensing Set
 ****************************************
 
-The AN/ALE-39 is the countermeasures dispensing set installed in the F-14B in this simulation.
+The AN/ALE-39 is the countermeasures dispensing set installed in the F-14 in this simulation.
 It controls its own set of launchers located between the engine nozzles on the underside of the so called beaver-tail.
 
 The launchers each have two sections, one containing 10 cartridges and the other 20.
@@ -2965,7 +2995,7 @@ In addition the AN/ALR-67 can also initiate the chaff ejection program if set up
 Controls and Operation
 ======================
 
-:Note: In DCS the F-14B countermeasure loadout is set in the Mission Editor, see :ref:`MESET` or controlled through the radio menu under ground crew.
+:Note: In DCS the F-14 countermeasure loadout is set in the Mission Editor, see :ref:`MESET` or controlled through the radio menu under ground crew.
        The default setting in the mission editor is bypassed. To see the real loadout check the kneeboard.
 
 Programmer
@@ -3074,21 +3104,22 @@ In summary this means that when using the LAU-138 an additional 40 chaff ejectio
 and that the R10 section should always be set to C for chaff when mounted.
 
 
-AN/ALQ-126 DECM
-***************
+AN/ALQ-100 AND 126 DECM (Defensive Electronic CounterMeasures)
+**************************************************************
 
-The AN/ALQ-126 deception jammer is designed to detect radar threats, analyze them, select the optimum countermeasure technique available and apply it.
+The AN/ALQ-100 and 126 jammers are designed to detect radar threats, analyze them, select the optimum countermeasure technique available and apply it.
 Available techniques for jamming are amongst others, mainlobe blanking, inverse con-scan, range-gate pull-off and swept square modes.
 
-In DCS this is modelled as a simple noise jammer due to engine limitations but controlled by the DECM logic as to when it's on or off.
+In real life these two systems differ greatly with the AN/ALR-126 being by far the most effective system.
+In DCS both are modelled as a simple noise jammers due to engine limitations but controlled by the DECM logic as to when it's on or off and thus work the same.
 
 
-AN/ALQ-126 Controls and Indicators
-==================================
+DECM Controls and Indicators
+============================
 
 .. image:: /images/general/alq-126/control.png
 
-The controls for the AN/ALQ-126 DECM are all located on the right horizontal panel in the RIO pit, panel as image above.
+The controls for the DECM are all located on the right horizontal panel in the RIO pit, panel as image above.
 In addition there are two indication lights co-located with the RWR threat indicators on the right side of the TID.
 
 The two indication lights on the threat advisory are RCV (recieve) and XMIT (transmit). RCV illuminates up when the system detects and analyzes a threat while the XMIT illuminates up when it's actively jamming a threat.
@@ -4490,9 +4521,9 @@ The external interphone connection is in the nose-wheel well. When pilot ICS swi
 ground personnel can communicate with the cockpit stations. In DCS this works through selecting the ground crew communication menu in the DCS radio communication menu when activating ICS PTT.	
 
 
-+-----------------------------------------------------------+----------------------------------------------------------------+
-|.. image:: /images/general/communications/throttle.png     |.. image:: /images/general/communications/ics2.png              |
-+-----------------------------------------------------------+----------------------------------------------------------------+
++-----------------------------------------------------------+---------------------------------------------------------------+
+|.. image:: /images/general/communications/throttle.png     |.. image:: /images/general/communications/ics.png              |
++-----------------------------------------------------------+---------------------------------------------------------------+
 
 +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                       |                                                                                                                                                 |
@@ -4639,7 +4670,7 @@ The crewmember (PLT or RIO) in control illuminates when selected.
 The UHF 1 VOL control allows the RIO to adjust the audio level of the ARC 159 UHF 1 radio.
 The KY MODE switch is operative only when the KY-58 is installed.
 
-:Note: The Heatblur F-14B version uses the KY-28 only.
+:Note: The Heatblur F-14 version uses the KY-28 only.
 
 .. image:: /images/general/communications/comtac.png
 

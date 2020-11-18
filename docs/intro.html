@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html4" lang="zh-CN" >
+<html class="writer-html5" lang="zh-CN" >
 <head>
   <meta charset="utf-8">
   
@@ -29,11 +29,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script type="text/javascript" src="_static/translations.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -101,9 +101,17 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#general-specifications">一般规格</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#technical-data">技术资料</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#f-14a">F-14A</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#f-14b">F-14B</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#modelled-f-14-versions-in-dcs">DCS 中模拟的 F-14 型号</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#f-14a-95-gr-iriaf-not-yet-implemented">F-14A-95-GR IRIAF - 尚未实装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#f-14a-135-gr-early-not-yet-implemented">F-14A-135-GR（早期） - 尚未实装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#f-14a-135-gr-late">F-14A-135-GR （后期型）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">F-14B</a></li>
 </ul>
 </li>
 </ul>
@@ -123,6 +131,7 @@
 <li class="toctree-l1"><a class="reference internal" href="loc_about.html">关于本项目</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_credit.html">中文本地化制作</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_changelog.html">本地化更新日志</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loc_devupdate.html">Heatblur DCS:F-14A/B 开发更新文章</a></li>
 </ul>
 <p class="caption"><span class="caption-text">下载：</span></p>
 <ul>
@@ -205,9 +214,9 @@
 <h2>历史背景<a class="headerlink" href="#historical-background" title="永久链接至标题">¶</a></h2>
 <div class="section" id="f-14-tomcat">
 <h3>F-14 “雄猫”<a class="headerlink" href="#f-14-tomcat" title="永久链接至标题">¶</a></h3>
-<div class="figure" id="id1">
+<div class="figure align-default" id="id2">
 <img alt="_images/F-14TU95.png" src="_images/F-14TU95.png" />
-<p class="caption"><span class="caption-text">照片由美国海军中尉Thomas Prochilo拍摄（DN-SC-83-06680）</span></p>
+<p class="caption"><span class="caption-text">照片由美国海军中尉Thomas Prochilo拍摄（DN-SC-83-06680）</span><a class="headerlink" href="#id2" title="永久链接至图片">¶</a></p>
 </div>
 <p>F-14“雄猫”可以一直追溯到上世纪50年代，美国海军急需一架长航程舰载截击机来填补舰队防空职能的空缺。结论认为海军需要一架比 F-4“鬼怪”更先进、雷达探测距离更远、空空导弹射程更长的战斗机。</p>
 <p>当时，海军受国防部长罗伯特·麦克纳马拉的指示与美国空军合作推进实验战术战斗机（TFX）项目。海军从最初便反对共同开发此项目，而且通用动力F-111B飞机方案也并未满足海军的期望。</p>
@@ -224,9 +233,9 @@
 </div>
 <div class="section" id="ground-attack">
 <h3>对地攻击<a class="headerlink" href="#ground-attack" title="永久链接至标题">¶</a></h3>
-<div class="figure" id="id2">
+<div class="figure align-default" id="id3">
 <img alt="_images/bombcat.png" src="_images/bombcat.png" />
-<p class="caption"><span class="caption-text">照片由美国海军少校 Dave Parsons 拍摄 （DN-SC-93-01299）</span></p>
+<p class="caption"><span class="caption-text">照片由美国海军少校 Dave Parsons 拍摄 （DN-SC-93-01299）</span><a class="headerlink" href="#id3" title="永久链接至图片">¶</a></p>
 </div>
 <p>20世纪90年代，美国海军舰队面临的空中威胁逐渐减少，同时由于沙漠风暴等行动的实施，对地攻击的重要性重新凸显出来。</p>
 <p>F-14 最初就具备携带和投放空对地弹药的能力，但是由于海军基于成本和风险的考量，F-14 的主要职责仅为舰队防空。</p>
@@ -246,9 +255,9 @@
 </div>
 <div class="section" id="iran">
 <h3>伊朗<a class="headerlink" href="#iran" title="永久链接至标题">¶</a></h3>
-<div class="figure" id="id3">
+<div class="figure align-default" id="id4">
 <img alt="_images/iranicats.jpg" src="_images/iranicats.jpg" />
-<p class="caption"><span class="caption-text">照片由伊朗空军在1986年间拍摄</span></p>
+<p class="caption"><span class="caption-text">照片由伊朗空军在1986年间拍摄。</span><a class="headerlink" href="#id4" title="永久链接至图片">¶</a></p>
 </div>
 <p>F-14“雄猫”的唯一海外使用客户是伊朗皇家空军（IIAF）和后来的伊朗伊斯兰共和国空军（IRIAF）。当时的伊朗国王默罕默德·礼萨·巴列维曾采购了80架“雄猫”。</p>
 <p>而巴列维王朝的倒台和伊朗伊斯兰共和国的崛起意味着一个反美国家获得了美国最先进的战斗机之一。“波斯猫”随即失去了所有零部件和导弹的供应，只得从黑市上购买配件，这大大增加了飞机维护的难度。</p>
@@ -258,9 +267,9 @@
 </div>
 <div class="section" id="aim-54-phoenix">
 <h3>AIM-54“不死鸟”<a class="headerlink" href="#aim-54-phoenix" title="永久链接至标题">¶</a></h3>
-<div class="figure" id="id4">
+<div class="figure align-default" id="id5">
 <img alt="_images/phoenix.jpg" src="_images/phoenix.jpg" />
-<p class="caption"><span class="caption-text">照片由美国海军上尉 Dana Potts 拍摄 （020924-N-1955P-001)</span></p>
+<p class="caption"><span class="caption-text">照片由美国海军上尉 Dana Potts 拍摄 （020924-N-1955P-001)</span><a class="headerlink" href="#id5" title="永久链接至图片">¶</a></p>
 </div>
 <p>AIM-54 远程空空导弹和F-14“雄猫”一起诞生于当年的TFX项目。</p>
 <p>最初为 F-111B 设计的 AIM-54 被 F-14 用作可以同时攻击敌方轰炸机和巡航导弹的长射程导弹。当然，AIM-54 打击其他小目标也并非力不从心。</p>
@@ -274,56 +283,129 @@
 <h2>一般规格<a class="headerlink" href="#general-specifications" title="永久链接至标题">¶</a></h2>
 <div class="section" id="technical-data">
 <h3>技术资料<a class="headerlink" href="#technical-data" title="永久链接至标题">¶</a></h3>
-<div class="section" id="f-14b">
-<h4>F-14B<a class="headerlink" href="#f-14b" title="永久链接至标题">¶</a></h4>
-<table border="1" class="docutils">
+<div class="section" id="f-14a">
+<h4>F-14A<a class="headerlink" href="#f-14a" title="永久链接至标题">¶</a></h4>
+<table class="docutils align-default">
 <colgroup>
-<col width="54%" />
-<col width="46%" />
+<col style="width: 54%" />
+<col style="width: 46%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>翼展（机翼完全展开）</td>
-<td>64’ 1.5”（约19.5米）</td>
+<tbody>
+<tr class="row-odd"><td><p>翼展（机翼完全展开）</p></td>
+<td><p>64’ 1.5”（约19.5米）</p></td>
 </tr>
-<tr class="row-even"><td>翼展（空中完全后掠）</td>
-<td>38’ 2.5”（约11.6米）</td>
+<tr class="row-even"><td><p>翼展（空中完全后掠）</p></td>
+<td><p>38’ 2.5”（约11.6米）</p></td>
 </tr>
-<tr class="row-odd"><td>翼展（停放机翼后掠）</td>
-<td>33’ 3.5”（约10.1米）</td>
+<tr class="row-odd"><td><p>翼展（停放机翼后掠）</p></td>
+<td><p>33’ 3.5”（约10.1米）</p></td>
 </tr>
-<tr class="row-even"><td>长度</td>
-<td>62’ 8.5”（约19.1米）</td>
+<tr class="row-even"><td><p>长度</p></td>
+<td><p>62’ 8.5”（约19.1米）</p></td>
 </tr>
-<tr class="row-odd"><td>高度</td>
-<td>16’ （约4.9米）</td>
+<tr class="row-odd"><td><p>高度</p></td>
+<td><p>16’ （约4.9米）</p></td>
 </tr>
-<tr class="row-even"><td>翼面积</td>
-<td>565平方英尺（约52.5平米）</td>
+<tr class="row-even"><td><p>翼面积</p></td>
+<td><p>565平方英尺（约52.5平米）</p></td>
 </tr>
-<tr class="row-odd"><td>空重</td>
-<td>41,780磅（约19,000千克）</td>
+<tr class="row-odd"><td><p>空重</p></td>
+<td><p>40104 磅（约18,200 千克）</p></td>
 </tr>
-<tr class="row-even"><td>最大重量</td>
-<td>74,349磅（33,700千克）</td>
+<tr class="row-even"><td><p>最大重量</p></td>
+<td><p>72000 磅（约32700千克）</p></td>
 </tr>
-<tr class="row-odd"><td>加力最大推力</td>
-<td>60,400磅力（268千牛顿）</td>
+<tr class="row-odd"><td><p>最大推力，干推力</p></td>
+<td><p>34,154 磅力（152千牛）</p></td>
 </tr>
-<tr class="row-even"><td>翼载</td>
-<td>94磅/平方英尺（458.9千克/平方米）</td>
+<tr class="row-even"><td><p>翼载</p></td>
+<td><p>92 磅/平方英尺（449.2千克/平方米）</p></td>
 </tr>
-<tr class="row-odd"><td>极速</td>
-<td>1,544英里/小时（~2,500千米/小时）</td>
+<tr class="row-odd"><td><p>极速</p></td>
+<td><p>1,544英里/小时（~2,500千米/小时）</p></td>
 </tr>
-<tr class="row-even"><td>升限</td>
-<td>53,000+英尺（~16,200米）</td>
+<tr class="row-even"><td><p>升限</p></td>
+<td><p>50000+英尺（约15,200米）</p></td>
 </tr>
-<tr class="row-odd"><td>航程</td>
-<td>2,050海里（~3,800千米）</td>
+<tr class="row-odd"><td><p>航程</p></td>
+<td><p>1,730 海里（约3200千米）</p></td>
 </tr>
 </tbody>
 </table>
 </div>
+<div class="section" id="f-14b">
+<h4>F-14B<a class="headerlink" href="#f-14b" title="永久链接至标题">¶</a></h4>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 54%" />
+<col style="width: 46%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>翼展（机翼完全展开）</p></td>
+<td><p>64’ 1.5”（约19.5米）</p></td>
+</tr>
+<tr class="row-even"><td><p>翼展（空中完全后掠）</p></td>
+<td><p>38’ 2.5”（约11.6米）</p></td>
+</tr>
+<tr class="row-odd"><td><p>翼展（停放机翼后掠）</p></td>
+<td><p>33’ 3.5”（约10.1米）</p></td>
+</tr>
+<tr class="row-even"><td><p>长度</p></td>
+<td><p>62’ 8.5”（约19.1米）</p></td>
+</tr>
+<tr class="row-odd"><td><p>高度</p></td>
+<td><p>16’ （约4.9米）</p></td>
+</tr>
+<tr class="row-even"><td><p>翼面积</p></td>
+<td><p>565平方英尺（约52.5平米）</p></td>
+</tr>
+<tr class="row-odd"><td><p>空重</p></td>
+<td><p>41,780磅（约19,000千克）</p></td>
+</tr>
+<tr class="row-even"><td><p>最大重量</p></td>
+<td><p>74,349磅（33,700千克）</p></td>
+</tr>
+<tr class="row-odd"><td><p>最大推力，干推力</p></td>
+<td><p>56,400 磅力（251千牛顿）</p></td>
+</tr>
+<tr class="row-even"><td><p>翼载</p></td>
+<td><p>94磅/平方英尺（458.9千克/平方米）</p></td>
+</tr>
+<tr class="row-odd"><td><p>极速</p></td>
+<td><p>1,544英里/小时（~2,500千米/小时）</p></td>
+</tr>
+<tr class="row-even"><td><p>升限</p></td>
+<td><p>53,000+英尺（~16,200米）</p></td>
+</tr>
+<tr class="row-odd"><td><p>航程</p></td>
+<td><p>2,050海里（~3,800千米）</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="modelled-f-14-versions-in-dcs">
+<h2>DCS 中模拟的 F-14 型号<a class="headerlink" href="#modelled-f-14-versions-in-dcs" title="永久链接至标题">¶</a></h2>
+<div class="section" id="f-14a-95-gr-iriaf-not-yet-implemented">
+<h3>F-14A-95-GR IRIAF - 尚未实装<a class="headerlink" href="#f-14a-95-gr-iriaf-not-yet-implemented" title="永久链接至标题">¶</a></h3>
+<p>出售给 IIAF（伊朗帝国空军）的早期型 F-14A，后来成为 IRIAF（伊朗伊斯兰共和国空军）。</p>
+<p>这个型号的 F-14 装备了早期 普惠 TF30-P-414A 发动机、AN/ALR-45 雷达告警接收机、无电视摄像套件（TCS）和 Link-4 数据链路系统，以及出售伊朗有限的早期空空导弹。</p>
+</div>
+<div class="section" id="f-14a-135-gr-early-not-yet-implemented">
+<h3>F-14A-135-GR（早期） - 尚未实装<a class="headerlink" href="#f-14a-135-gr-early-not-yet-implemented" title="永久链接至标题">¶</a></h3>
+<p>美国海军早期型 F-14A。</p>
+<p>这个型号的 F-14 装备了早期 普惠 TF30-P-414A 发动机、AN/ALR-45 和 AN/ALR-50 雷达告警接收机。</p>
+</div>
+<div class="section" id="f-14a-135-gr-late">
+<h3>F-14A-135-GR （后期型）<a class="headerlink" href="#f-14a-135-gr-late" title="永久链接至标题">¶</a></h3>
+<p>美国海军后期型 F-14A。</p>
+<p>这个型号的 F-14 装备了早期 普惠 TF30-P-414A 发动机、AN/ALR-67 雷达告警接收机。</p>
+</div>
+<div class="section" id="id1">
+<h3>F-14B<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
+<p>美国海军 F-14B（F-14A+ 重命名）</p>
+<p>这个型号的 F-14 装备了更新的通用电气 F110-GE-400 发动机、AN/ALR-67 雷达告警接收机以及安装和使用 LANTIRN 瞄准吊舱的能力。</p>
 </div>
 </div>
 </div>

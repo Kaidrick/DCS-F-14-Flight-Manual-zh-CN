@@ -127,6 +127,38 @@ General Specifications
 Technical Data
 ==============
 
+F-14A
+-----
+
++---------------------------------+----------------------------+
+| Wingspan (Fully Extended)       | 64'1.5" (~19.5 meters)     |
++---------------------------------+----------------------------+
+| Wingspan (Fully Swept Airborne) | 38'2.5" (~11.6 meters)     |
++---------------------------------+----------------------------+
+| Wingspan (Oversweep)            | 33'3.5" (~10.1 meters)     |
++---------------------------------+----------------------------+
+| Length                          | 62'8.5" (~19.1 meters)     |
++---------------------------------+----------------------------+
+| Height                          | 16' (~4.9 meters)          |
++---------------------------------+----------------------------+
+| Wing Area                       | 565 sqft (~52.5 m²)        |
++---------------------------------+----------------------------+
+| Empty Weight                    | 40,104 pounds (~18,200 kg) |
++---------------------------------+----------------------------+
+| Maximum Weight                  | 72,000 pounds (~32,700 kg) |
++---------------------------------+----------------------------+
+| Maximum Thrust, Dry             | 34,154 lbf (152 kN)        |
++---------------------------------+----------------------------+
+| Wing Loading                    | 92 lb/ft² (449.2 kg/m²)    |
++---------------------------------+----------------------------+
+| Maximum Speed                   | 1,544 mph (~2,500 km/h)    |
+|                                 | Mach 2.38                  |
++---------------------------------+----------------------------+
+| Ceiling                         | 50,000'+ (~15,200 meters)  |
++---------------------------------+----------------------------+
+| Range                           | 1,730 NM (~3200 km)        |
++---------------------------------+----------------------------+
+
 F-14B
 -----
 
@@ -147,7 +179,7 @@ F-14B
 +---------------------------------+----------------------------+
 | Maximum Weight                  | 74,349 pounds (~33,700 kg) |
 +---------------------------------+----------------------------+
-| Maximum Thrust with Afterburner | 60,400 lbf (268 kN)        |
+| Maximum Thrust, Dry             | 56,400 lbf (251 kN)        |
 +---------------------------------+----------------------------+
 | Wing Loading                    | 94 lb/ft² (458.9 kg/m²)    |
 +---------------------------------+----------------------------+
@@ -158,3 +190,38 @@ F-14B
 +---------------------------------+----------------------------+
 | Range                           | 2,050 NM (~3800 km)        |
 +---------------------------------+----------------------------+
+
+
+Modelled F-14 versions in DCS
+*****************************
+
+F-14A-95-GR IRIAF - Not yet implemented
+=======================================
+
+Early F-14A version as sold to the IIAF (Imperial Iranian Air Force) which later became the IRIAF (Islamic Republic of Iran Air Force).
+
+This version has the early Pratt & Whitney TF30-P-414A engines, AN/ALR-45 radar warning receiver and lacks the Television Camera Set (TCS) and Link-4 data link system as well as being limited to the earlier air to air missiles available to Iran.
+ 
+
+F-14A-135-GR (Early) - Not yet implemented
+==========================================
+
+Early US Navy F-14A version.
+
+This version has the early Pratt & Whitney TF30-P-414A engines and AN/ALR-45 and AN/ALR-50 radar warning receivers.
+
+
+F-14A-135-GR (Late)
+===================
+
+Later US Navy F-14A version.
+
+This version has the early Pratt & Whitney TF30-P-414A engines and the AN/ALR-67 radar warning receiver.
+
+
+F-14B
+=====
+
+US Navy F-14B (renamed from F-14A+).
+
+This version has the newer General Electrics F110-GE-400 engines, the AN/ALR-67 radar warning receiver as well as having the ability to mount and use the LANTIRN targeting pod.
