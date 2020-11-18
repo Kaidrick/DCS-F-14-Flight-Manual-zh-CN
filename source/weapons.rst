@@ -229,7 +229,7 @@ The AIM-9 Sidewinder is a short range air-to-air missile.
 It uses an infrared seeker locking on to a targets IR signature making it capable of tracking a target both during daytime and at night.
 
 The F-14 Tomcat is capable of carrying all navy versions of the AIM-9 Sidewinder from the AIM-9D up to the AIM-9M.
-The Heatblur F-14B Tomcat is currently modelled as carrying the AIM-9L and AIM-9M.
+The Heatblur F-14 Tomcat is currently modelled as carrying the AIM-9L and AIM-9M.
 
 The F-14 is capable of carrying the AIM-9 on stations 1A & B and 8A & B.
 Stations 1 & 8 are the glove pylons which both can carry two AIM-9s for a total of 4.
@@ -260,7 +260,7 @@ The SEAM allows the missile seeker head to be uncaged to track a target within t
 It also allows for the WCS on the F-14 to slave the seeker to a tracked target within 20° from ADL, allowing for off boresight acquisition.
 
 The AIM-9 on the F-14 can still use the old boresight mode where the seeker head remains slaved to ADL (2.5° field of view) but normally SEAM is used to scan the seeker about either ADL or a tracked target.
-This seeker scan is along a back-to-back double-D scan pattern, basically a scan cone about 6° wide covered in around 3 seconds, this is however not indicated visually to the pilot.
+This scan is not visual to the pilot and is done to increase effective seekerhead field of view.
 Like in all Sidewinders target detection is indicated by an aural tone. That growling tone is present while scanning but increases in intensity while the seeker is looking at an IR-source.
 
 .. raw:: latex
@@ -322,7 +322,7 @@ The glove pylons contain their own cooling systems.
 The missile is capable of engagement both against a single target in STT and multiple targets using track-while-search (TWS).
 
 The AIM-54 is available in two different versions, the AIM-54A and the AIM-54C.
-The Heatblur Simulations F-14B Tomcat is modelled with both versions as well as modelling the AIM-54A with both mk47 and mk60 rocket motors.
+The Heatblur Simulations F-14 Tomcat is modelled with both versions as well as modelling the AIM-54A with both mk47 and mk60 rocket motors.
 The two motors on the AIM-54A differing in effective range while the AIM-54C differs by having a digital seeker instead of an analog one, increasing its performance, as well as an improved, smokeless, mk47 rocket motor.
 
 The AIM-54 has a range of at least 60 NM against a fighter sized target at high altitudes in pulse doppler STT.
@@ -383,6 +383,7 @@ If launched at a target within 6 NM if in the targets rear hemisphere or 10 NM m
 
 If the target is not detected actively by the seeker it will still fall back to SARH until the seeker can acquire on its own like in the two SARH modes.
 
+:Note: Setting the MSL OPTIONS switch to PH ACT with an AIM-54 in the air will not make it go active, the PH ACT option can only be set before missile launch.
 
 ACM Active
 ^^^^^^^^^^
@@ -442,6 +443,25 @@ In addition to the track numbering the TID also displays a steering centroid ind
 The HUD and VDI displays a steering cue guiding the pilot towards optimal target illumination and also displays range and Rmin and Rmax to target number 1.
 The TID displays the complete attack symbology with target prioritisation numbers and individual optimum launch ranges, for more info see :ref:`TWS`.
 
+AIM-54 in DCS
+-------------
+
+The HB DCS F-14 includes custom AIM-54A and AIM-54C missiles, the AIM-54A with a choice of two different rocket motors.
+The aerodynamics and engine perfomance for these missiles have been extensively researched and computer simulated to make the included missiles behave as realistically as possible in regards to aerodynamics.
+
+In regards to missile seeker and flight profile we've worked with Eagle Dynamics to enable our F-14 AN/AWG-9 to control the AIM-54 to a degree.
+In DCS this means the following:
+
+In TWS the missiles will fly out using guidance from the AN/AWG-9 until at 16 seconds to impact at which time the AN/AWG-9 will tell the missile to go active if it's still within the radar scan zone.
+This results in a silent engagement until the missiles go active at which time the target's radar warning receiver will get indication of an active missile engaging it.
+If fired at range the AIM-54 will loft for greater range.
+
+In PD-STT (Pulse-Doppler Single Target Track) the AIM-54 will be launched in a pure semi-active mode and be guided in that mode all the way to target without going active.
+This means that the engaged target will get an immediate engagement warning through its radar warning receiver from the AN/AWG-9 as soon as the AIM-54 leaves the rail.
+Like in TWS the missile will loft if fired at range.
+
+For all other modes and within 10NM of target (or in ACM or PH ACT) the AIM-54 will launch active off the rail and the targeted aircraft will immediately see the missile's own radar actively engaging it.
+It will not loft in this case and thus the range is less than in the other two cases.
 
 Air-to-Ground Weapons
 *********************
@@ -498,7 +518,7 @@ After tape read-in (about 30 seconds) the WCS initiates the Air-to-ground mode a
 The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon.
 All other options are set by the RIO in the back seat.
 
-The available attack modes in the F-14B are set by the ATTK MODE selector in the RIO pit and are:
+The available attack modes in the F-14 are set by the ATTK MODE selector in the RIO pit and are:
 
 *   CMPTR TGT - Computer target, a semi-automatic computer guided mode similar to a CCRP mode in newer aircraft.
 *   CMPTR IP - Computer initial point, an extended CMPTR TGT mode using a known initial point (IP) as reference for store delivery. Mostly used in situations where the actual target is expected to be hard to locate visually and is located closely to an easily identifiable reference point/landmark.
@@ -590,7 +610,7 @@ The Mk-80 series bombs are the standard general purpose bombs used by the US Nav
 The Mk-82 also has the capability to mount a retardation system using either folding fins or an inflated ballute to brake the bomb after release allowing them to be dropped at lower altitudes as the dropping aircraft has more time to move away from them.
 Those versions are called the Mk-82 Snake Eye (fins) and Mk-82AIR (ballute) in DCS.
 
-The F-14B is capable of carrying all the various bombs in the Mk-80s series, 81 through to 84.
+The F-14 is capable of carrying all the various bombs in the Mk-80s series, 81 through to 84.
 While the ground attack mission never really materialised for the F-14 in the navy it was tested for and cleared to deliver these weapons from the start.
 
 The F-14 uses the Phoenix rails (stations 3-6) and the glove pylons' lower stations to mount the bombs.
@@ -609,7 +629,7 @@ GBU-10, 12, 16 and 24
 
     U.S. Navy photo by Photographer's Mate Airman Milosz Reterski. (040105-N-9742R-001)
 
-The GBU (guided bomb unit) are bombs from the Mk-80s series with an attached seeker unit and fin (control) unit converting them into guided precision bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14B, laser guided bombs to be more precise.
+The GBU (guided bomb unit) are bombs from the Mk-80s series with an attached seeker unit and fin (control) unit converting them into guided precision bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14, laser guided bombs to be more precise.
 
 When the F-14B gained the ability to mount and use the LANTIRN pod it was also cleared to carry some of the GBU variants of the Mk-80 series bombs.
 It can either deliver them onto designation from a self-carried LANTIRN pod or onto a laser designation from another aircraft or ground source.
@@ -630,7 +650,7 @@ the design being that the submunitions are dispersed over a large area for great
 The fuze height itself is set by the ground crew as they're loaded and can't be changed by the pilot.
 To arm the Rockeye correctly the mechanical fuse should be set to nose (N).
 
-The F-14B can carry up to 10 Mk-20 Rockeyes using the Phoenix rails and substations as well as TERs on the glove pylons.
+The F-14 can carry up to 10 Mk-20 Rockeyes using the Phoenix rails and substations as well as TERs on the glove pylons.
 
 :Note: Additional fuse settings (FMU-140 fuse) pending additional weapon code implementation.
 
@@ -643,7 +663,7 @@ As part of its design it's modular and capable of using different warheads as we
 
 The Zuni rockets are carried in LAU-10 pods, each carrying 4 rockets. The pods can fire in either salvo mode or ripple mode, salvo launching one rocket and ripple all.
 
-The F-14B Tomcat can carry LAU-10 rocket pods on stations 1B, 3, 6 and 8B using TERs, each TER holding up to two pods except on of either 3 or 6 which must only carry one as not to clash with a pod on the adjacent station.
+The F-14 Tomcat can carry LAU-10 rocket pods on stations 1B, 3, 6 and 8B using TERs, each TER holding up to two pods except on of either 3 or 6 which must only carry one as not to clash with a pod on the adjacent station.
 The TERs are used to gain separation from the station for safe rocket firing and the reason for not being able to use three pods on the TERs are that on the glove pylons the inner TER station would conflict with the main landing gear
 and on stations 3 and 6 with the fuselage.
 
@@ -660,7 +680,7 @@ BDU-33 Practice Bombs
 =====================
 
 The BDU-33 practice bomb is a training round used to simulate a Mk-82 general purpose bomb for training purposes.
-They can be carried three to a TER on each of station 3, 4, 5 and 6 on the F-14B Tomcat.
+They can be carried three to a TER on each of station 3, 4, 5 and 6 on the F-14 Tomcat.
 
 They are set up for release as with the real general purpose bombs.
 
@@ -679,7 +699,7 @@ There are several versions of the TALD, examples being a version equipped to lau
 
 All versions are pre-programmed before take-off and are unpowered, gliding through the air on fold-out wings.
 
-The F-14B can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage.
+The F-14 can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage.
 
 :Note: In DCS these currently glide straight ahead until they run out of speed and altitude.
 
@@ -689,7 +709,7 @@ LUU-2 Parachute Flare
 
 The LUU-2 parachute flare is an air-launched flare suspended by a parachute used to illuminate the ground during night-time.
 
-The F-14B can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers in order not to conflict with the fuselage.
+The F-14 can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers in order not to conflict with the fuselage.
 
 The LUU-2 parachute flare is launched and set up in the same way as a general purpose bomb.
 
@@ -716,7 +736,7 @@ While each adapter can carry up to 160 chaff packages in total, each package is 
 Because of this fact, each launcher is set to eject four packages in total for each release impulse.
 This means that the pair of LAU-138s ejects in total 8 chaff packages per impulse and that 40 dispensation cycles are available.
 
-The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14B to carry additional chaff without impacting the ability to carry other weapons.
+The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14 to carry additional chaff without impacting the ability to carry other weapons.
 While technically capable of carrying the LAU-138 on both A & B stations on the glove pylons, in practice it was impossible to access the cooling bottle for an AIM-9 carried on the B station meaning that operationally only the A stations were loaded with LAU-138 adapters.
 
 For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter.
@@ -734,7 +754,7 @@ They are normally carried as a pair of two, one on each side.
 FPU-1 Fuel Tank
 ===============
 
-The FPU-1 fuel tank is carried by the F-14B Tomcat on stations 2 and 7 on each engine nacelle.
+The FPU-1 fuel tank is carried by the F-14 Tomcat on stations 2 and 7 on each engine nacelle.
 They each carry up to 2 000 pounds of fuel and can be jettisoned in the same way as other stores using the normal procedures.
 
 
@@ -756,13 +776,13 @@ CNU-188 External Baggage Container
 ==================================
 
 The CNU-188 external baggage container is a converted fuel tank used to carry equipment and supplies during aircraft transfer.
-One such container can be carried by a F-14B on either station 4 or 5, maximum load carried being 350 pounds. 
+One such container can be carried by a F-14 on either station 4 or 5, maximum load carried being 350 pounds. 
 
 :Note: Pending implementation in DCS.
 
 
-F-14B Loadout Diagram
-*********************
+F-14 Loadout Diagram
+********************
 .. image:: /images/weapons/F14.png
 
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+

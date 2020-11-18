@@ -112,7 +112,7 @@ Interior Inspection
 |								|						      |
 |   *   MODE pushbutton - T.O.                                  |                                                     |
 |   *   HUD DECLUTTER switch - OFF.                             |                                                     |
-|   *   HUD AWL switch - OFF.                                   |                                                     |
+|   *   HUD AWL switch - ACL.                                   |                                                     |
 |   *   VDI MODE switch - NORM.                                 |                                                     |
 |   *   VDI AWL switch - ACL.                                   |                                                     |
 |   *   HSD MODE switch - NAV.                                  |                                                     |
@@ -213,7 +213,7 @@ Prestart
     |       *   Wing sweep - 45°±2.5°.                                                  | |                                                                 |
     |       *   FUEL QTY - 2000±200 Pounds.                                             | |                                                                 |
     |       *   Oxygen quantity - 2 Liters.                                             | |                                                                 |
-    |       *   L and R FUEL FLOW lights - Illuminated.                                 | |                                                                 |
+    |       *   L and R FUEL LOW lights - Illuminated.                                  | |                                                                 |
     |                                                                                   | | Verify RIO FUEL QTY.                                            |
     |       *   MASTER TEST switch - OFF.                                               |                                                                   |
     |                                                                                   |                                                                   |

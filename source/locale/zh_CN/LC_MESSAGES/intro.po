@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-26 18:03+0800\n"
-"PO-Revision-Date: 2020-01-26 18:04+0800\n"
+"POT-Creation-Date: 2020-11-18 12:17+0800\n"
+"PO-Revision-Date: 2020-11-18 17:25+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/intro.rst:2
 msgid "Introduction"
@@ -233,7 +233,7 @@ msgstr "伊朗"
 
 #: ../../source/intro.rst:83
 msgid "IRIAF photo circa 1986."
-msgstr "照片由伊朗空军在1986年间拍摄"
+msgstr "照片由伊朗空军在1986年间拍摄。"
 
 #: ../../source/intro.rst:85
 msgid ""
@@ -364,109 +364,209 @@ msgid "Technical Data"
 msgstr "技术资料"
 
 #: ../../source/intro.rst:131
-msgid "F-14B"
-msgstr "F-14B"
+msgid "F-14A"
+msgstr "F-14A"
 
-#: ../../source/intro.rst:134
+#: ../../source/intro.rst:134 ../../source/intro.rst:166
 msgid "Wingspan (Fully Extended)"
 msgstr "翼展（机翼完全展开）"
 
-#: ../../source/intro.rst:134
+#: ../../source/intro.rst:134 ../../source/intro.rst:166
 msgid "64'1.5\" (~19.5 meters)"
 msgstr "64' 1.5\"（约19.5米）"
 
-#: ../../source/intro.rst:136
+#: ../../source/intro.rst:136 ../../source/intro.rst:168
 msgid "Wingspan (Fully Swept Airborne)"
 msgstr "翼展（空中完全后掠）"
 
-#: ../../source/intro.rst:136
+#: ../../source/intro.rst:136 ../../source/intro.rst:168
 msgid "38'2.5\" (~11.6 meters)"
 msgstr "38' 2.5\"（约11.6米）"
 
-#: ../../source/intro.rst:138
+#: ../../source/intro.rst:138 ../../source/intro.rst:170
 msgid "Wingspan (Oversweep)"
 msgstr "翼展（停放机翼后掠）"
 
-#: ../../source/intro.rst:138
+#: ../../source/intro.rst:138 ../../source/intro.rst:170
 msgid "33'3.5\" (~10.1 meters)"
 msgstr "33' 3.5\"（约10.1米）"
 
-#: ../../source/intro.rst:140
+#: ../../source/intro.rst:140 ../../source/intro.rst:172
 msgid "Length"
 msgstr "长度"
 
-#: ../../source/intro.rst:140
+#: ../../source/intro.rst:140 ../../source/intro.rst:172
 msgid "62'8.5\" (~19.1 meters)"
 msgstr "62' 8.5”（约19.1米）"
 
-#: ../../source/intro.rst:142
+#: ../../source/intro.rst:142 ../../source/intro.rst:174
 msgid "Height"
 msgstr "高度"
 
-#: ../../source/intro.rst:142
+#: ../../source/intro.rst:142 ../../source/intro.rst:174
 msgid "16' (~4.9 meters)"
 msgstr "16’ （约4.9米）"
 
-#: ../../source/intro.rst:144
+#: ../../source/intro.rst:144 ../../source/intro.rst:176
 msgid "Wing Area"
 msgstr "翼面积"
 
-#: ../../source/intro.rst:144
+#: ../../source/intro.rst:144 ../../source/intro.rst:176
 msgid "565 sqft (~52.5 m²)"
 msgstr "565平方英尺（约52.5平米）"
 
-#: ../../source/intro.rst:146
+#: ../../source/intro.rst:146 ../../source/intro.rst:178
 msgid "Empty Weight"
 msgstr "空重"
 
 #: ../../source/intro.rst:146
-msgid "41,780 pounds (~19,000 kg)"
-msgstr "41,780磅（约19,000千克）"
+msgid "40,104 pounds (~18,200 kg)"
+msgstr "40104 磅（约18,200 千克）"
 
-#: ../../source/intro.rst:148
+#: ../../source/intro.rst:148 ../../source/intro.rst:180
 msgid "Maximum Weight"
 msgstr "最大重量"
 
 #: ../../source/intro.rst:148
-msgid "74,349 pounds (~33,700 kg)"
-msgstr "74,349磅（33,700千克）"
+msgid "72,000 pounds (~32,700 kg)"
+msgstr "72000 磅（约32700千克）"
+
+#: ../../source/intro.rst:150 ../../source/intro.rst:182
+msgid "Maximum Thrust, Dry"
+msgstr "最大推力，干推力"
 
 #: ../../source/intro.rst:150
-msgid "Maximum Thrust with Afterburner"
-msgstr "加力最大推力"
+msgid "34,154 lbf (152 kN)"
+msgstr "34,154 磅力（152千牛）"
 
-#: ../../source/intro.rst:150
-msgid "60,400 lbf (268 kN)"
-msgstr "60,400磅力（268千牛顿）"
-
-#: ../../source/intro.rst:152
+#: ../../source/intro.rst:152 ../../source/intro.rst:184
 msgid "Wing Loading"
 msgstr "翼载"
 
 #: ../../source/intro.rst:152
-msgid "94 lb/ft² (458.9 kg/m²)"
-msgstr "94磅/平方英尺（458.9千克/平方米）"
+msgid "92 lb/ft² (449.2 kg/m²)"
+msgstr "92 磅/平方英尺（449.2千克/平方米）"
 
-#: ../../source/intro.rst:154
+#: ../../source/intro.rst:154 ../../source/intro.rst:186
 msgid "Maximum Speed"
 msgstr "极速"
 
-#: ../../source/intro.rst:154
+#: ../../source/intro.rst:154 ../../source/intro.rst:186
 msgid "1,544 mph (~2,500 km/h) Mach 2.38"
 msgstr "1,544英里/小时（~2,500千米/小时）"
 
-#: ../../source/intro.rst:157
+#: ../../source/intro.rst:157 ../../source/intro.rst:189
 msgid "Ceiling"
 msgstr "升限"
 
 #: ../../source/intro.rst:157
-msgid "53,000'+ (~16,200 meters)"
-msgstr "53,000+英尺（~16,200米）"
+msgid "50,000'+ (~15,200 meters)"
+msgstr "50000+英尺（约15,200米）"
 
-#: ../../source/intro.rst:159
+#: ../../source/intro.rst:159 ../../source/intro.rst:191
 msgid "Range"
 msgstr "航程"
 
 #: ../../source/intro.rst:159
+msgid "1,730 NM (~3200 km)"
+msgstr "1,730 海里（约3200千米）"
+
+#: ../../source/intro.rst:163 ../../source/intro.rst:223
+msgid "F-14B"
+msgstr "F-14B"
+
+#: ../../source/intro.rst:178
+msgid "41,780 pounds (~19,000 kg)"
+msgstr "41,780磅（约19,000千克）"
+
+#: ../../source/intro.rst:180
+msgid "74,349 pounds (~33,700 kg)"
+msgstr "74,349磅（33,700千克）"
+
+#: ../../source/intro.rst:182
+msgid "56,400 lbf (251 kN)"
+msgstr "56,400 磅力（251千牛顿）"
+
+#: ../../source/intro.rst:184
+msgid "94 lb/ft² (458.9 kg/m²)"
+msgstr "94磅/平方英尺（458.9千克/平方米）"
+
+#: ../../source/intro.rst:189
+msgid "53,000'+ (~16,200 meters)"
+msgstr "53,000+英尺（~16,200米）"
+
+#: ../../source/intro.rst:191
 msgid "2,050 NM (~3800 km)"
 msgstr "2,050海里（~3,800千米）"
+
+#: ../../source/intro.rst:196
+msgid "Modelled F-14 versions in DCS"
+msgstr "DCS 中模拟的 F-14 型号"
+
+#: ../../source/intro.rst:199
+msgid "F-14A-95-GR IRIAF - Not yet implemented"
+msgstr "F-14A-95-GR IRIAF - 尚未实装"
+
+#: ../../source/intro.rst:201
+msgid ""
+"Early F-14A version as sold to the IIAF (Imperial Iranian Air Force) which "
+"later became the IRIAF (Islamic Republic of Iran Air Force)."
+msgstr ""
+"出售给 IIAF（伊朗帝国空军）的早期型 F-14A，后来成为 IRIAF（伊朗伊斯兰共和国空"
+"军）。"
+
+#: ../../source/intro.rst:203
+msgid ""
+"This version has the early Pratt & Whitney TF30-P-414A engines, AN/ALR-45 "
+"radar warning receiver and lacks the Television Camera Set (TCS) and Link-4 "
+"data link system as well as being limited to the earlier air to air missiles "
+"available to Iran."
+msgstr ""
+"这个型号的 F-14 装备了早期 普惠 TF30-P-414A 发动机、AN/ALR-45 雷达告警接收"
+"机、无电视摄像套件（TCS）和 Link-4 数据链路系统，以及出售伊朗有限的早期空空导"
+"弹。"
+
+#: ../../source/intro.rst:207
+msgid "F-14A-135-GR (Early) - Not yet implemented"
+msgstr "F-14A-135-GR（早期） - 尚未实装"
+
+#: ../../source/intro.rst:209
+msgid "Early US Navy F-14A version."
+msgstr "美国海军早期型 F-14A。"
+
+#: ../../source/intro.rst:211
+msgid ""
+"This version has the early Pratt & Whitney TF30-P-414A engines and AN/ALR-45 "
+"and AN/ALR-50 radar warning receivers."
+msgstr ""
+"这个型号的 F-14 装备了早期 普惠 TF30-P-414A 发动机、AN/ALR-45 和 AN/ALR-50 雷"
+"达告警接收机。"
+
+#: ../../source/intro.rst:215
+msgid "F-14A-135-GR (Late)"
+msgstr "F-14A-135-GR （后期型）"
+
+#: ../../source/intro.rst:217
+msgid "Later US Navy F-14A version."
+msgstr "美国海军后期型 F-14A。"
+
+#: ../../source/intro.rst:219
+msgid ""
+"This version has the early Pratt & Whitney TF30-P-414A engines and the AN/"
+"ALR-67 radar warning receiver."
+msgstr ""
+"这个型号的 F-14 装备了早期 普惠 TF30-P-414A 发动机、AN/ALR-67 雷达告警接收"
+"机。"
+
+#: ../../source/intro.rst:225
+msgid "US Navy F-14B (renamed from F-14A+)."
+msgstr "美国海军 F-14B（F-14A+ 重命名）"
+
+#: ../../source/intro.rst:227
+msgid ""
+"This version has the newer General Electrics F110-GE-400 engines, the AN/"
+"ALR-67 radar warning receiver as well as having the ability to mount and use "
+"the LANTIRN targeting pod."
+msgstr ""
+"这个型号的 F-14 装备了更新的通用电气 F110-GE-400 发动机、AN/ALR-67 雷达告警接"
+"收机以及安装和使用 LANTIRN 瞄准吊舱的能力。"

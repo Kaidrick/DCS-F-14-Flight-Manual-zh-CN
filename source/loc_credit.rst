@@ -27,25 +27,29 @@ https://github.com/Kaidrick/DCS-F-14-Flight-Manual-zh-CN
 DCS: F-14 “雄猫” 中文飞行手册（第二版）
 =========================================
 
-	:总体设计和系统概述章节完全重新翻译、其它章节校对以及后续手册维护:
-		Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
+* 总体设计和系统概述章节完全重新翻译以及其它章节校对以及后续手册维护
+	Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
 	
-	:训练、快速任务、单人任务、联机任务和战役后续更新:
-		Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
 	
-	:技术支持: 
-		Zhao, Xueqian “`uboats <https://space.bilibili.com/9480213/>`_”
+* 训练、快速任务、单人任务、联机任务和战役后续更新:
+	Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
+	
+	
+* 技术支持: 
+	Zhao, Xueqian “`uboats <https://space.bilibili.com/9480213/>`_”
 
 
-	:项目管理:
-		Cai, Jiutian   `“北欧式的简单 <http://space.bilibili.com/829536>`_”
+	
+* 项目管理:
+	Cai, Jiutian   “`北欧式的简单 <http://space.bilibili.com/829536>`_”
 
-	:其他:
-		感谢学姐协助处理手册以及战役的图片。
-		Su, Xin   `“衣柜上的学姐” <https://space.bilibili.com/384159>`_”
+	
+* 其他:
+	感谢学姐协助处理手册以及战役的图片。
+	Su, Xin   “`衣柜上的学姐” <https://space.bilibili.com/384159>`_”
 		
-		感谢北欧制作新 Jester 汉化菜单
-		Cai, Jiutian   `“北欧式的简单 <https://space.bilibili.com/829536>`_”
+	感谢北欧制作新 Jester 汉化菜单
+	Cai, Jiutian   “`北欧式的简单 <https://space.bilibili.com/829536>`_”
 
   **“再次特别鸣谢”**
 
@@ -59,28 +63,28 @@ DCS: F-14 “雄猫” 中文飞行手册（初版）
 	:翻译:
 		Wang, Jiawei   “`红白— <https://space.bilibili.com/4712027/>`_” 
 		
-		Shi, Mingrui   `“吃瓜poi～” <https://space.bilibili.com/815921>`_
+		Shi, Mingrui   “`吃瓜poi～” <https://space.bilibili.com/815921>`_”
 		
-		Lei, Yuting   `“ZERO·雷”  <https://space.bilibili.com/4387430>`_
+		Lei, Yuting   “`ZERO·雷”  <https://space.bilibili.com/4387430>`_”
 		
-		Fang, Xin   `“午饭不好吃” <http://space.bilibili.com/5455765>`_
+		Fang, Xin   “`午饭不好吃” <http://space.bilibili.com/5455765>`_”
 		
-		Su, Xin   `“衣柜上的学姐” <https://space.bilibili.com/384159>`_
+		Su, Xin   “`衣柜上的学姐” <https://space.bilibili.com/384159>`_”
 		
-		Chen, Jiaxin   `“半熟玉子和风煎蛋” <http://space.bilibili.com/6785455>`_
+		Chen, Jiaxin   “`半熟玉子和风煎蛋” <http://space.bilibili.com/6785455>`_”
 		
-		Tan, Laohu   `“绯色锋刃” <https://space.bilibili.com/3155639>`_
+		Tan, Laohu   “`绯色锋刃” <https://space.bilibili.com/3155639>`_”
 		
-		Cui, Shanlun   `“汉魂~威龙” <http://space.bilibili.com/215189722>`_
+		Cui, Shanlun   “`汉魂~威龙” <http://space.bilibili.com/215189722>`_”
 		
-		Dong, Bailin   `“Silly_Jolly” <http://space.bilibili.com/123604>`_
+		Dong, Bailin   “`Silly_Jolly” <http://space.bilibili.com/123604>`_”
 
 		
 
 	:校对: 
-		Ouyang, Junjia `“司姬” <https://space.bilibili.com/11260764>`_
+		Ouyang, Junjia “`司姬” <https://space.bilibili.com/11260764>`_”
 		
-		Fu, Zirui `“东方狐” <https://space.bilibili.com/9675>`_
+		Fu, Zirui “`东方狐” <https://space.bilibili.com/9675>`_”
 
 		Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
 		
@@ -98,7 +102,7 @@ DCS: F-14 “雄猫” 中文飞行手册（初版）
 	
 		感谢油布搜集、整理并翻译游戏内相关文件，以及提供各种建议和技术支持。
 		
-		感谢 `深海彡夕 <https://space.bilibili.com/85364498/video>`_ “007” 制作的交互式JESTER AI环形菜单汉化参照页。
+		感谢 “`深海彡夕 <https://space.bilibili.com/85364498/video>`_” 制作的交互式JESTER AI环形菜单汉化参照页。
 	
 	.. raw:: html
 

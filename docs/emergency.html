@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html4" lang="zh-CN" >
+<html class="writer-html5" lang="zh-CN" >
 <head>
   <meta charset="utf-8">
   
@@ -29,11 +29,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script type="text/javascript" src="_static/translations.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -121,6 +121,7 @@
 <li class="toctree-l1"><a class="reference internal" href="loc_about.html">关于本项目</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_credit.html">中文本地化制作</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_changelog.html">本地化更新日志</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loc_devupdate.html">Heatblur DCS:F-14A/B 开发更新文章</a></li>
 </ul>
 <p class="caption"><span class="caption-text">下载：</span></p>
 <ul>
@@ -209,47 +210,47 @@
 <p>根据发动机当时的转速，可能需要多达10秒的时间才能观察到转速的增加，而发动机达到指定转速可能需要多达90秒。如果 AFTC 选定发动机模式为 PRI ，可以选定 SEC 后再进行一次尝试。</p>
 <div class="section" id="spooldown-airstart-checklist">
 <h4>脱机自转空中启动检查单<a class="headerlink" href="#spooldown-airstart-checklist" title="永久链接至标题">¶</a></h4>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="42%" />
-<col width="58%" />
+<col style="width: 42%" />
+<col style="width: 58%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><ol class="first last arabic simple">
-<li>油门</li>
+<tbody>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li><p>油门</p></li>
 </ol>
 </td>
-<td><strong>IDLE</strong> 或以上</td>
+<td><p><strong>IDLE</strong> 或以上</p></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果没有重新点火：</td>
+<tr class="row-even"><td colspan="2"><p>如果没有重新点火：</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="2">
-<li>油门</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="2">
+<li><p>油门</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td><p><strong>OFF</strong> 然后 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果仍未重新点火：</td>
+<tr class="row-even"><td colspan="2"><p>如果仍未重新点火：</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="3">
-<li><strong>ENG MODE SELECT</strong> 开关</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="3">
+<li><p><strong>ENG MODE SELECT</strong> 开关</p></li>
 </ol>
 </td>
-<td><strong>SEC</strong></td>
+<td><p><strong>SEC</strong></p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="4">
-<li>油门</li>
+<tr class="row-even"><td><ol class="arabic simple" start="4">
+<li><p>油门</p></li>
 </ol>
 </td>
-<td>如果模式切换后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td><p>如果模式切换后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-odd"><td colspan="2"><strong>SEC</strong> 模式下重新启动后：</td>
+<tr class="row-odd"><td colspan="2"><p><strong>SEC</strong> 模式下重新启动后：</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="5">
-<li><strong>ENG MODE SELECT</strong> 开关</li>
+<tr class="row-even"><td><ol class="arabic simple" start="5">
+<li><p><strong>ENG MODE SELECT</strong> 开关</p></li>
 </ol>
 </td>
-<td>可能的话将模式调定为 <strong>PRI</strong></td>
+<td><p>可能的话将模式调定为 <strong>PRI</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -260,83 +261,83 @@
 <p>当仍有一台发动机正常工作，脱机自转重启失败或者发动机已经/即将进入风车状态时，可以尝试使用交叉引气进行重启。</p>
 <div class="section" id="cross-bleed-airstart-checklist">
 <h4>交叉引气空中启动检查单<a class="headerlink" href="#cross-bleed-airstart-checklist" title="永久链接至标题">¶</a></h4>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="42%" />
-<col width="58%" />
+<col style="width: 42%" />
+<col style="width: 58%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><ol class="first last arabic simple">
-<li>故障发动机侧的油门握把</li>
+<tbody>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li><p>故障发动机侧的油门握把</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong></td>
+<td><p><strong>OFF</strong></p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="2">
-<li><strong>FUEL SHUT OFF</strong> 手柄</li>
+<tr class="row-even"><td><ol class="arabic simple" start="2">
+<li><p><strong>FUEL SHUT OFF</strong> 手柄</p></li>
 </ol>
 </td>
-<td>确认手柄位置</td>
+<td><p>确认手柄位置</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="3">
-<li>正常运转中的发动机的油门握把</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="3">
+<li><p>正常运转中的发动机的油门握把</p></li>
 </ol>
 </td>
-<td>最低 80% RPM</td>
+<td><p>最低 80% RPM</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="4">
-<li><strong>BACK UP IGNITION</strong> 开关</li>
+<tr class="row-even"><td><ol class="arabic simple" start="4">
+<li><p><strong>BACK UP IGNITION</strong> 开关</p></li>
 </ol>
 </td>
-<td><strong>ON</strong></td>
+<td><p><strong>ON</strong></p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="5">
-<li><strong>ENG CRANK</strong> 开关</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="5">
+<li><p><strong>ENG CRANK</strong> 开关</p></li>
 </ol>
 </td>
-<td>调定到故障发动机</td>
+<td><p>调定到故障发动机</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="6">
-<li>故障发动机侧的油门握把</li>
+<tr class="row-even"><td><ol class="arabic simple" start="6">
+<li><p>故障发动机侧的油门握把</p></li>
 </ol>
 </td>
-<td>在 <strong>ENG CRANK</strong> 开启之后迅速 <strong>IDLE</strong></td>
+<td><p>在 <strong>ENG CRANK</strong> 开启之后迅速 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-odd"><td colspan="2">如果没有启动：</td>
+<tr class="row-odd"><td colspan="2"><p>如果没有启动：</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li>故障发动机侧的油门握把</li>
+<tr class="row-even"><td><ol class="arabic simple" start="7">
+<li><p>故障发动机侧的油门握把</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td><p><strong>OFF</strong> 然后 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-odd"><td colspan="2">如果仍然没有启动：</td>
+<tr class="row-odd"><td colspan="2"><p>如果仍然没有启动：</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="8">
-<li><strong>ENG MODE</strong> 选择开关</li>
+<tr class="row-even"><td><ol class="arabic simple" start="8">
+<li><p><strong>ENG MODE</strong> 选择开关</p></li>
 </ol>
 </td>
-<td><strong>SEC</strong></td>
+<td><p><strong>SEC</strong></p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="9">
-<li>故障发动机侧的油门握把</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="9">
+<li><p>故障发动机侧的油门握把</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td><p><strong>OFF</strong> 然后 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-even"><td colspan="2">空中启动成功之后：</td>
+<tr class="row-even"><td colspan="2"><p>空中启动成功之后：</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="10">
-<li><strong>BACK UP IGNITION</strong> 开关</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="10">
+<li><p><strong>BACK UP IGNITION</strong> 开关</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong></td>
+<td><p><strong>OFF</strong></p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="11">
-<li><strong>ENG MODE SELECT</strong> 开关</li>
+<tr class="row-even"><td><ol class="arabic simple" start="11">
+<li><p><strong>ENG MODE SELECT</strong> 开关</p></li>
 </ol>
 </td>
-<td>可能的话将模式调定为 <strong>PRI</strong></td>
+<td><p>可能的话将模式调定为 <strong>PRI</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -347,65 +348,65 @@
 <p>风车空中启动利用飞机运动产生的风带动发动机涡轮转动来重启发动机。风车空中启动至少需要450节以上的空速且仅可在高度和速度条件允许的情况下进行尝试。</p>
 <div class="section" id="windmill-airstart-checklist">
 <h4>风车空中启动检查单<a class="headerlink" href="#windmill-airstart-checklist" title="永久链接至标题">¶</a></h4>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="37%" />
-<col width="63%" />
+<col style="width: 37%" />
+<col style="width: 63%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><ol class="first last arabic simple">
-<li>空速</li>
+<tbody>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li><p>空速</p></li>
 </ol>
 </td>
-<td>至少在450节指示空速及以上</td>
+<td><p>至少在450节指示空速及以上</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="2">
-<li>油门</li>
+<tr class="row-even"><td><ol class="arabic simple" start="2">
+<li><p>油门</p></li>
 </ol>
 </td>
-<td><strong>IDLE</strong> 或以上</td>
+<td><p><strong>IDLE</strong> 或以上</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="3">
-<li><strong>BACK UP IGNITION</strong> 开关</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="3">
+<li><p><strong>BACK UP IGNITION</strong> 开关</p></li>
 </ol>
 </td>
-<td><strong>ON</strong></td>
+<td><p><strong>ON</strong></p></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果没有重新点火：</td>
+<tr class="row-even"><td colspan="2"><p>如果没有重新点火：</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="4">
-<li>油门</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="4">
+<li><p>油门</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td><p><strong>OFF</strong> 然后 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-even"><td colspan="2">如果仍未重新点火：</td>
+<tr class="row-even"><td colspan="2"><p>如果仍未重新点火：</p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="5">
-<li><strong>ENG MODE SELECT</strong> 开关</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="5">
+<li><p><strong>ENG MODE SELECT</strong> 开关</p></li>
 </ol>
 </td>
-<td><strong>SEC</strong></td>
+<td><p><strong>SEC</strong></p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="6">
-<li>油门</li>
+<tr class="row-even"><td><ol class="arabic simple" start="6">
+<li><p>油门</p></li>
 </ol>
 </td>
-<td>如果模式切换后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></td>
+<td><p>如果模式切换后没有启动，<strong>OFF</strong> 然后 <strong>IDLE</strong></p></td>
 </tr>
-<tr class="row-odd"><td colspan="2">空中启动成功之后：</td>
+<tr class="row-odd"><td colspan="2"><p>空中启动成功之后：</p></td>
 </tr>
-<tr class="row-even"><td><ol class="first last arabic simple" start="7">
-<li><strong>BACK UP IGNITION</strong> 开关</li>
+<tr class="row-even"><td><ol class="arabic simple" start="7">
+<li><p><strong>BACK UP IGNITION</strong> 开关</p></li>
 </ol>
 </td>
-<td><strong>OFF</strong></td>
+<td><p><strong>OFF</strong></p></td>
 </tr>
-<tr class="row-odd"><td><ol class="first last arabic simple" start="8">
-<li><strong>ENG MODE SELECT</strong> 开关</li>
+<tr class="row-odd"><td><ol class="arabic simple" start="8">
+<li><p><strong>ENG MODE SELECT</strong> 开关</p></li>
 </ol>
 </td>
-<td>可能的话将模式调定为 <strong>PRI</strong></td>
+<td><p>可能的话将模式调定为 <strong>PRI</strong></p></td>
 </tr>
 </tbody>
 </table>
