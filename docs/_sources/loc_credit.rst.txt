@@ -27,7 +27,7 @@ https://github.com/Kaidrick/DCS-F-14-Flight-Manual-zh-CN
 DCS: F-14 “雄猫” 中文飞行手册（第二版）
 =========================================
 
-* 总体设计和系统概述章节完全重新翻译以及其它章节校对以及后续手册维护
+* 总体设计和系统概述章节完全重新翻译以及其它章节校对以及后续手册维护:
 	Ning, Jiaquan   “`Alphabet_Ghost <https://space.bilibili.com/12508032>`_”
 	
 	
