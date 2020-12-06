@@ -1659,7 +1659,7 @@ msgid ""
 "sides of the phoenix rails as well as on TERs on the glove pylons."
 msgstr ""
 "F-14 使用武器导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载炸弹。导轨本身"
-"可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在我要去导轨侧面的"
+"可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在武器导轨侧面的"
 "挂点上，也可以安装在翼套挂架连接的 TER 上。"
 
 # All of the Mk-80 bombs has nose fuzes only
