@@ -2046,10 +2046,10 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><ol class="arabic simple">
-<li><p>炸弹投放按钮</p></li>
+<li><p>航弹投放按钮</p></li>
 </ol>
 </td>
-<td><p>挂载投放按钮，用于投放空对地挂载（火箭弹例外）或发射挂架挂载的电子对抗措施。</p></td>
+<td><p>挂载投放按钮，用于投放空对地挂载（航空火箭弹例外）或发射挂架挂载的额外对抗措施。</p></td>
 </tr>
 <tr class="row-odd"><td><ol class="arabic simple" start="2">
 <li><p>俯仰和横滚配平开关</p></li>
@@ -2146,8 +2146,8 @@
 <img alt="_images/rwrcaution.png" src="_images/rwrcaution.png" />
 <p>这些报警灯与 ALR-67 相连，用于指示不同类型的雷达威胁。</p>
 <p>SAM - 地空导弹，灯光稳定亮起表示侦测到地空导弹跟踪雷达锁定，灯光闪烁表示侦测到地空导弹发射。</p>
-<p>AAA - 防空高炮，灯光稳定亮起表示侦测到防空炮跟踪雷达锁定，灯光闪烁表示侦测到防空炮开火。</p>
-<p>AI - 机载拦截雷达，灯光稳定亮起表示侦测到机载雷达锁定。</p>
+<p>AAA - 高射炮，灯光稳定亮起表示侦测到防空炮跟踪雷达锁定，灯光闪烁表示侦测到防空炮开火。</p>
+<p>AI - 机载截击雷达，灯光稳定亮起表示侦测到机载雷达锁定。</p>
 </div>
 <div class="section" id="standby-compass">
 <span id="pstbycomp"></span><h4>备用罗盘<a class="headerlink" href="#standby-compass" title="永久链接至标题">¶</a></h4>
@@ -2286,17 +2286,17 @@
 <div class="line"><br /></div>
 <div class="line">N - 正常优先级</div>
 <div class="line"><br /></div>
-<div class="line">I - AI，优先显示机载拦截雷达威胁。</div>
+<div class="line">I - AI，优先显示机载截击雷达威胁。</div>
 <div class="line"><br /></div>
 <div class="line">A - AAA，优先显示防空高炮威胁。</div>
 <div class="line"><br /></div>
-<div class="line">U - 优先显示未知辐射源。</div>
+<div class="line">U - 优先显示不明辐射源。</div>
 <div class="line"><br /></div>
 <div class="line">F - 显示其他雷达威胁的同时也显示友方信号源。</div>
 </div>
 </td>
 </tr>
-<tr class="row-odd"><td><p>系统状态圈，区域 II</p></td>
+<tr class="row-odd"><td><p>系统状态环，区域 II</p></td>
 <td><div class="line-block">
 <div class="line">区域 I 的右上象限中的标志显示 ARL-67 是否处于限制模式。</div>
 <div class="line"><br /></div>
@@ -2804,7 +2804,7 @@
 <td><p>“环境控制系统涡轮” 注意灯，无功能</p></td>
 </tr>
 <tr class="row-odd"><td><p>INLET ICE</p></td>
-<td><p>“进气道结冰” 注意灯，注意灯亮起表示结冰信号器探测到结冰。</p></td>
+<td><p>“进气道结冰” 注意灯，注意灯亮起表示左发进气道结冰信号器探测到结冰。</p></td>
 </tr>
 <tr class="row-even"><td><p>FLAP</p></td>
 <td><p>“襟翼” 注意灯，指示灯亮起表示襟翼系统故障，或空速超过225节但襟翼仍未收上。</p></td>
@@ -4410,7 +4410,7 @@
 <li><p>ASPECT 选择开关</p></li>
 </ol>
 </td>
-<td><p>目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择在脉冲模式下跟踪目标回波边缘或回波质心。这些设置对应了预计目标姿态。</p></td>
+<td><p>目标态势选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择在脉冲模式下跟踪目标回波边缘或回波质心。这些设置对应了预计目标姿态。</p></td>
 </tr>
 <tr class="row-odd"><td><ol class="arabic simple" start="22">
 <li><p>EL 指示器</p></li>
@@ -4708,17 +4708,17 @@
 <div class="line"><br /></div>
 <div class="line">N - 正常优先级</div>
 <div class="line"><br /></div>
-<div class="line">I - AI，优先显示机载拦截雷达威胁。</div>
+<div class="line">I - AI，优先显示机载截击雷达威胁。</div>
 <div class="line"><br /></div>
 <div class="line">A - AAA，优先显示防空高炮威胁。</div>
 <div class="line"><br /></div>
-<div class="line">U - 优先显示未知辐射源。</div>
+<div class="line">U - 优先显示不明辐射源。</div>
 <div class="line"><br /></div>
 <div class="line">F - 显示其他雷达威胁的同时也显示友方信号源。</div>
 </div>
 </td>
 </tr>
-<tr class="row-odd"><td><p>系统状态圈，区域 II</p></td>
+<tr class="row-odd"><td><p>系统状态环，区域 II</p></td>
 <td><div class="line-block">
 <div class="line">区域 I 的右上象限中的标志显示 ARL-67 是否处于限制模式。</div>
 <div class="line"><br /></div>
@@ -4811,7 +4811,7 @@
 <td><p>连续波报警灯，灯光亮起表示本机正被连续波信号源照射。</p></td>
 </tr>
 <tr class="row-odd"><td><p>AI</p></td>
-<td><p>机载雷达报警灯，灯光稳定亮起表示侦测到 AI 跟踪雷达锁定。</p></td>
+<td><p>机载截击雷达报警灯，灯光稳定亮起表示侦测到机载截击雷达锁定。</p></td>
 </tr>
 </tbody>
 </table>
