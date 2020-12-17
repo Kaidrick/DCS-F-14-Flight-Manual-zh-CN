@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 12:17+0800\n"
-"PO-Revision-Date: 2020-11-18 17:05+0800\n"
+"PO-Revision-Date: 2020-12-14 22:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -3772,7 +3772,7 @@ msgid "Note"
 msgstr "注意"
 
 # AAA-1
-# 2.11.3 Main Engine Fuel Control. The main engine fuel control is a hydromechanical device that operates in tandem with the main fuel pump. 
+# 2.11.3 Main Engine Fuel Control. The main engine fuel control is a hydromechanical device that operates in tandem with the main fuel pump.
 #: ../../source/general.rst:23
 msgid ""
 "The main difference between the TF30 and F110 engines (apart from lesser "
@@ -3811,7 +3811,7 @@ msgid ""
 msgstr ""
 "F-14 的油门行程中含有数个限位机构以防止发动机意外启动或关闭发动机，或意外启用"
 "加力燃烧室。此外，如上图所示，油门还用来控制数个根据油门位置运作的不同的系"
-"统。这些系统中，其中最重要的是就是发动机燃油关断和点火系统。"
+"统。这些系统中，其中最重要的就是发动机燃油关断和点火系统。"
 
 #: ../../source/general.rst:36
 msgid "For throttle operations there are three modes:"
@@ -4107,12 +4107,11 @@ msgid ""
 "warnings lights are:"
 msgstr "注意 - 提示灯面板中，发动机相关的注意灯和报警灯分别为："
 
-# ref - Indicates ice accumulated on ice detector with ENG/PROBE ANTI−ICE switch in AUTO or ORIDE selected.
 #: ../../source/general.rst:128
 msgid ""
 "**INLET ICE** - Caution light indicating ice detection on the detector in "
 "the left engine inlet."
-msgstr "**INLET ICE** - 注意灯亮起表示结冰信号器探测到结冰。"
+msgstr "**INLET ICE** - 注意灯亮起表示左发进气道结冰信号器探测到结冰。"
 
 #: ../../source/general.rst:129
 msgid ""
@@ -5854,8 +5853,8 @@ msgid ""
 "parking brake applications minimum. These accumulators can be recharged via "
 "the :ref:`hydhandpump`."
 msgstr ""
-"辅助刹车蓄压器内的油压最大时最多可提供大约13到14次刹车制动，停放刹车蓄压器最"
-"少可提供3次停放制动。机轮刹车蓄压器可以通过 :ref:`hydhandpump` 来重新充压。"
+"辅助刹车蓄压器内的油压最大时最多可提供大约13到14次机轮制动，停放刹车蓄压器最"
+"少可提供3次停放刹车。机轮刹车蓄压器可以通过 :ref:`hydhandpump` 来重新充压。"
 
 #: ../../source/general.rst:730
 msgid ""
@@ -6197,7 +6196,7 @@ msgstr ""
 
 #: ../../source/general.rst:840
 msgid "Selection of **RAM** or **OFF** inhibits gun firing."
-msgstr "选择 **RAM** 或者 **OFF** 档位将禁止机炮开火。"
+msgstr "选择 **RAM** 或者 **OFF** 档位将禁止航炮开火。"
 
 #: ../../source/general.rst:842
 msgid ""
@@ -6584,7 +6583,7 @@ msgstr ""
 # 2020/07/17 AG 校对完毕
 #: ../../source/general.rst:966
 msgid "Lighting System"
-msgstr "灯光系统"
+msgstr "照明系统"
 
 #: ../../source/general.rst:968
 msgid ""
@@ -7827,7 +7826,7 @@ msgid ""
 "number of missiles of the selected type that are ready for launch. Display "
 "is blank in air-to-ground mode."
 msgstr ""
-"读数显示当前选择的空对空武器，G 表示机炮，SW 表示\"响尾蛇\"导弹，SP 表示\"麻"
+"读数显示当前选择的空对空武器，G 表示航炮，SW 表示\"响尾蛇\"导弹，SP 表示\"麻"
 "雀\"导弹，PH 表示\"不死鸟\"导弹。SP 和 PH 同时还将指示所选的导弹类型，准备好"
 "发射的数量。在空对地模式下，读数为空白。"
 
@@ -8285,8 +8284,8 @@ msgid ""
 msgstr ""
 "AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间替代，TTI 显示了 WCS 计算"
 "出的导弹拦截目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁"
-"表示导引头已开机。（注：这里的导引头开机表示从半主动雷达制导至主动雷达制"
-"导）。"
+"表示导引头已开机。（译注：这里的导引头开机表示导弹从半主动雷达制导切换至主动"
+"雷达制导）。"
 
 # 2020/06/29 AG 校对至此
 #: ../../source/general.rst:1560
@@ -8499,7 +8498,7 @@ msgstr "脱离指示"
 msgid ""
 "Large cross appearing in the center of the TID when target range is less "
 "than minimum missile launch range or gun firing range."
-msgstr "当目标的距离小于最小导弹或机炮发射距离时，TID 中心会出现一个大叉。"
+msgstr "当目标的距离小于最小导弹或航炮发射距离时，TID 中心会出现一个大叉。"
 
 #: ../../source/general.rst:1632
 msgid "Some of these symbols pertain to functions not yet implemented in DCS."
@@ -9598,7 +9597,7 @@ msgstr "中短程单目标跟踪和导弹制导。"
 
 #: ../../source/general.rst:1982
 msgid "Gun and missiles, AIM-7 in CW and AIM-54 in active launch."
-msgstr "可使用机炮和使用 CW 为 AIM-7 制导以及使用主动模式发射的 AIM-54。"
+msgstr "可使用航炮和使用 CW 为 AIM-7 制导以及使用主动模式发射的 AIM-54。"
 
 #: ../../source/general.rst:1982
 msgid "50nm"
@@ -9657,7 +9656,7 @@ msgstr "远程单目标跟踪以及导弹制导。"
 #: ../../source/general.rst:1990
 msgid "Gun and all missiles. AIM-7 in PD and CW and AIM-54 in PD and active."
 msgstr ""
-"机炮和所有导弹。使用 PD 和 CW 为 AIM-7 提供制导，使用 PD 和主动模式为 AIM-54 "
+"航炮和所有导弹。使用 PD 和 CW 为 AIM-7 提供制导，使用 PD 和主动模式为 AIM-54 "
 "提供制导。"
 
 #: ../../source/general.rst:1993
@@ -9684,7 +9683,7 @@ msgid ""
 "than in the pulse doppler modes."
 msgstr ""
 "在脉冲模式下，AN/AWG-9 不使用脉冲多普勒滤波器，这意味着脉冲模式可以用于探测各"
-"个方位的目标，也可以用于基本的地形测绘。脉冲模式的优点是，目标不需要与本机有"
+"个态势的目标，也可以用于基本的地形测绘。脉冲模式的优点是，目标不需要与本机有"
 "一定的相对速度才会被视为目标，因此目标进行3/9线机动并不会使雷达失去对目标的跟"
 "踪。但脉冲模式的缺点是雷达难以区分地面杂波与真实目标回波，这意味着敌机可以利"
 "用地形隐蔽在杂波之中。由于没有多普勒滤波器，区分背景噪声和真实目标的难度大大"
@@ -9769,7 +9768,7 @@ msgid ""
 msgstr ""
 "由于只能在脉冲多普勒模式下发送导弹制导指令，脉冲 STT 模式仅限于使用 CW 模式发"
 "射 AIM-7，以及以主动模式发射 AIM-54 导弹，从而限制了导弹的射程。在 ACM 距离"
-"内，脉冲模式可以使用 ASPECT 开关来设置从目标的那个方位进行跟踪，ASPECT 开关只"
+"内，脉冲模式可以使用 ASPECT 开关来设置以目标的何种态势进行跟踪，ASPECT 开关只"
 "是为了应对不同的对抗措施而进行设置。例如，如果将 ASPECT 开关设置为 NOSE 的"
 "话，雷达将回波质心设置在目标前部（机头），远离发射到目标后发的箔条，从而不易"
 "受到箔条的干扰。"
@@ -9852,9 +9851,9 @@ msgstr ""
 "脉冲多普勒搜索模式下，DDD 以方位和接近率（接近速度）显示回波，这表示仅在 DDD "
 "进行读数的话，RIO 只能识别目标的接近速度和方位。需要注意的是 DDD 屏幕中显示的"
 "目标接近率是相对于地面的（减去本机的空速），而不是相对本机的接近率。这就意味"
-"着正前方的目标笔直向雷达移动，DDD 将显示目标真空速，目标空速随目标方位和雷达"
-"天线的方位变化。这样做的原因是由于雷达本身只读取相对空速，之后再通过减去本机"
-"空速修改显示在 DDD 中。"
+"着正前方的目标笔直向雷达移动，DDD 将显示目标真空速，目标真空速随目标态势和雷"
+"达天线的方位变化。这样做的原因是由于雷达本身只读取相对空速，之后再通过减去本"
+"机空速修改显示在 DDD 中。"
 
 #: ../../source/general.rst:2062
 msgid ""
@@ -9951,7 +9950,7 @@ msgid ""
 "DDD as the observed speed of the returning ground returns will vary with "
 "azimuth."
 msgstr ""
-"由于本机相对目标的空速随方位变化，上述的两个滤波器滤波区间随方位变化。比如说"
+"由于本机相对目标的空速随方位变化，上述的两个滤波器滤波区间随态势变化。比如说"
 "位于45° 的目标的相对空速将会小于位于0°的目标，这是因为本机的速度矢量会略微偏"
 "离目标。由于地面回波的观测速度随方位的变化而变化，这就是为什么 DDD 中主瓣杂波"
 "轨迹会呈现为曲线的原因。"
@@ -9963,12 +9962,12 @@ msgid ""
 "details, line of sight rate is the sum of target and own aircraft relative "
 "rate."
 msgstr ""
-"目标地速为900节，本机空速为1200节。详细信息参照下表，视线角速度是目标与本机的"
-"相对角速度之和。"
+"目标地速为900节，本机空速为1200节。详细信息参照下表，视线转率是目标与本机的相"
+"对角速度之和。"
 
 #: ../../source/general.rst:2085
 msgid "Look Angle"
-msgstr "视线角"
+msgstr "视线角度"
 
 #: ../../source/general.rst:2085
 msgid "Line of Sight Rate"
@@ -10812,9 +10811,9 @@ msgid ""
 msgstr ""
 "**IR/TV** 开关位于 HCU 面板的左上角，这个按钮用来控制 TCS 的电源。处于 "
 "**OFF** 档位将关闭 TCS 的电源。 **STBY** 档位将为 TCS 中的冷却风扇和加热器通"
-"电。 **IR/TV** 档位为 TCS 中所有系统通电，等待1-2分钟使 TCS 起旋（注：内部陀"
-"螺仪）并传输视频。但在另一方面，TID 中的 TCS 符号将会直接可用。同时也无需先选"
-"择 STBY 档位，直接将开关拨动至 IR/TV 档位即可。"
+"电。 **IR/TV** 档位为 TCS 中所有系统通电，等待1-2分钟使 TCS 起旋（译注：内部"
+"陀螺仪）并传输视频。但在另一方面，TID 中的 TCS 符号将会直接可用。同时也无需先"
+"选择 STBY 档位，直接将开关拨动至 IR/TV 档位即可。"
 
 #: ../../source/general.rst:2402
 msgid ""
@@ -11178,7 +11177,7 @@ msgid ""
 "being commanded heading and the vertical one on the right the bomb release "
 "cue."
 msgstr ""
-"最后， **7** 为飞向所选 Q 的转向引导，顶部的为指令航向，右侧垂直的为炸弹投放"
+"最后， **7** 为飞向所选 Q 的转向引导，顶部的为指令航向，右侧垂直的为航弹投放"
 "提示。"
 
 # 05/18 AG 校对至此
@@ -11202,8 +11201,8 @@ msgid ""
 "indicated TREL (Time to Release) in seconds, changing to TIMP (Time to "
 "Impact) after release."
 msgstr ""
-"右侧——炸弹投放提示，仅在选择了 Q 为 QDES 和显示投放提示向下移动的垂线时显示。"
-"这个投放提示在已选择有效武器（炸弹）时显示，并且当投放提示抵达两个刻度标记"
+"右侧——航弹投放提示，仅在选择了 Q 为 QDES 和显示投放提示向下移动的垂线时显示。"
+"这个投放提示在已选择有效武器（航弹）时显示，并且当投放提示抵达两个刻度标记"
 "时，则表示是时候投放了。在垂线下方的是秒为单位的 TREL（投放时间）指示，在投放"
 "后，这个指示将变更为 TIMP（命中时间）。"
 
@@ -11432,7 +11431,7 @@ msgid ""
 "allows for bomb release guidance."
 msgstr ""
 "LANTIRN 有两种“主”模式，分别是 A/A 和 A/G。两种模式工作方式类似，但是不同的模"
-"式针对不同的目标类型进行了优化。此外，A/G 模式中还允许使用炸弹投放引导。"
+"式针对不同的目标类型进行了优化。此外，A/G 模式中还允许使用航弹投放引导。"
 
 #: ../../source/general.rst:2627
 msgid ""
@@ -11579,10 +11578,10 @@ msgid ""
 "In manual mode the pilot follows the cues in the LANTIRN video feed on the "
 "VDI and releases the bomb when cued by the LANTIRN."
 msgstr ""
-"炸弹投放提示仅在选择了有效的武器（炸弹）后可见，所选的炸弹是通过 WCS 从 RIO "
+"航弹投放提示仅在选择了有效的武器（航弹）后可见，所选的航弹是通过 WCS 从 RIO "
 "驾驶舱中武器控制面板上的 WPN TYPE 拨轮读取的。可以通过计算机引导模式或者计算"
-"机目标模式来实现炸弹投放，但是建议使用手动模式。在手动模式下，飞行员跟随输出"
-"到 VDI 中的 LANTIRN 视频中的提示并根据炸弹投放提示来投放炸弹。"
+"机目标模式来实现航弹投放，但是建议使用手动模式。在手动模式下，飞行员跟随输出"
+"到 VDI 中的 LANTIRN 视频中的提示并根据航弹投放提示来投放航弹。"
 
 # 2020/05/08 由 AG 校对
 #: ../../source/general.rst:2676
@@ -11713,7 +11712,8 @@ msgid ""
 "AI - Airborne interceptor is indicated by an I in the status ring on the "
 "display and prioritizes all airborne interceptor threats above all other "
 "threats."
-msgstr "AI - 机载雷达由状态环中的字母 I 指示，机载雷达优先于其他所有威胁。"
+msgstr ""
+"AI - 机载截击雷达由状态环中的字母 I 指示，机载截击雷达优先于其他所有威胁。"
 
 #: ../../source/general.rst:2716
 msgid ""
@@ -11726,7 +11726,7 @@ msgstr "AAA - 高射炮由状态环中的字母 A 指示，高射炮优先于其
 msgid ""
 "UNK - Unknown is indicated by a U in the status ring on the display and "
 "prioritizes all unknown threats above all other threats."
-msgstr "UNK - 未知由状态环中的字母 U 指示，未知威胁优先于其他所有威胁。"
+msgstr "UNK - 不明由状态环中的字母 U 指示，不明威胁优先于其他所有威胁。"
 
 #: ../../source/general.rst:2720
 msgid ""
@@ -11760,8 +11760,8 @@ msgid ""
 "enhanced by flashing of its symbol."
 msgstr ""
 "最外层——严重威胁区显示的辐射源威胁符号表示对本机构成严重危险，这些威胁可能是"
-"锁定并跟踪你的雷达或是探测到主动攻击本机的雷达。探测到的一个跟踪（注：正在跟"
-"踪你的辐射源）主动攻击本机的话，这个跟踪的威胁符号将会闪烁以提高辨识度。"
+"锁定并跟踪你的雷达或是探测到主动攻击本机的雷达。探测到的一个跟踪（译注：正在"
+"跟踪你的辐射源）主动攻击本机的话，这个跟踪的威胁符号将会闪烁以提高辨识度。"
 
 #: ../../source/general.rst:2732
 msgid ""
@@ -11791,10 +11791,10 @@ msgid ""
 "O, the presence of a BIT failure by showing B or that the system is "
 "thermally overloaded (too warm) by showing a T."
 msgstr ""
-"威胁区的内侧（注：圆心处）为系统状态环，这个状态环指示系统的运行模式或显示故"
-"障。左上角象限显示设定的显示类型（N、I、A、U 或 F），右上角象限在系统处于限制"
-"模式时将显示 L，下半部分可以显示表示系统处于偏置模式的 O，显示 B 表示 BIT 出"
-"现故障或显示 T 表示系统过载（过热）。"
+"威胁区的内侧（译注：圆心处）为系统状态环，这个状态环指示系统的运行模式或显示"
+"故障。左上角象限显示设定的显示类型（N、I、A、U 或 F），右上角象限在系统处于限"
+"制模式时将显示 L，下半部分可以显示表示系统处于偏置模式的 O，显示 B 表示 BIT "
+"出现故障或显示 T 表示系统过载（过热）。"
 
 #: ../../source/general.rst:2741
 msgid ""
@@ -11827,6 +11827,7 @@ msgstr ""
 "位于 HUD 右侧，RIO 的报警灯位于 TID 的右侧。RIO 报警灯面板还包含了 AN/"
 "ALQ-126 的指示灯以及 IFF 应答机的指示灯，这些指示灯在对应的部分有详细说明。"
 
+# GJB4429-2002军用雷达术语 2.1.2.35
 #: ../../source/general.rst:2758
 msgid ""
 "The different lights illuminate to indicate the presence of a certain type "
@@ -11837,7 +11838,7 @@ msgid ""
 msgstr ""
 "不同的指示灯亮起来指示某些类型的威胁位于 RWR 的严重威胁区内，并且当探测到主动"
 "攻击时，威胁类型对应的指示灯将会开始闪烁。指示灯的类别为 SAM（面对空导弹）、"
-"AAA（高射炮）、AI（空基拦截器）以及仅在 RIO 驾驶舱中拥有的 CW（连续波）。"
+"AAA（高射炮）、AI（机载截击雷达）以及仅在 RIO 驾驶舱中拥有的 CW（连续波）。"
 
 #: ../../source/general.rst:2763
 msgid "Threat Indication Alert Tones"
@@ -12619,9 +12620,9 @@ msgid ""
 "mounted in line on the left side of the tailhook. This is a remnant from the "
 "earliest model F-14s carrying the AN/ALE-29."
 msgstr ""
-"每个发射器包含两个部分，一个部分中含有10发抛放弹（注：干扰弹），另外一个部分"
-"则为20发。发射器被称为左发射器和右发射器，即使实际上是前后发射器，两个发射器"
-"并列安装在拦阻钩的左侧。这实际上是沿用了 F-14 早期型号中 AN/ALE-29 的叫法。"
+"每个发射器包含两个部分，一个部分中含有10发抛放弹（译注：干扰弹），另外一个部"
+"分则为20发。发射器被称为左发射器和右发射器，即使实际上是前后发射器，两个发射"
+"器并列安装在拦阻钩的左侧。这实际上是沿用了 F-14 早期型号中 AN/ALE-29 的叫法。"
 
 #: ../../source/general.rst:2987
 msgid ""
@@ -13003,8 +13004,8 @@ msgid ""
 msgstr ""
 "当安装了 LAU-138 挂架后，发射器中的 R10 和 R20 部分都会连接到 R20 部分，并且 "
 "R10 部分连接到 LAU-138 挂架。这意味着编程面板上的 R20 的干扰弹类型设置同时控"
-"制着 R10 和 R20（注：ALE-39 的部分），并且 R10 干扰弹类型设置应该始终保持为 "
-"C（箔条）。"
+"制着 R10 和 R20（译注：ALE-39 的部分），并且 R10 干扰弹类型设置应该始终保持"
+"为 C（箔条）。"
 
 #: ../../source/general.rst:3096
 msgid ""
@@ -15019,9 +15020,9 @@ msgid ""
 "and data readout panel indicate the status of the alignment program and "
 "navigation system."
 msgstr ""
-"所需运行模式、对准模式和目标点都可以在导航控制与数据读数面板（注：TID 屏幕的"
-"边框）进行选择。CAP 可以用来输入导航数据并将所选的信息显示在 TID 中。CAP 下方"
-"的 CATEGORY 旋钮的档位决定 MESSAGE 按钮的功能。用于导航的类为 NAV 和 TAC "
+"所需运行模式、对准模式和目标点都可以在导航控制与数据读数面板（译注：TID 屏幕"
+"的边框）进行选择。CAP 可以用来输入导航数据并将所选的信息显示在 TID 中。CAP 下"
+"方的 CATEGORY 旋钮的档位决定 MESSAGE 按钮的功能。用于导航的类为 NAV 和 TAC "
 "DATA。导航控制与数据读数面板中的 STBY/READY 提示灯指示对准程序和导航系统的状"
 "态。"
 
@@ -15231,9 +15232,9 @@ msgid ""
 msgstr ""
 "按下 MAG VAR 按钮来手动输入 MAG VAR。按下 HDG，然后按下 E 或 W，接着输入偏移"
 "的角度，角度的精度为 0.1 度，然后按下 ENTER 。即使想输入的值为0，也需要输入十"
-"分之一度（注：0.0）。TID 显示的内容（包括 NAV GRID）会适当移动。计算出的磁差"
-"是通过将 IMU 的真航向 与 AHRS 的磁航向进行比较，在 AWG-9 中不断计算得出的。这"
-"个差值将会保存为 计算出的 MAG VAR。下表列出了使用 MAG VAR 源的计算机显示和 "
+"分之一度（译注：0.0）。TID 显示的内容（包括 NAV GRID）会适当移动。计算出的磁"
+"差是通过将 IMU 的真航向 与 AHRS 的磁航向进行比较，在 AWG-9 中不断计算得出的。"
+"这个差值将会保存为 计算出的 MAG VAR。下表列出了使用 MAG VAR 源的计算机显示和 "
 "CAP 输入。"
 
 #: ../../source/general.rst:3787
@@ -16093,7 +16094,7 @@ msgid ""
 "approximately 300 NM, if line of sight is given."
 msgstr ""
 "TACAN 系统可以指示任何所选的地面/水面塔康台并且精度为斜距 0.1 NM，方位 0.5 "
-"度。空对空（A/A）模式提供空基塔康台的斜距。如果在视线内，通信距离约为 300 "
+"度。空对空（A/A）模式提供机载塔康台的斜距。如果在视线内，通信距离约为 300 "
 "NM。"
 
 #: ../../source/general.rst:4059
@@ -18735,7 +18736,7 @@ msgid ""
 "Link 4C on the other hand allows up to four F-14 Tomcats to interconnect and "
 "share target tracks to coordinate their engagements."
 msgstr ""
-"另一方面，Link 4C 最大允许4架 F-14 雄猫战机建立数据链路并共享目标跟踪来协同作"
+"另一方面，Link 4C 最多允许4架 F-14 雄猫战机建立数据链路并共享目标跟踪来协同作"
 "战。"
 
 #: ../../source/general.rst:5085

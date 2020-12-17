@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 12:17+0800\n"
-"PO-Revision-Date: 2020-11-19 10:43+0800\n"
+"PO-Revision-Date: 2020-12-06 22:40+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -516,8 +516,8 @@ msgid ""
 "guide the sparrow missiles using pulse doppler illumination instead."
 msgstr ""
 "RIO 可以在武器控制面板上将 MSL OPTIONS 开关设置到 SP PD（“麻雀”/ 多普勒）档位"
-"来切换至脉冲多普勒制导。选择 SP PD 将使 WCS 采用脉冲多普勒照射来引导“麻雀”导"
-"弹。"
+"来切换至脉冲多普勒制导。选择 SP PD 将使 WCS 采用脉冲多普勒照射来为“麻雀”导弹"
+"提供制导。"
 
 #: ../../source/weapons.rst:209
 msgid ""
@@ -1162,6 +1162,7 @@ msgstr ""
 "后立刻进入主动模式，目标飞机将会立刻看到导弹自身的雷达正在锁定攻击它。在前述"
 "模式下，导弹不会采用高抛弹道，因此射程比其他两种模式要短很多。"
 
+# 航弹为统称，激光制导、集束等用炸弹。
 #: ../../source/weapons.rst:467
 msgid "Air-to-Ground Weapons"
 msgstr "空对地武器"
@@ -1186,7 +1187,7 @@ msgid ""
 "guided versions."
 msgstr ""
 "随着 F-14 的作战职能逐渐转变为对地精确打击任务，它也可以挂载几种安装了炸弹制"
-"导装置（GBU）的 Mk-80 系列炸弹，准确的说，是这些炸弹的激光制导型号。"
+"导装置（GBU）的 Mk-80 系列航弹，准确的说，是这些航弹的激光制导型号。"
 
 #: ../../source/weapons.rst:476
 msgid "Air-to-Ground Weapon Settings"
@@ -1227,7 +1228,7 @@ msgstr ""
 msgid ""
 "STP and SGL - Releases one store with each depression of the bomb relase "
 "button on the pilot stick."
-msgstr "STP 和 SGL - 驾驶杆上的炸弹投放按钮，每按下一次投放一枚炸弹。"
+msgstr "STP 和 SGL - 驾驶杆上的航弹投放按钮，每按下一次投放一枚航弹。"
 
 #: ../../source/weapons.rst:491
 msgid ""
@@ -1235,7 +1236,7 @@ msgid ""
 "button on the pilot stick releases a pair of stores. Only works for paired "
 "stations, 1 with 8, 3 with 6 and 4 with 5."
 msgstr ""
-"STP 和 PRS - 与 STP 和 SGL 类似，投放按钮每按下一次投放一对炸弹。这个模式只适"
+"STP 和 PRS - 与 STP 和 SGL 类似，投放按钮每按下一次投放一对航弹。这个模式只适"
 "用于对称的挂架， 1 号挂点对应 8 号挂点， 3 号挂点对应 6 号挂点， 4 号挂点对"
 "应 5 号挂点。"
 
@@ -1247,7 +1248,7 @@ msgid ""
 "milliseconds)."
 msgstr ""
 "RPL 和 SGL - 适用于所有攻击模式，通过 QTY（数量）拨轮和 INTERVAL（投弹间隔）"
-"拨轮设置投放数量和间隔（单位是毫秒）后，按住炸弹投放按钮，飞机会以设定的投放"
+"拨轮设置投放数量和间隔（单位是毫秒）后，按住航弹投放按钮，飞机会以设定的投放"
 "间隔和数量进行投放。"
 
 #: ../../source/weapons.rst:493
@@ -1255,8 +1256,8 @@ msgid ""
 "RPL and PRS - As RPL and SGL but each release pulse releases a pair of "
 "stores, QTY still sets total amount of stores to be released."
 msgstr ""
-"RPL 和 PRS - 与 RPL 和 SGL 类似，但按住炸弹投放按钮会投放一对炸弹，使用 QTY "
-"拨轮来设置需要投放的炸弹总数。"
+"RPL 和 PRS - 与 RPL 和 SGL 类似，但按住航弹投放按钮会投放一对航弹，使用 QTY "
+"拨轮来设置需要投放的航弹总数。"
 
 #: ../../source/weapons.rst:495
 msgid ""
@@ -1275,7 +1276,7 @@ msgstr "使用 ELEC FUSE 开关来设置投放挂载的电子引信模式："
 
 #: ../../source/weapons.rst:499
 msgid "SAFE - Inhibits electrical bomb fusing."
-msgstr "SAFE - 禁用炸弹电子引信。"
+msgstr "SAFE - 禁用航弹电子引信。"
 
 #: ../../source/weapons.rst:500
 msgid "VT - Sets air-burst mode at preset burst height for compatible stores."
@@ -1322,10 +1323,10 @@ msgid ""
 "the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) "
 "and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T."
 msgstr ""
-"在 DCS 中，可以认为 F-14 挂载的所有类型的炸弹都拥有两种引信，所以投放炸弹时需"
-"要设置机械引信和电子引信。使用 GBU 炸弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的"
-"炸弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 "
-"Mk-82 “蛇眼”炸弹时，选择 N 档位会使投放的炸弹自由下落，而选择 N/T 会启用炸弹"
+"在 DCS 中，可以认为 F-14 挂载的所有类型的航弹都拥有两种引信，所以投放航弹时需"
+"要设置机械引信和电子引信。使用 GBU 航弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的"
+"航弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 "
+"Mk-82 “蛇眼”炸弹时，选择 N 档位会使投放的航弹自由下落，而选择 N/T 会启用航弹"
 "尾部的增阻部件。"
 
 # wing/tail assembly - 尾部组件
@@ -1333,7 +1334,7 @@ msgstr ""
 # weapon rails ✔
 # pylon - 挂架
 # station - 挂点
-# substation  - 扩展挂加（TER等）
+# substation  - 扩展挂架（TER等）
 #: ../../source/weapons.rst:513
 msgid "Air-to-Ground Weapon Delivery"
 msgstr "空对地武器投放"
@@ -1432,7 +1433,7 @@ msgid ""
 "fall line (BFL) through the velocity vector and store impact point pipper "
 "(crosshair)."
 msgstr ""
-"选择计算机目标模式时，HUD 将显示菱形目标指示符、一条穿过速度矢量符的炸弹下落"
+"选择计算机目标模式时，HUD 将显示菱形目标指示符、一条穿过速度矢量符的航弹下落"
 "线（BFL）和挂载命中点准星（十字准线）。"
 
 #: ../../source/weapons.rst:539
@@ -1472,7 +1473,7 @@ msgid ""
 msgstr ""
 "现在飞行员需要控制飞机，将速度矢量和十字准星置于 BFL 上，直到两个投放标识接近"
 "速度矢量符和准星。低投放标识穿过速度矢量符时，表示即将投弹，此时飞行员应按下"
-"并按住炸弹投放按钮，授权 WCS 投放挂载。当高投放标识与速度矢量符位置重合时，如"
+"并按住航弹投放按钮，授权 WCS 投放挂载。当高投放标识与速度矢量符位置重合时，如"
 "果投放按钮处于按下状态，WCS 将自动投放选定的挂载。"
 
 #: ../../source/weapons.rst:551
@@ -1635,9 +1636,9 @@ msgid ""
 "to move away from them. Those versions are called the Mk-82 Snake Eye (fins) "
 "and Mk-82AIR (ballute) in DCS."
 msgstr ""
-"Mk-80 系列炸弹是美国海军与盟国的标准通用炸弹，这个系列的炸弹在越战期间首次投"
-"入使用。Mk-82 还能够装备增阻部件——使用折叠式高阻尾翼或减速伞尾部组件使炸弹减"
-"速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。Mk-82 炸弹的这些"
+"Mk-80 系列航弹是美国海军与盟国的标准通用航弹，这个系列的航弹在越战期间首次投"
+"入使用。Mk-82 还能够装备增阻部件——使用折叠式高阻尾翼或减速伞尾部组件使航弹减"
+"速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。Mk-82 航弹的这些"
 "高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。"
 
 #: ../../source/weapons.rst:613
@@ -1647,8 +1648,8 @@ msgid ""
 "for the F-14 in the navy it was tested for and cleared to deliver these "
 "weapons from the start."
 msgstr ""
-"F-14 能够携带 Mk-80 系列中的各型炸弹——从 Mk-81 到 Mk-84 。尽管设计时并没有考"
-"虑使用 F-14 执行对地攻击任务，但这些炸弹从一开始就在 F-14 上进行了测试，并交"
+"F-14 能够携带 Mk-80 系列中的各型航弹——从 Mk-81 到 Mk-84 。尽管设计时并没有考"
+"虑使用 F-14 执行对地攻击任务，但这些航弹从一开始就在 F-14 上进行了测试，并交"
 "付使用。"
 
 #: ../../source/weapons.rst:616
@@ -1658,9 +1659,9 @@ msgid ""
 "variants while the 81 to 83 can also be mounted on substations along the "
 "sides of the phoenix rails as well as on TERs on the glove pylons."
 msgstr ""
-"F-14 使用武器导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载炸弹。导轨本身"
-"可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在武器导轨侧面的"
-"挂点上，也可以安装在翼套挂架连接的 TER 上。"
+"F-14 使用武器导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载航弹。导轨本身"
+"可以挂载 Mk-80 系列的四种航弹，而 Mk-81 至 Mk-83 也可以安装在武器导轨侧面的挂"
+"点上，也可以安装在翼套挂架连接的 TER 上。"
 
 # All of the Mk-80 bombs has nose fuzes only
 # NO,NWP 3-22.5-F14ABD - A2G Tactical Manual - Volume III P-2-4
@@ -1672,7 +1673,7 @@ msgid ""
 "bomb retardation meaning that the nose/tail (N/T) mechanical fuze option "
 "should be used if retardation is needed."
 msgstr ""
-"所有的 Mk-80 炸弹仅含有头部引信，投放炸弹时，应将 RIO 武器控制面板中的 MECH "
+"所有的 Mk-80 航弹仅含有头部引信，投放航弹时，应将 RIO 武器控制面板中的 MECH "
 "FUSE 开关设置到 NOSE（N）档位。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启"
 "用增阻部件，这意味着，如需使用增阻部件，应选择使用头部/尾部（N/T）机械引信。"
 
@@ -1683,13 +1684,13 @@ msgid ""
 "81s and 82s to just 4 for the 84s as those can only be mounted on the rails "
 "themselves. For more info see the F-14 loadout diagrams."
 msgstr ""
-"F-14 可挂载的不同炸弹的总量取决于武器重量以及导轨上挂载的间距，实际载弹数量从"
+"F-14 可挂载的不同航弹的总量取决于武器重量以及导轨上挂载的间距，实际载弹数量从"
 "18枚 Mk-81 或 Mk-82 到4枚 Mk-84 不等，这是因为 Mk-84 只能直接安装在导轨上。详"
 "细的挂载信息请参考下文中的 F-14 挂载示意图。"
 
 #: ../../source/weapons.rst:627
 msgid "GBU-10, 12, 16 and 24"
-msgstr "GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹"
+msgstr "GBU-10、GBU-12、GBU-16 和 GBU-24 激光制导炸弹"
 
 #: ../../source/weapons.rst:630
 msgid ""
@@ -1705,7 +1706,7 @@ msgid ""
 "bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14, "
 "laser guided bombs to be more precise."
 msgstr ""
-"GBU 是加装了导引头装置和制导舵面（控制）装置将 Mk-80 系列炸弹转换为精确制导炸"
+"GBU 是加装了导引头装置和制导舵面（控制）装置将 Mk-80 系列航弹转换为精确制导炸"
 "弹。F-14 挂载的 GBU （更准确地说是精确制导炸弹），分别是 GBU-10、GBU-12、"
 "GBU-16 和 GBU-24。"
 
@@ -1717,7 +1718,7 @@ msgid ""
 "onto a laser designation from another aircraft or ground source."
 msgstr ""
 "获得搭载和使用 LANTIRN 吊舱的能力后，F-14B 也通过了挂载 Mk-80 系列 GBU 衍生型"
-"号炸弹的测试。GBU 可以通过 F-14 携带的 LANTIRN 吊舱来照射，也可由其他飞机或地"
+"号航弹的测试。GBU 可以通过 F-14 携带的 LANTIRN 吊舱来照射，也可由其他飞机或地"
 "面单位提供激光照射来摧毁目标。"
 
 #: ../../source/weapons.rst:637
@@ -1730,12 +1731,12 @@ msgid ""
 "front rail and one back rail as they need to be carried on opposite sides of "
 "the aircraft due to the larger wing assembly."
 msgstr ""
-"F-14 挂载的 GBU 直接安装在武器导轨3号挂点到6号挂点的导轨上，这是因为 GBU 相较"
-"常规 Mk-80 炸弹来说，其大小有所增加，所以 GBU 炸弹无法适配扩展挂架并安装在导"
-"轨上。如果挂载 GBU-16 或 GBU-16 大小以下的激光制导炸弹的话，那么每个武器导轨"
-"上都可以携带一枚炸弹。如果需要挂载两枚 GBU-10 或 GBU-24，GBU-10 可以挂在两个"
-"前部导轨（3号挂点和 6号挂点），而两枚 GBU-24 必须分别挂在前部导轨的一侧和后部"
-"导轨的另一侧上，因为 GBU-24 的尾翼部件更大。"
+"F-14 挂载的 GBU 直接安装在武器导轨3号挂点到6号挂点的导轨上，这是因为 GBU 系列"
+"航弹相较常规 Mk-80 航弹来说，其大小有所增加，所以 GBU 系列航弹无法适配扩展挂"
+"架并安装在导轨上。如果挂载 GBU-16 或 GBU-16 大小以下的激光制导炸弹的话，那么"
+"每个武器导轨上都可以携带一枚航弹。如果需要挂载两枚 GBU-10 或 GBU-24，GBU-10 "
+"可以挂在两个前部导轨（3号挂点和 6号挂点），而两枚 GBU-24 必须分别挂在前部导轨"
+"的一侧和后部导轨的另一侧上，因为 GBU-24 的尾翼部件更大。"
 
 #: ../../source/weapons.rst:640
 msgid "GBU laser codes are set as per :ref:`MESET` or via the kneeboard."
@@ -1753,7 +1754,7 @@ msgid ""
 "are released at a set height using a radar altimeter, the design being that "
 "the submunitions are dispersed over a large area for greater effect."
 msgstr ""
-"Mk-20“石眼”和 Mk-80 系列炸弹一样，是一种常规自由落体炸弹，但它携带的不是常规"
+"Mk-20“石眼”和 Mk-80 系列航弹一样，是一种常规自由落体炸弹，但它携带的不是常规"
 "弹药，而是反坦克子母弹。“石眼”集束炸弹中包含 247 枚这种反坦克子弹药，Mk-20 使"
 "用雷达高度计在设定的高度释放子弹药，这种设计是为了将子弹药分散到更广的区域，"
 "增加杀伤效果。"
@@ -1801,8 +1802,8 @@ msgid ""
 "pods can fire in either salvo mode or ripple mode, salvo launching one "
 "rocket and ripple all."
 msgstr ""
-"每个 LAU-10 吊舱可以装载4枚“祖尼”火箭弹，这个吊舱可以使用齐射或连发模式开火，"
-"每个吊舱中发射一枚，或发射单个吊舱中所有火箭弹。"
+"每个 LAU-10 吊舱可以装载4枚“祖尼”航空火箭弹，这个吊舱可以使用齐射或连发模式开"
+"火，每个吊舱中发射一枚，或发射单个吊舱中所有火箭弹。"
 
 #: ../../source/weapons.rst:666
 msgid ""
@@ -1827,8 +1828,8 @@ msgid ""
 "with bombs, the delivery mode (DLVY MODE) switches being used to configure "
 "how many pods to activate at a time."
 msgstr ""
-"“祖尼”火箭由 RIO 使用武器控制面板设置，投放参数和选项与普通炸弹一致，投放模式"
-"（DLVY 模式）开关用于配置火箭弹齐射模式。"
+"“祖尼”航空火箭弹由 RIO 使用武器控制面板设置，投放参数和选项与普通航弹一致，投"
+"放模式（DLVY 模式）开关用于配置火箭弹齐射模式。"
 
 #: ../../source/weapons.rst:680
 msgid "BDU-33 Practice Bombs"
@@ -1946,7 +1947,7 @@ msgstr ""
 
 #: ../../source/weapons.rst:727
 msgid "Pods and Tanks"
-msgstr "其他吊舱和油箱"
+msgstr "其他吊舱和副油箱"
 
 #: ../../source/weapons.rst:730 ../../source/weapons.rst:827
 msgid "LAU-138 Chaff Adapter"

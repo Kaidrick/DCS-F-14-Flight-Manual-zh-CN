@@ -125,7 +125,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#mk-81-82-83-and-84-gp-bombs">Mk-81、Mk-82、Mk-83 和 Mk-84 通用航空炸弹</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gbu-10-12-16-and-24">GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gbu-10-12-16-and-24">GBU-10、GBU-12、GBU-16 和 GBU-24 激光制导炸弹</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#mk-20-rockeye">Mk-20“石眼”炸弹</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#zuni-rockets">“祖尼”火箭弹</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bdu-33-practice-bombs">BDU-33 训练弹</a></li>
@@ -137,7 +137,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#smokewinder">拉烟吊舱</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">其他吊舱和油箱</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pods-and-tanks">其他吊舱和副油箱</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#lau-138-chaff-adapter">LAU-138 箔条适配器</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#tacts-pods">TACTS 吊舱</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fpu-1-fuel-tank">FPU-1 油箱</a></li>
@@ -316,7 +316,7 @@
 <h5>正常模式<a class="headerlink" href="#normal-mode" title="永久链接至标题">¶</a></h5>
 <a class="reference internal image-reference" href="_images/msloptionsp.png"><img alt="_images/msloptionsp.png" class="align-left" src="_images/msloptionsp.png" style="width: 185.5px; height: 161.35px;" /></a>
 <p>因为正常模式是用于攻击使用 STT 跟踪的目标，所以 WCS 可以使用 CW（连续波）或脉冲多普勒进行制导。在正常模式下使用 CW 模式时，AN/AWG-9 雷达使用专用 CW 天线，它能比泛指天线更直接地聚焦照射跟踪的目标。虽然 CW 模式是所有 AIM-7 型号的正常制导模式，但使用 AIM-7F 和 AIM-7M 导弹时，可以选择脉冲多普勒制导模式。</p>
-<p>RIO 可以在武器控制面板上将 MSL OPTIONS 开关设置到 SP PD（“麻雀”/ 多普勒）档位来切换至脉冲多普勒制导。选择 SP PD 将使 WCS 采用脉冲多普勒照射来引导“麻雀”导弹。</p>
+<p>RIO 可以在武器控制面板上将 MSL OPTIONS 开关设置到 SP PD（“麻雀”/ 多普勒）档位来切换至脉冲多普勒制导。选择 SP PD 将使 WCS 采用脉冲多普勒照射来为“麻雀”导弹提供制导。</p>
 <p>无论采用哪种制导模式，WCS 都会计算导弹的 LAR（发射允许区间），并在 VDI 和 TID 上显示导弹发射距离。HUD 显示菱形目标指定符、当前目标距离、R<sub>min</sub>（最小发射距离）和 R<sub>max</sub>（最大发射距离），而 VDI、DDD 和 TID 显示攻击引导符号系统以及上述的导弹 LAR 指示。</p>
 </div>
 <div class="section" id="boresight-mode">
@@ -445,7 +445,7 @@
 <div class="section" id="air-to-ground-weapons">
 <h2>空对地武器<a class="headerlink" href="#air-to-ground-weapons" title="永久链接至标题">¶</a></h2>
 <p>尽管 F-14 是主要是按照空优战斗机和截击机来设计的，但它从一开始就通过了评估测试，可以挂载所有美国现代 Mk-80 系列通用航空炸弹（GP）。此外，它还可以挂载 Mk-20 “石眼”集束炸弹以及五英寸折翼式航空火箭弹（FFAR）。</p>
-<p>随着 F-14 的作战职能逐渐转变为对地精确打击任务，它也可以挂载几种安装了炸弹制导装置（GBU）的 Mk-80 系列炸弹，准确的说，是这些炸弹的激光制导型号。</p>
+<p>随着 F-14 的作战职能逐渐转变为对地精确打击任务，它也可以挂载几种安装了炸弹制导装置（GBU）的 Mk-80 系列航弹，准确的说，是这些航弹的激光制导型号。</p>
 <div class="section" id="air-to-ground-weapon-settings">
 <h3>空对地武器设定<a class="headerlink" href="#air-to-ground-weapon-settings" title="永久链接至标题">¶</a></h3>
 <img alt="_images/armamentpanel1.png" src="_images/armamentpanel1.png" />
@@ -458,15 +458,15 @@
 </dl>
 <p>在 DLVY MODE（投放模式）选择开关上，可以设置 STP / RPL（逐个/连发）和 SGL / PRS（单发/成对）投放选项。所有可能的组合如下：</p>
 <ul class="simple">
-<li><p>STP 和 SGL - 驾驶杆上的炸弹投放按钮，每按下一次投放一枚炸弹。</p></li>
-<li><p>STP 和 PRS - 与 STP 和 SGL 类似，投放按钮每按下一次投放一对炸弹。这个模式只适用于对称的挂架， 1 号挂点对应 8 号挂点， 3 号挂点对应 6 号挂点， 4 号挂点对应 5 号挂点。</p></li>
-<li><p>RPL 和 SGL - 适用于所有攻击模式，通过 QTY（数量）拨轮和 INTERVAL（投弹间隔）拨轮设置投放数量和间隔（单位是毫秒）后，按住炸弹投放按钮，飞机会以设定的投放间隔和数量进行投放。</p></li>
-<li><p>RPL 和 PRS - 与 RPL 和 SGL 类似，但按住炸弹投放按钮会投放一对炸弹，使用 QTY 拨轮来设置需要投放的炸弹总数。</p></li>
+<li><p>STP 和 SGL - 驾驶杆上的航弹投放按钮，每按下一次投放一枚航弹。</p></li>
+<li><p>STP 和 PRS - 与 STP 和 SGL 类似，投放按钮每按下一次投放一对航弹。这个模式只适用于对称的挂架， 1 号挂点对应 8 号挂点， 3 号挂点对应 6 号挂点， 4 号挂点对应 5 号挂点。</p></li>
+<li><p>RPL 和 SGL - 适用于所有攻击模式，通过 QTY（数量）拨轮和 INTERVAL（投弹间隔）拨轮设置投放数量和间隔（单位是毫秒）后，按住航弹投放按钮，飞机会以设定的投放间隔和数量进行投放。</p></li>
+<li><p>RPL 和 PRS - 与 RPL 和 SGL 类似，但按住航弹投放按钮会投放一对航弹，使用 QTY 拨轮来设置需要投放的航弹总数。</p></li>
 </ul>
 <p>使用 MECH FUSE 开关来选择挂载启用哪种机械引信。NOSE 启用头部引信，SAFE 禁止引信解除保险，而 NOSE/TAIL 同时启用头部引信和尾部引信。</p>
 <p>使用 ELEC FUSE 开关来设置投放挂载的电子引信模式：</p>
 <ul class="simple">
-<li><p>SAFE - 禁用炸弹电子引信。</p></li>
+<li><p>SAFE - 禁用航弹电子引信。</p></li>
 <li><p>VT - 为支持空爆模式的挂载设置爆炸高度。</p></li>
 <li><p>INST - 选择瞬时模式。</p></li>
 <li><p>DLY 1 - 选择预设的延时 1。</p></li>
@@ -476,7 +476,7 @@
 <p>最后，6 个 STA SEL（挂点选择）开关用于选择投放挂载（或抛弃挂载）的挂架。将挂架对应的开关拨至 SEL 档位来选择这个挂架进行投放。然而，选择 1 号挂点和 8 号挂点时，应将对应的开关拨至 B 档位。开关的 SW 档位曾用于抛弃 AIM-9 “响尾蛇”导弹，但现已无法操作。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>在 DCS 中，可以认为 F-14 挂载的所有类型的炸弹都拥有两种引信，所以投放炸弹时需要设置机械引信和电子引信。使用 GBU 炸弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的炸弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 Mk-82 “蛇眼”炸弹时，选择 N 档位会使投放的炸弹自由下落，而选择 N/T 会启用炸弹尾部的增阻部件。</p>
+<dd class="field-odd"><p>在 DCS 中，可以认为 F-14 挂载的所有类型的航弹都拥有两种引信，所以投放航弹时需要设置机械引信和电子引信。使用 GBU 航弹、Mk-20 系列以及 Mk-81 和 Mk-84 系列的航弹时，需要将机械引信设置到 N 或者 N/T 档位，而使用 Mk-82 AIR（减速伞）和 Mk-82 “蛇眼”炸弹时，选择 N 档位会使投放的航弹自由下落，而选择 N/T 会启用航弹尾部的增阻部件。</p>
 </dd>
 </dl>
 </div>
@@ -496,10 +496,10 @@
 <h4>计算机目标模式<a class="headerlink" href="#computer-target" title="永久链接至标题">¶</a></h4>
 <img alt="_images/cmptrtgt.png" src="_images/cmptrtgt.png" />
 <p>计算机目标模式允许飞行员指定目标，然后由 WCS 引导飞行员向目标投弹。 此模式适用于所有空对地挂载，包括火箭弹。</p>
-<p>选择计算机目标模式时，HUD 将显示菱形目标指示符、一条穿过速度矢量符的炸弹下落线（BFL）和挂载命中点准星（十字准线）。</p>
+<p>选择计算机目标模式时，HUD 将显示菱形目标指示符、一条穿过速度矢量符的航弹下落线（BFL）和挂载命中点准星（十字准线）。</p>
 <p>飞行员调整飞机航向，将目标置于 BFL 上来指定目标。 然后，用飞行员驾驶舱壁上的目标指定开关的 UP/DN 来调整目标指示符位置，直到指示符覆盖目标。这时，按下目标指定开关至 DES 档位来指定目标。</p>
 <p>指定目标后，菱形目标指定符会相对地面稳定，并且 AN/AWG-9 会指向指定的位置进行测距。 BFL 会保持在指定的目标上，而十字准星和飞机速度矢量继续跟随飞机移动。 此外，HUD 会在 BFL 上分别显示高低投放标识。</p>
-<p>现在飞行员需要控制飞机，将速度矢量和十字准星置于 BFL 上，直到两个投放标识接近速度矢量符和准星。低投放标识穿过速度矢量符时，表示即将投弹，此时飞行员应按下并按住炸弹投放按钮，授权 WCS 投放挂载。当高投放标识与速度矢量符位置重合时，如果投放按钮处于按下状态，WCS 将自动投放选定的挂载。</p>
+<p>现在飞行员需要控制飞机，将速度矢量和十字准星置于 BFL 上，直到两个投放标识接近速度矢量符和准星。低投放标识穿过速度矢量符时，表示即将投弹，此时飞行员应按下并按住航弹投放按钮，授权 WCS 投放挂载。当高投放标识与速度矢量符位置重合时，如果投放按钮处于按下状态，WCS 将自动投放选定的挂载。</p>
 <p>随着飞机高度降低，HUD 上的拉起标识（开口方向朝上的方括号）朝着速度矢量符向上移动。当它与速度矢量符重合时，表示飞机低于投放挂载的安全高度。</p>
 </div>
 <div class="section" id="computer-initial-point">
@@ -533,21 +533,21 @@
 <img alt="_images/dumb.jpg" src="_images/dumb.jpg" />
 <p class="caption"><span class="caption-text">由美国海军摄影师 Justin S. Osborne 拍摄（030321-N-0382O-506）</span><a class="headerlink" href="#id9" title="永久链接至图片">¶</a></p>
 </div>
-<p>Mk-80 系列炸弹是美国海军与盟国的标准通用炸弹，这个系列的炸弹在越战期间首次投入使用。Mk-82 还能够装备增阻部件——使用折叠式高阻尾翼或减速伞尾部组件使炸弹减速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。Mk-82 炸弹的这些高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。</p>
-<p>F-14 能够携带 Mk-80 系列中的各型炸弹——从 Mk-81 到 Mk-84 。尽管设计时并没有考虑使用 F-14 执行对地攻击任务，但这些炸弹从一开始就在 F-14 上进行了测试，并交付使用。</p>
-<p>F-14 使用武器导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载炸弹。导轨本身可以挂载 Mk-80 系列的四种炸弹，而 Mk-81 至 Mk-83 也可以安装在我要去导轨侧面的挂点上，也可以安装在翼套挂架连接的 TER 上。</p>
-<p>所有的 Mk-80 炸弹仅含有头部引信，投放炸弹时，应将 RIO 武器控制面板中的 MECH FUSE 开关设置到 NOSE（N）档位。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启用增阻部件，这意味着，如需使用增阻部件，应选择使用头部/尾部（N/T）机械引信。</p>
-<p>F-14 可挂载的不同炸弹的总量取决于武器重量以及导轨上挂载的间距，实际载弹数量从18枚 Mk-81 或 Mk-82 到4枚 Mk-84 不等，这是因为 Mk-84 只能直接安装在导轨上。详细的挂载信息请参考下文中的 F-14 挂载示意图。</p>
+<p>Mk-80 系列航弹是美国海军与盟国的标准通用航弹，这个系列的航弹在越战期间首次投入使用。Mk-82 还能够装备增阻部件——使用折叠式高阻尾翼或减速伞尾部组件使航弹减速，让飞机在低空投弹时有更多时间脱离，避免爆炸波及载机自身。Mk-82 航弹的这些高阻型号在 DCS 中被称为 MK-82“蛇眼”（高阻尾翼）和 MK-82AIR（减速伞）。</p>
+<p>F-14 能够携带 Mk-80 系列中的各型航弹——从 Mk-81 到 Mk-84 。尽管设计时并没有考虑使用 F-14 执行对地攻击任务，但这些航弹从一开始就在 F-14 上进行了测试，并交付使用。</p>
+<p>F-14 使用武器导轨（3号挂点至6号挂点）和翼套挂架下方的挂点来挂载航弹。导轨本身可以挂载 Mk-80 系列的四种航弹，而 Mk-81 至 Mk-83 也可以安装在武器导轨侧面的挂点上，也可以安装在翼套挂架连接的 TER 上。</p>
+<p>所有的 Mk-80 航弹仅含有头部引信，投放航弹时，应将 RIO 武器控制面板中的 MECH FUSE 开关设置到 NOSE（N）档位。 Mk-82AIR 和 Mk-82“蛇眼”型号使用尾部引信线来启用增阻部件，这意味着，如需使用增阻部件，应选择使用头部/尾部（N/T）机械引信。</p>
+<p>F-14 可挂载的不同航弹的总量取决于武器重量以及导轨上挂载的间距，实际载弹数量从18枚 Mk-81 或 Mk-82 到4枚 Mk-84 不等，这是因为 Mk-84 只能直接安装在导轨上。详细的挂载信息请参考下文中的 F-14 挂载示意图。</p>
 </div>
 <div class="section" id="gbu-10-12-16-and-24">
-<h3>GBU-10、GBU-12、GBU-16 和 GBU-24 炸弹<a class="headerlink" href="#gbu-10-12-16-and-24" title="永久链接至标题">¶</a></h3>
+<h3>GBU-10、GBU-12、GBU-16 和 GBU-24 激光制导炸弹<a class="headerlink" href="#gbu-10-12-16-and-24" title="永久链接至标题">¶</a></h3>
 <div class="figure align-default" id="id10">
 <img alt="_images/gbu.jpg" src="_images/gbu.jpg" />
 <p class="caption"><span class="caption-text">由美国海军摄影师 Milosz Reterski 拍摄（040105-N-9742R-001）</span><a class="headerlink" href="#id10" title="永久链接至图片">¶</a></p>
 </div>
-<p>GBU 是加装了导引头装置和制导舵面（控制）装置将 Mk-80 系列炸弹转换为精确制导炸弹。F-14 挂载的 GBU （更准确地说是精确制导炸弹），分别是 GBU-10、GBU-12、GBU-16 和 GBU-24。</p>
-<p>获得搭载和使用 LANTIRN 吊舱的能力后，F-14B 也通过了挂载 Mk-80 系列 GBU 衍生型号炸弹的测试。GBU 可以通过 F-14 携带的 LANTIRN 吊舱来照射，也可由其他飞机或地面单位提供激光照射来摧毁目标。</p>
-<p>F-14 挂载的 GBU 直接安装在武器导轨3号挂点到6号挂点的导轨上，这是因为 GBU 相较常规 Mk-80 炸弹来说，其大小有所增加，所以 GBU 炸弹无法适配扩展挂架并安装在导轨上。如果挂载 GBU-16 或 GBU-16 大小以下的激光制导炸弹的话，那么每个武器导轨上都可以携带一枚炸弹。如果需要挂载两枚 GBU-10 或 GBU-24，GBU-10 可以挂在两个前部导轨（3号挂点和 6号挂点），而两枚 GBU-24 必须分别挂在前部导轨的一侧和后部导轨的另一侧上，因为 GBU-24 的尾翼部件更大。</p>
+<p>GBU 是加装了导引头装置和制导舵面（控制）装置将 Mk-80 系列航弹转换为精确制导炸弹。F-14 挂载的 GBU （更准确地说是精确制导炸弹），分别是 GBU-10、GBU-12、GBU-16 和 GBU-24。</p>
+<p>获得搭载和使用 LANTIRN 吊舱的能力后，F-14B 也通过了挂载 Mk-80 系列 GBU 衍生型号航弹的测试。GBU 可以通过 F-14 携带的 LANTIRN 吊舱来照射，也可由其他飞机或地面单位提供激光照射来摧毁目标。</p>
+<p>F-14 挂载的 GBU 直接安装在武器导轨3号挂点到6号挂点的导轨上，这是因为 GBU 系列航弹相较常规 Mk-80 航弹来说，其大小有所增加，所以 GBU 系列航弹无法适配扩展挂架并安装在导轨上。如果挂载 GBU-16 或 GBU-16 大小以下的激光制导炸弹的话，那么每个武器导轨上都可以携带一枚航弹。如果需要挂载两枚 GBU-10 或 GBU-24，GBU-10 可以挂在两个前部导轨（3号挂点和 6号挂点），而两枚 GBU-24 必须分别挂在前部导轨的一侧和后部导轨的另一侧上，因为 GBU-24 的尾翼部件更大。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>GBU 激光编码可以通过 <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> 或飞行员膝板来设置。</p>
@@ -556,7 +556,7 @@
 </div>
 <div class="section" id="mk-20-rockeye">
 <h3>Mk-20“石眼”炸弹<a class="headerlink" href="#mk-20-rockeye" title="永久链接至标题">¶</a></h3>
-<p>Mk-20“石眼”和 Mk-80 系列炸弹一样，是一种常规自由落体炸弹，但它携带的不是常规弹药，而是反坦克子母弹。“石眼”集束炸弹中包含 247 枚这种反坦克子弹药，Mk-20 使用雷达高度计在设定的高度释放子弹药，这种设计是为了将子弹药分散到更广的区域，增加杀伤效果。</p>
+<p>Mk-20“石眼”和 Mk-80 系列航弹一样，是一种常规自由落体炸弹，但它携带的不是常规弹药，而是反坦克子母弹。“石眼”集束炸弹中包含 247 枚这种反坦克子弹药，Mk-20 使用雷达高度计在设定的高度释放子弹药，这种设计是为了将子弹药分散到更广的区域，增加杀伤效果。</p>
 <p>引信激活高度只能由地勤人员在装载时调定，飞行员无法更改。投放“石眼”时，应将机械引信设置为头部引信（N）。</p>
 <p>F-14 可以使用武器导轨、扩展挂架和翼套挂架连接的 TER 携带多达 10 枚 Mk-20“石眼”。</p>
 <dl class="field-list simple">
@@ -568,9 +568,9 @@
 <div class="section" id="zuni-rockets">
 <h3>“祖尼”火箭弹<a class="headerlink" href="#zuni-rockets" title="永久链接至标题">¶</a></h3>
 <p>“祖尼”5英寸折叠翼航空火箭弹 （FFAR）是为了取代二战时期的高速航空火箭弹（HVAR）而开发的。模块化设计使它能安装不同的战斗部和引信。</p>
-<p>每个 LAU-10 吊舱可以装载4枚“祖尼”火箭弹，这个吊舱可以使用齐射或连发模式开火，每个吊舱中发射一枚，或发射单个吊舱中所有火箭弹。</p>
+<p>每个 LAU-10 吊舱可以装载4枚“祖尼”航空火箭弹，这个吊舱可以使用齐射或连发模式开火，每个吊舱中发射一枚，或发射单个吊舱中所有火箭弹。</p>
 <p>通过使用 TER，F-14“雄猫”可以在 1B、3、6 和 8B 挂点上携带 LAU-10 火箭弹吊舱，每个 TER 最多可携带两个（火箭弹）吊舱，但 3 号和 6 号除外，否则会与相邻挂弹架上的（火箭弹）吊舱冲突。使用 TER 是为了增加火箭弹吊舱与挂点之间的间距，以保证安全的发射火箭弹。然而，之所以不在 TER 上装载三个吊舱的原因是，如果在翼套挂架上连接 TER，其内侧挂点会与主起落架冲突，而 3 号和 6 号挂点上的 TER，如果内侧挂点连接吊舱则会与另一侧挂点冲突。</p>
-<p>“祖尼”火箭由 RIO 使用武器控制面板设置，投放参数和选项与普通炸弹一致，投放模式（DLVY 模式）开关用于配置火箭弹齐射模式。</p>
+<p>“祖尼”航空火箭弹由 RIO 使用武器控制面板设置，投放参数和选项与普通航弹一致，投放模式（DLVY 模式）开关用于配置火箭弹齐射模式。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/wftck0C3fJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -611,7 +611,7 @@
 </div>
 </div>
 <div class="section" id="pods-and-tanks">
-<h2>其他吊舱和油箱<a class="headerlink" href="#pods-and-tanks" title="永久链接至标题">¶</a></h2>
+<h2>其他吊舱和副油箱<a class="headerlink" href="#pods-and-tanks" title="永久链接至标题">¶</a></h2>
 <div class="section" id="lau-138-chaff-adapter">
 <h3>LAU-138 箔条适配器<a class="headerlink" href="#lau-138-chaff-adapter" title="永久链接至标题">¶</a></h3>
 <p>LAU-138 箔条适配器 （也称为 BOL 导轨）由瑞典的 Celcius Tech 公司设计，LAU-138 旨在增强战机携带箔条对抗措施的能力。这个箔条布撒器的特殊之处在于箔条是通过机械动作布撒，而不是使用火药来发射的。</p>

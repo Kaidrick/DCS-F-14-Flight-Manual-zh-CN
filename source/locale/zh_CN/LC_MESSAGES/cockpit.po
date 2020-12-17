@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 12:17+0800\n"
-"PO-Revision-Date: 2020-11-18 12:41+0800\n"
+"PO-Revision-Date: 2020-12-06 23:31+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2615,14 +2615,15 @@ msgstr "用于控制飞机横滚和俯仰。同时也用于控制下表所述的
 
 #: ../../source/cockpit.rst:1182
 msgid "Bomb release button"
-msgstr "炸弹投放按钮"
+msgstr "航弹投放按钮"
 
 #: ../../source/cockpit.rst:1182
 msgid ""
 "Stores release button, used for air-to-ground ordnance (except rockets) and "
 "loaded external countermeasures."
 msgstr ""
-"挂载投放按钮，用于投放空对地挂载（火箭弹例外）或发射挂架挂载的电子对抗措施。"
+"挂载投放按钮，用于投放空对地挂载（航空火箭弹例外）或发射挂架挂载的额外对抗措"
+"施。"
 
 #: ../../source/cockpit.rst:1184
 msgid "Pitch and roll trim hat"
@@ -2783,14 +2784,14 @@ msgid ""
 "AAA - AAA, steady illumination when detecting lock on from a AAA tracking "
 "radar. Flashes when AAA firing is detected."
 msgstr ""
-"AAA - 防空高炮，灯光稳定亮起表示侦测到防空炮跟踪雷达锁定，灯光闪烁表示侦测到"
-"防空炮开火。"
+"AAA - 高射炮，灯光稳定亮起表示侦测到防空炮跟踪雷达锁定，灯光闪烁表示侦测到防"
+"空炮开火。"
 
 #: ../../source/cockpit.rst:1244
 msgid ""
 "AI - AI, steady illumination when detecting lock on from an airborne "
 "interceptor radar."
-msgstr "AI - 机载拦截雷达，灯光稳定亮起表示侦测到机载雷达锁定。"
+msgstr "AI - 机载截击雷达，灯光稳定亮起表示侦测到机载雷达锁定。"
 
 #: ../../source/cockpit.rst:1250
 msgid "Standby Compass"
@@ -2986,7 +2987,7 @@ msgstr "N - 正常优先级"
 
 #: ../../source/cockpit.rst:0
 msgid "I - AI, airborne interceptors prioritized."
-msgstr "I - AI，优先显示机载拦截雷达威胁。"
+msgstr "I - AI，优先显示机载截击雷达威胁。"
 
 #: ../../source/cockpit.rst:0
 msgid "A - AAA, anti-air artillery prioritized."
@@ -2994,7 +2995,7 @@ msgstr "A - AAA，优先显示防空高炮威胁。"
 
 #: ../../source/cockpit.rst:0
 msgid "U - Unknown emitters prioritized."
-msgstr "U - 优先显示未知辐射源。"
+msgstr "U - 优先显示不明辐射源。"
 
 #: ../../source/cockpit.rst:0
 msgid "F - Friendly emitters shown in addition to other threats."
@@ -3002,7 +3003,7 @@ msgstr "F - 显示其他雷达威胁的同时也显示友方信号源。"
 
 #: ../../source/cockpit.rst:1389 ../../source/cockpit.rst:2919
 msgid "System status circle, area II"
-msgstr "系统状态圈，区域 II"
+msgstr "系统状态环，区域 II"
 
 #: ../../source/cockpit.rst:0
 msgid "Upper right quadrant of 1. Indicates if limited mode is selected."
@@ -3771,7 +3772,7 @@ msgstr ""
 msgid ""
 "Caution light indicating accumulation of ice on ice detector in left engine "
 "inlet."
-msgstr "“进气道结冰” 注意灯，注意灯亮起表示结冰信号器探测到结冰。"
+msgstr "“进气道结冰” 注意灯，注意灯亮起表示左发进气道结冰信号器探测到结冰。"
 
 #: ../../source/cockpit.rst:1740
 msgid "FLAP"
@@ -5874,7 +5875,7 @@ msgid ""
 "pulse doppler modes and if to use edge or centroid tracking in pulse mode. "
 "These settings correspond to expected target aspect."
 msgstr ""
-"目标方位选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择在"
+"目标态势选择开关，用于控制脉冲多普勒模式下的多普勒过滤速率区间，也用于选择在"
 "脉冲模式下跟踪目标回波边缘或回波质心。这些设置对应了预计目标姿态。"
 
 #: ../../source/cockpit.rst:2716
@@ -6426,7 +6427,7 @@ msgstr ""
 msgid ""
 "Warning light, steady illumination when detecting lockon from an airborne "
 "interceptor radar."
-msgstr "机载雷达报警灯，灯光稳定亮起表示侦测到 AI 跟踪雷达锁定。"
+msgstr "机载截击雷达报警灯，灯光稳定亮起表示侦测到机载截击雷达锁定。"
 
 #: ../../source/cockpit.rst:3017
 msgid "Handle used to manually jettison canopy."
