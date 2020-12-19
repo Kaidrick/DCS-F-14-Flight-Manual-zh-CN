@@ -16,27 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:13
-#: ../../source/index.rst:13
-msgid "Contents:"
+#: ../../source/loc_jester.rst:2
+msgid "Jester AI指令菜单"
 msgstr ""
 
-#: ../../source/index.rst:30
-msgid "CN Localization:"
-msgstr ""
-
-#: ../../source/index.rst:38
-msgid "Other Files:"
-msgstr ""
-
-#: ../../source/index.rst:2
-msgid "Heatblur DCS F-14 Tomcat"
-msgstr ""
-
-#: ../../source/index.rst:4
-msgid "手册上次更新时间：\\ :ref:`manual_lastest`"
-msgstr ""
-
-#: ../../source/index.rst:6
-msgid "相关本地化文件更新时间：\\ :ref:`game_file_lastest`"
+#: ../../source/loc_jester.rst:4
+msgid "这是一个交互式控件。鼠标左键点击图中子菜单对应的区域来切换至选定的子页面。点击 Jester 头像返回主页，点击鼠标右键返回上一级菜单。 手机用户暂时访问：\\ `单独网页版Jester菜单 <https://kaidrick.github.io/jester-radial-menu-vue/>`_\\"
 msgstr ""

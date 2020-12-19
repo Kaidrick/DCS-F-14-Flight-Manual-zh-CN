@@ -17,7 +17,8 @@ The F-14 carries the gun internally mounted beneath the cockpit with the muzzle 
 The gun itself is mounted to be elevated slightly more than 3° from the ADL to provide built-in lead for dog-fight situations.
 
 To fire the gun, no input is needed from the WCS, the gun can be fired by the trigger on the pilot stick when selected by the weapons selector on that same stick,
-provided master arm is on.
+provided master arm is on. The WCS can however provide symbology on the HUD to increase gun accuracy.
+For both air-to-air and air-to-ground modes the gun has two sights available. For air-to-air it's the manual sight and the RTGS (real-time gun sight).
 
 Selection of the gun is indicated on the bottom of the hud by a capital G with remaining hundreds of rounds indicated below.
 
@@ -33,8 +34,10 @@ The indicator counts down from 650 but can manually be reset by rotating the kno
 
 The gun is capable of a 4 000 rpm or 6 000 rpm mode. The lower rate normally used for air-to-ground engagement and the higher rate for air-to-air engagement.
 The gun rate is selected by the GUN RATE switch on the ACM which also indicates selected option. Selection of ACM will set it to high automatically.
-The WCS can however provide symbology on the HUD to increase gun accuracy.
-For both air-to-air and air-to-ground modes the gun has two sights available. For air-to-air it's the manual sight and the RTGS (real-time gun sight).
+The maximum number of bullets fired by a trigger pull can be set to be either 50, 100, 200 or unlimited. The default value is 200 bullets but can be set otherwise by the ground crew.
+
+:Note: In DCS this is set via the kneeboard.
+
 
 .. raw:: latex
 
@@ -425,7 +428,9 @@ As the first target is launched at the first track's number is removed and the o
 To continue to engage track 2 through 6 the pilot thus depresses the trigger once for each target, waits until the missile is clear and then depresses the trigger again for the next missile and so on until the desired number of missiles are away.
 
 After missile launch the prioritisation numbers on the right side of the targeted tracks are replaced with the TTI or Time to Impact number, showing calculated time until missile hits the target.
+
 Additionally when the AN/AWG-9 have sent the active command to the missile the TTI numbers blink, indicating that the missile targeting the track has been commanded to active mode.
+When this happens depends on the setting of the TGTS switch on the DDD. SMALL equals 6NM, NORM equals 10NM and LARGE equals 13NM. The setting set before launch is used.
 
 The targets currently under missile attack brightens until estimated time to target plus 15 seconds has elapsed and when at 15 seconds past estimated time to last target the break-away cross is also displayed on the VDI, DDD and TID.
 
@@ -454,7 +459,7 @@ In DCS this means the following:
 
 In TWS the missiles will fly out using guidance from the AN/AWG-9 until at 16 seconds to impact at which time the AN/AWG-9 will tell the missile to go active if it's still within the radar scan zone.
 This results in a silent engagement until the missiles go active at which time the target's radar warning receiver will get indication of an active missile engaging it.
-If fired at range the AIM-54 will loft for greater range.
+If fired at range the AIM-54 will loft for greater range. Setting the different seeker activation ranges impacts the amount of warning the target will get but also the amount of time the missile needs to be supported.
 
 In PD-STT (Pulse-Doppler Single Target Track) the AIM-54 will be launched in a pure semi-active mode and be guided in that mode all the way to target without going active.
 This means that the engaged target will get an immediate engagement warning through its radar warning receiver from the AN/AWG-9 as soon as the AIM-54 leaves the rail.

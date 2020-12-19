@@ -1081,7 +1081,7 @@
 <p>DDD 是 AN/AWG-9 系统中雷达部分的主要显示器和主要控制面板。除了位于传感器控制面板上的扫描范围和相对地面稳定控制器以外，DDD 中包括了所有雷达的控制器。</p>
 <p><strong>TGTS 开关，MLC 开关，AGC 开关 和 PARAMP 开关</strong></p>
 <p>位于 DDD 面板左上部分包含有4个开关（ <strong>1 - 4</strong> ），它们分别用于控制参数放大，主瓣杂波（MLC）抑制和目标大小参数。</p>
-<p><strong>TGTS</strong> （目标）开关可以选择预计目标的大小，WCS 会根据设置的目标大小来计算导弹发射区，并设置雷达中目标跟踪的参数。如果开关选择的预计目标大小错误，就有可能会对目标跟踪和攻击产生负面影响。</p>
+<p><strong>TGTS</strong> （目标）开关可以选择预计目标的大小，WCS 会根据设置的目标大小来计算导弹发射区，并设置雷达中目标跟踪的参数。同时 TGTS 开关还设定发送导弹 ATC（主动制导转交指令）的距离， <strong>SMALL</strong> 为 6海里 发送、 <strong>NORM</strong> 10海里 发送和 <strong>LARGE</strong> 13海里 发送。如果开关选择的预计目标大小错误，就有可能会对目标跟踪和攻击产生负面影响。</p>
 <p><strong>MLC</strong> 开关用于控制在脉冲多普勒模式下系统如何抑制雷达系统中的主瓣杂波（MLC）。OUT 档位将关闭抑制系统，IN 档位则开启。在 AUTO 档位中，如果雷达天线仰角高于地平线3°以上，那么将会自动禁用 MLC 滤波器。</p>
 <p><strong>AGC</strong> 开关用于控制在脉冲多普勒模式下的自动增益控制，使用这个开关来控制用于 AGC（自动增益控制）的时间常数。一般情况下（NORM 档位）AGC 使用更长的时间常数来计算用于放大的平均值。如果雷达在有干扰的环境中或者有严重杂波的情况下，将 AGC 设置为更快的时间常数来缓解这些因素，但设置为快速同时也会使得雷达对真目标的灵敏度降低。</p>
 <p><strong>PARAMP</strong> ，参数放大器开关可以手动控制参数放大器，参数放大器用于在所有雷达模式下放大回波较弱的目标。通常来说，WCS 控制器会根据距离来决定何时使用 PARAMP，但是如果跟踪了一个回波异常强的目标，那么可使用开关来禁用 PARAMP 来减轻背景噪声的影响。如果将开关手动设置为关闭，那么探测距离会缩短大约35%左右。</p>
@@ -1986,7 +1986,7 @@
 <p>由于本机相对目标的空速随方位变化，上述的两个滤波器滤波区间随态势变化。比如说位于45° 的目标的相对空速将会小于位于0°的目标，这是因为本机的速度矢量会略微偏离目标。由于地面回波的观测速度随方位的变化而变化，这就是为什么 DDD 中主瓣杂波轨迹会呈现为曲线的原因。</p>
 <div class="figure align-default" id="id18">
 <img alt="_images/pd.png" src="_images/pd.png" />
-<p class="caption"><span class="caption-text">目标地速为900节，本机空速为1200节。详细信息参照下表，视线转率是目标与本机的相对角速度之和。</span><a class="headerlink" href="#id18" title="永久链接至图片">¶</a></p>
+<p class="caption"><span class="caption-text">目标地速为900节，本机空速为1200节。详细信息参照下表，视线角速度是目标与本机的相对角速度之和。</span><a class="headerlink" href="#id18" title="永久链接至图片">¶</a></p>
 </div>
 <table class="docutils align-default">
 <colgroup>
@@ -1998,7 +1998,7 @@
 <thead>
 <tr class="row-odd"><th class="head"></th>
 <th class="head"><p>视线角度</p></th>
-<th class="head"><p>视线转率</p></th>
+<th class="head"><p>视线角速度</p></th>
 <th class="head"><p>目标航向</p></th>
 </tr>
 </thead>
@@ -2062,11 +2062,6 @@
 <p>TWS 包含有两个子模式，它们分别是 TWS AUTO（自动）和 TWS MANUAL（手动），两个子模式由 RIO 在 DDD 面板上通过对应的按钮进行选择。两个字模式的区别在于，在 TWS AUTO 模式下，一旦目标跟踪存在，扫描范围和栅状扫描的方位和高度将由计算机接管。WCS 计算机将会自动尝试最佳化扫描范围和方位以便最大限度的跟踪优先的目标。如果在发射 AIM-54 前未选择 TWS AUTO 模式，那么 WCS 将会在第一枚 AIM-54 发射后超控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。</p>
 <p>TWS 模式下，飞行员通过导航提示转向至跟踪目标的计算出的质心，并且这个质心同样会以 小X 状的十字显示在 TID 中。</p>
 <p>更多有关 TWS 标识符和导弹引导的信息，详情参见 <a class="reference internal" href="weapons.html#twsattk"><span class="std std-ref">TWS</span></a> 和 <a class="reference internal" href="#tidsymb"><span class="std std-ref">TID 标识符</span></a> 。</p>
-<dl class="field-list simple">
-<dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>TWS AUTO 模式尚未实装，将在 EA 中加入。</p>
-</dd>
-</dl>
 </div>
 <div class="section" id="pulse-doppler-single-target-track-pd-stt">
 <h5>脉冲多普勒单目标跟踪（PD STT）<a class="headerlink" href="#pulse-doppler-single-target-track-pd-stt" title="永久链接至标题">¶</a></h5>

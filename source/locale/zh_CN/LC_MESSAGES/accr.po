@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2020-08-10 18:51+0800\n"
+"PO-Revision-Date: 2020-12-18 18:24+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/accr.rst:2
 msgid "Acronyms and Abbreviations"
@@ -249,14 +249,9 @@ msgstr ""
 msgid "Active Transfer Command"
 msgstr ""
 
-# no reference?
-# ---
-# cant find any reference, maybe it's the WCS command that makes aim-54 radar active?
-# ---
-# or is it data link related?
 #: ../../source/accr.rst:38
 msgid "__Active Transfer Command"
-msgstr "主动控制转交指令"
+msgstr "主动制导转交指令"
 
 #: ../../source/accr.rst:40
 msgid "ATLS"

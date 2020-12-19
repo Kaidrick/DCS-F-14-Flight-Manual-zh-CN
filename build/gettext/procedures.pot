@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,7 +293,7 @@ msgid "HUD DECLUTTER switch - OFF."
 msgstr ""
 
 #: ../../source/procedures.rst:115
-msgid "HUD AWL switch - OFF."
+msgid "HUD AWL switch - ACL."
 msgstr ""
 
 #: ../../source/procedures.rst:116
@@ -512,7 +512,7 @@ msgid "Oxygen quantity - 2 Liters."
 msgstr ""
 
 #: ../../source/procedures.rst:216
-msgid "L and R FUEL FLOW lights - Illuminated."
+msgid "L and R FUEL LOW lights - Illuminated."
 msgstr ""
 
 #: ../../source/procedures.rst:0
@@ -1780,4 +1780,3 @@ msgstr ""
 #: ../../source/procedures.rst:760
 msgid "Notify pilot - Ready to taxi."
 msgstr ""
-

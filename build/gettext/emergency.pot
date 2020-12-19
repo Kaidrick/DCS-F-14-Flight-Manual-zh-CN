@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,50 +51,50 @@ msgstr ""
 #: ../../source/emergency.rst:27
 #: ../../source/emergency.rst:31
 #: ../../source/emergency.rst:37
-#: ../../source/emergency.rst:97
-#: ../../source/emergency.rst:103
-#: ../../source/emergency.rst:109
+#: ../../source/emergency.rst:101
+#: ../../source/emergency.rst:107
+#: ../../source/emergency.rst:113
 msgid "Throttle"
 msgstr ""
 
 #: ../../source/emergency.rst:27
-#: ../../source/emergency.rst:97
+#: ../../source/emergency.rst:101
 msgid "**IDLE** or above"
 msgstr ""
 
 #: ../../source/emergency.rst:29
-#: ../../source/emergency.rst:101
+#: ../../source/emergency.rst:105
 msgid "If no relight occurs:"
 msgstr ""
 
 #: ../../source/emergency.rst:31
-#: ../../source/emergency.rst:68
-#: ../../source/emergency.rst:74
-#: ../../source/emergency.rst:103
+#: ../../source/emergency.rst:72
+#: ../../source/emergency.rst:78
+#: ../../source/emergency.rst:107
 msgid "**OFF** then **IDLE**"
 msgstr ""
 
 #: ../../source/emergency.rst:33
-#: ../../source/emergency.rst:105
+#: ../../source/emergency.rst:109
 msgid "If still no relight:"
 msgstr ""
 
 #: ../../source/emergency.rst:35
 #: ../../source/emergency.rst:41
-#: ../../source/emergency.rst:80
-#: ../../source/emergency.rst:107
-#: ../../source/emergency.rst:115
+#: ../../source/emergency.rst:84
+#: ../../source/emergency.rst:111
+#: ../../source/emergency.rst:119
 msgid "**ENG MODE SELECT** switch"
 msgstr ""
 
 #: ../../source/emergency.rst:35
-#: ../../source/emergency.rst:72
-#: ../../source/emergency.rst:107
+#: ../../source/emergency.rst:76
+#: ../../source/emergency.rst:111
 msgid "**SEC**"
 msgstr ""
 
 #: ../../source/emergency.rst:37
-#: ../../source/emergency.rst:109
+#: ../../source/emergency.rst:113
 msgid "If no start after mode switch, **OFF** then **IDLE**"
 msgstr ""
 
@@ -103,116 +103,115 @@ msgid "After successful airstart in **SEC**:"
 msgstr ""
 
 #: ../../source/emergency.rst:41
-#: ../../source/emergency.rst:80
-#: ../../source/emergency.rst:115
+#: ../../source/emergency.rst:84
+#: ../../source/emergency.rst:119
 msgid "**PRI** if possible"
 msgstr ""
 
-#: ../../source/emergency.rst:45
+#: ../../source/emergency.rst:49
 msgid "Cross-Bleed Airstart"
 msgstr ""
 
-#: ../../source/emergency.rst:47
+#: ../../source/emergency.rst:51
 msgid "A cross-bleed airstart can be attempted with one engine running if the spooldown airstart was not successfull or the engine is already at or near windmill rpm."
 msgstr ""
 
-#: ../../source/emergency.rst:51
+#: ../../source/emergency.rst:55
 msgid "Cross-Bleed Airstart Checklist"
 msgstr ""
 
-#: ../../source/emergency.rst:54
-#: ../../source/emergency.rst:64
+#: ../../source/emergency.rst:58
 #: ../../source/emergency.rst:68
-#: ../../source/emergency.rst:74
+#: ../../source/emergency.rst:72
+#: ../../source/emergency.rst:78
 msgid "Non-running engine throttle"
 msgstr ""
 
-#: ../../source/emergency.rst:54
-#: ../../source/emergency.rst:78
-#: ../../source/emergency.rst:113
+#: ../../source/emergency.rst:58
+#: ../../source/emergency.rst:82
+#: ../../source/emergency.rst:117
 msgid "**OFF**"
 msgstr ""
 
-#: ../../source/emergency.rst:56
+#: ../../source/emergency.rst:60
 msgid "**FUEL SHUT OFF** handle"
 msgstr ""
 
-#: ../../source/emergency.rst:56
+#: ../../source/emergency.rst:60
 msgid "Check handle in in position"
 msgstr ""
 
-#: ../../source/emergency.rst:58
+#: ../../source/emergency.rst:62
 msgid "Running engine throttle"
 msgstr ""
 
-#: ../../source/emergency.rst:58
+#: ../../source/emergency.rst:62
 msgid "Minimum 80% RPM"
 msgstr ""
 
-#: ../../source/emergency.rst:60
-#: ../../source/emergency.rst:99
-#: ../../source/emergency.rst:113
+#: ../../source/emergency.rst:64
+#: ../../source/emergency.rst:103
+#: ../../source/emergency.rst:117
 msgid "**BACK UP IGNITION** switch"
 msgstr ""
 
-#: ../../source/emergency.rst:60
-#: ../../source/emergency.rst:99
+#: ../../source/emergency.rst:64
+#: ../../source/emergency.rst:103
 msgid "**ON**"
 msgstr ""
 
-#: ../../source/emergency.rst:62
+#: ../../source/emergency.rst:66
 msgid "**ENG CRANK** switch"
 msgstr ""
 
-#: ../../source/emergency.rst:62
+#: ../../source/emergency.rst:66
 msgid "Set to non-running engine"
 msgstr ""
 
-#: ../../source/emergency.rst:64
+#: ../../source/emergency.rst:68
 msgid "**IDLE** immediately after **ENG CRANK** on"
 msgstr ""
 
-#: ../../source/emergency.rst:66
+#: ../../source/emergency.rst:70
 msgid "If no start occurs:"
 msgstr ""
 
-#: ../../source/emergency.rst:70
+#: ../../source/emergency.rst:74
 msgid "If still no start:"
 msgstr ""
 
-#: ../../source/emergency.rst:72
+#: ../../source/emergency.rst:76
 msgid "**ENG MODE** select switch"
 msgstr ""
 
-#: ../../source/emergency.rst:76
+#: ../../source/emergency.rst:80
 msgid "After successfull airstart:"
 msgstr ""
 
-#: ../../source/emergency.rst:78
+#: ../../source/emergency.rst:82
 msgid "**BACK UP** ignition switch"
 msgstr ""
 
-#: ../../source/emergency.rst:85
+#: ../../source/emergency.rst:89
 msgid "Windmill Airstart"
 msgstr ""
 
-#: ../../source/emergency.rst:87
+#: ../../source/emergency.rst:91
 msgid "The windmill airstart uses aircraft airspeed to turn the engine turbines using wind speed. Required airspeed is at or above 450 knots indicated airspeed and should only be attempted if airspeed and altitude allows it."
 msgstr ""
 
-#: ../../source/emergency.rst:92
+#: ../../source/emergency.rst:96
 msgid "Windmill Airstart Checklist"
 msgstr ""
 
-#: ../../source/emergency.rst:95
+#: ../../source/emergency.rst:99
 msgid "Airspeed"
 msgstr ""
 
-#: ../../source/emergency.rst:95
+#: ../../source/emergency.rst:99
 msgid "At or above 450 KIAS"
 msgstr ""
 
-#: ../../source/emergency.rst:111
+#: ../../source/emergency.rst:115
 msgid "After successful airstart:"
 msgstr ""
-

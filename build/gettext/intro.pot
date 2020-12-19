@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,110 +193,206 @@ msgid "Technical Data"
 msgstr ""
 
 #: ../../source/intro.rst:131
-msgid "F-14B"
+msgid "F-14A"
 msgstr ""
 
 #: ../../source/intro.rst:134
+#: ../../source/intro.rst:166
 msgid "Wingspan (Fully Extended)"
 msgstr ""
 
 #: ../../source/intro.rst:134
+#: ../../source/intro.rst:166
 msgid "64'1.5\" (~19.5 meters)"
 msgstr ""
 
 #: ../../source/intro.rst:136
+#: ../../source/intro.rst:168
 msgid "Wingspan (Fully Swept Airborne)"
 msgstr ""
 
 #: ../../source/intro.rst:136
+#: ../../source/intro.rst:168
 msgid "38'2.5\" (~11.6 meters)"
 msgstr ""
 
 #: ../../source/intro.rst:138
+#: ../../source/intro.rst:170
 msgid "Wingspan (Oversweep)"
 msgstr ""
 
 #: ../../source/intro.rst:138
+#: ../../source/intro.rst:170
 msgid "33'3.5\" (~10.1 meters)"
 msgstr ""
 
 #: ../../source/intro.rst:140
+#: ../../source/intro.rst:172
 msgid "Length"
 msgstr ""
 
 #: ../../source/intro.rst:140
+#: ../../source/intro.rst:172
 msgid "62'8.5\" (~19.1 meters)"
 msgstr ""
 
 #: ../../source/intro.rst:142
+#: ../../source/intro.rst:174
 msgid "Height"
 msgstr ""
 
 #: ../../source/intro.rst:142
+#: ../../source/intro.rst:174
 msgid "16' (~4.9 meters)"
 msgstr ""
 
 #: ../../source/intro.rst:144
+#: ../../source/intro.rst:176
 msgid "Wing Area"
 msgstr ""
 
 #: ../../source/intro.rst:144
+#: ../../source/intro.rst:176
 msgid "565 sqft (~52.5 m²)"
 msgstr ""
 
 #: ../../source/intro.rst:146
+#: ../../source/intro.rst:178
 msgid "Empty Weight"
 msgstr ""
 
 #: ../../source/intro.rst:146
-msgid "41,780 pounds (~19,000 kg)"
+msgid "40,104 pounds (~18,200 kg)"
 msgstr ""
 
 #: ../../source/intro.rst:148
+#: ../../source/intro.rst:180
 msgid "Maximum Weight"
 msgstr ""
 
 #: ../../source/intro.rst:148
-msgid "74,349 pounds (~33,700 kg)"
+msgid "72,000 pounds (~32,700 kg)"
 msgstr ""
 
 #: ../../source/intro.rst:150
-msgid "Maximum Thrust with Afterburner"
+#: ../../source/intro.rst:182
+msgid "Maximum Thrust, Dry"
 msgstr ""
 
 #: ../../source/intro.rst:150
-msgid "60,400 lbf (268 kN)"
+msgid "34,154 lbf (152 kN)"
 msgstr ""
 
 #: ../../source/intro.rst:152
+#: ../../source/intro.rst:184
 msgid "Wing Loading"
 msgstr ""
 
 #: ../../source/intro.rst:152
-msgid "94 lb/ft² (458.9 kg/m²)"
+msgid "92 lb/ft² (449.2 kg/m²)"
 msgstr ""
 
 #: ../../source/intro.rst:154
+#: ../../source/intro.rst:186
 msgid "Maximum Speed"
 msgstr ""
 
 #: ../../source/intro.rst:154
+#: ../../source/intro.rst:186
 msgid "1,544 mph (~2,500 km/h) Mach 2.38"
 msgstr ""
 
 #: ../../source/intro.rst:157
+#: ../../source/intro.rst:189
 msgid "Ceiling"
 msgstr ""
 
 #: ../../source/intro.rst:157
-msgid "53,000'+ (~16,200 meters)"
+msgid "50,000'+ (~15,200 meters)"
 msgstr ""
 
 #: ../../source/intro.rst:159
+#: ../../source/intro.rst:191
 msgid "Range"
 msgstr ""
 
 #: ../../source/intro.rst:159
+msgid "1,730 NM (~3200 km)"
+msgstr ""
+
+#: ../../source/intro.rst:163
+#: ../../source/intro.rst:223
+msgid "F-14B"
+msgstr ""
+
+#: ../../source/intro.rst:178
+msgid "41,780 pounds (~19,000 kg)"
+msgstr ""
+
+#: ../../source/intro.rst:180
+msgid "74,349 pounds (~33,700 kg)"
+msgstr ""
+
+#: ../../source/intro.rst:182
+msgid "56,400 lbf (251 kN)"
+msgstr ""
+
+#: ../../source/intro.rst:184
+msgid "94 lb/ft² (458.9 kg/m²)"
+msgstr ""
+
+#: ../../source/intro.rst:189
+msgid "53,000'+ (~16,200 meters)"
+msgstr ""
+
+#: ../../source/intro.rst:191
 msgid "2,050 NM (~3800 km)"
 msgstr ""
 
+#: ../../source/intro.rst:196
+msgid "Modelled F-14 versions in DCS"
+msgstr ""
+
+#: ../../source/intro.rst:199
+msgid "F-14A-95-GR IRIAF - Not yet implemented"
+msgstr ""
+
+#: ../../source/intro.rst:201
+msgid "Early F-14A version as sold to the IIAF (Imperial Iranian Air Force) which later became the IRIAF (Islamic Republic of Iran Air Force)."
+msgstr ""
+
+#: ../../source/intro.rst:203
+msgid "This version has the early Pratt & Whitney TF30-P-414A engines, AN/ALR-45 radar warning receiver and lacks the Television Camera Set (TCS) and Link-4 data link system as well as being limited to the earlier air to air missiles available to Iran."
+msgstr ""
+
+#: ../../source/intro.rst:207
+msgid "F-14A-135-GR (Early) - Not yet implemented"
+msgstr ""
+
+#: ../../source/intro.rst:209
+msgid "Early US Navy F-14A version."
+msgstr ""
+
+#: ../../source/intro.rst:211
+msgid "This version has the early Pratt & Whitney TF30-P-414A engines and AN/ALR-45 and AN/ALR-50 radar warning receivers."
+msgstr ""
+
+#: ../../source/intro.rst:215
+msgid "F-14A-135-GR (Late)"
+msgstr ""
+
+#: ../../source/intro.rst:217
+msgid "Later US Navy F-14A version."
+msgstr ""
+
+#: ../../source/intro.rst:219
+msgid "This version has the early Pratt & Whitney TF30-P-414A engines and the AN/ALR-67 radar warning receiver."
+msgstr ""
+
+#: ../../source/intro.rst:225
+msgid "US Navy F-14B (renamed from F-14A+)."
+msgstr ""
+
+#: ../../source/intro.rst:227
+msgid "This version has the newer General Electrics F110-GE-400 engines, the AN/ALR-67 radar warning receiver as well as having the ability to mount and use the LANTIRN targeting pod."
+msgstr ""

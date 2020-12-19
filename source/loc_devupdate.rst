@@ -76,3 +76,9 @@ HB AIM-54 新 API 上线测试
 * AIM-54 Changes / new API fixes   “`by foxwxl <https://www.bilibili.com/read/cv8225181/>`_” 
 
 ---------------------------------------------
+
+2020/12/17 AIM-54 制导重大变更小提示
+****************
+* Patch Dec 17th Feedback   “`by Alphabet_Ghost— <https://www.bilibili.com/read/cv8901798/>`_” 
+
+---------------------------------------------

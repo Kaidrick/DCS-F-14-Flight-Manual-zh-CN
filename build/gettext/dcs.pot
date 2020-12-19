@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -359,4 +359,3 @@ msgstr ""
 #: ../../source/dcs.rst:169
 msgid "DLFP"
 msgstr ""
-

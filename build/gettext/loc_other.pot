@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,48 @@ msgid "**包含所有目前可用的本地化文件。直接解压至DCS World�
 msgstr ""
 
 #: ../../source/loc_other.rst:18
-msgid ":download:`F-14-localization-pack.zip <download/F-14-localization-pack.zip>`"
+msgid "**注意：Heatblur在任务中添加了语音，任务体积变大，压缩包体积超过Github fs的100MB限制，现变更下载方式为镜像站本地下载+天翼网盘下载+GITHUB 仅任务分支下载，如果网盘下载无法使用请选择 GITHUB 分支下载。**"
+msgstr ""
+
+#: ../../source/loc_other.rst:23
+msgid "下载方式"
+msgstr ""
+
+#: ../../source/loc_other.rst:23
+msgid "描述"
+msgstr ""
+
+#: ../../source/loc_other.rst:23
+msgid "下载链接"
+msgstr ""
+
+#: ../../source/loc_other.rst:25
+msgid "镜像站下载"
+msgstr ""
+
+#: ../../source/loc_other.rst:25
+msgid "镜像站长需要在html/_downloads文件夹 内建立名为locale的文件夹，再将 F-14-localization-pack.rar 压缩包放入其中即可"
+msgstr ""
+
+#: ../../source/loc_other.rst:29
+msgid "网盘下载"
+msgstr ""
+
+#: ../../source/loc_other.rst:29
+msgid "点进链接后选择下载HTML.rar（仅包含手册）或 F-14-localization-pack（仅包含任务汉化）"
+msgstr ""
+
+#: ../../source/loc_other.rst:33
+msgid "GITHUB仅任务分支下载"
+msgstr ""
+
+#: ../../source/loc_other.rst:33
+#: ../../source/loc_other.rst:37
+msgid "使用GITHUB分支下载，点击即可下载"
+msgstr ""
+
+#: ../../source/loc_other.rst:37
+msgid "GITHUB仅网页分支下载"
 msgstr ""
 
 #: ../../source/loc_other.rst:0
@@ -48,35 +89,35 @@ msgstr ""
 msgid "注意"
 msgstr ""
 
-#: ../../source/loc_other.rst:20
+#: ../../source/loc_other.rst:43
 msgid "如果下载了本集合包，则无需单独下载下文中的按键设置和驾驶舱提示和任务文件。"
 msgstr ""
 
-#: ../../source/loc_other.rst:29
+#: ../../source/loc_other.rst:51
 msgid "按键设置和驾驶舱提示"
 msgstr ""
 
-#: ../../source/loc_other.rst:33
+#: ../../source/loc_other.rst:55
 msgid "请选择下列安装方式中的一种"
 msgstr ""
 
-#: ../../source/loc_other.rst:33
+#: ../../source/loc_other.rst:55
 msgid "安装说明"
 msgstr ""
 
-#: ../../source/loc_other.rst:35
-msgid "\\ :download:`F-14-cn.zip <download/F-14-cn.zip>`"
+#: ../../source/loc_other.rst:57
+msgid "\\ :download:`F-14-cn.rar <download/F-14-cn.7z>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:37
-msgid "下载\\*.zip文件，然后将压缩包中的 :code:`Mods` 文件夹\\ **直接解压至DCS World安装路径的根目录**\\ 。"
+#: ../../source/loc_other.rst:59
+msgid "下载\\*.rar文件，然后将压缩包中的 :code:`Mods` 文件夹\\ **直接解压至DCS World安装路径的根目录**\\ 。"
 msgstr ""
 
 #: ../../source/loc_other.rst:0
 msgid "什么是安装路径"
 msgstr ""
 
-#: ../../source/loc_other.rst:36
+#: ../../source/loc_other.rst:58
 msgid "常见安装路径\\ :code:`D:\\Eagle Dynamics\\DCS World` 或 :code:`C:\\Program Files\\Eagle Dynamics\\DCS World` 或 :code:`F:\\游戏\\DCS World`"
 msgstr ""
 
@@ -84,229 +125,228 @@ msgstr ""
 msgid "Steam版怎么办"
 msgstr ""
 
-#: ../../source/loc_other.rst:37
+#: ../../source/loc_other.rst:59
 msgid "找到Steam库路径，如 :code:`C:\\Program Files (x86)\\Steam\\steamapps\\common\\DCS World` 或 :code:`D:\\SteamLibrary\\steamapps\\common\\DCS World`，然后解压至该文件夹中。"
 msgstr ""
 
-#: ../../source/loc_other.rst:39
+#: ../../source/loc_other.rst:61
 msgid "\\ :download:`F-14-cn.po <download/F-14-cn.po>` / :download:`F-14-cn.mo <download/F-14-cn.mo>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:39
+#: ../../source/loc_other.rst:61
 msgid "**除非需要自行编辑文字，否则不推荐这种方法**"
 msgstr ""
 
-#: ../../source/loc_other.rst:41
+#: ../../source/loc_other.rst:63
 msgid "下载*.po文件，然后："
 msgstr ""
 
-#: ../../source/loc_other.rst:43
+#: ../../source/loc_other.rst:65
 msgid "下载并安装\\ `Poedit <https://poedit.net/>`_\\ ，通过Poedit打开\\*.po文件，选择左上角的File > Compile to MO来生成*.mo文件，然后将其放入对应的路径中并重命名。"
 msgstr ""
 
-#: ../../source/loc_other.rst:45
-#: ../../source/loc_other.rst:49
-#: ../../source/loc_other.rst:53
+#: ../../source/loc_other.rst:67
+#: ../../source/loc_other.rst:71
+#: ../../source/loc_other.rst:75
 msgid "或"
 msgstr ""
 
-#: ../../source/loc_other.rst:47
+#: ../../source/loc_other.rst:69
 msgid "使用msgfmt（GnuWin32等），将\\*.po编译为\\*.mo文件"
 msgstr ""
 
-#: ../../source/loc_other.rst:51
+#: ../../source/loc_other.rst:73
 msgid "使用其他在线服务/网站编译*.mo"
 msgstr ""
 
-#: ../../source/loc_other.rst:55
+#: ../../source/loc_other.rst:77
 msgid "直接下载提供的*.mo文件，然后将其放入："
 msgstr ""
 
-#: ../../source/loc_other.rst:57
+#: ../../source/loc_other.rst:79
 msgid "> :code:`Eagle Dynamics` > :code:`DCS World` > :code:`Mods` > :code:`aircraft` > :code:`F14` > :code:`l10n` > :code:`cn` > :code:`LC_MESSAGES`"
 msgstr ""
 
-#: ../../source/loc_other.rst:59
+#: ../../source/loc_other.rst:81
 msgid "**然后将**\\ :code:`F-14-cn.mo`\\ **重命名为**\\ :code:`messages.mo` 。"
 msgstr ""
 
-#: ../../source/loc_other.rst:62
+#: ../../source/loc_other.rst:84
 msgid "（此方法暂时无效）放入 :code:`CoreMods` 和 :code:`Mods` 文件夹均可；如放入 :code:`CoreMods` 文件夹，未购买F-14的用户也可看到编辑器中相关文字的翻译；如果放入 :code:`Mods` 文件夹，只有购买了F-14的用户可以看到相关翻译。"
 msgstr ""
 
-#: ../../source/loc_other.rst:65
+#: ../../source/loc_other.rst:87
 msgid "如果\\ :code:`F-14`\\ 目录中缺少\\ :code:`l10n`\\ 、\\ :code:`cn`\\ 或\\ :code:`LC_MESSAGES`\\ 这三个文件夹中的任何一个或多个文件夹，那么请按照上述文件结构，自行新建文件夹并将它们重命名。"
 msgstr ""
 
-#: ../../source/loc_other.rst:68
+#: ../../source/loc_other.rst:90
 msgid "请注意文件扩展名。如果您的资源管理器中隐藏了文件扩展名（也就是所谓的“文件类型”——本文件的 :code:`*.mo` 是这个文件的扩展名，如同\\ :code:`.exe`\\ 、\\ :code:`.png`\\ 、\\ :code:`.pdf`\\ 等），\\ **请注意不要将文件误命名为**\\ :code:`messages.mo.mo` ）"
 msgstr ""
 
-#: ../../source/loc_other.rst:75
+#: ../../source/loc_other.rst:97
 msgid "训练任务"
 msgstr ""
 
-#: ../../source/loc_other.rst:78
+#: ../../source/loc_other.rst:100
 msgid "训练任务名称"
 msgstr ""
 
-#: ../../source/loc_other.rst:78
+#: ../../source/loc_other.rst:100
 msgid "下载"
 msgstr ""
 
-#: ../../source/loc_other.rst:80
+#: ../../source/loc_other.rst:102
 msgid "空对空 M61航炮"
 msgstr ""
 
-#: ../../source/loc_other.rst:80
+#: ../../source/loc_other.rst:102
 msgid ":download:`F-14B tutorial AA M61.miz <download/Miz/Training/F-14B tutorial AA M61.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:81
+#: ../../source/loc_other.rst:103
 msgid "空对地 计算机引导模式"
 msgstr ""
 
-#: ../../source/loc_other.rst:81
+#: ../../source/loc_other.rst:103
 msgid ":download:`F-14B tutorial AG CMP PLT.miz <download/Miz/Training/F-14B tutorial AG CMP PLT.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:82
+#: ../../source/loc_other.rst:104
 msgid "空对地 M61航炮"
 msgstr ""
 
-#: ../../source/loc_other.rst:82
+#: ../../source/loc_other.rst:104
 msgid ":download:`F-14B tutorial AG M61.miz <download/Miz/Training/F-14B tutorial AG M61.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:83
+#: ../../source/loc_other.rst:105
 msgid "AIM-9"
 msgstr ""
 
-#: ../../source/loc_other.rst:83
+#: ../../source/loc_other.rst:105
 msgid ":download:`F-14B tutorial AIM9.miz <download/Miz/Training/F-14B tutorial AIM9.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:84
+#: ../../source/loc_other.rst:106
 msgid "CASE I 航降"
 msgstr ""
 
-#: ../../source/loc_other.rst:84
+#: ../../source/loc_other.rst:106
 msgid ":download:`F-14B tutorial carrier-based Case1.miz <download/Miz/Training/F-14B tutorial carrier-based Case1.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:85
+#: ../../source/loc_other.rst:107
 msgid "CASE I 弹射起飞"
 msgstr ""
 
-#: ../../source/loc_other.rst:85
+#: ../../source/loc_other.rst:107
 msgid ":download:`F-14B tutorial carrier-based Takeoff Case1.miz <download/Miz/Training/F-14B tutorial carrier-based Takeoff Case1.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:86
+#: ../../source/loc_other.rst:108
 msgid "冷启动（飞行员）"
 msgstr ""
 
-#: ../../source/loc_other.rst:86
+#: ../../source/loc_other.rst:108
 msgid ":download:`F-14B tutorial cold start.miz <download/Miz/Training/F-14B tutorial cold start.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:87
+#: ../../source/loc_other.rst:109
 msgid "导航"
 msgstr ""
 
-#: ../../source/loc_other.rst:87
+#: ../../source/loc_other.rst:109
 msgid ":download:`F-14B tutorial Navigation.miz <download/Miz/Training/F-14B tutorial Navigation.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:88
-msgid "岸基着陆"
+#: ../../source/loc_other.rst:110
+msgid "岸基航降"
 msgstr ""
 
-#: ../../source/loc_other.rst:88
+#: ../../source/loc_other.rst:110
 msgid ":download:`F-14B tutorial Shore-based Landing.miz <download/Miz/Training/F-14B tutorial Shore-based Landing.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:89
+#: ../../source/loc_other.rst:111
 msgid "岸基起飞"
 msgstr ""
 
-#: ../../source/loc_other.rst:89
+#: ../../source/loc_other.rst:111
 msgid ":download:`F-14B tutorial Shore-based Takeoff.miz <download/Miz/Training/F-14B tutorial Shore-based Takeoff.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:90
+#: ../../source/loc_other.rst:112
 msgid "AWG-9 课程1"
 msgstr ""
 
-#: ../../source/loc_other.rst:90
+#: ../../source/loc_other.rst:112
 msgid ":download:`F-14B-AWG-9-1.miz <download/Miz/Training/F-14B-AWG-9-1.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:91
+#: ../../source/loc_other.rst:113
 msgid "AWG-9 课程2"
 msgstr ""
 
-#: ../../source/loc_other.rst:91
+#: ../../source/loc_other.rst:113
 msgid ":download:`F-14B-AWG-9-2.miz <download/Miz/Training/F-14B-AWG-9-2.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:92
+#: ../../source/loc_other.rst:114
 msgid "AWG-9 课程3"
 msgstr ""
 
-#: ../../source/loc_other.rst:92
+#: ../../source/loc_other.rst:114
 msgid ":download:`F-14B-AWG-9-3.miz <download/Miz/Training/F-14B-AWG-9-3.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:93
+#: ../../source/loc_other.rst:115
 msgid "AWG-9 课程4"
 msgstr ""
 
-#: ../../source/loc_other.rst:93
+#: ../../source/loc_other.rst:115
 msgid ":download:`F-14B-AWG-9-4.miz <download/Miz/Training/F-14B-AWG-9-4.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:94
+#: ../../source/loc_other.rst:116
 msgid "冷启动（RIO）"
 msgstr ""
 
-#: ../../source/loc_other.rst:94
+#: ../../source/loc_other.rst:116
 msgid ":download:`F-14B-RIO Cold Start.miz <download/Miz/Training/F-14B-RIO Cold Start.miz>`"
 msgstr ""
 
-#: ../../source/loc_other.rst:97
+#: ../../source/loc_other.rst:119
 msgid "下载文件后，将其放入DCS World安装根目录中的对应文件夹，并覆盖原文件。详细路径如下："
 msgstr ""
 
-#: ../../source/loc_other.rst:99
+#: ../../source/loc_other.rst:121
 msgid "> :code:`Eagle Dynamics` > :code:`DCS World` > :code:`Mods` > :code:`aircraft` > :code:`F14` > :code:`Missions` > :code:`Training`"
 msgstr ""
 
-#: ../../source/loc_other.rst:101
+#: ../../source/loc_other.rst:123
 msgid "**Steam版** 首先找到Steam库的路径，如 :code:`C:\\Program Files (x86)\\Steam\\steamapps\\common\\DCS World` 或 :code:`D:\\SteamLibrary\\steamapps\\common\\DCS World`"
 msgstr ""
 
-#: ../../source/loc_other.rst:105
+#: ../../source/loc_other.rst:127
 msgid "然后将任务文件放入 :code:`DCS World` 目录中的 :code:`Mods` > :code:`aircraft` > :code:`F14` > :code:`Missions` > :code:`Training`"
 msgstr ""
 
-#: ../../source/loc_other.rst:113
+#: ../../source/loc_other.rst:135
 msgid "另一种方式则是将*.miz文件作为单独的任务，从主菜单的 **任务** 或 **任务编辑器** 中打开运行。将下载好的文件放入："
 msgstr ""
 
-#: ../../source/loc_other.rst:115
+#: ../../source/loc_other.rst:137
 msgid ":code:`C:` > :code:`Users` > :code:`[UserName]` > :code:`Saved Games` > :code:`DCS.openbeta` > :code:`Missions`"
 msgstr ""
 
-#: ../../source/loc_other.rst:117
+#: ../../source/loc_other.rst:139
 msgid "中文Windows操作系统中的路径如下："
 msgstr ""
 
-#: ../../source/loc_other.rst:119
+#: ../../source/loc_other.rst:141
 msgid ":code:`C:` > :code:`用户` > :code:`[你的用户名]` > :code:`保存的游戏` > :code:`DCS.openbeta` > :code:`Missions`"
 msgstr ""
 
-#: ../../source/loc_other.rst:121
+#: ../../source/loc_other.rst:143
 msgid "根据版本的不同，:code:`保存的游戏` 中的DCS目录文件名可能是 :code:`DCS` 或 :code:`DCS.openbeta` 或其他分支，请确认选择了正确的版本对应的文件夹。"
 msgstr ""
-

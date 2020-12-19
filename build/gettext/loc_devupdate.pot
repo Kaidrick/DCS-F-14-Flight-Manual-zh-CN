@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留
+# This file is distributed under the same license as the DCS: F-14 “雄猫” 中文飞行手册 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/loc_devupdate.rst:2
+msgid "Heatblur DCS:F-14A/B 开发更新文章"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:4
+msgid "投稿缺少的文章翻译或汇报错误请 B 站私信 Alphabet_Ghost 或北欧式的简单。"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:9
+msgid "《扫描，锁定，开火！》Heatblur DCS: F-14开发更新日志——雷达和武器系统"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:10
+msgid "DCS: F-14 Development Update! Scan, Lock, Fire!   “`by 北欧式的简单 <https://www.bilibili.com/read/cv111479/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:15
+msgid "大力出奇迹！——Heatblur高级发动机仿真建模（F-14B F110-GE-400）"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:16
+msgid "Let There Be Thrust! F-14 Development Update   “`by 北欧式的简单 <https://www.bilibili.com/read/cv781542/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:21
+msgid "抛瓦！"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:22
+msgid "F-14 Development Update - Power!   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv5410269/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:27
+msgid "Q1E 开发日志"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:28
+msgid "Q1E Development Update   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv5421306/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:33
+msgid "TWS-AUTO"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:34
+msgid "TWS-Auto   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv5483505/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:39
+msgid "DCS F-14 开发日志 - 惯性惯性还是惯性！"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:40
+msgid "DCS F-14 Update - All About Inertia!   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv6212014/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:45
+msgid "微型更新"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:46
+msgid "Micro Development Update   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv6274679/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:48
+msgid "“`--评论补充 <https://www.bilibili.com/read/cv6328283/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:53
+msgid "DCS: F-14 优先事项"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:54
+msgid "DCS: F-14 Priority Issues   “`by Alphabet_Ghost— <https://www.bilibili.com/read/cv7563368/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:59
+msgid "DCS F-14A - RWR 升级&开发"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:60
+msgid "DCS F-14A - RWR Upgrades & Development   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv7899099/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:62
+msgid "“`--拓展阅读 <https://www.bilibili.com/read/cv8104850/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:67
+msgid "DCS: F-14 开发更新 – 进入-A之中!"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:68
+msgid "DCS: F-14 Development Update - Enter the -A!   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv8278470/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:70
+msgid "“`--评论补充 <https://www.bilibili.com/read/cv8309411/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:75
+msgid "HB AIM-54 新 API 上线测试"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:76
+msgid "AIM-54 Changes / new API fixes   “`by foxwxl <https://www.bilibili.com/read/cv8225181/>`_”"
+msgstr ""

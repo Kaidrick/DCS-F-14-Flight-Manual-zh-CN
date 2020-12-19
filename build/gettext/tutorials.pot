@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,22 +53,25 @@ msgid "Front Seat - ACM - Radar Acquisition Modes"
 msgstr ""
 
 #: ../../source/tutorials.rst:77
-msgid "Back Seat - RIO AWG-9 Tutorial"
+msgid "Back Seat - RIO NAV GRID Tutorial"
 msgstr ""
 
 #: ../../source/tutorials.rst:86
-msgid "Back Seat - RIO IFF Tutorial"
+msgid "Back Seat - RIO AWG-9 Tutorial"
 msgstr ""
 
 #: ../../source/tutorials.rst:95
-msgid "CVW-11: DCS F-14B Tomcat RIO School"
+msgid "Back Seat - RIO IFF Tutorial"
 msgstr ""
 
 #: ../../source/tutorials.rst:104
-msgid "Front Seat - Weapons - AIM-9 Sidewinder"
+msgid "CVW-11: DCS F-14B Tomcat RIO School"
 msgstr ""
 
 #: ../../source/tutorials.rst:113
-msgid "Front Seat - Weapons - Zuni Rockets with Jester"
+msgid "Front Seat - Weapons - AIM-9 Sidewinder"
 msgstr ""
 
+#: ../../source/tutorials.rst:122
+msgid "Front Seat - Weapons - Zuni Rockets with Jester"
+msgstr ""

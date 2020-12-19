@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 09:55+0800\n"
+"POT-Creation-Date: 2020-12-18 18:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,23 +25,455 @@ msgid "线上中文手册"
 msgstr ""
 
 #: ../../source/loc_changelog.rst:16
-#: ../../source/loc_changelog.rst:35
-msgid "2019年03月19日"
+#: ../../source/loc_changelog.rst:152
+msgid "2020年12月17日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:17
+#: ../../source/loc_changelog.rst:23
+#: ../../source/loc_changelog.rst:36
+#: ../../source/loc_changelog.rst:43
+msgid "术语小修正，统一汉化组用词。"
 msgstr ""
 
 #: ../../source/loc_changelog.rst:18
-msgid "修改了部分错字"
+msgid "Jester 菜单更新，详见更新日志。"
 msgstr ""
 
 #: ../../source/loc_changelog.rst:19
-msgid "统一了部分章节中的用词"
+msgid "新增 ICEMAN 菜单翻译。"
 msgstr ""
 
-#: ../../source/loc_changelog.rst:30
-msgid "游戏中文本地化文件"
+#: ../../source/loc_changelog.rst:22
+msgid "2020年11月18日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:24
+msgid "添加 F-14A 规格和 DCS 中不同版本至简介章节。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:25
+msgid "添加 F-14A-135-GR（后期型）面板和报警灯至驾驶舱章节中。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:26
+msgid "添加 TF-30 描述至总体设计和系统概述章节中。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:27
+msgid "添加关于 HB F-14 AIM-54 部分至武器系统和武器使用总览章节中。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:28
+msgid "添加 HB 官方开发更新系列文章至手册中 - 在中文本地化部分查看。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:31
+msgid "2020年09月30日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:32
+msgid "添加 Jester 指令菜单点击中央返回主菜单功能。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:35
+#: ../../source/loc_changelog.rst:161
+msgid "2020年09月23日"
 msgstr ""
 
 #: ../../source/loc_changelog.rst:37
-msgid "更新并修复了按键列表和驾驶舱提示中的部分翻译。\\ :download:`点此下载 <download/F-14-localization-pack.zip>`\\ 游戏本地化文件集合包，使用说明详见\\ :doc:`loc_other`\\ 页面。"
+msgid "武器系统和武器使用总览章节精校。"
 msgstr ""
 
+#: ../../source/loc_changelog.rst:38
+msgid "总体设计章节 AN/ALE-39 - 编程面板部分修正、LAU-138 部分修正。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:39
+msgid "Jester 汉化菜单重新加入在线手册！"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:42
+#: ../../source/loc_changelog.rst:166
+msgid "2020年08月27日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:46
+msgid "2020年08月11日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:47
+msgid "总体设计和系统概述章节重新翻译和总校对完成。手册第二版发布！"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:48
+msgid "发动机和油门控制部分 - 抛离系统部分重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:49
+msgid "正常程序校对更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:50
+msgid "应急处置程序校对更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:51
+msgid "DCS 特定功能校对更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:52
+msgid "暂时移除 Jester AI指令菜单章节。（WIP）"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:55
+#: ../../source/loc_changelog.rst:176
+msgid "2020年07月16日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:56
+msgid "中央大气数据计算机（CADC）部分重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:57
+msgid "AN/AWG-9 武器控制系统（WCS）部分重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:60
+msgid "2020年06月18日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:61
+msgid "AN/APX-76 IFF 问询器部分重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:64
+#: ../../source/loc_changelog.rst:182
+msgid "2020年06月11日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:65
+msgid "LANTIRN 部分重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:66
+msgid "电视摄像套件（TCS）部分重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:69
+#: ../../source/loc_changelog.rst:188
+msgid "2020年05月21日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:70
+msgid "本地化文件改为四种下载方式，网盘内包括了离线手册和汉化文件。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:71
+msgid "AN/ALR-67 雷达告警接收机（RWR）重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:72
+msgid "AN/ALE-39 对抗布撒套件重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:73
+msgid "AN/ALQ-126 DECM 重新翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:74
+msgid "缩写章节修正和统一用词。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:77
+msgid "2020年04月25日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:78
+msgid "本地化文件改为三种下载方式，方便用户进行下载，网盘下载为备用。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:81
+msgid "2020年04月23日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:82
+msgid "改进文件下载方式。Github 用户请勿使用镜像站本地下载"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:85
+#: ../../source/loc_changelog.rst:193
+msgid "2020年04月18日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:86
+msgid "部分用词统一至汉化组"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:89
+#: ../../source/loc_changelog.rst:199
+msgid "2020年03月18日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:90
+msgid "cockpit.po 缺失翻译更新"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:91
+msgid "weapon.po 格式和图片小修改"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:92
+msgid "统一和修改通信部分用词"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:93
+msgid "导航部分精对准完成"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:96
+#: ../../source/loc_changelog.rst:203
+msgid "2020年02月15日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:97
+msgid "统一weapon、general和驾驶舱用词。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:100
+msgid "2020年02月01日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:101
+msgid "更新cockpit、weapon和accr章节po。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:102
+msgid "武器系统和武器使用总览章节校对。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:103
+msgid "首字母缩写和简称章节词条更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:106
+#: ../../source/loc_changelog.rst:207
+msgid "2019年12月23日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:107
+msgid "“总体设计和系统概述”章节中，通讯系统部分大量翻译修正。更新navgrid插图，感谢 衣柜上的学姐 嵌字。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:110
+msgid "2019年12月2日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:112
+msgid "更新了“总体设计和系统概述”章节内的翻译，添加NAV GRID章节，更新了CAP章节。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:115
+#: ../../source/loc_changelog.rst:244
+msgid "2019年04月12日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:117
+msgid "更新了“总体设计和系统概述”章节内的翻译并修复了排版错误"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:121
+msgid "2019年04月04日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:123
+msgid "更新了“总体设计和系统概述”章节内的翻译"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:127
+#: ../../source/loc_changelog.rst:251
+msgid "2019年03月25日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:129
+msgid "更新了“总体设计和系统概述”章节内的翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:130
+msgid "添加了JESTER AI指令菜单参考页。这是一个交互式页面，点击相应的选项来切换至子菜单"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:133
+#: ../../source/loc_changelog.rst:256
+msgid "2019年03月19日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:135
+msgid "修改了部分错字。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:136
+msgid "统一了部分章节中的用词。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:147
+msgid "游戏中文本地化文件"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:153
+#: ../../source/loc_changelog.rst:162
+#: ../../source/loc_changelog.rst:167
+msgid "按键汉化更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:156
+msgid "2020年11月19日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:157
+msgid "按键汉化精校对更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:158
+msgid "快速任务修复。详情查阅\\ `DCS World 2.5.6.57949开放测试版更新日志 <https://www.bilibili.com/read/cv8430255/>`_\\。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:163
+msgid "快速任务修复。详情查阅\\ `DCS World 2.5.6.55363开放测试版更新日志 <https://www.bilibili.com/read/cv7715548/>`_\\。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:168
+msgid "快速任务修复和新增多人任务。详情查阅\\ `DCS World 2.5.6.54046开放测试版更新日志 <https://www.bilibili.com/read/cv7354824/>`_\\。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:171
+msgid "2020年08月19日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:172
+msgid "按键汉化校对/更新。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:173
+msgid "新增快速任务、任务修复。详情查阅\\ `DCS World 2.5.6.53756开放测试版更新日志 <https://www.bilibili.com/read/cv7240716/>`_\\。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:177
+msgid "训练 AWG-9 任务1-5用词统一。训练 Case I 起飞教程用词统一。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:178
+msgid "暗夜猎手 SP MP、恶犬出没 QS SP MP、伊朗鞭打者对抗 SP MP文本修正。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:179
+msgid "按键汉化更新/统一手册。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:183
+msgid "改为天翼网盘下载汉化文件和离线手册。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:184
+msgid "删除汉化包内的战役（已集成进游戏，感谢kaba的支持）。任务更新，详情查阅\\ `DCS World 2.5.6.50726开放测试版更新日志 <https://www.bilibili.com/read/cv6383258/>`_\\。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:189
+msgid "训练任务校对完毕。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:190
+msgid "战役文本/任务更新、按键汉化更新，详情参阅\\ `DCS World 2.5.6.49314开放测试版更新日志 <https://www.bilibili.com/read/cv6143945/>`_\\。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:194
+msgid "部分教程校对，详情进度查看中文本地化制作页面"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:195
+msgid "按键汉化更新"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:196
+msgid "训练任务修复。详情参见\\ `DCS World 2.5.6.47224开放测试版更新日志 <https://www.bilibili.com/read/cv5652096/>`_\\"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:200
+msgid "加入部分翻译.psd"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:204
+msgid "更新多人和单人任务，更新按键翻译。详情参见\\ `DCS World 2.5.6.43453 开放测试版更新日志 <https://www.bilibili.com/read/cv4685866/>`_\\"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:208
+msgid "更新CTB战役。详情参见\\ `2.5.5.41256开放测试版更新日志 <https://www.bilibili.com/read/cv4184008/>`_\\"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:211
+msgid "2019年11月28日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:213
+msgid "修复任务“HB Tomcat Iran Flogger Faceoff Coop”触发。更新messages.mo。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:216
+msgid "2019年11月02日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:218
+msgid "更新了战役、单人/多人任务“恶犬出没”与诺曼底空战训练快速任务。详情参见\\ `2.5.5.38756开放测试版更新日志 <https://bilibili.com/read/cv3875760/>`_\\"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:221
+msgid "2019年10月07日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:223
+msgid "更新了恶犬出没任务失败逻辑。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:227
+msgid "2019年09月07日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:229
+msgid "更新了HB Watching the Devildog恶犬出没单人、多人和快速任务。更新了多人任务的文本。由于任务体积增加，现加入第三分包。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:232
+msgid "2019年08月13日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:234
+msgid "更新了战役汉化，以及新加的单人/多人任务HB Pitching Deck翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:237
+msgid "2019年07月27日"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:239
+msgid "校对并修复了单人、多人、快速和训练任务中的文字错误。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:241
+msgid "由于任务体积增加，弃用zip改用rar压缩。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:246
+msgid "移除了Mods文件夹下的Options修复，原因：官方已集成修复。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:248
+msgid "添加了缺失的按键翻译。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:253
+msgid "更新了按键设置/驾驶舱提示本地化文件，添加了F-14特殊设置中的文字翻译，并修复了自定义驾驶舱功能。"
+msgstr ""
+
+#: ../../source/loc_changelog.rst:258
+msgid "更新并修复了按键列表和驾驶舱提示中的部分翻译。"
+msgstr ""

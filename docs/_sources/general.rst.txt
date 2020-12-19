@@ -1075,7 +1075,7 @@ The DDD is the main control panel and display for the radar part of the AN/AWG-9
 
 The upper left part of the DDD panel contains four switches (**1-4**) controling amplification, mainlobe clutter (MLC) suppression and target size parameters.
 
-The **TGTS** (targets) switch selects expected target size which is used by the WCS to calculate missile launch zones and set parameters for target tracking in the radar. The selected position of this switch might negatively affect target tracking and engagement if set incorrectly.
+The **TGTS** (targets) switch selects expected target size which is used by the WCS to calculate missile launch zones and set parameters for target tracking in the radar. It also sets the range at which the missile ATC is sent, **SMALL** being 6NM, **NORM** 10NM and **LARGE** 13NM. The selected position of this switch might negatively affect target tracking and engagement if set incorrectly.
 
 The **MLC** switch controls how the system supresses the MLC in the radar system while in pulse doppler mode. The OUT position disables the system while the IN position enables it. The AUTO position automatically enables the MLC filter if the antenna look-up angle is less than 3°.
 
@@ -2142,8 +2142,6 @@ If not selected before launch the WCS overrides as soon as the first AIM-54 is l
 In TWS the pilot is guided to the computed centroid of the tracked targets via the navigational cues and this centroid is also displayed on the TID as a small x-shaped cross.
 
 For additional information about TWS symbology and missile guidance see :ref:`TWSATTK` and :ref:`TIDSYMB`.
-
-:Note: The TWS AUTO mode is currently not implemented, will be added during EA.
 
 
 Pulse Doppler Single Target Track (PD STT)
