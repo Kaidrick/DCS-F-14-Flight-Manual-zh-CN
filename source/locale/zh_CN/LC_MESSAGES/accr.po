@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2020-12-18 18:24+0800\n"
+"PO-Revision-Date: 2020-12-28 20:27+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2508,7 +2508,7 @@ msgstr ""
 
 #: ../../source/accr.rst:529
 msgid "__Time Until in Range"
-msgstr "进入射程时间"
+msgstr "到发射距离内时间"
 
 #: ../../source/accr.rst:531
 msgid "TUMR"
@@ -2520,7 +2520,7 @@ msgstr ""
 
 #: ../../source/accr.rst:531
 msgid "__Time Until Maximum Range"
-msgstr "进入最大射程时间"
+msgstr "最大发射距离的时间"
 
 #: ../../source/accr.rst:533
 msgid "TUOR"
@@ -2532,7 +2532,7 @@ msgstr ""
 
 #: ../../source/accr.rst:533
 msgid "__Time Until Optimum Range"
-msgstr "进入最优射程时间"
+msgstr "到最佳发射距离的时间"
 
 #: ../../source/accr.rst:535
 msgid "TWS"
