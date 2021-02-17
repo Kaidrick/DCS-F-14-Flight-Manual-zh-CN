@@ -6,15 +6,15 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
+"Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 18:11+0800\n"
-"PO-Revision-Date: 2020-12-30 00:34+0800\n"
+"PO-Revision-Date: 2021-02-18 00:20+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.4.2\n"
@@ -270,7 +270,7 @@ msgid ""
 "Used to control airflow through the pressure suit or seat cushions if no "
 "pressure suit is worn."
 msgstr ""
-"通风气流调节拨盘，用于控制抗荷服气流进出，未连接抗荷服时则控制坐垫气流。"
+"通风气流调节拨轮，用于控制抗荷服气流进出，未连接抗荷服时则控制坐垫气流。"
 
 #: ../../source/cockpit.rst:126 ../../source/cockpit.rst:2133
 msgid "OXYGEN switch"
@@ -287,7 +287,7 @@ msgstr "音量 / TACAN 指令面板"
 #: ../../source/cockpit.rst:139
 msgid ""
 "Panel controlling volume to Pilot headset and crewmember in control of TACAN."
-msgstr "用于调整飞行员头戴中的音量和指定控制 TACAN 的乘员。"
+msgstr "用于调整飞行员头戴中的音量和指定控制 TACAN 的机组成员。"
 
 #: ../../source/cockpit.rst:142 ../../source/cockpit.rst:167
 #: ../../source/cockpit.rst:285 ../../source/cockpit.rst:506
@@ -316,14 +316,16 @@ msgstr "控制 / 指示器"
 msgid "ALR-67 knob"
 msgstr "ALR-67 旋钮"
 
+# AAP-1 19-7
 #: ../../source/cockpit.rst:144
 msgid "Controls audio volume from the ALR-67 to the pilot."
-msgstr "用于控制飞行员头戴中 ALR-67 的音量。"
+msgstr "用于控制飞行员头戴中，ALR-67 的音量。"
 
 #: ../../source/cockpit.rst:146
 msgid "SW knob"
 msgstr "SW 旋钮"
 
+# AAP-1 19-7
 #: ../../source/cockpit.rst:146
 msgid "Controls volume of Sidewinder audio tone to the pilot."
 msgstr "“响尾蛇”音量旋钮，用于调节飞行员头戴中“响尾蛇”导弹的音调音量。"
@@ -332,6 +334,7 @@ msgstr "“响尾蛇”音量旋钮，用于调节飞行员头戴中“响尾蛇
 msgid "V/UHF 2 knob"
 msgstr "V/UHF 2 旋钮"
 
+# AAP-1 19-7
 #: ../../source/cockpit.rst:148
 msgid "Controls volume of audio from AN/ARC-182 to the pilot."
 msgstr "控制飞行员头戴中 AN/ARC-182 无线电台的音频音量。"
@@ -340,12 +343,12 @@ msgstr "控制飞行员头戴中 AN/ARC-182 无线电台的音频音量。"
 msgid "TACAN CMD switch"
 msgstr "TACAN CMD 按钮开关"
 
-# wording
+# F14AAD-1 19-8
 #: ../../source/cockpit.rst:150 ../../source/cockpit.rst:2215
 msgid ""
 "Sets crewmember in command of the TACAN. Also indicates current setting."
 msgstr ""
-"带有指示灯的按钮开关，用于指定控制 TACAN 设备的乘员（飞行员 / RIO）。指示灯显"
+"带有指示灯的按钮开关，用于指定控制 TACAN 的机组成员（飞行员 / RIO）。指示灯显"
 "示当前的设定。"
 
 #: ../../source/cockpit.rst:161 ../../source/cockpit.rst:2155
@@ -355,9 +358,9 @@ msgstr "TACAN 控制面板"
 #: ../../source/cockpit.rst:164
 msgid ""
 "TACAN control panel letting the pilot control TACAN if in command of it."
-msgstr "如果飞行员有 TACAN 设备控制权，则可以通过该控制面板操作 TACAN。"
+msgstr "如果飞行员有 TACAN 控制权，则可以通过该控制面板操作 TACAN。"
 
-# but it doesn't look like a dual rotary switch at all??
+# F14AAA-1 20−32
 #: ../../source/cockpit.rst:169 ../../source/cockpit.rst:2163
 msgid "Dual rotary switch"
 msgstr "双层旋转开关"
@@ -371,7 +374,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:171 ../../source/cockpit.rst:2165
 msgid "GO & NO-GO lights"
-msgstr "GO 和 NO-GO 灯"
+msgstr "GO 和 NO-GO 指示灯"
 
 #: ../../source/cockpit.rst:171 ../../source/cockpit.rst:2165
 msgid "Lights indicating result of TACAN BIT."
@@ -397,9 +400,10 @@ msgid ""
 "Switches mode for TACAN operation and selects X or Y channels. INVERSE mode "
 "not functional."
 msgstr ""
-"波段模式选择开关，用于切换 TACAN 工作波段，可以选择 X 或 Y 波段。INVERSE 模式"
-"无功能。"
+"模式开关，用于切换 TACAN 的工作模式，可以选择 X 或 Y 波段。INVERSE 模式无功"
+"能。"
 
+# F14AAA-1 20−32
 #: ../../source/cockpit.rst:177 ../../source/cockpit.rst:207
 #: ../../source/cockpit.rst:287 ../../source/cockpit.rst:2171
 #: ../../source/cockpit.rst:2240 ../../source/cockpit.rst:2343
@@ -409,7 +413,7 @@ msgstr "VOL 旋钮"
 
 #: ../../source/cockpit.rst:177
 msgid "Volume control knob for TACAN audio to the pilot."
-msgstr "音量旋钮，用于调节飞行员 TACAN 音频音量。"
+msgstr "音量控制旋钮，用于调整通过 ICS 的 TACAN 台识别信号音频音量。"
 
 #: ../../source/cockpit.rst:179 ../../source/cockpit.rst:2173
 msgid "Mode knob"
@@ -417,7 +421,7 @@ msgstr "模式选择旋钮"
 
 #: ../../source/cockpit.rst:0
 msgid "Selects TACAN mode."
-msgstr "用于选择 TACAN 工作模式。"
+msgstr "用于选择 TACAN 功能模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - TACAN is off."
@@ -429,7 +433,7 @@ msgstr "REC - 仅接收信号。"
 
 #: ../../source/cockpit.rst:0
 msgid "T/R - Transmit and receive, enables range readout."
-msgstr "T/R - 传输并接收信号，该模式下 TACAN 可以进行测距。"
+msgstr "T/R - 传输并接收信号，该模式下可进行距离读数。"
 
 #: ../../source/cockpit.rst:0
 msgid "A/A - Air to air TACAN mode."
@@ -445,7 +449,7 @@ msgstr "机内通话系统控制面板"
 
 #: ../../source/cockpit.rst:202 ../../source/cockpit.rst:2338
 msgid "Control panel for ICS."
-msgstr "用于控制机内通话系统（ICS）。"
+msgstr "机内通话系统（ICS）的控制面板。"
 
 #: ../../source/cockpit.rst:207
 msgid ""
@@ -458,7 +462,7 @@ msgstr "放大器选择旋钮"
 
 #: ../../source/cockpit.rst:0
 msgid "Knob selecting which amplifier to use for pilot's headset audio."
-msgstr "用于选择处理飞行员头戴音频的放大器。"
+msgstr "用于选择将音频信号输出到飞行员头戴的放大器。"
 
 #: ../../source/cockpit.rst:0
 msgid "B/U - Backup amplifier."
@@ -474,30 +478,31 @@ msgid ""
 "Disallows listening to audio only available to the pilot such as the "
 "Sidewinder tone and engine stall/overtemperature warnings."
 msgstr ""
-"EMER - 应急放大器。这个档位会使用 RIO 的放大器和他的音量设定。启用应急放大器"
-"时，飞行员将无法监听只有常规放大器中飞行员才能听见的 “响尾蛇” 导弹音调和发动"
+"EMER - 应急放大器。这个档位会使用 RIO 的放大器和其的音量设定。启用应急放大器"
+"时，飞行员将无法监听只有正常放大器中飞行员才能听见的 “响尾蛇” 导弹音调和发动"
 "机失速 / 超温警告音。"
 
 #: ../../source/cockpit.rst:218 ../../source/cockpit.rst:2353
 msgid "ICS switch"
-msgstr "ICS 控制开关"
+msgstr "ICS 开关"
 
+# F14AAA-1 19-6
 #: ../../source/cockpit.rst:0
 msgid "Selects ICS function."
 msgstr "用于选择 ICS 的功能。"
 
-# override? override settings or simply replace radio audio?
+# Attenuates noncritical radio audio to emphasize intercommunication when urgent.
 #: ../../source/cockpit.rst:0
 msgid "RADIO OVERRIDE - Makes ICS audio override radio audio."
-msgstr "RADIO OVERRIDE - 无线电台超控，让 ICS 音频替换无线电音频。"
+msgstr "RADIO OVERRIDE - 无线电台超控，使 ICS 音频超控无线电台音频。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
 "HOT MIC - Allows talking to the RIO without pressing the PTT. Also allows "
 "the groundcrew to talk to the crew via the external interphone."
 msgstr ""
-"HOT MIC - RIO 无需按下 PTT（Push-To-Talk，按键通话）开关即可进行对讲。地勤人"
-"员也可以通过外部对讲机与乘员通话。"
+"HOT MIC - RIO 无需按下 PTT（Push-To-Talk，按键通话）开关即可进行对讲。同时允"
+"许地勤人员通过外部机内通话器与机组成员通话。"
 
 #: ../../source/cockpit.rst:0
 msgid "COLD MIC - Allows talking to the RIO only while the PTT is pressed."
@@ -517,7 +522,7 @@ msgstr "PITCH 开关"
 
 #: ../../source/cockpit.rst:242
 msgid "Enables pitch stability augmentation."
-msgstr "启用俯仰通道增稳。"
+msgstr "启用俯仰增稳。"
 
 #: ../../source/cockpit.rst:244
 msgid "ROLL switch"
@@ -525,7 +530,7 @@ msgstr "ROLL 开关"
 
 #: ../../source/cockpit.rst:244
 msgid "Enables roll stability augmentation."
-msgstr "启用横滚通道增稳。"
+msgstr "启用横滚增稳。"
 
 #: ../../source/cockpit.rst:246
 msgid "YAW switch"
@@ -533,7 +538,7 @@ msgstr "YAW 开关"
 
 #: ../../source/cockpit.rst:246
 msgid "Enables yaw stability augmentation."
-msgstr "启用偏航通道增稳。"
+msgstr "启用偏航增稳。"
 
 #: ../../source/cockpit.rst:248
 msgid "VEC/PCD/ACL switch"
@@ -543,14 +548,14 @@ msgstr "VEC/PCD/ACL 开关"
 msgid "Switch controlling the remote control modes of autopilot."
 msgstr "用于切换自动驾驶远程控制模式。"
 
-# wording
+# AAD-1 2-112
 #: ../../source/cockpit.rst:0
 msgid ""
 "VEC/PCD - Vector/PCD mode. Roll and pitch axis is controlled by data link. "
 "Engaged by NWS button on pilot stick."
 msgstr ""
-"VEC/PCD - 引导航向/精确航线方向模式。数据链路控制飞机横滚和俯仰轴。这个模式通"
-"过飞行员驾驶杆上的 NWS（前轮转向）按钮激活。"
+"VEC/PCD - 引导航向/精确航线方向模式。通过数据链路控制飞机横滚和俯仰轴。这个模"
+"式通过飞行员驾驶杆上的 NWS（前轮转向）按钮启用。"
 
 #: ../../source/cockpit.rst:0
 msgid "OFF - Function off."
@@ -559,18 +564,19 @@ msgstr "OFF - 功能关闭。"
 #: ../../source/cockpit.rst:0
 msgid ""
 "ACL - Automatic carrier landing mode. Engaged by NWS button on pilot stick."
-msgstr "ACL - 自动助降模式，这个模式通过飞行员驾驶杆上的 NWS 按钮激活。"
+msgstr "ACL - 自动助降模式，通过飞行员驾驶杆上的 NWS 按钮启用 ACL。"
 
 #: ../../source/cockpit.rst:256
 msgid "ALT switch"
 msgstr "ALT 开关"
 
+# AAD-1 2-112
 #: ../../source/cockpit.rst:256
 msgid ""
 "ON/OFF switch, enables altitude hold. Engaged by NWS button on pilot stick."
 msgstr ""
-"高度保持开关，开关有 ALT / OFF 两个档位，用于启用自动驾驶高度保持。这个功能通"
-"过飞行员驾驶杆上的 NWS 按钮激活。"
+"高度保持开关，开关有 ALT / OFF 两个档位，开关用来启用高度保持。这个功能通过飞"
+"行员驾驶杆上的 NWS 按钮启用。"
 
 #: ../../source/cockpit.rst:258
 msgid "HDG switch"
@@ -590,15 +596,17 @@ msgstr "OFF - 关闭航向保持模式。"
 
 #: ../../source/cockpit.rst:0
 msgid "GT - Ground track mode, engaged by NWS button on pilot stick."
-msgstr "GT - 启用地面航迹模式，通过飞行员驾驶杆上的 NWS 按钮激活。"
+msgstr "GT - 启用地面航迹模式，通过飞行员驾驶杆上的 NWS 按钮启用。"
 
+# AAD-1 2-111
 #: ../../source/cockpit.rst:266
 msgid "ENGAGE switch"
 msgstr "ENGAGE 开关"
 
 #: ../../source/cockpit.rst:266
 msgid "ENGAGE/OFF. Engages autopilot."
-msgstr "自动驾驶控制开关，有 ENGAGE / OFF 两个档位，分别启用和关闭自动驾驶。"
+msgstr ""
+"自动驾驶启用开关，开关有 ENGAGE / OFF 两个档位，分别用于启用和关闭自动驾驶。"
 
 #: ../../source/cockpit.rst:0
 msgid "Note"
@@ -609,8 +617,8 @@ msgid ""
 "All switches are springloaded to OFF position but held in position with "
 "solenoid to enable automatic disengagement when applicable."
 msgstr ""
-"所有开关皆为弹簧开关，由电磁铁保持在选定档位上，满足解除条件时，开关会自动弹"
-"回 OFF 位置。"
+"所有开关皆为弹簧归中至 OFF 档位，由螺线管保持在选定档位上，满足解除条件时，开"
+"关会自动弹回 OFF 位置。"
 
 #: ../../source/cockpit.rst:279
 msgid "UHF 1 (AN/ARC-159) Radio"
@@ -618,11 +626,11 @@ msgstr "UHF 1（AN/ARC-159）无线电台"
 
 #: ../../source/cockpit.rst:282
 msgid "UHF radio 1. Radio and controls."
-msgstr "1号 UHF 电台及其控制组件。"
+msgstr "UHF 1 无线电台及其控制开关/按钮。"
 
 #: ../../source/cockpit.rst:287
 msgid "Controls volume of UHF 1 audio to pilot headset."
-msgstr "音量旋钮，用于调节飞行员头戴中的 UHF 1 音频音量。"
+msgstr "音量旋钮。用于调整飞行员头戴中 UHF 1 音频的音量。"
 
 #: ../../source/cockpit.rst:289 ../../source/cockpit.rst:2242
 msgid "SQL switch"
@@ -630,21 +638,16 @@ msgstr "SQL 开关"
 
 #: ../../source/cockpit.rst:289 ../../source/cockpit.rst:2242
 msgid "ON/OFF switch enabling squelch."
-msgstr "静噪控制开关，有 ON / OFF 两个档位，分别用于开启或关闭静噪。"
+msgstr "静噪控制开关，有 ON / OFF 两个档位，分别用于启用或关闭静噪。"
 
+# AAA-1 19−14
 #: ../../source/cockpit.rst:291 ../../source/cockpit.rst:2244
 msgid "Frequency select switches"
 msgstr "频率选择开关"
 
-# (these four switches are ) toggle switches (that is used to) select(ing) set frequency
-# ----
-# Four frequency tuning switches are used to tune transceiver when the mode
-# switches (spring return) selector switch is set to MANUAL. The left switch controls the hundreds and tens digits, the second switch controls units, the third
-# switch controls tenths, and the right switch controls hundredths and thousandths. Forward deflection of the switch increases the numeric reading, and
-# aft deflecting decreases the numeric reading.
 #: ../../source/cockpit.rst:291 ../../source/cockpit.rst:2244
 msgid "Toggle switches selecting set frequency."
-msgstr "频率选择拨动开关，用于调定频率。"
+msgstr "频率选择开关，拨动开关来调制频率。"
 
 #: ../../source/cockpit.rst:293 ../../source/cockpit.rst:2246
 msgid "FREQ/(CHAN) display"
@@ -654,17 +657,14 @@ msgstr "FREQ./(CHAN) 显示窗"
 msgid "Readout display showing selected frequency or channel."
 msgstr "频率 /（波道）显示窗，用于显示当前选中的频率或波道。"
 
-# This is anything but a button. It's a toggle switch.
-# ----
-# Deflection of the switch causes the frequency display to read the preset channel frequency
+# AAA-1 19−15
 #: ../../source/cockpit.rst:295
 msgid "READ button"
 msgstr "READ 开关"
 
-# Deflection of the switch causes the frequency display to read the preset channel frequency
 #: ../../source/cockpit.rst:295
 msgid "Button toggling display of selected channel while held."
-msgstr "读取控制开关，按住开关时，频率/（波道）显示窗将显示预设波道的频率。"
+msgstr "拨动并保持住开关来查看所选预设波道的频率。"
 
 #: ../../source/cockpit.rst:297 ../../source/cockpit.rst:2250
 msgid "BRT knob"
@@ -674,16 +674,16 @@ msgstr "BRT 旋钮"
 msgid "Knob controlling display brightness."
 msgstr "亮度旋钮，用于调节显示屏的亮度。"
 
-# Depressing pushbutton loads the display frequency of the preset channel.
+# AAA-1 19−15
 #: ../../source/cockpit.rst:299
 msgid "LOAD button"
 msgstr "LOAD 按钮"
 
-# 在选定的频道中载入选定频率？
 #: ../../source/cockpit.rst:299
 msgid "Button toggling load of set frequency to set channel."
-msgstr "加载按钮，用于加载预设波道的显示频率。"
+msgstr "加载按钮，按下按钮来加载显示窗中显示的频率至预设波道。"
 
+# 2021/02/02 AG 校对至此
 #: ../../source/cockpit.rst:301
 msgid "Function selector knob"
 msgstr "功能选择旋钮"
@@ -1496,15 +1496,15 @@ msgstr "指示襟翼和前缘缝翼、减速板和起落架的位置。前缘缝
 
 #: ../../source/cockpit.rst:655
 msgid "Power off or maneuver slats extended."
-msgstr "电源切断，或前缘机动缝翼张开。"
+msgstr "电源切断，或前缘缝翼伸出。"
 
 #: ../../source/cockpit.rst:659
 msgid "Slats extended."
-msgstr "前缘缝翼放下。"
+msgstr "前缘缝翼伸出。"
 
 #: ../../source/cockpit.rst:663
 msgid "Slats retracted."
-msgstr "前缘缝翼收上。"
+msgstr "前缘缝翼收起。"
 
 #: ../../source/cockpit.rst:667
 msgid ""
@@ -1651,7 +1651,7 @@ msgstr "系统关闭、电源关闭或丢失地面锁定时，雷达高度计会
 
 #: ../../source/cockpit.rst:783
 msgid "Low altitude warning light"
-msgstr "低高度报警灯"
+msgstr "低高度告警灯"
 
 #: ../../source/cockpit.rst:783
 msgid "Red light illuminated when below set altitude warning level."
@@ -1956,7 +1956,7 @@ msgid ""
 "Warning light flashes with landing gear not down and locked, flaps below 10° "
 "and either throttle below 85%."
 msgstr ""
-"机轮报警灯。起落架未放下或未锁定，且襟翼放下的角度小于10°，或油门行程小于总行"
+"机轮告警灯。起落架未放下或未锁定，且襟翼放下的角度小于10°，或油门行程小于总行"
 "程的85%时，报警指示灯亮起起。"
 
 #: ../../source/cockpit.rst:929
@@ -1968,7 +1968,7 @@ msgid ""
 "Warning light indicating antiskid or brake failure. Also lights when parking "
 "brake is set."
 msgstr ""
-"机轮刹车报警灯。报警指示灯亮起起时，表示防滑系统或刹车故障。设置机轮刹车也会"
+"机轮刹车告警灯。报警指示灯亮起起时，表示防滑系统或刹车故障。设置机轮刹车也会"
 "使报警指示灯亮起起。"
 
 #: ../../source/cockpit.rst:931
@@ -2023,7 +2023,7 @@ msgid ""
 "and right sides respectively. They indicate the presence of an engine stall "
 "condition in their respective engine."
 msgstr ""
-"HUD 的左侧和右侧分别装有失速报警灯（L STALL 和 R STALL 报警灯）。它们分别指示"
+"HUD 的左侧和右侧分别装有失速告警灯（L STALL 和 R STALL 告警灯）。它们分别指示"
 "对应一侧发动机的压气机失速。"
 
 #: ../../source/cockpit.rst:957 ../../source/cockpit.rst:1057
@@ -2103,7 +2103,7 @@ msgstr "灯光亮起表示 AWG-9 STT（单目标跟踪）操作时选择了恒�
 
 #: ../../source/cockpit.rst:997
 msgid "HOT TRIG light"
-msgstr "HOT TRIG 报警灯"
+msgstr "HOT TRIG 告警灯"
 
 #: ../../source/cockpit.rst:997
 msgid ""
@@ -2256,13 +2256,13 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1034
 msgid "L FIRE and R FIRE lights"
-msgstr "L FIRE 和 R FIRE 报警灯"
+msgstr "L FIRE 和 R FIRE 告警灯"
 
 #: ../../source/cockpit.rst:1034
 msgid ""
 "Engine fire warning lights. Illuminates when a fire has been detected in the "
 "respective engine."
-msgstr "发动机火警报警灯。发动机失火时，对应故障发动机一侧的报警指示灯亮起起。"
+msgstr "发动机火警告警灯。发动机失火时，对应故障发动机一侧的报警指示灯亮起起。"
 
 #: ../../source/cockpit.rst:1036
 msgid "Turn-and-Slip indicator"
@@ -2390,7 +2390,7 @@ msgid ""
 "Warning light indicating CATCC has aquired aircraft and is transmitting "
 "glidepath information to aircraft."
 msgstr ""
-"报警灯，指示 CATCC（母舰空中交通管制中心）已经获取本机信息，且正在向本机传输"
+"告警灯，指示 CATCC（母舰空中交通管制中心）已经获取本机信息，且正在向本机传输"
 "下滑道信息。"
 
 #: ../../source/cockpit.rst:1090 ../../source/cockpit.rst:3182
@@ -2399,7 +2399,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1090
 msgid "Warning light indicating CATCC is ready to control aircraft."
-msgstr "报警灯，指示 CATCC 已准备控制飞机。"
+msgstr "告警灯，指示 CATCC 已准备控制飞机。"
 
 #: ../../source/cockpit.rst:1092
 msgid "CMD CONTROL"
@@ -2408,7 +2408,7 @@ msgstr ""
 #: ../../source/cockpit.rst:1092
 msgid ""
 "Warning light indicating aircraft is under data link control for landing."
-msgstr "报警灯，指示飞机正由数据链路控制进行助降。"
+msgstr "告警灯，指示飞机正由数据链路控制进行助降。"
 
 #: ../../source/cockpit.rst:1094
 msgid "10 SECONDS"
@@ -2420,7 +2420,7 @@ msgid ""
 "commands during landing. Indicates 10 seconds to arrival at the next point "
 "in approach pattern in other modes."
 msgstr ""
-"报警灯，指示 ACL 着舰过程中，数据链路的下滑道信息和指令正根据母舰的持续运动进"
+"告警灯，指示 ACL 着舰过程中，数据链路的下滑道信息和指令正根据母舰的持续运动进"
 "行调整。在其他模式下则表示距离进近航线钟的下一个检查点还有10秒钟。"
 
 #: ../../source/cockpit.rst:1096 ../../source/cockpit.rst:3191
@@ -2433,7 +2433,7 @@ msgid ""
 "seconds during ACL. When not in ACL it indicates no data link messages "
 "during last 10 seconds."
 msgstr ""
-"报警灯，指示 ACL 过程中，未能接收数据链路控制的时间超2秒。非 ACL 模式下，报警"
+"告警灯，指示 ACL 过程中，未能接收数据链路控制的时间超2秒。非 ACL 模式下，报警"
 "指示灯亮起起表示过去的10秒内未接收任何数据链路信息。"
 
 #: ../../source/cockpit.rst:1098 ../../source/cockpit.rst:3189
@@ -2445,7 +2445,7 @@ msgid ""
 "Warning light indicating CATCC not ready for ACL, switch to standard voice "
 "procedures."
 msgstr ""
-"报警灯，指示 CATCC 自动助降未就绪，切换至标准的基于音频通讯的进近流程。"
+"告警灯，指示 CATCC 自动助降未就绪，切换至标准的基于音频通讯的进近流程。"
 
 #: ../../source/cockpit.rst:1100
 msgid "A/P REF"
@@ -2455,7 +2455,7 @@ msgstr ""
 msgid ""
 "Warning light indicating autopilot selected but not engaged. Exception "
 "altitude and heading hold."
-msgstr "报警灯，指示已选择自动驾驶，但自动驾驶未启用（高度和航向保持除外）。"
+msgstr "告警灯，指示已选择自动驾驶，但自动驾驶未启用（高度和航向保持除外）。"
 
 #: ../../source/cockpit.rst:1102
 msgid "WAVEOFF"
@@ -2463,7 +2463,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:1102
 msgid "Warning light indicating waveoff commanded."
-msgstr "报警灯，指示执行复飞指令。"
+msgstr "告警灯，指示执行复飞指令。"
 
 #: ../../source/cockpit.rst:1104 ../../source/cockpit.rst:1782
 msgid "WING SWEEP"
@@ -2487,7 +2487,7 @@ msgid ""
 "Warning light indicating flap retraction failure with greater than 225 knots "
 "indicated airspeed. Also indicates safe Mach number exceeded."
 msgstr ""
-"报警灯，亮起表示指示空速超过225节以及襟翼故障无法收上。也用于指示飞机空速超过"
+"告警灯，亮起表示指示空速超过225节以及襟翼故障无法收上。也用于指示飞机空速超过"
 "最大安全马赫数。"
 
 #: ../../source/cockpit.rst:1108
@@ -2764,12 +2764,12 @@ msgstr "风挡右边框"
 
 #: ../../source/cockpit.rst:1235
 msgid "ECM Warning Lights"
-msgstr "ECM（电子对抗）报警灯光"
+msgstr "ECM（电子对抗）告警灯光"
 
 #: ../../source/cockpit.rst:1238
 msgid ""
 "Warning lights connected to the ALR-67 indicating different types of threats."
-msgstr "这些报警灯与 ALR-67 相连，用于指示不同类型的雷达威胁。"
+msgstr "这些告警灯与 ALR-67 相连，用于指示不同类型的雷达威胁。"
 
 #: ../../source/cockpit.rst:1240
 msgid ""
@@ -2828,7 +2828,7 @@ msgstr "中间的条形指示器显示了指令后掠位置。"
 
 #: ../../source/cockpit.rst:1276
 msgid "Rightmost tape shows actual wing-sweep position."
-msgstr "最右侧指示带指示了实际的机翼后掠位置。"
+msgstr "最右侧指示带显示了实际的机翼后掠位置。"
 
 #: ../../source/cockpit.rst:1278
 msgid "The five indicator windows shows current operating mode."
@@ -5088,9 +5088,10 @@ msgid ""
 "forward), only the RIO will be ejected. In MCO mode, both pilot and RIO "
 "initiated ejection will eject both crew members"
 msgstr ""
-"由飞行员发起的弹射总是会同时弹射所有机组成员。弹射指令控制杆用于设置弹射系统"
-"在 RIO 弹射时的行为：如果选择 PILOT 模式（手柄向前），RIO 弹射时，只有 RIO 自"
-"己会弹射。如果选择 MCO 模式，RIO 弹射时，RIO 和飞行员都会弹射。"
+"由飞行员发起的弹射总是会同时弹射两名机组成员。弹射指令（EJECT CMD）控制杆用于"
+"设置弹射系统在 RIO 弹射时的行为：如果选择 PILOT 模式（手柄向前），RIO 弹射"
+"时，只有 RIO 自己会弹射。如果选择 MCO 模式，RIO 弹射时，RIO 和飞行员都会弹"
+"射。"
 
 #: ../../source/cockpit.rst:2381
 msgid "Sensor Control Panel"
@@ -5504,7 +5505,7 @@ msgid ""
 "racks) in addition to weapons. Non-functional in modelled F-14 ."
 msgstr ""
 "挂载抛弃选择开关，用于选择挂载抛弃时，只抛弃 WPNS（武器）还是连同 MER/TER（武"
-"器挂点）一起抛弃。游戏中的 F-14 中未模拟此开关功能。"
+"器挂点）一起抛弃。游戏中模拟的 F-14 此开关无功能。"
 
 #: ../../source/cockpit.rst:2510
 msgid "SEL JETT switch"
@@ -6349,7 +6350,7 @@ msgstr "威胁提示灯和主注意灯"
 msgid ""
 "Master caution light and various ECM and IFF related advisory and warning "
 "lights."
-msgstr "主注意（Master Caution）灯以及各种 ECM 和 IFF 相关提示 / 报警灯。"
+msgstr "主注意（Master Caution）灯以及各种 ECM 和 IFF 相关提示 / 告警灯。"
 
 #: ../../source/cockpit.rst:2968
 msgid ""
@@ -6396,7 +6397,7 @@ msgid ""
 "Warning light, steady illumination when detecting lockon from a SAM tracking "
 "radar. Flashes when missile launch is detected."
 msgstr ""
-"地空导弹报警灯，灯光稳定亮起表示侦测到 SAM 跟踪雷达锁定，闪烁时表示侦测到导弹"
+"地空导弹告警灯，灯光稳定亮起表示侦测到 SAM 跟踪雷达锁定，闪烁时表示侦测到导弹"
 "发射。"
 
 #: ../../source/cockpit.rst:2978
@@ -6408,7 +6409,7 @@ msgid ""
 "Warning light, steady illumination when detecting lockon from a AAA tracking "
 "radar. Flashes when AAA engagement is detected."
 msgstr ""
-"防空高炮报警灯，灯光稳定亮起表示侦测到 AAA 跟踪雷达锁定，闪烁时表示侦测到防空"
+"防空高炮告警灯，灯光稳定亮起表示侦测到 AAA 跟踪雷达锁定，闪烁时表示侦测到防空"
 "高炮开火。"
 
 #: ../../source/cockpit.rst:2980
@@ -6417,7 +6418,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2980
 msgid "Warning light indicating detection of a continuous wave emitter."
-msgstr "连续波报警灯，灯光亮起表示本机正被连续波信号源照射。"
+msgstr "连续波告警灯，灯光亮起表示本机正被连续波信号源照射。"
 
 #: ../../source/cockpit.rst:2982
 msgid "AI"
@@ -6427,7 +6428,7 @@ msgstr ""
 msgid ""
 "Warning light, steady illumination when detecting lockon from an airborne "
 "interceptor radar."
-msgstr "机载截击雷达报警灯，灯光稳定亮起表示侦测到机载截击雷达锁定。"
+msgstr "机载截击雷达告警灯，灯光稳定亮起表示侦测到机载截击雷达锁定。"
 
 #: ../../source/cockpit.rst:3017
 msgid "Handle used to manually jettison canopy."
@@ -6682,7 +6683,7 @@ msgstr ""
 
 #: ../../source/cockpit.rst:0
 msgid "No message at this time, indicates presence of data link communication"
-msgstr "无信息，表示数据链路通信正常。"
+msgstr "此刻无消息，表示数据链路通信正常"
 
 #: ../../source/cockpit.rst:0
 msgid "while not receiving a command."
@@ -6803,7 +6804,7 @@ msgstr ""
 # need more info
 #: ../../source/cockpit.rst:0
 msgid "Command to release weapon in data link A/G attack,"
-msgstr "接收指令使用数据链路进行对地攻击。"
+msgstr "指令在数据链路 A/G 攻击中投放武器，"
 
 # need more info
 #: ../../source/cockpit.rst:0

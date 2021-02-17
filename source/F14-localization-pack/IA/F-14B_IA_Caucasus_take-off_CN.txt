@@ -1,0 +1,12 @@
+[TITLE]
+
+[DESCRIPTION]
+从迈科普起飞，参观平坦的山丘，如果你想的话，返回母舰。
+[RED TASK]
+
+[BLUE TASK]
+USS Stennis 塔康74X， ICLS频道 1，225 AM， BRC 297°
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

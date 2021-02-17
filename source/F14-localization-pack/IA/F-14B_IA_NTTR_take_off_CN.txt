@@ -1,0 +1,13 @@
+[TITLE]
+
+[DESCRIPTION]
+从内利斯基地出发，享受你的内华达之旅。如果你喜欢观光的话加油机在Caliente Alpha就位，你可以练习AAR。
+[RED TASK]
+
+[BLUE TASK]
+加油机Texaco，塔康33Y，225 AM, 18000英尺
+内利斯塔康12X，132.550
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

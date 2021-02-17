@@ -1,0 +1,14 @@
+[TITLE]
+
+[DESCRIPTION]
+沿着塞纳河飞到英吉利海峡。
+
+保持在水面上方，如果不的话将会受到时间惩罚！
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

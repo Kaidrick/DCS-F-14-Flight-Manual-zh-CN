@@ -1,0 +1,15 @@
+[TITLE]
+
+[DESCRIPTION]
+欢迎在内华达上空自由飞行。
+ 
+[RED TASK]
+
+[BLUE TASK]
+塔康12X， 132.550 AM
+
+加油机Texaco，塔康33Y， 225 AM, 18000英尺
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

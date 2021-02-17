@@ -1,0 +1,18 @@
+[TITLE]
+
+[DESCRIPTION]
+沿着利沃涅河飞到终点库塔伊西。
+
+保持在水面上，如果不的话每毫秒都会受到惩罚！
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[1]
+在塔楼间通过开始计时。
+
+记住保持在水面上！
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

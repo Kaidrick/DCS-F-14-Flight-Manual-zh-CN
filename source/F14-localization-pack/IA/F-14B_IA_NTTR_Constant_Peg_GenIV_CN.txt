@@ -1,0 +1,12 @@
+[TITLE]
+
+[DESCRIPTION]
+随着铁幕的落下，对有些国家来说，比起战机，他们更需要钱，因此美国政府通过这样的途径获得了几架米格29A。1V1对抗支点——机炮格斗！
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

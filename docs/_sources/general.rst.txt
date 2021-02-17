@@ -637,8 +637,9 @@ DLC Direct Lift Control
 The DLC or Direct Lift Control is used to control vertical glideslope position without pitch control inputs or engine throttle commands.
 The DLC uses the two inboard spoiler sections in conjunction with small corrections on the tail stabilizers to control lift.
 
-The DLC is engaged by depression of the DLC switch on the control stick with flaps and gear down.
+The DLC is engaged by depression of the DLC switch on the control stick with flaps down and throttles less than **MIL**.
 This causes the inboard spoilers to extend to half and enables the DLC & maneuver flap command thumbwheel on the control stick to control them.
+The DLC also requires the AFCS roll and pitch channels, the inboard spoilers and the hydraulic systems to be operative as well.
 
 Rotation of the thumbwheel forwards extends the spoilers towards the max up position, decreasing lift and adjusting glideslope position downward.
 Rotation of the thumbwheel aft retracts the spoilers towards the flush position, increasing lift and adjusting glideslope position upward.
@@ -1461,7 +1462,7 @@ TID Symbology
 |                                                             |    :height: 50 px                                    |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :align: center                                    |                                                                                                                                                                                                                                                                                                                              |
 +-------------------------------------------------------------+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Fix Point                                                   | .. image:: /images/general/awg-9/tidsymbology/18.png | Generic fix-point waypoint.                                                                                                                                                                                                                                                                                                  |
+| Fixed Point                                                 | .. image:: /images/general/awg-9/tidsymbology/18.png | Generic fixed-point waypoint.                                                                                                                                                                                                                                                                                                |
 |                                                             |    :width: 50 px                                     |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :height: 50 px                                    |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :align: center                                    |                                                                                                                                                                                                                                                                                                                              |
@@ -1493,7 +1494,7 @@ TID Symbology
 |                                                             |    :height: 50 px                                    |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :align: center                                    |                                                                                                                                                                                                                                                                                                                              |
 +-------------------------------------------------------------+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Data Link Fix Point                                         | .. image:: /images/general/awg-9/tidsymbology/24.png | Data link waypoint representing a fixed point.                                                                                                                                                                                                                                                                               |
+| Data Link Fixed Point                                       | .. image:: /images/general/awg-9/tidsymbology/24.png | Data link waypoint representing a fixed point.                                                                                                                                                                                                                                                                               |
 |                                                             |    :width: 50 px                                     |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :height: 50 px                                    |                                                                                                                                                                                                                                                                                                                              |
 |                                                             |    :align: center                                    |                                                                                                                                                                                                                                                                                                                              |
@@ -2802,15 +2803,17 @@ The following table details the threat symbols used by the Heatblur DCS F-14 wit
 +---------------+-----------------------------------------------------------------------+---------------------+
 | GR            | Grisha 5 (Albatros)                                                   |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
-| GZ            | DDG-168 Guangzhou                                                     |                     |
-+---------------+-----------------------------------------------------------------------+---------------------+
 | HP            | Oliver Hazard Perry                                                   |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
-| HU            | DDG-171 Haikou                                                        |                     |
+| J2            | Type 054A Frigate, NATO reporting name Jiangkai II class              |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | KK            | Krivak 3 (Rezky)                                                      |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | KV            | Kirov (Pyotr Velikiy)                                                 |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
+| L1            | Type 052B Destroyer, NATO reporting name Luyang I class               |                     |
++---------------+-----------------------------------------------------------------------+---------------------+
+| L2            | Type 052C Destroyer, NATO reporting name Luyang II class              |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | N             | | Ships only carrying a navigational radar                            |                     |
 |               | | (civilian ships, submarines)                                        |                     |
@@ -2827,7 +2830,7 @@ The following table details the threat symbols used by the Heatblur DCS F-14 wit
 +---------------+-----------------------------------------------------------------------+---------------------+
 | TW            | Tarawa                                                                |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
-| YI            | FFG-538 Yantai                                                        |                     |
+| YU            | Type 071 Amphibious Transport Dock, NATO reporting name Yuzhao class  |                     |
 +---------------+-----------------------------------------------------------------------+---------------------+
 | Aircraft                                                                                                    |
 +---------------+-----------------------------------------------------------------------+---------------------+
@@ -4224,7 +4227,7 @@ Wind is computed from the difference between inertial velocities and air mass ve
 The WCS and CSDC also provide the steering and cueing functions required for display to the flight crew.
 The information can be displayed on the TID, HSD, multiple display indicator, HUD, and VDI, depending on the navigation and steering modes selected by the flight crew.
 
-The available destination or navigation points are waypoints 1, 2, or 3, fix point, home base, surface target, and initial point and may be designated by the DEST switch on the TID.
+The available destination or navigation points are waypoints 1, 2, or 3, fixed point, home base, surface target, and initial point and may be designated by the DEST switch on the TID.
 
 Additionally, navigational points (latitude and longitude) may also be inserted by the RIO using the CAP or by datalink message (when on the deck) using either cable or the RF link. 
 

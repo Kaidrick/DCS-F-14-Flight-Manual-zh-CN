@@ -352,7 +352,7 @@ Launch Modes
 The seeker head used in the AIM-54 is capable of both semi-active radar homing (SARH) and active radar homing (ARH).
 
 Normally the launch to eject (LTE) cycle of the missile is 3 seconds meaning time from trigger depression to missile ejection.
-The exception is the ACM active mode where the LTE is shortened to 1 second if within 10° from ADL.
+The exception is the ACM active mode where the LTE is shortened to 1 second if within 15° from ADL.
 
 
 TWS SARH/ARH
@@ -457,7 +457,8 @@ The aerodynamics and engine perfomance for these missiles have been extensively 
 In regards to missile seeker and flight profile we've worked with Eagle Dynamics to enable our F-14 AN/AWG-9 to control the AIM-54 to a degree.
 In DCS this means the following:
 
-In TWS the missiles will fly out using guidance from the AN/AWG-9 until at 16 seconds to impact at which time the AN/AWG-9 will tell the missile to go active if it's still within the radar scan zone.
+In TWS the missiles will fly out using guidance from the AN/AWG-9 until at about 16 seconds to impact at which time the AN/AWG-9 will tell the missile to go active if it's still within the radar scan zone.
+The exact distance at which the AN/AWG-9 sends the ATC depends on the setting of the TGTS switch as detailed above.
 This results in a silent engagement until the missiles go active at which time the target's radar warning receiver will get indication of an active missile engaging it.
 If fired at range the AIM-54 will loft for greater range. Setting the different seeker activation ranges impacts the amount of warning the target will get but also the amount of time the missile needs to be supported.
 
@@ -839,5 +840,5 @@ F-14 Loadout Diagram
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
 | FPU-1 Fuel Tank                    |    |    | 1 |   |   |   |   | 1 |    |    | 2     |
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+
-| CNU-188 External Baggage Container |    |    |   |   | 1 | 1 |   |   |    |    | 1     |
+| CNU-188 External Baggage Container |    |    |   |   | 1 | 1 |   |   |    |    | 2     |
 +------------------------------------+----+----+---+---+---+---+---+---+----+----+-------+

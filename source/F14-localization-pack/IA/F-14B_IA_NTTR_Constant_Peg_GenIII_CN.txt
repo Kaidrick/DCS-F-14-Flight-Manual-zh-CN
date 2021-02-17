@@ -1,0 +1,12 @@
+[TITLE]
+
+[DESCRIPTION]
+永恒的佩格是一个长期运行的秘密计划，旨在让美国飞行员接触真正的米格战机和苏联战术。 本次交战中你将和一架第三代苏联战机Mig-23和一架MIG-21进行1V2空战。你的挂载为AIM-7和AIM-9，请明智的运用。
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

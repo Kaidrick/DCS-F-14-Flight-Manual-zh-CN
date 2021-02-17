@@ -1,0 +1,16 @@
+[TITLE]
+
+[DESCRIPTION]
+执行 CASE 3 回收降落到西奥多·罗斯福号上。
+
+祝好运！
+[RED TASK]
+
+[BLUE TASK]
+CVN-71 西奥多·罗斯福，TACAN 71X， 225， ICLS 波道 1， BRC 180°
+
+S-3B Arco，塔康 51X， 225 AM. 
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

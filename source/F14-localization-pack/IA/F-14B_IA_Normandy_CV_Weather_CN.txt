@@ -1,0 +1,14 @@
+[TITLE]
+
+[DESCRIPTION]
+本次为一次标准的CASE 3回收——在恶劣天气和能角度差情况下的回收程序。进近从15海里+外的集结编队（marshal pattern）开始，飞机在航母后方保持塔康DME距离高度为千英尺。从编队调离后，飞机沿着塔康直径飞向航母，下高至距离航母10海里高度1200英尺的“platform”。 接着完成着陆检查清单并保持在1200英尺。在距离航母3海里后，飞机将使用ACLS指针截取下滑道并继续沿着下滑道下降直到FLOLS可见（取决于气候条件）。
+[RED TASK]
+
+[BLUE TASK]
+USS Stennis，塔康74X，ICLS频道1，225 AM，BRC 239°
+
+Arco海盗加油机，塔康33Y，225 AM，14000英尺
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

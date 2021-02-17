@@ -1,0 +1,24 @@
+[TITLE]
+
+[DESCRIPTION]
+1998年12月“南方守望行动”
+VF-32和他们F-14B雄猫使得南方强制建立起了一个禁飞区。伊朗和伊拉克正在共同努力对抗美国海军在NAG的存在。
+
+
+USS Stennis塔康74X，ICLS频道1，225 AM
+
+Shell海盗加油机，塔康33Y，225 AM，15000英尺
+[RED TASK]
+
+[BLUE TASK]
+在航路点1-2执行CAP任务。可以使用武器来保护舰队和机组。
+频率：所有战机都在225 AM.
+
+2 x F-14B（呼号PONTIAC 4-1）
+2x F-18C（呼号UZI 8-1）护航MAGIC
+1x  E2D Hawkeye （呼号MAGIC 2-1）
+1x S3B Viking（SHELL 3-1）加油机
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

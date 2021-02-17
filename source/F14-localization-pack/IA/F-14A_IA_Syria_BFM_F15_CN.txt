@@ -1,0 +1,22 @@
+[TITLE]
+
+[DESCRIPTION]
+BFM 1 F-14 vs 1 F-15。
+
+
+以色列的主人邀请我们去美丽的加利利海上进行友好的训练。 
+
+这是直截了当的 BFM 1对1训练，你将迎击对方最优秀的 F-15 飞行员。记住，这是友好训练，但尽力去战斗。 
+
+没有任何规则，开始战斗！
+
+
+祝好运！
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

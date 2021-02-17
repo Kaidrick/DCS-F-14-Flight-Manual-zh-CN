@@ -1,0 +1,23 @@
+[TITLE]
+
+[DESCRIPTION]
+守卫舰队
+
+状况——为舰队提供 CAP。 拦截任何贴海飞来的飞机。俄国人已经没有了任何动静。。。
+[RED TASK]
+
+[BLUE TASK]
+任务——在战斗群前方的天空上巡逻，拦截任何出海的俄国战机。
+AWACS——AN/ARC-159 无线电预设波道1——225 MHz AM
+S3加油机——AN/ARC-159 无线电预设波道22——258 MHz AM
+CV-74——塔康 74X AN/ARC-159 无线电预设波道 3——260 MHZ AM
+
+[TRIGGERS]
+[1]
+AWACS 报告有几架逆火正贴海飞来！让我们去干掉他们。
+——Jester
+[2]
+他们已经挂了Jim。干得好！ 是时候回家了。
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

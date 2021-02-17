@@ -1,0 +1,122 @@
+[TITLE]
+CLEARING THE WAY
+[DESCRIPTION]
+    北约战机已让红军的IADS威胁降低，但SAM仍然运作并对红军基地保持警戒。
+
+   在敌方空中威胁得到肃清前，北约部队必须首先开辟出一条通路。SEAD小队计划持续突击来攻击并消灭红军SAM，为打击高价值目标扫除障碍。
+
+    红军战机比以往更为活跃。这将是一场恶战。
+
+执行
+
+    SEAD机群SPRINGFIELD将迎击敌方FEBA北部的SA2，SA11和SA6。
+
+    护航小队UZI将支援SEAD机群至目标。UZI将清理边境北部并迎击敌机。
+
+任务
+
+    UZI 1（2 x F-14B，玩家小队）将护送SPRINGFIELD至WP1（marshall）。所有小队将在1622本地时间向北推进。
+
+    UZI 1将在WP2和WP3间清理敌方战机，同时也迎击任何威胁到SEAD机群的战机。UZI 1将保持盘旋直到主要目标被消灭。
+
+友机
+
+    SPRINGFIELD小队（8 x F/A-18C）将迎击主要防空系统。
+
+    UZI 2（2 x F-14B）支援并护送SEAD机群。
+
+    COLT（4 x F-14B）和FORD（2x F-15C）小队将进行BARCAP，但可能脱离迎击过近的敌机威胁。
+
+    FOCUS（E-2D AWACS）将指挥任务。
+
+    ARCO（S-3B TANKER西部盘旋）和SHELL（KC-135 TANKER西部盘旋）都将升空进行支援（ARCO：TCN 39X A/A，SHELL：TCN 40X A/A，264.000 MHz AM / 无线电预设波道3）
+
+航母
+
+    从航母进行起降——
+        - BRC 112
+        - TCN 74X
+        - ICLS 11
+        - CHN 265.000 MHz AM / 无线电预设波道4
+
+    Uzi将从1 & 2号弹射器起飞。
+    分流机场为瓦兹亚尼基地（标记为固定点）
+
+威胁
+
+    红军空中威胁程度很高——米格29分队和米格23、米格21预备中队增强了红军空中战力。必须保护SEAD机群免受敌机的攻击。
+
+    虽然针对IADS指挥节点的空袭降低了红军防空的威胁，但运作中的SAM仍然是重大威胁。 SEAD小队主要目标为AO中的SA2，SA6和SA11营，然而我们预期FEBA北部的大量防空威胁从AAA和MANPAD到SA10阵地都有。留意雷达预警。
+[RED TASK]
+击落所有敌机
+[BLUE TASK]
+    本地时间1622从Marshall推进（WP1）
+
+    在WP2和WP3之间巡逻。迎击所有空中威胁。
+
+    SEAD必须存活直到完成任务。
+
+    安全返回母舰（分流机场：瓦兹亚尼）
+[TRIGGERS]
+[1]
+Focus通知所有小队，根据简报继续任务。本地时间1622从WP1开始推进。
+Springfield小队，SAM阵地优先。Uzi小队，给予掩护。
+
+Focus完毕。
+[2]
+Uzi 2，升空。
+[3]
+Springfield 1，feet dry。
+[4]
+Springfield 2，feet dry。
+[5]
+所有小队，Focus——边境北部多架敌机。
+
+Uzi小队，随意交战。
+[6]
+Uzi 2，交战中！
+[7]
+Springfield，脱离攻击！
+[8]
+Springfield小队，迎击敌方防空。
+[9]
+Springfield，Magnum！
+[10]
+Focus，敌方机队离开纳尔奇克——战机，做好准备。
+[11]
+Focus，第二敌方机队，北方。面朝而来。
+[12]
+所有小队，Focus：突现敌方机队，东方——敌机接近。
+[13]
+Focus通知所有小队，敌机已击落一架我们的加油机——他们正在朝向打击机群——所有战机前去拦截！
+[14]
+Spike，SA-11，西北部。
+[15]
+Spike，SA-6，东北方向。
+[16]
+Spike，SA-2，北部。
+[17]
+Springfield，SA-11摧毁。
+[18]
+Springfield 3，SA-2阵地摧毁。
+[19]
+Springfield，SA-6已摧毁。
+[20]
+SAM阵地已摧毁。Springfield小队正在飞离。
+[21]
+所有小队，Focus：任务完成。停止攻击并RTB。
+[22]
+Focus通知所有战机——撤退。敌机已击落Springfield小队。
+
+【任务失败】
+[23]
+【任务成功】
+[24]
+【任务成功】
+[25]
+【任务成功】
+[26]
+【任务成功】
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

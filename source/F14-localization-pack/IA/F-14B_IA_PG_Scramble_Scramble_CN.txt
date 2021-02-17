@@ -1,0 +1,26 @@
+[TITLE]
+
+[DESCRIPTION]
+紧急起飞！
+
+
+
+USS Stennis塔康74X，ICLS频道1，225 AM，BRC 346°
+
+Arco海盗加油机 塔康33Y，225 AM，14000英尺
+[RED TASK]
+
+[BLUE TASK]
+舰队防御，尽快起飞！
+
+航母战斗群正遭到武装快艇和带有护卫的SU24M攻击！
+2x F14呼号Dodge 4-1
+2x F14呼号Colt 4-1
+1x E2D呼号Darkstar 2-1
+2x F/A18C呼号Uzi 8-1
+
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

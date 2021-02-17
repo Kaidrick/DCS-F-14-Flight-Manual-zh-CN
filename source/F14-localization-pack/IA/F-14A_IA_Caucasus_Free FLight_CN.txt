@@ -1,0 +1,14 @@
+[TITLE]
+
+[DESCRIPTION]
+黑海观光！ ——在头等舱里！
+[RED TASK]
+
+[BLUE TASK]
+USS Stennis，塔康 74 X, ICLS 频道1, 225 AM, BRC 128°
+
+Arco，海盗加油机， 225 AM，塔康 33Y, 14000英尺
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

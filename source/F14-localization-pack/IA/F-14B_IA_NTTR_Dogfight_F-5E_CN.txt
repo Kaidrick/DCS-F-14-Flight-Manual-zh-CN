@@ -1,0 +1,24 @@
+[TITLE]
+
+[DESCRIPTION]
+前方10海里处有一架F-5E，你的目标是从后方使用AIM-9或机炮进行ACM练习。如果你成功击落了F-5E你可以使用无线电菜单请求另一架进行练习。祝好运！
+[RED TASK]
+击落你。
+[BLUE TASK]
+击落他们。
+
+内利斯塔康12X， 132.550 AM 
+
+Texaco加油机塔康33Y， 225 AM, 18000英尺
+[TRIGGERS]
+[RADIO MESSAGES]
+[1]
+入侵者重生
+[2]
+入侵者重生
+[3]
+入侵者重生
+[4]
+入侵者重生
+[TRANS MESSAGES]
+[ENDS]

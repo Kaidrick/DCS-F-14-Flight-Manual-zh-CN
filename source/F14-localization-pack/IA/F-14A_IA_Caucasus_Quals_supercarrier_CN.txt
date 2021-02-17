@@ -1,0 +1,16 @@
+[TITLE]
+
+[DESCRIPTION]
+欢迎来到航母资质。起飞并飞行15到20海里。你的飞机已加注了足够的油料来执行 case 1程序。当你觉得离舰足够远时联系 CATCC，接着在你的预分配高度2000英尺重新进入着舰航线。当收到 Charlie 信号后，开始并使用 case 1回收。
+
+祝好运。
+[RED TASK]
+
+[BLUE TASK]
+USS 乔治华盛顿，塔康 74x，225.000 AM，波道 1。ICLS 波道 1。DL 激活，BRC 040°。
+
+海盗加油机 Arco 在高度14000英尺就位，225.000AM，波道 1，塔康 33y。
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

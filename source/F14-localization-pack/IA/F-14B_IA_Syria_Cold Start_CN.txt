@@ -1,0 +1,15 @@
+[TITLE]
+
+[DESCRIPTION]
+玩家将在拉马特·大卫开始。
+
+
+享受飞行！
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

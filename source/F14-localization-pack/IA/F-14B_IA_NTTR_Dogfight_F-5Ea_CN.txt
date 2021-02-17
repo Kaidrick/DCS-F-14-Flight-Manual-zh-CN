@@ -1,0 +1,20 @@
+[TITLE]
+
+[DESCRIPTION]
+
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[1]
+入侵者重生
+[2]
+入侵者重生
+[3]
+入侵者重生
+[4]
+入侵者重生
+[TRANS MESSAGES]
+[ENDS]

@@ -1,0 +1,14 @@
+[TITLE]
+
+[DESCRIPTION]
+尽最快速度从科罗拉多河沿着胡佛水坝飞抵位于WP1的电视塔大门。
+
+保持在河上！如果你没有在河上方的话每秒会加5秒惩罚。
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

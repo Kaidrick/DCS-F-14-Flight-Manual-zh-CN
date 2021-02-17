@@ -1,0 +1,238 @@
+[TITLE]
+ALPHA STRIKE MOZDOK
+[DESCRIPTION]
+    道路通畅。
+
+    北约已经开辟了一条通往红军在该地区主要立足点莫兹多克的道路。
+    抓住这次机会，北约航母飞行联队和空军的中队计划联合行动来铲除红军最后在本地区的轰炸机。
+    联合alpha strike就是被分配执行这种决定性的突袭。是时候把熊赶回笼子里了。
+
+执行
+
+    Carrier Air Wing/USAF alpha strike打击机群将联合突袭莫兹多克基地。NATO战机将在marshall（WP1）进行会合并向北推进进行突袭。
+
+    UZI机队将带头进攻迎击敌方战机。UZI准备就绪后，将呼叫SEAD和打击机群发起进攻。
+
+    这将是我们摧毁红军轰炸机的最佳机会——我们不能够失败。狩猎愉快。
+
+任务
+
+    UZI 1（2 x F-14B，玩家小队）将护送打击机群至Marshall（WP1）。UZI将清除Marshall以北的战机。
+
+    UZI 1将在准备就绪后命令SEAD和打击机群发动进攻（使用无线电：F10让友机开始推进）。第二CAP小队已就位如果需要协助的话。
+
+    UZI 1将保护正在执行任务的打击群。任务完成后且打击机群安全离开后，UZI1就可以离开并RTB了。
+
+友机
+
+    SPRINGFIELD小队（4 x F/A-18C）被命令推进后将压制AO中的防空。
+
+    DODGE （4 x F/A-18C）和PONTIAC（3 x B-52）小队将打击位于莫兹多克基地的高价值目标。
+
+    UZI 2（2 x F-14B）将支援并护送alpha strike机群。
+
+    ENFIELD（4 x F-15C）小队命令推进时将支援并扫除敌机。
+
+    FOCUS（E-2D AWACS）将指挥任务。
+
+    ARCO（KC-135加油机在西部盘旋）和SHELL（KC-135加油机东部盘旋）皆已升空支援（ARCO：TCN 39X A/A / SHELL：TCN 40X A/A，264.000 MHz AM / 无线电预设波道3）
+
+航母
+
+    从航母进行起降
+        - BRC 021
+        - TCN 74X
+        - ICLS 11
+        - CHN 265.000 MHz AM / 无线电预设波道4
+
+    Uzi将从1 & 2号弹射器起飞。
+
+    分流机场为瓦兹亚尼（固定点）
+
+威胁
+
+    持续SEAD任务已经严重打击了目标周围的主防空系统，但机动SAM发射车和后备导弹阵地仍可能在运作。
+
+    红军空中威胁依旧很大——米格29和米格25战机中队预计会在AO中行动，后备分队的米格21和米格23也有可能出现。
+
+    在AO中保持警惕——红军确信已经非常危急，不论剩下什么都会射向我们。
+[RED TASK]
+
+[BLUE TASK]
+    在alpha strike莫兹多克基地时提供掩护。从WP1推进——扫除边境北方的敌军战机。
+
+    使用无线电（F10菜单）命令SEAD进攻，之后联系打击机群。
+
+    在任务期间袒护其他小队离开。
+
+    安全返回航母（分流基地：瓦兹亚尼）
+[TRIGGERS]
+[1]
+Uzi小队，这里是Focus。根据简报前进至Marshall。打击机群很快就起飞了。祝好运。
+[2]
+Uzi 2，升空。
+[3]
+Springfield小队，升空。
+[4]
+Dodge小队，升空。
+[5]
+Focus，Springfield小队，feet dry。
+[6]
+这里是Dodge 1，Dodge小队feet dry。
+[7]
+Enfield 4，升空。
+[8]
+Focus，Pontiac小队——前往Marshall。
+[9]
+Enfield 5，我们已升空。
+[10]
+Uzi小队，Focus，突现敌方机队，北方——Fulcrums和Floggers。必要时随意开火。
+[11]
+Focus通知Uzi小队，敌机群组正朝向你。随意开火。
+[12]
+Springfield 1已就位
+
+【新无线电项目F10——SEAD战机开始推进】
+[13]
+Springfield 2已就位——等待命令。
+
+【新无线电项目F10——SEAD战机开始推进】
+[14]
+Dodge 1已就位。
+[15]
+Dodge 2等待指令。
+[16]
+Focus，Pontiac：Pontiac小队已就位。
+[17]
+Focus，Enfield 4已就位。
+[18]
+Enfield 5通知Focus，我们已就位。
+[19]
+【新无线电项目F10——CAP战机开始推进】
+[20]
+收到，Enfield正向北推进。
+[21]
+【打击机群开始推进——新无线电项目F10】
+[22]
+【 SPRINGFIELD 1 被击落 】
+[23]
+【 SPRINGFIELD 2 被击落】
+[24]
+收到，Springfield正向目标推进。
+[25]
+Springfield脱离攻击。
+[26]
+收到，Dodge正在攻击。
+[27]
+Pontiac，接近目标。
+[28]
+Focus，Uzi 2。我们正向北方推进，与敌机交战。
+[29]
+Springfield，Magnum。
+[30]
+Springfield 2，Magnum。
+[31]
+Springfield，Magnum！
+[32]
+Springfield，Magnum。
+[33]
+Uzi小队，战场已清空——保持不动。
+[34]
+Focus通知所有战机，突现敌方机队，北方。
+[35]
+Focus，突现次要敌方机队，北方。
+[36]
+Focus，突然机队，西方。
+[37]
+Focus，次要敌方机队，西北部。所有战机，前去迎击！
+[38]
+Springfield 1，雷达阵地已摧毁。
+[39]
+Focus，Springfield，SA-8摧毁。
+[40]
+Springfield通知Focus，摧毁SA-8。
+[41]
+Springfield 3，shack SA-11。
+[42]
+Dodge 3，击中指挥堡垒。
+[43]
+Focus，Dodge，shack（正中）弹药库
+[44]
+Springfield，spike SA-3，北部。
+[45]
+Springfield，SA-3 spike，西北。
+[46]
+Springfield 2，SA-2 spiked，西方。
+[47]
+Pontiac 1，shack。
+[48]
+Pontiac 2，命中目标。
+[49]
+Pontiac 3，击中跑道。
+[50]
+Focus，干的漂亮。攻击战机，撤退。
+
+Uzi小队，继续掩护。
+[51]
+打击机群已撤退。Uzi，准许离开AO。
+
+【准许RTB】
+[52]
+所有战机，这里是Focus。来自指挥部的紧急消息。
+
+所有单位停止敌对行动。红军已经开始讨论撤军与停火条款。
+
+干的非常棒。所有战机，RTB。
+[53]
+所有小队，Focus。我们与打击机群失去联系！立刻撤退！
+
+【任务失败】
+[54]
+所有小队，Focus。我们与打击机群失去联系！立刻撤退！
+
+【任务失败】
+[55]
+【任务完成】
+[56]
+【任务完成】
+[57]
+【任务完成】
+[58]
+【任务完成】
+[RADIO MESSAGES]
+[1]
+SEAD小队Springfield 1开始推进
+[2]
+SEAD小队Springfield 2开始推进
+[3]
+CAP战机开始推进
+[4]
+CAP战机开始推进
+[5]
+CAP战机开始推进
+[6]
+打击机群开始推进
+[7]
+SEAD小队Springfield 1开始推进
+[8]
+SEAD小队Springfield 2开始推进
+[9]
+SEAD小队Springfield 1开始推进
+[10]
+SEAD小队Springfield 1开始推进
+[11]
+SEAD小队Springfield 2开始推进
+[12]
+SEAD小队Springfield 2开始推进
+[13]
+SEAD小队Springfield 2开始推进
+[14]
+打击机群开始推进
+[15]
+打击机群开始推进
+[16]
+打击机群开始推进
+[17]
+打击小队Ford1开始推进
+[TRANS MESSAGES]
+[ENDS]

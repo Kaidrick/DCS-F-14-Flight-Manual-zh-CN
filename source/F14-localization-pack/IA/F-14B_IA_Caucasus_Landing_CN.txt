@@ -1,0 +1,12 @@
+[TITLE]
+
+[DESCRIPTION]
+你正位于降落巴统机场的第五边并已准许着陆
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

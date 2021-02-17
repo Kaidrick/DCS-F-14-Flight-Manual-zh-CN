@@ -1,0 +1,14 @@
+[TITLE]
+
+[DESCRIPTION]
+你和你的僚机需要补给些燃油。你在左舷练习时，同时僚机会在右舷进行加油。
+[RED TASK]
+
+[BLUE TASK]
+加油机Texaco， 225 AM，塔康33Y
+
+Stennis，225 AM，塔康74X， ICLS 1， BRC 090°
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

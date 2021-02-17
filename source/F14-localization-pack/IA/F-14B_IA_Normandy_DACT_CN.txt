@@ -1,0 +1,14 @@
+[TITLE]
+
+[DESCRIPTION]
+作为在大西洋部署的一部分，USS Saratoga (现为Stennis)正和CVW-17一起穿越英吉利海峡。 CO已经从Evreus基地安排了些M2000进行一些DACT训练。他们均为标准CAP挂载，超级530D和魔术导弹，而你的你的僚机挂载了2x2。给中队争光！
+[RED TASK]
+
+[BLUE TASK]
+USS Stennis塔康74X，ICLS频道1，225 AM，BRC 233°
+
+Arco海盗加油机，塔康33Y，225 AM，14000英尺
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

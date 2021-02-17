@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-26 18:03+0800\n"
-"PO-Revision-Date: 2020-08-11 23:25+0800\n"
+"PO-Revision-Date: 2021-01-27 14:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 # 2020/08/11 AG 开始校对。
 # 2020/08/11 AG 校对完毕
@@ -515,7 +515,7 @@ msgstr ""
 
 #: ../../source/dcs.rst:163
 msgid "Hostile Area"
-msgstr "敌占区"
+msgstr "敌对区域"
 
 #: ../../source/dcs.rst:163
 msgid "HA"

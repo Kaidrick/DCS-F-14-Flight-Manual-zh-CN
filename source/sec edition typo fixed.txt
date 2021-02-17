@@ -1,0 +1,42 @@
+术语修正
+aerial refuelling
+detection
+override
+electrical system
+approach indexer
+fire
+INLET ICE - 错句修正
+--0827号后
+GBU - FIN unit
+jettison
+scale
+oil pressure indicators
+gearbox
+LOS rate
+TWS
+IFT
+chin pod
+AN/ALE-39 - 编程面板修正
+LAU-138 部分修正
+new Jester meun.
+--0923号后
+AI -- airborne interceptor
+ALR-67 小修正。
+inhibit - disable 改正
+extend - retract 改正
+指示条 -> 指示带
+条状xx -> 带状xx
+ALE-39布撒器 --> 发射器
+roll
+paddle
+2020年11月18日后
+wheelbreak -- 制动-->刹车
+gun -- 机炮-->航炮
+bomb --航弹
+airborne interceptor -- 机载截击雷达
+2021/01/01 后
+rocker switch -- 船形开关
+warning light -- 告警灯
+control fin -- 前翼
+iff return -- 应答结果
+wing assembly -- 折叠翼面部件

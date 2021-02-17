@@ -1,0 +1,20 @@
+[TITLE]
+
+[DESCRIPTION]
+欢迎来到航母资质任务。
+
+你的“雄猫”已经加注了足够的油料来进行航母作业。启动飞机，起飞并飞出大约20海里。接着联系 CATCC 来开始你的 Case 1回收。
+[RED TASK]
+
+[BLUE TASK]
+BRC: 327°
+
+塔康 74 X
+
+ILS 波道 1
+
+CATCC：251.000 AM 
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]
