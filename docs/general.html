@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="zh-CN" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>总体设计和系统概述 &mdash; DCS: F-14 “雄猫” 中文飞行手册  文档</title>
   
@@ -19,7 +19,10 @@
   
     <link rel="shortcut icon" href="_static/favicon.ico"/>
   
+
   
+  
+
   
 
   
@@ -32,7 +35,6 @@
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/language_data.js"></script>
         <script src="_static/translations.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
@@ -55,7 +57,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home" alt="Documentation Home"> DCS: F-14 “雄猫” 中文飞行手册
+            <a href="index.html" class="icon icon-home"> DCS: F-14 “雄猫” 中文飞行手册
           
 
           
@@ -207,7 +209,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#id3">传感器控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#ddd">DDD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#hcu-tid">HCU/TID</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symbology">标识</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symbology">标识符</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#tcs-operation">TCS 操作</a></li>
@@ -233,7 +235,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id5">描述</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#controls">控制</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#displays">显示</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#warning-lights">报警灯</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#warning-lights">告警灯</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#threat-indication-alert-tones">威胁提示警告音</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bit">BIT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#threat-symbology">威胁符号</a></li>
@@ -401,6 +403,8 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -412,7 +416,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
         
       </li>
     
@@ -421,10 +425,10 @@
   
   <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
       
-        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n">下一页 <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
       
       
-        <a href="cockpit.html" class="btn btn-neutral float-left" title="驾驶舱简介" accesskey="p"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
+        <a href="cockpit.html" class="btn btn-neutral float-left" title="驾驶舱简介" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
       
   </div>
   
@@ -504,9 +508,9 @@
 <img alt="_images/oil1.png" src="_images/oil1.png" />
 <p>滑油压力表中显示相应发动机中的滑油压力从而允许飞行员能够检查发动机中的滑油压力是否在正常水平。</p>
 <p>与发动机运转相关的注意灯位于飞行员驾驶舱中，注意 - 提示灯面板中以及 HUD 两侧。</p>
-<p>位于 HUD 两侧的提示灯为发动机失速报警灯，当检测到发动机失速时，报警灯将以 3Hz 的速率闪烁。HUD 左侧的报警灯用于指示左发压气机失速，右侧的报警灯则指示右发压气机失速。报警灯亮起的同时还将伴随调制出的 320Hz 的单音警告音。</p>
-<p>左发压气机失速报警灯下方的指示灯中，其中一个指示灯为 <strong>AUTO THROT</strong> （自动油门）注意灯，当自动油门系统通过除使用油门模式开关以外的方法断开时，注意灯将会亮起10秒钟。</p>
-<p>注意 - 提示灯面板中，发动机相关的注意灯和报警灯分别为：</p>
+<p>位于 HUD 两侧的提示灯为发动机失速告警灯，当检测到发动机失速时，告警灯将以 3Hz 的速率闪烁。HUD 左侧的告警灯用于指示左发压气机失速，右侧的告警灯则指示右发压气机失速。告警灯亮起的同时还将伴随调制出的 320Hz 的单音警告音。</p>
+<p>左发压气机失速告警灯下方的指示灯中，其中一个指示灯为 <strong>AUTO THROT</strong> （自动油门）注意灯，当自动油门系统通过除使用油门模式开关以外的方法断开时，注意灯将会亮起10秒钟。</p>
+<p>注意 - 提示灯面板中，发动机相关的注意灯和告警灯分别为：</p>
 <ul class="simple">
 <li><p><strong>INLET ICE</strong> - 注意灯亮起表示左发进气道结冰信号器探测到结冰。</p></li>
 <li><p><strong>L INLET 和 R INLET</strong> - 注意灯亮起表示对应可调进气道系统的 AICS 系统出现了故障。</p></li>
@@ -580,15 +584,15 @@
 <p>位于飞行员驾驶舱中右膝仪表板上的燃油量指示器用于指示飞机内部油箱和副油箱中的燃油量。</p>
 <p>燃油量指示器中，最上方的指示器（ <strong>1</strong> ）显示当前设置的 <strong>BINGO</strong> （反航）油量，通过转动指示器旁边的旋钮（ <strong>5</strong> ）来设定所需的值。当剩余的燃油总量低于指示器中设定的值时，BINGO 注意灯就会亮起。</p>
 <p><strong>TOTAL</strong> （<strong>2</strong>）指示器显示飞机所有油箱中的燃油总量。</p>
-<p>一般情况下， <strong>L</strong> 和 <strong>R</strong> （ <strong>3</strong> ）分别显示左/右供油油箱组的燃油量。燃油管理面板中的摇臂开关用于选择显示机翼油箱（<strong>WING</strong>）或副油箱（<strong>EXT</strong>）的燃油量，但摇臂开关由弹簧归中显示供油油箱组（<strong>FEED</strong>）的燃油量。当指示器显示机翼油箱或副油箱油量时，L（左侧）计数器将指示左翼油箱或左侧副油箱中的燃油量，R（右侧）计数器则指示右翼油箱或右侧副油箱的燃油量。</p>
+<p>一般情况下， <strong>L</strong> 和 <strong>R</strong> （ <strong>3</strong> ）分别显示左/右供油油箱组的燃油量。燃油管理面板中的船形开关用于选择显示机翼油箱（<strong>WING</strong>）或副油箱（<strong>EXT</strong>）的燃油量，但船形开关由弹簧归中显示供油油箱组（<strong>FEED</strong>）的燃油量。当指示器显示机翼油箱或副油箱油量时，L（左侧）计数器将指示左翼油箱或左侧副油箱中的燃油量，R（右侧）计数器则指示右翼油箱或右侧副油箱的燃油量。</p>
 <p><strong>FUS &amp; FEED</strong> 带状指示器（机身油箱和供油油箱组）以千磅为单位显示 <strong>AFT &amp; L</strong> （后机身油箱和左供油油箱组）以及 <strong>FWD &amp; R</strong> （前机身油箱和右供油油箱组）的燃油量。</p>
 <p>另外，RIO 驾驶舱中也含有一个燃油量指示器，指示器位于右仪表板中。这个指示器只能显示所有油箱的燃油总量（详见 <a class="reference internal" href="cockpit.html#rfuelqtytot"><span class="std std-ref">燃油总量表</span></a>）。</p>
 <img alt="_images/fuel2.png" src="_images/fuel2.png" />
 <p>位于飞行员驾驶舱中左侧垂直控制台上包含有适用于燃油系统的控制开关和按钮。</p>
-<p><strong>QTY SEL</strong> （<strong>1</strong>）摇臂开关在上文关于 L &amp; R 燃油量指示带的介绍中有详细说明。</p>
+<p><strong>QTY SEL</strong> （<strong>1</strong>）船形开关在上文关于 L &amp; R 燃油量指示带的介绍中有详细说明。</p>
 <p>飞行员可以使用 <strong>FEED</strong> 开关来通过选择 <strong>FWD</strong> 档位（前机身油箱和剩余右发供油所使用的油箱）或 <strong>AFT</strong> 档位（后机身油箱和剩余左发供油所使用的油箱）修正由于单发停车或燃油供给管路故障所导致两侧油箱燃油量不平衡，而不是像 <strong>NORM</strong> 档位一样——左/右发动机燃油供给分别向对应的发动机输送燃油。当保护盖关闭时，这个开关会被保护盖锁定在 NORM 档位。</p>
 <p><strong>WING/EXT TRANS</strong> 开关用来控制机翼到发动机供油系统以及副油箱到发动机供油系统的燃油传输。一般情况下使用的 <strong>AUTO</strong> 档位将在起落架收上后立刻启用机翼/副油箱燃油传输。开关拨动至 <strong>ORIDE</strong> 档位时，无论起落架当前的位置，机翼/副油箱的燃油传输都将被启用，绕过起落架收上检测从而允许当飞机处于地面或在输油系统中发生电气故障时启用机翼/副油箱燃油传输。此外，开关位于 <strong>OFF</strong> 将禁用机翼/副油箱传输，但是当在 MTS（主测试）面板中选择 INST 档位进行测试、受油管设置为 ALL EXTD 或放油时，开关将被自动超控至 AUTO 档位。</p>
-<p>使用 <strong>DUMP</strong> （<strong>5</strong>）开关可以通过河狸尾巴放油装置来将燃油放出，同时开关还会启用所有输油系统，使得除了机身油箱外，还能将机翼和副油箱中的燃油放出。如果机轮负重或者减速板未完全收起，那么放油将被禁止。</p>
+<p>使用 <strong>DUMP</strong> （<strong>5</strong>）开关可以通过河狸尾巴放油装置来将燃油放出，同时开关还会启用所有输油系统，使得除了机身油箱外，还能将机翼和副油箱中的燃油放出。如果机轮负重或者减速板未完全收起，那么放油将被电子禁止。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>尽管从技术上来说，放油过程中是可以开启加力燃烧室的，但是这样有可能会点燃放出的燃油，因此禁止在放油时进行加力燃烧。</p>
@@ -614,7 +618,7 @@
 <div class="section" id="fire-detection-system">
 <h3>失火探测系统<a class="headerlink" href="#fire-detection-system" title="永久链接至标题">¶</a></h3>
 <p>F-14 的失火探测系统含有两个火焰感测回路，每台发动机各一个。</p>
-<p>如果整个回路中每一处都探测到温度都超过 600°F（约 316°C），或在任意 6 英寸范围内探测到温度超过 1,000°F（约 538°C）便会触发失火探测回路。触发左探测回路使 ACM 面板中左发失火报警灯亮起，触发右探测回路使右发起火报警灯亮起，详情 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 。</p>
+<p>如果整个回路中每一处都探测到温度都超过 600°F（约 316°C），或在任意 6 英寸范围内探测到温度超过 1,000°F（约 538°C）便会触发失火探测回路。触发左探测回路使 ACM 面板中左发失火告警灯亮起，触发右探测回路使右发起火告警灯亮起，详情 <a class="reference internal" href="cockpit.html#acmpanel"><span class="std std-ref">空战格斗面板</span></a> 。</p>
 <p>此外，F-14 中还有多个设计用于探测发动机内热空气泄露的传感器，如果探测空气温度高于575 °F （约302 °C），飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 BLEED DUCT 注意灯将亮起。</p>
 </div>
 <div class="section" id="fire-suppression-system">
@@ -632,7 +636,7 @@
 </tr>
 </tbody>
 </table>
-<p>F-14 的灭火系统包含两个装有灭火剂的灭火瓶，灭火剂可以被注入飞行员选择的发动机中。虽然系统包含两瓶灭火瓶，但是两瓶灭火瓶会同时注入灭火剂使得灭火系统成为一次性系统，一次只能扑灭一台发动机中的火灾。</p>
+<p>F-14 的灭火系统包含两个装有灭火剂的灭火瓶，灭火剂可以被注入飞行员选择的发动机中*。虽然系统包含两瓶灭火瓶，但是两瓶灭火瓶会同时注入灭火剂使得灭火系统成为一次性系统，一次只能扑灭一台发动机中的火灾。<a href="#id1"><span class="problematic" id="id2">*</span></a>译注：不会进入涡轮内部。</p>
 <p>由于灭火剂的有效性取决于在火被熄灭前留在发动机内的时长，因此，在飞机空速较低的情况下，灭火剂的灭火效果更佳，这是因为在低速下，需要更长的时间来将灭火剂从发动机中吹出。灭火剂毒性低，旨在有效灭火的前提下尽可能减少对发动机造成的损伤。</p>
 <p>飞行员可以抽出失火发动机相应的 <strong>FUEL SHUT OFF</strong> 手柄（见上图），并按下该手柄后面的灭火器按钮来激活灭火系统。拉起手柄将切断对应发动机的燃油供给，而灭火器按钮则将释放灭火剂注入到发动机中。</p>
 <p>还有两个提示灯连接到灭火系统中，每个提示灯用来指示其中一个灭火瓶中的压力较低。 <strong>ENG FIRE EXT</strong> 表示主灭火瓶中压力较低， <strong>AUX FIRE EXT</strong> 表示辅助灭火瓶中压力较低。两个提示灯都位于飞行员驾驶舱中注意-提示面板上，详见 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 。</p>
@@ -640,7 +644,7 @@
 </div>
 <div class="section" id="fire-detection-and-suppression-system-test">
 <h3>失火探测和灭火系统测试<a class="headerlink" href="#fire-detection-and-suppression-system-test" title="永久链接至标题">¶</a></h3>
-<p>两个系统都可以通过选择位于主测试面板中的 <strong>FIRE DET/EXT</strong> 档位来进行测试（详见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> ）。测试中，如果各自的回路正常工作，那么 ACM 面板中的两个失火报警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 <strong>GO</strong> 指示灯将会亮起。如果在测试中，主测试面板中 <strong>NO GO</strong> 或没有指示灯亮起，那么表示灭火系统或测试电路存在问题。</p>
+<p>两个系统都可以通过选择位于主测试面板中的 <strong>FIRE DET/EXT</strong> 档位来进行测试（详见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> ）。测试中，如果各自的回路正常工作，那么 ACM 面板中的两个失火告警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 <strong>GO</strong> 指示灯将会亮起。如果在测试中，主测试面板中 <strong>NO GO</strong> 或没有指示灯亮起，那么表示灭火系统或测试电路存在问题。</p>
 </div>
 </div>
 <div class="section" id="electrical-power-system">
@@ -758,14 +762,14 @@
 <li><p><strong>EMER</strong> - 应急，通过应急机翼后掠手柄控制机翼后掠。</p></li>
 <li><p><strong>OVER</strong> - 停放后掠，机翼处于停机后掠位置。</p></li>
 </ul>
-<p>相关的报警灯与提示灯位于 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 和飞行员驾驶舱 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中。</p>
-<p>当两个机翼后掠电气通道都无法操作机翼后掠或使用应急机翼后掠模式时，VDI 右侧的 <strong>WING SWEEP</strong> 报警灯将会亮起。如果未使用应急机翼后掠模式，但报警灯亮起，那么就表示电气系统可能不正常工作，此时应使用应急机翼后掠模式。</p>
+<p>相关的告警灯与提示灯位于 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 和飞行员驾驶舱 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中。</p>
+<p>当两个机翼后掠电气通道都无法操作机翼后掠或使用应急机翼后掠模式时，VDI 右侧的 <strong>WING SWEEP</strong> 告警灯将会亮起。如果未使用应急机翼后掠模式，但告警灯亮起，那么就表示电气系统可能不正常工作，此时应使用应急机翼后掠模式。</p>
 <p>当至少一个电气机翼后掠通道无法使用时，飞行员驾驶从注意-提示灯光面板中的 <strong>WING SWEEP</strong> 提示灯将亮起。</p>
 <div class="section" id="wing-sweep-system-test">
 <h4>机翼后掠系统测试<a class="headerlink" href="#wing-sweep-system-test" title="永久链接至标题">¶</a></h4>
 <p>起飞前，可通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 在不移动机翼的情况下对机翼后掠系统进行测试。</p>
 <p>如需进行测试，将机翼后掠模式设置为 <strong>AUTO</strong>，然后按下 <strong>MASTER RESET</strong> 按钮。设置 <strong>MASTER TEST</strong> 旋钮拨至 <strong>WG SWP</strong> 档位。</p>
-<p>机翼后掠指示器中的 CADC 指令后掠位置指示带将移动至 44° 的位置。飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 <strong>WING SWEEP</strong> 和 <strong>FLAP</strong> 注意/提示灯以及 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 中的 <strong>REDUCE SPEED</strong> 报警灯将亮起。</p>
+<p>机翼后掠指示器中的 CADC 指令后掠位置指示带将移动至 44° 的位置。飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 <strong>WING SWEEP</strong> 和 <strong>FLAP</strong> 注意/提示灯以及 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 中的 <strong>REDUCE SPEED</strong> 告警灯将亮起。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p><strong>WING SWEEP</strong> 提示灯将在测试开始3秒后亮起，然后熄灭，然后在测试开始8秒后再次亮起。</p>
@@ -807,20 +811,20 @@
 <h3>AFCS 自动飞行控制系统<a class="headerlink" href="#afcs-automatic-flight-control-system" title="永久链接至标题">¶</a></h3>
 <p>AFCS（自动飞行控制系统）可通过从 AFCS 传感器生成的自动操纵面指令来为飞机提供额外的稳定性（SAS 或增稳系统 ）。通过 <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS 控制面板</span></a> 中的三个开关分别控制 AFCS 的仰俯、横滚和偏航增稳，每个增稳开关都可以单独进行设置。</p>
 <p>俯仰和横滚增稳开关由弹簧归中，但是一般情况下通过为螺线管通电来使其保持在 ON 档位，这意味着，如果系统关闭或或无法进行操作，那么开关将会弹回 OFF 档位。偏航增稳开关是纯机械结构的开关。</p>
-<p>当 AOA 超过15个单位时，不得使用横滚 SAS，以此应该在格斗机动中将 ROLL SAS 设置为关闭。</p>
+<p>当 AOA 超过15个单位时，不得使用横滚 SAS，飞行员应该在格斗机动中将 ROLL SAS 设置为关闭。</p>
 <p>按下驾驶杆中的自动驾驶应急断开宽柄开关会使横滚和俯仰增稳开关退回 OFF 档位。</p>
 <div class="section" id="autopilot">
 <h4>自动驾驶<a class="headerlink" href="#autopilot" title="永久链接至标题">¶</a></h4>
-<p>出了增稳外，AFCS 还用于为飞行员提供自动驾驶功能。如需使用自动驾驶功能，必须先启用所有三个增稳通道。</p>
+<p>除开增稳外，AFCS 还用于为飞行员提供自动驾驶功能。如需使用自动驾驶功能，必须先启用所有三个增稳通道。</p>
 <p>自动驾驶系统的控制开关位于 <a class="reference internal" href="cockpit.html#afcs"><span class="std std-ref">AFCS 控制面板</span></a> 中。</p>
 <p>可用的自动驾驶模式包括：姿态保持、航向保持、地面航迹、高度保持、VECTOR/PCD（精确航线方向）和 ACL（自动助降）模式。</p>
 <p>将自动驾驶的 <strong>ENGAGE</strong> 开关拨至 ON 即可接通姿态保持，并保持飞机当前的姿态。姿态保持的限制为30°俯仰和60°横滚，超出这个范围，飞机将自动移动至限制范围内。飞机当前的姿态可以通过操纵驾驶杆来变更，当释放驾驶杆时，自动驾驶将会保持释放驾驶杆时的姿态。</p>
 <p>注意，在启用其它自动驾驶模式前，首先需要打开 <strong>ENGAGE</strong> 开关。</p>
 <p>HDG 开关的 <strong>HDG</strong> 档位用来启用航向保持，操纵飞机转向至所需的航向，并将飞机坡度保持在5°以内来接通航向保持。</p>
-<p>将 HDG 开关设置到 <strong>GT</strong> 档位时自动驾驶将进入地面航迹模式，等待 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>A/P REF</strong> 报警灯亮起，之后按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 <strong>A/P REF</strong> 报警灯将熄灭，接着地面航迹模式将被启用，接通后将设置自动驾驶补偿飞机的风偏来跟随地面航迹。</p>
-<p><strong>ALT</strong> ——高度开关用于选择高度保持模式，与地面航迹模式相似，<strong>A/P REF</strong> 报警灯亮起后，按下前轮转向按钮启来接通高度保持模式。</p>
+<p>将 HDG 开关设置到 <strong>GT</strong> 档位时自动驾驶将进入地面航迹模式，等待 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>A/P REF</strong> 告警灯亮起，之后按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 <strong>A/P REF</strong> 告警灯将熄灭，接着地面航迹模式将被启用，接通后将设置自动驾驶补偿飞机的风偏来跟随地面航迹。</p>
+<p><strong>ALT</strong> ——高度开关用于选择高度保持模式，与地面航迹模式相似，<strong>A/P REF</strong> 告警灯亮起后，按下前轮转向按钮启来接通高度保持模式。</p>
 <p>数据链路引导航向 - 精确航线方向模式用于允许 Link 4 操作员远程操纵飞机。该功能没有在 DCS 中进行模拟。</p>
-<p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式用于联合 Link 4 数据链路和机载雷达信标来进行自动助降。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 报警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 报警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 报警灯将熄灭。</p>
+<p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式用于联合 Link 4 数据链路和机载雷达信标来进行自动助降。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 告警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 告警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 告警灯将熄灭。</p>
 <p>ACL 可以与 APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制器</span></a> ）结合使用来进行全自动助降。ACL 可以通过右侧油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 可以通过左侧油门握把上的 <strong>CAGE/SEAM</strong> 按钮来断开。</p>
 <p>所有自动驾驶模式都可以通过用力移动驾驶杆来超控或可以通过自动驾驶应急断开手柄来解除自动驾驶，按下手柄后所有自动驾驶开关将复位至 OFF 档位。</p>
 </div>
@@ -835,7 +839,7 @@
 <div class="section" id="dlc-direct-lift-control">
 <h4>直接升力控制（DLC）<a class="headerlink" href="#dlc-direct-lift-control" title="永久链接至标题">¶</a></h4>
 <p>直接升力控制（DLC）用于在无俯仰输入和油门调整的情况下控制飞机在下滑道上的位置。DLC 使用机翼两侧的内侧扰流板并联合小幅调整水平安定面来控制升力。</p>
-<p>襟翼和起落架放下时，按下驾驶杆中的 DLC 开关即可接通 DLC 。接通 DLC 将会使内侧扰流板伸出一半，并允许通过驾驶杆中的 DLC 和机动襟翼控制拨轮来对 DLC 进行控制。</p>
+<p>当襟翼放下且油门握把处在 <strong>MIL</strong> （军用推力）以下时，按下驾驶杆中的 DLC 开关来接通 DLC。接通 DLC 后，内侧扰流板将会伸出一半并允许使用驾驶杆中的 DLC 和机动襟翼控制拨轮对其进行控制。DLC 还需要 AFCS 横滚和俯仰通道、内侧扰流板和液压系统正常工作。</p>
 <p>向前转动拨轮将使扰流板完全伸出，这将导致升力减小并使下滑道降低。向后转动拨轮将使扰流板收起到机翼表面，这将导致升力增加并使下滑道升高。</p>
 <p>再次按下 DLC 开关会断开 DLC 系统。</p>
 </div>
@@ -849,7 +853,7 @@
 <p>一般来说，在自动模式下，机动襟翼系统仍然可以通过驾驶杆中的 DLC 和机动襟翼控制拨轮来手动控制机动襟翼。向前转动旋钮收起襟翼和前缘缝翼，向后转动旋钮放下襟翼和前缘缝翼。</p>
 <p>机翼后掠时，襟翼将受限于机翼后掠的位置。机翼后掠角大于21°时，辅助（内侧襟翼）襟翼将被禁用。机翼后掠角大于50°时，所有襟翼将被禁用。前缘缝翼不会由于机翼后掠而被禁止。</p>
 <p>襟翼和缝翼的位置在 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> 中指示。</p>
-<p>飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 <strong>FLAP</strong> 灯亮起表示襟翼系统中发生故障，并且襟翼位置不对称。 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>REDUCE SPEED</strong> 报警灯表示指示空速超过225节但襟翼仍未收回。</p>
+<p>飞行员驾驶舱中 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 上的 <strong>FLAP</strong> 灯亮起表示襟翼系统中发生故障，并且襟翼位置不对称。 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>REDUCE SPEED</strong> 告警灯表示指示空速超过225节但襟翼仍未收回。</p>
 </div>
 <div class="section" id="speedbrakes">
 <h3>减速板<a class="headerlink" href="#speedbrakes" title="永久链接至标题">¶</a></h3>
@@ -876,7 +880,7 @@
 <p>无论停放刹车是否开启，飞行员都可以通过踩下脚蹬板逐渐增加刹车力度。</p>
 <p>一般情况下，两个机轮刹车系统中的液压都由联合液压系统来提供，但如果联合液压系统中的油液压力降低，那么机轮刹车系统将自动切换使用机轮刹车蓄压器。 <a class="reference internal" href="cockpit.html#brakepressind"><span class="std std-ref">应急刹车压力表</span></a> 显示了当前机轮刹车蓄压器内的压力。</p>
 <p>辅助刹车蓄压器内的油压最大时最多可提供大约13到14次机轮制动，停放刹车蓄压器最少可提供3次停放刹车。机轮刹车蓄压器可以通过 <a class="reference internal" href="cockpit.html#hydhandpump"><span class="std std-ref">手动液压泵</span></a> 来重新充压。</p>
-<p>HUD 左侧的 <strong>BRAKES</strong> 报警灯用来指示停放刹车是否激活、防滑系统故障或指示制动正在应急模式下运行（仅踩下脚蹬板时亮起）。</p>
+<p>HUD 左侧的 <strong>BRAKES</strong> 告警灯用来指示停放刹车是否激活、防滑系统故障或指示制动正在应急模式下运行（仅踩下脚蹬板时亮起）。</p>
 <div class="section" id="antiskid">
 <span id="askid"></span><h4>防滑系统<a class="headerlink" href="#antiskid" title="永久链接至标题">¶</a></h4>
 <p>防滑系统调节机轮刹车以防止飞机在地面上打滑。在空中启用防滑系统时，系统不会进行制动，直到两个主起落架机轮触地并开始旋转。此外，滑行速度低于15节时，防滑系统不会工作。</p>
@@ -1064,7 +1068,7 @@
 <p>辅助抛弃模式只能抛弃空对地挂载，并且是通过作动正常投放挂钩来抛弃它们的。这意味着飞机必须水平直线飞行，这是因为挂载不是被强行抛弃，而是靠重力投放并离开挂架。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>所有抛弃模式都无法抛弃 ITER 或挂载在 ITER 中的挂载，因此，无论挂载是否装有引信，ITER 上的挂载必须像正常投放武器一样来抛弃。</p>
+<dd class="field-odd"><p>所有抛弃模式都无法抛弃 ITER 或挂载在 ITER 中的武器挂载，因此，无论挂载是否装有引信，ITER 上的挂载必须像正常投放武器一样来抛弃。</p>
 </dd>
 </dl>
 </div>
@@ -1163,7 +1167,7 @@
 <dd class="field-odd"><p>AGC TRACE 尚未实装。</p>
 </dd>
 </dl>
-<p>在脉冲搜索模式下，当 IFF 问询器启动后，IFF 信息将会叠加显示在一般雷达回波上。在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示标度将切换至先前设置距离标度来显示距离和方位，在 PD STT 模式下，如果在 TID 选中了目标，当显示 IFF 返回时，那么 DDD 显示标度将切换至目标为中心 ±10 标度。</p>
+<p>在脉冲搜索模式下，当 IFF 问询器被启动后，IFF 信息将会叠加显示在正常雷达回波上。在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示标度将切换至先前设置距离标度来显示距离和方位，在 PD STT 模式下，如果在 TID 选中了目标，当显示 IFF 应答结果时，那么 DDD 显示标度将切换至目标为中心 ±10 标度。</p>
 </div>
 <div class="section" id="tactical-information-display-tid-and-associated-controls">
 <span id="tid"></span><h3>战术信息显示器（TID）与相关控制器<a class="headerlink" href="#tactical-information-display-tid-and-associated-controls" title="永久链接至标题">¶</a></h3>
@@ -1408,7 +1412,7 @@
 <tr class="row-even"><td><p>固定点</p></td>
 <td><a class="reference internal image-reference" href="_images/18.png"><img alt="_images/18.png" class="align-center" src="_images/18.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td><p>通用的固定航路点。</p></td>
+<td><p>一般的固定点航路点。</p></td>
 </tr>
 <tr class="row-odd"><td><p>敌对区域</p></td>
 <td><a class="reference internal image-reference" href="_images/19.png"><img alt="_images/19.png" class="align-center" src="_images/19.png" style="width: 50px; height: 50px;" /></a>
@@ -1479,7 +1483,7 @@
 <tr class="row-odd"><td><p>目标脱锁</p></td>
 <td><a class="reference internal image-reference" href="_images/33.png"><img alt="_images/33.png" class="align-center" src="_images/33.png" style="width: 50px; height: 50px;" /></a>
 </td>
-<td><p>TWS 或 STT 跟踪上的附加标识符（中心位于中心点的小 X），符号表示在8秒内目标没有更新。跟踪将在14秒后或2分钟后（如果启用跟踪保持功能）删除。</p></td>
+<td><p>TWS 或 STT 跟踪上的附加标识符（中心位于中心点的小 X），符号表示在8秒内目标没有被更新。跟踪将在14秒后或2分钟后（如果启用跟踪保持功能）删除。</p></td>
 </tr>
 <tr class="row-even"><td><p>选中的符号</p></td>
 <td><p>符号高亮</p></td>
@@ -1513,7 +1517,7 @@
 <tr class="row-odd"><td><p>命中时间（TTI）</p></td>
 <td><a class="reference internal image-reference" href="_images/47.png"><img alt="_images/47.png" class="align-center" src="_images/47.png" style="width: 50px; height: 20px;" /></a>
 </td>
-<td><p>AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间替代，TTI 显示了 WCS 计算出的导弹拦截目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁表示导引头已开机。（译注：这里的导引头开机表示导弹从半主动雷达制导切换至主动雷达制导）。</p></td>
+<td><p>AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间替代，TTI 显示了 WCS 计算出的导弹拦截跟踪目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁表示导引头已开机。（译注：这里的导引头开机表示导弹从半主动雷达制导切换至主动雷达制导）。</p></td>
 </tr>
 <tr class="row-even"><td><p>速度矢量</p></td>
 <td><a class="reference internal image-reference" href="_images/36.png"><img alt="_images/36.png" class="align-center" src="_images/36.png" style="width: 50px; height: 30px;" /></a>
@@ -1612,7 +1616,7 @@
 <span id="navgrid"></span><h4>导航指令与控制网格（NAV GRID）<a class="headerlink" href="#navigation-command-and-control-grid-nav-grid" title="永久链接至标题">¶</a></h4>
 <img alt="_images/navgrid.png" src="_images/navgrid.png" />
 <p>导航指令与控制网格或称为 <strong>NAV GRID</strong> 旨在从共同的固定参考点更简单的导航或进行 CAP 任务。NAV GRID 可使 TID 显示选中/跟踪相对被设定好的参考点的方位和距离，这个参考点称为 <strong>YY</strong> 。当 NAV GRID 启用时，对于选中和本机来说，显示的距离和方位都是相对于 <strong>YY</strong> 的。此外，它还会显示出一个网格，网格由从 YY 延伸至设定的威胁轴线构成。网格本身就是为了快速获取位置参考，同时对选中的目标精确读数。这就是 NAV GRID 命名的由来。</p>
-<p>最后，它还能够显示称为 <strong>Voice Codes</strong> 的东西。如果选择了 <strong>ALT NUM</strong> ，那么 TID 中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 <strong>YY</strong> 方位（15为方位150）后面的字母表示距离。A表示0-50海里，B表示50-100海里，依此类推。</p>
+<p>最后，它还能够显示称为 <strong>Voice Codes</strong> 的东西。如果选择了 <strong>ALT NUM</strong> ，那么 TID 中的高度数字会与 Voice Codes 循环显示。它以10为单位显示目标相对于 <strong>YY</strong> 方位（15为方位150）后面的字母表示距离。<strong>A</strong> 表示0-49海里，<strong>B</strong> 表示50-99海里，依此类推。</p>
 <p>标准的 NAV GRID 显示模式为 <strong>GND STAB</strong> 并且在此模式下可使得网格可见。如果选择 <strong>A/C STAB</strong> 或 <strong>ATTK</strong> 显示模式，则仅显示 <strong>Voice Code</strong>，但除了常规功能外， <strong>本机符号</strong> 将始终显示其 <strong>Voice Code</strong> 。</p>
 <p>默认情况下网格原点 <strong>YY</strong> 被置于 TID 屏幕的边缘，并朝设定的威胁轴线向外延伸。网格可以设置显示1到6个扇区，并且每个扇区都有轮廓线，这就表示一个扇区将显示两根轮廓线来指示扇区的极限，6个扇区则有7根轮廓线。扇区的大小取决于全部网格覆盖范围，覆盖范围最高可达180度，然后根据选择的扇区数来划分。沿着扇区分界线每间隔50海里有个刻度标记，50海里的标记比100海里的稍短一点。</p>
 <p>RIO 可以正常的通过 HCU 来偏置相对地面稳定视图及网格。要复位偏置的话，转至任何相对稳定模式然后返回 <strong>GND STAB</strong> 。</p>
@@ -1967,7 +1971,7 @@
 <div class="section" id="pulse-single-target-track-p-stt">
 <h5>脉冲单目标跟踪（P STT）<a class="headerlink" href="#pulse-single-target-track-p-stt" title="永久链接至标题">¶</a></h5>
 <img alt="_images/PSTT.png" src="_images/PSTT.png" />
-<p>脉冲单目标跟踪模式用于跟踪单个目标，与脉冲搜索模式相同，此时目标不易受到3/9线机动的影响，但是对地面杂波敏感。STT 模式下，雷达使用距离门来跟踪目标，这意味着雷达不易受地面杂波的影响，但是目标太接近地面的话，地面回波进入距离门中很可能会导致锁定震荡。</p>
+<p>脉冲单目标跟踪模式用于跟踪单个目标，与脉冲搜索模式相同，此时雷达不易受到3/9线机动的影响，但是对地面杂波敏感。STT 模式下，雷达使用距离门来跟踪目标，这意味着雷达不易受地面杂波的影响，但是目标太接近地面的话，地面回波进入距离门中很可能会导致锁定震荡。</p>
 <p>由于只能在脉冲多普勒模式下发送导弹制导指令，脉冲 STT 模式仅限于使用 CW 模式发射 AIM-7，以及以主动模式发射 AIM-54 导弹，从而限制了导弹的射程。在 ACM 距离内，脉冲模式可以使用 ASPECT 开关来设置以目标的何种态势进行跟踪，ASPECT 开关只是为了应对不同的对抗措施而进行设置。例如，如果将 ASPECT 开关设置为 NOSE 的话，雷达将回波质心设置在目标前部（机头），远离发射到目标后发的箔条，从而不易受到箔条的干扰。</p>
 <p>如果 DDD 面板上的 ANT TRK 和 RDROT 指示灯亮起表示雷达成功锁定目标，这意味着雷达天线正在跟踪这个目标且目标处于跟踪门内。如果目标干扰的强度足够，导致无法进行距离跟踪，那么雷达将转换为干扰源角跟踪，干扰源角跟踪时，DDD 中 JAT 指示灯将会亮起，RDROT 指示灯将会熄灭。当在足够近的距离雷达可以再次进行距离跟踪后，雷达将会转换为距离跟踪。</p>
 <p>在 P STT 模式下，DDD 的显示类似于脉冲搜索模式，只不过天线是锁定目标而不是进行扫描。此外，如果选择了有效的导弹，DDD 还将在目标的周围显示距离门、右侧标度中的接近率符号和可用于 P STT 的攻击符号。</p>
@@ -1975,7 +1979,7 @@
 </div>
 <div class="section" id="pulse-doppler-mode">
 <h4>脉冲多普勒模式<a class="headerlink" href="#pulse-doppler-mode" title="永久链接至标题">¶</a></h4>
-<p>在脉冲多普勒模式下，AN/AWG-9 雷达使用多普勒滤波器过滤掉不需要的回波来增强对目标的探测，从而提高探测的距离。脉冲多普勒模式的有点在上述中已经提到：可以探测到距离更远的目标、几乎不受地面回波影响和向 AIM-7 和 AIM-54 发送制导指令。AIM-54 可以在 TWS 和 STT 模式下发射，而 AIM-7 只能在 STT 模式下发射。PD 模式最大的缺点是容易受到目标使用3/9线机动的影响，当目标的接近率接近为0的时候，目标将会被过滤。</p>
+<p>在脉冲多普勒模式下，AN/AWG-9 雷达使用多普勒滤波器过滤掉不需要的回波来增强对目标的探测，从而提高探测的距离。脉冲多普勒模式的有点在上述中已经提到：可以探测到距离更远的目标、几乎不受地面回波影响和向 AIM-7 和 AIM-54 发送制导指令。AIM-54 可以在 TWS 和 STT 模式下发射，而 AIM-7 只能在 STT 模式下发射。PD 模式最大的缺点是容易受到目标进行3/9线机动的影响，当目标的接近率接近为0的时候，目标将会被过滤。</p>
 <p>AN/AWG-9 雷达的脉冲多普勒模式有：脉冲多普勒搜索，边搜索边测距，边搜索边跟踪以及脉冲多普勒 STT 模式。三种搜索模式有相同的 DDD 符号显示，三种模式的区别在于，脉冲多普勒搜索模式的探测距离略胜于另外两种模式，这是因为其他两种搜索模式需要处理 FM 测距来启用跟踪目标的距离指示。</p>
 <img alt="_images/PDSEARCH.png" src="_images/PDSEARCH.png" />
 <p>脉冲多普勒搜索模式下，DDD 以方位和接近率（接近速度）显示回波，这表示仅在 DDD 进行读数的话，RIO 只能识别目标的接近速度和方位。需要注意的是 DDD 屏幕中显示的目标接近率是相对于地面的（减去本机的空速），而不是相对本机的接近率。这就意味着正前方的目标笔直向雷达移动，DDD 将显示目标真空速，目标真空速随目标态势和雷达天线的方位变化。这样做的原因是由于雷达本身只读取相对空速，之后再通过减去本机空速修改显示在 DDD 中。</p>
@@ -2059,14 +2063,14 @@
 <p>边搜索边跟踪模式同 RWS 模式一样使用 FM 测距，所以相对脉冲多普勒搜索模式的探测距离缩减是一样的，并且 DDD 显示也和脉冲多普勒搜索一致。和 RWS 模式的主要区别在于，在 TWS 模式下，计算机可以建立跟踪文件并同时跟踪最多24个目标，并在 TID 中显示最多18个跟踪。</p>
 <p>由于计算这些跟踪的计算机程序需要将跟踪刷新时间设置为2秒，所以在 TWS 模式下雷达的可用的扫描方位角与扫描线数为 2-线扫描 ±40° 或 4-线扫描 ±20°。进入 TWS 时，计算机将会自动选择 4-线扫描 ±20°，计算机不会考虑 RIO 设置的扫描范围，除非将扫描范围设置为 2-线扫描 ±40°。</p>
 <p>TWS 模式也是唯一一个可以为 AIM-54 提供制导来攻击多个目标的模式（最多六个目标），并且一旦雷达探测到可攻击的目标，计算机将会根据最佳导弹发射顺序来为目标分配导弹优先级序号。</p>
-<p>TWS 包含有两个子模式，它们分别是 TWS AUTO（自动）和 TWS MANUAL（手动），两个子模式由 RIO 在 DDD 面板上通过对应的按钮进行选择。两个字模式的区别在于，在 TWS AUTO 模式下，一旦目标跟踪存在，扫描范围和栅状扫描的方位和高度将由计算机接管。WCS 计算机将会自动尝试最佳化扫描范围和方位以便最大限度的跟踪优先的目标。如果在发射 AIM-54 前未选择 TWS AUTO 模式，那么 WCS 将会在第一枚 AIM-54 发射后超控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。</p>
+<p>TWS 包含有两个子模式，它们分别是 TWS AUTO（自动）和 TWS MANUAL（手动），两个子模式由 RIO 在 DDD 面板上通过对应的按钮进行选择。两个子模式的区别在于，在 TWS AUTO 模式下，一旦目标跟踪存在，扫描范围和栅状扫描的方位和仰角将由计算机接管。WCS 计算机将会自动尝试最佳化扫描范围和方位以便最大限度的跟踪优先的目标。如果在发射 AIM-54 前未选择 TWS AUTO 模式，那么 WCS 将会在第一枚 AIM-54 发射后超控先前所选的 TWS MANUAL 并进入 TWS AUTO 模式。</p>
 <p>TWS 模式下，飞行员通过导航提示转向至跟踪目标的计算出的质心，并且这个质心同样会以 小X 状的十字显示在 TID 中。</p>
 <p>更多有关 TWS 标识符和导弹引导的信息，详情参见 <a class="reference internal" href="weapons.html#twsattk"><span class="std std-ref">TWS</span></a> 和 <a class="reference internal" href="#tidsymb"><span class="std std-ref">TID 标识符</span></a> 。</p>
 </div>
 <div class="section" id="pulse-doppler-single-target-track-pd-stt">
 <h5>脉冲多普勒单目标跟踪（PD STT）<a class="headerlink" href="#pulse-doppler-single-target-track-pd-stt" title="永久链接至标题">¶</a></h5>
 <img alt="_images/PDSTT.png" src="_images/PDSTT.png" />
-<p>脉冲多普勒 STT 模式与脉冲 STT 模式相似。就像其它脉冲多普勒模式对比脉冲模式一样，脉冲多普勒 STT 相比脉冲 STT 来说，既有优点也有缺点。这意味着，虽然脉冲多普勒 STT 模式可以更好的跟踪接近地面的目标，但是这个模式容易收到3/9线机动的影响。</p>
+<p>脉冲多普勒 STT 模式与脉冲 STT 模式相似。就像其它脉冲多普勒模式对比脉冲模式一样，脉冲多普勒 STT 相比脉冲 STT 来说，既有优点也有缺点。这意味着，虽然脉冲多普勒 STT 模式可以更好的跟踪接近地面的目标，但是这个模式容易受到3/9线机动的影响。</p>
 <p>DDD 中的脉冲多普勒 STT 显示和脉冲 STT 显示相似，除了在脉冲多普勒 STT 模式下，目标回波将和天线方位被移动到了屏幕左侧，并且生成出的合成目标标记是显示在正确的方位上的。这样一来，就和其他仅显示接近率的脉冲多普勒模式不同，合成目标的距离还可以被显示出来。在脉冲多普勒 STT 模式下， DDD 中的其它标识符和脉冲 STT 模式下的一致。</p>
 <p>不像脉冲 STT 模式，AN/AWG-9 雷达可以在脉冲多普勒 STT 模式下向导弹发送制导指令，从而使 AIM-7 和 AIM-54 在脉冲多普勒模式下发射。脉冲多普勒 STT 模式是导弹发射距离最远的模式，但缺点是，AIM-54 在这个模式下发射，一次只能攻击一个目标。</p>
 </div>
@@ -2143,10 +2147,10 @@
 <div class="section" id="an-apx-76-iff-interrogator">
 <h2>AN/APX-76 IFF 问询器<a class="headerlink" href="#an-apx-76-iff-interrogator" title="永久链接至标题">¶</a></h2>
 <p>AN/APX-76 IFF（敌我识别系统）问询器集成进了 AN/AWG-9 运作之中。而问询器天线本身位于 AN/AWG-9 天线环架的平台上。</p>
-<p>IFF 系统的工作原理是发射一个问询脉冲，然后监听应答机传回的脉冲。除了非加密民用模式外，AN/APX-76 还可以在加密的军用模式（mode 4）下进行问询。由此一来，这将可以确定目标在 mode4 问询下进行应答的是友机。</p>
+<p>IFF 系统的工作原理是发射一个问询脉冲，然后监听应答机传回的脉冲。除了非加密民用模式外，AN/APX-76 还可以在加密的军用模式（mode 4）下进行问询。由此一来，这样就可以确定目标在 mode4 问询下进行应答的是友机。</p>
 <p>AN/APX-76 可以在搜索模式或 STT 模式中使用。如需启用问询，按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 中的 IFF 按钮，按下后将会启用问询器，按住 IFF 按钮最长只会启用问询器10秒。</p>
-<p>启用 IFF 后，收到的 IFF 返回脉冲将会叠加显示在 DDD 中 AN/WAG-9 雷达的一般接触上。友方目标将会显示两根横线，一个在一般雷达接触上方，一个在下方。由于 AN/APX-76 是 AWG-9 一部分中的一个次要模式雷达（应答机雷达），因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 返回中不会有雷达接触符号。</p>
-<p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从一般显示距离切换至 ±10 NM，从而使得密集编队目标的多个 IFF 返回。</p>
+<p>启用 IFF 后，接收到的 IFF 应答结果将会叠加显示在 DDD 中 AN/WAG-9 雷达的一般接触上。友方目标将会显示两根横线，一个在一般雷达接触上方，一个在下方。由于 AN/APX-76 是 AWG-9 一部分中的一个次要模式雷达（应答机雷达），因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 应答结果中不会有雷达接触符号。</p>
+<p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从正常显示距离切换至 ±10 NM，以便当存在密集编队目标时，显示多个目标的应答结果。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/YG7sWweg2RQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -2183,18 +2187,18 @@
 <h4>HCU/TID<a class="headerlink" href="#hcu-tid" title="永久链接至标题">¶</a></h4>
 <img alt="_images/hcu2.png" src="_images/hcu2.png" />
 <p>HCU 中包含了 TCS 的电源开关和指示器，以及一个用于选择使用 HCU 控制 TCS 的按钮，而 TID 中包含了一个用于在 TID 中显示 TCS 视频的控制旋钮以及用于控制 TID 中视频亮度与视频对比度的旋钮。</p>
-<p><strong>IR/TV</strong> 开关位于 HCU 面板的左上角，这个按钮用来控制 TCS 的电源。处于 <strong>OFF</strong> 档位将关闭 TCS 的电源。 <strong>STBY</strong> 档位将为 TCS 中的冷却风扇和加热器通电。 <strong>IR/TV</strong> 档位为 TCS 中所有系统通电，等待1-2分钟使 TCS 起旋（译注：内部陀螺仪）并传输视频。但在另一方面，TID 中的 TCS 符号将会直接可用。同时也无需先选择 STBY 档位，直接将开关拨动至 IR/TV 档位即可。</p>
+<p><strong>IR/TV</strong> 开关位于 HCU 面板的左上角，这个按钮用来控制 TCS 的电源。处于 <strong>OFF</strong> 档位将关闭 TCS 的电源。 <strong>STBY</strong> 档位将为 TCS 中的冷却风扇和加热器供电。 <strong>IR/TV</strong> 档位为 TCS 中所有系统供电，等待1-2分钟使 TCS 起旋（译注：内部陀螺仪）并传输视频。但在另一方面，TID 中的 TCS 符号将会直接可用。同时也无需先选择 STBY 档位，直接将开关拨动至 IR/TV 档位即可。</p>
 <p>电源开关旁的指示灯亮起表示 TCS 超温。如果这个灯光亮起，应该关闭 TCS 的电源以防止系统损坏。</p>
 <p>HCU 控制杆一旁的 <strong>IR/TV</strong> 按钮用来启用 HCU 控制杆来操纵 TCS 传感器，按下扳机第一段来手动操纵传感器 LOS，按下扳机第二段来指令捕获目标。</p>
 <p>在 TID 控制面板上，转动 <strong>TID MODE</strong> 至 <strong>TV</strong> 档位将启用 TCS 视频显示在 TID 中。请注意，这同时会禁用 HSD 中的 TID 复显。</p>
 <p>最后，位于导航控制与数据读数面板上的 <strong>CONTRAST</strong> 和 <strong>BRIGHTNESS</strong> 旋钮可用于控制显示在 TID 中的 TCS 视频。</p>
 </div>
 <div class="section" id="symbology">
-<h4>标识<a class="headerlink" href="#symbology" title="永久链接至标题">¶</a></h4>
+<h4>标识符<a class="headerlink" href="#symbology" title="永久链接至标题">¶</a></h4>
 <img alt="_images/symbology.png" src="_images/symbology.png" />
-<p>TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上的1.5英寸长的射线和空心圆指示。</p>
+<p>TID 在非 TV 模式时，TCS 跟踪由 TCS LOS 方位上，1.5英寸长的射线和空心圆指示。</p>
 <p>TCS 输出视频中的标识符包括了 FOV 指示器和两个十字准星，十字准星分别指示了相对本机的 TCS LOS—— <strong>GACH</strong> ，以及相对于 AN/AWG-9 雷达 LOS 的 TCS LOS—— <strong>RACH</strong> 。此外，跟踪窗口由4个小正方形指示，每个小正方形对应跟踪窗口的一角。</p>
-<p>在宽 FOV 中将会显示视场线条，视场线条表示当切换为窄视场时可见区域的大小。视场线条由两条平行的线组成，这两条平行线构成了虚构“框”的边，这个虚构“框”用来指示窄 FOV 的大小。</p>
+<p>在宽 FOV 中，视场线条将会显示出来，视场线条用来指示当切换为窄视场时，可见区域的大小。视场线条由两条平行的线所组成，这两根平行线构成了虚构“框”的边，这个虚构的“框”则用来指示窄 FOV 的大小。</p>
 <p>环架角度十字准星或称为 <strong>GACH</strong> ，这个十字准星为实线，用来指示相对于武器基准线（ADL）TCS LOS 的偏转。中心的 GACH 十字准星指示 TCS LOS 指向 ADL，GACH 向边缘偏转表示正在朝环架限制偏转，视频的边缘便是最大偏转角度。</p>
 <p><strong>RACH</strong> 或称为雷达角度十字准星（虚线十字准星），RACH 指示在 TCS FOV 中雷达天线的 LOS。当传感器隶属至另一方时，RACH 和 GACH 将会重合，并将形成一个线条为实线的十字准星。</p>
 <p>如果 TCS 已捕获了一个目标，那么跟踪窗口表示 TCS 对比度跟踪器当前锁定的区域。当没有跟踪目标时，跟踪窗口将归中至屏幕中心，在手动模式下将缩放为屏幕宽度的2%，在自动模式下则为5%。</p>
@@ -2295,7 +2299,7 @@
 <h4>传感器模式和操作<a class="headerlink" href="#sensor-modes-and-operation" title="永久链接至标题">¶</a></h4>
 <p>LANTIRN 有两种“主”模式，分别是 A/A 和 A/G。两种模式工作方式类似，但是不同的模式针对不同的目标类型进行了优化。此外，A/G 模式中还允许使用航弹投放引导。</p>
 <p>吊舱有两种主要的方法来控制传感器视线，通过对比度锁定（图像跟踪）或通过隶属至一个 Q 指定点。</p>
-<p>区域（Area）和点（Point）跟踪模式为在 LANTIRN FLIR 本身的视频中 LANTIRN 以对比度差异来锁定的两种对比度锁定模式。对比度锁定本身只允许角跟踪，对比度跟踪中将使用本机位置和吊舱视线来计算目标位置来给出不精确的测距。但是，它的可以允许系统跟踪移动目标。</p>
+<p>区域（Area）和点（Point）跟踪模式为在 LANTIRN FLIR 本身的视频中，LANTIRN 以对比度差异来锁定的两种对比度锁定模式。对比度锁定本身只允许角跟踪，对比度跟踪中将使用本机位置和吊舱视线来计算目标位置来给出不精确的测距。但是，对比度锁定确实允许系统跟踪移动目标。</p>
 <p>最后一种跟踪模式是将传感器隶属至预存的位置/方向，这种模式将其称之为 Q。方向 Q 无法引导至某个位置，而位置 Q 则可以。</p>
 <p>QSNO 和 QADL/QHUD 为方向 Q。QSNO 为将传感器隶属至沿本机航向正前方15海里处的地面。QADL 和 QHUD 则隶属传感器至 ADL（A/A 模式中）或 HUD 中的飞机机翼符号（A/G 模式中）。</p>
 <p>位置 Q 有两个源，第一个源是使用控制杆左侧的苦力帽上的 QWp- 和 QWp+ 在 WCS 航路点之间循环，从而允许 RIO 隶属至不同的航路点进行导航或定位目标。</p>
@@ -2317,7 +2321,7 @@
 <div class="section" id="id5">
 <h3>描述<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
 <p>AN/ALR-67 雷达告警接收机（RWR）旨在在通常区域内通知和警告机组乘员雷达辐射。它同样还设计用于通过指示雷达跟踪和雷达制导武器的攻击来帮助机组进行防御。</p>
-<p>AN/ALR-67 被集成进了 F-14 中以初代老旧的 AN/ALR-45 和 AN/ALR-50，ALR-67 最初用于 F-14B，在后期装备上了一部分 F-14A 机队中。在 PMDIG 升级到来前，AN/ALR-67 只能使用其独立的显示系统。但是，RWR 连接了 AN/ALQ-126 从而允许 RWR 发送威胁辐射信息至干扰机并将干扰的目标显示在 ALR-67 的显示器中。AN/ALR-67 还能够触发 AN/ALE-39 中预编程的对抗程序。</p>
+<p>AN/ALR-67 被集成进了 F-14 中以取代老旧的 AN/ALR-45 和 AN/ALR-50，ALR-67 最初用于 F-14B，在后期装备上了一部分 F-14A 机队中。在 PMDIG 升级到来前，AN/ALR-67 只能使用其独立的显示系统。但是，RWR 连接了 AN/ALQ-126 从而允许 RWR 发送威胁辐射信息至干扰机并将干扰的目标显示在 ALR-67 的显示器中。AN/ALR-67 还能够触发 AN/ALE-39 中预编程的对抗程序。</p>
 <p>在后续包括 PTID 升级的 F-14B 中，AN/ALR-67 同样也被集成进 MDIG 显示系统中从而允许在 ECMD 中更详细地显示威胁。</p>
 <p>F-14B 中的 AN/ALR-67 带有四根小型螺旋状高波段天线，四个宽带高波段分角接收机以及低波段阵列。连接到这些天线的是一个窄带超外差接收机，接收机分析接收到的信号并且通过使用两个显示器将辐射和威胁向飞行员和 RIO 指示出来，每个驾驶舱中都包含有一个显示器并且向两名机组的 ICS 播放音频信号。</p>
 </div>
@@ -2341,7 +2345,7 @@
 <img alt="_images/display.png" src="_images/display.png" />
 <p>两名机组乘员驾驶舱中的 RWR 显示器位置都是相同的，并且显示器使用三个区域（圆环）来划分显示出的威胁符号的威胁等级。</p>
 <p>最外层——严重威胁区显示的辐射源威胁符号表示对本机构成严重危险，这些威胁可能是锁定本机的跟踪雷达或是探测到主动攻击本机的雷达。探测到的一个跟踪（译注：正在跟踪你的辐射源）主动攻击本机的话，这个跟踪的威胁符号将会闪烁以提高辨识度。</p>
-<p>中部——致命威胁区显示的辐射源威胁符号表示辐射源被 ALR-67 认定为在飞机的致命威胁区内，但没有跟踪或攻击本机。</p>
+<p>中间层——致命威胁区显示的辐射源威胁符号表示辐射源被 ALR-67 认定为在飞机的致命威胁区内，但没有跟踪或攻击本机。</p>
 <p>内层——非致命威胁区显示的辐射源威胁符号表示辐射源没有攻击本机的能力或者辐射源可以攻击但不认为本机在攻击的范围内。</p>
 <p>威胁区的内侧（译注：圆心处）为系统状态环，这个状态环指示系统的运行模式或显示故障。左上角象限显示设定的显示类型（N、I、A、U 或 F），右上角象限在系统处于限制模式时将显示 L，下半部分可以显示表示系统处于偏置模式的 O，显示 B 表示 BIT 出现故障或显示 T 表示系统过载（过热）。</p>
 <p>在显示器右下角的是亮度控制旋钮，用来控制旋钮所连接显示器的亮度。</p>
@@ -2352,7 +2356,7 @@
 </dl>
 </div>
 <div class="section" id="warning-lights">
-<h3>报警灯<a class="headerlink" href="#warning-lights" title="永久链接至标题">¶</a></h3>
+<h3>告警灯<a class="headerlink" href="#warning-lights" title="永久链接至标题">¶</a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 51%" />
@@ -2366,7 +2370,7 @@
 </tr>
 </tbody>
 </table>
-<p>两名机组乘员各自的前仪表面板中都含有专门用于特定威胁的报警灯。飞行员的报警灯位于 HUD 右侧，RIO 的报警灯位于 TID 的右侧。RIO 报警灯面板还包含了 AN/ALQ-126 的指示灯以及 IFF 应答机的指示灯，这些指示灯在对应的部分有详细说明。</p>
+<p>两名机组乘员各自的前仪表面板中都含有专门用于特定威胁的告警灯。飞行员的告警灯位于 HUD 右侧，RIO 的告警灯位于 TID 的右侧。RIO 告警灯面板还包含了 AN/ALQ-126 的指示灯以及 IFF 应答机的指示灯，这些指示灯在对应的部分有详细说明。</p>
 <p>不同的指示灯亮起来指示某些类型的威胁位于 RWR 的严重威胁区内，并且当探测到主动攻击时，威胁类型对应的指示灯将会开始闪烁。指示灯的类别为 SAM（面对空导弹）、AAA（高射炮）、AI（机载截击雷达）以及仅在 RIO 驾驶舱中拥有的 CW（连续波）。</p>
 </div>
 <div class="section" id="threat-indication-alert-tones">
@@ -2383,7 +2387,7 @@
 <p>AN/ALR-67 BIT 将会在不同的屏幕测试之间来测试屏幕、符号和威胁提示音，以及显示系统版次和威胁库信息。</p>
 <p>测试第一页显示了系统以及威胁库的版次，并且接下来的屏幕测试将显示符号的生成。</p>
 <p>威胁提示音还会在机内自检中进行测试，测试第一页将会测试状态变更音调，测试第二页则为特殊提示音，第三页为严重威胁区提示音，第四页为急促颤音（威胁主动攻击音调）。</p>
-<p>在测试过程中，飞行员和 RIO 的威胁报警灯也将会亮起。</p>
+<p>在测试过程中，飞行员和 RIO 的威胁告警灯也将会亮起。</p>
 </div>
 <div class="section" id="threat-symbology">
 <h3>威胁符号<a class="headerlink" href="#threat-symbology" title="永久链接至标题">¶</a></h3>
@@ -2415,27 +2419,31 @@
 <td><p>格里莎级护卫舰 V型（信天翁）</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>GZ</p></td>
-<td><p>DDG-168 广州号导弹驱逐舰</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>HP</p></td>
+<tr class="row-even"><td><p>HP</p></td>
 <td><p>奥利弗·哈泽德·佩里级护卫舰</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>HU</p></td>
-<td><p>DDG-171 海口号导弹驱逐舰</p></td>
+<tr class="row-odd"><td><p>J2</p></td>
+<td><p>054A 型护卫舰，北约代号 Jiangkai II class</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>KK</p></td>
+<tr class="row-even"><td><p>KK</p></td>
 <td><p>克里瓦克级护卫舰 Ⅲ型 (雷兹基)</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>KV</p></td>
+<tr class="row-odd"><td><p>KV</p></td>
 <td><p>基洛夫级 (彼得大帝号)</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>N</p></td>
+<tr class="row-even"><td><p>L1</p></td>
+<td><p>052B 型驱逐舰，北约代号为 Luyang I class</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>L2</p></td>
+<td><p>052C 型驱逐舰，北约代号为 Luyang II class</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>N</p></td>
 <td><div class="line-block">
 <div class="line">只携带导航雷达的船只</div>
 <div class="line">（民用船只、潜艇等）</div>
@@ -2443,299 +2451,299 @@
 </td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>NE</p></td>
+<tr class="row-odd"><td><p>NE</p></td>
 <td><p>不惧级护卫舰</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>NZ</p></td>
+<tr class="row-even"><td><p>NZ</p></td>
 <td><p>尼米兹级航空母舰（卡尔文森号，斯坦尼斯）</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>SV</p></td>
+<tr class="row-odd"><td><p>SV</p></td>
 <td><p>光荣级导弹巡洋舰（莫斯科号）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>TC</p></td>
+<tr class="row-even"><td><p>TC</p></td>
 <td><p>提康德罗加级导弹巡洋舰</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>TT</p></td>
+<tr class="row-odd"><td><p>TT</p></td>
 <td><p>蚊子级导弹快艇 Ⅲ型（闪电）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>TW</p></td>
+<tr class="row-even"><td><p>TW</p></td>
 <td><p>塔拉瓦级两栖攻击舰</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>YI</p></td>
-<td><p>FFG-538 烟台号导弹护卫舰</p></td>
+<tr class="row-odd"><td><p>YU</p></td>
+<td><p>071 型坞登，北约代号为 Yuzhao class</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td colspan="3"><p>飞机</p></td>
+<tr class="row-even"><td colspan="3"><p>飞机</p></td>
 </tr>
-<tr class="row-even"><td><p>14</p></td>
+<tr class="row-odd"><td><p>14</p></td>
 <td><p>F-14A/B</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-odd"><td><p>15</p></td>
+<tr class="row-even"><td><p>15</p></td>
 <td><p>F-15C/E</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-even"><td><p>16</p></td>
+<tr class="row-odd"><td><p>16</p></td>
 <td><p>F-16C</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-odd"><td><p>17</p></td>
+<tr class="row-even"><td><p>17</p></td>
 <td><p>JF-17</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-even"><td><p>18</p></td>
+<tr class="row-odd"><td><p>18</p></td>
 <td><p>F/A-18C</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-odd"><td><p>19</p></td>
+<tr class="row-even"><td><p>19</p></td>
 <td><p>Mig-19</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>21</p></td>
+<tr class="row-odd"><td><p>21</p></td>
 <td><p>Mig-21bis</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>23</p></td>
+<tr class="row-even"><td><p>23</p></td>
 <td><p>Mig-23MLD</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>24</p></td>
+<tr class="row-odd"><td><p>24</p></td>
 <td><p>Su-24M/MR</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>25</p></td>
+<tr class="row-even"><td><p>25</p></td>
 <td><p>Mig-25PD</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>29</p></td>
+<tr class="row-odd"><td><p>29</p></td>
 <td><p>Su-27,，Su-33，Mig-29A/G/S 和 J-11A</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-odd"><td><p>30</p></td>
+<tr class="row-even"><td><p>30</p></td>
 <td><p>Su-30</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-even"><td><p>31</p></td>
+<tr class="row-odd"><td><p>31</p></td>
 <td><p>Mig-31</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>34</p></td>
+<tr class="row-even"><td><p>34</p></td>
 <td><p>Su-34</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-even"><td><p>37</p></td>
+<tr class="row-odd"><td><p>37</p></td>
 <td><p>AJS-37</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>39</p></td>
+<tr class="row-even"><td><p>39</p></td>
 <td><p>Su-25TM（Su-39）</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-even"><td><p>50</p></td>
+<tr class="row-odd"><td><p>50</p></td>
 <td><p>A-50</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>52</p></td>
+<tr class="row-even"><td><p>52</p></td>
 <td><p>B-52</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>AN</p></td>
+<tr class="row-odd"><td><p>AN</p></td>
 <td><p>AN-26B 和 AN-30M</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>AP</p></td>
+<tr class="row-even"><td><p>AP</p></td>
 <td><p>AH-64D</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>B1</p></td>
+<tr class="row-odd"><td><p>B1</p></td>
 <td><p>B-1B</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>BE</p></td>
+<tr class="row-even"><td><p>BE</p></td>
 <td><p>Tu-95 和 Tu-142M</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>BF</p></td>
+<tr class="row-odd"><td><p>BF</p></td>
 <td><p>Tu-22M3</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>BJ</p></td>
+<tr class="row-even"><td><p>BJ</p></td>
 <td><p>Tu-160</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>E2</p></td>
+<tr class="row-odd"><td><p>E2</p></td>
 <td><p>E-2D</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>E3</p></td>
+<tr class="row-even"><td><p>E3</p></td>
 <td><p>E-3C</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>F4</p></td>
+<tr class="row-odd"><td><p>F4</p></td>
 <td><p>F-4E</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>F5</p></td>
+<tr class="row-even"><td><p>F5</p></td>
 <td><p>F-5E</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>HX</p></td>
+<tr class="row-odd"><td><p>HX</p></td>
 <td><p>Ka-27</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>IL</p></td>
+<tr class="row-even"><td><p>IL</p></td>
 <td><p>IL-76MD 和 IL-78M</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>KC</p></td>
+<tr class="row-odd"><td><p>KC</p></td>
 <td><p>KC-135</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>KJ</p></td>
+<tr class="row-even"><td><p>KJ</p></td>
 <td><p>KJ-2000</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>M2</p></td>
+<tr class="row-odd"><td><p>M2</p></td>
 <td><p>幻影 2000-C 和 幻影 2000-5</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-odd"><td><p>S3</p></td>
+<tr class="row-even"><td><p>S3</p></td>
 <td><p>S-3B</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>SH</p></td>
+<tr class="row-odd"><td><p>SH</p></td>
 <td><p>SH-60B</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>TO</p></td>
+<tr class="row-even"><td><p>TO</p></td>
 <td><p>狂风</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>TR</p></td>
+<tr class="row-odd"><td><p>TR</p></td>
 <td><p>C-130 和 C-17A</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td colspan="3"><p>防空</p></td>
+<tr class="row-even"><td colspan="3"><p>防空</p></td>
 </tr>
-<tr class="row-even"><td><p>2</p></td>
+<tr class="row-odd"><td><p>2</p></td>
 <td><p>S-75 TR SNR（扇歌）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>3</p></td>
+<tr class="row-even"><td><p>3</p></td>
 <td><p>S-125 TR SNR-125（SA-3/偷袭）</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>6</p></td>
-<td><p>Kub SA-6</p></td>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>库班河 SA-6</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>7</p></td>
+<tr class="row-even"><td><p>7</p></td>
 <td><p>HQ-7 跟踪雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>8</p></td>
+<tr class="row-odd"><td><p>8</p></td>
 <td><p>OSA（SA-8）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>10</p></td>
-<td><p>S-300PS 30N6 TR（SA-10）</p></td>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>S-300PS 30N6 搜索雷达（SA-10）</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>11</p></td>
+<tr class="row-odd"><td><p>11</p></td>
 <td><p>山毛榉（SA-11）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>12</p></td>
+<tr class="row-even"><td><p>12</p></td>
 <td><p>S-300V</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>15</p></td>
+<tr class="row-odd"><td><p>15</p></td>
 <td><p>道尔 9A331（SA-15）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>19</p></td>
+<tr class="row-even"><td><p>19</p></td>
 <td><p>通古斯卡 2C6M（SA-19）</p></td>
 <td><p>是</p></td>
 </tr>
-<tr class="row-even"><td><p>A</p></td>
+<tr class="row-odd"><td><p>A</p></td>
 <td><p>猎豹，M-163 火神 和 ZSU-23-4 石勒喀河</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>BB</p></td>
-<td><p>S-300PS 64H6E SR (SA-10/大鸟)</p></td>
+<tr class="row-even"><td><p>BB</p></td>
+<td><p>S-300PS 64H6E 搜索雷达 (SA-10/大鸟)</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>BF</p></td>
-<td><p>“轻剑” 防空系统 “盲射” 跟踪雷达</p></td>
+<tr class="row-odd"><td><p>BF</p></td>
+<td><p>“轻剑” “盲射” 跟踪雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>CS</p></td>
-<td><p>S-300PS 5N66M SR (SA-10/贝壳)</p></td>
+<tr class="row-even"><td><p>CS</p></td>
+<td><p>S-300PS 5N66M 搜索雷达(SA-10/贝壳)</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DE</p></td>
-<td><p>Sborka（狗耳）</p></td>
+<tr class="row-odd"><td><p>DE</p></td>
+<td><p>斯科尔巴（狗耳）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>FF</p></td>
-<td><p>S-125 P-19 SR（SA-3/平面）</p></td>
+<tr class="row-even"><td><p>FF</p></td>
+<td><p>S-125 P-19 搜索雷达（SA-3/平面）</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>GR</p></td>
+<tr class="row-odd"><td><p>GR</p></td>
 <td><p>罗兰 搜索雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>HA</p></td>
+<tr class="row-even"><td><p>HA</p></td>
 <td><p>霍克 搜索雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>HK</p></td>
+<tr class="row-odd"><td><p>HK</p></td>
 <td><p>霍克 跟踪雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>HQ</p></td>
+<tr class="row-even"><td><p>HQ</p></td>
 <td><p>HQ-7 搜索雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>PT</p></td>
+<tr class="row-odd"><td><p>PT</p></td>
 <td><p>爱国者</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>RO</p></td>
+<tr class="row-even"><td><p>RO</p></td>
 <td><p>罗兰</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>RP</p></td>
+<tr class="row-odd"><td><p>RP</p></td>
 <td><p>“轻剑”搜索雷达</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>S</p></td>
+<tr class="row-even"><td><p>S</p></td>
 <td><p>1L13 和 55G6 EWR</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>SD</p></td>
+<tr class="row-odd"><td><p>SD</p></td>
 <td><p>山毛榉 TR（SA-11/雪堆）</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>SN</p></td>
+<tr class="row-even"><td><p>SN</p></td>
 <td><p>PRW-11 （边网）</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td colspan="3"><p>导弹</p></td>
+<tr class="row-odd"><td colspan="3"><p>导弹</p></td>
 </tr>
-<tr class="row-odd"><td><p>M</p></td>
+<tr class="row-even"><td><p>M</p></td>
 <td><p>AIM-54, AIM-120, MICA-EM, R-37, R-77 和 SD-10</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td colspan="3"><p>ATC (空管)</p></td>
+<tr class="row-odd"><td colspan="3"><p>ATC (空管)</p></td>
 </tr>
-<tr class="row-odd"><td><p>T</p></td>
+<tr class="row-even"><td><p>T</p></td>
 <td><p>机场空中交通管制雷达</p></td>
 <td></td>
 </tr>
@@ -3047,7 +3055,7 @@
 <p>在第一个和第二个刻度之间的是状态指示器，指示了当前四个系统中某一个系统的故障：C = 校正数据失效；T = 温度警告（ IMU 温度过低 ）；S = SINS 数据无效；O = 观测误差（对准数据无效，比如 LAT，LONG，SPEED 等等）。显示的字母代表其对应的系统出现了故障。</p>
 <p>如显示 C ，就代表 IMU 和 CSDC 之间的校正数据传输失败，对准无法继续进行。</p>
 <p>T 通常在对准刚开始时出现，在 IMU 达到工作温度后消失。若 T 没有消失，这意味着系统出现故障并且不会进行非预存航向对准。</p>
-<p>舰上对准开始时，无论在那种模式下，TID 上都可能会出现一个 S 标识，不久后就会消失。如果 S 没有消失，系统出现故障，将得到错误的对准结果。若输入的 SINS 数据无效，S 也会显示，在这种情况下对准结果不可靠。</p>
+<p>舰上对准开始时，无论在哪种模式下，TID 上都可能会出现一个 S 标识，不久后就会消失。如果 S 没有消失，系统出现故障，将得到错误的对准结果。若输入的 SINS 数据无效，S 也会显示，在这种情况下对准结果不可靠。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><ul class="simple">
@@ -3123,7 +3131,7 @@
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p>即使精对准完成，也不要在母舰转向期间转至 INS 模式。这么做将导致 INS 对准质量显著降低。等到母舰转向完毕，再转至 INS 模式对准质量不会受到影响。手动对准不会受影响。</p></li>
-<li><p>如果在CVA对准期间，CAINS/WAYPT - TAC 开关由于失电而弹回 TAC 档位或数据链路信号丢失，INS 将会返回到手动对准（HS）。</p></li>
+<li><p>如果在CVA对准期间，CAINS/WAYPT - TAC 开关由于失电解锁而弹回 TAC 档位或数据链路信号丢失，INS 将会返回到手动对准（HS）。</p></li>
 </ul>
 </dd>
 </dl>
@@ -3139,7 +3147,7 @@
 </div>
 <div class="section" id="handset-alignment">
 <h6>手动对准<a class="headerlink" href="#handset-alignment" title="永久链接至标题">¶</a></h6>
-<p>HS 对准模式是舰上对准的手动对准选项，如果自 RF 数据链路和 线缆 的 SINS 数据不可用、不准确或中断（由 DDI 上的 TILT 报警灯和/或精对准完成刻度标记向左移动 0.75 英寸指示）。HS 模式和 GND ALIGN 很相似，但是 RIO 需要输入比 GND ALIGN 模式更多数据，并且由于母舰的移动，计算机需要更长的时间去处理。</p>
+<p>HS 对准模式是舰上对准的手动对准选项，如果自 RF 数据链路和 线缆 的 SINS 数据不可用、不准确或中断（由 DDI 上的 TILT 告警灯和/或精对准完成刻度标记向左移动 0.75 英寸指示）。HS 模式和 GND ALIGN 很相似，但是 RIO 需要输入比 GND ALIGN 模式更多数据，并且由于母舰的移动，计算机需要更长的时间去处理。</p>
 <p>如果使用 NAV MODE 旋钮选择了 CAV ALIGN 但没有可用 SINS 数据，TID 中将会显示闪烁的缩写 HS。每次在对准开始前 TID 中缩写 HS 闪烁，RIO 选择使用手动对准来对准系统的话，她/他必须按以下顺序输入对应的母舰数据：</p>
 <ol class="arabic simple">
 <li><p>航母的航速</p></li>
@@ -3774,10 +3782,10 @@
 </div>
 <div class="section" id="radar-altimeter-system-an-apn-194">
 <h3>雷达高度计系统（AN/APN-194）<a class="headerlink" href="#radar-altimeter-system-an-apn-194" title="永久链接至标题">¶</a></h3>
-<p>雷达高度计为测量飞机下方地面/水面或地形间距的低空（0到5000英尺）、脉冲、测距雷达。通过从发射天线发射到地球表面的短 RF 脉宽以及测量 RF 能量返回接收天线的时间来获取高度信息。高度以英尺 AGL 为单位连续的显示在仪表中以供飞行员查看。如果在 PDCP 中选择了 LDG 或 T.O. 模式，那么雷达高度将会显示在 HUD 中（显示范围为 0到1400英尺）。</p>
+<p>雷达高度计为测量飞机下方地面/水面或地形间距的低空（0到5000英尺）、脉冲、测距雷达。雷达高度计通过从发射天线发射到地球表面的短 RF 脉宽以及测量 RF 能量返回接收天线的时间来获取高度信息。高度以英尺 AGL 为单位连续的显示在仪表中以供飞行员查看。如果在 PDCP 中选择了 LDG 或 T.O. 模式，那么雷达高度将会显示在 HUD 中（显示范围为 0到1400英尺）。</p>
 <p>雷达高度计有两种运行模式。在搜索模式中，系统将连续检查距离增量，直到在高度范围内搜索到返回信号。当探测到返回信号时，系统将切换至跟踪模式并且跟踪返回的信号以便提供不间断的高度信息。</p>
 <p>如果离开跟踪模式，那么雷达高度计将会显示 OFF 警示旗并且指针会隐藏在遮盖下方。高度计停止工作直到接收到返回信号，在接收到信号后高度表将重新显示离地高度。系统可靠的运行高度范围是0到5000英尺，这使得位于低空时高度控制更精确。除非反射的信号太弱，否则系统可以在 45° 坡度以及俯仰角内正常运行。</p>
-<p>雷达高度计系统包括高度指示器（高度表）、指示器中的状态灯、低高度警告音、前舱下方的雷达收发器、位于机身蒙皮上 TCS 两侧的两根天线（发射和接收）。在下降高度过程中，如果飞机越过设定的警报高度时，机组将会听到警告音。当飞机低于这个高度，位于雷达高度表中的低高度报警灯将会保持亮起。</p>
+<p>雷达高度计系统包括高度指示器（高度表）、指示器中的状态灯、低高度警告音、前舱下方的雷达收发器、位于机身蒙皮上 TCS 两侧的两根天线（发射和接收）。在下降高度过程中，如果飞机越过设定的警报高度时，机组将会听到警告音。当飞机低于这个高度，位于雷达高度表中的低高度告警灯将会保持亮起。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>如果雷达高度不可靠，则仅显示 OFF 警示旗。</p>
@@ -3818,7 +3826,7 @@
 </ol>
 <p>飞机磁航向来源于 AHRS。如果 AHRS 失效，磁航向将由真航向加减去 MAG VAR 得出。TID 中可显示的可用读数为经纬度、地速、地面航迹、真空速、风向风速、MAG VAR、高度、飞机真航向或磁航向。</p>
 <p>WCS 计算机在真北坐标系中计算转向并使用从 AHRS 输入的磁航向来更新数值。风向风速由计算惯性速度和大气数据速度之间的差得出。WCS 和 CSDC 同时还提供显示机组乘员所需的转向与提示功能。根据机组乘员选择的导航与转向模式的不同，信息可以显示在 TID、HSD、多功能显示指示器、HUD 和 VDI 中。</p>
-<p>可用的目标或导航点为航路点（1、2、3）、固定点、基地、地面/水面目标 和 起始点，都可以使用 TID 中的 DEST 旋钮来进行指定。</p>
+<p>可用的目标或导航点为航路点（1、2、3）、固定点、基地、地面/水面目标 和 起始点，这些目标/导航点都可以使用 TID 中的 DEST 旋钮来进行指定。</p>
 <p>此外， RIO 可以使用 CAP 或 线缆、RF 数据链路的数据链路信息（位于甲板上时）输入导航点（经纬度）。</p>
 <p>设置的航线（航向和选择的导航点）、距离、方位以及到点剩余时间都是根据大圆计算得出的。剩余时间时通过假设飞机以当前地速沿着大圆飞向所选点，加以计算得出的。</p>
 <dl class="field-list simple">
@@ -4075,7 +4083,7 @@
 </td>
 </tr>
 <tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>ICS 控制开关</p></li>
+<li><p>功能选择旋钮</p></li>
 </ol>
 </td>
 <td><ul class="simple">
@@ -4315,7 +4323,7 @@
 <li><p>VOL 旋钮</p></li>
 </ol>
 </td>
-<td><p>飞行员驾驶舱 UHF 1 无线电台音量控制。</p></td>
+<td><p>控制飞行员头戴中 UHF 1 的音量。</p></td>
 </tr>
 <tr class="row-odd"><td><ol class="arabic simple" start="2">
 <li><p>SQL（静噪）开关</p></li>
@@ -4354,7 +4362,7 @@
 <td><p>按下按钮将显示窗的频率保存至当前选择的预设波道。</p></td>
 </tr>
 <tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>ICS 控制开关</p></li>
+<li><p>功能选择旋钮</p></li>
 </ol>
 </td>
 <td><div class="line-block">
@@ -4403,7 +4411,7 @@
 </table>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>UHF 通信会干扰 D/L，这可能导致 TILT 报警灯亮起、自动驾驶中 ACL 或 VEC/PCD 模式断开。数据链路对 UHF 的干扰可能导致在 D/L 回复信息时听见啁啾。注意：尽管DCS中未实现切换天线，但仍然建议使用频率的间隔大于55MHz，必要时关闭 UHF 1或 V/UHF 2无线电台中的一个，以免互相干扰。</p>
+<dd class="field-odd"><p>UHF 通信会干扰 D/L，这可能导致 TILT 告警灯亮起、自动驾驶中 ACL 或 VEC/PCD 模式断开。数据链路对 UHF 的干扰可能导致在 D/L 回复信息时听见啁啾。注意：尽管DCS中未实现切换天线，但仍然建议使用频率的间隔大于55MHz，必要时关闭 UHF 1或 V/UHF 2无线电台中的一个，以免互相干扰。</p>
 </dd>
 <dt class="field-even">注意2</dt>
 <dd class="field-even"><p>UHF 1和 V/UHF 2 无线电台在同频率下工作传输时可能导致出现干扰哨声。有此反馈是正常情况，这是由于两个无线电台过于接近且工作在同一频率，RF 互相干扰引起的。</p>
@@ -4808,37 +4816,29 @@
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="cockpit.html" class="btn btn-neutral float-left" title="驾驶舱简介" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> 上一页</a>
-      
+        <a href="weapons.html" class="btn btn-neutral float-right" title="武器系统和武器使用总览" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cockpit.html" class="btn btn-neutral float-left" title="驾驶舱简介" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留
+        &#169; 版权所有 2019 Heatblur Simulations。本文档翻译自官方文档。如您对翻译文档内容有异议，请将原文文档做为主要参考，原文版权由Heatblur Simulations持有并保留.
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
