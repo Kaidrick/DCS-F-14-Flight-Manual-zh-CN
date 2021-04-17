@@ -116,12 +116,12 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#electrical-power-system">电气系统</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#emergency-power">应急电力</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">控制器和指示器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#controls-and-indicators">控制开关/按钮和指示器</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#circuit-breakers">断路器</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#hydraulic-system">液压系统</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">控制器和指示器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">控制开关/按钮和指示器</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#wing-sweep-system">机翼后掠系统</a><ul>
@@ -129,7 +129,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#oversweep">机翼停放后掠</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">控制器和指示器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">控制开关/按钮和指示器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#wing-sweep-system-test">机翼后掠系统测试</a></li>
 </ul>
 </li>
@@ -182,7 +182,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#cadc-central-air-data-computer">中央大气数据计算机（CADC）</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#an-awg-9-weapon-control-system-wcs">AN/AWG-9 武器控制系统（WCS）</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#detail-data-display-ddd-and-panel">详细数据显示器（DDD）及控制面板</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tactical-information-display-tid-and-associated-controls">战术信息显示器（TID）与相关控制器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tactical-information-display-tid-and-associated-controls">战术信息显示器（TID）与相关控制开关/按钮</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#tid-data-readouts">TID 数据读数</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#tid-symbology">TID 标识符</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#navigation-command-and-control-grid-nav-grid">导航指令与控制网格（NAV GRID）</a></li>
@@ -463,7 +463,7 @@
 <p>BOOST（助力）模式，助力模式是油门的正常操作模式，在这个模式下，油门通过电力控制作动器来移动与机械传动机构相同的发动机控制器，但与手动模式不同的是，助力模式对发动机控制更加准确并且控制油门所需要的力更小。</p>
 <p>第三种模式是进近推力补偿模式或称为自动油门模式，在自动油门模式下，自动油门控制系统允许使用自动油门控制来在进近中保持最佳迎角。</p>
 <p>油门模式的控制开关位于主油门一旁的进气道斜板/油门控制面板中，控制开关可用来选择全部三种油门模式。使用 AUTO 模式时，开关将由螺线管固定在 AUTO 档位，如果不满足自动控制的条件，那么开关将恢复至助力模式。</p>
-<p>如需选择自动油门模式，必须将油门置于处于75%到90% RPM 之间、起落架手柄位于放下档位以及机轮不负重。如果再不满足前述条件，那么可以用力移动油门来手动超控或按下左油门握把中的 CAGE/SEAM 按钮，按下后螺线管将释放开关并恢复至助力模式。</p>
+<p>如需选择自动油门模式，必须将油门置于处于75%到90% RPM 之间、起落架手柄位于放下档位以及机轮不负重。如果不再满足前述条件，那么可以用力移动油门来手动超控或按下左油门握把中的 CAGE/SEAM 按钮，按下后螺线管将释放开关并恢复至助力模式。</p>
 <p>此外，飞行员还可以在进气道斜板 / 油门控制面板中设置自动油门系统的增益。增益设置分别为 HOT、NORM 和 COLD ，HOT 档位增加一般油门计算机增益（和有效推力），COLD 档位减小一般油门计算机增益。控制开关设置对应外部气温的“冷”和“热”，但飞行员应根据实际油门控制进行设置。</p>
 <p>RATS 或称为航降减推系统，航降减推系统将在触舰后限制发动机推力至适合舰上环境的水平。主起落架任意一侧机轮负重都将启用航降减推系统，并且可以通过推动油门选择加力燃烧来禁用 RATS。</p>
 <p>最后，仅在 F110-GE-400 发动机上装备了的——不对称推力限制器（ASYM LIMITER），如果只有一侧发动机启用加力燃烧，那么不对称推力限制器将限制加力燃烧在最小加力推力直到另一侧发动机也启用加力燃烧来防止使用不对称加力燃烧。</p>
@@ -475,7 +475,7 @@
 <p><strong>THROTTLE MODE</strong> （<strong>1</strong>）开关分别用来将油门模式设置为 <strong>AUTO</strong> 、 <strong>BOOST</strong> 或 <strong>MAN</strong> 模式，开关由弹簧归中至 BOOST 助力模式，如上所述，开关可由螺线管固定在 AUTO 档位。</p>
 <p><strong>THROTTLE TEMP</strong> 开关也如上所述，用来控制自动油门系统的增益。</p>
 <p><strong>INLET RAMPS</strong> （ <strong>3</strong> ）开关用来启用（ <strong>AUTO</strong> ）或禁用，也就是收上（ <strong>STOW</strong> ）可调进气道斜板。</p>
-<p>发动机起动开关（<strong>4</strong>）用于起动发动机至 20% rpm，转速到达 20% rpm 后可通过将对应的油门握把从 cut-off（关断）移动至 idle（慢车位）来起动发动机。如果飞机连接了外部气源，那么发动机则使用外部气源提供的空气来起动，如果没有连接外部气源则使用另一侧发动机提供的空气。当发动机转速到达 50% rpm 时，起动开关将自动回到关闭/归中档位。如果起动开关在转速到达 50% rpm 时没有自动归中，那么必须手动将其设置为归中（关闭）档位来防止损坏空气涡轮起动机。</p>
+<p>发动机起动开关（<strong>4</strong>）用于起动发动机至 20% rpm，转速到达 20% rpm 后可通过将对应的油门握把从 cut-off（关断）移动至 idle（慢车位）来起动发动机。如果飞机连接了外部气源，那么发动机则使用外部气源提供的空气来起动，如果没有连接外部气源则使用另一侧发动机提供的空气。当发动机转速到达 50% rpm 时，起动开关将自动回到关闭/中立档位。如果起动开关在转速到达 50% rpm 时没有自动中立，那么必须手动将其设置为中立（关闭）档位来防止损坏空气涡轮起动机。</p>
 <p><strong>BACK UP IGNITION</strong> （ <strong>5</strong> ）开关用来在主点火回路失效的情况下启用备用点火系统，通常通过将油门握把移动出 cut-off 档位来启用点火系统。</p>
 <img alt="_images/asym1.png" src="_images/asym1.png" />
 <dl class="field-list simple">
@@ -527,7 +527,7 @@
 </ul>
 <p>仅 F-14B F110-GE-400 含有的指示灯：</p>
 <ul class="simple">
-<li><p><strong>START VALVE</strong> - 注意灯亮起表示发动机起动机阀门开启。如果发动机起动后指示灯仍亮起，拨动发动机起动开关至归中位置。</p></li>
+<li><p><strong>START VALVE</strong> - 注意灯亮起表示发动机起动机阀门开启。如果发动机起动后指示灯仍亮起，拨动发动机起动开关至中立位置。</p></li>
 <li><p><strong>L ENG SEC 和 R ENG SEC</strong> - 注意灯亮起表示其对应的发动机正在次要模式下运转。</p></li>
 <li><p><strong>RATS</strong> - 注意灯亮起表示 RATS（航降减推系统）已启用。</p></li>
 </ul>
@@ -657,10 +657,10 @@
 <p>F-14 中包含有一台由联合液压系统驱动的应急发电机，应急发电机可以发出有限的电力来提供 AC （交流电）和 DC（直流电）。如果系统失去由两台主发电机提供的电力，应急发电机将在1秒内接管关键飞行系统的供电。</p>
 </div>
 <div class="section" id="controls-and-indicators">
-<h3>控制器和指示器<a class="headerlink" href="#controls-and-indicators" title="永久链接至标题">¶</a></h3>
+<h3>控制开关/按钮和指示器<a class="headerlink" href="#controls-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/generator1.png" src="_images/generator1.png" />
 <p>电气系统的控制开关全部位于主发电机控制面板中。</p>
-<p><strong>MASTER GEN</strong> （ <strong>1</strong> ）开关控制主发电机到电力总线的连接。 <strong>NORM</strong> 档位用于将对应一侧的发电机连接到总线。 <strong>OFF/RESET</strong> 档位用于断开发电机与总线的连接，并且复位任何由于供电超出正常限制而切断的保护电路。<strong>TEST</strong> 档位用于起动发电机，但不会将发电机连接到电力总线，从而在不影响其他飞机系统的情况下对发电机进行测试。开关被锁定在 NORM 档位，提起开关后才能将其拨回 OFF/RESET 档位。</p>
+<p><strong>MASTER GEN</strong> （ <strong>1</strong> ）开关控制主发电机到电力母线的连接。 <strong>NORM</strong> 档位用于将单独的发电机连接到母线。 <strong>OFF/RESET</strong> 档位用于断开发电机与母线的连接，并且复位任何由于供电超出正常限制而被切断的保护电路。<strong>TEST</strong> 档位用于起动发电机，但不会将发电机连接到电力母线，从而在不影响其他飞机系统的情况下对发电机进行测试。开关被锁定在 NORM 档位，提起开关后才能将其拨回 OFF/RESET 档位。</p>
 <p><strong>EMERG</strong> （ <strong>2</strong> ）开关用于控制应急发电机。开关位于 <strong>NORM</strong> 档位时，如果主发电机发生故障，应急发电机将自动连接到应急总线。<strong>OFF/RESET</strong> 档位将禁用应急发电机，同时还复位相关保护电路（如果发生跳闸）。此开关被保护盖固定在 NORM 档位，需要升起保护盖才能将开关拨至 OFF/RESET 档位。</p>
 <p>电气系统相关的注意/提示灯位于飞行员驾驶舱 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中。<strong>L GEN</strong> 和 <strong>R GEN</strong> 指示灯亮起表示对应的发电机没有正常工作。可能是由于发电机故障或驱动发电机的发动机没有运转。</p>
 <p><strong>TRANS/RECT</strong> 提示灯亮起表示一个或全部整流变压器没有正常工作。</p>
@@ -675,19 +675,19 @@
 <div class="section" id="hydraulic-system">
 <h2>液压系统<a class="headerlink" href="#hydraulic-system" title="永久链接至标题">¶</a></h2>
 <p>F-14 有两个独立的液压系统，分别是飞行液压系统和联合液压系统。</p>
-<p>两个系统都由连接到每台发动机的液压泵提供动力，飞行液压系统由右侧发动机提供动力，联合液压系统由左侧发动机提供动力。在正常运行时，两个液压系统的中的油液压力将被液压泵加压至大约 3000 psi。</p>
+<p>两个系统都由连接到每台发动机的液压泵提供动力，飞行液压系统由右侧发动机提供动力，联合液压系统由左侧发动机提供动力。在正常运行时，两个液压系统的中的油液压力将被液压泵增压至大约 3000 psi。</p>
 <p>两个液压系统为所有飞行操纵面提供动力，而联合液压系统同时也向一些二级系统提供动力，例如襟翼、起落架和受油管。由此一来，两个系统就可以在另外一个系统发生故障的情况下独立地驱动操纵面运动。</p>
 <p>此外，当升空时，可以通过起落架手柄旁的开关来从液压系统中隔离无关系统的液压。这样一来，即使被隔离的系统损坏，也不会影响到联合液压系统中压力或造成油液泄漏。可以从联合液压系统中隔离开来的系统分别是：起落架、机轮刹车、防滑和前轮转向。起落架手柄处于放下档位时，这个开关将被机械锁定在关闭隔离档位。</p>
-<p>如果只有一个液压泵失效，那么可以通过液压输送泵从没有失效的液压泵来对失效侧系统的液压进行加压。液压输送泵是一种双向液压泵，液压输送泵可以用来对另一侧系统中的油液进行加压，如果向另一侧加压的系统中的油液压力（压强）在 3,000 psi 左右，那么通过液压输送泵可以将失效侧系统的油液压力保持在 2,400 和 2,600 psi 之间。如果其中一个液压系统的油液压力低于 500 psi，那么传输泵将被关断以防止泵损坏，以及避免另一个正常工作的液压系统压力降低。液压输送泵可由飞行员手动关断。</p>
-<p>如果两个液压泵都发生故障，那么飞行液压系统可以由一个被称为应急飞行液压泵的电动液压泵提供动力。应急飞行液压泵能独立地驱动飞机尾部的操纵面，即使在两个主液压系统压力为零的情况下，应急飞行液压泵也能让飞机返回基地并着陆。如果两个主液压系统中的油液压力降低至 2,100 psi 以下，那么电动液压泵将会自动启用，如果两个主液压系统中油液压力重新达到 2,400 psi，那么电动液压泵将会关断。自动启用电动液压泵时，备用飞行控制系统将以低速模式运行，但飞行员也可以手动切换至高速模式或低速模式。如果操纵面由应急飞行液压泵驱动，那么操纵面的偏转率会降低，且在低速模式下偏转率比高速模式下更低。</p>
+<p>如果只有一个液压泵失效，那么可以通过液压输送泵从没有失效的液压泵来对失效侧系统的液压进行增压。液压输送泵是一种双向液压泵，液压输送泵可以用来对另一侧系统中的油液进行增压，如果向另一侧增压的系统中的油液压力（压强）在 3,000 psi 左右，那么通过液压输送泵可以将失效侧系统的油液压力保持在 2400 和 2600 psi 之间。如果其中一个液压系统的油液压力低于 500 psi，那么传输泵将被关断以防止泵损坏，以及避免另一个正常工作的液压系统压力降低。液压输送泵可由飞行员手动关断。</p>
+<p>如果两个液压泵都发生故障，那么飞行液压系统可以由一个被称为应急飞行液压泵的电动液压泵提供动力。应急飞行液压泵能独立地驱动飞机尾部的操纵面，即使在两个主液压系统压力为零的情况下，应急飞行液压泵也能让飞机返回基地并着陆。如果两个主液压系统中的油液压力降低至 2100 psi 以下，那么电动液压泵将会自动启用，如果两个主液压系统中油液压力重新达到 2400 psi，那么电动液压泵将会关断。自动启用电动液压泵时，备用飞行控制系统将以低速模式运行，但飞行员也可以手动切换至高速模式或低速模式。如果操纵面由应急飞行液压泵驱动，那么操纵面的偏转率会降低，且在低速模式下偏转率比高速模式下更低。</p>
 <p>如果联合液压系统中的压力为零，那么飞行员可以通过手动液压泵来对受油管和机轮刹车蓄压器进行充压。这种方法主要用于在无动力地面作业时使用，但仍可作为备用液压泵在空中使用。</p>
 <div class="section" id="id1">
-<h3>控制器和指示器<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
+<h3>控制开关/按钮和指示器<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
 <img alt="_images/hydraulic1.png" src="_images/hydraulic1.png" />
 <p><strong>HYD PRESS</strong> （液压指示器）由两个仪表组成： <strong>COMB</strong> ——联合液压系统，<strong>FLT</strong> ——飞行液压系统，液压读数单位为千 psi。标度中包含液压泵造成影响时的公称压力 3000 psi 标记。</p>
 <p>位于两个仪表下方的为标识旗，标识旗用来指示扰流板 <strong>SPOIL</strong> 的液压是否可用和应急飞行液压泵 <strong>EMER FLT</strong> 是否工作。<strong>HI</strong> 标识旗表示应急飞行液压泵以高速模式运行，<strong>LOW</strong> 标识旗表示应急飞行液压泵以低速模式运行。</p>
 <img alt="_images/brakepressure1.png" src="_images/brakepressure1.png" />
-<p><strong>BRAKE PRESSURE</strong> 应急刹车压力表显示了机轮刹车蓄压器中可用的油液压力。 <strong>PARK</strong> 指示停放刹车压力，<strong>AUX</strong> 指示机轮刹车压力。绿色区域对应的压力范围大约 2,150 psi 至 3,000 psi，红色区域表示压力低于 2150 psi。</p>
+<p><strong>BRAKE PRESSURE</strong> 应急刹车压力表显示了机轮刹车蓄压器中可用的油液压力。 <strong>PARK</strong> 指示停放刹车压力，<strong>AUX</strong> 辅助刹车蓄压器。绿色区域对应的压力范围大约 2,150 psi 至 3,000 psi，红色区域表示压力低于 2150 psi。</p>
 <img alt="_images/hydraulictransferpump1.png" src="_images/hydraulictransferpump1.png" />
 <p><strong>HYD TRANSFER PUMP</strong> ——液压输送泵开关——位于飞行员驾驶舱中右侧控制台的液压输送泵开关面板上。液压输送泵开关可以用来手动关断液压输送泵（ <strong>SHUTOFF</strong>  档位），但开关通常位于 <strong>NORMAL</strong> 档位来使液压输送泵在任意一侧液压泵出现故障时自动启动。开关被保护盖固定在 NORMAL 档位。</p>
 <p>应急飞行液压泵通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 中的带保护盖开关来控制。保护盖关闭时，开关固定在 <strong>(AUTO)LOW</strong> 档位，选择 (AUTO)LOW 档位将允许应急飞行液压泵如上文所述自动启用，其它两个档位—— <strong>HIGH</strong> 和 <strong>LOW</strong> 档位——当保护盖升起时，这两个档位可用来手动起动应急飞行液压泵低速模式或高速模式。</p>
@@ -747,8 +747,8 @@
 </div>
 </div>
 <div class="section" id="id2">
-<h3>控制器和指示器<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
-<p>用于控制机翼后掠系统的控制器（电力）位于右侧油门握把以及右侧油门握把右边（机械）。详见 <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a> 和 <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a> 。</p>
+<h3>控制开关/按钮和指示器<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
+<p>用于控制机翼后掠系统的控制开关（电力）位于右侧油门握把以及右侧油门握把右边（机械）。详见 <a class="reference internal" href="cockpit.html#throttle"><span class="std std-ref">油门握把</span></a> 和 <a class="reference internal" href="cockpit.html#throttlequadrant"><span class="std std-ref">油门弧座</span></a> 。</p>
 <p>右侧油门握把上的机翼后掠苦力帽开关通常设置到 <strong>AUTO</strong> 档位，选择 AUTO 档位来启用 CADC 对机翼进行控制，AUTO 档位为苦力帽向上。向下拨动苦力帽将机翼设置为 <strong>BOMB</strong> 档位，机翼将后掠到55°或往后。</p>
 <p>苦力帽 <strong>AFT</strong> （向后）和 <strong>FWD</strong> （向前）档位用来从 CADC 制度的位置手动移动襟翼。</p>
 <p>油门弧座右侧的应急机翼后掠手柄用于控制机械操控的应急模式，详细见上文中的紧急模式。</p>
@@ -793,7 +793,7 @@
 <p>在进行纵向（俯仰）控制时，机尾两侧的水平安定面的偏转角度保持一致，其作动方式与传统升降舵相同。</p>
 <p>横向（横滚）控制由水平安定面和扰流板一同作动。为了使飞机进行横滚，机尾两侧的水平安定面将会向相反的方向偏转并配合使用横滚方向的扰流板来达到副翼的效果。</p>
 <p>尽管 F-14 安装有两个垂直安定面和两个方向舵，但这仍然是标准舵面配置。</p>
-<p>操纵面的位置 将在 <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">操纵面位置指示器</span></a> 中指示出来，操纵面位置指示器也可以用于检查驾驶杆位于归中位置时，操纵面配平位置。</p>
+<p>操纵面的位置将在 <a class="reference internal" href="cockpit.html#controlsurface"><span class="std std-ref">操纵面位置指示器</span></a> 中指示出来，操纵面位置指示器也可以用于检查驾驶杆位于中立位置时，操纵面配平的位置。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>在 AOA 超过15个单位时，由于沿操纵面流过的气流发生变化，所以飞行员应使用方向舵来进行横向（横滚）控制。</p>
@@ -804,7 +804,7 @@
 </div>
 <div class="section" id="trim">
 <h3>配平<a class="headerlink" href="#trim" title="永久链接至标题">¶</a></h3>
-<p>飞行员可以通过 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 中的配平开关进行俯仰和横滚配平。按下配平开关会改变驾驶杆的归中位置，从而配平飞机。方向舵通过 <a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">进气道斜板 / 油门控制面板</span></a> 中的 <strong>RUDDER TRIM</strong> 开关进行配平，使用这个开关进行配平同样会改变脚蹬板的归中位置。</p>
+<p>飞行员可以通过 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 中的配平开关进行俯仰和横滚配平。按下配平开关会改变驾驶杆的中立位置，从而配平飞机。方向舵通过 <a class="reference internal" href="cockpit.html#inletrampsthrottle"><span class="std std-ref">进气道斜板 / 油门控制面板</span></a> 中的 <strong>RUDDER TRIM</strong> 开关进行配平，使用这个开关进行配平同样会改变脚蹬板的中立位置。</p>
 <p>马赫数配平和 ITS（综合配平系统）会自动进行配平以补偿俯仰配平带来的变化。马赫数配平系统可以补偿在跨声速和超声速时的配平变化，而 ITS 将补偿由于减速板以及襟翼位置变化带来的配平变化。</p>
 </div>
 <div class="section" id="afcs-automatic-flight-control-system">
@@ -823,7 +823,7 @@
 <p>HDG 开关的 <strong>HDG</strong> 档位用来启用航向保持，操纵飞机转向至所需的航向，并将飞机坡度保持在5°以内来接通航向保持。</p>
 <p>将 HDG 开关设置到 <strong>GT</strong> 档位时自动驾驶将进入地面航迹模式，等待 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>A/P REF</strong> 告警灯亮起，之后按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 <strong>A/P REF</strong> 告警灯将熄灭，接着地面航迹模式将被启用，接通后将设置自动驾驶补偿飞机的风偏来跟随地面航迹。</p>
 <p><strong>ALT</strong> ——高度开关用于选择高度保持模式，与地面航迹模式相似，<strong>A/P REF</strong> 告警灯亮起后，按下前轮转向按钮启来接通高度保持模式。</p>
-<p>数据链路引导航向 - 精确航线方向模式用于允许 Link 4 操作员远程操纵飞机。该功能没有在 DCS 中进行模拟。</p>
+<p>数据链路引导 - 精确航线方向模式用于允许 Link 4 操作员远程操纵飞机。该功能没有在 DCS 中进行模拟。</p>
 <p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式用于联合 Link 4 数据链路和机载雷达信标来进行自动助降。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 告警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 告警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 告警灯将熄灭。</p>
 <p>ACL 可以与 APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制器</span></a> ）结合使用来进行全自动助降。ACL 可以通过右侧油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 可以通过左侧油门握把上的 <strong>CAGE/SEAM</strong> 按钮来断开。</p>
 <p>所有自动驾驶模式都可以通过用力移动驾驶杆来超控或可以通过自动驾驶应急断开手柄来解除自动驾驶，按下手柄后所有自动驾驶开关将复位至 OFF 档位。</p>
@@ -867,10 +867,10 @@
 <div class="section" id="landing-gear-system">
 <h2>起落架系统<a class="headerlink" href="#landing-gear-system" title="永久链接至标题">¶</a></h2>
 <p>F-14 “雄猫” 采用可完全收起的前三点式起落架，起落架被设计得足够结实以应对着舰时的严酷考验。起落架的收起和放下由联合液压系统提供动力，以及起落架还拥有应急放下系统。应急放下系统中含有一个氮气瓶，氮气瓶可用于为单次应急放下提供动力。应急系统被触发后，需要由地面技术人员复位应急放下系统后才能进一步正常收回起落架。</p>
-<p>有关控制器和指示器的其它信息，详见 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> （控制器）和 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> （指示器）。</p>
+<p>有关控制开关/手柄和指示器的其它信息，详见 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> （控制开关/手柄）和 <a class="reference internal" href="cockpit.html#wheelsflapsind"><span class="std std-ref">机轮-襟翼位置指示器</span></a> （指示器）。</p>
 <div class="section" id="nosewheel-steering">
 <h3>前轮转向<a class="headerlink" href="#nosewheel-steering" title="永久链接至标题">¶</a></h3>
-<p>当机轮负重时，飞行员可以通过按下 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 中的前轮转向按钮激活 F-14 中的前轮转向系统。位于 HUD 左侧的 <strong>NWS ENGA</strong> 注意灯亮起表示前轮转向系统已激活，详见 <a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">机轮警告/刹车警告/ ACLS 和 AP 注意/ NWS 启用注意/自动油门注意灯</span></a> 。</p>
+<p>当机轮负重时，飞行员可以通过按下 <a class="reference internal" href="cockpit.html#stick"><span class="std std-ref">驾驶杆</span></a> 中的前轮转向按钮激活 F-14 中的前轮转向系统。位于 HUD 左侧的 <strong>NWS ENGA</strong> 注意灯亮起表示前轮转向系统已激活，详见 <a class="reference internal" href="cockpit.html#wheelswarn"><span class="std std-ref">机轮告警/刹车告警/ ACLS 和 AP 注意/ NWS 启用注意/自动油门注意灯</span></a> 。</p>
 <p>机轮不负重（起飞）、电源故障或放下弹射杆都将导致前轮转向自动断开。同时还可以通过按下驾驶杆中的前轮转向按钮来断开前轮转向。</p>
 <p>前轮转向系统激活时，飞行员通过脚蹬板来控制前轮进行转向。前轮最大偏转角度可达到70°，也就是说，只要转动到最大角度，转向内侧的机轮实际上会后移动。</p>
 </div>
@@ -940,7 +940,7 @@
 <p>其它使用 ECS 气源的驾驶舱外的系统分别为：副油箱增压、机翼密封气囊、电子设备冷却和 AN/AWG-9 雷达以及 AIM-54 导弹冷却（通过空气/液体换热器来冷却）。</p>
 <div class="section" id="air-source-and-cockpit-air-controls">
 <h3>气源和驾驶舱引气控制<a class="headerlink" href="#air-source-and-cockpit-air-controls" title="永久链接至标题">¶</a></h3>
-<p>ECS 的气源通过 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">空调控制面板</span></a> 中的控制器来设置。</p>
+<p>ECS 的气源通过 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">空调控制面板</span></a> 中的控制按钮来设置。</p>
 <p>选择 <strong>L ENG</strong> 档位将使用左发动机作为气源；选择 <strong>R ENG</strong> 档位将使用右发动机作为气源；选择 <strong>BOTH</strong> 档位将同时使用两个发动机作为气源；一般情况下使用 BOTH 档位。</p>
 <p>选择 <strong>RAM</strong> 和 <strong>OFF</strong> 档位都将启用应急冲压空气进气门，但是选择 <strong>OFF</strong> 档位将关闭加温系统和伺服系统的增压。</p>
 <p>正常运行时，驾驶舱的温度由 <strong>TEMP</strong> 开关及同一面板中的拨轮来控制。如果将 <strong>TEMP</strong> 开关拨至 <strong>AUTO</strong> 档位，环控系统将通过调节温度控制阀门来自动保持所选的驾驶舱温度。如果 <strong>TEMP</strong> 开关设置为 <strong>MAN</strong> 档位——手动——在这个档位时，飞行员需要根据高度和空速变化调整拨轮来保持驾驶舱和抗荷服中的气温。</p>
@@ -970,8 +970,8 @@
 </div>
 <div class="section" id="external-ecs-air-supply">
 <h3>外部 ECS 气源<a class="headerlink" href="#external-ecs-air-supply" title="永久链接至标题">¶</a></h3>
-<p>对于在地面或甲板上运行需要进行冷却的系统，可以通过接通外部 ECS 气源来冷却这些所需的系统。</p>
-<p>但是，一般所使用的外部气源无法同时为所有系统提供冷却，以此必须设置需要进行冷却的系统。通过 RIO 右侧控制台中的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 上的 <strong>GND CLG</strong> 开关来控制需要冷却的系统。开关拨动至 <strong>OBC/CABIN</strong> 档位将为座舱和所有空气冷却的电子设备提供外部 ECS 气源。由于热交换的冷却空气不足，开关设置到 OBC/CABIN 档位将会禁用 AN/AWG-9 发射器。开关设置到 <strong>AWG-9/AIM-54</strong> 档位将为 AN/AWG-9 雷达和 AIM-54 换热器以及相关电子设备提供外部 ECS 气源。开关拨至 <strong>OFF</strong> 档位将关闭外部 ECS 气源，OFF 档位是当发动机运转时所使用的一般模式。</p>
+<p>对于在地面或甲板上运行时需要进行冷却的系统，可以通过接通外部 ECS 气源来冷却这些所需的系统。</p>
+<p>但是，一般所使用的外部气源无法同时为所有系统提供冷却，以此必须设置需要进行冷却的系统。通过 RIO 右侧控制台中的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 上的 <strong>GND CLG</strong> 开关来控制需要冷却的系统。开关拨动至 <strong>OBC/CABIN</strong> 档位将为座舱和所有空气冷却的电子设备提供外部 ECS 气源。由于热交换的冷却空气不足，开关设置到 OBC/CABIN 档位将会禁用 AN/AWG-9 发射器。开关设置到 <strong>AWG-9/AIM-54</strong> 档位将为 AN/AWG-9 雷达和 AIM-54 换热器以及相关电子设备提供外部 ECS 气源。开关拨至 <strong>OFF</strong> 档位将关闭外部 ECS 气源，OFF 档位是当发动机运转时所使用的正常模式。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>在发动机运转期间， <strong>GND CLG</strong> 开关不应设置为 <strong>OFF</strong> 以外的任何档位。</p>
@@ -1016,7 +1016,7 @@
 <div class="section" id="ejection-system">
 <h2>弹射系统<a class="headerlink" href="#ejection-system" title="永久链接至标题">¶</a></h2>
 <p>F-14 “雄猫”配备了2台 Martin-Baker GRU-7A 火箭助推弹射座椅，一台飞行员使用，另一台 RIO 使用。弹射系统为零-零弹射，即——能够在零空速、零高度条件下，成功将机组成员弹射出驾驶舱。</p>
-<p>由于 F-14 作为双座飞机，因此除了弹射手柄和保险系统外，弹射系统还有额外的控制器，换句话说就是弹射指令控制杆。弹射指令控制杆位于 RIO 驾驶舱中，控制杆可以选择在 RIO 弹射时是否也将飞行员弹射出驾驶舱。</p>
+<p>由于 F-14 作为双座飞机，因此除了弹射手柄和解除保险系统外，弹射系统还有额外的控制开关，即弹射指令控制杆。弹射指令控制杆位于 RIO 驾驶舱中，控制杆可以选择在 RIO 弹射时是否也将飞行员弹射出驾驶舱。</p>
 <p>弹射指令控制杆位于传感器控制面板旁，见 <a class="reference internal" href="cockpit.html#ejectcmdlev"><span class="std std-ref">弹射指令控制杆</span></a>。当设置到 <strong>PILOT</strong> 档位时，飞行员弹射时两名机组成员都将弹射出去，而 RIO 弹射仅会将自己弹射出去。当设置到 <strong>MCO</strong> 档位时，任何一名机组弹射都会将另一名机组成员弹射出去。</p>
 <p>系统不允许仅飞行员一人弹射出驾驶舱，因为让 RIO 孤零零留在驾驶舱内似乎不太好。</p>
 <p>飞行员可以在 <a class="reference internal" href="cockpit.html#gearcontrol"><span class="std std-ref">起落架控制面板</span></a> 中查看弹射指令控制杆设置的档位， <strong>EJECT CMD</strong> 翻转指示器在弹射指令控制杆位于飞行员档位时将显示 <strong>PILOT</strong> ，位于 MCO 档位时将显示为 <strong>MCO</strong> 。</p>
@@ -1029,7 +1029,7 @@
 <p>机外照明包括了航行灯、防撞灯、编队灯、滑行灯、进近灯和受油管灯。</p>
 <div class="section" id="internal-lighting">
 <h3>机内照明<a class="headerlink" href="#internal-lighting" title="永久链接至标题">¶</a></h3>
-<p>红色仪表面板和红色控制台灯光主要在夜间使用，所有仪表和控制器使用背光进行照明，从而最大程度降低在照明时对使用夜视仪的影响。</p>
+<p>红色仪表面板和红色控制台灯光主要在夜间使用，所有仪表和控制开关/按钮使用背光进行照明，从而最大程度降低在照明时对使用夜视仪的影响。</p>
 <p>泛光灯为驾驶舱中的面板提供额外的照明，但是注意避免影响到夜视仪的使用。</p>
 <p>通用/地图照明灯是可移动的，因此它可以照亮特定的位置并被用作地图灯或阅读灯。</p>
 <p>机内照明的控制面板位于前座飞行员的 <a class="reference internal" href="cockpit.html#mlightctrlpanel"><span class="std std-ref">主灯光控制板</span></a> 中以及后座 RIO 的 <a class="reference internal" href="cockpit.html#intlight"><span class="std std-ref">机内照明控制面板</span></a> 中，前座和后座分别控制各自区驾驶舱中的照明。</p>
@@ -1082,7 +1082,7 @@
 <div class="section" id="detail-data-display-ddd-and-panel">
 <h3>详细数据显示器（DDD）及控制面板<a class="headerlink" href="#detail-data-display-ddd-and-panel" title="永久链接至标题">¶</a></h3>
 <img alt="_images/dddpanel.png" src="_images/dddpanel.png" />
-<p>DDD 是 AN/AWG-9 系统中雷达部分的主要显示器和主要控制面板。除了位于传感器控制面板上的扫描范围和相对地面稳定控制器以外，DDD 中包括了所有雷达的控制器。</p>
+<p>DDD 是 AN/AWG-9 系统中雷达部分的主要显示器和主要控制面板。除了位于传感器控制面板上的扫描范围和相对地面稳定控制开关以外，DDD 中包括了所有雷达的控制开关/按钮。</p>
 <p><strong>TGTS 开关，MLC 开关，AGC 开关 和 PARAMP 开关</strong></p>
 <p>位于 DDD 面板左上部分包含有4个开关（ <strong>1 - 4</strong> ），它们分别用于控制参数放大，主瓣杂波（MLC）抑制和目标大小参数。</p>
 <p><strong>TGTS</strong> （目标）开关可以选择预计目标的大小，WCS 会根据设置的目标大小来计算导弹发射区，并设置雷达中目标跟踪的参数。同时 TGTS 开关还设定发送导弹 ATC（主动制导转交指令）的距离， <strong>SMALL</strong> 为 6海里 发送、 <strong>NORM</strong> 10海里 发送和 <strong>LARGE</strong> 13海里 发送。如果开关选择的预计目标大小错误，就有可能会对目标跟踪和攻击产生负面影响。</p>
@@ -1095,20 +1095,20 @@
 </dd>
 </dl>
 <p><strong>AWG - 9 雷达距离选择和跟踪指示</strong></p>
-<p>在 DDD 面板中的上部中央部分，包含了用于在搜索模式下设置雷达距离的控制器以及指示器。在这些控制器和指示器的下方还拥有在单目标跟踪（STT）模式下的雷达跟踪指示器。</p>
+<p>在 DDD 面板中的上部中央部分，包含了用于在搜索模式下设置雷达距离的控制按钮以及指示器。在这些控制按钮和指示器的下方还拥有在单目标跟踪（STT）模式下的雷达跟踪指示器。</p>
 <p>六个圆形按钮（ <strong>8</strong> ）分别标记了 <strong>5, 10, 20, 50, 100 和 200</strong> ，这些按钮用于在脉冲模式和在 IFF 问询时选择所需的雷达显示距离，这些按钮的设置同时会影响飞行员目标距离显示的标度。这六个按钮互斥，因为一次只能选择一个显示距离。在脉冲搜索模式下，通过上述按钮进行选择会影响雷达的 PRF 以及 DDD 中的显示标度，如果设置为20海里及以上的显示距离，那么将会启用脉冲压缩。</p>
 <p><strong>距离显示滚筒</strong> （ <strong>7</strong> ），距离显示滚筒中显示了雷达在脉冲模式下当前 DDD 中的雷达显示标度，使用脉冲多普勒模式时滚筒为空白。在 STT 模式下进行 IFF 问询时，这个指示器还将显示±10。</p>
 <p>在距离显示滚筒下方的是四个雷达跟踪指示灯，这些指示灯用来指示雷达在 STT 模式下如何跟踪目标。</p>
 <ul class="simple">
 <li><p><strong>ANT TRK</strong> （天线跟踪指示灯），指示灯亮起表示雷达正在跟踪目标来获得目标的方位和仰角的角度（方向）。</p></li>
-<li><p><strong>RDROT</strong> （雷达截获目标指示灯），指示灯亮起表示目标在距离内或接近率门限内，并且目标已锁定。</p></li>
+<li><p><strong>RDROT</strong> （雷达截获目标指示灯），指示灯亮起表示目标在距离内或接近率门内，并且目标正在距离门或接近率门内被雷达跟踪中。</p></li>
 <li><p><strong>JAT</strong> （干扰源角跟踪指示灯），这个指示灯亮起表示天线正在跟踪干扰源的方位和仰角的角度。</p></li>
 <li><p><strong>IROT</strong> （红外捕获目标指示灯），指示灯亮起表示系统正在通过 TCS 跟踪目标来获得目标方位和仰角的角度，IROT 名称是早期 F-14A 中的 IRST 系统继承而来。</p></li>
 </ul>
 <p><strong>IR AUDIO 控制</strong></p>
 <p><strong>IR AUDIO</strong> 控制旋钮（ <strong>10 - 12</strong> ）位于 DDD 面板的右上部，这些控制旋钮被用于与原始的红外传感器一起使用，在模拟的 F-14 型号中是无功能的。</p>
 <p><strong>雷达和导弹频率选择拨轮</strong></p>
-<p>DDD 面板右上角的拨轮用于控制 AN/AWG-9 雷达发射的频率（ <strong>13</strong> ），导弹控制波道则用于与 AIM-7 和 AIM-54 一起使用（ <strong>14</strong> ）。调整这些拨轮来避免受到其它装备了 AN/AWG-9 飞机的或其它外部干扰源的干扰。由于导弹需要进行调谐，在 AIM-7 准备好后，WCS 将会读取 AIM-7 的导弹波道，在准备好 AIM-7 后变更波道不会起到任何作用，除非重新开始导弹的准备程序。</p>
+<p>DDD 面板右上角的拨轮用于控制 AN/AWG-9 雷达发射器的频率（ <strong>13</strong> ），导弹控制波道则用于与 AIM-7 和 AIM-54 一起使用（ <strong>14</strong> ）。调整这些拨轮来避免受到其它装备了 AN/AWG-9 飞机的或其它外部干扰源的干扰。由于导弹需要进行调谐，在 AIM-7 准备好后，WCS 将会读取 AIM-7 的导弹波道，在准备好 AIM-7 后变更波道不会起到任何作用，除非重新开始导弹的准备程序。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>目前在 DCS 中尚未模拟。</p>
@@ -1119,13 +1119,13 @@
 <p>雷达模式按钮（ <strong>16</strong> ）用来选择 AN/AWG-9 雷达的运行模式。两个 STT 按钮——脉冲多普勒单目标跟踪（ <strong>PD STT</strong> ）和脉冲单目标跟踪（ <strong>P STT</strong> ）——如果可用，这两个按钮可用来选择 STT 的模式。同时这两个按钮还用于自动尝试锁定至 TID 中选中的目标或用于在两个 STT 模式之间进行切换。脉冲多普勒搜索按钮（ <strong>PD SRCH</strong> ）用于选择雷达 PD SEARCH 模式。边搜索边测距按钮（ <strong>RWS</strong> ）用于选择雷达 RWS 模式。两个边搜索边跟踪按钮（ <strong>TWS AUTO</strong> 和 <strong>TWS MAN</strong> ）用于选择雷达使用与之对应的 TWS 模式运行。脉冲搜索按钮（ <strong>PULSE SRCH</strong> ）用于选择雷达脉冲搜索模式。</p>
 <p><strong>滚筒指示器</strong> （ <strong>17</strong> ），滚筒指示器指示了当前所选的雷达模式。除了显示 TWS MAN，TWS AUTO，RWS 指代各自的模式外，滚筒指示器还可以显示 MRL（手动快速锁定）、A-G （空对地）、VSL（垂直扫描锁定）、OPTTRK（TCS 跟踪）、PLM（飞行员锁定模式）、PULSE（脉冲搜索模式和脉冲 STT 模式）、PD（脉冲多普勒搜索模式和脉冲多普勒 STT 模式）和PAL（飞行员自动锁定模式）。</p>
 <p><strong>Aspect 和 Vc 开关</strong></p>
-<p>在 DDD 的两边是 ASPECT 开关和 VC 开关。 <strong>VC</strong> 开关（ <strong>18</strong> ）用于控制在脉冲多普勒模式下 DDD 上显示的目标接近率标度。开关拨到 X-4 档位时，接近率标尺区间被设置为800节离开到4000节接近，拨到 NORM 档位时，接近率标度将设置为200节离开至1000节接近，VID 档位则将接近率标度设置为50节离开至250节接近。</p>
+<p>在 DDD 的两边是 ASPECT 开关和 VC 开关。 <strong>VC</strong> 开关（ <strong>18</strong> ）用于控制在脉冲多普勒搜索模式下 DDD 上显示的目标接近率标度。开关拨到 X-4 档位时，接近率标尺区间被设置为800节离开到4000节接近，拨到 NORM 档位时，接近率标度将设置为200节离开至1000节接近，VID 档位则将接近率标度设置为50节离开至250节接近。</p>
 <p><strong>ASPECT</strong> 开关（ <strong>21</strong> ）将根据雷达模式控制两种不同的功能。在脉冲多普勒搜索模式中，ASPECT 开关用来控制雷达的接近率处理窗口，NOSE 档位将设置为600节离开至1800节接近，BEAM 档位将设置为1200节接近至1200节离开，TAIL 档位将设置为1800节离开至600节接近。在短脉冲 STT 模式下，开关不同的档位将系统跟踪模式设置为对应的回波边缘和回波质心来减轻对抗措施对例如箔条和特定干扰模式的影响。</p>
 <p><strong>仰角指示器</strong></p>
 <p>仰角指示器标度—— <strong>EL</strong> （ <strong>22</strong> ）——这个指示器用于指示传感器的仰角。左侧（ <strong>RDR</strong> ）的指针指示当前实际的雷达天线的仰角。左侧的指针将会随天线在雷达搜索模式下的移动而移动。</p>
-<p>如果将 HCU 设置为 RDR 模式，右侧（IR/TV/EC）指针将指示当前设置的天线栅状扫描的仰角中心。由于可使 RIO 在最终返回到搜索模式时设置需要使用的天线的仰角中心，这个指针在 STT 模式下显得十分有用。</p>
+<p>如果将 HCU 设置为 RDR 模式，右侧（IR/TV/EC）指针将指示当前设置的天线栅状扫描中心的仰角。由于指针可使 RIO 在最终返回到搜索模式时设置需要使用的天线的仰角中心，IR/TV/EC 指针在 STT 模式下显得十分有用。</p>
 <p>如果设置 HCU 为 IR/TV 模式，那么右侧指针会显示当前 TCS 的仰角。</p>
-<p><strong>反干扰模式控制器</strong></p>
+<p><strong>反干扰模式控制按钮</strong></p>
 <p>面板的左下角含有三个反干扰模式按钮。这些按钮的功能用于反制各种影响系统的干扰。（尚未实装）</p>
 <p><strong>雷达和 DDD 控制旋钮</strong></p>
 <p>在 DDD 面板上有八个不同的旋钮，它们各自用来控制 DDD 的和雷达的不同功能。坐落于 DDD 左上角的是 <strong>PULSE VIDEO</strong> 控制旋钮（ <strong>5</strong> ），这个旋钮用来控制 DDD 在脉冲模式下的视频强度。旋钮只对 DDD 产生影响，不会影响雷达本身。</p>
@@ -1170,12 +1170,12 @@
 <p>在脉冲搜索模式下，当 IFF 问询器被启动后，IFF 信息将会叠加显示在正常雷达回波上。在脉冲多普勒搜索模式下，当显示 IFF 信息时，DDD 显示标度将切换至先前设置距离标度来显示距离和方位，在 PD STT 模式下，如果在 TID 选中了目标，当显示 IFF 应答结果时，那么 DDD 显示标度将切换至目标为中心 ±10 标度。</p>
 </div>
 <div class="section" id="tactical-information-display-tid-and-associated-controls">
-<span id="tid"></span><h3>战术信息显示器（TID）与相关控制器<a class="headerlink" href="#tactical-information-display-tid-and-associated-controls" title="永久链接至标题">¶</a></h3>
+<span id="tid"></span><h3>战术信息显示器（TID）与相关控制开关/按钮<a class="headerlink" href="#tactical-information-display-tid-and-associated-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/tid1.png" src="_images/tid1.png" />
 <p>TID 是 WCS 的主要数据显示器。TID 向 RIO 显示战术信息，显示的战术信息用来识别和选择用于 F-14 “雄猫”上的远程武器的目标。将 TID 想象成一张俯视地图，所有显示出的跟踪以及符号都会以相对应的坐标显示在这张地图中，但是 TID 不会显示出地面/水面地物（地图）。同时 TID 还作为次要角色用于显示输入数据至 WCS、导航、INS 对准和机上检查（OBC）。</p>
 <p><strong>TID 显示控制旋钮</strong></p>
 <p>在 TID 的上方边缘处包含有两个显示控制旋钮（ <strong>2 &amp; 4</strong> ）。左边的旋钮用于控制 TCS 的显示对比度，右边的旋钮用来控制 TID 的整体亮度。一般根据使用习惯和当前环境亮度来调整。</p>
-<p><strong>INS 和导航控制器</strong></p>
+<p><strong>INS 和导航控制开关/按钮</strong></p>
 <p>位于 TID 左上角的是 INS 状态指示器（ <strong>1</strong> ），状态指示器用来指示 INS 的状态和对准状态。</p>
 <p>TID 的两侧包含有两个旋钮。左侧的旋钮（ <strong>12</strong> ）用来控制和选择使用 INS 或 AHRS（姿态航向基准系统）模式。同时这个旋钮还用于进行 INS 对准。</p>
 <p>右侧的旋钮（ <strong>6</strong> ）用来控制在飞行员选择目标转向时，转向的目标源。旋钮用来在存储在 WCS 中的不同的航路点之间进行选择。MAN 档位仅用于在飞机挂载了 TARPS 时使用。</p>
@@ -1187,7 +1187,7 @@
 <p><strong>TRACK HOLD 按钮与 CLSN 按钮</strong></p>
 <p>在上述 TID 两侧选择旋钮下方的是两个带有指示灯光的按钮，TID 每侧各一个按钮。绿色灯光亮起表示已选择按钮。</p>
 <p>在 TID 左侧的是 <strong>TRACK HOLD</strong> 按钮（ <strong>11</strong> ），TRACK HOLD 按钮用于启用跟踪保持功能。通常，在 TWS 模式下，TID 中的目标会在最后一次观测到后开始保留在屏幕中14秒。按下跟踪保持功能会将所有目标保留的时间延长至2分钟。如果再次按下 TRACK HOLD 按钮，那么保留的时间将会恢复至标准的14秒一个周期，在14秒过后如果没再次观测到目标，那么目标将会被丢弃。</p>
-<p>在 TID 右侧的是 <strong>CLSN</strong> 按钮（ <strong>7</strong> ），CLSN 按钮用于启用恒量角度拦截转向至当前跟踪的目标或重心（如果在 TWS 模式下时）。除了飞行员选择了 ACM 模式外，按下按钮恒量角度拦截转向将会超控当前提供给飞行员的转向信息。</p>
+<p>在 TID 右侧的是 <strong>CLSN</strong> 按钮（ <strong>7</strong> ），CLSN 按钮用于启用恒量角度拦截转向至当前跟踪的目标或质心（如果在 TWS 模式下时）。除了飞行员选择了 ACM 模式外，按下按钮恒量角度拦截转向将会超控当前提供给飞行员的转向信息。</p>
 <p><strong>TID 控制面板</strong></p>
 <p>在 TID 的下方是 TID 控制面板（ <strong>8</strong> ）。TID 控制面板上有8个按钮，分别用于选择在 TID 中显示的标识符，绿色灯光亮起表示已启用按钮。TID 控制面板上还包含有两个选择旋钮，分别控制这显示标度和 TID 模式。这些按钮分别是：</p>
 <table class="longtable docutils align-default">
@@ -1248,7 +1248,7 @@
 </tbody>
 </table>
 <p>TID 面板中左侧选择旋钮用来控制 TID 显示模式（ <strong>10</strong> ）。 <strong>GND STAB</strong> （相对地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。<strong>ATTK</strong> （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。<strong>TV</strong> 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD 上的一般战术信息。</p>
-<p>右侧的选择旋钮用来设置 TID 的显示标度，设置所选的距离为显示直径。可用的显示距离分别为25海里、50海里、100海里、200海里和400海里，更大的显示距离可用于显示雷达探测距离外的数据链路信息。</p>
+<p>右侧的选择旋钮用来设置 TID 的显示标度，将显示的直径设置为选定的距离（ <strong>9</strong> ）。可用的显示距离分别为25海里、50海里、100海里、200海里和400海里，更远的显示距离可用于显示雷达探测距离外的数据链路信息。</p>
 <div class="section" id="tid-data-readouts">
 <h4>TID 数据读数<a class="headerlink" href="#tid-data-readouts" title="永久链接至标题">¶</a></h4>
 <img alt="_images/tidindicators.png" src="_images/tidindicators.png" />
@@ -1273,7 +1273,7 @@
 <td><p>读数显示 WCS 程序正在循环运行着。这个读数应该是连续地循环地数字，如果不是，则表示 WCS 计算机锁死或者死机。</p></td>
 </tr>
 <tr class="row-odd"><td><p>雷达天线仰角</p></td>
-<td><p>这个读数，如果在 STT 模式中，那么将显示当前 AN/AWG-9 雷达天线的仰角，或是如果在搜索模式下，则将显示栅状扫描仰角的中心。</p></td>
+<td><p>这个读数，如果在 STT 模式中，那么将显示当前 AN/AWG-9 雷达天线的仰角，或是如果在搜索模式下，则将显示栅状扫描中心的仰角。</p></td>
 </tr>
 <tr class="row-even"><td><p>栅状扫描极限</p></td>
 <td><p>读数显示在设定的 TID 显示距离中，当前所选栅状扫描的高度极限。</p></td>
@@ -1517,7 +1517,7 @@
 <tr class="row-odd"><td><p>命中时间（TTI）</p></td>
 <td><a class="reference internal image-reference" href="_images/47.png"><img alt="_images/47.png" class="align-center" src="_images/47.png" style="width: 50px; height: 20px;" /></a>
 </td>
-<td><p>AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间替代，TTI 显示了 WCS 计算出的导弹拦截跟踪目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁表示导引头已开机。（译注：这里的导引头开机表示导弹从半主动雷达制导切换至主动雷达制导）。</p></td>
+<td><p>AIM-54 发射后，跟踪的发射序号将由 TTI 或称为命中时间指示替代显示出来，TTI 显示了 WCS 计算出的导弹拦截跟踪目标的剩余时间。当发出 AIM-54 导引头开机指令时，TTI 数字将会闪烁表示导引头已开机。（译注：这里的导引头开机表示导弹从半主动雷达制导切换至主动雷达制导）。</p></td>
 </tr>
 <tr class="row-even"><td><p>速度矢量</p></td>
 <td><a class="reference internal image-reference" href="_images/36.png"><img alt="_images/36.png" class="align-center" src="_images/36.png" style="width: 50px; height: 30px;" /></a>
@@ -1708,16 +1708,16 @@
 <div class="section" id="hand-control-unit-hcu">
 <h3>手控装置（HCU）<a class="headerlink" href="#hand-control-unit-hcu" title="永久链接至标题">¶</a></h3>
 <img alt="_images/hcu1.png" src="_images/hcu1.png" />
-<p>手控装置（HCU）控制杆和面板上相应的控制器是控制 RIO WCS 显示器的主要输入元件。除了控制杆和面板上的控制器外，HCU 面板中还包括了 WCS 的和 TCS 的电源控制以及指示灯。</p>
+<p>手控装置（HCU）控制杆和面板上相应的控制开关/按钮是控制 RIO WCS 显示器的主要输入元件。除了控制杆和面板上的控制开关/按钮外，HCU 面板中还包括了 WCS 的和 TCS 的电源控制以及指示灯。</p>
 <p><strong>HCU 电源控制和指示灯</strong></p>
 <p>位于 HCU 面板上部边缘的是 IR/TV 超温指示灯（ <strong>2</strong> ）、电源复位指示灯（ <strong>4</strong> ）和 WCS 电源指示灯（ <strong>6</strong> ）。当 IR/TV 开关处于 STBY 档位或者 ON 档位时，IR/TV 电源指示灯亮起表示 TCS 还未准备就绪，当 TCS 准备就绪后，如果开关仍处于 STBY 档位，那么指示灯将保持亮起，如果将开关拨动到 ON 档位，那么则指示灯将会熄灭。电源复位指示灯亮起表示一个或多个二次电源因为故障使电源保护回路跳闸而无法工作。WCS 电源指示灯亮起表示 WCS 系统当前处于待机或者开关处于 ON 档位但雷达还未准备好进行发射。在启动过程中，在雷达启动计时器计时结束前，指示灯将保持熄灭。如需复位雷达，将开关拨动至 STANDBY 档位再拨动至 ON。</p>
 <p>位于 HCU 左上角的 <strong>IR/TV</strong> 开关（ <strong>1</strong> ）控制着 TCS 的电源。当开关拨到（STBY）档位时，启动系统但是不开启传感器。开关拨动至 ON 档位时启用传感器运行。需要注意的是，只有当 WCS 控制开关处于 STBY 档位或者 XMT 档位时，才能启用 IR/TV 开关。 <strong>WCS XMT</strong> 开关（ <strong>7</strong> ）控制着 WCS 计算机系统和系统相应的显示器（DDD 和 TID）的电源，以及禁止或允许雷达发射。当开关拨至 STBY 档位时将会开始向所有包括显示器在内的 WCS 系统供电，同时开始雷达预热程序。显示器预热需要30秒钟，雷达需要3分钟预热后才可以运行。在机轮不负重、雷达计时结束（预热）的情况下，WCS 控制开关拨至 ON 档位将启用雷达发射。</p>
 <p>在 HCU 面板中上部的两个按钮分别是 <strong>灯光测试</strong> （ <strong>3</strong> ）和 <strong>电源复位</strong> （ <strong>5</strong> ）按钮。按下灯光测试（LIGHT TEST）按钮后会启用所有 WCS 系统的灯光与指示器进行测试。电源复位（PWR RESER）按钮按下后将复位二次电源的保护电路来重新启用二次电源，同时电源复位按钮还可以复位导弹供电。需要注意的是，只有在保护回路中故障保护跳闸仍然存在、电源复位指示灯亮起时才按下此按钮。</p>
 <p><strong>HCU 模式按钮</strong></p>
-<p>HCU 控制杆左侧的是四个带有指示灯的、互斥的 HCU 模式按钮（ <strong>12</strong> ），模式按钮中的绿色灯光亮起表示已启用选择的模式。按下 <strong>IR/TV</strong> 按钮后会进入 TCS 模式，进入 TCS 模式从而使用 HCU 控制杆和控制器来控制 TCS。按下 <strong>RDR</strong> 按钮将进入雷达模式，进入雷达模式后可以使用 HCU 控制杆来控制 DDD 中的雷达截获光标，使用雷达截获光标来从雷达搜索模式转换至 STT 模式。按下 <strong>DDD CURSOR</strong> 按钮将进入 DDD 光标模式，在 DDD 光标模式下，使用 HCU 控制杆和控制器来控制 DDD 光标，当使用雷达进行地形测绘时，使用 DDD 光标来指示地面坐标。DDD 光标模式用于雷达导航更新或在 DDD 雷达显示器中选择一个用作为航路点的位置。按下 <strong>TID CURSOR</strong> 按钮将进入 TID 光标模式，在 TID 光标模式下，使用 HCU 控制杆和控制器来控制 TID 光标选中（选择）TID 中的标识符用于标识符控制和数据读数。</p>
+<p>HCU 控制杆左侧的是四个带有指示灯的、互斥的 HCU 模式按钮（ <strong>12</strong> ），模式按钮中的绿色灯光亮起表示已启用选择的模式。按下 <strong>IR/TV</strong> 按钮来选择 TCS 模式，进入 TCS 模式来允许使用 HCU 控制杆和控制开关/按钮来对 TCS 进行控制。按下 <strong>RDR</strong> 按钮将进入雷达模式，进入雷达模式后可以使用 HCU 控制杆来控制 DDD 中的雷达截获光标，使用雷达截获光标来从雷达搜索模式转换至 STT 模式。按下 <strong>DDD CURSOR</strong> 按钮将进入 DDD 光标模式，在 DDD 光标模式下，使用 HCU 控制杆和控制开关/按钮来控制 DDD 光标，当使用雷达进行地形测绘时，使用 DDD 光标来指定地面坐标。DDD 光标模式用于雷达导航更新或在 DDD 雷达显示器中选择一个用作为航路点的位置。按下 <strong>TID CURSOR</strong> 按钮将进入 TID 光标模式，在 TID 光标模式下，使用 HCU 控制杆和控制开关/按钮来控制 TID 光标选中（选择）TID 中的标识符用于标识符控制和数据读数。</p>
 <p><strong>HCU 控制杆</strong></p>
-<p>在 HCU 控制杆上的控制器包括：扳机（ <strong>11</strong> ）、仰角游标控制（ <strong>10</strong> ）、OFFSET 按钮（ <strong>9</strong> ）和 MRL 按钮（ <strong>8</strong> ）。HCU 控制杆的扳机有两个档位，按下扳机第一段和按下扳机第二段。 <strong>按下扳机第一段</strong> ，按下扳机第一段将启用在所选模式下的光标显示，但当模式按钮选择 TCS，也就是 IR/TV 模式时除外，在 IR/TV 模式下，按下扳机第一段将启用控制杆控制 TCS 仰角和方位控制。在雷达模式下，除了显示光标外，按下扳机第一段还启用了超级搜索截获模式（详情参阅雷达过渡模式）。 <strong>按下扳机第二段</strong> ，如果目标在 TCS 的截获门内，那么按下扳机第二段将告知 TCS 锁定 TCS 模式下的目标。在雷达模式下，按下按下扳机第二段将告知雷达尝试锁定在设定的方位下，处在雷达距离门/接近率门内的目标。在 DDD 和 TID 模式下，按下扳机第二段将标记当前光标的位置，或是如果在 TID 模式下，将尝试选中在显示器中距离光标中心0.125英寸内的符号（如果符号存在）。</p>
-<p><strong>仰角游标</strong> 控制是一个位于 HCU 控制杆左侧的一个拨轮，拨轮用于在 TCS 或者雷达模式下，±4° 微调传感器仰角来截获目标，微调是基于一般传感器仰角控制进行偏转的。控制杆顶部的 <strong>OFFSET</strong> 按钮用来偏置任何 TID 中的显示，移动本机符号至光标选中点的话（如果存在），那么其余的符号将会相对本机符号一并移动。通过选择另一个 TID 显示模式再返回原来的显示模式来复位偏置功能，所有符号将会返回原位。位于 HUC 控制杆右侧的 <strong>MRL</strong> 按钮可以用来启用用于目标截获的手动快速锁定模式（MRL），详情参阅 <a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a> 。</p>
+<p>在 HCU 控制杆上的控制开关/按钮包括：扳机（ <strong>11</strong> ）、仰角游标控制（ <strong>10</strong> ）、OFFSET 按钮（ <strong>9</strong> ）和 MRL 按钮（ <strong>8</strong> ）。HCU 控制杆的扳机有两个档位，按下扳机第一段和按下扳机第二段。 <strong>按下扳机第一段</strong> ，按下扳机第一段将启用在所选模式下的光标显示，但当模式按钮选择 TCS，也就是 IR/TV 模式时除外，在 IR/TV 模式下，按下扳机第一段将启用控制杆控制 TCS 仰角和方位控制。在雷达模式下，除了显示光标外，按下扳机第一段还启用了超级搜索截获模式（详情参阅雷达过渡模式）。 <strong>按下扳机第二段</strong> ，如果目标在 TCS 的截获门内，那么按下扳机第二段将告知 TCS 锁定 TCS 模式下的目标。在雷达模式下，按下按下扳机第二段将告知雷达尝试锁定在设定的方位下，处在雷达距离门/接近率门内的目标。在 DDD 和 TID 模式下，按下扳机第二段将标记当前光标的位置，或是如果在 TID 模式下，将尝试选中在显示器中距离光标中心0.125英寸内的符号（如果符号存在）。</p>
+<p><strong>仰角游标</strong> 控制是一个位于 HCU 控制杆左侧的一个拨轮，拨轮用于在 TCS 或者雷达模式下，±4° 微调传感器仰角来截获目标，微调是基于正常传感器仰角控制进行偏转的。控制杆顶部的 <strong>OFFSET</strong> 按钮用来偏置任何 TID 中的显示，移动本机符号至光标选中点的话（如果存在），那么其余的符号将会相对本机符号一并移动。通过选择另一个 TID 显示模式再返回原来的显示模式来复位偏置功能，所有符号将会返回原位。位于 HUC 控制杆右侧的 <strong>MRL</strong> 按钮可以用来启用用于目标截获的手动快速锁定模式（MRL），详情参阅 <a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a> 。</p>
 <p>根据 HCU 模式的不同 <strong>控制杆</strong> 的功能也有所不同。不变的是只有在按下扳机第一段才启用控制杆，并且所有模式下控制杆控制传感器或光标的绝对位置，这表示传感器或光标始终会移动至控制杆偏转的位置。在 TCS 模式下，控制杆的 X 轴（上/下）控制着 TCS 视线的仰角，Y 轴（左/右）控制着 TCS 视线的方位。在雷达模式下，控制杆 X 轴控制着 DDD 雷达截获门的距离或接近率，Y 轴控制着雷达截获的方位门。在两种光标模式下，控制杆 X 轴控制着光标的上/下移动，Y 轴控制着光标的左/右移动。</p>
 </div>
 <div class="section" id="computer-address-panel-cap">
@@ -1766,7 +1766,7 @@
 <p>其中的一些附加功能的按键还会将对应的其他数据显示在 TID 中，但输入的数据只会影响所选的前缀。举例来说，按下 LAT 按键同时显示 LONG 读数，但输入数据只会影响 LAT，另一个例子是 SPD 和 HDG。</p>
 <p><strong>CAP MESSAGE 滚筒指示器和按钮</strong></p>
 <p>CAP 的中下部分包含了 MESSAGE 按钮和滚筒指示器及其 CATEGORY（类别）选择旋钮。滚筒指示器和更现代系统中的 MFD 中的按钮有些相似，但与 MFD 不同的是，滚筒指示器用一个滚筒来代替屏幕来显示当前按钮的功能。</p>
-<p>当前按钮的功能是通过类别选择旋钮转动到不同类别来选择的，转动类别选择旋钮也将会转动滚筒指示器来指示所选类别的按钮的功能。当使用一个功能或选中符号时，功能或选中符号对应的 MESSAGE 阿牛将会亮起表示已启用。</p>
+<p>当前按钮的功能是通过类别选择旋钮转动到不同类别来选择的，转动类别选择旋钮也将会转动滚筒指示器来指示所选类别的按钮的功能。当使用一个功能或选中符号时，功能或选中符号对应的 MESSAGE 按钮将会亮起表示已被启用。</p>
 <p>不同类别中，显示出的 MESSAGE 和 MESSAGE 对应的功能如下：</p>
 <table class="colwidths-given docutils align-default" id="id12">
 <caption><span class="caption-text"><strong>BIT</strong> （机内自检）</span><a class="headerlink" href="#id12" title="永久链接至表格">¶</a></caption>
@@ -1884,16 +1884,16 @@
 <div class="section" id="sensor-control-panel">
 <h3>传感器控制面板<a class="headerlink" href="#sensor-control-panel" title="永久链接至标题">¶</a></h3>
 <img alt="_images/radarircontrol1.png" src="_images/radarircontrol1.png" />
-<p>传感器控制面板包含用于 AN/AWG-9 雷达天线栅状扫描的控制器。传感器控制面板上还包含了各种 TCS 控制器，RIO 可以通过面板中的控制器来将雷达隶属于 TCS ，或将 TCS 隶属于雷达，以及包含了机载录像机（AVTR）控制器。</p>
+<p>传感器控制面板包含用于 AN/AWG-9 雷达天线栅状扫描的控制开关/按钮。传感器控制面板上还包含了各种 TCS 控制开关/按钮，RIO 可以通过面板中的控制开关来将雷达隶属于 TCS ，或将 TCS 隶属于雷达，以及面板中还包含了用来对机载录像机（AVTR）进行控制的开关以及旋钮。</p>
 <p><strong>天线栅状扫描选择</strong></p>
-<p>传感器控制面板中，上半部分包含了雷达天线栅状扫描的控制器。 <strong>STAB</strong> （稳定）开关用来控制雷达天线栅状扫描是否相对于地平线（IN）稳定。如果 STAB 开关位于 OUT 档位，那么就表示，栅状扫描是相对 F-14 飞机的武器基准线稳定的。WCS 计算机在必要时会超控这个设置。 <strong>AZ CTR</strong> （方位角控制）和 <strong>EL CTR</strong> （仰角控制）旋钮用来设置天线栅状扫描中仰角和方位角的中心点。 <strong>方位角控制</strong> 旋钮用来在飞机中心线65°内移动扫描方位角的中心，如果扫描方位角宽设置为±65°的话，那么这个功能将会被禁用，这是因为设置为±65°已经扫描了最大的方位角角度。请勿移动栅状扫描至65°极限外，因为这样可能会使天线撞到天线方位角停止器导致损坏天线。 <strong>仰角控制</strong> 旋钮用来控制相对0°仰角，栅状扫描仰角底部的扫描线的俯仰位置。仰角可从 -76° 移动至 +54° 。上述的仰角控制和方位角控制旋钮都含有标记出的中心点，分别是飞机中心线和0°仰角。</p>
+<p>传感器控制面板中，上半部分包含了雷达天线栅状扫描的控制开关/按钮。 <strong>STAB</strong> （稳定）开关用来控制雷达天线栅状扫描是否相对于地平线（IN）稳定。如果 STAB 开关位于 OUT 档位，那么就表示，栅状扫描是相对 F-14 飞机的武器基准线稳定的。WCS 计算机在必要时会超控这个设置。 <strong>AZ CTR</strong> （方位角控制）和 <strong>EL CTR</strong> （仰角控制）旋钮用来设置天线栅状扫描中仰角和方位角的中心点。 <strong>方位角控制</strong> 旋钮用来在飞机中心线65°内移动扫描方位角的中心，如果扫描方位角宽设置为±65°的话，那么这个功能将会被禁用，这是因为设置为±65°已经扫描了最大的方位角角度。请勿移动栅状扫描至65°极限外，因为这样可能会使天线撞到天线方位角停止器导致损坏天线。 <strong>仰角控制</strong> 旋钮用来控制相对0°仰角，栅状扫描仰角底部的扫描线的俯仰位置。仰角可从 -76° 移动至 +54° 。上述的仰角控制和方位角控制旋钮都含有标记出的中心点，分别是飞机中心线和0°仰角。</p>
 <p><strong>AZ SCAN</strong> （扫描方位角）和 <strong>EL BARS</strong> （仰角扫描线数）选择旋钮用来控制天线栅状扫描的大小。AZ SCAN 选择旋钮有4个档位，分别是：±10°、±20°、±40°和±65°。EL BARS 选择旋钮也有4个档位，分别是：1、2、4或8线扫描。扫描线仰角覆盖角度分别为：1线2.3°、2线3.6°、4线6.3° 和 8线11.5°，之所以仰角覆盖角度不是扫描线数乘以1线的覆盖角度是因为，扫描线之间覆盖角度略有重叠。</p>
-<p>传感器控制面板中最后一个雷达控制器是 <strong>VSL</strong> 开关。短暂拨动开关至 VSL HIGH 或 VSL LOW 将启用垂直扫描截获模式。详情参阅 <a class="reference internal" href="#vsl"><span class="std std-ref">垂直扫描锁定模式（VSL）</span></a> 。</p>
+<p>传感器控制面板中最后一个雷达控制开关是 <strong>VSL</strong> 开关。短暂拨动开关至 VSL HIGH 或 VSL LOW 将启用垂直扫描截获模式。详情参阅 <a class="reference internal" href="#vsl"><span class="std std-ref">垂直扫描锁定模式（VSL）</span></a> 。</p>
 <p><strong>TCS 控制</strong></p>
 <p>在传感器面板右侧的 <strong>SLAVE</strong> 开关用来控制从属的传感器，或者互相独立。开关在中间档位时，两个传感器相互独立移动。当开关位于 RDR 档位时，当 TCS 锁定了一个目标时，雷达将会隶属至 TCS 视线。开关在 TCS 档位时，如果雷达处在 STT 或 JAT 模式，那么 TCS 将隶属至雷达视线。两种从属模式都可以使传感器引导传感器锁定至另一个传感器正在跟踪的目标。</p>
 <p><strong>TCS TRIM</strong> 旋钮用来校正 TCS 的方位（AZ）和仰角（EL）。TCS TRIM 旋钮用来校正 TCS 视线对准雷达视线。通常通过以下方式来完成校正：使用 STT 锁定一个目标，设置从属为 TCS，接着微调校正旋钮直到 TCS 视线对准锁定的目标。</p>
 <p>最后两个用于控制 TCS 的开关是 ACQ（捕获）开关和 FOV（视场）开关。 <strong>ACQ</strong> 开关可以控制 TCS 如何锁定目标。当处于 AUTO SRCH 档位时 TCS 传感器会在有限扫描模式中移动尝试找到目标。MAN（手动）档位只能通过 HCU 在 IR/TV 模式下手动锁定目标，AUTO（自动）档位下 TCS 将自动尝试锁定进入视场内的目标。 <strong>FOV</strong> 开关可以用来控制 TCS 使用 WIDE（宽）或 NAR（窄）视场。</p>
-<p>传感器控制面板的下半部分包含了机载录像机（AVTR）的控制器，这些控制器用来控制和指示电源模式和磁带的剩余录像时间。尚未在 DCS 中对其进行建模。</p>
+<p>传感器控制面板的下半部分包含了机载录像机（AVTR）的控制开关/按钮，这些控制开关/按钮用来控制和指示电源模式和磁带的剩余录像时间。尚未在 DCS 中对其进行建模。</p>
 </div>
 <div class="section" id="an-awg-9-radar">
 <h3>AN/AWG-9雷达<a class="headerlink" href="#an-awg-9-radar" title="永久链接至标题">¶</a></h3>
@@ -2107,8 +2107,8 @@
 <div class="section" id="vertical-scan-lockon-vsl">
 <span id="vsl"></span><h6>垂直扫描锁定模式（VSL）<a class="headerlink" href="#vertical-scan-lockon-vsl" title="永久链接至标题">¶</a></h6>
 <a class="reference internal image-reference" href="_images/vsl.png"><img alt="_images/vsl.png" src="_images/vsl.png" style="width: 500px; height: 800px;" /></a>
-<p>VSL 模式可以由飞行员或者 RIO 启用，VSL 模式用于锁定飞机当前航向上仰角-15°到+55°的目标。RIO 可以使用传感器控制面板上 VSL 开关选择 VSL 模式。RIO 可以通过将传感器控制面板中的 VSL 开关拨至 VSL HI（高目标）档位或 VSL LO（低目标）档位并释放来选择这两个子模式。在 A/G 以外的模式下，飞行员可以使用目标指定开关 UP 或 DN 分别启用 VSL HI 或 VSL LO。</p>
-<p>启用 VSL 将命令天线以宽5°的圆形扫描覆盖范围进行垂直扫描。如果启用 VSL HI （高目标），那么扫描的垂直覆盖范围为+15°到+55°；如果启用 VSL LO（低目标），那么扫描的垂直覆盖范围为-15°到+25°。VSL 通过随天线视线移动的菱形在 HUD 中指示出来，菱形用来指示天线视线当前的位置。</p>
+<p>VSL 模式可以由飞行员或者 RIO 启用，VSL 模式用于锁定飞机当前航向上仰角-15°到+55°的目标。RIO 可以使用传感器控制面板上 VSL 开关选择 VSL 模式。RIO 可以通过将传感器控制面板中的 VSL 开关拨至 VSL HI（高）档位或 VSL LO（低）档位并释放来选择这两个子模式。在 A/G 以外的模式下，飞行员可以使用目标指定开关 UP 或 DN 分别启用 VSL HI 或 VSL LO。</p>
+<p>启用 VSL 将命令天线以宽5°的圆形扫描覆盖范围进行垂直扫描。如果启用 VSL HI，那么扫描的垂直覆盖范围为+15°到+55°；如果启用 VSL LO，那么扫描的垂直覆盖范围为-15°到+25°。VSL 通过随天线视线移动的菱形在 HUD 中指示出来，菱形用来指示天线视线在当前所处的位置。</p>
 <p>当探测到5海里内的目标时，雷达将转换至脉冲 STT 模式，否则将继续执行 VSL 直到选择其他模式。</p>
 </div>
 <div class="section" id="pilot-automatic-lockon-pal">
@@ -2148,7 +2148,7 @@
 <h2>AN/APX-76 IFF 问询器<a class="headerlink" href="#an-apx-76-iff-interrogator" title="永久链接至标题">¶</a></h2>
 <p>AN/APX-76 IFF（敌我识别系统）问询器集成进了 AN/AWG-9 运作之中。而问询器天线本身位于 AN/AWG-9 天线环架的平台上。</p>
 <p>IFF 系统的工作原理是发射一个问询脉冲，然后监听应答机传回的脉冲。除了非加密民用模式外，AN/APX-76 还可以在加密的军用模式（mode 4）下进行问询。由此一来，这样就可以确定目标在 mode4 问询下进行应答的是友机。</p>
-<p>AN/APX-76 可以在搜索模式或 STT 模式中使用。如需启用问询，按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器</span></a> 中的 IFF 按钮，按下后将会启用问询器，按住 IFF 按钮最长只会启用问询器10秒。</p>
+<p>AN/APX-76 可以在搜索模式或 STT 模式中使用。如需启用问询，按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器面板</span></a> 中的 IFF 按钮，按下后将会启用问询器，按住 IFF 按钮最长只会启用问询器10秒。</p>
 <p>启用 IFF 后，接收到的 IFF 应答结果将会叠加显示在 DDD 中 AN/WAG-9 雷达的一般接触上。友方目标将会显示两根横线，一个在一般雷达接触上方，一个在下方。由于 AN/APX-76 是 AWG-9 一部分中的一个次要模式雷达（应答机雷达），因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 应答结果中不会有雷达接触符号。</p>
 <p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从正常显示距离切换至 ±10 NM，以便当存在密集编队目标时，显示多个目标的应答结果。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/YG7sWweg2RQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
@@ -2170,7 +2170,7 @@
 <div class="section" id="id3">
 <h4>传感器控制面板<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h4>
 <img alt="_images/scp.png" src="_images/scp.png" />
-<p>传感器控制面板上用于控制 TCS 的控制器有： TCS 调整旋钮、SLAVE 开关、FOV 开关 、目标捕获开关 ACQ 。</p>
+<p>传感器控制面板上用于控制 TCS 的控制开关/按钮有： TCS 调整旋钮、SLAVE 开关、FOV 开关 、目标捕获开关 ACQ 。</p>
 <p><strong>TCS TRIM</strong> 旋钮用于控制 TCS 传感器的视线（LOS），校正相对于 AN/AWG-9 雷达的视线。如果有需要，可以使用这个旋钮来调整 TCS，使得两个传感器的视线相重合。TCS 调整旋钮的运动范围为 ±2°，检查和校正 TCS 最简单的方法是使用 STT 锁定一个友方目标，并通过调整旋钮直到 TCS LOS 正确地瞄准了锁定的目标为止。</p>
 <p><strong>SLAVE</strong> 开关主要用来控制传感器的从属关系。如果设置到 <strong>RDR</strong> 档位，雷达将会隶属至 TCS 直到光学跟踪丢失为止。如果设置为 <strong>INDEP</strong> ，则各传感器会独立工作。如果将开关设置为 <strong>TCS</strong> 档位，TCS 将隶属至雷达 LOS 直到 STT 脱锁为止。</p>
 <p><strong>FOV</strong> ，视场开关用于控制 TCS 使用哪种 FOV。<strong>WIDE</strong> 档位将视场设置为 1.42°，4X 放大率，而 <strong>NAR</strong> 档位将视场设置为 0.44°, 10X 放大率。</p>
@@ -2201,7 +2201,7 @@
 <p>在宽 FOV 中，视场线条将会显示出来，视场线条用来指示当切换为窄视场时，可见区域的大小。视场线条由两条平行的线所组成，这两根平行线构成了虚构“框”的边，这个虚构的“框”则用来指示窄 FOV 的大小。</p>
 <p>环架角度十字准星或称为 <strong>GACH</strong> ，这个十字准星为实线，用来指示相对于武器基准线（ADL）TCS LOS 的偏转。中心的 GACH 十字准星指示 TCS LOS 指向 ADL，GACH 向边缘偏转表示正在朝环架限制偏转，视频的边缘便是最大偏转角度。</p>
 <p><strong>RACH</strong> 或称为雷达角度十字准星（虚线十字准星），RACH 指示在 TCS FOV 中雷达天线的 LOS。当传感器隶属至另一方时，RACH 和 GACH 将会重合，并将形成一个线条为实线的十字准星。</p>
-<p>如果 TCS 已捕获了一个目标，那么跟踪窗口表示 TCS 对比度跟踪器当前锁定的区域。当没有跟踪目标时，跟踪窗口将归中至屏幕中心，在手动模式下将缩放为屏幕宽度的2%，在自动模式下则为5%。</p>
+<p>如果 TCS 已捕获了一个目标，那么跟踪窗口表示 TCS 对比度跟踪器当前锁定的区域。当没有跟踪目标时，跟踪窗口将居中于屏幕中心，在手动模式下将缩放为屏幕宽度的2%，在自动模式下则为5%。</p>
 </div>
 </div>
 <div class="section" id="tcs-operation">
@@ -2320,7 +2320,7 @@
 <h2>AN/ALR-67 雷达告警接收机（RWR）<a class="headerlink" href="#an-alr-67-rwr" title="永久链接至标题">¶</a></h2>
 <div class="section" id="id5">
 <h3>描述<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
-<p>AN/ALR-67 雷达告警接收机（RWR）旨在在通常区域内通知和警告机组乘员雷达辐射。它同样还设计用于通过指示雷达跟踪和雷达制导武器的攻击来帮助机组进行防御。</p>
+<p>AN/ALR-67 雷达告警接收机（RWR）旨在在通常区域内通知和警告机组乘员雷达辐射源。它同样还设计用于通过指示雷达跟踪和雷达制导武器的攻击来帮助机组进行防御。</p>
 <p>AN/ALR-67 被集成进了 F-14 中以取代老旧的 AN/ALR-45 和 AN/ALR-50，ALR-67 最初用于 F-14B，在后期装备上了一部分 F-14A 机队中。在 PMDIG 升级到来前，AN/ALR-67 只能使用其独立的显示系统。但是，RWR 连接了 AN/ALQ-126 从而允许 RWR 发送威胁辐射信息至干扰机并将干扰的目标显示在 ALR-67 的显示器中。AN/ALR-67 还能够触发 AN/ALE-39 中预编程的对抗程序。</p>
 <p>在后续包括 PTID 升级的 F-14B 中，AN/ALR-67 同样也被集成进 MDIG 显示系统中从而允许在 ECMD 中更详细地显示威胁。</p>
 <p>F-14B 中的 AN/ALR-67 带有四根小型螺旋状高波段天线，四个宽带高波段分角接收机以及低波段阵列。连接到这些天线的是一个窄带超外差接收机，接收机分析接收到的信号并且通过使用两个显示器将辐射和威胁向飞行员和 RIO 指示出来，每个驾驶舱中都包含有一个显示器并且向两名机组的 ICS 播放音频信号。</p>
@@ -2346,7 +2346,7 @@
 <p>两名机组乘员驾驶舱中的 RWR 显示器位置都是相同的，并且显示器使用三个区域（圆环）来划分显示出的威胁符号的威胁等级。</p>
 <p>最外层——严重威胁区显示的辐射源威胁符号表示对本机构成严重危险，这些威胁可能是锁定本机的跟踪雷达或是探测到主动攻击本机的雷达。探测到的一个跟踪（译注：正在跟踪你的辐射源）主动攻击本机的话，这个跟踪的威胁符号将会闪烁以提高辨识度。</p>
 <p>中间层——致命威胁区显示的辐射源威胁符号表示辐射源被 ALR-67 认定为在飞机的致命威胁区内，但没有跟踪或攻击本机。</p>
-<p>内层——非致命威胁区显示的辐射源威胁符号表示辐射源没有攻击本机的能力或者辐射源可以攻击但不认为本机在攻击的范围内。</p>
+<p>内层——非致命威胁区显示的辐射源威胁符号表示辐射源没有攻击本机的能力或者辐射源可以攻击但 RWR 不认为本机处在辐射源的攻击射程内。</p>
 <p>威胁区的内侧（译注：圆心处）为系统状态环，这个状态环指示系统的运行模式或显示故障。左上角象限显示设定的显示类型（N、I、A、U 或 F），右上角象限在系统处于限制模式时将显示 L，下半部分可以显示表示系统处于偏置模式的 O，显示 B 表示 BIT 出现故障或显示 T 表示系统过载（过热）。</p>
 <p>在显示器右下角的是亮度控制旋钮，用来控制旋钮所连接显示器的亮度。</p>
 <dl class="field-list simple">
@@ -2522,7 +2522,7 @@
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>29</p></td>
-<td><p>Su-27,，Su-33，Mig-29A/G/S 和 J-11A</p></td>
+<td><p>Su-27、Su-33、Mig-29A/G/S 和 J-11A</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="row-even"><td><p>30</p></td>
@@ -2696,7 +2696,7 @@
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>GR</p></td>
-<td><p>罗兰 搜索雷达</p></td>
+<td><p>罗兰德 搜索雷达</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>HA</p></td>
@@ -2738,7 +2738,7 @@
 <tr class="row-odd"><td colspan="3"><p>导弹</p></td>
 </tr>
 <tr class="row-even"><td><p>M</p></td>
-<td><p>AIM-54, AIM-120, MICA-EM, R-37, R-77 和 SD-10</p></td>
+<td><p>AIM-54、AIM-120、MICA-EM、R-37、R-77 和 SD-10</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td colspan="3"><p>ATC (空管)</p></td>
@@ -2819,7 +2819,7 @@
 <p>面板上部的机械计数器用于指示各种类型干扰弹的剩余数量。计数器需要使用每个计数器下方的旋钮手动设置，但是在每次发射干扰弹弹射脉冲过后计数将会自动减少。因为计数器是手动来设置的，因此可能会碰到计数器指示的数量为0的情况（但实际还有干扰弹），但是这不会影响其它干扰弹的使用。在这种情况下弹射脉冲仍然会发送但是计数器不会继续减少。</p>
 <p>在每种类型干扰弹的计数器下方都包含有开关，这些开关用于手动弹射指令。这个开关为瞬态和弹簧归中的，每个开关都有三个档位。 <strong>PRGM</strong> 启动对应的弹射程序， <strong>SGL</strong> 用于单发弹射对应类型的干扰弹以及 <strong>STBY</strong> 默认归中档位（无手动弹射指令）。</p>
 <p><strong>PWR/MODE</strong> 开关用于为 AN/ALE-39 提供电力，以及启动自动弹射（通过 AN/ALR-67 RWR）。 <strong>AUTO (CHAFF) / MAN</strong> 档位用于接通系统电源，并且允许 AN/ALR-67 来启动设定的箔条弹射程序，但要注意的是，红外干扰弹弹射仍然为手动。当 RWR 探测到一个威胁主动攻击本机时将会启动箔条弹射，探测的威胁仍然存在的话，在启动下一个程序前存在30秒冷却时间。手动弹射仍然可正常使用。 <strong>MAN</strong> 档位用于接通系统电源，并且允许手动启动所有功能。 <strong>OFF</strong> 档位用于关闭系统。</p>
-<p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何弹射并且同时设置了飞行员驾驶杆种 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收上档位来启用 DLC 按钮干扰弹弹射。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个弹射脉冲将从编程面板中设置为 F 的部分弹射一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹弹射脉冲将有四发红外干扰弹被弹射。 <strong>NORM</strong> 将设置正常红外干扰弹弹射脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮弹射一发红外干扰弹。正常弹射红外干扰弹仍然可用。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令弹射一发箔条。</p>
+<p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何弹射并且同时设置了飞行员驾驶杆中 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收上档位来启用 DLC 按钮干扰弹弹射。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个弹射脉冲将从编程面板中设置为 F 的部分弹射一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹弹射脉冲将有四发红外干扰弹被弹射。 <strong>NORM</strong> 将设置正常红外干扰弹弹射脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮弹射一发红外干扰弹。正常弹射红外干扰弹仍然可用。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令弹射一发箔条。</p>
 <p>最后是 <strong>SALVO FLARES</strong> 开关，用于启动以0.125秒间隔快速弹射所有红外干扰弹。正常档位为弹簧归中至 <strong>OFF</strong> 档位。一旦启动就无法停止。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
@@ -2863,7 +2863,7 @@
 <p><strong>RPT</strong> 用于启用系统的完整功能，除了 REC 外，系统还将尝试根据选定的方法来干扰威胁。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>DCS 中干扰总为噪声干扰，当探测到威胁时就会开启。</p>
+<dd class="field-odd"><p>DCS 中干扰始终为噪声干扰，当探测到威胁时就会开启。</p>
 </dd>
 </dl>
 </div>
@@ -2873,7 +2873,7 @@
 <div class="section" id="navigation-system">
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
 <p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），该系统的代号为 AN/ASN-92。INS 系统测量和积分测得的惯性力（加速度）以及旋转角速度来计算飞机的位置和线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全、可靠地返回到基地。当飞机被设计为在远离地面塔康台和目视参考点的大洋上执行任务时，这样的导航系统显得更加重要。</p>
-<p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、数/模转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 平台是也很相似——这也不是什么轻松的活。</p>
+<p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、模数转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 平台是也很相似——这也不是什么轻松的活。</p>
 <p>在 Heatblur ，我们决定开发一套全新的数学模型来模拟我们 F-14 的 AN/ASN-92。模型包括了所有导致设备最终精度偏差的潜在误差源，并重建了一个三环式三轴 INS 平台的特性行为。这一系列下来的结果是一组算法可以在 DCS 中真实还原 AN/ASN-92，但经过优化之后却能够做到几乎不影响 CPU 性能。</p>
 <p>INS 的主要部件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显示。</p>
 <p>尽管对于机组来说，INS 主要用于导航，但其对其他机载设备的正常运行也是必不可少的。例如，雷达就需要从 INS 获取飞机的姿态。一些武器投放模式（特别是那些长距离投放模式），需要获取姿态以及本机位置信息。更令机组痛苦的是，INS 的完全失效使得例如 AIM-7 或 AIM-54 的某些高级模式无法使用。</p>
@@ -3035,7 +3035,7 @@
 </ol>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>任何对准初始化时都需要设置停放刹车。在粗对准期间释放停放刹车时，STBY 提示灯和 READY 提示灯闪烁，对准程序将重新初始化。如果在精对准期间松开停放刹车，则暂停对准信号将发送到 CSDC，STBY 提示灯或 READY 提示灯闪烁，且 TID 上的对准倒计时停止。</p>
+<dd class="field-odd"><p>任何对准初始化时都需要设置停放刹车。在粗对准期间释放停放刹车时，STBY 提示灯和 READY 提示灯闪烁，对准程序将重新初始化。如果在精对准期间释放停放刹车，则暂停对准信号将发送到 CSDC，STBY 提示灯或 READY 提示灯闪烁，且 TID 上的对准倒计时停止。</p>
 </dd>
 </dl>
 <img alt="_images/align.png" src="_images/align.png" />
@@ -3050,7 +3050,7 @@
 </dd>
 </dl>
 <p>在初始化期间，TID 将显示一个对准经过时间——0.7。初始化开始 42 到 45秒后，位于注意-提示灯光面板上的 NAV COMP 提示灯将熄灭，表示 IMU 已进入就绪状态；READY 提示灯也将熄灭。对准程序将从计算对准参数开始。</p>
-<p>此时，一个对准状态指示符——插入符（v）将开始从左向右移动。对准状态由三个刻度上方的插入符位置指示。 第一个刻度指示称为粗对准完成标记，第二个刻度指示是武器发射最低精度标记，第三个刻度指示是精对准完成标记。计时器显示分钟为单位的对准经过时间，精度 0.1 分钟。</p>
+<p>此时，一个对准状态指示符——插入符（v）将开始从左向右移动。对准状态由三个刻度上方的插入符位置指示。 第一个刻度指示称为粗对准完成标记，第二个刻度指示是武器发射最低精度标记，第三个刻度指示是精对准完成标记。计时器显示分钟为单位的对准经过时间，显示精度 0.1 分钟。</p>
 <p>计时器将从 0.7 开始显示，并在 42 秒钟的延迟后开始计时。在 9.9 分钟后，计时器将经过零并从零开始继续计时。如果对准暂停（释放停放刹车），计时器将停止计时，直到恢复对准。</p>
 <p>在第一个和第二个刻度之间的是状态指示器，指示了当前四个系统中某一个系统的故障：C = 校正数据失效；T = 温度警告（ IMU 温度过低 ）；S = SINS 数据无效；O = 观测误差（对准数据无效，比如 LAT，LONG，SPEED 等等）。显示的字母代表其对应的系统出现了故障。</p>
 <p>如显示 C ，就代表 IMU 和 CSDC 之间的校正数据传输失败，对准无法继续进行。</p>
@@ -3065,7 +3065,7 @@
 </dd>
 </dl>
 <p>在粗对准过程中，对准插入符的移动是根据漂移角的误差大小来定的。如果在该阶段中释放停放刹车，那么对准将会被复位。</p>
-<p>粗对准完成后，插入符 V 会移动到第一个刻度上方 。当对准程序进入精对准阶段之后，插入符号会变成菱形符号，这意味着在完成 OBC 之后飞行员可以松开停机刹车（这将暂停对准）并开始滑行。重新设置停放刹车后，菱形符号会随着对准精度提升继续向右移动。</p>
+<p>粗对准完成后，插入符 V 会移动到第一个刻度上方 。当对准程序进入精对准阶段之后，插入符号会变成菱形符号，这意味着在完成 OBC 之后飞行员可以释放停机刹车（这将暂停对准）并开始滑行。重新设置停放刹车后，菱形符号会随着对准精度提升继续向右移动。</p>
 <p>插入符抵达第二个刻度则代表对准精度达到武器使用最低精度，此时 STBY 提示灯将熄灭并且 READY 提示灯亮起。此时可以进入 INS 模式用于导航。如果没有选择 INS 模式的话，菱形符号将继续向右移动。插入符抵达第三个刻度时，表示精对准已经完成，且菱形符号中会出现一个点。</p>
 <p>即使精对准完成了，RIO 也可以让系统留在对准模式，这将提供更加精确的对准。精对准完成后，进一步增加对准精度的多少取决于初始的对准质量。某些情况下这种提升非常小，但是，如果能进一步保持足够长时间的对准，还是会有一定程度的改善。</p>
 <dl class="field-list simple">
@@ -3341,7 +3341,7 @@
 </div>
 <div class="section" id="navigational-controls">
 <h4>导航控制<a class="headerlink" href="#navigational-controls" title="永久链接至标题">¶</a></h4>
-<p>使用导航控制、数据读数面板和计算机位址面板来控制 INS。详见 <a class="reference internal" href="#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制器</span></a> 、相关控制和 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</p>
+<p>使用导航控制、数据读数面板和计算机位址面板来控制 INS。详见 <a class="reference internal" href="#tid"><span class="std std-ref">战术信息显示器（TID）与相关控制开关/按钮</span></a> 、相关控制和 <a class="reference internal" href="#cap"><span class="std std-ref">计算机位址面板（CAP）</span></a> 。</p>
 <p>所需运行模式、对准模式和目标点都可以在导航控制与数据读数面板（译注：TID 屏幕的边框）进行选择。CAP 可以用来输入导航数据并将所选的信息显示在 TID 中。CAP 下方的 CATEGORY 旋钮的档位决定 MESSAGE 按钮的功能。用于导航的类为 NAV 和 TAC DATA。导航控制与数据读数面板中的 STBY/READY 提示灯指示对准程序和导航系统的状态。</p>
 <p>导航系统主要部件的故障指示灯位于两个驾驶舱内的注意-提示面板上，但是 NAV COMP 和 IMU 提示灯仅在 RIO 驾驶舱中的注意-提示面板上显示。</p>
 <p>飞行员显示器控制面板或多功能显示指示器控制面板来控制飞行员的显示器（HUD、VDI 和 HSD）和 RIO 的多功能显示指示器。</p>
@@ -3572,7 +3572,7 @@
 </tr>
 </tbody>
 </table>
-<p>除了 PT TO PT FUNCTION 外，这个类中的各个功能都有相应的 TID 符号。按下任意 MESSAGE 按钮，TID 符号高亮并且激活的 MESSAGE 按钮也会亮起，则表示成功选中。RIO 也可以通过选中符号来使用所需的功能。按下相应的前缀按钮可以在 TID 中显示选中点对应前缀的数据。另外，可以通过按下 LAT、LONG 或 ALT 前缀数字按钮来输入选中点的所需的经纬度和高度值。和之前一样，现有的数据会在缓冲寄存器下方的左右侧读数显示。如果新数据无误，RIO 可以按下 ENTER 键输入，新的值将显示在左右侧读数中。</p>
+<p>除了 PT TO PT FUNCTION 外，这个类中的各个功能都有相应的 TID 符号。按下任意 MESSAGE 按钮，TID 符号高亮并且激活的 MESSAGE 按钮也会亮起，来表示成功选中。之后 RIO 就可以使用需要选中来使用的功能。按下相应的前缀按钮可以在 TID 中显示选中点的对应所选前缀的数据。另外，可以通过按下 LAT、LONG 或 ALT 前缀数字按钮来输入选中点的所需的经纬度和高度数值。和之前一样，现有的数据会在缓冲寄存器下方的左右侧读数种显示。如果新数据无误，RIO 可以按下 ENTER 键输入，新的值将显示在左右侧读数中。</p>
 </div>
 </div>
 <div class="section" id="navigational-caution-lights">
@@ -3776,7 +3776,7 @@
 </div>
 <div class="section" id="bearing-distance-and-heading-indicator-bdhi">
 <h3>方位距离航向指示器（BDHI）<a class="headerlink" href="#bearing-distance-and-heading-indicator-bdhi" title="永久链接至标题">¶</a></h3>
-<p>BDHI 位于飞行员和 RIO 的右仪表板中，详见 <a class="reference internal" href="cockpit.html#bdhiindicator"><span class="std std-ref">方位距离航向指示器（BDHI）</span></a> 。BDHI 显示飞机磁和导航方位数据以及距离信息。罗盘控制面板上的控件用于设置 BDHI 罗盘使用隶属或非隶属（FREE DG）罗盘模式运行。12点方向的固定指针用于指示飞机飞机的磁航向。</p>
+<p>BDHI 位于飞行员和 RIO 的右仪表板中，详见 <a class="reference internal" href="cockpit.html#bdhiindicator"><span class="std std-ref">方位距离航向指示器（BDHI）</span></a> 。BDHI 显示飞机磁和导航方位数据以及距离信息。罗盘控制面板上的控制开关/按钮用于设置 BDHI 罗盘使用隶属或非隶属（FREE DG）罗盘模式运行。12点方向的固定指针用于指示飞机飞机的磁航向。</p>
 <p>两根伺服驱动方位指针用于显示选择的 UHF（ADF）和 TACAN 台的磁方位。一号指针（单根指针）接收 UHF（ADF）系统信号，二号指针（两根针组成）接收 TACAN 耦合器的信号。</p>
 <p>即使罗盘错位或故障，一号指针仍会指向信号源，但是电台的方位以相对方位显示在指示器中，并且一号指针在指向指示器顶部的固定指针时表示电台相对方位为000°。二号指针也将继续显示所选塔康台的磁方位或恢复到搜索模式。</p>
 </div>
@@ -3794,7 +3794,7 @@
 <p>雷达高度计有3分钟最短预热时间。在预热期间，应忽略故障指示和错误读数。</p>
 <div class="section" id="radar-altimeter">
 <h4>雷达高度计<a class="headerlink" href="#radar-altimeter" title="永久链接至标题">¶</a></h4>
-<p>该系统唯一的控件位于飞行员仪表板处的 <a class="reference internal" href="cockpit.html#radalt"><span class="std std-ref">雷达高度计</span></a> 。指示计在一个单匝圈上显示高于地表雷达高度。雷达高度表通过刻度盘来显示离地球表面高度，刻度范围在0-5000英尺，并且高度越低刻度划分约精细，以便在低空提供更精确的读数。高度表左下方的旋钮为集电源开关、自检开关 和 低高度限制游标控制 为一体的控制旋钮。</p>
+<p>该系统唯一的控制开关/按钮位于飞行员仪表板处的 <a class="reference internal" href="cockpit.html#radalt"><span class="std std-ref">雷达高度表</span></a> 。指示计在一个单匝圈上显示高于地表雷达高度。雷达高度表通过刻度盘来显示离地球表面高度，刻度范围在0-5000英尺，并且高度越低刻度划分约精细，以便在低空提供更精确的读数。高度表左下方的旋钮为集电源开关、自检开关 和 低高度限制游标控制 为一体的控制旋钮。</p>
 </div>
 <div class="section" id="altimeter-bit">
 <h4>高度计自检<a class="headerlink" href="#altimeter-bit" title="永久链接至标题">¶</a></h4>
@@ -3871,7 +3871,7 @@
 <dd class="field-odd"><p>尽管当 IMU 失效时导航模式自动切换至 AHRS，STBY 和 READY 提示灯也会保持亮起直到 RIO 使用 NAV MODE 旋钮选择了 AHRS/AM 模式。</p>
 </dd>
 </dl>
-<p>使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将提供代替 IMU 平台的 DR（航位推算）导航所需的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直速率和真空速。使用 CAP 来更新风向风速以及磁差。</p>
+<p>使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将代替 IMU 平台提供 DR（航位推算）导航所需的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直速率和真空速。使用 CAP 来更新风向风速以及磁差。</p>
 <p>AHRS 可以使用罗盘控制面板来选择三个模式中任意一个子航向模式来运行：</p>
 <ol class="arabic simple">
 <li><p>SLAVED - 磁北为基准（磁通量），航向陀螺隶属磁通量，可靠的磁航向基准可用时使用。</p></li>
@@ -3950,7 +3950,7 @@
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p>通过 RIO 使用 TID DEST 旋钮选择 MAN 档位来转向至防御点。此选项在 TARPS 中不可用。</p></li>
-<li><p>在目标转向子模式中，目标由 RIO 来选择，并且在 HSD 的底部正中间与 NAV MODE 正在使用的导航模式交替显示。</p></li>
+<li><p>在目标转向子模式中，目标由 RIO 来选择，并且目标将在 HSD 的底部正中间与 NAV MODE 正在使用的导航模式交替显示。</p></li>
 </ul>
 </dd>
 </dl>
@@ -3981,7 +3981,7 @@
 <p><strong>AWL 转向</strong></p>
 <p>位于盘旋等待区时 ARA-63 有可用的 ICLS 信息，那么飞行员可以选择 AWL/PCD 子模式。应将显示器控制面板中 HUD 和 VDI 的 AWL 开关拨至 ILS 档位。</p>
 <p>然后 HUD 和 VDI 将提由 ICLS 驱动的供垂直（航向道）、横向（下滑道）精确航线矢量符号（交叉十字）。在 HUD 中，精确航线矢量的偏转不会超过2°。同样在 VDI 中偏转不超过1.5°。在 LDG 模式中 AWL/PCD 子模式下，如果 PDCP 中 HSD 设置为 NAV 档位，那么将会额外显示 TACAN 信息。</p>
-<p>在截获窗口中（下滑道），飞行员可以继续让 ILS 显示，或者，如果 SPN-42 数据链路的 ACL 信息可用，他可以使用 AWL 开关选择 ACL 来单独显示在 VDI 或 HUD 中或两者都显示。ACL 显示使用和 ICLS 同样的精确航线矢量符，但是这些符号改为由 SPN-42 数据链路驱动。降落中 final stages 常见的显示组合为 HUD 显示 ILS，VDI 显示 ACL。如果有效的 ACL 数据可用，可以通过 AFCS 控制面板中的 VEC/PCD/ACL 开关选择 ACL 来接通 AFCS。</p>
+<p>在截获窗口中（下滑道），飞行员可以继续让 ILS 显示，或者，如果 SPN-42 数据链路的 ACL 信息可用，他可以使用 AWL 开关选择 ACL 来单独显示在 VDI 或 HUD 中或两者都显示。ACL 显示使用和 ICLS 同样的精确航线矢量符，但是这些符号改为由 SPN-42 数据链路驱动。在着舰的第五边时，常见的显示组合为 HUD 显示 ILS，VDI 显示 ACL。如果有效的 ACL 数据可用，可以通过 AFCS 控制面板中的 VEC/PCD/ACL 开关选择 ACL 来接通 AFCS。</p>
 <div class="figure align-default" id="id24">
 <img alt="_images/landingtac.png" src="_images/landingtac.png" />
 <p class="caption"><span class="caption-text">TACAN 设置为目标源，HUD 显示为降落模式。</span><a class="headerlink" href="#id24" title="永久链接至图片">¶</a></p>
@@ -4757,7 +4757,7 @@
 <li><p>无线电台选择开关 - RAD-1 或 RAD-2。</p></li>
 <li><p>若需对设备进行地面测试，请与另一台合适的无线电台建立双向明文无线电通信并请求通信检查。在 DCS 中这需要与另一名玩家配合。</p></li>
 <li><p>在两分钟预热之后，选择密文后通过头戴收听一段稳定、连续的单音，随后是两个间断的单音。</p></li>
-<li><p>选择适当的通信频率进行传输，按下 PTT 大约2秒后然后松开。间断的单音将会停止，且之后将不会播放声音。</p></li>
+<li><p>选择适当的通信频率进行传输，按下 PTT 大约2秒后然后释放。间断的单音将会停止，且之后将不会播放声音。</p></li>
 <li><p>再次按下 PTT 并保持。在大约0.5至1秒后将会听到一声嘟的单音。当听到此单音后，设备已准备好进行保密话音传输。</p></li>
 <li><p>听见嘟的单音后，与地面电台建立双向 UHF 保密话音无线电通信来检查可读性和信号强度。</p></li>
 <li><p>根据战术情况自行设定电源模式及无线电选择旋钮。</p></li>

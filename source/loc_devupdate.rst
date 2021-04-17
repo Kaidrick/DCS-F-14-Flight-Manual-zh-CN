@@ -51,7 +51,7 @@ DCS F-14 开发日志 - 惯性惯性还是惯性！
 
 DCS: F-14 优先事项
 ****************
-* DCS: F-14 Priority Issues   “`by Alphabet_Ghost— <https://www.bilibili.com/read/cv7563368/>`_” 
+* DCS: F-14 Priority Issues   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv7563368/>`_” 
 
 ---------------------------------------------
 
@@ -60,6 +60,7 @@ DCS F-14A - RWR 升级&开发
 * DCS F-14A - RWR Upgrades & Development   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv7899099/>`_” 
 
 	“`--拓展阅读 <https://www.bilibili.com/read/cv8104850/>`_”
+	“`--F-14A/B RWR显示小提示 <https://www.bilibili.com/read/cv10671591/>`_”
 
 ---------------------------------------------
 
@@ -79,6 +80,12 @@ HB AIM-54 新 API 上线测试
 
 2020/12/17 AIM-54 制导重大变更小提示
 ****************
-* Patch Dec 17th Feedback   “`by Alphabet_Ghost— <https://www.bilibili.com/read/cv8901798/>`_” 
+* Patch Dec 17th Feedback   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv8901798/>`_” 
+
+---------------------------------------------
+
+2021/01/31 F-14A/B“雄猫”-FAQ-常见问题
+****************
+* F-14A/B Tomcat - FAQ - FREQUENTLY ASKED QUESTIONS   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv9562835/>`_” 
 
 ---------------------------------------------

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2021-01-11 14:46+0800\n"
+"PO-Revision-Date: 2021-04-04 15:59+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../source/accr.rst:65
 msgid "__Bomb Rack Unit"
-msgstr "炸弹挂架单元"
+msgstr "炸弹挂架装置"
 
 #: ../../source/accr.rst:69
 msgid "C"
@@ -458,8 +458,6 @@ msgstr "计算机综合转换器单元"
 msgid "CLSN"
 msgstr ""
 
-# 碰撞
-# 可能用于指collision heading，两个物体飞行路径相交的航线
 #: ../../source/accr.rst:86
 msgid "Collision"
 msgstr ""
@@ -955,7 +953,6 @@ msgstr ""
 msgid "Gimbal Angle Crosshair"
 msgstr ""
 
-# ref?
 #: ../../source/accr.rst:192
 msgid "__Gimbal Angle Crosshair"
 msgstr "环架角度十字准星"
@@ -1062,7 +1059,7 @@ msgstr ""
 
 #: ../../source/accr.rst:215
 msgid "__Hand Control Unit"
-msgstr "手控装置（控制器）"
+msgstr "手控装置"
 
 #: ../../source/accr.rst:217
 msgid "HDG"
@@ -1426,10 +1423,11 @@ msgstr ""
 msgid "Lead Computing Optical Sight"
 msgstr ""
 
-# wording
+# 采用陀螺测量载机角速度或采用目标探测装置测得目标速度，从而求出目标提前量，并通过光学系统显示给驾驶员进行目视瞄准的一种方法。
+# 术语在线
 #: ../../source/accr.rst:301
 msgid "__Lead Computing Optical Sight"
-msgstr "提前量计算光学瞄准具"
+msgstr "计算提前角的光学瞄准"
 
 #: ../../source/accr.rst:303
 msgid "LOS"
@@ -1475,7 +1473,6 @@ msgstr ""
 msgid "Launch-to-Eject"
 msgstr ""
 
-# reference?
 #: ../../source/accr.rst:309
 msgid "__Launch-to-Eject"
 msgstr "发射至离轨"
@@ -1562,7 +1559,7 @@ msgstr ""
 
 #: ../../source/accr.rst:330
 msgid "__Multipurpose Display Indicator Group"
-msgstr "多功能显示指示器组"
+msgstr "多功能显示指示器组（HSD & ECMD）"
 
 #: ../../source/accr.rst:332
 msgid "MEC"
@@ -2436,7 +2433,7 @@ msgstr ""
 
 #: ../../source/accr.rst:517
 msgid "__Triple Ejector Rack"
-msgstr "三联装挂架"
+msgstr "三联式挂弹架"
 
 #: ../../source/accr.rst:519
 msgid "TGT"
