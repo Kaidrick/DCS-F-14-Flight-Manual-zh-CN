@@ -1,7 +1,7 @@
 [TITLE]
 CLEARING THE WAY
 [DESCRIPTION]
-    北约战机已让红军的IADS威胁降低，但SAM仍然运作并对红军基地保持警戒。
+    北约战机已让红军的IADS威胁降低，但SAM仍然在运作且为红军基地保持着警戒。
 
    在敌方空中威胁得到肃清前，北约部队必须首先开辟出一条通路。SEAD小队计划持续突击来攻击并消灭红军SAM，为打击高价值目标扫除障碍。
 
@@ -29,7 +29,7 @@ CLEARING THE WAY
 
     FOCUS（E-2D AWACS）将指挥任务。
 
-    ARCO（S-3B TANKER西部盘旋）和SHELL（KC-135 TANKER西部盘旋）都将升空进行支援（ARCO：TCN 39X A/A，SHELL：TCN 40X A/A，264.000 MHz AM / 无线电预设波道3）
+    ARCO（S-3B 加油机西部盘旋）和SHELL（KC-135 加油机西部盘旋）都将升空进行支援（ARCO：TCN 39X A/A，SHELL：TCN 40X A/A，264.000 MHz AM / 无线电预设波道3）
 
 航母
 
@@ -50,7 +50,7 @@ CLEARING THE WAY
 [RED TASK]
 击落所有敌机
 [BLUE TASK]
-    本地时间1622从Marshall推进（WP1）
+    当地时间1622开始从Marshall推进（WP1）
 
     在WP2和WP3之间巡逻。迎击所有空中威胁。
 

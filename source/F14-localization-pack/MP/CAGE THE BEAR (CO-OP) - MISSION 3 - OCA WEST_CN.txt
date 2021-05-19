@@ -51,7 +51,7 @@ OCA WEST
 
     僚机（UZI 1-2）收到指令时将轰炸跑道。
 
-    安全返回航母（分流机场：KUTAISI）
+    安全返回航母（分流机场：库塔伊西）
 [TRIGGERS]
 [1]
 Uzi小队，Focus，前进至marshall。按照简报推进时间为16：14本地时间。
@@ -60,7 +60,7 @@ Uzi小队，Focus，推进，推进，推进。
 [3]
 Colt 1，敌机接近中——正在攻击。
 [4]
-Springfield，feet dry。
+Springfield，feet dry（飞跃陆地）。
 [5]
 Springfield,，spike Big Bird北部——这就是我们的目标。正在攻击。
 [6]
@@ -102,7 +102,7 @@ Uzi flight，Focus，spike SA-6北部。 SEAD小队已RTB，只能靠你自己�
 
 集中注意。
 [21]
-Springfield，spike，SA-10西部。保持距离。
+Springfield，spike，SA-10西部。不要靠近。
 [RADIO MESSAGES]
 [1]
 WINCHESTER - RTB

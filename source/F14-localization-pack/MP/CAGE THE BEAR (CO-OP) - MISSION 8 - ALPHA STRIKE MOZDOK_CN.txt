@@ -9,7 +9,7 @@ ALPHA STRIKE MOZDOK
 
 执行
 
-    Carrier Air Wing/USAF alpha strike打击机群将联合突袭莫兹多克基地。NATO战机将在marshall（WP1）进行会合并向北推进进行突袭。
+    航母飞行联队/USAF alpha strike打击机群将联合突袭莫兹多克基地。NATO战机将在marshall（WP1）进行会合并向北推进进行突袭。
 
     UZI机队将带头进攻迎击敌方战机。UZI准备就绪后，将呼叫SEAD和打击机群发起进攻。
 
@@ -51,7 +51,7 @@ ALPHA STRIKE MOZDOK
 
 威胁
 
-    持续SEAD任务已经严重打击了目标周围的主防空系统，但机动SAM发射车和后备导弹阵地仍可能在运作。
+    持续的SEAD任务已经严重打击了目标周围的主防空系统，但机动SAM发射车和后备导弹阵地仍可能在运作。
 
     红军空中威胁依旧很大——米格29和米格25战机中队预计会在AO中行动，后备分队的米格21和米格23也有可能出现。
 
@@ -90,7 +90,7 @@ Uzi小队，Focus，突现敌方机队，北方——Fulcrums和Floggers。必�
 [11]
 Focus通知Uzi小队，敌机群组正朝向你。随意开火。
 [12]
-Springfield 1已就位
+Springfield 1已就位。
 
 【新无线电项目F10——SEAD战机开始推进】
 [13]
@@ -156,7 +156,7 @@ Springfield 3，shack SA-11。
 [42]
 Dodge 3，击中指挥堡垒。
 [43]
-Focus，Dodge，shack（正中）弹药库
+Focus，Dodge，shack（正中）弹药库。
 [44]
 Springfield，spike SA-3，北部。
 [45]

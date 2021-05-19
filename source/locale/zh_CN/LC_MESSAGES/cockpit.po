@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 18:11+0800\n"
-"PO-Revision-Date: 2021-03-21 21:20+0800\n"
+"PO-Revision-Date: 2021-04-28 22:25+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 # 翻译时：
 # 1. 段落标题尽量翻译成汉语，如有必要使用英文在括号内注释
@@ -1864,7 +1864,7 @@ msgid ""
 "sudden or abrupt changes of attitude occurs because of the changing airflow "
 "over the static probe."
 msgstr ""
-"显示以前英尺为单位的垂直速率。高度急剧或突然改变时，由于飞机静压口表面的气流"
+"显示以千英尺为单位的垂直速率。高度急剧或突然改变时，由于飞机静压口表面的气流"
 "快速变化，垂直速率表读数可能产生巨大误差。"
 
 #: ../../source/cockpit.rst:868
@@ -4090,10 +4090,14 @@ msgstr ""
 msgid "TRANS/RECT"
 msgstr "TRANS/RECT"
 
+# AAP-1
+# Indicates one operable transformer-rectifier is powering the total dc load, or dual transformer-rectifier failure.
 #: ../../source/cockpit.rst:1786
 msgid ""
 "Advisory light indicating failure in one or both transformer-rectifiers."
-msgstr "“变压/整流” 提示灯，指示灯亮起表示一个或两个变压器整流器故障。"
+msgstr ""
+"“变压/整流” 提示灯，指示灯亮起表示一台变压-整流器正为整个需要交流电的负荷供电"
+"或两台变压-整流器故障。"
 
 #: ../../source/cockpit.rst:1788
 msgid "MACH TRIM"

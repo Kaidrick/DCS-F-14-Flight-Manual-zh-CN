@@ -32,6 +32,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
@@ -1088,7 +1089,7 @@
 <p><strong>TGTS</strong> （目标）开关可以选择预计目标的大小，WCS 会根据设置的目标大小来计算导弹发射区，并设置雷达中目标跟踪的参数。同时 TGTS 开关还设定发送导弹 ATC（主动制导转交指令）的距离， <strong>SMALL</strong> 为 6海里 发送、 <strong>NORM</strong> 10海里 发送和 <strong>LARGE</strong> 13海里 发送。如果开关选择的预计目标大小错误，就有可能会对目标跟踪和攻击产生负面影响。</p>
 <p><strong>MLC</strong> 开关用于控制在脉冲多普勒模式下系统如何抑制雷达系统中的主瓣杂波（MLC）。OUT 档位将关闭抑制系统，IN 档位则开启。在 AUTO 档位中，如果雷达天线仰角高于地平线3°以上，那么将会自动禁用 MLC 滤波器。</p>
 <p><strong>AGC</strong> 开关用于控制在脉冲多普勒模式下的自动增益控制，使用这个开关来控制用于 AGC（自动增益控制）的时间常数。一般情况下（NORM 档位）AGC 使用更长的时间常数来计算用于放大的平均值。如果雷达在有干扰的环境中或者有严重杂波的情况下，将 AGC 设置为更快的时间常数来缓解这些因素，但设置为快速同时也会使得雷达对真目标的灵敏度降低。</p>
-<p><strong>PARAMP</strong> ，参数放大器开关可以手动控制参数放大器，参数放大器用于在所有雷达模式下放大回波较弱的目标。通常来说，WCS 控制器会根据距离来决定何时使用 PARAMP，但是如果跟踪了一个回波异常强的目标，那么可使用开关来禁用 PARAMP 来减轻背景噪声的影响。如果将开关手动设置为关闭，那么探测距离会缩短大约35%左右。</p>
+<p><strong>PARAMP</strong> ，参数放大器开关可以手动控制参数放大器，参数放大器用于在所有雷达模式下放大回波较弱的目标。通常来说，WCS 会根据距离来控制何时使用 PARAMP，但是如果跟踪了一个回波异常强的目标，那么可使用开关来禁用 PARAMP 来减轻背景噪声的影响。如果将开关手动设置为关闭，那么探测距离会缩短大约35%左右。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>目前 AGC、PARAMP 和 TGTS 开关在 DCS 中无功能。</p>
@@ -1480,7 +1481,7 @@
 </td>
 <td><p>一个数据链路跟踪上由数据链路指令进行目视识别目标的附加标识符（顶点位于中心的的小 V）。</p></td>
 </tr>
-<tr class="row-odd"><td><p>目标脱锁</p></td>
+<tr class="row-odd"><td><p>外推跟踪</p></td>
 <td><a class="reference internal image-reference" href="_images/33.png"><img alt="_images/33.png" class="align-center" src="_images/33.png" style="width: 50px; height: 50px;" /></a>
 </td>
 <td><p>TWS 或 STT 跟踪上的附加标识符（中心位于中心点的小 X），符号表示在8秒内目标没有被更新。跟踪将在14秒后或2分钟后（如果启用跟踪保持功能）删除。</p></td>
@@ -2876,7 +2877,7 @@
 <p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、模数转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 平台是也很相似——这也不是什么轻松的活。</p>
 <p>在 Heatblur ，我们决定开发一套全新的数学模型来模拟我们 F-14 的 AN/ASN-92。模型包括了所有导致设备最终精度偏差的潜在误差源，并重建了一个三环式三轴 INS 平台的特性行为。这一系列下来的结果是一组算法可以在 DCS 中真实还原 AN/ASN-92，但经过优化之后却能够做到几乎不影响 CPU 性能。</p>
 <p>INS 的主要部件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显示。</p>
-<p>尽管对于机组来说，INS 主要用于导航，但其对其他机载设备的正常运行也是必不可少的。例如，雷达就需要从 INS 获取飞机的姿态。一些武器投放模式（特别是那些长距离投放模式），需要获取姿态以及本机位置信息。更令机组痛苦的是，INS 的完全失效使得例如 AIM-7 或 AIM-54 的某些高级模式无法使用。</p>
+<p>尽管对于机组来说，INS 主要用于导航，但 INS 对其他机载设备的正常运行来说也是必不可少的。例如，雷达就需要从 INS 获取飞机的姿态。一些武器投放模式（特别是那些长距离投放模式），需要获取姿态以及本机位置信息。更令机组痛苦的是，INS 的完全失效使得例如 AIM-7 或 AIM-54 的某些高级模式无法使用。</p>
 <p>同样的信息也被用于数据链路的运行——当使用错误的 INS 数据时，从友机接收的本机航迹以及目标信息将无法匹配，并且将导致 TID 显示错误的目标。以上的情况只是一些例子，每当飞机系统需要用到飞机姿态和位置数据时，这些数据均取自 INS 系统。</p>
 <p>因此，惯性导航系统（INS）与 AWG-9 计算机（WCS 计算机）以及 CSDC（计算机信号数据转换器，Computer Signal Data Converter）集成在一起。其他相关的设备包括姿态航向基准系统、中央大气数据计算机、雷达高度计，仪表着陆系统以及 TACAN。</p>
 <div class="section" id="wcs-computer">
@@ -4832,11 +4833,11 @@
     
     
     
-    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
     
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
     
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
 
 </footer>
         </div>
