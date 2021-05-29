@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-18 00:29+0800\n"
-"PO-Revision-Date: 2021-05-18 22:30+0800\n"
+"PO-Revision-Date: 2021-05-24 00:06+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -8433,7 +8433,7 @@ msgid ""
 "link operator concern about the specific track."
 msgstr ""
 "在数据链路跟踪周围的高亮光标（光环），高亮光标用来指示数据链路的操作员对特定"
-"的跟踪十分关注。"
+"的跟踪重点关注。"
 
 #: ../../source/general.rst:1605
 msgid "Data link Priority Kill"
@@ -8455,13 +8455,14 @@ msgstr "**攻击模式显示的符号**"
 msgid "Artificial Horizon"
 msgstr "人工地平线"
 
+# Figure 224.VDIG Symbology (Sheet 1 of 3)
 #: ../../source/general.rst:1612
 msgid ""
 "Artificial horizon on TID representing aircraft roll and pitch. Angle of the "
 "line represents roll and vertical deflection on display represents pitch."
 msgstr ""
-"TID 中的人工地平线符号表示飞机的横滚和俯仰。线有偏转角度则表示横滚，在显示器"
-"中垂直偏转则表示俯仰。"
+"TID 中的人工地平线符号表示飞机的横滚和俯仰。地平线转动表示飞机正在横滚，在显"
+"示器中垂直方向上的偏转则表示俯仰发生变化。"
 
 #: ../../source/general.rst:1617
 msgid "Steering Guidance Symbol"
@@ -10093,7 +10094,7 @@ msgstr ""
 "在 RWS 模式下，TID 也将会显示跟踪符号，这是因为目标在被雷达扫描到时将会立刻被"
 "作为一个跟踪，并显示其位置和高度。DDD 中的目标最多显示两秒，或显示目标直到天"
 "线再次以相同的扫描线和在同样的方位扫描到目标+2秒为止，如果目标没有被再次探测"
-"到，目标将会被移除。DDD 中最多可显示48个跟踪。"
+"到，目标将会被移除。TID 中最多可同时显示48个跟踪。"
 
 # track while search
 #: ../../source/general.rst:2128
