@@ -89,3 +89,9 @@ HB AIM-54 新 API 上线测试
 * F-14A/B Tomcat - FAQ - FREQUENTLY ASKED QUESTIONS   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv9562835/>`_” 
 
 ---------------------------------------------
+
+2021/05/02 Heatblur 更新 - 大号的我 & 公开路线图
+****************
+* Heatblur Update - Supersize Me & Public Roadmap   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv11123652/>`_” 
+
+---------------------------------------------
