@@ -744,7 +744,7 @@
 <p>紧急机翼后掠手柄还用于选择机翼的停放后掠位置。停放后掠仅在位于地面时使用，选择停放后掠其目的是为了减小翼展，便于在甲板上停放飞机。由于机翼会掠过水平安定面上方，因此水平安定面权限系统将被启用并通过限制水平安定面的偏转来避免机翼和水平安定面相撞导致损坏。</p>
 <p>如需将机翼设置为停放后掠，飞行员应将应急机翼后掠手柄移动至68°的位置，然后将手柄保持在抽出的位置。将手柄保持在最大后掠位置将使机翼密封气囊放气，并激活水平安定面权限系统， <strong>HZ TAIL AUTH</strong> 注意灯亮起表示权限系统已激活。当 <strong>HZ TAIL AUTH</strong> 注意灯熄灭，并且机翼后掠指示器种 <strong>OVER</strong> 标识旗出现时，停放后掠互锁将会解除，这时可以将手柄移动至 75° 并按下。</p>
 <p>如需将机翼移出停放后掠，抽出手柄并向前移动至68°的位置处。这将使 <strong>HZ TAIL AUTH</strong> 注意灯再次亮起。当机翼移出停放后掠时，注意灯以及机翼后掠指示器中的 <strong>OVER</strong> 标识旗将消失。</p>
-<p>与一般应急模式操作相同，将手柄移动至与随动限位器相同的位置上，然后按下 <strong>MASTER RESET</strong> 按钮。</p>
+<p>与标准的应急模式操作相同，将手柄移动至与随动限位器相同的位置上，然后按下 <strong>MASTER RESET</strong> 按钮。</p>
 </div>
 </div>
 <div class="section" id="id2">
@@ -942,7 +942,7 @@
 <div class="section" id="air-source-and-cockpit-air-controls">
 <h3>气源和驾驶舱引气控制<a class="headerlink" href="#air-source-and-cockpit-air-controls" title="永久链接至标题">¶</a></h3>
 <p>ECS 的气源通过 <a class="reference internal" href="cockpit.html#airconctrlpanel"><span class="std std-ref">空调控制面板</span></a> 中的控制按钮来设置。</p>
-<p>选择 <strong>L ENG</strong> 档位将使用左发动机作为气源；选择 <strong>R ENG</strong> 档位将使用右发动机作为气源；选择 <strong>BOTH</strong> 档位将同时使用两个发动机作为气源；一般情况下使用 BOTH 档位。</p>
+<p>选择 <strong>L ENG</strong> 档位将使用左侧发动机作为引气气源；选择 <strong>R ENG</strong> 档位将使用右侧发动机作为引气气源；选择 <strong>BOTH</strong> 档位将同时使用两台发动机作为气源，同时也是正常情况下所选用的档位。</p>
 <p>选择 <strong>RAM</strong> 和 <strong>OFF</strong> 档位都将启用应急冲压空气进气门，但是选择 <strong>OFF</strong> 档位将关闭加温系统和伺服系统的增压。</p>
 <p>正常运行时，驾驶舱的温度由 <strong>TEMP</strong> 开关及同一面板中的拨轮来控制。如果将 <strong>TEMP</strong> 开关拨至 <strong>AUTO</strong> 档位，环控系统将通过调节温度控制阀门来自动保持所选的驾驶舱温度。如果 <strong>TEMP</strong> 开关设置为 <strong>MAN</strong> 档位——手动——在这个档位时，飞行员需要根据高度和空速变化调整拨轮来保持驾驶舱和抗荷服中的气温。</p>
 <p><strong>CABIN PRESS</strong> 开关用于控制驾驶舱安全阀，而安全阀控制着驾驶舱是否增压。如果开关位于 <strong>NORM</strong> 档位，那么驾驶舱气压将保持在8000英尺至23000英尺之间，当高度超过23000英尺后，调节器会将压差保持在对应高度5-psi 内。若开关位于 <strong>DUMP</strong> 档位，驾驶舱安全阀打开，驾驶舱泄压。</p>
@@ -972,7 +972,7 @@
 <div class="section" id="external-ecs-air-supply">
 <h3>外部 ECS 气源<a class="headerlink" href="#external-ecs-air-supply" title="永久链接至标题">¶</a></h3>
 <p>对于在地面或甲板上运行时需要进行冷却的系统，可以通过接通外部 ECS 气源来冷却这些所需的系统。</p>
-<p>但是，一般所使用的外部气源无法同时为所有系统提供冷却，以此必须设置需要进行冷却的系统。通过 RIO 右侧控制台中的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 上的 <strong>GND CLG</strong> 开关来控制需要冷却的系统。开关拨动至 <strong>OBC/CABIN</strong> 档位将为座舱和所有空气冷却的电子设备提供外部 ECS 气源。由于热交换的冷却空气不足，开关设置到 OBC/CABIN 档位将会禁用 AN/AWG-9 发射器。开关设置到 <strong>AWG-9/AIM-54</strong> 档位将为 AN/AWG-9 雷达和 AIM-54 换热器以及相关电子设备提供外部 ECS 气源。开关拨至 <strong>OFF</strong> 档位将关闭外部 ECS 气源，OFF 档位是当发动机运转时所使用的正常模式。</p>
+<p>但是，通常所使用的外部气源无法同时为所有系统提供冷却，以此必须设置需要进行冷却的系统。通过 RIO 右侧控制台中的 <a class="reference internal" href="cockpit.html#iffant"><span class="std std-ref">敌我识别（IFF）天线控制 / 测试面板</span></a> 上的 <strong>GND CLG</strong> 开关来控制需要冷却的系统。开关拨动至 <strong>OBC/CABIN</strong> 档位将为座舱和所有空气冷却的电子设备提供外部 ECS 气源。由于热交换的冷却空气不足，开关设置到 OBC/CABIN 档位将会禁用 AN/AWG-9 发射器。开关设置到 <strong>AWG-9/AIM-54</strong> 档位将为 AN/AWG-9 雷达和 AIM-54 换热器以及相关电子设备提供外部 ECS 气源。开关拨至 <strong>OFF</strong> 档位将关闭外部 ECS 气源，OFF 档位是当发动机运转时所使用的正常模式。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>在发动机运转期间， <strong>GND CLG</strong> 开关不应设置为 <strong>OFF</strong> 以外的任何档位。</p>
@@ -1116,7 +1116,7 @@
 </dd>
 </dl>
 <p><strong>雷达模式选择按钮</strong></p>
-<p>DDD 面板的右下部包含有显示模式、雷达模式和 DDD 本身滚筒指示器的控制开关与按钮。显示模式按钮 （<strong>15</strong>）用于选择当前 DDD 所选的显示模式。 <strong>RDR</strong> （雷达模式），此模式为一般的所选模式。 <strong>IR</strong> 模式由于没有安装 IR 系统，所以是无功能的。 <strong>IFF</strong> 按钮按下后将在 IFF 本身的两种运行模式下的其中一种来启用 IFF 问询器，详情参见总体设计和系统概述的 IFF 部分。</p>
+<p>DDD 面板的右下部包含有显示模式、雷达模式和 DDD 本身滚筒指示器的控制开关与按钮。显示模式按钮 （<strong>15</strong>）用于选择当前 DDD 选定的显示模式。 <strong>RDR</strong> （雷达模式），通常选择雷达模式来使用。 <strong>IR</strong> 模式由于没有安装 IR 系统，所以 IR 模式是无功能的。 <strong>IFF</strong> 按钮按下后将在 IFF 本身的两种运行模式下的其中一种来启用 IFF 问询器，详情参见总体设计和系统概述的 IFF 部分。</p>
 <p>雷达模式按钮（ <strong>16</strong> ）用来选择 AN/AWG-9 雷达的运行模式。两个 STT 按钮——脉冲多普勒单目标跟踪（ <strong>PD STT</strong> ）和脉冲单目标跟踪（ <strong>P STT</strong> ）——如果可用，这两个按钮可用来选择 STT 的模式。同时这两个按钮还用于自动尝试锁定至 TID 中选中的目标或用于在两个 STT 模式之间进行切换。脉冲多普勒搜索按钮（ <strong>PD SRCH</strong> ）用于选择雷达 PD SEARCH 模式。边搜索边测距按钮（ <strong>RWS</strong> ）用于选择雷达 RWS 模式。两个边搜索边跟踪按钮（ <strong>TWS AUTO</strong> 和 <strong>TWS MAN</strong> ）用于选择雷达使用与之对应的 TWS 模式运行。脉冲搜索按钮（ <strong>PULSE SRCH</strong> ）用于选择雷达脉冲搜索模式。</p>
 <p><strong>滚筒指示器</strong> （ <strong>17</strong> ），滚筒指示器指示了当前所选的雷达模式。除了显示 TWS MAN，TWS AUTO，RWS 指代各自的模式外，滚筒指示器还可以显示 MRL（手动快速锁定）、A-G （空对地）、VSL（垂直扫描锁定）、OPTTRK（TCS 跟踪）、PLM（飞行员锁定模式）、PULSE（脉冲搜索模式和脉冲 STT 模式）、PD（脉冲多普勒搜索模式和脉冲多普勒 STT 模式）和PAL（飞行员自动锁定模式）。</p>
 <p><strong>Aspect 和 Vc 开关</strong></p>
@@ -1175,7 +1175,7 @@
 <img alt="_images/tid1.png" src="_images/tid1.png" />
 <p>TID 是 WCS 的主要数据显示器。TID 向 RIO 显示战术信息，显示的战术信息用来识别和选择用于 F-14 “雄猫”上的远程武器的目标。将 TID 想象成一张俯视地图，所有显示出的跟踪以及符号都会以相对应的坐标显示在这张地图中，但是 TID 不会显示出地面/水面地物（地图）。同时 TID 还作为次要角色用于显示输入数据至 WCS、导航、INS 对准和机上检查（OBC）。</p>
 <p><strong>TID 显示控制旋钮</strong></p>
-<p>在 TID 的上方边缘处包含有两个显示控制旋钮（ <strong>2 &amp; 4</strong> ）。左边的旋钮用于控制 TCS 的显示对比度，右边的旋钮用来控制 TID 的整体亮度。一般根据使用习惯和当前环境亮度来调整。</p>
+<p>在 TID 的上方边缘处包含有两个显示控制旋钮（ <strong>2 &amp; 4</strong> ）。左边的旋钮用于控制 TCS 的显示对比度，右边的旋钮用来控制 TID 的整体亮度。两个旋钮的设定一般根据使用习惯和当前环境光来调整。</p>
 <p><strong>INS 和导航控制开关/按钮</strong></p>
 <p>位于 TID 左上角的是 INS 状态指示器（ <strong>1</strong> ），状态指示器用来指示 INS 的状态和对准状态。</p>
 <p>TID 的两侧包含有两个旋钮。左侧的旋钮（ <strong>12</strong> ）用来控制和选择使用 INS 或 AHRS（姿态航向基准系统）模式。同时这个旋钮还用于进行 INS 对准。</p>
@@ -1248,7 +1248,7 @@
 </tr>
 </tbody>
 </table>
-<p>TID 面板中左侧选择旋钮用来控制 TID 显示模式（ <strong>10</strong> ）。 <strong>GND STAB</strong> （相对地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。<strong>ATTK</strong> （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。<strong>TV</strong> 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD 上的一般战术信息。</p>
+<p>TID 面板中左侧选择旋钮用来控制 TID 显示模式（ <strong>10</strong> ）。 <strong>GND STAB</strong> （相对地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。<strong>ATTK</strong> （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。<strong>TV</strong> 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD 上的常规的战术信息显示。</p>
 <p>右侧的选择旋钮用来设置 TID 的显示标度，将显示的直径设置为选定的距离（ <strong>9</strong> ）。可用的显示距离分别为25海里、50海里、100海里、200海里和400海里，更远的显示距离可用于显示雷达探测距离外的数据链路信息。</p>
 <div class="section" id="tid-data-readouts">
 <h4>TID 数据读数<a class="headerlink" href="#tid-data-readouts" title="永久链接至标题">¶</a></h4>
@@ -2150,7 +2150,7 @@
 <p>AN/APX-76 IFF（敌我识别系统）问询器集成进了 AN/AWG-9 运作之中。而问询器天线本身位于 AN/AWG-9 天线环架的平台上。</p>
 <p>IFF 系统的工作原理是发射一个问询脉冲，然后监听应答机传回的脉冲。除了非加密民用模式外，AN/APX-76 还可以在加密的军用模式（mode 4）下进行问询。由此一来，这样就可以确定目标在 mode4 问询下进行应答的是友机。</p>
 <p>AN/APX-76 可以在搜索模式或 STT 模式中使用。如需启用问询，按下 <a class="reference internal" href="cockpit.html#dddp"><span class="std std-ref">详细数据显示器面板</span></a> 中的 IFF 按钮，按下后将会启用问询器，按住 IFF 按钮最长只会启用问询器10秒。</p>
-<p>启用 IFF 后，接收到的 IFF 应答结果将会叠加显示在 DDD 中 AN/WAG-9 雷达的一般接触上。友方目标将会显示两根横线，一个在一般雷达接触上方，一个在下方。由于 AN/APX-76 是 AWG-9 一部分中的一个次要模式雷达（应答机雷达），因此 IFF 可时不时探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 应答结果中不会有雷达接触符号。</p>
+<p>启用 IFF 后，接收到的 IFF 应答结果将会叠加显示在 DDD 中的 AN/AWG-9 雷达接触上。友方目标将会显示两根横线，一个在雷达接触上方，一个在雷达接触的下方。由于 AN/APX-76 是除 AWG-9 雷达之外的另一台次要模式雷达（应答机雷达），因此 IFF 可以时不时的探测到 AWG-9 没有探测到的目标。在这种情况下， IFF 应答结果中不会有雷达接触符号。</p>
 <p>在搜索模式下，IFF 返回会叠加显示在每个应答的目标上，而 STT 的话将会叠加显示在 STT 目标上。除此之外，如果在 TID 中选中了 STT 目标，DDD 将会从正常显示距离切换至 ±10 NM，以便当存在密集编队目标时，显示多个目标的应答结果。</p>
 <iframe id="jabbers" align="middle" width="560" height="315" src="https://www.youtube.com/embed/YG7sWweg2RQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="line-block">
 <div class="line"><br /></div>
@@ -3734,11 +3734,11 @@
 <div class="section" id="tacan-system-an-arn-84">
 <h3>TACAN 系统（AN/ARN-84）<a class="headerlink" href="#tacan-system-an-arn-84" title="永久链接至标题">¶</a></h3>
 <p>TACAN 系统可以指示任何所选的地面/水面塔康台并且精度为斜距 0.1 NM，方位 0.5 度。空对空（A/A）模式提供机载塔康台的斜距。如果在视线内，通信距离约为 300 NM。</p>
-<p>系统在 2 个模式中每个模式都可提供 126 个运行波道。空对地模式中的频率接收范围为 962 - 1024 MHz 和 1151 - 1213 MHz，空对空模式则为 1025 - 1150 MHz。TACAN 每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。注意，在冷启动后第一次开启 TACAN 时，TACAN 最多可能2分钟进行预热。</p>
+<p>系统为2种模式中的每一种提供了126个工作波道。在空对地模式下，频率接收范围在 962 - 1024 MHz 和 1151 - 1213 MHz 之间，空对空模式则为 1025 - 1150 MHz。TACAN 每隔6秒会自动在两根天下之间进行切换，直到接收到阈值信号为止。注意，在冷启动后第一次开启 TACAN 时，TACAN 最多可能花费2分钟进行预热。</p>
 <div class="section" id="tacan-modes">
 <h4>TACAN 模式<a class="headerlink" href="#tacan-modes" title="永久链接至标题">¶</a></h4>
 <p>系统可以在 REC 或 T/R 模式中同时与其它 99 架飞机从地面台接收有效信号。</p>
-<p>在 A/A 模式中，系统可以对五架合作飞机进行应答，向合作飞机显示斜距，但是每次只能问询和锁定一架飞机。</p>
+<p>在 A/A 模式中，系统可以向五架合作飞机中的每一架飞机进行应答，向合作飞机显示斜距，但是每次只能问询和锁定一架飞机。</p>
 <p>飞行员和 RIO 在左侧控制台上的 TACAN 控制面板相同。飞行员和 RIO 左侧控制台上的 TACAN CMD 按钮用来交换 飞行员和 RIO 的 TACAN 控制权。每个驾驶舱中的翻转指示器用来指示 TACAN 控制权，指示器显示 PLT（飞行员） 或 RIO。两名机组都可以调整识别信号的音量。有关 TACAN 控制面板描述，详见 <a class="reference internal" href="cockpit.html#tacancontrol"><span class="std std-ref">TACAN 控制面板</span></a>。</p>
 </div>
 <div class="section" id="tacan-displays">
@@ -3795,11 +3795,11 @@
 <p>雷达高度计有3分钟最短预热时间。在预热期间，应忽略故障指示和错误读数。</p>
 <div class="section" id="radar-altimeter">
 <h4>雷达高度计<a class="headerlink" href="#radar-altimeter" title="永久链接至标题">¶</a></h4>
-<p>该系统唯一的控制开关/按钮位于飞行员仪表板处的 <a class="reference internal" href="cockpit.html#radalt"><span class="std std-ref">雷达高度表</span></a> 。指示计在一个单匝圈上显示高于地表雷达高度。雷达高度表通过刻度盘来显示离地球表面高度，刻度范围在0-5000英尺，并且高度越低刻度划分约精细，以便在低空提供更精确的读数。高度表左下方的旋钮为集电源开关、自检开关 和 低高度限制游标控制 为一体的控制旋钮。</p>
+<p>雷达高度计系统唯一的控制开关/按钮位于飞行员仪表板中的 <a class="reference internal" href="cockpit.html#radalt"><span class="std std-ref">雷达高度表</span></a> 处。雷达高度表通过一个单转刻度盘来显示离地球表面高度，刻度显示标定为0-5000英尺，并且高度越低刻度划分越精细，以便飞机在低空飞行时提供更精确的读数。高度表左下方的旋钮为集电源开关、自检开关和低高度限制游标控制为一体的控制旋钮。</p>
 </div>
 <div class="section" id="altimeter-bit">
 <h4>高度计自检<a class="headerlink" href="#altimeter-bit" title="永久链接至标题">¶</a></h4>
-<p>按住控制旋钮来接通自检回路，按下后绿色自检灯将亮起，此时高度表的读数在 100 ± 10英尺，HUD 中的高度标尺应显示在100英尺左右。如果高度指针低于低高度限制游标，那么将会触发音频和视觉警告。只需再次释放控制旋钮即可恢复正常运行。</p>
+<p>按住控制旋钮来接通自检回路，按下后绿色自检灯将亮起，此时高度表的读数在 100 ± 10英尺，并且 HUD 中的高度标尺应显示在100英尺左右。如果高度指针低于低高度限制游标，那么将会触发音频和视觉警告。只需再次松开控制旋钮即可恢复正常运行。</p>
 </div>
 <div class="section" id="low-altitude-audio-warning">
 <h4>低高度警告音频<a class="headerlink" href="#low-altitude-audio-warning" title="永久链接至标题">¶</a></h4>
