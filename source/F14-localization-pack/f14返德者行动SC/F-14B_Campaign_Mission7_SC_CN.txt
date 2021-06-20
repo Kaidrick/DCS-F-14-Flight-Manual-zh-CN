@@ -36,7 +36,7 @@ CVW-3 将会在北部执行 TARPS 任务，因为黑海舰队在我们后方仍�
 [BLUE TASK]
 你的任务呼号：Uzi 5-1
 
-状态：红色状态。自由开火。
+状态：红色状态。自由开火（WEAPON FREE，自由向未识别为友机的目标开火）。
 
 Alpha Whiskey：Darkstar，E-2D，225 AM
 

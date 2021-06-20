@@ -44,3 +44,5 @@ center/centered -- 中立（飞机构造P 134）
 2021/02/17往后
 controls -- 控件-->控制开关/按钮
 bus -- 1553等翻译成总线，发电机bus翻译为母线。
+ambient lighting -- 环境光
+改动一些 normal 为常规或

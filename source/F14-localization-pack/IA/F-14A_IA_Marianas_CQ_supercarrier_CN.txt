@@ -1,0 +1,19 @@
+[TITLE]
+
+[DESCRIPTION]
+从杜鲁门号起飞并执行航母资质认证。
+
+应该执行3次优良着舰。
+
+
+祝好运！
+[RED TASK]
+
+[BLUE TASK]
+美国海军杜鲁门号，塔康 75X，225 AM
+
+S3 加油机，33Y，225 AM
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

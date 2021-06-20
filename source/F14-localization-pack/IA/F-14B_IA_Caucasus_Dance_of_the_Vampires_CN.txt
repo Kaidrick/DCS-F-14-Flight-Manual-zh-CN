@@ -5,7 +5,7 @@
 [RED TASK]
 
 [BLUE TASK]
-USS Saratoga，塔康59X， ICLS 频道1， 225 AM， BRC 229°
+USS 萨拉托加，塔康59X， ICLS 波道1， 225 AM， BRC 229°
 
 海盗加油机Arco，塔康33Y， 225 AM， 14000英尺
 [TRIGGERS]

@@ -95,3 +95,9 @@ HB AIM-54 新 API 上线测试
 * Heatblur Update - Supersize Me & Public Roadmap   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv11123652/>`_” 
 
 ---------------------------------------------
+
+2021/06/16 DCS:F-14开发更新 - 弹跳、气流还有盘旋！
+****************
+* DCS: F-14 Development Update - Bounce, Burble and Orbits!   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv11772279/>`_” 
+
+---------------------------------------------

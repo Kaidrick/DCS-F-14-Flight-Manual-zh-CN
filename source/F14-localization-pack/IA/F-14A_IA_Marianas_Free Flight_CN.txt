@@ -1,0 +1,23 @@
+[TITLE]
+
+[DESCRIPTION]
+享受自由地在马里亚纳群岛上空飞行！
+
+WP1 = 安德森基地
+
+WP2 = 罗塔岛
+
+WP3 = 塞班岛
+
+
+好好享受！
+[RED TASK]
+
+[BLUE TASK]
+美国海军杜鲁门号，塔康 75X，225 AM
+
+S3 加油机，33Y，225 AM
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

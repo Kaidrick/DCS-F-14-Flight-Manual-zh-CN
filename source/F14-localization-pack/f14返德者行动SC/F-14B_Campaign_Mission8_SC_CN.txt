@@ -21,7 +21,7 @@ TARPS - 侦察任务
 [BLUE TASK]
 你的任务呼号：Uzi 3-1
 
-状态：红色状态。自由开火。
+状态：红色状态。自由开火（WEAPON FREE，自由向未识别为友机的目标开火）。
 
 Alpha Whiskey：Wizard，E-2D，225 AM
 

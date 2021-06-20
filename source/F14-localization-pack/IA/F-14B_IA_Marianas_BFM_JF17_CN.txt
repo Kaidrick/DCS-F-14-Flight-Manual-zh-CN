@@ -1,0 +1,21 @@
+[TITLE]
+
+[DESCRIPTION]
+BFM 对战 中国 JF-17
+
+两架飞机都装备了红外空空导弹。
+
+本次 BFM 将使用绅士规则 - 交汇前禁止开火！ 
+
+
+祝好运！
+[RED TASK]
+
+[BLUE TASK]
+杜鲁门号，塔康 75X，225 AM
+
+S3 加油机，33Y，225 AM
+[TRIGGERS]
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

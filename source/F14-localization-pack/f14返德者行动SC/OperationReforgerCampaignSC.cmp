@@ -6,38 +6,9 @@ campaign =
     ["picture"] = "Title.jpg",
     ["description_EN"] = "OPERATION REFORGER - THE IRON HEEL\
 \
+SUPERCARRIER VERSION\
 \
-The year is 1990. Russia is struggling during a time of severe grain shortage and economic crisis, Gorbachev’s policies of “glasnost” and “perestrojka” seem to be failing, while support for the president is wavering. When elections go wrong and leave Russia’s leader weaker than ever before, more and more Soviet succession states in the East Bloc are accepting Western help to overcome their economic woes, in return for a reduced influence of Soviet power. This leads to members of the Central Committee and the Politburo pointing their focus towards Gennady Ganyayev, so far Gorbachev’s Vice president, but with very opposing views to him: he advocates a strong centralized government to deal with the crisis, which eventually will see him replacing Gorbachev as the new president by May 1st, 1990.\
-\
- \
-\
-His first objective after obtaining power is to immediately secure the Soviet succession particularly in the former Soviet Satellite states, also endangering the German Unification process: unless all four occupying forces give their consent, Germany cannot re-unify. Ganyayev refuses to let East Germany go and in fact he orders Russian troops from the center of the Soviet Union (Odessa and Transcaucasus military districts) to Western Europe and borders with the recently fallen Iron curtain. When tensions rise and an East German protest marching on the Headquarters of Western Group Forces (WGF - Soviet military in East Germany) is put down by brutal force, leaving several hundred dead, West Germany strikes Russian positions in East Germany, notifying their closest allies, Great Britain and the US.\
-\
-\
- With Turkey having declared Russia as a threat under the Montreux convention and denying them access through the Bosporus, the US moves their Mediterranean Battlegroup including the USS Stennis into the Black Sea for a freedom of movement exercise to show US strength and resolve in the matter. The purpose is to enforce a Black Sea embargo on Russia and increase the pressure of failing grain resupplies through the Bosporus, in order to bring the German Unification process back on track. With Russia having consolidated most of its troops around the West German border and its western borders in general, and worldwide support for Russia failing in light of its recent stance against Germany, the US moves to strike crucial targets such as Air Defenses, Oil installations, Military Bases and Headquarters in the Caucasus. The prime concern remains Russia’s force of Tu-22M Backfires in the region. While the airwing is being readied for the first wave of night strikes, the Battle Group kicks off their offensive by launching Tomahawk cruise missiles from their cruisers, striking centers of communication and airbases including Sevastapol, Gudauta, and Kutaisi. In the early morning of November 29th the CVG launches successive alpha strikes that head overland to destroy radar installations, air defenses, and coastal air bases. Of course, MiGCAPs and fighter sweeps support every strike to destroy every fighter that can be found.\
-\
- \
-\
-You are the Iron Heel of Operation Reforger, which will conduct primary strikes against Russian targets in East Germany in order to regain sovereignity by the German people. While the main group attacks Russia head on, your job is to weaken the enemy in its own backyard enough to force him back to the negotiation table.\
-\
-NOTE: Mission Success is generally achieved, when you are cleared for RTB. Whether you return for the carrier or not is up to you.  \
-\
-\
-ENJOY!\
-\
-\
-THIS CAMPAIGN IS DEDICATED TO OUR SMES AND TESTERS.\
-\
-Thank you!  \
-\
- ",
-    ["version"] = 1,
-    ["necessaryUnits"] = 
-    {
-        ["F-14B"] = "F-14B",
-    }, -- end of ["necessaryUnits"]
-    ["name"] = "Operation Reforger - The Iron Heel",
-    ["description"] = "OPERATION REFORGER - THE IRON HEEL\
+**Please note that the USS Stennis is replaced by the USS Truman in this version, however it will be still referred to as \"USS Stennis\" in both briefings and radio comms.***\
 \
 \
 The year is 1990. Russia is struggling during a time of severe grain shortage and economic crisis, Gorbachev’s policies of “glasnost” and “perestrojka” seem to be failing, while support for the president is wavering. When elections go wrong and leave Russia’s leader weaker than ever before, more and more Soviet succession states in the East Bloc are accepting Western help to overcome their economic woes, in return for a reduced influence of Soviet power. This leads to members of the Central Committee and the Politburo pointing their focus towards Gennady Ganyayev, so far Gorbachev’s Vice president, but with very opposing views to him: he advocates a strong centralized government to deal with the crisis, which eventually will see him replacing Gorbachev as the new president by May 1st, 1990.\
@@ -64,21 +35,25 @@ THIS CAMPAIGN IS DEDICATED TO OUR SMES AND TESTERS.\
 Thank you!  \
 \
  ",
-	["description_CN"] = "反德者行动 - 铁蹄\
+	["description_CN"] = "返德者行动 - 铁蹄\
+\
+超级航母版本\
+\
+**请注意，在这版任务中，“USS 斯塔尼斯号”被“杜鲁门号”所替代，但在简报和无线电台通信中，仍将其称呼为“斯坦尼斯号”***\
 \
 \
 时间来到了1990年。在严重的经济危机和粮食短缺的情况下，俄罗斯陷入困境之中，戈尔巴乔夫的“开放政策”以及“改革重组”政策似乎都失败了，对于总统的支持正在动摇当中。当选举出现问题并且留在俄罗斯的领导人比往届的更弱，更多的苏联加盟国选择投入西方的怀抱来渡过经济难关，作为交换，苏联力量的影响越来越微弱。这导致中央委员会和中央政治局的人将注意力转移到了副总统根纳季·伊万诺维奇·亚纳耶夫身上，但副总统持非常强烈的反对态度：他建议组建一个强大的中央政府来应对危机，最终亚纳耶夫取代戈尔巴乔夫在1990年5月1日成为新总统。\
 \
  \
 \
-在他掌权后的第一件事就是确保苏联延续下去，特别是苏联的卫星国，并同时干扰德国统一进程：除非四个占领军同意，否则德国无法统一。亚纳耶夫拒绝放弃东德并且事实上他命令俄罗斯军队从苏联中心（敖德薩和南高加索军区）前往西欧以及铁幕边界线附近。当局势变得紧张时，一支抗议游行队在“西方集群”（WGF ——位于东德的苏联部队）的总部遭到野蛮镇压，镇压行动造成数百人死亡的同时，西德打击了俄罗斯在东德的驻地，并且告知了它们最亲密的盟友英国和美国。\
+在他掌权后的第一件事就是确保苏联延续下去，特别是苏联的卫星国，并同时干扰德国统一进程：除非四个占领军同意，否则德国无法统一。亚纳耶夫拒绝放弃东德并且事实上他命令俄罗斯军队从苏联中心（敖德薩和南高加索军区）前往西欧以及铁幕边界线附近。当局势变得紧张，一支抗议游行队在“西方集群”（WGF ——位于东德的苏联部队）的总部遭到野蛮镇压，镇压行动造成数百人死亡的同时，西德打击了俄罗斯在东德的驻地，并且告知了它们最亲密的盟友英国和美国。\
 \
 \
-土耳其已根据《蒙特勒公约》宣布俄罗斯为威胁国家并拒绝相关船只通过伊斯坦布尔海峡，美国将包括斯坦尼斯号在内的地中海战斗群送入至黑海展开自由行动来秀肌肉以及表示决心。其目的是对俄罗斯实行黑海禁运并通过伊斯坦布尔海峡来增加粮食危机所带来的压力，以便使德国统一进程重回正轨。随着俄罗斯在西德边界和本国西部边界集结了大量部队，介于俄罗斯最近针对德国的立场，俄罗斯失去了全世界的支持，美国开始向一些关键目标例如防空、石油设施、位于高加索的军事基地和总部发动打击。最为担心的是俄罗斯留驻在该地区的图-22M逆火的威胁。在飞行联队做好准备进行第一次夜间打击的同时，战斗群也通过巡洋舰发射战斧巡航导弹对通信中心以及包括塞瓦斯托波尔、古达乌塔和库塔伊西在内的空军基地发动了打击。在11月4日凌晨，航母战斗群连续向地面发动 alpha strike 来摧毁雷达设施、防空和沿岸空军基地。当然，MIGCAP 和战机扫荡会随着每次打击任务一起执行，以便摧毁任何能够找到的敌机。\
+土耳其已根据《蒙特勒公约》宣布俄罗斯为威胁国家并拒绝相关船只通过伊斯坦布尔海峡，美国将包括斯坦尼斯号在内的地中海战斗群送入至黑海展开自由行动来秀肌肉以及表示决心。其目的是对俄罗斯实行黑海禁运并通过伊斯坦布尔海峡来增加粮食危机所带来的压力，以便使德国统一进程重回正轨。随着俄罗斯在西德边界和本国西部边界集结了大量部队，介于俄罗斯最近针对德国的立场，俄罗斯失去了全世界的支持，美国开始向一些关键目标例如防空、石油设施、位于高加索的军事基地和总部发动打击。最为担心的是俄罗斯留驻在该地区的图-22M逆火的威胁。在飞行联队做好准备进行第一次夜间打击的同时，战斗群也通过巡洋舰发射战斧巡航导弹对通信中心以及包括塞瓦斯托波尔、古达乌塔和库塔伊西在内的空军基地发动了打击。在11月4日凌晨，航母战斗群连续向地面发动阿尔法打击来摧毁雷达设施、防空和沿岸空军基地。当然，MIGCAP和战机扫荡会随着每次打击任务一起执行，以便摧毁任何能够找到的敌机。\
 \
  \
 \
-玩家将扮演返德者行动中的铁蹄，将主要对俄罗斯在东德的目标实施打击来恢复德国人民的主权。当主集群在正面攻击俄罗斯军队时，玩家的任务将是在削弱敌人在其后花园的力量，然后迫使其回到谈判桌上。\
+玩家将成为返德者行动中的铁蹄，将主要打击俄罗斯在东德的目标来恢复德国人民的主权。在主集群在正面攻击俄罗斯军队时，玩家的任务将是逼他们撤退然后迫使其回到谈判桌上。\
 \
 注意：一般来说，当准许返回基地时，则表示任务完成。是否返回航母将由玩家自行决定。\
 \
@@ -91,9 +66,13 @@ Thank you!  \
 感谢你们！\
 \
  ",
-    ["name_EN"] = "Operation Reforger - The Iron Heel",
-	["name_CN"] = "反德者行动 - 铁蹄",
-    ["fullPath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\OperationReforgerCampaign.cmp",
+    ["name_EN"] = "Operation Reforger - SC Version",
+	["name_CN"] = "反德者行动 - 超级航母版本",
+    ["necessaryUnits"] = 
+    {
+        ["F-14B"] = "F-14B",
+    }, -- end of ["necessaryUnits"]
+    ["version"] = 1,
     ["stages"] = 
     {
         [7] = 
@@ -108,9 +87,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission7.miz",
+                    ["file"] = "F-14B_Campaign_Mission7_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission7.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission7_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [7]
@@ -126,9 +105,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission1.miz",
+                    ["file"] = "F-14B_Campaign_Mission1_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission1.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission1_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [1]
@@ -144,9 +123,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission2.miz",
+                    ["file"] = "F-14B_Campaign_Mission2_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission2.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission2_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [2]
@@ -162,9 +141,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission4.miz",
+                    ["file"] = "F-14B_Campaign_Mission4_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission4.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission4_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [4]
@@ -180,9 +159,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission8.miz",
+                    ["file"] = "F-14B_Campaign_Mission8_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission8.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission8_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [8]
@@ -198,9 +177,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission9.miz",
+                    ["file"] = "F-14B_Campaign_Mission9_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission9.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission9_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [9]
@@ -216,9 +195,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission5.miz",
+                    ["file"] = "F-14B_Campaign_Mission5_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission5.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission5_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [5]
@@ -234,9 +213,9 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission3.miz",
+                    ["file"] = "F-14B_Campaign_Mission3_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission3.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission3_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [3]
@@ -252,11 +231,44 @@ Thank you!  \
                         [1] = 0,
                         [2] = 100,
                     }, -- end of ["interval"]
-                    ["file"] = "F-14B_Campaign_Mission6.miz",
+                    ["file"] = "F-14B_Campaign_Mission6_SC.miz",
                     ["description"] = "",
-                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission6.miz",
+                    ["fullpath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\F-14B_Campaign_Mission6_SC.miz",
                 }, -- end of [1]
             }, -- end of ["missions"]
         }, -- end of [6]
     }, -- end of ["stages"]
+    ["description"] = "OPERATION REFORGER - THE IRON HEEL\
+\
+SUPERCARRIER VERSION\
+\
+**Please note that the USS Stennis is replaced by the USS Truman in this version, however it will be still referred to as \"USS Stennis\" in both briefings and radio comms.***\
+\
+\
+The year is 1990. Russia is struggling during a time of severe grain shortage and economic crisis, Gorbachev’s policies of “glasnost” and “perestrojka” seem to be failing, while support for the president is wavering. When elections go wrong and leave Russia’s leader weaker than ever before, more and more Soviet succession states in the East Bloc are accepting Western help to overcome their economic woes, in return for a reduced influence of Soviet power. This leads to members of the Central Committee and the Politburo pointing their focus towards Gennady Ganyayev, so far Gorbachev’s Vice president, but with very opposing views to him: he advocates a strong centralized government to deal with the crisis, which eventually will see him replacing Gorbachev as the new president by May 1st, 1990.\
+\
+ \
+\
+His first objective after obtaining power is to immediately secure the Soviet succession particularly in the former Soviet Satellite states, also endangering the German Unification process: unless all four occupying forces give their consent, Germany cannot re-unify. Ganyayev refuses to let East Germany go and in fact he orders Russian troops from the center of the Soviet Union (Odessa and Transcaucasus military districts) to Western Europe and borders with the recently fallen Iron curtain. When tensions rise and an East German protest marching on the Headquarters of Western Group Forces (WGF - Soviet military in East Germany) is put down by brutal force, leaving several hundred dead, West Germany strikes Russian positions in East Germany, notifying their closest allies, Great Britain and the US.\
+\
+\
+ With Turkey having declared Russia as a threat under the Montreux convention and denying them access through the Bosporus, the US moves their Mediterranean Battlegroup including the USS Stennis into the Black Sea for a freedom of movement exercise to show US strength and resolve in the matter. The purpose is to enforce a Black Sea embargo on Russia and increase the pressure of failing grain resupplies through the Bosporus, in order to bring the German Unification process back on track. With Russia having consolidated most of its troops around the West German border and its western borders in general, and worldwide support for Russia failing in light of its recent stance against Germany, the US moves to strike crucial targets such as Air Defenses, Oil installations, Military Bases and Headquarters in the Caucasus. The prime concern remains Russia’s force of Tu-22M Backfires in the region. While the airwing is being readied for the first wave of night strikes, the Battle Group kicks off their offensive by launching Tomahawk cruise missiles from their cruisers, striking centers of communication and airbases including Sevastapol, Gudauta, and Kutaisi. In the early morning of November 29th the CVG launches successive alpha strikes that head overland to destroy radar installations, air defenses, and coastal air bases. Of course, MiGCAPs and fighter sweeps support every strike to destroy every fighter that can be found.\
+\
+ \
+\
+You are the Iron Heel of Operation Reforger, which will conduct primary strikes against Russian targets in East Germany in order to regain sovereignity by the German people. While the main group attacks Russia head on, your job is to weaken the enemy in its own backyard enough to force him back to the negotiation table.\
+\
+NOTE: Mission Success is generally achieved, when you are cleared for RTB. Whether you return for the carrier or not is up to you.  \
+\
+\
+ENJOY!\
+\
+\
+THIS CAMPAIGN IS DEDICATED TO OUR SMES AND TESTERS.\
+\
+Thank you!  \
+\
+ ",
+    ["fullPath"] = "C:\\ED+DCS\\Heatblur\\Operation Reforger_The Iron Heel\\OperationReforgerCampaign.cmp",
+    ["name"] = "Operation Reforger - SC Version",
 } -- end of campaign
