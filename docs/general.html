@@ -89,7 +89,7 @@
               
             
             
-              <p class="caption"><span class="caption-text">内容：</span></p>
+              <p class="caption" role="heading"><span class="caption-text">内容：</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱简介</a></li>
@@ -354,14 +354,14 @@
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">教学视频</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_jester.html">Jester AI指令菜单</a></li>
 </ul>
-<p class="caption"><span class="caption-text">中文本地化：</span></p>
+<p class="caption" role="heading"><span class="caption-text">中文本地化：</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="loc_about.html">关于本项目</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_credit.html">中文本地化制作</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_changelog.html">本地化更新日志</a></li>
 <li class="toctree-l1"><a class="reference internal" href="loc_devupdate.html">Heatblur DCS:F-14A/B 开发更新文章</a></li>
 </ul>
-<p class="caption"><span class="caption-text">下载：</span></p>
+<p class="caption" role="heading"><span class="caption-text">下载：</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="loc_other.html">相关本地化文件下载</a></li>
 </ul>
@@ -452,7 +452,7 @@
 <p>此外，两台发动机还将分别驱动的供油系统、液压系统和发电机，以此来增加余度。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>TF30 和 F110 发动机最主要的区别（除了 TF30 发动机推力比 F110 小外）是 TF30 发动机对进入压气机截面的气流更加敏感。一般来讲，当在进行大迎角机动时应避免将油门设置在军推或开启后燃加力以下的位置，以及避免大偏航输入（译注：蹬舵）或不对称发动机油门设定。这就是说，HB F-14A 模组的 TF30 发动机使用了现有的数据和 SME（主题专家）的专业知识进行了大量的调整，从而对发动机进行精确建模而无愧于它的坏名声。TF30 发动机的液压-机械燃油控制的一个“优势”是其高速推力，这导致 TF30 发动机的极速比 F110 能够达到的极速要高。如果在正常飞行参数下，TF30 发动机的表现良好，但比起 F110 来说就显得有些动力不足。</p>
+<dd class="field-odd"><p>TF30 和 F110 发动机最主要的区别（除了 TF30 发动机推力比 F110 小外）是 TF30 发动机对进入压气机截面的气流更加敏感。一般来讲，当在进行大迎角机动时应避免将油门设置在军推或开启后燃加力以下的位置，以及避免大偏航输入（译注：蹬舵）或不对称发动机油门设定。这就是说，HB F-14A 模组的 TF30 发动机使用了现有的数据和 SME（主题专家）的专业知识进行了大量的调整，从而对发动机进行精确建模而无愧于它的坏名声。TF30 发动机的液压-机械燃油控制的一个“优势”是其高速推力，这使得 TF30 发动机的极速比 F110 能够达到的极速要高。如果在常规飞行参数下，TF30 发动机的表现良好，但比起 F110 来说就显得有些动力不足。</p>
 </dd>
 </dl>
 <div class="section" id="throttle-controls">
@@ -477,7 +477,7 @@
 <p><strong>THROTTLE TEMP</strong> 开关也如上所述，用来控制自动油门系统的增益。</p>
 <p><strong>INLET RAMPS</strong> （ <strong>3</strong> ）开关用来启用（ <strong>AUTO</strong> ）或禁用，也就是收上（ <strong>STOW</strong> ）可调进气道斜板。</p>
 <p>发动机起动开关（<strong>4</strong>）用于起动发动机至 20% rpm，转速到达 20% rpm 后可通过将对应的油门握把从 cut-off（关断）移动至 idle（慢车位）来起动发动机。如果飞机连接了外部气源，那么发动机则使用外部气源提供的空气来起动，如果没有连接外部气源则使用另一侧发动机提供的空气。当发动机转速到达 50% rpm 时，起动开关将自动回到关闭/中立档位。如果起动开关在转速到达 50% rpm 时没有自动中立，那么必须手动将其设置为中立（关闭）档位来防止损坏空气涡轮起动机。</p>
-<p><strong>BACK UP IGNITION</strong> （ <strong>5</strong> ）开关用来在主点火回路失效的情况下启用备用点火系统，通常通过将油门握把移动出 cut-off 档位来启用点火系统。</p>
+<p><strong>BACK UP IGNITION</strong> （ <strong>5</strong> ）开关用来在主点火回路失效的情况下启用备用点火系统，通常通过将油门握把移动出 cut-off（关断）档位来启用点火系统。</p>
 <img alt="_images/asym1.png" src="_images/asym1.png" />
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
@@ -591,8 +591,8 @@
 <img alt="_images/fuel2.png" src="_images/fuel2.png" />
 <p>位于飞行员驾驶舱中左侧垂直控制台上包含有适用于燃油系统的控制开关和按钮。</p>
 <p><strong>QTY SEL</strong> （<strong>1</strong>）船形开关在上文关于 L &amp; R 燃油量指示带的介绍中有详细说明。</p>
-<p>飞行员可以使用 <strong>FEED</strong> 开关来通过选择 <strong>FWD</strong> 档位（前机身油箱和剩余右发供油所使用的油箱）或 <strong>AFT</strong> 档位（后机身油箱和剩余左发供油所使用的油箱）修正由于单发停车或燃油供给管路故障所导致两侧油箱燃油量不平衡，而不是像 <strong>NORM</strong> 档位一样——左/右发动机燃油供给分别向对应的发动机输送燃油。当保护盖关闭时，这个开关会被保护盖锁定在 NORM 档位。</p>
-<p><strong>WING/EXT TRANS</strong> 开关用来控制机翼到发动机供油系统以及副油箱到发动机供油系统的燃油传输。一般情况下使用的 <strong>AUTO</strong> 档位将在起落架收上后立刻启用机翼/副油箱燃油传输。开关拨动至 <strong>ORIDE</strong> 档位时，无论起落架当前的位置，机翼/副油箱的燃油传输都将被启用，绕过起落架收上检测从而允许当飞机处于地面或在输油系统中发生电气故障时启用机翼/副油箱燃油传输。此外，开关位于 <strong>OFF</strong> 将禁用机翼/副油箱传输，但是当在 MTS（主测试）面板中选择 INST 档位进行测试、受油管设置为 ALL EXTD 或放油时，开关将被自动超控至 AUTO 档位。</p>
+<p>飞行员可以使用 <strong>FEED</strong> 开关来通过选择 <strong>FWD</strong> 档位（前机身油箱和剩余右发供油所使用的油箱）或 <strong>AFT</strong> 档位（后机身油箱和剩余左发供油所使用的油箱）修正由于单发停车或燃油供给管路故障所导致两侧油箱燃油量不平衡，而不是像 <strong>NORM</strong> 档位一样——左/右发动机燃油供给分别向对应的发动机输油。当保护盖关闭时，这个开关会被保护盖锁定在 NORM 档位。</p>
+<p><strong>WING/EXT TRANS</strong> 开关用来控制机翼到发动机供油系统以及副油箱到发动机供油系统的燃油转输。一般情况下使用的 <strong>AUTO</strong> 档位将在起落架收上后立刻启用机翼/副油箱燃油转输。开关拨动至 <strong>ORIDE</strong> 档位时，无论起落架当前的位置，机翼/副油箱的燃油转输都将被启用，绕过起落架收上检测从而允许当飞机处于地面或在输油系统中发生电气故障时启用机翼/副油箱燃油转输。此外，开关位于 <strong>OFF</strong> 将禁用机翼/副油箱转输，但是当在 MTS（主测试）面板中选择 INST 档位进行测试、受油管设置为 ALL EXTD 或放油时，开关将被自动超控至 AUTO 档位。</p>
 <p>使用 <strong>DUMP</strong> （<strong>5</strong>）开关可以通过河狸尾巴放油装置来将燃油放出，同时开关还会启用所有输油系统，使得除了机身油箱外，还能将机翼和副油箱中的燃油放出。如果机轮负重或者减速板未完全收起，那么放油将被电子禁止。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
@@ -602,7 +602,7 @@
 <div class="section" id="in-flight-refueling">
 <h4>空中受油<a class="headerlink" href="#in-flight-refueling" title="永久链接至标题">¶</a></h4>
 <p>上文所讲的燃油管理面板还可以对空中受油系统进行控制。</p>
-<p><strong>REFUEL PROBE</strong> （<strong>6</strong>）开关用于控制受油管伸出以及设置燃油系统来进行接收。两个伸出档位（<strong>EXTD</strong>）分别为 <strong>ALL</strong> 档位——启用所有油箱受油，包括机翼油箱和副油箱， <strong>FUS</strong> 档位——启用仅机身油箱受油。开关位于 <strong>ALL</strong> 档位时，机翼和副油箱的输油将被禁用从而使所有油箱受油。开关位于 <strong>RET</strong> （收起）档位时，受油管收回并恢复一般燃油系统运作。</p>
+<p><strong>REFUEL PROBE</strong> （<strong>6</strong>）开关用于控制受油管伸出以及设置燃油系统来进行接收。两个伸出档位（<strong>EXTD</strong>）分别为 <strong>ALL</strong> 档位——启用所有油箱受油，包括机翼油箱和副油箱， <strong>FUS</strong> 档位——启用仅机身油箱受油。开关位于 <strong>ALL</strong> 档位时，机翼和副油箱的输油将被禁用从而使所有油箱受油。开关位于 <strong>RET</strong> （收起）档位时，受油管收起并恢复正常燃油系统运作。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>开关拨至 <strong>EXTD ALL</strong> 将复位 <strong>WING/EXT TRANS</strong> 开关至 <strong>AUTO</strong> 档位。</p>
@@ -685,7 +685,7 @@
 <div class="section" id="id1">
 <h3>控制开关/按钮和指示器<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
 <img alt="_images/hydraulic1.png" src="_images/hydraulic1.png" />
-<p><strong>HYD PRESS</strong> （液压指示器）由两个仪表组成： <strong>COMB</strong> ——联合液压系统，<strong>FLT</strong> ——飞行液压系统，液压读数单位为千 psi。标度中包含液压泵造成影响时的公称压力 3000 psi 标记。</p>
+<p><strong>HYD PRESS</strong> （液压指示器）由两个仪表组成： <strong>COMB</strong> ——联合液压系统，<strong>FLT</strong> ——飞行液压系统，液压读数单位为千 psi。标度中刻有当液压泵正常工作时的标称压力——3000 psi。</p>
 <p>位于两个仪表下方的为标识旗，标识旗用来指示扰流板 <strong>SPOIL</strong> 的液压是否可用和应急飞行液压泵 <strong>EMER FLT</strong> 是否工作。<strong>HI</strong> 标识旗表示应急飞行液压泵以高速模式运行，<strong>LOW</strong> 标识旗表示应急飞行液压泵以低速模式运行。</p>
 <img alt="_images/brakepressure1.png" src="_images/brakepressure1.png" />
 <p><strong>BRAKE PRESSURE</strong> 应急刹车压力表显示了机轮刹车蓄压器中可用的油液压力。 <strong>PARK</strong> 指示停放刹车压力，<strong>AUX</strong> 辅助刹车蓄压器。绿色区域对应的压力范围大约 2,150 psi 至 3,000 psi，红色区域表示压力低于 2150 psi。</p>
@@ -825,7 +825,7 @@
 <p>将 HDG 开关设置到 <strong>GT</strong> 档位时自动驾驶将进入地面航迹模式，等待 <a class="reference internal" href="cockpit.html#vdi"><span class="std std-ref">垂直显示指示器（VDI）</span></a> 左侧的 <strong>A/P REF</strong> 告警灯亮起，之后按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 <strong>A/P REF</strong> 告警灯将熄灭，接着地面航迹模式将被启用，接通后将设置自动驾驶补偿飞机的风偏来跟随地面航迹。</p>
 <p><strong>ALT</strong> ——高度开关用于选择高度保持模式，与地面航迹模式相似，<strong>A/P REF</strong> 告警灯亮起后，按下前轮转向按钮启来接通高度保持模式。</p>
 <p>数据链路引导 - 精确航线方向模式用于允许 Link 4 操作员远程操纵飞机。该功能没有在 DCS 中进行模拟。</p>
-<p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式用于联合 Link 4 数据链路和机载雷达信标来进行自动助降。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 告警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 告警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 告警灯将熄灭。</p>
+<p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式将联合 Link 4 数据链路和机载雷达信标来进行自动着舰。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 告警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 告警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 告警灯将熄灭。</p>
 <p>ACL 可以与 APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制器</span></a> ）结合使用来进行全自动助降。ACL 可以通过右侧油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 可以通过左侧油门握把上的 <strong>CAGE/SEAM</strong> 按钮来断开。</p>
 <p>所有自动驾驶模式都可以通过用力移动驾驶杆来超控或可以通过自动驾驶应急断开手柄来解除自动驾驶，按下手柄后所有自动驾驶开关将复位至 OFF 档位。</p>
 </div>
@@ -1248,7 +1248,7 @@
 </tr>
 </tbody>
 </table>
-<p>TID 面板中左侧选择旋钮用来控制 TID 显示模式（ <strong>10</strong> ）。 <strong>GND STAB</strong> （相对地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。<strong>ATTK</strong> （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。<strong>TV</strong> 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD 上的常规的战术信息显示。</p>
+<p>TID 面板中左侧选择旋钮用来控制 TID 显示模式（ <strong>10</strong> ）。 <strong>GND STAB</strong> （相对地面稳定）模式下，TID 显示是相对地面稳定的，这意味着当飞机在显示器中移动时，显示是固定的。在相对地面稳定模式下，显示器正上方为真北。 <strong>A/C STAB</strong> （相对飞机稳定）模式下，TID 显示是相对本机稳定的，这意味着显示会跟随本机一起移动，本机将保持显示在显示器中。在相对飞机稳定模式下，显示器正上方为本机航向。<strong>ATTK</strong> （攻击）的功能与 A/C STAB 相同，但不同的是叠加显示了攻击转向标识符。<strong>TV</strong> 档位用于选择在 TID 中显示 TCS 视频。选择 TV 档位后，将禁用 TID 和 HSD 上的常规战术信息显示。</p>
 <p>右侧的选择旋钮用来设置 TID 的显示标度，将显示的直径设置为选定的距离（ <strong>9</strong> ）。可用的显示距离分别为25海里、50海里、100海里、200海里和400海里，更远的显示距离可用于显示雷达探测距离外的数据链路信息。</p>
 <div class="section" id="tid-data-readouts">
 <h4>TID 数据读数<a class="headerlink" href="#tid-data-readouts" title="永久链接至标题">¶</a></h4>
@@ -2301,16 +2301,16 @@
 <p>LANTIRN 有两种“主”模式，分别是 A/A 和 A/G。两种模式工作方式类似，但是不同的模式针对不同的目标类型进行了优化。此外，A/G 模式中还允许使用航弹投放引导。</p>
 <p>吊舱有两种主要的方法来控制传感器视线，通过对比度锁定（图像跟踪）或通过隶属至一个 Q 指定点。</p>
 <p>区域（Area）和点（Point）跟踪模式为在 LANTIRN FLIR 本身的视频中，LANTIRN 以对比度差异来锁定的两种对比度锁定模式。对比度锁定本身只允许角跟踪，对比度跟踪中将使用本机位置和吊舱视线来计算目标位置来给出不精确的测距。但是，对比度锁定确实允许系统跟踪移动目标。</p>
-<p>最后一种跟踪模式是将传感器隶属至预存的位置/方向，这种模式将其称之为 Q。方向 Q 无法引导至某个位置，而位置 Q 则可以。</p>
+<p>最后一种跟踪模式是将传感器移动至预存的位置/方向，这种模式将其称之为 Q。方向 Q 无法引导至某个位置，而位置 Q 则可以。</p>
 <p>QSNO 和 QADL/QHUD 为方向 Q。QSNO 为将传感器隶属至沿本机航向正前方15海里处的地面。QADL 和 QHUD 则隶属传感器至 ADL（A/A 模式中）或 HUD 中的飞机机翼符号（A/G 模式中）。</p>
-<p>位置 Q 有两个源，第一个源是使用控制杆左侧的苦力帽上的 QWp- 和 QWp+ 在 WCS 航路点之间循环，从而允许 RIO 隶属至不同的航路点进行导航或定位目标。</p>
+<p>位置 Q 有两个源，第一个源是使用控制杆左侧的苦力帽上的 QWp- 和 QWp+ 在 WCS 航路点之间循环，从而允许 RIO 将吊舱移动至不同的航路点进行导航或定位目标。</p>
 <p>另一个源则是通过吊舱指定。通过按下控制杆上扳机第二段，将照射当前传感器跟踪或位置，并使用指定点的数据存储为新位置。这个位置称为 QDES，QDES 用来指定用于攻击的目标并且允许 RIO 选择在飞行中用于导航参考的新的位置。但是，QDES 无法自动传输至 WCS，但是 RIO 可以使用吊舱视频输出源中的目标位置信息来手动输入它。</p>
-<p>视频右下角的数据块仅位置 Q 时启用，即使吊舱隶属为区域跟踪或点跟踪模式这个数据块也会保留。但是一旦选择了另一个 Q 的话，这个数据块将会更新至另一个 Q 的数据而不是移除，如果选择了方向 Q，那么数据块将会移除。</p>
+<p>视频右下角的数据块仅位置 Q 时启用，即使吊舱在区域或点跟踪模式下将视线移动开来，数据块也将会保留在元素中。但是一旦选择了另一个 Q 的话，这个数据块将会更新至另一个 Q 的数据而不是移除，如果选择了方向 Q，那么数据块将会移除。</p>
 </div>
 <div class="section" id="a-g-target-engagement-and-designation">
 <h4>A/G 目标攻击和指定<a class="headerlink" href="#a-g-target-engagement-and-designation" title="永久链接至标题">¶</a></h4>
-<p>当 LANTIRN 隶属至 QDES 时或指定了新 QDES 时，LANTIRN 攻击地面目标的转向提示将会自动启用。即使选择了新的 Q，QDES 本身还是会保留的，并且只要 QDES 存在，即使隶属至了另一个点，转向提示也将会指向 QDES。记住这点非常重要，因为很容易混淆转向记成指令是指向当前传感器位置而不是 QDES。</p>
-<p>但是，激光指定本身可以指向一个不同于 QDES 的位置，因为激光的指向总是为当前跟踪。如有需要，可以用来通过 QDES 来快速变更回标记的目标，在照射移动中的目标时，QDES 应指向预计目标会抵达的位置（手动估计），接着可使用点跟踪模式或手动移动跟随来更准确的指定实际的目标。</p>
+<p>当 LANTIRN 视线移动至 QDES 时或指定了新 QDES 时，LANTIRN 攻击地面目标的转向提示将会自动启用。即使选择了新的 Q，QDES 本身还是会保留的，并且只要 QDES 存在，即使隶属至了另一个点，转向提示也将会指向 QDES。记住这点非常重要，因为很容易记混淆把转向指令当成是指向当前传感器位置而不是 QDES。</p>
+<p>但是，激光指定本身可以指向一个不同于 QDES 的位置，因为激光的指向始终为当前跟踪。如有需要，可以用来通过 QDES 来快速变更回标记的目标，在照射移动中的目标时，QDES 应指向预计目标会抵达的位置（手动估计），接着可使用点跟踪模式或手动移动跟随来更准确的指定实际的目标。</p>
 <p>要变更激光编码，向后拨动控制杆左侧的滑块并释放，这将会变更右侧的苦力帽（S4）功能为激光编码模式。当前所选的数字将会闪烁，然后 S4 苦力帽将可用于设置编码。向左/向右将变更需要进行设置的数位，向上/向下将变更数字的值。重新向后拨动左侧的滑块将会退出激光编码模式。</p>
 <p>如果在激光编码模式中按下右侧的苦力帽（S4），那么将会启用自动照射模式，由编码数字左侧的 M（表示手动）变更为 A（自动照射）表示。再次按下来返回手动模式。激活自动照射后，自动照射模式将在 TIMP 剩余10秒时开始照射激光，直到 TIMP 为0秒+4秒为止。</p>
 <p>航弹投放提示仅在选择了有效的武器（航弹）后可见，所选的航弹是通过 WCS 从 RIO 驾驶舱中武器控制面板上的 WPN TYPE 拨轮读取的。可以通过计算机引导模式或者计算机目标模式来实现航弹投放，但是建议使用手动模式。在手动模式下，飞行员跟随输出到 VDI 中的 LANTIRN 视频中的提示并根据航弹投放提示来投放航弹。</p>

@@ -46,3 +46,5 @@ controls -- 控件-->控制开关/按钮
 bus -- 1553等翻译成总线，发电机bus翻译为母线。
 ambient lighting -- 环境光
 改动一些 normal 为常规或
+recesses --半埋入式挂架（武器章节，麻雀部分）
+部分 transfer 改为————转输（fuel transfer，输油，参见飞机构造）
