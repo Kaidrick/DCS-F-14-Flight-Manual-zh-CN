@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 18:11+0800\n"
-"PO-Revision-Date: 2021-07-19 00:31+0800\n"
+"PO-Revision-Date: 2021-08-21 00:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2027,7 +2027,7 @@ msgid ""
 "condition in their respective engine."
 msgstr ""
 "HUD 的左侧和右侧分别装有失速告警灯（L STALL 和 R STALL 告警灯）。它们分别指示"
-"对应一侧发动机的压气机失速。"
+"对应一侧发动机失速。"
 
 #: ../../source/cockpit.rst:957 ../../source/cockpit.rst:1057
 msgid ""
@@ -2243,8 +2243,8 @@ msgid ""
 "indicates that fuselage rails are up and locked and that loaded weapons are "
 "armed."
 msgstr ""
-"方格 - 已选择挂点中的武器并准备号发射。在地面时，方格图案表示机身导轨挂点已安"
-"装并锁定，且挂载的武器已解除保险。"
+"方格 - 已选择挂点中的武器并准备号发射。在地面时，方格图案表示机身导轨已安装并"
+"锁定，且挂载的武器已解除保险。"
 
 #: ../../source/cockpit.rst:1032 ../../source/cockpit.rst:2968
 msgid "MASTER CAUTION light and button"
@@ -3988,7 +3988,7 @@ msgstr "L GEN 和 R GEN"
 #: ../../source/cockpit.rst:1766
 msgid "Caution lights indicating respective engine generator is inoperative."
 msgstr ""
-"“左发电机” 和 “右发电机” 注意灯，指示灯亮起表示对应一侧发动机的发电机故障。"
+"“左发电机” 和 “右发电机” 注意灯，指示灯亮起表示对应一侧发动机的发电机不工作。"
 
 #: ../../source/cockpit.rst:1768 ../../source/cockpit.rst:3048
 msgid "CANOPY"
@@ -6620,7 +6620,7 @@ msgstr "FUZE HV"
 
 #: ../../source/cockpit.rst:3050
 msgid "Caution light indicating AWW-4 electric fuse inoperative."
-msgstr "“引信过电压”注意灯，灯光亮起表示 AWW-4 电子引信失灵。"
+msgstr "“引信过电压”注意灯，灯光亮起表示 AWW-4 电子引信不工作。"
 
 #: ../../source/cockpit.rst:3052
 msgid "RDR ENABLED"
