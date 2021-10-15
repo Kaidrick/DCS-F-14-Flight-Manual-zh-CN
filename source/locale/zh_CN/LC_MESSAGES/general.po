@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-18 00:29+0800\n"
-"PO-Revision-Date: 2021-09-04 16:50+0800\n"
+"PO-Revision-Date: 2021-09-18 15:05+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -8946,7 +8946,6 @@ msgstr ""
 msgid "**Numeric Keypad** (**3**)"
 msgstr "**数字键盘** （ **3** ）"
 
-# flor-for?
 #: ../../source/general.rst:1783
 msgid ""
 "The upper part of the CAP contains a numeric keypad with additional buttons "
@@ -8981,7 +8980,7 @@ msgstr "2"
 
 #: ../../source/general.rst:1792
 msgid "NBR - Number, used for IFT and BITs."
-msgstr "NBR - 数字——用于 IFT（飞行训练）和 BIT（机内自检）。"
+msgstr "NBR - 数值——用于 IFT（飞行训练）和 BIT（机内自检）。"
 
 #: ../../source/general.rst:1794 ../../source/general.rst:2092
 #: ../../source/general.rst:2915 ../../source/general.rst:3816
@@ -9000,7 +8999,7 @@ msgstr "4"
 
 #: ../../source/general.rst:1796
 msgid "ALT - Altitude, selects altitude for display and entry."
-msgstr "ALT - 海拔高度——选择海拔高度用于显示和输入。"
+msgstr "ALT - 高度——选择高度用于显示和输入。"
 
 #: ../../source/general.rst:1798 ../../source/general.rst:2096
 #: ../../source/general.rst:3820
