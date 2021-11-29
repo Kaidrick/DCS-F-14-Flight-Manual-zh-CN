@@ -21,8 +21,8 @@
 
 飞行计划
   WP1会和：预期在起飞20分钟后抵达
-CVN 74 斯塔尼斯号战斗群
-塔康： 74X
+CV59 福莱斯特航母群
+TACAN：59X
 
 [TRIGGERS]
 [RADIO MESSAGES]

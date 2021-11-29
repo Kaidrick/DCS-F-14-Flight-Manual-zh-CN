@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-18 00:29+0800\n"
-"PO-Revision-Date: 2021-09-18 15:05+0800\n"
+"PO-Revision-Date: 2021-10-29 13:00+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -5196,7 +5196,7 @@ msgstr "**EMER** \\- 应急，通过应急机翼后掠手柄控制机翼后掠�
 
 #: ../../source/general.rst:503
 msgid "**OVER** - Wings in oversweep."
-msgstr "**OVER** \\- 停放后掠，机翼处于停机后掠位置。"
+msgstr "**OVER** \\- 停放后掠，机翼处于停放后掠位置。"
 
 #: ../../source/general.rst:505
 msgid ""
@@ -5913,7 +5913,7 @@ msgstr ""
 # 2020/07/21 AG 校对完毕
 #: ../../source/general.rst:752
 msgid "Catapult Launch and Arresting Gear"
-msgstr "弹射起飞和阻拦装置"
+msgstr "弹射起飞和拦阻装置"
 
 #: ../../source/general.rst:755
 msgid "Nosegear Catapult System"
@@ -6019,7 +6019,7 @@ msgstr ""
 
 #: ../../source/general.rst:789
 msgid "Arresting Gear"
-msgstr "阻拦装置"
+msgstr "拦阻装置"
 
 #: ../../source/general.rst:791
 msgid ""

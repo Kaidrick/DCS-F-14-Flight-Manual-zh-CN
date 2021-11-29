@@ -1,13 +1,13 @@
 [TITLE]
 
 [DESCRIPTION]
-CASE I 着舰，降落至海军斯坦尼斯号上
+CASE I 着舰，降落至海军福莱斯特号上
 [RED TASK]
 
 [BLUE TASK]
-采用 CASE I 程序着舰，降落至海军斯坦尼斯号上。
+采用 CASE I 程序着舰，降落至海军福莱斯特号上。
 
-美国海军斯坦尼斯号，塔康74X，225 AM
+美国海军福莱斯特号，塔康59X，225 AM
 
 S3 加油机，33Y，225 AM
 

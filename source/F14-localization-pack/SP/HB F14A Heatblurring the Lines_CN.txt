@@ -14,8 +14,8 @@
 Alert 5 - Colt 1
 228.00 MHz AM 预设波道 2 - AWACS - Magic
 
-CVN 74 斯坦尼斯战斗群
-塔康：74X
+CV59 福莱斯特航母群
+TACAN：59X
 
 [TRIGGERS]
 [1]
@@ -28,8 +28,6 @@ Molyina 952受到大量伤害并且正在下沉。
 民用游艇“Padme”被击中，并且失去了浮力。
 
 NOOOOOOOOOOOOOOOOOOoooooooooooooooooooOOOOOOOOOOOOO。
-
-
 [5]
 Alert 5战机在路上了。
 [RADIO MESSAGES]

@@ -1,0 +1,18 @@
+[TITLE]
+
+[DESCRIPTION]
+找到并摧毁位于前方塔比上的“蚕”式阵地，目标位于 WP1。飞机挂载了蓝盾吊舱和 4 X GBU12。
+
+小心位于阿巴斯港周围的 SAM（面对空导弹）。你将在导弹的包线边缘飞行，我们建议从西方或南方飞离。
+
+完成后，在海塞卜机场着陆。
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[1]
+干得好！可以返回海塞卜机场。
+[RADIO MESSAGES]
+[TRANS MESSAGES]
+[ENDS]

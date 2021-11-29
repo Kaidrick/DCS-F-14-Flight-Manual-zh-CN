@@ -12,8 +12,8 @@ USS 维克斯堡遇到不明原因停电。我们怀疑俄国人会介入其中�
 
 Darkstar：225 Mhz AM
 
-CVN 74 斯塔尼斯战斗群
-塔康：74X
+CV 59 福莱斯特航母群
+TACAN：59X
 ILCS：波道 4
 
 [TRIGGERS]

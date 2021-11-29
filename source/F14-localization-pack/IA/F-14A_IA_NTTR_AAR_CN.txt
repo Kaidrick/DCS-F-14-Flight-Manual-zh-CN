@@ -1,11 +1,9 @@
 [TITLE]
 
 [DESCRIPTION]
-执行 CASE1 回收返回福莱斯特号
+你将从加油机正后方开始游戏。呼叫加油机，接上伞套并加满！
 
-TCN 59X，225 AM，ICLS = 1
-
-Texaco，31Y，225AM
+祝好运！
 [RED TASK]
 
 [BLUE TASK]
