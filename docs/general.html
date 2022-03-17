@@ -94,8 +94,8 @@
 <li class="toctree-l1"><a class="reference internal" href="intro.html">简介</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cockpit.html">驾驶舱简介</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">总体设计和系统概述</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#engines-and-throttle-controls">发动机和油门控制器</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#throttle-controls">油门控制器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#engines-and-throttle-controls">发动机和油门控制握把</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#throttle-controls">油门控制握把</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#engine-and-throttle-control-switches-and-indicators">发动机和油门控制开关以及指示器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#engine-instrument-group-eig-related-indicators-and-caution-lights">发动机仪表组（EIG）及相关指示器和注意灯</a></li>
 </ul>
@@ -243,7 +243,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#an-ale-39-countermeasures-dispensing-set">AN/ALE-39 对抗弹射套件</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#controls-and-operation">控制和运作</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#controls-and-operation">控制开关/按钮和操作</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#programmer">编程面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#id6">控制面板</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#rio-hand-hold-switches">RIO 握把控制开关</a></li>
@@ -441,7 +441,7 @@
   <div class="section" id="general-design-and-systems-overview">
 <h1>总体设计和系统概述<a class="headerlink" href="#general-design-and-systems-overview" title="永久链接至标题">¶</a></h1>
 <div class="section" id="engines-and-throttle-controls">
-<h2>发动机和油门控制器<a class="headerlink" href="#engines-and-throttle-controls" title="永久链接至标题">¶</a></h2>
+<h2>发动机和油门控制握把<a class="headerlink" href="#engines-and-throttle-controls" title="永久链接至标题">¶</a></h2>
 <p>F-14A 装备了两台 普惠 TF30-P-414A 发动机，而 F-14B 装备了两台通用电气 F110-GE-400 发动机，两台发动机均为带加力燃烧室的涡轮风扇发动机。</p>
 <p>为了向发动机提供均匀的亚声速气流，F-14 装备了 AICS 或称为进气控制系统。AICS 是通过控制可调进气道——更准确地说，是通过控制安装在进气道中的可调斜板来使气流减速。可调斜板的位置是通过使用各种传感器输入，加以计算后使用设定的制度来决定的，以此通过改变斜板的位置来完成对气流进行减速。（译注：制度表示调定程序）</p>
 <p>此外，TF-30 发动机使用两个系统来改善工作可靠性——中间级放气系统（MCB）和马赫摇臂。</p>
@@ -456,7 +456,7 @@
 </dd>
 </dl>
 <div class="section" id="throttle-controls">
-<span id="throttlecontrols"></span><h3>油门控制器<a class="headerlink" href="#throttle-controls" title="永久链接至标题">¶</a></h3>
+<span id="throttlecontrols"></span><h3>油门控制握把<a class="headerlink" href="#throttle-controls" title="永久链接至标题">¶</a></h3>
 <img alt="_images/throttles-schem1.png" src="_images/throttles-schem1.png" />
 <p>F-14 的油门行程中含有数个限位机构以防止发动机意外启动或关闭发动机，或意外启用加力燃烧室。此外，如上图所示，油门还用来控制数个根据油门位置运作的不同的系统。这些系统中，其中最重要的就是发动机燃油关断和点火系统。</p>
 <p>油门有三种操作模式：</p>
@@ -492,9 +492,9 @@
 <dd class="field-odd"><p>仅限 F-14A。</p>
 </dd>
 </dl>
-<p>MCB 检测面板，位于雷达拦截官驾驶舱中右侧控制台中，MCB 检测面板用于检测 MCB 系统是否正常工作。 <strong>TEST</strong> 开关（<strong>2</strong>）拨动至 <strong>TEST</strong> 档位后将启动检测电路，如果 MCB 电路正常工作那么对应左发和右发的两盏检测指示灯（<strong>1</strong>）将会亮起。</p>
+<p>MCB 检测面板，位于雷达拦截官驾驶舱中右侧控制台中，MCB 检测面板用于检测 MCB 系统是否正常工作。 <strong>TEST</strong> 开关（<strong>2</strong>）拨动至 <strong>TEST</strong> 档位后将启动检测回路，如果 MCB 回路正常工作那么对应左发和右发的两盏检测指示灯（<strong>1</strong>）将会亮起。</p>
 <img alt="_images/externalenvironment1.png" src="_images/externalenvironment1.png" />
-<p>外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong> （<strong>2</strong>）开关除了启用各个皮托管加热外，同时还启用发动机除冰以及进气道斜板除冰。开关拨至 <strong>ORIDE</strong> 将启用系统，开关拨动至 <strong>AUTO</strong> 档位时，如果探测到结冰，系统将被启用，开关拨至 <strong>OFF</strong> 档位将禁用系统。</p>
+<p>外部环境控制面板上的 <strong>ENG/PROBE ANTI-ICE</strong> （<strong>2</strong>）开关除了启用各个皮托管防冰外，同时还启用发动机除冰以及进气道斜板除冰。开关拨至 <strong>ORIDE</strong> 将启用系统，开关拨动至 <strong>AUTO</strong> 档位时，如果探测到结冰，系统将被启用，开关拨至 <strong>OFF</strong> 档位将禁用系统。</p>
 <div class="section" id="engine-instrument-group-eig-related-indicators-and-caution-lights">
 <h4>发动机仪表组（EIG）及相关指示器和注意灯<a class="headerlink" href="#engine-instrument-group-eig-related-indicators-and-caution-lights" title="永久链接至标题">¶</a></h4>
 <img alt="_images/instrument-group1.png" src="_images/instrument-group1.png" />
@@ -509,7 +509,7 @@
 <img alt="_images/oil1.png" src="_images/oil1.png" />
 <p>滑油压力表中显示相应发动机中的滑油压力从而允许飞行员能够检查发动机中的滑油压力是否在正常水平。</p>
 <p>与发动机运转相关的注意灯位于飞行员驾驶舱中，注意 - 提示灯面板中以及 HUD 两侧。</p>
-<p>位于 HUD 两侧的提示灯为发动机失速告警灯，当检测到发动机失速时，告警灯将以 3Hz 的速率闪烁。HUD 左侧的告警灯用于指示左发失速，右侧的告警灯则指示右发失速。告警灯亮起的同时还将伴随调制出的 320Hz 的单音警告音。</p>
+<p>位于 HUD 两侧的指示灯为发动机失速告警灯，当检测到发动机失速时，告警灯将以 3Hz 的速率闪烁。HUD 左侧的告警灯用于指示左发失速，右侧的告警灯则指示右发失速。告警灯亮起的同时还将伴随调制出的 320Hz 的单音警告音。</p>
 <p>左发失速告警灯下方的指示灯中，其中一个指示灯为 <strong>AUTO THROT</strong> （自动油门）注意灯，当自动油门系统通过除使用油门模式开关以外的方法断开时，注意灯将会亮起10秒钟。</p>
 <p>注意 - 提示灯面板中，发动机相关的注意灯和告警灯分别为：</p>
 <ul class="simple">
@@ -645,7 +645,7 @@
 </div>
 <div class="section" id="fire-detection-and-suppression-system-test">
 <h3>失火探测和灭火系统测试<a class="headerlink" href="#fire-detection-and-suppression-system-test" title="永久链接至标题">¶</a></h3>
-<p>两个系统都可以通过选择位于主测试面板中的 <strong>FIRE DET/EXT</strong> 档位来进行测试（详见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> ）。测试中，如果各自的回路正常工作，那么 ACM 面板中的两个失火告警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 <strong>GO</strong> 指示灯将会亮起。如果在测试中，主测试面板中 <strong>NO GO</strong> 或没有指示灯亮起，那么表示灭火系统或测试电路存在问题。</p>
+<p>两个系统都可以通过选择位于主测试面板中的 <strong>FIRE DET/EXT</strong> 档位来进行测试（详见 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> ）。测试中，如果各自的回路正常工作，那么 ACM 面板中的两个失火告警灯将会亮起；如果测试中灭火系统正常工作，那么主测试面板中的 <strong>GO</strong> 指示灯将会亮起。如果在测试中，主测试面板中 <strong>NO GO</strong> 或没有指示灯亮起，那么表示灭火系统或测试回路存在问题。</p>
 </div>
 </div>
 <div class="section" id="electrical-power-system">
@@ -661,8 +661,8 @@
 <h3>控制开关/按钮和指示器<a class="headerlink" href="#controls-and-indicators" title="永久链接至标题">¶</a></h3>
 <img alt="_images/generator1.png" src="_images/generator1.png" />
 <p>电气系统的控制开关全部位于主发电机控制面板中。</p>
-<p><strong>MASTER GEN</strong> （ <strong>1</strong> ）开关控制主发电机到电力母线的连接。 <strong>NORM</strong> 档位用于将单独的发电机连接到母线。 <strong>OFF/RESET</strong> 档位用于断开发电机与母线的连接，并且复位任何由于供电超出正常限制而被切断的保护电路。<strong>TEST</strong> 档位用于起动发电机，但不会将发电机连接到电力母线，从而在不影响其他飞机系统的情况下对发电机进行测试。开关被锁定在 NORM 档位，提起开关后才能将其拨回 OFF/RESET 档位。</p>
-<p><strong>EMERG</strong> （ <strong>2</strong> ）开关用于控制应急发电机。开关位于 <strong>NORM</strong> 档位时，如果主发电机发生故障，应急发电机将自动连接到应急总线。<strong>OFF/RESET</strong> 档位将禁用应急发电机，同时还复位相关保护电路（如果发生跳闸）。此开关被保护盖固定在 NORM 档位，需要升起保护盖才能将开关拨至 OFF/RESET 档位。</p>
+<p><strong>MASTER GEN</strong> （ <strong>1</strong> ）开关控制主发电机到电力母线的连接。 <strong>NORM</strong> 档位用于将单独的发电机连接到母线。 <strong>OFF/RESET</strong> 档位用于断开发电机与母线的连接，并且复位任何由于供电超出正常限制而被切断的保护回路。<strong>TEST</strong> 档位用于起动发电机，但不会将发电机连接到电力母线，从而在不影响其他飞机系统的情况下对发电机进行测试。开关被锁定在 NORM 档位，提起开关后才能将其拨回 OFF/RESET 档位。</p>
+<p><strong>EMERG</strong> （ <strong>2</strong> ）开关用于控制应急发电机。开关位于 <strong>NORM</strong> 档位时，如果主发电机发生故障，应急发电机将自动连接到应急总线。<strong>OFF/RESET</strong> 档位将禁用应急发电机，同时还复位相关保护回路（如果发生跳闸）。此开关被保护盖固定在 NORM 档位，需要升起保护盖才能将开关拨至 OFF/RESET 档位。</p>
 <p>电气系统相关的注意/提示灯位于飞行员驾驶舱 <a class="reference internal" href="cockpit.html#caindicator"><span class="std std-ref">注意 - 提示灯面板</span></a> 中。<strong>L GEN</strong> 和 <strong>R GEN</strong> 指示灯亮起表示对应的发电机没有正常工作。可能是由于发电机故障或驱动发电机的发动机没有运转。</p>
 <p><strong>TRANS/RECT</strong> 提示灯亮起表示一个或全部整流变压器没有正常工作。</p>
 <p>应急发电机可以通过 <a class="reference internal" href="cockpit.html#mtpanel"><span class="std std-ref">主测试面板</span></a> 中的 <strong>MASTER TEST</strong> 开关，选择 <strong>EMERG GEN</strong> 档位对发电机进行测试。<strong>GO</strong> 指示灯亮起表示测试完成。 发生故障时， <strong>NO GO</strong> 指示灯将会亮起。</p>
@@ -679,7 +679,7 @@
 <p>两个系统都由连接到每台发动机的液压泵提供动力，飞行液压系统由右侧发动机提供动力，联合液压系统由左侧发动机提供动力。在正常运行时，两个液压系统的中的油液压力将被液压泵增压至大约 3000 psi。</p>
 <p>两个液压系统为所有飞行操纵面提供动力，而联合液压系统同时也向一些二级系统提供动力，例如襟翼、起落架和受油管。由此一来，两个系统就可以在另外一个系统发生故障的情况下独立地驱动操纵面运动。</p>
 <p>此外，当升空时，可以通过起落架手柄旁的开关来从液压系统中隔离无关系统的液压。这样一来，即使被隔离的系统损坏，也不会影响到联合液压系统中压力或造成油液泄漏。可以从联合液压系统中隔离开来的系统分别是：起落架、机轮刹车、防滑和前轮转向。起落架手柄处于放下档位时，这个开关将被机械锁定在关闭隔离档位。</p>
-<p>如果只有一个液压泵失效，那么可以通过液压输送泵从没有失效的液压泵来对失效侧系统的液压进行增压。液压输送泵是一种双向液压泵，液压输送泵可以用来对另一侧系统中的油液进行增压，如果向另一侧增压的系统中的油液压力（压强）在 3,000 psi 左右，那么通过液压输送泵可以将失效侧系统的油液压力保持在 2400 和 2600 psi 之间。如果其中一个液压系统的油液压力低于 500 psi，那么传输泵将被关断以防止泵损坏，以及避免另一个正常工作的液压系统压力降低。液压输送泵可由飞行员手动关断。</p>
+<p>如果只有一个液压泵失效，那么可以通过液压输送泵从没有失效的液压泵来对失效侧系统的液压进行增压。液压输送泵是一种双向液压泵，液压输送泵可以用来对另一侧系统中的油液进行增压，如果向另一侧增压的系统中的油液压力（压强）在 3,000 psi 左右，那么通过液压输送泵可以将失效侧系统的油液压力保持在 2400 和 2600 psi 之间。如果其中一个液压系统的油液压力低于 500 psi，那么输送泵将被关断以防止泵损坏，以及避免另一个正常工作的液压系统压力降低。液压输送泵可由飞行员手动关断。</p>
 <p>如果两个液压泵都发生故障，那么飞行液压系统可以由一个被称为应急飞行液压泵的电动液压泵提供动力。应急飞行液压泵能独立地驱动飞机尾部的操纵面，即使在两个主液压系统压力为零的情况下，应急飞行液压泵也能让飞机返回基地并着陆。如果两个主液压系统中的油液压力降低至 2100 psi 以下，那么电动液压泵将会自动启用，如果两个主液压系统中油液压力重新达到 2400 psi，那么电动液压泵将会关断。自动启用电动液压泵时，备用飞行控制系统将以低速模式运行，但飞行员也可以手动切换至高速模式或低速模式。如果操纵面由应急飞行液压泵驱动，那么操纵面的偏转率会降低，且在低速模式下偏转率比高速模式下更低。</p>
 <p>如果联合液压系统中的压力为零，那么飞行员可以通过手动液压泵来对受油管和机轮刹车蓄压器进行充压。这种方法主要用于在无动力地面作业时使用，但仍可作为备用液压泵在空中使用。</p>
 <div class="section" id="id1">
@@ -826,7 +826,7 @@
 <p><strong>ALT</strong> ——高度开关用于选择高度保持模式，与地面航迹模式相似，<strong>A/P REF</strong> 告警灯亮起后，按下前轮转向按钮启来接通高度保持模式。</p>
 <p>数据链路引导 - 精确航线方向模式用于允许 Link 4 操作员远程操纵飞机。该功能没有在 DCS 中进行模拟。</p>
 <p>最后一种自动驾驶模式为 ACL，也就是自动助降模式，自动助降模式将联合 Link 4 数据链路和机载雷达信标来进行自动着舰。如需启用 ACL 模式，首先将 VEC/PCD 开关拨至 <strong>ACL</strong> 档位，拨至 ACL 档位后将使 <strong>A/P REF</strong> 告警灯将亮起。截获 ACL 下滑道后，且 VDI 一旁的 <strong>ACL READY</strong> 和 <strong>A/P CPLR</strong> 告警灯亮起后，按下驾驶杆中的前轮转向按钮。按下前轮转向按钮后 ACL 模式将被启用，此时将由数据链路来操纵飞机。ACL 启用后 <strong>A/P REF</strong> 告警灯将熄灭。</p>
-<p>ACL 可以与 APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制器</span></a> ）结合使用来进行全自动助降。ACL 可以通过右侧油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 可以通过左侧油门握把上的 <strong>CAGE/SEAM</strong> 按钮来断开。</p>
+<p>ACL 可以与 APC（详见 <a class="reference internal" href="#throttlecontrols"><span class="std std-ref">油门控制握把</span></a> ）结合使用来进行全自动助降。ACL 可以通过右侧油门握把上的 <strong>PLM</strong> 按钮断开，而 APC 可以通过左侧油门握把上的 <strong>CAGE/SEAM</strong> 按钮来断开。</p>
 <p>所有自动驾驶模式都可以通过用力移动驾驶杆来超控或可以通过自动驾驶应急断开手柄来解除自动驾驶，按下手柄后所有自动驾驶开关将复位至 OFF 档位。</p>
 </div>
 </div>
@@ -884,7 +884,7 @@
 <p>HUD 左侧的 <strong>BRAKES</strong> 告警灯用来指示停放刹车是否激活、防滑系统故障或指示制动正在应急模式下运行（仅踩下脚蹬板时亮起）。</p>
 <div class="section" id="antiskid">
 <span id="askid"></span><h4>防滑系统<a class="headerlink" href="#antiskid" title="永久链接至标题">¶</a></h4>
-<p>防滑系统调节机轮刹车以防止飞机在地面上打滑。在空中启用防滑系统时，系统不会进行制动，直到两个主起落架机轮触地并开始旋转。此外，滑行速度低于15节时，防滑系统不会工作。</p>
+<p>防滑系统调节机轮刹车以防止飞机在地面上打滑。在空中启用防滑系统时，系统将在两个主起落架机轮接地并开始旋转前阻止进行制动。此外，滑行速度低于15节时，防滑系统不会工作。</p>
 <p>防滑系统还控制着扰流板制动系统，当飞机处在地面上且油门位于 <strong>IDLE</strong> 档位时，扰流板会作为刹车系统伸出。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
@@ -937,7 +937,7 @@
 <h2>环境控制系统（ECS）<a class="headerlink" href="#ecs-environmental-control-system" title="永久链接至标题">¶</a></h2>
 <p>ECS（环境控制系统）为驾驶舱系统提供温度控制和压力调节，同时还为电子设备和武器提供冷却。</p>
 <p>环控系统使用的气源来自发动机，可使用单发或双发引气，或使用机身右下部，右翼套挂架内侧的应急冲压空气进气门提供气源。</p>
-<p>驾驶舱中使用 ECS 气源的系统分别为：驾驶舱增压、座舱盖密封装置、抗荷服充气、机组抗荷服通风、坐垫通风以及风挡加温和除雾。</p>
+<p>驾驶舱中使用 ECS 气源的系统分别为：驾驶舱增压、座舱盖密封装置、抗荷服充气、机组抗荷服通风、坐垫通风以及风挡防冰和除雾。</p>
 <p>其它使用 ECS 气源的驾驶舱外的系统分别为：副油箱增压、机翼密封气囊、电子设备冷却和 AN/AWG-9 雷达以及 AIM-54 导弹冷却（通过空气/液体换热器来冷却）。</p>
 <div class="section" id="air-source-and-cockpit-air-controls">
 <h3>气源和驾驶舱引气控制<a class="headerlink" href="#air-source-and-cockpit-air-controls" title="永久链接至标题">¶</a></h3>
@@ -1102,7 +1102,7 @@
 <p>在距离显示滚筒下方的是四个雷达跟踪指示灯，这些指示灯用来指示雷达在 STT 模式下如何跟踪目标。</p>
 <ul class="simple">
 <li><p><strong>ANT TRK</strong> （天线跟踪指示灯），指示灯亮起表示雷达正在跟踪目标来获得目标的方位和仰角的角度（方向）。</p></li>
-<li><p><strong>RDROT</strong> （雷达截获目标指示灯），指示灯亮起表示目标在距离内或接近率门内，并且目标正在距离门或接近率门内被雷达跟踪中。</p></li>
+<li><p><strong>RDROT</strong> （雷达截获目标指示灯），指示灯亮起表示目标在距离内或速度门内，并且目标正在距离门或速度门内被雷达跟踪中。</p></li>
 <li><p><strong>JAT</strong> （干扰源角跟踪指示灯），这个指示灯亮起表示天线正在跟踪干扰源的方位和仰角的角度。</p></li>
 <li><p><strong>IROT</strong> （红外捕获目标指示灯），指示灯亮起表示系统正在通过 TCS 跟踪目标来获得目标方位和仰角的角度，IROT 名称是早期 F-14A 中的 IRST 系统继承而来。</p></li>
 </ul>
@@ -1161,7 +1161,7 @@
 </table>
 <p>根据雷达模式的不同， <strong>DDD</strong> 屏幕本身可以显示仅雷达回波数据或雷达回波及其标识符。</p>
 <p>在脉冲搜索模式下，屏幕中仅显示雷达回波以及可视化雷达扫掠与擦除扫掠。在此模式下，屏幕中会显示距离与方位。在脉冲多普勒模式下，屏幕底部还会增加一个 AGC TRACE，AGC TRACE 显示了探测到的目标的预测干扰强度。在此模式下，屏幕中会显示接近率与方位。</p>
-<p>在两种 STT 模式下，除了目标的回波外，屏幕还将显示跟踪门（距离或接近率门）、位于右侧的接近率指示和攻击标识符（如果在空对空模式下并且已选择了导弹）。</p>
+<p>在两种 STT 模式下，除了目标的回波外，屏幕还将显示跟踪门（距离或速度门）、位于右侧的接近率指示和攻击标识符（如果在空对空模式下并且已选择了导弹）。</p>
 <p>在脉冲 STT 模式下，目标标识显示在正确的方位和距离上，而在脉冲多普勒 STT 模式下，目标标识将移动至屏幕左侧，而不是在正确的方位上生成目标标识。在脉冲多普勒 STT 模式下，还增加显示了 AGC TRACE 来表示干扰强度。有关攻击标识符，详情参阅 VDIG 部分。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
@@ -1181,7 +1181,7 @@
 <p>TID 的两侧包含有两个旋钮。左侧的旋钮（ <strong>12</strong> ）用来控制和选择使用 INS 或 AHRS（姿态航向基准系统）模式。同时这个旋钮还用于进行 INS 对准。</p>
 <p>右侧的旋钮（ <strong>6</strong> ）用来控制在飞行员选择目标转向时，转向的目标源。旋钮用来在存储在 WCS 中的不同的航路点之间进行选择。MAN 档位仅用于在飞机挂载了 TARPS 时使用。</p>
 <p>在 TID 右上方位于边缘处、右侧旋钮一旁的是读数滚筒（ <strong>5</strong> ）。读数滚筒用于指示当前提供给飞行员的转向信息的类型。</p>
-<p>读数滚筒可显示的转向信息类型有：目标（DEST）、数据链路指令航向（D/L）、计算出的拦截转向（LD CLSN）、恒定角度拦截转向（CLSN），计算出的导引转向（LD PURST），追踪转向（PURST），塔康（TACAN）和手动设置指令航向（MAN）。</p>
+<p>读数滚筒可显示的转向信息类型有：目标（DEST）、数据链路指令航向（D/L）、计算出的拦截转向（LD CLSN）、恒定角度拦截转向（CLSN），计算出的追踪转向（LD PURST），追踪转向（PURST），塔康（TACAN）和手动设置指令航向（MAN）。</p>
 <p><strong>TID 数据读数滚筒</strong></p>
 <p>在 TID 的上方是数据读数指示器滚筒（ <strong>3</strong> ）。数据读数指示器用于在 TID 文本读数中指示数据的来源。可显示的读数分别为：导航系统中不同的航路点（WAY PT、ST、FIX PT、IP 和 HB）、本机（OWN A/C）、首要目标（TGT 1）和 SYMBOL。</p>
 <p>当在 TID 中选中一个符号，但数据读数指示器中显示 SYMBOL 时，则表示选中的符号在滚筒中没有其对应的指示器文字。在上述情况下，指示器上也会显示为空白，TID 上也不会显示任何符号。数据源没有对应的指示器文字以及在 TID 中没有对应符号时，滚筒显示为空白。</p>
@@ -1713,11 +1713,11 @@
 <p><strong>HCU 电源控制和指示灯</strong></p>
 <p>位于 HCU 面板上部边缘的是 IR/TV 超温指示灯（ <strong>2</strong> ）、电源复位指示灯（ <strong>4</strong> ）和 WCS 电源指示灯（ <strong>6</strong> ）。当 IR/TV 开关处于 STBY 档位或者 ON 档位时，IR/TV 电源指示灯亮起表示 TCS 还未准备就绪，当 TCS 准备就绪后，如果开关仍处于 STBY 档位，那么指示灯将保持亮起，如果将开关拨动到 ON 档位，那么则指示灯将会熄灭。电源复位指示灯亮起表示一个或多个二次电源因为故障使电源保护回路跳闸而无法工作。WCS 电源指示灯亮起表示 WCS 系统当前处于待机或者开关处于 ON 档位但雷达还未准备好进行发射。在启动过程中，在雷达启动计时器计时结束前，指示灯将保持熄灭。如需复位雷达，将开关拨动至 STANDBY 档位再拨动至 ON。</p>
 <p>位于 HCU 左上角的 <strong>IR/TV</strong> 开关（ <strong>1</strong> ）控制着 TCS 的电源。当开关拨到（STBY）档位时，启动系统但是不开启传感器。开关拨动至 ON 档位时启用传感器运行。需要注意的是，只有当 WCS 控制开关处于 STBY 档位或者 XMT 档位时，才能启用 IR/TV 开关。 <strong>WCS XMT</strong> 开关（ <strong>7</strong> ）控制着 WCS 计算机系统和系统相应的显示器（DDD 和 TID）的电源，以及禁止或允许雷达发射。当开关拨至 STBY 档位时将会开始向所有包括显示器在内的 WCS 系统供电，同时开始雷达预热程序。显示器预热需要30秒钟，雷达需要3分钟预热后才可以运行。在机轮不负重、雷达计时结束（预热）的情况下，WCS 控制开关拨至 ON 档位将启用雷达发射。</p>
-<p>在 HCU 面板中上部的两个按钮分别是 <strong>灯光测试</strong> （ <strong>3</strong> ）和 <strong>电源复位</strong> （ <strong>5</strong> ）按钮。按下灯光测试（LIGHT TEST）按钮后会启用所有 WCS 系统的灯光与指示器进行测试。电源复位（PWR RESER）按钮按下后将复位二次电源的保护电路来重新启用二次电源，同时电源复位按钮还可以复位导弹供电。需要注意的是，只有在保护回路中故障保护跳闸仍然存在、电源复位指示灯亮起时才按下此按钮。</p>
+<p>在 HCU 面板中上部的两个按钮分别是 <strong>灯光测试</strong> （ <strong>3</strong> ）和 <strong>电源复位</strong> （ <strong>5</strong> ）按钮。按下灯光测试（LIGHT TEST）按钮后会启用所有 WCS 系统的灯光与指示器进行测试。电源复位（PWR RESER）按钮按下后将复位二次电源的保护回路来重新启用二次电源，同时电源复位按钮还可以复位导弹供电。需要注意的是，只有在保护回路中故障保护跳闸仍然存在、电源复位指示灯亮起时才按下此按钮。</p>
 <p><strong>HCU 模式按钮</strong></p>
 <p>HCU 控制杆左侧的是四个带有指示灯的、互斥的 HCU 模式按钮（ <strong>12</strong> ），模式按钮中的绿色灯光亮起表示已启用选择的模式。按下 <strong>IR/TV</strong> 按钮来选择 TCS 模式，进入 TCS 模式来允许使用 HCU 控制杆和控制开关/按钮来对 TCS 进行控制。按下 <strong>RDR</strong> 按钮将进入雷达模式，进入雷达模式后可以使用 HCU 控制杆来控制 DDD 中的雷达截获光标，使用雷达截获光标来从雷达搜索模式转换至 STT 模式。按下 <strong>DDD CURSOR</strong> 按钮将进入 DDD 光标模式，在 DDD 光标模式下，使用 HCU 控制杆和控制开关/按钮来控制 DDD 光标，当使用雷达进行地形测绘时，使用 DDD 光标来指定地面坐标。DDD 光标模式用于雷达导航更新或在 DDD 雷达显示器中选择一个用作为航路点的位置。按下 <strong>TID CURSOR</strong> 按钮将进入 TID 光标模式，在 TID 光标模式下，使用 HCU 控制杆和控制开关/按钮来控制 TID 光标选中（选择）TID 中的标识符用于标识符控制和数据读数。</p>
 <p><strong>HCU 控制杆</strong></p>
-<p>在 HCU 控制杆上的控制开关/按钮包括：扳机（ <strong>11</strong> ）、仰角游标控制（ <strong>10</strong> ）、OFFSET 按钮（ <strong>9</strong> ）和 MRL 按钮（ <strong>8</strong> ）。HCU 控制杆的扳机有两个档位，按下扳机第一段和按下扳机第二段。 <strong>按下扳机第一段</strong> ，按下扳机第一段将启用在所选模式下的光标显示，但当模式按钮选择 TCS，也就是 IR/TV 模式时除外，在 IR/TV 模式下，按下扳机第一段将启用控制杆控制 TCS 仰角和方位控制。在雷达模式下，除了显示光标外，按下扳机第一段还启用了超级搜索截获模式（详情参阅雷达过渡模式）。 <strong>按下扳机第二段</strong> ，如果目标在 TCS 的截获门内，那么按下扳机第二段将告知 TCS 锁定 TCS 模式下的目标。在雷达模式下，按下按下扳机第二段将告知雷达尝试锁定在设定的方位下，处在雷达距离门/接近率门内的目标。在 DDD 和 TID 模式下，按下扳机第二段将标记当前光标的位置，或是如果在 TID 模式下，将尝试选中在显示器中距离光标中心0.125英寸内的符号（如果符号存在）。</p>
+<p>在 HCU 控制杆上的控制开关/按钮包括：扳机（ <strong>11</strong> ）、仰角游标控制（ <strong>10</strong> ）、OFFSET 按钮（ <strong>9</strong> ）和 MRL 按钮（ <strong>8</strong> ）。HCU 控制杆的扳机有两个档位，按下扳机第一段和按下扳机第二段。 <strong>按下扳机第一段</strong> ，按下扳机第一段将启用在所选模式下的光标显示，但当模式按钮选择 TCS，也就是 IR/TV 模式时除外，在 IR/TV 模式下，按下扳机第一段将启用控制杆控制 TCS 仰角和方位控制。在雷达模式下，除了显示光标外，按下扳机第一段还启用了超级搜索截获模式（详情参阅雷达过渡模式）。 <strong>按下扳机第二段</strong> ，如果目标在 TCS 的截获门内，那么按下扳机第二段将告知 TCS 锁定 TCS 模式下的目标。在雷达模式下，按下按下扳机第二段将告知雷达尝试锁定在设定的方位下，处在雷达距离门/速度门内的目标。在 DDD 和 TID 模式下，按下扳机第二段将标记当前光标的位置，或是如果在 TID 模式下，将尝试选中在显示器中距离光标中心0.125英寸内的符号（如果符号存在）。</p>
 <p><strong>仰角游标</strong> 控制是一个位于 HCU 控制杆左侧的一个拨轮，拨轮用于在 TCS 或者雷达模式下，±4° 微调传感器仰角来截获目标，微调是基于正常传感器仰角控制进行偏转的。控制杆顶部的 <strong>OFFSET</strong> 按钮用来偏置任何 TID 中的显示，移动本机符号至光标选中点的话（如果存在），那么其余的符号将会相对本机符号一并移动。通过选择另一个 TID 显示模式再返回原来的显示模式来复位偏置功能，所有符号将会返回原位。位于 HUC 控制杆右侧的 <strong>MRL</strong> 按钮可以用来启用用于目标截获的手动快速锁定模式（MRL），详情参阅 <a class="reference internal" href="#mrl"><span class="std std-ref">手动快速锁定（MRL）</span></a> 。</p>
 <p>根据 HCU 模式的不同 <strong>控制杆</strong> 的功能也有所不同。不变的是只有在按下扳机第一段才启用控制杆，并且所有模式下控制杆控制传感器或光标的绝对位置，这表示传感器或光标始终会移动至控制杆偏转的位置。在 TCS 模式下，控制杆的 X 轴（上/下）控制着 TCS 视线的仰角，Y 轴（左/右）控制着 TCS 视线的方位。在雷达模式下，控制杆 X 轴控制着 DDD 雷达截获门的距离或接近率，Y 轴控制着雷达截获的方位门。在两种光标模式下，控制杆 X 轴控制着光标的上/下移动，Y 轴控制着光标的左/右移动。</p>
 </div>
@@ -2083,12 +2083,12 @@
 <h5>RDR 模式下的 HCU 控制杆<a class="headerlink" href="#hcu-stick-in-radar-mode" title="永久链接至标题">¶</a></h5>
 <p>当在不同搜索模式下使用 AN/AWG-9 雷达时，在 HCU 功能按钮选择 RDR 模式时可以使用 HCU 手动选定 DDD 中的目标来 STT 锁定。</p>
 <p>当 HCU 功能按键选择 RDR 模式下，按下 HCU 扳机第一段将会在 DDD 中显示截获门，并启用雷达超级搜索模式。在超级搜索模式下，天线在截获门周围以选定的扫描线数和±10°扫描方位角进行栅状扫描。</p>
-<p>截获门可以通过 HCU 偏转至探测到的目标上，控制杆向左/向右控制截获门方位偏转，控制杆向上/向下根据选择的是脉冲或还是脉冲多普勒模式，用来控制距离或接近率偏转。接着，使用 HCU 控制杆中的 ELEV 拨轮来微调天线仰角，直到将截获门置于目标回波上方。届时 RIO 可以按下 HCU 扳机第二段来指令雷达在指定的方位门、距离门/接近率门和仰角尝试锁定。</p>
+<p>截获门可以通过 HCU 偏转至探测到的目标上，控制杆向左/向右控制截获门方位偏转，控制杆向上/向下根据选择的是脉冲或还是脉冲多普勒模式，用来控制距离或接近率偏转。接着，使用 HCU 控制杆中的 ELEV 拨轮来微调天线仰角，直到将截获门置于目标回波上方。届时 RIO 可以按下 HCU 扳机第二段来指令雷达在指定的方位门、距离门/速度门和仰角尝试锁定。</p>
 <p>如果雷达成功锁定一个目标，那么雷达将会转换至相应的 STT 模式，DDD 中对应的指示灯也将会亮起。如果从脉冲搜索转换至 STT，那么将使用脉冲 STT 模式；如果从任何脉冲多普勒搜索模式转换至 STT，那么将使用脉冲多普勒 STT。</p>
 </div>
 <div class="section" id="tws-stt-acquisition">
 <h5>TWS STT 截获<a class="headerlink" href="#tws-stt-acquisition" title="永久链接至标题">¶</a></h5>
-<p>在 TWS 模式下，RIO 可以通过在 TID 中选中一个跟踪，接着在 DDD 面板中按下脉冲 STT 按钮或脉冲多普勒 STT 按钮来尝试进行 STT 锁定。按下脉冲 STT 按钮或脉冲多普勒 STT 按钮后 WCS 计算机将指令天线以超级搜索模式在选中目标的方位门、距离门/接近率门和仰角上尝试锁定目标（前提是雷达探测到目标）。</p>
+<p>在 TWS 模式下，RIO 可以通过在 TID 中选中一个跟踪，接着在 DDD 面板中按下脉冲 STT 按钮或脉冲多普勒 STT 按钮来尝试进行 STT 锁定。按下脉冲 STT 按钮或脉冲多普勒 STT 按钮后 WCS 计算机将指令天线以超级搜索模式在选中目标的方位门、距离门/速度门和仰角上尝试锁定目标（前提是雷达探测到目标）。</p>
 <p>与手动控制 HCU 来锁定目标不同，这个过程是完全自动的，但是其锁定目标的成功率也低于手动控制 HCU 来锁定目标。</p>
 </div>
 <div class="section" id="acm-modes">
@@ -2764,7 +2764,7 @@
 <p>系统中总共可装填60发抛放弹，每个部分必须装填同一种类型的抛放弹，也就是说只要每种类型的抛放弹只要是10的倍数，那么任何组合都是可能的。系统本身不知道填装了哪种抛放弹，因此错误的编程可能使得系统弹射错误的抛放弹类型。</p>
 <p>系统本身可由 RIO 驾驶舱中的控制面板或当襟翼控制杆处于收上档位时通过飞行员驾驶杆中的 DLC 拨轮手动控制。系统也可以按照编程好的程序进行弹射，弹射程序可由 RIO 从控制面板或 DDD 上方握把中的苦力帽来启动。另外，如果在 AN/ALE-39 控制面板正确地设置了箔条弹射程序，那么 AN/ALE-67 也可以启动箔条弹射程序。</p>
 <div class="section" id="controls-and-operation">
-<h3>控制和运作<a class="headerlink" href="#controls-and-operation" title="永久链接至标题">¶</a></h3>
+<h3>控制开关/按钮和操作<a class="headerlink" href="#controls-and-operation" title="永久链接至标题">¶</a></h3>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>在 DCS 中，F-14 对抗措施填装是在任务编辑器中进行设置的，参阅 <a class="reference internal" href="dcs.html#meset"><span class="std std-ref">Heatblur DCS F-14 任务编辑器相关功能</span></a> 或通过无线电菜单中地勤页面下进行控制。如果使用无线电菜单填装的话将会绕过任务编辑器中的默认设置。在膝板中查看实际的对抗措施填装。</p>
@@ -2818,7 +2818,7 @@
 <img alt="_images/controller.png" src="_images/controller.png" />
 <p>控制面板用于控制系统电源、设置自动弹射以及手动弹射干扰弹，并且控制面板同样位于 RIO 右侧控制台上。</p>
 <p>面板上部的机械计数器用于指示各种类型干扰弹的剩余数量。计数器需要使用每个计数器下方的旋钮手动设置，但是在每次发射干扰弹弹射脉冲过后计数将会自动减少。因为计数器是手动来设置的，因此可能会碰到计数器指示的数量为0的情况（但实际还有干扰弹），但是这不会影响其它干扰弹的使用。在这种情况下弹射脉冲仍然会发送但是计数器不会继续减少。</p>
-<p>在每种类型干扰弹的计数器下方都包含有开关，这些开关用于手动弹射指令。这个开关为瞬态和弹簧归中的，每个开关都有三个档位。 <strong>PRGM</strong> 启动对应的弹射程序， <strong>SGL</strong> 用于单发弹射对应类型的干扰弹以及 <strong>STBY</strong> 默认归中档位（无手动弹射指令）。</p>
+<p>在每种类型干扰弹的计数器下方都包含有开关，这些开关用于手动执行弹射指令。弹射指令开关为瞬时以及弹簧归中，每个开关都有三个档位。 <strong>PRGM</strong> 启动对应的弹射程序， <strong>SGL</strong> 用于单发弹射对应类型的干扰弹以及 <strong>STBY</strong> 默认归中档位（无手动弹射指令）。</p>
 <p><strong>PWR/MODE</strong> 开关用于为 AN/ALE-39 提供电力，以及启动自动弹射（通过 AN/ALR-67 RWR）。 <strong>AUTO (CHAFF) / MAN</strong> 档位用于接通系统电源，并且允许 AN/ALR-67 来启动设定的箔条弹射程序，但要注意的是，红外干扰弹弹射仍然为手动。当 RWR 探测到一个威胁主动攻击本机时将会启动箔条弹射，探测的威胁仍然存在的话，在启动下一个程序前存在30秒冷却时间。手动弹射仍然可正常使用。 <strong>MAN</strong> 档位用于接通系统电源，并且允许手动启动所有功能。 <strong>OFF</strong> 档位用于关闭系统。</p>
 <p><strong>FLARE MODE</strong> 开关用于控制红外干扰弹如何弹射并且同时设置了飞行员驾驶杆中 <strong>DLC 按钮的用途</strong> 。襟翼控制杆需要处于收上档位来启用 DLC 按钮干扰弹弹射。FLARE MODE 开关有三个档位。 <strong>MULT</strong> ——齐射模式，每个弹射脉冲将从编程面板中设置为 F 的部分弹射一发红外干扰弹。 <strong>注意</strong> 这表示如果四个部分的填装都为红外干扰弹将导致每发送一次红外干扰弹弹射脉冲将有四发红外干扰弹被弹射。 <strong>NORM</strong> 将设置正常红外干扰弹弹射脉冲行为。 <strong>PILOT</strong> 启用每按下一次 DLC 按钮弹射一发红外干扰弹。正常弹射红外干扰弹仍然可用。如果开关设置在 <strong>PILOT 以外</strong> 的档位，那么DLC 按钮将会指令弹射一发箔条。</p>
 <p>最后是 <strong>SALVO FLARES</strong> 开关，用于启动以0.125秒间隔快速弹射所有红外干扰弹。正常档位为弹簧归中至 <strong>OFF</strong> 档位。一旦启动就无法停止。</p>
@@ -2873,7 +2873,7 @@
 <span id="id7"></span><h2>导航<a class="headerlink" href="#navigation" title="永久链接至标题">¶</a></h2>
 <div class="section" id="navigation-system">
 <h3>导航系统<a class="headerlink" href="#navigation-system" title="永久链接至标题">¶</a></h3>
-<p>F-14 的主要导航系统是一套多单元舰载机惯性导航系统（CAINS），该系统的代号为 AN/ASN-92。INS 系统测量和积分测得的惯性力（加速度）以及旋转角速度来计算飞机的位置和线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全、可靠地返回到基地。当飞机被设计为在远离地面塔康台和目视参考点的大洋上执行任务时，这样的导航系统显得更加重要。</p>
+<p>F-14 的主要导航系统是一套多单位舰载机惯性导航系统（CAINS），该系统的代号为 AN/ASN-92。INS 系统测量和积分测得的惯性力（加速度）以及旋转角速度来计算飞机的位置和线速度。一套良好的导航系统可以精确地引导飞机前往数百或数千英里外的任务目标，然后安全、可靠地返回到基地。当飞机被设计为在远离地面塔康台和目视参考点的大洋上执行任务时，这样的导航系统显得更加重要。</p>
 <p>设计一套 INS（IMU）是一项有挑战性的工作，工程师需要全面考虑各项问题，如校正、对准、地球自转、惯性力、热稳定性、模数转换器精度、各种类型的校正以保证设备长时间运行后依旧保持精度，以及更多需要考虑的问题。模拟一套 INS 平台是也很相似——这也不是什么轻松的活。</p>
 <p>在 Heatblur ，我们决定开发一套全新的数学模型来模拟我们 F-14 的 AN/ASN-92。模型包括了所有导致设备最终精度偏差的潜在误差源，并重建了一个三环式三轴 INS 平台的特性行为。这一系列下来的结果是一组算法可以在 DCS 中真实还原 AN/ASN-92，但经过优化之后却能够做到几乎不影响 CPU 性能。</p>
 <p>INS 的主要部件包括了惯性测量装置（IMU），电源以及飞行员及 RIO 的导航控制与显示。</p>
@@ -2931,7 +2931,7 @@
 <p>INS 的精度会随着时间的推移而降低——通常它们在导航模式下运行的时间越长, 累积的误差就越大。</p>
 <div class="section" id="inertial-measurement-unit">
 <h4>惯性测量装置（IMU）<a class="headerlink" href="#inertial-measurement-unit" title="永久链接至标题">¶</a></h4>
-<p>IMU 是一个三轴、三环式、全姿态单元，包含有两个陀螺仪和三个加速度计。陀螺仪和加速度计安装在相对于基座（飞机）可以自由旋转的平台上。平台的四环架系统赋予了平台自由旋转时不被环架锁定的能力，并能够使用力矩电机来修正平台姿态误差。陀螺仪测量其敏感轴的旋转角度，并且是有关飞机姿态信息的数据源。它们还负责稳定整个平台并保持加速度计相对于地面（重力）的垂直的方向。两个加速度计负责测量水平方向的加速度，而第三个加速度计负责测量垂直方向的加速度。加速度计的敏感轴相互正交。力矩器线圈能探测质量块的轴向位移并产生一个放大信号，这个信号然后发送给力矩器，将质量块恢复到零位。当前所需的力矩大小和加速度成正比。测得的加速度信号在计算机内进行积分，并用于从起始点计算飞机的速度和位移。平台的姿态也不断修正来消除地球自转和设备误差相关的影响。</p>
+<p>IMU 是一个三轴、三环式、全姿态装置，包含有两个陀螺仪和三个加速度计。陀螺仪和加速度计安装在相对于基座（飞机）可以自由旋转的平台上。平台的四环架系统赋予了平台自由旋转时不被环架锁定的能力，并能够使用力矩电机来修正平台姿态误差。陀螺仪测量其敏感轴的旋转角度，并且是有关飞机姿态信息的数据源。四环架结构使得加速度计可以在所有飞行机动中保持适当的指向。两个加速度计负责测量水平方向的加速度，而第三个加速度计负责测量垂直方向的加速度。加速度计的敏感轴相互正交。力矩器线圈能探测质量块的轴向位移并产生一个放大信号，这个信号然后发送给力矩器，将质量块恢复到零位。当前所需的力矩大小和加速度成正比。测得的加速度信号在计算机内进行积分，并用于从起始点计算飞机的速度和位移。平台的姿态也不断修正来消除地球自转和设备误差相关的影响。</p>
 <p>这样的设计被广泛用于平台式惯性导航系统。除了用于 F-14 外，还用于航天飞机和许多当代的其他飞机。</p>
 </div>
 <div class="section" id="imu-bit">
@@ -3148,7 +3148,7 @@
 </div>
 <div class="section" id="handset-alignment">
 <h6>手动对准<a class="headerlink" href="#handset-alignment" title="永久链接至标题">¶</a></h6>
-<p>HS 对准模式是舰上对准的手动对准选项，如果自 RF 数据链路和 线缆 的 SINS 数据不可用、不准确或中断（由 DDI 上的 TILT 告警灯和/或精对准完成刻度标记向左移动 0.75 英寸指示）。HS 模式和 GND ALIGN 很相似，但是 RIO 需要输入比 GND ALIGN 模式更多数据，并且由于母舰的移动，计算机需要更长的时间去处理。</p>
+<p>HS 对准模式是舰上对准的手动对准选项，如果自 RF 数据链路和线缆的 SINS 数据不可用、不精确或中断（由 DDI 上的 TILT 告警灯和/或精对准完成刻度标记向左移动 0.75 英寸指示）。HS 模式和 GND ALIGN 很相似，但是 RIO 需要输入比 GND ALIGN 模式更多数据，并且由于母舰的移动，计算机需要更长的时间去处理。</p>
 <p>如果使用 NAV MODE 旋钮选择了 CAV ALIGN 但没有可用 SINS 数据，TID 中将会显示闪烁的缩写 HS。每次在对准开始前 TID 中缩写 HS 闪烁，RIO 选择使用手动对准来对准系统的话，她/他必须按以下顺序输入对应的母舰数据：</p>
 <ol class="arabic simple">
 <li><p>航母的航速</p></li>
@@ -3502,7 +3502,7 @@
 <tr class="row-even"><td><p>5</p></td>
 <td><p>第二步中 VDIG 与 备用罗盘航向不一致。</p></td>
 <td><p>按下 HDG 旋钮/按钮 来同步 AHRS。如果不行则把 AHRS 设置为 COMP 模式。</p></td>
-<td><p>如果切换至 COMP 模式，所有计算机和显示器都将使用 IMU 真航向以及 手动输入的 MAG VAR。缩写 MV 可能不会消失并且使用 MAD 的 BDHI 根据故障可能会变得不准确。</p></td>
+<td><p>如果切换至 COMP 模式，所有计算机和显示器都将使用 IMU 真航向以及手动输入的 MAG VAR。缩写 MV 可能不会消失并且使用 MAD 的 BDHI 根据故障可能会变得不准确。</p></td>
 </tr>
 </tbody>
 </table>
@@ -3590,7 +3590,7 @@
 <li><p>检查 TID 中存储的经纬度读数。</p></li>
 <li><p>将 <strong>CATEGORY</strong> 旋钮转至 NAV 类并选择所需的更新类型。</p></li>
 </ol>
-<p>请注意，特别是使用雷达更新来更新导航系统，更新 INS 位置可能导致引入比先前更大的位置误差，但是引入的误差对于 IMU 来说较小。使用目视更新或 TACAN 更新来提供更准确地更新（假设在 TACAN 更新中 MAG VAR 正确）。机组应主要在使用 AHRS 模式时对导航系统进行导航更新。</p>
+<p>请注意，特别是使用雷达更新来更新导航系统，更新 INS 位置可能导致引入比先前更大的位置误差，但是引入的误差对于 IMU 来说较小。使用目视更新或 TACAN 更新来提供更精确地更新（假设在 TACAN 更新中 MAG VAR 正确）。机组应主要在使用 AHRS 模式时对导航系统进行导航更新。</p>
 <div class="section" id="radar-update">
 <h4>雷达更新<a class="headerlink" href="#radar-update" title="永久链接至标题">¶</a></h4>
 <p>可以在 DDD CURSOR 标记完毕前或标记完后选择 RDR FIX。按下 RDR FIX 后，计算机通过测量相对所选更新点的距离与方位来计算飞机当前的位置。飞机计算机位置和 INS 决定的修正后的位置的差将显示在 TID 中。如果需要将这个差输入到导航计算中，按下 FIX ENABLE 按钮。如果差值看起来不太对，可以按下 RDR FIX 按钮来清理计算机和读数。然后可以再次尝试。RIO 还应该定时检查本机系统高度并在必要时更新高度。</p>
@@ -3751,7 +3751,7 @@
 <div class="section" id="tacan-operation">
 <h4>TACAN 运作<a class="headerlink" href="#tacan-operation" title="永久链接至标题">¶</a></h4>
 <p>如果在预热大约2分钟后。选择了可靠的塔康台但方位和距离指示依旧在搜索，应该检查断路器或选择其它塔康台。由于系统具有记忆功能，因此不会在接收信号瞬时中断时中止跟踪。</p>
-<p>丢失的和先前至少跟踪了10秒的距离信号，将会由记忆元件持续显示9到12秒。在信号丢失后，先前跟踪了至少15秒的方位信号将保留3到8秒。这可以使得在自动切换天线期间不丢失 TACAN 显示。</p>
+<p>在先前至少跟踪了10秒后丢失的距离信号，将会由记忆元件持续显示9到12秒。在信号丢失后，先前跟踪了至少15秒的方位信号将保留3到8秒。这可以使得在自动切换天线期间不丢失 TACAN 显示。</p>
 <p>用最短时间预热，应忽略错误读数以及故障指示，并且自检结果是不确定的。</p>
 </div>
 <div class="section" id="tacan-bit">
@@ -3846,7 +3846,7 @@
 <dd class="field-odd"><p>如果 RIO 在对准进度超过粗对准时并且无 NAV COMP 故障选择了 IMU/AM，那么 READY 提示灯将会闪烁，READY 提示灯闪烁表示如果未在5秒内返回 INS 模式的话，在没有完成新的对准前无法重新进入 INS 模式。</p>
 </dd>
 </dl>
-<p>WCS 计算机在 IMU/AM 模式中使用 IMU 的航向信息与 CADC 的真空速执行航位推算导航。在备用模式中执行与 INS 模式相同的通用导航功能。但由于可用的速度与航向信息不佳，所以计算机输出精度会降低。</p>
+<p>WCS 计算机在 IMU/AM 模式中使用 IMU 的航向信息与 CADC 的真空速执行航位推算导航。在备用模式中执行的通用导航功能与 INS 模式中的相同。但由于可用的速度与航向信息不佳，所以计算机输出精度会降低。</p>
 <p>风向风速可从 INS 模式中最后计算出的风向风速或通过手动输入的风向风速数据来获取。 IMU 航向同样以最后计算出的 INS 航向或通过 CAP 手动输入的真航向为基准。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
@@ -3876,7 +3876,7 @@
 <p>AHRS 可以使用罗盘控制面板来选择三个模式中任意一个子航向模式来运行：</p>
 <ol class="arabic simple">
 <li><p>SLAVED - 磁北为基准（磁通量），航向陀螺隶属磁通量，可靠的磁航向基准可用时使用。</p></li>
-<li><p>DG - 自由陀螺仪， 补偿由于地球而产生的漂移（自转），磁北基准不可靠时使用。</p></li>
+<li><p>DG - 自由陀螺仪， 补偿由于地球而产生的漂移（极地行动），磁北基准不可靠时使用。</p></li>
 <li><p>COMP - 直接磁北航向基准（磁通量），无阻尼陀螺。在此模式中 HUD、VDI、HSD 和 多功能显示指示器自动使用 手动输入的磁差（vM）。</p></li>
 </ol>
 <p>RIO 可以从 INS 或 IMU/AM 模式切换至 AHRS/AM 模式进行比较，不必担心精度降低，因为 AHRS 是一套独立的系统。由于在 INS 和 IMU/AM 模式中都使用 IMU，所以无法做到相同精度，且会导致 IMU 精度永久降低。在 IMU 失效的情况下，只要 WCS 计算机接收到从 AHRS 发送的航向和从 CADC 发送的空速，导航计算机就将会自动以 AHRS/AM 模式运行尽管导航控制与数据读数面板中的 NAV MODE 旋钮处于 INS 档位。</p>
@@ -4004,9 +4004,9 @@
 <div class="section" id="antennas">
 <h3>天线<a class="headerlink" href="#antennas" title="永久链接至标题">¶</a></h3>
 <p>四个 VHF/UHF/L 波段 刀状天线为 VHF/UHF 话音，UHF 数据链路，TACAN 和敌我识别系统/选择识别装置（APX-72）运行提供全方位覆盖。TACAN 和 VHF/UHF 2 话音通信使用其中一组天线; UHF 1 话音通信，数据链路和 IFF 应答机使用另一组天线。相关天线位置参阅总体布置图。IFF 问询器（APX-76）天线集成在 AWG-9 WCS 天线内。</p>
-<p>每个单独的系统通过同轴开关和双工器连接到上部或下部天线的合适的部分。飞机没有自动作动功能，RIO 必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT 开关选择上部或下部天线。数据链路（DIL）天线同样需要手动选择。数据链路所使用的上部或下部天线是通过 DATA LINK 控制面板中的 ANTENNA 开关来选择的。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统共用，并且 UHF 1 话音始终使用与 ANTENNA 开关选择相反的天线。</p>
+<p>每个单独的系统通过同轴开关和双工器（diplexer）连接到上部或下部天线的合适的部分。飞机没有自动作动功能，RIO 必须手动使用通信/TACAN 指令面板上的 V/UHF 2 ANT 开关选择上部或下部天线。数据链路（DIL）天线同样需要手动选择。数据链路所使用的上部或下部天线是通过 DATA LINK 控制面板中的 ANTENNA 开关来选择的。UHF 1 话音通信 ARC-159 天线与 DIL 天线系统共用，并且 UHF 1 话音始终使用与 ANTENNA 开关选择相反的天线。</p>
 <p>上部 V/UHF 2/TACAN 天线是座舱盖后龟甲上的第一根天线，下部天线嵌入左侧腹鳍的底部。一次只使用一个天线。 在天线之间自动切换可防止丢失 TACAN 信息。如果信号丢失或太弱而无法保持接收机信号接收，TACAN 会每隔6秒自动在两个天线之间切换以寻求更强的信号。</p>
-<p>在此切换和搜索期间，记忆电路保持距离跟踪8到12秒、方位跟踪8秒。IFF 天线波瓣开关由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾斜; 下部天线略微向后倾斜。</p>
+<p>在此切换和搜索期间，记忆回路保持距离跟踪8到12秒、方位跟踪8秒。IFF 天线波瓣开关由 RIO 右侧控制台上的 IFF ANT 开关控制。AUTO 档位，波瓣开关使收发器在上部下部天线之间切换。 LWR（下部）档位，仅下部天线用来接收和传输信号。 上部天线略微向前倾斜; 下部天线略微向后倾斜。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>在现实生活中，通常需要选择 LWR 来改善地面站台的接收。 然而，由于 DCS 的限制，未对天线切换进行建模，因此无功能。 对于玩家来说，天线的使用是自动化的和/或忽略的。 所有电台和无线电通话功能通过 PTT 来控制。</p>
@@ -4015,7 +4015,7 @@
 </div>
 <div class="section" id="ics-intercommunications-system">
 <h3>ICS - 机内通话系统<a class="headerlink" href="#ics-intercommunications-system" title="永久链接至标题">¶</a></h3>
-<p>ICS 提供机组成员之间的正常、备用或应急通信。ICS 还可以合并和放大从其他电子接收设备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶舱中有两个放大器，ICS 在正常运行期间允许双工运行。如果一个放大器失效，可以通过选择 ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。选择备用和应急档位可使 ICS 继续运行。</p>
+<p>ICS 提供机组成员之间的正常、备用或应急通信。ICS 还可以合并和放大从其他电子接收设备（ECM、响尾蛇音调、IFF/SIF、雷达高度表和无线电话音等）接收到的音频信号。飞行员和 RIO 左侧控制台上有相同的 ICS 控制面板。ICS 由四个放大器组成，每个驾驶舱中有两个放大器，ICS 在正常运行期间允许双工操作。如果一个放大器失效，可以通过选择 ICS 控制面板上的 B/U（备用）或 EMER（紧急）档位来绕过故障放大器。选择备用和应急档位可使 ICS 继续运行。</p>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
 <dd class="field-odd"><p>如果一个驾驶舱内的两个放大器同时失效, 那么将无法进行机内通话。</p>
@@ -4306,7 +4306,7 @@
 </div>
 <div class="section" id="an-arc-159-uhf-1-radio">
 <h3>AN/ARC-159（UHF 1）无线电台<a class="headerlink" href="#an-arc-159-uhf-1-radio" title="永久链接至标题">¶</a></h3>
-<p>UHF 1（ARC-159）无线电台提供空空和空面话音通信。UHF 1 无线电台的频率为 225.000 - 399.975 MHz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）上以 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，最小 RF 功率为10瓦。所有用于无线电台操作的控制开关/旋钮位于无线电台前方的面板中。无线电台位于飞行员驾驶舱中左侧控制台上。</p>
+<p>UHF 1（ARC-159）无线电台提供空空和空面话音通信。UHF 1 无线电台的频率为 225.000 - 399.975 MHz。该设备允许在20个预设波道上的任意一个或在救生频率（243.000 MHz）上以 AM 模式收发。救生频率可与其它任意已选频率同时守听。ARC-159 通过手动调整 25-KHz拨动开关可能有7000个可用频率。ARC-159 为固态，自主装置，无线电输出的平均功率为10瓦。所有用于无线电台操作的控制开关/旋钮位于无线电台前方的面板中。无线电台位于飞行员驾驶舱中左侧控制台上。</p>
 <p>注意：在模拟的 F-14 版本中 UHF 1 (ARC-159) 的 ADF 档位无功能；使用 V/UHF 2 ARC-182 的 DF 模式。</p>
 <img alt="_images/arc-1591.png" src="_images/arc-1591.png" />
 <table class="longtable docutils align-default">
@@ -4412,7 +4412,7 @@
 </table>
 <dl class="field-list simple">
 <dt class="field-odd">注意</dt>
-<dd class="field-odd"><p>UHF 通信会干扰 D/L，这可能导致 TILT 告警灯亮起、自动驾驶中 ACL 或 VEC/PCD 模式断开。数据链路对 UHF 的干扰可能导致在 D/L 回复信息时听见啁啾。注意：尽管DCS中未实现切换天线，但仍然建议使用频率的间隔大于55MHz，必要时关闭 UHF 1或 V/UHF 2无线电台中的一个，以免互相干扰。</p>
+<dd class="field-odd"><p>UHF 通信会干扰 D/L，这可能导致 TILT 告警灯亮起、自动驾驶中 ACL 或 VEC/PCD 模式断开。数据链路对 UHF 的干扰则可能导致在 D/L 回复信息时听见啁啾声。注意：尽管DCS中未实现切换天线，但仍然建议使用频率的间隔大于55MHz，必要时关闭 UHF 1或 V/UHF 2无线电台中的一个，以免互相干扰。</p>
 </dd>
 <dt class="field-even">注意2</dt>
 <dd class="field-even"><p>UHF 1和 V/UHF 2 无线电台在同频率下工作传输时可能导致出现干扰哨声。有此反馈是正常情况，这是由于两个无线电台过于接近且工作在同一频率，RF 互相干扰引起的。</p>
@@ -4712,7 +4712,7 @@
 </ol>
 </td>
 <td><div class="line-block">
-<div class="line">掀起保护盖后预加载的密匙将被擦除，在重新使用密文模式前并且必须在地面重新加载密匙。</div>
+<div class="line">掀起保护盖后预加载的密钥将被擦除，在重新使用密文模式前并且必须在地面重新加载密钥。</div>
 <div class="line"><br /></div>
 <div class="line">在 DCS 中该步骤可以通过地勤通信菜单完成。</div>
 </div>
@@ -4725,7 +4725,7 @@
 <td><div class="line-block">
 <div class="line">P/OFF - UHF 无线电台使用明文进行收发。系统未通电。</div>
 <div class="line"><br /></div>
-<div class="line">C - 此模式下使用预加载密匙进行密文模式（cipher）收发。系统此时接通电源。若需预加载密匙，系统须处于此模式并通电。</div>
+<div class="line">C - 此模式下使用预加载密钥进行密文模式（cipher）收发。系统此时接通电源。若需预加载密钥，系统须处于此模式并通电。</div>
 <div class="line"><br /></div>
 <div class="line">DELAY - 在按键通话和实际传输之间提供时间延迟。</div>
 </div>
@@ -4752,7 +4752,7 @@
 <div class="section" id="prelaunch">
 <h4>起飞前<a class="headerlink" href="#prelaunch" title="永久链接至标题">¶</a></h4>
 <ol class="arabic simple">
-<li><p>确认由具备使用保密话音设备资格的人员加载正确的密匙。在 DCS 中，以及和 SRS （Simple Radio）一起使用时，通过无线电菜单中的地勤来加载密匙。</p></li>
+<li><p>确认由具备使用保密话音设备资格的人员加载正确的密钥。在 DCS 中，以及和 SRS （Simple Radio）一起使用时，通过无线电菜单中的地勤来加载密钥。</p></li>
 <li><p>VHF/UHF 无线电台 - ON。</p></li>
 <li><p>电源/模式旋钮 - C。</p></li>
 <li><p>无线电台选择开关 - RAD-1 或 RAD-2。</p></li>
@@ -4768,7 +4768,7 @@
 <div class="section" id="postlaunch">
 <h4>起飞后<a class="headerlink" href="#postlaunch" title="永久链接至标题">¶</a></h4>
 <p>保密话音设备应按照简报进行操作。</p>
-<p>注意：若在飞行中按下了 ZEROIZE 开关，则无法进行密文通信。密匙只能在降落后通过地勤通信菜单进行复位或变更。</p>
+<p>注意：若在飞行中按下了 ZEROIZE 开关，则无法进行密文通信。密钥只能在降落后通过地勤通信菜单进行复位或变更。</p>
 </div>
 <div class="section" id="after-landing">
 <h4>降落后<a class="headerlink" href="#after-landing" title="永久链接至标题">¶</a></h4>
