@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 18:11+0800\n"
-"PO-Revision-Date: 2021-08-21 00:37+0800\n"
+"PO-Revision-Date: 2022-03-13 15:37+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 # 翻译时：
 # 1. 段落标题尽量翻译成汉语，如有必要使用英文在括号内注释
@@ -7714,19 +7714,19 @@ msgstr "MODE 4 CODE 选择开关"
 
 #: ../../source/cockpit.rst:0
 msgid "CODE selector switch, controlling what cipher code to use."
-msgstr "MODE 4 编码选择旋钮，用于选择 MODE 4 使用的，密匙编码类型。"
+msgstr "MODE 4 编码选择旋钮，用于选择 MODE 4 使用的，密钥编码类型。"
 
 #: ../../source/cockpit.rst:0
 msgid "ZERO - Erases both ciphers from the system."
-msgstr "ZERO - 擦除系统中的 A 和 B 密匙。"
+msgstr "ZERO - 擦除系统中的 A 和 B 密钥。"
 
 #: ../../source/cockpit.rst:0
 msgid "B - Selects the B cipher code for use."
-msgstr "B - 选择并使用 B 密匙。"
+msgstr "B - 选择并使用 B 密钥。"
 
 #: ../../source/cockpit.rst:0
 msgid "A - Selects the A cipher code for use."
-msgstr "A - 选择并使用 A 密匙。"
+msgstr "A - 选择并使用 A 密钥。"
 
 #: ../../source/cockpit.rst:0
 msgid "HOLD - Non-functional."

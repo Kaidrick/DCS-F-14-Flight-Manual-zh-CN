@@ -49,3 +49,6 @@ ambient lighting -- 环境光
 recesses --半埋入式挂架（武器章节，麻雀部分）
 部分 transfer 改为————转输（fuel transfer，输油，参见飞机构造）
 数据类 transfer改为--传递（如传递对准，数据传递）
+polar operations --极地行动
+circuit--电路-->回路
+unit-->导航部分xx单元改成装置
