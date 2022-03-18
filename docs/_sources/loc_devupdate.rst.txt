@@ -101,3 +101,9 @@ HB AIM-54 新 API 上线测试
 * DCS: F-14 Development Update - Bounce, Burble and Orbits!   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv11772279/>`_” 
 
 ---------------------------------------------
+
+2022/03/18 DCS：F-14更新概览 - 新自动驾驶&MP座位切换
+****************
+* DCS: F-14 Patch Overview - New Autopilot & MP Seat Switching   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv15714783/>`_” 
+
+---------------------------------------------
