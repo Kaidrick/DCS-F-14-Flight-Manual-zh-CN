@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-18 00:29+0800\n"
-"PO-Revision-Date: 2022-03-16 23:47+0800\n"
+"PO-Revision-Date: 2022-03-23 13:23+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -7243,9 +7243,9 @@ msgid ""
 "on the DDD for the pulse modes. It affects only the DDD display, not the "
 "radar itself."
 msgstr ""
-"在 DDD 面板上有八个不同的旋钮，它们各自用来控制 DDD 的和雷达的不同功能。坐落"
-"于 DDD 左上角的是 **PULSE VIDEO** 控制旋钮（ **5** ），这个旋钮用来控制 DDD "
-"在脉冲模式下的视频强度。旋钮只对 DDD 产生影响，不会影响雷达本身。"
+"在 DDD 面板上装有八个不同的旋钮，分别用来控制不同的 DDD 和雷达功能。坐落于 "
+"DDD 左上角的是 **PULSE VIDEO** 控制旋钮（ **5** ），这一旋钮用来控制 DDD 在脉"
+"冲模式下的视频强度。旋钮只对 DDD 产生影响，不会影响雷达本身。"
 
 #: ../../source/general.rst:1179
 msgid ""
@@ -7668,7 +7668,7 @@ msgstr "VEL VECTOR"
 
 #: ../../source/general.rst:1317
 msgid "Velocity vector, enables display of velocity vectors on tracks."
-msgstr "速度矢量按钮，启用显示目标的垂直速率。"
+msgstr "速度矢量按钮，启用显示目标的速度矢量。"
 
 #: ../../source/general.rst:1319
 msgid "LAUNCH ZONE"
@@ -11383,7 +11383,7 @@ msgid ""
 "designates QDES at current sensor position."
 msgstr ""
 "位于控制杆前方的是一个二段式扳机（ **7** ），按下扳机第一段可以启用手动激光照"
-"射，而按下第二段扳机可以开启激光照射和指定当前传感器位置为 QDES。"
+"射，而按下扳机第二段可以开启激光照射和指定当前传感器位置为 QDES。"
 
 #: ../../source/general.rst:2602
 msgid ""
@@ -15635,7 +15635,7 @@ msgid ""
 "To clear previous hooked DDD cursor position, go to half action and then "
 "release prior to initiating full action for new position hook."
 msgstr ""
-"按下 HCU 第一段扳机并释放，接着按下第二段来选中新的位置来清除先前 DDD 光标已"
+"按下 HCU 扳机第一段并释放，接着按下第二段来选中新的位置来清除先前 DDD 光标已"
 "选中的位置。"
 
 #: ../../source/general.rst:3914
