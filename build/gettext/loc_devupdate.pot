@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-18 18:11+0800\n"
+"POT-Creation-Date: 2021-02-18 00:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,4 +122,12 @@ msgstr ""
 
 #: ../../source/loc_devupdate.rst:76
 msgid "AIM-54 Changes / new API fixes   “`by foxwxl <https://www.bilibili.com/read/cv8225181/>`_”"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:81
+msgid "2020/12/17 AIM-54 制导重大变更小提示"
+msgstr ""
+
+#: ../../source/loc_devupdate.rst:82
+msgid "Patch Dec 17th Feedback   “`by Alphabet_Ghost— <https://www.bilibili.com/read/cv8901798/>`_”"
 msgstr ""

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-18 00:29+0800\n"
-"PO-Revision-Date: 2022-03-23 13:23+0800\n"
+"PO-Revision-Date: 2022-04-04 21:54+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -5708,7 +5708,7 @@ msgid ""
 msgstr ""
 "飞行员驾驶舱中 :ref:`CAindicator` 上的 **FLAP** 灯亮起表示襟翼系统中发生故"
 "障，并且襟翼位置不对称。 :ref:`VDI` 左侧的 **REDUCE SPEED** 告警灯表示指示空"
-"速超过225节但襟翼仍未收回。"
+"速超过225节但襟翼仍未收上。"
 
 #: ../../source/general.rst:678
 msgid "Speedbrakes"
@@ -5738,8 +5738,8 @@ msgid ""
 "will continue to do so with increasing airspeed, additionally selection of "
 "**MIL** power or above automatically retracts them."
 msgstr ""
-"为了避免减速板受损，空速超过400节后，减速板将会逐渐收回，并且使用 **MIL** "
-"（军用推力）或更大的推力时，减速板会被自动收回。"
+"为了避免减速板受损，空速超过400节后，减速板将会逐渐收起，并且使用 **MIL** "
+"（军用推力）或更大的推力时，减速板会被自动收起。"
 
 #: ../../source/general.rst:688
 msgid ""
@@ -5771,7 +5771,7 @@ msgstr ""
 "F-14 “雄猫” 采用可完全收起的前三点式起落架，起落架被设计得足够结实以应对着舰"
 "时的严酷考验。起落架的收起和放下由联合液压系统提供动力，以及起落架还拥有应急"
 "放下系统。应急放下系统中含有一个氮气瓶，氮气瓶可用于为单次应急放下提供动力。"
-"应急系统被触发后，需要由地面技术人员复位应急放下系统后才能进一步正常收回起落"
+"应急系统被触发后，需要由地面技术人员复位应急放下系统后才能进一步正常收上起落"
 "架。"
 
 #: ../../source/general.rst:701
@@ -13425,7 +13425,7 @@ msgid ""
 "general navigation. The IMU is the source for pitch and roll."
 msgstr ""
 "**2. IMU/AM**：可以由 RIO 选择或在 CSDC 认为 IMU 惯性速度数据不可靠时自动进入"
-"的备用模式。在此模式中，来自 CADC 的真空速和输入或预存的风速/风向组合起来提供"
+"的备用模式。在此模式中，来自 CADC 的真空速和输入或存储的风速/风向组合起来提供"
 "给通用导航所需的地速和真航向。此模式中 IMU 为俯仰和横滚数据的数据源。"
 
 #: ../../source/general.rst:3227
@@ -13456,10 +13456,10 @@ msgid ""
 "navigational computations. The WCS also performs additional computations so "
 "that the crew is provided with:"
 msgstr ""
-"CSDC 和 WCS 都知道当前所选的导航模式。CSDC 向 WCS 发送支持通用导航计算所需的"
-"导航数据参数（来自 CADC 的真空速，经纬度，惯性速度，真航向等）。WCS 使用存储"
-"和输入的导航数据（基于当前导航模式）来执行所需的导航计算。 WCS 还执行额外的计"
-"算，以便为机组提供："
+"CSDC 和 WCS 都能够读出当前所选的导航模式。CSDC 向 WCS 发送支持通用导航计算所"
+"需的导航数据参数（来自 CADC 的真空速，经纬度，惯性速度，真航向等）。WCS 使用"
+"存储和输入的导航数据（基于当前导航模式）来执行所需的导航计算。 WCS 还执行额外"
+"的计算，以便为机组提供："
 
 #: ../../source/general.rst:3238
 msgid "Current latitude and longitude"
@@ -13515,7 +13515,7 @@ msgstr "部分系统失效后的备用导航模式"
 
 #: ../../source/general.rst:3248
 msgid "Backup present position"
-msgstr "备用本机当前位置"
+msgstr "备份当前位置"
 
 #: ../../source/general.rst:3254
 msgid ""
@@ -13644,7 +13644,7 @@ msgid ""
 "navigation mode. The IMU BIT monitors the temperature, internal error "
 "signals, and electrical characteristics of the IMU."
 msgstr ""
-"若 IMU 失效，CSDC 会自动切换到备用导航模式。IMU BIT 监测 温度、内部错误信号以"
+"若 IMU 失效，CSDC 会自动切换到备用导航模式。IMU BIT 监测温度、内部错误信号以"
 "及 IMU 的电气特性。"
 
 #: ../../source/general.rst:3303
@@ -13819,7 +13819,7 @@ msgid ""
 "will be removed."
 msgstr ""
 "每当 NAV COMP 提示灯亮起时，机组应注意姿态显示并经常交叉参考 VDIG/TID/DDD 和"
-"备用姿态仪，特别是在 非VFR 条件下，警惕 IMU 故障。如果 IMU 提示灯亮起，OBC 连"
+"备用姿态仪，特别是在非VFR 条件下，警惕 IMU 故障。如果 IMU 提示灯亮起，OBC 连"
 "续监测器中显示缩写 IMU 的话，移除 TID 姿态基准数据源缓冲器中 IM 开头的缩写，"
 "并且 NAV COMP 提示灯熄灭，RIO 应该将 NAV MODE 旋钮从 IMU/AM 转动至 ASRH/AM 并"
 "忽略 READY 提示灯。如果AHRS 可用，将显示 AHRS 姿态信息，否则 VDIG/TID/DDD 姿"
@@ -13900,7 +13900,7 @@ msgid ""
 "torquing correction signals."
 msgstr ""
 "当 NPS 和 IMU 通电时，大容量存储磁带中的 SMAL 程序将被读入 WCS 计算机的非写保"
-"护内存。对准程序将估计漂移角度，速度误差以及陀螺施矩修正信号。"
+"护内存。对准程序将估计漂移角，速度误差以及陀螺施矩修正信号。"
 
 #: ../../source/general.rst:3384
 msgid ""
@@ -15156,7 +15156,7 @@ msgid ""
 msgstr ""
 "TID 屏幕中显示了本机空速和磁航向。如果使用 TID 光标选中本机数据文件，显示航向"
 "将为磁航向。如果通过 CAP 选择（选中） OWN A/C 按钮，那么 RIO 可以按下相应的前"
-"缀按钮将 本机真航向、航速（地速）、高度或航线显示在 TID 中，例如："
+"缀按钮将本机真航向、航速（地速）、高度或航线显示在 TID 中，例如："
 
 #: ../../source/general.rst:3765
 msgid "LAT or LONG button will display own-aircraft latitude and longitude."
@@ -15200,10 +15200,10 @@ msgid ""
 "data is correct, the RIO can press the ENTER button and the new values will "
 "appear on the readout."
 msgstr ""
-"按下相应的前缀按钮并输入所需的值来改变本机 经纬度、真航向 或 高度。数据会在输"
-"入期间显示在 TID 中上部的读数中（缓冲寄存器）。同时，现有的数据将显示在缓冲寄"
-"存器下方的左右侧读数中。如果数据无误，RIO 可以按下 ENTER 按钮，接着新的数值将"
-"会显示在读数中。"
+"按下相应的前缀按钮并输入所需的值来改变本机经纬度、真航向或高度。数据会在输入"
+"期间显示在 TID 中上部的读数中（缓冲寄存器）。同时，现有的数据将显示在缓冲寄存"
+"器下方的左右侧读数中。如果数据无误，RIO 可以按下 ENTER 按钮，接着新的数值将会"
+"显示在读数中。"
 
 #: ../../source/general.rst:3776
 msgid ""
@@ -15296,7 +15296,7 @@ msgstr "其它情况."
 
 #: ../../source/general.rst:3800
 msgid "Current or last computed MAG VAR (vC)."
-msgstr "当前或最新的 计算出的 MAG VAR (vC)。"
+msgstr "当前或最后的 计算出的 MAG VAR (vC)。"
 
 #: ../../source/general.rst:3802
 msgid ""
@@ -15502,8 +15502,7 @@ msgstr ""
 "通过导航更新来修正飞机的计算机位置的经纬度误差。由于风向风速和磁差会不断改"
 "变，因此在备用模式（AHRS/AM 和 IMU/AM）中导航更新非常重要。通过地面参考点（经"
 "纬度）的位置来完成导航更新。这个位置相对飞机当前位置的距离和方位用于更新或修"
-"正现有的值。导航系统可以通过 雷达更新、TACAN 更新 或 目视更新 来进行导航更"
-"新。"
+"正现有的值。导航系统可以通过 雷达更新、TACAN 更新或目视更新 来进行导航更新。"
 
 #: ../../source/general.rst:3873
 msgid ""
@@ -15513,7 +15512,7 @@ msgid ""
 "and IP). This data can be stored prior to flight by data link or by manual "
 "insertion. Then follow these steps:"
 msgstr ""
-"在执行导航更新前，所需更新点（雷达、TACAN 或 目视）的经纬度必须必须被存储在八"
+"在执行导航更新前，所需更新点（雷达、TACAN 或目视）的经纬度必须必须被存储在八"
 "个导航点中的任意一个内（三个 WP、FIX PT、HOME BASE、HOST AREA、DEF PT 和 "
 "IP）。这个数据可在飞行前由数据链路或手动输入进行存储。然后按照以下步骤进行："
 
@@ -15952,9 +15951,9 @@ msgid ""
 "inputs from the AHRS through the CSDC. Thus. in case of a CSDC failure, the "
 "only magnetic heading is displayed on the BDHI."
 msgstr ""
-"BDHI 是驾驶舱内唯一一个用于显示磁航向的机械仪表。HUD、VDI、HSD 和 多功能显示"
-"指示器 都为数字式的，并接收从 CSDC （来源于 AHRS）发送的信号输入。万一 CSDC "
-"失效，那么就只有 BDHI 中显示磁航向了。"
+"BDHI 是驾驶舱内唯一一个用于显示磁航向的机械仪表。HUD、VDI、HSD 和多功能显示指"
+"示器都为数字式的，并接收从 CSDC （来源于 AHRS）发送的信号输入。万一 CSDC 失"
+"效，那么就只有 BDHI 中显示磁航向了。"
 
 #: ../../source/general.rst:4016
 msgid ""
@@ -16386,8 +16385,8 @@ msgid ""
 "system switches to the track mode and tracks the return signal to provide "
 "continuous altitude information."
 msgstr ""
-"雷达高度计有两种运行模式。在搜索模式中，系统将连续检查距离增量，直到在高度范"
-"围内搜索到返回信号。当探测到返回信号时，系统将切换至跟踪模式并且跟踪返回的信"
+"雷达高度计有两种运行模式。在搜索模式中，系统将连续检查距离增量，直到在高度区"
+"间内搜索到返回信号。当探测到返回信号时，系统将切换至跟踪模式并且跟踪返回的信"
 "号以便提供不间断的高度信息。"
 
 #: ../../source/general.rst:4155
@@ -16402,7 +16401,7 @@ msgid ""
 msgstr ""
 "如果离开跟踪模式，那么雷达高度计将会显示 OFF 警示旗并且指针会隐藏在遮盖下方。"
 "高度计停止工作直到接收到返回信号，在接收到信号后高度表将重新显示离地高度。系"
-"统可靠的运行高度范围是0到5000英尺，这使得位于低空时高度控制更精确。除非反射的"
+"统可靠的运行高度区间为0到5000英尺，这使得位于低空时高度控制更精确。除非反射的"
 "信号太弱，否则系统可以在 45° 坡度以及俯仰角内正常运行。"
 
 #: ../../source/general.rst:4160
@@ -16482,7 +16481,7 @@ msgstr ""
 
 #: ../../source/general.rst:4193
 msgid "Navigation System Integration"
-msgstr "导航系统组成"
+msgstr "导航系统集成"
 
 # 03/13 AG校对至此
 #: ../../source/general.rst:4196
@@ -16599,8 +16598,8 @@ msgid ""
 "fixed point, home base, surface target, and initial point and may be "
 "designated by the DEST switch on the TID."
 msgstr ""
-"可用的目标或导航点为航路点（1、2、3）、固定点、基地、地面/水面目标 和 起始"
-"点，这些目标/导航点都可以使用 TID 中的 DEST 旋钮来进行指定。"
+"可用的目标或导航点为航路点（1、2、3）、固定点、基地、地面/水面目标和起始点，"
+"这些目标/导航点都可以使用 TID 中的 DEST 旋钮来进行指定。"
 
 #: ../../source/general.rst:4232
 msgid ""
@@ -16641,8 +16640,8 @@ msgid ""
 "NAV COMP light illuminating on the RIO CAUTION/ ADVISORY panel."
 msgstr ""
 "如果 CSDC 中的导航计算机部分失效或是探测到 IMU 某个故障，那么将会自动进入 "
-"IMU/AM 模式。故障指示由 STBY 和 READY 提示灯亮起以及 RIO CAUTION/ADVISORY 面"
-"板中的 NAV COMP 提示灯指示。"
+"IMU/AM 模式。故障指示由 STBY 和 READY 提示灯亮起以及 RIO 注意-提示面板中的 "
+"NAV COMP 提示灯指示。"
 
 #: ../../source/general.rst:4246
 msgid ""
@@ -16776,7 +16775,6 @@ msgstr ""
 
 # altitude rate？
 # 是由垂直加速度和气压高度的变化率。
-# refer：https://books.google.co.jp/books?id=1KLTUWLz8jcC&pg=PA407&lpg=PA407&dq=altitude+rate&source=bl&ots=6kpJYgkl14&sig=ACfU3U0viqVnHG3uHsU3JrU53I2TT-SMig&hl=en&sa=X&ved=2ahUKEwie0eCmlaLqAhW7xIsBHQDGBnwQ6AEwDXoECAwQAQ#v=onepage&q=altitude%20rate&f=false
 #: ../../source/general.rst:4292
 msgid ""
 "When AHRS/AM is selected on the NAV MODE switch, the AHRS provides heading "
@@ -16786,8 +16784,8 @@ msgid ""
 "use the CAP."
 msgstr ""
 "使用 NAV MODE 旋钮选择 AHRS/AM 模式后，AHRS 将代替 IMU 平台提供 DR（航位推"
-"算）导航所需的航向信息，以及在 IMU/AM 模式中 CSDC 提供气压高度、垂直速率和真"
-"空速。使用 CAP 来更新风向风速以及磁差。"
+"算）导航所需的航向信息，和在 IMU/AM 模式下一样，CSDC 将提供气压高度、垂直速率"
+"和真空速 。使用 CAP 来更新风向风速以及磁差。"
 
 #: ../../source/general.rst:4295
 msgid ""
@@ -16834,9 +16832,9 @@ msgid ""
 msgstr ""
 "RIO 可以从 INS 或 IMU/AM 模式切换至 AHRS/AM 模式进行比较，不必担心精度降低，"
 "因为 AHRS 是一套独立的系统。由于在 INS 和 IMU/AM 模式中都使用 IMU，所以无法做"
-"到相同精度，且会导致 IMU 精度永久降低。在 IMU 失效的情况下，只要 WCS 计算机接"
-"收到从 AHRS 发送的航向和从 CADC 发送的空速，导航计算机就将会自动以 AHRS/AM 模"
-"式运行尽管导航控制与数据读数面板中的 NAV MODE 旋钮处于 INS 档位。"
+"到相同精度，且会导致 IMU 精度永久降低。在 IMU 失效的情况下，即使导航控制与数"
+"据读数面板中的 NAV MODE 旋钮处于 INS 档位，只要 WCS 计算机接收到从 AHRS 发送"
+"的航向和从 CADC 发送的空速，导航计算机就将会自动以 AHRS/AM 模式运行。"
 
 #: ../../source/general.rst:4306
 msgid ""
@@ -17129,7 +17127,7 @@ msgid ""
 "the same readouts and displays to the flight crew as described under take "
 "off TACAN steering."
 msgstr ""
-"这个子模式和 TACAN 转向模式功能相同——为机组提供与 起飞 TACAN 转向 同样的读数"
+"这个子模式和 TACAN 转向模式功能相同——为机组提供与 起飞-TACAN-转向 同样的读数"
 "和显示。"
 
 #: ../../source/general.rst:4411

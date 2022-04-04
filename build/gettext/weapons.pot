@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DCS: F-14 “雄猫” 中文飞行手册 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-18 18:11+0800\n"
+"POT-Creation-Date: 2021-02-18 00:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -362,7 +362,7 @@ msgid "The seeker head used in the AIM-54 is capable of both semi-active radar h
 msgstr ""
 
 #: ../../source/weapons.rst:354
-msgid "Normally the launch to eject (LTE) cycle of the missile is 3 seconds meaning time from trigger depression to missile ejection. The exception is the ACM active mode where the LTE is shortened to 1 second if within 10° from ADL."
+msgid "Normally the launch to eject (LTE) cycle of the missile is 3 seconds meaning time from trigger depression to missile ejection. The exception is the ACM active mode where the LTE is shortened to 1 second if within 15° from ADL."
 msgstr ""
 
 #: ../../source/weapons.rst:359
@@ -486,734 +486,734 @@ msgid "In regards to missile seeker and flight profile we've worked with Eagle D
 msgstr ""
 
 #: ../../source/weapons.rst:460
-msgid "In TWS the missiles will fly out using guidance from the AN/AWG-9 until at 16 seconds to impact at which time the AN/AWG-9 will tell the missile to go active if it's still within the radar scan zone. This results in a silent engagement until the missiles go active at which time the target's radar warning receiver will get indication of an active missile engaging it. If fired at range the AIM-54 will loft for greater range. Setting the different seeker activation ranges impacts the amount of warning the target will get but also the amount of time the missile needs to be supported."
+msgid "In TWS the missiles will fly out using guidance from the AN/AWG-9 until at about 16 seconds to impact at which time the AN/AWG-9 will tell the missile to go active if it's still within the radar scan zone. The exact distance at which the AN/AWG-9 sends the ATC depends on the setting of the TGTS switch as detailed above. This results in a silent engagement until the missiles go active at which time the target's radar warning receiver will get indication of an active missile engaging it. If fired at range the AIM-54 will loft for greater range. Setting the different seeker activation ranges impacts the amount of warning the target will get but also the amount of time the missile needs to be supported."
 msgstr ""
 
-#: ../../source/weapons.rst:464
+#: ../../source/weapons.rst:465
 msgid "In PD-STT (Pulse-Doppler Single Target Track) the AIM-54 will be launched in a pure semi-active mode and be guided in that mode all the way to target without going active. This means that the engaged target will get an immediate engagement warning through its radar warning receiver from the AN/AWG-9 as soon as the AIM-54 leaves the rail. Like in TWS the missile will loft if fired at range."
 msgstr ""
 
-#: ../../source/weapons.rst:468
+#: ../../source/weapons.rst:469
 msgid "For all other modes and within 10NM of target (or in ACM or PH ACT) the AIM-54 will launch active off the rail and the targeted aircraft will immediately see the missile's own radar actively engaging it. It will not loft in this case and thus the range is less than in the other two cases."
 msgstr ""
 
-#: ../../source/weapons.rst:472
+#: ../../source/weapons.rst:473
 msgid "Air-to-Ground Weapons"
 msgstr ""
 
-#: ../../source/weapons.rst:474
+#: ../../source/weapons.rst:475
 msgid "Despite being primarily designed as an air superioty fighter and an interceptor the F-14 was from the very start cleared and tested to carry all of the modern American general purpose bombs (GP) of the Mk-80 series. In addition it was also cleared to carry the Mk-20 Rockeye cluster bomb and the 5\" Zuni folding-fin aircraft rocket (FFAR)."
 msgstr ""
 
-#: ../../source/weapons.rst:477
+#: ../../source/weapons.rst:478
 msgid "As the F-14's combat role changed to include the precision ground attack mission it was also cleared to carry several of the guided bomb unit (GBU) versions of the Mk-80 series bombs, more specifically, some of the laser guided versions."
 msgstr ""
 
-#: ../../source/weapons.rst:481
+#: ../../source/weapons.rst:482
 msgid "Air-to-Ground Weapon Settings"
 msgstr ""
 
-#: ../../source/weapons.rst:485
+#: ../../source/weapons.rst:486
 msgid "The air-to-ground weapon delivery is set up by the RIO on his armament panel on the left vertical panel of the RIO cockpit."
 msgstr ""
 
-#: ../../source/weapons.rst:487
+#: ../../source/weapons.rst:488
 msgid "The type of munition for delivery is set up by the wheel on the top of the panel, turning it to the correct munition. This configures the WCS with the correct parameters for the selected munition."
 msgstr ""
 
-#: ../../source/weapons.rst:490
+#: ../../source/weapons.rst:491
 msgid "The Mk-81, 82 and 83 have both a L and a H option being for low-drag and high-drag versions respectively."
 msgstr ""
 
-#: ../../source/weapons.rst:492
+#: ../../source/weapons.rst:493
 msgid "Under DLVY MODE (delivery mode) it is possible to set STP/RPL (step/ripple) and SGL/PRS (single/pairs). The possible combinations are:"
 msgstr ""
 
-#: ../../source/weapons.rst:495
+#: ../../source/weapons.rst:496
 msgid "STP and SGL - Releases one store with each depression of the bomb relase button on the pilot stick."
 msgstr ""
 
-#: ../../source/weapons.rst:496
+#: ../../source/weapons.rst:497
 msgid "STP and PRS - As with STP and SGL but each depression of the bomb release button on the pilot stick releases a pair of stores. Only works for paired stations, 1 with 8, 3 with 6 and 4 with 5."
 msgstr ""
 
-#: ../../source/weapons.rst:497
+#: ../../source/weapons.rst:498
 msgid "RPL and SGL - Used with all attack modes, each depression of the bomb release button on the pilot stick releases set amount of stores set by the QTY (quantity) wheels with the interval set by the INTERVAL wheels (in milliseconds)."
 msgstr ""
 
-#: ../../source/weapons.rst:498
+#: ../../source/weapons.rst:499
 msgid "RPL and PRS - As RPL and SGL but each release pulse releases a pair of stores, QTY still sets total amount of stores to be released."
 msgstr ""
 
-#: ../../source/weapons.rst:500
+#: ../../source/weapons.rst:501
 msgid "The MECH FUSE switch sets which mechanical fuse to arm on the stores. NOSE arms the nose fuse, SAFE inhibits arming of the fuses and NOSE/TAIL arms both fuses."
 msgstr ""
 
-#: ../../source/weapons.rst:502
+#: ../../source/weapons.rst:503
 msgid "The ELEC FUSE selector knob sets the electrical fuse of the store to be released:"
 msgstr ""
 
-#: ../../source/weapons.rst:504
+#: ../../source/weapons.rst:505
 msgid "SAFE - Inhibits electrical bomb fusing."
 msgstr ""
 
-#: ../../source/weapons.rst:505
+#: ../../source/weapons.rst:506
 msgid "VT - Sets air-burst mode at preset burst height for compatible stores."
 msgstr ""
 
-#: ../../source/weapons.rst:506
+#: ../../source/weapons.rst:507
 msgid "INST - Sets instantaneous burst mode."
 msgstr ""
 
-#: ../../source/weapons.rst:507
+#: ../../source/weapons.rst:508
 msgid "DLY 1 - Sets preset time delay 1."
 msgstr ""
 
-#: ../../source/weapons.rst:508
+#: ../../source/weapons.rst:509
 msgid "DLY 2 - Sets preset time delay 2."
 msgstr ""
 
-#: ../../source/weapons.rst:510
+#: ../../source/weapons.rst:511
 msgid "The INTERVAL and QTY (quantity) wheels set the release interval (in milliseconds) and quantity of stores to be released, compatible with the delivery modes as seen above under DLVY MODE."
 msgstr ""
 
-#: ../../source/weapons.rst:512
+#: ../../source/weapons.rst:513
 msgid "Lastly, the 6 STA SEL (station select) switches set which pylons to use for store delivery. (Also used for selection of what stores to jettison.) To select a pylon for store delivery, set the corresponding switch to SEL. Stations 1 and 8 should be set to B for selection, SW was used to jettison AIM-9 Sidewinders but is now inoperable."
 msgstr ""
 
-#: ../../source/weapons.rst:515
+#: ../../source/weapons.rst:516
 msgid "All F-14 bombs in DCS are assumed to have both types of fuzes so need both the mechanical and electrical fuze set. GBUs, Mk-20s and Mk-81 to 84s need the mechanical fuze set to either N or N/T settings, the Mk-82AIR (ballute) and Mk-82 Snake-Eye can be dropped in free-fall with N and retarded with N/T."
 msgstr ""
 
-#: ../../source/weapons.rst:518
+#: ../../source/weapons.rst:519
 msgid "Air-to-Ground Weapon Delivery"
 msgstr ""
 
-#: ../../source/weapons.rst:520
+#: ../../source/weapons.rst:521
 msgid "Air-to-ground delivery is initiated by pilot selection of the A/G mode on the display control panel. After tape read-in (about 30 seconds) the WCS initiates the Air-to-ground mode and enables relevant symbology on the displays."
 msgstr ""
 
-#: ../../source/weapons.rst:523
+#: ../../source/weapons.rst:524
 msgid "The weapon selection automatically switches to ordnance (ORD on the HUD) unless the pilot has selected another weapon. All other options are set by the RIO in the back seat."
 msgstr ""
 
-#: ../../source/weapons.rst:526
+#: ../../source/weapons.rst:527
 msgid "The available attack modes in the F-14 are set by the ATTK MODE selector in the RIO pit and are:"
 msgstr ""
 
-#: ../../source/weapons.rst:528
+#: ../../source/weapons.rst:529
 msgid "CMPTR TGT - Computer target, a semi-automatic computer guided mode similar to a CCRP mode in newer aircraft."
 msgstr ""
 
-#: ../../source/weapons.rst:529
+#: ../../source/weapons.rst:530
 msgid "CMPTR IP - Computer initial point, an extended CMPTR TGT mode using a known initial point (IP) as reference for store delivery. Mostly used in situations where the actual target is expected to be hard to locate visually and is located closely to an easily identifiable reference point/landmark."
 msgstr ""
 
-#: ../../source/weapons.rst:530
+#: ../../source/weapons.rst:531
 msgid "CMPTR PLT - Computer pilot, a manual computer and pilot guided mode using the WCS for store impact point indication on HUD. Similar to a CCIP mode in newer aircraft."
 msgstr ""
 
-#: ../../source/weapons.rst:531
+#: ../../source/weapons.rst:532
 msgid "MAN - Manual, manual backup mode in which the HUD displays a pipper (crosshair) on the HUD at the deflection set by the pilot. Used in case of a systems failure prehibiting the other modes."
 msgstr ""
 
-#: ../../source/weapons.rst:532
+#: ../../source/weapons.rst:533
 msgid "D/L BOMB - Data-link bomb, an automatic mode in which the pilot is steered via data-link cues for remotely controlled store delivery. (Not implemented in DCS at this point in time.)"
 msgstr ""
 
-#: ../../source/weapons.rst:536
+#: ../../source/weapons.rst:537
 msgid "Computer Target"
 msgstr ""
 
-#: ../../source/weapons.rst:539
+#: ../../source/weapons.rst:540
 msgid "The computer target mode allows the pilot to designate a target onto which the WCS then guides the pilot towards store release. This mode is usable for all air-to-ground stores, including rockets."
 msgstr ""
 
-#: ../../source/weapons.rst:542
+#: ../../source/weapons.rst:543
 msgid "When selected the HUD displays the diamond as target designator and the bomb fall line (BFL) through the velocity vector and store impact point pipper (crosshair)."
 msgstr ""
 
-#: ../../source/weapons.rst:544
+#: ../../source/weapons.rst:545
 msgid "To designate a target the pilot steers the aircraft in azimuth to place the target along the BFL. Then UP/DN on the target designate switch on the left wall of the pilot cockpit is used to slew the target designator along the BFL until it overlays the target. At that point the target is designated by pressing the target designate switch to DES."
 msgstr ""
 
-#: ../../source/weapons.rst:548
+#: ../../source/weapons.rst:549
 msgid "After designation the target designation diamond becomes stabilized to the designated position on the ground and the AN/AWG-9 is slewed to it for range measurements. The BFL now remains overlaying the designated target while the store impact point pipper and aircraft velocity vector continues to follow aircraft movements. In addition the HUD now displays the upper and lower solution cues on the BFL."
 msgstr ""
 
-#: ../../source/weapons.rst:552
+#: ../../source/weapons.rst:553
 msgid "The pilot should now fly the velocity vector and store impact point over the BFL until the solution cues reaches them. The lower solution cue indicates imminent store release when passing the velocity vector and the pilot should by now be holding the bomb release button depressed to authorize WCS store release. When the upper solution cue reaches the velocity vector the WCS automatically releases set stores on the condition that the bomb release buttons is depressed."
 msgstr ""
 
-#: ../../source/weapons.rst:556
+#: ../../source/weapons.rst:557
 msgid "The pull up cue (bracket on the HUD) moves upwards on the HUD towards the velocity vector with decreasing altitude. When it reaches the velocity vector it indicates that the aircraft is below safe altitude for store release."
 msgstr ""
 
-#: ../../source/weapons.rst:562
+#: ../../source/weapons.rst:563
 msgid "Computer Initial Point"
 msgstr ""
 
-#: ../../source/weapons.rst:564
+#: ../../source/weapons.rst:565
 msgid "Functionally identical to the Computer target mode except that a preset initial point (IP) is designated instead of the actual target. The IP is preset before takeoff using data-link or manually by the RIO using the CAP."
 msgstr ""
 
-#: ../../source/weapons.rst:567
+#: ../../source/weapons.rst:568
 msgid "The IP waypoint should be a terrain feature expected to be visually identifiable by the pilot even if the target is not."
 msgstr ""
 
-#: ../../source/weapons.rst:569
+#: ../../source/weapons.rst:570
 msgid "To set the CAP the RIO designates the location of the IP waypoint as per the other waypoints in the system. (See CAP heading under AN/AWG-9 in the General design and systems overview section or the Navigation systems heading in the same section)"
 msgstr ""
 
-#: ../../source/weapons.rst:571
+#: ../../source/weapons.rst:572
 msgid "The message (function) IP TO TGT on the CAP under the SPL category is then used with the prefixes ALT, RNG and BRG to readout and set the following datapoints: *   ALT - Sets altitude difference of the target relative the IP waypoint. *   RNG - Sets range to target from the IP waypoint. *   BRG - Sets the bearing to the target from the IP waypoint."
 msgstr ""
 
-#: ../../source/weapons.rst:576
+#: ../../source/weapons.rst:577
 msgid "When the pilot designates the IP visually on the HUD the WCS recalculates the target location using the data set under the IP TO TGT function on the CAP, moves the target diamond to that location and instead displays guidance towards the real target location."
 msgstr ""
 
-#: ../../source/weapons.rst:578
+#: ../../source/weapons.rst:579
 msgid "All other functions of this mode are identical to the Computer target mode."
 msgstr ""
 
-#: ../../source/weapons.rst:582
+#: ../../source/weapons.rst:583
 msgid "Computer Pilot"
 msgstr ""
 
-#: ../../source/weapons.rst:585
+#: ../../source/weapons.rst:586
 msgid "The computer pilot mode uses the WCS to continually calculate and display an impact point for the configured store on the HUD."
 msgstr ""
 
-#: ../../source/weapons.rst:587
+#: ../../source/weapons.rst:588
 msgid "When selected the HUD displays the current store impact point in real-time using the pipper (crosshair). The target designation diamond is used when the WCS is configured for rockets and overlays the pipper to indicate that the configured store is out of range when displayed. As in the Computer target and IP modes the pull-up cue is used to indicate aircraft below safe store release altitude when at or above the velocity vector."
 msgstr ""
 
-#: ../../source/weapons.rst:591
+#: ../../source/weapons.rst:592
 msgid "To correctly engage the desired target the pilot flies the impact point pipper on the HUD over the target and then depresses the bomb release button."
 msgstr ""
 
-#: ../../source/weapons.rst:593
+#: ../../source/weapons.rst:594
 msgid "When using rockets the pilot should wait until the diamond dissappears, indicating that the selected store is within range and then use the control stick trigger to fire the rockets."
 msgstr ""
 
-#: ../../source/weapons.rst:597
+#: ../../source/weapons.rst:598
 msgid "Manual"
 msgstr ""
 
-#: ../../source/weapons.rst:600
+#: ../../source/weapons.rst:601
 msgid "The manual Air-to-ground mode is used as a back-up when the other modes are unavailable."
 msgstr ""
 
-#: ../../source/weapons.rst:602
+#: ../../source/weapons.rst:603
 msgid "By principle it works the same as the Computer pilot mode in that the pilot should fly the pipper on the HUD over the desired target. The pipper is in this mode not updated by the WCS however but instead set at a deflection from the ADL according to desired engagement speed, dive-angle and release altitude."
 msgstr ""
 
-#: ../../source/weapons.rst:605
+#: ../../source/weapons.rst:606
 msgid "This is set using the elevation lead panel on the pilot right side vertical panel using weapon engagement tables or by pilot estimation."
 msgstr ""
 
-#: ../../source/weapons.rst:609
+#: ../../source/weapons.rst:610
 msgid "Mk-81, 82, 83 and 84 GP Bombs"
 msgstr ""
 
-#: ../../source/weapons.rst:612
+#: ../../source/weapons.rst:613
 msgid "U.S. Navy photo by Photographer's Mate Airman Justin S. Osborne. (030321-N-0382O-506)"
 msgstr ""
 
-#: ../../source/weapons.rst:614
+#: ../../source/weapons.rst:615
 msgid "The Mk-80 series bombs are the standard general purpose bombs used by the US Navy and allies and where first dropped in combat during the Vietnam war. The Mk-82 also has the capability to mount a retardation system using either folding fins or an inflated ballute to brake the bomb after release allowing them to be dropped at lower altitudes as the dropping aircraft has more time to move away from them. Those versions are called the Mk-82 Snake Eye (fins) and Mk-82AIR (ballute) in DCS."
 msgstr ""
 
-#: ../../source/weapons.rst:618
+#: ../../source/weapons.rst:619
 msgid "The F-14 is capable of carrying all the various bombs in the Mk-80s series, 81 through to 84. While the ground attack mission never really materialised for the F-14 in the navy it was tested for and cleared to deliver these weapons from the start."
 msgstr ""
 
-#: ../../source/weapons.rst:621
+#: ../../source/weapons.rst:622
 msgid "The F-14 uses the Phoenix rails (stations 3-6) and the glove pylons' lower stations to mount the bombs. The rails themselves can carry all four variants while the 81 to 83 can also be mounted on substations along the sides of the phoenix rails as well as on TERs on the glove pylons."
 msgstr ""
 
-#: ../../source/weapons.rst:624
+#: ../../source/weapons.rst:625
 msgid "All of the Mk-80 bombs has nose fuzes only and should be dropped with the nose (N) fuze setting on the mechanical fuze switch on the RIO armament panel. The Mk-82AIR and Snake Eye variants use the tail fuze wire to enable bomb retardation meaning that the nose/tail (N/T) mechanical fuze option should be used if retardation is needed."
 msgstr ""
 
-#: ../../source/weapons.rst:627
+#: ../../source/weapons.rst:628
 msgid "The total amount of the different bombs carried depends on weapon weight and weapon clearance between the rails, the actual number varies from 18 for the 81s and 82s to just 4 for the 84s as those can only be mounted on the rails themselves. For more info see the F-14 loadout diagrams."
 msgstr ""
 
-#: ../../source/weapons.rst:632
+#: ../../source/weapons.rst:633
 msgid "GBU-10, 12, 16 and 24"
 msgstr ""
 
-#: ../../source/weapons.rst:635
+#: ../../source/weapons.rst:636
 msgid "U.S. Navy photo by Photographer's Mate Airman Milosz Reterski. (040105-N-9742R-001)"
 msgstr ""
 
-#: ../../source/weapons.rst:637
+#: ../../source/weapons.rst:638
 msgid "The GBU (guided bomb unit) are bombs from the Mk-80s series with an attached seeker unit and fin (control) unit converting them into guided precision bombs, and in the case of the GBU-10, 12, 16 and 24 carried by the F-14, laser guided bombs to be more precise."
 msgstr ""
 
-#: ../../source/weapons.rst:639
+#: ../../source/weapons.rst:640
 msgid "When the F-14B gained the ability to mount and use the LANTIRN pod it was also cleared to carry some of the GBU variants of the Mk-80 series bombs. It can either deliver them onto designation from a self-carried LANTIRN pod or onto a laser designation from another aircraft or ground source."
 msgstr ""
 
-#: ../../source/weapons.rst:642
+#: ../../source/weapons.rst:643
 msgid "The GBUs carried are mounted on the Phoenix rails themselves on stations 3-6 as the additional size of a GBU compared to a normal Mk-80 series bomb makes it impossible to use the substations on the rails for those. Each station is capable of carrying one GBU up to the size of the GBU-16. As for the GBU-10 and 24, the 10 can be carried on the front rails (3 and 6) and the 24 on one front rail and one back rail as they need to be carried on opposite sides of the aircraft due to the larger wing assembly."
 msgstr ""
 
-#: ../../source/weapons.rst:645
+#: ../../source/weapons.rst:646
 msgid "GBU laser codes are set as per :ref:`MESET` or via the kneeboard."
 msgstr ""
 
-#: ../../source/weapons.rst:649
+#: ../../source/weapons.rst:650
 msgid "Mk-20 Rockeye"
 msgstr ""
 
-#: ../../source/weapons.rst:651
+#: ../../source/weapons.rst:652
 msgid "The Mk-20 Rockeye is a conventional free fall bomb like the Mk-80 series bombs but instead of a conventional charge it carries anti-tank submunitions. The Rockeye contains 247 of these anti-tank submunitions which are released at a set height using a radar altimeter, the design being that the submunitions are dispersed over a large area for greater effect."
 msgstr ""
 
-#: ../../source/weapons.rst:655
+#: ../../source/weapons.rst:656
 msgid "The fuze height itself is set by the ground crew as they're loaded and can't be changed by the pilot. To arm the Rockeye correctly the mechanical fuse should be set to nose (N)."
 msgstr ""
 
-#: ../../source/weapons.rst:658
+#: ../../source/weapons.rst:659
 msgid "The F-14 can carry up to 10 Mk-20 Rockeyes using the Phoenix rails and substations as well as TERs on the glove pylons."
 msgstr ""
 
-#: ../../source/weapons.rst:660
+#: ../../source/weapons.rst:661
 msgid "Additional fuse settings (FMU-140 fuse) pending additional weapon code implementation."
 msgstr ""
 
-#: ../../source/weapons.rst:664
+#: ../../source/weapons.rst:665
 msgid "Zuni Rockets"
 msgstr ""
 
-#: ../../source/weapons.rst:666
+#: ../../source/weapons.rst:667
 msgid "The Zuni 5-inch folding-fin aircraft rocket (FFAR) was developed to replace the high velocity aircraft rocket (HVAR) of world war 2 vintage. As part of its design it's modular and capable of using different warheads as well as different fuzes."
 msgstr ""
 
-#: ../../source/weapons.rst:669
+#: ../../source/weapons.rst:670
 msgid "The Zuni rockets are carried in LAU-10 pods, each carrying 4 rockets. The pods can fire in either salvo mode or ripple mode, salvo launching one rocket and ripple all."
 msgstr ""
 
-#: ../../source/weapons.rst:671
+#: ../../source/weapons.rst:672
 msgid "The F-14 Tomcat can carry LAU-10 rocket pods on stations 1B, 3, 6 and 8B using TERs, each TER holding up to two pods except on of either 3 or 6 which must only carry one as not to clash with a pod on the adjacent station. The TERs are used to gain separation from the station for safe rocket firing and the reason for not being able to use three pods on the TERs are that on the glove pylons the inner TER station would conflict with the main landing gear and on stations 3 and 6 with the fuselage."
 msgstr ""
 
-#: ../../source/weapons.rst:675
+#: ../../source/weapons.rst:676
 msgid "The Zuni rockets are set up for launch by the RIO on the armament panel as with bombs, the delivery mode (DLVY MODE) switches being used to configure how many pods to activate at a time."
 msgstr ""
 
-#: ../../source/weapons.rst:685
+#: ../../source/weapons.rst:686
 msgid "BDU-33 Practice Bombs"
 msgstr ""
 
-#: ../../source/weapons.rst:687
+#: ../../source/weapons.rst:688
 msgid "The BDU-33 practice bomb is a training round used to simulate a Mk-82 general purpose bomb for training purposes. They can be carried three to a TER on each of station 3, 4, 5 and 6 on the F-14 Tomcat."
 msgstr ""
 
-#: ../../source/weapons.rst:690
+#: ../../source/weapons.rst:691
 msgid "They are set up for release as with the real general purpose bombs."
 msgstr ""
 
-#: ../../source/weapons.rst:694
+#: ../../source/weapons.rst:695
 msgid "Special Munitions"
 msgstr ""
 
-#: ../../source/weapons.rst:697
+#: ../../source/weapons.rst:698
 msgid "ADM-141 TALD"
 msgstr ""
 
-#: ../../source/weapons.rst:700
+#: ../../source/weapons.rst:701
 msgid "U.S. Navy photo by Photographer's Mate 3rd Class Mark J. Rebilas. (041018-N-6213R-021)"
 msgstr ""
 
-#: ../../source/weapons.rst:702
+#: ../../source/weapons.rst:703
 msgid "The ADM-141 tactical air-launched decoy (TALD) is a gliding decoy simulating real aircraft using active and passive means. There are several versions of the TALD, examples being a version equipped to launch chaff and another version using a Luneberg lens to increase its cross-section to simulate a larger aircraft."
 msgstr ""
 
-#: ../../source/weapons.rst:705
+#: ../../source/weapons.rst:706
 msgid "All versions are pre-programmed before take-off and are unpowered, gliding through the air on fold-out wings."
 msgstr ""
 
-#: ../../source/weapons.rst:707
+#: ../../source/weapons.rst:708
 msgid "The F-14 can carry up to four ADM-141 TALDs, one each on stations 3 through 6, using a TER each to gain separation from the aircraft fuselage."
 msgstr ""
 
-#: ../../source/weapons.rst:709
+#: ../../source/weapons.rst:710
 msgid "In DCS these currently glide straight ahead until they run out of speed and altitude."
 msgstr ""
 
-#: ../../source/weapons.rst:713
+#: ../../source/weapons.rst:714
 msgid "LUU-2 Parachute Flare"
 msgstr ""
 
-#: ../../source/weapons.rst:715
+#: ../../source/weapons.rst:716
 msgid "The LUU-2 parachute flare is an air-launched flare suspended by a parachute used to illuminate the ground during night-time."
 msgstr ""
 
-#: ../../source/weapons.rst:717
+#: ../../source/weapons.rst:718
 msgid "The F-14 can carry up to 16 LUU-2 flares in up to 4 SUU-25 flare dispensers on TERs at stations 4 and 5, each TER capable of carrying up to 2 dispensers in order not to conflict with the fuselage."
 msgstr ""
 
-#: ../../source/weapons.rst:719
+#: ../../source/weapons.rst:720
 msgid "The LUU-2 parachute flare is launched and set up in the same way as a general purpose bomb."
 msgstr ""
 
-#: ../../source/weapons.rst:723
-#: ../../source/weapons.rst:834
+#: ../../source/weapons.rst:724
+#: ../../source/weapons.rst:835
 msgid "Smokewinder"
 msgstr ""
 
-#: ../../source/weapons.rst:725
+#: ../../source/weapons.rst:726
 msgid "The Smokewinder is a smoke pod used for aerial displays simulating an AIM-9 missile to the aircraft interface."
 msgstr ""
 
-#: ../../source/weapons.rst:727
+#: ../../source/weapons.rst:728
 msgid "To enable and disable a Smokewinder, select AIM-9 for launch using boresight (BRSIT) and select the corresponding weapon station using the weapon selector on the pilot stick. When set up thusly and with master arm on, each pull of the trigger enables or disable the Smokewinder discharging smoke."
 msgstr ""
 
-#: ../../source/weapons.rst:732
+#: ../../source/weapons.rst:733
 msgid "Pods and Tanks"
 msgstr ""
 
-#: ../../source/weapons.rst:735
-#: ../../source/weapons.rst:832
+#: ../../source/weapons.rst:736
+#: ../../source/weapons.rst:833
 msgid "LAU-138 Chaff Adapter"
 msgstr ""
 
-#: ../../source/weapons.rst:737
+#: ../../source/weapons.rst:738
 msgid "The LAU-138 chaff adapter (or BOL rail) was designed by Celcius Tech in Sweden to enhance a combat aircraft's capability to carry chaff countermeasures. The chaff launcher is unusual in that it doesn't use pyrotechnics to fire the chaff packages but instead uses a mechanical action."
 msgstr ""
 
-#: ../../source/weapons.rst:740
+#: ../../source/weapons.rst:741
 msgid "While each adapter can carry up to 160 chaff packages in total, each package is not the equal to a standard chaff bundle. Because of this fact, each launcher is set to eject four packages in total for each release impulse. This means that the pair of LAU-138s ejects in total 8 chaff packages per impulse and that 40 dispensation cycles are available."
 msgstr ""
 
-#: ../../source/weapons.rst:744
+#: ../../source/weapons.rst:745
 msgid "The adapter itself replaces the normal LAU-7 Sidewinder launch rail allowing the F-14 to carry additional chaff without impacting the ability to carry other weapons. While technically capable of carrying the LAU-138 on both A & B stations on the glove pylons, in practice it was impossible to access the cooling bottle for an AIM-9 carried on the B station meaning that operationally only the A stations were loaded with LAU-138 adapters."
 msgstr ""
 
-#: ../../source/weapons.rst:747
+#: ../../source/weapons.rst:748
 msgid "For more information about the LAU-138 and its use, see the section about the AN/ALE-29 and 39 under the General design and systems overview chapter."
 msgstr ""
 
-#: ../../source/weapons.rst:751
+#: ../../source/weapons.rst:752
 msgid "TACTS Pods"
 msgstr ""
 
-#: ../../source/weapons.rst:753
+#: ../../source/weapons.rst:754
 msgid "The TACTS pod is an analysis pod used during training missions, it is carried on LAU-7 rails instead of AIM-9s, normally on station 1A and 8A. They are normally carried as a pair of two, one on each side."
 msgstr ""
 
-#: ../../source/weapons.rst:756
+#: ../../source/weapons.rst:757
 msgid "In DCS their functionality is purely cosmetic."
 msgstr ""
 
-#: ../../source/weapons.rst:760
-#: ../../source/weapons.rst:840
+#: ../../source/weapons.rst:761
+#: ../../source/weapons.rst:841
 msgid "FPU-1 Fuel Tank"
 msgstr ""
 
-#: ../../source/weapons.rst:762
+#: ../../source/weapons.rst:763
 msgid "The FPU-1 fuel tank is carried by the F-14 Tomcat on stations 2 and 7 on each engine nacelle. They each carry up to 2 000 pounds of fuel and can be jettisoned in the same way as other stores using the normal procedures."
 msgstr ""
 
-#: ../../source/weapons.rst:767
-#: ../../source/weapons.rst:838
+#: ../../source/weapons.rst:768
+#: ../../source/weapons.rst:839
 msgid "LANTIRN"
 msgstr ""
 
-#: ../../source/weapons.rst:770
+#: ../../source/weapons.rst:771
 msgid "U.S. Navy photo by Photographers Mate Airman Jason Frost. (030122-N-9403F-002)"
 msgstr ""
 
-#: ../../source/weapons.rst:772
+#: ../../source/weapons.rst:773
 msgid "The LANTIRN was adapted for use on the F-14 Tomcats during the 1990s as the F-14's role started to gravitate towards including the precision strike role."
 msgstr ""
 
-#: ../../source/weapons.rst:774
+#: ../../source/weapons.rst:775
 msgid "The version carried on the Heatblur DCS F-14B Tomcat represents the earliest integrations of the LANTIRN, the pod being carried only on station 8B and hardwired to the control panel in the RIO cockpit and to the video input on the TID/VDI."
 msgstr ""
 
-#: ../../source/weapons.rst:777
+#: ../../source/weapons.rst:778
 msgid "For more information regarding the use of the LANTIRN pod, see the section about it under the General design and systems overview chapter."
 msgstr ""
 
-#: ../../source/weapons.rst:781
-#: ../../source/weapons.rst:842
+#: ../../source/weapons.rst:782
+#: ../../source/weapons.rst:843
 msgid "CNU-188 External Baggage Container"
 msgstr ""
 
-#: ../../source/weapons.rst:783
+#: ../../source/weapons.rst:784
 msgid "The CNU-188 external baggage container is a converted fuel tank used to carry equipment and supplies during aircraft transfer. One such container can be carried by a F-14 on either station 4 or 5, maximum load carried being 350 pounds."
 msgstr ""
 
-#: ../../source/weapons.rst:786
+#: ../../source/weapons.rst:787
 msgid "Pending implementation in DCS."
 msgstr ""
 
-#: ../../source/weapons.rst:790
+#: ../../source/weapons.rst:791
 msgid "F-14 Loadout Diagram"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "Weapon \\ Station"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "1A"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "1B"
 msgstr ""
 
-#: ../../source/weapons.rst:794
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:814
-#: ../../source/weapons.rst:814
-#: ../../source/weapons.rst:814
-#: ../../source/weapons.rst:814
-#: ../../source/weapons.rst:816
-#: ../../source/weapons.rst:822
-#: ../../source/weapons.rst:826
-#: ../../source/weapons.rst:826
-#: ../../source/weapons.rst:826
-#: ../../source/weapons.rst:830
-#: ../../source/weapons.rst:830
-#: ../../source/weapons.rst:832
-#: ../../source/weapons.rst:836
-#: ../../source/weapons.rst:840
+#: ../../source/weapons.rst:795
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:815
+#: ../../source/weapons.rst:815
+#: ../../source/weapons.rst:815
+#: ../../source/weapons.rst:815
+#: ../../source/weapons.rst:817
+#: ../../source/weapons.rst:823
+#: ../../source/weapons.rst:827
+#: ../../source/weapons.rst:827
+#: ../../source/weapons.rst:827
+#: ../../source/weapons.rst:831
+#: ../../source/weapons.rst:831
+#: ../../source/weapons.rst:833
+#: ../../source/weapons.rst:837
+#: ../../source/weapons.rst:841
+#: ../../source/weapons.rst:843
 msgid "2"
 msgstr ""
 
-#: ../../source/weapons.rst:794
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:824
-#: ../../source/weapons.rst:824
-#: ../../source/weapons.rst:824
-#: ../../source/weapons.rst:824
-#: ../../source/weapons.rst:824
-#: ../../source/weapons.rst:824
+#: ../../source/weapons.rst:795
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:825
+#: ../../source/weapons.rst:825
+#: ../../source/weapons.rst:825
+#: ../../source/weapons.rst:825
+#: ../../source/weapons.rst:825
+#: ../../source/weapons.rst:825
 msgid "3"
 msgstr ""
 
-#: ../../source/weapons.rst:794
-#: ../../source/weapons.rst:796
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:812
-#: ../../source/weapons.rst:818
-#: ../../source/weapons.rst:820
-#: ../../source/weapons.rst:828
-#: ../../source/weapons.rst:834
+#: ../../source/weapons.rst:795
+#: ../../source/weapons.rst:797
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:813
+#: ../../source/weapons.rst:819
+#: ../../source/weapons.rst:821
+#: ../../source/weapons.rst:829
+#: ../../source/weapons.rst:835
 msgid "4"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "5"
 msgstr ""
 
-#: ../../source/weapons.rst:794
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:800
+#: ../../source/weapons.rst:795
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:801
 msgid "6"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "7"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "8B"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "8A"
 msgstr ""
 
-#: ../../source/weapons.rst:794
+#: ../../source/weapons.rst:795
 msgid "Total"
 msgstr ""
 
-#: ../../source/weapons.rst:796
+#: ../../source/weapons.rst:797
 msgid "AIM-9"
 msgstr ""
 
-#: ../../source/weapons.rst:796
-#: ../../source/weapons.rst:796
-#: ../../source/weapons.rst:796
-#: ../../source/weapons.rst:796
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:798
-#: ../../source/weapons.rst:800
-#: ../../source/weapons.rst:800
-#: ../../source/weapons.rst:800
-#: ../../source/weapons.rst:800
-#: ../../source/weapons.rst:800
-#: ../../source/weapons.rst:800
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:812
-#: ../../source/weapons.rst:812
-#: ../../source/weapons.rst:812
-#: ../../source/weapons.rst:812
-#: ../../source/weapons.rst:814
-#: ../../source/weapons.rst:814
-#: ../../source/weapons.rst:816
-#: ../../source/weapons.rst:816
-#: ../../source/weapons.rst:818
-#: ../../source/weapons.rst:818
-#: ../../source/weapons.rst:818
-#: ../../source/weapons.rst:818
-#: ../../source/weapons.rst:820
-#: ../../source/weapons.rst:820
-#: ../../source/weapons.rst:820
-#: ../../source/weapons.rst:820
-#: ../../source/weapons.rst:822
-#: ../../source/weapons.rst:822
-#: ../../source/weapons.rst:826
-#: ../../source/weapons.rst:828
-#: ../../source/weapons.rst:828
-#: ../../source/weapons.rst:828
-#: ../../source/weapons.rst:828
-#: ../../source/weapons.rst:832
-#: ../../source/weapons.rst:832
-#: ../../source/weapons.rst:834
-#: ../../source/weapons.rst:834
-#: ../../source/weapons.rst:834
-#: ../../source/weapons.rst:834
-#: ../../source/weapons.rst:836
-#: ../../source/weapons.rst:836
-#: ../../source/weapons.rst:838
-#: ../../source/weapons.rst:838
-#: ../../source/weapons.rst:840
-#: ../../source/weapons.rst:840
-#: ../../source/weapons.rst:842
-#: ../../source/weapons.rst:842
-#: ../../source/weapons.rst:842
+#: ../../source/weapons.rst:797
+#: ../../source/weapons.rst:797
+#: ../../source/weapons.rst:797
+#: ../../source/weapons.rst:797
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:799
+#: ../../source/weapons.rst:801
+#: ../../source/weapons.rst:801
+#: ../../source/weapons.rst:801
+#: ../../source/weapons.rst:801
+#: ../../source/weapons.rst:801
+#: ../../source/weapons.rst:801
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:813
+#: ../../source/weapons.rst:813
+#: ../../source/weapons.rst:813
+#: ../../source/weapons.rst:813
+#: ../../source/weapons.rst:815
+#: ../../source/weapons.rst:815
+#: ../../source/weapons.rst:817
+#: ../../source/weapons.rst:817
+#: ../../source/weapons.rst:819
+#: ../../source/weapons.rst:819
+#: ../../source/weapons.rst:819
+#: ../../source/weapons.rst:819
+#: ../../source/weapons.rst:821
+#: ../../source/weapons.rst:821
+#: ../../source/weapons.rst:821
+#: ../../source/weapons.rst:821
+#: ../../source/weapons.rst:823
+#: ../../source/weapons.rst:823
+#: ../../source/weapons.rst:827
+#: ../../source/weapons.rst:829
+#: ../../source/weapons.rst:829
+#: ../../source/weapons.rst:829
+#: ../../source/weapons.rst:829
+#: ../../source/weapons.rst:833
+#: ../../source/weapons.rst:833
+#: ../../source/weapons.rst:835
+#: ../../source/weapons.rst:835
+#: ../../source/weapons.rst:835
+#: ../../source/weapons.rst:835
+#: ../../source/weapons.rst:837
+#: ../../source/weapons.rst:837
+#: ../../source/weapons.rst:839
+#: ../../source/weapons.rst:839
+#: ../../source/weapons.rst:841
+#: ../../source/weapons.rst:841
+#: ../../source/weapons.rst:843
+#: ../../source/weapons.rst:843
 msgid "1"
 msgstr ""
 
-#: ../../source/weapons.rst:798
+#: ../../source/weapons.rst:799
 msgid "AIM-7"
 msgstr ""
 
-#: ../../source/weapons.rst:800
+#: ../../source/weapons.rst:801
 msgid "AIM-54"
 msgstr ""
 
-#: ../../source/weapons.rst:802
+#: ../../source/weapons.rst:803
 msgid "Mk-81"
 msgstr ""
 
-#: ../../source/weapons.rst:802
-#: ../../source/weapons.rst:804
-#: ../../source/weapons.rst:806
-#: ../../source/weapons.rst:808
-#: ../../source/weapons.rst:824
+#: ../../source/weapons.rst:803
+#: ../../source/weapons.rst:805
+#: ../../source/weapons.rst:807
+#: ../../source/weapons.rst:809
+#: ../../source/weapons.rst:825
 msgid "18"
 msgstr ""
 
-#: ../../source/weapons.rst:804
+#: ../../source/weapons.rst:805
 msgid "Mk-82"
 msgstr ""
 
-#: ../../source/weapons.rst:806
+#: ../../source/weapons.rst:807
 msgid "Mk-82AIR"
 msgstr ""
 
-#: ../../source/weapons.rst:808
+#: ../../source/weapons.rst:809
 msgid "Mk-82 Snake Eye"
 msgstr ""
 
-#: ../../source/weapons.rst:810
+#: ../../source/weapons.rst:811
 msgid "Mk-83"
 msgstr ""
 
-#: ../../source/weapons.rst:810
-#: ../../source/weapons.rst:814
+#: ../../source/weapons.rst:811
+#: ../../source/weapons.rst:815
 msgid "10"
 msgstr ""
 
-#: ../../source/weapons.rst:812
+#: ../../source/weapons.rst:813
 msgid "Mk-84"
 msgstr ""
 
-#: ../../source/weapons.rst:814
+#: ../../source/weapons.rst:815
 msgid "Mk-20"
 msgstr ""
 
-#: ../../source/weapons.rst:816
+#: ../../source/weapons.rst:817
 msgid "GBU-10"
 msgstr ""
 
-#: ../../source/weapons.rst:818
+#: ../../source/weapons.rst:819
 msgid "GBU-12"
 msgstr ""
 
-#: ../../source/weapons.rst:820
+#: ../../source/weapons.rst:821
 msgid "GBU-16"
 msgstr ""
 
-#: ../../source/weapons.rst:822
+#: ../../source/weapons.rst:823
 msgid "GBU-24"
 msgstr ""
 
-#: ../../source/weapons.rst:824
+#: ../../source/weapons.rst:825
 msgid "BDU-33"
 msgstr ""
 
-#: ../../source/weapons.rst:826
+#: ../../source/weapons.rst:827
 msgid "LAU-10 (ZUNI)"
 msgstr ""
 
-#: ../../source/weapons.rst:826
+#: ../../source/weapons.rst:827
 msgid "7(28)"
 msgstr ""
 
-#: ../../source/weapons.rst:828
+#: ../../source/weapons.rst:829
 msgid "ADM-141A TALD"
 msgstr ""
 
-#: ../../source/weapons.rst:830
+#: ../../source/weapons.rst:831
 msgid "SUU-25 F/A Flare Dispenser"
 msgstr ""
 
-#: ../../source/weapons.rst:830
+#: ../../source/weapons.rst:831
 msgid "4(16)"
 msgstr ""
 
-#: ../../source/weapons.rst:836
+#: ../../source/weapons.rst:837
 msgid "TACTS"
 msgstr ""
