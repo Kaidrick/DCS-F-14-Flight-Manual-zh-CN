@@ -1,7 +1,7 @@
 [TITLE]
 
 [DESCRIPTION]
-你距离母舰大约20海里。请联系 CATCC 并在你的预先分配高度2000英尺进入集结管制航线。一旦发出 Charlie 信号，开始并执行 case 1回收。
+你距离母舰大约20海里。请联系 CATCC 并在你的预先分配高度2000英尺进入集结管制航线。一旦发出 Charlie 信号，开始并执行 case 1 回收。
 
 Case 1回收为标准回收程序，在天气和目视条件良好的情况下执行。
 
@@ -11,9 +11,9 @@ Case 1回收为标准回收程序，在天气和目视条件良好的情况下�
 [RED TASK]
 
 [BLUE TASK]
-USS 乔治华盛顿，塔康 74x，225.000 AM，波道 1。ICLS 波道1。 DL 激活， BRC 040°
+USS 乔治华盛顿，塔康 73x，225.000 AM，波道 1。ICLS 波道1。 DL 启用， BRC 040°
 
-海盗加油机 Arco 就位在14000英尺,225.000AM，波道1，塔康 33Y。
+海盗加油机 Arco 在14000英尺就位，225.000AM，波道1，塔康 33Y。
 [TRIGGERS]
 [RADIO MESSAGES]
 [TRANS MESSAGES]

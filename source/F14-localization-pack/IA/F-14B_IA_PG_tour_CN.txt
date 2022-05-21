@@ -5,7 +5,7 @@
 [RED TASK]
 
 [BLUE TASK]
-USS Forrestal，塔康59X，ICLS频道1，225 AM，BRC 308°
+USS 福莱斯特号，塔康59X，ICLS 波道1，225 AM，BRC 308°
 
 海盗加油机Arco，塔康33Y，225 AM，16000英尺
 [TRIGGERS]

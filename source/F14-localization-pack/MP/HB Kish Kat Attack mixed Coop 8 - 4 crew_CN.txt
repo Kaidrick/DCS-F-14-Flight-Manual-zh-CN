@@ -6,7 +6,7 @@
 可用客户端战机——
 CAP：8x F-14B，8x F-15C，4x F/A-18C，4x M-2000C
 SEAD：8x F/A-18C
-对地支援：8x F/A-18C，4x，AV-8B，4x A-10C
+对地打击：8x F/A-18C，4x，AV-8B，4x A-10C
 [RED TASK]
 
 [BLUE TASK]

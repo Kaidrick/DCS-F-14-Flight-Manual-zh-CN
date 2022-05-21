@@ -7,9 +7,9 @@ CASE 1回收是在天气和可见度良好情况下的标准着舰程序。
 [RED TASK]
 
 [BLUE TASK]
-福莱斯特号，塔康59x，225.000 AM，频道1。 ICLS 频道1。 DL 启用， BRC 040°
+福莱斯特号，塔康59x，225.000 AM，波道1。ICLS 波道1。 DL 启用， BRC 040°
 
-海盗加油机Arco在14000英尺就位，225.000AM ，频道1，塔康33Y
+海盗加油机Arco在14000英尺就位，225.000AM ，波道1，塔康33Y
 [TRIGGERS]
 [RADIO MESSAGES]
 [TRANS MESSAGES]

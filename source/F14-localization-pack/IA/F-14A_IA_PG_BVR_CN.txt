@@ -5,7 +5,7 @@
 [RED TASK]
 
 [BLUE TASK]
-USS Stennis，塔康74X，ICLS频道1，225 AM， BRC 130°
+斯坦尼斯号，塔康74X，ICLS 波道1，225 AM， BRC 130°
 
 加油机Texaco，33Y，225 AM，18000英尺
 [TRIGGERS]

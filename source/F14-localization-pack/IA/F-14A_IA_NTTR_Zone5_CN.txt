@@ -1,0 +1,557 @@
+[TITLE]
+五级加力 - 1v1 航炮
+[DESCRIPTION]
+大家好，我是大卫-巴拉内克，呼号是 Bio，是“五级加力”战役的合著者，与 Reflected Simulations 合作制作本战役。
+
+本次任务你将从空中重生，执行一对一仅使用航炮演习任务来攻击驾驶 F-5 战机的 Gator。Gator 位于你左方大概1.5海里处。
+
+当你准备好开始交战时，按空格键，然后 Gator 会标注 fight’s on（格斗开始）。
+
+祝好运！
+------------------------------------------------------------------------------
+
+***说明***
+
+- Gator 位于你左方1.5海里处。Fence in（开关设置到适合战斗的档位），设置电台到 Blackjack（button--波道 1）以及 Showtime（button 14），接着按下空格键标注就绪。标注了 fight's on 后即可交战。
+
+- 仔细盘算好燃油，以及你应该有足够的燃油返回内利斯基地。如有需要的话，有两架加油机已就位，详情请查看你的膝板卡片。
+
+- 查看膝板卡片以及简报图片来了解进入/脱离攻击程序。
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[1]
+检查 ATIS（自动航站情报服务），抵达 RAMM 点时按下空格键在 BUTTON 6来联系内利斯进近管制。
+[2]
+
+[3]
+按下空格键在 BUTTON 4联系内利斯塔台。
+[4]
+
+[5]
+按下空格键回复 JESTER。你可以在膝板卡片中找到检查单。
+[6]
+
+[7]
+按下空格键来在 BUTTON 3联系内利斯地面活动管制。
+[8]
+
+[9]
+大家好，我是大卫-巴拉内克，呼号是 Bio，是“五级加力”战役的合著者，与 Reflected Simulations 合作制作本战役。
+
+本次任务你将从空中重生，执行一对一仅使用航炮演习任务来攻击驾驶 F-5 战机的 Gator。Gator 位于你左方大概1.5海里处。
+
+当你准备好开始交战时，按空格键，然后 Gator 会标注 fight’s on（格斗开始）。
+
+祝好运！
+[10]
+
+[11]
+按下空格键来在 BUTTON 1 向 SHOWTIME 报告离开。
+[12]
+
+[13]
+你已位于 BIGHORN 处的 GATE 4。按下空格键来在 BUTTON 14 向 BLACKJACK 报告离开。
+[14]
+
+[15]
+***任务完成***
+
+你可以现在退出任务，或者根据需要继续。
+[16]
+[你] Fox 1 -1
+[17]
+[你] Fox 1 -2
+[18]
+[你] Fox 1 -3
+[19]
+[你] Fox 1 -4
+[20]
+[你] Fox 3 -1
+[21]
+[你] Fox 3 -2
+[22]
+[你] Fox 3 -3
+[23]
+[你] Fox 3 -4
+[24]
+希望你在本次和 F-5 格斗中有愉快体验。
+
+这只是训练计划的开始，在战役的后期，你将随着不断的飞行而有所长进，在那里你的小队——也就是两架雄猫——将执行现实中的战斗机任务，并与越来越有挑战性的敌机演练作战。接着你将加入师级行动，在师级行动中你将成为四架雄猫战机中的一员，对抗数量不详的敌机。
+
+如想经历整个训练计划，飞行完整的任务并取得定制的皮肤，请前往 DCS 或 Steam 商店购买本战役。
+
+感谢你的支持。
+[RADIO MESSAGES]
+[1]
+Knock it off！（中止空战格斗机动）
+[2]
+Knock it off！（中止空战格斗机动）
+[3]
+Knock it off！（中止空战格斗机动）
+[4]
+Knock it off！（中止空战格斗机动）
+[TRANS MESSAGES]
+[1]
+[RAVEN] 内利斯地面，Outlaw 46，离开跑道至 Bravo。
+[2]
+[内利斯地面] Topgun 3，Nellis 地面，沿 Foxtrot，Alpha 滑行，穿越跑道 03 左，03 右跑道外等待。
+[3]
+[RAVEN] 内利斯地面，Outlaw 46，准备好在 Hotel 上滑行。
+[4]
+[内利斯地面] Topgun 46，Nellis 地面，沿 Foxtrot，Alpha 滑行，穿越跑道 03 左，03 右跑道外等待。
+[5]
+[RAVEN] Outlaw 46 开始滑行。
+[6]
+[JESTER] 沿 Foxtrot，Alpha 滑行，穿越跑道 03 左，03 右跑道外等待，Sniper 3。
+[7]
+[内利斯地面] Outlaw 46 内利斯地面，从 Bravo 滑行至 Foxtrot。
+[8]
+[JESTER] Sniper 3 开始滑行。
+[9]
+[VIPER] Topgun 43 开始滑行。
+[10]
+[JESTER] 内利斯地面，Sniper 3，离开跑道至 Bravo。
+[11]
+[内利斯地面] Sniper 3 内利斯地面，沿 Bravo 滑行至 Foxtrot。
+[12]
+[RAVEN] 沿 Foxtrot，Alpha 滑行，穿越跑道 03 左，03 右跑道外等待，Outlaw 46。
+[13]
+[JESTER] 内利斯地面，Sniper 3，准备好在 Hotel 上滑行。
+[14]
+[JESTER] 从 Bravo 滑行至 Foxtrot，Sniper 3。
+[15]
+[RAVEN] 从 Bravo 滑行至 Foxtrot，Outlaw 46。
+[16]
+[JESTER] Sniper 3 准许着陆至跑道 21 左。
+
+[17]
+[内利斯塔台] Sniper 3，准许着陆至跑道二一左。
+[18]
+[JESTER] Topgun 3 小队，切换至 button 6（波道6）
+[19]
+[RAVEN] 内利斯塔台，Outlaw 46 在 03 右跑道外等待离场。
+[20]
+[内利斯塔台] Outlaw 46，内利斯塔台，风向 190 风速 8，可以从跑道 03 右起飞。
+
+[21]
+[JESTER] 内利斯塔台，Sniper 3 在 03 右跑道外等待离场。
+[22]
+[DICE] 二号机。
+[23]
+[JESTER] Sniper 3 收到，照办。
+[24]
+[JESTER] 内利斯塔台，Sniper 3，开始通场，全停着陆。
+[25]
+[内利斯塔台] Sniper 3，内利斯塔台，风向 190 风速 8，可以从跑道 03 右起飞。
+[26]
+[内利斯塔台] Sniper 3，内利斯塔台，可以在跑道 21 左通场。
+
+[27]
+[JESTER] Sniper 3。
+[28]
+[RAVEN] 可以从跑道 03 右起飞，Outlaw 46。
+[29]
+[JESTER] 可以从跑道 03 右起飞，Sniper 3。
+
+[30]
+[JESTER] Sniper 3 正切，起落架，全停着陆。
+[31]
+[内利斯塔台] Sniper 3，内利斯塔台，沿 Bravo 离开跑道，联系地面管制。
+
+[32]
+[DICE] Topgun 4 切换中。
+[33]
+[JESTER] 内利斯离场，Sniper 3 与你联系，North War。
+[34]
+[内利斯离场] Sniper 3, 内利斯离场, Radar identified, climb to 7000 maintain 250 knots, follow heading 344 over Truck Stop, then resume own navigation.
+[35]
+Topgun 2 gear up rejoining
+[36]
+Nellis Approach, Chevy 1 over STRYK with information Charlie looking for visual full stop
+[37]
+[JESTER] Climb to 7000 , maintain 250 knots, follow heading 344 over Truck Stop, Sniper 3.
+
+[38]
+
+[39]
+[JESTER] Nellis Approach, Sniper 3 at RAMMM with Bravo, for the overhead full stop.
+[40]
+Chevy 1, radar contact. Continue inbound Nellis expect visual approach runway 21 left, contact Nellis Tower when 5 miles out.
+[41]
+[NELLIS APPROACH] Sniper 3, radar contact. Continue inbound Nellis expect the overhead runway 21 left, contact Nellis Tower at the initial.
+[42]
+[NELLIS APPROACH] Topgun 3, radar contact. Continue inbound Nellis expect the overhead runway 21 left, contact Nellis Tower at the initial.
+
+[43]
+[JESTER] Sniper 3, wilco.
+[44]
+Viusal approach 21 left, contact tower when 5 miles out, Chevy 1
+[45]
+[JESTER] Topgun 3 flight switch tower.
+[46]
+
+[47]
+[JESTER] Sniper 3 wilco, 29.43
+[48]
+[BLACKJACK] Sniper 3，hard deck（避免撞地的安全高度），knock it off（停止空战格斗机动）。
+[49]
+[BLACKJACK] Sniper 3, Blackjack, radar contact. You are cleared at Gate 4. Your discretion. Altimeter 29.43. Request you squawk mode 3 tactical. Standby for words. 
+
+[50]
+[BLACKJACK] Words Alpha: Outlaw 46 as fragged.  All control in the clear. How copy?
+[51]
+[JESTER] Sniper 3 copy all.
+[52]
+[SHOWTIME] Topgun 4, hard deck, knock it off!
+[53]
+[JESTER] Sniper 3 knock it off（停止空战格斗机动）。
+[54]
+[JESTER] Blackjack, Sniper 3, North War complete. Cleared to open Elgin corridor.
+[55]
+[DICE] Topgun 3 knock it off.
+[56]
+[JESTER] Blackjack, Sniper 3  checking in as fragged.
+[57]
+[BLACKJACK] Sniper 3, Blackjack, copy, you are cleared to RTB.
+
+[58]
+[RAVEN] Outlaw 46 knock it off.
+[59]
+[BLACKJACK] Outlaw 42，hard deck（避免撞地的安全高度），knock it off（停止空战格斗机动）。
+[60]
+[SHOWTIME] Sniper 3, Showtime, your pod is tracking. Proceed to India and call ready when able.
+[61]
+[SHOWTIME] Showtime copies all. Recorders on. Fight's on!
+[62]
+[JESTER] Showtime, Sniper 3 checking in as fragged.
+[63]
+[SHOWTIME] Topgun 3, hard deck, knock it off!
+[64]
+[JESTER] Dammit!
+[65]
+[DICE] Topgun 4.
+[66]
+[SHOWTIME] Topgun 4, hard deck, knock it off!
+[67]
+[SHOWTIME] 所有小队，Showtime。Knock it off（停止空战格斗机动）。训练完成。所有小队 RTB（返回基地）。
+[68]
+[GATOR] Outlaw 42，knock it off（停止空战格斗机动）。
+[69]
+JESTER] Topgun 3 flight check in ready.
+[70]
+[JESTER] Sniper 3 knock it off（停止空战格斗机动）。
+[71]
+[JESTER] Showtime, Sniper 3 checking out.
+[72]
+[JESTER] Sniper 3 knock it off（停止空战格斗机动），RTB。
+[73]
+[SHOWTIME] Sniper 3, Showtime, copy that.
+
+[74]
+[DICE] Topgun 4 knock it off.
+[75]
+[JESTER] Topgun 3 flight go button 14.
+[76]
+[SHOWTIME] Good break, continue.
+[77]
+[RAVEN] Outlaw 46 Ready.
+[78]
+[SHOWTIME] Sniper 3, you're dead.
+[79]
+[YOU] Left to left.
+[80]
+[DICE] Button 9, Topgun 14.
+[81]
+[RAVEN] Left to left.
+[82]
+[SHOWTIME] Topgun 4, you're dead.
+[83]
+[RAVEN] Sniper 3, head toward Bighorn for 60 seconds, then turn back toward India and call when ready.
+[84]
+[JESTER] Sniper 3 ready.
+[85]
+[RAVEN] Outlaw 46, knock it off, RTB.
+[86]
+[SHOWTIME] Outlaw 46, you're dead.
+[87]
+[JESTER] Sniper 3，Speed and Angels（格斗开始前标注飞机参数正确的术语），右侧。
+[88]
+[JESTER] Sniper 3.
+[89]
+[GATOR] Outlaw 42，Speed and Angels，左侧。记录仪开启。Fight’s on（格斗开始）！
+[90]
+[JESTER] Sniper 3，knock it off（停止空战格斗机动）。
+[91]
+[JESTER] Topgun 3, tally wild card!
+[92]
+[YOU] Up.
+[93]
+[YOU] Set.
+[94]
+[YOU] Off.
+[95]
+[YOU]  Auto, normal, bugout, set.
+[96]
+[YOU] Set.
+[97]
+[YOU] Up.
+[98]
+[YOU] High.
+[99]
+[YOU] On.
+[100]
+[YOU] On.
+[101]
+[YOU] Normal.
+[102]
+[YOU] On.
+[103]
+[YOU] Air to air.
+[104]
+[YOU] +53
+[105]
+[YOU] Checked.
+[106]
+[YOU] Adjusted.
+[107]
+[JESTER] Loose gear.
+[108]
+[JESTER] Topgun 3 flight switch button 6.
+[109]
+[DICE] Two.
+[110]
+[YOU]  Master Arm - OFF. Fenced out.
+[111]
+[YOU] Sniper 3, Fox 2!
+[112]
+[JESTER] Alright Bozo, we're approaching the range, let's do the g warm.
+[113]
+[YOU] 扳机按下。
+[114]
+[YOU] Normal feed, Auto transfer, dump off, feed tanks full, bingo set.
+[115]
+[YOU] I'm armed top and bottom, showing MCO in the window.
+[116]
+[YOU] All mine are set
+[117]
+[YOU] Normal
+[118]
+[YOU] 20 degrees, auto, both lights out.
+[119]
+[YOU] Spoiler module on, spoiler brake selected.
+[120]
+[YOU] Mine's locked.
+[121]
+[YOU] Mine are out.
+[122]
+[YOU] 3 down and locked.
+[123]
+[YOU] Locked
+[124]
+[JESTER] Flaps
+[125]
+[JESTER] Speed brakes
+[126]
+[YOU] Stowed.
+[127]
+[DICE] Button 6, Topgun 4.
+[128]
+[JESTER] Topgun 3 flight, let’s check in with Showtime on button 1.
+[129]
+test
+[130]
+[YOU] Sniper 3, Fox 2!
+[131]
+[YOU] Sniper 3, g warm.
+[132]
+[JESTER] Canopy down, lights out.
+[133]
+[JESTER] SAS
+[134]
+[JESTER] Master test
+[135]
+[JESTER] Flaps and slats
+[136]
+[JESTER] Trim
+[137]
+[JESTER] Controls
+[138]
+[YOU] Full down
+[139]
+.
+[140]
+.
+[141]
+[JESTER] Topgun 3 rolling
+[142]
+.
+[143]
+.
+[144]
+.
+[145]
+.
+[146]
+.
+[147]
+.
+[148]
+.
+[149]
+.
+[150]
+.
+[151]
+.
+[152]
+.
+[153]
+.
+[154]
+.
+[155]
+.
+[156]
+.
+[157]
+.
+[158]
+.
+[159]
+.
+[160]
+.
+[161]
+[JESTER] OK Bozo, let's do the fence in check. I'll call out the checklist items. Sidewinder Tone.
+[162]
+[JESTER] Radio and ICS volumes.
+[163]
+[JESTER] Roll SAS.
+[164]
+[JESTER] Alpha computer circuit breaker: in. Fuel switches.
+[165]
+[JESTER] Weapons select.
+[166]
+[JESTER] ACM guard.
+[167]
+[JESTER] Gun rate.
+[168]
+[JESTER] Sidewinder coolant.
+[169]
+[JESTER] Missile Prep.
+[170]
+[JESTER] Missile mode.
+[171]
+[JESTER] Master arm.
+[172]
+[JESTER] PDCP
+[173]
+[JESTER] Mils.
+[174]
+[JESTER] G-suit.
+[175]
+[JESTER] Seat and rudder pedals.
+[176]
+[JESTER] Lap belts.
+[177]
+[JESTER] Sniper 3, fence in!
+[178]
+[BLACKJACK] Sniper 3 you are entering restricted airspace.
+[179]
+[DICE] Button 1, Topgun 4.
+[180]
+[JESTER] 干得好，飞得不错老兄！
+[181]
+[SHOWTIME] Sniper 3, you're dead.
+[182]
+[YOU] Sniper 3, Fox 2!
+[183]
+[YOU] 扳机按下。
+[184]
+[YOU] Check OK, accumulator pressure up.
+[185]
+[YOU] Lights out up here.
+[186]
+[YOU] All on.
+[187]
+[YOU] Off.
+[188]
+[YOU] Compass synched, standby gyro is erect
+[189]
+[YOU] Up
+[190]
+[YOU] Set 0,0,0.
+[191]
+[YOU] Here comes the wipeout. Left...aft...right...forward. Feels good.
+[192]
+[YOU] Ready!
+[193]
+[YOU] Engaged
+[194]
+[YOU] Brakes check, accumulator pressure up, spoiler brake selected
+[195]
+[JESTER] Wings
+[196]
+[JESTER] Hook
+[197]
+[JESTER] Fuel
+[198]
+[YOU] Secure
+[199]
+[RAVEN] Topgu 46 F
+[200]
+[JESTER] Topgun 3 flight approaching Blackjack, switch button 14.
+[201]
+[JESTER] I’ve completed my fence out checks.
+[202]
+[YOU] 我傻了！必须表现得更好点，干！
+[203]
+[JESTER] Sniper 3.
+[204]
+[YOU] Sniper 3, Fox 2!
+[205]
+[玩家] 扳机按下。扳机按下。
+[206]
+[JESTER] Fuel
+[207]
+[JESTER] Seat: armed top and bottom, command eject aft.
+[208]
+[JESTER] All circuit breakers set
+[209]
+[JESTER] Bi-di
+[210]
+[JESTER] Wings
+[211]
+[JESTER] Spoilers and Anti-skid
+[212]
+[JESTER] Harness locked.
+[213]
+[JESTER] All warning and caution lights out
+[214]
+[YOU] 20 degrees, auto
+[215]
+[YOU] Up
+[216]
+[YOU] Checked
+[217]
+[JESTER] Brakes
+[218]
+[YOU] Out.
+[219]
+[JESTER] Harness locked.
+[220]
+[JESTER] DLC
+[221]
+[JESTER] Gear
+[222]
+[JESTER] Ready to go?
+[223]
+[JESTER] Compass
+[224]
+[JESTER] Takeoff checklist. Brakes
+[225]
+[DICE] Topgun 4 fence out.
+[ENDS]

@@ -1,0 +1,451 @@
+[TITLE]
+恐惧骷髅骨！——由 Reflected Simulations 制作的训练任务
+[DESCRIPTION]
+1989年04月28日, 1720 时
+VF-84，CVW-8，美国海军
+西奥多.罗斯福号 CVN-71
+
+本任务为一类随机训练任务，基于 Reflected Simulations 的“恐惧骷髅骨”战役制作。美国海军福治谷号巡洋舰在靠近苏联海岸的黑海上发生了事故，西奥多-罗斯福号航母正在被派往事故地点为受损船只提供掩护。
+
+选好飞机、弹射并在受损巡洋舰上空建立 CAP（空中战斗巡逻），或就是练习下 CASE I 着舰——直到钩住第三根阻拦索为止。
+
+为了解锁完整剧情以及取得定制涂装，请前往 DCS 或 STEAM 商城购买战役。
+
+***进入飞机前请先取消暂停***
+
+-----------------------------------------------------------------------------------
+
+音乐：
+
+New Arcades - Solace
+
+Highway Superstar - Formation Laps
+来自 Retro Drive：原声带，由 Outland 唱片公司独家提供
+https://outlandrecordings.bandcamp.com/track/formation-laps
+
+Retro Drive：原声带
+https://outlandrecordings.bandcamp.com/album/retro-drive-the-soundtrack
+
+www.weloveoutland.com
+
+在 Soundcloud 关注 Outland：https://soundcloud.com/outlandsynth
+在 Facebook 关注 Outland：https://www.facebook.com/outlandsynth/
+Outland 以及作曲家的商品：https://outlandrecordings.bandcamp.com/
+在 Twitter 关注 Outland：https://twitter.com/outlandsynth
+在 Instagram 关注 Outland：https://www.instagram.com/outlandsynth/
+订阅 OutlandTV：https://www.youtube.com/c/outlandtv?sub_confirmation=1
+
+©℗2019 Outland Recordings。保留所有权利。未经 Outland 唱片公司事先明确的书面许可，不得复制、展示、修改或分发这些材料。有关许可和其他信息，请联系 info@weloveoutland.com
+[RED TASK]
+
+[BLUE TASK]
+
+[TRIGGERS]
+[1]
+1989年04月28日, 1720 时
+VF-84，CVW-8，美国海军
+西奥多.罗斯福号 CVN-71
+
+本任务为一类随机训练任务，基于 Reflected Simulations 的“恐惧骷髅骨”战役制作。美国海军福治谷号巡洋舰在靠近苏联海岸的黑海上发生了事故，西奥多-罗斯福号航母正在被派往事故地点为受损船只提供掩护。
+
+选好飞机、弹射并在受损巡洋舰上空建立 CAP（空中战斗巡逻），或就是练习下 CASE I 着舰——直到钩住第三根阻拦索为止。
+
+为了解锁完整剧情以及取得定制涂装，请前往 DCS 或 STEAM 商城购买战役。
+
+***进入飞机前请先取消暂停***
+[2]
+前进至 1号航路点，并在受损船只上空高度 ANGELS 25（千为单位的高度术语）处建立 CAP
+[3]
+Highway Superstar - Formation Laps
+来自 Retro Drive：原声带，由 Outland 唱片公司独家提供
+https://outlandrecordings.bandcamp.com/track/formation-laps
+
+Retro Drive：原声带
+https://outlandrecordings.bandcamp.com/album/retro-drive-the-soundtrack
+
+www.weloveoutland.com
+
+在 Soundcloud 关注 Outland：https://soundcloud.com/outlandsynth
+在 Facebook 关注 Outland：https://www.facebook.com/outlandsynth/
+Outland 以及作曲家的商品：https://outlandrecordings.bandcamp.com/
+在 Twitter 关注 Outland：https://twitter.com/outlandsynth
+在 Instagram 关注 Outland：https://www.instagram.com/outlandsynth/
+订阅 OutlandTV：https://www.youtube.com/c/outlandtv?sub_confirmation=1
+
+©℗2019 Outland Recordings。保留所有权利。未经 Outland 唱片公司事先明确的书面许可，不得复制、展示、修改或分发这些材料。有关许可和其他信息，请联系 info@weloveoutland.com
+[4]
+[联队机长] 欢迎回来，长官！
+[5]
+使用 F10 无线电菜单 button 2（波道）来向 MAGIC 报道已就位。敌机会随机重生。你可以随意重复执行这个操作，以重生更多的敌人。
+[6]
+目视到福治谷号时按下空格键
+[7]
+
+[8]
+在 TEXACO 的左翼编队，接着按下空格并使用 button 3（波道）联系他们
+[9]
+
+[10]
+将无线电台设置到离场和飞行管制频率，准备好滑行时按下空格继续。
+[11]
+滑行至弹射器并按下空格键来回复 JESTER
+[12]
+
+[RADIO MESSAGES]
+[1]
+已就位——部署空中目标
+[2]
+激活 SAM（面对空导弹）阵地
+[3]
+请求增援
+[4]
+请求加油机
+[5]
+调谐至无线电台
+[6]
+请求加油机
+[7]
+调谐至无线电台
+[8]
+请求加油机
+[9]
+调谐至无线电台
+[10]
+激活 SAM（面对空导弹）阵地
+[11]
+请求加油机
+[12]
+请求加油机
+[13]
+请求加油机
+[14]
+请求加油机
+[15]
+关闭无线电台
+[16]
+调谐至无线电台
+[17]
+关闭无线电台
+[18]
+关闭无线电台
+[19]
+请求增援
+[TRANS MESSAGES]
+[1]
+[JESTER] 安全带扣紧。
+[2]
+[玩家] 检查了 OK，蓄压器压力增加。
+[3]
+[玩家] 起落架放下并锁定。
+[4]
+[JESTER] 燃油
+[5]
+[玩家] 正常供油、自动转输、放油关闭、供油油箱满，设置好返航油量。
+[6]
+[JESTER] 座舱盖关闭，注意灯灭。
+[7]
+[玩家] 注意灯熄灭。
+[8]
+[JESTER] 座椅：顶部和底部解除保险，弹射指令手柄向后。
+[9]
+[玩家] 解除顶部和底部保险，指示窗显示 MCO。
+[10]
+[玩家] 都启用了。
+[11]
+[玩家] 我的都设置好了。
+[12]
+[玩家] 关闭。
+[13]
+[玩家] 正常。
+[14]
+[玩家] 20度、自动并且两个指示灯都已熄灭。
+[15]
+[玩家] 扰流板模块打开，扰流板制动关闭。
+[16]
+[玩家] 安全带已锁定。
+[17]
+[玩家] 这边全部熄灭。
+[18]
+[玩家] 完全放下
+[19]
+[玩家] Out。
+[20]
+[JESTER] 准备好起飞？
+[21]
+[JESTER] DLC
+[22]
+[JESTER] 刹车
+[23]
+[JESTER] 罗盘
+[24]
+[JESTER] 襟翼和缝翼
+[25]
+[JESTER] 配平
+[26]
+[JESTER] 操纵装置
+[27]
+[玩家] 准备就绪！
+[28]
+[玩家] 接通
+[29]
+[玩家] 检查
+[30]
+[JESTER] 所有告警灯和注意灯已熄灭
+[31]
+[JESTER] SAS
+[32]
+[JESTER] 所有断路器已设置好
+[33]
+[JESTER] 主测试
+[34]
+[JESTER] 双向泵
+[35]
+[玩家] 罗盘已同步，备用陀螺仪起竖
+[36]
+[玩家] 完全放下
+[37]
+[玩家] 设定
+[38]
+[玩家] 驾驶杆扫荡来咯。左...后...右...前。感觉良好。
+[39]
+[玩家] 20 度，自动
+[40]
+[玩家] 放下
+[41]
+[玩家] 已检查
+[42]
+[JESTER] 燃油
+[43]
+[JESTER] 减速板
+[44]
+[玩家] 已锁定
+[45]
+[JESTER] 襟翼
+[46]
+[JESTER] 拦阻钩
+[47]
+[JESTER] 起落架
+[48]
+[JESTER] 安全带已锁定
+[49]
+[玩家] 不错的弹射！不错不错！
+[50]
+[JESTER] 起飞检查单：刹车
+[51]
+[JESTER] 机翼
+[52]
+[JESTER] 扰流板和防滑
+[53]
+[JESTER] 机翼
+[54]
+[CAVEMAN] 撑住。
+[55]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[56]
+[MAGIC] Pontiac 1，Magic，收到。
+[57]
+[CAVEMAN] Pontiac 3 按照简报向两架 F14 报道。
+[58]
+[GHOST] 十海里！
+[59]
+[CAVEMAN] 40 海里。
+[60]
+[MAGIC] 准许交战，weapons hot（准许使用武器），伙计们！
+[61]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[62]
+[MAGIC] 收到，我们正起飞警戒机组。
+[63]
+[CAVEMAN] 收到。
+[64]
+[MAGIC] Pontiac 1，Magic，雷达接触。收到，在1号航路点盘旋。
+[65]
+[TEXACO] 碰上硬茬子了。右急转。
+[66]
+[玩家] Texaco，这里是 Pontiac 1，我们这有俩口干舌燥的大猫。你那边有些什么？
+[67]
+[CAVEMAN] 撑住。
+[68]
+[玩家] 好的 Elvis，让我们推进至1号航路点。我们波道2见。
+[69]
+[ELVIS]  2，收到，统一切至波道2。
+[70]
+[玩家] Magic，Pontiac 1 小队两架 F-14 已按照简报就位。
+[71]
+[玩家] Magic，Pontiac 1，请求飞向加油机。
+[72]
+[玩家] Button（波道）3，塔康 74X，Pontiac 1。
+[73]
+[玩家] Pontiac 1 升空。
+[74]
+[玩家] Magic，Pontiac 1，按简报飞跃1号航路点。
+[75]
+[JESTER] Jaws，你想让我们屁屁挨打吗？？保持在 BRC 方向上飞行，直到我们飞出 DME 7海里前，保持低于500英尺高度！
+[76]
+[玩家] Jaws，Fox 1！
+[77]
+[玩家] Jaws，Fox 1！
+[78]
+[玩家] Jaws，Fox 2！
+[79]
+[玩家] Jaws，Fox 3！
+[80]
+[ELVIS] 这里是 Pontiac 2，我们正在进行防御！
+[81]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[82]
+[CAVEMAN] 40 海里。
+[83]
+[MAGIC] Pontiac 1，Magic，收到了。
+[84]
+[TEXACO] 我要急转了。右转。
+[85]
+[玩家] Jaws，Fox 2！
+[86]
+[玩家] Jaws，Fox 3！
+[87]
+[GLORY] 福治谷号！就在那儿呢。
+[88]
+[ELVIS] Caveman，把你的跟屁虫拉过来！
+[89]
+[MAGIC] 收到，我们正起飞警戒机组。
+[90]
+“[玩家] 机翼20°自动、起落架放、SAS 启用、襟翼全放、DLC 接通并检查、拦阻钩放下
+安全带锁紧、减速板打开、扰流板制动关闭以及燃油检查。”
+[91]
+[ELVIS] Mayday（遇险信号术语），Mayday，这里是 Pontiac 2，我们被打中了！
+[92]
+[玩家]  Pontiac 1，穿过2号航路点。
+[93]
+[玩家] Jaws，Fox 1！
+[94]
+[玩家] Jaws，Fox 1！
+[95]
+[玩家] Jaws，Fox 2！
+[96]
+[玩家] Jaws，Fox 3！
+[97]
+[玩家] 一号机，目视到了。
+[98]
+[MAGIC] 收到，我们正起飞警戒机组。
+[99]
+[MAGIC] 准许交战，weapons hot（准许使用武器），伙计们！
+[100]
+[玩家] Pontiac 1，收到，在1号航路点盘旋。
+[101]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[102]
+[CAVEMAN] 收到。
+[103]
+[GHOST] 十海里！
+[104]
+[CAVEMAN] Pontiac 3 按照简报向两架 F14 报道。
+[105]
+[玩家] Jaws，Fox 2！
+[106]
+[玩家] Jaws，Fox 3！
+[107]
+[MAGIC] Pontiac 1，Magic，雷达接触。收到，在1号航路点盘旋。
+[108]
+“[玩家] 机翼20°自动、起落架放、SAS 启用、襟翼全放、DLC 接通并检查、拦阻钩放下
+安全带锁紧、减速板打开、扰流板制动关闭以及燃油检查。”
+[109]
+[玩家] Magic，Pontiac 1，请求飞向加油机。
+[110]
+[玩家] Button（波道）3，塔康 74X，Pontiac 1。
+[111]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[112]
+“[玩家] 机翼20°自动、起落架放、SAS 启用、襟翼全放、DLC 接通并检查、拦阻钩放下
+安全带锁紧、减速板打开、扰流板制动关闭以及燃油检查。”
+[113]
+[玩家] Magic，Pontiac 1，请求飞向加油机。
+[114]
+[玩家] Button（波道）3，塔康 74X，Pontiac 1。
+[115]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[116]
+[玩家] Texaco，这里是 Pontiac 1，我们这有俩口干舌燥的大猫。你那边有些什么？
+[117]
+[CAVEMAN] 40 海里。
+[118]
+[玩家] 好的 Elvis，让我们推进至1号航路点。我们波道2见。
+[119]
+[ELVIS]  2，收到，统一切至波道2。
+[120]
+[玩家] Magic，Pontiac 1 小队两架 F-14 已按照简报就位。
+[121]
+[玩家] Magic，Pontiac 1，请求飞向加油机。
+[122]
+[玩家] Button（波道）3，塔康 74X，Pontiac 1。
+[123]
+[玩家] Pontiac 1 升空。
+[124]
+[玩家] Magic，Pontiac 1，按简报飞跃1号航路点。
+[125]
+[JESTER] Jaws，你想让我们屁屁挨打吗？？保持在 BRC 方向上飞行，直到我们飞出 DME 7海里前，保持低于500英尺高度！
+[126]
+[玩家] Jaws，Fox 1！
+[127]
+[玩家] Jaws，Fox 1！
+[128]
+[玩家] Jaws，Fox 2！
+[129]
+[玩家] Jaws，Fox 3！
+[130]
+[ELVIS] 这里是 Pontiac 2，我们正在进行防御！
+[131]
+[MAGIC] 收到，我们正起飞警戒机组。
+[132]
+“[玩家] 机翼20°自动、起落架放、SAS 启用、襟翼全放、DLC 接通并检查、拦阻钩放下
+安全带锁紧、减速板打开、扰流板制动关闭以及燃油检查。”
+[133]
+[CAVEMAN] Pontiac 3 按照简报向两架 F14 报道。
+[134]
+[MAGIC] Pontiac 1，Magic，雷达接触。收到，在1号航路点盘旋。
+[135]
+[玩家] Jaws，Fox 2！
+[136]
+[玩家] Jaws，Fox 3！
+[137]
+[GLORY] 福治谷号！就在那儿呢。
+[138]
+[ELVIS] Caveman，把你的跟屁虫拉过来！
+[139]
+[MAGIC] 准许交战，weapons hot（准许使用武器），伙计们！
+[140]
+[玩家] Pontiac 1，收到，在1号航路点盘旋。
+[141]
+[ELVIS] Mayday（遇险信号术语），Mayday，这里是 Pontiac 2，我们被打中了！
+[142]
+[玩家]  Pontiac 1，穿过2号航路点。
+[143]
+[玩家] Jaws，Fox 1！
+[144]
+[玩家] Jaws，Fox 1！
+[145]
+[玩家] Jaws，Fox 2！
+[146]
+[玩家] Jaws，Fox 3！
+[147]
+[玩家] 一号机，目视了。
+[148]
+[MAGIC] Pontiac 1，Magic，准许飞向加油机，在 button 3（波道3）联系 Texaco，塔康 74X。
+[149]
+[CAVEMAN] 撑住！
+[150]
+[GHOST] 十海里！
+[151]
+[TEXACO] 我要急转了。右转。
+[152]
+[MAGIC] Pontiac 1，Magic，收到了。
+[153]
+[玩家] Jaws，Fox 2！
+[154]
+[玩家] Jaws，Fox 3！
+[155]
+[TEXACO] 收到。
+[156]
+“[玩家] 机翼20°自动、起落架放、SAS 启用、襟翼全放、DLC 接通并检查、拦阻钩放下
+安全带锁紧、减速板打开、扰流板制动关闭以及燃油检查。”
+[ENDS]

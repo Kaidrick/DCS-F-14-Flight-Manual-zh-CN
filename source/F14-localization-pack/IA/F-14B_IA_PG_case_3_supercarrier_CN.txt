@@ -9,7 +9,7 @@ Case 3 回收是在恶劣气象条件和目视条件下的标准回收程序。
 [RED TASK]
 
 [BLUE TASK]
-USS 亚伯拉罕林肯，塔康 74x，225.000 AM，波道 1.ICLS 波道 1。DL 激活，BRC 050°。 
+USS 亚伯拉罕林肯，塔康 72x，225.000 AM，波道 1。ICLS 波道 1。DL 启用，BRC 050°。 
 
 海盗加油机 Arco 在高度14000英尺就位，塔康 33Y，225 AM
 [TRIGGERS]
