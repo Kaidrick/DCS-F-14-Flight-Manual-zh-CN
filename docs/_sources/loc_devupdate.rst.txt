@@ -107,3 +107,9 @@ HB AIM-54 新 API 上线测试
 * DCS: F-14 Patch Overview - New Autopilot & MP Seat Switching   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv15714783/>`_” 
 
 ---------------------------------------------
+
+2022/05/18 Heatblur 小消息 + 五月更新日志 (F-14 & AJS-37)
+****************
+* Heatblur Mini-Update + May Patch Changelogs (F-14 & AJS-37)   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv16678301/>`_” 
+
+---------------------------------------------
