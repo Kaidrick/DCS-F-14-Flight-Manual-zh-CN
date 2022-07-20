@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 18:11+0800\n"
-"PO-Revision-Date: 2022-05-17 12:09+0800\n"
+"PO-Revision-Date: 2022-07-04 21:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 
 # 翻译时：
 # 1. 段落标题尽量翻译成汉语，如有必要使用英文在括号内注释
@@ -911,14 +911,15 @@ msgstr "减速板开关"
 msgid "Switch controlling extension of the speed brake."
 msgstr "用于控制减速板展开和收起。"
 
+# momentary switch/position--施加压力才能保持的档位
 #: ../../source/cockpit.rst:0
 msgid ""
 "EXT - Momentary position returning to center when released. Incrementally "
 "extends speed brake while held. Speed brake remains in position it's at when "
 "released."
 msgstr ""
-"EXT - 释放开关后，回到中间位置。将开关保持在 EXT 档位会逐渐展开减速板。开关回"
-"中后，减速板仍会保持在当前位置。"
+"EXT - 瞬时档位，释放开关后回到中立位置。将开关保持在 EXT 档位会逐渐展开减速"
+"板。开关回中后，减速板仍会保持在当前位置。"
 
 #: ../../source/cockpit.rst:0
 msgid "RET - Toggle position retracting speed brake."
@@ -2382,7 +2383,7 @@ msgid ""
 "Advisory light indicating carrier has a channel ready for ACL and that the "
 "crew should prepare for carrier landing."
 msgstr ""
-"提示灯亮起表示母舰存在可用于 ACL 作业的波道，且机组成员应做好着舰准备。"
+"提示灯，亮起表示母舰存在可用于 ACL 作业的波道，且机组成员应做好着舰准备。"
 
 #: ../../source/cockpit.rst:1088
 msgid "ACL READY"
@@ -2485,8 +2486,8 @@ msgid ""
 "Warning light indicating failure in both wing-sweep channels or "
 "disengagement of spider detent."
 msgstr ""
-"指示指示灯亮起起表示两侧的机翼后掠控制通道中出现故障，或表示应急机翼后掠手柄"
-"的随动限位器解除。"
+"告警灯，亮起表示两侧的机翼后掠控制通道中出现故障，或表示应急机翼后掠手柄的随"
+"动限位器解除。"
 
 #: ../../source/cockpit.rst:1106
 msgid "REDUCE SPEED"
@@ -2701,14 +2702,13 @@ msgstr "这个功能背后的逻辑是，向后拨动拨轮来增加升力，向
 msgid "DLC engage/disengage & countermeasure dispense button"
 msgstr "DLC 启用/解除和对抗措施弹射按钮"
 
-# 参考general，待改
 #: ../../source/cockpit.rst:0
 msgid ""
 "Momentary depression with flaps down, throttles less than MIL and no spoiler "
 "system failure engages DLC."
 msgstr ""
-"襟翼放下，油门不超过 MIL（军用推力）位置，且扰流板系统无故障时，短按按钮来启"
-"用 DLC。"
+"保持向后来放下襟翼，油门不超过 MIL（军用推力），且扰流板系统无故障时，短按按"
+"钮来启用 DLC。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -5437,8 +5437,8 @@ msgstr "WPN TYPE 拨轮"
 #: ../../source/cockpit.rst:2472
 msgid "Selector wheel selecting type of weapon used for WCS A/G calculation."
 msgstr ""
-"武器类型选择拨轮，用于选择 WCS 在 A/G（空对地）模式中进行挂载投放数据计算时使"
-"用的武器类型。"
+"武器类型拨轮，用于选择 WCS 在 A/G（空对地）模式中进行挂载投放数据计算时使用的"
+"武器类型。"
 
 #: ../../source/cockpit.rst:2474
 msgid "ATTK MODE knob"
@@ -5470,24 +5470,24 @@ msgstr ""
 
 #: ../../source/cockpit.rst:2480
 msgid "QTY selectors"
-msgstr "QTY 选择拨轮"
+msgstr "QTY 拨轮"
 
 #: ../../source/cockpit.rst:2480
 msgid ""
 "Selector wheels controlling quantity of A/G ordnance (including rockets) to "
 "be released."
-msgstr "投放数量选择开关，用于控制 A/G 武器（包括火箭弹）投放的数量。"
+msgstr "武器投放数量拨轮，用于控制 A/G 武器（包括火箭弹）投放的数量。"
 
 #: ../../source/cockpit.rst:2482
 msgid "INTERVAL selectors"
-msgstr "INTERVAL 选择拨轮"
+msgstr "INTERVAL 拨轮"
 
 #: ../../source/cockpit.rst:2482
 msgid ""
 "Selector wheels controlling interval between weapons release in ripple "
 "delivery mode in milliseconds."
 msgstr ""
-"投放间隔选择拨轮，用于控制连发投放模式下，武器投放的间隔，设置的投放间隔单位"
+"武器投放间隔拨轮，用于控制连发投放模式下，武器投放的间隔，设置的投放间隔单位"
 "为毫秒。"
 
 #: ../../source/cockpit.rst:2484
@@ -5978,7 +5978,7 @@ msgid ""
 "Knob used to control the intensity of the ERASE beam on the DDD, controlling "
 "how quick the image on the DDD fades."
 msgstr ""
-"擦除旋钮，旋钮用来控制 DDD 显示中，ERASE（擦除）射束的强度，以控制 DDD 上成像"
+"擦除旋钮，旋钮用来控制 DDD 显示中，ERASE（擦除）波束的强度，以控制 DDD 上成像"
 "消失的快慢。"
 
 #: ../../source/cockpit.rst:2712
@@ -7317,7 +7317,7 @@ msgstr "AN/ALE-39 控制面板"
 
 #: ../../source/cockpit.rst:3322
 msgid "Inventory counters"
-msgstr "对抗措施剩余数量计数"
+msgstr "剩余数量计数器"
 
 #: ../../source/cockpit.rst:3322
 msgid ""
@@ -7409,7 +7409,7 @@ msgstr "对抗措施弹射开关"
 msgid ""
 "Switches springloaded to center which controls respective countermeasure "
 "release actuation."
-msgstr "弹簧开关，松开开关时弹回中立位置，用于控制对应对抗措施的弹射动作。"
+msgstr "对抗措施弹射开关为弹簧归中，开关用于控制对应对抗措施的弹射动作。"
 
 #: ../../source/cockpit.rst:0
 msgid ""
@@ -7425,7 +7425,7 @@ msgstr "STBY - 待机，不弹射对抗措施。"
 
 #: ../../source/cockpit.rst:0
 msgid "SGL - Single, momentary actuation releases a single countermeasure."
-msgstr "SGL - 单发，短暂拨动至至 SGL 将动作弹射单发对抗措施。"
+msgstr "SGL - 单发，短暂拨动至 SGL 将指令弹射单发对抗措施。"
 
 # 是 AAI，不是AA1
 #: ../../source/cockpit.rst:3358

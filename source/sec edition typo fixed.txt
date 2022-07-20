@@ -54,3 +54,8 @@ circuit--电路-->回路
 unit-->导航部分xx单元改成装置
 2022/03/12往后
 无线电 LOAD--加载（包括按键）
+2022/05/21
+transmitter--发射机（雷达）
+beam--波束（擦除）
+tws--边扫描边跟踪
+momentary--瞬时(信号)/短暂拨动(动作)/momentary switch/position--施加压力才能保持的档位

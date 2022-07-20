@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2022-03-10 00:09+0800\n"
+"PO-Revision-Date: 2022-07-04 19:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 
 #: ../../source/accr.rst:2
 msgid "Acronyms and Abbreviations"
@@ -1423,7 +1423,7 @@ msgstr ""
 msgid "Lead Computing Optical Sight"
 msgstr ""
 
-# GJB 624.13A-2010 
+# GJB 624.13A-2010
 #: ../../source/accr.rst:301
 msgid "__Lead Computing Optical Sight"
 msgstr "前置计算光学瞄准"
@@ -2540,7 +2540,7 @@ msgstr ""
 
 #: ../../source/accr.rst:535
 msgid "__Track While Scan"
-msgstr "边搜索边跟踪"
+msgstr "边扫描边跟踪"
 
 #: ../../source/accr.rst:537
 msgid "TWSA"
