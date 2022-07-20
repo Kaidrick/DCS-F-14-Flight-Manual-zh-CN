@@ -113,3 +113,9 @@ HB AIM-54 新 API 上线测试
 * Heatblur Mini-Update + May Patch Changelogs (F-14 & AJS-37)   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv16678301/>`_” 
 
 ---------------------------------------------
+
+2022/06/22 F-14完整更新日志
+****************
+* F-14 Tomcat Patch June 22nd 2022   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv17227603/>`_” 
+
+---------------------------------------------
