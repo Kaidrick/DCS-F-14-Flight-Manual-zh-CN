@@ -1,9 +1,9 @@
 [TITLE]
-海峡自由飞行有
+海峡自由飞行
 [DESCRIPTION]
 在海峡上空自由飞行
 
-斯塔尼斯正在穿越海峡，TACAN 74X
+斯坦尼斯号正在穿越海峡，TACAN 74X
 [RED TASK]
 
 [BLUE TASK]

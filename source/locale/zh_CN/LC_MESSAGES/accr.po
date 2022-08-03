@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: DCS: F-14 Tomcat Flight Manul zh-CN 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 23:58+0800\n"
-"PO-Revision-Date: 2022-07-04 19:14+0800\n"
+"PO-Revision-Date: 2022-07-31 09:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: ../../source/accr.rst:2
 msgid "Acronyms and Abbreviations"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../source/accr.rst:36
 msgid "__Automatic Stored Heading"
-msgstr "自动储存航向"
+msgstr "自动预存航向"
 
 #: ../../source/accr.rst:38
 msgid "ATC"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../../source/accr.rst:61
 msgid "__Base Recovery Course"
-msgstr "母舰回收航向"
+msgstr "母舰回收航线"
 
 #: ../../source/accr.rst:63
 msgid "BRST"
@@ -452,7 +452,7 @@ msgstr ""
 # what even is this thingy???
 #: ../../source/accr.rst:84
 msgid "__Computer Integrated Converter Unit"
-msgstr "计算机综合转换器单元"
+msgstr "计算机综合转换器装置"
 
 #: ../../source/accr.rst:86
 msgid "CLSN"
@@ -591,7 +591,7 @@ msgstr ""
 
 #: ../../source/accr.rst:113
 msgid "__Digital Data Indicator"
-msgstr "数字数据显示器"
+msgstr "数字数据显示面板"
 
 #: ../../source/accr.rst:115
 msgid "DECM"
@@ -639,7 +639,7 @@ msgstr ""
 
 #: ../../source/accr.rst:121
 msgid "__Destination"
-msgstr "目的地"
+msgstr "目标(点)"
 
 #: ../../source/accr.rst:123
 msgid "DF"
@@ -787,7 +787,7 @@ msgstr ""
 
 #: ../../source/accr.rst:152
 msgid "__Electronic Instrument Group"
-msgstr "电子仪表组"
+msgstr "发动机仪表组"
 
 #: ../../source/accr.rst:154
 msgid "ETA"
@@ -1096,7 +1096,7 @@ msgstr ""
 
 #: ../../source/accr.rst:221
 msgid "__Hostile"
-msgstr "敌对"
+msgstr "敌机"
 
 #: ../../source/accr.rst:223
 msgid "HPRF"
@@ -1220,7 +1220,7 @@ msgstr ""
 
 #: ../../source/accr.rst:248
 msgid "__In-Flight Training"
-msgstr "空中飞行训练"
+msgstr "飞行训练"
 
 #: ../../source/accr.rst:250
 msgid "ILS"
@@ -1710,7 +1710,7 @@ msgstr ""
 
 #: ../../source/accr.rst:361
 msgid "__Naval Flight Officer"
-msgstr "海军飞行操作官"
+msgstr "海军飞行官"
 
 #: ../../source/accr.rst:363
 msgid "NFOV"
@@ -1790,7 +1790,7 @@ msgstr ""
 
 #: ../../source/accr.rst:387
 msgid "__See LSO"
-msgstr "同LSO"
+msgstr "同 LSO"
 
 #: ../../source/accr.rst:389
 msgid "PAL"
@@ -1839,7 +1839,6 @@ msgstr ""
 msgid "Pilot Display Control Panel"
 msgstr ""
 
-# need ref
 #: ../../source/accr.rst:395
 msgid "__Pilot Display Control Panel"
 msgstr "飞行员显示控制面板"
@@ -1854,7 +1853,7 @@ msgstr ""
 
 #: ../../source/accr.rst:397
 msgid "__Pulse Doppler Radar Slaved"
-msgstr "脉冲多普勒雷达从属"
+msgstr "脉冲多普勒雷达隶属"
 
 #: ../../source/accr.rst:399
 msgid "PDS"
@@ -1900,8 +1899,6 @@ msgstr ""
 msgid "Pilot Lockon Mode"
 msgstr ""
 
-# ref?
-# pilot seat? rio seat?
 #: ../../source/accr.rst:405
 msgid "__Pilot Lockon Mode"
 msgstr "飞行员锁定模式"
@@ -1940,7 +1937,7 @@ msgstr ""
 
 #: ../../source/accr.rst:411
 msgid "__Pulse Radar Slaved"
-msgstr "脉冲雷达随动"
+msgstr "脉冲雷达隶属"
 
 #: ../../source/accr.rst:413
 msgid "PS"
@@ -1986,14 +1983,13 @@ msgstr ""
 msgid "QADL"
 msgstr ""
 
-# ref???
 #: ../../source/accr.rst:426
 msgid "Cue-to-ADL"
 msgstr ""
 
 #: ../../source/accr.rst:426
 msgid "__Cue-to-ADL"
-msgstr "标识移动至武器基准线"
+msgstr "隶属 ADL"
 
 #: ../../source/accr.rst:428
 msgid "QDES"
@@ -2005,7 +2001,7 @@ msgstr ""
 
 #: ../../source/accr.rst:428
 msgid "__Cue-to-Designate"
-msgstr "标识移至目标指定"
+msgstr "隶属指定点"
 
 #: ../../source/accr.rst:430
 msgid "QHUD"
@@ -2017,20 +2013,19 @@ msgstr ""
 
 #: ../../source/accr.rst:430
 msgid "__Cue-to-HUD"
-msgstr "标识移至平视显示器"
+msgstr "隶属 HUD"
 
 #: ../../source/accr.rst:432
 msgid "QSNO"
 msgstr ""
 
-# 探地？
 #: ../../source/accr.rst:432
 msgid "Cue-to-snowplow"
 msgstr ""
 
 #: ../../source/accr.rst:432
 msgid "__Cue-to-snowplow"
-msgstr "标识移至雷达探地"
+msgstr "隶属雪犁"
 
 #: ../../source/accr.rst:434
 msgid "QWP"
@@ -2042,7 +2037,7 @@ msgstr ""
 
 #: ../../source/accr.rst:434
 msgid "__Cue-to-waypoint"
-msgstr "标识移至航路点"
+msgstr "隶属航路点"
 
 #: ../../source/accr.rst:438
 msgid "R"
@@ -2135,7 +2130,7 @@ msgstr ""
 # range rate is also called Doppler or radial velocity. It is the velocity along a line extending from the radar to the target.
 #: ../../source/accr.rst:455
 msgid "__Range Rate"
-msgstr "视向速率"
+msgstr "速度"
 
 #: ../../source/accr.rst:457
 msgid "ROT"
@@ -2408,7 +2403,7 @@ msgstr ""
 
 #: ../../source/accr.rst:513
 msgid "__Television Camera Set"
-msgstr "电视摄像机套件"
+msgstr "电视摄像套件"
 
 #: ../../source/accr.rst:515
 msgid "TDS"
@@ -2552,7 +2547,7 @@ msgstr ""
 
 #: ../../source/accr.rst:537
 msgid "__Track While Scan Automatic"
-msgstr "自动边扫描边跟踪"
+msgstr "边扫描边跟踪 自动"
 
 #: ../../source/accr.rst:539
 msgid "TWSM"
@@ -2564,7 +2559,7 @@ msgstr ""
 
 #: ../../source/accr.rst:539
 msgid "__Track While Scan Manual"
-msgstr "手动边扫描边跟踪"
+msgstr "边扫描边跟踪 手动"
 
 #: ../../source/accr.rst:543
 msgid "U"
@@ -2795,7 +2790,7 @@ msgstr ""
 
 #: ../../source/accr.rst:596
 msgid "__Weight on/off Wheels"
-msgstr "机轮承重 / 不承重"
+msgstr "机轮负重/不负重"
 
 #: ../../source/accr.rst:600
 msgid "Y"
