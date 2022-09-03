@@ -202,16 +202,16 @@
            <div itemprop="articleBody">
             
   <div class="section" id="dcs-specific-functions">
-<h1>DCS 特定功能<a class="headerlink" href="#dcs-specific-functions" title="Permalink to this heading">¶</a></h1>
+<h1>DCS 特定功能<a class="headerlink" href="#dcs-specific-functions" title="此标题的永久链接">¶</a></h1>
 <div class="section" id="jester">
-<h2>Jester<a class="headerlink" href="#jester" title="Permalink to this heading">¶</a></h2>
+<h2>Jester<a class="headerlink" href="#jester" title="此标题的永久链接">¶</a></h2>
 <img alt="_images/jester.png" class="align-center" src="_images/jester.png" />
 <p>Jester AI 的目标是为 Heatblur DCS F-14B 打造一个 AI 雷达拦截官（即 RIO），便于玩家能够在单人（单人单架飞机）的环境下享受双人协作驾驶的快感。</p>
 <p>Jester 被完全集成进了后座驾驶舱，他需要控制后座驾驶舱内几乎所有的航电，特别是那些前座飞行员无法操作的系统。我们为 Jester 构建模型时，还考虑了到一名真正人类 RIO 的局限性，也就是说，除了各种各样的限制因素外，RIO 当前头部位置，目视搜索范围以及他的手在操作什么——Jester AI 的人类行为模型充分考虑到了这些因素。Jester AI 能够像人类一样坐在 RIO 座位上控制所有系统，执行各种各样的操作。</p>
 <p>玩家可以通过一个环形选单快速访问并选择 Jester 的命令/控制。该选单中的内容会根据当前所处的模式和目前的状况进行动态的调整。Jester 的反馈会调用语音库中的语句并通过内话系统（ICS）传递给玩家，以此模拟与 RIO 交流的真实体验，而且，除了确认指令外，Jester 还会根据当前的情况向飞行员传达相关信息。</p>
 <p>最后，在多人游戏中，作为 RIO 加入的玩家会发现，加入时所有的控制（例如：开关的位置等）都处在 Jester 离开前操作的位置上，同理，若玩家 RIO 离开，Jester 也会按照玩家所留下的设置来接手 RIO 的工作。</p>
 <div class="section" id="functionality">
-<h3>功能<a class="headerlink" href="#functionality" title="Permalink to this heading">¶</a></h3>
+<h3>功能<a class="headerlink" href="#functionality" title="此标题的永久链接">¶</a></h3>
 <img alt="_images/menu.png" src="_images/menu.png" />
 <p>在默认设置下，按下 <strong>A</strong> 来调出 Jester 菜单，通过 <strong>CTRL + 1</strong> 到 <strong>8</strong> 选择其中的项目（1到8）。这些按键命令可以被更改或是设置到控制器上。玩家可以在 DCS 按键设置中选择 F-14 飞行员分类并在 Jester 子条目下找到上述按键设定。按花瓣状的菜单子选项使得它们可以被轻松设定对应游戏控制器的八向苦力帽位置。此外，玩家可以通过按住 Jester 菜单按键超过 0.5 秒，然后通过转动驾驶舱视角的方式来选择环形选单中的某个选项。这个功能可以在 F-14B 的专用设置中启用或禁用。</p>
 <p>上图是 Jester 主菜单。菜单中包含了所有可用的不同子菜单。选择 Jester 菜单的第一个选项通常会进入到下一个子菜单中，子菜单的内容会由飞机目前的模式和状态所决定。例如，在空中选择空对空模式时，玩家直接被引导至 <strong>超视距 - 雷达</strong> 菜单，而在空中选择空对地模式时，则会进入 <strong>空对地 - 武器</strong> 页面。此外，起飞和着陆模式也有各自对应的、且只能在这些模式下启用的子菜单。</p>
@@ -223,13 +223,13 @@
 <p>最后， Jester 同样能够帮你读出启动检查单，引导飞行员完成冷启动，下文中详细介绍了这个协助启动功能。</p>
 </div>
 <div class="section" id="iceman">
-<h3>Iceman<a class="headerlink" href="#iceman" title="Permalink to this heading">¶</a></h3>
+<h3>Iceman<a class="headerlink" href="#iceman" title="此标题的永久链接">¶</a></h3>
 <img alt="_images/pilot.png" src="_images/pilot.png" />
 <p>除了 Jester ，或者说，作为 Jester AI 的一部分， Heatblur DCS F-14B 同样实现了 Iceman ，一个基础的自动驾驶仪/AI 。这适用于单人模式，当玩家在前后座之间跳转以同时控制两个驾驶舱内的系统时，这个基本的自动驾驶仪就会激活，并使用与 Jester 相同的控制方法。</p>
 <p>我们所说的基础功能是指，当玩家切换到后舱 RIO 的座位时， Iceman 将获取控制权，保持飞机当前的航向和高度。通过菜单——现在是 Iceman 菜单了——玩家可以设置航向、高度和速度。航向和高度可以相对某个目标进行设定，也可以设定为不参考任何外部目标的绝对值。</p>
 </div>
 <div class="section" id="assisted-startup">
-<h3>协助启动<a class="headerlink" href="#assisted-startup" title="Permalink to this heading">¶</a></h3>
+<h3>协助启动<a class="headerlink" href="#assisted-startup" title="此标题的永久链接">¶</a></h3>
 <img alt="_images/startup.png" src="_images/startup.png" />
 <p>冷启动飞机时， Jester 可以像一名真正的 RIO 一样执行他的检查单，也可以帮助飞行员进行协助启动。在协助启动中， Jester 会向你朗读飞行员的检查单。</p>
 <p>如需执行常规的，无协助的启动，选择启动， Jester 将执行他的检查单。他有时候会询问飞行员是否完成了某些检查或是要求进行具体的测试，这可以通过 Jester 菜单中的选项来回复。举例，他会首先要求进行通讯检查，这便需要用到 Jester 菜单了。注意，在完成发动机启动和 EMERG GEN 测试之后他将会询问使用何种方式进行 INS 对准，这同样也是通过 Jester 菜单来选择的。</p>
@@ -238,7 +238,7 @@
 </div>
 </div>
 <div class="section" id="hb-dcs-f-14-specific-configuration-options">
-<h2>DCS F-14 专用设置选项<a class="headerlink" href="#hb-dcs-f-14-specific-configuration-options" title="Permalink to this heading">¶</a></h2>
+<h2>DCS F-14 专用设置选项<a class="headerlink" href="#hb-dcs-f-14-specific-configuration-options" title="此标题的永久链接">¶</a></h2>
 <p>Heatblur DCS F-14 将拥有仅影响 F-14 的专用设置和选项，这些选项位于 DCS 主菜单下的 <strong>选项</strong> -&gt; <strong>专用设置</strong> -&gt; <strong>F-14B</strong> 页面。</p>
 <p>可用的选项包括：</p>
 <table class="docutils align-default">
@@ -274,12 +274,12 @@
 </table>
 </div>
 <div class="section" id="dcs-mission-editor-functions-specific-to-the-hb-dcs-f-14">
-<span id="meset"></span><h2>Heatblur DCS F-14 任务编辑器相关功能<a class="headerlink" href="#dcs-mission-editor-functions-specific-to-the-hb-dcs-f-14" title="Permalink to this heading">¶</a></h2>
+<span id="meset"></span><h2>Heatblur DCS F-14 任务编辑器相关功能<a class="headerlink" href="#dcs-mission-editor-functions-specific-to-the-hb-dcs-f-14" title="此标题的永久链接">¶</a></h2>
 <p>F-14 在 DCS 的任务编辑器中有特殊的选项和航路点设置可用。</p>
 <p>当设置含有 F-14 的飞机群组时，可在飞机页面下的附加属性页面下设置飞机的特殊选项。</p>
 <p>除去航路点 1 到 3 和基地，其余的航路点可以通过导航目标点页面进行设置。该页面在设置包含 F-14 的群组时可用。</p>
 <div class="section" id="heatblur-dcs-f-14-specific-options-in-the-mission-editor">
-<h3>Heatblur DCS F-14 任务编辑器专用选项<a class="headerlink" href="#heatblur-dcs-f-14-specific-options-in-the-mission-editor" title="Permalink to this heading">¶</a></h3>
+<h3>Heatblur DCS F-14 任务编辑器专用选项<a class="headerlink" href="#heatblur-dcs-f-14-specific-options-in-the-mission-editor" title="此标题的永久链接">¶</a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 28%" />
@@ -322,7 +322,7 @@
 </table>
 </div>
 <div class="section" id="f-14-waypoints-in-the-mission-editor">
-<h3>任务编辑器 F-14 航路点选项<a class="headerlink" href="#f-14-waypoints-in-the-mission-editor" title="Permalink to this heading">¶</a></h3>
+<h3>任务编辑器 F-14 航路点选项<a class="headerlink" href="#f-14-waypoints-in-the-mission-editor" title="此标题的永久链接">¶</a></h3>
 <p>由于 F-14 的导航系统只有三个拥有编号的航路点，因此其他大多数航路点都是通过导航目标点来设置。</p>
 <p>航路点 1 到 3 各自对应了任务编辑器中的航路点 1 到 3。</p>
 <p>通过设置一个着陆点来设置 Home Base（基地）。</p>

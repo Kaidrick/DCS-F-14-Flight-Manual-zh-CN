@@ -119,3 +119,9 @@ HB AIM-54 新 API 上线测试
 * F-14 Tomcat Patch June 22nd 2022   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv17227603/>`_” 
 
 ---------------------------------------------
+
+2022/09/03 DCS F-14 开发更新 - AIM-54 不死鸟改进 & 大修
+****************
+* DCS: F-14 Development Update - AIM-54 Phoenix Improvements & Overhaul   “`by Alphabet_Ghost <https://www.bilibili.com/read/cv18434435/>`_” 
+
+---------------------------------------------
